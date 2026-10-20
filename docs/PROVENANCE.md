@@ -28,7 +28,7 @@ No ROM, extracted source-game artwork, browser profile, private REA/session arch
 credential store, unsanitized HAR or personalized extension is part of the
 selection. Original/generated art examples and source-bound recovered client
 subsets are retained with their actual provenance and existing notices. This is
-a private repository; no blanket license is inferred for upstream material.
+a public repository; no blanket license is inferred for upstream material.
 
 No temporary Git worktree was created for this consolidation. The new
 `/home/astra/projects/sprite-art-pipeline` checkout is the primary repository for

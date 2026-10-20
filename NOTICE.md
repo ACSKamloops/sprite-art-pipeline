@@ -1,6 +1,6 @@
 # Contents and third-party notices
 
-This private repository is a consolidation for the owner's ongoing work.
+This public repository is a consolidation of the owner's ongoing work.
 No new blanket open-source license is assigned by this import.
 
 Original authored pipeline code, documentation and generated example artwork
@@ -14,6 +14,6 @@ The earlier mech exporter includes GPL-derived helper code. Its retained
 and `THIRD_PARTY.md` apply to that code; they do not license source-game assets
 or this whole repository. Other retained upstream notices continue to apply.
 
-Inspect the specific source/license before making any portion public or
-redistributing it outside the private project.
+Inspect the specific source/license before reusing or redistributing upstream
+material. Public access does not grant a blanket license to every included item.
 

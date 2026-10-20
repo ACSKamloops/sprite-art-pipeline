@@ -4,7 +4,7 @@ Methods, requirements, runnable tooling and evidence for creating consistent
 game sprites, editing them precisely, animating them and testing them in Godot.
 The workflow supports modern shaded sprites as well as low-resolution pixel art.
 
-This private repository consolidates the reference-art batches, PixelLab
+This repository consolidates the reference-art batches, PixelLab
 investigation/local workbench, editable sprite toolkits, approved generic-hero
 walk and Emberwake game work. It preserves failed techniques and open gaps.
 It does **not** claim complete PixelLab reconstruction or uniformly accepted
