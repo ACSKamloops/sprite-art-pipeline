@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "scope": "Actual browser export bytes, source footprint and cold history; no motion/art approval",
+  "source_fingerprint": "a00047cb39709fec2fe8c0206de786ec935ad1aea985ba8ada467505e3d3f839",
+  "recipe_sha256": "5f7d7b9638a82c50d312075a3b59e592c6c6dfe59c748c93a3be8e231cccfd49",
+  "package_path": "/home/astra/artifacts/pixellab-parity-20261014/v090-final/install-venv/lib/python3.14/site-packages/sprite_workbench/__init__.py",
+  "checks": [
+    {
+      "name": "PNG readback equals output raw RGBA SHA: serialize",
+      "status": "passed",
+      "rgba_sha256": "768f97ee2d137610e8692c8c34c7696f70d3134e8026d8743981513b8bddab1c"
+    },
+    {
+      "name": "PNG readback equals output raw RGBA SHA: reference_palette",
+      "status": "passed",
+      "rgba_sha256": "4528dd9f7604ed6d1af872e063922160ec46e490009ee9e5c869333125e1f6fc"
+    },
+    {
+      "name": "PNG readback equals output raw RGBA SHA: mask",
+      "status": "passed",
+      "rgba_sha256": "1f01cb63c0181a7d0b7346cc2efaca869e0c8109212eb386919027caccd0e653"
+    },
+    {
+      "name": "PNG readback equals output raw RGBA SHA: decode",
+      "status": "passed",
+      "rgba_sha256": "34eb328c0723776e0b059ffc539a498388e3c96cae34f2bb943311a28ce385ae"
+    },
+    {
+      "name": "PNG readback equals output raw RGBA SHA: place",
+      "status": "passed",
+      "rgba_sha256": "34eb328c0723776e0b059ffc539a498388e3c96cae34f2bb943311a28ce385ae"
+    },
+    {
+      "name": "serialization only zeros hidden RGB; decoded PNG exact; zero-alpha predicate exact",
+      "status": "passed"
+    },
+    {
+      "name": "request-mask encoding uses opaque black/white RGB",
+      "status": "passed",
+      "colors": [
+        [
+          0,
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ]
+    },
+    {
+      "name": "actual ZIP exact inventory and all CAS bytes verified",
+      "status": "passed",
+      "files": 33,
+      "editable_artifacts": 15
+    },
+    {
+      "name": "cold editable import and source-footprint-bound history replay",
+      "status": "passed",
+      "footprint": "a18746f961413bac50479332d7783e65351e4f938f41a20b9c2e826787332ae9"
+    },
+    {
+      "name": "actual paint changed only original footprint pixels",
+      "status": "passed",
+      "changed_pixels": 52,
+      "unique_source_points": 52
+    },
+    {
+      "name": "single imported still preserves supplied rational hold and exported frame bytes",
+      "status": "passed",
+      "duration": [
+        1,
+        12
+      ],
+      "loop": false
+    }
+  ],
+  "passed": 11,
+  "records_sha256": "f73f7d51a69b9d69581c19cab03ac263f4f28848c69c408b6fbdc6acf6b38ba6",
+  "zip_sha256": "b751b869d112b1b8b3d16decc7bf5f93edb0d384823369ad8cad2f1914456931"
+}

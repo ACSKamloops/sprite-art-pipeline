@@ -1,0 +1,31 @@
+{
+  "records": [
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/REPORT-CATALOG.json",
+      "sha256": "4c799e8643f501c78128059ce647746373eea1362494efca7b06948c8f9b3362",
+      "top_level_keys": [
+        "version",
+        "updated_utc",
+        "source_root",
+        "scope",
+        "private_and_frozen_subtrees_excluded",
+        "boundary",
+        "files"
+      ],
+      "scope": "Post-freeze owner additive catalog; structure only inspected, not content approval or original530baf artifact"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RETAINED-FINDING-RECORDS.json",
+      "sha256": "023cf72f171a7a7055d17a401ad9f3bb2cdd1eca84c380e02ee7d0cffccf6222",
+      "top_level_keys": [
+        "version",
+        "updated_utc",
+        "source_root",
+        "boundary",
+        "records"
+      ],
+      "scope": "Post-freeze owner additive catalog; structure only inspected, not content approval or original530baf artifact"
+    }
+  ],
+  "boundary": "Root owner validates full catalog paths/digests/pointers. No new semantic count or exhaustive private exclusion acceptance by this reviewer."
+}

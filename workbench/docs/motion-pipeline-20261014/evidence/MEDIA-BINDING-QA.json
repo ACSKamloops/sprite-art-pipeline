@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "scope": "actual Chromium class; ALL API responses mocked; no actual backend/provider calls",
+  "checks": [
+    "validated mock Download forwards both producer IDs only with matching media",
+    "reload and same-media extraction preserve producer binding",
+    "manual media change clears binding and never attaches old producer IDs",
+    "raw upload clears binding/native record and pending new media survives reload",
+    "new example explicitly replaces provider binding",
+    "malformed missing download rejects without silently losing provenance",
+    "malformed invalid download rejects without silently losing provenance",
+    "malformed wrong-media download rejects without silently losing provenance",
+    "malformed persisted binding blocks decode rather than silently downgrading to raw",
+    "invalid binding diagnostic survives another reload without another fixture injection",
+    "valid receipt IDs for a different current media are never forwarded"
+  ],
+  "page_errors": [],
+  "mock_invoked_methods": [
+    "local.motion.catalog",
+    "local.motion.decode",
+    "local.motion.download",
+    "local.motion.load_example",
+    "local.motion.prepare"
+  ],
+  "actual_provider_calls": 0,
+  "evidence_directory": "/home/astra/artifacts/pixellab-motion-ui-20261014/output/playwright",
+  "original_replay_sha256": "4e8a4bac02354075b22ca65a79a906d78bd239173c017b5b36c16ce69e48d586",
+  "result_sha256": "8d687fa0983410615ca9dce304b17be18a482fa1804d32bb98f2c33ebc50e037",
+  "runtime_js_sha256": "e9a8e0a9e3723ece92a56d33a38dcc3ff7f08c7ed4efab76decd0907fe134ee1",
+  "initial_test_setup_failure": "Direct localStorage injection before reload was overwritten by real pagehide persistence; corrected setup uses a one-time init script. Only completed11-check rerun is counted."
+}

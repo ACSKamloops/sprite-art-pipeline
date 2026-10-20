@@ -1,0 +1,36 @@
+{
+  "method": "Fresh-output deterministic bake from project-retained raw ImageGen returns and passing composites; no model calls. Selected assets untouched.",
+  "files": [
+    {
+      "file": "atlas.png",
+      "selected_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+      "rebuilt_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+      "exact": true
+    },
+    {
+      "file": "animations.json",
+      "selected_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+      "rebuilt_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+      "exact": true
+    },
+    {
+      "file": "game-scale-proof.png",
+      "selected_sha256": "b75bd5a206a9dbed15b0ca27be0f39245584fc9c5b048cd6416a9082c0539002",
+      "rebuilt_sha256": "b75bd5a206a9dbed15b0ca27be0f39245584fc9c5b048cd6416a9082c0539002",
+      "exact": true
+    },
+    {
+      "file": "selected-contact-sheet.png",
+      "selected_sha256": "7dad0b2613e6793966027192f248742c63c3838dd2a0d4ad666bd0987149a3d7",
+      "rebuilt_sha256": "7dad0b2613e6793966027192f248742c63c3838dd2a0d4ad666bd0987149a3d7",
+      "exact": true
+    },
+    {
+      "file": "BAKE-RECEIPT.json",
+      "selected_sha256": "71b503f8e2da9080cf6e9e89166bf40a4d72aaec38e402b7f39c411ff4b089fe",
+      "rebuilt_sha256": "71b503f8e2da9080cf6e9e89166bf40a4d72aaec38e402b7f39c411ff4b089fe",
+      "exact": true
+    }
+  ],
+  "all_exact": true
+}

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "evidence_id": "ev_26316b3182c471dabe0a50af1fd31b68d81430fbe239f7a41dc32a9588bf7c07",
+  "full_evidence_private_path": "/home/astra/artifacts/pixellab-recovery-depth-20261014/prompt-frame-source-fidelity-01/REA-EVIDENCE.json",
+  "full_evidence_sha256": "9fcab25d43634a8c270001c2ad17a2d1cc7a0df9882acb31d3424b3a608e52c8",
+  "input_bindings": [
+    {
+      "file": "rea-input/animation-enhance-request.js",
+      "original_source": "website-art-bundles/create-677791a6e206dafa.js",
+      "utf8": [
+        13133,
+        14631
+      ],
+      "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+      "fragment_sha256": "577841f27adf5f03ff8acdac3667dccea188eb7afd14f1a9affa7e79d3d6237a",
+      "carrier_sha256": "c1d16b735a4898f4cc0c0df6275f6af6fcc260419b999a7df8b88ab27f6f6ad3",
+      "boundary": "Nonexecuted syntactic carrier; surrounding original lexical bindings are absent."
+    },
+    {
+      "file": "rea-input/url-image-as-dataurl.js",
+      "original_source": "website-art-bundles/create-677791a6e206dafa.js",
+      "utf8": [
+        12871,
+        13038
+      ],
+      "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+      "fragment_sha256": "cd479b6f4ced03c22ec43780d7a5e6da10d0e0d74b91210fdfd8aa6b5ff3f6cc",
+      "carrier_sha256": "0773061bd82a94dd8335bdfad35602e4718d31c658e119940351ccd239523317",
+      "boundary": "Nonexecuted syntactic carrier; surrounding original lexical bindings are absent."
+    }
+  ],
+  "scope": "Two inert syntactic carriers of bound exact web helper bytes; surrounding original lexical context absent",
+  "observations": {
+    "files": 2,
+    "text_bytes": 1831,
+    "ast_nodes": 434,
+    "parse_failures": 0,
+    "semantic_graph_unknowns": 71,
+    "semantic_coverage": "unknown"
+  },
+  "interpretation": "Static parse and bounded structural evidence only. No whole-app semantic closure, bootstrap, network or private generation execution."
+}

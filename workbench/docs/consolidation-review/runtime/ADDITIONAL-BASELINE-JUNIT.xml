@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="0.326" timestamp="2026-10-12T17:05:26.428727-07:00" hostname="AstraPC"><testcase classname="tests.test_consolidation_runtime_review" name="test_nullable_ownership_scene_has_editable_exchange" time="0.055" /><testcase classname="tests.test_consolidation_runtime_review" name="test_false_string_cannot_acknowledge_unsupported_export" time="0.028" /><testcase classname="tests.test_consolidation_runtime_review" name="test_documented_every_edit_lineage_includes_standalone_paste" time="0.105" /><testcase classname="tests.test_consolidation_runtime_review" name="test_direct_failed_plan_commits_prior_explicit_publication" time="0.024" /><testcase classname="tests.test_consolidation_runtime_review" name="test_missing_font_after_successful_step_retains_failed_run_receipt" time="0.034"><failure message="FileNotFoundError: [Errno 2] No such file or directory: '/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-additional/test_missing_font_after_succes0/missing.ttf'">tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-additional/test_missing_font_after_succes0')
+
+    def test_missing_font_after_successful_step_retains_failed_run_receipt(tmp_path):
+        """README promises a failed run receipt, including expected local file failures."""
+        store = Store(tmp_path/'store')
+        sequence = save_sequence(store,[np.array([[[255,0,0,255]]],dtype=np.uint8)])
+&gt;       run = execute_plan(store,{'version':1,'steps':[
+            {'id':'first','action':'candidate','artifact':sequence},
+            {'id':'missing','action':'font','path':'missing.ttf','characters':'A'}]},base_dir=tmp_path)
+
+tests/test_consolidation_runtime_review.py:87: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+sprite_workbench/pipeline.py:143: in execute_plan
+    if font_path.stat().st_size&gt;32*1024*1024:raise ValidationError('Local font input exceeds32MiB')
+       ^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-additional/test_missing_font_after_succes0/missing.ttf')
+
+    def stat(self, *, follow_symlinks=True):
+        """
+        Return the result of the stat() system call on this path, like
+        os.stat() does.
+        """
+&gt;       return os.stat(self, follow_symlinks=follow_symlinks)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       FileNotFoundError: [Errno 2] No such file or directory: '/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-additional/test_missing_font_after_succes0/missing.ttf'
+
+/usr/lib/python3.14/pathlib/__init__.py:655: FileNotFoundError</failure></testcase></testsuite></testsuites>

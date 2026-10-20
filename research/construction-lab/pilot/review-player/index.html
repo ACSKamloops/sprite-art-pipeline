@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Copper Scout animation review</title>
+<style>
+:root{color-scheme:dark;font:15px system-ui;background:#111b23;color:#e3eef4}body{max-width:1260px;margin:24px auto;padding:0 20px}h1{font-size:26px}button,select,input{font:inherit;padding:7px;background:#203541;color:inherit;border:1px solid #416371;border-radius:5px}button{cursor:pointer}.bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.panels{display:flex;gap:16px;flex-wrap:wrap}figure{margin:0}figcaption{margin:8px 0;color:#a6c7d3}canvas{background:#26333f;image-rendering:pixelated;border:1px solid #385362}#seek{width:100%;padding:0}#status{white-space:pre-wrap;color:#bcd1dc;min-height:44px}#error{color:#ffaf9f}.help{max-width:920px;color:#a6c7d3;line-height:1.6}code{color:#c3e0ed}
+</style>
+<h1>Copper Scout · animation review</h1>
+<p class="help">Watch the animation, then compare each pose with the previous frame. The difference view keeps the same canvas and highlights changed pixels. Use the native scale to judge readability.</p>
+<div class="bar"><label>Action <select id="clip"></select></label><label>View <select id="view"></select></label><button id="play">Play</button><button id="pause">Pause</button><button id="replay">Replay</button><button id="previous">−1 frame</button><button id="next">+1 frame</button><label>Speed <select id="speed"><option>.25</option><option>.5</option><option selected>1</option><option>2</option></select></label><label>Scale <select id="scale"><option>1</option><option selected>2</option><option>3</option></select></label><label><input type="checkbox" id="onion"> Onion skin</label><label><input type="checkbox" id="cycle"> Cycle actions</label></div>
+<div class="panels"><figure><figcaption>Previous frame</figcaption><canvas id="previous-frame" width="192" height="192"></canvas></figure><figure><figcaption>Current frame</figcaption><canvas id="current-frame" width="192" height="192"></canvas></figure><figure><figcaption>Changed pixels · magenta</figcaption><canvas id="difference" width="192" height="192"></canvas></figure></div>
+<input id="seek" type="range" min="0" max="1" value="0" aria-label="Animation frame">
+<p id="status">Loading the local sprite pack…</p><p id="error" role="alert"></p>
+<p class="help">Body animation review. The Godot sandbox separately tests movement, camera, effects and collisions. Loop playback includes the last-to-first boundary. A one-shot starts without an invented prior frame and holds its final pose.</p>
+<script type="module" src="player.js"></script></html>

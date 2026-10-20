@@ -1,0 +1,9 @@
+# Grounded fall repair: two right-view prototypes
+
+Decision **approved_prototype_only** for knockdown/right and recover/right, bound to the immutable private `grounded-fall-review-v2/first` actual bake. The prior full-pack `changes_requested` receipt stays unchanged and is linked by its exact hash. This resolves that specific body-support defect; it does not approve the final24binding rebake or production art.
+
+Native contact strips, eight actual exported phases per clip and exact nearest2x details now show a resting head/back/hip silhouette along the floor, gloves reaching support and no suspended bridge. Recovery starts on the same grounded rest, lifts through braced palms, folds to crouched support and settles into neutral. Scarf orientation remains clear without visible belowground penetration in sampled views. No remaining blocking support/readability issue was found for these two simplified vector prototype motions.
+
+**304 independent technical binding/support checks pass** over144PNG outputs: actual frame/atlas RGBA and source hashes, GIF duration totals, one-shot finalphase1, no opaque pixels below ground boundary170, actual fallfinal=recoveropening and recoverfinal=neutralinitial byte equality. The final rest has opaque floorrow169 in the declared palm, pelvis/back and head/scarf local windows. These composite windows corroborate visible support but do not attribute contact to isolated layer ownership or constitute a physics proof.
+
+GIF totals are1100ms for66fallticks and1300ms for78recoveryticks at60FPS. This review sampled actual phases and checked GIF metadata; it does not claim continuous browser playback or manual inspection of every144frame. All hit/collision windows and effects remain outside scope. Proceed to the final full-pack rebake, then bind all24outputs and check mirrored support, unchanged other actions and actual transitions separately.

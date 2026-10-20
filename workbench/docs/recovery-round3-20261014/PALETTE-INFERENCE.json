@@ -1,0 +1,528 @@
+{
+  "classification": "bounded authored offline hypotheses; no source recovery or held-out validation",
+  "checked_utc": "2026-10-14T05:16:02.096623+00:00",
+  "script_sha256": "0779cd9a754289b0d68b1ceebecc5c154376fcae6f52855821c365e7167f59bf",
+  "plan_sha256": "3216cc883c34e081b207463966250f054b2cd555f917bfa22d7d6c9c367429c1",
+  "mapper_sha256": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742",
+  "prior_bound_receipt_sha256": "ec5cb611f070081c975906870873e85796de0f3801bcb5bbb3ae98dd2ab46dba",
+  "limits": [
+    "Output-conditioned refinement uses returned palette and cannot independently predict it",
+    "Independent seeds are fixed post-hoc candidates, not blind validation; AB4/CC4 have duplicate histograms",
+    "No random grid, reinitialization, parameter fitting, provider/credential/network calls"
+  ],
+  "full_results": {
+    "path": "/home/astra/artifacts/pixellab-palette-round3-20261014/RESULTS.json",
+    "sha256": "0b69f272898a6f733d2ed0fd1dd900ea806bad00827f073fe3936def8bbee8b9",
+    "bytes": 206231
+  },
+  "cases": [
+    {
+      "variant": "joint-ab-4",
+      "pixels": 8192,
+      "unique_rgb": 512,
+      "conditional": [
+        {
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 1,
+            "objective": 45.119590832990205,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 1,
+            "objective": 45.881269512229146,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.119590832990205,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.881269512229146,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.119590832990205,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.881269512229146,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 103.59646831616236,
+            "empty_clusters": 1,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 105.73445359160412,
+            "empty_clusters": 1,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        }
+      ]
+    },
+    {
+      "variant": "histogram-cc-4",
+      "pixels": 8192,
+      "unique_rgb": 512,
+      "conditional": [
+        {
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 1,
+            "objective": 45.119590832990205,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 1,
+            "objective": 45.881269512229146,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.119590832990205,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.881269512229146,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.119590832990205,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 45.881269512229146,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 103.59646831616236,
+            "empty_clusters": 1,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 105.73445359160412,
+            "empty_clusters": 1,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6912,
+            "rounded_palette_mapper_rgb_mismatches": 6912,
+            "converged_assignments": true
+          }
+        }
+      ]
+    },
+    {
+      "variant": "weighted-aa-4",
+      "pixels": 8192,
+      "unique_rgb": 512,
+      "conditional": [
+        {
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 1,
+            "objective": 40.52293307804193,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 1,
+            "objective": 41.178983391467014,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6144,
+            "rounded_palette_mapper_rgb_mismatches": 6144,
+            "converged_assignments": true
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 3,
+            "objective": 40.52293307804193,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 41.178983391467014,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6144,
+            "rounded_palette_mapper_rgb_mismatches": 6144,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 40.52293307804193,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 4,
+            "rounded_palette_set_equal": true,
+            "float_assignment_emitted_rgb_mismatches": 0,
+            "rounded_palette_mapper_rgb_mismatches": 0,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 41.178983391467014,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6144,
+            "rounded_palette_mapper_rgb_mismatches": 6144,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 102.38225543231378,
+            "empty_clusters": 1,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6144,
+            "rounded_palette_mapper_rgb_mismatches": 6144,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 5,
+            "objective": 103.71756238646263,
+            "empty_clusters": 1,
+            "rounded_palette_intersection": 1,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 6144,
+            "rounded_palette_mapper_rgb_mismatches": 6144,
+            "converged_assignments": true
+          }
+        }
+      ]
+    },
+    {
+      "variant": "joint-ab-32",
+      "pixels": 8192,
+      "unique_rgb": 512,
+      "conditional": [
+        {
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 3,
+            "objective": 0.37392610858206493,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 25,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 1088,
+            "rounded_palette_mapper_rgb_mismatches": 1048,
+            "converged_assignments": true
+          }
+        },
+        {
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 2,
+            "objective": 0.3738710178673011,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 21,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 2568,
+            "rounded_palette_mapper_rgb_mismatches": 2552,
+            "converged_assignments": true
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 5,
+            "objective": 0.36948299709643434,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 15,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 3808,
+            "rounded_palette_mapper_rgb_mismatches": 3728,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "frequency-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 6,
+            "objective": 0.36958591508776595,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 12,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 5016,
+            "rounded_palette_mapper_rgb_mismatches": 4960,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 5,
+            "objective": 0.37523750091766184,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 29,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 920,
+            "rounded_palette_mapper_rgb_mismatches": 768,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "lightness-weighted-farthest",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 5,
+            "objective": 0.3747919281309323,
+            "empty_clusters": 0,
+            "rounded_palette_intersection": 23,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 2680,
+            "rounded_palette_mapper_rgb_mismatches": 2592,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "Oklab",
+          "converged": true,
+          "final": {
+            "iteration": 3,
+            "objective": 0.8719796800123293,
+            "empty_clusters": 5,
+            "rounded_palette_intersection": 3,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 7432,
+            "rounded_palette_mapper_rgb_mismatches": 7432,
+            "converged_assignments": true
+          }
+        },
+        {
+          "initializer": "histogram-topk",
+          "mean_space": "sRGB",
+          "converged": true,
+          "final": {
+            "iteration": 3,
+            "objective": 0.8727372504233862,
+            "empty_clusters": 5,
+            "rounded_palette_intersection": 3,
+            "rounded_palette_set_equal": false,
+            "float_assignment_emitted_rgb_mismatches": 7432,
+            "rounded_palette_mapper_rgb_mismatches": 7432,
+            "converged_assignments": true
+          }
+        }
+      ]
+    }
+  ]
+}

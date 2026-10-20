@@ -1,0 +1,328 @@
+{
+  "classification": "unchanged-recovered-host-selector-replay-not-pixellab-server-cutout",
+  "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+  "original_sources": [
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/pixelorama-recovered/src/Classes/FloodFillObject.gd",
+      "sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+      "executed": "whole original file with local Project/sink/dependency declarations appended"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/pixelorama-recovered/src/Autoload/DrawingAlgos.gd",
+      "sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+      "executed": "unchanged similar_colors function",
+      "function_sha256": "5c69c15d8218ee0ec1a6f752eeb032d42cde9c337beaf424faa624f51f9a1e9f",
+      "first_line": 752
+    }
+  ],
+  "assertions": 2,
+  "normalized_rgba_float_boundary": {
+    "accepted": false,
+    "red_difference": 0.0313725546002388,
+    "requested_tolerance": 0.0313725490196078
+  },
+  "records": [
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/opaque.png",
+      "tolerance_input_level": 0,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        },
+        {
+          "variant": "complex-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/opaque.png",
+      "tolerance_input_level": 1,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        },
+        {
+          "variant": "complex-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/opaque.png",
+      "tolerance_input_level": 8,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        },
+        {
+          "variant": "complex-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/opaque.png",
+      "tolerance_input_level": 32,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        },
+        {
+          "variant": "complex-opaque",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/alpha-patches.png",
+      "tolerance_input_level": 0,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-alpha",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/alpha-patches.png",
+      "tolerance_input_level": 1,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-alpha",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/alpha-patches.png",
+      "tolerance_input_level": 8,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-alpha",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-characterization-20261014/inputs/alpha-patches.png",
+      "tolerance_input_level": 32,
+      "mask_sha256": "e8c97b9029266615c7bb37b07a580308bba474d467f14808ed5c0a13bb12c35b",
+      "source_png_sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9",
+      "selected_pixels": 6538,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple-alpha",
+          "target_png_sha256": "4723b057cb4ba061ce5d416fe5acb5f330622f2465356ee4906ccc8a9573ea16",
+          "mask_mismatches": 0,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 0
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/connectivity-rgba.png",
+      "tolerance_input_level": 0,
+      "mask_sha256": "aa1b2a5eb4452f1239b408a41878afb461a49bc5161b72d0315228b41fc31c3f",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "selected_pixels": 5697,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple",
+          "target_png_sha256": "5abfcec8e81c908a87cc859a13010e8cdc85f754fb837dc3be59f843eb865470",
+          "mask_mismatches": 282,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 282
+        },
+        {
+          "variant": "complex",
+          "target_png_sha256": "3792edcf774a75f390a109ae63b94f09e1a8d3452b577243e1353f20fc23500f",
+          "mask_mismatches": 193,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 193
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/connectivity-rgba.png",
+      "tolerance_input_level": 1,
+      "mask_sha256": "94bf1814dcdea69365b6001f1ad8939d7f5ab1a357519737814f8ea505c373f7",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "selected_pixels": 5761,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple",
+          "target_png_sha256": "5abfcec8e81c908a87cc859a13010e8cdc85f754fb837dc3be59f843eb865470",
+          "mask_mismatches": 218,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 218
+        },
+        {
+          "variant": "complex",
+          "target_png_sha256": "3792edcf774a75f390a109ae63b94f09e1a8d3452b577243e1353f20fc23500f",
+          "mask_mismatches": 129,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 129
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/connectivity-rgba.png",
+      "tolerance_input_level": 8,
+      "mask_sha256": "94bf1814dcdea69365b6001f1ad8939d7f5ab1a357519737814f8ea505c373f7",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "selected_pixels": 5761,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple",
+          "target_png_sha256": "5abfcec8e81c908a87cc859a13010e8cdc85f754fb837dc3be59f843eb865470",
+          "mask_mismatches": 218,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 218
+        },
+        {
+          "variant": "complex",
+          "target_png_sha256": "3792edcf774a75f390a109ae63b94f09e1a8d3452b577243e1353f20fc23500f",
+          "mask_mismatches": 129,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 129
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/connectivity-rgba.png",
+      "tolerance_input_level": 32,
+      "mask_sha256": "aa7533871eba2f2fba12074b5aa7d4bd1207e9ee9a921c28692ba1669ddf9611",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "selected_pixels": 5889,
+      "selection_matters": false,
+      "source_seed_xy": [
+        0,
+        0
+      ],
+      "segments_to_mask": "Local fixture sink fills original segment spans white; no selection tool/undo executed.",
+      "server_comparisons": [
+        {
+          "variant": "simple",
+          "target_png_sha256": "5abfcec8e81c908a87cc859a13010e8cdc85f754fb837dc3be59f843eb865470",
+          "mask_mismatches": 90,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 90
+        },
+        {
+          "variant": "complex",
+          "target_png_sha256": "3792edcf774a75f390a109ae63b94f09e1a8d3452b577243e1353f20fc23500f",
+          "mask_mismatches": 1,
+          "local_clear_and_force_opaque_wrapper_rgba_mismatches": 1
+        }
+      ]
+    }
+  ],
+  "stderr": "",
+  "boundary": "No selection bounds/tilemap/undo/full editor integration. Alpha-force/clear is local comparison wrapper, not original auto-cutout. Complete source methods unchanged; no PCK compiled bytecode execution claim."
+}

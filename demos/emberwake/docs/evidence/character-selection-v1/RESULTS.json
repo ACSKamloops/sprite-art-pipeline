@@ -1,0 +1,136 @@
+{
+  "schema": "emberwake-character-ui-checks/v1",
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "checks": 176,
+  "all_passed": true,
+  "results": [
+    {
+      "case": "character_selection.gd",
+      "passed": true,
+      "exit_code": 0,
+      "errors": [],
+      "seconds": 0.815,
+      "expected": "CHARACTER_SELECTION PASS: 40 assertions",
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/projects/emberwake-character-ui",
+        "--script",
+        "tests/character_selection.gd",
+        "--",
+        "--test-mode"
+      ],
+      "XDG_DATA_HOME": "/home/astra/artifacts/emberwake-character-ui-tests/user-data/character_selection"
+    },
+    {
+      "case": "world_smoke.gd",
+      "passed": true,
+      "exit_code": 0,
+      "errors": [],
+      "seconds": 0.528,
+      "expected": "WORLD PASS: 56 assertions",
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/projects/emberwake-character-ui",
+        "--script",
+        "tests/world_smoke.gd",
+        "--",
+        "--test-mode"
+      ],
+      "XDG_DATA_HOME": "/home/astra/artifacts/emberwake-character-ui-tests/user-data/world_smoke"
+    },
+    {
+      "case": "pause_smoke.gd",
+      "passed": true,
+      "exit_code": 0,
+      "errors": [],
+      "seconds": 1.839,
+      "expected": "PAUSE PASS: 26 assertions",
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/projects/emberwake-character-ui",
+        "--script",
+        "tests/pause_smoke.gd",
+        "--",
+        "--test-mode"
+      ],
+      "XDG_DATA_HOME": "/home/astra/artifacts/emberwake-character-ui-tests/user-data/pause_smoke"
+    },
+    {
+      "case": "regressions.gd",
+      "passed": true,
+      "exit_code": 0,
+      "errors": [],
+      "seconds": 4.262,
+      "expected": "REGRESSIONS PASS: 20 assertions",
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/projects/emberwake-character-ui",
+        "--script",
+        "tests/regressions.gd",
+        "--",
+        "--test-mode"
+      ],
+      "XDG_DATA_HOME": "/home/astra/artifacts/emberwake-character-ui-tests/user-data/regressions"
+    },
+    {
+      "case": "final_polish.gd",
+      "passed": true,
+      "exit_code": 0,
+      "errors": [],
+      "seconds": 0.536,
+      "expected": "FINAL_POLISH PASS: 34 assertions",
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/projects/emberwake-character-ui",
+        "--script",
+        "tests/final_polish.gd",
+        "--",
+        "--test-mode"
+      ],
+      "XDG_DATA_HOME": "/home/astra/artifacts/emberwake-character-ui-tests/user-data/final_polish"
+    }
+  ],
+  "limits": [
+    "New-character entries in character_selection.gd deliberately reuse Rowan art and a setter contract stub. They test selection/save/UI only, not Lyra/Brann assets, full real-hero switching or art quality.",
+    "Original actor systems are unchanged in this worktree; spell fixes merge separately.",
+    "Native/headless engine input checks are not exported browser testing."
+  ],
+  "rendered_input_check": {
+    "passed": true,
+    "receipt": "CHARACTER_SELECTION PASS: 40 assertions; UI contract fixture, not character art quality",
+    "renderer": "Godot 4.7.2 Compatibility, Xvfb / Mesa llvmpipe",
+    "warning": "V-Sync change unsupported by X11 driver; no script/runtime errors observed.",
+    "command": [
+      "xvfb-run",
+      "-a",
+      "godot",
+      "--path",
+      "/home/astra/projects/emberwake-character-ui",
+      "--script",
+      "tests/character_selection.gd",
+      "--",
+      "--test-mode",
+      "--capture-character-ui"
+    ],
+    "screenshots": [
+      {
+        "path": "/home/astra/projects/emberwake-character-ui/output/character-ui/gallery-fixture.png",
+        "sha256": "6397cdaecb0d6cdd5e63da5f909b9eb6d5e00cd52ac4245a81e20254d6f43ec5"
+      },
+      {
+        "path": "/home/astra/projects/emberwake-character-ui/output/character-ui/title-fixture.png",
+        "sha256": "cfa938274483d7823f7b41ed1b24161afa0e9ecc33c94c279f51e76f079eac40"
+      }
+    ]
+  }
+}

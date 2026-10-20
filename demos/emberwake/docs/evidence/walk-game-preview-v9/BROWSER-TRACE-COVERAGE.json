@@ -1,0 +1,656 @@
+{
+  "source_report_sha256": "10dd930052fd65c6b03d8343c2244509177815d5296dc04fdf654ba375119168",
+  "successful_assertions": 193,
+  "complete_action_traces": 24,
+  "rows": [
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 15,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 27.099999994039536,
+      "observer_ms_gap_max": 50.59999996423721,
+      "reported_fps_range": [
+        43,
+        45
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 17,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 28.44999998807907,
+      "observer_ms_gap_max": 59.299999952316284,
+      "reported_fps_range": [
+        43,
+        43
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 14,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 27.5,
+      "observer_ms_gap_max": 50.5,
+      "reported_fps_range": [
+        43,
+        43
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 17,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 26.599999994039536,
+      "observer_ms_gap_max": 55.09999996423721,
+      "reported_fps_range": [
+        43,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 14,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 40.30000001192093,
+      "observer_ms_gap_max": 44.69999998807907,
+      "reported_fps_range": [
+        39,
+        39
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 18,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 28.30000001192093,
+      "observer_ms_gap_max": 63.59999996423721,
+      "reported_fps_range": [
+        45,
+        45
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 15,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 28.900000035762787,
+      "observer_ms_gap_max": 52.19999998807907,
+      "reported_fps_range": [
+        39,
+        45
+      ]
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 18,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 29.5,
+      "observer_ms_gap_max": 57.59999996423721,
+      "reported_fps_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 13,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 30.849999994039536,
+      "observer_ms_gap_max": 68.5,
+      "reported_fps_range": [
+        35,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 17,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 33.75,
+      "observer_ms_gap_max": 46.80000001192093,
+      "reported_fps_range": [
+        28,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 14,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 28.5,
+      "observer_ms_gap_max": 50.200000047683716,
+      "reported_fps_range": [
+        31,
+        43
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 18,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 25.600000023841858,
+      "observer_ms_gap_max": 53.10000002384186,
+      "reported_fps_range": [
+        43,
+        43
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 15,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 36.25,
+      "observer_ms_gap_max": 43.80000001192093,
+      "reported_fps_range": [
+        43,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 17,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 28.05000001192093,
+      "observer_ms_gap_max": 51.19999998807907,
+      "reported_fps_range": [
+        44,
+        47
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 15,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 28.950000017881393,
+      "observer_ms_gap_max": 50.39999997615814,
+      "reported_fps_range": [
+        41,
+        41
+      ]
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 17,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 27.049999982118607,
+      "observer_ms_gap_max": 52.89999997615814,
+      "reported_fps_range": [
+        41,
+        45
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 14,
+      "physics_tick_gap_max": 4,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 32.10000002384186,
+      "observer_ms_gap_max": 61.5,
+      "reported_fps_range": [
+        41,
+        41
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 14,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 3,
+      "observer_ms_gap_median": 37.0,
+      "observer_ms_gap_max": 72,
+      "reported_fps_range": [
+        33,
+        33
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 15,
+      "physics_tick_gap_max": 4,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 28.850000023841858,
+      "observer_ms_gap_max": 54.700000047683716,
+      "reported_fps_range": [
+        30,
+        30
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 17,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 28.700000017881393,
+      "observer_ms_gap_max": 58.0,
+      "reported_fps_range": [
+        30,
+        40
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 14,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 26.399999976158142,
+      "observer_ms_gap_max": 63.59999996423721,
+      "reported_fps_range": [
+        37,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "samples": 18,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 28.100000023841858,
+      "observer_ms_gap_max": 56.59999996423721,
+      "reported_fps_range": [
+        44,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 15,
+      "physics_tick_gap_max": 3,
+      "physics_tick_gap_median": 2.0,
+      "observer_ms_gap_median": 25.200000017881393,
+      "observer_ms_gap_max": 63.39999997615814,
+      "reported_fps_range": [
+        44,
+        44
+      ]
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "samples": 18,
+      "physics_tick_gap_max": 4,
+      "physics_tick_gap_median": 2,
+      "observer_ms_gap_median": 26.19999998807907,
+      "observer_ms_gap_max": 59.80000001192093,
+      "reported_fps_range": [
+        42,
+        44
+      ]
+    }
+  ],
+  "scope": "Sampled observation coverage, not every physics tick, exact launch, art acceptance or a baseline comparison of diagnostic overhead."
+}

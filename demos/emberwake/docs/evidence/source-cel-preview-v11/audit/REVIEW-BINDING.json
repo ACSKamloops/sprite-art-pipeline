@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scope": "Review input binding only; no new grade or independent visual judgment. Existing Brann review discloses prior control exposure and is not cold.",
+  "rows": [
+    {
+      "actor": "rowan",
+      "review_input_files": 64,
+      "recorded_before_after_equal": true,
+      "all_actual_review_packet_hashes_exact": true,
+      "bad": [],
+      "selected_source_matches_B03": true,
+      "selected_source_sha256": "940fa7375b4a0df0e5734e78e789e265879c2e9194527601f878a4a8bc4cd09d"
+    },
+    {
+      "actor": "brann",
+      "review_input_files": 58,
+      "recorded_before_after_equal": true,
+      "all_actual_review_packet_hashes_exact": true,
+      "bad": [],
+      "selected_source_matches_B03": true,
+      "selected_source_sha256": "c68dd7f8f86a2d06b432b0c604e3014279316954649474680c7191105f507350"
+    }
+  ]
+}

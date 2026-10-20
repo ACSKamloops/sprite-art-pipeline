@@ -1,0 +1,105 @@
+{
+  "version": 5,
+  "updated_utc": "2026-10-14T00:42:27.672057+00:00",
+  "package_version": "0.4.0",
+  "verified_commit": "488b69611d6935ca83657d9572243eadd12fa520",
+  "full_suite_commit": "846e391",
+  "source_fingerprint": "c8df6fa354cb0dc584d436dc55cb6115c5f88cbd5670495e8b739fb365463e1d",
+  "full_suite_followup": "ca74489 adds two stylesheet lines; 488b696 refreshes only coverage-document hashes in the packaged catalog",
+  "mechanical_checks": {
+    "tests": 430,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 40.263
+  },
+  "catalog_followup_checks": {
+    "tests": 27,
+    "failures": 0,
+    "commit": "488b696",
+    "log": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/CATALOG-TESTS.log"
+  },
+  "implementation_directory": "/home/astra/projects/pixellab-local-workbench",
+  "verification_directory": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence",
+  "test_receipt": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/TESTS-RECEIPT.json",
+  "package_status": "completed",
+  "package_sha256": "d04b5f253e4c429ce1d5d25f25c7237ebf11a753a95b44bb5b128490af9fa892",
+  "package_path": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/wheel/sprite_workbench-0.4.0-py3-none-any.whl",
+  "package_comparison": "/home/astra/projects/pixellab-local-workbench/docs/readiness/PACKAGE-RECEIPT.json",
+  "package_source_files": 97,
+  "package_setup_checks": 9,
+  "package_recipe_count": 11,
+  "browser_artifact_checks": 10,
+  "browser_review": "/home/astra/projects/pixellab-local-workbench/docs/readiness/BROWSER-REVIEW.md",
+  "browser_actions_commit": "846e391",
+  "browser_final_setup_commit": "488b69611d6935ca83657d9572243eadd12fa520",
+  "local_url": "http://127.0.0.1:8874",
+  "setup_ready": true,
+  "comparison_ready": false,
+  "comparison_blocker_records": 71,
+  "analysis_counts": {
+    "original_requirements": 63,
+    "original_requirements_closed": 0,
+    "requirements_by_status": {
+      "runtime_pending": 24,
+      "unavailable_server": 21,
+      "source_partial": 18
+    },
+    "feature_flows": 23,
+    "captured_commands": 28,
+    "commands_by_status": {
+      "partial_local": 13,
+      "local_pending": 15
+    },
+    "source_transport_flows": 30,
+    "comparison_recipes": 11,
+    "historical_public_interfaces": 111,
+    "historical_mcp_interfaces": 101,
+    "current_public_interfaces": 112,
+    "tracked_interface_records": 213
+  },
+  "analysis_catalog": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/RECONSTRUCTION-CATALOG.json",
+  "construction_methods": 12,
+  "construction_guide": "/home/astra/projects/pixellab-local-workbench/docs/construction/README.md",
+  "local_channels_guide": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/LOCAL-CHANNELS.md",
+  "artistic_acceptance": "unreviewed",
+  "continuous_motion_viewed": false,
+  "private_model_recovered": false,
+  "vendor_handlers_implemented": 0,
+  "provider_calls_this_implementation": 0,
+  "full_vendor_analysis_complete": false,
+  "scope_document": "/home/astra/projects/pixellab-local-workbench/docs/COVERAGE.md",
+  "completion_scope": "Source-reconciled evidence catalog, implemented supplied-art controls, scalable exact history and verified local setup; complete hosted behavior, missing local crafts and original-art acceptance remain unresolved.",
+  "production_editing_ready": false,
+  "history_performance": {
+    "scope": "mechanical supplied fixture; no art generation, aesthetic approval or vendor parity",
+    "passed": true,
+    "cases": [
+      {
+        "layers": 1,
+        "frames": 24,
+        "canvas": [
+          256,
+          256
+        ],
+        "first_edit_seconds": 0.1252288769974257,
+        "twentieth_edit_seconds": 0.13541065599929425,
+        "cold_seconds": 1.169952591000765
+      },
+      {
+        "layers": 11,
+        "frames": 24,
+        "canvas": [
+          256,
+          256
+        ],
+        "first_edit_seconds": 1.235304007997911,
+        "twentieth_edit_seconds": 1.4201772609994805,
+        "cold_seconds": 13.802161241001158
+      }
+    ],
+    "limit": "Cold verification remains linear; no representative humanoid animation session or universal memory guarantee"
+  },
+  "next": "Complete missing local methods/full adapters and frozen backend comparison protocol; resolve available runtime evidence, author complete character inputs, then run original-art tests. Private undisclosed algorithms remain unavailable from client-only artifacts.",
+  "historical_v0_3_0": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/before-readiness/docs/LATEST-VERIFICATION.json"
+}

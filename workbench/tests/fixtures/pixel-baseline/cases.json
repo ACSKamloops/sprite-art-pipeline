@@ -1,0 +1,330 @@
+{
+  "suite": "F01",
+  "purpose": "Exact retained ordering/guard cases, enclosed by source import, immutable local edit, revision publication, reload and decodedPNG export. No newtarget calls.",
+  "baseline_sheet": {
+    "path": "controlled-tests/pixel-guards/capture/artifacts/final-base/assets_south_full.png",
+    "sha256": "def890631734c2cd3d053924cd56bc0f8d622de0e8d7478572f26f4c640e83c3"
+  },
+  "frame_layout": {
+    "width": 16,
+    "height": 16,
+    "count": 2,
+    "order": "horizontal-left-to-right",
+    "duration_seconds": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "local_dialect": "Flattened Body - diagnostic layer; one-based frames and zero-based inclusive regions. Explicit local source hash/atomic-head guards are not vendor hash/transaction parity.",
+  "cases": [
+    {
+      "case": "guard-mask-before-expected-check",
+      "source_record": {
+        "path": "controlled-tests/pixel-guards/ORDERING-RESULTS.json",
+        "sha256": "382b6daf935b8182df74ea327592989570804c456c966f405956a1cb927a02e1",
+        "json_pointer": "/cases/5"
+      },
+      "changes": [
+        {
+          "operation": "select_mask",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "name": "chosen",
+          "selector": {
+            "kind": "rectangle",
+            "region": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        },
+        {
+          "operation": "patch_pixels",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "mask": "chosen",
+          "pixels": [
+            [
+              4,
+              4,
+              "#ff0000",
+              "#0000ff"
+            ],
+            [
+              5,
+              4,
+              "#ff0000",
+              "#ff0000"
+            ]
+          ]
+        }
+      ],
+      "expected_local_outcome": "candidate",
+      "target_golden": {
+        "path": "controlled-tests/pixel-guards/capture/artifacts/guard-mask-before-expected-check/assets_south_full.png",
+        "sha256": "437167f13de94f1b971f18e79a0ef6abc91b4a63b48849ac87a8e2fcd8888311"
+      }
+    },
+    {
+      "case": "mask-does-not-hide-invalid-coordinate",
+      "source_record": {
+        "path": "controlled-tests/pixel-guards/ORDERING-RESULTS.json",
+        "sha256": "382b6daf935b8182df74ea327592989570804c456c966f405956a1cb927a02e1",
+        "json_pointer": "/cases/6"
+      },
+      "changes": [
+        {
+          "operation": "select_mask",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "name": "chosen",
+          "selector": {
+            "kind": "rectangle",
+            "region": [
+              4,
+              4,
+              4,
+              4
+            ]
+          }
+        },
+        {
+          "operation": "patch_pixels",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "mask": "chosen",
+          "pixels": [
+            [
+              4,
+              4,
+              "#ff0000",
+              "#0000ff"
+            ],
+            [
+              16,
+              4,
+              "#ff0000",
+              "#ff0000"
+            ]
+          ]
+        }
+      ],
+      "expected_local_outcome": "reject",
+      "target_golden": null
+    },
+    {
+      "case": "simultaneous-map",
+      "source_record": {
+        "path": "controlled-tests/pixel-guards/ORDERING-RESULTS.json",
+        "sha256": "382b6daf935b8182df74ea327592989570804c456c966f405956a1cb927a02e1",
+        "json_pointer": "/cases/7"
+      },
+      "changes": [
+        {
+          "operation": "map_colors",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "region": [
+            4,
+            4,
+            6,
+            6
+          ],
+          "colors": {
+            "#ff0000": "#00ff00",
+            "#00ff00": "#0000ff"
+          }
+        }
+      ],
+      "expected_local_outcome": "candidate",
+      "target_golden": {
+        "path": "controlled-tests/pixel-guards/capture/artifacts/simultaneous-map/assets_south_full.png",
+        "sha256": "06228665e8de4b2c2fb3a31300e59e18b0f4947fa41684945c4aec5fb9edbce2"
+      }
+    },
+    {
+      "case": "patch-sees-earlier-map",
+      "source_record": {
+        "path": "controlled-tests/pixel-guards/ORDERING-RESULTS.json",
+        "sha256": "382b6daf935b8182df74ea327592989570804c456c966f405956a1cb927a02e1",
+        "json_pointer": "/cases/8"
+      },
+      "changes": [
+        {
+          "operation": "map_colors",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "region": [
+            4,
+            4,
+            6,
+            6
+          ],
+          "colors": {
+            "#ff0000": "#00ff00",
+            "#00ff00": "#0000ff"
+          }
+        },
+        {
+          "operation": "patch_pixels",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "pixels": [
+            [
+              4,
+              4,
+              "#00ff00",
+              "#0000ff"
+            ]
+          ]
+        }
+      ],
+      "expected_local_outcome": "candidate",
+      "target_golden": {
+        "path": "controlled-tests/pixel-guards/capture/artifacts/patch-sees-earlier-map/assets_south_full.png",
+        "sha256": "5972555395ee07f6a2ae784bcdc7408bca18e3cfb41a38b52aa4f8743f23c801"
+      }
+    },
+    {
+      "case": "patch-before-map-rejected",
+      "source_record": {
+        "path": "controlled-tests/pixel-guards/ORDERING-RESULTS.json",
+        "sha256": "382b6daf935b8182df74ea327592989570804c456c966f405956a1cb927a02e1",
+        "json_pointer": "/cases/9"
+      },
+      "changes": [
+        {
+          "operation": "patch_pixels",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "pixels": [
+            [
+              4,
+              4,
+              "#00ff00",
+              "#0000ff"
+            ]
+          ]
+        },
+        {
+          "operation": "map_colors",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "region": [
+            4,
+            4,
+            6,
+            6
+          ],
+          "colors": {
+            "#ff0000": "#00ff00",
+            "#00ff00": "#0000ff"
+          }
+        }
+      ],
+      "expected_local_outcome": "reject",
+      "target_golden": null
+    },
+    {
+      "case": "copy-reads-input-snapshot",
+      "source_record": {
+        "path": "controlled-tests/pixel-guards/ORDERING-RESULTS.json",
+        "sha256": "382b6daf935b8182df74ea327592989570804c456c966f405956a1cb927a02e1",
+        "json_pointer": "/cases/10"
+      },
+      "changes": [
+        {
+          "operation": "map_colors",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "region": [
+            4,
+            4,
+            6,
+            6
+          ],
+          "colors": {
+            "#ff0000": "#00ff00",
+            "#00ff00": "#0000ff"
+          }
+        },
+        {
+          "operation": "copy_region",
+          "view": "south",
+          "layer": "Body - diagnostic",
+          "frames": [
+            1
+          ],
+          "reason": "Synthetic ordering fixture",
+          "source_layer": "Body - diagnostic",
+          "source_frame": 1,
+          "region": [
+            4,
+            4,
+            4,
+            4
+          ],
+          "at": [
+            10,
+            10
+          ]
+        }
+      ],
+      "expected_local_outcome": "candidate",
+      "target_golden": {
+        "path": "controlled-tests/pixel-guards/capture/artifacts/copy-reads-input-snapshot/assets_south_full.png",
+        "sha256": "373bead9a94bfcb9ab1ca3706e0a8d1d83b7fd676cdaf4ea35f224668f956986"
+      }
+    }
+  ],
+  "execution_status": "planned-not-run",
+  "visual_quality_authority": "Synthetic conformance fixture, not game-art review"
+}

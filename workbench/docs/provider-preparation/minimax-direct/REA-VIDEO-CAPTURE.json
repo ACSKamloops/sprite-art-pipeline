@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "scope": "Bounded offline REA reinspection of retained PixMiniMax HAR. No network replay; no native MiniMax call.",
+  "evidence_id": "ev_f35b3aad73a8d1d9f3646d7a19aef785efda4c7fc2e47cf3a4ce627d20e935fd",
+  "authority": "historical-reference",
+  "confidence": "observed",
+  "artifact": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/minimax-walk/network.har",
+    "sha256": "ec82de94d658e455c8cb6c7d86c0262ff39e33f7751825de1151f81084933a25",
+    "bytes": 1154084
+  },
+  "decoder": {
+    "id": "har-schema/lossless-json",
+    "name": "REA HAR capture adapter",
+    "version": "har-schema@2.0.0;jsonc-parser@3.3.1;lossless-json@4.3.1"
+  },
+  "total_records": 25,
+  "selected_record_ordinals": [
+    1,
+    24
+  ],
+  "runtime_attribution": "unknown",
+  "submission": {
+    "ordinal": 1,
+    "method": "POST",
+    "path": "/v2/animate-pixminimax",
+    "http_status": 200,
+    "request_fields": [
+      "first_frame",
+      "description",
+      "frame_count",
+      "seed",
+      "no_background",
+      "enhance_prompt"
+    ],
+    "controls": {
+      "frame_count": 8,
+      "seed": 123,
+      "no_background": true,
+      "enhance_prompt": false
+    },
+    "accepted_fields": [
+      "usage",
+      "background_job_id",
+      "status",
+      "enhanced_prompt",
+      "enhance_usage"
+    ]
+  },
+  "completion": {
+    "ordinal": 24,
+    "method": "GET",
+    "path_template": "/v2/background-jobs/{job_id}",
+    "http_status": 200,
+    "status": "completed",
+    "response_fields": [
+      "usage",
+      "id",
+      "status",
+      "created_at",
+      "last_response"
+    ],
+    "last_response_fields": [
+      "seed",
+      "type",
+      "action",
+      "images",
+      "status",
+      "progress",
+      "flow_kind",
+      "billing_usage",
+      "generation_id",
+      "queue_position",
+      "billing_charged",
+      "generation_started_at",
+      "estimated_wait_seconds"
+    ],
+    "images_count": 9,
+    "image_entry_fields": [
+      "type",
+      "width",
+      "base64",
+      "height"
+    ],
+    "native_video_field_present": false
+  },
+  "evidence_redaction_counts": [
+    {
+      "ordinal": 1,
+      "redactions": 0
+    },
+    {
+      "ordinal": 24,
+      "redactions": 0
+    }
+  ],
+  "output_policy": "Excluded header/cookie values, request/job IDs, full URLs, inline PNG/base64 bodies and private source images from this summary.",
+  "limitations": [
+    "This is retained producer evidence, without live browser transaction IDs, scenario provenance, execution attribution or deployment authenticity. Recorded URLs are never fetched.",
+    "Every record is decoded before selection; no partial success is returned on malformed input or a resource limit.",
+    "Known authentication headers/cookies and explicitly marked literal values are excluded. Unknown extension names do not establish sensitivity.",
+    "A 32 MiB input, 96 MiB reply and 64-level nesting budget bound complete evidence. HAR uses a 192 MiB Node old-generation heap; native decoding uses a 768 MiB Linux address-space limit. Each owned command has a 30-second deadline with independent cleanup."
+  ]
+}

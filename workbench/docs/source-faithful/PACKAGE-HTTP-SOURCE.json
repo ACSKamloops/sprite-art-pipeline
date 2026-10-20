@@ -1,0 +1,25 @@
+{
+  "static": [
+    {
+      "endpoint": "/",
+      "file": "web/index.html",
+      "sha256": "f9e70f6de03c2034211f2eec15493c83535c2167c1ad000eefff0b14a4b3a9ad"
+    },
+    {
+      "endpoint": "/app.js",
+      "file": "web/app.js",
+      "sha256": "6f5962d7b611a5aa0c7ce378d5d191d85f3aecdded33206301784ed6231a427d"
+    },
+    {
+      "endpoint": "/style.css",
+      "file": "web/style.css",
+      "sha256": "1375d7e9284f8771ba98330a37c9f0fe402bd03ee412394f997726c814744787"
+    },
+    {
+      "endpoint": "/source-vfx.js",
+      "file": "web/source-vfx.js",
+      "sha256": "9184924d041c37c5ea72268f5dca31a16a39e8c9488c08feacd6190d0fe18e73"
+    }
+  ],
+  "presets_sha256": "f0c0e9d1a84fb1feb244b70124218381729850ed27d60448ab97aad892bbc40f"
+}

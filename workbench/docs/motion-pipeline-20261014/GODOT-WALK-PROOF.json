@@ -1,0 +1,541 @@
+{
+  "kind": "repaired-walk-godot-runtime-proof",
+  "version": 1,
+  "sequence": "9f9e1c53324ea567cb1bbd5be8c310691c0f87f45044279c1f37d81349e66d79",
+  "source": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/review/manual-repair/exports/studio-168c543224d144918d06edbcdc08319f/godot",
+  "source_inputs": {
+    "clip.tres": {
+      "bytes": 1644,
+      "sha256": "ee3dc880f562d82f1b71773385fe5af66c8e98490be6b7a1ca1175288daece5f"
+    },
+    "clip.tscn": {
+      "bytes": 436,
+      "sha256": "ace9c1b64230629f47a888c6ce4d5f82c61c5d860ed33b7bde232a0e661ba78c"
+    },
+    "driver.gd": {
+      "bytes": 6667,
+      "sha256": "d9650398188587edbf65b3fe60a8f286ef4f09ebc6beeb3f7c0becde4567df98"
+    },
+    "playback.json": {
+      "bytes": 927,
+      "sha256": "2a431e1a8a74f14c85ff82582ab80aac2e50230cf87edb10902e9b4e2364b1f0"
+    },
+    "project.godot": {
+      "bytes": 381,
+      "sha256": "5ba530871948146c39100c3c9ccb3431a7f82ef5dcd2325c45a0d6f06cc597a3"
+    },
+    "sheet.png": {
+      "bytes": 129975,
+      "sha256": "22b347937da60682c8361b4fe33b9ec9d07a38e33aebb0fc34b5f8514c7477eb"
+    },
+    "timeline.json": {
+      "bytes": 5477,
+      "sha256": "9d8d99d46930eb0318c1fa7a43aebb99a75293e85c34688022a713a87ade58ae"
+    }
+  },
+  "frame_inputs": {
+    "frame-0000.png": {
+      "bytes": 16140,
+      "sha256": "a269c122ca1d73977cb8c98397f6726acb7ed5415fc5fdd5347b5b37161c2a7d"
+    },
+    "frame-0001.png": {
+      "bytes": 15767,
+      "sha256": "122ca35ce593808df6a2a6dd44ee0ea17796c7729beaf0df3e76a66cc44b4613"
+    },
+    "frame-0002.png": {
+      "bytes": 16429,
+      "sha256": "307dc0bfb20fa2aaaf0518c0903d03f18c3529a7f54ea33584e0ac9a17f8c0b3"
+    },
+    "frame-0003.png": {
+      "bytes": 19980,
+      "sha256": "462db1fa17b8d57125f86a7a9633ffa5eb6087548bbe54fbe53e534e52412e2f"
+    },
+    "frame-0004.png": {
+      "bytes": 18300,
+      "sha256": "651db14215c5102f28a8a54102d44d40e9713a3124d8c75328a30140a9445143"
+    },
+    "frame-0005.png": {
+      "bytes": 14483,
+      "sha256": "3febed9967f1413f37723a36acdc739ae86ad2e980d854728bd31d29e530cc8e"
+    },
+    "frame-0006.png": {
+      "bytes": 15973,
+      "sha256": "bc1c468219b52c3ea5511057cc360128afee35a0236da22014f099d408a33d72"
+    },
+    "frame-0007.png": {
+      "bytes": 15693,
+      "sha256": "c8b4b712568910c97cc25c29f07650666ea49d99464b3f17a0341b2f0ea0802b"
+    }
+  },
+  "commands": [
+    {
+      "command": [
+        "/home/astra/.local/bin/godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/pixellab-repaired-walk-godot-20261014-final/project",
+        "--editor",
+        "--import"
+      ],
+      "returncode": 0,
+      "log_sha256": "6318e49d8ef47b845d42f48e54f6cf1f4b07f66d288a8253c5bac0a53bd96065"
+    },
+    {
+      "command": [
+        "/home/astra/.local/bin/godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/pixellab-repaired-walk-godot-20261014-final/project",
+        "--script",
+        "res://verify.gd",
+        "--max-fps",
+        "240"
+      ],
+      "returncode": 0,
+      "log_sha256": "03791808ab85a07caf5ded0fe84f7ca924d14ab131327f57edbb110a3d77156d"
+    }
+  ],
+  "driver_copied_unchanged": true,
+  "original_godot_and_png_inputs_unchanged": true,
+  "expected_rgba_sha256": [
+    "6c9e7703185a87f1c994dafa63b29574e52b451a6b4815b235a6aed616b9f3e5",
+    "1752d42e956267f27bc5d27cf20e84c67e011e6f1750dec58d2057e1d828637f",
+    "29f622fb2e21f03f6855d2bbc9456d142325625dc47b1fa1c08ad66ed7e77008",
+    "dd812bdb64db552a7dc4e065c079dfa7dee96fa296871f944a889c1445df7f86",
+    "bc9c02615ac48aef11655fff8fd6557bbb9ebd7f2dc88b4ce137ff9faf42a49d",
+    "236b108cf01ce73bac40e415e498af108bcfef5db768553d05c9d444f5fa8da0",
+    "ca344fa3eb24809bed94776537fd460bb4956fe4c1f2d7c9ff3f68ccf1a564f9",
+    "2510b2afd48ee76001bafc0131b4b739ba799ad27a9b20ec256ac0e16748728d"
+  ],
+  "engine_receipt": {
+    "authored_event_count": 0,
+    "checks": [
+      {
+        "id": "sequence binding",
+        "passed": true
+      },
+      {
+        "id": "eight texture regions",
+        "passed": true
+      },
+      {
+        "id": "declared infinite loop",
+        "passed": true
+      },
+      {
+        "id": "total five thirds seconds",
+        "passed": true
+      },
+      {
+        "id": "driver owns clock at rate one",
+        "passed": true
+      },
+      {
+        "id": "save actual imported resource",
+        "passed": true
+      },
+      {
+        "id": "reloaded resource retains loop",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 0",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 0",
+        "passed": true
+      },
+      {
+        "id": "resource hold 0",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 0",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 0",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 0",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 1",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 1",
+        "passed": true
+      },
+      {
+        "id": "resource hold 1",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 1",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 1",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 1",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 2",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 2",
+        "passed": true
+      },
+      {
+        "id": "resource hold 2",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 2",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 2",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 2",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 3",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 3",
+        "passed": true
+      },
+      {
+        "id": "resource hold 3",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 3",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 3",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 3",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 4",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 4",
+        "passed": true
+      },
+      {
+        "id": "resource hold 4",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 4",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 4",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 4",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 5",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 5",
+        "passed": true
+      },
+      {
+        "id": "resource hold 5",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 5",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 5",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 5",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 6",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 6",
+        "passed": true
+      },
+      {
+        "id": "resource hold 6",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 6",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 6",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 6",
+        "passed": true
+      },
+      {
+        "id": "region dimensions 7",
+        "passed": true
+      },
+      {
+        "id": "decoded actual texture RGBA 7",
+        "passed": true
+      },
+      {
+        "id": "resource hold 7",
+        "passed": true
+      },
+      {
+        "id": "seek midpoint via driver 7",
+        "passed": true
+      },
+      {
+        "id": "just before hold boundary 7",
+        "passed": true
+      },
+      {
+        "id": "exact hold boundary 7",
+        "passed": true
+      },
+      {
+        "id": "deterministic exact third wrap",
+        "passed": true
+      },
+      {
+        "id": "normal wall and owned elapsed exceed three cycles",
+        "passed": true
+      },
+      {
+        "id": "normal process crosses three loop boundaries",
+        "passed": true
+      },
+      {
+        "id": "normal infinite playback never signals finite completion",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 0",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 1",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 2",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 3",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 4",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 5",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 6",
+        "passed": true
+      },
+      {
+        "id": "normal frame callback coverage 7",
+        "passed": true
+      },
+      {
+        "id": "loop callback at owned boundary",
+        "passed": true
+      },
+      {
+        "id": "loop callback at owned boundary",
+        "passed": true
+      },
+      {
+        "id": "loop callback at owned boundary",
+        "passed": true
+      },
+      {
+        "id": "pause accepted",
+        "passed": true
+      },
+      {
+        "id": "normal process pause freezes complete state",
+        "passed": true
+      },
+      {
+        "id": "restart accepted",
+        "passed": true
+      },
+      {
+        "id": "restart resets own clock and first frame",
+        "passed": true
+      }
+    ],
+    "engine": {
+      "build": "official",
+      "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+      "hex": 263938,
+      "major": 4,
+      "minor": 7,
+      "patch": 2,
+      "status": "stable",
+      "string": "4.7.2-stable (official)",
+      "timestamp": 0
+    },
+    "errors": [],
+    "limitations": "Headless imported resources and elapsed driver only; no GPU screenshot, audio, world foot contact, rig or art approval",
+    "native_finished_signals": 0,
+    "normal_frame_callbacks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0
+    ],
+    "normal_loop_callbacks": [
+      {
+        "frame": 7,
+        "plays": 1,
+        "time": 1.66666666666667
+      },
+      {
+        "frame": 7,
+        "plays": 2,
+        "time": 3.33333333333333
+      },
+      {
+        "frame": 7,
+        "plays": 3,
+        "time": 5.0
+      }
+    ],
+    "normal_state": {
+      "completed": false,
+      "completed_plays": 3,
+      "frame": 0,
+      "frame_progress": 0.733468770980835,
+      "play_count": 0,
+      "playing": true,
+      "rate": 1.0,
+      "time": 5.15280600000002
+    },
+    "normal_wall_seconds": 5.133784,
+    "playback_completed_signals": 0,
+    "status": "passed",
+    "textures": [
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 0,
+        "rgba_sha256": "6c9e7703185a87f1c994dafa63b29574e52b451a6b4815b235a6aed616b9f3e5"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 1,
+        "rgba_sha256": "1752d42e956267f27bc5d27cf20e84c67e011e6f1750dec58d2057e1d828637f"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 2,
+        "rgba_sha256": "29f622fb2e21f03f6855d2bbc9456d142325625dc47b1fa1c08ad66ed7e77008"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 3,
+        "rgba_sha256": "dd812bdb64db552a7dc4e065c079dfa7dee96fa296871f944a889c1445df7f86"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 4,
+        "rgba_sha256": "bc9c02615ac48aef11655fff8fd6557bbb9ebd7f2dc88b4ce137ff9faf42a49d"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 5,
+        "rgba_sha256": "236b108cf01ce73bac40e415e498af108bcfef5db768553d05c9d444f5fa8da0"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 6,
+        "rgba_sha256": "ca344fa3eb24809bed94776537fd460bb4956fe4c1f2d7c9ff3f68ccf1a564f9"
+      },
+      {
+        "bytes": 262144,
+        "duration": 0.20833332836628,
+        "duration_error_seconds": -4.96705374053441e-09,
+        "index": 7,
+        "rgba_sha256": "2510b2afd48ee76001bafc0131b4b739ba799ad27a9b20ec256ac0e16748728d"
+      }
+    ]
+  },
+  "provider_calls": 0,
+  "visual_acceptance": "unapproved"
+}

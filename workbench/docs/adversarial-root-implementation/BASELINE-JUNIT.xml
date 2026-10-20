@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="32" skipped="0" tests="46" time="0.555" timestamp="2026-10-12T15:53:54.806507-07:00" hostname="AstraPC"><testcase classname="tests.test_adversarial_root_implementation" name="test_json_reader_rejects_nonfinite_hash_valid_blob[NaN]" time="0.003"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_json_reader_rejects_nonfi0')
+number = 'NaN'
+
+    @pytest.mark.parametrize('number',['NaN','Infinity','-Infinity','1e999'])
+    def test_json_reader_rejects_nonfinite_hash_valid_blob(tmp_path,number):
+        store=Store(tmp_path);ident=store.put_bytes(('{"clock":'+number+'}').encode())
+&gt;       with pytest.raises(ValidationError): store.get_json(ident)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:36: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_json_reader_rejects_nonfinite_hash_valid_blob[Infinity]" time="0.002"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_json_reader_rejects_nonfi1')
+number = 'Infinity'
+
+    @pytest.mark.parametrize('number',['NaN','Infinity','-Infinity','1e999'])
+    def test_json_reader_rejects_nonfinite_hash_valid_blob(tmp_path,number):
+        store=Store(tmp_path);ident=store.put_bytes(('{"clock":'+number+'}').encode())
+&gt;       with pytest.raises(ValidationError): store.get_json(ident)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:36: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_json_reader_rejects_nonfinite_hash_valid_blob[-Infinity]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_json_reader_rejects_nonfi2')
+number = '-Infinity'
+
+    @pytest.mark.parametrize('number',['NaN','Infinity','-Infinity','1e999'])
+    def test_json_reader_rejects_nonfinite_hash_valid_blob(tmp_path,number):
+        store=Store(tmp_path);ident=store.put_bytes(('{"clock":'+number+'}').encode())
+&gt;       with pytest.raises(ValidationError): store.get_json(ident)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:36: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_json_reader_rejects_nonfinite_hash_valid_blob[1e999]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_json_reader_rejects_nonfi3')
+number = '1e999'
+
+    @pytest.mark.parametrize('number',['NaN','Infinity','-Infinity','1e999'])
+    def test_json_reader_rejects_nonfinite_hash_valid_blob(tmp_path,number):
+        store=Store(tmp_path);ident=store.put_bytes(('{"clock":'+number+'}').encode())
+&gt;       with pytest.raises(ValidationError): store.get_json(ident)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:36: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[zero-clock]" time="0.002"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_0')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3690&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[negative-clock]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_1')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3740&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[zero-denominator]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_2')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b37f0&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[clock-budget]" time="0.002"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_3')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b38a0&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[wrong-index]" time="0.002"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_4')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3950&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[nonnumeric-pivot]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_5')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3a00&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[blank-direction]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_6')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3ab0&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[nonbool-loop]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_7')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3b60&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[nonobject-metadata]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_8')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3c10&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[unknown-version]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_9')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3cc0&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:58: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[nonarray-frames]" time="0.001"><failure message="TypeError: string indices must be integers, not 'str'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_10')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3d70&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = &lt;sprite_workbench.core.Store object at 0x71c764f27ba0&gt;
+ident = '3db2467ce3c28ccd035396a9681bceb9d9009c8fb18df1165c1b796d37c93471'
+
+    def load_sequence(store, ident):
+        doc = store.get_json(ident)
+        if doc.get("kind") != "sequence" or not doc.get("frames"):
+            raise ValidationError("Expected nonempty sequence document")
+        if len(doc["frames"]) &gt; MAX_FRAMES or not isinstance(doc.get("canvas"), list) or len(doc["canvas"]) != 2:
+            raise ValidationError("Invalid sequence shape")
+        w, h = doc["canvas"]
+        if type(w) != int or type(h) != int or min(w, h) &lt; 1 or w*h &gt; MAX_PIXELS or w*h*4*len(doc["frames"]) &gt; MAX_SEQUENCE_BYTES:
+            raise ValidationError("Sequence exceeds resource budget")
+&gt;       arrays = [store.get_raster(f["raster"]) for f in doc["frames"]]
+                                   ^^^^^^^^^^^
+E       TypeError: string indices must be integers, not 'str'
+
+sprite_workbench/core.py:205: TypeError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_forged_sequence_rejected_before_consumption[missing-raster]" time="0.002"><failure message="KeyError: 'raster'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_forged_sequence_rejected_11')
+mutate = &lt;function &lt;lambda&gt; at 0x71c7654b3e20&gt;
+
+    @pytest.mark.parametrize('mutate',[
+        lambda d:d['frames'][0].update(duration=[0,1]),
+        lambda d:d['frames'][0].update(duration=[-1,30]),
+        lambda d:d['frames'][0].update(duration=[1,0]),
+        lambda d:d['frames'][0].update(duration=[3601,1]),
+        lambda d:d['frames'][0].update(index=99),
+        lambda d:d['frames'][0].update(pivot=['x',0]),
+        lambda d:d['frames'][0].update(direction=''),
+        lambda d:d.update(loop='false'),
+        lambda d:d.update(metadata=[]),
+        lambda d:d.update(version=99),
+        lambda d:d.update(frames={'frame0':d['frames'][0]}),
+        lambda d:d['frames'][0].pop('raster'),
+    ],ids=['zero-clock','negative-clock','zero-denominator','clock-budget','wrong-index','nonnumeric-pivot','blank-direction','nonbool-loop','nonobject-metadata','unknown-version','nonarray-frames','missing-raster'])
+    def test_forged_sequence_rejected_before_consumption(tmp_path,mutate):
+        store=Store(tmp_path);ident=save_sequence(store,[image()],[Fraction(1,30)])
+        document=store.get_json(ident);mutate(document);forged=store.put_json(document)
+&gt;       with pytest.raises(ValidationError): load_sequence(store,forged)
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:58: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = &lt;sprite_workbench.core.Store object at 0x71c7665bac90&gt;
+ident = 'f7b7bc563c719c641c01505e899f58250fe02a71637bf9af2ecc1704d38a0a32'
+
+    def load_sequence(store, ident):
+        doc = store.get_json(ident)
+        if doc.get("kind") != "sequence" or not doc.get("frames"):
+            raise ValidationError("Expected nonempty sequence document")
+        if len(doc["frames"]) &gt; MAX_FRAMES or not isinstance(doc.get("canvas"), list) or len(doc["canvas"]) != 2:
+            raise ValidationError("Invalid sequence shape")
+        w, h = doc["canvas"]
+        if type(w) != int or type(h) != int or min(w, h) &lt; 1 or w*h &gt; MAX_PIXELS or w*h*4*len(doc["frames"]) &gt; MAX_SEQUENCE_BYTES:
+            raise ValidationError("Sequence exceeds resource budget")
+&gt;       arrays = [store.get_raster(f["raster"]) for f in doc["frames"]]
+                                   ^^^^^^^^^^^
+E       KeyError: 'raster'
+
+sprite_workbench/core.py:205: KeyError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_raster_documents_fail_structured[fields0]" time="0.001"><failure message="KeyError: 'width'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_invalid_raster_documents_0')
+fields = {'kind': 'rgba', 'version': 1}
+
+    @pytest.mark.parametrize('fields',[{'kind':'rgba','version':1}, {'kind':'rgba','version':99,'width':1,'height':1},
+                                      {'kind':'rgba','version':1,'width':True,'height':1,'blob':'0'*64,'raw_sha256':'0'*64}])
+    def test_invalid_raster_documents_fail_structured(tmp_path,fields):
+        store=Store(tmp_path)
+&gt;       with pytest.raises(ValidationError):store.get_raster(store.put_json(fields))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;sprite_workbench.core.Store object at 0x71c7665bb350&gt;
+ident = 'e9eab046d2d01262d4fc2f6250fc9219a962c4d75b1599734561bd146b89340b'
+
+    def get_raster(self, ident):
+        meta = self.get_json(ident)
+        if meta.get("kind") != "rgba":
+            raise ValidationError("Expected RGBA artifact")
+&gt;       w, h = meta["width"], meta["height"]
+               ^^^^^^^^^^^^^
+E       KeyError: 'width'
+
+sprite_workbench/core.py:133: KeyError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_raster_documents_fail_structured[fields1]" time="0.001"><failure message="KeyError: 'blob'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_invalid_raster_documents_1')
+fields = {'height': 1, 'kind': 'rgba', 'version': 99, 'width': 1}
+
+    @pytest.mark.parametrize('fields',[{'kind':'rgba','version':1}, {'kind':'rgba','version':99,'width':1,'height':1},
+                                      {'kind':'rgba','version':1,'width':True,'height':1,'blob':'0'*64,'raw_sha256':'0'*64}])
+    def test_invalid_raster_documents_fail_structured(tmp_path,fields):
+        store=Store(tmp_path)
+&gt;       with pytest.raises(ValidationError):store.get_raster(store.put_json(fields))
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:68: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = &lt;sprite_workbench.core.Store object at 0x71c764f38b50&gt;
+ident = '6362a68ff6558a24df7d59a99cf07cf94520074f08049a68b01333920f7b3fea'
+
+    def get_raster(self, ident):
+        meta = self.get_json(ident)
+        if meta.get("kind") != "rgba":
+            raise ValidationError("Expected RGBA artifact")
+        w, h = meta["width"], meta["height"]
+        if type(w) != int or type(h) != int or min(w, h) &lt; 1 or w * h &gt; MAX_PIXELS:
+            raise ValidationError("Invalid raster dimensions")
+&gt;       raw = self.get_bytes(meta["blob"])
+                             ^^^^^^^^^^^^
+E       KeyError: 'blob'
+
+sprite_workbench/core.py:136: KeyError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_raster_documents_fail_structured[fields2]" time="0.001" /><testcase classname="tests.test_adversarial_root_implementation" name="test_corrupted_bytes_and_pathlike_ids_fail_closed" time="0.001" /><testcase classname="tests.test_adversarial_root_implementation" name="test_import_decodes_captured_bytes_even_if_path_changes" time="0.007"><failure message="assert [0, 255, 0, 255] == [255, 0, 0, 255]&#10;  &#10;  At index 0 diff: 0 != 255&#10;  Use -v to get more diff">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_import_decodes_captured_b0')
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x71c764ef2520&gt;
+
+    def test_import_decodes_captured_bytes_even_if_path_changes(tmp_path,monkeypatch):
+        store=Store(tmp_path/'store');path=tmp_path/'changing.png'
+        Image.new('RGBA',(2,2),(255,0,0,255)).save(path);captured=path.read_bytes()
+        original=Image.open
+        def changed_before_open(arg,*args,**kwargs):
+            Image.new('RGBA',(2,2),(0,255,0,255)).save(path)
+            return original(arg,*args,**kwargs)
+        monkeypatch.setattr('sprite_workbench.acquisition.Image.open',changed_before_open)
+        result=import_image(store,path);doc,frames=load_sequence(store,result['sequence'])
+        assert store.get_bytes(result['source_bytes'])==captured
+&gt;       assert frames[0][0,0].tolist()==[255,0,0,255] # oracle is the retained encoded source
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       assert [0, 255, 0, 255] == [255, 0, 0, 255]
+E         
+E         At index 0 diff: 0 != 255
+E         Use -v to get more diff
+
+tests/test_adversarial_root_implementation.py:90: AssertionError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_apng_default_poster_is_not_manufactured_animation_time" time="0.003"><failure message="assert 3 == 2&#10; +  where 3 = len([array([[[255,   0,   0, 255],\n        [255,   0,   0, 255]],\n\n       [[255,   0,   0, 255],\n        [255,   0,   0, 2... 255, 255],\n        [  0,   0, 255, 255]],\n\n       [[  0,   0, 255, 255],\n        [  0,   0, 255, 255]]], dtype=uint8)])">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_apng_default_poster_is_no0')
+
+    def test_apng_default_poster_is_not_manufactured_animation_time(tmp_path):
+        path=tmp_path/'poster.png';poster=Image.new('RGBA',(2,2),(255,0,0,255))
+        green=Image.new('RGBA',(2,2),(0,255,0,255));blue=Image.new('RGBA',(2,2),(0,0,255,255))
+        poster.save(path,save_all=True,append_images=[green,blue],default_image=True,duration=[200,300],loop=0)
+        with Image.open(path) as source:
+            assert source.info['default_image'] is True and source.n_frames==3
+        store=Store(tmp_path/'store');result=import_image(store,path);doc,frames=load_sequence(store,result['sequence'])
+&gt;       assert len(frames)==2 # two timed APNG animation frames; poster is distinct
+        ^^^^^^^^^^^^^^^^^^^^^
+E       assert 3 == 2
+E        +  where 3 = len([array([[[255,   0,   0, 255],\n        [255,   0,   0, 255]],\n\n       [[255,   0,   0, 255],\n        [255,   0,   0, 2... 255, 255],\n        [  0,   0, 255, 255]],\n\n       [[  0,   0, 255, 255],\n        [  0,   0, 255, 255]]], dtype=uint8)])
+
+tests/test_adversarial_root_implementation.py:101: AssertionError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_and_truncated_acquisition_returns_structured_error" time="0.046"><failure message="PIL.UnidentifiedImageError: cannot identify image file '/tmp/pytest-of-astra/pytest-1514/test_invalid_and_truncated_acq0/not-image.bin'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_invalid_and_truncated_acq0')
+
+    def test_invalid_and_truncated_acquisition_returns_structured_error(tmp_path):
+        store=Store(tmp_path/'store');path=tmp_path/'not-image.bin';path.write_bytes(b'not an image')
+&gt;       with pytest.raises(ValidationError):import_image(store,path)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:110: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+sprite_workbench/acquisition.py:17: in import_image
+    with Image.open(path) as image:
+         ^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+fp = &lt;_io.BufferedReader name='/tmp/pytest-of-astra/pytest-1514/test_invalid_and_truncated_acq0/not-image.bin'&gt;
+mode = 'r', formats = ['BMP', 'DIB', 'GIF', 'JPEG', 'PPM', 'PNG', ...]
+
+    def open(
+        fp: StrOrBytesPath | IO[bytes],
+        mode: Literal["r"] = "r",
+        formats: list[str] | tuple[str, ...] | None = None,
+    ) -&gt; ImageFile.ImageFile:
+        """
+        Opens and identifies the given image file.
+    
+        This is a lazy operation; this function identifies the file, but
+        the file remains open and the actual image data is not read from
+        the file until you try to process the data (or call the
+        :py:meth:`~PIL.Image.Image.load` method).  See
+        :py:func:`~PIL.Image.new`. See :ref:`file-handling`.
+    
+        :param fp: A filename (string), os.PathLike object or a file object.
+           The file object must implement ``file.read``,
+           ``file.seek``, and ``file.tell`` methods,
+           and be opened in binary mode. The file object will also seek to zero
+           before reading.
+        :param mode: The mode.  If given, this argument must be "r".
+        :param formats: A list or tuple of formats to attempt to load the file in.
+           This can be used to restrict the set of formats checked.
+           Pass ``None`` to try all supported formats. You can print the set of
+           available formats by running ``python3 -m PIL`` or using
+           the :py:func:`PIL.features.pilinfo` function.
+        :returns: An :py:class:`~PIL.Image.Image` object.
+        :exception FileNotFoundError: If the file cannot be found.
+        :exception PIL.UnidentifiedImageError: If the image cannot be opened and
+           identified.
+        :exception ValueError: If the ``mode`` is not "r", or if a ``StringIO``
+           instance is used for ``fp``.
+        :exception TypeError: If ``formats`` is not ``None``, a list or a tuple.
+        """
+    
+        if mode != "r":
+            msg = f"bad mode {repr(mode)}"  # type: ignore[unreachable]
+            raise ValueError(msg)
+        elif isinstance(fp, io.StringIO):
+            msg = (  # type: ignore[unreachable]
+                "StringIO cannot be used to open an image. "
+                "Binary data must be used instead."
+            )
+            raise ValueError(msg)
+    
+        if formats is None:
+            formats = ID
+        elif not isinstance(formats, (list, tuple)):
+            msg = "formats must be a list or tuple"  # type: ignore[unreachable]
+            raise TypeError(msg)
+    
+        exclusive_fp = False
+        filename: str | bytes = ""
+        if is_path(fp):
+            filename = os.fspath(fp)
+            fp = builtins.open(filename, "rb")
+            exclusive_fp = True
+        else:
+            fp = cast(IO[bytes], fp)
+    
+        try:
+            fp.seek(0)
+        except (AttributeError, io.UnsupportedOperation):
+            fp = io.BytesIO(fp.read())
+            exclusive_fp = True
+    
+        prefix = fp.read(16)
+    
+        preinit()
+    
+        warning_messages: list[str] = []
+    
+        def _open_core(
+            fp: IO[bytes],
+            filename: str | bytes,
+            prefix: bytes,
+            formats: list[str] | tuple[str, ...],
+        ) -&gt; ImageFile.ImageFile | None:
+            for i in formats:
+                i = i.upper()
+                if i not in OPEN:
+                    init()
+                try:
+                    factory, accept = OPEN[i]
+                    result = not accept or accept(prefix)
+                    if isinstance(result, str):
+                        warning_messages.append(result)
+                    elif result:
+                        fp.seek(0)
+                        im = factory(fp, filename)
+                        _decompression_bomb_check(im.size)
+                        return im
+                except (SyntaxError, IndexError, TypeError, struct.error) as e:
+                    if WARN_POSSIBLE_FORMATS:
+                        warning_messages.append(i + " opening failed. " + str(e))
+                except BaseException:
+                    if exclusive_fp:
+                        fp.close()
+                    raise
+            return None
+    
+        im = _open_core(fp, filename, prefix, formats)
+    
+        if im is None and formats is ID:
+            checked_formats = ID.copy()
+            if init():
+                im = _open_core(
+                    fp,
+                    filename,
+                    prefix,
+                    tuple(format for format in formats if format not in checked_formats),
+                )
+    
+        if im:
+            im._exclusive_fp = exclusive_fp
+            return im
+    
+        if exclusive_fp:
+            fp.close()
+        for message in warning_messages:
+            warnings.warn(message)
+        msg = "cannot identify image file %r" % (filename if filename else fp)
+&gt;       raise UnidentifiedImageError(msg)
+E       PIL.UnidentifiedImageError: cannot identify image file '/tmp/pytest-of-astra/pytest-1514/test_invalid_and_truncated_acq0/not-image.bin'
+
+/usr/lib/python3/dist-packages/PIL/Image.py:3579: UnidentifiedImageError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[missing-brush-color]" time="0.000"><failure message="KeyError: 'color'">change = {'frames': [1], 'layer': 'image', 'operation': 'brush', 'points': [[1, 1]], ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+layers = {'image': array([[[[  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0, ... 0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0]]]], dtype=uint8)}
+changes = [{'frames': [1], 'layer': 'image', 'operation': 'brush', 'points': [[1, 1]], ...}]
+protected = None
+
+    def apply_edits(layers, changes, protected=None):
+        if not layers or not isinstance(changes, list) or not changes or len(changes) &gt; 1000:
+            raise ValidationError("Need named layers and1..1000ordered changes")
+        initial = {}; result = {}
+        shape = None
+        for name, value in layers.items():
+            a = np.asarray(value)
+            if a.dtype != np.uint8 or a.ndim != 4 or a.shape[-1] != 4:
+                raise ValidationError("Layer must be uint8[frames,height,width,4]")
+            if shape is not None and shape != a.shape:
+                raise ValidationError("Layer dimensions differ")
+            shape = a.shape
+            initial[name] = a.copy(); result[name] = a.copy()
+        n, h, w, _ = shape
+        if not n or w*h*n &gt; 128_000_000:
+            raise ValidationError("Layer/mask resource budget exceeded")
+        protection = {}
+        for name, mask in (protected or {}).items():
+            a = np.asarray(mask)
+            if name not in layers or a.dtype != bool or a.shape != (n, h, w):
+                raise ValidationError("Protection shape/layer mismatch")
+            protection[name] = a
+        masks = {}; audit = []
+        specific = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"},
+            "select_mask": {"name", "selector", "combine", "offsets"},
+            "flood_fill": {"seed", "expected", "color", "region", "tolerance", "connectivity", "max_pixels"},
+            "brush": {"points", "color", "size", "shape", "mode", "region", "pixel_perfect"},
+            "outline": {"mode", "color", "colors", "width", "silhouette_layers"}}
+        common = {"operation", "layer", "frames", "reason", "view", "mask"}
+        required = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"}, "select_mask": {"name", "selector"},
+            "flood_fill": {"seed", "expected", "color"}, "brush": {"points"}, "outline": {"mode"}}
+        for ordinal, op in enumerate(changes):
+            if not isinstance(op, dict) or op.get("operation") not in specific:
+                raise ValidationError("Unknown raster operation")
+            kind = op["operation"]
+            if set(op) - common - specific[kind]:
+                raise ValidationError("Unknown operation field")
+            if required[kind] - set(op):
+                raise ValidationError("Missing required raster operation fields")
+            name = op.get("layer", "image")
+            if name not in result or not isinstance(op.get("reason"), str) or not op["reason"].strip():
+                raise ValidationError("Operation needs known layer and observed reason")
+            indices = op.get("frames")
+            if not isinstance(indices, list) or not indices or any(type(i) != int or not 1 &lt;= i &lt;= n for i in indices) or len(set(indices)) != len(indices):
+                raise ValidationError("Frames must be unique one-based indices")
+            if kind == "select_mask":
+                label = op.get("name", "")
+                if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]{0,63}", label):
+                    raise ValidationError("Invalid mask name")
+                offsets = op.get("offsets", [[0, 0]]*len(indices))
+                if len(offsets) != len(indices):
+                    raise ValidationError("Mask offset count differs")
+                for frame, off in zip(indices, offsets):
+                    selected = selection(result[name][frame-1], op["selector"], off)
+                    key = (label, frame)
+                    previous = masks.get(key, np.zeros((h, w), bool))
+                    mode = op.get("combine", "replace")
+                    if mode == "replace": masks[key] = selected
+                    elif mode == "add": masks[key] = previous | selected
+                    elif mode == "subtract": masks[key] = previous &amp; ~selected
+                    elif mode == "intersect": masks[key] = previous &amp; selected
+                    else: raise ValidationError("Unknown mask combine mode")
+                audit.append({"operation": kind, "ordinal": ordinal, "changed": 0})
+                continue
+            total = 0; touched_total = 0
+            for frame in indices:
+                target = result[name][frame-1]
+                before = target.copy()
+                permitted = np.ones((h, w), bool)
+                if "mask" in op:
+                    key = (op["mask"], frame)
+                    if key not in masks: raise ValidationError("Mask not declared for selected frame")
+                    permitted &amp;= masks[key]
+                touched = np.zeros((h, w), bool)
+                if "region" in op and kind != "copy_region":
+                    l, t, r, b = region(op["region"], w, h)
+                    bound = np.zeros((h, w), bool); bound[t:b+1, l:r+1] = True
+                    permitted &amp;= bound
+                if kind == "patch_pixels":
+                    pixels = op["pixels"]
+                    if not 1 &lt;= len(pixels) &lt;= 10000: raise ValidationError("Invalid patch size")
+                    seen = set()
+                    for entry in pixels:
+                        if len(entry) != 4: raise ValidationError("Patch entry needs x,y,expected,replacement")
+                        x, y = coordinate(entry[:2], w, h)
+                        old, new = color(entry[2]), color(entry[3])
+                        if (x, y) in seen: raise ValidationError("Duplicate pixel assignment")
+                        seen.add((x, y))
+                        if permitted[y, x]:
+                            if not np.array_equal(target[y, x], old): raise ValidationError("Expected pixel guard failed")
+                            target[y, x] = new; touched[y, x] = True
+                elif kind == "map_colors":
+                    mappings = [(color(k), color(v)) for k, v in op["colors"].items()]
+                    if any(a[3] != b[3] for a, b in mappings): raise ValidationError("Color mapping must preserve alpha")
+                    normalized = [tuple(a) for a, _ in mappings]
+                    if len(set(normalized)) != len(normalized): raise ValidationError("Duplicate normalized map colors")
+                    for old, new in mappings:
+                        hit = (before == old).all(axis=-1) &amp; permitted
+                        target[hit] = new; touched |= hit
+                elif kind == "copy_region":
+                    src_name = op.get("source_layer", name); src_frame = op["source_frame"]
+                    if src_name not in initial or type(src_frame) != int or not 1 &lt;= src_frame &lt;= n:
+                        raise ValidationError("Invalid copy source")
+                    l, t, r, b = region(op["region"], w, h); x, y = coordinate(op["at"], w, h)
+                    coordinate([x+r-l, y+b-t], w, h)
+                    local = permitted[y:y+b-t+1, x:x+r-l+1]
+                    dst = target[y:y+b-t+1, x:x+r-l+1]
+                    dst[local] = initial[src_name][src_frame-1, t:b+1, l:r+1][local]
+                    touched[y:y+b-t+1, x:x+r-l+1] = local
+                elif kind == "flood_fill":
+                    x, y = coordinate(op["seed"], w, h)
+                    expected, replacement = color(op["expected"]), color(op["color"])
+                    if not permitted[y, x]: raise ValidationError("Fill seed excluded by region/mask")
+                    if not np.array_equal(target[y, x], expected): raise ValidationError("Fill seed guard failed")
+                    maximum = op.get("max_pixels", w*h)
+                    if type(maximum) != int or not 1 &lt;= maximum &lt;= w*h: raise ValidationError("Invalid fill limit")
+                    touched = connected(matches(target, expected, op.get("tolerance", 0)) &amp; permitted, [x, y], op.get("connectivity", 4), maximum)
+                    target[touched] = replacement
+                elif kind == "brush":
+                    points = op["points"]
+                    if not 1 &lt;= len(points) &lt;= 10000: raise ValidationError("Invalid brush point count")
+                    points = [coordinate(p, w, h) for p in points]
+                    size = op.get("size", 1)
+                    if type(size) != int or not 1 &lt;= size &lt;= 64: raise ValidationError("Brush size must be1..64")
+                    shape_name = op.get("shape", "circle")
+                    if shape_name not in ("circle", "square", "diamond"): raise ValidationError("Unknown brush shape")
+                    mode = op.get("mode", "paint")
+                    if mode not in ("paint", "erase"): raise ValidationError("Unknown brush mode")
+&gt;                   replacement = np.zeros(4, np.uint8) if mode == "erase" else color(op["color"])
+                                                                                      ^^^^^^^^^^^
+E                   KeyError: 'color'
+
+sprite_workbench/raster.py:283: KeyError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[missing-outline-color]" time="0.001"><failure message="KeyError: 'color'">change = {'frames': [1], 'layer': 'image', 'mode': 'outside', 'operation': 'outline', ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+layers = {'image': array([[[[  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0, ... 0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0]]]], dtype=uint8)}
+changes = [{'frames': [1], 'layer': 'image', 'mode': 'outside', 'operation': 'outline', ...}]
+protected = None
+
+    def apply_edits(layers, changes, protected=None):
+        if not layers or not isinstance(changes, list) or not changes or len(changes) &gt; 1000:
+            raise ValidationError("Need named layers and1..1000ordered changes")
+        initial = {}; result = {}
+        shape = None
+        for name, value in layers.items():
+            a = np.asarray(value)
+            if a.dtype != np.uint8 or a.ndim != 4 or a.shape[-1] != 4:
+                raise ValidationError("Layer must be uint8[frames,height,width,4]")
+            if shape is not None and shape != a.shape:
+                raise ValidationError("Layer dimensions differ")
+            shape = a.shape
+            initial[name] = a.copy(); result[name] = a.copy()
+        n, h, w, _ = shape
+        if not n or w*h*n &gt; 128_000_000:
+            raise ValidationError("Layer/mask resource budget exceeded")
+        protection = {}
+        for name, mask in (protected or {}).items():
+            a = np.asarray(mask)
+            if name not in layers or a.dtype != bool or a.shape != (n, h, w):
+                raise ValidationError("Protection shape/layer mismatch")
+            protection[name] = a
+        masks = {}; audit = []
+        specific = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"},
+            "select_mask": {"name", "selector", "combine", "offsets"},
+            "flood_fill": {"seed", "expected", "color", "region", "tolerance", "connectivity", "max_pixels"},
+            "brush": {"points", "color", "size", "shape", "mode", "region", "pixel_perfect"},
+            "outline": {"mode", "color", "colors", "width", "silhouette_layers"}}
+        common = {"operation", "layer", "frames", "reason", "view", "mask"}
+        required = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"}, "select_mask": {"name", "selector"},
+            "flood_fill": {"seed", "expected", "color"}, "brush": {"points"}, "outline": {"mode"}}
+        for ordinal, op in enumerate(changes):
+            if not isinstance(op, dict) or op.get("operation") not in specific:
+                raise ValidationError("Unknown raster operation")
+            kind = op["operation"]
+            if set(op) - common - specific[kind]:
+                raise ValidationError("Unknown operation field")
+            if required[kind] - set(op):
+                raise ValidationError("Missing required raster operation fields")
+            name = op.get("layer", "image")
+            if name not in result or not isinstance(op.get("reason"), str) or not op["reason"].strip():
+                raise ValidationError("Operation needs known layer and observed reason")
+            indices = op.get("frames")
+            if not isinstance(indices, list) or not indices or any(type(i) != int or not 1 &lt;= i &lt;= n for i in indices) or len(set(indices)) != len(indices):
+                raise ValidationError("Frames must be unique one-based indices")
+            if kind == "select_mask":
+                label = op.get("name", "")
+                if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]{0,63}", label):
+                    raise ValidationError("Invalid mask name")
+                offsets = op.get("offsets", [[0, 0]]*len(indices))
+                if len(offsets) != len(indices):
+                    raise ValidationError("Mask offset count differs")
+                for frame, off in zip(indices, offsets):
+                    selected = selection(result[name][frame-1], op["selector"], off)
+                    key = (label, frame)
+                    previous = masks.get(key, np.zeros((h, w), bool))
+                    mode = op.get("combine", "replace")
+                    if mode == "replace": masks[key] = selected
+                    elif mode == "add": masks[key] = previous | selected
+                    elif mode == "subtract": masks[key] = previous &amp; ~selected
+                    elif mode == "intersect": masks[key] = previous &amp; selected
+                    else: raise ValidationError("Unknown mask combine mode")
+                audit.append({"operation": kind, "ordinal": ordinal, "changed": 0})
+                continue
+            total = 0; touched_total = 0
+            for frame in indices:
+                target = result[name][frame-1]
+                before = target.copy()
+                permitted = np.ones((h, w), bool)
+                if "mask" in op:
+                    key = (op["mask"], frame)
+                    if key not in masks: raise ValidationError("Mask not declared for selected frame")
+                    permitted &amp;= masks[key]
+                touched = np.zeros((h, w), bool)
+                if "region" in op and kind != "copy_region":
+                    l, t, r, b = region(op["region"], w, h)
+                    bound = np.zeros((h, w), bool); bound[t:b+1, l:r+1] = True
+                    permitted &amp;= bound
+                if kind == "patch_pixels":
+                    pixels = op["pixels"]
+                    if not 1 &lt;= len(pixels) &lt;= 10000: raise ValidationError("Invalid patch size")
+                    seen = set()
+                    for entry in pixels:
+                        if len(entry) != 4: raise ValidationError("Patch entry needs x,y,expected,replacement")
+                        x, y = coordinate(entry[:2], w, h)
+                        old, new = color(entry[2]), color(entry[3])
+                        if (x, y) in seen: raise ValidationError("Duplicate pixel assignment")
+                        seen.add((x, y))
+                        if permitted[y, x]:
+                            if not np.array_equal(target[y, x], old): raise ValidationError("Expected pixel guard failed")
+                            target[y, x] = new; touched[y, x] = True
+                elif kind == "map_colors":
+                    mappings = [(color(k), color(v)) for k, v in op["colors"].items()]
+                    if any(a[3] != b[3] for a, b in mappings): raise ValidationError("Color mapping must preserve alpha")
+                    normalized = [tuple(a) for a, _ in mappings]
+                    if len(set(normalized)) != len(normalized): raise ValidationError("Duplicate normalized map colors")
+                    for old, new in mappings:
+                        hit = (before == old).all(axis=-1) &amp; permitted
+                        target[hit] = new; touched |= hit
+                elif kind == "copy_region":
+                    src_name = op.get("source_layer", name); src_frame = op["source_frame"]
+                    if src_name not in initial or type(src_frame) != int or not 1 &lt;= src_frame &lt;= n:
+                        raise ValidationError("Invalid copy source")
+                    l, t, r, b = region(op["region"], w, h); x, y = coordinate(op["at"], w, h)
+                    coordinate([x+r-l, y+b-t], w, h)
+                    local = permitted[y:y+b-t+1, x:x+r-l+1]
+                    dst = target[y:y+b-t+1, x:x+r-l+1]
+                    dst[local] = initial[src_name][src_frame-1, t:b+1, l:r+1][local]
+                    touched[y:y+b-t+1, x:x+r-l+1] = local
+                elif kind == "flood_fill":
+                    x, y = coordinate(op["seed"], w, h)
+                    expected, replacement = color(op["expected"]), color(op["color"])
+                    if not permitted[y, x]: raise ValidationError("Fill seed excluded by region/mask")
+                    if not np.array_equal(target[y, x], expected): raise ValidationError("Fill seed guard failed")
+                    maximum = op.get("max_pixels", w*h)
+                    if type(maximum) != int or not 1 &lt;= maximum &lt;= w*h: raise ValidationError("Invalid fill limit")
+                    touched = connected(matches(target, expected, op.get("tolerance", 0)) &amp; permitted, [x, y], op.get("connectivity", 4), maximum)
+                    target[touched] = replacement
+                elif kind == "brush":
+                    points = op["points"]
+                    if not 1 &lt;= len(points) &lt;= 10000: raise ValidationError("Invalid brush point count")
+                    points = [coordinate(p, w, h) for p in points]
+                    size = op.get("size", 1)
+                    if type(size) != int or not 1 &lt;= size &lt;= 64: raise ValidationError("Brush size must be1..64")
+                    shape_name = op.get("shape", "circle")
+                    if shape_name not in ("circle", "square", "diamond"): raise ValidationError("Unknown brush shape")
+                    mode = op.get("mode", "paint")
+                    if mode not in ("paint", "erase"): raise ValidationError("Unknown brush mode")
+                    replacement = np.zeros(4, np.uint8) if mode == "erase" else color(op["color"])
+                    centers = [points[0]]
+                    for a, b in zip(points, points[1:]): centers.extend(list(line(a, b))[1:])
+                    if len(centers) &gt; 200000: raise ValidationError("Brush interpolation budget exceeded")
+                    if op.get("pixel_perfect", False):
+                        if size != 1: raise ValidationError("Pixel-perfect brush requires size1")
+                        counts = Counter(centers)
+                        centers = [p for i, p in enumerate(centers) if i in (0, len(centers)-1) or counts[p] &gt; 1 or not (abs(centers[i-1][0]-centers[i+1][0]) == 1 and abs(centers[i-1][1]-centers[i+1][1]) == 1)]
+                    low = -((size-1)//2); high = low+size-1
+                    for x, y in centers:
+                        for dy in range(low, high+1):
+                            for dx in range(low, high+1):
+                                nx, ny = x+dx, y+dy
+                                if not (0 &lt;= nx &lt; w and 0 &lt;= ny &lt; h): continue
+                                cx, cy = dx-(low+high)/2, dy-(low+high)/2
+                                if shape_name == "circle" and cx*cx+cy*cy &gt; (size/2)**2: continue
+                                if shape_name == "diamond" and abs(cx)+abs(cy) &gt; size/2: continue
+                                touched[ny, nx] = True
+                    touched &amp;= permitted; target[touched] = replacement
+                elif kind == "outline":
+                    width = op.get("width", 1)
+                    if type(width) != int or not 1 &lt;= width &lt;= 32: raise ValidationError("Outline width must be1..32")
+                    names = op.get("silhouette_layers", [name])
+                    if not names or any(k not in initial for k in names): raise ValidationError("Unknown silhouette layer")
+                    silhouette = np.logical_or.reduce([initial[k][frame-1, ..., 3] != 0 for k in names])
+                    expanded = silhouette.copy(); inner = silhouette.copy()
+                    for _ in range(width):
+                        expanded = grow(expanded)
+                        padded = np.pad(inner, 1, constant_values=False)
+                        inner = padded[1:-1, 1:-1] &amp; padded[:-2, 1:-1] &amp; padded[2:, 1:-1] &amp; padded[1:-1, :-2] &amp; padded[1:-1, 2:]
+                    mode = op["mode"]
+                    if mode in ("outside", "outer"): touched = expanded &amp; ~silhouette
+                    elif mode in ("inside", "inner", "erase", "recolor"): touched = silhouette &amp; ~inner
+                    else: raise ValidationError("Unsupported local outline mode")
+                    touched &amp;= permitted
+                    if mode == "recolor":
+                        mapped = np.zeros((h, w), bool)
+                        for old, new in op["colors"].items():
+                            hit = (before == color(old)).all(axis=-1) &amp; touched
+                            target[hit] = color(new); mapped |= hit
+                        touched = mapped
+&gt;                   else: target[touched] = np.zeros(4, np.uint8) if mode == "erase" else color(op["color"])
+                                                                                                ^^^^^^^^^^^
+E                   KeyError: 'color'
+
+sprite_workbench/raster.py:324: KeyError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[missing-outline-map]" time="0.001"><failure message="KeyError: 'colors'">change = {'frames': [1], 'layer': 'image', 'mode': 'recolor', 'operation': 'outline', ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+layers = {'image': array([[[[  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0, ... 0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0]]]], dtype=uint8)}
+changes = [{'frames': [1], 'layer': 'image', 'mode': 'recolor', 'operation': 'outline', ...}]
+protected = None
+
+    def apply_edits(layers, changes, protected=None):
+        if not layers or not isinstance(changes, list) or not changes or len(changes) &gt; 1000:
+            raise ValidationError("Need named layers and1..1000ordered changes")
+        initial = {}; result = {}
+        shape = None
+        for name, value in layers.items():
+            a = np.asarray(value)
+            if a.dtype != np.uint8 or a.ndim != 4 or a.shape[-1] != 4:
+                raise ValidationError("Layer must be uint8[frames,height,width,4]")
+            if shape is not None and shape != a.shape:
+                raise ValidationError("Layer dimensions differ")
+            shape = a.shape
+            initial[name] = a.copy(); result[name] = a.copy()
+        n, h, w, _ = shape
+        if not n or w*h*n &gt; 128_000_000:
+            raise ValidationError("Layer/mask resource budget exceeded")
+        protection = {}
+        for name, mask in (protected or {}).items():
+            a = np.asarray(mask)
+            if name not in layers or a.dtype != bool or a.shape != (n, h, w):
+                raise ValidationError("Protection shape/layer mismatch")
+            protection[name] = a
+        masks = {}; audit = []
+        specific = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"},
+            "select_mask": {"name", "selector", "combine", "offsets"},
+            "flood_fill": {"seed", "expected", "color", "region", "tolerance", "connectivity", "max_pixels"},
+            "brush": {"points", "color", "size", "shape", "mode", "region", "pixel_perfect"},
+            "outline": {"mode", "color", "colors", "width", "silhouette_layers"}}
+        common = {"operation", "layer", "frames", "reason", "view", "mask"}
+        required = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"}, "select_mask": {"name", "selector"},
+            "flood_fill": {"seed", "expected", "color"}, "brush": {"points"}, "outline": {"mode"}}
+        for ordinal, op in enumerate(changes):
+            if not isinstance(op, dict) or op.get("operation") not in specific:
+                raise ValidationError("Unknown raster operation")
+            kind = op["operation"]
+            if set(op) - common - specific[kind]:
+                raise ValidationError("Unknown operation field")
+            if required[kind] - set(op):
+                raise ValidationError("Missing required raster operation fields")
+            name = op.get("layer", "image")
+            if name not in result or not isinstance(op.get("reason"), str) or not op["reason"].strip():
+                raise ValidationError("Operation needs known layer and observed reason")
+            indices = op.get("frames")
+            if not isinstance(indices, list) or not indices or any(type(i) != int or not 1 &lt;= i &lt;= n for i in indices) or len(set(indices)) != len(indices):
+                raise ValidationError("Frames must be unique one-based indices")
+            if kind == "select_mask":
+                label = op.get("name", "")
+                if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]{0,63}", label):
+                    raise ValidationError("Invalid mask name")
+                offsets = op.get("offsets", [[0, 0]]*len(indices))
+                if len(offsets) != len(indices):
+                    raise ValidationError("Mask offset count differs")
+                for frame, off in zip(indices, offsets):
+                    selected = selection(result[name][frame-1], op["selector"], off)
+                    key = (label, frame)
+                    previous = masks.get(key, np.zeros((h, w), bool))
+                    mode = op.get("combine", "replace")
+                    if mode == "replace": masks[key] = selected
+                    elif mode == "add": masks[key] = previous | selected
+                    elif mode == "subtract": masks[key] = previous &amp; ~selected
+                    elif mode == "intersect": masks[key] = previous &amp; selected
+                    else: raise ValidationError("Unknown mask combine mode")
+                audit.append({"operation": kind, "ordinal": ordinal, "changed": 0})
+                continue
+            total = 0; touched_total = 0
+            for frame in indices:
+                target = result[name][frame-1]
+                before = target.copy()
+                permitted = np.ones((h, w), bool)
+                if "mask" in op:
+                    key = (op["mask"], frame)
+                    if key not in masks: raise ValidationError("Mask not declared for selected frame")
+                    permitted &amp;= masks[key]
+                touched = np.zeros((h, w), bool)
+                if "region" in op and kind != "copy_region":
+                    l, t, r, b = region(op["region"], w, h)
+                    bound = np.zeros((h, w), bool); bound[t:b+1, l:r+1] = True
+                    permitted &amp;= bound
+                if kind == "patch_pixels":
+                    pixels = op["pixels"]
+                    if not 1 &lt;= len(pixels) &lt;= 10000: raise ValidationError("Invalid patch size")
+                    seen = set()
+                    for entry in pixels:
+                        if len(entry) != 4: raise ValidationError("Patch entry needs x,y,expected,replacement")
+                        x, y = coordinate(entry[:2], w, h)
+                        old, new = color(entry[2]), color(entry[3])
+                        if (x, y) in seen: raise ValidationError("Duplicate pixel assignment")
+                        seen.add((x, y))
+                        if permitted[y, x]:
+                            if not np.array_equal(target[y, x], old): raise ValidationError("Expected pixel guard failed")
+                            target[y, x] = new; touched[y, x] = True
+                elif kind == "map_colors":
+                    mappings = [(color(k), color(v)) for k, v in op["colors"].items()]
+                    if any(a[3] != b[3] for a, b in mappings): raise ValidationError("Color mapping must preserve alpha")
+                    normalized = [tuple(a) for a, _ in mappings]
+                    if len(set(normalized)) != len(normalized): raise ValidationError("Duplicate normalized map colors")
+                    for old, new in mappings:
+                        hit = (before == old).all(axis=-1) &amp; permitted
+                        target[hit] = new; touched |= hit
+                elif kind == "copy_region":
+                    src_name = op.get("source_layer", name); src_frame = op["source_frame"]
+                    if src_name not in initial or type(src_frame) != int or not 1 &lt;= src_frame &lt;= n:
+                        raise ValidationError("Invalid copy source")
+                    l, t, r, b = region(op["region"], w, h); x, y = coordinate(op["at"], w, h)
+                    coordinate([x+r-l, y+b-t], w, h)
+                    local = permitted[y:y+b-t+1, x:x+r-l+1]
+                    dst = target[y:y+b-t+1, x:x+r-l+1]
+                    dst[local] = initial[src_name][src_frame-1, t:b+1, l:r+1][local]
+                    touched[y:y+b-t+1, x:x+r-l+1] = local
+                elif kind == "flood_fill":
+                    x, y = coordinate(op["seed"], w, h)
+                    expected, replacement = color(op["expected"]), color(op["color"])
+                    if not permitted[y, x]: raise ValidationError("Fill seed excluded by region/mask")
+                    if not np.array_equal(target[y, x], expected): raise ValidationError("Fill seed guard failed")
+                    maximum = op.get("max_pixels", w*h)
+                    if type(maximum) != int or not 1 &lt;= maximum &lt;= w*h: raise ValidationError("Invalid fill limit")
+                    touched = connected(matches(target, expected, op.get("tolerance", 0)) &amp; permitted, [x, y], op.get("connectivity", 4), maximum)
+                    target[touched] = replacement
+                elif kind == "brush":
+                    points = op["points"]
+                    if not 1 &lt;= len(points) &lt;= 10000: raise ValidationError("Invalid brush point count")
+                    points = [coordinate(p, w, h) for p in points]
+                    size = op.get("size", 1)
+                    if type(size) != int or not 1 &lt;= size &lt;= 64: raise ValidationError("Brush size must be1..64")
+                    shape_name = op.get("shape", "circle")
+                    if shape_name not in ("circle", "square", "diamond"): raise ValidationError("Unknown brush shape")
+                    mode = op.get("mode", "paint")
+                    if mode not in ("paint", "erase"): raise ValidationError("Unknown brush mode")
+                    replacement = np.zeros(4, np.uint8) if mode == "erase" else color(op["color"])
+                    centers = [points[0]]
+                    for a, b in zip(points, points[1:]): centers.extend(list(line(a, b))[1:])
+                    if len(centers) &gt; 200000: raise ValidationError("Brush interpolation budget exceeded")
+                    if op.get("pixel_perfect", False):
+                        if size != 1: raise ValidationError("Pixel-perfect brush requires size1")
+                        counts = Counter(centers)
+                        centers = [p for i, p in enumerate(centers) if i in (0, len(centers)-1) or counts[p] &gt; 1 or not (abs(centers[i-1][0]-centers[i+1][0]) == 1 and abs(centers[i-1][1]-centers[i+1][1]) == 1)]
+                    low = -((size-1)//2); high = low+size-1
+                    for x, y in centers:
+                        for dy in range(low, high+1):
+                            for dx in range(low, high+1):
+                                nx, ny = x+dx, y+dy
+                                if not (0 &lt;= nx &lt; w and 0 &lt;= ny &lt; h): continue
+                                cx, cy = dx-(low+high)/2, dy-(low+high)/2
+                                if shape_name == "circle" and cx*cx+cy*cy &gt; (size/2)**2: continue
+                                if shape_name == "diamond" and abs(cx)+abs(cy) &gt; size/2: continue
+                                touched[ny, nx] = True
+                    touched &amp;= permitted; target[touched] = replacement
+                elif kind == "outline":
+                    width = op.get("width", 1)
+                    if type(width) != int or not 1 &lt;= width &lt;= 32: raise ValidationError("Outline width must be1..32")
+                    names = op.get("silhouette_layers", [name])
+                    if not names or any(k not in initial for k in names): raise ValidationError("Unknown silhouette layer")
+                    silhouette = np.logical_or.reduce([initial[k][frame-1, ..., 3] != 0 for k in names])
+                    expanded = silhouette.copy(); inner = silhouette.copy()
+                    for _ in range(width):
+                        expanded = grow(expanded)
+                        padded = np.pad(inner, 1, constant_values=False)
+                        inner = padded[1:-1, 1:-1] &amp; padded[:-2, 1:-1] &amp; padded[2:, 1:-1] &amp; padded[1:-1, :-2] &amp; padded[1:-1, 2:]
+                    mode = op["mode"]
+                    if mode in ("outside", "outer"): touched = expanded &amp; ~silhouette
+                    elif mode in ("inside", "inner", "erase", "recolor"): touched = silhouette &amp; ~inner
+                    else: raise ValidationError("Unsupported local outline mode")
+                    touched &amp;= permitted
+                    if mode == "recolor":
+                        mapped = np.zeros((h, w), bool)
+&gt;                       for old, new in op["colors"].items():
+                                        ^^^^^^^^^^^^
+E                       KeyError: 'colors'
+
+sprite_workbench/raster.py:320: KeyError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[nonobject-map]" time="0.001"><failure message="AttributeError: 'list' object has no attribute 'items'">change = {'colors': [], 'frames': [1], 'layer': 'image', 'operation': 'map_colors', ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+layers = {'image': array([[[[  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0, ... 0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0],
+         [  0,   0,   0,   0]]]], dtype=uint8)}
+changes = [{'colors': [], 'frames': [1], 'layer': 'image', 'operation': 'map_colors', ...}]
+protected = None
+
+    def apply_edits(layers, changes, protected=None):
+        if not layers or not isinstance(changes, list) or not changes or len(changes) &gt; 1000:
+            raise ValidationError("Need named layers and1..1000ordered changes")
+        initial = {}; result = {}
+        shape = None
+        for name, value in layers.items():
+            a = np.asarray(value)
+            if a.dtype != np.uint8 or a.ndim != 4 or a.shape[-1] != 4:
+                raise ValidationError("Layer must be uint8[frames,height,width,4]")
+            if shape is not None and shape != a.shape:
+                raise ValidationError("Layer dimensions differ")
+            shape = a.shape
+            initial[name] = a.copy(); result[name] = a.copy()
+        n, h, w, _ = shape
+        if not n or w*h*n &gt; 128_000_000:
+            raise ValidationError("Layer/mask resource budget exceeded")
+        protection = {}
+        for name, mask in (protected or {}).items():
+            a = np.asarray(mask)
+            if name not in layers or a.dtype != bool or a.shape != (n, h, w):
+                raise ValidationError("Protection shape/layer mismatch")
+            protection[name] = a
+        masks = {}; audit = []
+        specific = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"},
+            "select_mask": {"name", "selector", "combine", "offsets"},
+            "flood_fill": {"seed", "expected", "color", "region", "tolerance", "connectivity", "max_pixels"},
+            "brush": {"points", "color", "size", "shape", "mode", "region", "pixel_perfect"},
+            "outline": {"mode", "color", "colors", "width", "silhouette_layers"}}
+        common = {"operation", "layer", "frames", "reason", "view", "mask"}
+        required = {"patch_pixels": {"pixels"}, "map_colors": {"region", "colors"},
+            "copy_region": {"source_layer", "source_frame", "region", "at"}, "select_mask": {"name", "selector"},
+            "flood_fill": {"seed", "expected", "color"}, "brush": {"points"}, "outline": {"mode"}}
+        for ordinal, op in enumerate(changes):
+            if not isinstance(op, dict) or op.get("operation") not in specific:
+                raise ValidationError("Unknown raster operation")
+            kind = op["operation"]
+            if set(op) - common - specific[kind]:
+                raise ValidationError("Unknown operation field")
+            if required[kind] - set(op):
+                raise ValidationError("Missing required raster operation fields")
+            name = op.get("layer", "image")
+            if name not in result or not isinstance(op.get("reason"), str) or not op["reason"].strip():
+                raise ValidationError("Operation needs known layer and observed reason")
+            indices = op.get("frames")
+            if not isinstance(indices, list) or not indices or any(type(i) != int or not 1 &lt;= i &lt;= n for i in indices) or len(set(indices)) != len(indices):
+                raise ValidationError("Frames must be unique one-based indices")
+            if kind == "select_mask":
+                label = op.get("name", "")
+                if not re.fullmatch(r"[A-Za-z][A-Za-z0-9_-]{0,63}", label):
+                    raise ValidationError("Invalid mask name")
+                offsets = op.get("offsets", [[0, 0]]*len(indices))
+                if len(offsets) != len(indices):
+                    raise ValidationError("Mask offset count differs")
+                for frame, off in zip(indices, offsets):
+                    selected = selection(result[name][frame-1], op["selector"], off)
+                    key = (label, frame)
+                    previous = masks.get(key, np.zeros((h, w), bool))
+                    mode = op.get("combine", "replace")
+                    if mode == "replace": masks[key] = selected
+                    elif mode == "add": masks[key] = previous | selected
+                    elif mode == "subtract": masks[key] = previous &amp; ~selected
+                    elif mode == "intersect": masks[key] = previous &amp; selected
+                    else: raise ValidationError("Unknown mask combine mode")
+                audit.append({"operation": kind, "ordinal": ordinal, "changed": 0})
+                continue
+            total = 0; touched_total = 0
+            for frame in indices:
+                target = result[name][frame-1]
+                before = target.copy()
+                permitted = np.ones((h, w), bool)
+                if "mask" in op:
+                    key = (op["mask"], frame)
+                    if key not in masks: raise ValidationError("Mask not declared for selected frame")
+                    permitted &amp;= masks[key]
+                touched = np.zeros((h, w), bool)
+                if "region" in op and kind != "copy_region":
+                    l, t, r, b = region(op["region"], w, h)
+                    bound = np.zeros((h, w), bool); bound[t:b+1, l:r+1] = True
+                    permitted &amp;= bound
+                if kind == "patch_pixels":
+                    pixels = op["pixels"]
+                    if not 1 &lt;= len(pixels) &lt;= 10000: raise ValidationError("Invalid patch size")
+                    seen = set()
+                    for entry in pixels:
+                        if len(entry) != 4: raise ValidationError("Patch entry needs x,y,expected,replacement")
+                        x, y = coordinate(entry[:2], w, h)
+                        old, new = color(entry[2]), color(entry[3])
+                        if (x, y) in seen: raise ValidationError("Duplicate pixel assignment")
+                        seen.add((x, y))
+                        if permitted[y, x]:
+                            if not np.array_equal(target[y, x], old): raise ValidationError("Expected pixel guard failed")
+                            target[y, x] = new; touched[y, x] = True
+                elif kind == "map_colors":
+&gt;                   mappings = [(color(k), color(v)) for k, v in op["colors"].items()]
+                                                                 ^^^^^^^^^^^^^^^^^^
+E                   AttributeError: 'list' object has no attribute 'items'
+
+sprite_workbench/raster.py:247: AttributeError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[nonarray-selector-colors]" time="0.001"><failure message="TypeError: object of type 'NoneType' has no len()">change = {'frames': [1], 'layer': 'image', 'name': 'bad', 'operation': 'select_mask', ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:128: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+sprite_workbench/raster.py:208: in apply_edits
+    selected = selection(result[name][frame-1], op["selector"], off)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+array = array([[[  0,   0,   0,   0],
+        [  0,   0,   0,   0],
+        [  0,   0,   0,   0],
+        [  0,   0,   0,   0]... 0,   0,   0],
+        [  0,   0,   0,   0],
+        [  0,   0,   0,   0],
+        [  0,   0,   0,   0]]], dtype=uint8)
+selector = {'colors': None, 'kind': 'color'}, offset = [0, 0]
+
+    def selection(array, selector, offset=(0, 0)):
+        h, w = array.shape[:2]
+        if not isinstance(selector, dict) or "kind" not in selector:
+            raise ValidationError("Selection needs a kind")
+        kind = selector["kind"]
+        result = np.zeros((h, w), bool)
+        dx, dy = offset
+        if any(type(v) != int for v in offset):
+            raise ValidationError("Offsets must be integer pairs")
+        if kind == "rectangle":
+            l, t, r, b = region(selector["region"], w, h)
+            # Offset rectangles are clipped, an explicitly local policy.
+            l, r, t, b = max(0, l+dx), min(w-1, r+dx), max(0, t+dy), min(h-1, b+dy)
+            if l &lt;= r and t &lt;= b:
+                result[t:b+1, l:r+1] = True
+        elif kind == "polygon":
+            points = selector["points"]
+            if not 3 &lt;= len(points) &lt;= 1000:
+                raise ValidationError("Polygon needs3..1000points")
+            points = [coordinate(p, w, h) for p in points]
+            yy, xx = np.mgrid[:h, :w]
+            xx, yy = xx+.5-dx, yy+.5-dy
+            # Named local even-odd pixel-center policy, not unknown vendor boundary parity.
+            for (x1, y1), (x2, y2) in zip(points, points[1:]+points[:1]):
+                if y1 != y2:
+                    result ^= ((y1 &gt; yy) != (y2 &gt; yy)) &amp; (xx &lt; (x2-x1)*(yy-y1)/(y2-y1)+x1)
+        elif kind in ("colors", "color"):
+            values = selector.get("colors", [selector.get("color")])
+&gt;           if not 1 &lt;= len(values) &lt;= 256:
+                        ^^^^^^^^^^^
+E           TypeError: object of type 'NoneType' has no len()
+
+sprite_workbench/raster.py:108: TypeError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[nonbool-pixel-perfect]" time="0.001"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">change = {'color': '#ff0000', 'frames': [1], 'layer': 'image', 'operation': 'brush', ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:128: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_invalid_conditional_raster_inputs_fail_structured[nonfinite-view]" time="0.000"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">change = {'color': '#ff0000', 'frames': [1], 'layer': 'image', 'operation': 'brush', ...}
+
+    @pytest.mark.parametrize('change',[
+        op('brush',points=[[1,1]]),
+        op('outline',mode='outside'),
+        op('outline',mode='recolor'),
+        op('map_colors',region=[0,0,1,1],colors=[]),
+        op('select_mask',name='bad',selector={'kind':'color','colors':None}),
+        op('brush',points=[[1,1]],color='#ff0000',pixel_perfect='false'),
+        op('brush',points=[[1,1]],color='#ff0000',view=float('nan')),
+    ],ids=['missing-brush-color','missing-outline-color','missing-outline-map','nonobject-map','nonarray-selector-colors','nonbool-pixel-perfect','nonfinite-view'])
+    def test_invalid_conditional_raster_inputs_fail_structured(change):
+        layers={'image':image()[None]};before=layers['image'].copy()
+&gt;       with pytest.raises(ValidationError):apply_edits(layers,[change])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:128: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_empty_layer_rejected_and_late_guard_failure_does_not_publish" time="0.000"><failure message="Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_empty_layer_rejected_and_0')
+
+    def test_empty_layer_rejected_and_late_guard_failure_does_not_publish(tmp_path):
+&gt;       with pytest.raises(ValidationError):apply_edits({'image':np.zeros((1,0,3,4),np.uint8)},[op('select_mask',name='a',selector={'kind':'alpha'})])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'sprite_workbench.core.ValidationError'&gt;
+
+tests/test_adversarial_root_implementation.py:133: Failed</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[patch-noop]" time="0.005" /><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[map-noop]" time="0.001" /><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[copy-noop]" time="0.000" /><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[fill-noop]" time="0.001" /><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[erase-noop]" time="0.000" /><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[inner-outline]" time="0.001" /><testcase classname="tests.test_adversarial_root_implementation" name="test_trusted_protection_blocks_touched_not_only_changed[outer-outline]" time="0.000" /><testcase classname="tests.test_adversarial_root_implementation" name="test_current_selection_snapshot_copy_and_outline_have_independent_oracles" time="0.000" /><testcase classname="tests.test_adversarial_root_implementation" name="test_mask_exclusion_cannot_hide_invalid_patch_coordinate_or_color" time="0.000" /><testcase classname="tests.test_adversarial_root_implementation" name="test_crop_source_node_guard_stamp_and_bounds" time="0.002" /><testcase classname="tests.test_adversarial_root_implementation" name="test_brush_interpolation_budget_rejects_before_raster_paint" time="0.030" /><testcase classname="tests.test_adversarial_root_implementation" name="test_effect_outer_shape_validation_is_structured[recipe0]" time="0.001"><failure message="AttributeError: 'list' object has no attribute 'get'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_effect_outer_shape_valida0')
+recipe = []
+
+    @pytest.mark.parametrize('recipe',[[], {'canvas':[]}, {'canvas':{'w':16,'h':16},'layers':1}])
+    def test_effect_outer_shape_validation_is_structured(tmp_path,recipe):
+&gt;       with pytest.raises(ValidationError):render_effect(Store(tmp_path),recipe)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:205: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = &lt;sprite_workbench.core.Store object at 0x71c7654be0b0&gt;, recipe = []
+
+    def render_effect(store, recipe, *, subject=None, images=None, timeout=60):
+        # Local resource profile narrows source limits, recorded as our policy.
+        payload = json.loads(canonical_json(recipe))
+&gt;       canvas = payload.get('canvas', {})
+                 ^^^^^^^^^^^
+E       AttributeError: 'list' object has no attribute 'get'
+
+sprite_workbench/effects.py:16: AttributeError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_effect_outer_shape_validation_is_structured[recipe1]" time="0.001"><failure message="AttributeError: 'list' object has no attribute 'get'">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_effect_outer_shape_valida1')
+recipe = {'canvas': []}
+
+    @pytest.mark.parametrize('recipe',[[], {'canvas':[]}, {'canvas':{'w':16,'h':16},'layers':1}])
+    def test_effect_outer_shape_validation_is_structured(tmp_path,recipe):
+&gt;       with pytest.raises(ValidationError):render_effect(Store(tmp_path),recipe)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:205: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = &lt;sprite_workbench.core.Store object at 0x71c764eabaf0&gt;
+recipe = {'canvas': []}
+
+    def render_effect(store, recipe, *, subject=None, images=None, timeout=60):
+        # Local resource profile narrows source limits, recorded as our policy.
+        payload = json.loads(canonical_json(recipe))
+        canvas = payload.get('canvas', {})
+&gt;       w, h = canvas.get('w'), canvas.get('h')
+               ^^^^^^^^^^
+E       AttributeError: 'list' object has no attribute 'get'
+
+sprite_workbench/effects.py:17: AttributeError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_effect_outer_shape_validation_is_structured[recipe2]" time="0.001"><failure message="TypeError: object of type 'int' has no len()">tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-1514/test_effect_outer_shape_valida2')
+recipe = {'canvas': {'h': 16, 'w': 16}, 'layers': 1}
+
+    @pytest.mark.parametrize('recipe',[[], {'canvas':[]}, {'canvas':{'w':16,'h':16},'layers':1}])
+    def test_effect_outer_shape_validation_is_structured(tmp_path,recipe):
+&gt;       with pytest.raises(ValidationError):render_effect(Store(tmp_path),recipe)
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_adversarial_root_implementation.py:205: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = &lt;sprite_workbench.core.Store object at 0x71c764d47770&gt;
+recipe = {'canvas': {'h': 16, 'w': 16}, 'layers': 1}
+
+    def render_effect(store, recipe, *, subject=None, images=None, timeout=60):
+        # Local resource profile narrows source limits, recorded as our policy.
+        payload = json.loads(canonical_json(recipe))
+        canvas = payload.get('canvas', {})
+        w, h = canvas.get('w'), canvas.get('h')
+        if type(w) != int or type(h) != int or not 16 &lt;= w &lt;= 512 or not 16 &lt;= h &lt;= 512:
+            raise ValidationError('Local VFX profile requires16..512whole-pixel sides')
+        frames = payload.get('frames', 8)
+        if type(frames) != int or not 1 &lt;= frames &lt;= 32:
+            raise ValidationError('Local VFX profile requires1..32frames')
+&gt;       if len(payload.get('layers', [])) &gt; 128 or len(canonical_json(payload)) &gt; 2*1024*1024:
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: object of type 'int' has no len()
+
+sprite_workbench/effects.py:23: TypeError</failure></testcase><testcase classname="tests.test_adversarial_root_implementation" name="test_pinned_factory_tampering_rejected_in_isolated_resource_copy" time="0.088" /></testsuite></testsuites>

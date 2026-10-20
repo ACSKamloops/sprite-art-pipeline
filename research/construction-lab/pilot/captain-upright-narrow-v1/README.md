@@ -1,0 +1,7 @@
+# Narrow upright control — failed visual trial, preserved
+
+New110/140 source-material walking tracks and coherent124→136 pelvis transfer reduce combat-wide foot spacing, but keys3/4 collapse into a close overlapping column. The far gold plate still splays/turns as a flat image. Additional authored distal shin underlap fills some gaps **but does not close all alpha ankle slits**, independently seen in actual silhouette playback at keys0/1 and6/7. This construction is not approved; no further parameter tuning is promoted.
+
+Same master/source-owned partition and fixed **2D projected** chains as upright-v1, not true3D bones. The source-space ankle backing is newly authored source-palette construction. The expanded-image cache is32 entries, a runtime-only optimization; no per-frame fit/limb stretch. Actual8key and72dense inputs/colour/silhouette loops are in artifacts/{eight-key,dense,audition-eight-in-place,audition-eight-moving,audition-dense-in-place,audition-dense-moving}. Constructor/render/spec/harness scripts are portable; use the same commands as upright-v1 with this folder's name. Oldoutputs refused. Rootreview remains blocking. Technical receipt cannot override it.
+
+Next work is authored3D bone/contact/camera projection data for genuinely sagittal motion/foreshortening and source-guided alternative art. A single reference image does not provide unknown depth surfaces or true anatomical measurements.

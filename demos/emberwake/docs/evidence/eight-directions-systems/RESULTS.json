@@ -1,0 +1,116 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "cases": [
+    {
+      "case": "eight_directions.gd",
+      "exit_code": 0,
+      "seconds": 6.571,
+      "passed": true,
+      "errors": [],
+      "expected": "EIGHT_DIRECTIONS PASS: (\\d+) assertions",
+      "log": "eight_directions.gd.log",
+      "report_output_redirected_only": false,
+      "rerun_after_test_timer_fix": true,
+      "prior_failure_log": "fixture-first-expanded-run-failed.log"
+    },
+    {
+      "case": "systems_smoke.gd",
+      "exit_code": 0,
+      "seconds": 3.505,
+      "passed": true,
+      "errors": [],
+      "expected": "SYSTEMS_SMOKE PASS: 114 behavioral checks",
+      "log": "systems_smoke.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "world_smoke.gd",
+      "exit_code": 0,
+      "seconds": 0.525,
+      "passed": true,
+      "errors": [],
+      "expected": "WORLD PASS: 56 assertions",
+      "log": "world_smoke.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "pause_smoke.gd",
+      "exit_code": 0,
+      "seconds": 1.834,
+      "passed": true,
+      "errors": [],
+      "expected": "PAUSE PASS: 26 assertions",
+      "log": "pause_smoke.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "routes_smoke.gd",
+      "exit_code": 0,
+      "seconds": 0.534,
+      "passed": true,
+      "errors": [],
+      "expected": "ROUTE SAMPLES: 378; blocked: \\[\\]",
+      "log": "routes_smoke.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "regressions.gd",
+      "exit_code": 0,
+      "seconds": 4.257,
+      "passed": true,
+      "errors": [],
+      "expected": "REGRESSIONS PASS: 20 assertions",
+      "log": "regressions.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "final_polish.gd",
+      "exit_code": 0,
+      "seconds": 0.535,
+      "passed": true,
+      "errors": [],
+      "expected": "FINAL_POLISH PASS: 34 assertions",
+      "log": "final_polish.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "combat_readability.gd",
+      "exit_code": 0,
+      "seconds": 22.847,
+      "passed": true,
+      "errors": [],
+      "expected": "COMBAT_READABILITY PASS: 30 assertions",
+      "log": "combat_readability.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "character_selection.gd",
+      "exit_code": 0,
+      "seconds": 0.812,
+      "passed": true,
+      "errors": [],
+      "expected": "CHARACTER_SELECTION PASS: 40 assertions",
+      "log": "character_selection.gd.log",
+      "report_output_redirected_only": false
+    },
+    {
+      "case": "spells_v2.gd",
+      "exit_code": 0,
+      "seconds": 0.989,
+      "passed": true,
+      "errors": [],
+      "expected": "SPELLS_V2 PASS: (\\d+) assertions",
+      "log": "spells_v2.gd.log",
+      "report_output_redirected_only": true
+    }
+  ],
+  "all_passed": true,
+  "existing_baseline_assertions": 400,
+  "route_samples": 378,
+  "production_diagonal_art_verified": false,
+  "note": "Original nine baseline scripts retain assertions. spells_v2 report path alone redirected to this folder in a temporary copy to preserve earlier evidence. New eight-direction test uses synthetic fixture art.",
+  "tested_files": {
+    "scripts/hero.gd": "90d171ebde0d0485247b4810f41865f212d84fbd6ac4fe231b97b1c59f97e641",
+    "tests/eight_directions.gd": "0adb0a5ee6fba82203efee81d178659056c4dcaf52262e8aea308ad8a8ac0f6c"
+  }
+}

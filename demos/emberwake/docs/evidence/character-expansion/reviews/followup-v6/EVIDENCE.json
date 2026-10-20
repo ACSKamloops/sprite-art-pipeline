@@ -1,0 +1,5493 @@
+{
+  "input_hashes": {
+    "lyra": {
+      "atlas.png": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901",
+      "animations.json": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f",
+      "BAKE-RECEIPT.json": "2043934dc3b3dd39dec641dff2171d7973be74da23e0158615a798aa9e8cf257",
+      "GAIT-REPAIR-RECEIPT.json": "3e929f36062280c99438dc2daad8a1b427701995320691b082201719af76f3ba"
+    },
+    "brann": {
+      "atlas.png": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4",
+      "animations.json": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921",
+      "BAKE-RECEIPT.json": "254e8c94fea46ca326424c3a821ef057f64eb338462c0c56b8f7fcd7e7865b3a",
+      "GAIT-REPAIR-RECEIPT.json": "d874df2604e6cfd99c652fea5893c456e16a8993304882018721886e9f2503a8"
+    }
+  },
+  "baseline_hashes": {
+    "lyra": {
+      "atlas.png": "ab6250e483b538a626fa54d4140a4436e7d8e8ebd1ab8ae252e81c09516e0bf1",
+      "animations.json": "70965e15fa670d9b2c004aed9b3dfd5dbeb2df40b667a45f22972ffc2e58b9d7",
+      "receipt.json": "c732023fd9e7ce67c8ab9bf58198926a56adcfe0294574354979af504f2980d8"
+    },
+    "brann": {
+      "atlas.png": "1ef38acfc4a45c448fbb79cac35ec13880241eeabb7beb0744ef24f4d85980f9",
+      "animations.json": "f1e027c3e04f989645ea18f3de5d4d73a83287cf880439543a5aad3e6e613a02",
+      "receipt.json": "d020bb74c29c632018a8fcc6201f286871abfeca1636153801c11cd55c67da6f"
+    }
+  },
+  "comparison_v5": {
+    "lyra": {
+      "first128_changed": [],
+      "clip_comparison": {
+        "south_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              14,
+              15
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              14,
+              15
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "south_walk": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              0,
+              120,
+              121,
+              112,
+              4,
+              122,
+              123,
+              113
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              0,
+              120,
+              121,
+              132,
+              4,
+              122,
+              123,
+              133
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "south_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              116,
+              14
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              116,
+              14
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "south_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "south_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              22,
+              23,
+              14
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              22,
+              23,
+              14
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "south_dodge": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              24,
+              25,
+              26,
+              116,
+              27
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              24,
+              25,
+              26,
+              128,
+              27
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        },
+        "east_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              42,
+              43
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              42,
+              43
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "east_walk": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "east_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              117,
+              42
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              117,
+              42
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "east_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "east_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              50,
+              51,
+              42
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              50,
+              51,
+              42
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "east_dodge": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              52,
+              53,
+              54,
+              117,
+              55
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              52,
+              53,
+              54,
+              129,
+              55
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        },
+        "north_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              70,
+              71
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              70,
+              71
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "north_walk": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              56,
+              124,
+              125,
+              114,
+              61,
+              126,
+              127,
+              115
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              56,
+              124,
+              125,
+              134,
+              61,
+              126,
+              127,
+              135
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "north_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              118,
+              70
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              118,
+              70
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "north_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "north_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              78,
+              79,
+              70
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              78,
+              79,
+              70
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "north_dodge": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              80,
+              81,
+              82,
+              118,
+              83
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              80,
+              81,
+              82,
+              130,
+              83
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        },
+        "west_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              98,
+              99
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              98,
+              99
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "west_walk": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "west_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              119,
+              98
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              119,
+              98
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "west_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "west_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              106,
+              107,
+              98
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              106,
+              107,
+              98
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "west_dodge": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              108,
+              109,
+              110,
+              119,
+              111
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              108,
+              109,
+              110,
+              131,
+              111
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        }
+      },
+      "transfer_clips": [
+        "south_idle",
+        "south_attack",
+        "south_cast",
+        "south_hurt",
+        "east_idle",
+        "east_walk",
+        "east_attack",
+        "east_cast",
+        "east_hurt",
+        "north_idle",
+        "north_attack",
+        "north_cast",
+        "north_hurt",
+        "west_idle",
+        "west_walk",
+        "west_attack",
+        "west_cast",
+        "west_hurt"
+      ],
+      "fresh_clips": [
+        "south_walk",
+        "south_dodge",
+        "east_dodge",
+        "north_walk",
+        "north_dodge",
+        "west_dodge"
+      ],
+      "nonanimation_metadata_unchanged": {
+        "cell": true,
+        "columns": true,
+        "pivot": true,
+        "draw_scale": true,
+        "cast_hand": true,
+        "cast_release_index": true
+      }
+    },
+    "brann": {
+      "first128_changed": [],
+      "clip_comparison": {
+        "south_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              14,
+              15
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              14,
+              15
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "south_walk": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              0,
+              120,
+              121,
+              112,
+              5,
+              122,
+              123,
+              113
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              0,
+              120,
+              121,
+              129,
+              5,
+              122,
+              123,
+              130
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "south_attack": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              116,
+              14
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              128,
+              14
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "south_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "south_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              22,
+              23,
+              14
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              22,
+              23,
+              14
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "south_dodge": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              24,
+              25,
+              26,
+              116,
+              27
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              24,
+              25,
+              26,
+              128,
+              27
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        },
+        "east_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              42,
+              43
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              42,
+              43
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "east_walk": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "east_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              117,
+              42
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              117,
+              42
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "east_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              44,
+              45,
+              46,
+              47,
+              48,
+              49
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "east_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              50,
+              51,
+              42
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              50,
+              51,
+              42
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "east_dodge": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              52,
+              53,
+              54,
+              117,
+              55
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              52,
+              53,
+              54,
+              117,
+              55
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        },
+        "north_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              70,
+              71
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              70,
+              71
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "north_walk": {
+          "pixels_match": false,
+          "holds_loop_match": true,
+          "transfer": false,
+          "old": {
+            "frames": [
+              56,
+              124,
+              125,
+              114,
+              61,
+              126,
+              127,
+              115
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              56,
+              124,
+              125,
+              131,
+              61,
+              126,
+              127,
+              132
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "north_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              118,
+              70
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              118,
+              70
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "north_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              72,
+              73,
+              74,
+              75,
+              76,
+              77
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "north_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              78,
+              79,
+              70
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              78,
+              79,
+              70
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "north_dodge": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              80,
+              81,
+              82,
+              118,
+              83
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              80,
+              81,
+              82,
+              118,
+              83
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        },
+        "west_idle": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              98,
+              99
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              98,
+              99
+            ],
+            "holds": [
+              0.58,
+              0.58
+            ],
+            "loop": true
+          }
+        },
+        "west_walk": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          },
+          "new": {
+            "frames": [
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91
+            ],
+            "holds": [
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625,
+              0.05625
+            ],
+            "loop": true
+          }
+        },
+        "west_attack": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              119,
+              98
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97,
+              119,
+              98
+            ],
+            "holds": [
+              0.06,
+              0.07,
+              0.055,
+              0.055,
+              0.065,
+              0.035,
+              0.035,
+              0.035
+            ],
+            "loop": false
+          }
+        },
+        "west_cast": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              100,
+              101,
+              102,
+              103,
+              104,
+              105
+            ],
+            "holds": [
+              0.06,
+              0.08,
+              0.1,
+              0.08,
+              0.08,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "west_hurt": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              106,
+              107,
+              98
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              106,
+              107,
+              98
+            ],
+            "holds": [
+              0.09,
+              0.1,
+              0.1
+            ],
+            "loop": false
+          }
+        },
+        "west_dodge": {
+          "pixels_match": true,
+          "holds_loop_match": true,
+          "transfer": true,
+          "old": {
+            "frames": [
+              108,
+              109,
+              110,
+              119,
+              111
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          },
+          "new": {
+            "frames": [
+              108,
+              109,
+              110,
+              119,
+              111
+            ],
+            "holds": [
+              0.045,
+              0.105,
+              0.055,
+              0.0275,
+              0.0275
+            ],
+            "loop": false
+          }
+        }
+      },
+      "transfer_clips": [
+        "south_idle",
+        "south_cast",
+        "south_hurt",
+        "east_idle",
+        "east_walk",
+        "east_attack",
+        "east_cast",
+        "east_hurt",
+        "east_dodge",
+        "north_idle",
+        "north_attack",
+        "north_cast",
+        "north_hurt",
+        "north_dodge",
+        "west_idle",
+        "west_walk",
+        "west_attack",
+        "west_cast",
+        "west_hurt",
+        "west_dodge"
+      ],
+      "fresh_clips": [
+        "south_walk",
+        "south_attack",
+        "south_dodge",
+        "north_walk"
+      ],
+      "nonanimation_metadata_unchanged": {
+        "cell": true,
+        "columns": true,
+        "pivot": true,
+        "draw_scale": true,
+        "cast_hand": true,
+        "cast_release_index": true
+      }
+    }
+  },
+  "preferred_candidate_matches": {
+    "lyra": {
+      "128": {
+        "candidate": "/home/astra/artifacts/emberwake-dodge-head-v1/candidates/south.png",
+        "file_sha256": "24706e44bf40b492de0a4e299d9477f1298eadb1ce17b9a8c15822a62f1fe0d4",
+        "RGBA_sha256": "c129b9e0897b99e541a971427a86d8c52ce42edf40c8cf3ee7aec24ecd6a415e",
+        "exact": true
+      },
+      "129": {
+        "candidate": "/home/astra/artifacts/emberwake-dodge-head-v1/candidates/east.png",
+        "file_sha256": "b3679824af9422d08b35bd12430c2fabb742e08e364faa8204171977f619fad2",
+        "RGBA_sha256": "7de74531bf4bc094e5f796bd83be9db98b5e99958b54424b7bdeeb5957dce912",
+        "exact": true
+      },
+      "130": {
+        "candidate": "/home/astra/artifacts/emberwake-dodge-head-v1/candidates/north.png",
+        "file_sha256": "9f75e715276d3628e52c60ab568dedb4aebbc058733006ff21778cda2659cfeb",
+        "RGBA_sha256": "68bd2b4b543758ed7d2549c3b61b8448a98bb5ecb4638c51ca59b23f2775de32",
+        "exact": true
+      },
+      "131": {
+        "candidate": "/home/astra/artifacts/emberwake-dodge-head-v1/candidates/west.png",
+        "file_sha256": "851e0f46749cc552d4ae8099de7c252f8ad4a54ec7411eb67d4137705628cbea",
+        "RGBA_sha256": "3540b6ff113733b422d28de2c972289dd2984d363adf9fb3f4f10ef752596905",
+        "exact": true
+      },
+      "132": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/lyra/passing-112.png",
+        "file_sha256": "a181746d0cffbd6fee1b56c671779729fac5c6c661cfba2a6dad56ca148cbb75",
+        "RGBA_sha256": "7a3e6462e502921af9559c29cae057a30d60dbe4f3496efbaf57b92b0c1e6a4d",
+        "exact": true
+      },
+      "133": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/lyra/passing-113.png",
+        "file_sha256": "10843f24ed8e9ee9f54574e1516e311e17286c2ca1de510623095261a4629dde",
+        "RGBA_sha256": "dd68f8313b0d5a6b64d5616e77b1abe578a4703d662ce428dfe417207ac3437d",
+        "exact": true
+      },
+      "134": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/lyra/passing-114.png",
+        "file_sha256": "bb690abc737e11d6ecf35131ca0cb855c5a133637aa02e7813bc3a3facf66a48",
+        "RGBA_sha256": "dd686023e2af1a65b247ce9249f2d70bc9bed6d5e1bca31221d7d51d585a6b63",
+        "exact": true
+      },
+      "135": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/lyra/passing-115.png",
+        "file_sha256": "210f2067151278a83ca4d02386f3e784d5e15ac2e6cc06c9c735f450c4301f48",
+        "RGBA_sha256": "e0dee8edaf9f3cc7f3e2edc50da8fdddc8e2b9fdecddec1c04159e44fcd9a729",
+        "exact": true
+      }
+    },
+    "brann": {
+      "128": {
+        "candidate": "/home/astra/projects/emberwake-demo/art-source/settle-trim-v1/candidate.png",
+        "file_sha256": "ff2156ca3f01a77667e3a6e54a343654a4f42826ac175a7a7547746474e67020",
+        "RGBA_sha256": "5e171a61b3c43d3e005fd3ef29918f1bd184b0e34c984998aafb32180642c5bf",
+        "exact": true
+      },
+      "129": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/brann/passing-112.png",
+        "file_sha256": "0cacb3d14360a6f4938130ad09cdc692e4e5d5491cf7e0f2def9cc3474da1b1d",
+        "RGBA_sha256": "fdf370161368f43d26806a078f5e810502f212feeacdc4b534e9791bb57368ea",
+        "exact": true
+      },
+      "130": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/brann/passing-113.png",
+        "file_sha256": "d757114d9a7b718ee467d1563266a89b2a8172fba2d656fc29c3089a899aeeee",
+        "RGBA_sha256": "4053f850446aa8c9ef51c72f81bce02aafecd2202b4e46cf9d18b60e17778e88",
+        "exact": true
+      },
+      "131": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/brann/passing-114.png",
+        "file_sha256": "005e41a6d5da36de24708247864d9e859e2418674b62d1e5ed941871be2d8e19",
+        "RGBA_sha256": "94356a45462ff40f83beb218aab5186ee154f36fa6c831e82df0699115538392",
+        "exact": true
+      },
+      "132": {
+        "candidate": "/home/astra/artifacts/emberwake-passing-boots-v1/candidate/brann/passing-115.png",
+        "file_sha256": "13b2ccf9db1575182453997e35641964ece9d7124b01ca45d77d1f358791a99a",
+        "RGBA_sha256": "21cecdde408cf98f94325450f99a9b2468f01347f0ee0bd21192ce46a3590288",
+        "exact": true
+      }
+    }
+  },
+  "clips": {
+    "lyra": {
+      "south_idle": {
+        "frames": [
+          14,
+          15
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "e72bfe77586122d6159372493fa5b16be233c3516989ad4a09231e1051129cfc",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "south_walk": {
+        "frames": [
+          0,
+          120,
+          121,
+          132,
+          4,
+          122,
+          123,
+          133
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "f86950988994584e07cad97bb9bc35d7c0b54057f5c869ad5e7d8f573a55b10a",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "south_attack": {
+        "frames": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          116,
+          14
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "0681efc3cf237deb8ac21cc58e693d13050d18316beed4d300e645a9050eda82",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "south_cast": {
+        "frames": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "adb033ef21b1ce8d851a1ce32a81d1b031df94e621700a5a98f4e13387c987a8",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "south_hurt": {
+        "frames": [
+          22,
+          23,
+          14
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "3a572ced2b5e72e8973587716f7851bf01772bf348d90e67d50af3e37f73d4b5",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "south_dodge": {
+        "frames": [
+          24,
+          25,
+          26,
+          128,
+          27
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "7821fc517de49fdfc489ea4731aeb5802e7a70a6307ba67636e0ce74acfa6cb3",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      },
+      "east_idle": {
+        "frames": [
+          42,
+          43
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "055976de2d4c4c14f18c3d233dcd8170959e74e6aa5fb23acc48191d216e7367",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "east_walk": {
+        "frames": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "62d85e65f46cd978d8c4e43041d89270c4e14b80982f692c9d2e9eab972a3f8d",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "east_attack": {
+        "frames": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          117,
+          42
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "81685181a69eb829d0a1cf570416fc3e140d3b878597a002f64acf093cfb6964",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "east_cast": {
+        "frames": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "10ce230855650354614d16225fb643b3b42239440f955d898ebf30c1cb624523",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "east_hurt": {
+        "frames": [
+          50,
+          51,
+          42
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "84af39cb7a470daaf9404271958dda6d65665d69e41591ed07e670e690f80dd2",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "east_dodge": {
+        "frames": [
+          52,
+          53,
+          54,
+          129,
+          55
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "d02144d7bef26e89ece5a4ee851978cf315812b8ed180fe5611926579d9fb472",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      },
+      "north_idle": {
+        "frames": [
+          70,
+          71
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "243645977d33dcc66d2048c1584c23dec06253c65381a5fc0d44ec690c90d20d",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "north_walk": {
+        "frames": [
+          56,
+          124,
+          125,
+          134,
+          61,
+          126,
+          127,
+          135
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "ccab8e0a78f562a33a808a9388a9267195920a6b594afdde0f23170e587d99b4",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "north_attack": {
+        "frames": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          118,
+          70
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "8beb0f9a63b7ad81bf051a0b86311226c5dfdd2bac3dded9fe2dc2e1d9606305",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "north_cast": {
+        "frames": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "32f4bf9cf340c3ad137bf2e8ccebf5d460d003a6cc372372de7e2c64c1e718a9",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "north_hurt": {
+        "frames": [
+          78,
+          79,
+          70
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "d6f9e6fc5757c96ca062b29adc89dbdc5cb42a412d910438e8674ece5219431a",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "north_dodge": {
+        "frames": [
+          80,
+          81,
+          82,
+          130,
+          83
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "829ba4c627bd7a47653234a6dd7fb17c70403ac94d0a1409ae0e9a71449144e2",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      },
+      "west_idle": {
+        "frames": [
+          98,
+          99
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "af29b76ee6a802ba9b1ae084b3b4e3065d6a9571ed62a7b3a7cf6c7fc113187f",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "west_walk": {
+        "frames": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "096137508953329d13b8a564eee55c1a37037a0b133ca0048fd664081f144448",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "west_attack": {
+        "frames": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          119,
+          98
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "70aad36ee0cec6f5a4c49f0f83f368870de9ad39d0fd09dba2753560bc89356e",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "west_cast": {
+        "frames": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "f43a5c77ac69905ce2f8becb8043e3b029b167576bb0f369a0ef82e1b8374226",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "west_hurt": {
+        "frames": [
+          106,
+          107,
+          98
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "c1e02741ed363b6039ae9ded45beb13b2b1cead666af9ec372b4c937fd6b638d",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "west_dodge": {
+        "frames": [
+          108,
+          109,
+          110,
+          131,
+          111
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "c1fe646663a604180bbc162cb37441c7e62918b8ae1a3d50a5289d37162ff0ab",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      }
+    },
+    "brann": {
+      "south_idle": {
+        "frames": [
+          14,
+          15
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "1b7c0c281c38ef010abb48484aed9cbfb12814b7addc7d1b3f04c18773f1e469",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "south_walk": {
+        "frames": [
+          0,
+          120,
+          121,
+          129,
+          5,
+          122,
+          123,
+          130
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "4af71fd0b88690a95237e7ab8a5ea3c3911dde53f73c3b221661af1687f54e8d",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "south_attack": {
+        "frames": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          128,
+          14
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "3934d16359392bd874e99a172226ce3a85086c4bda2500e1b36d0c41d6ec71a3",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "south_cast": {
+        "frames": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "0ed888ed9b0098c3e0995dd6fd356d5874585a6f34797064f207cafc947754a3",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "south_hurt": {
+        "frames": [
+          22,
+          23,
+          14
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "150a057c55d7cbf81ad11982be5486416ab2626b4c2aecaa19cb338f3552bcfe",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "south_dodge": {
+        "frames": [
+          24,
+          25,
+          26,
+          128,
+          27
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "328ce4c8c3c2226ba0ff0057b1eddaa96a42e2cab074ac77e757209b870aea3f",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      },
+      "east_idle": {
+        "frames": [
+          42,
+          43
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "f1c238c56fbe857a31a29a369f2af047ddb0ef36d1ffccde5752423c1cac9416",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "east_walk": {
+        "frames": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "a1205ff1940130c917020d451171f790c12780babe88389dfbb8eb4866e5ff32",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "east_attack": {
+        "frames": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          117,
+          42
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "1d16787c39c7f2d96777707920a3edc1cf12ef1316844b779567ce1b85683d02",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "east_cast": {
+        "frames": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "a8a8cc44aea19055aa58ff26ac5d227debe0e5fa9388ff603c1298c68c20e682",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "east_hurt": {
+        "frames": [
+          50,
+          51,
+          42
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "8b61ea08dba53e572fce8e80469d0b85c6e350c0a8e9efc27662bb90d563779f",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "east_dodge": {
+        "frames": [
+          52,
+          53,
+          54,
+          117,
+          55
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "0c01ef036a9cff3b5530cafac9068fc7806ce2f28bd46e0891d3c098fc988346",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      },
+      "north_idle": {
+        "frames": [
+          70,
+          71
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "ad1a90c2cf982d25885d830d00ab767f83fef3776924e5fe0542d4450d67785d",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "north_walk": {
+        "frames": [
+          56,
+          124,
+          125,
+          131,
+          61,
+          126,
+          127,
+          132
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "28061c8988661a75f52b4e806babd599e11d52e32565aa684d04c70bd44bacfb",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "north_attack": {
+        "frames": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          118,
+          70
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "783eb473b808db5b0a2af1592ee3baa41721ba3ddcb952ea268e8ab76322d373",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "north_cast": {
+        "frames": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "5c867aef7bea419d31ec836cd03d42005b77fffd6aa7f497731710c3d7b9d764",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "north_hurt": {
+        "frames": [
+          78,
+          79,
+          70
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "24e97e72f736ea6528f769c98117487e0a6d949ce197e65771cdac134b8ff72c",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "north_dodge": {
+        "frames": [
+          80,
+          81,
+          82,
+          118,
+          83
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "5aa9cf88ef4fae2333fea39a20b9a60aae003263ffc419bc14e968bf44eb5385",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      },
+      "west_idle": {
+        "frames": [
+          98,
+          99
+        ],
+        "holds": [
+          0.58,
+          0.58
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "c1731b82cb13ac44b6c44d9f1f7a2bfcc85bbcda04ae5bc9ea6491c7e888f815",
+          "duration": "29/25",
+          "frames": 2,
+          "delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ]
+        }
+      },
+      "west_walk": {
+        "frames": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ],
+        "holds": [
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625,
+          0.05625
+        ],
+        "loop": true,
+        "media": {
+          "sha256": "f8ff14cde8b562a331fcc7dcba6beb6fe0777debc577ec5f24fa6fac99c5473d",
+          "duration": "9/20",
+          "frames": 8,
+          "delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ]
+        }
+      },
+      "west_attack": {
+        "frames": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          119,
+          98
+        ],
+        "holds": [
+          0.06,
+          0.07,
+          0.055,
+          0.055,
+          0.065,
+          0.035,
+          0.035,
+          0.035
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "ad5856f2e757063213375f3f1afd1c6ec71d177e6b7d668a2afabb0bb2231968",
+          "duration": "41/100",
+          "frames": 8,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ],
+            [
+              7,
+              200
+            ]
+          ]
+        }
+      },
+      "west_cast": {
+        "frames": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "holds": [
+          0.06,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "7fba3aecd19fa5240a5ea07372df18f4123175525dcc72542a46cf0f44327f43",
+          "duration": "1/2",
+          "frames": 6,
+          "delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "west_hurt": {
+        "frames": [
+          106,
+          107,
+          98
+        ],
+        "holds": [
+          0.09,
+          0.1,
+          0.1
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "f346b398f43b7deb59ca454fc50d103f940ab184a7301adc2d70e6a79eb0feb7",
+          "duration": "29/100",
+          "frames": 3,
+          "delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ]
+        }
+      },
+      "west_dodge": {
+        "frames": [
+          108,
+          109,
+          110,
+          119,
+          111
+        ],
+        "holds": [
+          0.045,
+          0.105,
+          0.055,
+          0.0275,
+          0.0275
+        ],
+        "loop": false,
+        "media": {
+          "sha256": "9e3dad561b7e507623f4e98e0c8739c6ac839a1011a31d0e3c9a74149941b8f0",
+          "duration": "13/50",
+          "frames": 5,
+          "delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              400
+            ],
+            [
+              11,
+              400
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "counts": {
+    "lyra": {
+      "clips": 24,
+      "physical_cells": 136,
+      "nonempty_cells": 136,
+      "declared_repair_cells": 8,
+      "original_128_preserved": true,
+      "timeline_presentations": 128,
+      "selected_unique": 120
+    },
+    "brann": {
+      "clips": 24,
+      "physical_cells": 136,
+      "nonempty_cells": 133,
+      "declared_repair_cells": 5,
+      "original_128_preserved": true,
+      "timeline_presentations": 128,
+      "selected_unique": 116
+    }
+  },
+  "joins": {
+    "lyra": [
+      {
+        "clip": "south_walk",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 0,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_walk",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 133,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "south_walk",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 0,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_walk",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 133,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "south_attack",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 8,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_attack",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_attack",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 8,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_attack",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 16,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 21,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 16,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 21,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 22,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 22,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 24,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 27,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 24,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 27,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 28,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 35,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 28,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 35,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 36,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 36,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 44,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 49,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 44,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 49,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 50,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 50,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 52,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 55,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 52,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 55,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_walk",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 56,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_walk",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 135,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "north_walk",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 56,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_walk",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 135,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "north_attack",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 64,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_attack",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_attack",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 64,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_attack",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 72,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 77,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 72,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 77,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 78,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 78,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 80,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 83,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 80,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 83,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 84,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 91,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 84,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 91,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 92,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 92,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 100,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 105,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 100,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 105,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 106,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 106,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 108,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 111,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 108,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 111,
+        "pixels_unchanged_v5": true
+      }
+    ],
+    "brann": [
+      {
+        "clip": "south_walk",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 0,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_walk",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 130,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "south_walk",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 0,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_walk",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 130,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "south_attack",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 8,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_attack",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_attack",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 8,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_attack",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 16,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 21,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 16,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_cast",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 21,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 22,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 22,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_hurt",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 14,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 14,
+        "endpoint": 0,
+        "frame": 24,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 14,
+        "endpoint": -1,
+        "frame": 27,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 15,
+        "endpoint": 0,
+        "frame": 24,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "south_dodge",
+        "idle": 15,
+        "endpoint": -1,
+        "frame": 27,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 28,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 35,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 28,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_walk",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 35,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 36,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 36,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_attack",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 44,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 49,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 44,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_cast",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 49,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 50,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 50,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_hurt",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 42,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 42,
+        "endpoint": 0,
+        "frame": 52,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 42,
+        "endpoint": -1,
+        "frame": 55,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 43,
+        "endpoint": 0,
+        "frame": 52,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "east_dodge",
+        "idle": 43,
+        "endpoint": -1,
+        "frame": 55,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_walk",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 56,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_walk",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 132,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "north_walk",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 56,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_walk",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 132,
+        "pixels_unchanged_v5": false
+      },
+      {
+        "clip": "north_attack",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 64,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_attack",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_attack",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 64,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_attack",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 72,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 77,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 72,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_cast",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 77,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 78,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 78,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_hurt",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 70,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 70,
+        "endpoint": 0,
+        "frame": 80,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 70,
+        "endpoint": -1,
+        "frame": 83,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 71,
+        "endpoint": 0,
+        "frame": 80,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "north_dodge",
+        "idle": 71,
+        "endpoint": -1,
+        "frame": 83,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 84,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 91,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 84,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_walk",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 91,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 92,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 92,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_attack",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 100,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 105,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 100,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_cast",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 105,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 106,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 106,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_hurt",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 98,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 98,
+        "endpoint": 0,
+        "frame": 108,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 98,
+        "endpoint": -1,
+        "frame": 111,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 99,
+        "endpoint": 0,
+        "frame": 108,
+        "pixels_unchanged_v5": true
+      },
+      {
+        "clip": "west_dodge",
+        "idle": 99,
+        "endpoint": -1,
+        "frame": 111,
+        "pixels_unchanged_v5": true
+      }
+    ]
+  },
+  "input_fingerprint": "ee1476d39b69e89045c63f23b8e8e7584fce348d767b004d70654fe7f5af9ca1"
+}

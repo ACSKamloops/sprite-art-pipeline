@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "checked_utc": "2026-10-14T02:18:16.408825+00:00",
+  "scope": "Selected retained evidence hashes, all nine captured PixelLab PNGs, first-source identity, new review links and credential-literal absence; no new generation or art acceptance",
+  "evidence_hashes_checked": 9,
+  "all_evidence_hashes_match": true,
+  "returned_pngs": [
+    {
+      "frame": 0,
+      "sha256": "29266199aec2e9e233beff3c5656be047dd7494838df61b058da422750ecd2fb",
+      "bytes": 60472,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 1,
+      "sha256": "5640d4bd70d92888730f27495b46fa526ada6724837890d68dbc360d484bc778",
+      "bytes": 44299,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 2,
+      "sha256": "86fd1a8066e9424b8b25b6199a9c17c4c74e3224cfb40ada7da6b610706d4fcd",
+      "bytes": 42359,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 3,
+      "sha256": "695d814a5572f1c4b4c158345e2e72c4653f7de35fc00eb47fb41f45b547ef49",
+      "bytes": 39851,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 4,
+      "sha256": "513d856f8d3277e2bf353242ac0ba5aed1302f52f9bd7a10222f0d9371fb7b16",
+      "bytes": 38583,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 5,
+      "sha256": "a7a07c14c8ba61658ce2f57381fc28a424e150c4f6fde7c9319d9fecd8460472",
+      "bytes": 40886,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 6,
+      "sha256": "bc605208a0e5d2a5b52f547a0aa9ad1b52a6fbff20b69c64761865357370f7b9",
+      "bytes": 41012,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 7,
+      "sha256": "e1d8b61a144d777fe8181a4df5c9587b6c7aec84582c6a437685469e63aa3975",
+      "bytes": 39573,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    },
+    {
+      "frame": 8,
+      "sha256": "82f9a86d6ab8aacd29d8c375bddc6d11179028b93bd119de5cbf1e3e687418b0",
+      "bytes": 39199,
+      "width": 256,
+      "height": 256,
+      "byte_match": true
+    }
+  ],
+  "frame_zero_byte_exact_to_submitted_png": true,
+  "review_relative_links_checked": 16,
+  "active_minimax_credential_literals_absent": true,
+  "credential_values_retained": false,
+  "runtime_edits": 0,
+  "new_image_generation_calls": 0,
+  "new_video_generation_calls": 0,
+  "independent_review": {
+    "reviewer": "source_controls",
+    "material_findings": 1,
+    "resolved": 1,
+    "finding": "Ambiguous native-source terminology corrected to avoid implying direct MiniMax H3 generation."
+  }
+}

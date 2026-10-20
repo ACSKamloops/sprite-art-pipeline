@@ -1,0 +1,272 @@
+{
+  "version": 1,
+  "recorded_utc": "2026-10-14T00:43:57.709057+00:00",
+  "checks": [
+    {
+      "name": "real browser paint retained at exact cel coordinate",
+      "passed": true
+    },
+    {
+      "name": "undo and redo returned to exact verified checkpoint",
+      "passed": true
+    },
+    {
+      "name": "render retains shared cel frame dependencies",
+      "passed": true
+    },
+    {
+      "name": "saved plan executed as actual local pipeline job",
+      "passed": true
+    },
+    {
+      "name": "grammar, transport and interface tabs rendered",
+      "passed": true
+    },
+    {
+      "name": "local method invoked through real controls",
+      "passed": true
+    },
+    {
+      "name": "captured vendor method is visibly unavailable",
+      "passed": true
+    },
+    {
+      "name": "setup button disables during job and refreshes on completion",
+      "passed": true
+    },
+    {
+      "name": "narrow viewport has no document overflow",
+      "passed": true
+    },
+    {
+      "name": "live setup proof matches final runtime",
+      "passed": true
+    }
+  ],
+  "observations": {
+    "final-editor-dom": {
+      "project": "e2d97779e0805160494bcbc3c35667f49da2a11a1672a403d1bd522c9cc7c57b",
+      "history": "595ff90e44362476e6264209e533a6f9b4a9ff041a6603a1660082cae52622db",
+      "sequence": "9f22e901d2d9f60332e969fd8b1939cecbec82f3b1995a618abecbd0fbf0afee",
+      "undoDisabled": false,
+      "redoDisabled": true,
+      "errorVisible": false
+    },
+    "plan-status": {
+      "plan": "7a4ea5b982301dca87ccb0ae00d04365797c8530b9eaa854385cd54d6b773ffa",
+      "detail": "{\n  \"artifact\": \"2b8e177927b702573b725eb86a3bce76d4790ded4d1b6b73484b114d50985d69\",\n  \"attempt\": 1,\n  \"cancel_requested\": false,\n  \"created\": 1791937821.3510764,\n  \"error\": null,\n  \"expected\": null,\n  \"handler\": \"local.pipeline\",\n  \"head\": null,\n  \"id\": \"96bd32226a7f442d8e9f6d30a176c7df\",\n  \"metadata\": {},\n  \"outputs\": [\n    {\n      \"artifact_id\": \"2b8e177927b702573b725eb86a3bce76d4790ded4d1b6b73484b114d50985d69\",\n      \"disposition\": \"candidate\",\n      \"metadata\": {\n        \"run\": \"8e8e598c762c9985031aa5c0185742c80fa86486c70aa2f54f6671e9c4b9fd8e\",\n        \"visual_approval\": \"unreviewed\"\n      },\n      \"result_status\": \"candidate\",\n      \"time\": 1791937821.4212556\n    }\n  ],\n  \"owner\": \"e59afcb090ff4c3d9e281a62936bda14\",\n  \"progress\": 1,\n  \"request_id\": \"26554a4154c837505328c20067f258deb8eccae8f4929efc22114731ea0c2c90\",\n  \"result_status\": \"candidate\",\n  \"retry_of\": null,\n  \"status\": \"completed\",\n  \"updated\": 1791937821.4212854\n}",
+      "error": ""
+    },
+    "grammar-dom": {
+      "summary": "108 of 108 grammar shown. Status describes the recorded scope; inspect evidence and unresolved branches individually.",
+      "rows": 108,
+      "title": "Primitive \u00b7 copy",
+      "record": {
+        "id": "primitive:copy",
+        "title": "Primitive \u00b7 copy",
+        "behavior_verbatim": "Stamp source pixels; an inclusive source region keeps original coordinates",
+        "evidence": {
+          "line_sha256": "be472e7c99441aa59e9f794b844bdbb675ea971c7e4b19735af9c19967d761af",
+          "namespace": "research",
+          "one_based_line": 55,
+          "path": "analysis-root/workbench-grammar-capture/decoded-docs/013-pixelart-describe-scenes.text-0.md",
+          "sha256": "e2fcffdfc4529bc74df3b55ac40495957ce81acfe8c5c70b3cf90771fd21bec1"
+        },
+        "field_contract_verbatim": "`part`, optional `region`, `method`",
+        "local_route": null,
+        "name": "copy",
+        "optional_fields_as_documented": [
+          "region",
+          "method"
+        ],
+        "required_fields_as_documented": [
+          "op",
+          "part"
+        ],
+        "status": "complete_documented_table_row_not_complete_handler_schema",
+        "unknown_field_policy": "not specified by this table"
+      },
+      "drift": "Current public snapshot: 112 operations; frozen snapshot: 111. Added: POST /normal-map. 5 changed definitions. Inspect snapshot changes"
+    },
+    "transport-dom": {
+      "summary": "30 of 30 transport shown. Status describes the recorded scope; inspect evidence and unresolved branches individually.",
+      "rows": 30
+    },
+    "interfaces-dom": {
+      "summary": "213 of 213 interfaces shown. Status describes the recorded scope; inspect evidence and unresolved branches individually.",
+      "rows": 213
+    },
+    "fixed-method-dom": {
+      "method": "local.library.list",
+      "response": [],
+      "errorVisible": false
+    },
+    "vendor-dom": {
+      "method": "public:POST:/generate-image-v2",
+      "disabled": true,
+      "policy": "Vendor model/handler/account/persistence implementation is not supplied; no remote calls or hidden algorithm substitution"
+    },
+    "fixed-setup-pending": {
+      "disabled": true,
+      "verification": "{\n  \"job_id\": \"f43c75583fee4c458a02d180d090f30a\",\n  \"status\": \"running\",\n  \"progress\": 0.1,\n  \"error\": null,\n  \"outputs\": []\n}",
+      "summary": "\u25f7Prerequisites remain open71 recorded blockers \u00b7 Local setup requires verification. Supplied-art editing is available separately."
+    },
+    "final-setup-completed": {
+      "disabled": false,
+      "verification": {
+        "artifact": "10cb7613f5ab980682e96a2963fdc5950831a08875f8ba9ea8a3805d55f870ad",
+        "status": "completed"
+      },
+      "summary": "\u25f7Local setup ready. Analysis gate remains held.71 recorded blockers \u00b7 Setup verification passed. Supplied-art editing is available separately.",
+      "comparisonDisabled": true,
+      "errorVisible": false,
+      "footer": "Setup verification completed. Comparison prerequisites remain a separate gate."
+    },
+    "mobile-fixed-dom": {
+      "viewport": 390,
+      "documentWidth": 390
+    }
+  },
+  "retained_files": [
+    {
+      "file": "final-editor-dom.log",
+      "sha256": "361cfce7631a8fb2979d8530c89deb7e46457999c4c5c604dd4f064f9b7c1f2c",
+      "bytes": 770
+    },
+    {
+      "file": "plan-status.log",
+      "sha256": "ae6578d2d916b78962072fd85bf6f62d16ef64b8457277e7f4962502e9fdb690",
+      "bytes": 1400
+    },
+    {
+      "file": "grammar-dom.log",
+      "sha256": "0e9bcf5fc1a094377540e6ff552557fcc3f1aec6f2bb43f52c3e10765d735572",
+      "bytes": 1668
+    },
+    {
+      "file": "transport-dom.log",
+      "sha256": "03710da7d84eb877294a7974ea5a4245f277b4696a290bd3fcc9613f98046fa2",
+      "bytes": 351
+    },
+    {
+      "file": "interfaces-dom.log",
+      "sha256": "a7935ed68a6ffb7eb4a863d91562ba02da02a962cd8c3a1ebc464aaaa6a9773d",
+      "bytes": 355
+    },
+    {
+      "file": "fixed-method-dom.log",
+      "sha256": "5b828d2482194e9ce3d4bc2581a13544b3a70a2a00aed0b900ce76b838b9c364",
+      "bytes": 354
+    },
+    {
+      "file": "vendor-dom.log",
+      "sha256": "14fee9bc59db6d9c1c695df9c6521f60ae9897ed3237b24ba3d9b05559edfd9c",
+      "bytes": 462
+    },
+    {
+      "file": "fixed-setup-pending.log",
+      "sha256": "d355bf3f2d42363e674b5e7fc8825fa1d18fe136f7594ec56bb8a1fc780d7e31",
+      "bytes": 609
+    },
+    {
+      "file": "final-setup-completed.log",
+      "sha256": "917dba00ff6e00dd8f62869e7e091a7d8f8cea1fc7ab7b1cb271fad18b7c422f",
+      "bytes": 944
+    },
+    {
+      "file": "mobile-fixed-dom.log",
+      "sha256": "05ddf49a160a25775c68835fb556832c2a9a629042deb64a20d5727e42334f84",
+      "bytes": 196
+    },
+    {
+      "file": "method-diagnostic.log",
+      "sha256": "5058e7026b0ddac090d08ecd0039102eb6f3ed0e6db86a5cca72ed1d87d88107",
+      "bytes": 600
+    },
+    {
+      "file": "console-final.log",
+      "sha256": "d0e5634bb0c1271965327ad2ac18107af18fa7da6d2c9ce13e03eeda6cb603db",
+      "bytes": 55
+    },
+    {
+      "file": "readiness-final.png",
+      "sha256": "ceee14b333bf3be4982f7d506f5c3db08e3d274fed4bee3656d10b018fd3b51c",
+      "bytes": 152267
+    },
+    {
+      "file": "readiness-mobile.png",
+      "sha256": "38a49c93bbc790f1895cd709e6d69e2dced59d5f62117b3a30c83a7143264082",
+      "bytes": 55920
+    },
+    {
+      "file": "editor-final.png",
+      "sha256": "5204dbf4d74ba7608d4e8ef3bf450d6ddb8ad90779a4d17f6d1f7e9c430b9ccc",
+      "bytes": 95920
+    },
+    {
+      "file": "grammar.png",
+      "sha256": "428db6a0a60e3e75ce0547540c67c74c8f4a9c17dd2ee8afdc441a98660811d4",
+      "bytes": 202073
+    },
+    {
+      "file": "jobs.png",
+      "sha256": "309c64dd802008a675e76888bcc40fe506b6eb2469c675a70ac1aa57b8f1c8cf",
+      "bytes": 149253
+    },
+    {
+      "file": "methods.png",
+      "sha256": "28e8cfbf25eed6a559fba6456ed4d774217e3b4d60eaa42f8ae5f078e74001ff",
+      "bytes": 71369
+    },
+    {
+      "file": "final-paint.log",
+      "sha256": "92db698bdad0f648a6b8aa6eaccb71cddd57cd50a3a96f41caf7c1c1857ad4fe",
+      "bytes": 255
+    },
+    {
+      "file": "final-undo.log",
+      "sha256": "d5e9818bc431512c44474006cc3ec09db81e246f3317f3646cfd51206687e1c5",
+      "bytes": 251
+    },
+    {
+      "file": "final-redo.log",
+      "sha256": "86e40026dc1ee5275572f18a4750a0d9751f3846231147bcd4a2eef20fc8b601",
+      "bytes": 251
+    },
+    {
+      "file": "final-render.log",
+      "sha256": "2a20ce9e0b83a97d0fa02d36828341b3b59403701d54a9e6814238a808da74b7",
+      "bytes": 258
+    },
+    {
+      "file": "plan-save.log",
+      "sha256": "e8551a023f8df206e27f7bbebee32626daae86e49a3e8187985872184425fc5d",
+      "bytes": 268
+    },
+    {
+      "file": "plan-submit.log",
+      "sha256": "21c0cfbdf647e67b7bf3aeb2e0ec43bc0dc6c29d5b6681573d42a4b268efa88a",
+      "bytes": 269
+    }
+  ],
+  "runtime_fingerprint": "c8df6fa354cb0dc584d436dc55cb6115c5f88cbd5670495e8b739fb365463e1d",
+  "runtime_commit": "488b696",
+  "actions_commit": "846e391",
+  "final_layout_commit": "ca74489",
+  "browser": "Playwright Chromium 1243; isolated diagnostic session",
+  "viewports": [
+    [
+      1440,
+      1050
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "url": "http://127.0.0.1:8874",
+  "artistic_acceptance": "unreviewed",
+  "continuous_motion_quality_reviewed": false,
+  "provider_calls": 0,
+  "boundary": "Real browser controls plus independent retained-artifact checks; supplied 8x4 three-frame diagnostic only. No generated humanoid or private-handler parity claim."
+}

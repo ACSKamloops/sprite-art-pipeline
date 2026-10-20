@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/
+workspaces/
+runs/
+*.pyc
+build/
+dist/
+output/playwright/
+.playwright-cli/

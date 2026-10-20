@@ -1,0 +1,70 @@
+{
+  "kind": "installed-original-client-workflow-proof",
+  "version": "0.9.0",
+  "source_fingerprint": "a00047cb39709fec2fe8c0206de786ec935ad1aea985ba8ada467505e3d3f839",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Original serialization with unchanged input",
+      "passed": true,
+      "receipt": "65de7a060bf228acb12983a1562525c161f1c53ea5f8c17e65bac44e73b2d9c1"
+    },
+    {
+      "name": "Actual original Godot replay verifies receipt",
+      "passed": true
+    },
+    {
+      "name": "Explicit exact still hold",
+      "passed": true
+    },
+    {
+      "name": "Cold pixel/source/raw closure exact",
+      "passed": true
+    },
+    {
+      "name": "Installed original transparency",
+      "passed": true,
+      "receipt": "adc1bbd0f55d6e43965ce2db85f504c25cd668ccd2918eff2bcd64bc6006211b"
+    },
+    {
+      "name": "Installed original reference_palette",
+      "passed": true,
+      "receipt": "47de8fa9aa9ac3b694901bb968155fe9ca70ae3149047bf4c4760c91adfdf889"
+    },
+    {
+      "name": "Opaque request mask encoding",
+      "passed": true
+    },
+    {
+      "name": "Installed raw decoder exact",
+      "passed": true
+    },
+    {
+      "name": "Installed original blit exact",
+      "passed": true
+    },
+    {
+      "name": "Original palette import first-seen RGB",
+      "passed": true
+    },
+    {
+      "name": "Original shape evidence attached to history",
+      "passed": true
+    },
+    {
+      "name": "Cold source footprint and history replay",
+      "passed": true
+    },
+    {
+      "name": "Cold exact undo/redo",
+      "passed": true
+    },
+    {
+      "name": "Current contract and truthful boundary",
+      "passed": true
+    }
+  ],
+  "provider_calls": 0,
+  "artistic_acceptance": false,
+  "whole_vendor_parity": false
+}

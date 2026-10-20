@@ -1,0 +1,34 @@
+{
+  "classification": "original-pck-member-byte-membership-not-decompilation-equivalence",
+  "pck": "/home/astra/projects/pixellab-local-test-20261011/evidence/pixelorama_pixellab.pck",
+  "pck_sha256": "ebf9812ea474bddb84faa22183a1ec0178983cdc285674a4d0177c606e8a4a3f",
+  "members": [
+    {
+      "path": "src/Classes/FloodFillObject.gdc",
+      "bytes": 3386,
+      "binary_sha256": "0ee165629964a97e45e137916339feb30eb3eaaa29dbaf67032a59b38ab3801c",
+      "pck_equals_extracted_bytes": true
+    },
+    {
+      "path": "src/Autoload/DrawingAlgos.gdc",
+      "bytes": 30897,
+      "binary_sha256": "94c363fed83c79f26338d29ddbc671b32c696ba403c56c01a858ceb8aec0456c",
+      "pck_equals_extracted_bytes": true
+    },
+    {
+      "path": "src/Shaders/ColorSelect.gdshader",
+      "bytes": 888,
+      "binary_sha256": "27f8c50cfd9517fff45c8fd8171530b2b301e5acd6d5ace93687e151641378f2",
+      "pck_equals_extracted_bytes": true
+    },
+    {
+      "path": "src/Shaders/ColorReplace.gdshader",
+      "bytes": 1093,
+      "binary_sha256": "b46064050032d39b28a4ac62d09808c463ea55506bbfffcb2380dc71a8cda81c",
+      "pck_equals_extracted_bytes": true
+    }
+  ],
+  "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+  "stderr": "",
+  "boundary": "Only mounts pack and reads four allowlisted files. No packaged app scene,autoload/project settings or credential code launched/read."
+}

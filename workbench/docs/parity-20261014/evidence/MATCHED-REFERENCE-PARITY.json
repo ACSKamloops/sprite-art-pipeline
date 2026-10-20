@@ -1,0 +1,39 @@
+{
+  "kind": "retained-pixellab-reference-slot-parity",
+  "checks": [
+    {
+      "case": "pixellab-walk-v1",
+      "source_png": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-walk-v1/source.png",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "reference_png": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-walk-v1/extracted/frame-000.png",
+      "reference_png_sha256": "5b4a21517e645ca3dacee2dccbc5c7db5dbd04ee150ff6de69a5d3d45c60ba22",
+      "raw_different_pixels": 49,
+      "original_serializer_matches_returned_reference_rgba": true,
+      "receipt": "e0c86b97038c21cf75fec0f8482b9b68c8ca9c7619892406deeba2d39951faaf",
+      "output_rgba_sha256": "768f97ee2d137610e8692c8c34c7696f70d3134e8026d8743981513b8bddab1c"
+    },
+    {
+      "case": "pixellab-slash-v1",
+      "source_png": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-slash-v1/source.png",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "reference_png": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-slash-v1/extracted/frame-000.png",
+      "reference_png_sha256": "5b4a21517e645ca3dacee2dccbc5c7db5dbd04ee150ff6de69a5d3d45c60ba22",
+      "raw_different_pixels": 49,
+      "original_serializer_matches_returned_reference_rgba": true,
+      "receipt": "e0c86b97038c21cf75fec0f8482b9b68c8ca9c7619892406deeba2d39951faaf",
+      "output_rgba_sha256": "768f97ee2d137610e8692c8c34c7696f70d3134e8026d8743981513b8bddab1c"
+    },
+    {
+      "case": "pixellab-slash-margin-v2",
+      "source_png": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-slash-margin-v2/source.png",
+      "source_png_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "reference_png": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-slash-margin-v2/extracted/frame-000.png",
+      "reference_png_sha256": "3865922ddd690ba0b6458b96d83c8bd305ae979a5eb5db8eb1782a4479fe648d",
+      "raw_different_pixels": 30,
+      "original_serializer_matches_returned_reference_rgba": true,
+      "receipt": "c9b3c38906952676f318744959aeaaf7725b5113317f94de69aa39f6ed5f2318",
+      "output_rgba_sha256": "e8907e663d1a3449a40f965bbfa9ee2693e732c98f949affd0b1f7dfa0c61663"
+    }
+  ],
+  "boundary": "Actual shipped serialization reproduces these three retained returned reference pixels. No generated-frame, server model or animation conversion parity."
+}

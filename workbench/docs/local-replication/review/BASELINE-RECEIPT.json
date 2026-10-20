@@ -1,0 +1,57 @@
+{
+  "owner_commits": [
+    "d004ce3",
+    "9de1618"
+  ],
+  "local_combined_commit": "7cb29a9",
+  "command": "/home/astra/projects/pixellab-local-workbench/.venv/bin/python -m pytest -q tests/test_local_channel_adversarial.py --junitxml=docs/local-replication/review/BASELINE-JUNIT.xml",
+  "outcome": {
+    "passed": 6,
+    "failed": 3,
+    "skipped": 0,
+    "xfailed": 0
+  },
+  "observed_defects": [
+    "C01 huge validJSON integer timeout crashes JSONL and loses ping",
+    "C02 nonobject manifest leaks AttributeError instead ofJSON validation",
+    "C03 compare advertises nonexistent unsupported preview links"
+  ],
+  "sources": [
+    {
+      "file": "sprite_workbench/channel.py",
+      "sha256": "a3a29a100344fc9e8e0346c90e562e64e5fff89ca83495f641c43162a82c87b7"
+    },
+    {
+      "file": "sprite_workbench/replication.py",
+      "sha256": "e941f0b145cb4200b349575efbdf281731e7d9a5cfa57adde0dd68e9498dc572"
+    },
+    {
+      "file": "sprite_workbench/replay_state.py",
+      "sha256": "042529f5b3aa5ea90f0d46e5645fb7f722f74d30f0e39dc567935d99e7b043d2"
+    },
+    {
+      "file": "sprite_workbench/cli.py",
+      "sha256": "ff2593a1c83a4c630b9127c0104b02922b1f717dc906fedf4d3392fd2979c08c"
+    },
+    {
+      "file": "sprite_workbench/capabilities.py",
+      "sha256": "19580f50ec3da513ba885e95edb7fffa4bcdaad70c9b24398ee9229b4aaf828a"
+    },
+    {
+      "file": "sprite_workbench/jobs.py",
+      "sha256": "ec76575acd9d8ebd96ac5f2795b057766f0297b32a2f5f3fb4c268882c124fbf"
+    },
+    {
+      "file": "tests/test_local_channel_adversarial.py",
+      "sha256": "dc09339eab7eee8eca5f510c2d3e28ef71e3ce548628b5a82f0d9b5b7058ab81"
+    }
+  ],
+  "initial_harness_outcome": {
+    "passed": 5,
+    "failed": 4,
+    "own_invalid_caller": "record_review sent ident; route requires candidate_id. Original malformed harness and output preserved separately. Not a producer defect."
+  },
+  "producer_edits_by_reviewer": false,
+  "provider_calls": 0,
+  "scope": "Real CLI/JSONL subprocess controls and actual comparison on tiny authored arrays; held-host testinjects only trusted handler to discriminate cancel/latequarantine/retry, not pipeline rendering or artquality"
+}

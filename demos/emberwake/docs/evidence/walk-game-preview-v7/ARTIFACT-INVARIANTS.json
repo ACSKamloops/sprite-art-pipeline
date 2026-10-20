@@ -1,0 +1,27 @@
+{
+  "scope": "Exact artifacts/resources only; no artwork, physical contact or animation quality score.",
+  "actors": {
+    "rowan": {
+      "atlas_sha256": "097f1e843d36e42dde2391b45ee9d95d42b512896380627d4cd2c4db5d928625",
+      "manifest_sha256": "404ad11353686b4956129463353287ec98572a3d19d45721a155a8628ae8c080",
+      "preserved_old_physical_cells": 120,
+      "body_clips": 48,
+      "new_diagonal_clips": 24
+    },
+    "lyra": {
+      "atlas_sha256": "079dc4622137cdf35dda970faa11a41966d10868a590204e7d5e7aa7e26fae5d",
+      "manifest_sha256": "ca02b2abdb27842a5a7b18694ce0c571f208fc606f4a3ab71264bef6409f63d0",
+      "preserved_old_physical_cells": 136,
+      "body_clips": 48,
+      "new_diagonal_clips": 24
+    },
+    "brann": {
+      "atlas_sha256": "1a50ae7d0e4706356bfe767432078f4e4824861e0313ce8267319e17f6b8a6a3",
+      "manifest_sha256": "7cad82b827a87dfbaed02f653347f79861c0468fb478d356d4af3b547cc4f802",
+      "preserved_old_physical_cells": 136,
+      "body_clips": 48,
+      "new_diagonal_clips": 24
+    }
+  },
+  "checks": 3140
+}

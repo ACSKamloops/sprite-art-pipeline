@@ -1,0 +1,596 @@
+{
+  "schema": "independent-sprite-review/v3",
+  "character_id": "lyra",
+  "input_fingerprint": "1106c8871388113f77aab2e77e7cec1efb452b3e2ec43469af5ec679eee1c509",
+  "input_hashes": {
+    "atlas.png": "d4237eba0003ada103b3e17ba76f14427c5a317fd847437aaf2ddae31f5619e8",
+    "animations.json": "2936a6a5ad0b965f299cf50111e5964997c53dfb6a87ca485d8b157688bb783b",
+    "selected-contact-sheet.png": "a8abb523777ff982ecbd66f73a4d218e78b1ef1a0cddcd336d52fc59092950e4",
+    "walk-proof-2x.png": "ab04d61afd1294b1d4af1c4b4f7783fa9b9c565e3f76ecedf61f8ef8f83c794f"
+  },
+  "scores_scale": "0\u201310, holistic whole-set judgment; no target given",
+  "basis": "Written rich modern chibi top-down unarmed-hero brief. No Rowan parity claim.",
+  "perception": "Decoded frames, explicit exact holds, source-hashed v1 coverage transfer and fresh changed-pair inspection; no human normal-speed or gameplay QA.",
+  "coverage_transfer": {
+    "old_cells_changed": [],
+    "appended_cells": [
+      112,
+      113,
+      114,
+      115
+    ],
+    "clips": {
+      "south_idle": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          14,
+          15
+        ],
+        "new_frames": [
+          14,
+          15
+        ]
+      },
+      "south_walk": {
+        "exact_pixel_sequence_match_v1": false,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": false,
+        "old_frames": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "new_frames": [
+          0,
+          1,
+          2,
+          112,
+          4,
+          5,
+          6,
+          113
+        ]
+      },
+      "south_attack": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "new_frames": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      },
+      "south_cast": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "new_frames": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "south_hurt": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          22,
+          23,
+          14
+        ],
+        "new_frames": [
+          22,
+          23,
+          14
+        ]
+      },
+      "south_dodge": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          24,
+          25,
+          26,
+          27
+        ],
+        "new_frames": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "east_idle": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          42,
+          43
+        ],
+        "new_frames": [
+          42,
+          43
+        ]
+      },
+      "east_walk": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "new_frames": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ]
+      },
+      "east_attack": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "new_frames": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ]
+      },
+      "east_cast": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ],
+        "new_frames": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49
+        ]
+      },
+      "east_hurt": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          50,
+          51,
+          42
+        ],
+        "new_frames": [
+          50,
+          51,
+          42
+        ]
+      },
+      "east_dodge": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "new_frames": [
+          52,
+          53,
+          54,
+          55
+        ]
+      },
+      "north_idle": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          70,
+          71
+        ],
+        "new_frames": [
+          70,
+          71
+        ]
+      },
+      "north_walk": {
+        "exact_pixel_sequence_match_v1": false,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": false,
+        "old_frames": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "new_frames": [
+          56,
+          57,
+          58,
+          114,
+          61,
+          62,
+          63,
+          115
+        ]
+      },
+      "north_attack": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "new_frames": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "north_cast": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "new_frames": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      },
+      "north_hurt": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          78,
+          79,
+          70
+        ],
+        "new_frames": [
+          78,
+          79,
+          70
+        ]
+      },
+      "north_dodge": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          80,
+          81,
+          82,
+          83
+        ],
+        "new_frames": [
+          80,
+          81,
+          82,
+          83
+        ]
+      },
+      "west_idle": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          98,
+          99
+        ],
+        "new_frames": [
+          98,
+          99
+        ]
+      },
+      "west_walk": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ],
+        "new_frames": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ]
+      },
+      "west_attack": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ],
+        "new_frames": [
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      },
+      "west_cast": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ],
+        "new_frames": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105
+        ]
+      },
+      "west_hurt": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          106,
+          107,
+          98
+        ],
+        "new_frames": [
+          106,
+          107,
+          98
+        ]
+      },
+      "west_dodge": {
+        "exact_pixel_sequence_match_v1": true,
+        "holds_and_loop_match_v1": true,
+        "coverage_transfer": true,
+        "old_frames": [
+          108,
+          109,
+          110,
+          111
+        ],
+        "new_frames": [
+          108,
+          109,
+          110,
+          111
+        ]
+      }
+    },
+    "transferred_clips": [
+      "south_idle",
+      "south_attack",
+      "south_cast",
+      "south_hurt",
+      "south_dodge",
+      "east_idle",
+      "east_walk",
+      "east_attack",
+      "east_cast",
+      "east_hurt",
+      "east_dodge",
+      "north_idle",
+      "north_attack",
+      "north_cast",
+      "north_hurt",
+      "north_dodge",
+      "west_idle",
+      "west_walk",
+      "west_attack",
+      "west_cast",
+      "west_hurt",
+      "west_dodge"
+    ],
+    "fresh_review_clips": [
+      "south_walk",
+      "north_walk"
+    ],
+    "metadata_changes": {
+      "cast_hand": {
+        "v1": {
+          "south": [
+            99,
+            72
+          ],
+          "east": [
+            104,
+            63
+          ],
+          "north": [
+            94,
+            57
+          ],
+          "west": [
+            22,
+            64
+          ]
+        },
+        "v3": {
+          "south": [
+            99,
+            72
+          ],
+          "east": [
+            95,
+            58
+          ],
+          "north": [
+            94,
+            57
+          ],
+          "west": [
+            34,
+            58
+          ]
+        }
+      }
+    }
+  },
+  "normal_speed_human_perception": false,
+  "browser_or_export_art_points": false,
+  "source_preservation_is_art_approval": false,
+  "direction_disclosure": "Four directions; Brann west is a disclosed symmetric east mirror. Lyra opposite passing support explicitly reuses mirrored lower-leg pixels. Neither is independent new view evidence.",
+  "scores": {
+    "drawing": 8.0,
+    "reference_fit": 7.7,
+    "consistency": 7.7,
+    "motion": 6.8,
+    "usefulness": 7.4,
+    "overall": 7.4
+  },
+  "confidence": {
+    "drawing": 0.85,
+    "reference_fit": 0.68,
+    "consistency": 0.81,
+    "motion": 0.65,
+    "usefulness": 0.74,
+    "overall": 0.75
+  },
+  "verdict": "Improved and usable for a prototype. Retain the new passing poses; no polished full-motion approval without timed human acceptance.",
+  "improvements": [
+    "Four new selected front/back passing cels provide closer feet and a visible bridge between extended-leg halves.",
+    "Corrected side cast-hand anchors improve attachment usefulness without changing drawing quality."
+  ],
+  "remaining": [
+    {
+      "id": "L3-1",
+      "priority": 1,
+      "kind": "boot volume and gait polish",
+      "severity": "low to medium",
+      "frames": [
+        "south 2->112->4",
+        "south 6->113->0",
+        "north 58->114->61",
+        "north 63->115->56"
+      ],
+      "finding": "New passing boots are compact/rounder and slightly warmer in highlights than their long extended-contact neighbors. The support shape is improved, but the lower-body volume change can still read as a small foot-size pulse at 2x.",
+      "smallest_experiment": "Use the same ankle cuff, boot width and shading vocabulary as adjacent poses; retain the passing foot relationship and compare an equal-time loop at native/draw scale. Do not revert to the old extended-contact pose."
+    },
+    {
+      "id": "L3-2",
+      "priority": 2,
+      "kind": "unchanged transition polish",
+      "severity": "low to medium",
+      "frames": [
+        "13->14",
+        "41->42",
+        "69->70",
+        "97->98"
+      ],
+      "finding": "Wide raised attack guard still changes directly to narrow arms-down idle. These unchanged drawings have earned no new art or motion improvement."
+    }
+  ],
+  "unchanged_clip_scores_improved": false
+}

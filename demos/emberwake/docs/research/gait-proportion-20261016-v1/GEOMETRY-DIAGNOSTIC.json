@@ -1,0 +1,275 @@
+{
+  "status": "Descriptive alpha extents only; no anatomy, actor identity, gait quality or score inferred.",
+  "measurements": [
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/context/southeast-22.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        36,
+        16,
+        91,
+        112
+      ],
+      "height": 96
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-eight-guide-only-v1/inputs/identity-guide00.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        38,
+        16,
+        91,
+        113
+      ],
+      "height": 97
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/00.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        36,
+        15,
+        93,
+        120
+      ],
+      "height": 105
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/01.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        37,
+        15,
+        95,
+        121
+      ],
+      "height": 106
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/02.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        15,
+        94,
+        119
+      ],
+      "height": 104
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/03.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        15,
+        94,
+        119
+      ],
+      "height": 104
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/04.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        13,
+        94,
+        122
+      ],
+      "height": 109
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/05.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        13,
+        93,
+        121
+      ],
+      "height": 108
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/06.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        13,
+        94,
+        119
+      ],
+      "height": 106
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/candidate-v1/frames/07.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        36,
+        13,
+        95,
+        119
+      ],
+      "height": 106
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/00.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        16,
+        92,
+        119
+      ],
+      "height": 103
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/01.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        36,
+        16,
+        93,
+        119
+      ],
+      "height": 103
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/02.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        16,
+        92,
+        120
+      ],
+      "height": 104
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/03.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        15,
+        91,
+        114
+      ],
+      "height": 99
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/04.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        15,
+        91,
+        118
+      ],
+      "height": 103
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/05.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        35,
+        15,
+        91,
+        116
+      ],
+      "height": 101
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/06.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        34,
+        15,
+        92,
+        115
+      ],
+      "height": 100
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-rowan-full8-painted-cycle-v1/inputs/four-key-bridge-control/07.png",
+      "size": [
+        128,
+        128
+      ],
+      "alpha_threshold": 128,
+      "bbox_xyxy_exclusive": [
+        34,
+        15,
+        92,
+        112
+      ],
+      "height": 97
+    }
+  ]
+}

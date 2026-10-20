@@ -1,0 +1,7 @@
+{
+  "native_receipt_original_field": "in_place_crop_RGBA_sha256",
+  "actual_encoding": "SHA256 of hex-encodedRGBA asUTF8text, not rawRGBAbytes. Actual compiled/runsource is ACTUAL-RUN-walk_art_preview.gd. Canonical helper field name corrected for future runs without changing digest comparison. No second render run claimed.",
+  "PNG_ledger": "SHA256 of actualPNGfilebytes; originalfull1728frames+rawreceipt stay under the absolute artifactfolder.",
+  "actual_sample_times": "(tick+0.5)/320s avoids binary-float boundary ambiguity. Holds separately exact .45s; noobservedhuman timingclaim.",
+  "explicit_world_translation": "Fixture158px/s, not productionphysics/input/contact calibration."
+}

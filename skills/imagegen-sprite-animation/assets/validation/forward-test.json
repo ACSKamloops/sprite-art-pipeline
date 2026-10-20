@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "workspace": "/tmp/imagegen-skill-forward-ir0kefue",
+  "environment": {
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "numpy": "2.3.5",
+    "pillow": "12.1.1"
+  },
+  "network_or_model_calls": 0,
+  "source_files_unchanged": true,
+  "skill_file_count_compared": 40,
+  "results": {
+    "extension": {
+      "output_directory": "/tmp/imagegen-skill-forward-ir0kefue/extension",
+      "frame": "/tmp/imagegen-skill-forward-ir0kefue/extension/frame.png",
+      "receipt": "/tmp/imagegen-skill-forward-ir0kefue/extension/receipt.json",
+      "RGBA_shape": [
+        192,
+        192,
+        4
+      ],
+      "expected_differing_RGBA_pixels": 0,
+      "RGBA_sha256": "078484f882005d279848303f13169bcfe29bd806c7d8f3bef6e3249ea5896af5",
+      "frozen_map_arrays_exact": {
+        "source_xy": true,
+        "source_kind": true
+      },
+      "triangles_exact": true,
+      "replay_passed": true,
+      "bake_passed": true,
+      "requested_pixel_edits": 0,
+      "actual_changed_RGBA_pixels": 0,
+      "overwrite_rejected": true,
+      "existing_artifacts_unchanged": true,
+      "files_sha256": {
+        "frame.png": "13bc0f38a89b44a49aee21735e77293156d8ad680654c60a83f7e6f3cc56d376",
+        "receipt.json": "49465184ff30024cf75e12155669f08e955bcf0e0c61911748130885df4e0a4c",
+        "source-map.npz": "ec16f2bf0b214be23a6c3ce025023060a9993eb86a61077da0c72a213a937e4b",
+        "triangles.json": "27228e87c4cc9ad7729a00e3ce5eea79c0b12bfd63ee11e5a8f707d017eaa9ed"
+      }
+    },
+    "recoil-finished": {
+      "output_directory": "/tmp/imagegen-skill-forward-ir0kefue/recoil-finished",
+      "frame": "/tmp/imagegen-skill-forward-ir0kefue/recoil-finished/frame.png",
+      "receipt": "/tmp/imagegen-skill-forward-ir0kefue/recoil-finished/receipt.json",
+      "RGBA_shape": [
+        192,
+        192,
+        4
+      ],
+      "expected_differing_RGBA_pixels": 0,
+      "RGBA_sha256": "4ae375d394384bedd12cac16e3e231fcaa044fc6447a17d19eb484ab46e90105",
+      "frozen_map_arrays_exact": {
+        "source_xy": true,
+        "source_kind": true
+      },
+      "triangles_exact": true,
+      "replay_passed": true,
+      "bake_passed": true,
+      "requested_pixel_edits": 18,
+      "actual_changed_RGBA_pixels": 18,
+      "overwrite_rejected": true,
+      "existing_artifacts_unchanged": true,
+      "files_sha256": {
+        "frame.png": "2a2ea31fd10d30f526a2169426c490bb754cf4e0698a4dc7c7fb5a19059bea56",
+        "receipt.json": "ebcfdb5b49dccd2834e8a68a2f6f98a5bf92b5f5a407d9243952060e35f6e193",
+        "source-map.npz": "a612cd9f8e1ee246941ae415351ee192cbb51f202b0562d3af4e2e9880fa850b",
+        "triangles.json": "15d17eaa46a366b3ba367056965fcbaa538e65bba89022b7bbf4caa3cfd94f6f"
+      }
+    }
+  },
+  "finished_recoil_vs_raw_changed_pixels": 18,
+  "pre_existing_empty_directory_rejected": true,
+  "boundary": "Local fixture reconstruction and overwrite validation only; no new art, visual scores, editor exchange or runtime test."
+}

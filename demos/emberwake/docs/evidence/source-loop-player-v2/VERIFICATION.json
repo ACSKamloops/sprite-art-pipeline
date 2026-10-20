@@ -1,0 +1,99 @@
+{
+  "frozen_at_utc": "2026-10-17T05:48:23.141342+00:00",
+  "status": "verified SOURCE PREVIEW only",
+  "url": "http://127.0.0.1:8797/",
+  "server_pid": 2532594,
+  "input_json_sha256": "aace754435f398b80d6878e9a5d5f1cba7c0e7f459c9682c4c4aa97470d13dcf",
+  "packet_ledger_sha256": "4cf411865baed52d6d98e88708dc792862bca65af151e7a12807302fb9c39fa6",
+  "verified_packet_ledger_entries": 153,
+  "packet_file_count": 154,
+  "source_slot_pngs": 64,
+  "timelines": {
+    "A": [
+      "southeast",
+      "southwest"
+    ],
+    "B": [
+      "southeast",
+      "southwest"
+    ]
+  },
+  "slots_per_timeline": 16,
+  "hold_us": 28125,
+  "loop_us": 450000,
+  "selection": "exact cumulative half-open source-slot intervals; no slot-count quality assumption",
+  "binding_gate": "Actual packet copied only after explicit root go and supplied INPUTS hash verification.",
+  "source_edits": false,
+  "canonical_edits": false,
+  "v1_all56_frozen_files_still_match": true,
+  "v1_server8796_http": 200,
+  "synthetic_template_checks": {
+    "status": "pass",
+    "count": 1005,
+    "slot_counts": [
+      8,
+      16
+    ],
+    "directions": 4,
+    "unequal_hold_boundaries": true
+  },
+  "actual_timeline_checks": {
+    "status": "pass",
+    "count": 2596,
+    "four_16slot_timelines": "all onsets/ends for20cycles and wrap",
+    "SE_SW_origin_and_translation": true,
+    "both_zooms_contained": true
+  },
+  "browser": {
+    "owned_session": "emberwake-loop-v2-owned",
+    "closed_after_verification": true,
+    "root_or_v1_tabs_touched": false,
+    "new_installation": false,
+    "pixel_composites": 128,
+    "all64_source_slots_at_both_zooms": true,
+    "pixel_backgrounds": [
+      "game proxy"
+    ],
+    "rgba_component_mismatches": 0,
+    "targeted_controls": [
+      "metadata direction selectorSE/SW",
+      "A/B/split",
+      "slot15/0 stepping wrap",
+      "background selector",
+      "quarter/normal selector",
+      "optional unknown-contact toggle",
+      "SW4.5s travel/end pause",
+      "SE9s sequence",
+      "UI JSON export preserves recorded direction after selector change"
+    ],
+    "nine_second_export": {
+      "status": "complete",
+      "callbacks": 541,
+      "end_simulation_us": 9000000,
+      "per_bank_planned_events": 321,
+      "all_observed_slots_and_roots_match": true,
+      "original_recorded_direction_preserved": true
+    },
+    "console_errors": 0,
+    "console_warnings": 8,
+    "warning_note": "Canvas readback performance advisories from pixel verification, not application errors.",
+    "v1_unrelated8slot_browser_matrix_rerun": false
+  },
+  "evidence": [
+    "output/playwright/pixel-check-output.txt",
+    "output/playwright/control-check-output.txt",
+    "output/playwright/9s-sequence.json",
+    "output/playwright/sequence-complete.png"
+  ],
+  "freeze_excludes": [
+    ".playwright-cli",
+    "output/playwright/profile",
+    "output/server.*"
+  ],
+  "limits": [
+    "No Godot execution, engine/controller/contact certification or art score.",
+    "No human normal-speed perception acceptance inferred from automated tests.",
+    "Browser callbacks are not monitor presentation timestamps.",
+    "Flat proxies; untracked manual source points remain unknown-contact."
+  ]
+}

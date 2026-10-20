@@ -1,0 +1,760 @@
+{
+  "flow": "F10",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "version": 1,
+  "flow_id": "F10",
+  "artifacts": {
+    "sequence": "ad1492e260b81174573b76898384f3c99e8674777a3456c25c8960b565984c54",
+    "fixture": "f5afb19840df33d3389d991d8347c93ce4b57ebc851ede35d1e01ea3246d32fa",
+    "sequence_plays_1": "21c3085c3888c5204e9ae62a3b79205991b8a553d1c7b9f0d22add1b91774d02",
+    "sequence_plays_0": "712f789c9d85eff4d69e2b4b77638ee674abea97ac0fb0b2371fc820c89d5981"
+  },
+  "checks": [
+    {
+      "name": "requested exchange files written",
+      "passed": true,
+      "detail": {
+        "png": "written",
+        "sheet": "written",
+        "apng": "written",
+        "gif": "written",
+        "editable": "written",
+        "godot": "written",
+        "review": "written",
+        "manifest": "written"
+      }
+    },
+    {
+      "name": "editable fresh Store full document and RGBA identity",
+      "passed": true
+    },
+    {
+      "name": "all ordered adjacent pairs and return seam retained",
+      "passed": true
+    },
+    {
+      "name": "PNG and sheet rectangles preserve full RGBA including hidden colors",
+      "passed": true
+    },
+    {
+      "name": "unequal rational holds, duplicate order, explicit finite plays",
+      "passed": true
+    },
+    {
+      "name": "APNG exact RGBA and GIF visible/alpha/hold/total-play contract",
+      "passed": true,
+      "detail": "GIF hidden RGB is not preserved; APNG is full RGBA"
+    },
+    {
+      "name": "unrepresentable APNG hold and partial-alpha GIF explicitly unsupported",
+      "passed": true
+    },
+    {
+      "name": "existing export directory preserved",
+      "passed": true,
+      "detail": "Output must be absent or an empty nonsymlink directory; existing artifacts are preserved"
+    },
+    {
+      "name": "prior export identity unchanged after rejected overwrite",
+      "passed": true
+    },
+    {
+      "name": "actual Godot import/reload/RGBA/clocks/once/finite/loop/held-pose",
+      "passed": true,
+      "detail": {
+        "status": "verified",
+        "cases": {
+          "2": {
+            "status": "verified",
+            "receipt": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/export/godot/engine-receipt.json",
+            "receipt_sha256": "5ad233983578e4e4ad5b48fa19a042997efacc714017a7a329744fcdf3335235",
+            "measurement": {
+              "clock_tolerance_ms": 40,
+              "completion": [
+                0.241473,
+                0.489882
+              ],
+              "engine": {
+                "build": "official",
+                "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+                "hex": 263938,
+                "major": 4,
+                "minor": 7,
+                "patch": 2,
+                "status": "stable",
+                "string": "4.7.2-stable (official)",
+                "timestamp": 0
+              },
+              "errors": [],
+              "events": [
+                {
+                  "frame": 1,
+                  "phase": "play",
+                  "seconds": 0.069015
+                },
+                {
+                  "frame": 2,
+                  "phase": "play",
+                  "seconds": 0.193236
+                },
+                {
+                  "frame": 0,
+                  "phase": "play",
+                  "seconds": 0.241505
+                },
+                {
+                  "frame": 1,
+                  "phase": "play",
+                  "seconds": 0.317414
+                },
+                {
+                  "frame": 2,
+                  "phase": "play",
+                  "seconds": 0.4416
+                },
+                {
+                  "frame": 0,
+                  "phase": "restart",
+                  "seconds": 0.627942
+                }
+              ],
+              "pixels": [
+                {
+                  "frame": 0,
+                  "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+                },
+                {
+                  "frame": 1,
+                  "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+                },
+                {
+                  "frame": 2,
+                  "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+                }
+              ],
+              "play_count": 2,
+              "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance",
+              "startup": "100ms + 3 process frames before scene starts"
+            },
+            "script_sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa",
+            "commands": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/export/godot/commands.json"
+          },
+          "1": {
+            "status": "verified",
+            "receipt": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-1/godot/engine-receipt.json",
+            "receipt_sha256": "2c0c6e7854de752aac848cc31c9baa7fa167e32d6cd1575afe42a1fee23df43a",
+            "measurement": {
+              "clock_tolerance_ms": 40,
+              "completion": [
+                0.241481
+              ],
+              "engine": {
+                "build": "official",
+                "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+                "hex": 263938,
+                "major": 4,
+                "minor": 7,
+                "patch": 2,
+                "status": "stable",
+                "string": "4.7.2-stable (official)",
+                "timestamp": 0
+              },
+              "errors": [],
+              "events": [
+                {
+                  "frame": 1,
+                  "phase": "play",
+                  "seconds": 0.069036
+                },
+                {
+                  "frame": 2,
+                  "phase": "play",
+                  "seconds": 0.193426
+                },
+                {
+                  "frame": 0,
+                  "phase": "restart",
+                  "seconds": 0.379584
+                }
+              ],
+              "pixels": [
+                {
+                  "frame": 0,
+                  "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+                },
+                {
+                  "frame": 1,
+                  "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+                },
+                {
+                  "frame": 2,
+                  "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+                }
+              ],
+              "play_count": 1,
+              "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance",
+              "startup": "100ms + 3 process frames before scene starts"
+            },
+            "script_sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa",
+            "commands": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-1/godot/commands.json"
+          },
+          "0": {
+            "status": "verified",
+            "receipt": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-0/godot/engine-receipt.json",
+            "receipt_sha256": "9bf14d595c5c5e67bf4ad2231897d71950116ad2d6e6a9841b02445eeea2c15c",
+            "measurement": {
+              "clock_tolerance_ms": 40,
+              "completion": [],
+              "engine": {
+                "build": "official",
+                "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+                "hex": 263938,
+                "major": 4,
+                "minor": 7,
+                "patch": 2,
+                "status": "stable",
+                "string": "4.7.2-stable (official)",
+                "timestamp": 0
+              },
+              "errors": [],
+              "events": [
+                {
+                  "frame": 1,
+                  "phase": "play",
+                  "seconds": 0.069023
+                },
+                {
+                  "frame": 2,
+                  "phase": "play",
+                  "seconds": 0.193273
+                },
+                {
+                  "frame": 0,
+                  "phase": "play",
+                  "seconds": 0.241529
+                },
+                {
+                  "frame": 1,
+                  "phase": "play",
+                  "seconds": 0.310594
+                }
+              ],
+              "pixels": [
+                {
+                  "frame": 0,
+                  "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+                },
+                {
+                  "frame": 1,
+                  "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+                },
+                {
+                  "frame": 2,
+                  "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+                }
+              ],
+              "play_count": 0,
+              "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance",
+              "startup": "100ms + 3 process frames before scene starts"
+            },
+            "script_sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa",
+            "commands": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-0/godot/commands.json"
+          }
+        }
+      }
+    }
+  ],
+  "inputs": {
+    "fixture": "f5afb19840df33d3389d991d8347c93ce4b57ebc851ede35d1e01ea3246d32fa",
+    "durations": [
+      [
+        7,
+        100
+      ],
+      [
+        13,
+        100
+      ],
+      [
+        1,
+        20
+      ]
+    ],
+    "play_count": 2,
+    "clock_tolerance_ms": 40,
+    "engine_cases": [
+      1,
+      2,
+      0
+    ],
+    "engine_clock_scope": "measured scene starts after resource checks and100ms+3processframe warmup"
+  },
+  "limitations": [
+    "Asymmetric synthetic supplied pixels establish mechanics only; art and motion quality unreviewed.",
+    "No private model, generation, provider, hidden anatomy or full vendor/editor parity.",
+    "Review HTML creation and headless engine checks are not continuous visual/GPU/video acceptance."
+  ],
+  "exports": {
+    "sequence_id": "ad1492e260b81174573b76898384f3c99e8674777a3456c25c8960b565984c54",
+    "visual_acceptance": "unreviewed",
+    "requested_formats": [
+      "apng",
+      "editable",
+      "gif",
+      "godot",
+      "manifest",
+      "png",
+      "review",
+      "sheet"
+    ],
+    "formats": {
+      "png": {
+        "status": "written",
+        "rgba": "exact including hiddenRGB",
+        "ordered_frames": 3
+      },
+      "sheet": {
+        "status": "written",
+        "padding_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "trim": "none"
+      },
+      "apng": {
+        "status": "written",
+        "clock": "exact rational16-bit APNG fields",
+        "blend": "SOURCE",
+        "dispose": "NONE",
+        "num_plays": 2,
+        "ordered_frames": 3,
+        "rgba": "exact including hiddenRGB",
+        "sha256": "bc8f97a4aacc2b0004fa9c4a7e90a3ed4f9ce0af28c85a36a4040a9c7204077e"
+      },
+      "gif": {
+        "status": "written",
+        "clock": "nearest centisecond, ties up, minimum1",
+        "alpha": "binary only; hiddenRGB not representable",
+        "palette": "exact shared visible RGB <=255; transparent index0",
+        "duplicates": "all ordered entries encoded, no coalescing",
+        "loop_extension": 1,
+        "play_count": 2,
+        "frames": [
+          {
+            "frame": 0,
+            "encoded_centiseconds": 7,
+            "error_seconds": [
+              0,
+              1
+            ],
+            "cumulative_error_seconds": [
+              0,
+              1
+            ]
+          },
+          {
+            "frame": 1,
+            "encoded_centiseconds": 13,
+            "error_seconds": [
+              0,
+              1
+            ],
+            "cumulative_error_seconds": [
+              0,
+              1
+            ]
+          },
+          {
+            "frame": 2,
+            "encoded_centiseconds": 5,
+            "error_seconds": [
+              0,
+              1
+            ],
+            "cumulative_error_seconds": [
+              0,
+              1
+            ]
+          }
+        ],
+        "sha256": "1cc0ede03b1f8233b1734299c9bbf1b7340aa68404661114ea66d8c82d0753ca"
+      },
+      "editable": {
+        "status": "written",
+        "artifact_count": 5,
+        "scene_id": null,
+        "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+      },
+      "godot": {
+        "status": "written",
+        "clock": "SpriteFrames speed1, checked float-second weights; rational manifest authoritative",
+        "play_count": 2,
+        "finite_replays": "driver counts animation_finished signals",
+        "pivot": "driver offset=-per-frame pivot, centered=false",
+        "runtime_verification": "not executed by export"
+      },
+      "review": {
+        "status": "written",
+        "ordered_frames": 3,
+        "adjacent_pairs": 2,
+        "return_pairs": 1,
+        "review_file": "review.html",
+        "diagnostics_file": "review.json",
+        "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+        "visual_acceptance": "unreviewed",
+        "continuous_motion_viewed": false
+      },
+      "manifest": {
+        "status": "written",
+        "file": "manifest.json",
+        "clock": "exact rational seconds",
+        "play_count": 2
+      }
+    },
+    "source_ids": [],
+    "files": [
+      {
+        "file": "animation.apng",
+        "bytes": 315,
+        "sha256": "bc8f97a4aacc2b0004fa9c4a7e90a3ed4f9ce0af28c85a36a4040a9c7204077e"
+      },
+      {
+        "file": "animation.gif",
+        "bytes": 960,
+        "sha256": "1cc0ede03b1f8233b1734299c9bbf1b7340aa68404661114ea66d8c82d0753ca"
+      },
+      {
+        "file": "editable/artifacts/786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53",
+        "bytes": 1024,
+        "sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+      },
+      {
+        "file": "editable/artifacts/7c44f10b3e705ebbff9423aa30c122af974e6c10d8f0af299a278c756b93a3a1",
+        "bytes": 204,
+        "sha256": "7c44f10b3e705ebbff9423aa30c122af974e6c10d8f0af299a278c756b93a3a1"
+      },
+      {
+        "file": "editable/artifacts/8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297",
+        "bytes": 1024,
+        "sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+      },
+      {
+        "file": "editable/artifacts/a49c458a0a585d520e6d92346433da37d0e8b37c5cafef100a089008511fce6b",
+        "bytes": 204,
+        "sha256": "a49c458a0a585d520e6d92346433da37d0e8b37c5cafef100a089008511fce6b"
+      },
+      {
+        "file": "editable/artifacts/ad1492e260b81174573b76898384f3c99e8674777a3456c25c8960b565984c54",
+        "bytes": 588,
+        "sha256": "ad1492e260b81174573b76898384f3c99e8674777a3456c25c8960b565984c54"
+      },
+      {
+        "file": "editable/index.json",
+        "bytes": 497,
+        "sha256": "26f2621333c71d26223cc682af95282469b68f5bfcdd5ae5019c51e77dba3eee"
+      },
+      {
+        "file": "frames/frame-0000.png",
+        "bytes": 90,
+        "sha256": "53324f8c4ebaeb5184f0c53cb7c13ed9bddecddec4f5e9531407ba41e9d537eb"
+      },
+      {
+        "file": "frames/frame-0001.png",
+        "bytes": 88,
+        "sha256": "431f2e38517ede50c5f97fc29d8364e2336a9f7f3e3a059fa5dba95b89679fe5"
+      },
+      {
+        "file": "frames/frame-0002.png",
+        "bytes": 88,
+        "sha256": "431f2e38517ede50c5f97fc29d8364e2336a9f7f3e3a059fa5dba95b89679fe5"
+      },
+      {
+        "file": "godot/clip.tres",
+        "bytes": 690,
+        "sha256": "16fe1f3234737b6671fb1afefa1731740cad273a454f543a715819fa8f642032"
+      },
+      {
+        "file": "godot/clip.tscn",
+        "bytes": 371,
+        "sha256": "1152a4d47aa66d94b687bf859cab2670603dbfd7e51e1ba592dee800891fbe5a"
+      },
+      {
+        "file": "godot/driver.gd",
+        "bytes": 821,
+        "sha256": "4622446376888fb8d45c3a0e8655ba918c9e79b438639a9ac7dd696f2fddb1a2"
+      },
+      {
+        "file": "godot/project.godot",
+        "bytes": 308,
+        "sha256": "78e8ab499501f57aad4e84425c6523904e4a61d349086a7fa368d5270f19ac9b"
+      },
+      {
+        "file": "godot/sheet.png",
+        "bytes": 117,
+        "sha256": "c4a0250214381d1990e14ab39072e3047a88c100844258acf20a1738c98e08a2"
+      },
+      {
+        "file": "godot/timeline.json",
+        "bytes": 2041,
+        "sha256": "e9d1189e37a0b37d6fc9869ad90c57af8e0da956f554852c727aca9798453210"
+      },
+      {
+        "file": "manifest.json",
+        "bytes": 2041,
+        "sha256": "e9d1189e37a0b37d6fc9869ad90c57af8e0da956f554852c727aca9798453210"
+      },
+      {
+        "file": "review/frames/frame-0000.png",
+        "bytes": 90,
+        "sha256": "53324f8c4ebaeb5184f0c53cb7c13ed9bddecddec4f5e9531407ba41e9d537eb"
+      },
+      {
+        "file": "review/frames/frame-0001.png",
+        "bytes": 88,
+        "sha256": "431f2e38517ede50c5f97fc29d8364e2336a9f7f3e3a059fa5dba95b89679fe5"
+      },
+      {
+        "file": "review/frames/frame-0002.png",
+        "bytes": 88,
+        "sha256": "431f2e38517ede50c5f97fc29d8364e2336a9f7f3e3a059fa5dba95b89679fe5"
+      },
+      {
+        "file": "review/review.html",
+        "bytes": 8324,
+        "sha256": "84cd7bef12b6e79b3c2c2637b013492ca62aea035dd207a09278eff78d08f71a"
+      },
+      {
+        "file": "review/review.json",
+        "bytes": 2702,
+        "sha256": "3f471ec86de439162afddc0c3f0763039611911b1163841a952b1ae9b913bdef"
+      },
+      {
+        "file": "sheet.png",
+        "bytes": 117,
+        "sha256": "c4a0250214381d1990e14ab39072e3047a88c100844258acf20a1738c98e08a2"
+      }
+    ],
+    "engine_verification": {
+      "status": "verified",
+      "cases": {
+        "2": {
+          "status": "verified",
+          "receipt": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/export/godot/engine-receipt.json",
+          "receipt_sha256": "5ad233983578e4e4ad5b48fa19a042997efacc714017a7a329744fcdf3335235",
+          "measurement": {
+            "clock_tolerance_ms": 40,
+            "completion": [
+              0.241473,
+              0.489882
+            ],
+            "engine": {
+              "build": "official",
+              "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+              "hex": 263938,
+              "major": 4,
+              "minor": 7,
+              "patch": 2,
+              "status": "stable",
+              "string": "4.7.2-stable (official)",
+              "timestamp": 0
+            },
+            "errors": [],
+            "events": [
+              {
+                "frame": 1,
+                "phase": "play",
+                "seconds": 0.069015
+              },
+              {
+                "frame": 2,
+                "phase": "play",
+                "seconds": 0.193236
+              },
+              {
+                "frame": 0,
+                "phase": "play",
+                "seconds": 0.241505
+              },
+              {
+                "frame": 1,
+                "phase": "play",
+                "seconds": 0.317414
+              },
+              {
+                "frame": 2,
+                "phase": "play",
+                "seconds": 0.4416
+              },
+              {
+                "frame": 0,
+                "phase": "restart",
+                "seconds": 0.627942
+              }
+            ],
+            "pixels": [
+              {
+                "frame": 0,
+                "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+              },
+              {
+                "frame": 1,
+                "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+              },
+              {
+                "frame": 2,
+                "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+              }
+            ],
+            "play_count": 2,
+            "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance",
+            "startup": "100ms + 3 process frames before scene starts"
+          },
+          "script_sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa",
+          "commands": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/export/godot/commands.json"
+        },
+        "1": {
+          "status": "verified",
+          "receipt": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-1/godot/engine-receipt.json",
+          "receipt_sha256": "2c0c6e7854de752aac848cc31c9baa7fa167e32d6cd1575afe42a1fee23df43a",
+          "measurement": {
+            "clock_tolerance_ms": 40,
+            "completion": [
+              0.241481
+            ],
+            "engine": {
+              "build": "official",
+              "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+              "hex": 263938,
+              "major": 4,
+              "minor": 7,
+              "patch": 2,
+              "status": "stable",
+              "string": "4.7.2-stable (official)",
+              "timestamp": 0
+            },
+            "errors": [],
+            "events": [
+              {
+                "frame": 1,
+                "phase": "play",
+                "seconds": 0.069036
+              },
+              {
+                "frame": 2,
+                "phase": "play",
+                "seconds": 0.193426
+              },
+              {
+                "frame": 0,
+                "phase": "restart",
+                "seconds": 0.379584
+              }
+            ],
+            "pixels": [
+              {
+                "frame": 0,
+                "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+              },
+              {
+                "frame": 1,
+                "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+              },
+              {
+                "frame": 2,
+                "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+              }
+            ],
+            "play_count": 1,
+            "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance",
+            "startup": "100ms + 3 process frames before scene starts"
+          },
+          "script_sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa",
+          "commands": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-1/godot/commands.json"
+        },
+        "0": {
+          "status": "verified",
+          "receipt": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-0/godot/engine-receipt.json",
+          "receipt_sha256": "9bf14d595c5c5e67bf4ad2231897d71950116ad2d6e6a9841b02445eeea2c15c",
+          "measurement": {
+            "clock_tolerance_ms": 40,
+            "completion": [],
+            "engine": {
+              "build": "official",
+              "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+              "hex": 263938,
+              "major": 4,
+              "minor": 7,
+              "patch": 2,
+              "status": "stable",
+              "string": "4.7.2-stable (official)",
+              "timestamp": 0
+            },
+            "errors": [],
+            "events": [
+              {
+                "frame": 1,
+                "phase": "play",
+                "seconds": 0.069023
+              },
+              {
+                "frame": 2,
+                "phase": "play",
+                "seconds": 0.193273
+              },
+              {
+                "frame": 0,
+                "phase": "play",
+                "seconds": 0.241529
+              },
+              {
+                "frame": 1,
+                "phase": "play",
+                "seconds": 0.310594
+              }
+            ],
+            "pixels": [
+              {
+                "frame": 0,
+                "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+              },
+              {
+                "frame": 1,
+                "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+              },
+              {
+                "frame": 2,
+                "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+              }
+            ],
+            "play_count": 0,
+            "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance",
+            "startup": "100ms + 3 process frames before scene starts"
+          },
+          "script_sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa",
+          "commands": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/engine-plays-0/godot/commands.json"
+        }
+      }
+    }
+  },
+  "reviews": {
+    "html": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/export/review/review.html",
+    "json": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10/export/review/review.json",
+    "continuous_motion_viewed": false
+  },
+  "output": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F10",
+  "provider_calls": 0,
+  "artistic_acceptance": "unreviewed",
+  "routine_order": [
+    "supplied unequal-clock sequence",
+    "PNG/sheet/APNG/GIF/editable/Godot/review export",
+    "fresh Store reload",
+    "exact decode and rational clock checks",
+    "unsupported format controls",
+    "overwrite preservation control",
+    "Godot availability check; if available, warmed finite/once/infinite engine checks"
+  ],
+  "receipt_artifact": "cf8ab9be75004d0e70324c8bfafaa171a52b97a792b5ce0adb3d942851a1750b"
+}

@@ -1,0 +1,118 @@
+{
+  "created_utc": "2026-10-20T03:02:38.841435+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "repository-content",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/scripts/check_repository.py",
+        "--report",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/content.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.48,
+      "summary": "  \"text_files_scanned\": 3860,\n  \"findings\": [],\n  \"passed\": true,\n  \"scope\": \"Pattern/path/size checks of selected content, not a guarantee of all possible secrets or licensing.\"\n}",
+      "log": "repository-content.log"
+    },
+    {
+      "name": "workbench-tests",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline/workbench",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 120.335,
+      "summary": "  /home/astra/projects/sprite-art-pipeline/workbench/sprite_workbench/construction_core/core.py:129: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.\n    a=list(_render_frame(before,frame['id']).getdata());b=list(_render_frame(after,frame['id']).getdata());points=[[i%w,i//w]for i,(x,y)in enumerate(zip(a,b))if x!=y]\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n989 passed, 74 skipped, 1398 warnings in 119.77s (0:01:59)",
+      "log": "workbench-tests.log"
+    },
+    {
+      "name": "editable-toolkit-tests",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.252,
+      "summary": "\n----------------------------------------------------------------------\nRan 23 tests in 0.172s\n\nOK",
+      "log": "editable-toolkit-tests.log"
+    },
+    {
+      "name": "approved-walk-manifest",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-animation-pipeline/scripts/animation_assets.py",
+        "validate",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/clips.json",
+        "--report",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/walk-validation.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.094,
+      "summary": "{\"accepted\": true, \"clip_count\": 1, \"frame_count\": 30, \"input_fingerprint\": \"58bf0c063cbce8306bebd8f023da701cd5fe4a7a99ba457063261015e0ea3bb8\", \"errors\": []}",
+      "log": "approved-walk-manifest.log"
+    },
+    {
+      "name": "approved-editable",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit/scripts/sprite_edit.py",
+        "validate",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/editable/walk.project.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.334,
+      "summary": "00b96bb59246a89ed988f9fb3823530c74a7b6dc11a04146ee99504afa79e0dd",
+      "log": "approved-editable.log"
+    },
+    {
+      "name": "exact-apng",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-animation-pipeline/scripts/exact_apng.py",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-animation-pipeline/assets/apng-smoke/manifest.json",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/apng"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.09,
+      "summary": "{\"output\": \"/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/apng\", \"sha256\": \"02323ebb078423b6f78854574ec4dd42600183fada7712c6d2b8246d6984789c\", \"frames\": 3, \"verified\": true}",
+      "log": "exact-apng.log"
+    },
+    {
+      "name": "lyra-rebuild",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/examples/lyra-leg-repair/rebuild.py",
+        "--output",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/lyra-replay"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.3,
+      "summary": "Built v4 complete eight-frame source-part walk with fixed upper and clock",
+      "log": "lyra-rebuild.log"
+    }
+  ],
+  "scope": "Fresh selected offline code/artifact checks. No provider job, server, continuous visual acceptance or whole-PixelLab parity."
+}

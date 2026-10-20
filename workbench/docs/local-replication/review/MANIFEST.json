@@ -1,0 +1,85 @@
+{
+  "scope": "Reviewer-owned selected channel baseline and corrected evidence; raw outputs preserved",
+  "files": [
+    {
+      "file": "BASELINE-JUNIT.xml",
+      "bytes": 9800,
+      "sha256": "19cbe2e69fe9d9f41725018a7672c1668e3ac0e934525aaadd46d65dc6da7037"
+    },
+    {
+      "file": "BASELINE-PYTEST.txt",
+      "bytes": 5731,
+      "sha256": "d78dc4dfc65fc838d5c05fb0a7b79e863b51fbcf4142559c449553e79107b10f"
+    },
+    {
+      "file": "BASELINE-RECEIPT.json",
+      "bytes": 2165,
+      "sha256": "69ecf74bd2244348eb29d48b5dc91153f095f118ebfe29f0c82ef3747da5d24d"
+    },
+    {
+      "file": "CHANNEL-RECEIPT.json",
+      "bytes": 2101,
+      "sha256": "96a08e7cb1d88c12a34ba769641c7c019ae7a41c194c6529572bffaad6a92975"
+    },
+    {
+      "file": "CORRECTED-JUNIT.xml",
+      "bytes": 1564,
+      "sha256": "9d1e9eecb5eeae939d042d9b4a724e36b63085a9a2b1492137955b1c0a47f2fe"
+    },
+    {
+      "file": "CORRECTED-PYTEST.txt",
+      "bytes": 98,
+      "sha256": "2b5e55a0a746cda54228cd7ca7280c766f86250ee34675c113902bda216e2237"
+    },
+    {
+      "file": "CORRECTION-RESOLUTION.json",
+      "bytes": 2941,
+      "sha256": "6292c25466bfc8ebf06350c5a253adf48dd6acaa0a81ff679e06619ee89b8b7a"
+    },
+    {
+      "file": "ENVIRONMENT.json",
+      "bytes": 472,
+      "sha256": "99a4196bec4f58c58b772ee063e45f039382fcb68ecbdd1be1e58f1e1f8b8e76"
+    },
+    {
+      "file": "FINAL-JUNIT.xml",
+      "bytes": 1564,
+      "sha256": "80d8e07e9a1adc91731e0d50c26f6f256f2978f6c1d0ce672a291e35c20daaf0"
+    },
+    {
+      "file": "FINAL-PYTEST.txt",
+      "bytes": 98,
+      "sha256": "7d11cf415414c639cbd80321ec4f49cdb5900fe72320a0d3d9d4d8c19acc5883"
+    },
+    {
+      "file": "HARNESS-INITIAL-JUNIT.xml",
+      "bytes": 11461,
+      "sha256": "f82d0e5e5986814057a09113d6d655b32f389ac1d30b3201da8b102fc94e5ad8"
+    },
+    {
+      "file": "HARNESS-INITIAL-PYTEST.txt",
+      "bytes": 7281,
+      "sha256": "41b06284b75d545a1fb203f923da0d52c7eed3561eecb147df0f512cd8d8b69b"
+    },
+    {
+      "file": "HARNESS-INITIAL-TESTS.py",
+      "bytes": 10895,
+      "sha256": "a0c79766693f7e87e8e11dac5f93323adaab033035f50a46103bbb2031b10337"
+    },
+    {
+      "file": "RECOVERY-RECEIPT.json",
+      "bytes": 836,
+      "sha256": "aa0528501cc36390b01e660fbf429fcf445efe17fb01cc4e3fb39b03b33654b7"
+    },
+    {
+      "file": "REGISTRATION-RECEIPT.json",
+      "bytes": 5577,
+      "sha256": "8f9f17e271396c70d77c8d5a578b1599ca688e5b71c6cad65d56a07100ce4840"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 5567,
+      "sha256": "12d663ecd725785414ad97db2ea866ae2123776437604992ab7ff59ec9313c43"
+    }
+  ]
+}

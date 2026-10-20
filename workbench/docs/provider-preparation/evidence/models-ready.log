@@ -1,0 +1,17 @@
+### Result
+{
+  "title": "Model Lab · Sprite workbench",
+  "url": "http://127.0.0.1:8874/#models",
+  "executors": [
+    "Codex image-generation tool",
+    "Hermes / MiniMax agent"
+  ],
+  "canPrepare": true,
+  "errorVisible": false,
+  "bodyWidth": 1440,
+  "viewport": 1440
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({title:document.title,url:location.href,executors:[...document.querySelectorAll(".models-executor h3")].map(e=>e.textContent),canPrepare:!document.getElementById("models-prepare").disabled,errorVisible:!document.getElementById("global-error").hidden,bodyWidth:document.documentElement.scrollWidth,viewport:innerWidth})');
+```

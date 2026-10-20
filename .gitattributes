@@ -1,0 +1,10 @@
+# Preserve captured/source bytes across clones; no automatic line-ending rewrite.
+* -text
+*.png binary
+*.mp4 binary
+*.npz binary
+*.npy binary
+*.aseprite binary
+*.wav binary
+*.ogg binary
+

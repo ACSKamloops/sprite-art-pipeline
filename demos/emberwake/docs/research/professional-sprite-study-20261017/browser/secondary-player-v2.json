@@ -1,0 +1,154 @@
+{
+  "scope": "Final v2 source binding, UI clocks and controls only; no human continuous-motion, live-game or art-approval claim.",
+  "input_sha256": "6916f410c81726f711f9929fc13b6db67df3d69c4d09077fe43950dd8d93ca06",
+  "exposure_entries_verified": 142,
+  "clips": 11,
+  "loop_samples": {
+    "samples": 73,
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "right": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "state": {
+      "ready": true,
+      "playing": true,
+      "sim_ms": 1214.6000000238419,
+      "verified_frames": 142,
+      "clock": "native",
+      "choices": [
+        "duelyst-argeon-run",
+        "tiny-rpg-warrior_run"
+      ],
+      "positions": [
+        {
+          "frame": 2,
+          "phase": 0.37226562504656613,
+          "complete": false,
+          "duration": 512
+        },
+        {
+          "frame": 0,
+          "phase": 0.024333333373069765,
+          "complete": false,
+          "duration": 600
+        }
+      ]
+    }
+  },
+  "paused_time_exact": true,
+  "normalized_phase": {
+    "ready": true,
+    "playing": true,
+    "sim_ms": 185.60000002384186,
+    "verified_frames": 142,
+    "clock": "phase",
+    "choices": [
+      "duelyst-argeon-run",
+      "tiny-rpg-warrior_run"
+    ],
+    "positions": [
+      {
+        "frame": 1,
+        "phase": 0.18560000002384186,
+        "complete": false,
+        "duration": 512
+      },
+      {
+        "frame": 1,
+        "phase": 0.18560000002384186,
+        "complete": false,
+        "duration": 600
+      }
+    ]
+  },
+  "finite_profile": {
+    "slots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ],
+    "state": {
+      "ready": true,
+      "playing": false,
+      "sim_ms": 3329.2999999523163,
+      "verified_frames": 142,
+      "clock": "native",
+      "choices": [
+        "duelyst-argeon-attack-idle-breathing-profile",
+        "tiny-rpg-warrior_attack1"
+      ],
+      "positions": [
+        {
+          "frame": 45,
+          "phase": 0.9999999999699519,
+          "complete": true,
+          "duration": 3328
+        },
+        {
+          "frame": 3,
+          "phase": 0.99999999975,
+          "complete": true,
+          "duration": 400
+        }
+      ]
+    }
+  },
+  "observed_pageerrors": []
+}

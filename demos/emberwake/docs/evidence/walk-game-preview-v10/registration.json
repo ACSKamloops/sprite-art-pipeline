@@ -1,0 +1,1295 @@
+{
+  "schema": "fixed-row-registration/v1",
+  "normalization": [
+    2048,
+    1024
+  ],
+  "grid": [
+    8,
+    4
+  ],
+  "stage": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    112
+  ],
+  "note": "Isolated v10 replaces only Brann SE/SW walks with the preferred exact body-weight/seam bank. Other v9 art, all cardinals and nonwalks, game code/clocks unchanged. No public or8/10motion acceptance.",
+  "actors": {
+    "rowan": {
+      "southeast": {
+        "raw": "art-source/eight-direction-v1/raw/rowan-southeast-initial.png",
+        "raw_sha256": "cf76a78ceabde8db48e65e0b8d8006dbcf65a779431f08bb2e8c6af569da48e6",
+        "scale": 0.418,
+        "row_anchors": [
+          [
+            133,
+            258
+          ],
+          [
+            132,
+            258
+          ],
+          [
+            131,
+            251
+          ],
+          [
+            130,
+            246
+          ]
+        ],
+        "cast_hand": [
+          99,
+          56
+        ],
+        "cell_overrides": {
+          "23": {
+            "path": "art-source/eight-direction-v1/breath-v1/rowan/southeast/23.png",
+            "sha256": "6d39534e15291159922360f061f74f548dfad298a87c14bd485e91687944be24",
+            "recipe": "art-source/eight-direction-v1/breath-v1/rowan/southeast/receipt.json",
+            "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+          },
+          "17": {
+            "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/17.png",
+            "sha256": "8452777a46d28e7ea2086ffb060e358a8f5a99c910c3b4cdb2ae7063ebd81fd9",
+            "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+          },
+          "18": {
+            "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/18.png",
+            "sha256": "eb9e97111e033e363a03cd2cb3336357d818b90e1f49d19ee0bd4414c32dba85",
+            "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+          },
+          "20": {
+            "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/20.png",
+            "sha256": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+            "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+          },
+          "25": {
+            "path": "art-source/eight-direction-v1/hurt-recovery-v1/rowan/southeast/25.png",
+            "sha256": "aad2bdafca33af54e8b5191bcb075b524c99b4557312277f3ebf59f5b65914e7",
+            "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+          }
+        },
+        "cast_hand_track": [
+          [
+            83,
+            75
+          ],
+          [
+            92,
+            55
+          ],
+          [
+            94,
+            54
+          ],
+          [
+            99,
+            56
+          ],
+          [
+            76,
+            76
+          ],
+          [
+            83,
+            75
+          ]
+        ],
+        "walk_override": {
+          "frames": [
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/00.png",
+              "sha256": "722a81b71ac33dbe13606996aaff7cc8b178859eb0a1f6cb3d8a83a1934e02af"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/01.png",
+              "sha256": "b73580ef33314d2320d83a4b6290112ae6386ac421caa3d64383a6bcb00b8f4c"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/02.png",
+              "sha256": "ed0a5cff5fca2898787e5d48d7436c6d5fc40d938017216ee05b0d4060ba56f7"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/03.png",
+              "sha256": "014eba240154c2632e5d8cbdb391e9186bdd79742785e52f7973683fa7c3ed26"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/04.png",
+              "sha256": "cf058981315073476baadfb4d0a4d1f9311ad1cc8276185a934e496e251069c6"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/05.png",
+              "sha256": "b0a678301227ab81fa3ef216a99345f577abb8f079f80024b19c4bf8751c0ff6"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/06.png",
+              "sha256": "42c86734d5e80d452b10d51656919c3b7356513804110a6a549dea5ef1f0547e"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/07.png",
+              "sha256": "9b62df0f5faf9bb22a2e8c1e4bdddf9c3f359ad5fbaa01bd6a1348d0b796a618"
+            }
+          ],
+          "scope": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release."
+        }
+      },
+      "northeast": {
+        "raw": "art-source/eight-direction-v1/raw/rowan-northeast-initial.png",
+        "raw_sha256": "316b7f6f07d7b77b4b8863a62fe45c8d9589842dfdd533a6f9d80064dea181ba",
+        "scale": 0.43,
+        "row_anchors": [
+          [
+            143,
+            254
+          ],
+          [
+            143,
+            252
+          ],
+          [
+            144,
+            251
+          ],
+          [
+            143,
+            250
+          ]
+        ],
+        "cast_hand": [
+          99,
+          45
+        ],
+        "cell_overrides": {
+          "23": {
+            "path": "art-source/eight-direction-v1/breath-v1/rowan/northeast/23.png",
+            "sha256": "8d7a6e2ea55de05ee37fe5bcecba4f4c1e07a5b20d236707d56bd724a1433fa1",
+            "recipe": "art-source/eight-direction-v1/breath-v1/rowan/northeast/receipt.json",
+            "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+          },
+          "17": {
+            "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/17.png",
+            "sha256": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+            "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+          },
+          "18": {
+            "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/18.png",
+            "sha256": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+            "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+          },
+          "20": {
+            "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/20.png",
+            "sha256": "badde89ee497e2f7c13004a7578c806204e08ba2ee3fba7dc6660180c12ca7a8",
+            "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+          },
+          "25": {
+            "path": "art-source/eight-direction-v1/hurt-recovery-v1/rowan/northeast/25.png",
+            "sha256": "6fa5b0c782626a67b1f9a920ce8b8a1b563cbdcfcea2dcb7b5c2001d144fa7bc",
+            "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+          }
+        },
+        "cast_hand_track": [
+          [
+            83,
+            73
+          ],
+          [
+            96,
+            52
+          ],
+          [
+            98,
+            51
+          ],
+          [
+            99,
+            45
+          ],
+          [
+            89,
+            77
+          ],
+          [
+            83,
+            73
+          ]
+        ],
+        "walk_override": {
+          "frames": [
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/00.png",
+              "sha256": "c88e1d925a77784038c4bb6afa78ba11f5838b5d66555e7b0cf7b103ba372bfc"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/01.png",
+              "sha256": "a8777ab1305a5769e23a1848317afdeb0d4175476bbf37216ba30fc683010bae"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/02.png",
+              "sha256": "ba7fbc391d3ec25a40d12f6f4f73b773b1d8e1d220c73c166b8cb33026b2f357"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/03.png",
+              "sha256": "f6684cff2278d8a1724b8c48b0b814877355fcf33e49b250166c5b8fcad6dd60"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/04.png",
+              "sha256": "fd629e8f1b0603a4d3d8780cfec7a7b6a548c7f9d86fa7be83456c49ee3cbe6c"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/05.png",
+              "sha256": "17ee266228ff4d64a3890d3ae4393e8b6d35d6919a27ffb0755737f5621801f7"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/06.png",
+              "sha256": "5e652adc0dafe96ed2747dc6b8bdffd68f800f1b34f04fe7e142e318e407fa0b"
+            },
+            {
+              "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/07.png",
+              "sha256": "407c13cba75d3db81b30bd3d304ffe4c22298dedee20f8ff12154e88dbd94d37"
+            }
+          ],
+          "scope": "Preferred unfinished walk repairs only; all eight9/160s holds and other actions retain original behavior. Target unmet; isolated local preview only."
+        }
+      }
+    },
+    "lyra": {
+      "southeast": {
+        "raw": "art-source/eight-direction-v1/raw/lyra-southeast-initial.png",
+        "raw_sha256": "4e4050324cc3b6bd6da9bec1fbd33258386cb50a0ed0eac6404f6fc102670823",
+        "scale": 0.436,
+        "row_anchors": [
+          [
+            132,
+            247
+          ],
+          [
+            132,
+            242
+          ],
+          [
+            131,
+            241
+          ],
+          [
+            132,
+            240
+          ]
+        ],
+        "cast_hand": [
+          100,
+          61
+        ],
+        "cell_overrides": {
+          "23": {
+            "path": "art-source/eight-direction-v1/breath-v1/lyra/southeast/23.png",
+            "sha256": "7058b976e155cf20e4dbebf37449357b99402bbb06057594e28018b3bea25eb3",
+            "recipe": "art-source/eight-direction-v1/breath-v1/lyra/southeast/receipt.json",
+            "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+          }
+        },
+        "cast_hand_track": [
+          [
+            82,
+            75
+          ],
+          [
+            82,
+            66
+          ],
+          [
+            83,
+            66
+          ],
+          [
+            100,
+            61
+          ],
+          [
+            82,
+            68
+          ],
+          [
+            82,
+            75
+          ]
+        ],
+        "walk_override": {
+          "frames": [
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/00.png",
+              "sha256": "b3f960c22be8d5698ca346a4faca5cf417576d37920cac11bbb7441890a56b9b"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/01.png",
+              "sha256": "659a008b557c6b692d888d45e4e4dc591c8c78286354e71f009429e5d66e4808"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/02.png",
+              "sha256": "8142df138044c349324f3b8179ec0ed7c30dd2e8107c612ef4426d6a8c425cf2"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/03.png",
+              "sha256": "0e32ce7642f1e55a226b78f814c763f27ca8f28d41fc5bf5d7515e9d17ec2f13"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/04.png",
+              "sha256": "e3dfacc87d7e055848590e3d696ee4b18adfe9a7f1a9da94d6d176ee75601c5f"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/05.png",
+              "sha256": "39f20b485f26f0d50560390416e25002c6a8f8a07a687699ef2e94ebf627a7ff"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/06.png",
+              "sha256": "61ddb98d813234ac359e3f718e341afafef5978aea29cfd2e4aa54a41c85ec1b"
+            },
+            {
+              "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/07.png",
+              "sha256": "9696a823ff94ec7b0a4afbd95756bfacc61b683cb7ce98c154cd3eb405480dfd"
+            }
+          ],
+          "scope": "Preferred scoped unfinished8-key repair; .45s clock unchanged; local isolated review only; target8 remains unmet."
+        }
+      },
+      "northeast": {
+        "raw": "art-source/eight-direction-v1/raw/lyra-northeast-initial.png",
+        "raw_sha256": "a8e77dbdaf0c1de47d71ef9429df558bf9159d325e29889b17e354d21542d738",
+        "scale": 0.44,
+        "row_anchors": [
+          [
+            132,
+            252
+          ],
+          [
+            132,
+            248
+          ],
+          [
+            131,
+            245
+          ],
+          [
+            132,
+            240
+          ]
+        ],
+        "cast_hand": [
+          96,
+          40
+        ],
+        "cell_overrides": {
+          "23": {
+            "path": "art-source/eight-direction-v1/breath-v1/lyra/northeast/23.png",
+            "sha256": "5371f62e79210d6e7f41222069b62d725f70cdda0698ddcab8665946476ab603",
+            "recipe": "art-source/eight-direction-v1/breath-v1/lyra/northeast/receipt.json",
+            "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+          },
+          "25": {
+            "path": "art-source/eight-direction-v1/hurt-recovery-v1/lyra/northeast/25.png",
+            "sha256": "3fcd39b7c2ff31572b938a9b96ef1535f7cdac54270a4209cfec9a0ba1b3937b",
+            "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+          }
+        },
+        "cast_hand_track": [
+          [
+            82,
+            75
+          ],
+          [
+            82,
+            62
+          ],
+          [
+            83,
+            63
+          ],
+          [
+            96,
+            40
+          ],
+          [
+            84,
+            60
+          ],
+          [
+            82,
+            75
+          ]
+        ],
+        "walk_override": {
+          "frames": [
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/00.png",
+              "sha256": "b08d06b5e197bc3f68e5b004a3b5d804f2212b66ecdf2b20cd5c6b389f16eeac"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/01.png",
+              "sha256": "d6b0dcbfda86b31400e94ff53b2ce494be6ecca6b33a6496b477b82638125c98"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/02.png",
+              "sha256": "58d694254cb2cee8c158a32f1bcbb8bb380c04eeed4780f601452ecb755b0f06"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/03.png",
+              "sha256": "4202ccd0ddeb29bfb65cf27abe511ebb80d3e0587878f1db1778c00f0110a1a8"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/04.png",
+              "sha256": "28b0e62c72dc1e4a503ea509ee94946bf4d7beb34ef3badeef0b390cf8606318"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/05.png",
+              "sha256": "bb92a237125bd50eba158c65527d646d8590c73021502345ad3efc8e99394c06"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/06.png",
+              "sha256": "b9c51b56bf6125c9bf6445fadb00741be24d2f5bef2f9c76f66685acd3365a20"
+            },
+            {
+              "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/07.png",
+              "sha256": "ef30903a0b73ccc84b51c5d8a8855914e5c0745ea523fd730052ad875fe55f32"
+            }
+          ],
+          "scope": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release."
+        }
+      }
+    },
+    "brann": {
+      "southeast": {
+        "raw": "art-source/eight-direction-v1/brann-source/raw/brann-se-initial.png",
+        "raw_sha256": "c6e2722e9a94e29f695a326526a832d1bc215058c21e5f363bb28c8a76f54d9a",
+        "scale": 0.425,
+        "row_anchors": [
+          [
+            146,
+            254
+          ],
+          [
+            146,
+            245
+          ],
+          [
+            146,
+            246
+          ],
+          [
+            146,
+            242
+          ]
+        ],
+        "cast_hand": [
+          99,
+          59
+        ],
+        "cell_overrides": {
+          "23": {
+            "path": "art-source/eight-direction-v1/breath-v2/brann/southeast/23.png",
+            "sha256": "17dcb74c073e82690f99d8f5417a3343a1e4fa1bb72d77ddb80a532e35d0b315",
+            "kind": "one-pixel source breath of matching arms-down neutral, exact pair"
+          },
+          "22": {
+            "path": "art-source/eight-direction-v1/brann-eye-v1/22.png",
+            "sha256": "789c7d5af8054bf9be2cf05c57238b0a068e49d877c3a0e71be25d02e1e9654e",
+            "kind": "relaxed neutral, five same-view eye donor texels; corrected paired review"
+          }
+        },
+        "cast_hand_track": [
+          [
+            84,
+            85
+          ],
+          [
+            79,
+            73
+          ],
+          [
+            80,
+            73
+          ],
+          [
+            99,
+            59
+          ],
+          [
+            89,
+            74
+          ],
+          [
+            84,
+            85
+          ]
+        ],
+        "walk_override": {
+          "frames": [
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png",
+              "sha256": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png",
+              "sha256": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png",
+              "sha256": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png",
+              "sha256": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png",
+              "sha256": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png",
+              "sha256": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png",
+              "sha256": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png",
+              "sha256": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+            }
+          ],
+          "scope": "Preferred body-weight and four-pixel seam bank, scoped matte export. Same .45s clock, unfinished7.3motion judged from still chronology."
+        }
+      },
+      "northeast": {
+        "raw": "art-source/eight-direction-v1/brann-source/raw/brann-ne-initial.png",
+        "raw_sha256": "e631a1b0e7eb9e346f5d237a87830beed97f44bb3ef5e12857e18def8881cd0d",
+        "scale": 0.457,
+        "row_anchors": [
+          [
+            136,
+            247
+          ],
+          [
+            136,
+            244
+          ],
+          [
+            136,
+            247
+          ],
+          [
+            136,
+            242
+          ]
+        ],
+        "cast_hand": [
+          100,
+          38
+        ],
+        "cell_overrides": {
+          "23": {
+            "path": "art-source/eight-direction-v1/breath-v1/brann/northeast/23.png",
+            "sha256": "691a674e468420d054902b977f0e562e3b73583dc29cca22278d2d175823f498",
+            "recipe": "art-source/eight-direction-v1/breath-v1/brann/northeast/receipt.json",
+            "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+          },
+          "25": {
+            "path": "art-source/eight-direction-v1/hurt-recovery-v1/brann/northeast/25.png",
+            "sha256": "6e9b8ffe08b793958bd9ad3ef51c857586054798b8f770fe56eff47cb058a087",
+            "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+          }
+        },
+        "cast_hand_track": [
+          [
+            83,
+            74
+          ],
+          [
+            82,
+            61
+          ],
+          [
+            82,
+            62
+          ],
+          [
+            100,
+            38
+          ],
+          [
+            87,
+            53
+          ],
+          [
+            83,
+            74
+          ]
+        ],
+        "walk_override": {
+          "frames": [
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/00.png",
+              "sha256": "fc819bc24215f43e84bfa8207d10c2b6f4a4a716070ccb7a7eeab3f97ea5aceb"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/01.png",
+              "sha256": "31e38ced772b380360d4704e78dda4a72b1a34d5b659b9c4a5b6f07bde7b07f1"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/02.png",
+              "sha256": "cef37b61dbe501ff555cf21742050b92bf3e76a208fc51d42b872cc84129f7a0"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/03.png",
+              "sha256": "5e20136c8416028d30a41f60ece08be3e3d6d0f10e02c3d3b3f77fa74b230e3f"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/04.png",
+              "sha256": "fcb3af4f3cf7905073f9c94284f2db796ba4466fb7b9a2fe59f9b2f994bcbedc"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/05.png",
+              "sha256": "d162cf120d3161f7c58e51a1a3870a08553826910042fd43c5982670b7a92974"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/06.png",
+              "sha256": "425cd8a402607040ba27b77c3db4677ad680a33238ff3b4483a3b32dedff0e4f"
+            },
+            {
+              "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/07.png",
+              "sha256": "91a9ad0f0a34a0890777b368d9f08f7b36e12b0020e702b32137b3e97863d5ca"
+            }
+          ],
+          "scope": "Preferred scoped unfinished8-key repair; .45s clock unchanged; local isolated review only; target8 remains unmet."
+        }
+      }
+    }
+  },
+  "files_sha256": {
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/replay_frozen.py": "c1e56436f7fbaabd896a45d18965c9bdedd4ab73e4c401797f2ea55f40ed642f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/build_hybrid.py": "594f8fc827b3db5fd41b2dc652a81aebca00774423951c34a7f1776004e72019",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-ledger.json": "65237222848e91ad50243894082fea442997439e0264d6010e41ea9c939951f7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/package_hybrid.py": "de0cab1f2970ae0338c85a2b4efe095f84405153d819d92318007852e68823f4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/production.json": "a80159ae1de4b7264f402f0a614869901dd9698b7aaad6b3b5e1ff93b92be1f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/DELIVERY.md": "e4d22e5057fe281dd42a33fa13b7f26ef3732a9345f4363705e9c94f80f1e855",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/construction-spec.json": "2c6c29e87c16aa69d1309052fa963ecb2e5c5e49a7a64c13603cca4d2c86613c",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/construction-spec-v2.json": "ee85ebf27633381d185ccb6d2627c315fd9733c7bcd28ff2fe27e00970f8efc9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proof-v2.json": "d8731813baa8db97013aa619eeedf0229a8b28a013ebdca8963bc769cc8c4b4f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proof.json": "05d7ea7c18db0bf145a38fe00d47fd58b208cca3eb95c68c5c0d3bc8f6af62dc",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/construction-spec-v1.json": "c8d040596a1fbc6d4147d64f474ef323d81a5433c22621021350062ed04352f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/SHA256SUMS": "987ae571e84937716108cb8966724a3d5df73974a8df9d515279931cc6216af5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/input-hashes.json": "9c9dbc09e059739ccc14b859612f467aca061b76aaf24cb948e6945a49194cc6",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proof-v1.json": "d1b444920f0d648d05bdba2eb85d9e650b8e0799745852120c5efa31fadf3905",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/initial.json": "35bdc94b2d44dca5826b266e48cb8a95f5e20c7403cef13943a363cf8954bc8e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/northeast-prep17.ora": "41ae0fabeb01008198c813e9db0c77f88540e66c3d2e2b4ec7cb672f8089d672",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/project.json": "4da079e6e8ecfcf414bc833c1c2f067237c9af59b7b04fe39d38c9480f937a44",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/proof.json": "b35e7a5d6b434708639cc64dc2b16665a5b29b7c1a67e54c4db9e0c6d3973cf6",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/journal.json": "9c96ba3f6650e185a2300670b960d18549538dcff07b9331869380df04aef897",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v2/southeast-light-chronology.png": "50ebed037bd20e5de91efdaeb01b5eb965927f748aeb1a05b1d65e2ce8e86adc",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v2/northeast-dark-chronology.png": "8dd42301d3e33c85a0efc46ded6e57facc5cd5c8e702c7ad0b9e559e159d36c9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v2/northeast-light-chronology.png": "ba489c3ef4c5086bde5de33e651c5649dbd55c804eef2dc5f53781894322cfbe",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v2/southeast-dark-chronology.png": "c89e06b8badef793eee50532bb669d506f078f22b3a8632a02deda831a7c0ba4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/southeast-sources-grid.png": "e486bdeb590b8f23950afa669db00cccd9e2e1e03d79ae6cdcb8c1d7880b3fd6",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/southeast-arm-detail.png": "ffe0ac89291b00cddd2a703e2e06795b276a128f93c5cc1a7d2321357c2709ae",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/southeast-recovery-hand-unmarked.png": "31b1b45f39c9165155ca775641b4104f998f08a18a3522e7e78ba21b0aeb7940",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/northeast-sources-grid.png": "1a119fcd5afdd4f988233e0e732d2babc79fb353eb3a811dc0256e31f596eca5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/northeast-arm-detail.png": "f21917af914f165c2c512b4a66ae73f007fd29f1e1c73574237fba2684af7916",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/target-arm-joins-v2.png": "f82939a84f525e69e6ce8c1e5dcb42ab5313a5c8320dbad9d3b0952c94454705",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inspection/northeast-recovery-hand-unmarked.png": "45c28e9c074567dff3558040fea755d205103c68178a03f03cae1e4e43644310",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/tools/source_warp.py": "7c34b5c002c7e624b0fdb00f6add6514c5a88f9ee5bca2dced494eedd8463abb",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/tools/exact_apng.py": "fe322ec1cb46b371fdc0568dc10b573acf348f08f3b0d53f7923f68cf7094eab",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/rowan-appearance.png": "ca7a427f9decb2c6fa880ae1772fe37233a53d1c6d8ab13387c6f619a8358512",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v1/southeast-light-chronology.png": "48f53cad1a764e7b96b179b36cefcbd7b60cfce557435782d7f08daeea40e842",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v1/northeast-dark-chronology.png": "8ad88940c87a85ec30ff5783be658255ed59bdcd0da9fea7af0f42b0a556fbfe",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v1/northeast-light-chronology.png": "b9b30ff8c2ca33ec51e5c80d7dd5dc2226aef8ea49e79912188ce1556f07f2b0",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs-v1/southeast-dark-chronology.png": "7c1008f6f55cfff10c6b0f8f9b7c229219501dd9333bb7459d39d662045e08be",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-18-donor-target-mask.png": "4c6525a2c90e2035d525a020956ba26bf118bc396be9093bcf5899ba06bc4bde",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-20-source-map.npz": "784ce8addc7e22bdbb2cfdf90682b6689e4a948f5c074321721b51d2300e2aa7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-20-source-map.npz": "aa806b777423b3b56e269388659529faec6d3b13aa71b9fd9e5cf9226cf4d321",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-17-warp-controls.json": "2c804e5ac1b2699e4235b3d72c27479d7ee32b967554c377419d02dde8f01779",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-20-donor-source-mask.png": "7212d97ad45787aa7637805b088268f72bc5b2301afbb728fceba830bcbf7f0e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-20-donor-target-mask.png": "c6cbf7ad02348f1dee368c8b63bfda27c79b052230dd619e22f4ebc8b264b787",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-20-warp-controls.json": "988bce7344a9ba2f65fd7958fc401d753d16cbd910e0c4e4c7f755a28461658f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-17-union-mask.png": "7f3fed8f49f1c8ae881c658412ed85bab6686983b29e4d34a3af2d1a32740dfb",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-17-donor-target-mask.png": "86639fb89602fa6fad57d45a35a4d038d033902770776959425e45be84a8095d",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-20-donor-source-mask.png": "1f8d450e78e12cd6c91ef0f90da8781d257ea8b950633cd1ba6dfa69c59a06cd",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-20-donor-target-mask.png": "ac31e678cbb9890856d85e664c1ddeae67629176194061238115ff3c14a8ae7c",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-17-donor-target-mask.png": "c01fc7682799319dab5648daf36eea614d513a77a6474b549da4b1eee4fd60c6",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-20-union-mask.png": "5624c023b7501bc2642ddb2d036ae3d62863ca79b1dce5ab44647edfa2da5b21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-18-donor-source-mask.png": "934e6693db6468c98d3c110dfc340458b918c0d2b9e7a70dd93ac08c10c69974",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-18-warp-controls.json": "27588cf0764179b56bdc63bc02865c005ee298698372ae440742f78419dad609",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-17-old-fist-mask.png": "4e17686d8904945e23f2701af0b4edeeea9cb96c0a951b6351f95569d5d9e0f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-20-union-mask.png": "691b3bf91a31ae5b3d0e7b016c863fa0d0adb277bb188570fb436f873ddefea5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-20-old-fist-mask.png": "0310631b373d828251d560d186adc104aa8073c9d11c5dc69ddf91a966aaf08d",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-18-source-map.npz": "6a54b5619ba9978ced20da8b44ede7c3e68cb3d9a92403413afbd64941f0ee67",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-18-old-fist-mask.png": "61c82eac12a99bb4d9a38580004451fac77d9729ba0a07c80f79bb216efe4d0f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-18-donor-source-mask.png": "9d18e5ebb3820314cd45c61340f1d6b7804a379e7b551f45647a7cf05f077d39",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-17-source-map.npz": "b022842ca4030aaeeba9491cb45fc32615eeb9184e5cf510bbff1253a9f00f31",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-18-donor-target-mask.png": "97168c2b78da8d42e59e2095db1d8a3f87d63468d4ee82e37fc49fd7f4b9a3d4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-18-warp-controls.json": "67b78bac8a43f5394c1ffc948d4e0cc626aa167670179a5c20ac4b7143f394a1",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-18-old-fist-mask.png": "4e17686d8904945e23f2701af0b4edeeea9cb96c0a951b6351f95569d5d9e0f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-17-source-map.npz": "8e4117e9c5de308cb5effca7b40880846e763670e07bfbfb09a60e8bc8f80a4a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-17-warp-controls.json": "5bc51d218f5d5a76610ca3a9b95e0d695dfdd892f12974c19a75d8b50739b449",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-20-warp-controls.json": "22fb53683fcf56b6e335588f9e0a915d64dc814d289645dc6333d0208b0b85ea",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-17-donor-source-mask.png": "934e6693db6468c98d3c110dfc340458b918c0d2b9e7a70dd93ac08c10c69974",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-18-union-mask.png": "6699afbdac00437157136039c6db4cc5f736b338e148c08ec70794c4fe24e113",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-18-source-map.npz": "38256ad205fb41333dd867be4ab8d74de213e2d85f83f4bd8feacb70546f08ab",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-20-old-fist-mask.png": "ea5f528ad107bdcfcbdc9fe28c6ca92d9d3d97ed024b9bbf035c513ce7a492c2",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-17-union-mask.png": "3c61a18fb081f1820260ea9a0f14c64ceff0d91695a97d9c4414660e273892ac",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-18-union-mask.png": "8321284cdf91023c414fc968916e3359306c0871af56b9e2b091843fc5ed58f7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/southeast-17-donor-source-mask.png": "9d18e5ebb3820314cd45c61340f1d6b7804a379e7b551f45647a7cf05f077d39",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps/northeast-17-old-fist-mask.png": "61c82eac12a99bb4d9a38580004451fac77d9729ba0a07c80f79bb216efe4d0f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/failed-attempts/map-rejection.json": "0ec816000885aab783c2e62860eb03d7f2bb795162045b3b9c0eceb50224b839",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/failed-attempts/build-hybrid-v2.py": "d5c1bb51f44411dc9256aa27f79f86772ec56ce16f99060dcf4728df716c27e4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/failed-attempts/build-hybrid-initial.py": "10c9be12c15c310379d7089136d8ddce49c87255f54a0f23357eb509ffa98588",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/failed-attempts/construction-spec-initial-fold.json": "4b3be93731a8194c86687f7387f98a827f9d4e1f1e2bfe0ae35aa23aff2ed567",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs/southeast-light-chronology.png": "0544968f813697da28a948652431b3c8f9166d40baea9d2d5f212dd73751d00f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs/northeast-dark-chronology.png": "93a8b2aff1ea22f227cb6881b9d71a6f9d8a1a8241d07b8c5633a6e85dae7c24",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs/northeast-light-chronology.png": "4d4bb7dfc6cb3a4ec7a3d95ed908989773bf1ad475644388d20a56df00094ae0",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/proofs/southeast-dark-chronology.png": "72794a95e952c6083bcd9bf9cb627212ca9d8574009e11c3288ff77ec0e35e57",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-18-donor-target-mask.png": "4c6525a2c90e2035d525a020956ba26bf118bc396be9093bcf5899ba06bc4bde",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-20-source-map.npz": "87b9f5facd5ad5ad78fc0b76b584f404504d98d1a251ced31ef484b1ec32db76",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-20-source-map.npz": "882977a39e524173929ee02f5e1484bbe39cfe9136f5a154bedf6e9f61a54863",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-17-warp-controls.json": "b666f53d30557fe69fc270e5ea11d8a780a1be6aac0c43b3e019e368a6d3e49a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-20-donor-source-mask.png": "a2e3f5b25c774c5fc657beb95bef4a2f6c8ba92ac25339f78024a864206b7f41",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-20-donor-target-mask.png": "5cb290001b15cd93b6f9db3e309c31df4e25d018da13c4b1cfd5d25c4e721849",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-20-warp-controls.json": "210651b36ea8a7af19c46a93e97bccf8f390b6e5dc57ad196eeca9df13f1c69e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-17-union-mask.png": "7f3fed8f49f1c8ae881c658412ed85bab6686983b29e4d34a3af2d1a32740dfb",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-17-donor-target-mask.png": "04f37f66ece83dceeb9390b6685be837edbb762b60248d6330548cff7e683bce",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-20-donor-source-mask.png": "4d929f7e82579646223b8867fb47f8523cdac57042bea2a55b3897576614d544",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-20-donor-target-mask.png": "2fc773d528b698162ca480e66f4620099d711c40e1582acdf7ec53fea44c3e37",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-17-donor-target-mask.png": "c01fc7682799319dab5648daf36eea614d513a77a6474b549da4b1eee4fd60c6",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-20-union-mask.png": "769c7f96eadd7403b1d84635515597c00a33ae7acbac0ad3f4b3f79d414fee21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-18-donor-source-mask.png": "934e6693db6468c98d3c110dfc340458b918c0d2b9e7a70dd93ac08c10c69974",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-18-warp-controls.json": "38d58b11661b5e3c64842a1327b71ad331e71bfb91478a2e5c03c65ae084bc62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-17-old-fist-mask.png": "4e17686d8904945e23f2701af0b4edeeea9cb96c0a951b6351f95569d5d9e0f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-20-union-mask.png": "5955ba006cee728aeeee644b274911a7ae0e74de617e9c0a7ff897af3775f8d9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-20-old-fist-mask.png": "0310631b373d828251d560d186adc104aa8073c9d11c5dc69ddf91a966aaf08d",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-18-source-map.npz": "236bf04d8209bc36509e3dc6cbfb33b7b886e61f9acf6bfac117ea52a1101fec",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-18-old-fist-mask.png": "61c82eac12a99bb4d9a38580004451fac77d9729ba0a07c80f79bb216efe4d0f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-18-donor-source-mask.png": "9d18e5ebb3820314cd45c61340f1d6b7804a379e7b551f45647a7cf05f077d39",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-17-source-map.npz": "b022842ca4030aaeeba9491cb45fc32615eeb9184e5cf510bbff1253a9f00f31",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-18-donor-target-mask.png": "9055a62d5d8ff6a87c1d2bbbe687b173d126af67c1ce21396507d11df5655611",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-18-warp-controls.json": "67b78bac8a43f5394c1ffc948d4e0cc626aa167670179a5c20ac4b7143f394a1",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-18-old-fist-mask.png": "4e17686d8904945e23f2701af0b4edeeea9cb96c0a951b6351f95569d5d9e0f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-17-source-map.npz": "7965a50ed6afb7e8dc3b92aef785bec8698acb8dcfd012e8fe406179dbbb09c0",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-17-warp-controls.json": "5bc51d218f5d5a76610ca3a9b95e0d695dfdd892f12974c19a75d8b50739b449",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-20-warp-controls.json": "42a2718e41ea62cabc8a65fddddda2cbaa1f77f7f1cd1f5074410849f4fd82fa",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-17-donor-source-mask.png": "934e6693db6468c98d3c110dfc340458b918c0d2b9e7a70dd93ac08c10c69974",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-18-union-mask.png": "730687dea10a74e9566da66aaa851d5e74c61c879ac72341ae1eec910835ca93",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-18-source-map.npz": "38256ad205fb41333dd867be4ab8d74de213e2d85f83f4bd8feacb70546f08ab",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-20-old-fist-mask.png": "04a7084f9e5ae9113f045a201b90b51968c8bec93783fb1095ee70f8eff81186",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-17-union-mask.png": "db9109967435a42360bb336e74be86c90e9902d804c8dfe0356cf585d4a0286f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-18-union-mask.png": "8321284cdf91023c414fc968916e3359306c0871af56b9e2b091843fc5ed58f7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/southeast-17-donor-source-mask.png": "9d18e5ebb3820314cd45c61340f1d6b7804a379e7b551f45647a7cf05f077d39",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v1/northeast-17-old-fist-mask.png": "61c82eac12a99bb4d9a38580004451fac77d9729ba0a07c80f79bb216efe4d0f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-18-donor-target-mask.png": "4c6525a2c90e2035d525a020956ba26bf118bc396be9093bcf5899ba06bc4bde",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-20-source-map.npz": "784ce8addc7e22bdbb2cfdf90682b6689e4a948f5c074321721b51d2300e2aa7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-20-source-map.npz": "bbd1f420f7cf034679e14f6b7f8a74eaa7b219b1e221521f99a73cc473c89225",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-17-warp-controls.json": "b666f53d30557fe69fc270e5ea11d8a780a1be6aac0c43b3e019e368a6d3e49a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-20-donor-source-mask.png": "7212d97ad45787aa7637805b088268f72bc5b2301afbb728fceba830bcbf7f0e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-20-donor-target-mask.png": "c6cbf7ad02348f1dee368c8b63bfda27c79b052230dd619e22f4ebc8b264b787",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-20-warp-controls.json": "988bce7344a9ba2f65fd7958fc401d753d16cbd910e0c4e4c7f755a28461658f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-17-union-mask.png": "7f3fed8f49f1c8ae881c658412ed85bab6686983b29e4d34a3af2d1a32740dfb",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-17-donor-target-mask.png": "04f37f66ece83dceeb9390b6685be837edbb762b60248d6330548cff7e683bce",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-20-donor-source-mask.png": "1f8d450e78e12cd6c91ef0f90da8781d257ea8b950633cd1ba6dfa69c59a06cd",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-20-donor-target-mask.png": "ac31e678cbb9890856d85e664c1ddeae67629176194061238115ff3c14a8ae7c",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-17-donor-target-mask.png": "c01fc7682799319dab5648daf36eea614d513a77a6474b549da4b1eee4fd60c6",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-20-union-mask.png": "be2124a3510d0b020fa22095ab268a7af552047a58341315782e44773f6b0aa9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-18-donor-source-mask.png": "934e6693db6468c98d3c110dfc340458b918c0d2b9e7a70dd93ac08c10c69974",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-18-warp-controls.json": "38d58b11661b5e3c64842a1327b71ad331e71bfb91478a2e5c03c65ae084bc62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-17-old-fist-mask.png": "4e17686d8904945e23f2701af0b4edeeea9cb96c0a951b6351f95569d5d9e0f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-20-union-mask.png": "691b3bf91a31ae5b3d0e7b016c863fa0d0adb277bb188570fb436f873ddefea5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-20-old-fist-mask.png": "0310631b373d828251d560d186adc104aa8073c9d11c5dc69ddf91a966aaf08d",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-18-source-map.npz": "236bf04d8209bc36509e3dc6cbfb33b7b886e61f9acf6bfac117ea52a1101fec",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-18-old-fist-mask.png": "61c82eac12a99bb4d9a38580004451fac77d9729ba0a07c80f79bb216efe4d0f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-18-donor-source-mask.png": "9d18e5ebb3820314cd45c61340f1d6b7804a379e7b551f45647a7cf05f077d39",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-17-source-map.npz": "b022842ca4030aaeeba9491cb45fc32615eeb9184e5cf510bbff1253a9f00f31",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-18-donor-target-mask.png": "9055a62d5d8ff6a87c1d2bbbe687b173d126af67c1ce21396507d11df5655611",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-18-warp-controls.json": "67b78bac8a43f5394c1ffc948d4e0cc626aa167670179a5c20ac4b7143f394a1",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-18-old-fist-mask.png": "4e17686d8904945e23f2701af0b4edeeea9cb96c0a951b6351f95569d5d9e0f8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-17-source-map.npz": "7965a50ed6afb7e8dc3b92aef785bec8698acb8dcfd012e8fe406179dbbb09c0",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-17-warp-controls.json": "5bc51d218f5d5a76610ca3a9b95e0d695dfdd892f12974c19a75d8b50739b449",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-20-warp-controls.json": "22fb53683fcf56b6e335588f9e0a915d64dc814d289645dc6333d0208b0b85ea",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-17-donor-source-mask.png": "934e6693db6468c98d3c110dfc340458b918c0d2b9e7a70dd93ac08c10c69974",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-18-union-mask.png": "730687dea10a74e9566da66aaa851d5e74c61c879ac72341ae1eec910835ca93",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-18-source-map.npz": "38256ad205fb41333dd867be4ab8d74de213e2d85f83f4bd8feacb70546f08ab",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-20-old-fist-mask.png": "04a7084f9e5ae9113f045a201b90b51968c8bec93783fb1095ee70f8eff81186",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-17-union-mask.png": "db9109967435a42360bb336e74be86c90e9902d804c8dfe0356cf585d4a0286f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-18-union-mask.png": "8321284cdf91023c414fc968916e3359306c0871af56b9e2b091843fc5ed58f7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/southeast-17-donor-source-mask.png": "9d18e5ebb3820314cd45c61340f1d6b7804a379e7b551f45647a7cf05f077d39",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/maps-v2/northeast-17-old-fist-mask.png": "61c82eac12a99bb4d9a38580004451fac77d9729ba0a07c80f79bb216efe4d0f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/replay-proof.json": "bf40f374b81537776f777449eaa31c8ce7502194dddd3f7a7358d34e918b4bf7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/southeast-hybrid/receipt.json": "51da7cd2a15b7a3c8baba7f00965d6b75cce791efed77128f186a89ee191b809",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/southeast-hybrid/animation.apng.png": "e61c0cf993b298ba35920104058dbb84ec90f04f7a72661010f3e95965734e46",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/northeast-control/receipt.json": "fb7c169e6f822cec6a9fdc09aff779310579e5b0644bbd3d612c5db97e8bd97a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/northeast-control/animation.apng.png": "876b231500ea9c99119175a270c2d0c752ff2cd6d41f9479cadda3331c835587",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/southeast-control/receipt.json": "ef7d9fde215409b079816c7e241ad7656ff7a006a3f4691199b11546e2158d76",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/southeast-control/animation.apng.png": "4d2e5cfeb9e3155cbe9c40991b747c25abf8e746c4e40aac7aa01271c0535a80",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/northeast-hybrid/receipt.json": "52f73f2aee8f188d960b58b6c66d02b70dab494383b37f4e2f2b0e24ce056132",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media/northeast-hybrid/animation.apng.png": "11e8a1b13203f3fd368c9790221a945885226c5756b32c3ef6971340f65e16ab",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/northeast/19.png": "84208f254f26392d88e13ba8c30e6cfa58ebdf62c92e0bc2a5184402b48e9eef",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/northeast/17.png": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/northeast/18.png": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/northeast/20.png": "cb0abc23ec582792482f3663d1be958bf298628b61b12afc665ffaa10b92d747",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/southeast/19.png": "d50dbf34924c230a0a9caeba5b2324349da1a9a757620a3ac6e4101b85424598",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/southeast/17.png": "b8ae2e3ca0b6cd29f5b4329020968921e38396d8f160676bcbd38d8b87ef1c56",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/southeast/18.png": "0af7e133a83a8fd0344736f9565e042389325acdc95261b7fe8b32dc2ea0ae0e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v2/southeast/20.png": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/northeast/17.png": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/northeast/18.png": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/northeast/20.png": "badde89ee497e2f7c13004a7578c806204e08ba2ee3fba7dc6660180c12ca7a8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/southeast/17.png": "8452777a46d28e7ea2086ffb060e358a8f5a99c910c3b4cdb2ae7063ebd81fd9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/southeast/18.png": "eb9e97111e033e363a03cd2cb3336357d818b90e1f49d19ee0bd4414c32dba85",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/verified-replay/southeast/20.png": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/__init__.py": "99b5b84f9871b12fc12fef71a9c0143ed894abee314c1e148668f53502244afa",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/export.py": "e108d5abbaf45c0ecb8adef849967fddfec9a9dd24f769c9be948459dc690075",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/history.py": "8abcfa7f40f10a332025b7ff1e3a24cb62bbe728ba5b53a6f40ad2e77878a487",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/canonical.py": "5033c9879ac3269e3c9f6978f85c97997eb83dd3e45665e993a4326d6f421ed3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/loading.py": "2be3deac078a6683fdd7382a2fd42764d47e17d2e2ea5023d563d50c5a655da0",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/aseprite.py": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/core.py": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/toolkit/sprite_lab/candidate.py": "c69002c5c5071abbcb93cb46b31384e7e571a097564e29ad6ebf67cccf48b8ba",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/02.png": "eb9e97111e033e363a03cd2cb3336357d818b90e1f49d19ee0bd4414c32dba85",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/00.png": "c0324f1353c0a4f4c2d26d5ebd404268e93e709a3a2652a5e3e516dcdd888e62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/05.png": "c0324f1353c0a4f4c2d26d5ebd404268e93e709a3a2652a5e3e516dcdd888e62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/01.png": "8452777a46d28e7ea2086ffb060e358a8f5a99c910c3b4cdb2ae7063ebd81fd9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/03.png": "d50dbf34924c230a0a9caeba5b2324349da1a9a757620a3ac6e4101b85424598",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/04.png": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-hybrid/manifest.json": "aff75351128e5056ac477ed5b8efc25bc7d6e1d2f997551dc713dbf6ced7bf17",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/02.png": "decb9932c5671cf6fae9dc3a4b82c3d8e11ae9fa370ffead78452b004ec360a8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/00.png": "12eb83889372c7ed6d94eec37a5b7a2841864019142dcc204a12186aad0c8ad3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/05.png": "12eb83889372c7ed6d94eec37a5b7a2841864019142dcc204a12186aad0c8ad3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/01.png": "8404d981e8019990085cc0069cae150fdb83e3b6176d14839ad1886c9c0b5bc4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/03.png": "84208f254f26392d88e13ba8c30e6cfa58ebdf62c92e0bc2a5184402b48e9eef",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/04.png": "dbce99bb0e4cfdf810528426c0956c0d5bb74e18abb7b3272ab20337b4fd0377",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-control/manifest.json": "c971b19b3329dbaea0c1fd61d0df79f987540b0989fe14d2248ab84bbdec423b",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/02.png": "3908ce9b14f7e0483330bd940d8381e954fd097aa60520c577ca563c5d2fd9ce",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/00.png": "c0324f1353c0a4f4c2d26d5ebd404268e93e709a3a2652a5e3e516dcdd888e62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/05.png": "c0324f1353c0a4f4c2d26d5ebd404268e93e709a3a2652a5e3e516dcdd888e62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/01.png": "4c09c16db08aff69fecebcd3cc7d951b3b645b62ae9b8e8adfee03bf36bc5cda",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/03.png": "d50dbf34924c230a0a9caeba5b2324349da1a9a757620a3ac6e4101b85424598",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/04.png": "a675b28ed5da178c5d911383f2213f40428082d2d40d302866998bc84e7958c9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/southeast-control/manifest.json": "e328acf83e0c64c121560f508490d9f1e35126984a23c80080effec769f34de1",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/02.png": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/00.png": "12eb83889372c7ed6d94eec37a5b7a2841864019142dcc204a12186aad0c8ad3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/05.png": "12eb83889372c7ed6d94eec37a5b7a2841864019142dcc204a12186aad0c8ad3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/01.png": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/03.png": "84208f254f26392d88e13ba8c30e6cfa58ebdf62c92e0bc2a5184402b48e9eef",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/04.png": "badde89ee497e2f7c13004a7578c806204e08ba2ee3fba7dc6660180c12ca7a8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/media-inputs/northeast-hybrid/manifest.json": "560cc6692d3964f49717f6dae9e48595190508959b2e31a118941f3ba8456d23",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/raw/northeast-return.png": "c85e3ab517a3c6ee1573a91f681e58057c8280327672bd6ff94d9658287ca8d5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/raw/southeast-return.png": "96b2383ad4c50410867da5877ba043e51898adec06ae726d80cbc89accaa0912",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/northeast/19.png": "84208f254f26392d88e13ba8c30e6cfa58ebdf62c92e0bc2a5184402b48e9eef",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/northeast/17.png": "8404d981e8019990085cc0069cae150fdb83e3b6176d14839ad1886c9c0b5bc4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/northeast/18.png": "decb9932c5671cf6fae9dc3a4b82c3d8e11ae9fa370ffead78452b004ec360a8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/northeast/22.png": "12eb83889372c7ed6d94eec37a5b7a2841864019142dcc204a12186aad0c8ad3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/northeast/20.png": "dbce99bb0e4cfdf810528426c0956c0d5bb74e18abb7b3272ab20337b4fd0377",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/southeast/19.png": "d50dbf34924c230a0a9caeba5b2324349da1a9a757620a3ac6e4101b85424598",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/southeast/17.png": "4c09c16db08aff69fecebcd3cc7d951b3b645b62ae9b8e8adfee03bf36bc5cda",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/southeast/18.png": "3908ce9b14f7e0483330bd940d8381e954fd097aa60520c577ca563c5d2fd9ce",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/southeast/22.png": "c0324f1353c0a4f4c2d26d5ebd404268e93e709a3a2652a5e3e516dcdd888e62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/registered/southeast/20.png": "a675b28ed5da178c5d911383f2213f40428082d2d40d302866998bc84e7958c9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/02-cast-recovery.png": "4e202b8abb8f00c28aea7083cf81c22c5688666c6c3885f4fa5e8963b965cc65",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/00-cast-prep-source-map.npy": "ac66bc5a1f7ac87ddfca4fa98dcb94dcc9b98c0d2f62f282545e2af29b14620c",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/04-hurt-unwind.png": "90dffe71660f6a38c9ecfe2921b24c24c61a82d6996d4db9174aaa07ec6f268e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/01-cast-release.png": "7026e58ca45761ef909e04d064a43485ca2c3b7473317196d900751801c1af10",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/01-cast-release-source-map.npy": "faa26455f0c8dc31e1a683e788aa79ae21c5a3e2f642709240e41218bbfee4d2",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/05-dodge-crouch-source-map.npy": "2310e3d002759f8a4bdb5c678916baa81b0fe38af57b7a9e376c549f571ccd52",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/04-hurt-unwind-source-map.npy": "8a7eec8db5dc154ae3f51e386b4bb14b12fac353f69cffb4e3eab4d67b4fdd4f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/00-cast-prep.png": "a5f94496222dfe488089b7f9574e0a994c4f8dc14a210402839ac24958e8f6b4",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/05-dodge-crouch.png": "4bdda1051cca85aa46bf98b9d6364b8acd1ccb6deb6fa919f43e33d77506c85e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/03-hurt-impact-source-map.npy": "436e4b66e7de29b72bb7cbb04fd46e0819b01f194fee6c22f04c5a1dfe42dd3b",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/02-cast-recovery-source-map.npy": "64da3587d2a6ebbaea36d9d15842413a5dc37886cdf58be64e2b3c9d61e0fb42",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/northeast/03-hurt-impact.png": "da7fcb91ac8df8219bc24347c315bbc3cc72f8bf0b992bb0b3b6a57d5558bf10",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/02-cast-recovery.png": "ba2a3caa1f469804d64d2ba7bfeba790dba3779235f2630144a60bcebebc10f7",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/00-cast-prep-source-map.npy": "ada7ac3274525ee504ee8b304debcfdbeb606d32e52245399a207f5a469aede5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/04-hurt-unwind.png": "2736b4abc062f4d4b8360927c33541aab3f2331338e8f63304fcf70490f7baf5",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/01-cast-release.png": "79caeb558a3bae3dc95741f86673eee467b0a0b34c5df57feb342245ff0206ee",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/01-cast-release-source-map.npy": "c5809b1d7a2ccafbdcbe21394ccd90c30c0f571e9696144d935a1e77199ddecb",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/05-dodge-crouch-source-map.npy": "7aa0b37bb16fc6d04101d83164300f7696b0ff1b895be87c70bf240e4ffad075",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/04-hurt-unwind-source-map.npy": "636c4fa237624e2c2312579753952523cf6d7fa1fee3b2e49978997b8294014f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/00-cast-prep.png": "788e10688eac8f750524fea8b9af540f81854161f10479d76f8990ef771e9cd3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/05-dodge-crouch.png": "58884ea7d22c1fa87322d6113b66d83436481a4d14080295d5c53b3c14e3a4f3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/03-hurt-impact-source-map.npy": "d5b013e7435ce0938c15e95de23bad9b62a107fd5782aed09d231bf27e2e4765",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/02-cast-recovery-source-map.npy": "d296702260e7b32d7dc805d455b2fcefa0dd36e94326ecd87868a1c26d3db1e1",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/inputs/donors/southeast/03-hurt-impact.png": "86ebdceaf9785e2d112d0878be25642ef1f686e54b4f66dbadde838fc0a96e9e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/19.png": "84208f254f26392d88e13ba8c30e6cfa58ebdf62c92e0bc2a5184402b48e9eef",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/17.png": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/18.png": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/22.png": "12eb83889372c7ed6d94eec37a5b7a2841864019142dcc204a12186aad0c8ad3",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/20.png": "badde89ee497e2f7c13004a7578c806204e08ba2ee3fba7dc6660180c12ca7a8",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/19.png": "d50dbf34924c230a0a9caeba5b2324349da1a9a757620a3ac6e4101b85424598",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/17.png": "8452777a46d28e7ea2086ffb060e358a8f5a99c910c3b4cdb2ae7063ebd81fd9",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/18.png": "eb9e97111e033e363a03cd2cb3336357d818b90e1f49d19ee0bd4414c32dba85",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/22.png": "c0324f1353c0a4f4c2d26d5ebd404268e93e709a3a2652a5e3e516dcdd888e62",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/20.png": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/northeast/19.png": "84208f254f26392d88e13ba8c30e6cfa58ebdf62c92e0bc2a5184402b48e9eef",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/northeast/17.png": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/northeast/18.png": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/northeast/20.png": "fe2370b4d84c9165945778c2aabb07ec2dbda850af6bc87f09ad1df659df0749",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/southeast/19.png": "d50dbf34924c230a0a9caeba5b2324349da1a9a757620a3ac6e4101b85424598",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/southeast/17.png": "b8ae2e3ca0b6cd29f5b4329020968921e38396d8f160676bcbd38d8b87ef1c56",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/southeast/18.png": "0af7e133a83a8fd0344736f9565e042389325acdc95261b7fe8b32dc2ea0ae0e",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate-v1/southeast/20.png": "fb8a7bbdabff2ac5248aef414d68c71ddd90daece3fe8b6e4a82c9183db85d13",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0001.png": "32639779e3cc34279ef9d03ae721c5d066f03db742f861295cc54368b79ec0a0",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0005.png": "2ac5176be5e68b60b88cd433a7550365ae652710a6e57a9a7327e879a33a0222",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0006.png": "969e701d6b42eb051fe093358e19821a3a7d48822dd54e79e91dfae3a88d9646",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0000.png": "2ac5176be5e68b60b88cd433a7550365ae652710a6e57a9a7327e879a33a0222",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/atlas.png": "967052d3eea78fc19ee541b85ce866459722ea9298ca87b1dd23093b956b0419",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0002.png": "a663d33c7e06838028b7fbe98aa44b2da3484393604124838111e1ad2f85985c",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/project.json": "4da079e6e8ecfcf414bc833c1c2f067237c9af59b7b04fe39d38c9480f937a44",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0010.png": "96d34fd022ab653fb3e491579e1b660e47269b791e1ff6d9a0f292b3b796f04f",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0003.png": "392671bff4842fca5fd888b7e869f9cb4cadd19da9584472d428c2acf9312286",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0009.png": "ffdec5c9ac48c901ee6221236b70b8ef8b1e6b9fa74565266fc606a3c3265c83",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0008.png": "c653fc4a3a83c10b9e89e9ce4bb9e76796d18f1282d45fd30c0ede47038c476b",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0011.png": "969e701d6b42eb051fe093358e19821a3a7d48822dd54e79e91dfae3a88d9646",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0004.png": "e99d5a2df231a61ca3ae91b402ecbfd41578eab4866ce9666ad92561da1f1c32",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/manifest.json": "ae1eabd9b8ede369ca8c8198fba988d9ce3d565fe89859aed43949818c5fb93a",
+    "art-source/eight-direction-v1/rowan-cast-hybrid-v1/editable/exports/frame-0007.png": "c1078398c7bb35454eb0aadffd3c878f117895fd14d83d3646650f7f840949dd",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/brann-southeast-marked.png": "02f5b2a6f84f62142af90d0dcc3a692a9bebfa62e939412a9d199a485946a948",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/rowan-southeast.png": "4c7cbe64303c7b5456075da80b3224536e0a093c99305c6f1ab23b36f9bc4468",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/brann-northeast.png": "836b72b173d3e007c4db90436c9caaa2d5a298dfcfc5abba9d08c41fc1ee50a2",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/brann-southeast.png": "7fadd9237ce322fc2a8aaaf57d393512b9008af602d2fed07bef58424bdde376",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/rowan-northeast.png": "e1e8eb0c50ca93075d199e5384f8293004d38884655b84a3fbbbd3eb174b624f",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/lyra-southeast-marked.png": "9c516098342a9b46aa4a8a4be000debf418966e1c4e2aefd440351cda4bc4d2b",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/rowan-southeast-marked.png": "cceeb7d63ebdae38df0245ba16f519265643878715471c3463e1dd8c46bba22c",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/lyra-southeast.png": "3ad81d76a4e2364d9ac2455c8c522f5d059e6fe73f28d8e038270d800acfb2e8",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/rowan-northeast-marked.png": "0eb2c818502e9375b0a8a3e5ec79ce4e87ceb65adbf4254e6ebf67299da34f8b",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/lyra-northeast.png": "2f64afcc2ad357626afe82b22808b82ca83559552e7f533da99fed872e6f8f53",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/brann-northeast-marked.png": "87386309075656036778038629d06c1c7e00f38d9af6be9b0778283055533fac",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/lyra-northeast-marked.png": "74f2d6548d5f6f7b6ea3f666b7758fcded009975a9ebab4904063b63f2d6bb8d",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/POINTS.json": "e4d0623dc7463a61852c0d21c850baa0bc6c8945bd5998d3a83af2674c589ac8",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/ORDERED-SOURCES.json": "098aeda18df511b1bded1d100c06fd7b4cc0bed2d3c5da3ebf45f174df3dd246",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/brann-cardinal-casts-marked.png": "2aa872ca87d08420752b6be16787116819b2a4c2c03284a09c363a474764fd95",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/rowan-cardinal-casts-marked.png": "ca7f2c25d972b6b686849dc411a021e2883739601cfa6bb1f7d08ad476de7965",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/rowan-cardinal-casts.png": "72b22a08f8d0c2051d20996c9997e022da1993b385ab384e477aa4a5484f8895",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/lyra-cardinal-casts.png": "3422ae0ba24af6717072efc44d61540bb680fb94c47ed0e78b57d31eda40630b",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/lyra-cardinal-casts-marked.png": "ebad05db1d11d1fbf43e96b1007cb01e89c336aa8248eb2808266006e3b98143",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/CARDINAL-POINTS.json": "0a92ad927947ef839275a04c8ab1d223be18933f342abe1ab92bc740dcda8383",
+    "art-source/eight-direction-v1/cast-track-measurements-v1/brann-cardinal-casts.png": "afcc08aa86dd4a818e45f246f25573d031ec3a59cc7ec91816a95122a85c840b"
+  },
+  "cardinal_cast_tracks": {
+    "rowan": {
+      "south": [
+        [
+          87,
+          78
+        ],
+        [
+          69,
+          67
+        ],
+        [
+          69,
+          66
+        ],
+        [
+          99,
+          72
+        ],
+        [
+          99,
+          72
+        ],
+        [
+          87,
+          78
+        ]
+      ],
+      "east": [
+        [
+          83,
+          79
+        ],
+        [
+          78,
+          65
+        ],
+        [
+          78,
+          65
+        ],
+        [
+          102,
+          57
+        ],
+        [
+          98,
+          62
+        ],
+        [
+          83,
+          79
+        ]
+      ],
+      "north": [
+        [
+          83,
+          76
+        ],
+        [
+          85,
+          64
+        ],
+        [
+          83,
+          61
+        ],
+        [
+          93,
+          49
+        ],
+        [
+          82,
+          62
+        ],
+        [
+          83,
+          76
+        ]
+      ],
+      "west": [
+        [
+          47,
+          80
+        ],
+        [
+          52,
+          64
+        ],
+        [
+          47,
+          61
+        ],
+        [
+          24,
+          60
+        ],
+        [
+          31,
+          60
+        ],
+        [
+          47,
+          80
+        ]
+      ]
+    },
+    "lyra": {
+      "south": [
+        [
+          87,
+          79
+        ],
+        [
+          69,
+          68
+        ],
+        [
+          69,
+          67
+        ],
+        [
+          99,
+          72
+        ],
+        [
+          98,
+          74
+        ],
+        [
+          87,
+          79
+        ]
+      ],
+      "east": [
+        [
+          82,
+          78
+        ],
+        [
+          81,
+          67
+        ],
+        [
+          85,
+          61
+        ],
+        [
+          95,
+          58
+        ],
+        [
+          83,
+          68
+        ],
+        [
+          83,
+          80
+        ]
+      ],
+      "north": [
+        [
+          85,
+          79
+        ],
+        [
+          82,
+          66
+        ],
+        [
+          83,
+          66
+        ],
+        [
+          94,
+          57
+        ],
+        [
+          82,
+          65
+        ],
+        [
+          85,
+          79
+        ]
+      ],
+      "west": [
+        [
+          49,
+          79
+        ],
+        [
+          48,
+          64
+        ],
+        [
+          41,
+          65
+        ],
+        [
+          34,
+          58
+        ],
+        [
+          32,
+          62
+        ],
+        [
+          46,
+          78
+        ]
+      ]
+    },
+    "brann": {
+      "south": [
+        [
+          87,
+          80
+        ],
+        [
+          69,
+          68
+        ],
+        [
+          69,
+          67
+        ],
+        [
+          101,
+          72
+        ],
+        [
+          101,
+          72
+        ],
+        [
+          88,
+          81
+        ]
+      ],
+      "east": [
+        [
+          85,
+          75
+        ],
+        [
+          82,
+          60
+        ],
+        [
+          90,
+          58
+        ],
+        [
+          96,
+          52
+        ],
+        [
+          83,
+          63
+        ],
+        [
+          85,
+          76
+        ]
+      ],
+      "north": [
+        [
+          86,
+          77
+        ],
+        [
+          84,
+          64
+        ],
+        [
+          84,
+          64
+        ],
+        [
+          96,
+          40
+        ],
+        [
+          84,
+          64
+        ],
+        [
+          87,
+          80
+        ]
+      ],
+      "west": [
+        [
+          42,
+          74
+        ],
+        [
+          44,
+          63
+        ],
+        [
+          35,
+          56
+        ],
+        [
+          32,
+          52
+        ],
+        [
+          46,
+          61
+        ],
+        [
+          45,
+          76
+        ]
+      ]
+    }
+  },
+  "scope": "Isolated local v7b walk preview; explicit distant alpha1/2-black matte erasures on Brann only. Frozen sources/reviews unchanged. Not8motion, installed production or public release."
+}

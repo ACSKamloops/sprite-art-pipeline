@@ -1,0 +1,178 @@
+{
+  "scope": "F03/F06/F07/F08 supported deterministic/supplied-art subsets",
+  "status": "implementation-controls-pass",
+  "command": "python3 -m pytest -q tests/test_methods_flows.py",
+  "tests_passed": 10,
+  "tests_skipped": 0,
+  "authority": "Local implementation tests and exact original whole-source binding checks, not PixelLab neural/service parity, whole F01-F11 conformance or visual acceptance",
+  "source_binding_checks": [
+    {
+      "path": "analysis-poses/depth-round4/full-animation-geometry-flows/NEW-SOURCE-CLAIM-LEDGER.json",
+      "expected_sha256": "b1aa339dedafa4bd9b51ef0ea8ad50a139cfeb4f3674c9ee0b6f564c29a73fb4",
+      "match": true
+    },
+    {
+      "path": "analysis-models/depth-round4/full-technique-methods/METHOD-CONTRACTS.json",
+      "expected_sha256": "5e7286b79324a30b214613c88d5a25d57ed5c4fd45934eb74f1086333391cca8",
+      "match": true
+    },
+    {
+      "path": "analysis-contract/depth-round2/font-ui-source-closure/SOURCE-ANCHORS.json",
+      "expected_sha256": "128798fcf12b2d7d32f597a36dc5f6d6537794384ed63c199dedd1e398374946",
+      "match": true
+    },
+    {
+      "path": "analysis-models/depth-round2/prompt-enhancement-closure/CLAIM-LEDGER.json",
+      "expected_sha256": "0b13c490e18cd44ecc55d680e2b2ce98f0886098ecc8f404de40ca7b9e1f210e",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+      "expected_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+      "expected_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/TemplateSkeleton.gd",
+      "expected_sha256": "8938b40046dae3b28ccb8c759cd879a1265f74426f2eefb059f1c59a0b210a52",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/pose-references.lua",
+      "expected_sha256": "e635eba9546a3681b7e00d50187f4ed84cac0ed9c3700fdc66dfbe9bcd9fdd96",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/SkeletonBridge.gd",
+      "expected_sha256": "938c8b998651b14c84c2eceebb65f0249ded73c0e4b8e589e6e034b640c4dc91",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/get-image.lua",
+      "expected_sha256": "8853b46e001267eb1120ff96b691c4f684f5720d1ba4232b9b88e8ea679d57e2",
+      "match": true
+    },
+    {
+      "path": "analysis-models/depth-round4/full-technique-methods/public-host-source/image_class.cpp",
+      "expected_sha256": "54d0f755c95fa2ad70722f727a5215add19f256173ab943d5571715bc71b33fa",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/unzoom-pixelart.lua",
+      "expected_sha256": "fa4eeb3bb5d527420f44a22d0f3cda9c64647bc9f5ca5a6c2950d5b4450ed75b",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "expected_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "match": true
+    },
+    {
+      "path": "website-art-bundles/create-677791a6e206dafa.js",
+      "expected_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/CorrectPixelart.gd",
+      "expected_sha256": "de6228f07fa93d1d0e72d28af1648cab1ca6a55f679063cca47c12987d048173",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/generate-correct-pixelart.lua",
+      "expected_sha256": "5f6b3c6b7cbf5fee48af6be9f4614ea54ba29ba69e94a1dda2a5c246b7993fec",
+      "match": true
+    },
+    {
+      "path": "analysis-models/depth-round4/full-technique-methods/scene-defaults/CorrectPixelart.tres",
+      "expected_sha256": "c4cb27f0314243512d57ebc045812309927bb39af782d19ed462f29fdc8f82ee",
+      "match": true
+    },
+    {
+      "path": "website-art-bundles/4156-ad19a36a641ceb01.js",
+      "expected_sha256": "83f14d55fc8c94cbe2a305718dd550c7126a49634311e06fcd96e75baeb889ad",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/UITemplatePresets.gd",
+      "expected_sha256": "dcb1a01259458cf177050c0d9319ed2ff7de984e1027135ff4cc3655212e68aa",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/enhance-prompt.lua",
+      "expected_sha256": "c814eaebc2a449e9c9dfa6b1798b1cb88b44f061f429067fc596507d5215166d",
+      "match": true
+    },
+    {
+      "path": "extension-extracted/PixelLab/pixminimax.lua",
+      "expected_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+      "expected_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+      "expected_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+      "match": true
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/DrawSkeleton.gd",
+      "expected_sha256": "a3c1ac95bdb33821de9872cd489fe746741d8300797b5de50c2ad36ecc14b4a3",
+      "match": true
+    }
+  ],
+  "source_binding_errors": [],
+  "files": [
+    {
+      "path": "sprite_workbench/prepare.py",
+      "sha256": "fad73eb0d5858206652c5e08b3a611cf43fd2027804c1acd7f10388d1b6b3c8c",
+      "bytes": 14684
+    },
+    {
+      "path": "sprite_workbench/pose.py",
+      "sha256": "c2591d0e2d9dd48a951f057bea7d6feb5f340dc9ecfa64e4c139ebc54493a064",
+      "bytes": 11852
+    },
+    {
+      "path": "sprite_workbench/terrain.py",
+      "sha256": "5d966ed80abc733b5a82c0986ccfd9a71b2718f768f96fecf256eb0406a66e3f",
+      "bytes": 5859
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "sha256": "3978794878067fad13a0ff2ef646fc413cd714de48eaf1ad1d3b8e2e68db32e9",
+      "bytes": 11038
+    },
+    {
+      "path": "tests/test_methods_flows.py",
+      "sha256": "c82171bfc865ee962a60636087b1c68a6ad5804b440396c65a5ad1e3910d2e3a",
+      "bytes": 16767
+    },
+    {
+      "path": "docs/METHODS-API.md",
+      "sha256": "090a7075ad7dd3292540441c6e76f8bbec524361c8f5f7ebc9271f66f11a511a",
+      "bytes": 10194
+    },
+    {
+      "path": "docs/METHODS-SOURCE-BINDINGS.json",
+      "sha256": "115796af016a1659bb83b4eb9b3dc73a39bf24705656e798b2868430b186f54b",
+      "bytes": 53011
+    }
+  ],
+  "private_service_calls": 0,
+  "model_calls": 0,
+  "external_network_calls": 0,
+  "learned_branches": "structured UnsupportedCapability",
+  "remaining": [
+    "Enclosing shared scene/job/revision/export/engine integration is root-owned",
+    "Installed-host nearest/codec fidelity differs from named local sampler; no whole adapter parity claim",
+    "No generated anatomy/hidden views, caption networks, font/viseme models or private prepared constructors",
+    "Visual action/readability has no acceptance score"
+  ]
+}

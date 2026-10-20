@@ -1,0 +1,43 @@
+{
+  "schema": "independent-local-controller-review/v1",
+  "producer_candidate_commit": "d0960de",
+  "review_checkout_commit": "4800880",
+  "baseline_test_count": 19,
+  "baseline_failures": 4,
+  "candidate_test_count": 22,
+  "candidate_failures": 0,
+  "candidate_errors": 0,
+  "candidate_skips": 0,
+  "files": [
+    {
+      "file": "sprite_workbench/web_server.py",
+      "sha256": "8b52f0831a1efeb13f1c3c16542115dd9bedcfbda1f39537611bf4c7a3c102ce"
+    },
+    {
+      "file": "sprite_workbench/readiness.py",
+      "sha256": "ca3e7f7625714ec84ad631e73b91ebda913f7a7f66c5b091b4f63326c943ddc4"
+    },
+    {
+      "file": "sprite_workbench/pipeline.py",
+      "sha256": "b747139a62906b34ff304dd9378b08d20bbc94dde500bad7f4fd7cfa15088cdf"
+    },
+    {
+      "file": "tests/test_web_controller_adversarial.py",
+      "sha256": "6970fe6b364a47ec295c07c0fe4ba07ed7fb96dc98913012dff58a9ad61c6d04"
+    }
+  ],
+  "closed_findings": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+  ],
+  "new_candidate_discriminators": [
+    "source change during verification must not publish setup proof",
+    "source change after first pipeline step must prevent the next file operation",
+    "source change after the last pipeline step must prevent guarded publication"
+  ],
+  "provider_calls": 0,
+  "artistic_acceptance": "unreviewed",
+  "scope": "Live loopback HTTP and trusted-handler checks using local diagnostic fixtures; no blanket sandbox, complete analysis or artwork approval claim"
+}

@@ -1,0 +1,19 @@
+{
+  "reviewer": "/root/pixellab_contract_analysis",
+  "method": "independent read-only report/XML/hash/package/pair agreement spotcheck; no reruns",
+  "verified_commit": "da13c69c4bb640bf35ba899306aa705855adce29",
+  "tests": 214,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "local_recipe_families": 11,
+  "checks_total_per_replay": 137,
+  "replay_instances": 2,
+  "matching_package_files": 77,
+  "all_primary_sequence_comparisons_exact": true,
+  "required_corrections_remaining_in_selected_scope": 0,
+  "full_vendor_replication_complete": false,
+  "private_models_recovered": false,
+  "artistic_acceptance": "unreviewed",
+  "note": "Reviewer confirmed raw/tracked report and XML hashes, both strict-true recipe sets, inputs/package snapshots, all11 comparison files, and wheel. Optional wording clarified total checks per replay."
+}

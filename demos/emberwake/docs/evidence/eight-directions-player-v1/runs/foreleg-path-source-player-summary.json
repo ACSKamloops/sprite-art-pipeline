@@ -1,0 +1,28 @@
+{
+  "status": "PASS summarized actual completed CLI tool result, not raw transcript",
+  "session": 67952,
+  "url": "http://localhost:8898/foreleg-path/",
+  "assertions": 9,
+  "fetched_PNG_hashes": 32,
+  "actual_phases_observed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "checks": [
+    "8distinctcandidateposes at2scales",
+    "step7to0",
+    "SWselector",
+    "background",
+    "liveclock8phases",
+    "normalMP4decodeadvance",
+    "no console/pageerrors"
+  ],
+  "scenario": "/tmp/emberwake-foreleg-path-player-check.js",
+  "qualification": "Noartscore"
+}

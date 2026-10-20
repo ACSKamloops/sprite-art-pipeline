@@ -1,0 +1,7 @@
+{
+  "source": "/home/astra/projects/emberwake-demo/scripts/hero.gd",
+  "sha256": "1189e397a2e2097a9e910bcda7167fafdd6838e5746567b5f5a0a0ba44e92da0",
+  "checked_code": "_update_animation() and _clip_duration() read manifest holds directly; phase is selected by accumulated time and rational-derived float exposure lengths. Sprite2D draws an atlas region.",
+  "scope": "The research SpriteFrames source documents a general timing API relationship; this project implements its own holds clock. No SpriteFrames integration or runtime-code change is claimed.",
+  "source_preview": "The separate preview uses exact integer microsecond boundaries for450ms source loops; Godot runtime evidence stays in the actual existing v12 receipts."
+}

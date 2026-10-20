@@ -1,0 +1,51 @@
+......F.................                                                 [100%]
+=================================== FAILURES ===================================
+__________ test_independent_rejection_is_atomic_and_keeps_head[event] __________
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-48/test_independent_rejection_is_3')
+kind = 'event'
+
+    @pytest.mark.parametrize('kind',['cel','palette','outside_alias','event','bad_point','stale'])
+    def test_independent_rejection_is_atomic_and_keeps_head(tmp_path,kind):
+        p=fixture()
+        if kind in ['cel','palette']:p['layers'][0]['locked']=True
+        store,p,saved,h=history(tmp_path,p)
+        ops={'cel':{'op':'erase','cel_id':'shared','points':[[0,0]]},
+             'palette':{'op':'palette','index':2,'rgba':[1,2,3,255]},
+             'outside_alias':{'op':'candidate_patch','cel_id':'shared','mask':[[1,0]],'candidate_pixels':[1,3,4],'expected_cel_sha256':c.toolkit.cel_hash(p,'shared')},
+             'event':{'op':'frame_timing','frame_id':'f1','duration_ticks':1},
+             'bad_point':{'op':'paint','cel_id':'shared','points':[[0,0,1],[99,0,1]]},
+             'stale':{'op':'erase','cel_id':'shared','points':[[0,0]]}}
+        if kind=='event':
+            p['animations'][0]['events']=[{'at_tick':2,'name':'late'}]
+>           store,p,saved,h=history(tmp_path,p)
+                            ^^^^^^^^^^^^^^^^^^^
+
+tests/test_construction_adversarial.py:92: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-48/test_independent_rejection_is_3')
+project = {'schema': 'sprite-edit-project/v1', 'canvas': {'width': 3, 'height': 1, 'render_pivot': [1, 0], 'ground_pivot': [1, 1...7, 31, 43, 255], [71, 83, 97, 127], [29, 37, 41, 0]], 'layers': [{'id': 'body', 'name': 'Body', 'locked': False}], ...}
+
+    def history(tmp_path,project=None):
+        store=Store(tmp_path/'store');project=fixture() if project is None else project
+        saved=c.save_project(store,project);created=c.create_history(store,saved['project'])
+>       assert store.set_head('accepted',saved['project'],None)
+E       AssertionError: assert False
+E        +  where False = set_head('accepted', '739f18bd8c0a26499e4f371a81ec432132c1e229f05d95560f6fe4f2039b7557', None)
+E        +    where set_head = <sprite_workbench.core.Store object at 0x7297ffbab950>.set_head
+
+tests/test_construction_adversarial.py:27: AssertionError
+=============================== warnings summary ===============================
+tests/test_construction_adversarial.py::test_independent_raw_indices_aliases_hidden_rgba_and_composite
+  /home/astra/projects/pixellab-workbench-state/tests/test_construction_adversarial.py:35: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    assert list(c.toolkit.core.render_cel(raw,'shared').getdata())==[(17,31,43,255),(71,83,97,127),(29,37,41,0)]
+
+tests/test_construction_adversarial.py: 60 warnings
+  /home/astra/projects/pixellab-workbench-state/sprite_workbench/construction_core/core.py:129: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    a=list(_render_frame(before,frame['id']).getdata());b=list(_render_frame(after,frame['id']).getdata());points=[[i%w,i//w]for i,(x,y)in enumerate(zip(a,b))if x!=y]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_construction_adversarial.py::test_independent_rejection_is_atomic_and_keeps_head[event]
+1 failed, 23 passed, 61 warnings in 0.17s

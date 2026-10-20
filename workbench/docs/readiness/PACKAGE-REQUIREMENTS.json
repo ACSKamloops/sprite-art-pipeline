@@ -1,0 +1,29 @@
+{
+  "schema": "package-proof-requirements-provenance/v1",
+  "source_commit": "488b69611d6935ca83657d9572243eadd12fa520",
+  "dependencies_installed_with_require_hashes": true,
+  "wheel_installed_no_deps": true,
+  "pip_module_required": false,
+  "build_environment": "Existing pinned workbench Python, uv build --wheel --no-build-isolation; no pip module invocation",
+  "files": [
+    {
+      "source": "requirements-local.lock",
+      "retained_copy": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/requirements-local.lock",
+      "sha256": "b1da40b1520bfff2b7b2b9d1674164f8b66a6ed44099f2db2e2a98d7684f1a11",
+      "bytes": 26966
+    },
+    {
+      "source": "requirements-local.in",
+      "retained_copy": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/requirements-local.in",
+      "sha256": "a224dc4772a744ee69a4bba2df889a97854f613cf1c3e0f4cab6122505a966f9",
+      "bytes": 246
+    },
+    {
+      "source": "pyproject.toml",
+      "retained_copy": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/pyproject.toml",
+      "sha256": "c3f7b093153f9c0af915408005b4eea3d03b59c330e41986d8a162f0d5fb5e4c",
+      "bytes": 707
+    }
+  ],
+  "retained_commands": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/COMMANDS.json"
+}

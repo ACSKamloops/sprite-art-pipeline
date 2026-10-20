@@ -1,0 +1,9 @@
+# Later structural/visible cuff evidence
+
+After completing the independent raster review, I inspected the root-owned paired source/strain witness and strain report. This resolves the earlier qualified cuff concern more firmly: the defect is not only ambiguous foreshortening. Fixed cross-owner geometry deforms severely, and highlighted incident polygons occupy the visibly textured cream parchment/cuff surface on the skull greave at cels2/18/27 (33/300/450ms). The report identifies edge96354, vertices60746/60755, assigned rshin/rthigh, rest length0.004032m versus posed0.194755m at cel2 (48.298×). Same-owner edge distributions are approximately unchanged, which supports a boundary ownership problem rather than globally flexible armour.
+
+The red witness is a diagnostic material over unchanged geometry/camera, not an authored art improvement. Its polygons include nearby flexible material, so not every highlighted face is proven rigid armour. It nevertheless makes the visible cuff distortion plus structural seam evidence concrete. Repairing those ownership boundaries now takes priority over merely changing camera/track to hide them. The −45° camera's readability improvement remains real, but is not a deformation repair.
+
+The paired witness shows the unarmed semantic body. The equipped variant's producer report says lower-body geometry/animation is preserved, so this is strong inherited lower-body concern, not an independent equipped strain rerun. Existing diagnostic scores are not reinterpreted as approval; the new evidence strengthens the production blocker. It does not prove force/contact or exact anatomical reconstruction. No root art rating was supplied or adopted.
+
+Coverage: paired-2x.png cels2/18/27/50 personally inspected; root-owned strain-report.json and witness receipt read. Independent reviewer did not rerun Blender measurement. Hashes bind copied evidence inputs.

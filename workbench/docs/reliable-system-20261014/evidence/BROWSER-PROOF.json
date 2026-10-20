@@ -1,0 +1,167 @@
+{
+  "browser_plugin": "not available; direct Playwright Chromium",
+  "checks": [
+    {
+      "id": "real_walk_loaded",
+      "passed": true
+    },
+    {
+      "id": "authored_clock_label_visible",
+      "passed": true
+    },
+    {
+      "id": "timed_walk_advances",
+      "passed": true
+    },
+    {
+      "id": "pause_holds_frame",
+      "passed": true
+    },
+    {
+      "id": "actual_loop_wrap_observed",
+      "passed": true
+    },
+    {
+      "id": "real_local_mask_created",
+      "passed": true
+    },
+    {
+      "id": "frame_change_invalidates_mask",
+      "passed": true
+    },
+    {
+      "id": "mask_edit_changes_visible_pixels",
+      "passed": true
+    },
+    {
+      "id": "undo_exact_canvas_pixels",
+      "passed": true
+    },
+    {
+      "id": "browser_reopen_preserves_revision",
+      "passed": true
+    },
+    {
+      "id": "browser_reopen_discards_mask",
+      "passed": true
+    },
+    {
+      "id": "shared_cel_scope_visible",
+      "passed": true
+    },
+    {
+      "id": "visual_not_autoapproved",
+      "passed": true
+    },
+    {
+      "id": "verified_export_downloaded",
+      "passed": true
+    },
+    {
+      "id": "slash_stops_on_final_frame",
+      "passed": true
+    },
+    {
+      "id": "one_shot_endpoint_holds",
+      "passed": true
+    },
+    {
+      "id": "one_shot_restarts",
+      "passed": true
+    },
+    {
+      "id": "mobile_no_horizontal_overflow",
+      "passed": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "id": "no_browser_exceptions",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "provider_calls": 0,
+  "visual_acceptance": "unreviewed",
+  "loop_playback_samples": [
+    {
+      "frame": 1,
+      "canvas_sha256": "ee9323417f8da5cadd28ae447a0d9889f386382d9bbfd4d062919c6001d1e342"
+    },
+    {
+      "frame": 2,
+      "canvas_sha256": "499409be068406c252f2f92a69555a51322126aa025a8589e76cba6d4156ca59"
+    },
+    {
+      "frame": 3,
+      "canvas_sha256": "4a6332cae540aa25484f1006825d0884c22cfab064b28f4b2f58d962637a750c"
+    },
+    {
+      "frame": 4,
+      "canvas_sha256": "1ba73891618027fd50c4abb2452a937055550e663011d30df95bbbb19f3a203e"
+    },
+    {
+      "frame": 5,
+      "canvas_sha256": "94305091b5763fb86aef214be0dfff7df038ef518af26222ee0e0a52c406d547"
+    },
+    {
+      "frame": 6,
+      "canvas_sha256": "f82808469f028e23eaf18c4b686546418e8cc34bca7e671d8aee020facbf8460"
+    },
+    {
+      "frame": 7,
+      "canvas_sha256": "c609165e664afd99f53a4a850a73a08a75d33b9050beb1d9d50dc02c6554c58d"
+    },
+    {
+      "frame": 8,
+      "canvas_sha256": "a833dab31a6ab0c7298c3df4cd6196ad0f0a44cc7553ddf2f24195cc5b867d5c"
+    },
+    {
+      "frame": 9,
+      "canvas_sha256": "8fdf0e681ddd4d753590e7fa122beaef1cfd30d361b6ad5638ae0e85933b2a4b"
+    },
+    {
+      "frame": 10,
+      "canvas_sha256": "f7ce89299c9d93b1791b8871830f600c30fe0f9d30651106d3ab295c40696be7"
+    },
+    {
+      "frame": 11,
+      "canvas_sha256": "d699aba4967e5dc1871194783a6d9d2ffdadb551c22797129e1ccc51c7c5f436"
+    },
+    {
+      "frame": 12,
+      "canvas_sha256": "6cd6e54564215831560a4b8bde55b45ed1c1237c6870e54129d410b36ef3eb4c"
+    },
+    {
+      "frame": 13,
+      "canvas_sha256": "46cced9d8bf720254341fc238275daa763e621fb79ecd9f6903fed0f7ad0aa47"
+    },
+    {
+      "frame": 14,
+      "canvas_sha256": "46cced9d8bf720254341fc238275daa763e621fb79ecd9f6903fed0f7ad0aa47"
+    },
+    {
+      "frame": 15,
+      "canvas_sha256": "2ab14142c65c680a4d664a57881a31cac1767bcf08c4b10293f200c487bea723"
+    },
+    {
+      "frame": 1,
+      "canvas_sha256": "ee9323417f8da5cadd28ae447a0d9889f386382d9bbfd4d062919c6001d1e342"
+    },
+    {
+      "frame": 2,
+      "canvas_sha256": "499409be068406c252f2f92a69555a51322126aa025a8589e76cba6d4156ca59"
+    },
+    {
+      "frame": 3,
+      "canvas_sha256": "4a6332cae540aa25484f1006825d0884c22cfab064b28f4b2f58d962637a750c"
+    },
+    {
+      "frame": 4,
+      "canvas_sha256": "1ba73891618027fd50c4abb2452a937055550e663011d30df95bbbb19f3a203e"
+    }
+  ],
+  "status": "passed"
+}

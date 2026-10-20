@@ -1,0 +1,128 @@
+{
+  "kind": "local-replication-pair-verification",
+  "status": "completed",
+  "package_source_hashes_equal": true,
+  "flows": [
+    {
+      "flow": "F01",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F01/COMPARISON.json"
+    },
+    {
+      "flow": "F02",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F02/COMPARISON.json"
+    },
+    {
+      "flow": "F03",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F03/COMPARISON.json"
+    },
+    {
+      "flow": "F04",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F04/COMPARISON.json"
+    },
+    {
+      "flow": "F05",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F05/COMPARISON.json"
+    },
+    {
+      "flow": "F06",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F06/COMPARISON.json"
+    },
+    {
+      "flow": "F07",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F07/COMPARISON.json"
+    },
+    {
+      "flow": "F08",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F08/COMPARISON.json"
+    },
+    {
+      "flow": "F09",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F09/COMPARISON.json"
+    },
+    {
+      "flow": "F10",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F10/COMPARISON.json"
+    },
+    {
+      "flow": "F11",
+      "primary_sequence_exact": true,
+      "inputs_equal": true,
+      "comparison": "F11/COMPARISON.json"
+    }
+  ],
+  "input_run_paths": [
+    "/home/astra/projects/pixellab-local-workbench/runs/local-replication-20261012-release-replay",
+    "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release"
+  ],
+  "input_integrity_before": [
+    {
+      "kind": "local-run-integrity",
+      "status": "completed",
+      "files_checked": 1090,
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "manifest_sha256": "990e966842b90cfaa09e3347ba8f10a97a4ff6f9dfeda05dc4eb6ee56c26f554",
+      "scope": "Integrity relative to retained manifest; not independent authenticity, behavior or art acceptance."
+    },
+    {
+      "kind": "local-run-integrity",
+      "status": "completed",
+      "files_checked": 1090,
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "manifest_sha256": "f05b96e7c35f2e96d60fb94eeb9ebebdd0a57e1a935d37ea5f1937b890c2e2b5",
+      "scope": "Integrity relative to retained manifest; not independent authenticity, behavior or art acceptance."
+    }
+  ],
+  "input_integrity_after": [
+    {
+      "kind": "local-run-integrity",
+      "status": "completed",
+      "files_checked": 1090,
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "manifest_sha256": "990e966842b90cfaa09e3347ba8f10a97a4ff6f9dfeda05dc4eb6ee56c26f554",
+      "scope": "Integrity relative to retained manifest; not independent authenticity, behavior or art acceptance."
+    },
+    {
+      "kind": "local-run-integrity",
+      "status": "completed",
+      "files_checked": 1090,
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "manifest_sha256": "f05b96e7c35f2e96d60fb94eeb9ebebdd0a57e1a935d37ea5f1937b890c2e2b5",
+      "scope": "Integrity relative to retained manifest; not independent authenticity, behavior or art acceptance."
+    }
+  ],
+  "run_report_hashes": [
+    "73876f65328f5c20aad61d456f4f509004802a0d578eb6cfcc43d1205d104b28",
+    "5fcc40f6bfd1049c203a6d43c9443d2fc9a3171f61816537e0e5b13387eb8811"
+  ],
+  "scope": "All primary supplied diagnostic sequences and declared inputs; state UUIDs/timestamps and engine wall time are not expected to be byte-identical.",
+  "artistic_acceptance": "unreviewed",
+  "whole_vendor_replication_complete": false
+}

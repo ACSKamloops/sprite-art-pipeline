@@ -1,0 +1,118 @@
+{
+  "label": "supplied synthetic diagnostics; no generated art",
+  "family_bases_rgb": [
+    [
+      24,
+      24,
+      32
+    ],
+    [
+      224,
+      216,
+      192
+    ],
+    [
+      188,
+      44,
+      52
+    ],
+    [
+      40,
+      152,
+      76
+    ],
+    [
+      44,
+      76,
+      192
+    ],
+    [
+      212,
+      132,
+      40
+    ],
+    [
+      136,
+      64,
+      160
+    ],
+    [
+      40,
+      164,
+      172
+    ]
+  ],
+  "channel_offsets": [
+    -7,
+    -3,
+    1,
+    5
+  ],
+  "spatial_permutation": "output[i] = original[(i*2053)%4096]",
+  "histogram_identity": "hist(A)+hist(B) == 2*hist(C), exact RGBA counts",
+  "fixtures": [
+    {
+      "name": "A",
+      "width": 64,
+      "height": 64,
+      "unique_colors": 512,
+      "all_alpha": 255,
+      "rgba_file": "inputs/A.rgba",
+      "rgba_sha256": "f052e31f65426b689b7e7236b8e189452f2aa55a59c00ce34af0b7fdef6f138e",
+      "png_file": "inputs/A.png",
+      "png_sha256": "7ecce37558c8dfa18bcbbd0534c9d0a170310ed4acede349fdf206b1f5ebf0f1",
+      "family_weights_per_color": [
+        16,
+        8,
+        12,
+        8,
+        8,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "B",
+      "width": 64,
+      "height": 64,
+      "unique_colors": 512,
+      "all_alpha": 255,
+      "rgba_file": "inputs/B.rgba",
+      "rgba_sha256": "34283059b9ae2ed47d900b91b3bad2c0c173d2cb4afdcfa7296039cdb79cb4ec",
+      "png_file": "inputs/B.png",
+      "png_sha256": "cb6dceed08bb11af66b592428c0ec5487c431f19c580893f8939a32a45723f53",
+      "family_weights_per_color": [
+        4,
+        4,
+        4,
+        4,
+        8,
+        12,
+        12,
+        16
+      ]
+    },
+    {
+      "name": "C",
+      "width": 64,
+      "height": 64,
+      "unique_colors": 512,
+      "all_alpha": 255,
+      "rgba_file": "inputs/C.rgba",
+      "rgba_sha256": "4ea39ab62ac139facafb6e615bbaec6c6ed22c1c14114a916240b9cd661ded95",
+      "png_file": "inputs/C.png",
+      "png_sha256": "ffad294e449e017179be621c05f3693cd5274a4b684b59461405cd92c3dbfbae",
+      "family_weights_per_color": [
+        10,
+        6,
+        8,
+        6,
+        8,
+        8,
+        8,
+        10
+      ]
+    }
+  ]
+}

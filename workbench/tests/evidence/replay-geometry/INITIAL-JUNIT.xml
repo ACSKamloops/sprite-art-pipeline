@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="5" time="25.779" timestamp="2026-10-12T19:08:10.188179-07:00" hostname="AstraPC"><testcase classname="tests.test_replay_geometry" name="test_f02_callable_ownership_tracks_edit_exchange_and_deterministic_identity" time="0.598" /><testcase classname="tests.test_replay_geometry" name="test_f09_actual_pinned_effect_body_clock_edit_and_fresh_store" time="1.924" /><testcase classname="tests.test_replay_geometry" name="test_f10_actual_exports_unequal_holds_and_engine_when_available" time="22.859"><failure message="AssertionError: assert ('failed' == 'completed'&#10;  &#10;  - completed&#10;  + failed)">tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/replay-geometry-tests/test_f10_actual_exports_unequa0')
+
+    def test_f10_actual_exports_unequal_holds_and_engine_when_available(tmp_path):
+        result=run_flow('F10',Store(tmp_path/'source'),tmp_path/'F10')
+        engine=result['exports']['engine_verification']
+        available=shutil.which('godot') or shutil.which('godot4')
+        if available:
+&gt;           assert result['status']=='completed' and all(c['passed'] for c in result['checks'])
+E           AssertionError: assert ('failed' == 'completed'
+E             
+E             - completed
+E             + failed)
+
+tests/test_replay_geometry.py:52: AssertionError</failure></testcase><testcase classname="tests.test_replay_geometry" name="test_missing_engine_is_explicit_partial_not_a_pass" time="0.223" /><testcase classname="tests.test_replay_geometry" name="test_unknown_flow_and_existing_outputs_are_preserved" time="0.044" /></testsuite></testsuites>

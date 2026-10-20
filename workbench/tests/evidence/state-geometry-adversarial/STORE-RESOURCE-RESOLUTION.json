@@ -1,0 +1,25 @@
+{
+  "baseline_commit": "fae788f9ae379700e14a4d7372220163fa9cf235",
+  "owner_fix": "24957ec7b9bcf44134cb022ac92fc5b176a2b18c",
+  "worktree_fix": "65759b4",
+  "baseline_core_sha256": "f75a5770208a3c86be8bf36ad4cabd0e6dee8c5285c777dac5afdd1e50c8af1a",
+  "corrected_core_sha256": "5aaa99f57aaf5646161e0bb0da31bfb520f4753edd6bbe25f55178e4e5031213",
+  "probe": "tests/fixtures/store_connection_probe.py",
+  "probe_sha256": "9b5a0bb3af33274bb66b13ebf4fb8d6679731c3e373609c0853deb416f8ab9b5",
+  "baseline_receipt_sha256": "f3a82e92de026976381a3c328a7edab5200d7b07eecab7a55f2d5f1c845aa327",
+  "corrected_receipt_sha256": "9d5520aefc01df12515b0f9a240a3bba93c3b4d807db9fc212a967c7b010b3ab",
+  "command": "python3 -m pytest -q tests/test_store_resources.py tests/test_state_flows.py",
+  "outcome": {
+    "passed": 14,
+    "failed": 0,
+    "xfailed": 0,
+    "skipped": 0
+  },
+  "finding": "Predecessor sqlite context commits/rolls back but does not close connection; deterministic closing wrapper resolves selected bounded descriptor-growth reproduction",
+  "manual_check": "try/finally encompasses busy_timeout initialization and with-db transaction; exception rollback precedes finally close",
+  "limits": [
+    "32 read operations plus controlled rollback; intentionally no descriptor exhaustion",
+    "Original restart/state cases executed; not full-suite replacement",
+    "No producer changes by reviewer or provider calls"
+  ]
+}

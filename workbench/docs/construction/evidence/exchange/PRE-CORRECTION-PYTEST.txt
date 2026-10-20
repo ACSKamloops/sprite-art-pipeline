@@ -1,0 +1,17 @@
+................................................................         [100%]
+=============================== warnings summary ===============================
+tests/test_construction_exchange.py: 41 warnings
+  /home/astra/projects/pixellab-workbench-geometry/sprite_workbench/construction_core/aseprite.py:222: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    for i,color in enumerate(image.getdata()):
+
+tests/test_construction_core.py: 190 warnings
+  /home/astra/projects/pixellab-workbench-geometry/sprite_workbench/construction_core/core.py:129: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    a=list(_render_frame(before,frame['id']).getdata());b=list(_render_frame(after,frame['id']).getdata());points=[[i%w,i//w]for i,(x,y)in enumerate(zip(a,b))if x!=y]
+
+tests/test_construction_core.py::test_candidate_mask_preconditions_and_partial_alpha
+tests/test_construction_core.py::test_candidate_mask_preconditions_and_partial_alpha
+  /home/astra/projects/pixellab-workbench-geometry/sprite_workbench/construction_core/candidate.py:5: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    validate_project(project);require(cel_id in project['cels'],'Unknown cel');image=image.convert('RGBA');require(image.size==(project['canvas']['width'],project['canvas']['height']),'Candidate must retain canvas dimensions');indices=_mask(project,mask);original=project['cels'][cel_id]['pixels'];rgba=list(image.getdata());baseline=list(render_cel(project,cel_id).getdata());require(all(rgba[i]==baseline[i]for i in range(len(rgba))if i not in indices),'Candidate RGBA changes outside mask')
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+64 passed, 233 warnings in 1.80s

@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "verified_commit": "2c0b744889d231a245d19ea3d8dbbcde233668f2",
+  "verification_directory": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-verification",
+  "tracked_proof_directory": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/verification",
+  "mechanical_checks": {
+    "tests": 333,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "example_status": "completed",
+  "implementation_directory": "/home/astra/projects/pixellab-local-workbench",
+  "package_status": "completed",
+  "package_version": "0.3.0",
+  "package_sha256": "5973cf10745917108f5b56c80df28f6d6643d62dcaa88ca08e7b6fd6e8bc92f9",
+  "package_comparison": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/PACKAGE-PARITY.json",
+  "package_source_files": 88,
+  "construction_methods": 12,
+  "independent_adversarial_tests": 38,
+  "report_sha256": "01b8d995392d2802d0d65fda21f435f1dade2c8adb8eec3122f36fa1207f71c7",
+  "source_specification_sha256": "73e42ef438eb7b4ed2b7e87e0cfff2af8493fc8bea02ced8e0c5d3b908d8d16d",
+  "construction_guide": "/home/astra/projects/pixellab-local-workbench/docs/construction/README.md",
+  "local_channels_guide": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/LOCAL-CHANNELS.md",
+  "artistic_acceptance": "unreviewed",
+  "continuous_motion_viewed": false,
+  "private_model_recovered": false,
+  "vendor_handlers_implemented": 0,
+  "provider_calls_this_implementation": 0,
+  "full_vendor_analysis_complete": false,
+  "scope_document": "/home/astra/projects/pixellab-local-workbench/docs/COVERAGE.md",
+  "completion_scope": "Bounded local construction/editing and actual native RGBA editor exchange; full provider/host/art behavior remains incomplete.",
+  "production_editing_ready": false,
+  "performance_limit": {
+    "fixture": "256x256,24frames,one shared cel/layer,20single-pixel edits",
+    "first_edit_seconds": 0.904,
+    "twentieth_edit_seconds": 18.123,
+    "reason": "Full journal replay; stricter multilayer budget limits also remain"
+  },
+  "next": "Scalable verified history, representative multilayer edit-session proof, then event/runtime/art/model gates",
+  "historical_local_channels_0_2_0": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/before-construction/LATEST-VERIFICATION.json"
+}

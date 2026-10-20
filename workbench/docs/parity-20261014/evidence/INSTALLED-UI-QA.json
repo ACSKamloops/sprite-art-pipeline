@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "url": "http://127.0.0.1:8877/#parity",
+  "scope": "Real local backend/UI, source methods and mechanical editing/export only; no generation or art-quality approval",
+  "checks": [
+    {
+      "name": "page identity/nonblank/catalog/source boundary",
+      "status": "passed"
+    },
+    {
+      "name": "real generic hero upload: byte SHA, raster SHA and separate IDs",
+      "status": "passed"
+    },
+    {
+      "name": "source palette import and receipt input hash",
+      "status": "passed",
+      "colors": 32
+    },
+    {
+      "name": "original pixel method serialize",
+      "status": "passed"
+    },
+    {
+      "name": "original pixel method transparency",
+      "status": "passed"
+    },
+    {
+      "name": "original pixel method reference_palette",
+      "status": "passed"
+    },
+    {
+      "name": "original pixel method mask",
+      "status": "passed"
+    },
+    {
+      "name": "original pixel method decode",
+      "status": "passed",
+      "PNG_dimensions_override_requested_1x1": [
+        256,
+        256
+      ]
+    },
+    {
+      "name": "original pixel method place",
+      "status": "passed"
+    },
+    {
+      "name": "source footprint ellipse-outline",
+      "status": "passed",
+      "ordered_points": 36,
+      "unique_points": 36
+    },
+    {
+      "name": "source footprint ellipse-filled",
+      "status": "passed",
+      "ordered_points": 148,
+      "unique_points": 148
+    },
+    {
+      "name": "source footprint rounded-rect-outline",
+      "status": "passed",
+      "ordered_points": 44,
+      "unique_points": 44
+    },
+    {
+      "name": "source footprint rounded-rect-filled",
+      "status": "passed",
+      "ordered_points": 172,
+      "unique_points": 172
+    },
+    {
+      "name": "explicit normalized editable derivative opened in Workspace",
+      "status": "passed"
+    },
+    {
+      "name": "confirmed source paint\u2192Workspace\u2192undo\u2192redo with actual immutable projects",
+      "status": "passed"
+    },
+    {
+      "name": "actual painted project package export: ZIP content hash",
+      "status": "passed",
+      "zip_sha256": "b751b869d112b1b8b3d16decc7bf5f93edb0d384823369ad8cad2f1914456931",
+      "footprint": "a18746f961413bac50479332d7783e65351e4f938f41a20b9c2e826787332ae9"
+    },
+    {
+      "name": "desktop/mobile390 screenshot, no overflow/overlay/console errors or blocked request",
+      "status": "passed"
+    },
+    {
+      "name": "trace excludes local CSRF: screenshot/actions only, no network snapshots",
+      "status": "passed"
+    }
+  ],
+  "passed": 18,
+  "console_errors": [],
+  "blocked": [],
+  "invocations": [
+    {
+      "method": "local.parity.catalog"
+    },
+    {
+      "method": "local.parity.palette"
+    },
+    {
+      "method": "local.parity.pixels"
+    },
+    {
+      "method": "local.parity.pixels"
+    },
+    {
+      "method": "local.parity.pixels"
+    },
+    {
+      "method": "local.parity.pixels"
+    },
+    {
+      "method": "local.parity.pixels"
+    },
+    {
+      "method": "local.parity.pixels"
+    },
+    {
+      "method": "local.parity.footprints"
+    },
+    {
+      "method": "local.parity.footprints"
+    },
+    {
+      "method": "local.parity.footprints"
+    },
+    {
+      "method": "local.parity.footprints"
+    },
+    {
+      "method": "local.studio.from_sequence"
+    },
+    {
+      "method": "local.parity.paint"
+    },
+    {
+      "method": "local.construction.undo"
+    },
+    {
+      "method": "local.construction.redo"
+    },
+    {
+      "method": "local.studio.export"
+    }
+  ],
+  "provider_calls": 0,
+  "external_requests": 0,
+  "trace": "trace.zip",
+  "trace_network_snapshots": false,
+  "records_sha256": "f73f7d51a69b9d69581c19cab03ac263f4f28848c69c408b6fbdc6acf6b38ba6",
+  "screenshots": [
+    "desktop.png",
+    "mobile.png"
+  ],
+  "source_fingerprint": "a00047cb39709fec2fe8c0206de786ec935ad1aea985ba8ada467505e3d3f839",
+  "source_fingerprint_observation": "Live GET /api/readiness after browser+postflight; restart_required=false; installed postflight independently computes same fingerprint",
+  "recipe_sha256": "4d4ef9c7e01b7db4d9aba5c24a32613690d6ad8ade223ee02e5cafe086669037",
+  "harness_note": "Same18 checks as DEV; additionally permits automatic read-only local.jobs.get. Earlier attempt retained under parent browser directory."
+}

@@ -1,0 +1,48 @@
+{
+  "scope": "Provisional actual candidate-v2 paint copied into isolated systems worktree for production binding/render/browser verification. Not final motion or art acceptance. Copied assets will not be committed.",
+  "backup_local": "/tmp/emberwake-eight-systems-baseline-assets-edq4f1j8",
+  "files": [
+    {
+      "character": "rowan",
+      "source": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/candidate-v2/rowan/atlas.png",
+      "destination": "assets/hero/atlas.png",
+      "candidate_v2_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+      "baseline_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68"
+    },
+    {
+      "character": "rowan",
+      "source": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/candidate-v2/rowan/animations.json",
+      "destination": "assets/hero/animations.json",
+      "candidate_v2_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+      "baseline_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d"
+    },
+    {
+      "character": "lyra",
+      "source": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/candidate-v2/lyra/atlas.png",
+      "destination": "assets/characters/lyra/atlas.png",
+      "candidate_v2_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+      "baseline_sha256": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901"
+    },
+    {
+      "character": "lyra",
+      "source": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/candidate-v2/lyra/animations.json",
+      "destination": "assets/characters/lyra/animations.json",
+      "candidate_v2_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+      "baseline_sha256": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f"
+    },
+    {
+      "character": "brann",
+      "source": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/candidate-v2/brann/atlas.png",
+      "destination": "assets/characters/brann/atlas.png",
+      "candidate_v2_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+      "baseline_sha256": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4"
+    },
+    {
+      "character": "brann",
+      "source": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/candidate-v2/brann/animations.json",
+      "destination": "assets/characters/brann/animations.json",
+      "candidate_v2_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+      "baseline_sha256": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921"
+    }
+  ]
+}

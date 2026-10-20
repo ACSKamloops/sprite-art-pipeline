@@ -1,0 +1,549 @@
+{
+  "schema": "consolidation-source-coverage-verification/v1",
+  "static_only": true,
+  "target_or_runtime_calls": 0,
+  "finding_rows": 34,
+  "finding_source_refs": 66,
+  "distinct_source_files": 31,
+  "source_checks": [
+    {
+      "finding_id": "C01",
+      "path": "docs/ANALYSIS-INDEX.md",
+      "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+      "one_based_line": 5,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/workbench/docs/ANALYSIS-INDEX.md"
+    },
+    {
+      "finding_id": "C02",
+      "path": "analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md",
+      "sha256": "625b6299116da5c376e8dd8277d6d3e007d46ab0d6b3b09c7b69efc8d5c7efc6",
+      "one_based_line": 7,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md"
+    },
+    {
+      "finding_id": "C03",
+      "path": "CURRENT-ANALYSIS.md",
+      "sha256": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/investigation/CURRENT-ANALYSIS.md"
+    },
+    {
+      "finding_id": "C03",
+      "path": "analysis-root/full-reconstruction/READINESS.md",
+      "sha256": "5f89a429e2839967561c090dfdc17dac4306a5c3b821e5330057251d92139ac7",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/READINESS.md"
+    },
+    {
+      "finding_id": "C03",
+      "path": "README.md",
+      "sha256": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/workbench/README.md"
+    },
+    {
+      "finding_id": "C04",
+      "path": "docs/RECONSTRUCTION-SCOPE.md",
+      "sha256": "b4754c42455f1249205c119fbcb776b7b0f8cf48af0ee90f565336c8a9c87d50",
+      "one_based_line": 5,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/workbench/docs/RECONSTRUCTION-SCOPE.md"
+    },
+    {
+      "finding_id": "C04",
+      "path": "docs/ANALYSIS-INDEX.md",
+      "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+      "one_based_line": 18,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/workbench/docs/ANALYSIS-INDEX.md"
+    },
+    {
+      "finding_id": "M01",
+      "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+      "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+      "one_based_line": 7,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "M01",
+      "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+      "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+      "one_based_line": 29,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "M02",
+      "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+      "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+      "one_based_line": 25,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "M02",
+      "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+      "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+      "one_based_line": 30,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "M03",
+      "path": "analysis-models/depth-round2/mcp-art-workbench-disclosure/MCP-ART-WORKBENCH-DISCLOSURE.md",
+      "sha256": "ee648de9ec1f4571f4b30eed76b7afdf7c787f491aabb27c0bb06b8b472507fe",
+      "one_based_line": 74,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "M03",
+      "path": "analysis-models/depth-round2/mcp-art-workbench-disclosure/MCP-ART-WORKBENCH-DISCLOSURE.md",
+      "sha256": "ee648de9ec1f4571f4b30eed76b7afdf7c787f491aabb27c0bb06b8b472507fe",
+      "one_based_line": 76,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "M04",
+      "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+      "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+      "one_based_line": 7,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P01",
+      "path": "analysis-models/paid-model-probes/CREATION-MODEL-COMPARISON.md",
+      "sha256": "8f2b82d2177484620643210342f3c220b2c67781c8c55861395b66eac32248ea",
+      "one_based_line": 41,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P01",
+      "path": "analysis-models/paid-model-probes/CREATION-MODEL-COMPARISON.md",
+      "sha256": "8f2b82d2177484620643210342f3c220b2c67781c8c55861395b66eac32248ea",
+      "one_based_line": 40,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P02",
+      "path": "PAID-EXPLORATION.md",
+      "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+      "one_based_line": 16,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P02",
+      "path": "PAID-EXPLORATION.md",
+      "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+      "one_based_line": 27,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P02",
+      "path": "PAID-EXPLORATION.md",
+      "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+      "one_based_line": 33,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P03",
+      "path": "PAID-EXPLORATION.md",
+      "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+      "one_based_line": 19,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P04",
+      "path": "analysis-models/runtime-review/INDEPENDENT-CAPTAIN-REVIEW.md",
+      "sha256": "483953c0ce77cdac0a832000248584dab0df59cfe2d7f9a4a070b149371ef9a9",
+      "one_based_line": 33,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P05",
+      "path": "PAID-EXPLORATION.md",
+      "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+      "one_based_line": 23,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P05",
+      "path": "PAID-EXPLORATION.md",
+      "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+      "one_based_line": 23,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P06",
+      "path": "analysis-models/runtime-review/INDEPENDENT-CAPTAIN-REVIEW.md",
+      "sha256": "483953c0ce77cdac0a832000248584dab0df59cfe2d7f9a4a070b149371ef9a9",
+      "one_based_line": 11,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "P06",
+      "path": "analysis-models/runtime-review/INDEPENDENT-CAPTAIN-REVIEW.md",
+      "sha256": "483953c0ce77cdac0a832000248584dab0df59cfe2d7f9a4a070b149371ef9a9",
+      "one_based_line": 29,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "U01",
+      "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+      "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+      "one_based_line": 31,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "U01",
+      "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+      "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+      "one_based_line": 61,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "U02",
+      "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+      "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+      "one_based_line": 51,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "U02",
+      "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+      "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+      "one_based_line": 55,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "D01",
+      "path": "analysis-models/depth-round2/pixel-grid-detector-closure/PIXEL-GRID-DETECTOR-CLOSURE.md",
+      "sha256": "407b1a6d8fe77bd4fa044f1781eb3cd507e4e754c7cf875674cadae8b7eed403",
+      "one_based_line": 27,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "D01",
+      "path": "analysis-models/depth-round2/pixel-grid-detector-closure/PIXEL-GRID-DETECTOR-CLOSURE.md",
+      "sha256": "407b1a6d8fe77bd4fa044f1781eb3cd507e4e754c7cf875674cadae8b7eed403",
+      "one_based_line": 51,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "D01",
+      "path": "analysis-models/depth-round2/pixel-grid-detector-closure/PIXEL-GRID-DETECTOR-CLOSURE.md",
+      "sha256": "407b1a6d8fe77bd4fa044f1781eb3cd507e4e754c7cf875674cadae8b7eed403",
+      "one_based_line": 99,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "S01",
+      "path": "analysis-models/depth-round2/prompt-enhancement-closure/PROMPT-ENHANCEMENT-CLOSURE.md",
+      "sha256": "66b7a1c43d2ad0b369dba0f39b71a25b3fa30c1c528ea356b07e4f92e2311bfb",
+      "one_based_line": 46,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "S01",
+      "path": "analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md",
+      "sha256": "1dcc79c69912514e1561ba1d6e3019f4a9399438fcaa192df45fa409fa1236f9",
+      "one_based_line": 19,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md"
+    },
+    {
+      "finding_id": "S02",
+      "path": "analysis-models/depth-round2/prompt-enhancement-closure/PROMPT-ENHANCEMENT-CLOSURE.md",
+      "sha256": "66b7a1c43d2ad0b369dba0f39b71a25b3fa30c1c528ea356b07e4f92e2311bfb",
+      "one_based_line": 25,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "F01",
+      "path": "analysis-root/retained-font/RETAINED-FONT-ANALYSIS.md",
+      "sha256": "43ef9b51142b0391cb696094a7148f71d261dcf01640cce90d1edb529a83a239",
+      "one_based_line": 7,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "F01",
+      "path": "analysis-root/retained-font/RETAINED-FONT-ANALYSIS.md",
+      "sha256": "43ef9b51142b0391cb696094a7148f71d261dcf01640cce90d1edb529a83a239",
+      "one_based_line": 9,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "F02",
+      "path": "analysis-contract/depth-round2/font-ui-source-closure/FONT-UI-SOURCE-ANALYSIS.md",
+      "sha256": "4e28e66927e08d32f1507dd06bdd81e22bdc5189371bc8f7e2f2a44c665d54ad",
+      "one_based_line": 28,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "F02",
+      "path": "analysis-contract/depth-round2/font-ui-source-closure/FONT-UI-SOURCE-ANALYSIS.md",
+      "sha256": "4e28e66927e08d32f1507dd06bdd81e22bdc5189371bc8f7e2f2a44c665d54ad",
+      "one_based_line": 56,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "V01",
+      "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+      "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+      "one_based_line": 11,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "V01",
+      "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+      "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+      "one_based_line": 13,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "V02",
+      "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+      "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+      "one_based_line": 31,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "V02",
+      "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+      "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+      "one_based_line": 21,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "T01",
+      "path": "analysis-poses/depth-round2/map-connected-tiles-closure/MAP-CONNECTED-TILES-ANALYSIS.md",
+      "sha256": "eb9e6c6eb6381ad916fbcc11de4d13400bcfc07d265e60de65623ed39cd7e431",
+      "one_based_line": 37,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "Q01",
+      "path": "analysis-root/sdk-transport-closure/SDK-TRANSPORT-ANALYSIS.md",
+      "sha256": "31309137838908d6a2800e90d1618302e5bb4c795add624e1f50d7e9a93284f6",
+      "one_based_line": 30,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "Q01",
+      "path": "analysis-root/sdk-transport-closure/SDK-TRANSPORT-ANALYSIS.md",
+      "sha256": "31309137838908d6a2800e90d1618302e5bb4c795add624e1f50d7e9a93284f6",
+      "one_based_line": 13,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "Q02",
+      "path": "analysis-models/depth-round2/mcp-art-workbench-disclosure/MCP-ART-WORKBENCH-DISCLOSURE.md",
+      "sha256": "ee648de9ec1f4571f4b30eed76b7afdf7c787f491aabb27c0bb06b8b472507fe",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "Q02",
+      "path": "analysis-models/depth-round2/workbench-pixel-grammar/PIXEL-WORKBENCH-GRAMMAR.md",
+      "sha256": "fa0eb081e444d5b81f046781ba375186ed3c22fe3484315b154825d25a38e042",
+      "one_based_line": 79,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R01",
+      "path": "controlled-tests/pixel-guards/PIXEL-GUARD-RESULTS.md",
+      "sha256": "45ca70bf0a77bdbef419202ceb222f1ad8ac803e092057b45f9f1473a3a71a52",
+      "one_based_line": 21,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R01",
+      "path": "controlled-tests/pixel-guards/PIXEL-GUARD-RESULTS.md",
+      "sha256": "45ca70bf0a77bdbef419202ceb222f1ad8ac803e092057b45f9f1473a3a71a52",
+      "one_based_line": 23,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R02",
+      "path": "controlled-tests/prepared-parts/PREPARED-PARTS-RESULTS.md",
+      "sha256": "8f871fc6d26f83bf50c88109aee807acd1cdbd9238efde4ef5561cf357ee42ff",
+      "one_based_line": 5,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R02",
+      "path": "controlled-tests/prepared-parts/PREPARED-PARTS-RESULTS.md",
+      "sha256": "8f871fc6d26f83bf50c88109aee807acd1cdbd9238efde4ef5561cf357ee42ff",
+      "one_based_line": 15,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R03",
+      "path": "analysis-models/depth-round3/renderer-fixtures/RENDERER-FIXTURE-RESULTS.md",
+      "sha256": "1905490aaa750442a2d47e26e12ba1b474f2f12a2d4ddccf39bd7efc0ec55ccd",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R03",
+      "path": "analysis-models/depth-round3/renderer-fixtures/RENDERER-FIXTURE-RESULTS.md",
+      "sha256": "1905490aaa750442a2d47e26e12ba1b474f2f12a2d4ddccf39bd7efc0ec55ccd",
+      "one_based_line": 14,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R03",
+      "path": "analysis-models/depth-round3/renderer-fixtures/RENDERER-FIXTURE-RESULTS.md",
+      "sha256": "1905490aaa750442a2d47e26e12ba1b474f2f12a2d4ddccf39bd7efc0ec55ccd",
+      "one_based_line": 31,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R04",
+      "path": "analysis-models/depth-round3/renderer-completion/RENDERER-METHODS.md",
+      "sha256": "a1148cd8bc045d111fe4ab35dd5bdb3f7e8da4a8dd9b9cfe9236eb639e243851",
+      "one_based_line": 11,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R04",
+      "path": "analysis-models/depth-round4/full-technique-methods/FULL-TECHNIQUE-METHODS.md",
+      "sha256": "6a0c5e013d5755d9339be06aa1cfbe6f58de68b68f96b77c84b504cf85c6c2a2",
+      "one_based_line": 44,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R05",
+      "path": "analysis-contract/depth-round2/GIF-FAILURE-ANALYSIS.md",
+      "sha256": "c6916a341d2bd9523ef9102d876fd294058487f1d5632ca2e74b41e6cfa11112",
+      "one_based_line": 13,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "R05",
+      "path": "analysis-contract/depth-round2/GIF-FAILURE-ANALYSIS.md",
+      "sha256": "c6916a341d2bd9523ef9102d876fd294058487f1d5632ca2e74b41e6cfa11112",
+      "one_based_line": 9,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "B01",
+      "path": "analysis-models/depth-round3/humanoid-parry-v1-review/REVIEW.md",
+      "sha256": "38d1dcae0242453736394da373e95d9a16389a8ce50bd011e97fe34d8a37e23c",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "B01",
+      "path": "analysis-models/depth-round3/humanoid-parry-v1-review/REVIEW.md",
+      "sha256": "38d1dcae0242453736394da373e95d9a16389a8ce50bd011e97fe34d8a37e23c",
+      "one_based_line": 17,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "B02",
+      "path": "analysis-models/depth-round3/humanoid-parry-v1-review/ENGINE-VIEW-ADDENDUM.md",
+      "sha256": "de6b604d8a55ece7c59d43c1769925b33bebee07c513ce98c0c48513080a927b",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "B02",
+      "path": "analysis-models/depth-round3/humanoid-parry-v1-review/ENGINE-VIEW-ADDENDUM.md",
+      "sha256": "de6b604d8a55ece7c59d43c1769925b33bebee07c513ce98c0c48513080a927b",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "L01",
+      "path": "docs/COVERAGE.md",
+      "sha256": "9ac31358c898677e1b1b389604987152ab982a3acab6248105611bdf7f1d9563",
+      "one_based_line": 3,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/workbench/docs/COVERAGE.md"
+    },
+    {
+      "finding_id": "L01",
+      "path": "docs/RASTER-AND-EFFECTS.md",
+      "sha256": "2b05fb063882d2a53358fa60bc25706478b22f214759b3f1eaf486153e366b8d",
+      "one_based_line": 5,
+      "hash_line_literal_match": true,
+      "frozen_copy": null
+    },
+    {
+      "finding_id": "L01",
+      "path": "README.md",
+      "sha256": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+      "one_based_line": 32,
+      "hash_line_literal_match": true,
+      "frozen_copy": "frozen-baseline/workbench/README.md"
+    }
+  ],
+  "original_obligations": 63,
+  "original_ids_order_questions_match": true,
+  "original_sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+  "source_owner_joins": 18,
+  "authority_assignment_counts": {
+    "controlled-runtime-observation": 30,
+    "server-source-or-provider-disclosure": 21,
+    "shipped-source-trace": 18
+  },
+  "errors": [],
+  "limits": "Provenance and selected report semantics only; no universal source, runtime, quality, shareability or model approval."
+}

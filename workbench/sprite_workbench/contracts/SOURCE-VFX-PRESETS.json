@@ -1,0 +1,361 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "id": "slash_arc",
+      "label": "Slash arc",
+      "recipe": {
+        "name": "Slash arc",
+        "notes": "A sword slash: a crescent that sweeps open, then fades, with a few glints. One-shot.",
+        "canvas": {
+          "w": 96,
+          "h": 96
+        },
+        "frames": 7,
+        "fps": 16,
+        "loop": false,
+        "ramps": {
+          "main": "frost"
+        },
+        "outline": {
+          "mode": "dark"
+        },
+        "seed": 5,
+        "layers": [
+          {
+            "id": "arc",
+            "type": "arc",
+            "radius": 34,
+            "start": -160,
+            "sweep": {
+              "from": 70,
+              "to": 200,
+              "end": 0.45,
+              "ease": "out"
+            },
+            "thickness": {
+              "keys": [
+                [
+                  0,
+                  9
+                ],
+                [
+                  0.5,
+                  9
+                ],
+                [
+                  1,
+                  2
+                ]
+              ]
+            },
+            "soft": 2.5,
+            "trail": 0.6,
+            "intensity": {
+              "keys": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.6,
+                  1
+                ],
+                [
+                  1,
+                  0.6
+                ]
+              ]
+            },
+            "dissolve": {
+              "from": 0,
+              "to": 0.75,
+              "start": 0.55
+            }
+          },
+          {
+            "id": "inner",
+            "type": "arc",
+            "radius": 27,
+            "start": -150,
+            "sweep": {
+              "from": 50,
+              "to": 170,
+              "end": 0.5,
+              "ease": "out"
+            },
+            "thickness": 3,
+            "soft": 1.5,
+            "trail": 0.8,
+            "intensity": 0.8,
+            "life": [
+              0,
+              0.7
+            ]
+          },
+          {
+            "id": "glints",
+            "type": "particles",
+            "z": "front",
+            "mode": "burst",
+            "count": 6,
+            "radius": 30,
+            "speed": 10,
+            "size": [
+              2,
+              3
+            ],
+            "lifespan": 0.5,
+            "life": [
+              0.2,
+              1
+            ]
+          }
+        ],
+        "controls": [
+          {
+            "id": "colour",
+            "label": "Colour",
+            "type": "ramp",
+            "value": "frost",
+            "binds": [
+              "ramps.main"
+            ]
+          },
+          {
+            "id": "sweep",
+            "label": "Sweep",
+            "type": "slider",
+            "min": 90,
+            "max": 300,
+            "step": 5,
+            "value": 200,
+            "binds": [
+              {
+                "path": "layers.arc.sweep.to"
+              },
+              {
+                "path": "layers.inner.sweep.to",
+                "offset": -30
+              }
+            ]
+          },
+          {
+            "id": "thickness",
+            "label": "Thickness",
+            "type": "slider",
+            "min": 3,
+            "max": 16,
+            "step": 1,
+            "value": 9,
+            "binds": [
+              "layers.arc.thickness.keys.0.1",
+              "layers.arc.thickness.keys.1.1"
+            ]
+          },
+          {
+            "id": "radius",
+            "label": "Size",
+            "type": "slider",
+            "min": 16,
+            "max": 42,
+            "step": 1,
+            "value": 34,
+            "binds": [
+              {
+                "path": "layers.arc.radius"
+              },
+              {
+                "path": "layers.inner.radius",
+                "offset": -7
+              }
+            ]
+          },
+          {
+            "id": "angle",
+            "label": "Angle",
+            "type": "slider",
+            "min": -180,
+            "max": 180,
+            "step": 5,
+            "value": -160,
+            "binds": [
+              {
+                "path": "layers.arc.start"
+              },
+              {
+                "path": "layers.inner.start",
+                "offset": 10
+              }
+            ]
+          }
+        ],
+        "core": [
+          "arc"
+        ]
+      },
+      "provenance": {
+        "authority": "retained PixelLab MCP get_preset response",
+        "request_id": 124,
+        "request_argv": [
+          "step",
+          "get_preset",
+          "{\"name\":\"slash_arc\",\"peek\":true}"
+        ],
+        "request_contains_recipe": false,
+        "response_path": "controlled-tests/prepared-parts/capture/responses/124-metadata-preset-slash_arc.json",
+        "response_sha256": "942cdb8798f06a8c8deae24c629eb5639e8263afde0b4d22271dc637f4941897",
+        "response_recipe_text_sha256": "ebc9673d7aa5db68028d37373a8e260077bc371c422f2b084a8f9646c5faf51c",
+        "recipe_sha256": "a10a04f31aa54c7ca79505f5542f0ab488f616e5ca1516d7afad0a09f7653f18",
+        "boundary": "Authentic retained preset snapshot; current MCP deployment identity not verified"
+      }
+    },
+    {
+      "id": "energy_orb",
+      "label": "Energy orb",
+      "recipe": {
+        "name": "Energy orb",
+        "notes": "A crackling ball of energy (projectile head or charge-up) with orbiting sparks. Seamless loop.",
+        "canvas": {
+          "w": 48,
+          "h": 48
+        },
+        "frames": 8,
+        "fps": 12,
+        "loop": true,
+        "ramps": {
+          "main": "electric"
+        },
+        "outline": {
+          "mode": "dark"
+        },
+        "seed": 6,
+        "layers": [
+          {
+            "id": "aura",
+            "type": "glow",
+            "radius": {
+              "wave": {
+                "mid": 19,
+                "amp": 2,
+                "cycles": 2
+              }
+            },
+            "shape": "linear",
+            "intensity": 0.55
+          },
+          {
+            "id": "core",
+            "type": "glow",
+            "radius": 10,
+            "shape": "hard"
+          },
+          {
+            "id": "crackle",
+            "type": "rays",
+            "count": 7,
+            "length": 18,
+            "inner": 6,
+            "width": 2,
+            "jitter": 1,
+            "spin": {
+              "from": -90,
+              "to": 270
+            },
+            "intensity": 0.7
+          },
+          {
+            "id": "sparks",
+            "type": "particles",
+            "z": "front",
+            "mode": "orbit",
+            "count": 6,
+            "radius": 17,
+            "size": [
+              1,
+              2
+            ]
+          }
+        ],
+        "controls": [
+          {
+            "id": "colour",
+            "label": "Colour",
+            "type": "ramp",
+            "value": "electric",
+            "binds": [
+              {
+                "path": "ramps.main"
+              }
+            ]
+          },
+          {
+            "id": "size",
+            "label": "Size",
+            "type": "slider",
+            "min": 6,
+            "max": 14,
+            "step": 1,
+            "value": 10,
+            "binds": [
+              {
+                "path": "layers.core.radius"
+              },
+              {
+                "path": "layers.aura.radius.wave.mid",
+                "offset": 9
+              }
+            ]
+          },
+          {
+            "id": "crackle",
+            "label": "Crackle",
+            "type": "slider",
+            "min": 0,
+            "max": 1,
+            "step": 0.05,
+            "value": 0.7,
+            "binds": [
+              {
+                "path": "layers.crackle.intensity"
+              }
+            ]
+          },
+          {
+            "id": "sparks",
+            "label": "Sparks",
+            "type": "slider",
+            "min": 0,
+            "max": 16,
+            "step": 1,
+            "value": 6,
+            "binds": [
+              {
+                "path": "layers.sparks.count"
+              }
+            ]
+          }
+        ],
+        "core": [
+          "core"
+        ]
+      },
+      "provenance": {
+        "authority": "retained PixelLab MCP get_preset response",
+        "request_id": 110,
+        "request_argv": [
+          "step",
+          "get_preset",
+          "{\"name\":\"energy_orb\",\"peek\":true}"
+        ],
+        "request_contains_recipe": false,
+        "response_path": "controlled-tests/prepared-parts/capture/responses/110-metadata-preset-energy_orb.json",
+        "response_sha256": "e3a368a4804c1c3c6621787c5e63faf1f43914ae6b123b79a219976dc51091b4",
+        "response_recipe_text_sha256": "a2a5d437d5fe42928246d95a0ab545fddbcf5c7d84d1593c50cdad48bc1c06f7",
+        "recipe_sha256": "6018acc5ce99f04e083fc376e421854363dde934aaefc8dda3e71be4fda5f9b0",
+        "boundary": "Authentic retained preset snapshot; current MCP deployment identity not verified"
+      }
+    }
+  ],
+  "boundary": "Copied returned presets, never authored substitute recipes"
+}

@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "url": "https://platform.minimax.io/docs/m-plan/intro.md",
+      "file": "m-plan__intro.md",
+      "bytes": 2686,
+      "sha256": "cdabbb63080183e4fc027d997518c73d763ccd14ec97ab56f2b9dfc33fe72244"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/m-plan/faq.md",
+      "file": "m-plan__faq.md",
+      "bytes": 13474,
+      "sha256": "c23fb3ba9a595cff7d0042dac0df5472e76eb4da4f6b9145715542cc6576a3de"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/m-plan/usage-rules.md",
+      "file": "m-plan__usage-rules.md",
+      "bytes": 3036,
+      "sha256": "7b16446aaa8f2ebaecf41616c76fcbda6dde626646506a27ef69a24e88a68489"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-t2i.md",
+      "file": "api-reference__image-generation-t2i.md",
+      "bytes": 7120,
+      "sha256": "22683b9f905175c6ff561ef71d291e61dbf3f29c5ca7c1b25fb28ef60cb4f2bb"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/image-generation-i2i.md",
+      "file": "api-reference__image-generation-i2i.md",
+      "bytes": 7818,
+      "sha256": "254f7211ed7129ff7ebf96f457ac483d265c8da4a37f3f43c0970ac55a659713"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/models/anthropic/list-models.md",
+      "file": "api-reference__models__anthropic__list-models.md",
+      "bytes": 3945,
+      "sha256": "581b8a724821d40a996a55ba0fef641e90f4add57b8a90b80e34ab4225279a07"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/text-chat-anthropic.md",
+      "file": "api-reference__text-chat-anthropic.md",
+      "bytes": 52805,
+      "sha256": "c7ba8fcbf62d73b474cc648cf95ba2306c89fe916781cce83c6734113dfc22d3"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/guides/local-deploy-h3.md",
+      "file": "guides__local-deploy-h3.md",
+      "bytes": 33536,
+      "sha256": "04a1a356c8b539ccd285c1adea6bf3c25a49f816eb74200ff4342232c8353800"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-create.md",
+      "file": "api-reference__video-generation-v2-create.md",
+      "bytes": 22071,
+      "sha256": "9f68fada266f3d1c929ff96fe4fa92741eba5d0fd29b8647eb5e4e07daf507f9",
+      "retrieved_utc": "2026-10-14T02:14:32.795345+00:00"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-query.md",
+      "file": "api-reference__video-generation-v2-query.md",
+      "bytes": 18201,
+      "sha256": "bc91317855006307ddfc104d777736fa805c0a5d7df91f95ebfb4f9435e0b270",
+      "retrieved_utc": "2026-10-14T02:14:33.049894+00:00"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/api-reference/video-generation-v2-h3-context-ir.md",
+      "file": "api-reference__video-generation-v2-h3-context-ir.md",
+      "bytes": 22880,
+      "sha256": "6f49a321a7d9d74e4f4dc9c057786ff3da6b7f556b0e1f897ad69b4f79b0e8ae",
+      "retrieved_utc": "2026-10-14T02:14:33.308914+00:00"
+    },
+    {
+      "url": "https://platform.minimax.io/docs/guides/video-generation.md",
+      "file": "guides__video-generation.md",
+      "bytes": 15491,
+      "sha256": "d7144e082b69e4397b5aa4ec345d8f96cf71ed4f3d04b45dae426701f9f77f96",
+      "retrieved_utc": "2026-10-14T02:14:33.711540+00:00"
+    }
+  ],
+  "credential_used": false
+}

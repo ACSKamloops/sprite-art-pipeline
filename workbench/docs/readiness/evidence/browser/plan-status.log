@@ -1,0 +1,10 @@
+### Result
+{
+  "plan": "7a4ea5b982301dca87ccb0ae00d04365797c8530b9eaa854385cd54d6b773ffa",
+  "detail": "{\n  \"artifact\": \"2b8e177927b702573b725eb86a3bce76d4790ded4d1b6b73484b114d50985d69\",\n  \"attempt\": 1,\n  \"cancel_requested\": false,\n  \"created\": 1791937821.3510764,\n  \"error\": null,\n  \"expected\": null,\n  \"handler\": \"local.pipeline\",\n  \"head\": null,\n  \"id\": \"96bd32226a7f442d8e9f6d30a176c7df\",\n  \"metadata\": {},\n  \"outputs\": [\n    {\n      \"artifact_id\": \"2b8e177927b702573b725eb86a3bce76d4790ded4d1b6b73484b114d50985d69\",\n      \"disposition\": \"candidate\",\n      \"metadata\": {\n        \"run\": \"8e8e598c762c9985031aa5c0185742c80fa86486c70aa2f54f6671e9c4b9fd8e\",\n        \"visual_approval\": \"unreviewed\"\n      },\n      \"result_status\": \"candidate\",\n      \"time\": 1791937821.4212556\n    }\n  ],\n  \"owner\": \"e59afcb090ff4c3d9e281a62936bda14\",\n  \"progress\": 1,\n  \"request_id\": \"26554a4154c837505328c20067f258deb8eccae8f4929efc22114731ea0c2c90\",\n  \"result_status\": \"candidate\",\n  \"retry_of\": null,\n  \"status\": \"completed\",\n  \"updated\": 1791937821.4212854\n}",
+  "error": ""
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({plan:document.querySelector("#job-plan").value,detail:document.querySelector("#job-detail").textContent,error:document.querySelector("#global-error")?.textContent})');
+```

@@ -1,0 +1,33 @@
+{
+  "model": "MiniMax-H3",
+  "resolution": "768P",
+  "duration": 5,
+  "ratio": "1:1",
+  "ordered_content": [
+    {
+      "order": 0,
+      "type": "text",
+      "literal_text": "Use Image1 only for the identity, costume, proportions, colors and crisp detailed RPG pixel-sprite rendering. Use Video1 as the moving pose reference. Replace the simple mannequin with exactly the young brown-haired, blue-eyed, unarmed RPG adventurer from Image1: tousled brown hair, blue coat with gold trim, silver shoulder armour and wrist bracers, cream trousers, brown gloves and brown boots. Produce one uninterrupted five-second full-body walk cycle sequence in the same three-quarter right-facing view as the references. Follow Video1's alternating right and left steps, counter-swinging arms and steady cadence, while drawing rounded boots and natural cloth folds matching Image1. Preserve the visible heel contact, flat support and toe push-off progression: the supporting boot moves backward relative to the body, lifts at the heel, then swings forward; the other boot alternates without extra steps. Keep the same character, face, hairstyle, limb lengths, outfit and material colors throughout. Keep the entire character inside the frame at constant scale and fixed registration, walking in place against a completely flat pure bright green #00FF00 background. Static orthographic camera. Detailed native96pixel-style game sprite enlarged with crisp pixel edges, stable pixel clusters, restrained highlights and readable joints. No ground or shadow, no text, no scene, no zoom, no weapons, no added accessories, no motion blur. This is an animation sprite source, so preserve the complete boots, hands and hair within clear margins throughout.\n",
+      "source": "/home/astra/artifacts/pixellab-hybrid-walk-20261015/game-ready-v6/h3-grounded-guide-EFEFEF/job-001/PROMPT.txt",
+      "sha256": "b90820a74f9f5f469267729bfa06fb4f4c890eef785f048de54d84a02bdeb8c1"
+    },
+    {
+      "order": 1,
+      "type": "image_url",
+      "role": "reference_image",
+      "path": "/home/astra/artifacts/pixellab-hybrid-walk-20261015/game-ready-v6/h3-grounded-guide-EFEFEF/job-001/inputs/image-1.png",
+      "sha256": "345e791427d2b20b97fd661aaae9e947f8197ee27984581a597f0bc78886e0db",
+      "bytes": 13034,
+      "embedded_wire_bytes_exact_retained_file": true
+    },
+    {
+      "order": 2,
+      "type": "video_url",
+      "role": "reference_video",
+      "path": "/home/astra/artifacts/pixellab-hybrid-walk-20261015/game-ready-v6/h3-grounded-guide-EFEFEF/job-001/inputs/video-1.mp4",
+      "sha256": "c241b9315a39e349c2cd4d197de3b8a03e675aed1a66e870671b9911d341f04b",
+      "bytes": 226484,
+      "embedded_wire_bytes_exact_retained_file": true
+    }
+  ]
+}

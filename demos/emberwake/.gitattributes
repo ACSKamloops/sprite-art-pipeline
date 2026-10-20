@@ -1,0 +1,32 @@
+# Verbatim historical evidence: preserve original formatting and hashes.
+docs/evidence/eight-directions-player-v1/runs/player-clock-regression.json -whitespace
+docs/evidence/eight-directions-player-v1/scenarios/emberwake-source-legs-player-check.js -whitespace
+# Python csv.writer's retained CRLF is part of the byte-exact source ledger.
+art-source/eight-direction-v1/diagonal-contact-study-v1/results-final/CALCULATIONS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-study-v1/results-final/HELD-POSE-TRACE.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-study-v1/results-v2/CALCULATIONS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-study-v1/verification/replay-v1/CALCULATIONS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-study-v1/verification/replay-v1/HELD-POSE-TRACE.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Unified-diff context prefixes intentionally precede tabs and blank lines.
+docs/evidence/browser-observation-v1/proposal/proposed.patch -whitespace
+art-source/eight-direction-v1/diagonal-contact-render-v1/results-final/DISPLACEMENTS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-render-v1/results-final/MEASURED-PIXELS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-render-v1/results-v1/DISPLACEMENTS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-render-v1/results-v1/MEASURED-PIXELS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-render-v1/verification/replay-v1/DISPLACEMENTS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/diagonal-contact-render-v1/verification/replay-v1/MEASURED-PIXELS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Exact copies bundled with the installed skill's portable GPU example.
+docs/evidence/pipeline-skill-v10/assets/contact-render-example/results-final/DISPLACEMENTS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/evidence/pipeline-skill-v10/assets/contact-render-example/results-final/MEASURED-PIXELS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/evidence/pipeline-skill-v10/assets/contact-render-example/results-v1/DISPLACEMENTS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/evidence/pipeline-skill-v10/assets/contact-render-example/results-v1/MEASURED-PIXELS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/evidence/pipeline-skill-v10/assets/contact-render-example/verification/replay-v1/DISPLACEMENTS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+docs/evidence/pipeline-skill-v10/assets/contact-render-example/verification/replay-v1/MEASURED-PIXELS.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Frozen independent review coverage uses csv.writer CRLF; hashes bind its bytes.
+art-source/eight-direction-v1/reviews/lyra-P07-cycle-v1/coverage.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/reviews/brann-ne-jab-v1/coverage.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/reviews/diagonal-action-art-audit-v1/clips.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+art-source/eight-direction-v1/reviews/diagonal-action-art-audit-v1/proof-inspection.csv whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve the reviewed csv.writer byte stream and its frozen hash.
+art-source/eight-direction-v1/gait-method-study-v1/research/ROWAN-SE-COORDINATES.csv -text whitespace=cr-at-eol

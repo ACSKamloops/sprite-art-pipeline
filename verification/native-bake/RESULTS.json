@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-20T03:06:39.949385+00:00",
+  "all_passed": true,
+  "complete_default_check_set": false,
+  "available_checks": [
+    "repository-content",
+    "workbench-tests",
+    "editable-toolkit-tests",
+    "approved-walk-manifest",
+    "approved-editable",
+    "approved-native-bake",
+    "exact-apng",
+    "lyra-rebuild"
+  ],
+  "checks": [
+    {
+      "name": "approved-native-bake",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/tools/bake_native_sprites.py",
+        "--video",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/reproduction/returned-h3-native.mp4",
+        "--recipe",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/reproduction/bake-recipe.json",
+        "--output",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030639Z/native-bake"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.827,
+      "summary": "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030639Z/native-bake/receipt.json\n\nAll30 approved PNGs byte-identical: True",
+      "log": "approved-native-bake.log"
+    }
+  ],
+  "scope": "Fresh selected offline code/artifact checks. No provider job, server, continuous visual acceptance or whole-PixelLab parity."
+}

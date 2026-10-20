@@ -1,0 +1,42 @@
+These repositories offer useful diagnostics and editing patterns, but neither establishes convincing Captain walk art or recovers missing armored limb depth. No models, Unity editor, skills or implementation code were installed or copied into the main project. Research date: October 8, 2026.
+
+| Primary repository | Pinned local source | Verified dates and scope |
+|---|---|---|
+| [JatCool/AI-Sprite-Animation](https://github.com/JatCool/AI-Sprite-Animation/tree/3818664861613905a377eca26c4ea940c06a646d) | `3818664861613905a377eca26c4ea940c06a646d` | GitHub created October 4, 2026; pushed October 5. Commit October 5. MIT. Inside the recent two-month window. Unity rig plus optional local AI pose/redraw workflows. |
+| [lifeFedorovAlexey/AI-image-to-sprite-pipeline](https://github.com/lifeFedorovAlexey/AI-image-to-sprite-pipeline/tree/a3678c4fda8b327b7390b973d72ec25248e482c9) | `a3678c4fda8b327b7390b973d72ec25248e482c9` | GitHub created July 8; pushed August 6, 2026. Commit August 6. MIT. Outside August 8–October 8 by two days. Do not relabel it recent based on today's crawl. |
+
+API dates, source hashes and clean read-only repository statuses are recorded separately. A public push date is not a model release date or a quality benchmark date.
+
+JatCool: implemented mechanisms worth studying
+
+The rig uses explicit part masks, parent transforms and joint pivots. Automatic segmentation is geometric: relative height bands, nearest arm segments and optional duplicated near/far leg masks. This is a starting assignment, not semantic understanding of shields, holsters, overlapping armor or unseen legs. The explicit mask editor and joint diagnostics are useful; detailed armor still requires deliberate ownership and authored underlaps. [RigAutoBuilder.cs](https://github.com/JatCool/AI-Sprite-Animation/blob/3818664861613905a377eca26c4ea940c06a646d/package/Editor/RigAutoBuilder.cs)
+
+Grounding scans transformed bottom corners of masked foot/leg pixels and offsets the whole root so the lowest corner meets a line, then applies root/hop and rounding. That constrains the lowest rendered extent. It does not identify a heel/toe material patch, assert which limb supports weight, or recover a world plant. A change in the lowest corner or winning leg can change the root offset while every frame remains “grounded.” This is directly relevant to the Captain's earlier lowest-pixel feedback problem. [RigKinematics.cs](https://github.com/JatCool/AI-Sprite-Animation/blob/3818664861613905a377eca26c4ea940c06a646d/package/Editor/RigKinematics.cs)
+
+The stance-slide metric chooses the lower ankle, collects its horizontal steps near ground, and measures deviations from the run's median step. Our faithful small Python calculation produces zero for x=0,2,4,6. Without corresponding world/root travel, that ankle/material moves six pixels. The metric measures uneven velocity, not absolute world-space plant. This is a metric-contract counterexample, **not execution of the C# code** or proof that its intended in-place use is erroneous. [PoseMetrics.cs](https://github.com/JatCool/AI-Sprite-Animation/blob/3818664861613905a377eca26c4ea940c06a646d/package/Editor/PoseMetrics.cs)
+
+`FootLock` flattens the lower foot toward a sole angle within five degrees; the displayed implementation does not pin a selected heel/toe patch in world coordinates. Its name/comment therefore needs a narrower interpretation than material locking. Weapon attachment is a child-bone constraint and weapon-tip ground clearance is checked separately. Those are useful declared mechanisms, not rendered glove/grip or armor-depth acceptance. [PoseConstraints.cs](https://github.com/JatCool/AI-Sprite-Animation/blob/3818664861613905a377eca26c4ea940c06a646d/package/Editor/PoseConstraints.cs)
+
+I viewed the actual `docs/images/rig-animations.png` example sheet and decoded the 48×48 front RGBA fixture using the supplied file layout. The small source retains recognizable face/hair/weapon, but static rows are not temporal evidence for a heavy armored gait. The 16-frame SDPose walk fixture contains one detected person per frame on384×576 canvases; structure was inspected, retargeting was not run. These fixtures do not cover Captain costume/depth.
+
+The published identity benchmark compares one48px character/Walk setup and reports source-pixel match versus redraw alternatives. Its reported torso scores favor the rig; some redraw settings barely move. This is useful evidence that similarity can trade against motion. I did not reproduce the ComfyUI experiment, and the measurements do not establish anatomical quality, weighted gait, all-character performance or a general impossibility theorem for diffusion. [benchmarks.md](https://github.com/JatCool/AI-Sprite-Animation/blob/3818664861613905a377eca26c4ea940c06a646d/package/Documentation~/benchmarks.md)
+
+No `dotnet` was found on PATH. The provided net8 headless project also references a hard-coded Windows Unity6000.6 `UnityEngine.CoreModule.dll`; it is not standalone platform-independent math out of the box. No installation or C# test pass is claimed. [posetests.csproj](https://github.com/JatCool/AI-Sprite-Animation/blob/3818664861613905a377eca26c4ea940c06a646d/tools/posetests/posetests.csproj)
+
+lifeFedorovAlexey: locally executable contracts
+
+Decoded-pixel QC measures adjacent differences including wrap, foreground extent/area, lower-band “root” and optional pose/flow evidence. Our direct invocation with eight identical synthetic frames passes all ten continuity checks while displaying no walk. That is appropriate for continuity-only scope, but a caller must add action/support progression requirements. The lower-band centroid/bottom is a geometric statistic, not a pelvis or persistent sole landmark. Boundary gates should not be interpreted as all-frame anatomical guarantees. [qc.py](https://github.com/lifeFedorovAlexey/AI-image-to-sprite-pipeline/blob/a3678c4fda8b327b7390b973d72ec25248e482c9/studio/qc.py)
+
+The rigid-prop module provides explicit grip transforms, two-link reach and per-instance trajectories. Executed probes map a local grip exactly to[20,10], accept a reachable chain and report12px residual for a target beyond an8px chain. However `contact_qc` uses the planned trajectory when observations are absent. A plan-only pass must remain labeled plan validation; require independently rendered hand/prop evidence for actual attachment. The function itself leaves finger acceptance manual. [rigid_props.py](https://github.com/lifeFedorovAlexey/AI-image-to-sprite-pipeline/blob/a3678c4fda8b327b7390b973d72ec25248e482c9/studio/rigid_props.py)
+
+Temporal repair builds bounded circular4n+1 windows, freezes context and merges an external generated result with temporal feather weights. This is a useful non-destructive repair organization, not deterministic art preservation inside the editable interval. Neither feathered pixels nor a reduced discontinuity prove the repaired leg's anatomy or phase identity. No VACE generation was run. [temporal_repair.py](https://github.com/lifeFedorovAlexey/AI-image-to-sprite-pipeline/blob/a3678c4fda8b327b7390b973d72ec25248e482c9/studio/temporal_repair.py)
+
+Recommended local experiments, separate from production
+
+- Borrow the **contract idea**, not cloud generation: explicit owned masks, visible joint/pivot overlays and a source-bound rendering ledger. Keep projected art and intended skeleton distinct.
+- Pair continuity/identity gates with an actual whole-loop art review and action-role checks. A static loop should fail a walk-completeness gate while still passing a continuity gate.
+- Distinguish lowest-extent grounding, planned ankle contact, actual sole-material locking and physical travel. Store support identity, time and world transform, then measure the rendered patch independently.
+- Require observed prop tracks for rendered attachment proof; plan-only validation must be named accordingly.
+- Use local repair windows with exact untouched-frame checks and fresh final exports. More smoothing/rig constraints cannot produce missing3D armor faces from one2D plane; canonical geometry or alternate authored source faces remain the appropriate producer experiment.
+
+`python qc/temporal/source-pipeline-research-v1/probe.py` runs existing pure-Python modules read-only plus the clearly labeled metric counterpart, records five assertions and API/source metadata. It is not a model/Unity end-to-end benchmark. No art approval is issued.

@@ -1,0 +1,9 @@
+
+class SelectionMap:
+	func get_selection_rect(_project) -> Rect2i: return Rect2i()
+class Project:
+	var size: Vector2i
+	var has_selection = false
+	var selection_map = SelectionMap.new()
+	func can_pixel_get_drawn(_p): return false
+var DrawingAlgos = load("res://similar.gd").new()

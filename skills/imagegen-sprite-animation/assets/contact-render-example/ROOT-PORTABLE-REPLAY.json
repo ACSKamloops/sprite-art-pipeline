@@ -1,0 +1,61 @@
+{
+  "scope": "Independent local retained-input replay of actual GPU feature matching; conditional contact only",
+  "all11_outputs_exact": true,
+  "outputs": [
+    {
+      "file": "ANKLE-PATCH.json",
+      "sha256": "fc8767ab7e263464652f547608632d33650c36b38bccabfea5a84ad4c339f216",
+      "byte_exact": true
+    },
+    {
+      "file": "DISPLACEMENTS.csv",
+      "sha256": "476eb8f30d8b349fe6401714575e89a01b4bb79a535f96508603c754205ebb03",
+      "byte_exact": true
+    },
+    {
+      "file": "FEATURE-OBSERVATIONS.json",
+      "sha256": "ef64beb4d5c218ef0fc37e8653565c6de97c5fb4ced258393215e557319d6c0b",
+      "byte_exact": true
+    },
+    {
+      "file": "HEEL-PATCH.json",
+      "sha256": "2049ba835e07105d21c5691d8f57f54f49e7bdbefac41a69e08827ef275d14a3",
+      "byte_exact": true
+    },
+    {
+      "file": "MEASURED-PIXELS.csv",
+      "sha256": "e953ef8c5326b0a7af8eca4efa6bd2827e9c5aa34db250afcd1fd96eafa2ccd0",
+      "byte_exact": true
+    },
+    {
+      "file": "OPAQUE-CONTEXT-WITNESSES.json",
+      "sha256": "035f1939d25aabf1fb7fc9139a5d8397beba1c56770e40732be711e1f50d3002",
+      "byte_exact": true
+    },
+    {
+      "file": "RESULTS.json",
+      "sha256": "911c252360b37a63bca2522aa9b2412ef56f5693b766ef616cf25b4222f791de",
+      "byte_exact": true
+    },
+    {
+      "file": "contact04-05-06-6x.png",
+      "sha256": "12a58fd819a74cd308301634ceae3207f478ca141a59b00ecfe15ae1bfe35af3",
+      "byte_exact": true
+    },
+    {
+      "file": "held04-72-78-89-6x.png",
+      "sha256": "dee5a1acb314822eecc43afa2a42fda296873518261b8fa68d0d5df405c38550",
+      "byte_exact": true
+    },
+    {
+      "file": "nearest-sampling-72-80-89-6x.png",
+      "sha256": "824b66fd415480261732ac229741022590e11616ad12bd9ba06658f18a9938c0",
+      "byte_exact": true
+    },
+    {
+      "file": "right-actor-context72-4x.png",
+      "sha256": "56493b64c92aebcf7bff96a9d32dea9633bfaffab4c78887bd088e32df85ff7c",
+      "byte_exact": true
+    }
+  ]
+}

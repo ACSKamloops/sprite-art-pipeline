@@ -1,0 +1,212 @@
+{
+  "passed": true,
+  "capture_ledger_entries": 1729,
+  "clips": [
+    {
+      "clip": "rowan-southeast",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-framerate",
+        "320",
+        "-i",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk/rowan-southeast/%04d.png",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-threads",
+        "2",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "16",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/media-replay/rowan-southeast.mp4"
+      ],
+      "PNG_to_MP4_bytes_exact": true,
+      "sha256": "0b7c866f65a1d3a3f0afae40794c58a91d78446161ef4de32ec6329081d2b700",
+      "probe": {
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "clip": "rowan-northeast",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-framerate",
+        "320",
+        "-i",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk/rowan-northeast/%04d.png",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-threads",
+        "2",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "16",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/media-replay/rowan-northeast.mp4"
+      ],
+      "PNG_to_MP4_bytes_exact": true,
+      "sha256": "e732b4f9a11f4dc15525bbb324276b0971d366492cfa9d076b415e623a70ef35",
+      "probe": {
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "clip": "lyra-southeast",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-framerate",
+        "320",
+        "-i",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk/lyra-southeast/%04d.png",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-threads",
+        "2",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "16",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/media-replay/lyra-southeast.mp4"
+      ],
+      "PNG_to_MP4_bytes_exact": true,
+      "sha256": "a9229c4caad307cf60fd24e75c2ba1dee4e69d21d792e79849d9120ea93222e6",
+      "probe": {
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "clip": "lyra-northeast",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-framerate",
+        "320",
+        "-i",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk/lyra-northeast/%04d.png",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-threads",
+        "2",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "16",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/media-replay/lyra-northeast.mp4"
+      ],
+      "PNG_to_MP4_bytes_exact": true,
+      "sha256": "f4fba26ec139fae448fbb7302c3fb97ad7b104673cc39ea6fdc3008c57bc8c03",
+      "probe": {
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "clip": "brann-southeast",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-framerate",
+        "320",
+        "-i",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk/brann-southeast/%04d.png",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-threads",
+        "2",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "16",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/media-replay/brann-southeast.mp4"
+      ],
+      "PNG_to_MP4_bytes_exact": true,
+      "sha256": "fe5428626e97993f3790581415b3c17505e10fac4bd2d2c30eedea03c61744ea",
+      "probe": {
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "clip": "brann-northeast",
+      "command": [
+        "ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-framerate",
+        "320",
+        "-i",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk/brann-northeast/%04d.png",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-threads",
+        "2",
+        "-preset",
+        "veryfast",
+        "-crf",
+        "16",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v7/media-replay/brann-northeast.mp4"
+      ],
+      "PNG_to_MP4_bytes_exact": true,
+      "sha256": "af8e80458736e3f2140d326c03a0f177272ae2e42205119c1578a795b16ccd0b",
+      "probe": {
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    }
+  ],
+  "ffmpeg_version": "ffmpeg version 8.0.1-3ubuntu2 Copyright (c) 2000-2025 the FFmpeg developers",
+  "scope": "Actual media reproduction only, no motion/contact score"
+}

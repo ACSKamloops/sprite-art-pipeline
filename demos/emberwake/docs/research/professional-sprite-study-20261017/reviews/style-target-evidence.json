@@ -1,0 +1,34 @@
+{
+  "scope": "Direct visual appearance/camera gate, not acceptance of rejected or installed animation",
+  "target_images": [
+    {
+      "path": "/home/astra/projects/emberwake-demo/assets/characters/lyra/portrait.png",
+      "sha256": "ccbb9dba0cccdfa5c2955a3e3c20bfa7ab62b41600cdd47ecd2a53b38aacf31d",
+      "canvas_wh": [128, 128],
+      "alpha_bbox_xyxy_exclusive": [37, 16, 91, 111],
+      "visible_character_extent_height_px": 95,
+      "role": "Installed character appearance and native detail scale"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/assets/characters/brann/portrait.png",
+      "sha256": "26d51c8d7086d706f7c01464d75f3ba7bac072e2f5f8381821ee2042045bbbb9",
+      "canvas_wh": [128, 128],
+      "alpha_bbox_xyxy_exclusive": [33, 15, 96, 111],
+      "visible_character_extent_height_px": 96,
+      "role": "Second installed character confirms shared shaded material treatment and compact proportions"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/our-prototype/derived/rejected-SE-inspection.png",
+      "sha256": "1f35ea7ff5a0361dccb6202d4659f603f9bfe303eaef78a69c2e038fb887063d",
+      "canvas_wh": [1536, 820],
+      "role": "Eight enlarged ordered SE poses supply oblique camera and equipment/feature appearance; animation remains rejected"
+    }
+  ],
+  "new_candidate_accepted": false,
+  "prior_reference_role": "Duelyst, Tiny Swords and LPC are secondary technique references only; prior quality review is not primary style-match acceptance",
+  "limitations": [
+    "Appearance/camera reviewed through still images; no continuous playback claim",
+    "No exact camera angle or subjective numerical match score inferred",
+    "No character generation, sprite edits, H3/local models, project changes or publication"
+  ]
+}

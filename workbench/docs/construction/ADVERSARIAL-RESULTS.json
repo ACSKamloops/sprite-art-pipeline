@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "review_kind": "independent selected mechanical construction acceptance",
+  "review_worktree": "/home/astra/projects/pixellab-workbench-state",
+  "source_snapshot": "134c607f1f77a2c50fb237241ea6dcddbeecdee1",
+  "source_hashes": {
+    "sprite_workbench/construction.py": "de61faa8276b882468ce03bfce4eb52e2f47235eef0f3dd955dd93b3784eb22d",
+    "sprite_workbench/construction_exchange.py": "d69f53443f01078cce213cd32a241a5c4f582ca3ea2d7016399b19e3b1cc6a47",
+    "sprite_workbench/construction_core/aseprite.py": "263b4d0059ce1074cb5dff97198d095faddeba10e1410dbb617f91d4030feeca",
+    "sprite_workbench/construction_core/core.py": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+    "sprite_workbench/construction_core/history.py": "8abcfa7f40f10a332025b7ff1e3a24cb62bbe728ba5b53a6f40ad2e77878a487",
+    "sprite_workbench/construction_core/canonical.py": "5033c9879ac3269e3c9f6978f85c97997eb83dd3e45665e993a4326d6f421ed3",
+    "sprite_workbench/construction_core/loading.py": "2be3deac078a6683fdd7382a2fd42764d47e17d2e2ea5023d563d50c5a655da0",
+    "docs/construction/TOOLKIT-ORIGIN.json": "7c596bb2606347f7c502243c4bbfc7967e572e1cd71c6aa084e4f41a22f194c3",
+    "docs/construction/ASE-PARSER-ORIGIN.json": "d83bb66f8ed368e435ec5b1414a453518fa374fd374ed6a07aa246efde6f50bc",
+    "tests/test_construction_adversarial.py": "015e547eb6a82c8c6349c3a47a884a29795c3f65c7a176f86c6aa74864d1c331",
+    "docs/construction/SOURCE-AND-ACCEPTANCE.json": "07f6510d0b4fa724529aaa81dcf0d5f5ca328104602d5820e417941a5b6bcceb"
+  },
+  "producer_commit_dependencies": [
+    "c1fa4d6a2cceeff3a061b5f54760c204c6ae0779",
+    "c921d8bb51b7e6b90994b5178072ba993cd2ffcf",
+    "a94d440b91b94b7d08fbf45b8c174f690c6893c9",
+    "84fa0dcbb29b719fe06fe1c433b743b44c61c756",
+    "a30980ebf83ffb3112b25eaf1347507a5d0703f5",
+    "8f5e09d222368c70c57f7c9aa9f9137bf8bccaf2",
+    "3d322b933bbb8955f4363aae89ea730350575a2a",
+    "c61a181fc4e6f1174fe1d695727c1c59f8b9c41a"
+  ],
+  "command": "/home/astra/projects/pixellab-local-workbench/.venv/bin/python -m pytest -q tests/test_construction_adversarial.py --junitxml=docs/construction/ADVERSARIAL-CORRECTED-JUNIT.xml",
+  "runs": [
+    {
+      "label": "reviewer_harness",
+      "file": "docs/construction/ADVERSARIAL-HARNESS-CORE-JUNIT.xml",
+      "sha256": "4b43449e6c1e01fd3f94f7353ae4c6d60eb821b8a8f60e9152e95779094d0074",
+      "tests": 24,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "eligible_as_producer_defect_evidence": false
+    },
+    {
+      "label": "core_corrected",
+      "file": "docs/construction/ADVERSARIAL-CORE-JUNIT.xml",
+      "sha256": "ce9982e4b5f658b587ba4f5258369fa2a9ce7dc3c463568bc9f7adfc9c8c7ad4",
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "eligible_as_producer_defect_evidence": true
+    },
+    {
+      "label": "native_original",
+      "file": "docs/construction/ADVERSARIAL-NATIVE-BASELINE-JUNIT.xml",
+      "sha256": "8983a7fa917bdaa0d93a5d1343e52dd6211d2e5051be32bf4f203c163bd57d65",
+      "tests": 37,
+      "failures": 5,
+      "errors": 0,
+      "skipped": 0,
+      "eligible_as_producer_defect_evidence": true
+    },
+    {
+      "label": "native_intermediate",
+      "file": "docs/construction/ADVERSARIAL-INTERMEDIATE-JUNIT.xml",
+      "sha256": "3eb142ff3171380affebc2f713a3cd02beebde7a3652f6859e8dc8a3e488f60b",
+      "tests": 37,
+      "failures": 2,
+      "errors": 0,
+      "skipped": 0,
+      "eligible_as_producer_defect_evidence": true
+    },
+    {
+      "label": "final_corrected",
+      "file": "docs/construction/ADVERSARIAL-CORRECTED-JUNIT.xml",
+      "sha256": "7abcdae44165055222da21c6b82899910a9b4533899df5d69491d4193f1a0a0a",
+      "tests": 38,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "eligible_as_producer_defect_evidence": true
+    }
+  ],
+  "final": {
+    "tests": 38,
+    "passed": 38,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "warnings": 72
+  },
+  "findings": [
+    {
+      "id": "C01",
+      "severity": "medium",
+      "status": "resolved",
+      "original": "selected repeated render work admitted before allocation guard",
+      "correction": "a94d440b91b94b7d08fbf45b8c174f690c6893c9",
+      "source_anchor": "sprite_workbench/construction.py:374-394"
+    },
+    {
+      "id": "C02",
+      "severity": "medium",
+      "status": "resolved",
+      "original": "deep sidecar recursive canonicalization leaked RecursionError without receipt",
+      "correction": "3d322b933bbb8955f4363aae89ea730350575a2a",
+      "source_anchor": "sprite_workbench/construction_core/aseprite.py:37-57"
+    },
+    {
+      "id": "C03",
+      "severity": "medium",
+      "status": "resolved",
+      "original": "shape and original identity binding mismatches emitted success later refused by own validator",
+      "corrections": [
+        "3d322b933bbb8955f4363aae89ea730350575a2a",
+        "c61a181"
+      ],
+      "source_anchor": "sprite_workbench/construction_exchange.py:39-60"
+    }
+  ],
+  "source_group_limits": {
+    "T14": "independent duplicate-name rejection; broader locked/order variants remain owner controls rather than exhaustive reviewer coverage",
+    "T17": "independent fresh-output and input-symlink checks, not entire path/race/OS space",
+    "T18": "offline69-file producer evidence manifest and5successful batch command receipts verified; no reviewer native execution"
+  },
+  "independent_oracles": [
+    "exact index alias arrays",
+    "undo/redo canonical IDs and raw project state",
+    "authored rational clocks",
+    "analytic straight-alpha pixel106/95/136/136",
+    "reviewer-written cropped/linked ASEbinary",
+    "bounded5byte decoder spy before PIL",
+    "tiny selected workspy before renderer"
+  ],
+  "remaining_limits": [
+    "native indexed ASE unsupported",
+    "full native Aseprite/Pixelorama history/shader/raw drawing parity unclosed",
+    "ORA and advanced unknown native chunks unsupported",
+    "no GUI or aesthetic/motion acceptance",
+    "no complete hostile file/OS race coverage",
+    "optional imported-project lineage attachment binds exact importedproject rather than arbitrary editeddescendant",
+    "failure receipts may persist; no global Store rollback/authentication claimed"
+  ],
+  "executed_external_native_app_calls_by_reviewer": 0,
+  "provider_network_account_model_calls": 0,
+  "source_inventory_or_test_counts_equal_art_acceptance": false,
+  "producer_source_modified_by_reviewer": false
+}

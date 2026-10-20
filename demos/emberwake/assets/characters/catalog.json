@@ -1,0 +1,33 @@
+{
+  "schema": "emberwake-characters/v1",
+  "default": "rowan",
+  "characters": [
+    {
+      "id": "rowan",
+      "name": "Rowan",
+      "subtitle": "Wayfarer of the Hollow",
+      "description": "An intrepid traveller in blue and silver. Unarmed strikes, firebolt and frost nova.",
+      "atlas": "res://assets/hero/atlas.png",
+      "manifest": "res://assets/hero/animations.json",
+      "portrait": "res://assets/hero/portrait.png"
+    },
+    {
+      "id": "lyra",
+      "name": "Lyra",
+      "subtitle": "The Silverleaf Traveller",
+      "description": "Silver hair, teal cloth and quick resolve. Shares the same abilities and attributes.",
+      "atlas": "res://assets/characters/lyra/atlas.png",
+      "manifest": "res://assets/characters/lyra/animations.json",
+      "portrait": "res://assets/characters/lyra/portrait.png"
+    },
+    {
+      "id": "brann",
+      "name": "Brann",
+      "subtitle": "The Bronze Guardian",
+      "description": "A steadfast guardian in bronze and indigo. Shares the same abilities and attributes.",
+      "atlas": "res://assets/characters/brann/atlas.png",
+      "manifest": "res://assets/characters/brann/animations.json",
+      "portrait": "res://assets/characters/brann/portrait.png"
+    }
+  ]
+}

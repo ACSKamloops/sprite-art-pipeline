@@ -1,0 +1,2241 @@
+[
+  {
+    "tick": 72,
+    "phase": 4,
+    "time": 0.2265625,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      53,
+      113
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      413.382225341797,
+      181.30221008300802
+    ],
+    "GPU_exact_candidates": [
+      [
+        422,
+        164
+      ],
+      [
+        422,
+        166
+      ],
+      [
+        413,
+        181
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      420.312225341797,
+      180.312210083008
+    ],
+    "GPU_PNG_sha256": "484044ba2f1aff72b91193a8398ced2c3898861bb25d080cd0655c20e8c73ebc"
+  },
+  {
+    "tick": 72,
+    "phase": 4,
+    "time": 0.2265625,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      61,
+      114
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      418.662225341797,
+      181.96221008300802
+    ],
+    "GPU_exact_candidates": [
+      [
+        410,
+        167
+      ],
+      [
+        420,
+        169
+      ],
+      [
+        425,
+        174
+      ],
+      [
+        426,
+        174
+      ],
+      [
+        409,
+        175
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      420.312225341797,
+      180.312210083008
+    ],
+    "GPU_PNG_sha256": "484044ba2f1aff72b91193a8398ced2c3898861bb25d080cd0655c20e8c73ebc"
+  },
+  {
+    "tick": 72,
+    "phase": 4,
+    "time": 0.2265625,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      55,
+      105
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      414.702225341797,
+      176.02221008300802
+    ],
+    "GPU_exact_candidates": [
+      [
+        427,
+        166
+      ],
+      [
+        426,
+        167
+      ],
+      [
+        413,
+        170
+      ],
+      [
+        413,
+        171
+      ],
+      [
+        422,
+        171
+      ],
+      [
+        417,
+        172
+      ],
+      [
+        417,
+        173
+      ],
+      [
+        424,
+        173
+      ],
+      [
+        411,
+        174
+      ],
+      [
+        411,
+        175
+      ],
+      [
+        412,
+        177
+      ],
+      [
+        419,
+        179
+      ],
+      [
+        413,
+        180
+      ],
+      [
+        414,
+        180
+      ],
+      [
+        415,
+        180
+      ],
+      [
+        417,
+        180
+      ],
+      [
+        418,
+        181
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      420.312225341797,
+      180.312210083008
+    ],
+    "GPU_PNG_sha256": "484044ba2f1aff72b91193a8398ced2c3898861bb25d080cd0655c20e8c73ebc"
+  },
+  {
+    "tick": 72,
+    "phase": 4,
+    "time": 0.2265625,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      53,
+      106
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      413.382225341797,
+      176.68221008300802
+    ],
+    "GPU_exact_candidates": [
+      [
+        413,
+        176
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      413,
+      176
+    ],
+    "raster_center_error": [
+      0.11777465820301813,
+      -0.182210083008016
+    ],
+    "inverse_native_xy": [
+      53,
+      106
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      420.312225341797,
+      180.312210083008
+    ],
+    "GPU_PNG_sha256": "484044ba2f1aff72b91193a8398ced2c3898861bb25d080cd0655c20e8c73ebc"
+  },
+  {
+    "tick": 75,
+    "phase": 4,
+    "time": 0.2359375,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      53,
+      113
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      414.429619140625,
+      182.349619140625
+    ],
+    "GPU_exact_candidates": [
+      [
+        423,
+        167
+      ],
+      [
+        414,
+        182
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      421.359619140625,
+      181.359619140625
+    ],
+    "GPU_PNG_sha256": "fd67adbbe4e41052f129cc7b3b2e42df8c89bb6d3aaa8328a9965bbf449816b1"
+  },
+  {
+    "tick": 75,
+    "phase": 4,
+    "time": 0.2359375,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      61,
+      114
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      419.709619140625,
+      183.009619140625
+    ],
+    "GPU_exact_candidates": [
+      [
+        411,
+        168
+      ],
+      [
+        421,
+        170
+      ],
+      [
+        426,
+        175
+      ],
+      [
+        427,
+        175
+      ],
+      [
+        410,
+        176
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      421.359619140625,
+      181.359619140625
+    ],
+    "GPU_PNG_sha256": "fd67adbbe4e41052f129cc7b3b2e42df8c89bb6d3aaa8328a9965bbf449816b1"
+  },
+  {
+    "tick": 75,
+    "phase": 4,
+    "time": 0.2359375,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      55,
+      105
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      415.749619140625,
+      177.069619140625
+    ],
+    "GPU_exact_candidates": [
+      [
+        423,
+        165
+      ],
+      [
+        428,
+        167
+      ],
+      [
+        427,
+        168
+      ],
+      [
+        414,
+        171
+      ],
+      [
+        414,
+        172
+      ],
+      [
+        423,
+        172
+      ],
+      [
+        418,
+        173
+      ],
+      [
+        418,
+        174
+      ],
+      [
+        425,
+        174
+      ],
+      [
+        412,
+        175
+      ],
+      [
+        412,
+        176
+      ],
+      [
+        413,
+        178
+      ],
+      [
+        420,
+        180
+      ],
+      [
+        414,
+        181
+      ],
+      [
+        415,
+        181
+      ],
+      [
+        416,
+        181
+      ],
+      [
+        418,
+        181
+      ],
+      [
+        419,
+        182
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      421.359619140625,
+      181.359619140625
+    ],
+    "GPU_PNG_sha256": "fd67adbbe4e41052f129cc7b3b2e42df8c89bb6d3aaa8328a9965bbf449816b1"
+  },
+  {
+    "tick": 75,
+    "phase": 4,
+    "time": 0.2359375,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      53,
+      106
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      414.429619140625,
+      177.729619140625
+    ],
+    "GPU_exact_candidates": [
+      [
+        414,
+        177
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      414,
+      177
+    ],
+    "raster_center_error": [
+      0.07038085937500682,
+      -0.22961914062500455
+    ],
+    "inverse_native_xy": [
+      53,
+      106
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      421.359619140625,
+      181.359619140625
+    ],
+    "GPU_PNG_sha256": "fd67adbbe4e41052f129cc7b3b2e42df8c89bb6d3aaa8328a9965bbf449816b1"
+  },
+  {
+    "tick": 78,
+    "phase": 4,
+    "time": 0.2453125,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      53,
+      113
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      415.477012939453,
+      183.39701293945302
+    ],
+    "GPU_exact_candidates": [
+      [
+        415,
+        183
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": [
+      53,
+      113
+    ],
+    "reason": "Observed color/context is not an unambiguous source feature; repeated color or native coverage differs.",
+    "world_root": [
+      422.407012939453,
+      182.407012939453
+    ],
+    "GPU_PNG_sha256": "c5231426e03514b44d8a2a188eece634dd1dccdae6926b475c5f11a065df6042"
+  },
+  {
+    "tick": 78,
+    "phase": 4,
+    "time": 0.2453125,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      61,
+      114
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      420.75701293945303,
+      184.05701293945302
+    ],
+    "GPU_exact_candidates": [
+      [
+        428,
+        170
+      ],
+      [
+        422,
+        171
+      ],
+      [
+        427,
+        176
+      ],
+      [
+        428,
+        176
+      ],
+      [
+        411,
+        177
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      422.407012939453,
+      182.407012939453
+    ],
+    "GPU_PNG_sha256": "c5231426e03514b44d8a2a188eece634dd1dccdae6926b475c5f11a065df6042"
+  },
+  {
+    "tick": 78,
+    "phase": 4,
+    "time": 0.2453125,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      55,
+      105
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      416.797012939453,
+      178.11701293945302
+    ],
+    "GPU_exact_candidates": [
+      [
+        424,
+        166
+      ],
+      [
+        428,
+        169
+      ],
+      [
+        424,
+        170
+      ],
+      [
+        415,
+        172
+      ],
+      [
+        415,
+        173
+      ],
+      [
+        424,
+        173
+      ],
+      [
+        419,
+        174
+      ],
+      [
+        419,
+        175
+      ],
+      [
+        426,
+        175
+      ],
+      [
+        413,
+        176
+      ],
+      [
+        413,
+        177
+      ],
+      [
+        414,
+        179
+      ],
+      [
+        421,
+        181
+      ],
+      [
+        415,
+        182
+      ],
+      [
+        416,
+        182
+      ],
+      [
+        417,
+        182
+      ],
+      [
+        419,
+        182
+      ],
+      [
+        420,
+        183
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      422.407012939453,
+      182.407012939453
+    ],
+    "GPU_PNG_sha256": "c5231426e03514b44d8a2a188eece634dd1dccdae6926b475c5f11a065df6042"
+  },
+  {
+    "tick": 78,
+    "phase": 4,
+    "time": 0.2453125,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      53,
+      106
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      415.477012939453,
+      178.77701293945302
+    ],
+    "GPU_exact_candidates": [
+      [
+        415,
+        178
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      415,
+      178
+    ],
+    "raster_center_error": [
+      0.022987060546995508,
+      -0.27701293945301586
+    ],
+    "inverse_native_xy": [
+      53,
+      106
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      422.407012939453,
+      182.407012939453
+    ],
+    "GPU_PNG_sha256": "c5231426e03514b44d8a2a188eece634dd1dccdae6926b475c5f11a065df6042"
+  },
+  {
+    "tick": 80,
+    "phase": 4,
+    "time": 0.2515625,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      53,
+      113
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      416.175285644531,
+      184.095285644531
+    ],
+    "GPU_exact_candidates": [
+      [
+        425,
+        167
+      ],
+      [
+        425,
+        169
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      423.105285644531,
+      183.105285644531
+    ],
+    "GPU_PNG_sha256": "ac9402172b7f609e22d9bb6e7bec430d5e813d584988ffb12e837b8953565bf7"
+  },
+  {
+    "tick": 80,
+    "phase": 4,
+    "time": 0.2515625,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      61,
+      114
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      421.45528564453105,
+      184.755285644531
+    ],
+    "GPU_exact_candidates": [
+      [
+        413,
+        170
+      ],
+      [
+        423,
+        172
+      ],
+      [
+        429,
+        177
+      ],
+      [
+        421,
+        184
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      423.105285644531,
+      183.105285644531
+    ],
+    "GPU_PNG_sha256": "ac9402172b7f609e22d9bb6e7bec430d5e813d584988ffb12e837b8953565bf7"
+  },
+  {
+    "tick": 80,
+    "phase": 4,
+    "time": 0.2515625,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      55,
+      105
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      417.495285644531,
+      178.815285644531
+    ],
+    "GPU_exact_candidates": [
+      [
+        429,
+        170
+      ],
+      [
+        424,
+        171
+      ],
+      [
+        428,
+        171
+      ],
+      [
+        424,
+        172
+      ],
+      [
+        416,
+        173
+      ],
+      [
+        416,
+        174
+      ],
+      [
+        425,
+        174
+      ],
+      [
+        427,
+        176
+      ],
+      [
+        414,
+        177
+      ],
+      [
+        417,
+        178
+      ],
+      [
+        416,
+        183
+      ],
+      [
+        417,
+        183
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      423.105285644531,
+      183.105285644531
+    ],
+    "GPU_PNG_sha256": "ac9402172b7f609e22d9bb6e7bec430d5e813d584988ffb12e837b8953565bf7"
+  },
+  {
+    "tick": 80,
+    "phase": 4,
+    "time": 0.2515625,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      53,
+      106
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      416.175285644531,
+      179.475285644531
+    ],
+    "GPU_exact_candidates": [],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "No exact feature in bounded GPU foot ROI; often nearest sampling omits the texel/context.",
+    "world_root": [
+      423.105285644531,
+      183.105285644531
+    ],
+    "GPU_PNG_sha256": "ac9402172b7f609e22d9bb6e7bec430d5e813d584988ffb12e837b8953565bf7"
+  },
+  {
+    "tick": 89,
+    "phase": 4,
+    "time": 0.2796875,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      53,
+      113
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      419.31749755859397,
+      187.23749755859401
+    ],
+    "GPU_exact_candidates": [
+      [
+        428,
+        170
+      ],
+      [
+        428,
+        172
+      ],
+      [
+        419,
+        187
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      426.247497558594,
+      186.247497558594
+    ],
+    "GPU_PNG_sha256": "2e4090824cf7143c3fbd38656d180125c1b0c76f2c05e5ecde92681a2a34adce"
+  },
+  {
+    "tick": 89,
+    "phase": 4,
+    "time": 0.2796875,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      61,
+      114
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      424.597497558594,
+      187.897497558594
+    ],
+    "GPU_exact_candidates": [
+      [
+        416,
+        173
+      ],
+      [
+        426,
+        175
+      ],
+      [
+        431,
+        180
+      ],
+      [
+        432,
+        180
+      ],
+      [
+        415,
+        181
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      426.247497558594,
+      186.247497558594
+    ],
+    "GPU_PNG_sha256": "2e4090824cf7143c3fbd38656d180125c1b0c76f2c05e5ecde92681a2a34adce"
+  },
+  {
+    "tick": 89,
+    "phase": 4,
+    "time": 0.2796875,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      55,
+      105
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      420.63749755859396,
+      181.957497558594
+    ],
+    "GPU_exact_candidates": [
+      [
+        433,
+        172
+      ],
+      [
+        432,
+        173
+      ],
+      [
+        419,
+        176
+      ],
+      [
+        419,
+        177
+      ],
+      [
+        428,
+        177
+      ],
+      [
+        423,
+        178
+      ],
+      [
+        423,
+        179
+      ],
+      [
+        430,
+        179
+      ],
+      [
+        417,
+        180
+      ],
+      [
+        417,
+        181
+      ],
+      [
+        418,
+        183
+      ],
+      [
+        425,
+        185
+      ],
+      [
+        419,
+        186
+      ],
+      [
+        420,
+        186
+      ],
+      [
+        421,
+        186
+      ],
+      [
+        423,
+        186
+      ],
+      [
+        424,
+        187
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      426.247497558594,
+      186.247497558594
+    ],
+    "GPU_PNG_sha256": "2e4090824cf7143c3fbd38656d180125c1b0c76f2c05e5ecde92681a2a34adce"
+  },
+  {
+    "tick": 89,
+    "phase": 4,
+    "time": 0.2796875,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      53,
+      106
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      419.31749755859397,
+      182.617497558594
+    ],
+    "GPU_exact_candidates": [
+      [
+        419,
+        182
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      419,
+      182
+    ],
+    "raster_center_error": [
+      0.18250244140602945,
+      -0.11749755859401034
+    ],
+    "inverse_native_xy": [
+      53,
+      106
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      426.247497558594,
+      186.247497558594
+    ],
+    "GPU_PNG_sha256": "2e4090824cf7143c3fbd38656d180125c1b0c76f2c05e5ecde92681a2a34adce"
+  },
+  {
+    "tick": 90,
+    "phase": 5,
+    "time": 0.2828125,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      51,
+      111
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      418.346618652344,
+      186.266618652344
+    ],
+    "GPU_exact_candidates": [
+      [
+        430,
+        169
+      ],
+      [
+        430,
+        172
+      ],
+      [
+        418,
+        186
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      426.596618652344,
+      186.596618652344
+    ],
+    "GPU_PNG_sha256": "6335c1c0b23da19060b0a421f80c3a1427480421a9d29a1c0854534f83533c43"
+  },
+  {
+    "tick": 90,
+    "phase": 5,
+    "time": 0.2828125,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      59,
+      112
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      423.62661865234395,
+      186.92661865234402
+    ],
+    "GPU_exact_candidates": [
+      [
+        434,
+        173
+      ],
+      [
+        414,
+        180
+      ],
+      [
+        434,
+        180
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      426.596618652344,
+      186.596618652344
+    ],
+    "GPU_PNG_sha256": "6335c1c0b23da19060b0a421f80c3a1427480421a9d29a1c0854534f83533c43"
+  },
+  {
+    "tick": 90,
+    "phase": 5,
+    "time": 0.2828125,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      53,
+      103
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      419.66661865234397,
+      180.986618652344
+    ],
+    "GPU_exact_candidates": [
+      [
+        430,
+        173
+      ],
+      [
+        429,
+        174
+      ],
+      [
+        433,
+        174
+      ],
+      [
+        418,
+        175
+      ],
+      [
+        418,
+        176
+      ],
+      [
+        422,
+        177
+      ],
+      [
+        435,
+        177
+      ],
+      [
+        422,
+        178
+      ],
+      [
+        416,
+        179
+      ],
+      [
+        434,
+        179
+      ],
+      [
+        416,
+        180
+      ],
+      [
+        417,
+        182
+      ],
+      [
+        424,
+        184
+      ],
+      [
+        418,
+        185
+      ],
+      [
+        419,
+        185
+      ],
+      [
+        420,
+        185
+      ],
+      [
+        422,
+        185
+      ],
+      [
+        423,
+        186
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      426.596618652344,
+      186.596618652344
+    ],
+    "GPU_PNG_sha256": "6335c1c0b23da19060b0a421f80c3a1427480421a9d29a1c0854534f83533c43"
+  },
+  {
+    "tick": 90,
+    "phase": 5,
+    "time": 0.2828125,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      51,
+      104
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      418.346618652344,
+      181.64661865234402
+    ],
+    "GPU_exact_candidates": [
+      [
+        418,
+        181
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      418,
+      181
+    ],
+    "raster_center_error": [
+      0.15338134765602263,
+      -0.14661865234401716
+    ],
+    "inverse_native_xy": [
+      51,
+      104
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      426.596618652344,
+      186.596618652344
+    ],
+    "GPU_PNG_sha256": "6335c1c0b23da19060b0a421f80c3a1427480421a9d29a1c0854534f83533c43"
+  },
+  {
+    "tick": 107,
+    "phase": 5,
+    "time": 0.3359375,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      51,
+      111
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      424.281890869141,
+      192.20190612793
+    ],
+    "GPU_exact_candidates": [
+      [
+        424,
+        192
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": [
+      51,
+      111
+    ],
+    "reason": "Observed color/context is not an unambiguous source feature; repeated color or native coverage differs.",
+    "world_root": [
+      432.531890869141,
+      192.53190612793
+    ],
+    "GPU_PNG_sha256": "00810d70dd6e32c72e82ca97c8b0c70f751456a9d0b47476c06bb7f1b70c1843"
+  },
+  {
+    "tick": 107,
+    "phase": 5,
+    "time": 0.3359375,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      59,
+      112
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      429.561890869141,
+      192.86190612793
+    ],
+    "GPU_exact_candidates": [
+      [
+        420,
+        186
+      ],
+      [
+        438,
+        186
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      432.531890869141,
+      192.53190612793
+    ],
+    "GPU_PNG_sha256": "00810d70dd6e32c72e82ca97c8b0c70f751456a9d0b47476c06bb7f1b70c1843"
+  },
+  {
+    "tick": 107,
+    "phase": 5,
+    "time": 0.3359375,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      53,
+      103
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      425.601890869141,
+      186.92190612793
+    ],
+    "GPU_exact_candidates": [
+      [
+        440,
+        178
+      ],
+      [
+        435,
+        180
+      ],
+      [
+        439,
+        180
+      ],
+      [
+        424,
+        181
+      ],
+      [
+        424,
+        182
+      ],
+      [
+        428,
+        183
+      ],
+      [
+        441,
+        183
+      ],
+      [
+        428,
+        184
+      ],
+      [
+        422,
+        185
+      ],
+      [
+        422,
+        186
+      ],
+      [
+        423,
+        188
+      ],
+      [
+        430,
+        190
+      ],
+      [
+        424,
+        191
+      ],
+      [
+        425,
+        191
+      ],
+      [
+        426,
+        191
+      ],
+      [
+        428,
+        191
+      ],
+      [
+        429,
+        192
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      432.531890869141,
+      192.53190612793
+    ],
+    "GPU_PNG_sha256": "00810d70dd6e32c72e82ca97c8b0c70f751456a9d0b47476c06bb7f1b70c1843"
+  },
+  {
+    "tick": 107,
+    "phase": 5,
+    "time": 0.3359375,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      51,
+      104
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      424.281890869141,
+      187.58190612793
+    ],
+    "GPU_exact_candidates": [
+      [
+        424,
+        187
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      424,
+      187
+    ],
+    "raster_center_error": [
+      0.2181091308589771,
+      -0.08190612793001151
+    ],
+    "inverse_native_xy": [
+      51,
+      104
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      432.531890869141,
+      192.53190612793
+    ],
+    "GPU_PNG_sha256": "00810d70dd6e32c72e82ca97c8b0c70f751456a9d0b47476c06bb7f1b70c1843"
+  },
+  {
+    "tick": 108,
+    "phase": 6,
+    "time": 0.3390625,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      49,
+      109
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      423.311042480469,
+      191.231042480469
+    ],
+    "GPU_exact_candidates": [
+      [
+        423,
+        191
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": [
+      49,
+      109
+    ],
+    "reason": "Observed color/context is not an unambiguous source feature; repeated color or native coverage differs.",
+    "world_root": [
+      432.881042480469,
+      192.881042480469
+    ],
+    "GPU_PNG_sha256": "92a0d2aade6f574f48ef741f859c07d9494c77295d81449a2cd19afcd0d0c352"
+  },
+  {
+    "tick": 108,
+    "phase": 6,
+    "time": 0.3390625,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      57,
+      110
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      428.59104248046896,
+      191.891042480469
+    ],
+    "GPU_exact_candidates": [
+      [
+        421,
+        178
+      ],
+      [
+        435,
+        180
+      ],
+      [
+        419,
+        185
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      432.881042480469,
+      192.881042480469
+    ],
+    "GPU_PNG_sha256": "92a0d2aade6f574f48ef741f859c07d9494c77295d81449a2cd19afcd0d0c352"
+  },
+  {
+    "tick": 108,
+    "phase": 6,
+    "time": 0.3390625,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      51,
+      101
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      424.631042480469,
+      185.951042480469
+    ],
+    "GPU_exact_candidates": [
+      [
+        437,
+        175
+      ],
+      [
+        437,
+        179
+      ],
+      [
+        423,
+        180
+      ],
+      [
+        436,
+        180
+      ],
+      [
+        423,
+        181
+      ],
+      [
+        427,
+        182
+      ],
+      [
+        437,
+        182
+      ],
+      [
+        427,
+        183
+      ],
+      [
+        442,
+        183
+      ],
+      [
+        421,
+        184
+      ],
+      [
+        421,
+        185
+      ],
+      [
+        422,
+        187
+      ],
+      [
+        429,
+        189
+      ],
+      [
+        423,
+        190
+      ],
+      [
+        424,
+        190
+      ],
+      [
+        425,
+        190
+      ],
+      [
+        427,
+        190
+      ],
+      [
+        428,
+        191
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      432.881042480469,
+      192.881042480469
+    ],
+    "GPU_PNG_sha256": "92a0d2aade6f574f48ef741f859c07d9494c77295d81449a2cd19afcd0d0c352"
+  },
+  {
+    "tick": 108,
+    "phase": 6,
+    "time": 0.3390625,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      49,
+      102
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      423.311042480469,
+      186.611042480469
+    ],
+    "GPU_exact_candidates": [
+      [
+        423,
+        186
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      423,
+      186
+    ],
+    "raster_center_error": [
+      0.1889575195310158,
+      -0.11104248046899556
+    ],
+    "inverse_native_xy": [
+      49,
+      102
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      432.881042480469,
+      192.881042480469
+    ],
+    "GPU_PNG_sha256": "92a0d2aade6f574f48ef741f859c07d9494c77295d81449a2cd19afcd0d0c352"
+  },
+  {
+    "tick": 125,
+    "phase": 6,
+    "time": 0.3921875,
+    "feature": "heel",
+    "source06_xy": [
+      49,
+      109
+    ],
+    "selected_native_xy": [
+      49,
+      109
+    ],
+    "source_RGBA": [
+      66,
+      31,
+      16,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      429.24631469726603,
+      197.166314697266
+    ],
+    "GPU_exact_candidates": [],
+    "source_color_count_in_literal_boot_window": 2,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "No exact feature in bounded GPU foot ROI; often nearest sampling omits the texel/context.",
+    "world_root": [
+      438.816314697266,
+      198.816314697266
+    ],
+    "GPU_PNG_sha256": "89d07a4be34470e36530b600863359684a53588f34926a540edb38df56dc5e6b"
+  },
+  {
+    "tick": 125,
+    "phase": 6,
+    "time": 0.3921875,
+    "feature": "forefoot",
+    "source06_xy": [
+      57,
+      110
+    ],
+    "selected_native_xy": [
+      57,
+      110
+    ],
+    "source_RGBA": [
+      20,
+      8,
+      3,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      434.526314697266,
+      197.82631469726599
+    ],
+    "GPU_exact_candidates": [
+      [
+        427,
+        184
+      ],
+      [
+        425,
+        191
+      ],
+      [
+        434,
+        197
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 3,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      438.816314697266,
+      198.816314697266
+    ],
+    "GPU_PNG_sha256": "89d07a4be34470e36530b600863359684a53588f34926a540edb38df56dc5e6b"
+  },
+  {
+    "tick": 125,
+    "phase": 6,
+    "time": 0.3921875,
+    "feature": "original_ankle",
+    "source06_xy": [
+      51,
+      101
+    ],
+    "selected_native_xy": [
+      51,
+      101
+    ],
+    "source_RGBA": [
+      80,
+      37,
+      18,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      430.566314697266,
+      191.886314697266
+    ],
+    "GPU_exact_candidates": [
+      [
+        429,
+        186
+      ],
+      [
+        442,
+        186
+      ],
+      [
+        429,
+        187
+      ],
+      [
+        433,
+        188
+      ],
+      [
+        433,
+        189
+      ],
+      [
+        427,
+        190
+      ],
+      [
+        427,
+        191
+      ],
+      [
+        428,
+        193
+      ],
+      [
+        435,
+        195
+      ],
+      [
+        429,
+        196
+      ],
+      [
+        430,
+        196
+      ],
+      [
+        431,
+        196
+      ],
+      [
+        433,
+        196
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": 19,
+    "identified": false,
+    "pixel_xy": null,
+    "raster_center_error": null,
+    "inverse_native_xy": null,
+    "reason": "Multiple exact GPU colors/contexts in the bounded foot ROI; no unique feature asserted.",
+    "world_root": [
+      438.816314697266,
+      198.816314697266
+    ],
+    "GPU_PNG_sha256": "89d07a4be34470e36530b600863359684a53588f34926a540edb38df56dc5e6b"
+  },
+  {
+    "tick": 125,
+    "phase": 6,
+    "time": 0.3921875,
+    "feature": "ankle_context",
+    "source06_xy": [
+      49,
+      102
+    ],
+    "selected_native_xy": [
+      49,
+      102
+    ],
+    "source_RGBA": [
+      87,
+      39,
+      20,
+      255
+    ],
+    "ideal_native_center_to_screen": [
+      429.24631469726603,
+      192.54631469726598
+    ],
+    "GPU_exact_candidates": [
+      [
+        429,
+        192
+      ]
+    ],
+    "source_color_count_in_literal_boot_window": null,
+    "identified": true,
+    "pixel_xy": [
+      429,
+      192
+    ],
+    "raster_center_error": [
+      0.2536853027339703,
+      -0.04631469726598425
+    ],
+    "inverse_native_xy": [
+      49,
+      102
+    ],
+    "reason": "Unique observed exact RGBA context and source-coverage check pass.",
+    "world_root": [
+      438.816314697266,
+      198.816314697266
+    ],
+    "GPU_PNG_sha256": "89d07a4be34470e36530b600863359684a53588f34926a540edb38df56dc5e6b"
+  }
+]

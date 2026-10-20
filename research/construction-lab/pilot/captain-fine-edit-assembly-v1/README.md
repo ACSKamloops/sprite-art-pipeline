@@ -1,0 +1,11 @@
+# Combined source-attached fine edits: bounded preview
+
+This is a three-pose native384 component assembly, not a new complete walk or approved game asset. The independently preferred compact eye and sole fill.4 are both present in one packed editable Blender scene. The sole remains mostly black at256 in its separate review; overall V8 remains6.5/10.
+
+`assemble_and_preview.py` starts from the frozen sole-fill.4 source SHA256 `fba9042c9e293fd083806e78625ea99d41e6969a76f23047d2fec15859cfc803`. It loads the exactly replayed disjoint UV merge from `../captain-head-fine-paint-v1`, SHA256 `ceb0108276bb3be3f2d6c31367acb01c57818af2184e1f67e878d9fc97d9c4e8`. Only the three body/boot atlas image bindings change. The refined sole mask, local emission.4, original image filters, all shader links/defaults and other materials remain exact.
+
+The helper checks rest topology/positions, UV, weights, shapes, stored/corner normals, and all521 evaluated bone/object/shape values before/after. This adds normals protection missing from the earlier lightweight mesh fingerprint. Motion actions are not edited. It renders fresh matched sole04 controls and combined source1/33/103 using the exact same camera components, source lighting,128 CPU samples/no denoise and6 CPU threads. It then packs/reopens actual source33; `preview/reopen-proof.json` confirms exact RGBA pixels. The original frozen input files remain unchanged.
+
+Actual whole comparisons are `preview/matched-combined-whole-native384.png`. No global framebuffer-preservation claim follows from UV ownership: indirect light/path sampling can change unrelated pixels. No fresh floor/contact simulation was run here because geometry and motion are unchanged; existing geometry evidence is not presented as a newly executed solve.
+
+Run with the pinned Blender4.5.9 executable: `blender --background --python assemble_and_preview.py`. The helper refuses an existing preview directory. Its companion source-edit recipes and finite mask-ownership diagnostics must remain available at the recorded local paths. This case-specific preview still needs combination with any selected motion/shape changes, then a fresh full bake, consumer tests and independent temporal review.

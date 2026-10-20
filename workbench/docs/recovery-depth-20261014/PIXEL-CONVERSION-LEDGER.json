@@ -1,0 +1,290 @@
+{
+  "research_root": "/home/astra/projects/pixellab-local-test-20261011",
+  "classification": "bounded-source-ledger-not-private-backend-recovery",
+  "anchors": [
+    {
+      "claim": "hidden-rgb",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "first_line": 101,
+      "last_line": 110,
+      "slice_sha256": "97c29915c7822d3a05f2496bf0bffb5347c4023a12a02f68bfda5512283bcb13"
+    },
+    {
+      "claim": "alpha-predicate",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "first_line": 5,
+      "last_line": 13,
+      "slice_sha256": "26a43822e2d37c192aca8946f6dca8e1d0bb6ce4f8e7e9383f7981369669c89a"
+    },
+    {
+      "claim": "mask",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "first_line": 43,
+      "last_line": 73,
+      "slice_sha256": "c6cd4915479522cc9e9b76e25744acbb6a408d57afda3b62d355760565445a26"
+    },
+    {
+      "claim": "palette-reference",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "first_line": 111,
+      "last_line": 183,
+      "slice_sha256": "07638d24c049423ad36a8e23886f71dbe6c16817e3dc17f1ebadccd8bb2e82ec"
+    },
+    {
+      "claim": "decode-and-placement",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/draw_image.gd",
+      "source_sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+      "first_line": 199,
+      "last_line": 242,
+      "slice_sha256": "dc0a811d6c1919d2efda746f4b33cb3a686d400af99f3db57ae30e98f7c9a725"
+    },
+    {
+      "claim": "rgb-count",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/lib/PixelLabUtils.gd",
+      "source_sha256": "7173352abf3f123309bc32680e4210510f9647079dce016eb56e5f1b32d64e71",
+      "first_line": 96,
+      "last_line": 111,
+      "slice_sha256": "298a0414c40019e69570cce393793081f5242196c95a98c7f8e64087c8aa02b2"
+    },
+    {
+      "claim": "websocket-array-preference-and-slicing",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/websocket.gd",
+      "source_sha256": "772bb5d83c06390f460eb76e7f3e45826624d32f8485798ee32679807b96d1df",
+      "first_line": 169,
+      "last_line": 210,
+      "slice_sha256": "6cf873a0fd891b2b87b6d922daef4cff99d5272d491ffd74f730909a942612f9"
+    },
+    {
+      "claim": "background-array-normalization",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/background_generation.gd",
+      "source_sha256": "99ff82d3de3e55cb45a58a981a77a6f3a10ae03f9dba735c382a5c6d780c7fc6",
+      "first_line": 222,
+      "last_line": 263,
+      "slice_sha256": "1b2fa9580d3e0f48c5ae724fd9d0ae30076c4daa63e5084b3357eb9491729916"
+    },
+    {
+      "claim": "background-array-delivery",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/background_generation.gd",
+      "source_sha256": "99ff82d3de3e55cb45a58a981a77a6f3a10ae03f9dba735c382a5c6d780c7fc6",
+      "first_line": 266,
+      "last_line": 325,
+      "slice_sha256": "7f19c4f5fa476eff718d23d933787de58190e1fa39d1d15790e8841ad016d034"
+    },
+    {
+      "claim": "remote-palette-dither-request",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/QuantizeColors.gd",
+      "source_sha256": "5a404f5e1992e538e268c74d1081a524245e290b19ebcb5b19f3f8ce1ee4c6e8",
+      "first_line": 289,
+      "last_line": 340,
+      "slice_sha256": "e2fadcf65e44b08e60ca6d5316c4554e426380e3b6853b7fbec92052c5ae7297"
+    },
+    {
+      "claim": "palette-from-result",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/QuantizeColors.gd",
+      "source_sha256": "5a404f5e1992e538e268c74d1081a524245e290b19ebcb5b19f3f8ce1ee4c6e8",
+      "first_line": 384,
+      "last_line": 404,
+      "slice_sha256": "a44c2309d03abd4270e9229865b2ccf3d6e4addb8e1e13fa71d2b0d05de1f2e2"
+    },
+    {
+      "claim": "reduce-target-recomputed",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/QuantizeColors.gd",
+      "source_sha256": "5a404f5e1992e538e268c74d1081a524245e290b19ebcb5b19f3f8ce1ee4c6e8",
+      "first_line": 438,
+      "last_line": 471,
+      "slice_sha256": "2c74eba3a0ce66a04852870e9bdc38c8177029ffd8837396be6872c61940e1f5"
+    },
+    {
+      "claim": "background-removal-request",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/RemoveBackground.gd",
+      "source_sha256": "dc6381166e6f8592be81f8588ed7d6148d0cb6906145041e950049b4cab1dedb",
+      "first_line": 69,
+      "last_line": 120,
+      "slice_sha256": "72b51ba13ee1f2258ca7b1074092ab1741644dc9c07b636ed512ef31bf1734e2"
+    },
+    {
+      "claim": "animation-client-flags",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+      "source_sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+      "first_line": 316,
+      "last_line": 323,
+      "slice_sha256": "c7594a531c7cfe963a983a504830be90b30df288add0018780380a55f3cc0d33"
+    },
+    {
+      "claim": "lua-background-removal",
+      "path": "extension-extracted/PixelLab/generate-remove-background.lua",
+      "source_sha256": "3540cdc12ba4cea4920f5814683d0375b07ce22fcdec672e68d2d5f0ff351a4d",
+      "first_line": 69,
+      "last_line": 95,
+      "slice_sha256": "397c4ebdf9114622608c6260739c266701ce3937a7b40177846fa6b454cbfa86"
+    },
+    {
+      "claim": "lua-color-reference-and-count",
+      "path": "extension-extracted/PixelLab/get-image.lua",
+      "source_sha256": "8853b46e001267eb1120ff96b691c4f684f5720d1ba4232b9b88e8ea679d57e2",
+      "first_line": 71,
+      "last_line": 128,
+      "slice_sha256": "a910ce4eb861582ae40ad9fd0f2d9be4547411a62aa85d7dfd3f2a13d20f9cf0"
+    },
+    {
+      "claim": "lua-individual-quantize-requests",
+      "path": "extension-extracted/PixelLab/quantize-image.lua",
+      "source_sha256": "f0a2a9bc0eb555bba527a5bd27f78d3efc59009b807a52072b1ecb8b3f05c740",
+      "first_line": 329,
+      "last_line": 383,
+      "slice_sha256": "121d71deac231d77ac6c13a2a2652f8b7ec650dc0450714ad7d78ca0595dcca7"
+    },
+    {
+      "claim": "lua-pixminimax-flags",
+      "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+      "source_sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+      "first_line": 17,
+      "last_line": 34,
+      "slice_sha256": "56ff34b8cf1a41639dd2542abacee1beb3baf7e7dd75a23a94df292c4f56c261"
+    },
+    {
+      "claim": "pro-flash-preserve-mask",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InpaintingV3.gd",
+      "source_sha256": "186665823f528e70db4d023ed5d8a2a27ccafd58da33bac321a5a9635f655cb7",
+      "first_line": 349,
+      "last_line": 405,
+      "slice_sha256": "b2d8d200787848505c839ec2ee8ed5d6382b94ed9b5df9f2fa76393063f18742"
+    },
+    {
+      "claim": "gif-factory",
+      "path": "website-art-bundles/4354-3a62375cb4c03823.js",
+      "source_sha256": "cc7e87ddeb584f550ab863bc10792addab01469be1143ede0cded67a096284de",
+      "line": 1,
+      "char_offset": 5539,
+      "utf8_byte_offset": 5539,
+      "anchor": "5958:function"
+    },
+    {
+      "claim": "gif-quantizer",
+      "path": "website-art-bundles/4354-3a62375cb4c03823.js",
+      "source_sha256": "cc7e87ddeb584f550ab863bc10792addab01469be1143ede0cded67a096284de",
+      "line": 1,
+      "char_offset": 8435,
+      "utf8_byte_offset": 8435,
+      "anchor": "function m("
+    },
+    {
+      "claim": "gif-palette-distance",
+      "path": "website-art-bundles/4354-3a62375cb4c03823.js",
+      "source_sha256": "cc7e87ddeb584f550ab863bc10792addab01469be1143ede0cded67a096284de",
+      "line": 1,
+      "char_offset": 11050,
+      "utf8_byte_offset": 11050,
+      "anchor": "function p("
+    },
+    {
+      "claim": "gif-export-caller",
+      "path": "website-art-bundles/2938-0f2e835ff2fa9208.js",
+      "source_sha256": "97bcf1df1993ec7529d56591e9de8df1220198459a2bcee6a8d3a9d8b5b21ef4",
+      "line": 1,
+      "char_offset": 23488,
+      "utf8_byte_offset": 23500,
+      "anchor": "61355:function"
+    },
+    {
+      "claim": "gif-download-caller",
+      "path": "website-art-bundles/create-677791a6e206dafa.js",
+      "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+      "line": 1,
+      "char_offset": 33955,
+      "utf8_byte_offset": 33955,
+      "anchor": "let l=n.getImageData(0,0,i,a)"
+    },
+    {
+      "claim": "animation-processed-preference",
+      "path": "website-art-bundles/generate-animation-17f06517f5e1362c.js",
+      "source_sha256": "15889bde52c72d5cd428f73d584b993c74d137c39581794be4d94f32c7f15112",
+      "line": 1,
+      "char_offset": 29212,
+      "utf8_byte_offset": 29214,
+      "anchor": "let a=e.quantized_images||e.images"
+    },
+    {
+      "claim": "declared-public-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/components/schemas/AnimatePixminimaxRequest/properties/drift_threshold",
+      "value_sha256": "4f85e227376dbe7f2f11749f36a48c476f50a6ff950db2c1b3bb066f9fe2d6a6"
+    },
+    {
+      "claim": "declared-public-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/components/schemas/AnimatePixminimaxRequest/properties/no_background",
+      "value_sha256": "0f9f9187c9ee72f61884a34ef928048cd73ca96ce35f0c666c6874359dd32865"
+    },
+    {
+      "claim": "declared-public-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/components/schemas/ReduceColorsRequest",
+      "value_sha256": "273131df87a1efb40e7308992f68d73b1c029b5c982a7676bc8e3e8a9f123080"
+    },
+    {
+      "claim": "declared-public-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/paths/~1reduce-colors/post/description",
+      "value_sha256": "1c533a2c3a1b590dda3fa1862fcb5928b10bba7e9e9ed47b420a432ac346445a"
+    },
+    {
+      "claim": "declared-public-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/paths/~1unzoom/post/description",
+      "value_sha256": "4490688dbd0ebc79d0f2bb00ec01368072054edf12aa5c83b1f42a8c5db95dfb"
+    },
+    {
+      "claim": "declared-public-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/paths/~1remove-background/post/description",
+      "value_sha256": "8955dddc1f10303b8847fd95a643e3efb93226dc34e6b5596da2b0a7e2b587e0"
+    }
+  ],
+  "negative_term_scans": [
+    {
+      "scope": "extension-extracted/PixelLab",
+      "suffix": ".lua",
+      "files": 112,
+      "pattern": "(?i)deflick|de_flick|drift_threshold",
+      "hits": []
+    },
+    {
+      "scope": "pixelorama-recovered/src/Extensions/PixelLab",
+      "suffix": ".gd",
+      "files": 126,
+      "pattern": "(?i)deflick|de_flick|drift_threshold",
+      "hits": []
+    },
+    {
+      "scope": "website-art-bundles",
+      "suffix": ".js",
+      "files": 105,
+      "pattern": "(?i)deflick|de_flick|drift_threshold",
+      "hits": []
+    },
+    {
+      "scope": "analysis-client/editor-shipped",
+      "suffix": ".js",
+      "files": 1,
+      "pattern": "(?i)deflick|de_flick|drift_threshold",
+      "hits": []
+    }
+  ]
+}

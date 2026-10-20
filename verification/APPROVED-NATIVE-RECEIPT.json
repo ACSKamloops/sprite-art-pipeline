@@ -1,0 +1,22 @@
+{
+  "status": "OFFLINE_BAKE_COMPLETE",
+  "source": {
+    "video_name": "returned-h3-native.mp4",
+    "sha256": "5cf8d962cbb9ea32363b9db8031dee4b46af721e8ad851d575d9fc20f9518430",
+    "recipe_file": "recipe.json",
+    "recipe_sha256": "e314db8e0d35a419f44ad0d1c0debf9e37a729e6be1b6954cbff8e0b57e6e623",
+    "tested_code_sha256": "96f894186e02555049850c1ee7ceba953d8f48be41b1d382fd6c8c735f105b50",
+    "source_xy": "source-xy.npy",
+    "source_xy_sha256": "17bb6238d7e4bc1390c65d805b896a7e039df9a2bb451ba9bc758e94f397b2bc"
+  },
+  "native_frames": 124,
+  "selected_frames": 30,
+  "despill_changed_pixels": 3525,
+  "actual_native_pts_and_positive_rational_holds_verified": true,
+  "all_sampled_rgb_preserved_under_hard_matte": true,
+  "despill_alpha_red_blue_unaffected_and_hidden_rgba_exact": true,
+  "journal_actual_replay_exact": true,
+  "journal_actual_undo_exact": true,
+  "decoder_threads": 4,
+  "no_fitting_reorder_or_automatic_loop_detection": true
+}

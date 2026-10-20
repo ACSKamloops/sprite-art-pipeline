@@ -1,0 +1,149 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 83,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        47,
+        91,
+        83,
+        106
+      ]
+    },
+    {
+      "frame": 1,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 397,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        49,
+        88,
+        88,
+        116
+      ]
+    },
+    {
+      "frame": 2,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 362,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        52,
+        87,
+        86,
+        114
+      ]
+    },
+    {
+      "frame": 3,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 497,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        55,
+        82,
+        83,
+        113
+      ]
+    },
+    {
+      "frame": 4,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 454,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        55,
+        83,
+        81,
+        113
+      ]
+    },
+    {
+      "frame": 5,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 465,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        53,
+        82,
+        83,
+        109
+      ]
+    },
+    {
+      "frame": 6,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 456,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        51,
+        82,
+        86,
+        110
+      ]
+    },
+    {
+      "frame": 7,
+      "upper_y_lt78_rgba_exact_vs_inputs": true,
+      "upper_y_lt78_rgba_exact_vs_v3": true,
+      "outside_edit_mask_rgba_exact_vs_inputs": true,
+      "changed_pixels_from_v3": 448,
+      "changed_bbox_from_v3_xyxy_exclusive": [
+        49,
+        82,
+        89,
+        114
+      ]
+    }
+  ],
+  "distinct_candidate_frames": 8,
+  "clock_holds_seconds": [
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ]
+  ],
+  "total_seconds": [
+    9,
+    20
+  ],
+  "scope": "Mechanical comparisons only; no motion/art acceptance derived from pixel counts",
+  "producer_files_modified_or_frozen": false
+}

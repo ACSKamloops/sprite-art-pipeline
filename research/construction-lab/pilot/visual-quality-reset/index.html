@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Sprite quality correction</title>
+<style>body{margin:24px;background:#1f2b33;color:#eff5f3;font:16px system-ui}h1{font-size:24px}button{padding:8px;margin:4px}canvas{width:384px;height:384px;background:#273541;image-rendering:pixelated}section{display:flex;gap:28px;flex-wrap:wrap}figure{margin:0}p{max-width:900px;line-height:1.5}a{color:#83ddd4}</style>
+<h1>Sprite quality correction — unapproved animation study</h1>
+<p>The earlier four-direction artwork is rejected. This test compares it with eight newly drawn, pose-guided frames for one right-facing walk. The new drawing is stronger; both reviewers reject it for baseline jumps, repeated opposite-phase arm configurations and changing clothing/limb shapes. It is an animation study, not a usable game asset.</p>
+<button id="play">Play</button><button id="pause">Pause</button><button id="step">Step new pose</button><button id="restart">Restart</button><span id="state"></span>
+<section><figure><figcaption>Rejected contour rig</figcaption><canvas id="old" width="192" height="192"></canvas></figure><figure><figcaption>Pose-guided art candidate</figcaption><canvas id="new" width="192" height="192"></canvas></figure><figure><figcaption>Previous candidate pose</figcaption><canvas id="previous" width="192" height="192"></canvas></figure></section>
+<p><a href="guided-walk-v2/native-2x-sheet.png">View all eight poses</a> · <a href="guided-walk-v2/master.png">Generated master</a> · <a href="authored-walk-v1/right-walk-pose-guide.png">Pose guide</a></p>
+<script type="module">
+const load=async p=>{const r=await fetch(p,{cache:'no-store'});if(!r.ok)throw Error('Missing audition input');return r.json();};
+const bitmap=async p=>{const r=await fetch(p);if(!r.ok)throw Error('Missing frame');return createImageBitmap(await r.blob());};
+const a=await load('guided-walk-v2/manifest.json'),b=await load('../rigged-character-v2/generated/manifest.json');
+const before=await Promise.all(b.clips['walk/right'].frames.map(x=>bitmap('../rigged-character-v2/generated/'+x.png)));
+const after=await Promise.all(a.frames.map(x=>bitmap('guided-walk-v2/'+x.png)));
+let clock=0,playing=false,last=performance.now();
+function draw(){const i=Math.floor(clock/6)%8,j=Math.floor(clock)%before.length;for(const [id,image,x,y]of [['old',before[j],0,0],['new',after[i],32,16],['previous',after[(i+7)%8],32,16]]){const c=document.getElementById(id).getContext('2d');c.clearRect(0,0,192,192);c.imageSmoothingEnabled=false;c.drawImage(image,x,y);}document.getElementById('state').textContent=`Pose ${i+1}/8`;return i;}
+document.getElementById('play').onclick=()=>playing=true;document.getElementById('pause').onclick=()=>playing=false;
+document.getElementById('restart').onclick=()=>{clock=0;draw();};document.getElementById('step').onclick=()=>{playing=false;clock=(Math.floor(clock/6)+1)*6;draw();};
+window.ArtAudition={ready:true,manifest:a,get clock(){return clock},get playing(){return playing},get pose(){return draw()},seek(t){if(!Number.isFinite(t)||t<0)throw Error('Invalid clock');clock=t;draw();}};
+function update(now){if(playing)clock+=(now-last)*.06;last=now;draw();requestAnimationFrame(update);}draw();requestAnimationFrame(update);
+</script></html>

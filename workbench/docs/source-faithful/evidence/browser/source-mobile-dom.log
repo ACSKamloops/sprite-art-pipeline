@@ -1,0 +1,10 @@
+### Result
+{
+  "viewport": 390,
+  "documentWidth": 390,
+  "errorVisible": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({viewport:innerWidth,documentWidth:document.documentElement.scrollWidth,errorVisible:!document.querySelector("#global-error").hidden})');
+```

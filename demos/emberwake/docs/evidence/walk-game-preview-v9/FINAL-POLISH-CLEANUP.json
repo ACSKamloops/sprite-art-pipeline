@@ -1,0 +1,60 @@
+{
+  "scope": "Targeted actual v9 HUD/savefixture cleanup after preserved originalshutdownfail; game assets/clocks/source unchanged",
+  "source_test_sha256": "0f045222b941922355132527a36599bdbf92352b9b1a88ac1c82ebe8994d2381",
+  "isolated_original_test_unchanged": "2ded8f2f6963bbf2f8e0e98664914fb7db4dcbb73b433e56a37c2f896716f595",
+  "execution_test": "/home/astra/artifacts/emberwake-walk-game-preview-v9/project/tests/final_polish_cleanup.gd",
+  "runs": [
+    {
+      "run": 1,
+      "passed": true,
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+        "--script",
+        "tests/final_polish_cleanup.gd",
+        "--",
+        "--test-mode"
+      ],
+      "log": "FINAL-POLISH-CLEANUP-1.log",
+      "sha256": "befd913971c1d62b0afd3b70879c696c1b980b818385d21ec07aa2558d90fb45"
+    },
+    {
+      "run": 2,
+      "passed": true,
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+        "--script",
+        "tests/final_polish_cleanup.gd",
+        "--",
+        "--test-mode"
+      ],
+      "log": "FINAL-POLISH-CLEANUP-2.log",
+      "sha256": "befd913971c1d62b0afd3b70879c696c1b980b818385d21ec07aa2558d90fb45"
+    },
+    {
+      "run": 3,
+      "passed": true,
+      "command": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+        "--script",
+        "tests/final_polish_cleanup.gd",
+        "--",
+        "--test-mode"
+      ],
+      "log": "FINAL-POLISH-CLEANUP-3.log",
+      "sha256": "befd913971c1d62b0afd3b70879c696c1b980b818385d21ec07aa2558d90fb45"
+    }
+  ],
+  "all_passed": true,
+  "behavior_assertions_each": 34,
+  "original_broad_suite_still_failed": true,
+  "audio_audibility_validated": false
+}

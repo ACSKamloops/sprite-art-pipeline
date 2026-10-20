@@ -1,0 +1,29 @@
+### Result
+{
+  "receipt": {
+    "boundary": "Local handoff/import protocol; original PixelLab procedural code remains separate. Private inference is unavailable. No model calls or automatic execution.",
+    "brief": "08f3cfbef2ee04fecf6f189498cca6061eaa9fe06d166c29207b886f37f96f64",
+    "execution_status": "held",
+    "experiment": "3aa8b8eec3d03be26b7c5845c6e2173a55b09f2ae0e8e9435928734709092144",
+    "provider_calls": 0,
+    "tasks": [
+      {
+        "executor": "codex.imagegen",
+        "status": "prepared; execution held",
+        "task": "2533ebe98850c8ed02e09b2f1ad2f340aac2642113eac6bc2a430e7e84f43084"
+      },
+      {
+        "executor": "hermes.image_generate",
+        "status": "prepared; execution held",
+        "task": "7f4a5609ba1ad24b568680b256d51262bceeba7e8375802373f972583c38359a"
+      }
+    ]
+  },
+  "prompt": "  Pipeline diagnostic: retain the supplied reference unchanged.  ",
+  "status": "2 tasks prepared. Execution is held; no model calls were made.",
+  "errorVisible": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({receipt:JSON.parse(document.getElementById("models-prepared").textContent),prompt:document.getElementById("models-prompt").value,status:document.getElementById("models-status").textContent,errorVisible:!document.getElementById("global-error").hidden})');
+```

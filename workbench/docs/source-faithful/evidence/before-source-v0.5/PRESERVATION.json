@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-14T01:22:35.666951+00:00",
+  "scope": "Exact selected previous current entrypoints before source v0.5 update; no deletion",
+  "files": [
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/LATEST-VERIFICATION.json",
+      "sha256": "5631e9b7ce972bba2ffa596b4fa9e210653c85f7aee29d8cb11a1780527a6acd",
+      "bytes": 4697
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/LATEST-VERIFICATION.md",
+      "sha256": "93e58556780330a2b67655c3f2e021d61df91517be6e9b1b6edb0a9170aad2aa",
+      "bytes": 3689
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/consolidation/START-HERE.md",
+      "sha256": "c48ca0a5587a8c8290b24147140464101c9308157154acd6917307ec97e7bbe7",
+      "bytes": 8197
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CURRENT-HANDOFF-MANIFEST.json",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/consolidation/CURRENT-HANDOFF-MANIFEST.json",
+      "sha256": "99dd959290a1ce5a820e613f971787bb3e78c160b8d1a0fb25437383db94de05",
+      "bytes": 11311
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/HANDOFF-VALIDATION.json",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/consolidation/HANDOFF-VALIDATION.json",
+      "sha256": "a2a168ad8e5ca5dd6d0dfaf42411c5eb238fe2dd9ff52ed408908a712c7c8e9c",
+      "bytes": 472
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/STATUS.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/local-replication/STATUS.md",
+      "sha256": "6e6cac52524f22f230b2a01b1293c25563757e82450ef9918aaed10229b5744d",
+      "bytes": 6424
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+### Result
+{
+  "disabled": true,
+  "verification": "{\n  \"job_id\": \"f43c75583fee4c458a02d180d090f30a\",\n  \"status\": \"running\",\n  \"progress\": 0.1,\n  \"error\": null,\n  \"outputs\": []\n}",
+  "summary": "◷Prerequisites remain open71 recorded blockers · Local setup requires verification. Supplied-art editing is available separately."
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({disabled:document.querySelector("#verify-setup").disabled,verification:document.querySelector("#verification-output").textContent,summary:document.querySelector("#gate-summary").textContent})');
+```

@@ -1,0 +1,31 @@
+{
+  "exit": 0,
+  "responses": [
+    {
+      "event": "ready",
+      "protocol": "sprite-workbench-jsonl-v1",
+      "workspace": "/tmp/pixellab-channel-final-review/test_channel_huge_timeout_reje0/store",
+      "pipeline_handler": "local.pipeline",
+      "base_dir": "/tmp/pixellab-channel-final-review/test_channel_huge_timeout_reje0",
+      "result_ref": "source.sequence",
+      "workers": 2,
+      "provider_forwarding": false
+    },
+    {
+      "id": 1,
+      "status": "validation_error",
+      "error": {
+        "status": "validation_error",
+        "reason": "Timeout must be finite and within the platform's nonnegative wait range"
+      }
+    },
+    {
+      "id": 2,
+      "status": "completed",
+      "result": {
+        "alive": true
+      }
+    }
+  ],
+  "scope": "Huge timeout rejected, next actual JSONL ping preserved"
+}

@@ -1,0 +1,157 @@
+{
+  "checks": 30,
+  "errors": 0,
+  "items": [
+    {
+      "case": "BASELINE.json",
+      "source": "README.md",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "docs/COVERAGE.md",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "docs/WHOLE-FLOW-COMPARISONS.md",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "docs/LATEST-VERIFICATION.json",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "sprite_workbench/export.py",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "sprite_workbench/pipeline.py",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "sprite_workbench/raster.py",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "sprite_workbench/jobs.py",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "sprite_workbench/library.py",
+      "pass": true
+    },
+    {
+      "case": "BASELINE.json",
+      "source": "tests/test_consolidation_runtime_review.py",
+      "pass": true
+    },
+    {
+      "case": "ADDITIONAL-BASELINE.json",
+      "source": "sprite_workbench/pipeline.py",
+      "pass": true
+    },
+    {
+      "case": "ADDITIONAL-BASELINE.json",
+      "source": "sprite_workbench/cli.py",
+      "pass": true
+    },
+    {
+      "case": "ADDITIONAL-BASELINE.json",
+      "source": "README.md",
+      "pass": true
+    },
+    {
+      "case": "ADDITIONAL-BASELINE.json",
+      "source": "tests/test_consolidation_runtime_review.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "README.md",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "README.md",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "README.md",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "docs/COVERAGE.md",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/raster.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/export.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/pipeline.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/pipeline.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/jobs.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/capabilities.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "sprite_workbench/review.py",
+      "pass": true
+    },
+    {
+      "case": "currentsource",
+      "source": "tests/test_pipeline_unsupported_classification.py",
+      "pass": true
+    },
+    {
+      "case": "junit",
+      "source": "BASELINE-JUNIT.xml",
+      "pass": true
+    },
+    {
+      "case": "junit",
+      "source": "ADDITIONAL-BASELINE-JUNIT.xml",
+      "pass": true
+    },
+    {
+      "case": "junit",
+      "source": "FINAL-JUNIT.xml",
+      "pass": true
+    },
+    {
+      "case": "junit",
+      "source": "FINAL-PLUS-JUNIT.xml",
+      "pass": true
+    }
+  ],
+  "scope": "hash/range/record accounting only, not new runtime or allsource semantic approval"
+}

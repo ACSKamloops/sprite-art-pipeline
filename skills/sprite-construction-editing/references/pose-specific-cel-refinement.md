@@ -1,0 +1,25 @@
+# Strong keys and pose-specific cel refinement
+
+Use when replacing video generation with static generated key poses plus deliberate local drawing. A useful goal is consistent character/costume construction first, followed by a separate motion gate. A highly consistent six-pose bank can still be a weak animation.
+
+Freeze the original sheet, literal prompt, appearance reference and motion-guide role. In the demonstrated test, existing video poses supplied only silhouette guides. One available OpenAI ImageGen call produced six full-body keys; no new video calls or local generation models were used. This does not establish generation without motion references, Google Imagen testing or vendor-model parity.
+
+Normalize the whole sheet at one native scale. Check grid row/column placement independently: a uniform sheet downsample preserved a nine-native-pixel row-two baseline error. A recorded whole-row translation repaired that atlas layout defect. This is not permission to fit/recenter every animation cel independently. Keep raw and registered controls.
+
+Screen the strong keys before rigging them. Three experimentally useful distinctions:
+
+- Whole-body nearest triangle meshes can stretch gloves, facial features and gold trim even though every output color is an original source sample. More sampled frames can lower consistency.
+- A shared head or lower-body donor does not fix incorrect ownership boundaries. Cutting in source space before deformation exposed horizontal hip-edge fragments; cutting in target space removed holes but still admitted unsupported edge fragments and poor material contours. Inspect actual painted joins rather than trusting a rectangular split.
+- Fixed-length limb masters can keep internal identity strong while giving weak action and a different drawing interpretation from the approved character. Keep reference-match and motion judgments separate.
+
+When the keys themselves are coherent, author a missing extension or recoil **in its full neighboring-pose context**. Preserve good head/body paint, identify exactly which existing arm pixels must disappear, retain complete native-size source bracer/fist clusters where useful, and draw the missing shoulder/sleeve route with explicit native pixel strokes and source swatches. Inspect the actual sampled swatch: an assumed outline sample in one test was medium gray and a supposed cream sleeve sample was dark metal. Do not rely on the variable's color name.
+
+Remove the full old part before judging the new route. A replacement mask beginning at x111 left the old lowered bracer at x104..110/y129..135; the new arm was connected but acquired an ambiguous hanging silver lobe. Two scoped cel repairs removed59 retained pixels and closed a five-pixel upper notch. These coordinates describe that fixture only. An independent reviewer confirmed the localized improvement, without inventing a missing limb or granting a motion-score increase.
+
+Use real local editing when requested. The tested route constructed distinct cel bindings, applied literal preconditioned paint/erase transactions through the browser fine editor, used actual mouse pencil/eraser with onion skins, downloaded the project/journal, undid every transaction and replayed in JavaScript and independent Python. Seven unaffected cels remained fullRGBA exact. LibreSprite actually saved/reopened the file with all nine renders and native clock metadata restored through its sidecar. Be clear that drawing occurred in the browser editor; LibreSprite batch save/reopen establishes exchange, not mouse drawing in LibreSprite.
+
+The editor's `snapshot()` is not a substitute for inspecting its actual API fields. Use the exported journal's `cursor` to count undo steps. A harness using nonexistent `history_cursor` performed zero undos; correcting the harness and verifying the source hash recovered the intended check without lost art. Use `sprite_lab.history.History`, not an invented `sprite_lab.editing` import. Redirect CLI export stdout to a log: ASE export can print the entire sidecar/project.
+
+Test the drawing contribution against an equal-clock control. The nine-slot timing control retained the six original keys and duplicated source drawings in the two proposed bridge slots. The drawn successor changed those two cels only. Review all poses/pairs/return at native and nearest enlargement over contrasting backgrounds. Keep still-based chronology review distinct from uninterrupted human playback.
+
+Source-bound case: `/home/astra/projects/rpg-hero-animation/work/editor-consistency-v1/README.md`. Independent eight-candidate review covered130 exposure frames. Strong registered keys scored8.6 consistency/6.3 motion. The final locally drawn/cleaned nine-cel candidate scored8.5 consistency/6.6 motion/7.0 usefulness, overall7.2, with uncertainty and no production acceptance. This demonstrates a useful consistent-key/editing route, not video quality parity or a generic8.5 art guarantee. Broad warped-hand replacement and whole-body mesh controls were rejected.

@@ -1,0 +1,3929 @@
+{
+  "schema": "emberwake-animation/v1",
+  "cell": [
+    128,
+    128
+  ],
+  "columns": 16,
+  "pivot": [
+    64,
+    112
+  ],
+  "draw_scale": 0.66,
+  "passing_mode": "painted",
+  "animations": {
+    "south_idle": {
+      "frames": [
+        18,
+        19
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "south_walk": {
+      "frames": [
+        5,
+        0,
+        1,
+        112,
+        2,
+        3,
+        4,
+        113
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "south_attack": {
+      "frames": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.105
+      ],
+      "loop": false
+    },
+    "south_cast": {
+      "frames": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "south_hurt": {
+      "frames": [
+        20,
+        21,
+        18
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "south_dodge": {
+      "frames": [
+        22,
+        23,
+        22,
+        18
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.055
+      ],
+      "loop": false
+    },
+    "east_idle": {
+      "frames": [
+        42,
+        43
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "east_walk": {
+      "frames": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "east_attack": {
+      "frames": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.105
+      ],
+      "loop": false
+    },
+    "east_cast": {
+      "frames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "east_hurt": {
+      "frames": [
+        44,
+        45,
+        42
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "east_dodge": {
+      "frames": [
+        46,
+        47,
+        46,
+        42
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.055
+      ],
+      "loop": false
+    },
+    "north_idle": {
+      "frames": [
+        66,
+        67
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "north_walk": {
+      "frames": [
+        48,
+        49,
+        51,
+        114,
+        50,
+        52,
+        53,
+        115
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "north_attack": {
+      "frames": [
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.105
+      ],
+      "loop": false
+    },
+    "north_cast": {
+      "frames": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "north_hurt": {
+      "frames": [
+        68,
+        69,
+        66
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "north_dodge": {
+      "frames": [
+        70,
+        71,
+        70,
+        66
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.055
+      ],
+      "loop": false
+    },
+    "west_idle": {
+      "frames": [
+        90,
+        91
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "west_walk": {
+      "frames": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "west_attack": {
+      "frames": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.105
+      ],
+      "loop": false
+    },
+    "west_cast": {
+      "frames": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "west_hurt": {
+      "frames": [
+        92,
+        93,
+        90
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "west_dodge": {
+      "frames": [
+        94,
+        95,
+        94,
+        90
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.055
+      ],
+      "loop": false
+    },
+    "southeast_idle": {
+      "frames": [
+        142,
+        143
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "southeast_walk": {
+      "frames": [
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "southeast_attack": {
+      "frames": [
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        142
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "southeast_cast": {
+      "frames": [
+        142,
+        137,
+        138,
+        139,
+        140,
+        142
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "southeast_hurt": {
+      "frames": [
+        144,
+        145,
+        142
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "southeast_dodge": {
+      "frames": [
+        147,
+        148,
+        149,
+        150,
+        142
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "northeast_idle": {
+      "frames": [
+        174,
+        175
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "northeast_walk": {
+      "frames": [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "northeast_attack": {
+      "frames": [
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        174
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "northeast_cast": {
+      "frames": [
+        174,
+        169,
+        170,
+        171,
+        172,
+        174
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "northeast_hurt": {
+      "frames": [
+        176,
+        177,
+        174
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "northeast_dodge": {
+      "frames": [
+        179,
+        180,
+        181,
+        182,
+        174
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "northwest_idle": {
+      "frames": [
+        206,
+        207
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "northwest_walk": {
+      "frames": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "northwest_attack": {
+      "frames": [
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        206
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "northwest_cast": {
+      "frames": [
+        206,
+        201,
+        202,
+        203,
+        204,
+        206
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "northwest_hurt": {
+      "frames": [
+        208,
+        209,
+        206
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "northwest_dodge": {
+      "frames": [
+        211,
+        212,
+        213,
+        214,
+        206
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "southwest_idle": {
+      "frames": [
+        238,
+        239
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "southwest_walk": {
+      "frames": [
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "southwest_attack": {
+      "frames": [
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        238
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "southwest_cast": {
+      "frames": [
+        238,
+        233,
+        234,
+        235,
+        236,
+        238
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "southwest_hurt": {
+      "frames": [
+        240,
+        241,
+        238
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "southwest_dodge": {
+      "frames": [
+        243,
+        244,
+        245,
+        246,
+        238
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    }
+  },
+  "lineage": [
+    {
+      "frame": 0,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 0,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -3,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "6d6fb29884cf522df4a430deee12cd6e24b6e76935b8a8c265b6ca5e377cfc3a"
+    },
+    {
+      "frame": 1,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 1,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -2,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "1a6930113243b9c1072d2a317fb70360e8bab05478b72b3b1c33fc6f25b810f0"
+    },
+    {
+      "frame": 2,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 2,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "c9064593e1c1f0615142555908ebfc1bb8a19d061abbbea138fbc3a4e6c3bac1"
+    },
+    {
+      "frame": 3,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 3,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          0,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "bcea8d83b2bf32a49a2fdb440aa4a9669cce8ee25bba7334ec31f2df0094a3fb"
+    },
+    {
+      "frame": 4,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 4,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "c193b0cd4296a0f19400aabfc7db70d6a879700c13abd0728fa4e5bd72456fd3"
+    },
+    {
+      "frame": 5,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 5,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          3,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "99231a896f06d5f16634e38809c9414e37da3a7ef3e008b2d8d015a7323a606a"
+    },
+    {
+      "frame": 6,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 6,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -3,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "27aa6fd4680ad66925e9bd85caa7c1527501d852438ee37326d62f9f732c28ff"
+    },
+    {
+      "frame": 7,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 7,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "616e003b806fcf52185a608bf652d23615ba9f4e565a6e209a8f98d891b147fa"
+    },
+    {
+      "frame": 8,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 8,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          0,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "67e9ebb6de72a856be1c2e871e9256a73e6ca6fd00e7533f3653c2114edb61ca"
+    },
+    {
+      "frame": 9,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 9,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          0,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "bef442948f315177dbc94f0f940931e552ec0353f65618c2e6687734267d3a38"
+    },
+    {
+      "frame": 10,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 10,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          0,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "16e1ce3235efe0157cedddf46ef98a7fc311e4318c5a8e3a08042d4a568d059a"
+    },
+    {
+      "frame": 11,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 11,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          3,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "553b66159de31cdb4bfc012cc9c64a856151012da09b9f0e3940709fcd428303"
+    },
+    {
+      "frame": 12,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 12,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "7987b9f21498236d57c16b6d26d1cb22b9a827bd89c8eeee18f6e2280abc9f05"
+    },
+    {
+      "frame": 13,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 13,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "529e97674aed8ff19183270958b4706902615e6d461eb664dee6188e432e2ba4"
+    },
+    {
+      "frame": 14,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 14,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          0,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "5b678b380e9f83dfcbebdcc38e2d62c9ff244500926d11808b34f91d3aa5634f"
+    },
+    {
+      "frame": 15,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 15,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "a84f41661a22800a822103fe5e34be292f51c588be7dc896f1fbdbecccc23610"
+    },
+    {
+      "frame": 16,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 16,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "0d0cbf4cab724fff4df7ce50344891a6d5f1908dc10b1b36f2454fbcc1eab979"
+    },
+    {
+      "frame": 17,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 17,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "52a7cfe979a168a20f0e661c4c077bc7b1f1cd1368022767e0ee5c1dcb8e5151"
+    },
+    {
+      "frame": 18,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 18,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "84653474595b0e3e12a87eb57b30f44c87040d4cef89f54e7be6b561bf27627b"
+    },
+    {
+      "frame": 19,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 19,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "9d9ce348b1df31215248c7250d605dfa4d83e57162861b0a4b77f046a7f59045"
+    },
+    {
+      "frame": 20,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 20,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "842cc4b81f06496d25b53082e5412fed9af83c4ec8bbe5dc1debac532952e975"
+    },
+    {
+      "frame": 21,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 21,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "c2beea7faef81a7f208a9c552186d349503955b59a27208bbb60eaf4d43cfc0f"
+    },
+    {
+      "frame": 22,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 22,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "382738ad4fd50d062713fcf1063fcbe1f39311fa6ae098c16313ce9f4e79326f"
+    },
+    {
+      "frame": 23,
+      "source": "art-source/hero/south-raw.png",
+      "source_sha256": "6cb443dd5b1f99cc44ea0d0b8def16e3b6b88e248d6dd06d2e6943a5e559dbab",
+      "source_cell": 23,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "68249cc37b6c83fe1913162caf3f69d03bae1efa0c4e255c60b254fe6bbf30cd"
+    },
+    {
+      "frame": 24,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 0,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "84ab273af65c853c2f85e7701d8b874e3962db95aeb61ace6e6cff29b9609c6a"
+    },
+    {
+      "frame": 25,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 1,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "2f04257bab3bee90d1d3ebce0226da501e145af8bb7fb4206d48bc3ca332ec9d"
+    },
+    {
+      "frame": 26,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 2,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "7967d8ed967428d6c193cf91916067cf0ba31ae61bf6a7dc74ff24c75e61d045"
+    },
+    {
+      "frame": 27,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 3,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "a02ecc6f0c63913280a82427e27fe8477ac3731c02414ad2286aa911743d0c2d"
+    },
+    {
+      "frame": 28,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 4,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "1c368c403c19cd06eb9306cf75e8ce689377322a4f5f974a26fd69dd758beec7"
+    },
+    {
+      "frame": 29,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 5,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "a783b80592e20875a24739918e64dd96c0a73979667e9b16519e5ac382e4bf92"
+    },
+    {
+      "frame": 30,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 6,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "beb120e905a35877859a50fdc8cb5dcf589f6f3f82a69a474c49d46f313d0577"
+    },
+    {
+      "frame": 31,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 7,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "126bb90c05692e170e5283e756271482a7ba1a9ffb63b87fab721ef774407bc7"
+    },
+    {
+      "frame": 32,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 8,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          4,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "20f26185e70c203d6fce2a8fd2aa69f4e78ed043bfeafa9337d65c06e65c2137"
+    },
+    {
+      "frame": 33,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 9,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "8a8805242a6374b014e261400d654863d5d3051181b6805d800c0414e2851fa9"
+    },
+    {
+      "frame": 34,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 10,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "168386d9adaf93e0e620f90f2f9e16e6b3bcbeb98f476a5fa7c9dfa6488f7813"
+    },
+    {
+      "frame": 35,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 11,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "440eb5e7aa778e66a56d8b17f874c1115dce0a0a4631a9ed7d41d6a39b3adf1d"
+    },
+    {
+      "frame": 36,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 12,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -4,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "50ae1f6dd507ec8d5ddc7b9ddb1dac700c33cea65c0eef19b6abbd61bf5da350"
+    },
+    {
+      "frame": 37,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 13,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "ca1f6068ef92bd9a0e6bf29e40214fdca3358fc59b10ceaac71de6f2e1cc3dbd"
+    },
+    {
+      "frame": 38,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 14,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          4,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "57126153fb8652cadaaee2db0e8885ad632fa6fc5087548528f4ec7e9251b2e7"
+    },
+    {
+      "frame": 39,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 15,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          6,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "cbca6de6afaea0d053ecc68d14ef753644a9a01f343d2463e3474039ec992dc3"
+    },
+    {
+      "frame": 40,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 16,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "6dc76eac5d22eccee859f1b592e5fd8220af5461701b8cd5d29a88b7012dafdd"
+    },
+    {
+      "frame": 41,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 17,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "7f42372535782afc25bfca5789a2b132e2da853dbcfd49788947c837831df384"
+    },
+    {
+      "frame": 42,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 18,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -3,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "5af420e412fb32c84d56d78a73413aa937da39124de78896bce2dba2d82de5d3"
+    },
+    {
+      "frame": 43,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 19,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "a80c9f28c7be2c217a3a7d3555d42620c051b06b1e05c8df1561998af56551a5"
+    },
+    {
+      "frame": 44,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 20,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "84abf3a0ad63b8eff020d2270ee4bc2fcd75e940a79dff82def429188a810cf5"
+    },
+    {
+      "frame": 45,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 21,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "b82e3e95080f04d4a44475301e821828316a5f10a9139fec63afdc12b9807cec"
+    },
+    {
+      "frame": 46,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 22,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "8f7f1fae8e12fa6a078361c03eb97f45f0828e81272959607e156ab6c4bb37ab"
+    },
+    {
+      "frame": 47,
+      "source": "art-source/hero/east-raw.png",
+      "source_sha256": "9d1e1d21eb2058eb12dc7e39aae6ec579783fbe3be55739b4b215efc33fdb690",
+      "source_cell": 23,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "b3c54576e241222a51555da8350d152fcfb4740bffd26b383699595934208a0a"
+    },
+    {
+      "frame": 48,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 0,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -10,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "7eb3d081a87227c48d8c7be9975c4767e68e82212f819a9e46ec48b201ec4e61"
+    },
+    {
+      "frame": 49,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 1,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -9,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "fde4ed701bf7db8836d47ff9acea5ad10e354cd1be1b8ed2185d5a67a0cf6a32"
+    },
+    {
+      "frame": 50,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 2,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -6,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "ca94509143375f64914a347442e219852dccda0437e1920eef1ab564720f9f2c"
+    },
+    {
+      "frame": 51,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 3,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -5,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "cd3523636fafcc24d9b4604204af7c377614ad02e4359c4f3c47cf9653e4a5e2"
+    },
+    {
+      "frame": 52,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 4,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          -2,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "53e45cda993ccb72e25454c00df44fe6d25027b5290ce977363b7a71db50f167"
+    },
+    {
+      "frame": 53,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 5,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "shared pelvis/spine stage root; retain residual cyclical sway"
+      },
+      "rgba_sha256": "d635efabefb662a547a65437507e8793446c5842f3d2eb0f6d1f7b8d3cfb5a79"
+    },
+    {
+      "frame": 54,
+      "source": "art-source/hero/north-attack-fix-raw.png",
+      "source_sha256": "81743b3b1b138d19fa247c448cfc115b33e535c8c4fd41c75b152d2399651171",
+      "source_cell": 6,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -7,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "d1a915dbe4a5cb42d233b7655f3ab1b77cce4328d7b3f48cfae2a13c938c0245"
+    },
+    {
+      "frame": 55,
+      "source": "art-source/hero/north-attack-fix-raw.png",
+      "source_sha256": "81743b3b1b138d19fa247c448cfc115b33e535c8c4fd41c75b152d2399651171",
+      "source_cell": 7,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -8,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "2c0b26a4d237c32a52b63d143cc53fcd79d80d12151b713d3c4dc81d2d884ecb"
+    },
+    {
+      "frame": 56,
+      "source": "art-source/hero/north-attack-fix-raw.png",
+      "source_sha256": "81743b3b1b138d19fa247c448cfc115b33e535c8c4fd41c75b152d2399651171",
+      "source_cell": 8,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -8,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "b967aea04d5aec246c1d3ccbad986b79bf6578daccf9b73941f24ffcf850d4d4"
+    },
+    {
+      "frame": 57,
+      "source": "art-source/hero/north-attack-fix-raw.png",
+      "source_sha256": "81743b3b1b138d19fa247c448cfc115b33e535c8c4fd41c75b152d2399651171",
+      "source_cell": 8,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -8,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "b967aea04d5aec246c1d3ccbad986b79bf6578daccf9b73941f24ffcf850d4d4"
+    },
+    {
+      "frame": 58,
+      "source": "art-source/hero/north-attack-fix-raw.png",
+      "source_sha256": "81743b3b1b138d19fa247c448cfc115b33e535c8c4fd41c75b152d2399651171",
+      "source_cell": 10,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -4,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "6c122cf2d37505700ca5520d1ef0b6a84bb8aa3d34a2d91368fdcf5dfb8c9fd8"
+    },
+    {
+      "frame": 59,
+      "source": "art-source/hero/north-attack-fix-raw.png",
+      "source_sha256": "81743b3b1b138d19fa247c448cfc115b33e535c8c4fd41c75b152d2399651171",
+      "source_cell": 11,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "3345c78d75d79cdc6bf301edb11131f44583ffa9b128f32e1e2213faf45d31b1"
+    },
+    {
+      "frame": 60,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 12,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -9,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "b7531eb3b680ba2d2df572bc4d44222573264c48cf2dfd8524d92ca8985f6af7"
+    },
+    {
+      "frame": 61,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 13,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -8,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "49358909cba66c1422ff4867e7a9e10c9d33c4c29090c636665eb5fca1162cff"
+    },
+    {
+      "frame": 62,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 14,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -6,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "1763e7d6c4bb7866bd2fb5692915f6ea31a8fd274c4f1c6a7f5e6f2977344ec9"
+    },
+    {
+      "frame": 63,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 15,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -3,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "caca246b5d393ad42b9b5b2d4ae1ba0d5d746d02bc13e282e060a35735576c89"
+    },
+    {
+      "frame": 64,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 16,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          0,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "7b8529c78c9d59b691bda680df68f819d67a1a3008a22a6ca6ffba013f4c8f92"
+    },
+    {
+      "frame": 65,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 17,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "38e3c52b11c07be80bde6ee2ed38466aa00042a034e86fce146d5914fb3a90a3"
+    },
+    {
+      "frame": 66,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 18,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -7,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "35693e97629bfce1495e3115177102f4279246323958032027fd8662bc549507"
+    },
+    {
+      "frame": 67,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 19,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -8,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "a2a7a812fe5dbc0a4f7697e139a234bf69d46ede0e2136917b4b92ded0f364d7"
+    },
+    {
+      "frame": 68,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 20,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "b5155e5bdc7f44aecfd88e4f8b22c28760e74c22a07a205eff3abc7acfb95baa"
+    },
+    {
+      "frame": 69,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 21,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "9d8e24529e57964b73d301ec6cd9f1e1ffd534dd678a886b0624a9f9c39b4164"
+    },
+    {
+      "frame": 70,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 22,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "38c1b9b3ad3e10f20859a4b7921e2b9136055976aa93d1419a73b2e83d2ba679"
+    },
+    {
+      "frame": 71,
+      "source": "art-source/hero/north-raw.png",
+      "source_sha256": "06a361e5f4ee1506acccd3686dfcdf98ff222a6b0b4fa47123073ba710d2c1db",
+      "source_cell": 23,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "78a1e12318743fa1cfa4ef1e40a4455d14e78fa2c51dbe46155efd2af46f201b"
+    },
+    {
+      "frame": 72,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 0,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "8add49ba8b10020be1aa8d191643aed05b0840e3afbd54d62530b1f026b1001d"
+    },
+    {
+      "frame": 73,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 1,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "d8593ee57d5634e9831889290d5f36f2f76da5db37403e79d31676779a265caf"
+    },
+    {
+      "frame": 74,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 2,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "88bde9f9707db5903ddcd234cae14de88bbd9255d282cb546469cfa17884bb36"
+    },
+    {
+      "frame": 75,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 3,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "c333f40a56b39183e13844d19c8f1efa4171ba22f8c15f92de4fcf25c5c8d093"
+    },
+    {
+      "frame": 76,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 4,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "58b2b145d24c0105785c785087790f4fa3250e67132769bec9f18e7cb189b0cd"
+    },
+    {
+      "frame": 77,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 5,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "ce532dd0ae1200e35e1761ee12cb1ba0a74a620540a95feffb6a70ebc8d1bcce"
+    },
+    {
+      "frame": 78,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 6,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -5,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "610a39357b89ca712f86bef0f7098e0e9d1c77df6b0dadc628aa0649b96e1972"
+    },
+    {
+      "frame": 79,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 7,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -7,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "8a41b7d38d89fa43d30607d1920a7a6ac44f55871e7da1025cb13e1c10728a9f"
+    },
+    {
+      "frame": 80,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 8,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -8,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "57cdf1f0da5ee5569c789e8bd13dc17be7a523396a737299a80bc1b17994e74e"
+    },
+    {
+      "frame": 81,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 9,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -9,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "0b4e6f773052b8de65d0d69108253d1744e4f891dc4dd1209e51baa03b08a742"
+    },
+    {
+      "frame": 82,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 10,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -6,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "d9bdfe3995cc5021a16d0bef1cd5dffb1cad624912a78c0c957814df77ea2eee"
+    },
+    {
+      "frame": 83,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 11,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "bcd2b070d3c481862f6cc3bf58839adc8a24991f61673fc96ed8b4b4dc8af860"
+    },
+    {
+      "frame": 84,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 12,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -6,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "7611c040bb73d5dca881d70bb8d541a34ae72a908c664b657c6255ff58770b4c"
+    },
+    {
+      "frame": 85,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 13,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "8fb74bbd8ece44eab74a6f87ba6d590cbd866abc13d46291ab0599f5b7aa055d"
+    },
+    {
+      "frame": 86,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 14,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "e57b34b9f72cdc8889ae2e35fd1f0a3925d06c08c957c818f2d09770e64925fd"
+    },
+    {
+      "frame": 87,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 15,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -1,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "6f2bd9b1656b11d9fcb4c73f6da29789c35c68949a7a0a9075466995019861e6"
+    },
+    {
+      "frame": 88,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 16,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -4,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "96a777e5bc6c8cbe9e01e01989693eb93f5b2199ce7418b88f4fc5d7dc71d862"
+    },
+    {
+      "frame": 89,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 17,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "389183b7733f0ba17f3900cd30e83b2efc0c563a2f8d65668ad974fb7d4176de"
+    },
+    {
+      "frame": 90,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 18,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -7,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "f85e740bcd5e2883dc351a3bc11ae42e082497c7ab4ad01c5bbbdd7873f3b803"
+    },
+    {
+      "frame": 91,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 19,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0",
+        "inplace_root_translation": [
+          -2,
+          0
+        ],
+        "registration_basis": "authored uppertrouser pelvis origin; preserve fullpose and physicalstage"
+      },
+      "rgba_sha256": "77f481dd8de587328ff9aaeedffb06112087a18d09ac18f26186316186079650"
+    },
+    {
+      "frame": 92,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 20,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "185ecb62014bb443a9dcb73662356719a817d2659d2c08d059d8aca5c7087822"
+    },
+    {
+      "frame": 93,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 21,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "abed63ffe7d0f6f9f0d7fe88b848a03ea7ca29bee287b6d4b5885d0ae466d39c"
+    },
+    {
+      "frame": 94,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 22,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "0a4072cb80f74cf999933727c6fec26b6c30fd915333cc7222864599e89518f6"
+    },
+    {
+      "frame": 95,
+      "source": "art-source/hero/west-raw.png",
+      "source_sha256": "75cb0638d96f9f1096636b7a7c2cef8b8132f4f82fed3bdf7938db29771243c9",
+      "source_cell": 23,
+      "transform": {
+        "scale": 0.42,
+        "source_anchor": [
+          128,
+          244
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "alpha": "below24->0,above245->255,hiddenRGB->0"
+      },
+      "rgba_sha256": "f2e4b529acc6eb6f591030cb2c8c9617704a07f9251655060c522e9f562a8bb0"
+    },
+    {
+      "frame": 96,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 0,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "bdb92bfa7dfb08cf9ebe4a6e435d52236cb5286b03500c8df457f5a7e2d15fb6"
+    },
+    {
+      "frame": 97,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 1,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "d5ef3f2a5ed14582793332b1d1a32c98e36ac633417660c4340c2586e15cdf01"
+    },
+    {
+      "frame": 98,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 2,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "6886cc1cb9dabf4cc193d7231812c9db9411b57c9406980beb2735c77afb2bca"
+    },
+    {
+      "frame": 99,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 3,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "0641bbbf8149474361e8d580519a171e7b51de7e2c6e88b688a423414861f194"
+    },
+    {
+      "frame": 100,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 4,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "3dd608304ba5056f8e3a4de1fa68203f800bc1eb08f5ca6e8a85dd125c6252e4"
+    },
+    {
+      "frame": 101,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 5,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "b58b6f493648bf68f4ee10cdc69cf97529b71b36c4d151891d473e18f12ea352"
+    },
+    {
+      "frame": 102,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 6,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "e0b9d3555a628b9b0631123364b1683b1b8a45af31dcfb348703971d5a66679b"
+    },
+    {
+      "frame": 103,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 7,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": false,
+        "mirror_offset_x": 0,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "15697cc279e69d5e761cb318b2d36f7ec2008168c59e559e9b07798dd5e5d6ab"
+    },
+    {
+      "frame": 104,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 0,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "72b7859fde893a459200043c753ec93d6a53d13edeee4b96daf886529d5cccd4"
+    },
+    {
+      "frame": 105,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 1,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "432bf8284c0f49f0115ecbb821cd9f63e049f173a344dd37b9f6e816ad1a6693"
+    },
+    {
+      "frame": 106,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 2,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "b0dd4e15d4a6f14083f342560d9420fd9f9094cd9802904a8b9d836e6485b893"
+    },
+    {
+      "frame": 107,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 3,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": -2,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "bcdc0388191c113c66e3cf88ab8af88ada4b26b414153aed1544b3f51adc1325"
+    },
+    {
+      "frame": 108,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 4,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "56d7c668f4cbeff77ab0b730f6efe852dd3f77602aa231d5b098d185dd07e01a"
+    },
+    {
+      "frame": 109,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 5,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "c7ecb1d1cea26afb18499eaccf31da22495f61c832ea1c5474f7d9b1f016cddc"
+    },
+    {
+      "frame": 110,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 6,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "e034cce64a29e36d524802d4b3e967fa68093043e4bbebe01e7e1c9982dcfe35"
+    },
+    {
+      "frame": 111,
+      "source": "art-source/hero/east-walk-repair-raw.png",
+      "source_sha256": "e1fddc567f9e890edeffad599168c1971f958762a0a5a4b946593b14410fa627",
+      "source_cell": 7,
+      "transform": {
+        "scale": 0.248,
+        "raw_size": [
+          1774,
+          887
+        ],
+        "whole_sheet_NN_size": [
+          1792,
+          896
+        ],
+        "source_anchor": [
+          224,
+          425
+        ],
+        "destination_anchor": [
+          64,
+          112
+        ],
+        "resampling": "nearest",
+        "mirror_x": true,
+        "mirror_offset_x": 1,
+        "row_y_translation": 3,
+        "alpha": "below24->0,above245->255,hiddenRGB->0;disconnectedgridcomponentsremoved"
+      },
+      "rgba_sha256": "c12f4e76c464f6ce24bf5da9a2ffc8e7c39647b5399489195bb7da5be263c7df"
+    },
+    {
+      "frame": 112,
+      "source": "art-source/hero/passing/output/passing/south_A.png",
+      "source_sha256": "f0611edaf7c92b9472f1854c3a3ba2e55bc15aab8d08edbcb14e0e896eb260b1",
+      "source_cell": 0,
+      "transform": {
+        "operation": "protectedbody passingleg composite",
+        "protected_body_frame": 1,
+        "allowed_roi": [
+          45,
+          81,
+          87,
+          121
+        ]
+      },
+      "rgba_sha256": "b7d58cf4a5433a380dcb96d0947dc81cbaab6efe8012a65daa3b969f83539477"
+    },
+    {
+      "frame": 113,
+      "source": "art-source/hero/passing/output/passing/south_B.png",
+      "source_sha256": "76db7616024db0ae3d1d26e98e8cf724715927d22297cf82da43f4df9dda1d39",
+      "source_cell": 0,
+      "transform": {
+        "operation": "protectedbody passingleg composite",
+        "protected_body_frame": 4,
+        "allowed_roi": [
+          45,
+          81,
+          87,
+          121
+        ]
+      },
+      "rgba_sha256": "9820c3bf1ee57f67ef24131eb47101c4bc0fd71a1579232cdde259ca4f9ffd97"
+    },
+    {
+      "frame": 114,
+      "source": "art-source/hero/passing/output/passing/north_A.png",
+      "source_sha256": "964a84d43dd245799fb3ad01ca116cb515755f92b527980b1407c6d99c12c2b6",
+      "source_cell": 0,
+      "transform": {
+        "operation": "protectedbody passingleg composite",
+        "protected_body_frame": 49,
+        "allowed_roi": [
+          45,
+          81,
+          87,
+          121
+        ]
+      },
+      "rgba_sha256": "2f459ac131a9beddac06034021f8908a4c6035090e0f38401caefc374c7715da"
+    },
+    {
+      "frame": 115,
+      "source": "art-source/hero/passing/output/passing/north_B.png",
+      "source_sha256": "37e05b482a875e760ac2379dba1f014b4b38611f645c87c77d3de70c39a808be",
+      "source_cell": 0,
+      "transform": {
+        "operation": "protectedbody passingleg composite",
+        "protected_body_frame": 52,
+        "allowed_roi": [
+          45,
+          81,
+          87,
+          121
+        ]
+      },
+      "rgba_sha256": "cb59d855117e8c87fc71a9986613630e8024e4706814f3966ad329ef422e6cff"
+    }
+  ],
+  "provider": "OpenAI built-in ImageGen",
+  "note": "Body is unarmed. Independent spell effects and physical ground root. West WALK is symmetric mirror of pose-guided east keys; other west actions independently generated. Source8north contact reused in slot9 to avoid wrong-arm returned key.",
+  "cast_hand_tracks": {
+    "south": [
+      [
+        87,
+        78
+      ],
+      [
+        69,
+        67
+      ],
+      [
+        69,
+        66
+      ],
+      [
+        99,
+        72
+      ],
+      [
+        99,
+        72
+      ],
+      [
+        87,
+        78
+      ]
+    ],
+    "east": [
+      [
+        83,
+        79
+      ],
+      [
+        78,
+        65
+      ],
+      [
+        78,
+        65
+      ],
+      [
+        102,
+        57
+      ],
+      [
+        98,
+        62
+      ],
+      [
+        83,
+        79
+      ]
+    ],
+    "north": [
+      [
+        83,
+        76
+      ],
+      [
+        85,
+        64
+      ],
+      [
+        83,
+        61
+      ],
+      [
+        93,
+        49
+      ],
+      [
+        82,
+        62
+      ],
+      [
+        83,
+        76
+      ]
+    ],
+    "west": [
+      [
+        47,
+        80
+      ],
+      [
+        52,
+        64
+      ],
+      [
+        47,
+        61
+      ],
+      [
+        24,
+        60
+      ],
+      [
+        31,
+        60
+      ],
+      [
+        47,
+        80
+      ]
+    ],
+    "southeast": [
+      [
+        83,
+        75
+      ],
+      [
+        92,
+        55
+      ],
+      [
+        94,
+        54
+      ],
+      [
+        99,
+        56
+      ],
+      [
+        76,
+        76
+      ],
+      [
+        83,
+        75
+      ]
+    ],
+    "northeast": [
+      [
+        83,
+        73
+      ],
+      [
+        96,
+        52
+      ],
+      [
+        98,
+        51
+      ],
+      [
+        99,
+        45
+      ],
+      [
+        89,
+        77
+      ],
+      [
+        83,
+        73
+      ]
+    ],
+    "southwest": [
+      [
+        45,
+        75
+      ],
+      [
+        36,
+        55
+      ],
+      [
+        34,
+        54
+      ],
+      [
+        29,
+        56
+      ],
+      [
+        52,
+        76
+      ],
+      [
+        45,
+        75
+      ]
+    ],
+    "northwest": [
+      [
+        45,
+        73
+      ],
+      [
+        32,
+        52
+      ],
+      [
+        30,
+        51
+      ],
+      [
+        29,
+        45
+      ],
+      [
+        39,
+        77
+      ],
+      [
+        45,
+        73
+      ]
+    ]
+  },
+  "directions": [
+    "south",
+    "southeast",
+    "east",
+    "northeast",
+    "north",
+    "northwest",
+    "west",
+    "southwest"
+  ],
+  "cast_hand": {
+    "south": [
+      99,
+      72
+    ],
+    "east": [
+      102,
+      57
+    ],
+    "north": [
+      93,
+      49
+    ],
+    "west": [
+      24,
+      60
+    ],
+    "southeast": [
+      99,
+      56
+    ],
+    "northeast": [
+      99,
+      45
+    ],
+    "southwest": [
+      29,
+      56
+    ],
+    "northwest": [
+      29,
+      45
+    ]
+  },
+  "cast_release_index": 3,
+  "directional_source": "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+  "limitations": [
+    "Four frozen cardinal banks plus two painted diagonal views; SW/NW conditionally mirrored around pivotX64 with+1px mirror correction.",
+    "Symmetric unarmed costume only; asymmetric accessories require new ownership/view paint.",
+    "No jump/flying or modular weapon artwork; feet collision and hand projection remain separate."
+  ]
+}

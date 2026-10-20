@@ -1,0 +1,542 @@
+{
+  "schema": "planned-same-hero-actions-v1",
+  "status": "PLANNING_ONLY_NO_ART_API_GUIDE_ENGINE_CODE_OR_APPROVAL_PRODUCED",
+  "scope": {
+    "actor": "approved_H3_hero",
+    "view": "same orthographic three-quarter right-facing view as EO walk",
+    "first_actions": [
+      "unarmed_straight_punch",
+      "small_in_place_jump"
+    ],
+    "weapon_preference": "USER_CONFIRMED_BOTH_FIRST_ACTIONS_UNARMED",
+    "not_claimed": [
+      "other characters",
+      "other views",
+      "all abilities",
+      "complete rig",
+      "playable transition coverage",
+      "new art approval"
+    ],
+    "future_equipment": "interchangeable weapons in separate attachment tracks; no weapon pixels baked into first attack/jump body art"
+  },
+  "accepted_walk": {
+    "path": "approved/walk/manifest.json",
+    "sha256": "89666748bc27c9f67fb13faf229b56a777907566681b00ee229c31c23fa1d8af",
+    "approval_receipt": {
+      "path": "approvals/walk.user.json",
+      "sha256": "15438489e215c9246fd774fc8a5194b4517e81e0dbf68c7b0cf5285dbc6a7585"
+    },
+    "acceptance_scope": "User approved this walk baseline, one hero/view only",
+    "canvas": [
+      128,
+      128
+    ],
+    "pose_count": 30,
+    "clock_hz": 24,
+    "hold_seconds": [
+      1,
+      24
+    ],
+    "cycle_seconds": [
+      5,
+      4
+    ],
+    "preserve_bytes_and_timing": true,
+    "original_approved_manifest_sha256": "975b6e31a5bab96391ba4045544d62e737a9b4a68a9f78086c243bfe24f212df"
+  },
+  "appearance_reference": {
+    "path": "references/action-reference192.png",
+    "sha256": "7496316ced17fe92172c08c982b93565d94abd9dc7e42138971aa03beaca7020",
+    "role": "AcceptedH3 walkframe00 with constant(+32,+64)padding; identity reference only, not new/approved neutral pose."
+  },
+  "appearance_provenance": {
+    "path": "character.json",
+    "sha256": "0f2e06aaddb9d9854ebc5f12a613331df5e93896d4d16c902aa45e2eed40e924"
+  },
+  "shared_constraints": {
+    "art_status": "ALL_NEW_ART_PLANNED_NOT_PRODUCED_NOT_APPROVED",
+    "identity": [
+      "young brown-haired blue-eyed hero",
+      "tousled brown hairstyle",
+      "same head/body proportions"
+    ],
+    "costume": [
+      "blue coat with gold trim",
+      "silver shoulder armor and wrist bracers",
+      "cream trousers",
+      "brown gloves",
+      "complete brown boots"
+    ],
+    "camera": "fixed orthographic three-quarter right-facing; no mirrored new view",
+    "registration": "constant scale and shared camera/pivot; no per-pose fit, crop, scale or recenter",
+    "materials": "match approved walk palette, shading direction and crisp native pixel clusters; preserve trim and body-part mass",
+    "body_canvas": [
+      192,
+      192
+    ],
+    "framing_policy": "NEW actions and neutral/transition art use fixed192x192, unchanged body paint scale, constant128-source padding(+32,+64), nominal ground pivot[96,170]. Accepted128 walk remains unchanged and aligns via its nominal ground pivot[64,106]. No per-pose root offset, fit or recenter. Verify new-pose extents and at least4px clear border.",
+    "hidden_surfaces": "Newly visible anatomy/cloth must be deliberately authored and qualified; walk cutouts do not recover it.",
+    "layers": [
+      "body",
+      "optional separate world/ground shadow",
+      "optional separate contact impact",
+      "optional future weapon/equipment track"
+    ],
+    "weapons": "Both first actions unarmed. Future modular weapon definitions may swap only within compatible body motion profiles and validated grip/occlusion contracts; punch is not automatically sword slash.",
+    "registration_measurement": {
+      "status": "MEASURED_SELECTED_WALK_ALPHA_ONLY_NOT_CONTACT_PROOF",
+      "bbox_convention": "half-open[left,top,right,bottom]",
+      "source_canvas": [
+        128,
+        128
+      ],
+      "all30_union_bbox": [
+        41,
+        15,
+        91,
+        111
+      ],
+      "union_size": [
+        50,
+        96
+      ],
+      "hair_top_range": [
+        15,
+        19
+      ],
+      "bottom_range": [
+        108,
+        111
+      ],
+      "frame00_bbox": [
+        41,
+        18,
+        89,
+        110
+      ],
+      "source_nominal_ground_pivot": [
+        64,
+        106
+      ],
+      "new_fixed_action_canvas": [
+        192,
+        192
+      ],
+      "constant_source_padding": [
+        32,
+        64
+      ],
+      "new_nominal_ground_pivot": [
+        96,
+        170
+      ],
+      "padded_rest_union_bbox": [
+        73,
+        79,
+        123,
+        175
+      ],
+      "padded_rest_clear_margins": {
+        "top": 79,
+        "left": 73,
+        "right": 69,
+        "bottom": 17
+      },
+      "qualification": "Nominal pivots are registration anchors, not actual sole or flat-floor evidence. Padded bounds are calculation, not new art."
+    }
+  },
+  "method_decision": {
+    "recommended_first_experiment": "camera-matched whole-action guide plus accepted hero appearance; gate strongest keys before completing clips",
+    "source_painted_parts": {
+      "use": "short arcs, costume/detail donor reuse, source-owned repairs",
+      "limit": "not a full rig; missing underpaint and uncertain pelvis/knee seams do not supply attack/jump anatomy"
+    },
+    "new_authored_keys": {
+      "use": "neutral, loaded punch, extension/recoil, crouch/takeoff/apex/land",
+      "limit": "all keys and in-betweens need identity, adjacent-pair and timed review"
+    },
+    "full_motion_guide": {
+      "use": "explicit whole-body mechanics, contacts, root and height",
+      "limit": "guide intent does not prove painted output follows it; provider transport/art/timing/contact/user acceptance are separate"
+    },
+    "literal_edit_policy": "retain source hashes, affected masks and donor coordinates; repair journals require replay, undo and outside-mask invariants; source changes invalidate dependent bakes/reviews"
+  },
+  "actions": [
+    {
+      "id": "unarmed_straight_punch",
+      "status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+      "loop": false,
+      "view": "approved_walk_view",
+      "equipment": "unarmed",
+      "strike_limb": "foreground/near glove; rear glove guards",
+      "aim": "existing three-quarter right-facing depth line, not screen-right arm stretch",
+      "proposal": {
+        "timing_kind": "PROVISIONAL_AUTHORED_PROPOSAL_NOT_EXISTING_EVIDENCE",
+        "clock_hz": 24,
+        "duration_ticks": 18,
+        "duration_seconds": [
+          3,
+          4
+        ],
+        "unique_pose_slots": 10,
+        "phases": [
+          {
+            "name": "ready_entry",
+            "nominal_tick_range_half_open": [
+              0,
+              2
+            ],
+            "proposed_pose_slots": 1,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "neutral-compatible guard and visible support"
+          },
+          {
+            "name": "anticipation",
+            "nominal_tick_range_half_open": [
+              2,
+              6
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "rear-leg/hip load; elbow retracts; torso prepares"
+          },
+          {
+            "name": "strike",
+            "nominal_tick_range_half_open": [
+              6,
+              8
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "accelerate to complete extension with coherent shoulder/fist arc"
+          },
+          {
+            "name": "follow_through",
+            "nominal_tick_range_half_open": [
+              8,
+              10
+            ],
+            "proposed_pose_slots": 1,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "catch weight; begin withdrawal"
+          },
+          {
+            "name": "recovery",
+            "nominal_tick_range_half_open": [
+              10,
+              16
+            ],
+            "proposed_pose_slots": 3,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "retract fist and restore balance/guard"
+          },
+          {
+            "name": "settle_exit",
+            "nominal_tick_range_half_open": [
+              16,
+              18
+            ],
+            "proposed_pose_slots": 1,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "same authored neutral endpoint"
+          }
+        ]
+      },
+      "root_policy": {
+        "ground_root": "stationary first pilot",
+        "pose_motion": "hip/torso loading in artwork",
+        "later_lunge": "separate collision-consumed root-motion variant; never sprite-origin slide"
+      },
+      "events": [
+        {
+          "name": "attack_enter",
+          "nominal_tick": 0,
+          "provenance": "PROPOSED_AUTHORED_GAMEPLAY_EVENT"
+        },
+        {
+          "name": "hit_start",
+          "nominal_tick": 6,
+          "provenance": "PROPOSED_AUTHORED_GAMEPLAY_EVENT"
+        },
+        {
+          "name": "hit_end",
+          "nominal_tick": 8,
+          "provenance": "PROPOSED_AUTHORED_GAMEPLAY_EVENT"
+        },
+        {
+          "name": "recovery_open",
+          "nominal_tick": 16,
+          "provenance": "PROPOSED_AUTHORED_GAMEPLAY_EVENT"
+        },
+        {
+          "name": "action_complete",
+          "nominal_tick": 18,
+          "provenance": "PROPOSED_AUTHORED_GAMEPLAY_EVENT"
+        }
+      ],
+      "anchors": {
+        "fist": "separate pose-attached hitbox anchor with authored collision volume",
+        "weapon": "no visible weapon; optional future grip/muzzle/tip anchors are independent equipment metadata",
+        "impact": "spawn only on confirmed collision; own clock and termination"
+      },
+      "locks": {
+        "facing": "locked through one-shot",
+        "movement_and_new_action": "queue at most latest legal request; run after tick18",
+        "retrigger": "held button does not restart clip",
+        "voluntary_cancel": "none in initial pilot",
+        "forced_interrupt": "close hitbox immediately, clear owned effects, enter explicit supported hurt/death/reset state; missing art remains backlog"
+      },
+      "completion": "return to authored same-view neutral, or a supported startup transition into walk; never jump from fully extended fist to unrelated walk cel",
+      "framing": "Use shared192 stage; test complete fist reach/recoil and costume follow-through. Future weapon/tip/trail must fit at least4px inside same fixed stage or require deliberate whole-action framing-contract revision."
+    },
+    {
+      "id": "small_in_place_jump",
+      "status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+      "loop": false,
+      "view": "approved_walk_view",
+      "equipment": "unarmed",
+      "proposal": {
+        "timing_kind": "PROVISIONAL_NOMINAL_STORYBOARD_NOT_GAMEPLAY_LANDING_SCHEDULE",
+        "clock_hz": 24,
+        "nominal_duration_ticks": 24,
+        "nominal_duration_seconds": [
+          1,
+          1
+        ],
+        "unique_pose_slots": 12,
+        "nominal_guide_height_native_pixels": 16,
+        "height_qualification": "PROVISIONAL_FRAMING_PROPOSAL; choose runtime impulse/gravity consistently after units known",
+        "phases": [
+          {
+            "name": "crouch",
+            "nominal_tick_range_half_open": [
+              0,
+              4
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "compress/load without shrinking costume"
+          },
+          {
+            "name": "takeoff",
+            "nominal_tick_range_half_open": [
+              4,
+              6
+            ],
+            "proposed_pose_slots": 1,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "extend hips/knees and visibly leave support"
+          },
+          {
+            "name": "rise",
+            "nominal_tick_range_half_open": [
+              6,
+              11
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "tuck and cloth/hair follow-through"
+          },
+          {
+            "name": "apex",
+            "nominal_tick_range_half_open": [
+              11,
+              13
+            ],
+            "proposed_pose_slots": 1,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "read height reversal without freezing physics"
+          },
+          {
+            "name": "fall",
+            "nominal_tick_range_half_open": [
+              13,
+              18
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "extend for contact; maintain limb identity"
+          },
+          {
+            "name": "landing_compression",
+            "nominal_tick_range_half_open": [
+              18,
+              22
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "contact then absorb impact"
+          },
+          {
+            "name": "settle_exit",
+            "nominal_tick_range_half_open": [
+              22,
+              24
+            ],
+            "proposed_pose_slots": 2,
+            "art_status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+            "reading": "recover to authored neutral"
+          }
+        ]
+      },
+      "root_policy": {
+        "ground_root": "stationary first pilot; owns ground plane collision/navigation/depth",
+        "height": "independent nonnegative airborne offset driven by physical vertical state",
+        "render": "project ground_root and height through same camera; simple screen-up height policy is projected root minus height minus pivot plus declared bias, round once",
+        "shadow": "optional independent ground-root layer; never follows airborne body",
+        "land_time": "actual descending collision, not nominal tick18",
+        "airborne_selection": "rise/apex/fall follow vertical state; do not wait at apex for timer"
+      },
+      "events": [
+        {
+          "name": "jump_enter",
+          "trigger": "crouch entry",
+          "nominal_tick": 0
+        },
+        {
+          "name": "takeoff",
+          "trigger": "once at authored release, set upward velocity/end ground support",
+          "nominal_tick": 4
+        },
+        {
+          "name": "apex_crossed",
+          "trigger": "vertical velocity crosses upward to downward once",
+          "nominal_tick": null
+        },
+        {
+          "name": "land_contact",
+          "trigger": "actual descending ground collision once",
+          "nominal_tick": null,
+          "nominal_storyboard_tick_only": 18
+        },
+        {
+          "name": "land_recover_open",
+          "trigger": "four ticks after actual land_contact",
+          "nominal_tick": null
+        },
+        {
+          "name": "action_complete",
+          "trigger": "six ticks after actual land_contact",
+          "nominal_tick": null
+        }
+      ],
+      "anchors": {
+        "boots": "declared takeoff and landing material/contact witnesses, not centroids alone",
+        "effects": "optional takeoff dust and landing impact are world/ground-root instances with own clocks",
+        "weapon": "no equipped weapon, no projectile"
+      },
+      "locks": {
+        "movement_and_attack": "queue until landing recovery completes in first pilot",
+        "repeat_jump": "no double jump; holding input does not restart airborne state",
+        "cancel": "no voluntary airborne cancel in initial pilot",
+        "forced_interrupt_reset": "explicit physical state policy and effect cleanup; never teleport to idle midair"
+      },
+      "not_in_first_scope": [
+        "aerial attack",
+        "variable height jump",
+        "double jump",
+        "wall jump",
+        "coyote time",
+        "running jump"
+      ],
+      "completion": "actual contact -> compression -> six-tick landing recovery -> authored neutral or supported walk startup",
+      "framing": "Use shared192 stage.16px nominal height would move measured rest top79 to63 before new pose deformation; test actual hair/raised hands/boots at every airborne phase. Ground-root remains stationary; no per-pose root offset."
+    }
+  ],
+  "adjacent_clip_dependencies": [
+    {
+      "binding": "same_view_neutral_idle_ready",
+      "status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+      "reason": "Approved walk does not supply approved idle/guard; do not rename walk frame0 as idle"
+    },
+    {
+      "binding": "neutral_to_attack_and_attack_to_neutral",
+      "status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+      "review": "guard/anticipation, extension/recoil, recovery/final neutral and one-shot replay seams"
+    },
+    {
+      "binding": "neutral_to_jump_and_landing_to_neutral",
+      "status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+      "review": "crouch/takeoff, rise/apex/fall, actual contact/compression, recovery/endpoints"
+    },
+    {
+      "binding": "walk_stop_settle_and_action_to_walk_start",
+      "status": "PLANNED_NOT_PRODUCED_NOT_APPROVED",
+      "first_pilot_policy": "Stationary entries only; requests during walk defer to an explicitly supported exit and latency is measured",
+      "later_arbitrary_phase_requirement": "Finite supported transition bank for every permitted walk entry including fractional times; preserve root/collision/draw bias"
+    },
+    {
+      "binding": "hurt_fall_recover_death_equipped_guards",
+      "status": "BACKLOG_NOT_PRODUCED_NOT_APPROVED",
+      "reason": "Must exist before advertising those interruption/equipment routes"
+    }
+  ],
+  "planned_tests": {
+    "status": "REQUIREMENTS_ONLY_NOT_EXECUTED_RESULTS",
+    "source_and_export": [
+      "positive rational holds and explicit loop=false",
+      "manifest/frame/guide/reference hashes and scope",
+      "each adjacent pose plus completion/replay/state endpoints",
+      "native and2x dark/light/teal, silhouette-only and isolated costume/hand/boot layers",
+      "actual imported texture and rendered visibleRGBA; fixed scale/camera/pivot and clear margins",
+      "Every new action/transition frame on fixed192 canvas, unchanged paint scale, common(+32,+64) registration and nominal[96,170] pivot; at least4px clear action/equipment border"
+    ],
+    "clock_and_state": [
+      "one simulation clock owns pose/physics/events",
+      "render60,30,15,10fps and250ms hitch",
+      "immediately before/at/after every rational event boundary",
+      "hit_start and hit_end crossed in same update: ordered once, no stale hitbox",
+      "takeoff/apex/land each once; completion, pause/resume, rate change and reset",
+      "buffered latest legal request; held input does not restart action",
+      "forced interruption closes hitboxes and clears owned effect clocks",
+      "collision sweep or equivalent simulation coverage when rendering skips active strike poses",
+      "explicit exceptional catch-up limit; no silently lost gameplay events"
+    ],
+    "contact_and_root": [
+      "actual whole-boot material during grounded attack and landing support",
+      "fractions inside held cels, source moving/displaced-foot negative controls",
+      "jump height independent of ground root and shadow",
+      "collision-constrained root preserved through transitions; round final draw origin once"
+    ],
+    "acceptance": [
+      "normal-speed user playback separate from decoded-sheet inspection",
+      "mechanical correctness does not approve new art",
+      "fresh source-bound visual approval before expanding action library"
+    ]
+  },
+  "backlog": [
+    "compatible modular equipment tracks and equipped action profiles",
+    "running attacks or jumps",
+    "combos",
+    "projectiles/spells",
+    "hurt/death/recovery",
+    "other directional views",
+    "other characters"
+  ],
+  "skill_references": [
+    "/home/astra/.codex/skills/sprite-animation-pipeline/SKILL.md",
+    "/home/astra/.codex/skills/sprite-construction-editing/SKILL.md",
+    "/home/astra/.codex/skills/sprite-animation-pipeline/references/manifest.md",
+    "/home/astra/.codex/skills/sprite-animation-pipeline/references/stateful-effects.md",
+    "/home/astra/.codex/skills/sprite-animation-pipeline/references/adjacent-frame-review.md",
+    "/home/astra/.codex/skills/sprite-animation-pipeline/references/locomotion-runtime-and-contact.md",
+    "/home/astra/.codex/skills/sprite-animation-pipeline/references/human-playback-and-loop-diagnosis.md",
+    "/home/astra/.codex/skills/sprite-construction-editing/references/source-paint-and-clip-editing.md"
+  ],
+  "driver_example_limit": "Installed clip_driver.gd demonstrates attack lock/frame events, not implemented jump. Its boundary epsilon is not the strict cumulative-boundary policy to copy blindly.",
+  "equipment_contract": {
+    "status": "PLANNED_ONLY_NOT_IMPLEMENTED",
+    "schema": "actions/attachments.schema.json",
+    "example": "actions/attachments.example.json",
+    "documentation": "docs/equipment-tracks.md",
+    "first_actions_equipment": "unarmed",
+    "separate_tracks": [
+      "body",
+      "held weapon visual",
+      "damage collision",
+      "independent effects"
+    ],
+    "compatibility": "onehand, twohand and ranged motion profiles require explicit compatible body clips; art swap alone cannot change motion semantics",
+    "anchor_authority": "source-hash-bound anatomical near/far hand/grip per frame, with unknown anchors explicit; invalidate when body pixels/registration/camera change"
+  }
+}

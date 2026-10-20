@@ -1,0 +1,53 @@
+{
+  "source_project": "/home/astra/projects/emberwake-demo",
+  "preview_project": "/home/astra/artifacts/emberwake-walk-game-preview-v7/project",
+  "production_assets_modified": false,
+  "publication_performed": false,
+  "config": "registration-v7b-walk-preview-matte.json",
+  "initial_setup_failure": "First copy assumed assets/characters/rowan; catalog correctly binds Rowan to assets/hero. First optional import ran before replacement; no checks from that setup counted. Actual paths now read from catalog and all6 files verified.",
+  "scope": "Isolated provisionalwalks, no8motion claim. Source scripts/world copied unchanged; only catalog-bound atlas/manifestresources replaced.",
+  "resources": [
+    {
+      "actor": "rowan",
+      "resource": "assets/hero/atlas.png",
+      "production_before_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+      "preview_sha256": "097f1e843d36e42dde2391b45ee9d95d42b512896380627d4cd2c4db5d928625",
+      "production_unchanged": true
+    },
+    {
+      "actor": "rowan",
+      "resource": "assets/hero/animations.json",
+      "production_before_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+      "preview_sha256": "404ad11353686b4956129463353287ec98572a3d19d45721a155a8628ae8c080",
+      "production_unchanged": true
+    },
+    {
+      "actor": "lyra",
+      "resource": "assets/characters/lyra/atlas.png",
+      "production_before_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+      "preview_sha256": "079dc4622137cdf35dda970faa11a41966d10868a590204e7d5e7aa7e26fae5d",
+      "production_unchanged": true
+    },
+    {
+      "actor": "lyra",
+      "resource": "assets/characters/lyra/animations.json",
+      "production_before_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+      "preview_sha256": "ca02b2abdb27842a5a7b18694ce0c571f208fc606f4a3ab71264bef6409f63d0",
+      "production_unchanged": true
+    },
+    {
+      "actor": "brann",
+      "resource": "assets/characters/brann/atlas.png",
+      "production_before_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+      "preview_sha256": "1a50ae7d0e4706356bfe767432078f4e4824861e0313ce8267319e17f6b8a6a3",
+      "production_unchanged": true
+    },
+    {
+      "actor": "brann",
+      "resource": "assets/characters/brann/animations.json",
+      "production_before_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+      "preview_sha256": "7cad82b827a87dfbaed02f653347f79861c0468fb478d356d4af3b547cc4f802",
+      "production_unchanged": true
+    }
+  ]
+}

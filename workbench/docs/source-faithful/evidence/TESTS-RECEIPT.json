@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "recorded_utc": "2026-10-14T01:23:16.764753+00:00",
+  "source_commit": "f0af029ad4bcdeb49c0fb1a31cc31555db10a5f9",
+  "result": {
+    "tests": 527,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 71.782
+  },
+  "warnings": 1398,
+  "warnings_boundary": "Existing Pillow getdata deprecation warnings; not test failures",
+  "evidence": [
+    {
+      "file": "docs/source-faithful/evidence/TESTS.xml",
+      "sha256": "75fed0ab101364bbb5d62f2961138015bbb5a526c99bc9dbcd22f75bc4eae688",
+      "bytes": 73222
+    },
+    {
+      "file": "docs/source-faithful/evidence/TESTS.log",
+      "sha256": "7bdd5ac113149f06d4b83b4b96c63d538535e0f7440f1d27f44b725fa72054e8",
+      "bytes": 3118
+    }
+  ],
+  "subsequent_runtime_change": {
+    "commit": "f4e10a72a1597e4cf355de316e563250d8216311",
+    "scope": "Four JavaScript lines restore optional subject/images on Recent selection; no original algorithm modified",
+    "verification": "Final browser before/after restoration, independent two-scenario Node host review, and rebound installed-package proof; full suite was not rerun at this later revision"
+  },
+  "scope": "Mechanical software/source fidelity verification; no art approval, private-model or exhaustive vendor parity claim",
+  "reproduction_command": ".venv/bin/python -m pytest -q --junitxml=runs/source-faithful-final-tests.xml"
+}

@@ -1,0 +1,77 @@
+{
+  "scope": "Selected independent9controls only, no whole11flow/runtime/provider/quality approval",
+  "baseline_owner_commits": [
+    "d004ce3",
+    "9de1618"
+  ],
+  "corrective_owner_commits": [
+    "dfa8a88",
+    "f5b917a"
+  ],
+  "combined_review_snapshot": "7ffb616",
+  "initial_harness": "One initial wrongident field preserved as own malformed caller, never counted as target defect",
+  "baseline_valid_controls": {
+    "passed": 6,
+    "failed": 3,
+    "skipped": 0
+  },
+  "after_dfa8a88": {
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0
+  },
+  "after_f5b917a_with_explicit_timeout_oracle": {
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0
+  },
+  "resolutions": {
+    "C01": "Oversized numeric timeout safely rejects without losing nextping",
+    "C02": "Nonobject and traversal manifest inputs reject as structuredJSON",
+    "C03": "Unavailable review clocks explicitly reported; no nonexistentlinks; exactcomparison/PNG remain",
+    "C04_low": "Ordinary timedwait onactivejob explicitlytimeout, transport stilllive; cancelledlateoutputquarantined and retry idempotent"
+  },
+  "source_hashes": [
+    {
+      "file": "sprite_workbench/channel.py",
+      "sha256": "bd2e2085452a784ff6668c3354eb0e7f586ecbf7e9ea474ecefa97bb15e23b96"
+    },
+    {
+      "file": "sprite_workbench/replication.py",
+      "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957"
+    },
+    {
+      "file": "sprite_workbench/replay_state.py",
+      "sha256": "042529f5b3aa5ea90f0d46e5645fb7f722f74d30f0e39dc567935d99e7b043d2"
+    },
+    {
+      "file": "sprite_workbench/cli.py",
+      "sha256": "ede0eeda84c2f9cd1fad8556e138cfa1b3d0df2e88169839a837b879fc89fc24"
+    },
+    {
+      "file": "sprite_workbench/capabilities.py",
+      "sha256": "19580f50ec3da513ba885e95edb7fffa4bcdaad70c9b24398ee9229b4aaf828a"
+    },
+    {
+      "file": "sprite_workbench/jobs.py",
+      "sha256": "dd3fb66e9b245f7228f7efdfe3b5bb52f580dcfa9ddc89f23ba64265502e5254"
+    },
+    {
+      "file": "tests/test_local_channel_adversarial.py",
+      "sha256": "dcd78c4eb17b9e1d6c3b4cf00c44c3b048183439e08ebffb7bd1361f7ae3217d"
+    }
+  ],
+  "positive_controls": [
+    "Actual oversize-line drain, invalid-message recovery, unsupported namespaces",
+    "Actual candidate-only pipeline publication rejection and persisted terminalstate",
+    "Actual channel suffix selection/rejection and boundservice discovery",
+    "Actual JSONL/controlhost cancellation, latequarantine, retry, publication",
+    "Independent hardcoded RGBA/alpha/visible/hidden/palette/order/clock/pivot assertions"
+  ],
+  "limits": [
+    "Held-host case replaces only handler registration, not channel/JobManager; doesnot certify pipelinecancellationduringsubprocess",
+    "No testofgeometry/methodrecipe modules, whole11channel replay or installedwheel inthisreview",
+    "No engine/GPU/continuousbrowser/art/model/provider/credential calls"
+  ],
+  "producer_edits_by_reviewer": false
+}

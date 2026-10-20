@@ -1,0 +1,1155 @@
+[
+  {
+    "url": "https://api.pixellab.ai/v2/llms.txt",
+    "final_url": "https://api.pixellab.ai/v2/llms.txt",
+    "time_utc": "2026-10-14T03:38:23.499579+00:00",
+    "status": 200,
+    "bytes": 20173,
+    "sha256": "013f141b4fc23d553c5c942844925213c28f2063e4618ac855df51f2deee31d5",
+    "file": "llms.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "sourcemap_header": null
+  },
+  {
+    "url": "https://www.pixellab.ai/",
+    "final_url": "https://www.pixellab.ai/",
+    "time_utc": "2026-10-14T03:38:23.647727+00:00",
+    "status": 200,
+    "bytes": 138979,
+    "sha256": "05622faa8a37bf82f5409db477fcdb0d802e7c9a5528b0cdba33955df68b2b89",
+    "file": "home.html",
+    "content_type": "text/html; charset=utf-8",
+    "sourcemap_header": null
+  },
+  {
+    "url": "https://www.pixellab.ai/pixellab-api",
+    "final_url": "https://www.pixellab.ai/pixellab-api",
+    "time_utc": "2026-10-14T03:38:23.748674+00:00",
+    "status": 200,
+    "bytes": 175743,
+    "sha256": "04e0c75ad9c318f540cbad80f7d8e965b8f4a00443746f1a953f7a21210225bd",
+    "file": "api.html",
+    "content_type": "text/html; charset=utf-8",
+    "sourcemap_header": null
+  },
+  {
+    "url": "https://www.pixellab.ai/create-vfx",
+    "final_url": "https://www.pixellab.ai/create-vfx",
+    "time_utc": "2026-10-14T03:38:23.919350+00:00",
+    "status": 200,
+    "bytes": 23259,
+    "sha256": "24c857dfa45ce077061a887d1b53de6c1fe7d9d9ac52e93cfa3f2e147cb1b47c",
+    "file": "vfx.html",
+    "content_type": "text/html; charset=utf-8",
+    "sourcemap_header": null
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+    "time_utc": "2026-10-14T03:38:45.328313+00:00",
+    "status": 200,
+    "bytes": 91460,
+    "sha256": "0225eb034d024a03bdc90ea6c79f56193662e7c3eee909696298820e517cbb83",
+    "file": "assets/fd572ab51f6c-polyfills-c67a75d1b6f99dc8.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/webpack-e97a37b87197ded8.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/webpack-e97a37b87197ded8.js",
+    "time_utc": "2026-10-14T03:38:45.212982+00:00",
+    "status": 200,
+    "bytes": 4722,
+    "sha256": "ce77dac72e65895a6d1a3017a82150b27f26135adaa2fc9dfe8664a7cfe620a1",
+    "file": "assets/b159a2aa1b5c-webpack-e97a37b87197ded8.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/framework-06a91fef12f27585.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/framework-06a91fef12f27585.js",
+    "time_utc": "2026-10-14T03:38:45.249249+00:00",
+    "status": 200,
+    "bytes": 141075,
+    "sha256": "971452c4cbfde66336b5abea414abf7fbfc7771e707ce728934c339e902aaf2d",
+    "file": "assets/c32796b867df-framework-06a91fef12f27585.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/main-78a09a6fb714e34d.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/main-78a09a6fb714e34d.js",
+    "time_utc": "2026-10-14T03:38:45.256344+00:00",
+    "status": 200,
+    "bytes": 89510,
+    "sha256": "429ed4f167d9974a90f9f836093f65944b228e1cbdbcc30bbbdc5ad220de7d7e",
+    "file": "assets/fcd40281a204-main-78a09a6fb714e34d.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/_app-e78d4f0355c72fed.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/_app-e78d4f0355c72fed.js",
+    "time_utc": "2026-10-14T03:38:45.336502+00:00",
+    "status": 200,
+    "bytes": 923721,
+    "sha256": "6ea2253a54ff17a3c3939f4d03cb212ba786aebef0024e622e2073e3390f05a6",
+    "file": "assets/b1883b5c28c7-_app-e78d4f0355c72fed.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/9911-24b323757b344580.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/9911-24b323757b344580.js",
+    "time_utc": "2026-10-14T03:38:45.297563+00:00",
+    "status": 200,
+    "bytes": 15214,
+    "sha256": "5530a383b8e7ddff584425262e1c402190ccd872d0bc8c9ad4ce2accbf389fa8",
+    "file": "assets/3ac3327b4dad-9911-24b323757b344580.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2543-01a405318c74f0e7.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2543-01a405318c74f0e7.js",
+    "time_utc": "2026-10-14T03:38:45.304915+00:00",
+    "status": 200,
+    "bytes": 13074,
+    "sha256": "f2e32b5cb00f8465c835213783af2c9f32539951a7d1ae685a1bcd95b4c7759a",
+    "file": "assets/068378c075d2-2543-01a405318c74f0e7.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4239-03cd8e47927660d6.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4239-03cd8e47927660d6.js",
+    "time_utc": "2026-10-14T03:38:45.365121+00:00",
+    "status": 200,
+    "bytes": 43718,
+    "sha256": "0502a08b4a1472223a45b558aa9f7f88b9a93a0866291ae0a532176e4404fd50",
+    "file": "assets/853fc9918a46-4239-03cd8e47927660d6.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/index-1cac21a3e8e47418.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/index-1cac21a3e8e47418.js",
+    "time_utc": "2026-10-14T03:38:45.375205+00:00",
+    "status": 200,
+    "bytes": 40434,
+    "sha256": "123e843310f276d70f872e818f8d88a0e415217517b06f5c6a1ea9021e1128ab",
+    "file": "assets/844d3235edd5-index-1cac21a3e8e47418.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_buildManifest.js",
+    "final_url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_buildManifest.js",
+    "time_utc": "2026-10-14T03:38:45.378334+00:00",
+    "status": 200,
+    "bytes": 13578,
+    "sha256": "af0f3a0648f4b89b79226f520a30f36e8c9be33858795bdeffe646a2747d4a4a",
+    "file": "assets/255cb1b76e3b-_buildManifest.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_ssgManifest.js",
+    "final_url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_ssgManifest.js",
+    "time_utc": "2026-10-14T03:38:45.381521+00:00",
+    "status": 200,
+    "bytes": 109,
+    "sha256": "836c3d0466e0795b58a5776c92f370b8def0080c3c6a26b20a497680eda2e765",
+    "file": "assets/48658120c055-_ssgManifest.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "final_url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "time_utc": "2026-10-14T03:38:45.421514+00:00",
+    "status": 200,
+    "bytes": 31679,
+    "sha256": "3e5bc7ca508f5d5aa7255341243840c8d2b70c8aea323800b51610df3f5a8a2c",
+    "file": "assets/da30dbe04e4d-v4bc70e2c01a94c73b74392e4234840661791215815920",
+    "content_type": "text/javascript;charset=UTF-8",
+    "sourcemap_header": null,
+    "linked_from": [
+      "home.html",
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7886-672cda0280111da5.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7886-672cda0280111da5.js",
+    "time_utc": "2026-10-14T03:38:45.430825+00:00",
+    "status": 200,
+    "bytes": 11723,
+    "sha256": "77431311db84e28b99524a1aed40948836d828170e6a8527842880f9edaf78b8",
+    "file": "assets/dc2c0fcfc7cc-7886-672cda0280111da5.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "api.html",
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/8974-9072259a80d3f483.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/8974-9072259a80d3f483.js",
+    "time_utc": "2026-10-14T03:38:45.421271+00:00",
+    "status": 200,
+    "bytes": 9887,
+    "sha256": "cad2ed78bfb094d41d8fb8e5124b28f0886cd166df0f751ee38f7e4b71a3ea45",
+    "file": "assets/548624b89d35-8974-9072259a80d3f483.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "api.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/5637-6ac29ae0aa8083e7.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/5637-6ac29ae0aa8083e7.js",
+    "time_utc": "2026-10-14T03:38:45.439423+00:00",
+    "status": 200,
+    "bytes": 10144,
+    "sha256": "9028e9414fc18cf22f8a35f3de65ba2690db72a4cb4dfc479c1c848736a6a7b8",
+    "file": "assets/f619ee439098-5637-6ac29ae0aa8083e7.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "api.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/pixellab-api-2e94656868ca9107.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/pixellab-api-2e94656868ca9107.js",
+    "time_utc": "2026-10-14T03:38:45.495224+00:00",
+    "status": 200,
+    "bytes": 56292,
+    "sha256": "5f6c181a2133986d11064ccb63162b5c92e71b7370e69c5d22d12a2aaf91d3ef",
+    "file": "assets/fd15dfb41cfa-pixellab-api-2e94656868ca9107.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "api.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/0c428ae2-8959f8c75adce65b.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/0c428ae2-8959f8c75adce65b.js",
+    "time_utc": "2026-10-14T03:38:45.475028+00:00",
+    "status": 200,
+    "bytes": 1172,
+    "sha256": "1edec6f7e6c8c29e54fb8d81b166bf06716ca8f4943713220c359a12e86f8fc4",
+    "file": "assets/5212c08bc7aa-0c428ae2-8959f8c75adce65b.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/796-3b71c85fec7b9168.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/796-3b71c85fec7b9168.js",
+    "time_utc": "2026-10-14T03:38:45.477913+00:00",
+    "status": 200,
+    "bytes": 13005,
+    "sha256": "9dc2210bf19538bb6633dd34155385ebef056b8c61a3abb8ad8c30246ed4ffcf",
+    "file": "assets/e4d08058fe9c-796-3b71c85fec7b9168.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2994-7cb38a185b13892f.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2994-7cb38a185b13892f.js",
+    "time_utc": "2026-10-14T03:38:45.492013+00:00",
+    "status": 200,
+    "bytes": 10168,
+    "sha256": "6f97f3801f96dc23ca2e5e60006848ef82558338f607636159a7da654fd1995c",
+    "file": "assets/ffa99b7b5f05-2994-7cb38a185b13892f.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6197-f3a6aa9c29ed3979.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6197-f3a6aa9c29ed3979.js",
+    "time_utc": "2026-10-14T03:38:45.522761+00:00",
+    "status": 200,
+    "bytes": 10791,
+    "sha256": "55ee6cf155cd33480d29521bf89b2505deb2c964c31a3337fbb558a1f7cd582e",
+    "file": "assets/47e3a947bd13-6197-f3a6aa9c29ed3979.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6336-32123abf0aad5d33.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6336-32123abf0aad5d33.js",
+    "time_utc": "2026-10-14T03:38:45.521627+00:00",
+    "status": 200,
+    "bytes": 10353,
+    "sha256": "a03a0bbbfc17795f095ea78a69507d222344d7e7e68500048f28a815dd69f78a",
+    "file": "assets/e5baa0d0a526-6336-32123abf0aad5d33.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/3778-ef7c5cd0341f4223.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/3778-ef7c5cd0341f4223.js",
+    "time_utc": "2026-10-14T03:38:45.537158+00:00",
+    "status": 200,
+    "bytes": 10159,
+    "sha256": "47c12e2b6e6e0e3f127b993260c72c720454e2624129e95d8632b398eeede609",
+    "file": "assets/1a3fdee865ef-3778-ef7c5cd0341f4223.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4354-3a62375cb4c03823.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4354-3a62375cb4c03823.js",
+    "time_utc": "2026-10-14T03:38:45.539327+00:00",
+    "status": 200,
+    "bytes": 14434,
+    "sha256": "cc7e87ddeb584f550ab863bc10792addab01469be1143ede0cded67a096284de",
+    "file": "assets/4145f1ac80e9-4354-3a62375cb4c03823.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/1184-002340beee8fb10d.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/1184-002340beee8fb10d.js",
+    "time_utc": "2026-10-14T03:38:45.575335+00:00",
+    "status": 200,
+    "bytes": 18439,
+    "sha256": "cd31af14aec7cc1d3ea8c8dcdb54cb9c26dd9259cf975b096f9f855f5b969911",
+    "file": "assets/430b21a3a015-1184-002340beee8fb10d.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2198-74cc7b50dd066290.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2198-74cc7b50dd066290.js",
+    "time_utc": "2026-10-14T03:38:45.571864+00:00",
+    "status": 200,
+    "bytes": 14064,
+    "sha256": "649ebfc820d2cb9486580df902a0537bda03792818db0d5d83bd29c9cff00463",
+    "file": "assets/e126b83ebd41-2198-74cc7b50dd066290.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7423-7551acd3011f53c7.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7423-7551acd3011f53c7.js",
+    "time_utc": "2026-10-14T03:38:45.614024+00:00",
+    "status": 200,
+    "bytes": 58013,
+    "sha256": "4f955fc14e848757fe325ddc64e073073ba91ec1ac04d7a1b362cf6c1f855af2",
+    "file": "assets/6fd0a4980554-7423-7551acd3011f53c7.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-vfx-b876fab0cfaf0dae.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-vfx-b876fab0cfaf0dae.js",
+    "time_utc": "2026-10-14T03:38:45.624577+00:00",
+    "status": 200,
+    "bytes": 288581,
+    "sha256": "08da18c2c8519c6e540544322d8ac39ebef901e3a2e2abe34ff0050f4561cb51",
+    "file": "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "vfx.html"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/98ea7ec2-961fa654fc3da6c4.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/98ea7ec2-961fa654fc3da6c4.js",
+    "time_utc": "2026-10-14T03:41:35.321502+00:00",
+    "status": 200,
+    "bytes": 536,
+    "sha256": "f607dde6e28cd94eda24acf74d8d753f9868dc8dccd438d5d65826f0a99ccf16",
+    "file": "assets/e28745fb1a93-98ea7ec2-961fa654fc3da6c4.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/3848-d641e9b04420d316.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/3848-d641e9b04420d316.js",
+    "time_utc": "2026-10-14T03:41:35.318952+00:00",
+    "status": 200,
+    "bytes": 15042,
+    "sha256": "f818983c1c3e1041de92f0268314932b4b38ec35f0ffcc2ce785d12d4f385118",
+    "file": "assets/db0f606453c6-3848-d641e9b04420d316.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create",
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7781-70c5efed2aff0450.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7781-70c5efed2aff0450.js",
+    "time_utc": "2026-10-14T03:41:35.323007+00:00",
+    "status": 200,
+    "bytes": 15813,
+    "sha256": "79a687d6a350f800db828e54926af6976c6defda4868dfd77a739a7eaeda8ea9",
+    "file": "assets/bc0d06d6853f-7781-70c5efed2aff0450.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4747-4a4aa7ae092366eb.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4747-4a4aa7ae092366eb.js",
+    "time_utc": "2026-10-14T03:41:35.322992+00:00",
+    "status": 200,
+    "bytes": 15733,
+    "sha256": "8a28fc83be9b1408844db870eff6cc0eed9ab8387ed5aac267ca31ecbf4106bc",
+    "file": "assets/a213ed236631-4747-4a4aa7ae092366eb.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create",
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+    "time_utc": "2026-10-14T03:41:35.385529+00:00",
+    "status": 200,
+    "bytes": 36373,
+    "sha256": "077cbc8f10724502107814a7a206a1dc24211a1125b7e6e301aadd941b3f4a64",
+    "file": "assets/fd910d1fc77a-6428-00f1c1ac0ad70f79.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create",
+      "buildManifest route /create-character/new",
+      "buildManifest route /create-character/[id]/add-animation",
+      "buildManifest route /create-object/[id]/animate"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6279-4b52898c2c543174.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6279-4b52898c2c543174.js",
+    "time_utc": "2026-10-14T03:41:35.371215+00:00",
+    "status": 200,
+    "bytes": 8197,
+    "sha256": "8a8d2e490b593be20f3c435806ace17535ce35fb2341484c9ab3ee7db3ad9634",
+    "file": "assets/a30749705381-6279-4b52898c2c543174.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create",
+      "buildManifest route /create-character/new",
+      "buildManifest route /create-character/[id]/add-animation",
+      "buildManifest route /create-object/[id]/animate"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/8553-b15d069c13db3bf6.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/8553-b15d069c13db3bf6.js",
+    "time_utc": "2026-10-14T03:41:35.366317+00:00",
+    "status": 200,
+    "bytes": 12113,
+    "sha256": "a9f090f3b836f99d2a837bc68e4231d0379e7b735fd055597c4d3806edf51489",
+    "file": "assets/53885371762a-8553-b15d069c13db3bf6.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/5110-0d7b2f8d1b9d148f.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/5110-0d7b2f8d1b9d148f.js",
+    "time_utc": "2026-10-14T03:41:35.380186+00:00",
+    "status": 200,
+    "bytes": 41943,
+    "sha256": "2fffa9601c77e9ce263bd7725f42f3074727033d22c68fdeaad1e8932f99b4b7",
+    "file": "assets/631b05c3312a-5110-0d7b2f8d1b9d148f.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create",
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2386-0c23ec27d0c4a587.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2386-0c23ec27d0c4a587.js",
+    "time_utc": "2026-10-14T03:41:35.418152+00:00",
+    "status": 200,
+    "bytes": 13707,
+    "sha256": "a5f31dab2ea849535b293d1a4928b5f7c547f9e7ad5a0aaf5bc53952058246ac",
+    "file": "assets/34b0446d2f5b-2386-0c23ec27d0c4a587.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7938-4c723aa968c6979b.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7938-4c723aa968c6979b.js",
+    "time_utc": "2026-10-14T03:41:35.418464+00:00",
+    "status": 200,
+    "bytes": 11596,
+    "sha256": "91c84d12423d68b27804f698a8e968b025265a0b170475c91b0614d3f095abbc",
+    "file": "assets/8c1166c60b9d-7938-4c723aa968c6979b.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create",
+      "buildManifest route /create-character/[id]/add-animation",
+      "buildManifest route /create-object/[id]/animate"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6850-ec9f1cddde9e9042.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6850-ec9f1cddde9e9042.js",
+    "time_utc": "2026-10-14T03:41:35.434644+00:00",
+    "status": 200,
+    "bytes": 18606,
+    "sha256": "1ead99aef65e5ce5e7168fd6f40c47e790d3fae5af7cabddceaeaca14603325a",
+    "file": "assets/0e84192d0b34-6850-ec9f1cddde9e9042.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2260-652db7234030c4b8.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2260-652db7234030c4b8.js",
+    "time_utc": "2026-10-14T03:41:35.440983+00:00",
+    "status": 200,
+    "bytes": 28596,
+    "sha256": "7a107b8fc737ce1fc93fc7fc1a65c84582541e32a69beb5e31ca9be32bc22c81",
+    "file": "assets/2396b43758db-2260-652db7234030c4b8.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4156-ad19a36a641ceb01.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4156-ad19a36a641ceb01.js",
+    "time_utc": "2026-10-14T03:41:35.475032+00:00",
+    "status": 200,
+    "bytes": 22394,
+    "sha256": "83f14d55fc8c94cbe2a305718dd550c7126a49634311e06fcd96e75baeb889ad",
+    "file": "assets/beb22096fae1-4156-ad19a36a641ceb01.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2938-0f2e835ff2fa9208.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2938-0f2e835ff2fa9208.js",
+    "time_utc": "2026-10-14T03:41:35.486253+00:00",
+    "status": 200,
+    "bytes": 24523,
+    "sha256": "97bcf1df1993ec7529d56591e9de8df1220198459a2bcee6a8d3a9d8b5b21ef4",
+    "file": "assets/a7cd50a5ce94-2938-0f2e835ff2fa9208.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-9c5cec3372075418.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-9c5cec3372075418.js",
+    "time_utc": "2026-10-14T03:41:35.528969+00:00",
+    "status": 200,
+    "bytes": 517769,
+    "sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+    "file": "assets/2713c302f049-create-9c5cec3372075418.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2d36dd80-5c3601c811f1bb4c.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2d36dd80-5c3601c811f1bb4c.js",
+    "time_utc": "2026-10-14T03:41:35.540908+00:00",
+    "status": 200,
+    "bytes": 375449,
+    "sha256": "4fe0e601c1555ae5c6f16d2622a99b9478a30186be7efbb2a000265b75a8d9f7",
+    "file": "assets/69f05179c12c-2d36dd80-5c3601c811f1bb4c.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/fb7d5399-7402e4324c56d152.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/fb7d5399-7402e4324c56d152.js",
+    "time_utc": "2026-10-14T03:41:35.570328+00:00",
+    "status": 200,
+    "bytes": 338783,
+    "sha256": "56c851453d5dbb6a33bf24507c53598b1aaeb495e1e79ffa84669e20de9fa5b6",
+    "file": "assets/ea0cf3dc95e8-fb7d5399-7402e4324c56d152.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/162-fdca707ef38f3392.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/162-fdca707ef38f3392.js",
+    "time_utc": "2026-10-14T03:41:35.534714+00:00",
+    "status": 200,
+    "bytes": 9080,
+    "sha256": "b570a9d9e65e35b901dddb1e42595871c5037e27b130d9bdb1b4d7abae69b56c",
+    "file": "assets/9824ee3872ad-162-fdca707ef38f3392.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/985-caedf079ecb6b192.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/985-caedf079ecb6b192.js",
+    "time_utc": "2026-10-14T03:41:35.624161+00:00",
+    "status": 200,
+    "bytes": 183509,
+    "sha256": "2416587399f26f13f82ca01668bb08ef986a4d8020b4fcd77e710251052ecfa2",
+    "file": "assets/1ced74ef09f8-985-caedf079ecb6b192.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7803-e6ab2efa5c3cae73.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7803-e6ab2efa5c3cae73.js",
+    "time_utc": "2026-10-14T03:41:35.590128+00:00",
+    "status": 200,
+    "bytes": 15671,
+    "sha256": "b69278482b5896f8be9b8ab2916278a3aa9baad59e142e4758f19c06b05c6e90",
+    "file": "assets/7c7d014a12a5-7803-e6ab2efa5c3cae73.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/9923-1a672da0d6cc5d92.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/9923-1a672da0d6cc5d92.js",
+    "time_utc": "2026-10-14T03:41:35.595478+00:00",
+    "status": 200,
+    "bytes": 13317,
+    "sha256": "22bdd5dce1d2c0bebf0861cdf316fc52ec0903ae63a8f67bba19adc944ad47a5",
+    "file": "assets/e1e8bd608292-9923-1a672da0d6cc5d92.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/171-f66e65892c3c8c61.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/171-f66e65892c3c8c61.js",
+    "time_utc": "2026-10-14T03:41:35.637221+00:00",
+    "status": 200,
+    "bytes": 25142,
+    "sha256": "f34b15d811afd6473df74861d1619808ea16519a4eb87c5a1e158e36d42361b4",
+    "file": "assets/4d595e59ad7c-171-f66e65892c3c8c61.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new",
+      "buildManifest route /create-character/[id]/generate-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6753-0e6add6ddc87b54f.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6753-0e6add6ddc87b54f.js",
+    "time_utc": "2026-10-14T03:41:35.648205+00:00",
+    "status": 200,
+    "bytes": 17092,
+    "sha256": "476f5f89d7552b3f59cdbf9e45edd848d948bee8be5031f0f77c0a8fc07ab2b6",
+    "file": "assets/3c139c2f6945-6753-0e6add6ddc87b54f.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/5484-fe94dbb031db84ed.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/5484-fe94dbb031db84ed.js",
+    "time_utc": "2026-10-14T03:41:35.657187+00:00",
+    "status": 200,
+    "bytes": 23026,
+    "sha256": "79ece833fbd8b468fa64dfdc0f2d91fbf56e92481c2de0add0f5505e729dfe6f",
+    "file": "assets/e064a901c83c-5484-fe94dbb031db84ed.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7515-235b32e4f727e5d6.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7515-235b32e4f727e5d6.js",
+    "time_utc": "2026-10-14T03:41:35.693296+00:00",
+    "status": 200,
+    "bytes": 93858,
+    "sha256": "eea0fe69bab68ea7c2eba9b9563d66396610fd03ee6dcdf5b5055ae1939c4cac",
+    "file": "assets/c19c0cbe4c51-7515-235b32e4f727e5d6.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/8756-b64e75aaa7daef07.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/8756-b64e75aaa7daef07.js",
+    "time_utc": "2026-10-14T03:41:35.692380+00:00",
+    "status": 200,
+    "bytes": 21390,
+    "sha256": "970ce50bc52b4e4c78ac8166c45dbcfc9ce0b066578d86cf20398688c6750192",
+    "file": "assets/b26ad01b8c5b-8756-b64e75aaa7daef07.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/new-b917abc8124a07ea.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/new-b917abc8124a07ea.js",
+    "time_utc": "2026-10-14T03:41:35.724368+00:00",
+    "status": 200,
+    "bytes": 59820,
+    "sha256": "fce297e10865a74d799f26db0635949048bfd2a05c4f38b45b2e5adffe9a96c8",
+    "file": "assets/9229f37ccab5-new-b917abc8124a07ea.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/new"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/3257-e431195f4ad19e8a.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/3257-e431195f4ad19e8a.js",
+    "time_utc": "2026-10-14T03:41:35.711096+00:00",
+    "status": 200,
+    "bytes": 18505,
+    "sha256": "3c68534bcf8e789d9059c837fd5c3217bc974f09c57b951e9188fbf18a93be3b",
+    "file": "assets/cbe4ed914d1c-3257-e431195f4ad19e8a.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/[id]/add-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7606-8b83e1e39c3045f5.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7606-8b83e1e39c3045f5.js",
+    "time_utc": "2026-10-14T03:41:35.739521+00:00",
+    "status": 200,
+    "bytes": 6109,
+    "sha256": "dfa07b4069b1c326d53b04a3b54d4681d75036e57d0c87ed9ca97c5e45c32373",
+    "file": "assets/2ec1ff631a44-7606-8b83e1e39c3045f5.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/[id]/add-animation",
+      "buildManifest route /create-character/[id]/generate-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4627-44719d0c5e43b757.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4627-44719d0c5e43b757.js",
+    "time_utc": "2026-10-14T03:41:35.759668+00:00",
+    "status": 200,
+    "bytes": 30790,
+    "sha256": "2aedf0a4da4e5df539403caa181d249605b6a3f1b8701083b3e57c756716954f",
+    "file": "assets/01ea6df6331e-4627-44719d0c5e43b757.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/[id]/add-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4740-c10d30668d7ecca4.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4740-c10d30668d7ecca4.js",
+    "time_utc": "2026-10-14T03:41:35.782844+00:00",
+    "status": 200,
+    "bytes": 117745,
+    "sha256": "6b7a2d69d50eb574e1ad9dde6e7968fbc1d81a853eab1d65e3ff725d5869c4e3",
+    "file": "assets/5b17c8126a91-4740-c10d30668d7ecca4.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/[id]/add-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/add-animation-9dddb1120ec17d78.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/add-animation-9dddb1120ec17d78.js",
+    "time_utc": "2026-10-14T03:41:35.774216+00:00",
+    "status": 200,
+    "bytes": 15804,
+    "sha256": "ad42ec7138010ddc8f2a2e35e2b9e2ca217929a56d1ff301715271e4d3b14765",
+    "file": "assets/25d893c67e5b-add-animation-9dddb1120ec17d78.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/[id]/add-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/generate-animation-17f06517f5e1362c.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/generate-animation-17f06517f5e1362c.js",
+    "time_utc": "2026-10-14T03:41:35.795209+00:00",
+    "status": 200,
+    "bytes": 36538,
+    "sha256": "15889bde52c72d5cd428f73d584b993c74d137c39581794be4d94f32c7f15112",
+    "file": "assets/fa54d0f8a5ad-generate-animation-17f06517f5e1362c.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-character/[id]/generate-animation"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/9093-b9fa171a8affd6f6.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/9093-b9fa171a8affd6f6.js",
+    "time_utc": "2026-10-14T03:41:35.830901+00:00",
+    "status": 200,
+    "bytes": 39060,
+    "sha256": "0690969f5caf83be070758b3d840196f06e2fd3d0cdc532b6f6e00d7376c6108",
+    "file": "assets/93fa8038cd8e-9093-b9fa171a8affd6f6.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-object/[id]/animate"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-object/[id]/animate-0c10514e570626e0.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-object/[id]/animate-0c10514e570626e0.js",
+    "time_utc": "2026-10-14T03:41:35.829079+00:00",
+    "status": 200,
+    "bytes": 21024,
+    "sha256": "449714a2f3470569abf48c278475b7545d22234c7226e0e659f5e1b635dd9462",
+    "file": "assets/6172a7807eeb-animate-0c10514e570626e0.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /create-object/[id]/animate"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/pages/editor-2aab8d6e1923545e.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/editor-2aab8d6e1923545e.js",
+    "time_utc": "2026-10-14T03:41:35.833493+00:00",
+    "status": 200,
+    "bytes": 16612,
+    "sha256": "4402cc512309a948b7444e0a94fa7d1ebf768ae2f0c0d2daade24f04367cd942",
+    "file": "assets/7f90153b807d-editor-2aab8d6e1923545e.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "buildManifest route /editor"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/5259.712f0977c9cb2d1d.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/5259.712f0977c9cb2d1d.js",
+    "time_utc": "2026-10-14T03:42:56.563594+00:00",
+    "status": 200,
+    "bytes": 2165,
+    "sha256": "3f3e971002fd609ff75739b85cfd1ce71706ac553911e9a2b1c1084834024628",
+    "file": "assets/8adb1b509159-5259.712f0977c9cb2d1d.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "assets/a30749705381-6279-4b52898c2c543174.js Worker 5259"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/3483.e5ad78e6badae3c7.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/3483.e5ad78e6badae3c7.js",
+    "time_utc": "2026-10-14T03:42:56.629483+00:00",
+    "status": 200,
+    "bytes": 9098,
+    "sha256": "6366685c19ff661e61a885f0489e50f428afc9851ba350ab6f9759430998ac25",
+    "file": "assets/1bd58402941b-3483.e5ad78e6badae3c7.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js Worker 3483"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4647.adc94c99480a1e31.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4647.adc94c99480a1e31.js",
+    "time_utc": "2026-10-14T03:42:56.635800+00:00",
+    "status": 200,
+    "bytes": 2152,
+    "sha256": "fe02416f154d012e16653451a1812f9133bc578c8638a58b555e83adab446d5e",
+    "file": "assets/4e6bf8310e22-4647.adc94c99480a1e31.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js Worker 4647"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/4268.302cba226ebbd729.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/4268.302cba226ebbd729.js",
+    "time_utc": "2026-10-14T03:42:56.630627+00:00",
+    "status": 200,
+    "bytes": 2152,
+    "sha256": "bddee4f56bd6dffc30b7e1a42bf3051e586e38c5dd0b41755ce77defda7d6e06",
+    "file": "assets/2e9701d567c9-4268.302cba226ebbd729.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js Worker 4268"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/2773.ebe3ae194660b5d1.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/2773.ebe3ae194660b5d1.js",
+    "time_utc": "2026-10-14T03:42:56.607093+00:00",
+    "status": 200,
+    "bytes": 5354,
+    "sha256": "b96dda9f83b36757926b17117ce2b2d9b449e764e2c43f6f2ecf53c1a3677ca4",
+    "file": "assets/8164cf839e55-2773.ebe3ae194660b5d1.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js Worker 2773"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/7317.99219ad774563a59.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/7317.99219ad774563a59.js",
+    "time_utc": "2026-10-14T03:42:56.818503+00:00",
+    "status": 200,
+    "bytes": 5354,
+    "sha256": "4be7d8a31ef5ec1c402b0dbd48ae5583cedb09e5168911f00be1d24755e5e417",
+    "file": "assets/1044fb03a07a-7317.99219ad774563a59.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js Worker 7317"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab",
+    "final_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab",
+    "time_utc": "2026-10-14T03:45:27.190832+00:00",
+    "status": 200,
+    "bytes": 6537,
+    "sha256": "095ca7688da022114bc527316b14d9e5d436b93d79f2e416ebb8b3ca9551d018",
+    "file": "assets/9839047aac49-pixelorama_pixellab",
+    "content_type": "text/html; charset=utf-8",
+    "sourcemap_header": null,
+    "linked_from": [
+      "current _app module68202:gZ + Bd/VS version literal; credential-free iframe base"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.js",
+    "final_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.js",
+    "time_utc": "2026-10-14T03:46:34.060527+00:00",
+    "status": 200,
+    "bytes": 279815,
+    "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+    "file": "assets/5a26be503b33-pixelorama_pixellab.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "public Godot HTML config and script/service-worker declarations"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.pck",
+    "final_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.pck",
+    "time_utc": "2026-10-14T03:46:34.248788+00:00",
+    "status": 200,
+    "bytes": 9283280,
+    "sha256": "398455603cf39fc993c59fca3265ed180e246005da631e918018d0c44d497e4f",
+    "file": "assets/8b65e426d6fe-pixelorama_pixellab.pck",
+    "content_type": "application/octet-stream",
+    "sourcemap_header": null,
+    "linked_from": [
+      "public Godot HTML config and script/service-worker declarations"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.service.worker.js",
+    "final_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.service.worker.js",
+    "time_utc": "2026-10-14T03:46:34.318078+00:00",
+    "status": 200,
+    "bytes": 5963,
+    "sha256": "99f2c56aeabaf9201bc1ebe0f5dfb807c48313d279994f9216300e042098bef1",
+    "file": "assets/de7f46734ee7-pixelorama_pixellab.service.worker.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "public Godot HTML config and script/service-worker declarations"
+    ]
+  },
+  {
+    "url": "https://api.pixellab.ai/v2/openapi.json",
+    "final_url": "https://api.pixellab.ai/v2/openapi.json",
+    "time_utc": "2026-10-14T03:48:10.919047+00:00",
+    "status": 200,
+    "bytes": 478504,
+    "sha256": "8cb24ecdd26e9fe48639dc789e44f32b3c78c29e8da8c3121f23ab360ade5dad",
+    "file": "assets/9b3433e4b276-openapi.json",
+    "content_type": "application/json",
+    "sourcemap_header": null,
+    "linked_from": [
+      "llms.txt explicit OpenAPI link"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+    "time_utc": "2026-10-14T03:48:40.102154+00:00",
+    "status": 200,
+    "bytes": 36373,
+    "sha256": "077cbc8f10724502107814a7a206a1dc24211a1125b7e6e301aadd941b3f4a64",
+    "file": "assets/fd910d1fc77a-6428-00f1c1ac0ad70f79.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "worker5259 literalasyncchunk6428"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/6429.f8545d14bae566fd.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/6429.f8545d14bae566fd.js",
+    "time_utc": "2026-10-14T03:48:40.162136+00:00",
+    "status": 200,
+    "bytes": 16644,
+    "sha256": "8d975741ce91162a58ffa676f74999564ada87ab07d507791c108b061595b239",
+    "file": "assets/bb93593d0f18-6429.f8545d14bae566fd.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "VFXworker3483/4647 explicitchunkmap"
+    ]
+  },
+  {
+    "url": "https://www.pixellab.ai/_next/static/chunks/5910.8b197a0aa125c6db.js",
+    "final_url": "https://www.pixellab.ai/_next/static/chunks/5910.8b197a0aa125c6db.js",
+    "time_utc": "2026-10-14T03:48:40.323352+00:00",
+    "status": 200,
+    "bytes": 60702,
+    "sha256": "f1bcb720f08a2e59a77b32abbf7317d0966d1ac8c657eeecb1795f6ff1d05acd",
+    "file": "assets/0c4058f75eeb-5910.8b197a0aa125c6db.js",
+    "content_type": "application/javascript",
+    "sourcemap_header": null,
+    "linked_from": [
+      "VFXworker4647/4268 explicitchunkmap"
+    ]
+  }
+]

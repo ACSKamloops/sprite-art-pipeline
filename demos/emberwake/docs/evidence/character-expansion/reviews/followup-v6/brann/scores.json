@@ -1,0 +1,108 @@
+{
+  "character": "brann",
+  "version": "bake-v6",
+  "scale": "0 to 10; holistic overall, not an arithmetic mean",
+  "scores": {
+    "drawing": 7.8,
+    "reference_fit": 7.6,
+    "consistency": 7.7,
+    "motion": 7.0,
+    "usefulness": 7.7,
+    "overall": 7.6
+  },
+  "confidence": {
+    "drawing": 0.85,
+    "reference_fit": 0.68,
+    "consistency": 0.86,
+    "motion": 0.69,
+    "usefulness": 0.8,
+    "overall": 0.79
+  },
+  "input_fingerprint": "ee1476d39b69e89045c63f23b8e8e7584fce348d767b004d70654fe7f5af9ca1",
+  "input_hashes": {
+    "atlas.png": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4",
+    "animations.json": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921",
+    "BAKE-RECEIPT.json": "254e8c94fea46ca326424c3a821ef057f64eb338462c0c56b8f7fcd7e7865b3a",
+    "GAIT-REPAIR-RECEIPT.json": "d874df2604e6cfd99c652fea5893c456e16a8993304882018721886e9f2503a8"
+  },
+  "scope": {
+    "full_set_clips": 24,
+    "directions": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "actions": [
+      "idle",
+      "walk",
+      "attack",
+      "cast",
+      "hurt",
+      "dodge"
+    ],
+    "fresh_complete_clips": [
+      "south_walk",
+      "south_attack",
+      "south_dodge",
+      "north_walk"
+    ],
+    "exact_transfer_complete_clips": [
+      "south_idle",
+      "south_cast",
+      "south_hurt",
+      "east_idle",
+      "east_walk",
+      "east_attack",
+      "east_cast",
+      "east_hurt",
+      "east_dodge",
+      "north_idle",
+      "north_attack",
+      "north_cast",
+      "north_hurt",
+      "north_dodge",
+      "west_idle",
+      "west_walk",
+      "west_attack",
+      "west_cast",
+      "west_hurt",
+      "west_dodge"
+    ],
+    "unchanged_idle_endpoint_joins": 76,
+    "fresh_idle_endpoint_joins": 4,
+    "stored": {
+      "clips": 24,
+      "physical_cells": 136,
+      "nonempty_cells": 133,
+      "declared_repair_cells": 5,
+      "original_128_preserved": true,
+      "timeline_presentations": 128,
+      "selected_unique": 116
+    }
+  },
+  "assessment": "Keep the selected v6 repairs; coherent and useful compact-game art. No new anatomical defect or patch seam demonstrated. Full normal-speed motion polish remains unverified.",
+  "score_rationale": "Drawing and reference-fit scores remain fixed. Consistency and practical use improve only for the selected repairs. Motion improvement is limited to visible chronology/readability, not source preservation or runtime QA.",
+  "remaining_priorities": [
+    {
+      "priority": 1,
+      "kind": "human playback uncertainty, not a demonstrated defect",
+      "target": "Brann south_walk f120>121>129 and loop f130>0",
+      "action": "Use the unchanged-clock media in a real-time equal-scale comparison before commissioning further pixels. The still evidence supports keeping v6; no timed hitch is claimed."
+    },
+    {
+      "priority": 2,
+      "kind": "minor rendering variation; no repair currently required",
+      "target": "Brann east_attack f41>117>42 and west_attack f97>119>98",
+      "action": "If a brief cuff/trim rendering flash is confirmed in playback, refine only that demonstrated feature. Do not broadly redesign stance or recolor intact clips."
+    }
+  ],
+  "limits": [
+    "Decoded still chronology and known exact holds; no continuous normal-speed human perception.",
+    "No browser, gameplay, spell behavior, export or controller-feel validation.",
+    "84-pixel nearest review cell approximates draw_scale 0.66; engine sampling is not tested.",
+    "Follow-up reviewer with disclosed v1 incidental general-skill/early-lineage exposure; not a cold blind review.",
+    "No communication with the separate cold reviewer before freeze."
+  ],
+  "frozen_at_utc": "2026-10-16T15:48:16.982845+00:00"
+}

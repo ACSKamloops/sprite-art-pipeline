@@ -1,0 +1,100 @@
+{
+  "coordinates": "[x0,y0,x1,y1], right/bottom exclusive",
+  "regions": [
+    {
+      "name": "flat_border",
+      "rect": [
+        0,
+        0,
+        96,
+        8
+      ]
+    },
+    {
+      "name": "enclosed_same_background_rgb",
+      "rect": [
+        44,
+        47,
+        52,
+        55
+      ]
+    },
+    {
+      "name": "open_same_background_channel",
+      "rect": [
+        28,
+        59,
+        42,
+        62
+      ]
+    },
+    {
+      "name": "dark_chest_detail",
+      "rect": [
+        33,
+        48,
+        37,
+        52
+      ]
+    },
+    {
+      "name": "near_background_foreground_decoration",
+      "rect": [
+        57,
+        57,
+        61,
+        61
+      ]
+    },
+    {
+      "name": "opaque_armor_reference",
+      "rect": [
+        32,
+        54,
+        39,
+        57
+      ]
+    },
+    {
+      "name": "armor_alpha_0",
+      "rect": [
+        33,
+        44,
+        36,
+        46
+      ],
+      "source_alpha": 0
+    },
+    {
+      "name": "armor_alpha_64",
+      "rect": [
+        39,
+        44,
+        42,
+        46
+      ],
+      "source_alpha": 64
+    },
+    {
+      "name": "armor_alpha_128",
+      "rect": [
+        53,
+        44,
+        56,
+        46
+      ],
+      "source_alpha": 128
+    },
+    {
+      "name": "armor_alpha_255",
+      "rect": [
+        59,
+        44,
+        62,
+        46
+      ],
+      "source_alpha": 255
+    }
+  ],
+  "warning": "Source-designed probe areas; enclosed same-color patch is semantically ambiguous. No estimated/groundtruth semantic removal mask."
+}

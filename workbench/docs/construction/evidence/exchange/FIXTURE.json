@@ -1,0 +1,174 @@
+{
+  "schema": "sprite-edit-project/v1",
+  "canvas": {
+    "width": 4,
+    "height": 3,
+    "render_pivot": [
+      1,
+      1
+    ],
+    "ground_pivot": [
+      2,
+      2
+    ]
+  },
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      255,
+      0,
+      0,
+      255
+    ],
+    [
+      0,
+      0,
+      255,
+      255
+    ],
+    [
+      0,
+      255,
+      0,
+      255
+    ],
+    [
+      255,
+      0,
+      0,
+      255
+    ]
+  ],
+  "layers": [
+    {
+      "id": "background",
+      "name": "Locked background",
+      "locked": true
+    },
+    {
+      "id": "paint",
+      "name": "Paint",
+      "locked": false
+    }
+  ],
+  "cels": {
+    "locked": {
+      "layer_id": "background",
+      "pixels": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "a": {
+      "layer_id": "paint",
+      "pixels": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "b": {
+      "layer_id": "paint",
+      "pixels": [
+        0,
+        0,
+        3,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "frames": [
+    {
+      "id": "f0",
+      "duration_ticks": 1,
+      "cels": {
+        "background": "locked",
+        "paint": "a"
+      },
+      "landmarks": {
+        "grip": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f1",
+      "duration_ticks": 2,
+      "cels": {
+        "background": "locked",
+        "paint": "b"
+      },
+      "landmarks": {
+        "grip": [
+          2,
+          1
+        ]
+      }
+    },
+    {
+      "id": "f2",
+      "duration_ticks": 3,
+      "cels": {
+        "background": "locked",
+        "paint": "a"
+      },
+      "landmarks": {
+        "grip": [
+          2,
+          1
+        ]
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "clip",
+      "frames": [
+        "f0",
+        "f1",
+        "f2"
+      ],
+      "fps": 60,
+      "loop": true,
+      "events": [
+        {
+          "at_tick": 2,
+          "name": "contact"
+        }
+      ]
+    }
+  ]
+}

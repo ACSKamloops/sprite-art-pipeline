@@ -1,0 +1,32 @@
+{
+  "status": "PASS exact4cells total; allotherRGBA/clipclocks/handtracks exact",
+  "actors": {
+    "rowan": {
+      "changed_cells": [
+        155,
+        187
+      ],
+      "changed_RGBA_pixels": 818,
+      "all144_clip_bindings_holds_and_hands_unchanged": true,
+      "only_manifest_metadata_change": "directional_source",
+      "new_atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c"
+    },
+    "lyra": {
+      "changed_cells": [],
+      "changed_RGBA_pixels": 0,
+      "all144_clip_bindings_holds_and_hands_unchanged": true,
+      "only_manifest_metadata_change": "directional_source",
+      "new_atlas_sha256": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26"
+    },
+    "brann": {
+      "changed_cells": [
+        179,
+        211
+      ],
+      "changed_RGBA_pixels": 468,
+      "all144_clip_bindings_holds_and_hands_unchanged": true,
+      "only_manifest_metadata_change": "directional_source",
+      "new_atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "walk",
+  "canvas": [
+    12,
+    10
+  ],
+  "pivot": [
+    4,
+    8
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    4
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "rgba-2.png",
+      "sha256": "def41a4b374ed5387d05f90bd34db1bfbff7f61f1d7de10f2beec13e21bf975e",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 1,
+      "file": "rgba-0.png",
+      "sha256": "2f5df795a712d72e69bb7f238839b4b44cc7466bf15006fc4cf6709cde82807a",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 2,
+      "file": "rgba-1.png",
+      "sha256": "7a9d791e68ba15f6eaf04a0f48e194f9b32273481d6dd4fdd79ffe883b66493d",
+      "hold": [
+        1,
+        8
+      ]
+    }
+  ]
+}

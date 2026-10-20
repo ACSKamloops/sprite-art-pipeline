@@ -1,0 +1,105 @@
+{
+  "frozen_workbench_commit": "530baf35598cdbef24133783dd063bd021d1aa9c",
+  "created_utc": "2026-10-13T00:05:20.626651+00:00",
+  "investigation_read_only": true,
+  "baseline_files": [
+    {
+      "namespace": "workbench",
+      "path": "README.md",
+      "sha256": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+      "bytes": 4254,
+      "frozen_copy": "frozen-baseline/workbench/README.md"
+    },
+    {
+      "namespace": "workbench",
+      "path": "docs/ANALYSIS-INDEX.md",
+      "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+      "bytes": 3480,
+      "frozen_copy": "frozen-baseline/workbench/docs/ANALYSIS-INDEX.md"
+    },
+    {
+      "namespace": "workbench",
+      "path": "docs/COVERAGE.md",
+      "sha256": "9ac31358c898677e1b1b389604987152ab982a3acab6248105611bdf7f1d9563",
+      "bytes": 4488,
+      "frozen_copy": "frozen-baseline/workbench/docs/COVERAGE.md"
+    },
+    {
+      "namespace": "workbench",
+      "path": "docs/RECONSTRUCTION-SCOPE.md",
+      "sha256": "b4754c42455f1249205c119fbcb776b7b0f8cf48af0ee90f565336c8a9c87d50",
+      "bytes": 3534,
+      "frozen_copy": "frozen-baseline/workbench/docs/RECONSTRUCTION-SCOPE.md"
+    },
+    {
+      "namespace": "workbench",
+      "path": "docs/WHOLE-FLOW-COMPARISONS.md",
+      "sha256": "1f5841522a005602f68209893b6073f322c29a472a0711b4f6415bb43b2f9ee3",
+      "bytes": 14255,
+      "frozen_copy": "frozen-baseline/workbench/docs/WHOLE-FLOW-COMPARISONS.md"
+    },
+    {
+      "namespace": "investigation",
+      "path": "CURRENT-ANALYSIS.md",
+      "sha256": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+      "bytes": 17400,
+      "frozen_copy": "frozen-baseline/investigation/CURRENT-ANALYSIS.md"
+    },
+    {
+      "namespace": "investigation",
+      "path": "analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md",
+      "sha256": "1dcc79c69912514e1561ba1d6e3019f4a9399438fcaa192df45fa409fa1236f9",
+      "bytes": 3330,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md"
+    },
+    {
+      "namespace": "investigation",
+      "path": "analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md",
+      "sha256": "625b6299116da5c376e8dd8277d6d3e007d46ab0d6b3b09c7b69efc8d5c7efc6",
+      "bytes": 3532,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md"
+    },
+    {
+      "namespace": "investigation",
+      "path": "analysis-root/full-reconstruction/READINESS.md",
+      "sha256": "5f89a429e2839967561c090dfdc17dac4306a5c3b821e5330057251d92139ac7",
+      "bytes": 1068,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/READINESS.md"
+    },
+    {
+      "namespace": "investigation",
+      "path": "analysis-root/full-reconstruction/SOURCE-GATE.json",
+      "sha256": "3dbc9986f739f79afd568ffdf1931fc93f734b8b48cc936cba11df3ffc855c53",
+      "bytes": 2421,
+      "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/SOURCE-GATE.json"
+    },
+    {
+      "namespace": "investigation",
+      "path": "analysis-root/full-reconstruction/SOURCE-FLOW-EVIDENCE-INDEX.json",
+      "sha256": "1b71e1412a7e27ccc1c621580f5e0508fcfedf7c5f878ff33c3630c0aba16a79",
+      "bytes": 1910831,
+      "preservation": "Original canonical remains retained; structural projection saved locally"
+    }
+  ],
+  "concurrent_overlays": [
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/REPORT-CATALOG.json",
+      "sha256": "4c799e8643f501c78128059ce647746373eea1362494efca7b06948c8f9b3362",
+      "bytes": 698101,
+      "authority": "Concurrent root additive overlay; excluded from frozen530baf3 baseline verdict"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RETAINED-FINDING-RECORDS.json",
+      "sha256": "023cf72f171a7a7055d17a401ad9f3bb2cdd1eca84c380e02ee7d0cffccf6222",
+      "bytes": 6652709,
+      "authority": "Concurrent root additive overlay; excluded from frozen530baf3 baseline verdict"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CONSOLIDATED-FINDINGS.md",
+      "sha256": "5123204bf919f47b5ba7486228f95ce6cdc684bdd13877e5e8e90753ed6cddcf",
+      "bytes": 9650,
+      "authority": "Concurrent root additive overlay; excluded from frozen530baf3 baseline verdict"
+    }
+  ],
+  "no_runtime_or_provider_calls": true
+}

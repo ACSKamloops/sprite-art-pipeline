@@ -1,0 +1,278 @@
+{
+  "kind": "pipeline-run",
+  "plan": "8ac909cc0389878d351bfac221b0c8a471cdb2ed3c968b5d9ab8239dbcca28ea",
+  "status": "completed",
+  "steps": [
+    {
+      "action": "import",
+      "result": {
+        "canvas": [
+          2,
+          2
+        ],
+        "frames": 1,
+        "poster_raster": null,
+        "rasters": [
+          "82a3c765fe4f4039b70967d5466887bb303248fa0c6d26ba87b546433261a4d2"
+        ],
+        "sequence": "77ea34229181bfb3f7b1eec3a23d385f80d5a78c604b4113642781c76f205c3f",
+        "source_bytes": "be72a79edd1625238ce6c823a37f58803930b0109b7ca962b38c907ef21175ed"
+      },
+      "step": "source"
+    },
+    {
+      "action": "tracks",
+      "result": {
+        "sequence": "f9d23586fc39d40ec76c0de5479f5b7e2c6c38e697cc70ce730ec3adaf6e2dc4",
+        "track_audit": "3e71f5004e0a836f85ecdd83a22289a243bae6ccb7225b5b1178808f64bb3d54"
+      },
+      "step": "bake"
+    },
+    {
+      "action": "edit",
+      "result": {
+        "audit": {
+          "dialect": "local-raster-v1",
+          "input_mutated": false,
+          "operations": [
+            {
+              "changed": 1,
+              "frames": [
+                2
+              ],
+              "layer": "image",
+              "matched": 1,
+              "operation": "patch_pixels",
+              "ordinal": 0
+            }
+          ],
+          "status": "candidate_needs_visual_review"
+        },
+        "published": false,
+        "revision": "2b87772ad2c083c4eaa65851ee44904c3f07e3728c625edee8f364decf35cc7a",
+        "sequence": "9529586b2430808a6c4072a66c3817c932b8cd1e308735ea433b163cc3c7354f",
+        "status": "candidate_needs_visual_review"
+      },
+      "step": "patch"
+    },
+    {
+      "action": "compose",
+      "result": {
+        "duration": [
+          3,
+          10
+        ],
+        "frames": 5,
+        "sequence": "76a81f3a48ff2214612947bb4e535ab739fc6419803ff7ef6296a6ebdec62c99",
+        "status": "candidate_needs_visual_review"
+      },
+      "step": "compose"
+    },
+    {
+      "action": "export",
+      "result": {
+        "files": [
+          {
+            "bytes": 437,
+            "file": "animation.apng",
+            "sha256": "3514fdeba3dadaa47358db59f971ce2a1eb260eaf8b678e67851ea7122cd32b3"
+          },
+          {
+            "bytes": 202,
+            "file": "editable/artifacts/0cf2be539226de9e5603774507dc9364bca88c988976ced34200d4838110ac82",
+            "sha256": "0cf2be539226de9e5603774507dc9364bca88c988976ced34200d4838110ac82"
+          },
+          {
+            "bytes": 32,
+            "file": "editable/artifacts/4fa15996533637a1d3ef6949939b7a91b427eb624d460cadbac959da9bf42e23",
+            "sha256": "4fa15996533637a1d3ef6949939b7a91b427eb624d460cadbac959da9bf42e23"
+          },
+          {
+            "bytes": 32,
+            "file": "editable/artifacts/5a0202952dfed36fd94b833263508cba11aff1a253ddd1b21eb0125435cb8698",
+            "sha256": "5a0202952dfed36fd94b833263508cba11aff1a253ddd1b21eb0125435cb8698"
+          },
+          {
+            "bytes": 32,
+            "file": "editable/artifacts/5e66a784912cbfb7986f39b21b08c48c79a20b8515a23665b450f0bb1d842829",
+            "sha256": "5e66a784912cbfb7986f39b21b08c48c79a20b8515a23665b450f0bb1d842829"
+          },
+          {
+            "bytes": 1547,
+            "file": "editable/artifacts/76a81f3a48ff2214612947bb4e535ab739fc6419803ff7ef6296a6ebdec62c99",
+            "sha256": "76a81f3a48ff2214612947bb4e535ab739fc6419803ff7ef6296a6ebdec62c99"
+          },
+          {
+            "bytes": 202,
+            "file": "editable/artifacts/7d7cbe92594d7925e569af190d88e6ba324fd300e6ca3b33753f440b889a92a4",
+            "sha256": "7d7cbe92594d7925e569af190d88e6ba324fd300e6ca3b33753f440b889a92a4"
+          },
+          {
+            "bytes": 202,
+            "file": "editable/artifacts/8d69537d21197b1a1ea85f47860be481208de4c6cb3ec4749798eed049237ca5",
+            "sha256": "8d69537d21197b1a1ea85f47860be481208de4c6cb3ec4749798eed049237ca5"
+          },
+          {
+            "bytes": 32,
+            "file": "editable/artifacts/a5dca30c845b2d1e17c2bb0ba70a78c5037ce122562c225477dbc08c4563614b",
+            "sha256": "a5dca30c845b2d1e17c2bb0ba70a78c5037ce122562c225477dbc08c4563614b"
+          },
+          {
+            "bytes": 202,
+            "file": "editable/artifacts/c6a0ccef6e9718056f9f1fb160050cdf0f10d828a0f6db07a83162091a7121ec",
+            "sha256": "c6a0ccef6e9718056f9f1fb160050cdf0f10d828a0f6db07a83162091a7121ec"
+          },
+          {
+            "bytes": 202,
+            "file": "editable/artifacts/cf5730facf40ff299ed9f712bfbcc0a5a0f3c0eabe4205096891ca840b6e3ce5",
+            "sha256": "cf5730facf40ff299ed9f712bfbcc0a5a0f3c0eabe4205096891ca840b6e3ce5"
+          },
+          {
+            "bytes": 32,
+            "file": "editable/artifacts/d0e8653ce600f24a95fd77692ba262ea9cc97ac9ea5993a5f1402c6adcf9a103",
+            "sha256": "d0e8653ce600f24a95fd77692ba262ea9cc97ac9ea5993a5f1402c6adcf9a103"
+          },
+          {
+            "bytes": 899,
+            "file": "editable/index.json",
+            "sha256": "f5a1ca7e6a0bec182b351d74949787322686f9bd5b73136d397f6e31ff2f2e1f"
+          },
+          {
+            "bytes": 81,
+            "file": "frames/frame-0000.png",
+            "sha256": "b17c4aa0e008b40d89d2c5a5a6cef81909d40c3376ca9fb1ea17862ed958e807"
+          },
+          {
+            "bytes": 83,
+            "file": "frames/frame-0001.png",
+            "sha256": "5b7c0c249fd15dbd527208cf2bb9a9c168b50f57531da80c30b5f20e4fdfe0a1"
+          },
+          {
+            "bytes": 84,
+            "file": "frames/frame-0002.png",
+            "sha256": "d61765d78088598a6da1dbddacd9da591e4e7a8b27c92d93bbee86fd28ebace7"
+          },
+          {
+            "bytes": 83,
+            "file": "frames/frame-0003.png",
+            "sha256": "4a4833a7ef35c0e795e1645bfa699f7d88c4088d9e10053209cba9ece01df7da"
+          },
+          {
+            "bytes": 83,
+            "file": "frames/frame-0004.png",
+            "sha256": "b153955cd19767b082e325217492de944870dae21d1a4978947a95abb1bd7b9a"
+          },
+          {
+            "bytes": 3605,
+            "file": "manifest.json",
+            "sha256": "b2b999b6b7e169fa0d7b8a795e8a2559155aa0168cbb76164d6cae82d8f5cc26"
+          },
+          {
+            "bytes": 81,
+            "file": "review/frames/frame-0000.png",
+            "sha256": "b17c4aa0e008b40d89d2c5a5a6cef81909d40c3376ca9fb1ea17862ed958e807"
+          },
+          {
+            "bytes": 83,
+            "file": "review/frames/frame-0001.png",
+            "sha256": "5b7c0c249fd15dbd527208cf2bb9a9c168b50f57531da80c30b5f20e4fdfe0a1"
+          },
+          {
+            "bytes": 84,
+            "file": "review/frames/frame-0002.png",
+            "sha256": "d61765d78088598a6da1dbddacd9da591e4e7a8b27c92d93bbee86fd28ebace7"
+          },
+          {
+            "bytes": 83,
+            "file": "review/frames/frame-0003.png",
+            "sha256": "4a4833a7ef35c0e795e1645bfa699f7d88c4088d9e10053209cba9ece01df7da"
+          },
+          {
+            "bytes": 83,
+            "file": "review/frames/frame-0004.png",
+            "sha256": "b153955cd19767b082e325217492de944870dae21d1a4978947a95abb1bd7b9a"
+          },
+          {
+            "bytes": 10801,
+            "file": "review/review.html",
+            "sha256": "6fa12f48c9847e6087106116141053c1093ba67bac439d8d73b0510b35e16114"
+          },
+          {
+            "bytes": 4494,
+            "file": "review/review.json",
+            "sha256": "3de217a801f0e439e67e9cd95def86078e5f998063046707333fc6b85355d8ef"
+          },
+          {
+            "bytes": 102,
+            "file": "sheet.png",
+            "sha256": "604daee29b0368a1310fa0858dfdd5af1c244a0f9bc5fa0310c818a31d9809bd"
+          }
+        ],
+        "formats": {
+          "apng": {
+            "blend": "SOURCE",
+            "clock": "exact rational16-bit APNG fields",
+            "dispose": "NONE",
+            "num_plays": 1,
+            "ordered_frames": 5,
+            "rgba": "exact including hiddenRGB",
+            "sha256": "3514fdeba3dadaa47358db59f971ce2a1eb260eaf8b678e67851ea7122cd32b3",
+            "status": "written"
+          },
+          "editable": {
+            "artifact_count": 11,
+            "scene_id": null,
+            "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed",
+            "status": "written"
+          },
+          "manifest": {
+            "clock": "exact rational seconds",
+            "file": "manifest.json",
+            "play_count": 1,
+            "status": "written"
+          },
+          "png": {
+            "ordered_frames": 5,
+            "rgba": "exact including hiddenRGB",
+            "status": "written"
+          },
+          "review": {
+            "adjacent_pairs": 4,
+            "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+            "continuous_motion_viewed": false,
+            "diagnostics_file": "review.json",
+            "ordered_frames": 5,
+            "return_pairs": 1,
+            "review_file": "review.html",
+            "status": "written",
+            "visual_acceptance": "unreviewed"
+          },
+          "sheet": {
+            "padding_rgba": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "status": "written",
+            "trim": "none"
+          }
+        },
+        "requested_formats": [
+          "apng",
+          "editable",
+          "manifest",
+          "png",
+          "review",
+          "sheet"
+        ],
+        "sequence_id": "76a81f3a48ff2214612947bb4e535ab739fc6419803ff7ef6296a6ebdec62c99",
+        "source_ids": [],
+        "visual_acceptance": "unreviewed"
+      },
+      "step": "export"
+    }
+  ],
+  "version": 1,
+  "visual_approval": "unreviewed"
+}

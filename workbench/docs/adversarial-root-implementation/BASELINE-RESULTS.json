@@ -1,0 +1,281 @@
+{
+  "reviewed_commit": "6ae55c6",
+  "isolated_cherry_pick": "b663523",
+  "command": "python3 -m pytest -q tests/test_adversarial_root_implementation.py --junitxml=docs/adversarial-root-implementation/BASELINE-JUNIT.xml",
+  "cases": [
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[NaN]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[Infinity]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[-Infinity]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[1e999]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[zero-clock]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[negative-clock]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[zero-denominator]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[clock-budget]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[wrong-index]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonnumeric-pivot]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[blank-direction]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonbool-loop]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonobject-metadata]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[unknown-version]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonarray-frames]",
+      "status": "failed",
+      "message": "TypeError: string indices must be integers, not 'str'"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[missing-raster]",
+      "status": "failed",
+      "message": "KeyError: 'raster'"
+    },
+    {
+      "test": "test_invalid_raster_documents_fail_structured[fields0]",
+      "status": "failed",
+      "message": "KeyError: 'width'"
+    },
+    {
+      "test": "test_invalid_raster_documents_fail_structured[fields1]",
+      "status": "failed",
+      "message": "KeyError: 'blob'"
+    },
+    {
+      "test": "test_invalid_raster_documents_fail_structured[fields2]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_corrupted_bytes_and_pathlike_ids_fail_closed",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_import_decodes_captured_bytes_even_if_path_changes",
+      "status": "failed",
+      "message": "assert [0, 255, 0, 255] == [255, 0, 0, 255]\n  \n  At index 0 diff: 0 != 255\n  Use -v to get more diff"
+    },
+    {
+      "test": "test_apng_default_poster_is_not_manufactured_animation_time",
+      "status": "failed",
+      "message": "assert 3 == 2\n +  where 3 = len([array([[[255,   0,   0, 255],\\n        [255,   0,   0, 255]],\\n\\n       [[255,   0,   0, 255],\\n        [255,   0,   0, 2... 255, 255],\\n        [  0,   0, 255, 255]],\\n\\n       [[  0,   0, 255, 255],\\n        [  0,   0, 255, 255]]], dtype=uint8)])"
+    },
+    {
+      "test": "test_invalid_and_truncated_acquisition_returns_structured_error",
+      "status": "failed",
+      "message": "PIL.UnidentifiedImageError: cannot identify image file '/tmp/pytest-of-astra/pytest-1514/test_invalid_and_truncated_acq0/not-image.bin'"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[missing-brush-color]",
+      "status": "failed",
+      "message": "KeyError: 'color'"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[missing-outline-color]",
+      "status": "failed",
+      "message": "KeyError: 'color'"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[missing-outline-map]",
+      "status": "failed",
+      "message": "KeyError: 'colors'"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonobject-map]",
+      "status": "failed",
+      "message": "AttributeError: 'list' object has no attribute 'items'"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonarray-selector-colors]",
+      "status": "failed",
+      "message": "TypeError: object of type 'NoneType' has no len()"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonbool-pixel-perfect]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonfinite-view]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_empty_layer_rejected_and_late_guard_failure_does_not_publish",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[patch-noop]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[map-noop]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[copy-noop]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[fill-noop]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[erase-noop]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[inner-outline]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[outer-outline]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_current_selection_snapshot_copy_and_outline_have_independent_oracles",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_mask_exclusion_cannot_hide_invalid_patch_coordinate_or_color",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_crop_source_node_guard_stamp_and_bounds",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_brush_interpolation_budget_rejects_before_raster_paint",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_effect_outer_shape_validation_is_structured[recipe0]",
+      "status": "failed",
+      "message": "AttributeError: 'list' object has no attribute 'get'"
+    },
+    {
+      "test": "test_effect_outer_shape_validation_is_structured[recipe1]",
+      "status": "failed",
+      "message": "AttributeError: 'list' object has no attribute 'get'"
+    },
+    {
+      "test": "test_effect_outer_shape_validation_is_structured[recipe2]",
+      "status": "failed",
+      "message": "TypeError: object of type 'int' has no len()"
+    },
+    {
+      "test": "test_pinned_factory_tampering_rejected_in_isolated_resource_copy",
+      "status": "passed",
+      "message": null
+    }
+  ],
+  "passed": 14,
+  "failed": 32,
+  "original_source_files": [
+    {
+      "path": "sprite_workbench/core.py",
+      "sha256": "3c26f61f50e33812a3ec86718aad78b03e443070a4b6a86a20f87f5f161e67f9",
+      "bytes": 8853
+    },
+    {
+      "path": "sprite_workbench/acquisition.py",
+      "sha256": "104b8f95d8ec234cc755dee4a23588418376163f86694946a6fb49d3e935cce9",
+      "bytes": 2255
+    },
+    {
+      "path": "sprite_workbench/raster.py",
+      "sha256": "fd7e9b81e11006eaab41c844094890c3cac7f41ffd053b1bb5cf47d14f10a01f",
+      "bytes": 19794
+    },
+    {
+      "path": "sprite_workbench/effects.py",
+      "sha256": "87acaf2f2f6b753b405e423968b4842d71642c70341df82dbdac4e6558a459a4",
+      "bytes": 4122
+    },
+    {
+      "path": "sprite_workbench/vfx_runner.cjs",
+      "sha256": "21759a298e3e72c412e75ac41c906d371d40f0827c8fece798218f1257d63b34",
+      "bytes": 2750
+    },
+    {
+      "path": "docs/RASTER-AND-EFFECTS.md",
+      "sha256": "2b05fb063882d2a53358fa60bc25706478b22f214759b3f1eaf486153e366b8d",
+      "bytes": 2085
+    },
+    {
+      "path": "tests/test_adversarial_root_implementation.py",
+      "sha256": "55dbfa749bb7c6814dddded0ffe4f45c21ed9db480d3354a200106fb883784e6",
+      "bytes": 12150
+    }
+  ],
+  "authority": "Selected bounded local implementation regressions. Failure cases are not distinct bug counts, target/vendor parity reviews or art-quality scores. Owner fixes not yet present in this isolated baseline.",
+  "network_calls": 0,
+  "model_calls": 0,
+  "paid_calls": 0,
+  "root_owned_source_edits": 0
+}

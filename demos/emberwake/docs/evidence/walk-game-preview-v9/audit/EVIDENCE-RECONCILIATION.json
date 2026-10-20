@@ -1,0 +1,135 @@
+{
+  "scope": "Offline evidence reconciliation; bounded six-image crop spot check. Full raw PNG corpus deliberately not rescanned.",
+  "browser": {
+    "receipts": 193,
+    "traces": 24,
+    "samples": 379,
+    "maximum_physics_tick_gap": 4,
+    "maximum_observer_ms_gap": 72,
+    "fps_range": [
+      28,
+      47
+    ],
+    "all_coverage_rows_recomputed_exact": true
+  },
+  "native": [
+    {
+      "actor": "rowan",
+      "view": "southeast",
+      "samples": 288,
+      "spot_checked_file": "rowan-southeast/0000.png",
+      "PNG_sha256": "0d9ce8bb407571e4c429c741b828e9e45790089b7f842aa0898f39baae637e84",
+      "recorded_and_verified_RGBA_hex_text_sha256": "93995c6167a4b385089a079bb90fdfd3b4f1598ef543456af2f6322c640891cb",
+      "different_RGBA_raw_bytes_sha256": "e2186de196aa10789a58316758aadb07669f1210d7aa9742d90ff1b88d053d3f"
+    },
+    {
+      "actor": "rowan",
+      "view": "northeast",
+      "samples": 288,
+      "spot_checked_file": "rowan-northeast/0000.png",
+      "PNG_sha256": "45d3e3d546eb9eb3996a2efb252a972161785e7bef26c2c92847149f4f1faf6c",
+      "recorded_and_verified_RGBA_hex_text_sha256": "8167faed374b7916a730014c8e3ce9dfd47b93efeda3ff4aea5e338223baadc9",
+      "different_RGBA_raw_bytes_sha256": "b8de0c6c1b265349126b988505e15574ca4c46cd0660bbc182389a6ff5ad903e"
+    },
+    {
+      "actor": "lyra",
+      "view": "southeast",
+      "samples": 288,
+      "spot_checked_file": "lyra-southeast/0000.png",
+      "PNG_sha256": "0115aae00ca119848392ce9cdf06f458c4651e396513362030c9a5ffc1c3d3cf",
+      "recorded_and_verified_RGBA_hex_text_sha256": "fae699ad0599fa287219b4b031807c33c857feb5cfb5d875596466dc4193b330",
+      "different_RGBA_raw_bytes_sha256": "3f34d1c680874963affab2fb0a47a69991a575a31dfab716cd3cf888f7909468"
+    },
+    {
+      "actor": "lyra",
+      "view": "northeast",
+      "samples": 288,
+      "spot_checked_file": "lyra-northeast/0000.png",
+      "PNG_sha256": "dd8ace832e0dc85c382bd7680bc4b78a85896ef211210e4abfabb63a03a440ba",
+      "recorded_and_verified_RGBA_hex_text_sha256": "026a68b184a23c2dce5af45dc4c8ee44fbf995e06acba7166f32fd84e5c9f3b1",
+      "different_RGBA_raw_bytes_sha256": "b83b7ebabb91998c608690aa26e85e64998037348bfea1879df1a742cb3484ac"
+    },
+    {
+      "actor": "brann",
+      "view": "southeast",
+      "samples": 288,
+      "spot_checked_file": "brann-southeast/0000.png",
+      "PNG_sha256": "672a219dc067691c1f5692f9bfe49d38075b0c733a6068f84bf5aea7b8f2e1bc",
+      "recorded_and_verified_RGBA_hex_text_sha256": "2572a2031e46508d671eba4b4d15efcbb259dc81c29e2fc4245f89f332aa8f28",
+      "different_RGBA_raw_bytes_sha256": "e6d9f41ce737ae2dacadf250321c0638a006d73bd560c01e25776ca510d471c8"
+    },
+    {
+      "actor": "brann",
+      "view": "northeast",
+      "samples": 288,
+      "spot_checked_file": "brann-northeast/0000.png",
+      "PNG_sha256": "2e312ddaf0f87d3a37207bea220dc87607732792ca9696afcc7a05b8538fbfd6",
+      "recorded_and_verified_RGBA_hex_text_sha256": "3fbf70b1f2512ec92a87728b03c15250a76624a848eb13b3e6f45d1725f11955",
+      "different_RGBA_raw_bytes_sha256": "08a5d9fc19489c809f0fbf3e2abc610b3a742c944a8020b8e92c0836968038c8"
+    }
+  ],
+  "behavior": [
+    {
+      "name": "behavior-initial",
+      "all_passed": false,
+      "failed_cases": [
+        "final_polish.gd"
+      ],
+      "reported_assertions": 1804,
+      "route_samples": 378,
+      "seconds": [
+        3.614,
+        0.634,
+        1.953,
+        0.548,
+        4.373,
+        0.546,
+        22.791,
+        0.922,
+        1.199,
+        6.411,
+        0.546
+      ]
+    },
+    {
+      "name": "behavior-unpatched-followup",
+      "all_passed": true,
+      "failed_cases": [],
+      "reported_assertions": 1804,
+      "route_samples": 378,
+      "seconds": [
+        3.508,
+        0.625,
+        1.941,
+        0.538,
+        4.253,
+        0.541,
+        22.855,
+        0.902,
+        1.089,
+        6.392,
+        0.529
+      ]
+    },
+    {
+      "name": "behavior-cleanup",
+      "all_passed": true,
+      "failed_cases": [],
+      "reported_assertions": 1804,
+      "route_samples": 378,
+      "seconds": [
+        3.511,
+        0.629,
+        1.931,
+        0.532,
+        4.259,
+        0.813,
+        22.852,
+        0.809,
+        1.092,
+        6.396,
+        0.53
+      ]
+    }
+  ]
+}

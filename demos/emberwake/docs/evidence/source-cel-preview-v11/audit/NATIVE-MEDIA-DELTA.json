@@ -1,0 +1,56 @@
+{
+  "scope": "Existing native walk captures and encoded review media delta; no new captures. All six clips are walks only.",
+  "rows": [
+    {
+      "clip": "rowan-southeast",
+      "PNG_bytes_equal": 288,
+      "PNG_bytes_changed": 0,
+      "changed_exposures": [],
+      "v10_MP4_sha256": "0b7c866f65a1d3a3f0afae40794c58a91d78446161ef4de32ec6329081d2b700",
+      "v11_MP4_sha256": "0b7c866f65a1d3a3f0afae40794c58a91d78446161ef4de32ec6329081d2b700"
+    },
+    {
+      "clip": "rowan-northeast",
+      "PNG_bytes_equal": 252,
+      "PNG_bytes_changed": 36,
+      "changed_exposures": [
+        3
+      ],
+      "v10_MP4_sha256": "cfed72e8ce38c13211d1f83f983af76f860da03af5211c42850429aa1ba02bd5",
+      "v11_MP4_sha256": "2adb0ce42d631ac25b4ba54006e1588ad751d48adf268679f96f9c56df67fbcc"
+    },
+    {
+      "clip": "lyra-southeast",
+      "PNG_bytes_equal": 288,
+      "PNG_bytes_changed": 0,
+      "changed_exposures": [],
+      "v10_MP4_sha256": "7f3e674052e5603d17b35bfeeda1566deb5a8bd4e5db46264a7128cf3639691a",
+      "v11_MP4_sha256": "7f3e674052e5603d17b35bfeeda1566deb5a8bd4e5db46264a7128cf3639691a"
+    },
+    {
+      "clip": "lyra-northeast",
+      "PNG_bytes_equal": 288,
+      "PNG_bytes_changed": 0,
+      "changed_exposures": [],
+      "v10_MP4_sha256": "f4fba26ec139fae448fbb7302c3fb97ad7b104673cc39ea6fdc3008c57bc8c03",
+      "v11_MP4_sha256": "f4fba26ec139fae448fbb7302c3fb97ad7b104673cc39ea6fdc3008c57bc8c03"
+    },
+    {
+      "clip": "brann-southeast",
+      "PNG_bytes_equal": 288,
+      "PNG_bytes_changed": 0,
+      "changed_exposures": [],
+      "v10_MP4_sha256": "c294f5ed4cabbc339d55e5c3e11ca10dd4967a954fdbf5310da7b88881ab83b9",
+      "v11_MP4_sha256": "c294f5ed4cabbc339d55e5c3e11ca10dd4967a954fdbf5310da7b88881ab83b9"
+    },
+    {
+      "clip": "brann-northeast",
+      "PNG_bytes_equal": 288,
+      "PNG_bytes_changed": 0,
+      "changed_exposures": [],
+      "v10_MP4_sha256": "f6193255671a26a2dd89dbb29eab6968b7eb1530d141f8f38bea3bf613f282cf",
+      "v11_MP4_sha256": "f6193255671a26a2dd89dbb29eab6968b7eb1530d141f8f38bea3bf613f282cf"
+    }
+  ],
+  "expected_only_rowan_NE_walk_exposure3_changed": true
+}

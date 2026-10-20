@@ -1,0 +1,233 @@
+{
+  "schema": "emberwake-delivery/v1",
+  "status": "Selectable three-character expansion implemented and tested. Fresh independent art review 8.2/8.1; conservative follow-up 7.8/7.6, no unanimous 8 claim.",
+  "updated_utc": "2026-10-16T16:30:35.199924+00:00",
+  "canonical_project": "/home/astra/projects/emberwake-demo",
+  "play_url": "http://localhost:8896/index.html",
+  "launch": "./play.sh (only if the existing local server has stopped)",
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "export": {
+    "directory": "web",
+    "pck_sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce",
+    "pck_bytes": 12245640,
+    "rendering": "Compatibility / WebGL2 / nonthreaded",
+    "offline_after_local_load": true,
+    "model_account_required_to_play": false,
+    "served_byte_verification": "docs/evidence/character-expansion/live-http-v6.json",
+    "browser_tested_identical_export": "docs/evidence/character-expansion/browser-v6.json"
+  },
+  "assets": {
+    "hero_atlas": "assets/hero/atlas.png",
+    "hero_atlas_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+    "manifest": "assets/hero/animations.json",
+    "manifest_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+    "facings": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "body_actions": [
+      "idle",
+      "walk",
+      "attack",
+      "cast",
+      "hurt",
+      "dodge"
+    ],
+    "clips": 24,
+    "stored_cels": 116,
+    "spells": [
+      "firebolt",
+      "frost nova"
+    ],
+    "melee": "unarmed",
+    "source_directory": "art-source",
+    "provider": "OpenAI built-in ImageGen plus recorded pixel compositing; eight retained H3 pose guides informed the newly painted side walk; no new H3 or local generative model calls",
+    "catalog": "assets/characters/catalog.json",
+    "catalog_sha256": "7ff0d71aff55d3bd4030ca19fef65a62b0329b6a671c2cfd4fa9d014dfc71965",
+    "selectable_characters": {
+      "rowan": {
+        "atlas": "assets/hero/atlas.png",
+        "atlas_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+        "manifest": "assets/hero/animations.json",
+        "manifest_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+        "clips": 24,
+        "timeline_exposures": 116,
+        "selected_unique_cell_ids": 104,
+        "stored_lineage_cels": 116,
+        "cast_release_index": "Rowan default3",
+        "cast_hand": "Rowan measured defaults in hero.gd",
+        "limitations": []
+      },
+      "lyra": {
+        "atlas": "assets/characters/lyra/atlas.png",
+        "atlas_sha256": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901",
+        "manifest": "assets/characters/lyra/animations.json",
+        "manifest_sha256": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f",
+        "clips": 24,
+        "timeline_exposures": 128,
+        "selected_unique_cell_ids": 120,
+        "stored_lineage_cels": 136,
+        "cast_release_index": 3,
+        "cast_hand": {
+          "south": [
+            99,
+            72
+          ],
+          "east": [
+            95,
+            58
+          ],
+          "north": [
+            94,
+            57
+          ],
+          "west": [
+            34,
+            58
+          ]
+        },
+        "limitations": [
+          "Four separately painted cardinal banks; no diagonal artwork.",
+          "No jump, modular weapon or separate collapse artwork; body/effect clocks are independent."
+        ]
+      },
+      "brann": {
+        "atlas": "assets/characters/brann/atlas.png",
+        "atlas_sha256": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4",
+        "manifest": "assets/characters/brann/animations.json",
+        "manifest_sha256": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921",
+        "clips": 24,
+        "timeline_exposures": 128,
+        "selected_unique_cell_ids": 116,
+        "stored_lineage_cels": 133,
+        "cast_release_index": 3,
+        "cast_hand": {
+          "south": [
+            101,
+            72
+          ],
+          "east": [
+            96,
+            52
+          ],
+          "north": [
+            96,
+            40
+          ],
+          "west": [
+            32,
+            52
+          ]
+        },
+        "limitations": [
+          "Brann west bank mirrors east, with +1 native x translation; symmetric unarmed design.",
+          "No jump, modular weapon or separate collapse artwork; body/effect clocks are independent."
+        ]
+      }
+    },
+    "total_declared_body_clips": 72,
+    "character_source": "art-source/characters-v2",
+    "selected_new_bake": "art-source/characters-v2/bake-v6",
+    "selected_refinement_plan": "art-source/characters-v2/selected-refinements.json"
+  },
+  "game": {
+    "quest": "Village, three ward encounters, two-phase Warden, bronze Bell ending, Aster epilogue and post-game exploration",
+    "save": "Validated checkpoint save/Continue, explicit new-journey overwrite choice, death/retry",
+    "target": "Desktop keyboard and mouse",
+    "character_selection": "Title/new journey cosmetic selection; Continue restores saved identity; quiet paused swap preserves health/mana/location/progress."
+  },
+  "checks": {
+    "result": "docs/evidence/checks/RESULTS.json",
+    "assertions": 400,
+    "route_samples": 378,
+    "all_passed": true,
+    "hero_rebake": "docs/evidence/rebake-verification.json",
+    "audio_context": "docs/evidence/audio-runtime.json",
+    "notes": "Behavior/resource evidence is separate from visual scores; audio context running does not establish auditory quality.",
+    "windows_http": "docs/evidence/windows-http.json",
+    "selector_fixture_assertions": 40,
+    "production_spell_logic_assertions": 80,
+    "rendered_spell_assertions": 109,
+    "rendered_spell_receipt": "docs/evidence/spells-v2/spell-checks.json",
+    "ordinary_browser_assertions": 21,
+    "ordinary_browser_cast_samples": 8,
+    "ordinary_browser_receipt": "docs/evidence/character-expansion/browser-v6.json",
+    "new_character_rebake": "docs/evidence/character-expansion/rebake-verification.json",
+    "manual_refinement_replay": "docs/evidence/character-expansion/manual-replay.json"
+  },
+  "quality": {
+    "record": "docs/QUALITY.md",
+    "baseline_game_overall": 8.0,
+    "baseline_game_report": "docs/evidence/game-v3-review.md",
+    "baseline_full_ending_coverage": "Prior v2 browser evidence; no full quest rerun for each new cosmetic character.",
+    "current_character_art": [
+      {
+        "review": "docs/evidence/character-expansion/reviews/cold-v6/REPORT.md",
+        "sha256": "7518eca6b2f3cbe0dd2bbb9db1ab38423240d7e66a145ce5e6b6389eeedea3c8",
+        "lyra": 8.2,
+        "brann": 8.1,
+        "scope": "Independent fresh current-bank art review, all 24 each; native/2x/approx0.66; incidental production metadata exposure disclosed. No continuous human playback or runtime claim."
+      },
+      {
+        "review": "docs/evidence/character-expansion/reviews/followup-v6/REPORT.md",
+        "sha256": "26c539eab170dce3c6d4257a04d95a71b5b240ce30617dd22b31c40f2d14f961",
+        "lyra": 7.8,
+        "brann": 7.6,
+        "scope": "Independent history-informed follow-up, all 24 each with exact unchanged transfers and fresh changed joins. No continuous human playback or runtime claim."
+      }
+    ],
+    "unanimous_8_of_10": false,
+    "reviewer_agreement": "Both prefer all 13 selected repairs; no new demonstrated anatomy/attachment/patch-seam failure. Scores remain distinct.",
+    "known_visual_polish": [
+      "Dodge recovery weight transfer needs normal-speed human judgment.",
+      "Brann south swing-foot outward clearance path is plausible; no real-time hitch demonstrated.",
+      "North strikes partly occluded by head; conditional dark-ground rear-hair contrast.",
+      "Minor settle cuff/trim variation."
+    ]
+  },
+  "rebuild": {
+    "hero": "python3 scripts/bake_assets.py --output <fresh-output-directory>",
+    "ground": "python3 scripts/bake_ground.py",
+    "lantern": "python3 scripts/compose_lantern.py",
+    "audio": "python3 scripts/compose_audio.py",
+    "rear_release": "python3 art-source/boss-release-v1/bake.py --output <fresh-output.png>",
+    "dependencies": "requirements-art.txt; Godot; ffmpeg for audio",
+    "notes": "Rebuild consumes retained source images; no generator calls. Ground/lantern/audio commands write selected outputs, so use a copy for experiments.",
+    "characters": "python3 scripts/bake_characters.py --output <fresh-directory>",
+    "character_stages": "--stage base or --stage gait isolates earlier deterministic stages; default refined uses selected frozen follow-ups."
+  },
+  "skill": {
+    "installed": "/home/astra/.codex/skills/imagegen-sprite-animation/SKILL.md",
+    "update_validation": "docs/evidence/character-expansion/skill-validation.json"
+  },
+  "known_limits": [
+    "New character 8 target met in fresh review; stricter follow-up remains 7.8/7.6. No unanimous acceptance claimed.",
+    "Motion reviews reconstruct decoded still chronology; human uninterrupted animation/controller feel remains unverified.",
+    "Brann west mirrors symmetric east; cardinal artwork only, not eight directions.",
+    "All selectable identities share stats, moves and progression; no class/party system.",
+    "Small dynamic enemy health bars can cross the hero during close combat; see game-v3 review exact screenshot/coordinates.",
+    "Enemies use front/back three-quarter views and mirrored left quadrants, not four independently authored cardinal view banks.",
+    "No delivered interchangeable weapon rig, jump/sit/pickup body set, party/inventory system or separate authored death-collapse cycle.",
+    "Human uninterrupted feel, auditory quality, natural first-player duration and broad device/browser/storage-failure certification are outside the recorded reviews."
+  ],
+  "verify": "sha256sum --quiet -c DELIVERY-FILES.sha256",
+  "runtime_source_commit": "1dbfb0554151ffed2780ed180c700dd97f17ca64",
+  "publication": {
+    "url": "https://emberwake-hollow-bell.astraithious.chatgpt.site",
+    "audience": "public",
+    "project_id": "appgprj_6ad24ef598f081918b36b496353e2ce4",
+    "version_id": "appgprj_6ad24ef598f081918b36b496353e2ce4~appgver_aa16d51964fc8191a774487b5db7bdbb",
+    "version_number": 1,
+    "deployment_id": "appgdep_6ad24fec3c8c8191a6b4072905f25b5c",
+    "status": "succeeded",
+    "source_commit": "797c3f1c35263c68269c69fb101998868cc055ad",
+    "source_checkout": "/home/astra/projects/emberwake-public-site",
+    "receipt": "docs/evidence/public-site/publication.json",
+    "browser_receipt": "docs/evidence/public-site/browser-live.json",
+    "asset_hash_receipt": "docs/evidence/public-site/browser-asset-hashes.json",
+    "engine_transport": "gzip stream decoded in browser to byte-identical original WebAssembly; canonical raw export unchanged",
+    "anonymous_script_fetch": "Python urllib returned403 in this environment, retained separately. Fresh anonymous browser loaded and all21 public input checks passed."
+  }
+}

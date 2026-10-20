@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "completed_utc": "2026-10-14T04:09:01.470237+00:00",
+  "bounded_recovery_pass_completed": true,
+  "private_pipeline_complete": false,
+  "production_art_accepted": false,
+  "runtime_UI_modified": false,
+  "new_H3_calls": 0,
+  "new_character_art_calls": 0,
+  "reduce_colors_posts": 7,
+  "reduce_colors_reported_generations": 0.7,
+  "all_paid_cases_have_producer_HAR_and_REA": true,
+  "client_oracles": {
+    "lua_assertions": 98,
+    "web_helper_cases": 5,
+    "godot_assertions": 18,
+    "gif_assertions": 8,
+    "classifier_fixtures": 5
+  },
+  "software_suite": {
+    "passed": 629,
+    "warnings": 1400,
+    "exit_code": 0,
+    "full_suite_receipt": "evidence/FULL-SUITE.json"
+  },
+  "fixed_palette_observed_replay": {
+    "policy": "inferred-fixed-palette-oklab-quarter-L-v1",
+    "nondithered_rgba_entries_verified": 73728,
+    "nondithered_rgba_mismatches": 0,
+    "heldout_rgb_samples_tested": 4096,
+    "heldout_distinct_rgb_colors_tested": 4094,
+    "heldout_distinct_previously_unseen_rgb_colors_tested": 4093,
+    "heldout_rgba_entries_tested": 8192,
+    "repeat_png_bytes_exact": true,
+    "zero_strength_png_bytes_exact_to_none": true
+  },
+  "method_provenance": {
+    "client_methods": "Recovered original executable byte/function slices with hash pins and host stubs",
+    "fixed_palette": "Independent empirical rule with heldout replay, not original private code or uniquely identified constant",
+    "positive_dither": "Partial characterization; best tested candidate538/32768 mismatches, not installed as equivalent"
+  },
+  "public_source_recovery": {
+    "current_PCK_scripts": 378,
+    "unchanged_GDScripts": 368,
+    "changed_GDScripts": 8,
+    "new_GDScripts": 2,
+    "adjacent_source_map_candidates": 72,
+    "adjacent_source_map_http404": 72,
+    "source_maps_recovered": 0
+  },
+  "still_unknown": [
+    "Exact PixelLab model checkpoint/weights/inference settings",
+    "Native H3 input/output duration and video-to-sprite sample positions/clock",
+    "Private cutout foreground masks and alpha refinement",
+    "Private de-flicker drift metric/default/correction/temporal operation",
+    "Automatic palette clustering and positive-strength ordered dither implementation",
+    "Native full editor behavior beyond selected host-stub replays",
+    "Whole workbench integration and game-art acceptance"
+  ],
+  "artifact_roots": [
+    "/home/astra/artifacts/pixellab-recovery-depth-20261014",
+    "/home/astra/artifacts/pixellab-reducer-recovery-20261014",
+    "/home/astra/artifacts/pixellab-reducer-recovery-20261014-phase2",
+    "/home/astra/artifacts/pixellab-reducer-recovery-20261014-holdout",
+    "/home/astra/artifacts/pixellab-recovery-web-20261014"
+  ]
+}

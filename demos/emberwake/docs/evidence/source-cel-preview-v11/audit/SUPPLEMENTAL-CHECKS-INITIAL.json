@@ -1,0 +1,433 @@
+{
+  "scope": "Read-only offline inspection of existing additive root/native/export receipts and output pixels. No engine/editor/browser invocation by auditor.",
+  "passed": false,
+  "checks": [
+    {
+      "ok": true,
+      "note": "additive processed export receipt contains all six successful resources"
+    },
+    {
+      "ok": true,
+      "note": "processed export receipt bound to actual served PCK"
+    },
+    {
+      "ok": true,
+      "note": "rowan independently decoded PNG hashes equal processed export receipt"
+    },
+    {
+      "ok": true,
+      "note": "rowan actual exported PNG equals processed expected PNG; alpha exact and RGB difference limited to original alpha0..19"
+    },
+    {
+      "ok": true,
+      "note": "lyra independently decoded PNG hashes equal processed export receipt"
+    },
+    {
+      "ok": true,
+      "note": "lyra actual exported PNG equals processed expected PNG; alpha exact and RGB difference limited to original alpha0..19"
+    },
+    {
+      "ok": true,
+      "note": "brann independently decoded PNG hashes equal processed export receipt"
+    },
+    {
+      "ok": true,
+      "note": "brann actual exported PNG equals processed expected PNG; alpha exact and RGB difference limited to original alpha0..19"
+    },
+    {
+      "ok": true,
+      "note": "Brann root native replay accurately declares 79 checks and 56/63 byte exact with seven path-only differences"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair VERIFIED.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair allowed-mask.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair candidate-receipt.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair candidate-transaction.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/atlas.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0000.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0001.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0002.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0003.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0004.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0005.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0006.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/frame-0007.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/manifest.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-preferred/project.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/atlas.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0000.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0001.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0002.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0003.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0004.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0005.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0006.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/frame-0007.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/manifest.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair exports-source/project.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair journal-replayed-project.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair journal.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/NATIVE-PROOF.json"
+    },
+    {
+      "ok": true,
+      "note": "actual declared path-only metadata/log difference native/NATIVE-PROOF.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred-reopened.aseprite"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred-reopened.aseprite.reimport.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred-saved.aseprite"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred-saved.aseprite.reimport.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred.aseprite"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred.aseprite.reimport.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/preferred.aseprite.sprite-lab.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame1.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame2.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame3.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame4.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame5.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame6.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame7.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render/frame8.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/render-pngs.log"
+    },
+    {
+      "ok": true,
+      "note": "actual declared path-only metadata/log difference native/render-pngs.log"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/reopen.log"
+    },
+    {
+      "ok": true,
+      "note": "actual declared path-only metadata/log difference native/reopen.log"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/reopened-data.json"
+    },
+    {
+      "ok": true,
+      "note": "actual declared path-only metadata/log difference native/reopened-data.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/reopened-sheet.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/save.log"
+    },
+    {
+      "ok": true,
+      "note": "actual declared path-only metadata/log difference native/save.log"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/saved-data.json"
+    },
+    {
+      "ok": true,
+      "note": "actual declared path-only metadata/log difference native/saved-data.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/saved-sheet.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair native/version.log"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/cli-live.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/cli-receipt.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/cli-rejection.log"
+    },
+    {
+      "ok": false,
+      "note": "actual declared path-only metadata/log difference negative/cli-rejection.log"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/outside-mask-transaction.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/outside-mask.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/stale-cel.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative/stale-project.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair negative-summary.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair preferred-project.json"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair reconstructed-source11.png"
+    },
+    {
+      "ok": true,
+      "note": "actual root replay hash pair source-project.json"
+    },
+    {
+      "ok": true,
+      "note": "actual preserved root VERIFIED has all 79 targeted checks true"
+    },
+    {
+      "ok": true,
+      "note": "actual root reopened native ASE equals retained primary hash"
+    },
+    {
+      "ok": true,
+      "note": "actual reopened ASE header/frame clock: eight128x128cels, exact410ms holds",
+      "detail": [
+        60,
+        70,
+        55,
+        55,
+        65,
+        35,
+        35,
+        35
+      ]
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 08"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 09"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 10"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 11"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 12"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 13"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 14"
+    },
+    {
+      "ok": true,
+      "note": "actual retained root native render RGBA equals selected source 22"
+    }
+  ],
+  "details": {
+    "rowan_export": {
+      "source_RGBA_sha256": "8db50d2154d303871cbeb8191e29c0acb691a9a4d80b3dd29e6b04f739e2d439",
+      "decoded_RGBA_sha256": "17aec4f671d78dc30a2090926e14949bf920174f5e9d069bda48048f82857e19",
+      "processed_RGBA_sha256": "17aec4f671d78dc30a2090926e14949bf920174f5e9d069bda48048f82857e19",
+      "raw_differing_pixels": 422380,
+      "changed_original_alpha_range": [
+        0,
+        19
+      ],
+      "changed_alpha_positive_pixels": 625,
+      "alpha_everywhere_exact": true,
+      "source_alpha20_or_higher_exact": true
+    },
+    "lyra_export": {
+      "source_RGBA_sha256": "689cb35aaa40220b8d33804ce05c55a703ab7be10c87b5250ec941dc9e8415f3",
+      "decoded_RGBA_sha256": "4c981ac12857c2e3a2855d574c563a1d5de22f857666503d2b7c88c65cf1cb56",
+      "processed_RGBA_sha256": "4c981ac12857c2e3a2855d574c563a1d5de22f857666503d2b7c88c65cf1cb56",
+      "raw_differing_pixels": 425980,
+      "changed_original_alpha_range": [
+        0,
+        19
+      ],
+      "changed_alpha_positive_pixels": 911,
+      "alpha_everywhere_exact": true,
+      "source_alpha20_or_higher_exact": true
+    },
+    "brann_export": {
+      "source_RGBA_sha256": "9195b6731b62cc3b0aecc838528a9f3dd24be723ded5f009e3e5cd1fce55435c",
+      "decoded_RGBA_sha256": "a68be6d980370f6b33b571b5e94c297005ed5f68b53c717e521f1c2d6ddfca0f",
+      "processed_RGBA_sha256": "a68be6d980370f6b33b571b5e94c297005ed5f68b53c717e521f1c2d6ddfca0f",
+      "raw_differing_pixels": 413454,
+      "changed_original_alpha_range": [
+        0,
+        19
+      ],
+      "changed_alpha_positive_pixels": 4391,
+      "alpha_everywhere_exact": true,
+      "source_alpha20_or_higher_exact": true
+    },
+    "native": {
+      "root_replay_receipt_sha256": "affbe33c95fcc4a1e5f53af354e5754f44dadb963a04ffdcaec6b8de6fbe7577",
+      "native_ASE_sha256": "5b59a8e443f16fa19800d247db6e102ec15e2fb1d6a8d07fdeb9db3a32087213",
+      "holds_ms": [
+        60,
+        70,
+        55,
+        55,
+        65,
+        35,
+        35,
+        35
+      ],
+      "flat_layer_limitation": "All native PNG encodings differ; all8 decoded RGBA exact. Pivots/nonloop remain authoritative in JSON/required sidecar. Hero160ms source-code context only, no native event. Flat source art is not a layered hand/weapon rig.",
+      "scope": "Actual fresh offline/native replay from canonical retained package. Prior browser14checks not rerun byroot. No additional art or motion acceptance."
+    }
+  }
+}

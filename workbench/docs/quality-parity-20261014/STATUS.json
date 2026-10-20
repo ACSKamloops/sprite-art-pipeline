@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "date": "2026-10-14",
+  "scope": "single generic RPG hero, right-three-quarter relaxed armed walk",
+  "bounded_visual_parity": {
+    "accepted": true,
+    "local_rating": 7.0,
+    "pixellab_rating": 7.3,
+    "subjective_uncertainty": 0.8,
+    "professional_9_of_10": false,
+    "broader_product_parity": false,
+    "recovered_private_model_equivalence": false,
+    "continuous_human_video_viewed": false
+  },
+  "mechanical": {
+    "exact_source_prompt_pair": true,
+    "native_frames": 107,
+    "selected_native_interval": [
+      34,
+      67
+    ],
+    "output_poses": 33,
+    "holds": [
+      1,
+      24
+    ],
+    "loop_duration": [
+      11,
+      8
+    ],
+    "targeted_alpha_clears": 211,
+    "changed_cels": 7,
+    "construction_cold_replay": true,
+    "undo_redo_exact": true,
+    "actual_libresprite_reopen_exact": true,
+    "godot_visible_rgba_exact_1x_2x": true,
+    "all_33_poses_in_each_of_4_elapsed_cycles": true,
+    "browser_control_checks": 14,
+    "world_planted_contact_certified": false
+  },
+  "remaining": [
+    "professional support-side hip/knee weight transfer and stable boot masses",
+    "other directions/actions/characters and independent generation repeatability",
+    "private server models/cleanup algorithms not available from shipped client",
+    "human timed/gameplay visual acceptance"
+  ],
+  "paid_posts_this_phase": {
+    "native_h3": 2,
+    "pixellab": 1
+  },
+  "viewer": "http://127.0.0.1:8876/",
+  "controller": "http://127.0.0.1:8874/#parity",
+  "final_manifest": "authoring/candidates-v4-gap-repaired/native-binary-source128-nearest/manifest.json",
+  "final_video": "authoring/timed-v4-gap-repaired/comparison.mp4",
+  "final_review": "reviews/fresh-game-quality/FINAL-REPORT.md",
+  "engine_proof": "engine-validation/V4-BUFFERED-PROOF.md",
+  "sources_preserved": true,
+  "final_manifest_sha256": "d87e192b65531220cb030130ab41cf43a162377406e64beffe107216ed56aa9e",
+  "final_video_sha256": "f801932c2b3d396e6586cba00eeb6355852ba8a10372d1289020b910d275c881",
+  "final_review_sha256": "cf63f2ade7955cfd8b9f82264b77d22cfe45f7d5dd34c9d1bae000d2369c73ca",
+  "engine_proof_sha256": "9441c54c720c58d4d03121f6b2ace342c9ddab8ad38b9479214f7275c6fead33"
+}

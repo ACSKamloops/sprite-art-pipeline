@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-pipeline-requirements/v1",
+  "scope": "Consolidated user requirements; coverage and approval are separate records.",
+  "target": "Consistent modern shaded humanoid sprites for a top-down RPG; explicit native resolution and intended display scale.",
+  "directions": ["N", "NE", "E", "SE", "S", "SW", "W", "NW"],
+  "coverage_key": ["actor", "equipment_profile", "direction", "action", "variant"],
+  "current_provider_policy": {
+    "preferred": "built-in OpenAI ImageGen plus deterministic and manual editing",
+    "new_h3_jobs_authorized": false,
+    "local_generative_models_authorized": false,
+    "historical_h3_results_retained_for_offline_replay": true,
+    "paid_generation_in_setup_or_tests": false
+  },
+  "required_records": ["brief", "ordered_reference_roles_and_hashes", "literal_prompt", "actual_provider_identity", "raw_return", "source_owners_or_explicit_flat_paint", "canvas_and_pivots", "rational_frame_holds", "events_and_gameplay_clock", "guarded_edit_journal", "coverage", "source_bound_reviews", "engine_receipts", "reproduction_commands"],
+  "quality": {
+    "working_target": "At least8/10 for relevant appearance and motion dimensions on each required reviewed clip",
+    "aspirational_target": "9/10 game-ready production quality",
+    "scores_are_source_actor_action_view_and_review_scope_bound": true,
+    "normal_speed_human_rejection_overrides_still_scores": true,
+    "mechanical_pass_implies_art_approval": false,
+    "all_predecessor_current_pairs_and_loop_or_recovery_required": true,
+    "continuous_video_perception_from_decoded_stills_claim_allowed": false
+  },
+  "equipment": "Interchangeable weapon/accessory tracks need compatible body motion, measured grips and occlusion; not an arbitrary object pasted onto an unarmed punch.",
+  "pixel_lab_boundary": "Observed/recovered client subsets and catalogs do not recover private weights, training, hidden prompts, constructors or all server behavior.",
+  "acceptance_state": "See docs/STATUS.md and source-bound reviews; this requirements file assigns no clip acceptance."
+}

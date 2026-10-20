@@ -1,0 +1,41 @@
+{
+  "scope": "Actual video codec/clock/control check; no continuous model-video-perception claim.",
+  "info": [
+    {
+      "src": "http://localhost:8807/motion-review/SE-source-timing.mp4",
+      "duration": 3.6,
+      "encoded": [
+        880,
+        500
+      ],
+      "ready": 4,
+      "codec": "probably",
+      "error": null
+    },
+    {
+      "src": "http://localhost:8807/motion-review/NE-source-timing.mp4",
+      "duration": 3.6,
+      "encoded": [
+        880,
+        500
+      ],
+      "ready": 4,
+      "codec": "probably",
+      "error": null
+    }
+  ],
+  "playing": {
+    "time": 0.416379,
+    "paused": false,
+    "playback": {}
+  },
+  "quarter": [
+    0.25,
+    0.25
+  ],
+  "normal": [
+    1,
+    1
+  ],
+  "observed_pageerrors": []
+}

@@ -1,0 +1,35 @@
+PAID-EXPLORATION.md
+runtime/index.html
+runtime/exploration-summary.json
+runtime/probe-ledger.json
+runtime/probes/ (sanitized; includes exact reference image bodies and original returned artifacts)
+runtime/captures/editor-paid/ (account-data projected out)
+runtime/local-color-only-repair/
+runtime/*.py and runtime/*.mjs (no embedded credentials; helpers load local private credential if making a paid call)
+evidence/rea-paid-sanitized.json
+evidence/rea-paid-export-sanitization.json
+evidence/paid-artifact-manifest.json
+evidence/paid-exploration-verification.json
+ANALYSIS.md
+ANALYSIS-STATUS.json
+HANDOFF.md
+RUNTIME-CONTROLS.md
+RECONSTRUCTION-REQUIREMENTS.md
+SUBSCRIPTION-AND-RUNTIME-PLAN.md
+verify_analysis.py
+analysis-contract/
+analysis-art/
+analysis-models/
+analysis-poses/
+pixelorama-recovered/
+pixelorama-extracted/
+website-art-bundles/
+sdk-shipped/
+extension-extracted/ (sanitized package metadata; original hash exception documented)
+evidence/rea-analysis-sanitized.json
+evidence/rea-export-sanitization.json
+evidence/analysis-verification.json
+evidence/handoff-link-verification.json
+evidence/runtime-control-observations.json
+Individual PNGs listed by runtime-control-observations.json
+Source/download manifests under evidence/ (public URLs; exclude old historical checkpoint as current status)

@@ -1,0 +1,383 @@
+{
+  "classification": "bounded-cutout-route-and-host-utility-provenance",
+  "research_root": "/home/astra/projects/pixellab-local-test-20261011",
+  "anchors": [
+    {
+      "claim": "godot-mode-payload",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/RemoveBackground.gd",
+      "source_sha256": "dc6381166e6f8592be81f8588ed7d6148d0cb6906145041e950049b4cab1dedb",
+      "first_line": 69,
+      "last_line": 120,
+      "slice_sha256": "72b51ba13ee1f2258ca7b1074092ab1741644dc9c07b636ed512ef31bf1734e2"
+    },
+    {
+      "claim": "godot-tool-cost",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/RemoveBackground.gd",
+      "source_sha256": "dc6381166e6f8592be81f8588ed7d6148d0cb6906145041e950049b4cab1dedb",
+      "first_line": 125,
+      "last_line": 152,
+      "slice_sha256": "9ab116439b28e57d665f4db0a2b6e7af69c9b374225b0676ce1117a43fdb5e5c"
+    },
+    {
+      "claim": "godot-tool-dispatch",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/ToolBase.gd",
+      "source_sha256": "d472acb8ce8d87cc78e64f0dbe8563dd10c0175bade40c3eafac3664dea748c5",
+      "first_line": 368,
+      "last_line": 386,
+      "slice_sha256": "34eeac5a7e0e0f318906649c5e7941c11110c1f7cab6ee964b8764ce897480f2"
+    },
+    {
+      "claim": "base-and-migration",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/Main.gd",
+      "source_sha256": "751c9dbaab8f1b484b724fdca27755e6392f7eb8433790874db2b57e9026eb2e",
+      "first_line": 166,
+      "last_line": 225,
+      "slice_sha256": "317353b561e30fdb40392f05fc0d0783009184085352e54d789f219aefa82e47"
+    },
+    {
+      "claim": "transport-choice",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/Main.gd",
+      "source_sha256": "751c9dbaab8f1b484b724fdca27755e6392f7eb8433790874db2b57e9026eb2e",
+      "first_line": 563,
+      "last_line": 583,
+      "slice_sha256": "6110af2aefe9f5a66ecde5c09f6f8d13efeda25c42e7e51c5bd3b13cc2ba51e5"
+    },
+    {
+      "claim": "background-submit",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/background_generation.gd",
+      "source_sha256": "99ff82d3de3e55cb45a58a981a77a6f3a10ae03f9dba735c382a5c6d780c7fc6",
+      "first_line": 73,
+      "last_line": 103,
+      "slice_sha256": "494a9a1562f659129072a65b7324f658ec377cc502c7109555179feb643d0ee1"
+    },
+    {
+      "claim": "animation-mode-input",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+      "source_sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+      "first_line": 267,
+      "last_line": 343,
+      "slice_sha256": "46df71726962fd8648a20b510f60faa3e727f3a4e49aa3f67e71386fa8457185"
+    },
+    {
+      "claim": "animation-websocket",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/websocket.gd",
+      "source_sha256": "772bb5d83c06390f460eb76e7f3e45826624d32f8485798ee32679807b96d1df",
+      "first_line": 31,
+      "last_line": 59,
+      "slice_sha256": "8e1af671976797892e93a36f3a2ad9e41335ca83e151dad2f8bbce9c5058de59"
+    },
+    {
+      "claim": "response-only-placement",
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/draw_image.gd",
+      "source_sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+      "first_line": 199,
+      "last_line": 242,
+      "slice_sha256": "dc0a811d6c1919d2efda746f4b33cb3a686d400af99f3db57ae30e98f7c9a725"
+    },
+    {
+      "claim": "lua-cutout-submit",
+      "path": "extension-extracted/PixelLab/generate-remove-background.lua",
+      "source_sha256": "3540cdc12ba4cea4920f5814683d0375b07ce22fcdec672e68d2d5f0ff351a4d",
+      "first_line": 69,
+      "last_line": 95,
+      "slice_sha256": "397c4ebdf9114622608c6260739c266701ce3937a7b40177846fa6b454cbfa86"
+    },
+    {
+      "claim": "lua-animation-submit",
+      "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+      "source_sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+      "first_line": 193,
+      "last_line": 234,
+      "slice_sha256": "443ecba4a002b684f2f4473f29e5f9de01d33906aed4087110adb29d212ca332"
+    },
+    {
+      "claim": "lua-animation-defaults",
+      "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+      "source_sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+      "first_line": 17,
+      "last_line": 34,
+      "slice_sha256": "56ff34b8cf1a41639dd2542abacee1beb3baf7e7dd75a23a94df292c4f56c261"
+    },
+    {
+      "claim": "host-local-flood",
+      "path": "pixelorama-recovered/src/Classes/FloodFillObject.gd",
+      "source_sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+      "first_line": 1,
+      "last_line": 174,
+      "slice_sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7"
+    },
+    {
+      "claim": "host-rgba-tolerance",
+      "path": "pixelorama-recovered/src/Autoload/DrawingAlgos.gd",
+      "source_sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+      "first_line": 752,
+      "last_line": 763,
+      "slice_sha256": "bd5c8f5ec949ef0d2faf723c926da8774608005bd601993927763b8713b18a51"
+    },
+    {
+      "claim": "host-magic-wand",
+      "path": "pixelorama-recovered/src/Tools/SelectionTools/MagicWand.gd",
+      "source_sha256": "4a77747836f3d10756c66ccdd0b7ef6f1ecf7a1cf39b56535dddfa20a6552104",
+      "first_line": 1,
+      "last_line": 90,
+      "slice_sha256": "049ef9ac53799179872c535dd7b107416b206425fc2b4b20cfb2b5b3c81461a9"
+    },
+    {
+      "claim": "host-global-color-select",
+      "path": "pixelorama-recovered/src/Tools/SelectionTools/ColorSelect.gd",
+      "source_sha256": "9cce52f364bea8fbce88a400e287efa0ebf65fdf697189b6c1cb4a30d07559b1",
+      "first_line": 1,
+      "last_line": 76,
+      "slice_sha256": "9cce52f364bea8fbce88a400e287efa0ebf65fdf697189b6c1cb4a30d07559b1"
+    },
+    {
+      "claim": "host-bucket-global-replace",
+      "path": "pixelorama-recovered/src/Tools/DesignTools/Bucket.gd",
+      "source_sha256": "11f940a00280ab53249abcf7c5d98eb94983bb1ba107d93a3d4923cd75416550",
+      "first_line": 250,
+      "last_line": 285,
+      "slice_sha256": "d11783e9eba5c45527f82b3f1aa6fcc02b8b04f9faa5a608a7ba1dca5c2d8e26"
+    },
+    {
+      "claim": "host-bucket-flood-fill",
+      "path": "pixelorama-recovered/src/Tools/DesignTools/Bucket.gd",
+      "source_sha256": "11f940a00280ab53249abcf7c5d98eb94983bb1ba107d93a3d4923cd75416550",
+      "first_line": 352,
+      "last_line": 439,
+      "slice_sha256": "f7d494d04c5b520c29de98012b66a5512a1a27853c6f85563cd76e7c9e08c011"
+    },
+    {
+      "claim": "host-alpha-region-slicer",
+      "path": "pixelorama-recovered/addons/SmartSlicer/Classes/RegionUnpacker.gd",
+      "source_sha256": "cadaf33364a8c7339ef29eb6e918d87cf534a6043188af4468eb609c82e2df14",
+      "first_line": 194,
+      "last_line": 212,
+      "slice_sha256": "71e36e56e3aeac7c1676c9ca3c8328ed00b685079aecec9e47d770e2d8ee2826"
+    },
+    {
+      "claim": "source-color-selection-shader",
+      "path": "pixelorama-extracted/src/Shaders/ColorSelect.gdshader",
+      "source_sha256": "27f8c50cfd9517fff45c8fd8171530b2b301e5acd6d5ace93687e151641378f2",
+      "first_line": 1,
+      "last_line": 38,
+      "slice_sha256": "27f8c50cfd9517fff45c8fd8171530b2b301e5acd6d5ace93687e151641378f2"
+    },
+    {
+      "claim": "source-color-replacement-shader",
+      "path": "pixelorama-extracted/src/Shaders/ColorReplace.gdshader",
+      "source_sha256": "b46064050032d39b28a4ac62d09808c463ea55506bbfffcb2380dc71a8cda81c",
+      "first_line": 1,
+      "last_line": 41,
+      "slice_sha256": "b46064050032d39b28a4ac62d09808c463ea55506bbfffcb2380dc71a8cda81c"
+    },
+    {
+      "claim": "shader-execution-bridge",
+      "path": "pixelorama-recovered/src/Classes/ShaderImageEffect.gd",
+      "source_sha256": "e12135e36aedd8461c78fe07678721e6a0670b8966c40e6dc94ce7b132e2de28",
+      "first_line": 11,
+      "last_line": 74,
+      "slice_sha256": "3bfec60951dad2457d74e54d03044c8607dde7d6cb535b0488136019c63cb10a"
+    },
+    {
+      "claim": "website-mode-forwarding",
+      "path": "website-art-bundles/create-677791a6e206dafa.js",
+      "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+      "line": 1,
+      "char_offset": 101212,
+      "utf8_byte_offset": 101238,
+      "token": "id:\"remove_background\",endpoint:\"remove-background\""
+    },
+    {
+      "claim": "website-mode-ui",
+      "path": "website-art-bundles/create-677791a6e206dafa.js",
+      "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+      "line": 1,
+      "char_offset": 160006,
+      "utf8_byte_offset": 160048,
+      "token": "function tQ(e)"
+    },
+    {
+      "claim": "website-raw-canvas-serialization",
+      "path": "website-art-bundles/2386-0c23ec27d0c4a587.js",
+      "source_sha256": "a5f31dab2ea849535b293d1a4928b5f7c547f9e7ad5a0aaf5bc53952058246ac",
+      "line": 1,
+      "char_offset": 5676,
+      "utf8_byte_offset": 5676,
+      "token": "function f(e){return new Promise"
+    },
+    {
+      "claim": "public-declared-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/components/schemas/RemoveBackgroundRequest",
+      "value": {
+        "properties": {
+          "image": {
+            "$ref": "#/components/schemas/Base64Image",
+            "description": "The image to remove the background from (PNG or JPEG base64)"
+          },
+          "image_size": {
+            "$ref": "#/components/schemas/app__endpoints__external__v2__remove_background__ImageSize",
+            "description": "Size of the input image"
+          },
+          "background_removal_task": {
+            "type": "string",
+            "enum": [
+              "remove_simple_background",
+              "remove_complex_background"
+            ],
+            "title": "Background Removal Task",
+            "description": "Background removal complexity. 'remove_simple_background' is faster, 'remove_complex_background' handles complex edges better",
+            "default": "remove_simple_background"
+          },
+          "text": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 500
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Text",
+            "description": "Optional description of the foreground object to help with removal"
+          },
+          "seed": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Seed",
+            "description": "Seed for reproducible generation"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "image",
+          "image_size"
+        ],
+        "title": "RemoveBackgroundRequest",
+        "description": "Request model for remove-background endpoint",
+        "example": {
+          "background_removal_task": "remove_simple_background",
+          "image": {
+            "base64": "iVBORw0KGgoAAAANS..."
+          },
+          "image_size": {
+            "height": 64,
+            "width": 64
+          }
+        }
+      }
+    },
+    {
+      "claim": "public-declared-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/components/schemas/AnimatePixminimaxRequest/properties/no_background",
+      "value": {
+        "type": "boolean",
+        "title": "No Background",
+        "description": "True returns the frames on transparency; an opaque input is cut out of its first frame before animating. False keeps an opaque backdrop.",
+        "default": true
+      }
+    },
+    {
+      "claim": "public-declared-contract",
+      "path": "evidence/openapi.json",
+      "source_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "line": 1,
+      "json_pointer": "/paths/~1remove-background/post/description",
+      "value": "Remove the background from a pixel art image, producing a transparent PNG.\n\nSupported image size:\n- Maximum area 400x400\n\n**Background Removal Tasks:**\n- `remove_simple_background` (default) \u2014 Faster, works well for simple/solid backgrounds\n- `remove_complex_background` \u2014 Slower, better for complex edges and detailed backgrounds\n\n**Optional text hint:** Provide a description of the foreground object to improve accuracy.\n\nUsing the Python client:\n```python\nimport pixellab\nfrom PIL import Image\n\nclient = pixellab.Client(secret=\"YOUR_API_TOKEN\")\n\nsource_img = Image.open(\"character.png\")\n\nresult = client.remove_background(\n    image=source_img,\n    image_size=dict(width=64, height=64),\n)\nresult.image.pil_image().save(\"character_no_bg.png\")\n```"
+    }
+  ],
+  "scans": [
+    {
+      "scope": "pixelorama-recovered/src/Extensions/PixelLab",
+      "files": 126,
+      "pattern": "flood.?fill|color.?to.?alpha|chroma.?key|FloodFillObject|ColorReplace.gdshader|ColorSelect.gdshader",
+      "hits": []
+    },
+    {
+      "scope": "extension-extracted/PixelLab",
+      "files": 112,
+      "pattern": "flood.?fill|color.?to.?alpha|chroma.?key|FloodFillObject|ColorReplace.gdshader|ColorSelect.gdshader",
+      "hits": []
+    },
+    {
+      "scope": "website-art-bundles",
+      "files": 105,
+      "pattern": "flood.?fill|color.?to.?alpha|chroma.?key|FloodFillObject|ColorReplace.gdshader|ColorSelect.gdshader",
+      "hits": []
+    },
+    {
+      "scope": "analysis-client/editor-shipped",
+      "files": 1,
+      "pattern": "flood.?fill|color.?to.?alpha|chroma.?key|FloodFillObject|ColorReplace.gdshader|ColorSelect.gdshader",
+      "hits": []
+    }
+  ],
+  "existing_rea": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/evidence/rea-client-and-pack-analysis.json",
+    "sha256": "5f67469503f301678605617d194a89ac38e9a3a5b2d4df7e981277f1ea8c8e7b",
+    "records": [
+      {
+        "evidence_id": "ev_af8198a22a52b3336b602f1b0f92cb42455d9c94e6623b391b0cf7e426015b87",
+        "operation": "trace_application_feature",
+        "confidence": "inferred",
+        "limitations": [
+          "Artifact identity is unavailable for this observation.",
+          "No graph entity matched the literal seed; this is not evidence that the feature is absent."
+        ]
+      },
+      {
+        "evidence_id": "ev_b163147459b797e1b8c5542d44184aae0df0f3dc08b13f871f5a937e446a1a18",
+        "operation": "analyze_javascript_application",
+        "confidence": "derived",
+        "limitations": [
+          "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+          "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+          "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+          "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+          "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+          "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+        ]
+      },
+      {
+        "evidence_id": "ev_e153a6670b87d1bed7cfc8bb86e0359e29d4017ec5fae87bea066805cc2b375b",
+        "operation": "trace_application_feature",
+        "confidence": "inferred",
+        "limitations": [
+          "Artifact identity is unavailable for this observation.",
+          "A trace reports graph relationships, not proof that code executed or that a feature is reachable in every state.",
+          "Native handoffs never open a binary or invoke a provider automatically; snapshot reuse remains provider/profile/target exact.",
+          "Static, native, passive-runtime, inferred, and unknown facts retain their original authority in the returned graph."
+        ]
+      },
+      {
+        "evidence_id": "ev_e5fdc36a736c67566b7fd6dbbde38769ec3e0c034c2ce1457234d081b935bf5a",
+        "operation": "analyze_javascript_application",
+        "confidence": "derived",
+        "limitations": [
+          "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+          "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+          "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+          "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+          "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+        ]
+      }
+    ],
+    "boundary": "Existing static/inferred records and limitations only; not live/browser or proof privatecutout exists."
+  },
+  "pck_proof": "PCK-MEMBER-PROOF.json",
+  "source_replay": "HOST-FLOOD-REPLAY.json"
+}

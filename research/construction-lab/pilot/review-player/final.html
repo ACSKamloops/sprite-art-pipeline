@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Copper Scout animation review</title>
+<style>body{margin:24px;background:#1f2b33;color:#edf1f0;font:16px system-ui}main{max-width:1560px;margin:auto}video{width:100%;background:#1f2b33;image-rendering:pixelated}a{color:#83ddd4}p{line-height:1.5}</style>
+<main><h1>Copper Scout — rejected visual baseline</h1><p>The user rejected this artwork and animation quality. Earlier prototype approval was too permissive. Mechanical checks remain valid; this is a preserved baseline. <a href="../visual-quality-reset/">Open the new quality correction study</a>.</p><p id="coverage">Loading the final review reel…</p>
+<video id="reel" controls muted playsinline preload="auto" src="../rigged-character-v2/generated/review/animation-reel.mp4"></video>
+<p><a href="./?pack=../rigged-character-v2/generated/">Open exact PNG playback, frame stepping and previous-frame comparisons</a></p>
+<p>This reel shows independent body animations in all four directions. Equipment variants include movement, hurt, falling and recovery. Separators distinguish clips; gameplay transitions and effects are tested in the Godot sandbox.</p></main>
+<script type="module">
+const video=document.querySelector('#reel'),coverage=document.querySelector('#coverage');
+video.controls=false;
+const sha=async bytes=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(v=>v.toString(16).padStart(2,'0')).join('');
+const bytes=async path=>{const r=await fetch(path,{cache:'no-store'});if(!r.ok)throw Error('Missing review asset');return r.arrayBuffer();};
+try {
+ const receipt=JSON.parse(new TextDecoder().decode(await bytes('../rigged-character-v2/generated/review/animation-reel-receipt.json')));
+ const manifestBytes=await bytes('../rigged-character-v2/generated/manifest.json');
+ if(await sha(manifestBytes)!==receipt.bake_manifest_sha256)throw Error('Animation reel belongs to a different export');
+ const manifest=JSON.parse(new TextDecoder().decode(manifestBytes));
+ for(const [file,digest] of Object.entries(manifest.source_bindings))if(await sha(await bytes('../rigged-character-v2/'+file))!==digest)throw Error('Character source changed; rebuild the reel');
+ if(await sha(await bytes(video.getAttribute('src')))!==receipt.video_sha256)throw Error('Animation video changed');
+ coverage.textContent=`${Object.keys(manifest.clips).length} action/view combinations · ${Object.values(manifest.clips).reduce((n,c)=>n+c.frames.length,0).toLocaleString()} source frames · ${receipt.seconds} second reel · 60Hz held frames · encoded at 2× nearest scale.`;
+ video.controls=true;window.ReelReview={receipt,manifest,source_verified:true,video_verified:true};
+} catch(error) {video.pause();video.removeAttribute('src');video.load();coverage.textContent='Review unavailable: '+error.message;}
+</script></html>

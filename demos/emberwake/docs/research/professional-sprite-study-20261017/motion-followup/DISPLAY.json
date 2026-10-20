@@ -1,0 +1,63 @@
+{
+  "state": {
+    "ready": true,
+    "playing": true,
+    "sim_ms": 1161445,
+    "verified_frames": 48,
+    "clock": "native",
+    "choices": [
+      "ro-swordsman-male-walk-SE",
+      "our-prototype-lyra-rejected-SE-unaccepted"
+    ],
+    "positions": [
+      {
+        "frame": 5,
+        "phase": 0.7416666666666667,
+        "complete": false,
+        "duration": 600
+      },
+      {
+        "frame": 7,
+        "phase": 0.9888888888888889,
+        "complete": false,
+        "duration": 450
+      }
+    ]
+  },
+  "canvases": [
+    {
+      "intrinsic": [
+        480,
+        440
+      ],
+      "display": [
+        480,
+        440
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "cssWidth": "480px",
+      "cssHeight": "440px",
+      "transform": "none"
+    },
+    {
+      "intrinsic": [
+        480,
+        440
+      ],
+      "display": [
+        480,
+        440
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "cssWidth": "480px",
+      "cssHeight": "440px",
+      "transform": "none"
+    }
+  ]
+}

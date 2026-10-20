@@ -1,0 +1,8 @@
+{
+  "status": "Read-only preflight, no implementation or engine acceptance",
+  "source_player16": "In progress at independent player-v2; separate from Godot.",
+  "observed_runtime": "hero.gd _update_animation reads arbitrary nonempty manifest frames/holds and sums each hold.",
+  "observed_bake_gap": "scripts/bake_eight_directions.py lines19/115 and32-cell directional banking assume8walkcels. A16sourcebank cannot be promoted merely by substituting its first8files.",
+  "if_art_selected": "Add explicit16walkbank/holds support or a reviewed isolated append preserving existing atlas bindings; verify changedtables plus all other source tables and actual GPU/browser results.",
+  "not_done": "No baker edits, atlas changes, newv13preview or16frameGodot claim."
+}

@@ -1,0 +1,1277 @@
+{
+  "schema": "copper-scout-held-sole-cache/v1",
+  "source_sha256": {
+    "clips.json": "084e40ba7f2e3c676d4fe7ac84a673833e36f8b348427ec723b484eda1fe1370",
+    "design.json": "77d9b8d478149f028a26f28b946bbfbcbe925085f4de3e374cc65b14380c998a",
+    "rig.gd": "591c6d75df01364597ba7993556ddca32cf43e9a34a16cbe407493754c35abcb"
+  },
+  "policy_sha256": "0d89e746b39e02cedc62fad31defe316971760bd8ec8c0ac2b52727a4e1822d0",
+  "view": "right",
+  "ground_boundary": 170,
+  "sole_row": 169,
+  "sole_offset": -9,
+  "clips": {
+    "walk": {
+      "duration_ticks": 60,
+      "fps": 60,
+      "root_motion_px_per_cycle": 24,
+      "frames": [
+        {
+          "tick": 0,
+          "phase": 0.0,
+          "sole_xmin": {
+            "front": 102,
+            "rear": 72
+          },
+          "boot_png_sha256": {
+            "front": "22fc74308e3999084afddf9d87f1048eebd8c238b8978ca6c401f70573b3ffa8",
+            "rear": "1c4c2040465bb2dbeeab186c128cefdb1bc2376bd4b2089017d09ac374610713"
+          },
+          "whole_frame_rgba_sha256": "45ab7f7e857f32948e7988cda954b39acd0ad8b2bce5db8685c72d9aa6af7dd6"
+        },
+        {
+          "tick": 1,
+          "phase": 0.016666666666666666,
+          "sole_xmin": {
+            "front": 101,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "acb1661d6f2977f26e22f30b4451285918401b908fa11afaed2e487255bb76f2",
+            "rear": "5757de990d99a92bd3b0b004697b4289f7db7b710ed274b61e5338d1f515d277"
+          },
+          "whole_frame_rgba_sha256": "05813c73c818e60617377d0273657f5a84b97d36ee05ef99bd11c9ae8449feab"
+        },
+        {
+          "tick": 2,
+          "phase": 0.03333333333333333,
+          "sole_xmin": {
+            "front": 101,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "382812c68a9b5d35fef99486deb16fea67891b3c4bd909c2054a23ee9e88379d",
+            "rear": "f5fc3194686a3f873f115381718fa94b7ceefe2ed058723b1284307a4015a614"
+          },
+          "whole_frame_rgba_sha256": "8b8438858a5428b26124f8b5224dbf06fa18a7ee9d30fad4fdfef28e30743e4a"
+        },
+        {
+          "tick": 3,
+          "phase": 0.05,
+          "sole_xmin": {
+            "front": 101,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "273d9c7e701abd54835f6105d5f5e14828b6e40bf9b911f12bc852ada91251ee",
+            "rear": "018e89c0828ece382fc83973de4ae471ac36bb7cb0bc1b8e6b27f6ef428056e2"
+          },
+          "whole_frame_rgba_sha256": "898264e080af9e5e5c9c5a7d5a27dbd7d200a687547418f90fdc7462a8eaede2"
+        },
+        {
+          "tick": 4,
+          "phase": 0.06666666666666667,
+          "sole_xmin": {
+            "front": 100,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "7c6a206677d5781f4dea13bd707abafe34d6f0d04e17ea10cf0dd0c8b3cc0334",
+            "rear": "606f78b2c58d6b119f1cca954eb745a186ac5dc3744f28c7c6d581c7cb62db83"
+          },
+          "whole_frame_rgba_sha256": "75180348660367ebd741a3452fff3f3644b58e0a281db784688a8a68831e867d"
+        },
+        {
+          "tick": 5,
+          "phase": 0.08333333333333333,
+          "sole_xmin": {
+            "front": 100,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "b751b8a95341d514e7a47bc1a75ca5163eb744841884f793ab64adad23388c0a",
+            "rear": "f16e62ce0ed94c8585d0191a4f1491b6fb79418b83279086736c73a6d637a006"
+          },
+          "whole_frame_rgba_sha256": "3ac5c5af165f4ff6cce69e0912eecbfe4f9e534ef26f7de627cf8f0136f362bb"
+        },
+        {
+          "tick": 6,
+          "phase": 0.1,
+          "sole_xmin": {
+            "front": 99,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "d52490a96075bf373cf004cbed03504e4723a98c17c517452134e1dae62f2d35",
+            "rear": "77102415fb0f0ea3c7b1ec3d808b5139294615143e0cc4dabbc7a4e5f88ee4cc"
+          },
+          "whole_frame_rgba_sha256": "97abbecdd10e4a1c005980e9c4f0228acbd64e2c6aafb0f3f08f173d7cdb5a48"
+        },
+        {
+          "tick": 7,
+          "phase": 0.11666666666666667,
+          "sole_xmin": {
+            "front": 99,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "465a60a588af175efec2073a603ea680ed8f4cd6003bddb2764363e28b52a35a",
+            "rear": "b1dfcb083f27077aa4f3173fcae5d7aa56d77836f1b77e59c65c33e43c77f7f6"
+          },
+          "whole_frame_rgba_sha256": "9e0d403924f9177356331a7003ab44229f883cf66cc8a2428d0f4ef020248a51"
+        },
+        {
+          "tick": 8,
+          "phase": 0.13333333333333333,
+          "sole_xmin": {
+            "front": 99,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "68ab458ea0c664a97b50a5c9d5b6a36bc648beaad5ab927e183827d73d7c79a3",
+            "rear": "21cbe12af20477ba511831d1422b2aa7839cbbbc1d30c3d6767ebe1114c1699e"
+          },
+          "whole_frame_rgba_sha256": "515c284182695c230dfde3d7fc863ff891cda62f8894bdfd3f654a91c1679365"
+        },
+        {
+          "tick": 9,
+          "phase": 0.15,
+          "sole_xmin": {
+            "front": 98,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "91a3399b3beeeb3ef0538a529855faa05155fb2c69b0ea2353a2f9df933ac740",
+            "rear": "be3b1f784cb77378686ef87c5a51ff0d33a900aece27e5d93b7913504f12db76"
+          },
+          "whole_frame_rgba_sha256": "6addcad5d7e658617c787ac24c6a012657c2b703d0b50414a26884e07d450bea"
+        },
+        {
+          "tick": 10,
+          "phase": 0.16666666666666666,
+          "sole_xmin": {
+            "front": 98,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "6917f1fbc615ea1ce014b911db5610ce72de27d204be71e20815f21f9d66ecd4",
+            "rear": "44aab4fce041e5d6e9bcb9d86711b7100f19ebf4f430c6baa667a3480e65ee27"
+          },
+          "whole_frame_rgba_sha256": "17606b851cb1ad4cdbd06894c208335ec3ed85d465aa72eb291770627614751e"
+        },
+        {
+          "tick": 11,
+          "phase": 0.18333333333333332,
+          "sole_xmin": {
+            "front": 97,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "319cb89973d3e497a20dc573c039678aa7534dfcf05bc5871a457d1b1a0168dc",
+            "rear": "b360f1e3be317877dc85ae8e02240ed76280ca5c9db25d53703dca0730ea52cb"
+          },
+          "whole_frame_rgba_sha256": "320b2d449890c75b19e04f5bf3d5aa374c690f023b7ef0c8895764e831089a3b"
+        },
+        {
+          "tick": 12,
+          "phase": 0.2,
+          "sole_xmin": {
+            "front": 97,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "5c9b32af94355f8b3220526fb14da11e51fabfe04892e31b8d2efd651d1730df",
+            "rear": "b990f2017108d14cd5e7815c923483bb0acbc866b447f58579848a9601ee9503"
+          },
+          "whole_frame_rgba_sha256": "d7dffa7eb5fd46572cd61dd0feb3f6e7f59c693d82a6e4e0edc5e28d8e6695f9"
+        },
+        {
+          "tick": 13,
+          "phase": 0.21666666666666667,
+          "sole_xmin": {
+            "front": 97,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "0bbcac6c95b10b8eddefd13b58dd4c77014d5d65ca5c49b3ff81a15c85d3f1e5",
+            "rear": "f4c7a2e2d6e2bbd624fc6ca41bf10ca01e00783b15f01a408ffa7219b3e5bc71"
+          },
+          "whole_frame_rgba_sha256": "0cda59bbd05b620d6a28f4fa098105418c55fd5e4c93db93923da596d6f42117"
+        },
+        {
+          "tick": 14,
+          "phase": 0.23333333333333334,
+          "sole_xmin": {
+            "front": 96,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "18573e860819ce65b6fde2c6da2d24a8fd8d0a8d66b38dac401b792505c716b9",
+            "rear": "ddd8f92feafcf0204b37d90f2674d73ee91b98f8b2081ab7dd6190d6ac289fe6"
+          },
+          "whole_frame_rgba_sha256": "08de380b85e74e2022ec5479b7193b155ae9d4171099077427f261380d6a0463"
+        },
+        {
+          "tick": 15,
+          "phase": 0.25,
+          "sole_xmin": {
+            "front": 96,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "9ac3d935a7036d573c745e57351564f987a5c9494d6d4d43ba70a44714ad9f57",
+            "rear": "f628bb064dfe3dc6c955d4e296d7ff9bd10b409e5b9fdc9f1e6ab417aa405c79"
+          },
+          "whole_frame_rgba_sha256": "8e5669c6854f1fc5ff26e542215ff667f140eead5d5cb3e357a24e6dfd10aacb"
+        },
+        {
+          "tick": 16,
+          "phase": 0.26666666666666666,
+          "sole_xmin": {
+            "front": 95,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "14f4541ed6baf29f58deb5e8b5356d85e04304e539deadde7f2d10f5e66b3b9c",
+            "rear": "f7f01a59862a2a418433bf42f028a8d179d6c9e27e408ef00c8552f4cd067b84"
+          },
+          "whole_frame_rgba_sha256": "4aaa99bc3d83d9950ac7d6fb9809878850d0d1667d5159b4019d07530a2231ce"
+        },
+        {
+          "tick": 17,
+          "phase": 0.2833333333333333,
+          "sole_xmin": {
+            "front": 95,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "f7edd4776a81d79fb97d754d2bbd784079b9b755c67c9fc5b043c108ac5f246b",
+            "rear": "3acf862804adaaf4bd993cdd5e6996915a53da3a0129a4b8a27fbe6c4a18260d"
+          },
+          "whole_frame_rgba_sha256": "a54b695fefbe859aa0e9725932fb3fe15c836efbf6ba52ce8b4f578b28f030cd"
+        },
+        {
+          "tick": 18,
+          "phase": 0.3,
+          "sole_xmin": {
+            "front": 95,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "fcb537c030499605599aa72f34c6b2457e94ab5526dc21488be609170dd12bbd",
+            "rear": "816fca91d267593904ae4af5e6e6aa4042c473b1cab9b1e0ae35d90477dd0b4c"
+          },
+          "whole_frame_rgba_sha256": "05d9599af9a639faf12142e5b3783fbc4b2471ec3ddb31197737d8a15ad2436d"
+        },
+        {
+          "tick": 19,
+          "phase": 0.31666666666666665,
+          "sole_xmin": {
+            "front": 94,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "8885726f74175a02e1855ae86fcef21e7e64346f241b5e9386ba6fd8c035edd8",
+            "rear": "fd231f687511bc55340d9598c350752a0e7cb55c40e0cedf0c39b3155763dc4d"
+          },
+          "whole_frame_rgba_sha256": "8ccca29aed702bd7db4e2d154845a85ffdca074b35a82e36ca3c5201e9a12a5b"
+        },
+        {
+          "tick": 20,
+          "phase": 0.3333333333333333,
+          "sole_xmin": {
+            "front": 94,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "2aef9e82884d01ddacdfab3471f259eb01cdb02c8a4784282024d335f57788fb",
+            "rear": "f6494fa52060c947edd742702e2f581d1563a5d0630c8bf7e1b8579f31c57bbf"
+          },
+          "whole_frame_rgba_sha256": "50e8073c4b6d0fddc6dfcdcf1787ce5f5b6b41d9f8c51440b8b420ed3a6f07e8"
+        },
+        {
+          "tick": 21,
+          "phase": 0.35,
+          "sole_xmin": {
+            "front": 93,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "dd5a82000101e218f3f7c13e079bd0b9def0cb805ae83f9b902fa678270e3d6a",
+            "rear": "657da5443113fdb7a203525dfd8f4be73f220943dccae48e39ab782d5b08111b"
+          },
+          "whole_frame_rgba_sha256": "3e3326657db08d9400e6d721a959000166b8ba8a57851b495023f29b3d5b06a4"
+        },
+        {
+          "tick": 22,
+          "phase": 0.36666666666666664,
+          "sole_xmin": {
+            "front": 93,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "46ce8132bebf1fea254432deb005ad00d81b866786c1c9338acd78f4859f1af5",
+            "rear": "9ac89849b7ef384fdedbedf1c255d192620f0f7f7be46883c4fdaf5687ba87b3"
+          },
+          "whole_frame_rgba_sha256": "25a4f1be262e56ef9741a119a98e52143a94ff5612b48de6011c0e96326065ca"
+        },
+        {
+          "tick": 23,
+          "phase": 0.38333333333333336,
+          "sole_xmin": {
+            "front": 93,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "c5a37e7d425ad567faf0c997129a32ee6202809b07dd4fd64f6bda483e388f9e",
+            "rear": "16ddcbab7a87fd6000faf45b19faec311ea9a2053d083cabab440b50972678a7"
+          },
+          "whole_frame_rgba_sha256": "54f213f12ef1fda6f4b649dd898cbf4b6ad86574ce62cac9e920eb30502e2cc0"
+        },
+        {
+          "tick": 24,
+          "phase": 0.4,
+          "sole_xmin": {
+            "front": 92,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "cdf232bbacdb16cc0c423bd9aac416b929a749d15ee208981a8b4a00319de4a2",
+            "rear": "d301b726a80889bd400bafdd37453204bbc43d1380391509186ae1fc5d67684f"
+          },
+          "whole_frame_rgba_sha256": "88205b066c819a48af0f89172d229fe1dda296179e25020b25ecb2923c97edfe"
+        },
+        {
+          "tick": 25,
+          "phase": 0.4166666666666667,
+          "sole_xmin": {
+            "front": 92,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "1c53a761ba544a90efc229d5d28ff1bea0475effe9607b89dc928bb7fe112f85",
+            "rear": "2e8cbb437ddba8e919e60347df1acffb04284cc6071920228c1e69f8e3a19396"
+          },
+          "whole_frame_rgba_sha256": "faef2c7b84393c56d359b87e02d82756fb7b290e6bb7bacf28b9043c8e363742"
+        },
+        {
+          "tick": 26,
+          "phase": 0.43333333333333335,
+          "sole_xmin": {
+            "front": 91,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "0b494a87b8c3412128b82681f8ee2c38e8eab0d1900f106cdf0914d1e639d6bd",
+            "rear": "7c6f6bb202bf86554036dab06b0c6953ac3c49607115371215851b9fda203b22"
+          },
+          "whole_frame_rgba_sha256": "6ab30bd18ece69dd4cf711e74ed04e626741725283b1fdce54e8cdfbd0ee399c"
+        },
+        {
+          "tick": 27,
+          "phase": 0.45,
+          "sole_xmin": {
+            "front": 91,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "e7795b5cb7d3c887e0da0d8b7bb05ebb81357c7a9a910e6d836c256e1012d4a9",
+            "rear": "f2c2b4c1b3e50ac23eb23478a503868ecb86b1bdafac097a0faaf497a1fc54ab"
+          },
+          "whole_frame_rgba_sha256": "d91561fe08732d38ca39e42d786cb7a5521158b8f1e836a2824e1c82b6483f44"
+        },
+        {
+          "tick": 28,
+          "phase": 0.4666666666666667,
+          "sole_xmin": {
+            "front": 91,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "9ecd56936811c81b9f690db5a36cc0872b6e15b4b6de74a374c1c8c4526c6dee",
+            "rear": "0a90b5e59074f2d471737038f4c2168ed38ac5f99ddd88dcab0a15108cde5f24"
+          },
+          "whole_frame_rgba_sha256": "c85bf365cc05508168b2f2178c55f6c51d3eef04e4501d2c49c53e974c75e0a0"
+        },
+        {
+          "tick": 29,
+          "phase": 0.48333333333333334,
+          "sole_xmin": {
+            "front": 90,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "43b38a5ffc6f7da95c784803eb8c1e5b28516f1cbc4ea10231a2a35d5847d7e3",
+            "rear": "51cc7b03847d08c5bee2216fa18431f281bd8570acf47d3f15ebcb1124055aa7"
+          },
+          "whole_frame_rgba_sha256": "13d9753cc0516c6ece8afb86701493da5d2fb248034c9202bec869a463a0231f"
+        },
+        {
+          "tick": 30,
+          "phase": 0.5,
+          "sole_xmin": {
+            "front": 90,
+            "rear": 84
+          },
+          "boot_png_sha256": {
+            "front": "465f6e36f0b4d8f658ffb3218d8600ea429268a85cc525f453e88635111a0179",
+            "rear": "1c844713a8c9409920bd986466a3ecd5c4ef330d6975556e2d2b01172ff55320"
+          },
+          "whole_frame_rgba_sha256": "36446ffa6857a00133af5f1b6b17d13e209b98dea17d5d4b6c70e4e80873ddf1"
+        },
+        {
+          "tick": 31,
+          "phase": 0.5166666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 83
+          },
+          "boot_png_sha256": {
+            "front": "9f7763efcb91152066a2962ffcc4e6276445fe963f3dd50ef5b87813da1eb8bf",
+            "rear": "1fe7a51e573949a7c948012fd4b21fe579ef1008ef9a958f610d1b76e803c6f3"
+          },
+          "whole_frame_rgba_sha256": "5cafd5ba033cea6fb1ffa250fe610f706822bd6cda56a3321e9a192f0c86c2ee"
+        },
+        {
+          "tick": 32,
+          "phase": 0.5333333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 83
+          },
+          "boot_png_sha256": {
+            "front": "da8ef76145a4f8e8d0c9f98850cb20d0c6cbdc5ee090a285e96329f1504cea1c",
+            "rear": "e9ebc524e06265fedefb4a77d99b5522ef4077c8f69c3817eaa07f9a6fc133e8"
+          },
+          "whole_frame_rgba_sha256": "1781c5bcb458fc111fafb31f3945333e3dbb03f73cad1a23dfa2ad874a3a057e"
+        },
+        {
+          "tick": 33,
+          "phase": 0.55,
+          "sole_xmin": {
+            "front": null,
+            "rear": 83
+          },
+          "boot_png_sha256": {
+            "front": "6976211327cae8ee9f6df704418ab098e4f05ac82abcda5893afc0448ae3a487",
+            "rear": "7a9ab0a355777c95817dd1ab933901eb6e81de4bec477c90b687f98766c7cefc"
+          },
+          "whole_frame_rgba_sha256": "ad82d48b0763aa5a03216971fd72d20048922c62b1095f359fb4a88bdbe0f4d9"
+        },
+        {
+          "tick": 34,
+          "phase": 0.5666666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 82
+          },
+          "boot_png_sha256": {
+            "front": "419548bcd55024f9820ed1c6de28c452a0abc74deedcf4161146496502431c2f",
+            "rear": "37a225461f085f5b84e34751a15fbfa95c56c2fdd72fcdca2b684a398d7f9e20"
+          },
+          "whole_frame_rgba_sha256": "a554ca89176520e952e297c59137d06918053febf2f852fbf1515ac8c16d54be"
+        },
+        {
+          "tick": 35,
+          "phase": 0.5833333333333334,
+          "sole_xmin": {
+            "front": null,
+            "rear": 82
+          },
+          "boot_png_sha256": {
+            "front": "6f8f9e5f9f6a14a613adb85e3a9ee5535e53c881326ab6b774d37a393be040b6",
+            "rear": "a15e62fa9def81db6b4b9d22bc737e2bffc64023e49862adfa7777f68cff0ae8"
+          },
+          "whole_frame_rgba_sha256": "ff5e363f0c5c1dcd1a3522a1f6abe048ee8b29e161c1806ea2d90f9b338fcb7a"
+        },
+        {
+          "tick": 36,
+          "phase": 0.6,
+          "sole_xmin": {
+            "front": null,
+            "rear": 81
+          },
+          "boot_png_sha256": {
+            "front": "1d36497b8a455cbba603f7f8825df4ae76a3024f6e03b2c43aa7e0b8b63fb4c1",
+            "rear": "7528e1cc78d4fe0a5728e389eaec0d13f85c11be435ec95892fe609dbb130b15"
+          },
+          "whole_frame_rgba_sha256": "6ab9e0400ef603a7c99569eea064727f3217a5dcc63bd715e08b20c032fead10"
+        },
+        {
+          "tick": 37,
+          "phase": 0.6166666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 81
+          },
+          "boot_png_sha256": {
+            "front": "5490dbf2ea631e7fe3c19dc28f2000831b385abb8a1018c707b04382b03d7419",
+            "rear": "00494985e94deaf4b3fa8b9cba3337938a5386da83cfeeac801f948d90d34e79"
+          },
+          "whole_frame_rgba_sha256": "64a1d77d54ccdba4bf23fee1ddc89bcdacde22d7c79a60567e7d9ec4aac0b866"
+        },
+        {
+          "tick": 38,
+          "phase": 0.6333333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 81
+          },
+          "boot_png_sha256": {
+            "front": "79d09c1aafb3c49ccc6e61cf537682330bd5b93c497614989bc3c6ca714351b6",
+            "rear": "5792241518d8dc1d3a99287f93d8cac089208cce0afe10702d31b6197a2a4c1c"
+          },
+          "whole_frame_rgba_sha256": "311e305c9246bfe1d9cc1fe82694db0b3b0a616fbffc9199235793f80061ab70"
+        },
+        {
+          "tick": 39,
+          "phase": 0.65,
+          "sole_xmin": {
+            "front": null,
+            "rear": 80
+          },
+          "boot_png_sha256": {
+            "front": "aeb0b66b26924eb03f2362c7d55bbaef62ad17b9e2dd9b4007cd9822ad16df3f",
+            "rear": "3583d6d4919645afc335a450a981f6386c366d410108d5625ea4a2e20f9e1356"
+          },
+          "whole_frame_rgba_sha256": "330a0409d6c0dbe65e21f6d6ecb2f5fd6877972b0bdba9c7b2eb432f26dc2b7b"
+        },
+        {
+          "tick": 40,
+          "phase": 0.6666666666666666,
+          "sole_xmin": {
+            "front": null,
+            "rear": 80
+          },
+          "boot_png_sha256": {
+            "front": "ada8eea1c60c80599b1c9d5ce4bb09bc27a880b77f9c9190971f237cf71fa8c5",
+            "rear": "405f6d9dad898500257974d1224a60e044e2a7b038291b6de96a8c5692899b33"
+          },
+          "whole_frame_rgba_sha256": "1dcc6eb44d65dcf638308b5cda1b138f0f2acbf6df44a26a4cea1e5ac7ab5c76"
+        },
+        {
+          "tick": 41,
+          "phase": 0.6833333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 79
+          },
+          "boot_png_sha256": {
+            "front": "c710aa45968534a0794161785621f50e61720754193725bc44faf372cb2c302c",
+            "rear": "9070f35cbc368cc2ff0c5b8bbb75c40695d71ff3102ceafa880348d55f7315eb"
+          },
+          "whole_frame_rgba_sha256": "3029494f22698bfc8119b788b5b0a39e9ab04db14f10c2818483d41252081fd3"
+        },
+        {
+          "tick": 42,
+          "phase": 0.7,
+          "sole_xmin": {
+            "front": null,
+            "rear": 79
+          },
+          "boot_png_sha256": {
+            "front": "ef586a84de08170f08c733f9fcbc15a79321fde3fbc28b0a3db48eb788157c6b",
+            "rear": "868d35f3beff4aec83a1f46ce9c99b4b59c6a9d241eb3492584f49dc95e9708d"
+          },
+          "whole_frame_rgba_sha256": "a70f163302282f04f8f14e7d7492e1a75b563d58c0afe62a9dd1a1cebf2393ab"
+        },
+        {
+          "tick": 43,
+          "phase": 0.7166666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 79
+          },
+          "boot_png_sha256": {
+            "front": "0dd27ca2c3b12e6e8c949f861aad42cf6f7acf03061a3ce979a91af14e88a860",
+            "rear": "35c9b18fe198bc9e3a4a5f3aadf7d09d8d79f612dd8296293dc21f4f7aad5872"
+          },
+          "whole_frame_rgba_sha256": "039da36cbb8d337716ffef3d44f3be494cd2e49daf462c85e796a776ca30c513"
+        },
+        {
+          "tick": 44,
+          "phase": 0.7333333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 78
+          },
+          "boot_png_sha256": {
+            "front": "73e838a1c3e68d49ebc5da5f6db4741437ec601088ef2a041dc8e72bd147e24f",
+            "rear": "588f0774dc164e8fbf3ea93839340d6d50f86b3a021cb2b0022e56d8fca01777"
+          },
+          "whole_frame_rgba_sha256": "7cfac33bbd428efb465f00ab79f1214487ee1302c67e2e3adead00de76aa0348"
+        },
+        {
+          "tick": 45,
+          "phase": 0.75,
+          "sole_xmin": {
+            "front": null,
+            "rear": 78
+          },
+          "boot_png_sha256": {
+            "front": "d5adccf51da6e61f54e13b44198a827ed1c048b1a3817f24b197477a62bf01a6",
+            "rear": "def1e33bc7831b0d2c6883e7f723d4b60297fb96587fc0f48fc9b184d52c6c79"
+          },
+          "whole_frame_rgba_sha256": "a8a7b184630b3b95a9b3e813822d7175b63406b997eaaf08b01ec88e981dc0d7"
+        },
+        {
+          "tick": 46,
+          "phase": 0.7666666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 77
+          },
+          "boot_png_sha256": {
+            "front": "eb7ae62f2763ff68b077777171399c9b4f64338705b86ba9ae01f9767fde3b13",
+            "rear": "eb364acfe89cb63efadb9603f82a6c315651f0250f14f95fca8907ebde42763c"
+          },
+          "whole_frame_rgba_sha256": "a46e6036284760b666ec75f8ec2d114682a0f46116b90d1d0ed4b116438f3601"
+        },
+        {
+          "tick": 47,
+          "phase": 0.7833333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 77
+          },
+          "boot_png_sha256": {
+            "front": "e3b45b3fd6962eec7d8b13ae64421aa02bae547e02fd588e082582d702fae968",
+            "rear": "7c770395d6bda2578890e188d686da1768b1a5074dc6526eabfb13b6cb81fe52"
+          },
+          "whole_frame_rgba_sha256": "c55bcabf5ab0629fb61dd9fbeefca156045e13fd475c6d3d2bdf23bd2c5b6193"
+        },
+        {
+          "tick": 48,
+          "phase": 0.8,
+          "sole_xmin": {
+            "front": null,
+            "rear": 77
+          },
+          "boot_png_sha256": {
+            "front": "e72f42619d419680c97ef224b0d994f35a35776e975c0ea5563a754dd9b78a02",
+            "rear": "47905527ff49842ad2192bb714526eeed6df934a731404ada2da5dddd397e255"
+          },
+          "whole_frame_rgba_sha256": "c47c48c3505fc1f3bed3be45e6e3a5679bf064e6953ef317d575012f1c0e3680"
+        },
+        {
+          "tick": 49,
+          "phase": 0.8166666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 76
+          },
+          "boot_png_sha256": {
+            "front": "97d8ddda924596926b9ffd50d5c79c62644a8652d0055891f32d8cf3278170aa",
+            "rear": "101c48cbe4a6601cd79360f86af62918f9bc8a1ebd3466d207f5edd2757f51f8"
+          },
+          "whole_frame_rgba_sha256": "941625083988550e16d1d6b9419210f5350a608bfa3d69c08e1876fd6428094d"
+        },
+        {
+          "tick": 50,
+          "phase": 0.8333333333333334,
+          "sole_xmin": {
+            "front": null,
+            "rear": 76
+          },
+          "boot_png_sha256": {
+            "front": "8e09d763ab60f74dea4b06c0bc82e742ecce84f42f704505556aee746370ce1f",
+            "rear": "4b08dbe498e00e0e82e9ea7c44514ffedcaea195284589f851856918dc33ab1a"
+          },
+          "whole_frame_rgba_sha256": "d86e1d115f10a912b81b18f775b6ddbddcf780875d96b0f2fddf83c53e7c3242"
+        },
+        {
+          "tick": 51,
+          "phase": 0.85,
+          "sole_xmin": {
+            "front": null,
+            "rear": 75
+          },
+          "boot_png_sha256": {
+            "front": "c84ccfb0ef8f16c7c668ead82a29350a8e21fec52c389bac708466b6949e38cc",
+            "rear": "df0fcd01e9884b66447231bcc6f81859563e1e127b0f669499f7c335c713d47f"
+          },
+          "whole_frame_rgba_sha256": "eb9fce4fad85704ddd74bbd36a2bb361fce188568d4125c73ae604dfc96efe10"
+        },
+        {
+          "tick": 52,
+          "phase": 0.8666666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 75
+          },
+          "boot_png_sha256": {
+            "front": "9ecb505c4588b36107da7b32565cddaf28e250d370b650dcfe106222f9d3879b",
+            "rear": "b912b7a101a2dbe1882cd910819fbf2e3baedc746f228358908e7a02705c1d1f"
+          },
+          "whole_frame_rgba_sha256": "6a543993b59a8dfe5eb42de99a61f453d5ad28438fcc35a4b5c8921941898931"
+        },
+        {
+          "tick": 53,
+          "phase": 0.8833333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 75
+          },
+          "boot_png_sha256": {
+            "front": "7e03cab0111b9bf33a8f106957a10374a243f750f25dc6299319b6bdf79e623e",
+            "rear": "b1b244911ca12d1023d3716460227ae91cf2a7f7188105f2967a5fe5856f5c66"
+          },
+          "whole_frame_rgba_sha256": "ad491cea5d6590365c2d2b861ed21ca61679f19e23e9e0a163fce39b5f7ab704"
+        },
+        {
+          "tick": 54,
+          "phase": 0.9,
+          "sole_xmin": {
+            "front": null,
+            "rear": 74
+          },
+          "boot_png_sha256": {
+            "front": "c7630b3878d8589f798aa01141a3e78209cf2ae996467c41aebee6117072aec5",
+            "rear": "3bcae4eba298df1c6a98289f38e6c0be2a9b991ce207ca5991c7a1924304df1d"
+          },
+          "whole_frame_rgba_sha256": "3b38c4dc96aaddb8d77337ff4e597d9942fc7437e83c2603f2f3e1b5bfa0d861"
+        },
+        {
+          "tick": 55,
+          "phase": 0.9166666666666666,
+          "sole_xmin": {
+            "front": null,
+            "rear": 74
+          },
+          "boot_png_sha256": {
+            "front": "3c1289ed5fc3fd990cd85fe6170b58739f77a013defc7fc41ce4e784d0f69152",
+            "rear": "3c60c3464946bba250e6a671d77b16565c3fb11a33db8e7b3d83244ec30f6795"
+          },
+          "whole_frame_rgba_sha256": "e456ae7230cbb457493c1d25ac98021d7257223bee54a09ad7f2c144e532bec1"
+        },
+        {
+          "tick": 56,
+          "phase": 0.9333333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 73
+          },
+          "boot_png_sha256": {
+            "front": "9f29972795a2e789fe3207852d4b7a7cabc928bf9edc9d5b4178a98b57193ec4",
+            "rear": "fa3a0fae8676d5de3aefae8d5d5b8b047d0b54fd5c3e8bf945a29d58102d4137"
+          },
+          "whole_frame_rgba_sha256": "4bd2896abd07798b8d3d30414a859cd3ae8d17321769c112ff948c8efefe394e"
+        },
+        {
+          "tick": 57,
+          "phase": 0.95,
+          "sole_xmin": {
+            "front": null,
+            "rear": 73
+          },
+          "boot_png_sha256": {
+            "front": "febee39ebf2a9624eef54aff3433be952f6b16d8394485ecb1af6a859cd1ce25",
+            "rear": "4d34ba9698851f169582c662145f540daf5c9d8786ceb323d8d3bbdafa730b5b"
+          },
+          "whole_frame_rgba_sha256": "1a42db75ffb138dc0f671519cedde3c20e13192f2cbb0b01af1d04a2c9c7de76"
+        },
+        {
+          "tick": 58,
+          "phase": 0.9666666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": 73
+          },
+          "boot_png_sha256": {
+            "front": "d4c5daf0c33729baa91c26c6f9883c9adbce4605b3405428efe9ce280489d56c",
+            "rear": "a3a233e766e3d29b6aa25ceb26d73e87bc5d92421ed742c0f1c5d07f93b50959"
+          },
+          "whole_frame_rgba_sha256": "314dfdcc96da681a32ab7e8367dc4b155d68575d83d47093dd644253c9df5699"
+        },
+        {
+          "tick": 59,
+          "phase": 0.9833333333333333,
+          "sole_xmin": {
+            "front": null,
+            "rear": 72
+          },
+          "boot_png_sha256": {
+            "front": "d03afe87c7e3eb4dd5957f7111354ec10174fe95f08223be71d05eea05b292e5",
+            "rear": "dd0b990b61aae572d76f51cfb84d32de5e8f0059a07967626ef3afdefc84eb63"
+          },
+          "whole_frame_rgba_sha256": "fbfb736b7f0bc1aff26dcbb76c1fbe41eeb460bb785477fba01a68465b3eb738"
+        }
+      ]
+    },
+    "run": {
+      "duration_ticks": 36,
+      "fps": 60,
+      "root_motion_px_per_cycle": 40,
+      "frames": [
+        {
+          "tick": 0,
+          "phase": 0.0,
+          "sole_xmin": {
+            "front": 103,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "e9806ad9d564763126a430e1bcf407d077b944b9099981b3efbaf242685bd881",
+            "rear": "a5943b6e12188cbeaffe9ccc00e2991c9cf55efc91f4190b42d28d6882aeb7ff"
+          },
+          "whole_frame_rgba_sha256": "c6d6dd0fd676cdadb756ab5e7fd29195913305cc7edb1d86d8b90f3586ae4c7b"
+        },
+        {
+          "tick": 1,
+          "phase": 0.027777777777777776,
+          "sole_xmin": {
+            "front": 102,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "1b35a0688f77b6d98c828f5bea8aa00ddab4c68a0a6a4699e899987d010b1731",
+            "rear": "db8b653c88faaf7967ff3ab029f97086c52d55ea9d09063d3313937e4f086ae5"
+          },
+          "whole_frame_rgba_sha256": "0c6cec7e7a8ebb47c4cd434bdba74b7433911f144e7a31076dafda2022779ec1"
+        },
+        {
+          "tick": 2,
+          "phase": 0.05555555555555555,
+          "sole_xmin": {
+            "front": 101,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "151c53fe3384afe4dfa5cbb142bb9436cd0cdbe48a17f3d87a10099aa2cfe02b",
+            "rear": "2a26996c0d7b788b5943265bb098ddbb526e56e5acd18f0b30c5cf5109f1d304"
+          },
+          "whole_frame_rgba_sha256": "c57823220538268a3f85fc2a543fcea096aa4953bc64974ab39a48eab5445640"
+        },
+        {
+          "tick": 3,
+          "phase": 0.08333333333333333,
+          "sole_xmin": {
+            "front": 100,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "e7c34a1e829dc553662e80cf62840ade8c0898ebd9c5059ce5f5fc2c61388391",
+            "rear": "2f0366aac003a72d27c7bb7b088b330d2ecda7a2ec5b50e0e88dd402e177719a"
+          },
+          "whole_frame_rgba_sha256": "89d5e618af9af7a028a766c4a02afdb2fac8aeda06729f3a0181a7e3846358b8"
+        },
+        {
+          "tick": 4,
+          "phase": 0.1111111111111111,
+          "sole_xmin": {
+            "front": 99,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "488995e71f1410622f6327c0fc8ca20fdc22d9812d26c54c24926848d8d3c251",
+            "rear": "e95a26cd899f657de6a2f566c3708f43f853c7ff13a905725dadd0143a35a3da"
+          },
+          "whole_frame_rgba_sha256": "0be9f8703278446a637dfa116a1b46ab4ba1170094fbb3cbcb006b0766f54c9d"
+        },
+        {
+          "tick": 5,
+          "phase": 0.1388888888888889,
+          "sole_xmin": {
+            "front": 98,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "082a10f6f797d698b6ff8cd1d25bd2351747525076acf65ce47266f1b91bd5ec",
+            "rear": "9d3dfd002da0254a60dad121bc72befeda109d804730d1fd8d48eb8ef580f79c"
+          },
+          "whole_frame_rgba_sha256": "87dddd2e343eaa2e37392d523c71a588deb1854abd21168b3210d907878d9895"
+        },
+        {
+          "tick": 6,
+          "phase": 0.16666666666666666,
+          "sole_xmin": {
+            "front": 97,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "1e00c3595427bad8bec28b0fa9dac09d9435aa36051085a2c055d6564941c5fd",
+            "rear": "366f8486e0f8c04d8549ace727db5260d5fafb6d00588be4c29f9be423b95d9e"
+          },
+          "whole_frame_rgba_sha256": "66625a66416f58e43547a94c7d07aac24fa75e90c9b43c4ab23a13099f3d492d"
+        },
+        {
+          "tick": 7,
+          "phase": 0.19444444444444445,
+          "sole_xmin": {
+            "front": 96,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "39dba9f1702eee0ab3ab59b3c0f7257f58cf1cd9be863908e6fad65663e4cd9d",
+            "rear": "d95349969685b31be529392c005ed6fe2b9a6614513a7ca19e4ab34468c3d8d9"
+          },
+          "whole_frame_rgba_sha256": "c54f32b416a486538eaff0d8b42537890639d7b2ce05bf493ab57a71abc3cad1"
+        },
+        {
+          "tick": 8,
+          "phase": 0.2222222222222222,
+          "sole_xmin": {
+            "front": 95,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "82eae16916f33669749fe6c1c54b1358bf4f808ef463242bd3f8710087e97ffa",
+            "rear": "c690e5e489adc300d9d0d593d6e7b2f10712f264afa490e92ef8795c9ac575a9"
+          },
+          "whole_frame_rgba_sha256": "1d9b372c3339ff2f8e0006c35fdd9b2e41ff1f3c7983f4e4d54d7a15b53f6704"
+        },
+        {
+          "tick": 9,
+          "phase": 0.25,
+          "sole_xmin": {
+            "front": 93,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "dd5a82000101e218f3f7c13e079bd0b9def0cb805ae83f9b902fa678270e3d6a",
+            "rear": "b9147e66b7ee0c6c666fbed5dd7d50585d3d43bcf5ce59bafb53f0a674c2b20b"
+          },
+          "whole_frame_rgba_sha256": "fa63f11460076879b0bbef0fe1c686717b2ee957e9da974e5933ab4c458da7d8"
+        },
+        {
+          "tick": 10,
+          "phase": 0.2777777777777778,
+          "sole_xmin": {
+            "front": 92,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "d92871703291c67c0ca9ff8c49891b1c749b7de80f75038ed8e924bf9ed540f0",
+            "rear": "d4d082d55fcbbb7027af76213fedafac55d28399f090d888a31a8784a2c796bb"
+          },
+          "whole_frame_rgba_sha256": "0c6fb967693c2b50830e50d30ff173530ba3f93c178a3043dab67726092bc297"
+        },
+        {
+          "tick": 11,
+          "phase": 0.3055555555555556,
+          "sole_xmin": {
+            "front": 91,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "f8a29ce9300c5f032dc2569ea613c72c5e56e0e420b90e0c606d9594c0628e7e",
+            "rear": "e156d25b62ef552a358276a6e241d90694abf3f991b8eaf2c139382377dd19a8"
+          },
+          "whole_frame_rgba_sha256": "d2c5302294514d914260224ecf6222251d585cb3e007e2546e659aebf966f716"
+        },
+        {
+          "tick": 12,
+          "phase": 0.3333333333333333,
+          "sole_xmin": {
+            "front": 90,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "90c8366c853aefa0d31e1ac8a2520599116de752dd7b41797388e770e2b5792c",
+            "rear": "697769e68c625a58107d0a6d9c629932009f8a5fae83584a78df87564c1eb8c4"
+          },
+          "whole_frame_rgba_sha256": "5296250ea242e2b917c0bf8a17afd4003c71acfdb5b4f53f69cd36ad19cd5a7c"
+        },
+        {
+          "tick": 13,
+          "phase": 0.3611111111111111,
+          "sole_xmin": {
+            "front": 89,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "a094c1143c3e8c2d3bb9b2e2f90b99d8d1182bbfa88108ea51cb2a70966383fa",
+            "rear": "073e7b97dede0812fcd8c9a6e8daaba206915328c5e98baf4b96a3c9cbb2edbf"
+          },
+          "whole_frame_rgba_sha256": "8907abe40e86481c565ce958447d64f287cd55f30a526c1042e1fd48a6c6285a"
+        },
+        {
+          "tick": 14,
+          "phase": 0.3888888888888889,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "e9bb89bd642ce5a0041dc092beb4f8bfc81a56a0134bda8419c483abef8e29f7",
+            "rear": "428cfecfac4728ba5856a3e6dc39b4bd75d847bbb04630bfb1a4a5aee85160a5"
+          },
+          "whole_frame_rgba_sha256": "65197a1d4a10543f41d71bc8a821711d46f8961a92e6fde53d5211042372ab02"
+        },
+        {
+          "tick": 15,
+          "phase": 0.4166666666666667,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "207bbd83d93424052715746d1f4658d66475a855ee8b8761c226400c3d708bca",
+            "rear": "4d2a987d1d0a4803aa0a13c5d8fc1ea47b0332b1cb48ef8265a60a1e28f1721a"
+          },
+          "whole_frame_rgba_sha256": "7f424ae2e29aa2748144a57067e7f39ac972b570559f267fa096f5f72c5ea57c"
+        },
+        {
+          "tick": 16,
+          "phase": 0.4444444444444444,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "f7456f28f970826773d9b636f5e9183ffd7cd33f552fead10f6df5b0c2782e2a",
+            "rear": "35d9044e063a6d804657a6c6513a3ff57e36dad590f501ff9ed29d1b2db72c14"
+          },
+          "whole_frame_rgba_sha256": "8ba9a3a72c033c4468e1d3ca3f723900af96b596cc71bc1248e8db0a18068347"
+        },
+        {
+          "tick": 17,
+          "phase": 0.4722222222222222,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "fb006bb54741cbcfc7b52e44a620a081baa2c64f3a8a70d7f74b43662aca282e",
+            "rear": "ff67ac3142ecfe3b7affd7bf26d221979c926db8ae9d8ca17116830cd86ee848"
+          },
+          "whole_frame_rgba_sha256": "36c09d442a9ff49c7ae70e77dc736f5c0fb19ea594dccf5cf8885dc014b796ea"
+        },
+        {
+          "tick": 18,
+          "phase": 0.5,
+          "sole_xmin": {
+            "front": null,
+            "rear": 85
+          },
+          "boot_png_sha256": {
+            "front": "a85b18e5486c73058b6026163f1c8ad547f28cc41e5972ecbb4ff8547b33836d",
+            "rear": "4c68cbcf473271a034ee85d6dc3e9d551989faedbab9195c8867fc6567db4006"
+          },
+          "whole_frame_rgba_sha256": "13343c592b2975f2bb19fbe92429922356901137186da04e9e20ad20a20c8ab6"
+        },
+        {
+          "tick": 19,
+          "phase": 0.5277777777777778,
+          "sole_xmin": {
+            "front": null,
+            "rear": 84
+          },
+          "boot_png_sha256": {
+            "front": "8dbf4fbd9f49bb695240c298e27c5673a3a57701067162219aa8dc1578f775b5",
+            "rear": "abc40f5a058fa24f5d71ba8d4ce8b793e594fd6051184aa292e731a754b187fd"
+          },
+          "whole_frame_rgba_sha256": "7c7bf33715c61c05ec9fe919bb8c5e06b81173fbeb167dcc17fa91d19d662392"
+        },
+        {
+          "tick": 20,
+          "phase": 0.5555555555555556,
+          "sole_xmin": {
+            "front": null,
+            "rear": 83
+          },
+          "boot_png_sha256": {
+            "front": "ba08db38b8240b75441f193307b514d18a58187558156a0fa0ac04bb640ea953",
+            "rear": "12a5c55f92542f95c7ee1ceff008488686fd339938925321a726ec55b7f209bc"
+          },
+          "whole_frame_rgba_sha256": "9f546882a4a77be59e87677613b25d18e49cb7c45125744924d23c136462c765"
+        },
+        {
+          "tick": 21,
+          "phase": 0.5833333333333334,
+          "sole_xmin": {
+            "front": null,
+            "rear": 82
+          },
+          "boot_png_sha256": {
+            "front": "e9a3ada7db607397bb4a32cdd031d7f6ccdd6e277521c7e04af8e1cc521cd6cb",
+            "rear": "fabd08896b7df11b629acdbdd13e0a3ff5f87a6b137773328cf7dc6460a15d46"
+          },
+          "whole_frame_rgba_sha256": "62551839aa4a15967af7ecdb50019b0b529467530a1c5026b9efae9c82bbe1fb"
+        },
+        {
+          "tick": 22,
+          "phase": 0.6111111111111112,
+          "sole_xmin": {
+            "front": null,
+            "rear": 81
+          },
+          "boot_png_sha256": {
+            "front": "c9c4d9cd15ea6bd92e26c3fd26fbc5e54fd1e4540fda204e2b3b69599ef2c26f",
+            "rear": "8f6d2feb5afa62785f6fa32543d93d41751107886c4b00911cb588c89a4bd350"
+          },
+          "whole_frame_rgba_sha256": "5996fd6357dcf31dba324325b92c41dfa28b11563b60899c6bcfbf2deb84dbfc"
+        },
+        {
+          "tick": 23,
+          "phase": 0.6388888888888888,
+          "sole_xmin": {
+            "front": null,
+            "rear": 80
+          },
+          "boot_png_sha256": {
+            "front": "6bc1942ed05e19454d43178c36bdae7caa2bfce51da26a9d7fe4ac4670fbb04b",
+            "rear": "c2846be67ccb421d09779a1b6d1ddcaa32e23cf48737c8e50025e54a9df7b0a2"
+          },
+          "whole_frame_rgba_sha256": "484cc448eec96ac5aa062a700184fa5d9deed7dd819be3aa3f89c4d602004b2d"
+        },
+        {
+          "tick": 24,
+          "phase": 0.6666666666666666,
+          "sole_xmin": {
+            "front": null,
+            "rear": 79
+          },
+          "boot_png_sha256": {
+            "front": "7f858506944f791a4fe651430142906ab5c0b1b529261b074e5922f9b6165c04",
+            "rear": "6b806e3529817fc77dfc08cfa37d30dd1209390f2a7eaae7df7142e86c943b49"
+          },
+          "whole_frame_rgba_sha256": "6c5da1f8d654c59098f8525a831de91323a444a25005b1f8289059309a1ca6ae"
+        },
+        {
+          "tick": 25,
+          "phase": 0.6944444444444444,
+          "sole_xmin": {
+            "front": null,
+            "rear": 78
+          },
+          "boot_png_sha256": {
+            "front": "9717c2e7a3a9a5bb4a6526ee1f8a8ca451dfaa964ae522edd9b2a7b1c8308406",
+            "rear": "c21099043cf16312f07a2f7045e243c6a476cb3d0fb4b2e4604c1f44bfc57b62"
+          },
+          "whole_frame_rgba_sha256": "0232730aa1fe0f2ecda05cce2f74ea26056c98a22ba4a107dd0b8f86272bb699"
+        },
+        {
+          "tick": 26,
+          "phase": 0.7222222222222222,
+          "sole_xmin": {
+            "front": null,
+            "rear": 77
+          },
+          "boot_png_sha256": {
+            "front": "f0cc3fa7c0e0bfe51808220559928dfa32eef2b499378177409d2de51871c692",
+            "rear": "5ddf29a7fdc5f193ab85e2c249b282ace887c3052668c1ddad2709d04bf2398f"
+          },
+          "whole_frame_rgba_sha256": "b7a210080b19cc403c83381ab30b282f9bf769a8c64fa5359fb4f5633501553e"
+        },
+        {
+          "tick": 27,
+          "phase": 0.75,
+          "sole_xmin": {
+            "front": null,
+            "rear": 75
+          },
+          "boot_png_sha256": {
+            "front": "51433e10387455c8b5e9818fd1e87f50484bd0325f6a8bc05faac106f03f7f5a",
+            "rear": "df0fcd01e9884b66447231bcc6f81859563e1e127b0f669499f7c335c713d47f"
+          },
+          "whole_frame_rgba_sha256": "5f6a19e6feda05c9051675dbcbcfa297b124675808be3f73b5e6e8459ee3f007"
+        },
+        {
+          "tick": 28,
+          "phase": 0.7777777777777778,
+          "sole_xmin": {
+            "front": null,
+            "rear": 74
+          },
+          "boot_png_sha256": {
+            "front": "6a51865d900a3ee57b7b38dfb44bc85c271a4f2b2f68fa31bb190a2b72af24ef",
+            "rear": "e88952e0784c05d831393496be0a468a12e1afd8b8bbe52515770dd36b56d8ac"
+          },
+          "whole_frame_rgba_sha256": "6527ac9482f64a5ebf96f7ab5069e4adbf9783379bca552de18f7d6f5c633b2e"
+        },
+        {
+          "tick": 29,
+          "phase": 0.8055555555555556,
+          "sole_xmin": {
+            "front": null,
+            "rear": 73
+          },
+          "boot_png_sha256": {
+            "front": "1576078869ec5b7a419537c4e8d3162adcb9e694fe2063d45c75eabb9df2cdb5",
+            "rear": "dc6ac363a3f030c3b0017e54f5bb60fe8526fa6401639c014777a32b818bb7b5"
+          },
+          "whole_frame_rgba_sha256": "e39568d4b8f30264d0b22d9dc2bec93914d71c2c74ce090d13e1bc6866e46997"
+        },
+        {
+          "tick": 30,
+          "phase": 0.8333333333333334,
+          "sole_xmin": {
+            "front": null,
+            "rear": 72
+          },
+          "boot_png_sha256": {
+            "front": "5e5b10fa7957f6f8cce2a423a1841e5fab6bf934d851c5a73e06a66db425ae67",
+            "rear": "2be924081a7a4be24e995e21ed1ff4004bff454e71154aa441df13ab3c654b45"
+          },
+          "whole_frame_rgba_sha256": "41e4088f6ffe71bea8454108758124da2cfcbcc46c6bd03630eb254a651fdb93"
+        },
+        {
+          "tick": 31,
+          "phase": 0.8611111111111112,
+          "sole_xmin": {
+            "front": null,
+            "rear": 71
+          },
+          "boot_png_sha256": {
+            "front": "fca32bcb805d98fa2024ed2c52cf73d6434ca8a1ff39ce3a0df07e0623ab7c9c",
+            "rear": "a2e2f09d5f194fe5ba95a9556eab29eb8b5b0c99bf7f437d6f4abd9d641aff90"
+          },
+          "whole_frame_rgba_sha256": "e4c18b555399dbd75c0869f5de57eedd0ef582013b98de561173276c57b77a42"
+        },
+        {
+          "tick": 32,
+          "phase": 0.8888888888888888,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "7174eaa5ec08b5f1e2d0e7e8cd5c91b3d3b63f97bf3f48bce12c538b63b2a207",
+            "rear": "37c98ffe2cf5bd499afd33b39d3c9f31cb099c557562767d03d2d6ba4f4d96a3"
+          },
+          "whole_frame_rgba_sha256": "ed23769a9feafa05ccd557d39a925f78537e95b99ddce80312fd4117115d1bb3"
+        },
+        {
+          "tick": 33,
+          "phase": 0.9166666666666666,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "19229428f979b7092cdf4b26205ba87cbf5db333509d09f7e918adef7adf164c",
+            "rear": "85d93b202314056c1005dd32e039774ddc58db65b1dbc518ed2533dcdf767352"
+          },
+          "whole_frame_rgba_sha256": "da1ab837330cb7fea6f18b211828f230ffb6b0089b8a808f538fd9fc4abbadda"
+        },
+        {
+          "tick": 34,
+          "phase": 0.9444444444444444,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "a6a71eee9e27500c148ccac931a34a60bde257337273f8fd41428c628852179a",
+            "rear": "3c50cffd10d016a8db1beb9ef55bbccc1f395527e93897ae8fa108a97528e6f3"
+          },
+          "whole_frame_rgba_sha256": "6c03523dc44b25ef0a14751700cf591a86ae1887b8685471b2f52950f41ffd8b"
+        },
+        {
+          "tick": 35,
+          "phase": 0.9722222222222222,
+          "sole_xmin": {
+            "front": null,
+            "rear": null
+          },
+          "boot_png_sha256": {
+            "front": "7bd77c4d9041c16d8170d86a0f0b4c15d2c672b1140d641520b27ed1cf3ca3b5",
+            "rear": "ef78a688adb93513d40eac0d57b0be35123fa29a7ddb709a31a5a4b1282fbb63"
+          },
+          "whole_frame_rgba_sha256": "167bdf29a30aa8e839f1950953383896613cb767f9dc8b1ce5c7724f869cbef4"
+        }
+      ]
+    }
+  }
+}

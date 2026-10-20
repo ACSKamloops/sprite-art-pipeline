@@ -1,0 +1,23 @@
+[
+  {
+    "file": "complete-arm-keys.txt",
+    "sha256": "2efa750e22fb5b25d8ca8ef1ea873850797cc3f01a92ad618d1c6847120493bf",
+    "original_path": "/home/astra/projects/rpg-hero-animation/work/motion-quality-v1/arm-paint-v1/PROMPT.txt",
+    "role": "Submitted complete-arm edit prompt; inspect actual pose compliance.",
+    "actual_input_directory": "/home/astra/projects/rpg-hero-animation/work/motion-quality-v1/arm-paint-v1"
+  },
+  {
+    "file": "extension-recoil-keys.txt",
+    "sha256": "fc2da28d5f5987c9b6a8fbad2fb32d9e6291ef7db06cc95f6dd2ef0bbe50d353",
+    "original_path": "/home/astra/projects/rpg-hero-animation/work/motion-quality-v1/arm-paint-v2/TOOL-PROMPT.txt",
+    "role": "Exact shorter tool request, distinct from the longer authoring brief.",
+    "actual_input_directory": "/home/astra/projects/rpg-hero-animation/work/motion-quality-v1/arm-paint-v2"
+  },
+  {
+    "file": "painted-bridges-not-selected.txt",
+    "sha256": "fa0b34c00a0c1b27a0513eeccb5497859458ed2e8675bf6114221b5dfbde74fa",
+    "original_path": "/home/astra/projects/rpg-hero-animation/work/compact-jab-painted-bridges-v1/imagegen-prompt.txt",
+    "role": "Actual fourth-call request; returned paintings were not selected for final bridges.",
+    "actual_input_directory": "/home/astra/projects/rpg-hero-animation/work/compact-jab-painted-bridges-v1"
+  }
+]

@@ -1,0 +1,200 @@
+{
+  "version": 1,
+  "updated_utc": "2026-10-14T07:38:30.155487+00:00",
+  "scope": "Verified bounded native video admission/generation, deliberate pose/clock authoring, precise reversible editing and complete portable provenance. Whole vendor grammar/private methods and production sprite quality remain unresolved.",
+  "package_version": "0.8.1",
+  "source_fingerprint": "fb6323b954708942c6b2cca849a9e979c7de118861b10b132d3bb34fe4cbc74b",
+  "runtime_commit": "45f261e04f1ece7061047a0d9031794e81766907",
+  "full_suite_commit": "7399e7e672eb15a9ececd67854e7fc4de5e8d452",
+  "mechanical_checks": {
+    "tests": 825,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 88.059
+  },
+  "artistic_acceptance": "reviewed_not_approved",
+  "quality_score": null,
+  "evidence": [
+    {
+      "file": "ANIMATION-ACCEPTANCE.md",
+      "sha256": "6673d275ee2441be7e776d6b9a1e06c556e38f63aefc33cb86ec5dce741f4dcb",
+      "bytes": 12460
+    },
+    {
+      "file": "BOUND-WALK-CLOSURE-PROOF.json",
+      "sha256": "5e509286a5d01a943d22d8f5628167e8ce82fe82676f4c7d7b981020bd6e1f3d",
+      "bytes": 13283
+    },
+    {
+      "file": "BOUND-WALK-GODOT-PROOF.json",
+      "sha256": "23a09b3756331cea5f1fe522b312072676bf191c77120c7b953c8d2ed1f683c0",
+      "bytes": 13511
+    },
+    {
+      "file": "BOUND-WALK-PROOF.md",
+      "sha256": "30d6aeae993422ada6843e366903edd5c3fc384a2e6ac8f682fc512e24489f48",
+      "bytes": 4395
+    },
+    {
+      "file": "CONDITIONED-WALK-REVIEW.md",
+      "sha256": "367b72fd104843e9614478f1e3399180e76ea79d1b64bf23065a193bb5e46bfc",
+      "bytes": 6404
+    },
+    {
+      "file": "CONDITIONING-REVIEW.md",
+      "sha256": "225e761f4f4cba18917b634af849411b4994c3f015987ec048675c00bf2cae67",
+      "bytes": 9036
+    },
+    {
+      "file": "GODOT-WALK-PROOF.json",
+      "sha256": "21c6cdd8111e4eab8850e125f36c122d39c37ae60c1b209ed4f9c082e92fec7a",
+      "bytes": 13511
+    },
+    {
+      "file": "GODOT-WALK-PROOF.md",
+      "sha256": "8de922e5ba7b8b6106f85d5a7f5649d0746b82f4b0184c1a090e52faa9df2f79",
+      "bytes": 3859
+    },
+    {
+      "file": "INSTALLED-UI-QA.md",
+      "sha256": "b37617346f60ffcadcced273b9992ae1e12e1c9dbc3e564e6312699f4599d077",
+      "bytes": 4909
+    },
+    {
+      "file": "INSTALLED-V081-UI-QA.md",
+      "sha256": "ff0dbc06d629caa044afbd8fbf16e08b970216717dd8b2d73c3cd6ab5c41b6da",
+      "bytes": 6517
+    },
+    {
+      "file": "LIVE-WALK-REVIEW.md",
+      "sha256": "737518912c41274d2930607876cfd28f63c8c833cf7527623b723a4a28e37f2e",
+      "bytes": 5359
+    },
+    {
+      "file": "MOTION-UI.md",
+      "sha256": "d050aa588405f917f6850c075dbf9a76b41343acb41ac2a9e43e49b9877d722a",
+      "bytes": 19598
+    },
+    {
+      "file": "PROVIDER-RESEARCH.md",
+      "sha256": "b927608a1eeafa1ed427250a48393cd4d39f3ceea58f38050cc53dc2d43ceb79",
+      "bytes": 5669
+    },
+    {
+      "file": "README.md",
+      "sha256": "a00c177ab400ff29affb1e15d05dd9ce97e5befeca865cdbff28da5b7695dcc3",
+      "bytes": 10037
+    },
+    {
+      "file": "VIDEO-EXTRACTION.md",
+      "sha256": "a977df83511feb2f85487cb19526552e276a579ff0d175cc1a5b9c8b34c2b57e",
+      "bytes": 9626
+    },
+    {
+      "file": "evidence/BOUND-PORTABLE-CLOSURE.json",
+      "sha256": "dc346cfc7adda1e5a3c3c3bbec4d8b828f8dd6270d44bb8f800706df5c00d487",
+      "bytes": 1004
+    },
+    {
+      "file": "evidence/CURRENT-WALK.json",
+      "sha256": "f7c2b6003b37cdd6d9e273c6734de9fb5888c6d1aa7b370d61a308cdcf0a579a",
+      "bytes": 762
+    },
+    {
+      "file": "evidence/EXPERIMENT.json",
+      "sha256": "52e5e861619700b5b5b7ad06ae5d0f4ddc0c2d92d13338cdc403f9e9de136bd0",
+      "bytes": 1396
+    },
+    {
+      "file": "evidence/INSTALLED-PROOF.json",
+      "sha256": "70cea592b205e308f7ba54ab952e1f75d00835da8af637824ab00376973b40bd",
+      "bytes": 2958
+    },
+    {
+      "file": "evidence/INSTALLED-UI-QA.json",
+      "sha256": "57d4534d9f1b6917923671e1eb998b60d97af0edca61600cbfacfe3e52be3319",
+      "bytes": 4603
+    },
+    {
+      "file": "evidence/INSTALLED-V081-UI-QA.json",
+      "sha256": "c1797e91f30aa078e31ebb8e24af6c33dd1b51a0dd05e2b8d0e1a12ad1396537",
+      "bytes": 9527
+    },
+    {
+      "file": "evidence/LIVE-RAW-MANIFEST.json",
+      "sha256": "a400c7547765b91c44c7e4693a81c3f601120fb84d80426ec7844cbb6ba74485",
+      "bytes": 6625
+    },
+    {
+      "file": "evidence/LIVE-RESULTS.json",
+      "sha256": "d8d3b15525397f3012ec7622040b7867dcf175fbb51546112041fb1fe5bf8d60",
+      "bytes": 789
+    },
+    {
+      "file": "evidence/MEDIA-BINDING-QA.json",
+      "sha256": "7d2d53b7cf5393de007e6a81fd2206095b89c37c94c5e864f1f0199095c8a01a",
+      "bytes": 1806
+    },
+    {
+      "file": "evidence/NOTE-REPIN-RECEIPT.json",
+      "sha256": "8be54ab8e04bded8f460829040d9edf55102e45b4a2f452695e3c94bc81469e1",
+      "bytes": 2322
+    },
+    {
+      "file": "evidence/PACKAGE-COMPARISON.json",
+      "sha256": "d9a7368559cc5fe0ef50802fabd2862f3df9472ed3b8c863e08a5048f7a596cf",
+      "bytes": 28088
+    },
+    {
+      "file": "evidence/REA-CURRENT-SUMMARY.json",
+      "sha256": "811c9f31b1fb8e6a1274d5199d784c282be5a91c5a519192ea556619253808e0",
+      "bytes": 2027
+    },
+    {
+      "file": "evidence/REAL-UI-QA.json",
+      "sha256": "df2a126289fbae874dfe77a309fc67db342e655702ac57efed3f5d1e5ad7722a",
+      "bytes": 4208
+    },
+    {
+      "file": "evidence/SETUP-VERIFICATION.json",
+      "sha256": "b9ac60465357355d79d473f3d55afc5e08741afff4e7ed1969e03dd3afc36196",
+      "bytes": 5315
+    },
+    {
+      "file": "evidence/SKILL-UPDATE.json",
+      "sha256": "4edc6963982cb07eaf2b511131d1ae9222a4cfa5636fd690a09ec4c65bb06482",
+      "bytes": 8261
+    },
+    {
+      "file": "evidence/TESTS.log",
+      "sha256": "f795293308d0fd8a2eef3057462f1525b66e38dad234af38fd279df84cb827f6",
+      "bytes": 3438
+    },
+    {
+      "file": "evidence/TESTS.xml",
+      "sha256": "2ce6f5db03e38b6b5c20bbcfc66b543d06393397dad21c54c47986b08975696e",
+      "bytes": 114948
+    },
+    {
+      "file": "evidence/postflight.py",
+      "sha256": "3f8e30bd7e2fd5babfd78dba24e97d451b5953b87d1bdb2c80b6e8ffea3e24c8",
+      "bytes": 2963
+    },
+    {
+      "file": "evidence/qa-media-bindings.cjs",
+      "sha256": "8ac3352d840a986ec1c1c9286e4194363d2b96b7701b42d1ca37650f1d8fb2d3",
+      "bytes": 7612
+    },
+    {
+      "file": "evidence/qa-motion-real.cjs",
+      "sha256": "e98947566dbc4ff7108ee2e0acdc111c91e03286aee41aab2d21db6dfe33dc45",
+      "bytes": 13812
+    },
+    {
+      "file": "verify_repaired_walk_godot.py",
+      "sha256": "1f28b68d94ad17bfa04e4e3832ad819d8ce87cec7b30365654e9bab87bdafc42",
+      "bytes": 10304
+    }
+  ]
+}

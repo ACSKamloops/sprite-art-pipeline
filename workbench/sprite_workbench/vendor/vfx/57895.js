@@ -1,0 +1,1 @@
+function(e,t,n){(window.__NEXT_P=window.__NEXT_P||[]).push(["/create-vfx",function(){return n(73278)}])}

@@ -1,0 +1,592 @@
+{
+  "schema": "bounded-consolidation-remediation-spotcheck/v1",
+  "reviewed_commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+  "baseline_audit_commit": "46f23c9c62316e4b9d5415bb5c6b129aa4928b72",
+  "method": "Read immutable Git blobs in isolated reviewer worktree; no cherry-pick required and no canonical files modified. Selected semantic comparison against the earlier typed register/dispositions. Exact literal checks are provenance, not whole-source approval.",
+  "verdict": "Selected consolidation omissions addressed; no required correction in the reviewed groups.",
+  "required_corrections": [],
+  "coverage": {
+    "finding_ids": 34,
+    "groups": 11,
+    "original_obligations": 63,
+    "obligation_method": "Confirmed explicit linked component dispositions and non-wholesale-closure wording, not 63 new runtime/server reviews."
+  },
+  "files": [
+    {
+      "path": "docs/consolidation/START-HERE.md",
+      "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+      "bytes": 5225,
+      "git_object": "12e3188e8f1e849e5c8d72062eb0bf557fc7797c"
+    },
+    {
+      "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+      "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+      "bytes": 12321,
+      "git_object": "6a6dfaec5493e5b37a5d4f0123c33cee2a36be97"
+    },
+    {
+      "path": "docs/consolidation/RED-TEAM-REVIEW.md",
+      "sha256": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+      "bytes": 8033,
+      "git_object": "0d9772397631a2839f37add0da5d0601fd8a0670"
+    }
+  ],
+  "groups": [
+    {
+      "group": "entrypoints",
+      "finding_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            20
+          ],
+          "literal": "101capturedMCP"
+        },
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            20
+          ],
+          "literal": "116guide headings"
+        },
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            8
+          ],
+          "literal": "63 original obligation dispositions"
+        },
+        {
+          "path": "docs/consolidation/RED-TEAM-REVIEW.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+          "one_based_lines": [
+            12
+          ],
+          "literal": "Current portals/status point to one hub"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "models",
+      "finding_ids": [
+        "M01",
+        "M02",
+        "M03",
+        "M04"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            30
+          ],
+          "literal": "Captured official sources nameMiniMaxH3"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            30
+          ],
+          "literal": "Wan/flux strings are selector hints"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            30
+          ],
+          "literal": "Vendor-linked2023PixelParty"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            37
+          ],
+          "literal": "34-finding typed register"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "paid roles/failures",
+      "finding_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            13
+          ],
+          "literal": "nativeMiniMax8returned9"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            13
+          ],
+          "literal": "10,619positions"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            13
+          ],
+          "literal": "same-seed TextV3 repeat"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            14
+          ],
+          "literal": "215originally transparent"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            14
+          ],
+          "literal": "silver trim"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            37
+          ],
+          "literal": "34-finding typed register"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "unzoom/preparation",
+      "finding_ids": [
+        "U01",
+        "U02",
+        "D01",
+        "S01",
+        "S02"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            21
+          ],
+          "literal": "Registered scaling fits"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            21
+          ],
+          "literal": "Strength0preserved23known speckles"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            20
+          ],
+          "literal": "Recovered client advisory detector"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            17
+          ],
+          "literal": "HiddenRGB normalization"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            19
+          ],
+          "literal": "shared mutable request references"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "font/UI/tiles",
+      "finding_ids": [
+        "F01",
+        "F02",
+        "T01"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            26
+          ],
+          "literal": "lacked14printableASCII"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            26
+          ],
+          "literal": "Source UI virtual/pixel layouts"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            24
+          ],
+          "literal": "contextual4x4matching"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            37
+          ],
+          "literal": "34-finding typed register"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "vocal clocks/lifecycle",
+      "finding_ids": [
+        "V01",
+        "V02"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            27
+          ],
+          "literal": "default to120ms, another caller220ms"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            27
+          ],
+          "literal": "35GIF entries/3750ms"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            27
+          ],
+          "literal": "source-specificRGBmerge/RGBAlookup/alpha thresholds"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "SDK/grammar/constructors",
+      "finding_ids": [
+        "Q01",
+        "Q02",
+        "R02"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            22
+          ],
+          "literal": "Public v2 schemas"
+        },
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            24
+          ],
+          "literal": "truncated formal grammar"
+        },
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            24
+          ],
+          "literal": "105arbitrary prepared constructors"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            37
+          ],
+          "literal": "34-finding typed register"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "corrected protection",
+      "finding_ids": [
+        "R01"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            18
+          ],
+          "literal": "state: technical_failure"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            18
+          ],
+          "literal": "initial interpretation that protection was ignored was corrected"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "renderer/export",
+      "finding_ids": [
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            28
+          ],
+          "literal": "17recovered renderer families"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            29
+          ],
+          "literal": "Spin1is a full turn"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            29
+          ],
+          "literal": "native high-colourGIFshader lookup failed"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            37
+          ],
+          "literal": "34-finding typed register"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "rejected parry/partial viewing",
+      "finding_ids": [
+        "B01",
+        "B02"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            31
+          ],
+          "literal": "visually provisional/rejected"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            31
+          ],
+          "literal": "Do not reuse a static-art score"
+        },
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            26
+          ],
+          "literal": "complete timed visual review remain unaccepted"
+        },
+        {
+          "path": "docs/consolidation/RED-TEAM-REVIEW.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+          "one_based_lines": [
+            35
+          ],
+          "literal": "continuous viewing remain outside proved coverage"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    },
+    {
+      "group": "local policy",
+      "finding_ids": [
+        "L01"
+      ],
+      "outcome": "addressed-with-qualified-summary-and-exact-register-handoff",
+      "anchors": [
+        {
+          "path": "docs/consolidation/START-HERE.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+          "one_based_lines": [
+            20
+          ],
+          "literal": "zero vendor handlers implemented"
+        },
+        {
+          "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+          "one_based_lines": [
+            32
+          ],
+          "literal": "bounded subsets"
+        },
+        {
+          "path": "docs/consolidation/RED-TEAM-REVIEW.md",
+          "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+          "sha256": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+          "one_based_lines": [
+            29
+          ],
+          "literal": "not eleven broad F01\u2013F11 passes"
+        }
+      ],
+      "limits": "Selected wording and link spotcheck only; not a new approval of underlying implementations or observations."
+    }
+  ],
+  "obligation_anchors": [
+    {
+      "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+      "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+      "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+      "one_based_lines": [
+        37
+      ],
+      "literal": "63 original obligation dispositions"
+    },
+    {
+      "path": "docs/consolidation/CONSOLIDATED-FINDINGS.md",
+      "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+      "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+      "one_based_lines": [
+        37
+      ],
+      "literal": "No obligation is falsely closed wholesale"
+    },
+    {
+      "path": "docs/consolidation/RED-TEAM-REVIEW.md",
+      "commit": "1d61102f8b5cc3fcfaf7374202248f18e77a188c",
+      "sha256": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+      "one_based_lines": [
+        31
+      ],
+      "literal": "18source,30runtime and21server/provider"
+    }
+  ],
+  "runtime_or_provider_calls": 0,
+  "remaining_limits": [
+    "Original frozen verdict remains partial; remediation is additive and does not retroactively pass the old baseline.",
+    "The linked register carries details not all repeated in prose (e.g. provider licence scope, exact repeat/probe limits, UI-radius dialect and actual timed sample coverage).",
+    "Catalog/record counts do not certify semantic completion, visual viewing, current provider state or shareability.",
+    "Private models, arbitrary constructors, full runtime parity and rejected art remain explicit boundaries."
+  ]
+}

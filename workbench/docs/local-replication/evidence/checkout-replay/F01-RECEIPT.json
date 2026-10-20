@@ -1,0 +1,382 @@
+{
+  "flow": "F01",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "flow_id": "F01",
+  "artifacts": {
+    "fixture_raster": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+    "source_bytes": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99",
+    "imported_sequence": "1b1655fc3543f7adeb03b0717aba1b34f2c2b57cc75a5878870f827119655c15",
+    "preparation": "084824994cc112c52f669b31bc550ebb78281c7d2e95894307b098442e4f7a61",
+    "prepared_sequence": "46ed0d6ce57afa6b10b9b4c77513beddf2e51edca5cd4a29961dfbc7411116c2",
+    "edited_sequence": "916beca04276cbdd5567ce9c4f10f0a317fc3a679069f21e8f850df7c61fe3e0",
+    "revision": "ea5b5307b096fafeb5ba9a12af1aa0662b1eef423bc6a30ebb69df6c68e45bb3",
+    "pasted_raster": "689aa1fda302bc1331e992b68746d2825465993bb815c4206c02f90d533c0cbe",
+    "sequence": "a32545af068009dc0d384a469d54a97ba2bbdc654b807146ada291a0f2a31eaf"
+  },
+  "checks": [
+    {
+      "name": "captured PNG identity",
+      "passed": true
+    },
+    {
+      "name": "decoded RGBA preserves hidden RGB and partial alpha",
+      "passed": true
+    },
+    {
+      "name": "initial source snapshot copy and ordered map",
+      "passed": true
+    },
+    {
+      "name": "guarded publication and protected marker",
+      "passed": true
+    },
+    {
+      "name": "protected edit rejects without advancing head",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Trusted protected pixels touched"
+      }
+    },
+    {
+      "name": "stale CAS retains published revision",
+      "passed": true
+    },
+    {
+      "name": "incorrect crop guard rejects",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Local crop/source/node guard failed"
+      }
+    },
+    {
+      "name": "guarded paste overwrites hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "result editable identity and timeline",
+      "passed": true
+    },
+    {
+      "name": "result editable exact RGBA",
+      "passed": true
+    },
+    {
+      "name": "result every PNG exact including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "result review is generated but unviewed",
+      "passed": true
+    },
+    {
+      "name": "source bytes and paste lineage survive closure",
+      "passed": true
+    },
+    {
+      "name": "partial-alpha GIF is explicitly unsupported",
+      "passed": true
+    },
+    {
+      "name": "source is immutable",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "asymmetric-geometric-markers-v1",
+    "shape": [
+      5,
+      7,
+      4
+    ],
+    "dtype": "uint8",
+    "rgba_sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+    "capability": "supplied-art",
+    "coordinate_units": "integer pixels, x right/y down unless explicitly normalized/virtual",
+    "recipe_version": 1,
+    "encoded_sha256": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99",
+    "acquisition_missing_clock": "local 1/12 second",
+    "edit_changes": [
+      {
+        "operation": "patch_pixels",
+        "frames": [
+          1
+        ],
+        "reason": "Change one supplied blue marker",
+        "pixels": [
+          [
+            1,
+            1,
+            "#255279ff",
+            "#e7b513ff"
+          ]
+        ]
+      },
+      {
+        "operation": "copy_region",
+        "frames": [
+          1
+        ],
+        "reason": "Copy the original pre-edit blue marker",
+        "source_layer": "image",
+        "source_frame": 1,
+        "region": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "at": [
+          3,
+          1
+        ]
+      },
+      {
+        "operation": "map_colors",
+        "frames": [
+          1
+        ],
+        "reason": "Map blue simultaneously in the declared region",
+        "region": [
+          0,
+          0,
+          6,
+          4
+        ],
+        "colors": {
+          "#255279ff": "#126c90ff"
+        }
+      }
+    ]
+  },
+  "routine_order": [
+    "encode frozen supplied array to PNG; import captured local bytes",
+    "local RGBA preparation; persist source audit and one-frame sequence",
+    "ordered guarded patch/copy/map; compare-and-swap revision publication",
+    "negative: protected edit rejects without advancing head",
+    "attempt stale CAS; preserve the published diagnostic revision",
+    "crop inclusive pixel rectangle; guarded overwrite including transparent RGB",
+    "negative: incorrect crop guard rejects",
+    "export result: PNG/sheet/rational manifest/APNG/editable/review",
+    "import result editable closure into a fresh output-local Store",
+    "write JSON-safe receipt; preserve checks and limitations"
+  ],
+  "exports": {
+    "result": {
+      "directory": "exports/result",
+      "sequence_id": "a32545af068009dc0d384a469d54a97ba2bbdc654b807146ada291a0f2a31eaf",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "apng",
+        "editable",
+        "gif",
+        "manifest",
+        "png",
+        "review",
+        "sheet"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 1
+        },
+        "sheet": {
+          "status": "written",
+          "padding_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "trim": "none"
+        },
+        "apng": {
+          "status": "written",
+          "clock": "exact rational16-bit APNG fields",
+          "blend": "SOURCE",
+          "dispose": "NONE",
+          "num_plays": 1,
+          "ordered_frames": 1,
+          "rgba": "exact including hiddenRGB",
+          "sha256": "727e3afbdb1712f6e3137a6e624ffa316b5857caaf0f08a99755d6ed416c04f7"
+        },
+        "gif": {
+          "status": "unsupported",
+          "capability": "gif-alpha",
+          "reason": "Partial alpha is not silently flattened or thresholded"
+        },
+        "editable": {
+          "status": "written",
+          "artifact_count": 17,
+          "scene_id": null,
+          "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 1,
+          "adjacent_pairs": 0,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [
+        "689aa1fda302bc1331e992b68746d2825465993bb815c4206c02f90d533c0cbe"
+      ],
+      "files": [
+        {
+          "file": "animation.apng",
+          "bytes": 169,
+          "sha256": "727e3afbdb1712f6e3137a6e624ffa316b5857caaf0f08a99755d6ed416c04f7"
+        },
+        {
+          "file": "editable/artifacts/045c039cef9f766db26aae3c4ca30025256bd30198cd6641647a9aa16dd72778",
+          "bytes": 140,
+          "sha256": "045c039cef9f766db26aae3c4ca30025256bd30198cd6641647a9aa16dd72778"
+        },
+        {
+          "file": "editable/artifacts/084824994cc112c52f669b31bc550ebb78281c7d2e95894307b098442e4f7a61",
+          "bytes": 471,
+          "sha256": "084824994cc112c52f669b31bc550ebb78281c7d2e95894307b098442e4f7a61"
+        },
+        {
+          "file": "editable/artifacts/16febdbb5e940932c9f6fffa3af4fa84a981cb3b261a3eb103ae2b9f21d5658c",
+          "bytes": 8,
+          "sha256": "16febdbb5e940932c9f6fffa3af4fa84a981cb3b261a3eb103ae2b9f21d5658c"
+        },
+        {
+          "file": "editable/artifacts/1b1655fc3543f7adeb03b0717aba1b34f2c2b57cc75a5878870f827119655c15",
+          "bytes": 693,
+          "sha256": "1b1655fc3543f7adeb03b0717aba1b34f2c2b57cc75a5878870f827119655c15"
+        },
+        {
+          "file": "editable/artifacts/3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+          "bytes": 202,
+          "sha256": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464"
+        },
+        {
+          "file": "editable/artifacts/46ed0d6ce57afa6b10b9b4c77513beddf2e51edca5cd4a29961dfbc7411116c2",
+          "bytes": 859,
+          "sha256": "46ed0d6ce57afa6b10b9b4c77513beddf2e51edca5cd4a29961dfbc7411116c2"
+        },
+        {
+          "file": "editable/artifacts/689aa1fda302bc1331e992b68746d2825465993bb815c4206c02f90d533c0cbe",
+          "bytes": 382,
+          "sha256": "689aa1fda302bc1331e992b68746d2825465993bb815c4206c02f90d533c0cbe"
+        },
+        {
+          "file": "editable/artifacts/916beca04276cbdd5567ce9c4f10f0a317fc3a679069f21e8f850df7c61fe3e0",
+          "bytes": 977,
+          "sha256": "916beca04276cbdd5567ce9c4f10f0a317fc3a679069f21e8f850df7c61fe3e0"
+        },
+        {
+          "file": "editable/artifacts/a32545af068009dc0d384a469d54a97ba2bbdc654b807146ada291a0f2a31eaf",
+          "bytes": 473,
+          "sha256": "a32545af068009dc0d384a469d54a97ba2bbdc654b807146ada291a0f2a31eaf"
+        },
+        {
+          "file": "editable/artifacts/a7a7aa5cc727ad1fc33659aaf9d856fda0ea18ce5bb03eebbd3fb8d72538bc02",
+          "bytes": 202,
+          "sha256": "a7a7aa5cc727ad1fc33659aaf9d856fda0ea18ce5bb03eebbd3fb8d72538bc02"
+        },
+        {
+          "file": "editable/artifacts/a8dc4730fc88e251cbeca8a0a6dafd0eda3c0aadbe8ccb139e9d1331bee31dcd",
+          "bytes": 1051,
+          "sha256": "a8dc4730fc88e251cbeca8a0a6dafd0eda3c0aadbe8ccb139e9d1331bee31dcd"
+        },
+        {
+          "file": "editable/artifacts/c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99",
+          "bytes": 117,
+          "sha256": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99"
+        },
+        {
+          "file": "editable/artifacts/d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+          "bytes": 140,
+          "sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439"
+        },
+        {
+          "file": "editable/artifacts/e67b5a019c46245385ca76167439e0e6231a15232c05161a885569644925bde2",
+          "bytes": 368,
+          "sha256": "e67b5a019c46245385ca76167439e0e6231a15232c05161a885569644925bde2"
+        },
+        {
+          "file": "editable/artifacts/f4ef80852e05ca461f1a4c877807bb2f353dea39db09e5193ad540f3120d3545",
+          "bytes": 140,
+          "sha256": "f4ef80852e05ca461f1a4c877807bb2f353dea39db09e5193ad540f3120d3545"
+        },
+        {
+          "file": "editable/artifacts/fa861730da0a58e145bba631f41de98dd1dc16e9103e5655eae59fb69ff94d85",
+          "bytes": 202,
+          "sha256": "fa861730da0a58e145bba631f41de98dd1dc16e9103e5655eae59fb69ff94d85"
+        },
+        {
+          "file": "editable/artifacts/fe7a5c79da3f1cbabc2e9e9bbd5a52d395988ea1b1e1be5bc884b9e5c84797b2",
+          "bytes": 202,
+          "sha256": "fe7a5c79da3f1cbabc2e9e9bbd5a52d395988ea1b1e1be5bc884b9e5c84797b2"
+        },
+        {
+          "file": "editable/index.json",
+          "bytes": 1301,
+          "sha256": "02599f89b71f9f4f736c391ca3bfdd039cafff978df63c91d3193d9fdf870355"
+        },
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 117,
+          "sha256": "626b85ac42e0eb7656b40b00469f826cf24bcab0f3a92b3ef84f95cec2e6e498"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 1283,
+          "sha256": "873884f67390a0f4417044550dae06a8dd8109eacc80ea9134c47aae8d19859f"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 117,
+          "sha256": "626b85ac42e0eb7656b40b00469f826cf24bcab0f3a92b3ef84f95cec2e6e498"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 6431,
+          "sha256": "c808ec902a9dc452a3d4ce16566a579b27ac627f3d56cbd4d20cc496441b9d19"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 1593,
+          "sha256": "aaf680d07b06d11388abdb15ab3c5b1f06d2f333ed3c4a279ad21d1d6e4bc57c"
+        },
+        {
+          "file": "sheet.png",
+          "bytes": 117,
+          "sha256": "626b85ac42e0eb7656b40b00469f826cf24bcab0f3a92b3ef84f95cec2e6e498"
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "result": {
+      "file": "exports/result/review/review.html",
+      "continuous_motion_viewed": false,
+      "visual_acceptance": "unreviewed"
+    }
+  },
+  "limitations": [
+    "Local diagnostic subset only; not full vendor flow completion or art/motion acceptance.",
+    "No credentials, provider/model calls, remote templates or new REA sessions.",
+    "Review pages are generated evidence, not proof of human continuous viewing.",
+    "Local raw-RGBA edit, guard and CAS dialect, not native indexed undo or vendor editor parity.",
+    "Partial alpha makes GIF unsupported; exact PNG/APNG/editable remain authoritative.",
+    "This acquisition fixture is a still PNG, not animated import/poster coverage."
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "kind": "studio-example",
+  "version": 1,
+  "id": "hero-slash",
+  "title": "RPG hero \u00b7 sword slash",
+  "loop": false,
+  "files": [
+    {
+      "file": "frame-000.png",
+      "sha256": "3865922ddd690ba0b6458b96d83c8bd305ae979a5eb5db8eb1782a4479fe648d",
+      "role": "returned reference slot; excluded from animation",
+      "source_slot": 0
+    },
+    {
+      "file": "frame-001.png",
+      "sha256": "9bf4aa39ca3e8f4ce10bb79ba67de76201c74b86add8cdd562945f622ac8b708",
+      "role": "generated frame",
+      "source_slot": 1
+    },
+    {
+      "file": "frame-002.png",
+      "sha256": "b6a3e8b20a7a814021c909b7125054b1e6a8cc8e7a23bf76746ada2bdd54fd32",
+      "role": "generated frame",
+      "source_slot": 2
+    },
+    {
+      "file": "frame-003.png",
+      "sha256": "258f809fe604165f314fa225ec7bc669b8954ce17692f7d827f784dc7c527a6a",
+      "role": "generated frame",
+      "source_slot": 3
+    },
+    {
+      "file": "frame-004.png",
+      "sha256": "fde30e8ffe75bcd73520159da2a5ef62f4e710e3c10e51fb67a04ba63ebed367",
+      "role": "generated frame",
+      "source_slot": 4
+    },
+    {
+      "file": "frame-005.png",
+      "sha256": "f5f7ecdce34006e3f5c70cfe60265b3db795db1fabd8f0455c8ce5f65192dfc0",
+      "role": "generated frame",
+      "source_slot": 5
+    },
+    {
+      "file": "frame-006.png",
+      "sha256": "9dd9c60a766866028fc9fd90869d73487b30eed1dcbd6ff7cb9cc95edc82a82c",
+      "role": "generated frame",
+      "source_slot": 6
+    },
+    {
+      "file": "frame-007.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "role": "generated frame",
+      "source_slot": 7
+    },
+    {
+      "file": "frame-008.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "role": "generated frame",
+      "source_slot": 8
+    },
+    {
+      "file": "frame-009.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "role": "generated frame",
+      "source_slot": 9
+    },
+    {
+      "file": "frame-010.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "role": "generated frame",
+      "source_slot": 10
+    },
+    {
+      "file": "frame-011.png",
+      "sha256": "1345dd0add0b29e97f35b0dc2e51bb5f0ce7fc3e3d6411d050ae1467d076cabb",
+      "role": "generated frame",
+      "source_slot": 11
+    },
+    {
+      "file": "frame-012.png",
+      "sha256": "a4f9360cd0843d9f46cdca50e490f3398691b833fe980207130167627eaa330a",
+      "role": "generated frame",
+      "source_slot": 12
+    },
+    {
+      "file": "frame-013.png",
+      "sha256": "eba3cf673eb53d244f5ddf7e706dab935dc0a41e82ba04be05851b4366360daa",
+      "role": "generated frame",
+      "source_slot": 13
+    },
+    {
+      "file": "frame-014.png",
+      "sha256": "4b34fe8c532d25cb3cc82ccbfc9c8cd34b4820bf4c8a8cc4b183731a225f5d83",
+      "role": "generated frame",
+      "source_slot": 14
+    },
+    {
+      "file": "frame-015.png",
+      "sha256": "46eb7c044467fc17d21361d012587369f64043d8a956847ac74818023e221f31",
+      "role": "generated frame",
+      "source_slot": 15
+    },
+    {
+      "file": "frame-016.png",
+      "sha256": "bca6e487c08506216dead1662e8f8108c24d507fd683b408eefc8c3b9f3b115d",
+      "role": "generated frame",
+      "source_slot": 16
+    },
+    {
+      "file": "input-reference.png",
+      "sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "role": "submitted reference"
+    }
+  ],
+  "generated_slots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "frame_count": 16,
+  "duration": [
+    1,
+    8
+  ],
+  "clock_note": "8FPS inspection timing (authored; provider timing unavailable)",
+  "provider": "PixelLab recorded output; private model/checkpoint unknown",
+  "native_fps": null,
+  "raw_source_canvas": [
+    256,
+    256
+  ],
+  "registration": "Declared canvas center [128,128]; ground contact not measured",
+  "visual_acceptance": "unreviewed",
+  "provenance": "Copied byte-exact from retained authorized local pilot pixellab-slash-margin-v2; raw slot0 retained separately. No private API responses, tokens or account data packaged."
+}

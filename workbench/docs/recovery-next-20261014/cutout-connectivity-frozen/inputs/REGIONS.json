@@ -1,0 +1,124 @@
+{
+  "all_source_alpha": 255,
+  "background_rgb": [
+    30,
+    160,
+    80
+  ],
+  "coordinates": "[x0,y0,x1,y1], exclusive bottom/right",
+  "diagonal_chain_pixels_xy": [
+    [
+      20,
+      48
+    ],
+    [
+      21,
+      49
+    ],
+    [
+      22,
+      50
+    ],
+    [
+      23,
+      51
+    ],
+    [
+      24,
+      52
+    ],
+    [
+      25,
+      53
+    ],
+    [
+      26,
+      54
+    ],
+    [
+      27,
+      55
+    ],
+    [
+      28,
+      56
+    ],
+    [
+      29,
+      57
+    ],
+    [
+      30,
+      58
+    ]
+  ],
+  "regions": [
+    {
+      "name": "true_open_channel_in_body",
+      "rect": [
+        20,
+        42,
+        44,
+        46
+      ]
+    },
+    {
+      "name": "truly_enclosed_hole",
+      "rect": [
+        52,
+        38,
+        60,
+        46
+      ]
+    },
+    {
+      "name": "diagonal_only_patch",
+      "rect": [
+        30,
+        58,
+        35,
+        63
+      ]
+    },
+    {
+      "name": "dark_detail",
+      "rect": [
+        62,
+        56,
+        66,
+        60
+      ]
+    },
+    {
+      "max_rgb_distance": 1,
+      "name": "border_close_green_1",
+      "rect": [
+        0,
+        4,
+        16,
+        8
+      ]
+    },
+    {
+      "max_rgb_distance": 8,
+      "name": "border_close_green_8",
+      "rect": [
+        0,
+        10,
+        16,
+        14
+      ]
+    },
+    {
+      "max_rgb_distance": 32,
+      "name": "border_close_green_32",
+      "rect": [
+        0,
+        16,
+        16,
+        20
+      ]
+    }
+  ],
+  "warning": "Source annotations/topology, not semantic groundtruth or server removal predictions."
+}

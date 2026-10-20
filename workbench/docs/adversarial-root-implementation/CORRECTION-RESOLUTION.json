@@ -1,0 +1,245 @@
+{
+  "owner_fix_commits": [
+    "8aec74f",
+    "0043713"
+  ],
+  "isolated_cherry_picks": [
+    "2308fd0",
+    "379f884"
+  ],
+  "command": "python3 -m pytest -q tests/test_adversarial_root_implementation.py --junitxml=docs/adversarial-root-implementation/FIXED-JUNIT.xml",
+  "passed": 46,
+  "failed": 0,
+  "cases": [
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[NaN]",
+      "status": "passed"
+    },
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[Infinity]",
+      "status": "passed"
+    },
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[-Infinity]",
+      "status": "passed"
+    },
+    {
+      "test": "test_json_reader_rejects_nonfinite_hash_valid_blob[1e999]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[zero-clock]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[negative-clock]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[zero-denominator]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[clock-budget]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[wrong-index]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonnumeric-pivot]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[blank-direction]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonbool-loop]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonobject-metadata]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[unknown-version]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[nonarray-frames]",
+      "status": "passed"
+    },
+    {
+      "test": "test_forged_sequence_rejected_before_consumption[missing-raster]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_raster_documents_fail_structured[fields0]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_raster_documents_fail_structured[fields1]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_raster_documents_fail_structured[fields2]",
+      "status": "passed"
+    },
+    {
+      "test": "test_corrupted_bytes_and_pathlike_ids_fail_closed",
+      "status": "passed"
+    },
+    {
+      "test": "test_import_decodes_captured_bytes_even_if_path_changes",
+      "status": "passed"
+    },
+    {
+      "test": "test_apng_default_poster_is_not_manufactured_animation_time",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_and_truncated_acquisition_returns_structured_error",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[missing-brush-color]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[missing-outline-color]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[missing-outline-map]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonobject-map]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonarray-selector-colors]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonbool-pixel-perfect]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_conditional_raster_inputs_fail_structured[nonfinite-view]",
+      "status": "passed"
+    },
+    {
+      "test": "test_empty_layer_rejected_and_late_guard_failure_does_not_publish",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[patch-noop]",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[map-noop]",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[copy-noop]",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[fill-noop]",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[erase-noop]",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[inner-outline]",
+      "status": "passed"
+    },
+    {
+      "test": "test_trusted_protection_blocks_touched_not_only_changed[outer-outline]",
+      "status": "passed"
+    },
+    {
+      "test": "test_current_selection_snapshot_copy_and_outline_have_independent_oracles",
+      "status": "passed"
+    },
+    {
+      "test": "test_mask_exclusion_cannot_hide_invalid_patch_coordinate_or_color",
+      "status": "passed"
+    },
+    {
+      "test": "test_crop_source_node_guard_stamp_and_bounds",
+      "status": "passed"
+    },
+    {
+      "test": "test_brush_interpolation_budget_rejects_before_raster_paint",
+      "status": "passed"
+    },
+    {
+      "test": "test_effect_outer_shape_validation_is_structured[recipe0]",
+      "status": "passed"
+    },
+    {
+      "test": "test_effect_outer_shape_validation_is_structured[recipe1]",
+      "status": "passed"
+    },
+    {
+      "test": "test_effect_outer_shape_validation_is_structured[recipe2]",
+      "status": "passed"
+    },
+    {
+      "test": "test_pinned_factory_tampering_rejected_in_isolated_resource_copy",
+      "status": "passed"
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "sprite_workbench/core.py",
+      "sha256": "cdb3d50261411ccb0e4de7963244b68d6f3372ab3d302fdae343bfc11423a653"
+    },
+    {
+      "path": "sprite_workbench/acquisition.py",
+      "sha256": "b6cb3dca16170831463c4d6aea62db4223236b026cfa9fae480dbcd5353d8752"
+    },
+    {
+      "path": "sprite_workbench/raster.py",
+      "sha256": "a88a3136d31c35149086005063b9b9faa1a1aab4b175db65a4d09e5bc718a0f7"
+    },
+    {
+      "path": "sprite_workbench/effects.py",
+      "sha256": "c4bf1420c8a401a00170ce02ce31a7101610fd9b419053373e42e4e8a10951fe"
+    },
+    {
+      "path": "sprite_workbench/vfx_runner.cjs",
+      "sha256": "21759a298e3e72c412e75ac41c906d371d40f0827c8fece798218f1257d63b34"
+    },
+    {
+      "path": "sprite_workbench/vendor/vfx/manifest.json",
+      "sha256": "188743c8078e006117a6cbc51fdf96a73cafecc387a1a998276d93aa8d19645f"
+    },
+    {
+      "path": "tests/test_adversarial_root_implementation.py",
+      "sha256": "55dbfa749bb7c6814dddded0ffe4f45c21ed9db480d3354a200106fb883784e6"
+    }
+  ],
+  "resolved_reproduced_findings": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "R06": "Source changes add aggregate pre-copy layer bytes and preflight/vector brush work bounds; resource threshold regressions are added in follow-up, no enormous allocation run",
+  "comparison_evidence": {
+    "mechanical": "46 selected local boundary/control oracles now pass against exact source hashes",
+    "visual": "No visual acceptance or9/10 score assigned",
+    "vendor": "No remote handler or neural method parity inferred"
+  },
+  "learned_model_calls": 0,
+  "network_calls": 0,
+  "root_owned_edits": 0
+}

@@ -1,0 +1,135 @@
+{
+  "owner_commits": [
+    "92db439",
+    "9ab16f9",
+    "e01a533",
+    "36938e2"
+  ],
+  "isolated_cherry_picks": [
+    "d3ce97e",
+    "7fda9ee",
+    "ce5674e",
+    "c69b6b0"
+  ],
+  "command": "python3 -m pytest -q tests/test_adversarial_pipeline.py --junitxml=docs/adversarial-root-implementation/PIPELINE-FIXED-JUNIT.xml",
+  "passed": 16,
+  "failed": 0,
+  "cases": [
+    {
+      "test": "test_failed_reference_after_success_retains_failed_run_and_parent",
+      "status": "passed"
+    },
+    {
+      "test": "test_plan_executes_exact_frozen_input_not_mutated_caller",
+      "status": "passed"
+    },
+    {
+      "test": "test_pipeline_preflight_rejects_mistyped_identity_fields[invalid0]",
+      "status": "passed"
+    },
+    {
+      "test": "test_pipeline_preflight_rejects_mistyped_identity_fields[invalid1]",
+      "status": "passed"
+    },
+    {
+      "test": "test_mistyped_reference_after_success_is_structured_failed_step",
+      "status": "passed"
+    },
+    {
+      "test": "test_pipeline_import_prepare_edit_publish_preserves_clocks_pivots_and_stale_guard",
+      "status": "passed"
+    },
+    {
+      "test": "test_cli_pipeline_failure_emits_json_receipt_and_exit2",
+      "status": "passed"
+    },
+    {
+      "test": "test_finite_body_and_effect_replay_are_honored_through_composition",
+      "status": "passed"
+    },
+    {
+      "test": "test_import_finite_gif_and_apng_counts_are_total_plays",
+      "status": "passed"
+    },
+    {
+      "test": "test_track_oracles_linear_smoothstep_unwrapped_rotation_and_hold",
+      "status": "passed"
+    },
+    {
+      "test": "test_baked_frame_values_and_audit_do_not_alias_other_frames_or_caller",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_track_clock_or_mode_is_structured[track0]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_track_clock_or_mode_is_structured[track1]",
+      "status": "passed"
+    },
+    {
+      "test": "test_invalid_track_clock_or_mode_is_structured[track2]",
+      "status": "passed"
+    },
+    {
+      "test": "test_aggregate_layer_and_brush_work_caps_with_small_instrumented_budget",
+      "status": "passed"
+    },
+    {
+      "test": "test_recomputed_manifest_is_rejected_before_renderer_execution",
+      "status": "passed"
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "sha256": "26ed1a0cf75ef2656338154e298d63b6650795ba9f67855afa551aef996d7b93"
+    },
+    {
+      "path": "sprite_workbench/tracks.py",
+      "sha256": "bb2136a762ec5ebe84b8f69554fdc3cb2a793d55c652ca467b2ebe862bfe434e"
+    },
+    {
+      "path": "sprite_workbench/composition.py",
+      "sha256": "f5f90497ea3e9f2e0b871f40efd7bac0b908bb057c6065740ac223ff20aef07e"
+    },
+    {
+      "path": "sprite_workbench/core.py",
+      "sha256": "f75a5770208a3c86be8bf36ad4cabd0e6dee8c5285c777dac5afdd1e50c8af1a"
+    },
+    {
+      "path": "sprite_workbench/export.py",
+      "sha256": "53d6c9deba9f1716008476b6550f2515a702d0d99e496f6f53853aa39caf1df4"
+    },
+    {
+      "path": "sprite_workbench/prepare.py",
+      "sha256": "c0ae85eb41bcb61a2254c59ca7f016f6d259ee646a61dfde0e49729b410ec52b"
+    },
+    {
+      "path": "sprite_workbench/terrain.py",
+      "sha256": "f5fc4feae7a84d4762b103cb1faed448429b36d94e06ac3d74822ec803b5d8ec"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "sha256": "e4bad6c606a75e70c623b90438b56ae09145b834d023593b3cb736a3de70cccd"
+    },
+    {
+      "path": "tests/test_adversarial_pipeline.py",
+      "sha256": "3e2eab426a16ae5dd9c3f7f99580348252132c6dff487f5b5c2ab361b24306d9"
+    }
+  ],
+  "resolved_selected_findings": [
+    "P01",
+    "P02",
+    "P03",
+    "P04"
+  ],
+  "comparison_evidence": {
+    "mechanical": "All16 selected oracles now pass: frozen-plan ownership, failure receipts, finite replay, independent frame/audit values, typed identity and bounded resource controls",
+    "visual": "No visual score or art acceptance",
+    "vendor": "No remote handler/learned model parity claim"
+  },
+  "model_calls": 0,
+  "network_calls": 0,
+  "producer_edits": 0
+}

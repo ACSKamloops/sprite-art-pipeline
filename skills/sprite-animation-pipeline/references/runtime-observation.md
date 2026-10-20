@@ -1,0 +1,21 @@
+# Recover behavior from a running source
+
+Use runtime observation with static decoding when actions depend on charge, targets, status, menus, projectiles or script callbacks. A tile lighting up establishes use, not its animation order or meaning. Record input, actor identity/configuration, selected action table/row, script PC, frame timer, mapped pose, status, HP/MP, charge, effect slots and rendering surfaces on the same tick.
+
+Identify a repeatable checkpoint and hash the original artifact, checkpoint and instrumented runtime. Preserve the original runtime, write hooks in an isolated checkout, and keep build patches/logs. Hooks should capture at a known execution boundary and leave the source artifact unchanged. Match emulated CPU register width, bank, direct page, stack return, flags and caller context when invoking native setup; merely jumping into a function can corrupt a test.
+
+Prefer actual inputs after controlled preparation. A checkpoint with no owned charge capacity cannot validate higher charge by holding a button. In the Mana case, the capacity field was zero; changing capacity permitted the real held-button code to accumulate charge and choose a native release. Report preparation separately from observed behavior. Injecting a final action/script/pose is a weaker test than actual input selection.
+
+Menu casting should preserve the actual actor slot and follow native menu confirmation. Log granted party/spell/MP prerequisites and native deductions, initialization, effect objects, target changes and cleanup. Similar-looking cast body poses can accompany different lifetimes. For enemy reactions, use real native AI/attacks and retain each HP transition; setting HP to zero alone does not prove a death/recovery path. A final sampled death pose is an observed hold until the capture ends, not an intrinsic clip duration.
+
+Capture consecutive video ticks for lifecycle claims. Sparse checkpoints cannot be converted into long pose holds without evidence. Keep native video cadence separate from lower-frequency body-parser updates. Watch conditional wait opcodes and external state changes; export a resumable wait contract or captured timeline rather than a guessed delay. Script completion can reselect another action, not necessarily loop. Single-slot returns and callbacks need suspension/resumption tests.
+
+Record rendering provenance separately: source descriptor, ROM tile data, actual VRAM tiles, OAM geometry/size/priority, palette RAM, presented CGRAM and final pixels. DMA settling can explain a transitional tile, while palette changes can happen with unchanged geometry. Test each explanation. Supply dynamic palette observations rather than failing all such samples against a static color table.
+
+Keep indexed layers for body, held equipment, projectiles, shadows and spell/status effects when ownership is proven. Pure OAM playback can preserve objects and palette indices without knowing every semantic owner; label that limitation. It omits backgrounds, hardware color math, scanline limits and other PPU rules unless those are explicitly implemented/tested.
+
+Terminate captures only after the relevant spawn, travel, impact/return and cleanup are observed, or report censoring. Probe near/far targets, charge levels, interruption, status gates, palette rotation and transformed configurations separately. A large static action inventory is not the count of actions verified through gameplay.
+
+For spell catalogs, record every requested ID and actor/menu route, not just successful renders. A spell that needs a dead target must be retested on a genuinely observed dead state; rejection on an all-living party does not establish a missing animation. Require native resource deductions, initialization and target/lifecycle changes as separate observations. Menu eligibility and animation availability are different facts.
+
+For projectiles, combine object-buffer observations with constructor, flight, return/impact and terminal hooks. Check each instance and final inactive buffers, including charge-dependent multiplicity. Use execution counts to locate a behavior, then retain per-tick ordering/IDs for its lifetime. Stop conditions must be observed, not inferred from a final still frame.

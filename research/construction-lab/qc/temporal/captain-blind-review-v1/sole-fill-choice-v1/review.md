@@ -1,0 +1,11 @@
+# Guarded sole fill: bounded independent choice
+
+**Prefer strength .4 over .2 and the supplied before control as a restrained component candidate.** This is a modest tread-readability improvement, not a finished sole repair or full-walk approval.
+
+Viewed actual whole native384 comparisons and nearest3x boot crops at source1/33/103, and native256 whole/crop comparisons at source33. At384 source33, .4 makes the transverse groove and charcoal separation perceptible on the raised skull boot. Source103 shows a small corresponding division on the exposed flame sole. The material remains dark, and I do not see an exaggerated grey slab, bright emission rim or noisy pattern in these views. Source1's less exposed underside changes little. .2 is weaker and offers little useful whole-character difference.
+
+At native256 source33, the improvement is slight: the underside remains mostly a black oval. The enlarged crop shows a restrained tread division, but it is not a strong designed edge/tread hierarchy at gameplay size. Do not call the original sole-craft blocker solved. The broad sole silhouette and cream collar remain unchanged; no source-shape benefit should be credited. If further repair is necessary, investigate a compact deliberate sole edge and tread contrast at actual256 rather than simply increasing fill or adding fine stripes. Larger emission could flatten the material or expose temporal pattern shimmer; neither effect is established by these few stills.
+
+The fill is explicit source-attached material authorship using the authored charcoal tread, not recovered canonical tread or original shader preservation. The supplied before controls are reused from the prior paint-only packet. I read the README's retained failed mask sample and refined finite sampling scope; I did not reproduce mask/filter, indirect-light, geometry or reopen checks. No visible whole-figure problem in these comparisons certifies UV safety or all lighting behavior.
+
+Coverage is exactly three source phases at384 and one at256, whole colour and nearest3x documentary boot crops. No silhouette, full65 chronology, wrap or continuous playback was assessed for this component. No overall score uplift; frozen V8 review remains unchanged. Exact candidate/control-sheet/receipt/blend hashes are bound in artifact-hashes.json. Only this owned review/evidence folder was changed.

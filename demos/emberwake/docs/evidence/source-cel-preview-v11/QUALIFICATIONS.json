@@ -1,0 +1,45 @@
+{
+  "scope": "Verified provisional localv11; wholelibrary8/10appearance/motion target unmet. Installedv6/publicfour-view unchanged.",
+  "config": "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+  "config_sha256": "5e2ce48f6f9cc4bc4f7ba63a36c69c67baef870611bc33132d9073501a264a9b",
+  "selected_delta": "Only RowanNE03walk/NWmirror and BrannNE11attack/NWmirror: sourcecells155,187 and179,211. Allother rawsourceRGBA,144cliptables/holds/handtracks and9runtime/scene/settingsfiles exact.",
+  "fresh_root_results": {
+    "artifact_invariants": 3140,
+    "native_walk_assertions": 8684,
+    "native_walk_PNGs": 1728,
+    "native_walk_clips": 6,
+    "paired_changed_cel_OpenGL_assertions": 38,
+    "paired_changed_cel_PNGs": 4,
+    "browser_assertions": 193,
+    "complete_action_traces": 24,
+    "incomplete_observations": 0,
+    "gallery_transport_checks": 17,
+    "processed_Web_PCK_resource_checks": 6
+  },
+  "independent_audit": {
+    "artifact_checks": 123,
+    "supplemental_checks": 90,
+    "offline_bake_invariants_including12replay_checks": 3152,
+    "report": "audit/REPORT.md",
+    "scope": "Static source/media/export/trace replay, no extra engine/browser/art approval. Counts overlap root invariants and must not be summed as distinct acceptance."
+  },
+  "native_delta": "Only36actualRowanNEwalkPNG change, all exposure03; other1692nativePNG andfivewalkMP4 byteexact againstv10. Walk media do not contain the newattack.",
+  "paired_fixture": "Actual Godot4.7.2 OpenGL/llvmpipe renderer, four explicitmid-exposure stills. A overrides oldatlas/cliptable; B loads newcatalog. Arrangedfixture, not ordinary controls/fullattackmotion/contact.",
+  "export_processing": "Original rawRGBA comparison failed; initial onlyalpha0 explanation also failed. Actual RGBchanges alpha0..19, including625Rowan/911Lyra/4391Brann positivealpha samples. Alphaexact; applying configured Image.fix_alpha_edges yields complete exportedRGBAexact for all3textures, plus3exactJSONmanifests. No settings/art/export changed. See EXPORT-PROCESSING.md.",
+  "native_editor": "RootfreshBrann79targetedchecks;all8RGBA/nativeholds/ASEexact.63commonoutputs56byteexact/7actualpackage-outputpath-only metadata/log differences. Workerbrowser14checks+8independentRGBAhashes retained; root didnot repeat editorbrowser. Flatone-layer primary, sourcehandmapsseparate. No newmotiongrade.",
+  "behavior_suite": "Priorv9 1804assertions+378route samples reused with exactruntime sources; not rerun/freshv11.",
+  "media": "One encode per sixfresh nativeclips; actualffprobe640x280/320Hz/288frames/.9s. No secondv11encode claimed. LossyMP4aid; sourcePNGauthority.",
+  "review": "Rowanpairedcritic modest7.8motion/8game, no humanplaybackacceptance. Brannclosedglove slightlocalclaritypreference/bodymotiontie; reviewerindependentofproducer butnotcold. TiedLyra/Branncuff and84neartiedRowanmetaltrials excluded.",
+  "selection_receipt": "SELECTION.json native_editor_fist_pending:true is historical selection-time state, superseded by actual rootnative replay described here. Frozen receipt not rewritten.",
+  "perception_limits": [
+    "No new8/10wholelibraryrating",
+    "No continuoushumanvisualreview thisturn",
+    "No liveworldcontactcertification",
+    "No publicdeploymentupdate"
+  ],
+  "local_playable": "http://localhost:8898/game-v11/index.html",
+  "local_walks": "http://localhost:8898/godot-walks-v11/",
+  "artifact": "/home/astra/artifacts/emberwake-source-cel-game-preview-v11",
+  "retained_source_provenance": "art-source/eight-direction-v1/CURRENT-WORK.json",
+  "publication_performed": false
+}

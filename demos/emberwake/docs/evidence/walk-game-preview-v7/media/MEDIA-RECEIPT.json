@@ -1,0 +1,62 @@
+[
+  {
+    "clip": "rowan-southeast",
+    "mp4_sha256": "0b7c866f65a1d3a3f0afae40794c58a91d78446161ef4de32ec6329081d2b700",
+    "probe": {
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "qualification": "ActualGodotGPUframes at explicit320Hz samples;2cycles .9s. Browserloop repeats route; PNG sourceactual. Nohumanmotion/contactscore."
+  },
+  {
+    "clip": "rowan-northeast",
+    "mp4_sha256": "e732b4f9a11f4dc15525bbb324276b0971d366492cfa9d076b415e623a70ef35",
+    "probe": {
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "qualification": "ActualGodotGPUframes at explicit320Hz samples;2cycles .9s. Browserloop repeats route; PNG sourceactual. Nohumanmotion/contactscore."
+  },
+  {
+    "clip": "lyra-southeast",
+    "mp4_sha256": "a9229c4caad307cf60fd24e75c2ba1dee4e69d21d792e79849d9120ea93222e6",
+    "probe": {
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "qualification": "ActualGodotGPUframes at explicit320Hz samples;2cycles .9s. Browserloop repeats route; PNG sourceactual. Nohumanmotion/contactscore."
+  },
+  {
+    "clip": "lyra-northeast",
+    "mp4_sha256": "f4fba26ec139fae448fbb7302c3fb97ad7b104673cc39ea6fdc3008c57bc8c03",
+    "probe": {
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "qualification": "ActualGodotGPUframes at explicit320Hz samples;2cycles .9s. Browserloop repeats route; PNG sourceactual. Nohumanmotion/contactscore."
+  },
+  {
+    "clip": "brann-southeast",
+    "mp4_sha256": "fe5428626e97993f3790581415b3c17505e10fac4bd2d2c30eedea03c61744ea",
+    "probe": {
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "qualification": "ActualGodotGPUframes at explicit320Hz samples;2cycles .9s. Browserloop repeats route; PNG sourceactual. Nohumanmotion/contactscore."
+  },
+  {
+    "clip": "brann-northeast",
+    "mp4_sha256": "af8e80458736e3f2140d326c03a0f177272ae2e42205119c1578a795b16ccd0b",
+    "probe": {
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "qualification": "ActualGodotGPUframes at explicit320Hz samples;2cycles .9s. Browserloop repeats route; PNG sourceactual. Nohumanmotion/contactscore."
+  }
+]

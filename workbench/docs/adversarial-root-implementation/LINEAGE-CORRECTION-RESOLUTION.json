@@ -1,0 +1,109 @@
+{
+  "owner_commit": "dee71fac42ec308dd7b246f4c87c728dcabc0c09",
+  "isolated_cherry_pick": "7af19c0",
+  "dependency": "7202ab2 -> bdbb7aa (state services absent from prior methods branch)",
+  "commands": [
+    {
+      "command": "python3 -m pytest -q tests/test_coherent_workbench.py --junitxml=docs/adversarial-root-implementation/COHERENT-JUNIT.xml",
+      "passed": 5,
+      "failed": 0,
+      "cases": [
+        {
+          "test": "test_f01_f02_f09_f10_actual_plan_cli_and_fresh_editable_replay",
+          "status": "passed"
+        },
+        {
+          "test": "test_f04_f05_f11_jobs_actual_pipeline_candidate_library_reload_export",
+          "status": "passed"
+        },
+        {
+          "test": "test_preparation_editable_retains_original_mask_values_and_channel_packing",
+          "status": "passed"
+        },
+        {
+          "test": "test_explicit_font_bytes_metrics_coverage_survive_pipeline_export",
+          "status": "passed"
+        },
+        {
+          "test": "test_bundled_contracts_are_exact_frozen_repository_snapshots",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "command": "python3 -m pytest -q tests/test_adversarial_pipeline.py tests/test_coherent_workbench.py --junitxml=docs/adversarial-root-implementation/LINEAGE-COMBINED-JUNIT.xml",
+      "passed": 21,
+      "failed": 0
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "sprite_workbench/prepare.py",
+      "sha256": "bf62c1f12fb5b9905063f1924494b4f07dde81c1598feb67824f76811e4f7067"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "sha256": "86482c3a8bc15a78381e41701152e2c589d9f50378604e474064c957ba93e29b"
+    },
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "sha256": "1bc91bb5aa962db933afb0855e526b121d98b4312519e25624ad41dc4ae6254f"
+    },
+    {
+      "path": "sprite_workbench/export.py",
+      "sha256": "61f3fd86ab395a57265f0d87f5b83c1c6a878d51ae147eaadaf1d906a264195c"
+    },
+    {
+      "path": "sprite_workbench/jobs.py",
+      "sha256": "fda29181abdfdf930b6fc93cbeae477c7ed960e602deb65d6e1c1fae651c6173"
+    },
+    {
+      "path": "sprite_workbench/library.py",
+      "sha256": "7f3bb4f15787f3ffc675692af19d837e6702fc44be9cad949d55ed4e1439fd16"
+    },
+    {
+      "path": "sprite_workbench/capabilities.py",
+      "sha256": "0a2b17b0b7c8221b2c08ead2039765381482d00a6dfa280c0b341b88c6e3b02f"
+    },
+    {
+      "path": "tests/test_coherent_workbench.py",
+      "sha256": "57dc53bf5b7801687dc793c868a04141db31af6e7dfcb1ac91357983fa7bc01e"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "L01",
+      "status": "resolved-selected",
+      "source": "prepare_request now stores source_mask/source_mask_format before destructive crop/binarization; typed preparation closure reaches source_mask",
+      "observed": "Exact original RGBA with RGB+alpha1/127 survives fresh editable import; cropped prepared mask becomes binary255 separately. Original shape/dtype/packing metadata matches fixture.",
+      "scope": "Runtime case tests RGBA; scalar/bool packing inspected from code, not separately executed."
+    },
+    {
+      "id": "L02",
+      "status": "resolved-named-pipeline-branch",
+      "source": "Pipeline reads font bytes once, rasterize_font decodes BytesIO(raw_font), atlas.font_source stores raw blob and rasterization size/coverage; typed font-atlas closure follows raw bytes without interpreting them as JSON",
+      "observed": "Fresh editable Store retains exact font bytes, required coverage and glyph raster artifacts after font->text->export",
+      "scope": "The explicit font pipeline binds lineage. Low-level build_glyph_atlas consumes supplied glyphs and cannot infer arbitrary font provenance; callers requiring file construction lineage use the pipeline or an explicit font_source document."
+    }
+  ],
+  "additional_selected_observations": [
+    "Example CLI plan completes8frames with declared pivots/directions/holds and retained arc-stream hash oracles, then exact editable fresh import/replay/PNG checks",
+    "Registered actual pipeline job returns candidate with run metadata; trusted job completion publishes candidate head, subsequent explicit library promotion/state/animation reload works",
+    "Pipeline jobs reject internal publish/promote before running those side effects; selected test exercises publish rejection, promote guard is source-inspected",
+    "Bundled exact4JSON contract files equal frozen repository snapshots; zero implemented vendor handlers remains explicit"
+  ],
+  "remaining_boundaries": [
+    "L03 cross-run raw raster IDs do not identify a unique encoded source automatically; no universal provenance inference claimed",
+    "Not all possible mask/font/metadata/worker/cancel/renderer combinations were executed",
+    "No visual/art-quality score, private generation method or provider compatibility inferred"
+  ],
+  "comparison_evidence": {
+    "mechanical": "5coherent cases and combined21selected cases pass against exact source hashes",
+    "visual": "Unreviewed diagnostic motion, not9/10 or humanoid action acceptance",
+    "vendor": "Original retained arc byte/hash controls plus local replay; not proof of hidden service handler recovery"
+  },
+  "producer_edits": 0,
+  "network_calls": 0,
+  "provider_calls": 0,
+  "model_calls": 0
+}

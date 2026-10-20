@@ -1,0 +1,13 @@
+### Result
+{
+  "project": "e2d97779e0805160494bcbc3c35667f49da2a11a1672a403d1bd522c9cc7c57b",
+  "history": "595ff90e44362476e6264209e533a6f9b4a9ff041a6603a1660082cae52622db",
+  "sequence": "9f22e901d2d9f60332e969fd8b1939cecbec82f3b1995a618abecbd0fbf0afee",
+  "undoDisabled": false,
+  "redoDisabled": true,
+  "errorVisible": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({project:document.querySelector("#current-project").textContent,history:document.querySelector("#current-history").textContent,sequence:document.querySelector("#current-sequence").textContent,undoDisabled:document.querySelector("#undo-edit").disabled,redoDisabled:document.querySelector("#redo-edit").disabled,errorVisible:!document.querySelector("#global-error").hidden})');
+```

@@ -1,0 +1,609 @@
+{
+  "kind": "provenance-bound-walk-cold-proof",
+  "version": 1,
+  "source_record_sha256": "f9bac35c38526464fe378d9dac0a2ff09b0548a3441979ff7896c91acf09b3a0",
+  "sequence": "ec1b861d61c259978dd153944006d8c81500471d1aeff68e043b3ecfb35cdba6",
+  "prior_pixel_clock_identity_to": "9f9e1c53324ea567cb1bbd5be8c310691c0f87f45044279c1f37d81349e66d79",
+  "provider_packet": "c3db9ed21c0906d42301a59e0dd4bb73805d93fbe6cdc0be056d7e0496e8e580",
+  "request_body": "c96ee65738a65d2b7e21f5ef5cc263382e8c6986b00a505f0f68a03005ef3162",
+  "input_png_ids": [
+    "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+    "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e"
+  ],
+  "native_admission": "78bdd1514622d2aca6a8e81344f80b3a437ebe819473bf6322c047a26df6f5e7",
+  "native_probe": "0bf71d9bd6eb2ba7168ca61f7347dd0661688e5f0fb6198303f3ca0c1ea6e0ae",
+  "supplied_completion": "900c3f1060cf0395cef6e74e5968c300b86d8ea09146538008f7a8ac78a8d8d6",
+  "download_receipt": "f519e88c60f53a80e7273a1bf5d0331f6807cb5e18e8abd8724513dca1bbd71e",
+  "native_video": "89d29f48cc97ea3c9e05757959a3ce50835157ec0da2dd9e6841c1dcc63aeb13",
+  "bound_extractions": [
+    "5acb3d5637dcc1b4a8dc65e5a86a0216463bf3ddd6a9163399452cffa331d7b6"
+  ],
+  "checks": [
+    {
+      "id": "current sequence exact cold import",
+      "passed": true
+    },
+    {
+      "id": "canvas loop playcount identity",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 0",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 0",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 1",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 1",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 2",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 2",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 3",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 3",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 4",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 4",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 5",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 5",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 6",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 6",
+      "passed": true
+    },
+    {
+      "id": "prior raw hash 7",
+      "passed": true
+    },
+    {
+      "id": "frame RGBA and hold identity 7",
+      "passed": true
+    },
+    {
+      "id": "current exact selection receipt replay",
+      "passed": true
+    },
+    {
+      "id": "admission download packet match",
+      "passed": true
+    },
+    {
+      "id": "exact native media bytes",
+      "passed": true
+    },
+    {
+      "id": "packet raw HTTP body hash",
+      "passed": true
+    },
+    {
+      "id": "frozen experiment packet and wire match",
+      "passed": true
+    },
+    {
+      "id": "literal frozen prompt match",
+      "passed": true
+    },
+    {
+      "id": "first last roles retained",
+      "passed": true
+    },
+    {
+      "id": "frozen input raw PNG 0",
+      "passed": true
+    },
+    {
+      "id": "wire embedded exact raw PNG 0",
+      "passed": true
+    },
+    {
+      "id": "frozen input raw PNG 1",
+      "passed": true
+    },
+    {
+      "id": "wire embedded exact raw PNG 1",
+      "passed": true
+    },
+    {
+      "id": "supplied task completion download identity",
+      "passed": true
+    },
+    {
+      "id": "completion before-scrub body binding",
+      "passed": true
+    },
+    {
+      "id": "returned media URL digest binding",
+      "passed": true
+    },
+    {
+      "id": "download no-auth no-cookie no-redirect declaration retained",
+      "passed": true
+    },
+    {
+      "id": "actual native probe retained",
+      "passed": true
+    },
+    {
+      "id": "unknown checkpoint and unapproved quality retained",
+      "passed": true
+    },
+    {
+      "id": "bound extraction reaches admission",
+      "passed": true
+    },
+    {
+      "id": "bound extraction reaches download",
+      "passed": true
+    },
+    {
+      "id": "bound extraction retains107nativeframes",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 0",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 1",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 2",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 3",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 4",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 5",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 6",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 7",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 8",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 9",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 10",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 11",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 12",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 13",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 14",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 15",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 16",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 17",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 18",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 19",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 20",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 21",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 22",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 23",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 24",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 25",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 26",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 27",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 28",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 29",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 30",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 31",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 32",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 33",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 34",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 35",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 36",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 37",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 38",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 39",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 40",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 41",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 42",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 43",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 44",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 45",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 46",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 47",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 48",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 49",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 50",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 51",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 52",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 53",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 54",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 55",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 56",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 57",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 58",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 59",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 60",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 61",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 62",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 63",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 64",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 65",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 66",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 67",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 68",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 69",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 70",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 71",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 72",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 73",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 74",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 75",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 76",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 77",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 78",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 79",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 80",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 81",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 82",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 83",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 84",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 85",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 86",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 87",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 88",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 89",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 90",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 91",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 92",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 93",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 94",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 95",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 96",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 97",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 98",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 99",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 100",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 101",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 102",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 103",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 104",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 105",
+      "passed": true
+    },
+    {
+      "id": "native raster dimensions hold 106",
+      "passed": true
+    },
+    {
+      "id": "native PTS retained",
+      "passed": true
+    }
+  ],
+  "provider_calls": 0,
+  "boundary": "Cold immutable provenance graph and byte identity; supplied and producer receipts are not independent provider attestation; prior visual limits unchanged"
+}

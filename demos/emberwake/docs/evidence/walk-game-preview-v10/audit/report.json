@@ -1,0 +1,88 @@
+{
+  "frozen_at_utc": "2026-10-17T01:39:59.526933+00:00",
+  "result": "intended runtime/art delta verified; whole audited directories differ",
+  "runtime_and_art_delta_verified": true,
+  "whole_directory_equal": false,
+  "unexpected_runtime_or_bake_content_differences": [],
+  "atlas_changes": {
+    "brann_SE_cells": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ],
+    "brann_SW_cells": [
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ],
+    "all_other_784_physical_grid_cells_RGBA_identical": true,
+    "Rowan_and_Lyra_complete_atlas_PNG_bytes_identical": true,
+    "Brann_other_256_cells_RGBA_identical_including_padding": true
+  },
+  "semantics": {
+    "all_144_clips_identical": true,
+    "all_holds_loops_frame_indices_identical": true,
+    "all_cast_hand_tracks_locations_release_index_identical": true,
+    "pivot_scale_cell_grid_and_remaining_manifest_semantics_identical": true,
+    "only_animation_manifest_JSON_change": "/directional_source in three bake manifests and their exact three project copies",
+    "SE_SW_walk_holds": "8 x 9/160 seconds = 9/20 seconds = 0.45 seconds"
+  },
+  "runtime": {
+    "seven_GDScripts_identical": true,
+    "project_godot_main_scene_character_catalog_identical": true,
+    "project_content_changes": [
+      "assets/characters/brann/atlas.png",
+      "assets/characters/brann/animations.json (/directional_source only)",
+      "assets/characters/lyra/animations.json (/directional_source only)",
+      "assets/hero/animations.json (/directional_source only)"
+    ],
+    "project_asset_bindings_exactly_match_bakes": true
+  },
+  "whole_directory_differences": {
+    "changed_files": 20,
+    "added_files": 2,
+    "removed_files": 16,
+    "added_offline_helpers": [
+      "project/scripts/build_engine_walk_gallery.py",
+      "project/scripts/summarize_action_traces.py"
+    ],
+    "removed_test_helpers": [
+      "project/tests/audio_teardown_probe.gd",
+      "project/tests/final_polish_cleanup.gd"
+    ],
+    "removed_saved_evidence_files": 14,
+    "all_paths": "file-differences.json"
+  },
+  "metadata": {
+    "Brann_lineage": "48 leaf changes, exactly rgba_sha256 plus selected source path/hash for each of 16 intended cells; other lineage data unchanged",
+    "Brann_source_ownership": "17 leaf changes in SE walk_override frame path/hash and scope; all other ownership data unchanged",
+    "REPLAY": "22 leaf changes confined to config hash, three manifest hashes, Brann atlas hash and Brann SE selected source/scope; recorded artifact hashes verified against actual files",
+    "other_bake_PNGs": "All unchanged except Brann atlas, SE native strip and SE00..07"
+  },
+  "verification": {
+    "audit_assertions_passed": 138,
+    "audit_assertions_total": 138,
+    "no_engine_or_browser_run": true,
+    "no_art_rerating": true,
+    "source_files_unchanged_during_audit": true,
+    "all_inputs_bound": "inventory-start.json and inventory-end.json",
+    "reproduction_script": "audit.py",
+    "receipt": "receipt.json"
+  },
+  "limits": [
+    "Snapshot of the two nominated bake/project trees, excluding generated .godot/output and .git. Root-level logs/media/previous acceptance reports were not compared.",
+    "Static file and decoded pixel verification only; no runtime behavior, engine contact, import correctness, rendered output or game acceptance is certified.",
+    "External registration config, source-art and baker implementation paths were not opened. Their metadata strings were inspected, and selected source hashes were independently matched to actual baked SE PNG files.",
+    "Whole-directory equality is false because of the two added offline Python helpers and 16 missing evidence/test-helper files. Static runtime references do not include these files."
+  ]
+}

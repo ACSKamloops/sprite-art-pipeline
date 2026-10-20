@@ -1,0 +1,82 @@
+{
+  "cases": [
+    {
+      "run": "pixellab-walk-v1",
+      "seenReturnedSlots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "clock": "Analyst-selected nominal 2 seconds, not recovered provider timing",
+      "pauseFroze": true,
+      "seekLast": true,
+      "referenceSeparate": true
+    },
+    {
+      "run": "pixellab-slash-v1",
+      "seenReturnedSlots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "clock": "Analyst-selected nominal 2 seconds, not recovered provider timing",
+      "pauseFroze": true,
+      "seekLast": true,
+      "referenceSeparate": true
+    },
+    {
+      "run": "pixellab-slash-margin-v2",
+      "seenReturnedSlots": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "clock": "Analyst-selected nominal 2 seconds, not recovered provider timing",
+      "pauseFroze": true,
+      "seekLast": true,
+      "referenceSeparate": true
+    }
+  ],
+  "errors": [],
+  "artAcceptance": false,
+  "scope": "PNG loading, returned reference separation, nominal inspection playback, pause and seek only"
+}

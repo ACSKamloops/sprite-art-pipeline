@@ -1,0 +1,1849 @@
+{
+  "schema": "emberwake-original-baseline-inventory/v1",
+  "created_utc": "2026-10-17T06:25:56.144274+00:00",
+  "scope": "Read-only provenance inventory; no art scoring, server start, export, rebuild, historical-blob file extraction or PCK extraction. JSON stores metadata only. No source assets were edited.",
+  "canonical_project": "/home/astra/projects/emberwake-demo",
+  "observed_head": {
+    "commit": "68e302beb18973c4c6d5418de1e27060c6e40f11",
+    "committed_at": "2026-10-16T22:42:05-07:00",
+    "subject": "Retain failed in-betweens, source preview and guide-only key experiments"
+  },
+  "public_authority": {
+    "source_receipt": {
+      "path": "/home/astra/projects/emberwake-public-site/SOURCE.json",
+      "bytes": 1485,
+      "sha256": "384f38f989c9a298cdc67a978b7c69606055ba9742f0e5d180b5475ce3c975eb"
+    },
+    "source_declared_canonical_commit": {
+      "commit": "2a80f53c30953019f98333922a32ff8ae38f49d9",
+      "committed_at": "2026-10-16T08:52:43-07:00",
+      "subject": "Record independent character reviews, browser validation and current delivery hashes"
+    },
+    "source_declared_runtime_commit": {
+      "commit": "1dbfb0554151ffed2780ed180c700dd97f17ca64",
+      "committed_at": "2026-10-16T08:44:56-07:00",
+      "subject": "Add selectable Lyra and Brann banks with reproducible sprite refinement and spell checks"
+    },
+    "deployment_checkout_commit": "797c3f1c35263c68269c69fb101998868cc055ad",
+    "public_url": "https://emberwake-hollow-bell.astraithious.chatgpt.site",
+    "deployment_status_recorded": "succeeded",
+    "deployment_recorded_updated_at": "2026-10-16T16:25:33.045193+00:00",
+    "public_site_local_pck": {
+      "path": "/home/astra/projects/emberwake-public-site/dist/index.pck",
+      "bytes": 12245640,
+      "sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce"
+    },
+    "canonical_retained_export_pck": {
+      "path": "/home/astra/projects/emberwake-demo/output/web-characters-v6/index.pck",
+      "bytes": 12245640,
+      "sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce"
+    },
+    "retained_browser_pck_evidence": [
+      {
+        "name": "index.pck",
+        "status": 200,
+        "bytes": 12245640,
+        "sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce",
+        "contentType": "application/octet-stream"
+      }
+    ],
+    "live_site_rechecked_this_inventory": false,
+    "pck_internal_resources_decoded_this_inventory": false,
+    "qualification": "Local public payload hash matches the saved deployment and browser receipts. Historical Git source and frozen baseline match; no new assertion of imported-texture GPU equality was made."
+  },
+  "public_four_view_banks": [
+    {
+      "actor": "rowan",
+      "historical_git_path": "assets/hero",
+      "revision": "2a80f53",
+      "existing_exact_copy": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/baseline/rowan",
+      "atlas_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+      "manifest_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+      "atlas_dimensions": [
+        1024,
+        1920
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 8,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 24,
+      "views": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            5,
+            0,
+            1,
+            112,
+            2,
+            3,
+            4,
+            113
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            48,
+            49,
+            51,
+            114,
+            50,
+            52,
+            53,
+            115
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26
+      },
+      "directional_source": null,
+      "lineage_source_paths": [
+        "art-source/hero/east-raw.png",
+        "art-source/hero/east-walk-repair-raw.png",
+        "art-source/hero/north-attack-fix-raw.png",
+        "art-source/hero/north-raw.png",
+        "art-source/hero/passing/output/passing/north_A.png",
+        "art-source/hero/passing/output/passing/north_B.png",
+        "art-source/hero/passing/output/passing/south_A.png",
+        "art-source/hero/passing/output/passing/south_B.png",
+        "art-source/hero/south-raw.png",
+        "art-source/hero/west-raw.png"
+      ]
+    },
+    {
+      "actor": "lyra",
+      "historical_git_path": "assets/characters/lyra",
+      "revision": "2a80f53",
+      "existing_exact_copy": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/baseline/lyra",
+      "atlas_sha256": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901",
+      "manifest_sha256": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f",
+      "atlas_dimensions": [
+        1024,
+        2176
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 8,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 24,
+      "views": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            0,
+            120,
+            121,
+            132,
+            4,
+            122,
+            123,
+            133
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            56,
+            124,
+            125,
+            134,
+            61,
+            126,
+            127,
+            135
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26
+      },
+      "directional_source": null,
+      "lineage_source_paths": [
+        "art-source/attack-settle-v1/selected-candidate/lyra/east.png",
+        "art-source/attack-settle-v1/selected-candidate/lyra/north.png",
+        "art-source/attack-settle-v1/selected-candidate/lyra/south.png",
+        "art-source/attack-settle-v1/selected-candidate/lyra/west.png",
+        "art-source/characters-v2/bake-v4/lyra/atlas.png",
+        "art-source/characters-v2/lyra/east-raw.png",
+        "art-source/characters-v2/lyra/north-raw.png",
+        "art-source/characters-v2/lyra/passing-raw.png",
+        "art-source/characters-v2/lyra/south-raw.png",
+        "art-source/characters-v2/lyra/west-raw.png",
+        "art-source/dodge-head-v1/candidates/east.png",
+        "art-source/dodge-head-v1/candidates/north.png",
+        "art-source/dodge-head-v1/candidates/south.png",
+        "art-source/dodge-head-v1/candidates/west.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-112.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-113.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-114.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-115.png"
+      ]
+    },
+    {
+      "actor": "brann",
+      "historical_git_path": "assets/characters/brann",
+      "revision": "2a80f53",
+      "existing_exact_copy": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/baseline/brann",
+      "atlas_sha256": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4",
+      "manifest_sha256": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921",
+      "atlas_dimensions": [
+        1024,
+        2176
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 8,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 24,
+      "views": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            0,
+            120,
+            121,
+            129,
+            5,
+            122,
+            123,
+            130
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            56,
+            124,
+            125,
+            131,
+            61,
+            126,
+            127,
+            132
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26
+      },
+      "directional_source": null,
+      "lineage_source_paths": [
+        "art-source/attack-settle-v1/selected-candidate/brann/east.png",
+        "art-source/attack-settle-v1/selected-candidate/brann/north.png",
+        "art-source/attack-settle-v1/selected-candidate/brann/south.png",
+        "art-source/attack-settle-v1/selected-candidate/brann/west.png",
+        "art-source/characters-v2/bake-v4/brann/atlas.png",
+        "art-source/characters-v2/brann/east-raw.png",
+        "art-source/characters-v2/brann/north-raw.png",
+        "art-source/characters-v2/brann/passing-raw.png",
+        "art-source/characters-v2/brann/south-raw.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-112.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-113.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-114.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-115.png",
+        "art-source/settle-trim-v1/candidate.png"
+      ]
+    }
+  ],
+  "installed_eight_view_banks": [
+    {
+      "actor": "rowan",
+      "historical_git_path": "assets/hero",
+      "revision": null,
+      "existing_exact_copy": null,
+      "atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+      "manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+      "atlas_dimensions": [
+        2048,
+        2048
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 16,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 48,
+      "views": [
+        "east",
+        "north",
+        "northeast",
+        "northwest",
+        "south",
+        "southeast",
+        "southwest",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            5,
+            0,
+            1,
+            112,
+            2,
+            3,
+            4,
+            113
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            48,
+            49,
+            51,
+            114,
+            50,
+            52,
+            53,
+            115
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "southeast_walk": {
+          "frames": [
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "northeast_walk": {
+          "frames": [
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "northwest_walk": {
+          "frames": [
+            184,
+            185,
+            186,
+            187,
+            188,
+            189,
+            190,
+            191
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "southwest_walk": {
+          "frames": [
+            216,
+            217,
+            218,
+            219,
+            220,
+            221,
+            222,
+            223
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26,
+        "southeast_idle": 1.16,
+        "southeast_walk": 0.45,
+        "southeast_attack": 0.41,
+        "southeast_cast": 0.5,
+        "southeast_hurt": 0.29,
+        "southeast_dodge": 0.26,
+        "northeast_idle": 1.16,
+        "northeast_walk": 0.45,
+        "northeast_attack": 0.41,
+        "northeast_cast": 0.5,
+        "northeast_hurt": 0.29,
+        "northeast_dodge": 0.26,
+        "northwest_idle": 1.16,
+        "northwest_walk": 0.45,
+        "northwest_attack": 0.41,
+        "northwest_cast": 0.5,
+        "northwest_hurt": 0.29,
+        "northwest_dodge": 0.26,
+        "southwest_idle": 1.16,
+        "southwest_walk": 0.45,
+        "southwest_attack": 0.41,
+        "southwest_cast": 0.5,
+        "southwest_hurt": 0.29,
+        "southwest_dodge": 0.26
+      },
+      "directional_source": "art-source/eight-direction-v1/registration-v6-all-charge-tracks.json",
+      "lineage_source_paths": [
+        "art-source/hero/east-raw.png",
+        "art-source/hero/east-walk-repair-raw.png",
+        "art-source/hero/north-attack-fix-raw.png",
+        "art-source/hero/north-raw.png",
+        "art-source/hero/passing/output/passing/north_A.png",
+        "art-source/hero/passing/output/passing/north_B.png",
+        "art-source/hero/passing/output/passing/south_A.png",
+        "art-source/hero/passing/output/passing/south_B.png",
+        "art-source/hero/south-raw.png",
+        "art-source/hero/west-raw.png"
+      ],
+      "current_absolute_path": "/home/astra/projects/emberwake-demo/assets/hero",
+      "matches_66bc89e": true
+    },
+    {
+      "actor": "lyra",
+      "historical_git_path": "assets/characters/lyra",
+      "revision": null,
+      "existing_exact_copy": null,
+      "atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+      "manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+      "atlas_dimensions": [
+        2048,
+        2176
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 16,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 48,
+      "views": [
+        "east",
+        "north",
+        "northeast",
+        "northwest",
+        "south",
+        "southeast",
+        "southwest",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            0,
+            120,
+            121,
+            132,
+            4,
+            122,
+            123,
+            133
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            56,
+            124,
+            125,
+            134,
+            61,
+            126,
+            127,
+            135
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "southeast_walk": {
+          "frames": [
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "northeast_walk": {
+          "frames": [
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "northwest_walk": {
+          "frames": [
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "southwest_walk": {
+          "frames": [
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26,
+        "southeast_idle": 1.16,
+        "southeast_walk": 0.45,
+        "southeast_attack": 0.41,
+        "southeast_cast": 0.5,
+        "southeast_hurt": 0.29,
+        "southeast_dodge": 0.26,
+        "northeast_idle": 1.16,
+        "northeast_walk": 0.45,
+        "northeast_attack": 0.41,
+        "northeast_cast": 0.5,
+        "northeast_hurt": 0.29,
+        "northeast_dodge": 0.26,
+        "northwest_idle": 1.16,
+        "northwest_walk": 0.45,
+        "northwest_attack": 0.41,
+        "northwest_cast": 0.5,
+        "northwest_hurt": 0.29,
+        "northwest_dodge": 0.26,
+        "southwest_idle": 1.16,
+        "southwest_walk": 0.45,
+        "southwest_attack": 0.41,
+        "southwest_cast": 0.5,
+        "southwest_hurt": 0.29,
+        "southwest_dodge": 0.26
+      },
+      "directional_source": "art-source/eight-direction-v1/registration-v6-all-charge-tracks.json",
+      "lineage_source_paths": [
+        "art-source/attack-settle-v1/selected-candidate/lyra/east.png",
+        "art-source/attack-settle-v1/selected-candidate/lyra/north.png",
+        "art-source/attack-settle-v1/selected-candidate/lyra/south.png",
+        "art-source/attack-settle-v1/selected-candidate/lyra/west.png",
+        "art-source/characters-v2/bake-v4/lyra/atlas.png",
+        "art-source/characters-v2/lyra/east-raw.png",
+        "art-source/characters-v2/lyra/north-raw.png",
+        "art-source/characters-v2/lyra/passing-raw.png",
+        "art-source/characters-v2/lyra/south-raw.png",
+        "art-source/characters-v2/lyra/west-raw.png",
+        "art-source/dodge-head-v1/candidates/east.png",
+        "art-source/dodge-head-v1/candidates/north.png",
+        "art-source/dodge-head-v1/candidates/south.png",
+        "art-source/dodge-head-v1/candidates/west.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-112.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-113.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-114.png",
+        "art-source/passing-boots-v1/candidate/lyra/passing-115.png"
+      ],
+      "current_absolute_path": "/home/astra/projects/emberwake-demo/assets/characters/lyra",
+      "matches_66bc89e": true
+    },
+    {
+      "actor": "brann",
+      "historical_git_path": "assets/characters/brann",
+      "revision": null,
+      "existing_exact_copy": null,
+      "atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+      "manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+      "atlas_dimensions": [
+        2048,
+        2176
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 16,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 48,
+      "views": [
+        "east",
+        "north",
+        "northeast",
+        "northwest",
+        "south",
+        "southeast",
+        "southwest",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            0,
+            120,
+            121,
+            129,
+            5,
+            122,
+            123,
+            130
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            56,
+            124,
+            125,
+            131,
+            61,
+            126,
+            127,
+            132
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "southeast_walk": {
+          "frames": [
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "northeast_walk": {
+          "frames": [
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "northwest_walk": {
+          "frames": [
+            200,
+            201,
+            202,
+            203,
+            204,
+            205,
+            206,
+            207
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "southwest_walk": {
+          "frames": [
+            232,
+            233,
+            234,
+            235,
+            236,
+            237,
+            238,
+            239
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26,
+        "southeast_idle": 1.16,
+        "southeast_walk": 0.45,
+        "southeast_attack": 0.41,
+        "southeast_cast": 0.5,
+        "southeast_hurt": 0.29,
+        "southeast_dodge": 0.26,
+        "northeast_idle": 1.16,
+        "northeast_walk": 0.45,
+        "northeast_attack": 0.41,
+        "northeast_cast": 0.5,
+        "northeast_hurt": 0.29,
+        "northeast_dodge": 0.26,
+        "northwest_idle": 1.16,
+        "northwest_walk": 0.45,
+        "northwest_attack": 0.41,
+        "northwest_cast": 0.5,
+        "northwest_hurt": 0.29,
+        "northwest_dodge": 0.26,
+        "southwest_idle": 1.16,
+        "southwest_walk": 0.45,
+        "southwest_attack": 0.41,
+        "southwest_cast": 0.5,
+        "southwest_hurt": 0.29,
+        "southwest_dodge": 0.26
+      },
+      "directional_source": "art-source/eight-direction-v1/registration-v6-all-charge-tracks.json",
+      "lineage_source_paths": [
+        "art-source/attack-settle-v1/selected-candidate/brann/east.png",
+        "art-source/attack-settle-v1/selected-candidate/brann/north.png",
+        "art-source/attack-settle-v1/selected-candidate/brann/south.png",
+        "art-source/attack-settle-v1/selected-candidate/brann/west.png",
+        "art-source/characters-v2/bake-v4/brann/atlas.png",
+        "art-source/characters-v2/brann/east-raw.png",
+        "art-source/characters-v2/brann/north-raw.png",
+        "art-source/characters-v2/brann/passing-raw.png",
+        "art-source/characters-v2/brann/south-raw.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-112.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-113.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-114.png",
+        "art-source/passing-boots-v1/candidate/brann/passing-115.png",
+        "art-source/settle-trim-v1/candidate.png"
+      ],
+      "current_absolute_path": "/home/astra/projects/emberwake-demo/assets/characters/brann",
+      "matches_66bc89e": true
+    }
+  ],
+  "installed_registration": {
+    "config": {
+      "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/registration-v6-all-charge-tracks.json",
+      "bytes": 64510,
+      "sha256": "dcf870899c2e72a9fbb93628e700cfb5cd7bb664bcdcdafde358cfcaed90fc81"
+    },
+    "note": "All eight-view cast preparation hand tracks plus preferred nonwalk edits. Walks remain provisional; no8motion acceptance.",
+    "history": {
+      "commit": "66bc89e052adffa2c19f34d2b4e470e21fc8a83b",
+      "committed_at": "2026-10-16T12:22:39-07:00",
+      "subject": "Checkpoint provisional eight-way banks and source-bound charge attachment evidence"
+    },
+    "raw_sources": [
+      {
+        "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/raw/rowan-southeast-initial.png",
+        "bytes": 1599516,
+        "sha256": "cf76a78ceabde8db48e65e0b8d8006dbcf65a779431f08bb2e8c6af569da48e6",
+        "actor": "rowan",
+        "view": "southeast",
+        "declared_sha256": "cf76a78ceabde8db48e65e0b8d8006dbcf65a779431f08bb2e8c6af569da48e6",
+        "matches_declared": true
+      },
+      {
+        "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/raw/rowan-northeast-initial.png",
+        "bytes": 1446163,
+        "sha256": "316b7f6f07d7b77b4b8863a62fe45c8d9589842dfdd533a6f9d80064dea181ba",
+        "actor": "rowan",
+        "view": "northeast",
+        "declared_sha256": "316b7f6f07d7b77b4b8863a62fe45c8d9589842dfdd533a6f9d80064dea181ba",
+        "matches_declared": true
+      },
+      {
+        "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/raw/lyra-southeast-initial.png",
+        "bytes": 1411375,
+        "sha256": "4e4050324cc3b6bd6da9bec1fbd33258386cb50a0ed0eac6404f6fc102670823",
+        "actor": "lyra",
+        "view": "southeast",
+        "declared_sha256": "4e4050324cc3b6bd6da9bec1fbd33258386cb50a0ed0eac6404f6fc102670823",
+        "matches_declared": true
+      },
+      {
+        "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/raw/lyra-northeast-initial.png",
+        "bytes": 1289247,
+        "sha256": "a8e77dbdaf0c1de47d71ef9429df558bf9159d325e29889b17e354d21542d738",
+        "actor": "lyra",
+        "view": "northeast",
+        "declared_sha256": "a8e77dbdaf0c1de47d71ef9429df558bf9159d325e29889b17e354d21542d738",
+        "matches_declared": true
+      },
+      {
+        "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/brann-source/raw/brann-se-initial.png",
+        "bytes": 1387519,
+        "sha256": "c6e2722e9a94e29f695a326526a832d1bc215058c21e5f363bb28c8a76f54d9a",
+        "actor": "brann",
+        "view": "southeast",
+        "declared_sha256": "c6e2722e9a94e29f695a326526a832d1bc215058c21e5f363bb28c8a76f54d9a",
+        "matches_declared": true
+      },
+      {
+        "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/brann-source/raw/brann-ne-initial.png",
+        "bytes": 1081468,
+        "sha256": "e631a1b0e7eb9e346f5d237a87830beed97f44bb3ef5e12857e18def8881cd0d",
+        "actor": "brann",
+        "view": "northeast",
+        "declared_sha256": "e631a1b0e7eb9e346f5d237a87830beed97f44bb3ef5e12857e18def8881cd0d",
+        "matches_declared": true
+      }
+    ],
+    "mirror_rule_documented": "SW/NW conditionally mirrored around pivotX64 with +1px correction; source manifest limitations disclose this.",
+    "acceptance": "Installed v6 walk tables exist; config explicitly calls walks provisional and denies an8motion acceptance."
+  },
+  "public_cardinals_vs_installed": [
+    {
+      "actor": "rowan",
+      "public_clip_entries": 24,
+      "exposures_compared": 116,
+      "rgba_and_clip_metadata_differences": []
+    },
+    {
+      "actor": "lyra",
+      "public_clip_entries": 24,
+      "exposures_compared": 128,
+      "rgba_and_clip_metadata_differences": []
+    },
+    {
+      "actor": "brann",
+      "public_clip_entries": 24,
+      "exposures_compared": 128,
+      "rgba_and_clip_metadata_differences": []
+    }
+  ],
+  "existing_public_copies": {
+    "all_six_frozen_files_match": true,
+    "baseline_root": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/baseline",
+    "baseline_ledger": {
+      "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/BASELINE.json",
+      "bytes": 2414,
+      "sha256": "3b23d1c244b2d655f53dafe1bce7d236c75aedf99f3d4e0cdcf583b093fb2237"
+    },
+    "baseline_first_commit": {
+      "commit": "118e535229a00be19449ff295266f243034ca6f9",
+      "committed_at": "2026-10-16T10:47:01-07:00",
+      "subject": "Checkpoint eight-direction paint sources and reproducible candidate baker"
+    },
+    "additional_public_character_bakes": [
+      "/home/astra/projects/emberwake-demo/art-source/characters-v2/bake-v6/lyra",
+      "/home/astra/projects/emberwake-demo/art-source/characters-v2/bake-v6/brann"
+    ],
+    "naming_warning": "characters-v2/bake-v6 is a four-view public character bake; eight-direction registration-v6 is a different later eight-view installed bank."
+  },
+  "earlier_candidates": {
+    "first_game_painted_hero": {
+      "actor": "rowan",
+      "historical_git_path": "assets/hero",
+      "revision": "c60f67f",
+      "existing_exact_copy": null,
+      "atlas_sha256": "d4fffce5545f76707140d0f8d14ac9217c0777fc4df044a951d4b299256f0af9",
+      "manifest_sha256": "1c516f55dc7c0ef6a21e905dfcc6b4fc68e1005d661b0908293c431e7f44c73f",
+      "atlas_dimensions": [
+        1024,
+        1792
+      ],
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 8,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clip_count": 24,
+      "views": [
+        "east",
+        "north",
+        "south",
+        "west"
+      ],
+      "walks": {
+        "south_walk": {
+          "frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "holds_seconds": [
+            0.075,
+            0.075,
+            0.075,
+            0.075,
+            0.075,
+            0.075
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "east_walk": {
+          "frames": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "north_walk": {
+          "frames": [
+            48,
+            49,
+            50,
+            51,
+            52,
+            53
+          ],
+          "holds_seconds": [
+            0.075,
+            0.075,
+            0.075,
+            0.075,
+            0.075,
+            0.075
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        },
+        "west_walk": {
+          "frames": [
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "duration_seconds": 0.45,
+          "loop": true
+        }
+      },
+      "clip_timing_seconds": {
+        "south_idle": 1.16,
+        "south_walk": 0.45,
+        "south_attack": 0.41,
+        "south_cast": 0.5,
+        "south_hurt": 0.29,
+        "south_dodge": 0.26,
+        "east_idle": 1.16,
+        "east_walk": 0.45,
+        "east_attack": 0.41,
+        "east_cast": 0.5,
+        "east_hurt": 0.29,
+        "east_dodge": 0.26,
+        "north_idle": 1.16,
+        "north_walk": 0.45,
+        "north_attack": 0.41,
+        "north_cast": 0.5,
+        "north_hurt": 0.29,
+        "north_dodge": 0.26,
+        "west_idle": 1.16,
+        "west_walk": 0.45,
+        "west_attack": 0.41,
+        "west_cast": 0.5,
+        "west_hurt": 0.29,
+        "west_dodge": 0.26
+      },
+      "directional_source": null,
+      "lineage_source_paths": [
+        "art-source/hero/east-raw.png",
+        "art-source/hero/east-walk-repair-raw.png",
+        "art-source/hero/north-attack-fix-raw.png",
+        "art-source/hero/north-raw.png",
+        "art-source/hero/south-raw.png",
+        "art-source/hero/west-raw.png"
+      ],
+      "history": {
+        "commit": "c60f67fbd72811f1baebb79f78dda7ebf8ccb762",
+        "committed_at": "2026-10-15T23:32:51-07:00",
+        "subject": "Integrate ImageGen hero, original world art, continuous terrain and playable web export"
+      },
+      "approval_status": "First retained game integration commit, not proof of user approval of its art."
+    },
+    "repaired_single_hero_public_rowan_lineage": {
+      "history": {
+        "commit": "41c6a1cdf65ca43cdf2b8600e3997695f19cd614",
+        "committed_at": "2026-10-16T00:09:52-07:00",
+        "subject": "Repair reviewed game defects and document reproducible ImageGen asset production"
+      },
+      "same_atlas_and_manifest_as_public_rowan": true,
+      "retained_exports": [
+        {
+          "path": "/home/astra/projects/emberwake-demo/output/web-v3/index.pck",
+          "bytes": 9470752,
+          "sha256": "2b93baf201f84fea1c64597ad4cb485cc1617e75740148956732fcccd27c7213"
+        },
+        {
+          "path": "/home/astra/projects/emberwake-demo/output/web-before-character-expansion/index.pck",
+          "bytes": 9470752,
+          "sha256": "2b93baf201f84fea1c64597ad4cb485cc1617e75740148956732fcccd27c7213"
+        }
+      ]
+    },
+    "older_approved_h3_walk": {
+      "locator_from_readme": "/home/astra/projects/rpg-hero-animation",
+      "authority": "README.md:61 and README.md:65",
+      "status": "Separate project documented as previously approved. Not inspected here; exact atlas/manifest/timing/approval transcript not verified.",
+      "distinction": "Eight retained pose-guide images informed a new ImageGen side walk; README explicitly says the prior painted walk frames are not the game walking artwork.",
+      "do_not_infer": "No claim that user means this baseline, public cardinals, first game hero, or earlier installed diagonals."
+    }
+  },
+  "approval_evidence": {
+    "release_authorization": "Canonical AGENTS.md records user authorization for public test release on2026-10-16 and references PUBLICATION.md. This is a recorded release authorization, not a fresh direct user art-approval transcript.",
+    "prior_h3": "README.md:65 records prior approved walk/jab project, but no approval transcript or exact approved file identity was inspected.",
+    "earliest_public_source_in_current_trace": {
+      "commit": "1dbfb0554151ffed2780ed180c700dd97f17ca64",
+      "committed_at": "2026-10-16T08:44:56-07:00",
+      "subject": "Add selectable Lyra and Brann banks with reproducible sprite refinement and spell checks"
+    },
+    "first_game_integration_in_trace": {
+      "commit": "c60f67fbd72811f1baebb79f78dda7ebf8ccb762",
+      "committed_at": "2026-10-15T23:32:51-07:00",
+      "subject": "Integrate ImageGen hero, original world art, continuous terrain and playable web export"
+    },
+    "eight_view": "No user approval of eight-view motion established. Registration-v6 note says provisional; current quality docs distinguish isolated experiments from installed/public builds."
+  },
+  "safe_viewer_route": [
+    "Use existing verified baseline/{actor}/atlas.png and animations.json for exact public-source four-view labels; preserve columns8 metadata.",
+    "Use current assets manifests and atlases, columns16, for separately labeled installed registration-v6 eight-view baseline.",
+    "Use historical c60f67f Git blobs only if a distinct first-game hero comparison is requested; south/north walks are six exposures there.",
+    "No PCK extraction is necessary for these source comparisons. If actual packed imported-texture identity is later required, keep the verified382a06f7 PCK read-only and unpack/decode only into a new artifact directory with a separately validated PCK/imported-texture reader; no such extraction or validation occurred here."
+  ],
+  "evidence_files": [
+    {
+      "path": "/home/astra/projects/emberwake-demo/AGENTS.md",
+      "bytes": 723,
+      "sha256": "8aa08c5eff6e2710f3e8ef688947b9c9447625c04114dae47c8230051773fc90"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/README.md",
+      "bytes": 6399,
+      "sha256": "fe2d1900ad27db9c8bf493a9f901cc3bdb8270e3135f7ccc1caa77dd9c2bef46"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/PUBLICATION.md",
+      "bytes": 2797,
+      "sha256": "8d2ce8b7c37bfbb23ff6efc03a3d38f0c853e7509567a363c13f1bc1efd5d1e6"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/QUALITY.md",
+      "bytes": 8635,
+      "sha256": "11e6a20fd1092514850984c861217a7d2ee48afc1fa4ecbe72069638313f2a66"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/ART-PIPELINE.md",
+      "bytes": 7341,
+      "sha256": "67ee68cc419836b312aee00d9987c2d6b6920b7389ee437d6df35d48eb5a0aa1"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/EIGHT-DIRECTIONS.md",
+      "bytes": 20824,
+      "sha256": "6f383e442f6d444e8108ae481756b046d87a51ca243d76a4e90b4fb8095cc4ee"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/EIGHT-DIRECTION-QUALITY.md",
+      "bytes": 26776,
+      "sha256": "8db12cafc5ef0da79d89487c17bbed6c3aee18828dc845206cdbe2addad5d550"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/BASELINE.json",
+      "bytes": 2414,
+      "sha256": "3b23d1c244b2d655f53dafe1bce7d236c75aedf99f3d4e0cdcf583b093fb2237"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/registration-v6-all-charge-tracks.json",
+      "bytes": 64510,
+      "sha256": "dcf870899c2e72a9fbb93628e700cfb5cd7bb664bcdcdafde358cfcaed90fc81"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/evidence/public-site/publication.json",
+      "bytes": 1708,
+      "sha256": "5c025e03692b16cbfb7773bb4be8e0e45be4ea6d6c5bc7f21d0b76ca55e2a171"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/evidence/public-site/package-verification.json",
+      "bytes": 2206,
+      "sha256": "9d2a46c98c37583269ca74cb8d18d867889e9d7c62331e7b9c698380b9dacc6c"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/evidence/public-site/browser-asset-hashes.json",
+      "bytes": 1260,
+      "sha256": "a59aad236dfbdca5c90ea6aaf2829f2e3f14df45fb36c33dcb954d2254f9a4f1"
+    },
+    {
+      "path": "/home/astra/projects/emberwake-demo/docs/evidence/character-expansion/rebake-verification.json",
+      "bytes": 2317,
+      "sha256": "0984b137149d6aa107045846dcbd5ec98a22f579bd9b6a0f7fc6f035b091d54e"
+    }
+  ],
+  "limits": [
+    "No broad session/log content search or credential access.",
+    "No new live website request. Retained public browser evidence is historical, dated by publication receipt.",
+    "Exact approved H3 source and user intended original remain unestablished.",
+    "Reading PNG pixels to compare in memory wrote no extracted frames or source changes."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "linksChecked": 12,
+  "results": [
+    {
+      "url": "http://127.0.0.1:8875/COMPARISON-PROTOCOL.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/inputs/imagegen-prompt.txt",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-walk-001/media-review/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-walk-001/sprite-cycle/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/pixellab-walk-v1/extracted/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-slash-001/media-review/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-slash-001/sprite-once-rejected/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/pixellab-slash-v1/extracted/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-slash-margin-002/media-review/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-slash-margin-002/sprite-once-rejected/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/h3-slash-margin-002/sprite-once-curated/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8875/pixellab-slash-margin-v2/extracted/index.html",
+      "status": 200
+    }
+  ]
+}

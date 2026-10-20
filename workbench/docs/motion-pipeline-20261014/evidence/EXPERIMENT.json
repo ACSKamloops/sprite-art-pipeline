@@ -1,0 +1,35 @@
+{
+  "kind": "motion-conditioning-comparison",
+  "version": 1,
+  "source_png_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+  "prompt_sha256": "2f078a8fd63d6c23ef8aacc95d5a051006cf0d1e3741f0af0b828e11a1b3070e",
+  "runs": [
+    {
+      "id": "first-only",
+      "packet": "10c5e340842ac3966633cbcad521edb419dc85d2aa0f84786a9c2709cd9cdec0",
+      "request_sha256": "6de4c8a00322885df87321b02e9da70692e19a335ccee1c05df46490807dcc1e",
+      "run": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only",
+      "roles": [
+        "first_frame"
+      ]
+    },
+    {
+      "id": "first-last",
+      "packet": "c3db9ed21c0906d42301a59e0dd4bb73805d93fbe6cdc0be056d7e0496e8e580",
+      "request_sha256": "c96ee65738a65d2b7e21f5ef5cc263382e8c6986b00a505f0f68a03005ef3162",
+      "run": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last",
+      "roles": [
+        "first_frame",
+        "last_frame"
+      ]
+    }
+  ],
+  "paid_post_limit": 2,
+  "requested_native_video_seconds_total": 8,
+  "same_first_png_and_literal_prompt": true,
+  "controlled_difference": "optional last_frame same PNG as first",
+  "seed_control": false,
+  "causal_limit": "Two stochastic candidates, not a causal efficacy or statistical model ranking; no shared backendseed/checkpoint attestation",
+  "no_automatic_retry": true,
+  "quality_acceptance": "pending"
+}

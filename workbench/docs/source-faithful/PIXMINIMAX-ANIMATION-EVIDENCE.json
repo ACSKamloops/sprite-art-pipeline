@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "kind": "retained-pixminimax-animation-review",
+  "research_root": "/home/astra/projects/pixellab-local-test-20261011",
+  "provider_calls": 0,
+  "model_calls": 0,
+  "profiles_read": false,
+  "authenticated_headers_read": false,
+  "canonical_files_changed": false,
+  "conclusion": "Actual PixMiniMax animation succeeded in retained lab; public response supplies ordered PNG frames, not demonstrated native provider video.",
+  "verified": {
+    "engine_family_named": "MiniMax H3",
+    "public_operation": "POST /v2/animate-pixminimax",
+    "public_job_poll": "GET /v2/background-jobs/{job_id}",
+    "actual_request_fields": [
+      "first_frame",
+      "description",
+      "frame_count",
+      "seed",
+      "no_background",
+      "enhance_prompt"
+    ],
+    "requested_frames": 8,
+    "requested_seed": 123,
+    "optional_caption_fields_present": false,
+    "returned_png_frames": 9,
+    "native_canvas": [
+      256,
+      256
+    ],
+    "first_return_png_byte_exact_to_submitted_first": true,
+    "all_nine_completed_response_pngs_byte_match_retained_frames": true,
+    "completed_response_contains_video_field": false,
+    "source_fps_supplied": false,
+    "derived_preview_fps": 8,
+    "private_client_alias": "animate-minimax-h3",
+    "private_client_transport": "WebSocket in examined Godot/Lua branches",
+    "private_codec": "raw RGBA bytes plus dimensions",
+    "public_codec": "encoded PNG/JPEG Base64Image"
+  },
+  "confidence": {
+    "successful_animation_and_png_identity": "high; independently decoded and byte compared all nine completed images",
+    "public_H3_attribution": "high; explicit retained original OpenAPI description",
+    "private_client_routes": "source-observed; no new private execution",
+    "converted_walk_alpha_findings": "retained audited report; not independently redecoded in this review",
+    "native_provider_video_and_extraction": "not established in selected probe",
+    "current_direct_H3_V2_same_deployment_or_auth": "not established"
+  },
+  "unknown": [
+    "PixelLab served checkpoint/revision/fine-tune",
+    "Private inference/video decoding/palette or deflicker internals",
+    "Native provider video bytes and their extraction PTS",
+    "Current direct MiniMax video authorization and availability",
+    "Exact provider-to-PixelLab version parity",
+    "Full visual/game acceptance"
+  ],
+  "evidence": [
+    {
+      "path": "evidence/openapi.json",
+      "sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "lines": [
+        1
+      ],
+      "json_pointer": "/paths/~1animate-pixminimax/post/description"
+    },
+    {
+      "path": "runtime/probes/minimax-walk/request.json",
+      "sha256": "1c4ee3aeba17ae3267dead91d61b17db6a1bd78b8325f2e2399e0dffd6e7eedb",
+      "lines": [
+        2,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "path": "runtime/probes/minimax-walk/024-response.json",
+      "sha256": "248803c1614400acc4cca65a9000b14dc22b1e0cecb8a69f78c01ae5277fdac6",
+      "json_pointer": "/last_response/images"
+    },
+    {
+      "path": "analysis-contract/runtime-plan/RUNTIME-CONTRACT-OBSERVATIONS.json",
+      "sha256": "60ae4d6bdeeda3cf8029c40712163dc3751ff94c9f7ec92709b2293a4327e04a",
+      "lines": [
+        176,
+        195
+      ]
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+      "sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+      "lines": [
+        280,
+        337
+      ]
+    },
+    {
+      "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+      "sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+      "lines": [
+        194,
+        234
+      ]
+    },
+    {
+      "path": "analysis-contract/depth-round2/PIPELINE-SPEC.md",
+      "sha256": "0ab2e64d2700a5b8d522ff4f8cdbb4af313a423fda7b155b77bbdf1b4d80620f",
+      "lines": [
+        11,
+        39,
+        41
+      ]
+    },
+    {
+      "path": "analysis-poses/runtime-fixtures/minimax-walk-qc/video-provenance.json",
+      "sha256": "239809bb2624420d6f494963e71b027a8a79e1c98f397598af977a59f405105b",
+      "lines": [
+        2,
+        12
+      ]
+    },
+    {
+      "path": "analysis-poses/depth-round2/export_native_video.py",
+      "sha256": "4ec3a73acfa0d9a87ab861b05ec77872a1952112f69bf4f97bb6002b1f293428",
+      "lines": [
+        7,
+        21
+      ]
+    }
+  ],
+  "boundary": "No new generation; derived ffmpeg/browser/engine review video is not native provider-video evidence. Chat OAuth success does not prove video access.",
+  "transport_receipt": {
+    "path": "runtime/probes/minimax-walk/network.har",
+    "sha256": "ec82de94d658e455c8cb6c7d86c0262ff39e33f7751825de1151f81084933a25",
+    "entry_count": 25,
+    "indexing": "zero-based HAR log.entries",
+    "accepted_submission": {
+      "entry": 1,
+      "method": "POST",
+      "path": "/v2/animate-pixminimax",
+      "http_status": 200
+    },
+    "completed_poll": {
+      "entry": 24,
+      "method": "GET",
+      "path_template": "/v2/background-jobs/{job_id}",
+      "http_status": 200,
+      "returned_images": 9
+    },
+    "headers_accessed": false,
+    "ids_or_base64_printed": false
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "sprite-construction-spec/v1",
+  "canvas": {
+    "width": 16,
+    "height": 16,
+    "render_pivot": [
+      8,
+      8
+    ],
+    "ground_pivot": [
+      8,
+      14
+    ]
+  },
+  "layers": [
+    {
+      "id": "body",
+      "name": "Body calibration block",
+      "locked": false
+    },
+    {
+      "id": "detail",
+      "name": "Editable material strip",
+      "locked": false
+    }
+  ],
+  "frames": [
+    {
+      "id": "pose-a",
+      "duration_ticks": 5,
+      "landmarks": {
+        "ankle": [
+          8,
+          13
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "body.png",
+          "at": [
+            7,
+            9
+          ]
+        },
+        "detail": {
+          "image": "detail.png",
+          "at": [
+            7,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "id": "pose-b",
+      "duration_ticks": 7,
+      "landmarks": {
+        "ankle": [
+          8,
+          13
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "body.png",
+          "at": [
+            7,
+            9
+          ]
+        },
+        "detail": {
+          "image": "detail.png",
+          "at": [
+            7,
+            11
+          ]
+        }
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "frames": [
+        "pose-a",
+        "pose-b"
+      ],
+      "fps": 60,
+      "loop": true,
+      "events": []
+    }
+  ],
+  "provenance": {
+    "purpose": "Tiny tool calibration, not character artwork or real-game behavior"
+  }
+}

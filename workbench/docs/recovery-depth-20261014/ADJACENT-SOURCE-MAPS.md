@@ -1,0 +1,9 @@
+# Standard adjacent public source-map check
+
+The expanded follow-up requested **exactly72 unique public `<observed-script-URL>.map` candidates**: every JavaScript URL from the retained current public retrieval set, including the editor page bundle and shipped Godot engine script. **All72 returned HTTP404**. There were no200 responses, valid source-map-v3 bodies, recovered `sourcesContent` or maps to inspect with REA.
+
+[Machine receipts](ADJACENT-SOURCE-MAPS.json) record each precise URL, observed parent script SHA, request UTC time and HTTP status. The retrieval set contains73 successful JavaScript receipt rows but72 unique URLs; the duplicate was requested once. Both editor-related scripts were already included, so no additional duplicate request was made. The script and original ledger are retained under `/home/astra/artifacts/pixellab-recovery-web-20261014/adjacent-source-maps`.
+
+Requests used at most4 concurrent credential-free GETs, no redirects, a10MiB individual body cap and100MiB aggregate body cap, with a stop condition for429. There was no throttling and no body-budget consumption. Error bodies were not read or retained; their SHA is deliberately absent rather than invented. The per-request UTC timestamps are start times, not measured component timings. No HTML error bodies, authorization or signed-in resources were downloaded.
+
+This extends the earlier sourceMappingURL/header-only search in [the initial recovery report](WEB-MODEL-RECOVERY.md) by checking the ordinary adjacent URL convention explicitly. Its earlier statement that no guessed map URLs were fetched describes that earlier pass. The present result establishes only the404 outcomes for this exact convention and current observed script set at the recorded times. Alternate map names/domains, other versions, inline sources, authenticated assets and server source remain outside this negative bound.

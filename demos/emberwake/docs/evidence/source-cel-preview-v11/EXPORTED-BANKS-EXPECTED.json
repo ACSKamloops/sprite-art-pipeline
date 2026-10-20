@@ -1,0 +1,38 @@
+[
+  {
+    "actor": "rowan",
+    "resource": "res://assets/hero/atlas.png",
+    "kind": "atlas",
+    "expected_sha256": "8db50d2154d303871cbeb8191e29c0acb691a9a4d80b3dd29e6b04f739e2d439"
+  },
+  {
+    "actor": "rowan",
+    "resource": "res://assets/hero/animations.json",
+    "kind": "manifest",
+    "expected_sha256": "e9c2961ea9ba9a3695e7e6f6f5008799a3f8605aa81ca0ca29cf0bf7bfbf322c"
+  },
+  {
+    "actor": "lyra",
+    "resource": "res://assets/characters/lyra/atlas.png",
+    "kind": "atlas",
+    "expected_sha256": "689cb35aaa40220b8d33804ce05c55a703ab7be10c87b5250ec941dc9e8415f3"
+  },
+  {
+    "actor": "lyra",
+    "resource": "res://assets/characters/lyra/animations.json",
+    "kind": "manifest",
+    "expected_sha256": "0ed03236342954b9c0f1e093ae48b6d9142738fb51ef34339a56a91dd0cfa8db"
+  },
+  {
+    "actor": "brann",
+    "resource": "res://assets/characters/brann/atlas.png",
+    "kind": "atlas",
+    "expected_sha256": "9195b6731b62cc3b0aecc838528a9f3dd24be723ded5f009e3e5cd1fce55435c"
+  },
+  {
+    "actor": "brann",
+    "resource": "res://assets/characters/brann/animations.json",
+    "kind": "manifest",
+    "expected_sha256": "d9b944346ab7f509941fac7786ff7c35d80e33115c74af24f84903a13af59d47"
+  }
+]

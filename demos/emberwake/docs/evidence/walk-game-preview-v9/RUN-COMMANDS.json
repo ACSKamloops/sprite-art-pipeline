@@ -1,0 +1,172 @@
+{
+  "scope": "Actual invocation record; fresh paths are required for reproduction. No secret/model/network-service credentials needed. Browser CLI uses its installed dependency and local server.",
+  "commands": [
+    {
+      "stage": "bake",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/bake_eight_directions.py",
+        "--config",
+        "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/bake"
+      ]
+    },
+    {
+      "stage": "artifact verification",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/verify_eight_direction_bake.py",
+        "--bake",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/bake",
+        "--receipt",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/INVARIANTS.json"
+      ]
+    },
+    {
+      "stage": "isolation",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/build_isolated_art_preview.py",
+        "--bake",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/bake",
+        "--config",
+        "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project"
+      ]
+    },
+    {
+      "stage": "import",
+      "argv": [
+        "godot",
+        "--headless",
+        "--editor",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+        "--import"
+      ],
+      "env": {
+        "LP_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4"
+      }
+    },
+    {
+      "stage": "native rendering",
+      "argv": [
+        "xvfb-run",
+        "-a",
+        "godot",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+        "--rendering-method",
+        "gl_compatibility",
+        "--rendering-driver",
+        "opengl3",
+        "--audio-driver",
+        "Dummy",
+        "--script",
+        "tests/walk_art_preview.gd",
+        "--",
+        "--walk-preview-output=/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk"
+      ],
+      "env": {
+        "LP_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4"
+      }
+    },
+    {
+      "stage": "behavior",
+      "cwd": "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+      "argv": [
+        "python3",
+        "tests/run_checks.py"
+      ],
+      "history": "Initial failed suite, accidental unpatched follow-up and final suite with explicit cleanup overlay are each retained. See TEST-CLEANUP-OVERLAY.json."
+    },
+    {
+      "stage": "Web export",
+      "argv": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/project",
+        "--export-release",
+        "Web",
+        "/home/astra/artifacts/emberwake-walk-cadence-study-v1/game-v9/index.html"
+      ],
+      "env": {
+        "LP_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4"
+      },
+      "post_export": "WEB-SHELL-ADJUSTMENT.json"
+    },
+    {
+      "stage": "ordinary browser",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "tests/run_browser_eight_directions.py",
+        "--session",
+        "emberwake-complete-boots",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/BROWSER-EIGHT-DIRECTIONS.json"
+      ],
+      "navigation": "BROWSER-BOOT.log; navigation completed before the scenario began."
+    },
+    {
+      "stage": "media",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/encode_walk_captures.py",
+        "--native",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/media"
+      ]
+    },
+    {
+      "stage": "media replay",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/encode_walk_captures.py",
+        "--native",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk",
+        "--expected",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/media/MEDIA-RECEIPT.json",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/media-replay"
+      ]
+    },
+    {
+      "stage": "gallery",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/build_engine_walk_gallery.py",
+        "--media",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v9/media",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-cadence-study-v1/godot-walks-v9"
+      ]
+    },
+    {
+      "stage": "gallery browser",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "/home/astra/.codex/skills/playwright/scripts/playwright_cli.sh",
+        "--session",
+        "emberwake-complete-boots",
+        "--raw",
+        "run-code",
+        "--filename=docs/evidence/eight-directions-player-v1/scenarios/godot-walk-gallery-v9.js"
+      ],
+      "navigation": "GALLERY-BOOT.log completed before this scenario."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "scope": "F02/F10 supplied-art mechanical controls; artistic quality unreviewed",
+  "command": "python3 -m pytest -q tests/test_geometry_flows.py --basetemp .test-tmp/geometry-delivery",
+  "result": "16 passed in 10.17s; no skips",
+  "fresh_engine_runs": 3,
+  "engine_version": "4.7.2.stable.official.ed1daf0bf",
+  "engine_scope": "headless imported texture RGBA/readback/resource reload and real AnimatedSprite2D playback; no GPU raster or visual acceptance",
+  "player_scope": "generated JS in inert Node VM; no browser playback or continuous motion viewing",
+  "input_kind": "asymmetric explicit-source masks/parts, unequal7/100,13/100,1/20-second holds; one-shot/infinite/finite3",
+  "python": "3.14.4",
+  "new_network_or_model_calls": false,
+  "retained_full_runtime_outputs": "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/geometry-delivery",
+  "base_commit": "d270477d4b01fa66efdf16f8784a9f3db67e4437",
+  "implementation_hashes": {
+    "sprite_workbench/scene.py": "eb190f755692cc56ee432fe8fd0e5c461c925e6268b6d1a70a9fa862cbbe5abf",
+    "sprite_workbench/export.py": "55db1f7f7a4afc0e00dab3eec97875373ad57054ff70fe69966b78978cfaf098",
+    "sprite_workbench/review.py": "d99b147cf45cb86dfd6121e958eab4f9ea6f253811aa4d90db91b4f31aec9095",
+    "tests/test_geometry_flows.py": "f0897e2d2e4e3324efc7cb5556e78611727b699695c2f1eccf15823d038dff48",
+    "tests/fixtures/geometry_engine.gd": "2e6933098b530e234321cc6d06a7b8ea4401d8c2e8252e3045e5e6be4920ee5a"
+  }
+}

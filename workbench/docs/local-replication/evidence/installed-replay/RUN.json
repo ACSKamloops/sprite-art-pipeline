@@ -1,0 +1,93 @@
+{
+  "kind": "local-replay-run",
+  "version": 1,
+  "status": "completed",
+  "output": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release",
+  "selected_flows": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11"
+  ],
+  "source_unchanged_during_run": true,
+  "flows": [
+    {
+      "flow": "F01",
+      "status": "completed",
+      "receipt": "F01-RECEIPT.json",
+      "checks": 15
+    },
+    {
+      "flow": "F02",
+      "status": "completed",
+      "receipt": "F02-RECEIPT.json",
+      "checks": 11
+    },
+    {
+      "flow": "F03",
+      "status": "completed",
+      "receipt": "F03-RECEIPT.json",
+      "checks": 17
+    },
+    {
+      "flow": "F04",
+      "status": "completed",
+      "receipt": "F04-RECEIPT.json",
+      "checks": 6
+    },
+    {
+      "flow": "F05",
+      "status": "completed",
+      "receipt": "F05-RECEIPT.json",
+      "checks": 6
+    },
+    {
+      "flow": "F06",
+      "status": "completed",
+      "receipt": "F06-RECEIPT.json",
+      "checks": 17
+    },
+    {
+      "flow": "F07",
+      "status": "completed",
+      "receipt": "F07-RECEIPT.json",
+      "checks": 18
+    },
+    {
+      "flow": "F08",
+      "status": "completed",
+      "receipt": "F08-RECEIPT.json",
+      "checks": 13
+    },
+    {
+      "flow": "F09",
+      "status": "completed",
+      "receipt": "F09-RECEIPT.json",
+      "checks": 15
+    },
+    {
+      "flow": "F10",
+      "status": "completed",
+      "receipt": "F10-RECEIPT.json",
+      "checks": 10
+    },
+    {
+      "flow": "F11",
+      "status": "completed",
+      "receipt": "F11-RECEIPT.json",
+      "checks": 9
+    }
+  ],
+  "provider_calls": 0,
+  "continuous_motion_viewed": false,
+  "artistic_acceptance": "unreviewed",
+  "whole_vendor_replication_complete": false,
+  "completion_meaning": "Selected diagnostic recipes completed their explicit checks; original whole flows remain incomplete."
+}

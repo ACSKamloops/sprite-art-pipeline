@@ -1,0 +1,144 @@
+{
+  "schema_version": "planned-equipment-attachments-v1",
+  "status": "PLANNED_NOT_READY_NO_ART_OR_IMPLEMENTATION",
+  "body_binding": {
+    "actor_id": "generic_rpg_hero",
+    "clip_id": "generic_rpg_hero/walk_right_three_quarter",
+    "manifest": {
+      "path": "approved/walk/manifest.json",
+      "sha256": "89666748bc27c9f67fb13faf229b56a777907566681b00ee229c31c23fa1d8af"
+    },
+    "view_camera_id": "approved_EO_orthographic_threequarter_right",
+    "canvas": [
+      128,
+      128
+    ],
+    "nominal_ground_pivot_px": [
+      64,
+      106
+    ],
+    "registration": "Original accepted128 canvas unchanged; future192 action mapping is one constant(+32,+64), nominal pivot[96,170], separately hash-bound.",
+    "timing_qualification": "Existing walk has1/24s holds; all future equipment events remain proposals.",
+    "motion_profile_id": "unarmed_EO_walk"
+  },
+  "coordinate_convention": "body-native pixel centers; x right, y down; angle0 screen-right, positive clockwise; equipment local grip pivot maps to anatomical hand; same actor ground-root/height/camera transform",
+  "motion_profiles": [
+    {
+      "id": "unarmed_EO_walk",
+      "family": "unarmed",
+      "compatible_body_clip_ids": [
+        "generic_rpg_hero/walk_right_three_quarter"
+      ],
+      "status": "PROPOSED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "onehand_slash_A_FUTURE",
+      "family": "onehand",
+      "compatible_body_clip_ids": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "twohand_swing_A_FUTURE",
+      "family": "twohand",
+      "compatible_body_clip_ids": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED"
+    },
+    {
+      "id": "ranged_release_A_FUTURE",
+      "family": "ranged",
+      "compatible_body_clip_ids": [],
+      "status": "PROPOSED_NOT_IMPLEMENTED"
+    }
+  ],
+  "equipment_definitions": [
+    {
+      "equipment_id": "future_compatible_onehand_weapon",
+      "status": "PLANNED_NO_ART",
+      "visual_asset": null,
+      "asset_local_primary_grip_px": null,
+      "asset_local_secondary_grip_px": null,
+      "neutral_axis_deg_clockwise": null,
+      "native_scale": null,
+      "compatible_motion_profile_ids": [
+        "onehand_slash_A_FUTURE"
+      ],
+      "held_visual_is_damage_shape": false,
+      "effect_policy": "Separate source-bound damage definitions and independently clocked effects; no baked weapon/body pixels."
+    }
+  ],
+  "frames": [
+    {
+      "frame_index": 0,
+      "source_frame": {
+        "path": "approved/walk/frames/00.png",
+        "sha256": "1f9203ec653a5b9895e028c9b13e0748f16b22c5ba89fcbfa4545720264e9cce"
+      },
+      "near_hand": {
+        "anatomical_id": "near-hand",
+        "position_px": null,
+        "orientation_deg_clockwise": null,
+        "local_scale": null,
+        "status": "UNKNOWN_UNMEASURED",
+        "uncertainty_px": null,
+        "reason": "Actual approved frame binding is verified; anatomical hand/grip coordinates have not been measured. No centroid or visibility-based assignment is invented."
+      },
+      "far_hand": {
+        "anatomical_id": "far-hand",
+        "position_px": null,
+        "orientation_deg_clockwise": null,
+        "local_scale": null,
+        "status": "UNKNOWN_UNMEASURED",
+        "uncertainty_px": null,
+        "reason": "Actual approved frame binding is verified; anatomical hand/grip coordinates have not been measured. No centroid or visibility-based assignment is invented."
+      },
+      "attachment_state": "unarmed",
+      "primary_hand": null,
+      "secondary_hand": null,
+      "secondary_grip_tolerance_px": null,
+      "render_passes": [],
+      "occlusion_contract": "NO_EQUIPMENT_OR_OCCLUSION_NOT_AUTHORED",
+      "foreground_hand_layer": null,
+      "hand_occlusion_mask": null,
+      "damage_definition_ref": null,
+      "effects_refs": [],
+      "compatibility_status": "NOT_READY_UNMEASURED",
+      "equipment_id": null,
+      "instance_id": null
+    }
+  ],
+  "proposed_events": [
+    {
+      "name": "attach_equipment",
+      "status": "PROPOSED_NOT_IMPLEMENTED_NOT_NATIVE_EVIDENCE",
+      "trigger_proposal": "Future safe equip/ready boundary after profile validation",
+      "coordinate_space": "body-hand-local",
+      "lifetime_policy": "Maintain same held instance until explicit stow/drop/clear; never duplicate at held poses"
+    },
+    {
+      "name": "release_projectile",
+      "status": "PROPOSED_NOT_IMPLEMENTED_NOT_NATIVE_EVIDENCE",
+      "trigger_proposal": "Future ranged profile release boundary once; absent from first unarmed clips",
+      "coordinate_space": "world",
+      "lifetime_policy": "Transfer to independent world instance; body completion does not imply projectile removal"
+    },
+    {
+      "name": "drop_equipment",
+      "status": "PROPOSED_NOT_IMPLEMENTED_NOT_NATIVE_EVIDENCE",
+      "trigger_proposal": "Future explicit interruption policy, once per held instance",
+      "coordinate_space": "world",
+      "lifetime_policy": "Record transform, detach and clear hand ownership; never both retain and drop"
+    }
+  ],
+  "interruption_policy": {
+    "default": "clear-on-reset",
+    "allowed_policies": [
+      "retain-held",
+      "drop-to-world",
+      "clear-on-reset"
+    ],
+    "damage_clear": "disable active damage immediately on cancel/end/reset",
+    "effect_clear_or_transfer": "Each owned effect declares termination or transfer; detached world projectiles keep independent lifetime.",
+    "selection_policy": "Queue latest compatible selection to a safe boundary; no mid-strike swap without explicit supported behavior."
+  },
+  "qualification": "Metadata example only. EO source frame0 and manifest are hash-bound actual accepted assets. All numerical hand anchors/local weapon pivots are deliberately null; no equipment art, masks, attachment rendering or anatomy verification exists. Onehand/twohand/ranged profiles are future proposals and cannot be applied to punch automatically."
+}

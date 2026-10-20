@@ -1,0 +1,111 @@
+{
+  "schema": "independent-sprite-review/v5",
+  "input_fingerprint": "4f1e32a794f89e029cb20776695841020e343fcb8220c50947efbdacd4a6d7d4",
+  "score_scale": "0\u201310, holistic whole-set judgment; no target supplied",
+  "style_basis": "Written rich modern chibi top-down unarmed-hero brief; reference-fit rating unchanged and no exact Rowan comparison claimed.",
+  "perception_basis": "Decoded actual pixels, exact holds, v4/v5 equal-clock still comparisons, source-hashed v3 transfer. No human normal-speed perception.",
+  "normal_speed_human_perception": false,
+  "browser_gameplay_export_approval": false,
+  "mechanical_preservation_earns_art_points": false,
+  "unchanged_art_score_increased": false,
+  "direction_limits": "Four directions. Disclosed Brann west mirror and lower-leg reuse are not independent new view/pose evidence.",
+  "blindness": "Disclosed follow-up, not blind; prior v1 incidental general-skill/early-lineage exposure qualification persists. No other scored review or rejected A source opened.",
+  "scores": {
+    "drawing": 8.0,
+    "reference_fit": 7.7,
+    "consistency": 7.7,
+    "motion": 7.1,
+    "usefulness": 7.7,
+    "overall": 7.6
+  },
+  "confidence": {
+    "drawing": 0.85,
+    "reference_fit": 0.68,
+    "consistency": 0.82,
+    "motion": 0.66,
+    "usefulness": 0.76,
+    "overall": 0.76
+  },
+  "recommendation": "Keep v5 B bridges and new settles for the prototype. No demonstrated anatomical regression warrants reverting B. Full polished-motion acceptance still needs human normal-speed A/B.",
+  "remaining": [
+    {
+      "rank": 1,
+      "kind": "recovery polish",
+      "severity": "low to medium",
+      "frames": [
+        "dodge 26->116->27",
+        "54->117->55",
+        "82->118->83",
+        "110->119->111"
+      ],
+      "finding": "Most Lyra head rise remains in the first recovery switch. Hair top in a fixed x38..91 crop is y24->17->16 south, y24->17->17 east, y24->16->18 north, y25->17->17 west. Body/hands now bridge, but head height does not evenly bridge the crouch.",
+      "smallest_experiment": "Test a direction-specific dodge recovery that places the same-view head between crouch and idle height while preserving identity and the 0.26 s total. Keep attack settle independent if the dodge needs a different rise."
+    },
+    {
+      "rank": 2,
+      "kind": "boot volume polish",
+      "severity": "low to medium",
+      "frames": [
+        "walk 121->112",
+        "123->113",
+        "125->114",
+        "127->115"
+      ],
+      "finding": "Compact rounder passing boots f112\u2013115 still contrast with longer source boots. B improves preceding leg progression but does not change those older passing drawings.",
+      "smallest_experiment": "Match cuff width, toe/heel volume and highlight vocabulary of passing boots to adjacent source poses, preserving the passing support relationship, then compare equal-time loops."
+    }
+  ],
+  "character_id": "lyra",
+  "input_hashes": {
+    "atlas.png": "ab6250e483b538a626fa54d4140a4436e7d8e8ebd1ab8ae252e81c09516e0bf1",
+    "animations.json": "70965e15fa670d9b2c004aed9b3dfd5dbeb2df40b667a45f22972ffc2e58b9d7",
+    "receipt.json": "c732023fd9e7ce67c8ab9bf58198926a56adcfe0294574354979af504f2980d8"
+  },
+  "exact_transfer_v3": [
+    "south_idle",
+    "south_cast",
+    "south_hurt",
+    "east_idle",
+    "east_walk",
+    "east_cast",
+    "east_hurt",
+    "north_idle",
+    "north_cast",
+    "north_hurt",
+    "west_idle",
+    "west_walk",
+    "west_cast",
+    "west_hurt"
+  ],
+  "fresh_clips": [
+    "south_walk",
+    "south_attack",
+    "south_dodge",
+    "east_attack",
+    "east_dodge",
+    "north_walk",
+    "north_attack",
+    "north_dodge",
+    "west_attack",
+    "west_dodge"
+  ],
+  "coverage": {
+    "clips": 24,
+    "stored_cells": 128,
+    "timeline_presentations": 128,
+    "selected_unique_cells": 116,
+    "unchanged_complete_clips_transferred": 14,
+    "fresh_changed_clips": 10,
+    "idle_action_endpoint_joins_inspected": 80,
+    "scales": [
+      "native",
+      "nearest 2x",
+      "approximate 0.66 drawscale"
+    ],
+    "backgrounds": [
+      "dark teal",
+      "light gray",
+      "white/light topology inspection"
+    ]
+  }
+}

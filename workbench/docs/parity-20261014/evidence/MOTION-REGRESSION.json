@@ -1,0 +1,1204 @@
+{
+  "scope": "actual local backend and browser; no paid/provider actions",
+  "target": "http://127.0.0.1:8874",
+  "checks": [
+    {
+      "name": "Packaged native source actual decode, index26 PTS and complete native video playback",
+      "status": "passed",
+      "native": {
+        "extraction": "a7b2cee64cc43b851881c0e428f451dd4511d14019e31126b0e5461d2e813f92",
+        "frame_count": 107,
+        "canvas": [
+          768,
+          768
+        ],
+        "pts": [
+          0,
+          512,
+          1024,
+          1536,
+          2048,
+          2560,
+          3072,
+          3584,
+          4096,
+          4608,
+          5120,
+          5632,
+          6144,
+          6656,
+          7168,
+          7680,
+          8192,
+          8704,
+          9216,
+          9728,
+          10240,
+          10752,
+          11264,
+          11776,
+          12288,
+          12800,
+          13312,
+          13824,
+          14336,
+          14848,
+          15360,
+          15872,
+          16384,
+          16896,
+          17408,
+          17920,
+          18432,
+          18944,
+          19456,
+          19968,
+          20480,
+          20992,
+          21504,
+          22016,
+          22528,
+          23040,
+          23552,
+          24064,
+          24576,
+          25088,
+          25600,
+          26112,
+          26624,
+          27136,
+          27648,
+          28160,
+          28672,
+          29184,
+          29696,
+          30208,
+          30720,
+          31232,
+          31744,
+          32256,
+          32768,
+          33280,
+          33792,
+          34304,
+          34816,
+          35328,
+          35840,
+          36352,
+          36864,
+          37376,
+          37888,
+          38400,
+          38912,
+          39424,
+          39936,
+          40448,
+          40960,
+          41472,
+          41984,
+          42496,
+          43008,
+          43520,
+          44032,
+          44544,
+          45056,
+          45568,
+          46080,
+          46592,
+          47104,
+          47616,
+          48128,
+          48640,
+          49152,
+          49664,
+          50176,
+          50688,
+          51200,
+          51712,
+          52224,
+          52736,
+          53248,
+          53760,
+          54272
+        ],
+        "time_base": [
+          1,
+          12288
+        ],
+        "duration": [
+          107,
+          24
+        ]
+      },
+      "video": {
+        "ended": true,
+        "duration": 4.458333,
+        "samples": [
+          0,
+          0.041667,
+          0.083333,
+          0.125,
+          0.166667,
+          0.208333,
+          0.25,
+          0.291667,
+          0.333333,
+          0.375,
+          0.416667,
+          0.458333,
+          0.5,
+          0.541667,
+          0.583333,
+          0.625,
+          0.666667,
+          0.708333,
+          0.75,
+          0.791667,
+          0.833333,
+          0.875,
+          0.916667,
+          0.958333,
+          1,
+          1.041667,
+          1.083333,
+          1.125,
+          1.166667,
+          1.208333,
+          1.25,
+          1.291667,
+          1.333333,
+          1.375,
+          1.416667,
+          1.458333,
+          1.5,
+          1.541667,
+          1.583333,
+          1.625,
+          1.666667,
+          1.708333,
+          1.75,
+          1.791667,
+          1.833333,
+          1.875,
+          1.916667,
+          1.958333,
+          2,
+          2.041667,
+          2.083333,
+          2.125,
+          2.166667,
+          2.208333,
+          2.25,
+          2.291667,
+          2.333333,
+          2.375,
+          2.416667,
+          2.458333,
+          2.5,
+          2.541667,
+          2.583333,
+          2.625,
+          2.666667,
+          2.708333,
+          2.75,
+          2.791667,
+          2.833333,
+          2.875,
+          2.916667,
+          2.958333,
+          3,
+          3.041667,
+          3.083333,
+          3.125,
+          3.166667,
+          3.208333,
+          3.25,
+          3.291667,
+          3.333333,
+          3.375,
+          3.416667,
+          3.458333,
+          3.5,
+          3.541667,
+          3.583333,
+          3.625,
+          3.666667,
+          3.75,
+          3.791667,
+          3.833333,
+          3.875,
+          3.916667,
+          3.958333,
+          4,
+          4.041667,
+          4.083333,
+          4.125,
+          4.166667,
+          4.208333,
+          4.25,
+          4.291667,
+          4.333333,
+          4.375,
+          4.416667
+        ]
+      }
+    },
+    {
+      "name": "All16 native selected poses preloaded and actual full canvas matches decoded PNG at every ordered index",
+      "status": "passed",
+      "state": {
+        "candidate": "743d5491305af4d762a6c483040fa419f12c0427531037b656084426be81b69e",
+        "frame": 0,
+        "rendered_frame": 0,
+        "playing": false,
+        "elapsed_ms": 0,
+        "loaded_frames": 16,
+        "holds": [
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            20
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            1,
+            12
+          ]
+        ],
+        "canvas": [
+          768,
+          768
+        ]
+      },
+      "strike_indices": [
+        26,
+        27
+      ]
+    },
+    {
+      "name": "Actual authored0.8second one-shot canvas playback completed without per-hold PNG requests",
+      "status": "passed",
+      "timing": {
+        "transitions": [
+          {
+            "frame": 1,
+            "ms": 8534.89999999851
+          },
+          {
+            "frame": 2,
+            "ms": 8584.70000000298
+          },
+          {
+            "frame": 3,
+            "ms": 8634.60000000149
+          },
+          {
+            "frame": 4,
+            "ms": 8684.70000000298
+          },
+          {
+            "frame": 5,
+            "ms": 8701.60000000149
+          },
+          {
+            "frame": 6,
+            "ms": 8718
+          },
+          {
+            "frame": 7,
+            "ms": 8734.70000000298
+          },
+          {
+            "frame": 8,
+            "ms": 8751.29999999702
+          },
+          {
+            "frame": 9,
+            "ms": 8801.39999999851
+          },
+          {
+            "frame": 10,
+            "ms": 8851.20000000298
+          },
+          {
+            "frame": 11,
+            "ms": 8901.29999999702
+          },
+          {
+            "frame": 12,
+            "ms": 8951.29999999702
+          },
+          {
+            "frame": 13,
+            "ms": 9034.60000000149
+          },
+          {
+            "frame": 14,
+            "ms": 9117.79999999702
+          },
+          {
+            "frame": 15,
+            "ms": 9201.29999999702
+          }
+        ],
+        "state": {
+          "candidate": "743d5491305af4d762a6c483040fa419f12c0427531037b656084426be81b69e",
+          "frame": 15,
+          "rendered_frame": 15,
+          "playing": false,
+          "elapsed_ms": 800.0000000000001,
+          "loaded_frames": 16,
+          "holds": [
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              12
+            ]
+          ],
+          "canvas": [
+            768,
+            768
+          ]
+        }
+      },
+      "observed_strike_poses": [
+        6,
+        7
+      ]
+    },
+    {
+      "name": "Explicit256 recovered-host background and calibrated fixed palette draft",
+      "status": "passed",
+      "conditioned": {
+        "candidate": "09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+        "conditioning": {
+          "background_changed_pixels": 930186,
+          "boundary": "Local motion workflow with declared stages; no private PixelLab sampler, neural cutout or deflicker recovery claim",
+          "conditioning": "c088556e93eeebc37ef5d048d2db3e3fe74a06e0f3b73f70e6717346b59862b1",
+          "sequence": "09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+          "visual_acceptance": "unreviewed"
+        },
+        "clock": {
+          "candidate": "09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+          "frame": 0,
+          "rendered_frame": 0,
+          "playing": false,
+          "elapsed_ms": 0,
+          "loaded_frames": 16,
+          "holds": [
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              60
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              12
+            ],
+            [
+              1,
+              12
+            ]
+          ],
+          "canvas": [
+            256,
+            256
+          ]
+        }
+      }
+    },
+    {
+      "name": "Explicit candidate import into Studio with fresh proved mapping",
+      "status": "passed",
+      "opened": {
+        "project": "b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+        "history": "1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+        "source": "09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+        "normalization": {
+          "changed_hidden_rgb_pixels": 0,
+          "policy": "explicit editable-copy normalization; raw retained",
+          "receipt": "121ff65bee7c31ed232f5b1364696e192cd5c3030cf56dcc9887e7c9c0682629"
+        },
+        "aligned": true
+      }
+    },
+    {
+      "name": "Actual fine-editor erase propagates to Studio and immutable undo restores original project",
+      "status": "passed",
+      "point": {
+        "x": 128,
+        "y": 42
+      },
+      "edited": "9e2b85190ad2bdfde356586956cdd8de5f5ac44e658860f9b043c7640e3b9c2d",
+      "restored": "b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6"
+    },
+    {
+      "name": "Complete Motion→Studio cold verified export and ZIP download",
+      "status": "passed",
+      "export": "18b9bbfb320893f6707f38e53efe8215046e3846302810295e567bfe569048a0",
+      "sequence": "3f87c089d49c4f09793d4b4b96e89e9ab84491d00fec68ae67fdc414effaa1dc",
+      "bytes": 25242364
+    },
+    {
+      "name": "Offline Prepare finds actual complete first=last run and disables resubmission",
+      "status": "passed",
+      "prepared": {
+        "checkpoint": null,
+        "duration": 4,
+        "model": "MiniMax-H3",
+        "packet": "c3db9ed21c0906d42301a59e0dd4bb73805d93fbe6cdc0be056d7e0496e8e580",
+        "provider": "MiniMax",
+        "request_sha256": "c96ee65738a65d2b7e21f5ef5cc263382e8c6986b00a505f0f68a03005ef3162",
+        "resolution": "768P",
+        "snapshot": true,
+        "status": "succeeded",
+        "submission_attempts": 1,
+        "submission_performed": false,
+        "task_id": "452226576265675"
+      }
+    },
+    {
+      "name": "Edited draft does not lose existing paid-run monitoring; explicit immutable resume only",
+      "status": "passed"
+    },
+    {
+      "name": "Motion Lab390px no document overflow",
+      "status": "passed",
+      "inner": 390,
+      "width": 390
+    }
+  ],
+  "invocations": [
+    {
+      "method": "local.motion.catalog",
+      "params": {}
+    },
+    {
+      "method": "local.motion.load_example",
+      "params": {
+        "id": "native-slash-margin"
+      }
+    },
+    {
+      "method": "local.motion.sample",
+      "params": {
+        "extraction": "a7b2cee64cc43b851881c0e428f451dd4511d14019e31126b0e5461d2e813f92",
+        "indices": [
+          0,
+          12,
+          18,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          35,
+          52,
+          73,
+          78,
+          85,
+          94,
+          106
+        ],
+        "holds": [
+          [
+            3,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            1,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            3,
+            60
+          ],
+          [
+            5,
+            60
+          ],
+          [
+            5,
+            60
+          ],
+          [
+            5,
+            60
+          ],
+          [
+            5,
+            60
+          ]
+        ],
+        "roles": [
+          "ready",
+          "preparation",
+          "preparation",
+          "preparation",
+          "cropped backswing",
+          "cropped backswing",
+          "fast strike",
+          "fast strike",
+          "follow",
+          "follow",
+          "follow",
+          "follow",
+          "recovery",
+          "recovery",
+          "settled",
+          "settled"
+        ],
+        "loop": false
+      }
+    },
+    {
+      "method": "local.motion.condition",
+      "params": {
+        "sequence": "743d5491305af4d762a6c483040fa419f12c0427531037b656084426be81b69e",
+        "output_size": [
+          256,
+          256
+        ],
+        "background": {
+          "method": "recovered-host-selection",
+          "seed": [
+            0,
+            0
+          ],
+          "tolerance": 0.06
+        },
+        "palette": {
+          "method": "calibrated-fixed",
+          "reference_raster": "6563d089b81bf03f8ba89390fb7c5a70e03e19d3afe9518bed80aa6dd57b6301"
+        }
+      }
+    },
+    {
+      "method": "local.studio.from_sequence",
+      "params": {
+        "sequence": "09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+        "animation_id": "motion-clip",
+        "normalize_hidden_rgb": false
+      }
+    },
+    {
+      "method": "local.construction.render",
+      "params": {
+        "project": "b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+        "history": "1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+        "animation_id": "motion-clip"
+      }
+    },
+    {
+      "method": "local.studio.catalog",
+      "params": {}
+    },
+    {
+      "method": "local.construction.render",
+      "params": {
+        "project": "b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+        "history": "1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+        "animation_id": "motion-clip"
+      }
+    },
+    {
+      "method": "local.construction.edit",
+      "params": {
+        "history": "1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+        "transaction": {
+          "schema": "sprite-edit-transaction/v1",
+          "expected_project_sha256": "033a14b91074112ecdadfc695b80e259424e870d06993819de16d59576d832b7",
+          "reason": "Explicit pixel stroke in local web editor",
+          "operations": [
+            {
+              "op": "erase",
+              "cel_id": "cel-0",
+              "points": [
+                [
+                  128,
+                  42
+                ]
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "method": "local.construction.render",
+      "params": {
+        "project": "9e2b85190ad2bdfde356586956cdd8de5f5ac44e658860f9b043c7640e3b9c2d",
+        "history": "43690647944314818ccf17d1f9857859056e8578639a5e8a0e845c901c73ad4c",
+        "animation_id": "motion-clip"
+      }
+    },
+    {
+      "method": "local.construction.undo",
+      "params": {
+        "history": "43690647944314818ccf17d1f9857859056e8578639a5e8a0e845c901c73ad4c"
+      }
+    },
+    {
+      "method": "local.construction.render",
+      "params": {
+        "project": "b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+        "history": "10d47c1d2473e136c5b747c46b0258eaaf1b5f3db6549a725170dae40e9fcf97",
+        "animation_id": "motion-clip"
+      }
+    },
+    {
+      "method": "local.studio.export",
+      "params": {
+        "project": "b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+        "history": "10d47c1d2473e136c5b747c46b0258eaaf1b5f3db6549a725170dae40e9fcf97",
+        "animation_id": "motion-clip",
+        "selection_receipts": []
+      }
+    },
+    {
+      "method": "local.motion.prepare",
+      "params": {
+        "first_png": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+        "prompt": "Walk in place for one complete natural walking cycle, facing screen-right throughout. Keep the camera fixed and the entire character visible. Preserve the same short chestnut hair, blue tunic, steel shoulder armor, brown boots, straight sword in the right hand and round wooden shield on the left forearm. Keep the equipment attached to the same hands. Alternate planted foot contacts with a believable passing pose and restrained body bob. Return toward the initial ready stance. No camera movement, no new equipment, no extra limbs, no effects.",
+        "duration": 4,
+        "resolution": "768P",
+        "last_png": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e"
+      }
+    }
+  ],
+  "forbidden": [],
+  "pageerrors": [],
+  "console": [],
+  "responses": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/style.css",
+      "status": 200
+    },
+    {
+      "path": "/source-vfx.js",
+      "status": 200
+    },
+    {
+      "path": "/parity-lab.css",
+      "status": 200
+    },
+    {
+      "path": "/app.js",
+      "status": 200
+    },
+    {
+      "path": "/studio.js",
+      "status": 200
+    },
+    {
+      "path": "/model-lab.js",
+      "status": 200
+    },
+    {
+      "path": "/motion-lab.js",
+      "status": 200
+    },
+    {
+      "path": "/parity-lab.js",
+      "status": 200
+    },
+    {
+      "path": "/api/bootstrap",
+      "status": 200
+    },
+    {
+      "path": "/api/catalog",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/a7b2cee64cc43b851881c0e428f451dd4511d14019e31126b0e5461d2e813f92",
+      "status": 200
+    },
+    {
+      "path": "/api/motion/media/a7b2cee64cc43b851881c0e428f451dd4511d14019e31126b0e5461d2e813f92.mp4",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/8cae212fb00ba3abae3acbe664b704efd35d9847c2fb88651de5c99894004279.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/55b3273e83303a815a00baf207ac920a920ac41aa649ded2b72dc94bd691b877.png",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/743d5491305af4d762a6c483040fa419f12c0427531037b656084426be81b69e",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/8cae212fb00ba3abae3acbe664b704efd35d9847c2fb88651de5c99894004279.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/7dba47f5fd34d91a471b1802989ddc41f6430a6ebca0dd461cadc0bf9bf73bfa.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/7ceef9ce4b62744d75e1d44ac3c83f15a7c2227f608b79c97d18364b328e5fa6.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/2769c9f898d495e57125c139297c804b2f07dd6685912cc359be5a9894a85fc5.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/815ec68da2c41645efeec49680a57446c7ec81e1e482d64b3c732e794a9c6863.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/564869b43b9cea202d6a6f536ed30dd23f901db555dd469a7cff4ad3be736ba1.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/d2a9a4e01ac8ccc3ee5c5319bb90059a26c1bbaddc5a19dbf42a35a53179a29f.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/eb9cbe4331800a0f834422682b792c2bf15ddde8f0107beaad7c3ff1431c5146.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/c95c2c874f8904f4ea6c4375ef0db3db24e7171dd76e2d3428491673219d0279.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/daff19214b3b56efb2534b51d8d9ddb7eea798a1c778c579ea126fb3c6841289.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/761274e8aaf64065d11d60a0a3cb91551ba6098e9b63a26ea24e38b0ce8a6023.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/e99f03502cc97cb8143f044b42a14f7533f917608ecd7dc24d3c8fa9fbaa41f4.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/37086fc37fa8b1afea37e692caf99d9b24eb08f58c0e293c600ad7fd65bd722a.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/c4e269642cf9890283e632738942c997b214439d68b913c7f01dd9c85c32a561.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/8b8975a0af3e61c6b74b58a3a3fe3d84876e1afe9489b4837a661c102fb4e65e.png",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/846cdfac9e1050c57774d47444f33c1095fe0c959b8cc21482502d9b51e9d25d.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/31ac0e004b96adcd85f3498dd4530d337d8acc8daf8ecdf292c85ac5e09a93a1.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/f8cc3ac5fe55d66e3d5440703f653c6b21e5aa44f916a939d718f1274f874c40.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/b72095e6d1e6401d73225faad8e395ee6b27bc0934c8239afc625b00500616a3.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/4c90e82e49251e3cda331b61b18eba2c7552ed86216bd4fab4d8f6360a6e00bf.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/2c3e1ff5f2218a803251933adee5ad3af350c4ffac0f11cc589536b85ddbaa10.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/6249f42c889c0df218d43ad0c351eed55fdbd6d5d1936ad492857bcd00519aaf.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/5e0ccd9fa4131a177f2b2e137c1efb85c799f43f1a59a820aebb5fc6e0fe60fc.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/68dc097711e41900cdc8588284809a580f3ba47d6ed599ab686f73180a7dcb2c.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/bf2abe517152f1c891d88a03805b9aa300e85203a42d8874bc902946454ff28d.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/29d5f2888415841daf0961e3758be915773b1178149c6df22e5d9ab1ae794332.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/26f23bd7e41bb659bccddbe89b1221dd5a79958d22c78a65d00bdf12f4e82d0a.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/c149b772ba138b3dc1920356455ffd206e1d393c0e62a313bb1446c1d49e0c9b.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/6ec7d03884fb8eb8aa8c825e2424f13a41faf02e67dbb9a73a9051666065e9f9.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/d14c67ea5a90a51dd41f255c903951f11ad6ea84c5f92bd5b6900e5521ca498a.png",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/01dd86ed9a1e122a3bdab5aa019ec71aa72a2fc90d6d1c72c4fe8a8131c12984.png",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+      "status": 200
+    },
+    {
+      "path": "/api/project/b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/c5497047711a5bfd503d43560a3c484e9fb27485d621fafd52cd4401b8b4c7a1",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/09dc376dc6c14eae609abfe47ec3b77006280b41e15ea5c43f1d62427b276d9c",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+      "status": 200
+    },
+    {
+      "path": "/api/project/b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/c5497047711a5bfd503d43560a3c484e9fb27485d621fafd52cd4401b8b4c7a1",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/1e9484f22013894699195cfad7d9fe15b2e9c309f4b28f706cbd401063212910",
+      "status": 200
+    },
+    {
+      "path": "/api/project/b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/43690647944314818ccf17d1f9857859056e8578639a5e8a0e845c901c73ad4c",
+      "status": 200
+    },
+    {
+      "path": "/api/project/9e2b85190ad2bdfde356586956cdd8de5f5ac44e658860f9b043c7640e3b9c2d",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/43690647944314818ccf17d1f9857859056e8578639a5e8a0e845c901c73ad4c",
+      "status": 200
+    },
+    {
+      "path": "/api/project/9e2b85190ad2bdfde356586956cdd8de5f5ac44e658860f9b043c7640e3b9c2d",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/48cfe664a69da2d2b484424fa81625437a24a7be8acdc30a37765e37081341fb",
+      "status": 200
+    },
+    {
+      "path": "/api/raster/165273971bb0e6520d8beba51d058502c143043ee42423d7d32e1a38d6059222.png",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/10d47c1d2473e136c5b747c46b0258eaaf1b5f3db6549a725170dae40e9fcf97",
+      "status": 200
+    },
+    {
+      "path": "/api/project/b67a8ee707999ba49bcfe88be5af957714e41988d2e0fdd60494a88ee19793b6",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/be656611c6907bc0d457b625f8bd5eb6bdd907763e9ef01796368e1d93bccdd5",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/upload",
+      "status": 200
+    },
+    {
+      "path": "/api/invoke",
+      "status": 200
+    },
+    {
+      "path": "/api/artifact/c3db9ed21c0906d42301a59e0dd4bb73805d93fbe6cdc0be056d7e0496e8e580",
+      "status": 200
+    }
+  ],
+  "status": "passed"
+}

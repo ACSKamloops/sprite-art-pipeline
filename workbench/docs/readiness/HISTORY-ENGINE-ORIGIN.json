@@ -1,0 +1,27 @@
+{
+  "schema": "construction-engine-derivative/v1",
+  "original_file": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py",
+  "original_sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+  "original_local_file": "sprite_workbench/construction_core/core.py",
+  "original_local_unchanged": true,
+  "derivative_file": "sprite_workbench/construction_engine.py",
+  "derivative_sha256": "8c07039fa87799424f64cb98fe5a1ef8410329a144a96f8e7fae2255dc2d7c30",
+  "retained_rules": [
+    "core.validate_project",
+    "core.shape",
+    "core.require",
+    "core.identifier",
+    "core._operation",
+    "canonical.content_hash"
+  ],
+  "changed_execution": [
+    "integer NumPy compositor with 65536-pixel temporaries",
+    "unique cel-binding render reuse for receipt diffs",
+    "checkpoint streaming and hash-bound in-process verification proofs"
+  ],
+  "differential_evidence": [
+    "12 fixed random seeds, all ten transaction operations, exact canonical project+receipt equality to original scalar implementation",
+    "all 65536 source/destination alpha pairs plus second-chunk boundary exact decoded RGBA equality"
+  ],
+  "claim": "Exact declared local editing behavior; no native host or model inference parity claim"
+}

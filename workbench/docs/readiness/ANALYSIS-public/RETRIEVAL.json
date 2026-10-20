@@ -1,0 +1,68 @@
+{
+  "captured_at_utc": "2026-10-14T00:09:33.884686+00:00",
+  "purpose": "Current public primary-source drift and grammar availability check only; no target feature or generation invocation",
+  "rows": [
+    {
+      "url": "https://api.pixellab.ai/v2/llms.txt",
+      "method": "GET",
+      "credentials_used": false,
+      "status": 200,
+      "bytes": 20173,
+      "sha256": "013f141b4fc23d553c5c942844925213c28f2063e4618ac855df51f2deee31d5",
+      "file": "llms.txt"
+    },
+    {
+      "url": "https://api.pixellab.ai/v2/openapi.json",
+      "method": "GET",
+      "credentials_used": false,
+      "status": 200,
+      "bytes": 478504,
+      "sha256": "8cb24ecdd26e9fe48639dc789e44f32b3c78c29e8da8c3121f23ab360ade5dad",
+      "file": "openapi.json"
+    },
+    {
+      "url": "https://api.github.com/repos/pixellab-code/pixellab-mcp/commits/master",
+      "method": "GET",
+      "credentials_used": false,
+      "status": 200,
+      "bytes": 178807,
+      "sha256": "413e3674c942140baa40bf8888bf831d54a94fdef039389e2e66a2f44b424035",
+      "file": "mcp-commit.json",
+      "commit": "b66c475110dc13365e589691353930c955d4e358"
+    },
+    {
+      "url": "https://api.github.com/repos/pixellab-code/pixellab-js/commits/main",
+      "method": "GET",
+      "credentials_used": false,
+      "error": "HTTPError",
+      "detail": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+      "url": "https://api.github.com/repos/pixellab-code/pixellab-python/commits/main",
+      "method": "GET",
+      "credentials_used": false,
+      "error": "HTTPError",
+      "detail": "HTTP Error 422: Unprocessable Entity"
+    },
+    {
+      "url": "https://api.github.com/repos/pixellab-code/pixellab-js/commits/master",
+      "method": "GET",
+      "credentials_used": false,
+      "file": "pixellab-js-commit.json",
+      "status": 200,
+      "bytes": 5052,
+      "sha256": "a4b3510fbb4cb7f8b3f362bbaf66b652c1b9813c24b46ffd0cb09735b8eef0e8",
+      "commit": "c95b2dc0d05fa79e64c6bb082412fbee5b29d43f"
+    },
+    {
+      "url": "https://api.github.com/repos/pixellab-code/pixellab-python/commits/master",
+      "method": "GET",
+      "credentials_used": false,
+      "file": "pixellab-python-commit.json",
+      "status": 200,
+      "bytes": 4214,
+      "sha256": "1c75e77f3ecc4dbf2b4863805fe3a31b13ef0d5b4dba3a4ae542ef5a1d17ca57",
+      "commit": "fe5f6a56ab78a43d9a151ef8ab7ed87c0936aad7"
+    }
+  ]
+}

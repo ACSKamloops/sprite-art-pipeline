@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "protocol": "model-handoff-v1",
+  "executors": [
+    {
+      "id": "codex.imagegen",
+      "label": "Codex image-generation tool",
+      "status": "external-agent-tool; not callable by this web server",
+      "orchestrator_provider": "OpenAI",
+      "orchestrator_model": null,
+      "image_provider": "OpenAI",
+      "requested_image_model": null,
+      "capabilities": {
+        "tasks": [
+          "still",
+          "edit"
+        ],
+        "ordered_image_references": true,
+        "transparent_background_parameter": true,
+        "local_input_limit": 8,
+        "typed_size": false,
+        "seed": false,
+        "exact_mask": false,
+        "joint_conditioning": false,
+        "animation_clock": false
+      },
+      "evidence": "Current built-in imagegen tool schema; underlying model identity undisclosed",
+      "boundary": "Agent-mediated tool handoff; no direct HTTP transport or generation performed"
+    },
+    {
+      "id": "hermes.image_generate",
+      "label": "Hermes / MiniMax agent",
+      "status": "needs-image-provider-selection; runtime untested",
+      "orchestrator_provider": "minimax-oauth",
+      "orchestrator_model": "MiniMax-M3.1-Flash-Preview",
+      "image_provider": null,
+      "requested_image_model": null,
+      "image_vendor_if_configured": "OpenAI",
+      "required_configuration": {
+        "image_gen.provider": "openai-codex",
+        "image_gen.model": "gpt-image-2-medium"
+      },
+      "capabilities": {
+        "tasks": [
+          "still",
+          "edit"
+        ],
+        "ordered_image_references": true,
+        "transparent_background_parameter": false,
+        "local_input_limit": 8,
+        "typed_size": false,
+        "seed": false,
+        "exact_mask": false,
+        "joint_conditioning": false,
+        "animation_clock": false
+      },
+      "evidence": "Installed Hermes 71d34bad104, openai-codex image plugin; inspected 2026-10-14",
+      "boundary": "Capabilities refer to the explicitly required installed image plugin. Active image provider is unselected; no auth validity or live availability proof. MiniMax chat is the orchestrator, not the image renderer."
+    }
+  ],
+  "boundary": "Local handoff/import protocol; original PixelLab procedural code remains separate. Private inference is unavailable. No model calls or automatic execution.",
+  "provider_calls": 0,
+  "execution_status": "held",
+  "supported_scope": "Still/reference generation and semantic edits only",
+  "unsupported": [
+    "animation",
+    "interpolation",
+    "typed joint conditioning",
+    "exact-mask guarantees",
+    "seed control",
+    "enforced native pixel size"
+  ],
+  "prompt_policy": "Exact user prompt retained; deterministic visible requirement appendix only; no enhancement"
+}

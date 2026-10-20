@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "updated_utc": "2026-10-14T01:54:08.852915+00:00",
+  "package_version": "0.6.0",
+  "runtime_commit": "f82b2f47a756e5b9d77263b991baf71a4c0c5af0",
+  "source_fingerprint": "bf8bd9c55ea0fdde471d57706b123bc94018f766b5d0c3d2e30cbeab94b1befc",
+  "full_suite": {
+    "version": 1,
+    "recorded_utc": "2026-10-14T01:54:08.852915+00:00",
+    "source_commit": "f82b2f47a756e5b9d77263b991baf71a4c0c5af0",
+    "result": {
+      "tests": 560,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_seconds": 73.508
+    },
+    "warnings": 1398,
+    "warning_scope": "Existing Pillow getdata deprecations",
+    "reproduction_command": ".venv/bin/python -m pytest -q --junitxml=runs/model-handoff-f82-tests.xml",
+    "evidence": [
+      {
+        "file": "TESTS.xml",
+        "sha256": "ca6720eb1cbb9a4ad35f78d178ddab717c8e431051ae16946d5c4e55cd3a8261"
+      },
+      {
+        "file": "TESTS.log",
+        "sha256": "4cb91dcb9934620b2ffbcbc7db9acc2d0236da02afe075c6d6bfad5b631d8b37"
+      }
+    ],
+    "scope": "33 new handoff cases plus earlier527; no provider/model/agent/auth calls or art acceptance"
+  },
+  "preparation_ready": true,
+  "live_model_execution_ready": false,
+  "model_execution_status": "held",
+  "source_algorithm_ownership": "Unchanged recovered PixelLab VFX functions remain separate; this new layer is locally authored handoff/import orchestration, not PixelLab inference.",
+  "services": [
+    "local.models.catalog",
+    "local.models.prepare",
+    "local.models.packet",
+    "local.models.export_packet",
+    "local.models.ingest",
+    "local.models.results",
+    "local.models.audit_pair"
+  ],
+  "scope": [
+    "one still-image task",
+    "one semantic edit task",
+    "ordered supplied references",
+    "exact user instruction plus visible deterministic requirement appendix",
+    "raw output preservation",
+    "actual submission/identity attestation checks",
+    "full-canvas pixel diagnostics",
+    "fresh-Store portable receipts"
+  ],
+  "unsupported": [
+    "automatic model execution from web server",
+    "animation/interpolation",
+    "joint tensors",
+    "exact-mask guarantees",
+    "seed control",
+    "typed native pixel size",
+    "arbitrary unimplemented image backends"
+  ],
+  "hermes": {
+    "orchestrator_provider": "minimax-oauth",
+    "orchestrator_model": "MiniMax-M3.1-Flash-Preview",
+    "image_provider_selected": false,
+    "installed_proposed_image_plugin": "openai-codex",
+    "live_availability_or_entitlement_verified": false,
+    "credentials_refreshed": false,
+    "config_changed": false,
+    "discovery": "HERMES-READONLY.md"
+  },
+  "browser": {
+    "checks": 13,
+    "passed": true,
+    "report": "evidence/BROWSER-PROOF.json",
+    "viewports": [
+      [
+        1440,
+        1050
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "plugin_availability": "Browser plugin not available; Playwright CLI used",
+    "root_executed_actions": true,
+    "screenshots_viewed": true,
+    "fresh_tab_console_errors": 0,
+    "fresh_tab_console_warnings": 0,
+    "excluded_attempt": "Initial incorrect CLI select command left edit_target in a still brief; server correctly rejected with400. Successful later edit flow and clean fresh tab are accepted instead."
+  },
+  "package": {
+    "passed": true,
+    "path": "/home/astra/artifacts/pixellab-model-handoff-v06-20261014-proof-final/wheel/sprite_workbench-0.6.0-py3-none-any.whl",
+    "sha256": "a8aff74e3819a551fa1441270786f3079b49964c96e1efa7fd2bbc946b75068f",
+    "bytes": 778103,
+    "runtime_files_matched": 105,
+    "proof": "package/RECEIPT.json",
+    "source_commit": "f82b2f47a756e5b9d77263b991baf71a4c0c5af0",
+    "isolated_install": true,
+    "supplied_diagnostics_only": true,
+    "portable_closure": true
+  },
+  "independent_review": "../source-faithful/MODEL-HANDOFF-REVIEW.md",
+  "setup_ready": true,
+  "comparison_ready": false,
+  "private_model_recovered": false,
+  "full_vendor_analysis_complete": false,
+  "model_calls": 0,
+  "provider_calls": 0,
+  "agent_calls": 0,
+  "new_art_generated": false,
+  "artistic_acceptance": "unreviewed",
+  "quality_score": null,
+  "evidence": [
+    {
+      "file": "README.md",
+      "sha256": "266a720631a711508eb3852f96e9455d93fd3abd7012ef85ccae267b0da28c9d",
+      "bytes": 9636
+    },
+    {
+      "file": "HERMES-READONLY.md",
+      "sha256": "29ff660ad6303dfd9f0cbc53182a11158015d330a47181fde2f970b9938e8a8f",
+      "bytes": 6883
+    },
+    {
+      "file": "VERIFY-evidence.py",
+      "sha256": "68590ea090b342fb69db9882ce6f9181c42fc1c56514e6528b49242fce0b9a9f",
+      "bytes": 5641
+    },
+    {
+      "file": "package/README.md",
+      "sha256": "a75a3f1bb684d372a8f9058792dbe15bc877edf9fd378d939006d6f7b529b506",
+      "bytes": 3919
+    },
+    {
+      "file": "package/RECEIPT.json",
+      "sha256": "8e35da930ff6e736290c501e9f6d68d8572dd5a630043da4cf736c25bf5cff57",
+      "bytes": 23977
+    },
+    {
+      "file": "package/RESULT.json",
+      "sha256": "f157ddd9b22b813ca4910c563048ae3df216675f1162a55f17916242690f9499",
+      "bytes": 2281
+    },
+    {
+      "file": "evidence/TESTS-RECEIPT.json",
+      "sha256": "b7212f9e1146cc4df150f30dea9fc1c413d08d5742d3ad1c80d58400b9cc4f12",
+      "bytes": 811
+    },
+    {
+      "file": "evidence/TESTS.xml",
+      "sha256": "ca6720eb1cbb9a4ad35f78d178ddab717c8e431051ae16946d5c4e55cd3a8261",
+      "bytes": 77902
+    },
+    {
+      "file": "evidence/TESTS.log",
+      "sha256": "4cb91dcb9934620b2ffbcbc7db9acc2d0236da02afe075c6d6bfad5b631d8b37",
+      "bytes": 3118
+    },
+    {
+      "file": "evidence/BROWSER-PROOF.json",
+      "sha256": "99e3ce648c17153692db628d7169154ac2c6557ada44d877d4a2a6c80218b4ec",
+      "bytes": 2435
+    },
+    {
+      "file": "evidence/SETUP-VERIFICATION.json",
+      "sha256": "9c3fd8194ed62b024111087d17f9807a2591c0f2302691306f095c2a37064dbf",
+      "bytes": 5439
+    },
+    {
+      "file": "evidence/models-console.log",
+      "sha256": "9857e60cfb82b119e5c5e8d8c03b7ccbc9f453d2ed6b9305c3a708116ecb1ec4",
+      "bytes": 181
+    },
+    {
+      "file": "evidence/models-desktop.png",
+      "sha256": "122f477c833b8ee611ac71bdc2817e6e706b0927ff7cd8c58db1865807f1d141",
+      "bytes": 161811
+    },
+    {
+      "file": "evidence/models-flow-observation.log",
+      "sha256": "1442ba20413c0485157734a4aa3156b1ba37994c2d52b11ca2c3e22e799cbaf4",
+      "bytes": 13256
+    },
+    {
+      "file": "evidence/models-fresh-console.log",
+      "sha256": "d0e5634bb0c1271965327ad2ac18107af18fa7da6d2c9ce13e03eeda6cb603db",
+      "bytes": 55
+    },
+    {
+      "file": "evidence/models-mobile-observation.log",
+      "sha256": "78601ca40c1b16c4dc504ee8655f9cf24d84bb19e9c62b25289c4c56ffe0f060",
+      "bytes": 815
+    },
+    {
+      "file": "evidence/models-mobile.png",
+      "sha256": "dc7f73cc666ba7db3a5d7c31f31d12f6b3d1f271391781274eb18361eff61f7b",
+      "bytes": 58077
+    },
+    {
+      "file": "evidence/models-persisted-observation.log",
+      "sha256": "e6aa37710ec323ca00a460019964a36a3187d2a7b2360967e2ca24c8f4b645eb",
+      "bytes": 694
+    },
+    {
+      "file": "evidence/models-prepared-observation.log",
+      "sha256": "fd2e0bc9c62fe3831618913ca64550738e806e71aca675825ba0d481ee73fb31",
+      "bytes": 1330
+    },
+    {
+      "file": "evidence/models-ready.log",
+      "sha256": "bc37c16e5c51a7f44031bf614af85b6410961fc05ee76fbac6132e7242aec7b0",
+      "bytes": 658
+    },
+    {
+      "file": "evidence/models-setup-observation.log",
+      "sha256": "403e12e4135478ab0b4397d0cde5f1f9d955126b51b04feee2377a529d714590",
+      "bytes": 661
+    },
+    {
+      "file": "evidence/models-supplied.json",
+      "sha256": "26a2487db3a745a6d8a13077b2639243d0d5b2c26fcc0f77e0659eede5f667ff",
+      "bytes": 532
+    }
+  ],
+  "next": "Continue remaining evidence-backed flow/grammar and scoped experiment prerequisites; verify/configure a real Hermes image route before its first execution. Add other generators only through demonstrated capability mappings. No invented craft algorithm may be called a PixelLab method."
+}

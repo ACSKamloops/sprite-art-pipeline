@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "policy": "unchanged-shipped-palette-image-import-v1",
+  "source_asset": "create-9c5cec3372075418.js",
+  "source_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+  "original_retained_path": "/home/astra/artifacts/pixellab-recovery-web-20261014/assets/2713c302f049-create-9c5cec3372075418.js",
+  "webpack_module": 97981,
+  "factory_sha256": "e9c6cb49052afbda45b9f16559a109f802dba299eab6fd3b166da3154188e0ee",
+  "parts": [
+    {
+      "name": "srgb",
+      "javascript_utf16_range": [
+        125936,
+        126009
+      ],
+      "utf8_range": [
+        125970,
+        126043
+      ],
+      "sha256": "110f58094f1d594e008bb023037ee8c93c282999999257fe23a5876a6c47368e",
+      "text": "tR=e=>{let t=e/255;return t<=.04045?t/12.92:Math.pow((t+.055)/1.055,2.4)}"
+    },
+    {
+      "name": "distance",
+      "javascript_utf16_range": [
+        126010,
+        126061
+      ],
+      "utf8_range": [
+        126044,
+        126095
+      ],
+      "sha256": "64c6a95c46eb5756d6ecffc1281cda48499cdd9061af0948fe905a320db84cff",
+      "text": "tT=(e,t)=>Math.hypot(e[0]-t[0],e[1]-t[1],e[2]-t[2])"
+    },
+    {
+      "name": "hex",
+      "javascript_utf16_range": [
+        131011,
+        131082
+      ],
+      "utf8_range": [
+        131045,
+        131116
+      ],
+      "sha256": "2da12219ee64cee8ed0c9c358af122cf065169b28363cb35aca3a5b391499421",
+      "text": "tO=(e,t,a)=>\"#\"+[e,t,a].map(e=>e.toString(16).padStart(2,\"0\")).join(\"\")"
+    },
+    {
+      "name": "import_handler",
+      "javascript_utf16_range": [
+        132584,
+        135152
+      ],
+      "utf8_range": [
+        132618,
+        135186
+      ],
+      "sha256": "ba3c98b358af99881d9a64565de8cfddcd9ead4546b3ebf67ff38379ff32dfd1",
+      "text": "S=async e=>{let t=Array.isArray(e)?e[0]:e,r=t.base64.startsWith(\"data:\")?t.base64:\"data:image/png;base64,\".concat(t.base64);try{let{colors:e,found:t}=await new Promise((e,t)=>{let a=new window.Image;a.onload=()=>{let i=document.createElement(\"canvas\");i.width=a.width,i.height=a.height;let r=i.getContext(\"2d\");if(!r){t(Error(\"Could not read the palette image\"));return}r.drawImage(a,0,0);let o=r.getImageData(0,0,a.width,a.height).data,n=new Map;for(let e=0;e<o.length;e+=4){var l;if(0===o[e+3])continue;let t=o[e]<<16|o[e+1]<<8|o[e+2];n.set(t,(null!==(l=n.get(t))&&void 0!==l?l:0)+1)}let s=n.size>256?function(e,t){let a=new Map;e.forEach((e,t)=>{let i=t>>19<<10|(t>>11&31)<<5|t>>3&31,r=a.get(i);r?(r.weight+=e,e>r.bestCount&&Object.assign(r,{best:t,bestCount:e})):a.set(i,{weight:e,best:t,bestCount:e})});let i=Array.from(a.values()),r=i.map(e=>(function(e){let t=tR(e>>16&255),a=tR(e>>8&255),i=tR(255&e),r=Math.cbrt(.4122214708*t+.5363325363*a+.0514459929*i),o=Math.cbrt(.2119034982*t+.6806995451*a+.1073969566*i),n=Math.cbrt(.0883024619*t+.2817188376*a+.6299787005*i);return[.2104542553*r+.793617785*o-.0040720468*n,1.9779984951*r-2.428592205*o+.4505937099*n,.0259040371*r+.7827717662*o-.808675766*n]})(e.best)),o=i.length,n=0,l=0;r.forEach((e,t)=>{e[0]<r[n][0]&&(n=t),e[0]>r[l][0]&&(l=t)});let s=[n,l],c=r.map(e=>Math.min(tT(e,r[n]),tT(e,r[l])));for(;s.length<Math.min(32,o);){let e=0,t=-1;for(let a=0;a<o;a++){let r=c[a]*Math.sqrt(i[a].weight);r>t&&([e,t]=[a,r])}s.push(e);for(let t=0;t<o;t++)c[t]=Math.min(c[t],tT(r[t],r[e]))}let d=s.map(e=>[...r[e]]),h=new Int32Array(o);for(let e=0;e<20;e++){for(let e=0;e<o;e++){let t=0,a=1/0;for(let i=0;i<d.length;i++){let o=tT(r[e],d[i]);o<a&&([t,a]=[i,o])}h[e]=t}for(let e=2;e<d.length;e++){let t=[0,0,0],a=0;for(let n=0;n<o;n++){if(h[n]!==e)continue;let o=i[n].weight;t[0]+=r[n][0]*o,t[1]+=r[n][1]*o,t[2]+=r[n][2]*o,a+=o}a>0&&(d[e]=[t[0]/a,t[1]/a,t[2]/a])}}let u=new Set([n,l]);for(let e of d){let t=0;for(let a=1;a<o;a++)tT(r[a],e)<tT(r[t],e)&&(t=a);u.add(t)}return Array.from(u).sort((e,t)=>r[e][0]-r[t][0]).map(e=>i[e].best)}(n,0):Array.from(n.keys());e({colors:s.map(e=>tO(e>>16&255,e>>8&255,255&e)),found:n.size})},a.onerror=()=>t(Error(\"Could not read the palette image\")),a.src=r});if(e.length<2){_(\"The image has \".concat(e.length,\" colour; a palette needs at least \").concat(2,\".\"));return}u(r),m(t>256?\"Your image has \".concat(t.toLocaleString(),\" colours, so its \").concat(e.length,\" main ones are used.\"):\"\"),i({...a,presetId:\"image\",customColors:e,customFrom:\"image\",customName:\"\"})}catch(e){_(e.message)}}"
+    }
+  ],
+  "boundary": "single palette-image canvas RGBA import; not private reduce-colors, automatic K, GIF or dithering"
+}

@@ -1,0 +1,512 @@
+{
+  "version": 1,
+  "checked_utc": "2026-10-14T03:25:33.076635+00:00",
+  "cases": [
+    {
+      "case": "walk-v1",
+      "native_run": "h3-walk-001",
+      "pixellab_run": "pixellab-walk-v1",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "prompt_utf8_sha256": "2f078a8fd63d6c23ef8aacc95d5a051006cf0d1e3741f0af0b828e11a1b3070e",
+      "rea_evidence_id": "ev_105561b10d4b294aabcfb93caa7f82be614b640394175469d243fce8677e642b",
+      "rea_har_sha256": "7f326f79b21b83bb01241fdaaf6aa79a9648be217dea22ee74d437e10e08d56f",
+      "rea_authority": "historical-reference",
+      "returned_pngs_verified": 17,
+      "native_frames_verified": 107,
+      "native_video_sha256": "97e83ef3522a8892af98672861ee7ec5214c24dd4f441e38cc448c762c5ab046",
+      "reference0": {
+        "alpha_exact": true,
+        "visible_rgb_exact": true,
+        "zero_hidden_rgb_replay_exact": true,
+        "hidden_rgb_changed_pixels": 49
+      },
+      "generated_frame_stats": [
+        {
+          "slot": 1,
+          "visible_rgb_colors": 77,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 2,
+          "visible_rgb_colors": 85,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 3,
+          "visible_rgb_colors": 85,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 4,
+          "visible_rgb_colors": 87,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 5,
+          "visible_rgb_colors": 87,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 6,
+          "visible_rgb_colors": 86,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 7,
+          "visible_rgb_colors": 88,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 8,
+          "visible_rgb_colors": 84,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 9,
+          "visible_rgb_colors": 85,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 10,
+          "visible_rgb_colors": 83,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 11,
+          "visible_rgb_colors": 83,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 12,
+          "visible_rgb_colors": 84,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 13,
+          "visible_rgb_colors": 85,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 14,
+          "visible_rgb_colors": 76,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 15,
+          "visible_rgb_colors": 76,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 16,
+          "visible_rgb_colors": 76,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        }
+      ],
+      "source_fps_known": false,
+      "same_private_checkpoint_known": false
+    },
+    {
+      "case": "slash-v1",
+      "native_run": "h3-slash-001",
+      "pixellab_run": "pixellab-slash-v1",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "prompt_utf8_sha256": "4cb41f264b048ab520cdd845a8442624abb2fd5283300f42d033106ce66ecc35",
+      "rea_evidence_id": "ev_37a69cd8da3b9af4e67c0682e0bef0c2e3dc60843caaaddeffe6d764cc8687c8",
+      "rea_har_sha256": "54a04410b3208bbb23246c3f35754a67fa599787ab64b01f9fcabcb7ab14f8bb",
+      "rea_authority": "historical-reference",
+      "returned_pngs_verified": 17,
+      "native_frames_verified": 107,
+      "native_video_sha256": "cede01409bbf9a71aee0feaf2678a125fd54f2db52b45439901ba3b1e05b44a6",
+      "reference0": {
+        "alpha_exact": true,
+        "visible_rgb_exact": true,
+        "zero_hidden_rgb_replay_exact": true,
+        "hidden_rgb_changed_pixels": 49
+      },
+      "generated_frame_stats": [
+        {
+          "slot": 1,
+          "visible_rgb_colors": 69,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 2,
+          "visible_rgb_colors": 73,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 3,
+          "visible_rgb_colors": 68,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 4,
+          "visible_rgb_colors": 70,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 5,
+          "visible_rgb_colors": 72,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 6,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 7,
+          "visible_rgb_colors": 77,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 8,
+          "visible_rgb_colors": 79,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 9,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 10,
+          "visible_rgb_colors": 83,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 11,
+          "visible_rgb_colors": 83,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 12,
+          "visible_rgb_colors": 73,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 13,
+          "visible_rgb_colors": 80,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 14,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 15,
+          "visible_rgb_colors": 82,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 16,
+          "visible_rgb_colors": 82,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        }
+      ],
+      "source_fps_known": false,
+      "same_private_checkpoint_known": false
+    },
+    {
+      "case": "slash-margin-v2",
+      "native_run": "h3-slash-margin-002",
+      "pixellab_run": "pixellab-slash-margin-v2",
+      "source_png_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "prompt_utf8_sha256": "4cb41f264b048ab520cdd845a8442624abb2fd5283300f42d033106ce66ecc35",
+      "rea_evidence_id": "ev_2cc1259007a0e7e7f36f300e1ac323b3f30b6ca2fc15a7496caa842d02880e99",
+      "rea_har_sha256": "fe67813ac748c06c3e88326b04ee2a3e3ba43310f80d11bd5a0e7fe069e10bee",
+      "rea_authority": "historical-reference",
+      "returned_pngs_verified": 17,
+      "native_frames_verified": 107,
+      "native_video_sha256": "aed5ac139188860f2e3e39f58484ebda394c77fa7b8ae99f777cced03c572132",
+      "reference0": {
+        "alpha_exact": true,
+        "visible_rgb_exact": true,
+        "zero_hidden_rgb_replay_exact": true,
+        "hidden_rgb_changed_pixels": 30
+      },
+      "generated_frame_stats": [
+        {
+          "slot": 1,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 2,
+          "visible_rgb_colors": 82,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 3,
+          "visible_rgb_colors": 83,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 4,
+          "visible_rgb_colors": 86,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 5,
+          "visible_rgb_colors": 79,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 6,
+          "visible_rgb_colors": 86,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 7,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 8,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 9,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 10,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 11,
+          "visible_rgb_colors": 80,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 12,
+          "visible_rgb_colors": 77,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 13,
+          "visible_rgb_colors": 80,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 14,
+          "visible_rgb_colors": 81,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 15,
+          "visible_rgb_colors": 82,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        },
+        {
+          "slot": 16,
+          "visible_rgb_colors": 83,
+          "alpha_values": [
+            0,
+            255
+          ],
+          "alpha_border_pixels": 0
+        }
+      ],
+      "source_fps_known": false,
+      "same_private_checkpoint_known": false
+    }
+  ],
+  "failures": [],
+  "offline_only": true,
+  "art_acceptance": false,
+  "private_conversion_recovered": false,
+  "scope": "Matched inputs, actual producer HAR/REA bindings, ordered PNG bytes, native media hashes and observed pixel statistics"
+}

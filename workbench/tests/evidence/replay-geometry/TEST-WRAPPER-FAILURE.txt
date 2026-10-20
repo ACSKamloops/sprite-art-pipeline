@@ -1,0 +1,54 @@
+.....F                                                                   [100%]
+=================================== FAILURES ===================================
+_____________ test_unavailable_engine_cannot_hide_corrupted_export _____________
+
+tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/replay-geometry-final-v2/test_unavailable_engine_cannot0')
+monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x789181fd1940>
+
+    def test_unavailable_engine_cannot_hide_corrupted_export(tmp_path,monkeypatch):
+        from PIL import Image
+        from sprite_workbench import replay_geometry
+        original_export=replay_geometry.export_sequence
+        def export_then_corrupt(store,sequence,directory,formats=None):
+            report=original_export(store,sequence,directory,formats)
+            if Path(directory).name=='export':
+                frame=Path(directory)/'frames/frame-0000.png'
+                a=np.array(Image.open(frame).convert('RGBA'));a[0,0]=[99,88,77,255]
+                Image.fromarray(a).save(frame)
+            return report
+        monkeypatch.setattr(replay_geometry,'export_sequence',export_then_corrupt)
+        monkeypatch.setattr(replay_geometry.shutil,'which',lambda name:None)
+>       result=run_flow('F10',Store(tmp_path/'source'),tmp_path/'F10')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_replay_geometry.py:96: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+sprite_workbench/replay_geometry.py:354: in run_flow
+    artifacts,inputs,export={'F02':_f02,'F09':_f09,'F10':_f10}[flow_id](store,output,checks)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sprite_workbench/replay_geometry.py:319: in _f10
+    _rejected(checks,'existing export directory preserved',lambda:export_sequence(store,sequence,output/'export'))
+sprite_workbench/replay_geometry.py:54: in _rejected
+    call()
+sprite_workbench/replay_geometry.py:319: in <lambda>
+    _rejected(checks,'existing export directory preserved',lambda:export_sequence(store,sequence,output/'export'))
+                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests/test_replay_geometry.py:88: in export_then_corrupt
+    report=original_export(store,sequence,directory,formats)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = <sprite_workbench.core.Store object at 0x7891820fd1d0>
+ident = 'ad1492e260b81174573b76898384f3c99e8674777a3456c25c8960b565984c54'
+directory = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/replay-geometry-final-v2/test_unavailable_engine_cannot0/F10/export')
+formats = None
+
+    def export_sequence(store, ident, directory, formats=('png','sheet','manifest','apng','gif','editable','godot','review')):
+>       requested = {formats} if isinstance(formats,str) else set(formats)
+                                                              ^^^^^^^^^^^^
+E       TypeError: 'NoneType' object is not iterable
+
+sprite_workbench/export.py:371: TypeError
+=========================== short test summary info ============================
+FAILED tests/test_replay_geometry.py::test_unavailable_engine_cannot_hide_corrupted_export
+1 failed, 5 passed in 12.77s

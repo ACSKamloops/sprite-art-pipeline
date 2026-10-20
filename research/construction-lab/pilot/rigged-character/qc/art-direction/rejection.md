@@ -1,0 +1,17 @@
+# V2 art rejection — directional anatomy and walk
+
+**Decision: rejected by the user; replacement art required.** This supersedes the earlier bounded `approved_prototype_only` sampled visual decision. That review was too lenient about pose design and directional anatomy. Prior mechanical reports and historical visual receipts remain unchanged; exact playback and zero contact drift do not make this artwork good.
+
+Reviewed current final manifest `5543790d9fb8a3153a1c817d189fa16bb1e508b128a568b8e2c50508cca3be1a`: fresh timed-reel chronological walk strips and native PNG ticks 0, 7, 15, 22, 30, 37, 45, 52 in all four directions. Native comparison sheet: `/home/astra/artifacts/world-v2-rejected-art-audit/walk-eight-phases.png`. These are eight sampled phases of the existing continuous cycle, not eight correctly designed key poses.
+
+## Concrete visual findings
+
+- **Mass and joints:** long thin limbs and angular bends read as linked rods. Side legs repeatedly make an S-shaped crouch; the silhouette does not clearly establish a pelvis supporting thigh, calf and boot volumes. The small narrow torso beneath the prominent hooded head accentuates the weak body construction. A stylized large head is acceptable; inconsistent volume and weak neck/shoulder integration are not.
+- **Walk pose design:** side contact, compression, passing and rise are insufficiently distinct. Several early phases are visually near-duplicates. Much of the motion occurs at knees and elbows beneath a relatively unchanged head/torso, so the sequence reads as shuffling rather than weight transfer through a stride.
+- **Arm/leg relationship:** arm swing exists, but opposing leg and hand motion is not consistently readable in the silhouette. Elbow articulation substitutes for convincing shoulder swing and torso/pelvis counterrotation. Mathematical contralateral tracks are not a visual pass.
+- **Front/back depth:** frontal and rear legs mostly alternate bending within a fixed-width stance. Flat small boot bars, limited overlap changes and weak near/far leg volume make them look like side limb pieces rearranged under a front-facing body. Feet and knees need intentional foreshortening and occlusion rather than simply vertical displacement.
+- **Occlusion and identity:** front and back are distinguishable, but the arms, hips and legs lack enough intentional overlap to explain the camera angle and depth of each limb. Hood, torso and equipment silhouette consistency must be judged together across directions; correct labels or mirrored coordinates are insufficient.
+- **Ground and timing:** the numerical contact policy solves raster drift, not the apparent weight of a planted sole. Compression, heel/toe use, swing clearance and a credible planted-versus-swinging distinction remain weak. A flat timing sequence of densely interpolated shapes cannot substitute for purposeful contact and passing poses.
+- **Pixel construction:** thin cyan contours and long diagonal limb lines dominate over coherent clusters of fabric, shadow and volume. The result looks like rasterized vector articulation. Native-size cluster design needs thicker intentional masses, selective outlines and controlled diagonal stair steps, not merely nearest filtering.
+
+The gate should reject these issues before a full 96-binding bake. The immediate target is an attractive, readable original four-direction walk, followed by equipped variants and actions. No approval can be inferred from frame hashes, reachability, floor checks or test counts.

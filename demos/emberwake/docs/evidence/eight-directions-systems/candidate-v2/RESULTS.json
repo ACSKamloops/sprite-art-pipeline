@@ -1,0 +1,25 @@
+{
+  "scope": "Actual provisional candidate-v2 paint and a local isolated export. Separate from synthetic fixtures, final motion/art acceptance and root-owned integrated baseline.",
+  "production_resource_assertions": 1163,
+  "production_resource_passed": true,
+  "render_assertions": 272,
+  "render_pairs": 24,
+  "render_passed": true,
+  "ordinary_browser_assertions": 192,
+  "ordinary_browser_passed": true,
+  "incomplete_browser_observations": [
+    {
+      "ok": null,
+      "note": "No current-cast projectile in asynchronous sample brann southeast",
+      "qualification": "Incomplete live projectile observation; exact launch remains a separate native release-fixture check."
+    }
+  ],
+  "code_sha256": {
+    "scripts/browser_diagnostics.gd": "2924b6f37c17d80fd989f0152f5404e3e6191aff98bceab57136f68b014c894c",
+    "tests/eight_directions.gd": "0adb0a5ee6fba82203efee81d178659056c4dcaf52262e8aea308ad8a8ac0f6c",
+    "tests/eight_directions_render.gd": "a6b3a6de15de831428e4aed64c7abbc3fd4d7c02cf0f04e86c15254287ea8160",
+    "tests/browser_eight_directions.js": "82ccbe1865c45677d116da0d2c756a785d2516971529067a69c695c878908d9b",
+    "tests/run_browser_eight_directions.py": "bead66ad077cdd26c60fe26e75c5858aafd9ac838789481944ef4c1f66a2d117"
+  },
+  "remaining": "Root must repeat on the final walk-cell build and run its broader integrated checks. No numeric motion/appearance rating or final delivery claim."
+}

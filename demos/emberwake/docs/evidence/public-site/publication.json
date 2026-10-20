@@ -1,0 +1,45 @@
+{
+  "site": {
+    "id": "appgprj_6ad24ef598f081918b36b496353e2ce4",
+    "access_mode": "public",
+    "access_revision": 2
+  },
+  "source": {
+    "project_id": "appgprj_6ad24ef598f081918b36b496353e2ce4",
+    "checkout_path": "/home/astra/projects/emberwake-public-site",
+    "commit_sha": "797c3f1c35263c68269c69fb101998868cc055ad",
+    "archive": "/home/astra/projects/emberwake-demo/output/public-site/emberwake-public.tar.gz"
+  },
+  "saved_version": {
+    "id": "appgprj_6ad24ef598f081918b36b496353e2ce4~appgver_aa16d51964fc8191a774487b5db7bdbb",
+    "project_id": "appgprj_6ad24ef598f081918b36b496353e2ce4",
+    "version_number": 1,
+    "source": {
+      "commit_sha": "797c3f1c35263c68269c69fb101998868cc055ad"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000080b481f5b0aa2aabfd30f44d",
+      "content_hash": "sha256:a69b7255c09145f0af90847642089b4959a154907eeec9a58fe14dd376ba1799",
+      "size_bytes": 22630400,
+      "file_count": 9
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6ad24fec3c8c8191a6b4072905f25b5c",
+    "project_id": "appgprj_6ad24ef598f081918b36b496353e2ce4",
+    "title": "Emberwake: The Hollow Bell",
+    "version_id": "appgprj_6ad24ef598f081918b36b496353e2ce4~appgver_aa16d51964fc8191a774487b5db7bdbb",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://emberwake-hollow-bell.astraithious.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ad24ef598f081918b36b496353e2ce4",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-16T16:25:33.045193+00:00"
+  }
+}

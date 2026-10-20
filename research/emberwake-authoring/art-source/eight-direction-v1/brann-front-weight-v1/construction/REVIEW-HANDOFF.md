@@ -1,0 +1,9 @@
+The corrected eight drawings are frozen and unselected, pending independent visual review. The body follows one authored XY curve after fixed 128 registration; every exposure remains 9/160 s, total .45 s. No generation or per-pose fitting occurred.
+
+Actual current material ownership replaces the broad tab rectangle: the complete visible orange tab follows its current per-phase contour (including 07), gray hips deform as declared, and current brown cuff texels at05 stay fixed. Every map delta, literal source-coordinate pin and donor RGBA is in CONSTRUCTION.json. The27 undercoat pixels are authored placements of exact current charcoal swatches, explicitly behind the current upper and retained lower; they are not recovered hidden anatomy.
+
+Remaining limitations are explicit. Two pixels at02 [50,83]/[50,84] are an unresolved join candidate between moved hem/glove boundary and fixed cuff. Two at06 [80,79]/[80,80] may be an upper-to-fixed-gray-projection seam. Those drawings remain unchanged after root froze them. Actual inverse-source negative arm clearances and the larger lower clearance remain open. See proof/remaining-join-candidates-20x.png, JOIN-WITNESSES.json and ENCLOSED-ALPHA-AUDIT.json.
+
+All8 reconstruct from actual input PNGs, literal owners and inverse maps using an independent per-pixel Fraction source-over compositor. Both RGBA and PNG bytes match the frozen outputs. Complete fixed lower layers reproduce exactly; foreground body occlusion is separately declared. No hidden whole boots/anatomical hip recovered, no claim that every composed lower pixel stays visible.
+
+The initial failed single-curve-v1 is retained unchanged, including its missing-coverage proofs. No editor package has been built. Native128 and nearest84 complete chronologies and all cyclic pairs were inspected on light, dark and actual forest crops. These static inspections do not establish normal-speed motion quality or an art score.

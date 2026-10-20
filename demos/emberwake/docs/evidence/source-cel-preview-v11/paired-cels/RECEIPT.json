@@ -1,0 +1,81 @@
+{
+  "assertions": 38,
+  "cases": [
+    {
+      "action": "walk",
+      "actor": "rowan",
+      "changed_actual_crop_pixels": 203,
+      "exposure": 3,
+      "new_atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c",
+      "new_frame": 155,
+      "new_manifest_sha256": "e9c2961ea9ba9a3695e7e6f6f5008799a3f8605aa81ca0ca29cf0bf7bfbf322c",
+      "old_atlas_sha256": "8d597968399eef23e2b2c477345fb35c524cfca403807ad61c35c9fc0d1a94f5",
+      "old_frame": 155,
+      "screenshot": "rowan-northeast-walk.png",
+      "screenshot_sha256": "53ab49c3d6311b533e7bc57374f162b4f6a26886ec56142aec7963f468a3d85c",
+      "state_time": 0.196875,
+      "view": "northeast"
+    },
+    {
+      "action": "walk",
+      "actor": "rowan",
+      "changed_actual_crop_pixels": 202,
+      "exposure": 3,
+      "new_atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c",
+      "new_frame": 187,
+      "new_manifest_sha256": "e9c2961ea9ba9a3695e7e6f6f5008799a3f8605aa81ca0ca29cf0bf7bfbf322c",
+      "old_atlas_sha256": "8d597968399eef23e2b2c477345fb35c524cfca403807ad61c35c9fc0d1a94f5",
+      "old_frame": 187,
+      "screenshot": "rowan-northwest-walk.png",
+      "screenshot_sha256": "7684046c4b05c3f6c2538bdadb87ec0de630fd68c9292baf9e3100eca6b42284",
+      "state_time": 0.196875,
+      "view": "northwest"
+    },
+    {
+      "action": "attack",
+      "actor": "brann",
+      "changed_actual_crop_pixels": 99,
+      "exposure": 3,
+      "new_atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b",
+      "new_frame": 179,
+      "new_manifest_sha256": "d9b944346ab7f509941fac7786ff7c35d80e33115c74af24f84903a13af59d47",
+      "old_atlas_sha256": "7f0e089b1ebbdae95ee775c648559d9e77d792c2d7b76d7854a259b9c0a8d4cc",
+      "old_frame": 179,
+      "screenshot": "brann-northeast-attack.png",
+      "screenshot_sha256": "aef47785ffe72790b04a78bc4a0a45b10cc0163d78fd266664b5bc6549a4f4bf",
+      "state_time": 0.2125,
+      "view": "northeast"
+    },
+    {
+      "action": "attack",
+      "actor": "brann",
+      "changed_actual_crop_pixels": 99,
+      "exposure": 3,
+      "new_atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b",
+      "new_frame": 211,
+      "new_manifest_sha256": "d9b944346ab7f509941fac7786ff7c35d80e33115c74af24f84903a13af59d47",
+      "old_atlas_sha256": "7f0e089b1ebbdae95ee775c648559d9e77d792c2d7b76d7854a259b9c0a8d4cc",
+      "old_frame": 211,
+      "screenshot": "brann-northwest-attack.png",
+      "screenshot_sha256": "faccc8a5947997bcf52c72bd83fea8656133c6094fae08e9a3fad0ec9df63b9e",
+      "state_time": 0.2125,
+      "view": "northwest"
+    }
+  ],
+  "display": "X11",
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "failures": [],
+  "passed": true,
+  "rendering_method": "gl_compatibility",
+  "scope": "Four arranged actual Hero/Sprite2D game-scale paired GPU stills at explicit mid-exposure times. A substitutes retained v10 atlas and clip table; B loads v11 catalog normally. Not ordinary input, continuous motion, physical contact, damage/VFX or a numeric art score."
+}

@@ -1,0 +1,192 @@
+{
+  "review_is_history_aware": true,
+  "producer_files_frozen_or_modified": false,
+  "pose_images": [
+    {
+      "group": "inputs",
+      "index": 0,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/00.png",
+      "sha256": "4980c4881c84f62c28f32caf22572843b1fea435d8aa2813b5e1443dc954fea5",
+      "decoded_rgba_sha256": "a27759aed8a4b9dd234f8f82cb44beda3df540294af16068cda232cf3f9d92c9"
+    },
+    {
+      "group": "inputs",
+      "index": 1,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/01.png",
+      "sha256": "6df457711f51b2bdcc3ba7289b58097a25d00986bf3d2ef504980db1ff8d6d7b",
+      "decoded_rgba_sha256": "518c751537413621f7c743d7320940a0d086ab16cb9de8f24c074346097805d1"
+    },
+    {
+      "group": "inputs",
+      "index": 2,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/02.png",
+      "sha256": "c26255ac4dc78031a05c880cd1049c695ab1b3a3e37909914b9347fd74bcad16",
+      "decoded_rgba_sha256": "417868f178752e2df11cd216759aa5be975413ab93920797de9e4db7fe3a6d20"
+    },
+    {
+      "group": "inputs",
+      "index": 3,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/03.png",
+      "sha256": "fe83e9a0b8889b4086c51a6eecf59dcd73b26b91de4264cfe8f2bfed908ecb6d",
+      "decoded_rgba_sha256": "90002fcc2f5039d63fe0f81b896b5f8486618ed942b72b1ab365d044949038b9"
+    },
+    {
+      "group": "inputs",
+      "index": 4,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/04.png",
+      "sha256": "60fb252a29cbeff387382876b59a4546c4c3020f70ded8eabf6f4714be856bee",
+      "decoded_rgba_sha256": "8facca025edb47d1e4ba1925c27ff43598eee5447b7a7e800cc177185a676579"
+    },
+    {
+      "group": "inputs",
+      "index": 5,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/05.png",
+      "sha256": "3a2a9681603a02b42d894f4f3bfa310fa2a5e5aff80274cc3b92960596b2f7a2",
+      "decoded_rgba_sha256": "a5ef40d33ed15d70c4fdd1d43e662b9334a9ef0866dec0303ca957a432d7c2c9"
+    },
+    {
+      "group": "inputs",
+      "index": 6,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/06.png",
+      "sha256": "52c44c07b923b0efc47c86402bae198601655af26da5f4b5b649b8ecf5ee2d68",
+      "decoded_rgba_sha256": "7c2313d8912688f23903f48e4de53a990972e5ea2c760a3faff74a905dd1e1f9"
+    },
+    {
+      "group": "inputs",
+      "index": 7,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/inputs/07.png",
+      "sha256": "06caeba47628f43561ef9632fce9d88f9ba9378661c5aca799c95229f7646f82",
+      "decoded_rgba_sha256": "62e75a9abd1e374ecaf7f0d0d171fe95560fa098de4cf5d474484479820b595d"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 0,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/00.png",
+      "sha256": "77a11f6773ca067d28c715712e0d01bdaac4c4869d3d3125688acbfe8a7c076f",
+      "decoded_rgba_sha256": "f333b4b299c5bed0494193cb7ea12ed742d3f52e1126b626597bab4e65018700"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 1,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/01.png",
+      "sha256": "5050c3df1029bb7290abfacba2addd2b0d1cfb00eca4bf2cf43c49eb1df17213",
+      "decoded_rgba_sha256": "29321c69739f2ce4acd7f213c98cef9aa43e56f767324b548a6a6ea87ff030cc"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 2,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/02.png",
+      "sha256": "c7c8b0dbba9d630f8349da37a73fc72af470ce8b1609bcb2f966a5ad3c70bf46",
+      "decoded_rgba_sha256": "a9ff66dbf465f7f3fc40e6dd467b0b6f1701352315f441b3201f151cb69f111e"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 3,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/03.png",
+      "sha256": "3f89673a1650e9fa0fe6d9a159cb541d76404e3d33aa83ea944cf98eb89d03f7",
+      "decoded_rgba_sha256": "2bbe46ff5fb784edfdf1cab8a19cd18598f39df9e1636ac5011397b0785eb79e"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 4,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/04.png",
+      "sha256": "54e6858f3b97ae604257310393e1866a96cf1e9324009be1b4e0ed2589390762",
+      "decoded_rgba_sha256": "b0ebb5eee0ebdd532cc525f4f5625b5b0fd56dd45755307c57a25b4dfffd7a55"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 5,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/05.png",
+      "sha256": "38dfa3c5a2d99b4063d12bb86b36c6e6f44fe0f76413bc95c2a08cffc95c2ca1",
+      "decoded_rgba_sha256": "b5e185834420e3be9d355986ae5a82fb5036c3fa2b2564cf3136ff153028c1eb"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 6,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/06.png",
+      "sha256": "ba30e606119b2fed2d0e6e5097d0d2fd3f6b33307da8b0b77a621196f6cbe877",
+      "decoded_rgba_sha256": "e94b667559275fab39e44ff9ac46a609692d3507a8de6fb5f6c549d0ce9f3995"
+    },
+    {
+      "group": "candidate-v3",
+      "index": 7,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v3/07.png",
+      "sha256": "4a4e57dbef3961db74879cf3f2757be689a0b8d8d0d469f8fb5cf04e7fba08e9",
+      "decoded_rgba_sha256": "a8f39881c392942b1a6f6c8643b2219911dda94e281cb289a555e4012fcb1491"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 0,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/00.png",
+      "sha256": "df455c4842f94862a364d74511d987940ceb1113022b9a8bb8791d78ead6a9a4",
+      "decoded_rgba_sha256": "7d58386135688226370d9dacba27d2cddb2059efbdfc51425c1675ca5c334a91"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 1,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/01.png",
+      "sha256": "5d60a8a4d8606debf586201c081d85e8bb779cdb368fd4bd14c1760fe36fbf50",
+      "decoded_rgba_sha256": "b4d327baf447dd603fe407daa34519cadfa675b31ffceceaf51046615fc555d6"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 2,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/02.png",
+      "sha256": "d8ad021908d43c1becebcb8aac8706c49f214d57adc6f5ef88069a0e058e5ba1",
+      "decoded_rgba_sha256": "b0b6239374c9073b3a6ca96ab83a7e45276bccced28d47fd8ed5d41b1d8c7949"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 3,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/03.png",
+      "sha256": "7a89ec839f630d95ba6c2bf9b1fcb3161e5172bcd911f3113e4733c8e4872044",
+      "decoded_rgba_sha256": "3ba3427ba6e969bcf1baec14491494f151e1865d500dde0acdf708255454ed7c"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 4,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/04.png",
+      "sha256": "b2d32f14e26d534598fb346f1bca0a7314b7de3878f8b932a68e6910ef416ea0",
+      "decoded_rgba_sha256": "ec3e3e92d55e3c12ab028e83b3bc100ee1938142943213c6531efc11970d9b31"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 5,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/05.png",
+      "sha256": "74ff04f52ebcc78b97cd7a92513c07315edfc47f36358c180c2c395edaa709dd",
+      "decoded_rgba_sha256": "2c3fe1f60852785aeebb2eb3be991b44a9345058db3981df7013dd3e29f8820c"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 6,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/06.png",
+      "sha256": "5f6dabc9b9b1e805bd287ed8c5d57904112b445655a9f792ae3cf651396fdf2a",
+      "decoded_rgba_sha256": "62520994f657a25fddf7ab636e41ebe44443426d4d5815248b47f95c36997a5b"
+    },
+    {
+      "group": "candidate-v4",
+      "index": 7,
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/07.png",
+      "sha256": "396f0139c212f34cce3b8752d5ade1d47791fdce3efa507c0a87d3fd8bd4d50a",
+      "decoded_rgba_sha256": "202db80c2411e2b0916ed37b9fe8b4087dfdffd22ff3ce6f592dfc6b89c2a3f0"
+    }
+  ],
+  "detail_crop_xyxy_exclusive": [
+    43,
+    72,
+    104,
+    121
+  ],
+  "per_pose_registration": false,
+  "continuous_playback_watched": false,
+  "construction_metadata": [
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/POSES.json",
+      "sha256": "052275506bd6191c95763d4f1187d97b63df1bc88cf6bddba0d64e1fe2fd97f5"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-leg-repair-20261017-v1/candidate-v4/BUILD-RECEIPT.json",
+      "sha256": "435c8a9e6cc1afdb4d4ceb8ec9f64b02f0a24968186c8babca6aafe85df05247"
+    }
+  ]
+}

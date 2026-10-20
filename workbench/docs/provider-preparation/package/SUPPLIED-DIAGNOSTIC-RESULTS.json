@@ -1,0 +1,104 @@
+[
+  {
+    "result": "9e963778dcb2d9fe3f5264224c20e08cc501c4ff79449e60b9c79d8e69510fb4",
+    "sequence": "151641dc4a70b36b6c2e5cb9dbf69150e1a536b8ce1658a4108333657bbcb473",
+    "raw_sequence": "63a814203ce7b78601c430aa6058ea1d46c50fe0189ec43b086ffa0442a8a259",
+    "task": "c675ac74c9710c559c2cafe3efc56294456921bfd3f3de9a9ff85d1eaf1acc1e",
+    "executor": "codex.imagegen",
+    "manifest": {
+      "canvas": [
+        5,
+        4
+      ],
+      "frames": 1,
+      "decoded_rgba_sha256": [
+        "9d21594513be93198815da0535da742db94b753cc36694b14be317e354f49bc8"
+      ],
+      "source_bytes": "74c883c7ab717fbac721a0496a9b4750b3209bc0a99468cc5a3f6747d4e8e0a0",
+      "has_transparent_pixels": true,
+      "nonzero_alpha_pixels": 19,
+      "timing_origin": "Not model timing: still/edit frame; source sequence clock retained only for container compatibility",
+      "source_acquisition": {
+        "acquisition": "local-file-v1",
+        "source_format": "PNG",
+        "decoder": "Pillow-12.3.0",
+        "missing_duration_policy": "1/12second local default",
+        "source_frame_indices": [
+          0
+        ]
+      }
+    },
+    "audit": {
+      "desired_size_matches": false,
+      "requested_transparency_observed": true,
+      "prompt_matches_draft": null,
+      "geometry_policy": "Full native canvas; no alignment, resize or hidden postprocessing",
+      "frame_semantics": "one supplied returned image, never inferred animation",
+      "binding": {
+        "actual_tool_matches": null,
+        "image_transport_matches": null,
+        "orchestrator_provider_matches": null,
+        "orchestrator_model_matches": true,
+        "image_vendor_matches": null,
+        "submitted_input_hashes_and_order_match": null,
+        "submitted_controls_match": null
+      },
+      "artistic_acceptance": "unreviewed"
+    },
+    "execution": {
+      "kind": "supplied-diagnostic"
+    },
+    "artistic_acceptance": "unreviewed"
+  },
+  {
+    "result": "e17522d019e82aa3f5a06f125d83402ee4854bdcbdb552cdd4856629797b38c5",
+    "sequence": "b77dfbca5bfc9e426b65d77c9a64f5b9a5bd3e9f7abbee151ef3b7f301c39a70",
+    "raw_sequence": "63a814203ce7b78601c430aa6058ea1d46c50fe0189ec43b086ffa0442a8a259",
+    "task": "1e9f3ab796a0d480309c0bd44c65388e96e63b6d8b154096d24f37029aa93496",
+    "executor": "hermes.image_generate",
+    "manifest": {
+      "canvas": [
+        5,
+        4
+      ],
+      "frames": 1,
+      "decoded_rgba_sha256": [
+        "9d21594513be93198815da0535da742db94b753cc36694b14be317e354f49bc8"
+      ],
+      "source_bytes": "74c883c7ab717fbac721a0496a9b4750b3209bc0a99468cc5a3f6747d4e8e0a0",
+      "has_transparent_pixels": true,
+      "nonzero_alpha_pixels": 19,
+      "timing_origin": "Not model timing: still/edit frame; source sequence clock retained only for container compatibility",
+      "source_acquisition": {
+        "acquisition": "local-file-v1",
+        "source_format": "PNG",
+        "decoder": "Pillow-12.3.0",
+        "missing_duration_policy": "1/12second local default",
+        "source_frame_indices": [
+          0
+        ]
+      }
+    },
+    "audit": {
+      "desired_size_matches": false,
+      "requested_transparency_observed": true,
+      "prompt_matches_draft": null,
+      "geometry_policy": "Full native canvas; no alignment, resize or hidden postprocessing",
+      "frame_semantics": "one supplied returned image, never inferred animation",
+      "binding": {
+        "actual_tool_matches": null,
+        "image_transport_matches": null,
+        "orchestrator_provider_matches": null,
+        "orchestrator_model_matches": false,
+        "image_vendor_matches": null,
+        "submitted_input_hashes_and_order_match": null,
+        "submitted_controls_match": null
+      },
+      "artistic_acceptance": "unreviewed"
+    },
+    "execution": {
+      "kind": "supplied-diagnostic"
+    },
+    "artistic_acceptance": "unreviewed"
+  }
+]

@@ -1,0 +1,248 @@
+{
+  "frozen_primary": "530baf35598cdbef24133783dd063bd021d1aa9c",
+  "branch": "codex/consolidation-provenance",
+  "findings": [
+    {
+      "id": "P01",
+      "severity": "high",
+      "category": "sharing-boundary",
+      "status": "correction-needed",
+      "claim": "Broad recursively shareable family folders contain restricted nested folders.",
+      "observed": "All seven selected nested browser-profile/private directories exist below analysis-poses/models/contract roots explicitly listed in SHAREABLE-PATHS.txt. Metadata only; contents never read.",
+      "evidence": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/SHAREABLE-PATHS.txt",
+          "sha256": "2a6c8c5e4d9c14a8a692d1b43c2a99aac5fba431b60fd491cebbe8e85b2fe540",
+          "locator": "analysis-contract/, analysis-models/, analysis-poses/ entries"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/HANDOFF.md",
+          "sha256": "7b98e5be8885e6b32789b59ca8cb963593542bd0ddd2df1b5d9b45f2981c424e",
+          "locator": "paragraph starting Do not distribute"
+        }
+      ],
+      "action": "Do not use broad folder entries as recursive authorization. Publish a file-level positive allowlist with recursive exclusions for every profile/private/canonical-session location; retain metadata-only exclusions and mark content review pending.",
+      "boundary": "This is exposure risk from an ambiguous handoff, not evidence that a secret was actually published or that all private-evidence contains credentials."
+    },
+    {
+      "id": "P02",
+      "severity": "medium",
+      "category": "phase-authority",
+      "status": "correction-needed",
+      "claim": "Canonical top-level current documents disagree with admitted construction and existing verified workbench.",
+      "observed": "HANDOFF.md says replacement work suspended; CURRENT-ANALYSIS.md says no replacement implementation, points mainly to round2; ANALYSIS-STATUS.json says analysis prerequisite/reconstruction deferred. READINESS.md and SOURCE-GATE.json admit bounded construction. Implementation README and retained159/wheel results document actual built system.",
+      "evidence": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/HANDOFF.md",
+          "sha256": "7b98e5be8885e6b32789b59ca8cb963593542bd0ddd2df1b5d9b45f2981c424e",
+          "locator": "first and last paragraphs"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/CURRENT-ANALYSIS.md",
+          "sha256": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+          "locator": "opening and This remains analysis-only paragraph"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+          "sha256": "6cbc04766535cf65091f54c105f7d81e65214cab50619088469ee2e05e5735d8",
+          "locator": "/phase, /entrypoint, /reconstruction_spec, /not_completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/full-reconstruction/READINESS.md",
+          "sha256": "5f89a429e2839967561c090dfdc17dac4306a5c3b821e5330057251d92139ac7",
+          "locator": "Bounded construction admitted"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/full-reconstruction/SOURCE-GATE.json",
+          "sha256": "3dbc9986f739f79afd568ffdf1931fc93f734b8b48cc936cba11df3ffc855c53",
+          "locator": "/construction_allowed"
+        }
+      ],
+      "action": "Preserve old checkpoint copies, then make one current authority record distinguishing local deterministic implementation/review from held provider/art/H3 comparisons. Mark old handoff phase and runtime counts historical; link latest source gate and implementation verification."
+    },
+    {
+      "id": "P03",
+      "severity": "low",
+      "category": "broken-source-link",
+      "status": "correction-needed",
+      "claim": "Copied local design links an investigation source report as a nonexistent adjacent file.",
+      "observed": "docs/LOCAL-WORKBENCH-DESIGN.md line33 links INDEXED-HOST-SOURCE-CLOSURE.md; no file exists at docs/INDEXED-HOST-SOURCE-CLOSURE.md. One missing local link among85selected links.",
+      "evidence": [
+        {
+          "path": "/home/astra/projects/pixellab-workbench-state/docs/LOCAL-WORKBENCH-DESIGN.md",
+          "sha256": "3c647897c1699fe218f669981727e4c1ae21660c404931c93a9fdad06902f5ab",
+          "locator": "line33"
+        }
+      ],
+      "action": "Point through an indexed canonical investigation location or retain a clearly hash-bound source projection in docs. Do not silently duplicate without version binding."
+    },
+    {
+      "id": "P04",
+      "severity": "low",
+      "category": "historical-manifest-presented-as-current",
+      "status": "correction-needed",
+      "claim": "ANALYSIS-STATUS report_manifest reference leads to first-paid-pass hashes that do not bind current root documents.",
+      "observed": "evidence/report-manifest.json dated2026-10-12T02:12:29 records five now-different files: ANALYSIS-STATUS.json, ANALYSIS.md, HANDOFF.md, PAID-EXPLORATION.md, RECONSTRUCTION-REQUIREMENTS.md. Other selected manifest rows match.",
+      "evidence": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/evidence/report-manifest.json",
+          "sha256": "927233d1b57dc540d093e3fe14a8ba07c466567ff91abfad6afc6941490e0522",
+          "locator": "/created_utc, /reports/0..4"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+          "sha256": "6cbc04766535cf65091f54c105f7d81e65214cab50619088469ee2e05e5735d8",
+          "locator": "/report_manifest"
+        }
+      ],
+      "action": "Keep historical manifest unchanged and explicitly checkpoint-labeled; add a new current handoff manifest and reference it in current status. A changed historical hash is not a corrupted past capture."
+    },
+    {
+      "id": "P05",
+      "severity": "medium",
+      "category": "handoff-discoverability-portability",
+      "status": "correction-needed",
+      "claim": "Main canonical reading graph emphasizes old round2 obligations and omits direct discovery of the current round3 mechanics and round4 producer/reviewer overlays.",
+      "observed": "CURRENT-ANALYSIS.md table largely links round2, with READINESS as its sole newer entry. Local ANALYSIS-INDEX.md links round4 source folders in prose but does not give direct round3 worker, renderer fixture, engine clock-correction report/receipt entry paths. Latest verification uses absolute external runs/ paths; runs/dist are gitignored and absent in this clean sibling worktree. They are present and valid in canonical implementation.",
+      "evidence": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/CURRENT-ANALYSIS.md",
+          "sha256": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+          "locator": "main reading table"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-workbench-state/docs/ANALYSIS-INDEX.md",
+          "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+          "locator": "producer/reviewer table and procedural renderer paragraph"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-workbench-state/docs/LATEST-VERIFICATION.json",
+          "sha256": "88a9c42abd61a0934dae48a4d69755c87c4e882949280b463842edeb15873a02",
+          "locator": "/verification_directory"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-workbench-state/.gitignore",
+          "sha256": "ffd51b9d1a513acc8a6b9f766a8a893b28b9dc7777c68cd49326d523203a09e6",
+          "locator": "runs/, dist/"
+        }
+      ],
+      "action": "Add a compact current reading index joining source snapshots\u2192selected reviews\u2192runtime/mechanical receipts\u2192local package. Supply an explicit preservation/transfer plan for ignored run+wheel evidence; do not assume a checkout or wheel includes the full investigation.",
+      "boundary": "No selected indexed report was missing on this machine. Portability risk and indirect discoverability do not prove inaccessible evidence or failed mechanics."
+    }
+  ],
+  "verified_positive_observations": {
+    "latest159_counts_and_digests": {
+      "spec_commit": "24957ec7b9bcf44134cb022ac92fc5b176a2b18c",
+      "report_commit": "24957ec7b9bcf44134cb022ac92fc5b176a2b18c",
+      "declared_commit": "24957ec7b9bcf44134cb022ac92fc5b176a2b18c",
+      "counts_from_xml": {
+        "tests": 159,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "counts_from_latest": {
+        "tests": 159,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "report_digest_matches": true,
+      "spec_digest_matches": true,
+      "declared_source_files": 273,
+      "changed_since_verified_snapshot": [
+        {
+          "file": "docs/INTEGRATION-GEOMETRY-RESOLUTION.md",
+          "verified_sha256": "2c9ddc068a34bf46ea05a8a008373cfe8a5a016c44e3414b43840c3609e983ce",
+          "current_sha256": "8a1f25ca7db01cb74da47bbedcc2681343c8450d313c2d5efcc6d4305a00cdd4"
+        },
+        {
+          "file": "docs/STATE-GEOMETRY-ADVERSARIAL-REVIEW.md",
+          "verified_sha256": "24fd0cb09fda13fd62352283101f0070b2b2fbeda642bee395f8a687d2891bc4",
+          "current_sha256": "15f16d2713c10eb857378546ae62067f271cb51844f01e28b7d66406dbd09e98"
+        },
+        {
+          "file": "tests/test_geometry_integration_review.py",
+          "verified_sha256": "632c3f10c68b7875d7d9d6963af173290597ecb3c6dc6155bf1fe87130b67ca2",
+          "current_sha256": "0f0fa842adb1c911c138aca39778999c8ff94fac4d1c2b85519fcbf5549db23e"
+        }
+      ],
+      "missing_since_snapshot": [],
+      "example_status": "completed",
+      "package_status": "passed"
+    },
+    "wheel": [
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/dist/sprite_workbench-0.1.0-py3-none-any.whl",
+        "bytes": 501269,
+        "sha256": "91154200205245a73a608791a01d3352720a6d1132c39db922f13b6fcb5bc288",
+        "matches_latest_digest": true,
+        "member_count": 77,
+        "restricted_name_matches": [],
+        "current_package_differences": []
+      }
+    ],
+    "exact_contract_copies": [
+      {
+        "name": "MCP-TOOL-CONTRACTS.json",
+        "same": true
+      },
+      {
+        "name": "PUBLIC-OPERATION-CONTRACTS.json",
+        "same": true
+      },
+      {
+        "name": "PUBLIC-SCHEMA-CLOSURE.json",
+        "same": true
+      },
+      {
+        "name": "openapi.json",
+        "same": true
+      }
+    ],
+    "source_index": {
+      "declared_records": 464,
+      "actual_records": 464,
+      "actual_kinds": {
+        "transport": 30,
+        "technique": 44,
+        "conditioning-caller": 96,
+        "geometry-flow": 14,
+        "pixel-command": 28,
+        "indexed-host": 9,
+        "host-canvas": 9,
+        "retained-geometry": 209,
+        "geometry-method": 25
+      },
+      "declared_kinds": {
+        "transport": 30,
+        "technique": 44,
+        "conditioning-caller": 96,
+        "geometry-flow": 14,
+        "pixel-command": 28,
+        "indexed-host": 9,
+        "host-canvas": 9,
+        "retained-geometry": 209,
+        "geometry-method": 25
+      }
+    },
+    "research_hash_instances": {
+      "match": 1227,
+      "snapshot-diff": 5
+    },
+    "implementation_source_bindings": {
+      "checked": 24,
+      "mismatches": 0
+    },
+    "local_manifest_entries": 135,
+    "local_manifest_failures": 0
+  },
+  "scope_limits": [
+    "No tests/engine/provider/network execution; examined retained receipts and inert provenance only",
+    "No private/profile/personalized raw capture content or tokens read",
+    "Hash/link/count verification is not source-semantic or art approval",
+    "No whole investigation path sweep or recursive secret scan",
+    "Current/historical balances are dated first-pass observations; no live balance queried"
+  ],
+  "accounting_assessment": "Dated194.2generations/4805.8balance is explicitly first-pass and not live/cumulative; no false-dollar interpretation found in selected handoff. Browser signed-in/open claims in old handoff remain unverified historical environment assertions."
+}

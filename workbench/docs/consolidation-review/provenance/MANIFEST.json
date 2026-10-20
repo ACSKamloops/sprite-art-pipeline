@@ -1,0 +1,60 @@
+{
+  "scope": "Reviewer-owned initial audit plus selected correction receipts; initial manifest retained",
+  "files": [
+    {
+      "file": "ADDITIVE-INDEX-METADATA.json",
+      "bytes": 1181,
+      "sha256": "30b5c240019abb8eab29d47b74501b69c7d2a724b419c268bc01eebe0728dcda"
+    },
+    {
+      "file": "FINDINGS.json",
+      "bytes": 12361,
+      "sha256": "66b4402a23888d8c89db0c587a97d39d2d2576cd632e4d533af8cc7bf323c4d5"
+    },
+    {
+      "file": "P01-P05-CORRECTION-RESOLUTION.json",
+      "bytes": 3176,
+      "sha256": "eecd17d27fb0fb0194b70f2d385a875473aa679af74c80c332584accec4482fd"
+    },
+    {
+      "file": "P01-P05-CORRECTION-RESOLUTION.md",
+      "bytes": 2648,
+      "sha256": "a2a8b5a7fd377ea95afb072da3ea347041926d0a414924d6f58d6311c8c465b2"
+    },
+    {
+      "file": "P01-P05-CORRECTION-SOURCECHECKS.json",
+      "bytes": 20598,
+      "sha256": "af06847c6d32be522e49d0233eecba06c4f96f9b586c0cd741d2eb88905121df"
+    },
+    {
+      "file": "P02-FINAL-FIELD-SOURCECHECK.json",
+      "bytes": 943,
+      "sha256": "ef32dd3acfd907382fc7ad746f6a412a7b3a9dc1ed3bb50036ade64efc4f3014"
+    },
+    {
+      "file": "REVIEW.md",
+      "bytes": 5740,
+      "sha256": "cc5230c2ff9fe19023e84c355288b51127fa5392ff396d2b4d3b1e8be0db52d7"
+    },
+    {
+      "file": "VALIDATION.json",
+      "bytes": 619595,
+      "sha256": "32aa9eef04e806a72a55126445ba8b073b26d52cb3d1b0b785417822460a6917"
+    },
+    {
+      "file": "initial-review-MANIFEST.json",
+      "bytes": 1000,
+      "sha256": "1bbb2dd7b9cfc502fe060ccf8c6a163e471a7bd230295aaa0e3fcde51ca0fe6e"
+    },
+    {
+      "file": "reviewed-SHAREABLE-PATHS.txt",
+      "bytes": 1304,
+      "sha256": "2a6c8c5e4d9c14a8a692d1b43c2a99aac5fba431b60fd491cebbe8e85b2fe540"
+    },
+    {
+      "file": "validate_provenance.py",
+      "bytes": 11920,
+      "sha256": "e3901403dd32bf23e079b1bfe41179580501a39b41f8ea256a580b013168b71c"
+    }
+  ]
+}

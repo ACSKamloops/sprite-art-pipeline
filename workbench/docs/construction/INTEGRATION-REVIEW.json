@@ -1,0 +1,318 @@
+{
+  "schema": "selected-construction-integration-review/v1",
+  "reviewed_own_commit": "e9b75cc8c46984e05947cfcbd17c9e3c996676c9",
+  "primary_commit_at_capture": "8dc757bd06849034bd7ecf3b3a5e6efc3c178005",
+  "verdict": "Selected integration defects resolved; useful bounded local editing/exchange. Performance remains limited, not production-ready/full-animation completion.",
+  "findings": [
+    {
+      "id": "I01",
+      "status": "resolved",
+      "evidence_type": "observed-local",
+      "origin": "root self-review independently regression-verified",
+      "finding": "Actual selected animation references charge area*references*layers before rendering; zero-layer blanks also charge max(1,layers). Tiny spies verify no toolkit call after rejection.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/construction.py",
+          "sha256": "de61faa8276b882468ce03bfce4eb52e2f47235eef0f3dd955dd93b3784eb22d",
+          "lines": [
+            393
+          ],
+          "literal": "selected animation exceeds aggregate render work"
+        },
+        {
+          "path": "sprite_workbench/construction.py",
+          "sha256": "de61faa8276b882468ce03bfce4eb52e2f47235eef0f3dd955dd93b3784eb22d",
+          "lines": [
+            116
+          ],
+          "literal": "max(1, len(layers))"
+        }
+      ],
+      "fix_commits": [
+        "a94d440",
+        "a30980e",
+        "8f5e09d"
+      ]
+    },
+    {
+      "id": "I02",
+      "status": "resolved",
+      "evidence_type": "observed-local",
+      "finding": "Unchanged from_sequence native import formerly dropped typed source_sequence, changing project ID and breaking history reuse. The corrected importer reuses the validated original envelope when the raw project is unchanged.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/construction_exchange.py",
+          "sha256": "52e118a7ad45f0361f193b4a85694de40343d88c2ea095baf75f5f4fbb63fee1",
+          "lines": [
+            153
+          ],
+          "literal": "saved={'project':bound['project']"
+        },
+        {
+          "path": "tests/test_construction_integration_review.py",
+          "sha256": "f9accb9c01d54b40c9da54461b87be1834c12f6be74681560b8f8302f4c44ea5",
+          "lines": [
+            90
+          ],
+          "literal": "assert imported['project']==project['project']"
+        }
+      ],
+      "fix_commit": "3d322b9; root equivalent2dcc26c"
+    },
+    {
+      "id": "I03",
+      "status": "resolved",
+      "evidence_type": "observed-local",
+      "finding": "Boolean binding version True formerly passed import but failed later provenance validation. Import now requires exact integer version and exact binding fields.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/construction_exchange.py",
+          "sha256": "52e118a7ad45f0361f193b4a85694de40343d88c2ea095baf75f5f4fbb63fee1",
+          "lines": [
+            41
+          ],
+          "literal": "type(bound['version']) is not int"
+        },
+        {
+          "path": "tests/test_construction_integration_review.py",
+          "sha256": "f9accb9c01d54b40c9da54461b87be1834c12f6be74681560b8f8302f4c44ea5",
+          "lines": [
+            100
+          ],
+          "literal": "binding['version']=True"
+        }
+      ],
+      "fix_commit": "3d322b9; root equivalent2dcc26c"
+    },
+    {
+      "id": "I04",
+      "status": "declared-boundary-measured",
+      "evidence_type": "observed-local",
+      "finding": "The initial playback bundle predates native binding and cannot bootstrap first native import in a fresh Store. After import plus render(import_provenance), typed closure carries the binding/bytes and fresh native re-import succeeds.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/export.py",
+          "sha256": "6933ac91cc5c2417194a85e01515fce04c702c5046e1837cadd92038dbea4980",
+          "lines": [
+            231
+          ],
+          "literal": "'construction-ase-import'"
+        },
+        {
+          "path": "tests/test_construction_integration_review.py",
+          "sha256": "f9accb9c01d54b40c9da54461b87be1834c12f6be74681560b8f8302f4c44ea5",
+          "lines": [
+            108
+          ],
+          "literal": "test_playback_export_before_native_binding"
+        }
+      ],
+      "documentation": "Retain original Store for first native import. Only the later import-provenance-bound bundle transports the binding; external native/sidecar files accompany it."
+    },
+    {
+      "id": "I05",
+      "status": "selected-services-supported",
+      "evidence_type": "observed-local",
+      "finding": "Schema validation, matching current history and full journal replay precede render. A bad JSONL request does not prevent the next valid request. Direct construction services do not publish heads. Root CLI/pipeline checks also pass.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/construction_services.py",
+          "sha256": "6c3cbeefe296ad2c87c1664562c9a6c03a26594d6e107d0df9c29ac8cf30326a",
+          "lines": [
+            84
+          ],
+          "literal": "core.load_history(store, request['history'])"
+        },
+        {
+          "path": "tests/test_construction_integration_review.py",
+          "sha256": "f9accb9c01d54b40c9da54461b87be1834c12f6be74681560b8f8302f4c44ea5",
+          "lines": [
+            131
+          ],
+          "literal": "test_service_history_replay_precedes_render"
+        }
+      ]
+    },
+    {
+      "id": "I06",
+      "status": "performance-usability-open",
+      "evidence_type": "observed-local",
+      "finding": "Twenty real edits completed on the favorable 256×256, 24-frame, one-layer/shared-cel fixture. Per-edit time grew 0.904s to 18.123s; total 181.427s. Every edit reconstructs the journal. This is not interactive or representative multilayer character performance.",
+      "benchmark": "integration-review-evidence/BENCHMARK.json",
+      "source_budget_examples": [
+        {
+          "layers": 1,
+          "canvas": [
+            256,
+            256
+          ],
+          "project_frames": 24,
+          "diff_work_per_edit": 3145728,
+          "20_edits_admitted_by_work": true
+        },
+        {
+          "layers": 2,
+          "canvas": [
+            256,
+            256
+          ],
+          "project_frames": 24,
+          "predicted_max_point_edits": 10
+        },
+        {
+          "layers": 11,
+          "canvas": [
+            256,
+            256
+          ],
+          "project_frames": 24,
+          "predicted_max_point_edits": 1
+        }
+      ],
+      "remaining_need": "A reviewed efficient validated-history strategy and realistic character editing benchmark before production-readiness claims."
+    },
+    {
+      "id": "I07",
+      "status": "source-only-selected-review",
+      "evidence_type": "source-derived",
+      "finding": "Package verifier guards installed import prefix, actual native saved-file existence, exact raw document equality and fresh history/native-provenance closure. This reviewer did not repeat package/editor/engine execution. Events/landmarks/ground pivot remain metadata, not callbacks.",
+      "anchors": [
+        {
+          "path": "scripts/verify_construction_package.py",
+          "sha256": "5fccfd99abb3f1213b70bc6c627215527be14a621363c367e99eacc8dfbb1fc4",
+          "lines": [
+            24
+          ],
+          "literal": "is_relative_to"
+        },
+        {
+          "path": "scripts/verify_construction_package.py",
+          "sha256": "5fccfd99abb3f1213b70bc6c627215527be14a621363c367e99eacc8dfbb1fc4",
+          "lines": [
+            64
+          ],
+          "literal": "native file actually saved"
+        },
+        {
+          "path": "scripts/verify_construction_package.py",
+          "sha256": "5fccfd99abb3f1213b70bc6c627215527be14a621363c367e99eacc8dfbb1fc4",
+          "lines": [
+            77
+          ],
+          "literal": "fresh history replay"
+        },
+        {
+          "path": "docs/construction/README.md",
+          "sha256": "063fa9585db568d487526c22882bf0f8bd7e76a90a610cc41338576865953d2e",
+          "lines": [
+            65
+          ],
+          "literal": "does not emit Godot event callbacks"
+        }
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "file": "integration-review-evidence/BASELINE-JUNIT.xml.gz",
+      "tests": 8,
+      "failures": 2,
+      "errors": 0,
+      "skipped": 0,
+      "decoded_sha256": "fb54ac33a4818bda92309f8d8563acacf809d43df55154bb14c0453aa2991821",
+      "sha256": "2192d81729a84729a20cec23c70263c959839f6c0759795bb7d6d3b873e225ab",
+      "codec": "gzip; decoded bytes exact retained JUnit"
+    },
+    {
+      "file": "integration-review-evidence/RESOLVED-JUNIT.xml",
+      "sha256": "9799ff1cb017947f47051aff50b86ac78fdc5aa59f09872ea234b346fdbad0f0",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "files": [
+    {
+      "path": "sprite_workbench/construction.py",
+      "sha256": "de61faa8276b882468ce03bfce4eb52e2f47235eef0f3dd955dd93b3784eb22d",
+      "bytes": 22802
+    },
+    {
+      "path": "sprite_workbench/construction_services.py",
+      "sha256": "6c3cbeefe296ad2c87c1664562c9a6c03a26594d6e107d0df9c29ac8cf30326a",
+      "bytes": 6463
+    },
+    {
+      "path": "sprite_workbench/construction_exchange.py",
+      "sha256": "52e118a7ad45f0361f193b4a85694de40343d88c2ea095baf75f5f4fbb63fee1",
+      "bytes": 18325
+    },
+    {
+      "path": "sprite_workbench/export.py",
+      "sha256": "6933ac91cc5c2417194a85e01515fce04c702c5046e1837cadd92038dbea4980",
+      "bytes": 26366
+    },
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "sha256": "6a6b3ccac5195e86c426b774ec5c023efc497e3ef00fb673504f4f8de0349156",
+      "bytes": 16371
+    },
+    {
+      "path": "sprite_workbench/cli.py",
+      "sha256": "5e3e7f64307445e117ce62a5017f1bcc4dd9290e3830e19e3b735402d45fdf97",
+      "bytes": 6858
+    },
+    {
+      "path": "sprite_workbench/channel.py",
+      "sha256": "ca1d2857a3a0b85fb29d6f7af405578b9d22bfb68c1637b3cb6761bfbcad5061",
+      "bytes": 5117
+    },
+    {
+      "path": "scripts/verify_construction_package.py",
+      "sha256": "5fccfd99abb3f1213b70bc6c627215527be14a621363c367e99eacc8dfbb1fc4",
+      "bytes": 5166
+    },
+    {
+      "path": "examples/local-construction/plan.json",
+      "sha256": "7fe7a133fa95cf7c7aeb43b66fe25a6335025a275abb8f60c360d022634e2f6c",
+      "bytes": 1308
+    },
+    {
+      "path": "examples/local-construction/source.json",
+      "sha256": "d01feb98483a733e12119f95a867a23e1bdd1d4fc5294d78ffe48021e0d19108",
+      "bytes": 1449
+    },
+    {
+      "path": "docs/construction/README.md",
+      "sha256": "063fa9585db568d487526c22882bf0f8bd7e76a90a610cc41338576865953d2e",
+      "bytes": 7719
+    },
+    {
+      "path": "tests/test_construction_integration_review.py",
+      "sha256": "f9accb9c01d54b40c9da54461b87be1834c12f6be74681560b8f8302f4c44ea5",
+      "bytes": 9059
+    }
+  ],
+  "doc_correction_overlays": [
+    {
+      "path": "docs/construction/README.md",
+      "sha256": "3ce3d6d9c7a2eb7dca4d13740e46d21c7e27f6694def1956a143fdce9f11683d",
+      "frozen_copy": "integration-review-evidence/PRIMARY-construction-README.md",
+      "authority": "Read-only primary working-document correction snapshot; not asserted committed at reviewed source snapshot."
+    },
+    {
+      "path": "examples/local-construction/README.md",
+      "sha256": "d0ac0b7dd194d71bab942fa5b0f8778e6253e6f5fa4ca920366b057ca34b7637",
+      "frozen_copy": "integration-review-evidence/PRIMARY-local-construction-README.md",
+      "authority": "Read-only primary working-document correction snapshot; not asserted committed at reviewed source snapshot."
+    }
+  ],
+  "benchmark_source_sha256": "de61faa8276b882468ce03bfce4eb52e2f47235eef0f3dd955dd93b3784eb22d",
+  "limits": [
+    "No provider/generation/authentication/new REA.",
+    "No duplicate external LibreSprite/Godot/package run; separately bound producer/root evidence remains separate.",
+    "Events/landmarks/ground pivot are metadata only.",
+    "No representative full-size multilayer character editing benchmark or visual/anatomy/motion acceptance."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "scope": "Four renderer-output walk cycles; appearance and ordered-still motion screening only",
+  "decision": "Useful qualified comparable walks; primary appearance/proportion match not established",
+  "strongest_pair": ["swordsman-male-walk-SE", "swordsman-male-walk-NE"],
+  "clothing_variants": ["swordsman-female-walk-SE", "knight-male-walk-SE"],
+  "reviewed_cels": 32,
+  "reviewed_adjacencies_including_wrap": 32,
+  "what_matches": ["Elevated oblique RPG view", "Detailed shaded sprite family", "Comparable visible character pixel scale", "Actual readable walk phase exchange"],
+  "remaining_differences": ["Smaller heads", "Longer narrower torso and limbs", "Less rounded and glossy material volume", "Female skirt and Knight coat obscure leg structure"],
+  "source_scope": "Public third-party renderer output; original-client rendering and timing not independently verified",
+  "clock_scope": "Encoded APNG exposure timings only: Swordsman75ms, Knight100ms",
+  "continuous_playback_watched": false,
+  "physical_foot_contact_verified": false,
+  "target_animation_accepted": false,
+  "subjective_numeric_match_score": null
+}

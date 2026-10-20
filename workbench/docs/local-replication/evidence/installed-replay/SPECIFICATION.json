@@ -1,0 +1,403 @@
+{
+  "kind": "local-replay-specification",
+  "version": 1,
+  "flows": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11"
+  ],
+  "frozen_at_utc": "2026-10-13T02:20:15.168665+00:00",
+  "package_files": [
+    {
+      "file": "__init__.py",
+      "sha256": "1d8834f3717c30b864c0533abbbb479303beb5c9bcb5f6f3205a8d4977a9f1bc"
+    },
+    {
+      "file": "__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4"
+    },
+    {
+      "file": "acquisition.py",
+      "sha256": "b6cb3dca16170831463c4d6aea62db4223236b026cfa9fae480dbcd5353d8752"
+    },
+    {
+      "file": "assets.py",
+      "sha256": "86482c3a8bc15a78381e41701152e2c589d9f50378604e474064c957ba93e29b"
+    },
+    {
+      "file": "capabilities.py",
+      "sha256": "19580f50ec3da513ba885e95edb7fffa4bcdaad70c9b24398ee9229b4aaf828a"
+    },
+    {
+      "file": "channel.py",
+      "sha256": "bd2e2085452a784ff6668c3354eb0e7f586ecbf7e9ea474ecefa97bb15e23b96"
+    },
+    {
+      "file": "cli.py",
+      "sha256": "ede0eeda84c2f9cd1fad8556e138cfa1b3d0df2e88169839a837b879fc89fc24"
+    },
+    {
+      "file": "composition.py",
+      "sha256": "f5f90497ea3e9f2e0b871f40efd7bac0b908bb057c6065740ac223ff20aef07e"
+    },
+    {
+      "file": "contracts/MCP-TOOL-CONTRACTS.json",
+      "sha256": "b3d9199a999480d27f3aa0c5f66a5659d286a5842a04da052f2b8dc4836616e0"
+    },
+    {
+      "file": "contracts/PUBLIC-OPERATION-CONTRACTS.json",
+      "sha256": "d988242b2c33ef6b91ed5c80d2c9fad8945992d481bf4c81b40ebe2f5d120592"
+    },
+    {
+      "file": "contracts/PUBLIC-SCHEMA-CLOSURE.json",
+      "sha256": "866547dad1c2fb0d81da11c0bff7c0a667b4f61b2d790b52faa1f608ba64f04a"
+    },
+    {
+      "file": "contracts/openapi.json",
+      "sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec"
+    },
+    {
+      "file": "core.py",
+      "sha256": "5aaa99f57aaf5646161e0bb0da31bfb520f4753edd6bbe25f55178e4e5031213"
+    },
+    {
+      "file": "effects.py",
+      "sha256": "e7ddb60fead7a1be6f2dec6d355d3ae138a50901a5ebca5dd70d7acf24f31c54"
+    },
+    {
+      "file": "export.py",
+      "sha256": "7be6811da7806f4369146370c1f53923a03ceeafa6b74549c576b26b91c5e9a1"
+    },
+    {
+      "file": "jobs.py",
+      "sha256": "dd3fb66e9b245f7228f7efdfe3b5bb52f580dcfa9ddc89f23ba64265502e5254"
+    },
+    {
+      "file": "library.py",
+      "sha256": "7f3bb4f15787f3ffc675692af19d837e6702fc44be9cad949d55ed4e1439fd16"
+    },
+    {
+      "file": "pipeline.py",
+      "sha256": "f5ca23c214d6eb3179061e08c71957e0348d9526e326069def51c5ef5a9eb377"
+    },
+    {
+      "file": "pose.py",
+      "sha256": "c2591d0e2d9dd48a951f057bea7d6feb5f340dc9ecfa64e4c139ebc54493a064"
+    },
+    {
+      "file": "prepare.py",
+      "sha256": "bf62c1f12fb5b9905063f1924494b4f07dde81c1598feb67824f76811e4f7067"
+    },
+    {
+      "file": "raster.py",
+      "sha256": "bbca61a5afcc121821eb8c48bd77606e72d39a5b93d0c83c8c5d979e3dc5c8bf"
+    },
+    {
+      "file": "replay_geometry.py",
+      "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb"
+    },
+    {
+      "file": "replay_methods.py",
+      "sha256": "3f19a9366ae25b70f2448aeab0bc40d5b561244c09eea0ffe1db6c39563196b9"
+    },
+    {
+      "file": "replay_state.py",
+      "sha256": "042529f5b3aa5ea90f0d46e5645fb7f722f74d30f0e39dc567935d99e7b043d2"
+    },
+    {
+      "file": "replication.py",
+      "sha256": "3e96aa4ac93a3f2d5a2e59d24d1f71c823ff31446e4cc5659d2e9de75fa12855"
+    },
+    {
+      "file": "review.py",
+      "sha256": "4294fb5a84ce3b2a91425e4af0a6fd50ca32aa6fd435112a67a90077012df8f5"
+    },
+    {
+      "file": "scene.py",
+      "sha256": "0af450c23bebaf60324c3ee47736405095d691aa9dae480c577acfc0428ddaf0"
+    },
+    {
+      "file": "terrain.py",
+      "sha256": "f5fc4feae7a84d4762b103cb1faed448429b36d94e06ac3d74822ec803b5d8ec"
+    },
+    {
+      "file": "tracks.py",
+      "sha256": "bb2136a762ec5ebe84b8f69554fdc3cb2a793d55c652ca467b2ebe862bfe434e"
+    },
+    {
+      "file": "vendor/vfx/10971.js",
+      "sha256": "513fb939259c4988d0b72536cc3eada6506d5d7b897705c582c171d82dc6937c"
+    },
+    {
+      "file": "vendor/vfx/12538.js",
+      "sha256": "8fc4836b96309707574b3deee7b99f735d92c69681781e482d3c2eae6cee9d8b"
+    },
+    {
+      "file": "vendor/vfx/13865.js",
+      "sha256": "2337cbed7ca29e95353215ef835d790aeff999bf92ce9a9fc96c241df5f59e36"
+    },
+    {
+      "file": "vendor/vfx/22178.js",
+      "sha256": "4bce0c7717231c12509db50d534288b81a87bbce10af5d56ffb85d444f38bcc7"
+    },
+    {
+      "file": "vendor/vfx/2834.js",
+      "sha256": "2c310a067ba47548e822597ddaced33cd9c70e1bc8f92a99d7be7bf38dedfcd8"
+    },
+    {
+      "file": "vendor/vfx/31042.js",
+      "sha256": "31ba058b4adc2e1ef23f853647ff33d3638b7d5fcc6a5692666bb8b20e8102e1"
+    },
+    {
+      "file": "vendor/vfx/31824.js",
+      "sha256": "0a0a1476b4a92717a2bac05b4e5997089c25b2fc036b693713946ae628f412d2"
+    },
+    {
+      "file": "vendor/vfx/33854.js",
+      "sha256": "1f4b4ac5b5ee26b8436870653bc96d71c81ccade291093c36619673e38d0af0e"
+    },
+    {
+      "file": "vendor/vfx/35130.js",
+      "sha256": "b20d0bf054fb6a7a50f0feefe38ea19f410e02782598f16fdca6971e3fea762a"
+    },
+    {
+      "file": "vendor/vfx/38394.js",
+      "sha256": "3bd12d90c4526b81bff6e93c9e993247daab1797f0c31ba858ea2a414959527e"
+    },
+    {
+      "file": "vendor/vfx/39503.js",
+      "sha256": "c9ecb6c38194f35531829e0dc4d4f95e91d46d42f1698d3752f4a712c0abf718"
+    },
+    {
+      "file": "vendor/vfx/39852.js",
+      "sha256": "4862e6d3dfbc90075ac7ccbb1023f46fd35ba4573abfe0ebc4200e63656a3acf"
+    },
+    {
+      "file": "vendor/vfx/39889.js",
+      "sha256": "25657d948060c4c2bd7af22647972626e6b7c82382828444284bb39e4ea7367c"
+    },
+    {
+      "file": "vendor/vfx/41666.js",
+      "sha256": "3544fccc05cc2b7f2b3cb4fa13083e730b0f6492202f50778e6fe482384c0956"
+    },
+    {
+      "file": "vendor/vfx/42908.js",
+      "sha256": "c7d37cec9d6d7369d8f0ccc56745148c04a124fee442d4ec8d29743c75d98106"
+    },
+    {
+      "file": "vendor/vfx/4435.js",
+      "sha256": "b57f3c580d0273b3b5cfa23f1fc1df7695ed2fc4c4d6a545709e9317d6aaea8c"
+    },
+    {
+      "file": "vendor/vfx/44905.js",
+      "sha256": "22095e503b2cc61491eaa4087173fd802607e5aa8f960f2532ef0f303e659368"
+    },
+    {
+      "file": "vendor/vfx/46717.js",
+      "sha256": "81fa07bd529267ee84a64e09423af644fe1e2ea9f41201904572050ae8d3c04a"
+    },
+    {
+      "file": "vendor/vfx/47381.js",
+      "sha256": "f132d2179dc95ce9079d56b14e10434d2ed2512120098cd90f037671feeaff9c"
+    },
+    {
+      "file": "vendor/vfx/50527.js",
+      "sha256": "62372bea7e3a0d56595e31095e9fd92e8160689c08f66276bc8330025aaafc62"
+    },
+    {
+      "file": "vendor/vfx/54671.js",
+      "sha256": "1b10fa753c3d82f0cd45f59b86abd346bf7e63e95518ac4e8d234436c093556c"
+    },
+    {
+      "file": "vendor/vfx/55110.js",
+      "sha256": "41268db37bd14817071105e58c2a7fcd35d47cade88ab206023d0c3b156911a8"
+    },
+    {
+      "file": "vendor/vfx/55516.js",
+      "sha256": "99cb54828afe3663bea84063fec67c762fb7aef0bc8879dc02ef7cf56bb815b1"
+    },
+    {
+      "file": "vendor/vfx/57642.js",
+      "sha256": "f7a831e552bbd3bdadc22e051b07e43ce8c35d67a32372b7ce8106279d5c01a8"
+    },
+    {
+      "file": "vendor/vfx/57895.js",
+      "sha256": "e4106dd43e3e9d2fd00290cae8c88e8bc1ec590b6e73e302d5a4cfcdb6a48b28"
+    },
+    {
+      "file": "vendor/vfx/58018.js",
+      "sha256": "bf42d8d41bcd91e5f4215132dda579cb0f575d944acc3e37fd6ae1be96720210"
+    },
+    {
+      "file": "vendor/vfx/5958.js",
+      "sha256": "d40c7cf143a2ecb69d3c0105497766facb5aefd0768eda704fca665bbc134ec8"
+    },
+    {
+      "file": "vendor/vfx/60350.js",
+      "sha256": "d556f3b2d7650e24501e499a2c47cf9870df33ea31547f91898a216261e3d875"
+    },
+    {
+      "file": "vendor/vfx/68640.js",
+      "sha256": "9488b65d27f5c76fc171086f7494a468c0c584f6abb404f980d3392183f032c4"
+    },
+    {
+      "file": "vendor/vfx/73278.js",
+      "sha256": "80aed60f15d4b462ca818655a265ef0799ef5a8227e81c511df09a51dfe6af95"
+    },
+    {
+      "file": "vendor/vfx/78391.js",
+      "sha256": "0981408b3aac9af60d0446d19440330f70a64e8d7d475147101fa3c9815564e5"
+    },
+    {
+      "file": "vendor/vfx/78501.js",
+      "sha256": "657cdd829ab79cd6047865be02ad4768ce71d52a374e77612262d7c937157ee3"
+    },
+    {
+      "file": "vendor/vfx/80082.js",
+      "sha256": "1f9027f524286cd873462647a9bd878085db2637c97cd7298d47009236e196df"
+    },
+    {
+      "file": "vendor/vfx/81143.js",
+      "sha256": "59a2271cfaf3ec02d5ab32a750b197d271992c2602ad43e5c706f72647e6a609"
+    },
+    {
+      "file": "vendor/vfx/8120.js",
+      "sha256": "0e814fc1b7ed04c9eb9af4147832469839086294058916ee665568d5e67868eb"
+    },
+    {
+      "file": "vendor/vfx/81930.js",
+      "sha256": "2ff09ad06ad4e6e7c9504a6c121a9f10bab1504b69c322fc031169ea69e4b7c2"
+    },
+    {
+      "file": "vendor/vfx/82494.js",
+      "sha256": "77124a5e2593ebc47b26e0371f6632ba24375873f1c1e5315597b9d174cb0c41"
+    },
+    {
+      "file": "vendor/vfx/84110.js",
+      "sha256": "f3a5d8ee11a67b8607779f519161dc941abaab38cc74a8bf40ae0746d441f381"
+    },
+    {
+      "file": "vendor/vfx/9008.js",
+      "sha256": "917568511d41c3d8ae12cfe8329567c28ee9c545aefa3db3367d0592e9ec4c92"
+    },
+    {
+      "file": "vendor/vfx/90282.js",
+      "sha256": "7c1e51ad8ff29461c200d191e17a60ba1cf5940e2db5ba5749c6a26ecdcf6fbe"
+    },
+    {
+      "file": "vendor/vfx/91722.js",
+      "sha256": "561f3d0c9bb17b54a5fc6cb4268cfa37b9685ee5795b523fd339f30b702a66d8"
+    },
+    {
+      "file": "vendor/vfx/93405.js",
+      "sha256": "c47d138671406f68e83df91eb2782bc33867d749b54b54b41c09175d8d1b2ca4"
+    },
+    {
+      "file": "vendor/vfx/93757.js",
+      "sha256": "7ac8bacec93dde1f7d816cf80166bed4213f5e9330096a1e4c760d9bb464f5c8"
+    },
+    {
+      "file": "vendor/vfx/93778.js",
+      "sha256": "36625604dbcba570e3efbfd1fd1f9a659a58044f0a9bd0dc6069c8bbf2c9b271"
+    },
+    {
+      "file": "vendor/vfx/94031.js",
+      "sha256": "584e8d75640c76dc619463af1c5673c5106dc64e07b7588dbd789ddce2b89255"
+    },
+    {
+      "file": "vendor/vfx/95358.js",
+      "sha256": "a3c98eedfb5c46ab4f50d7f9e7e7d2bf53fcb5b578c5606ca772472aa25788f4"
+    },
+    {
+      "file": "vendor/vfx/manifest.json",
+      "sha256": "188743c8078e006117a6cbc51fdf96a73cafecc387a1a998276d93aa8d19645f"
+    },
+    {
+      "file": "vfx_runner.cjs",
+      "sha256": "21759a298e3e72c412e75ac41c906d371d40f0827c8fece798218f1257d63b34"
+    }
+  ],
+  "environment": {
+    "kind": "local-environment-check",
+    "status": "completed",
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "executable": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/venv/bin/python",
+    "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "packages": [
+      {
+        "name": "numpy",
+        "version": "2.5.4",
+        "minimum": "2",
+        "available": true
+      },
+      {
+        "name": "Pillow",
+        "version": "12.3.0",
+        "minimum": "11",
+        "available": true
+      },
+      {
+        "name": "jsonschema",
+        "version": "4.26.0",
+        "minimum": "4.20",
+        "available": true
+      },
+      {
+        "name": "packaging",
+        "version": "26.3",
+        "minimum": "23",
+        "available": true
+      }
+    ],
+    "tools": [
+      {
+        "name": "node",
+        "path": "/usr/bin/node",
+        "scope": "F09 procedural effects",
+        "available": true,
+        "version": "v22.22.1",
+        "exit": 0
+      },
+      {
+        "name": "godot",
+        "path": "/home/astra/.local/bin/godot",
+        "scope": "F10 engine check",
+        "available": true,
+        "version": "4.7.2.stable.official.ed1daf0bf",
+        "exit": 0
+      }
+    ],
+    "python_ready": true,
+    "dependency_versions": {
+      "rpds-py": "2026.9.1",
+      "numpy": "2.5.4",
+      "pluggy": "1.6.0",
+      "iniconfig": "2.3.1",
+      "Pygments": "2.21.0",
+      "wheel": "0.48.0",
+      "packaging": "26.3",
+      "setuptools": "84.0.0",
+      "attrs": "26.1.0",
+      "pytest": "9.1.1",
+      "pillow": "12.3.0",
+      "jsonschema": "4.26.0",
+      "referencing": "0.37.0",
+      "jsonschema-specifications": "2025.9.1",
+      "sprite-workbench": "0.2.0"
+    },
+    "all_replay_dependencies_ready": true,
+    "network_or_credentials_used": false,
+    "scope": "Prerequisite probes only; replay verifies actual behavior. F08 uses supplied glyphs, not ambient fonts."
+  },
+  "scope": "Deterministic supplied-art diagnostic subsets only",
+  "whole_vendor_replication_complete": false,
+  "artistic_acceptance": "unreviewed"
+}

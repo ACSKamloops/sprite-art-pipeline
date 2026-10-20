@@ -1,0 +1,20 @@
+{
+  "scope": "Static selected-v9 art + frozen code calculation; no engine/GPU/input/contact test.",
+  "speed": 158.0,
+  "scale": 0.66,
+  "hold": 0.05625,
+  "cycle": 0.45,
+  "root_travel_per_hold": 8.887500000000001,
+  "root_travel_per_cycle": 71.10000000000001,
+  "required_native_backward_per_hold": 13.465909090909092,
+  "diagonal_component_native_per_hold": 9.521835633023395,
+  "source_hash_validation": true,
+  "source_correspondence_checks": 38,
+  "direct_RGBA_unequal_samples": [],
+  "within_hold_steady_root_drift_world": 8.887500000000001,
+  "half_hold_drift_world": 4.4437500000000005,
+  "render_rounding_not_measured": true,
+  "canonical_changes": 0,
+  "model_calls": 0,
+  "calculation_only_variants": "Each positive backward run gets one speed fit and one phase-duration-at158 calculation. They are conditional fits, not changes or recommendations."
+}

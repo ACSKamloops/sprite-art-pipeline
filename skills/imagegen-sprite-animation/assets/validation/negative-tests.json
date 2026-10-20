@@ -1,0 +1,12 @@
+{
+  "wrong_expected": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"passed\": false, \"error\": \"Reconstructed RGBA differs from retained expected image\"}"
+  },
+  "wrong_body_address": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "{\"passed\": false, \"error\": \"Body-owned pixels must preserve identity coordinates\"}"
+  }
+}

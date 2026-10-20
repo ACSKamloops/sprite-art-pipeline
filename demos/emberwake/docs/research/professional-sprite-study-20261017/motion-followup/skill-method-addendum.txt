@@ -1,0 +1,7 @@
+When a user reports strange limb proportions, verify the actual canvas/CSS x/y
+scale as well as source frame geometry. Inspect every lower-body pose in one
+fixed crop and decode the exported video itself; normal/slow exports must keep
+the source timing explicit. Treat changing boot/cuff/material volume as a drawing
+concern. Do not turn ambiguous clothed silhouettes into measured bone lengths,
+or imply continuous video perception when the available interface supplies only
+still frames. Playback controls and exact hashes cannot resolve that limit.

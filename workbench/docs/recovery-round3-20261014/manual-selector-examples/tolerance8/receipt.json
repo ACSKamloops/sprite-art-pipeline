@@ -1,0 +1,61 @@
+{
+  "classification": "source-exact-recovered-pixelorama-host-manual-selector",
+  "input_path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/connectivity-rgba.png",
+  "input_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+  "input_png_bytes": 588,
+  "input_png_mode": "RGBA",
+  "seed_xy": [
+    0,
+    0
+  ],
+  "tolerance_normalized_rgba": 0.03137254901960784,
+  "output_mask": "mask.png",
+  "output_mask_png_sha256": "8d5c66ecbbdcee0c85ba0c0dd994894b43b893781be078bc8e516f340b824579",
+  "mask_convention": "Selected=opaque white RGBA255; unselected=transparent black RGBA0. Selection only; source is never cleared/forced opaque.",
+  "original_source_pins": {
+    "pixelorama-recovered/src/Classes/FloodFillObject.gd": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+    "pixelorama-recovered/src/Autoload/DrawingAlgos.gd": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9"
+  },
+  "similar_colors_function_sha256": "5c69c15d8218ee0ec1a6f752eeb032d42cde9c337beaf424faa624f51f9a1e9f",
+  "harness_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+  "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+  "observed": {
+    "decoded_format_before_rgba8": 5,
+    "height": 96,
+    "seed_normalized_rgba": [
+      0.117647059261799,
+      0.627451002597809,
+      0.313725501298904,
+      1.0
+    ],
+    "segments": 176,
+    "selected_pixels": 5761,
+    "source_image_unchanged": true,
+    "width": 96
+  },
+  "stderr": "",
+  "limits": {
+    "max_side": 512,
+    "max_pixels": 262144,
+    "max_input_bytes": 4194304,
+    "max_runtime_seconds": 60,
+    "fresh_output_directory": true
+  },
+  "fixture_stubs": [
+    "Project.size from decoded PNG",
+    "Project.has_selection=false; selection bounds unexercised",
+    "SelectionMap.get_selection_rect fixture; unexercised",
+    "Project.can_pixel_get_drawn fixture; unexercised",
+    "DrawingAlgos instance uses unchanged original similar_colors method",
+    "Callback paints emitted original segment spans white"
+  ],
+  "wrapper_operations": [
+    "Input PNG header/size/seed/tolerance/pin guards",
+    "Godot decode,convert to RGBA8 if needed",
+    "Verified input byte snapshot",
+    "Mask allocation and original-segment sink",
+    "PNG saving and receipt hashing"
+  ],
+  "equivalence_boundary": "Whole recovered FloodFill source unchanged plus appended fixture declarations; recovered source replay, not compiled GDC equivalence. No editor undo/tilemaps/active selection, automatic background detection, PixelLab service or animation parity.",
+  "provider_calls": 0
+}

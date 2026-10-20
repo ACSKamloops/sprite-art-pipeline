@@ -1,0 +1,94 @@
+{
+  "commit": "64d14a36ad19870df49b6e6c75f5702f0730ea3c",
+  "scope": "selected local implementation source; not original vendor algorithms",
+  "anchors": [
+    {
+      "file": "README.md",
+      "start_line": 3,
+      "end_line_inclusive": 5,
+      "label": "scope",
+      "source_sha256": "474acfc3af5f8b8a48fbda31b88175e6578af8c1e7752f3e1783d51e0a3776c1",
+      "slice_sha256": "017d5117880d8f716e7b7b4fb39a794b67440e1de8d3ea9fe47ea81a96010c26"
+    },
+    {
+      "file": "README.md",
+      "start_line": 17,
+      "end_line_inclusive": 19,
+      "label": "errors/export",
+      "source_sha256": "474acfc3af5f8b8a48fbda31b88175e6578af8c1e7752f3e1783d51e0a3776c1",
+      "slice_sha256": "5251c8b60c5984f515843305e156e219210c2823874b63ea52d46fa07f5c3d59"
+    },
+    {
+      "file": "README.md",
+      "start_line": 28,
+      "end_line_inclusive": 40,
+      "label": "lineage/art gate",
+      "source_sha256": "474acfc3af5f8b8a48fbda31b88175e6578af8c1e7752f3e1783d51e0a3776c1",
+      "slice_sha256": "fcd80fa2efb5f6e969a84a092ac1ce35a891697f2beedbe52300d4b1cbd61674"
+    },
+    {
+      "file": "docs/COVERAGE.md",
+      "start_line": 3,
+      "end_line_inclusive": 23,
+      "label": "implemented subsets",
+      "source_sha256": "9ac31358c898677e1b1b389604987152ab982a3acab6248105611bdf7f1d9563",
+      "slice_sha256": "b81f70a3300340b07e2449b7514c99fdcd212826f493cda083b821b3c3a6e073"
+    },
+    {
+      "file": "sprite_workbench/raster.py",
+      "start_line": 390,
+      "end_line_inclusive": 419,
+      "label": "standalone guarded paste",
+      "source_sha256": "bbca61a5afcc121821eb8c48bd77606e72d39a5b93d0c83c8c5d979e3dc5c8bf",
+      "slice_sha256": "3be5b24649e43e814ca7a264424ce339fc61ae59c0c7a6cd37343f900ea9893a"
+    },
+    {
+      "file": "sprite_workbench/export.py",
+      "start_line": 187,
+      "end_line_inclusive": 248,
+      "label": "typed raster/scene closure",
+      "source_sha256": "7be6811da7806f4369146370c1f53923a03ceeafa6b74549c576b26b91c5e9a1",
+      "slice_sha256": "b9cc8f3c3f7df93cfc487fba3f15a273b4bc1c1fc3f0b0c1fa8632afffd6e50a"
+    },
+    {
+      "file": "sprite_workbench/pipeline.py",
+      "start_line": 120,
+      "end_line_inclusive": 128,
+      "label": "unsupported acknowledgment",
+      "source_sha256": "898bc9fa92ccfca0d5a7dd290a3141ec232d0c890eacd22dcb98bbf46e8cd8c4",
+      "slice_sha256": "fce9981e4e912c02bb1e65fab52510078f33c6227a5e6fad12f2a0fb4049927f"
+    },
+    {
+      "file": "sprite_workbench/pipeline.py",
+      "start_line": 178,
+      "end_line_inclusive": 224,
+      "label": "receipts/job adapter",
+      "source_sha256": "898bc9fa92ccfca0d5a7dd290a3141ec232d0c890eacd22dcb98bbf46e8cd8c4",
+      "slice_sha256": "ea59109d7f487142079e7bbcf70c2b457e9222fb97f752369e9970088f002e64"
+    },
+    {
+      "file": "sprite_workbench/jobs.py",
+      "start_line": 268,
+      "end_line_inclusive": 303,
+      "label": "terminal publication CAS",
+      "source_sha256": "fda29181abdfdf930b6fc93cbeae477c7ed960e602deb65d6e1c1fae651c6173",
+      "slice_sha256": "8670e5a33f91318a3b06af21a52484060392edcdf9e41f8970a43ea99fe74ad3"
+    },
+    {
+      "file": "sprite_workbench/capabilities.py",
+      "start_line": 16,
+      "end_line_inclusive": 55,
+      "label": "frozen schema versus implementation",
+      "source_sha256": "0a2b17b0b7c8221b2c08ead2039765381482d00a6dfa280c0b341b88c6e3b02f",
+      "slice_sha256": "d63fa799da860b8032843c83a8dad1c2c72bc20638ec073bc44cc99c60b28c1f"
+    },
+    {
+      "file": "sprite_workbench/review.py",
+      "start_line": 23,
+      "end_line_inclusive": 47,
+      "label": "review artifact versus visual acceptance",
+      "source_sha256": "4294fb5a84ce3b2a91425e4af0a6fd50ca32aa6fd435112a67a90077012df8f5",
+      "slice_sha256": "ad8dadfead80e157b7a14539ac17b553bc4c50901abb4e3fdd20f34550ca2319"
+    }
+  ]
+}

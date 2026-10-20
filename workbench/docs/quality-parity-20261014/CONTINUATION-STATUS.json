@@ -1,0 +1,170 @@
+{
+  "phase": "equal-quality continuation",
+  "paid_posts_this_continuation": {
+    "native_h3": 3,
+    "pixellab": 0,
+    "builtin_imagegen": 1
+  },
+  "attempts": [
+    {
+      "name": "palette policies",
+      "status": "no demonstrated improvement; rejectedreplacement"
+    },
+    {
+      "name": "tiny knee deformation",
+      "status": "blindedreviewdidnotdistinguishqualitygain"
+    },
+    {
+      "name": "resampling alternatives",
+      "status": "blindedreviewdidnotestablishweightedgaitgain"
+    },
+    {
+      "name": "imagegen4keyedit",
+      "status": "rejectedwholecel integration; pixelappealbutregistrationandoutsideeditdrift"
+    },
+    {
+      "name": "naturalbodycounterrotationprompt",
+      "status": "frozen candidateG; split blindreviews, not accepted upgrade"
+    },
+    {
+      "name": "restrainedmotionprompt",
+      "status": "complete candidateH: relativebenchmarktie/preference, exactbriefnotmet"
+    },
+    {
+      "name": "positivefrontquarterdirectionprompt",
+      "status": "complete candidateI; betterfrontview/carrybrief, weakerstride thanH; preserved alternative"
+    }
+  ],
+  "evidence": [
+    {
+      "file": "finishing-refinement/REPORT.md",
+      "sha256": "d5a905d5f98f77b31481133186c884a2cc7005aabbe803011d21d692aca31870"
+    },
+    {
+      "file": "reviews/key-repair-feasibility/REPORT.md",
+      "sha256": "2ee6ee10b110a01c521a4ea60811ab796f88cfaec367e1d9f07b20c5eb708f16"
+    },
+    {
+      "file": "equal-reviews/b/REVIEW.md",
+      "sha256": "c757202f60791d7650459df08ca6d05f0d99b713dedf0d90dec141492eafaf40"
+    },
+    {
+      "file": "equal-reviews/c/blind-review.md",
+      "sha256": "57b0491ab98d040c354f8fffda07f754aeb1c7de69fe901aa1d1d951a8f305ac"
+    },
+    {
+      "file": "motion-refinement/diagnosis/ANATOMICAL-PHASE-SPEC.md",
+      "sha256": "07651af0772a2591fb23fceb974e11e158431ec6405aaaaccd6ec6b43134ca60"
+    }
+  ],
+  "g_reviews": {
+    "c": "F>G>B, G6.6vsF7.0",
+    "fresh": "B>G>F, G6.3vsF5.9",
+    "identities": {
+      "F": "retainedPixelLab",
+      "B": "earlierlocalV4",
+      "G": "newlocalV5"
+    },
+    "decision": "reviewer disagreement; not robust equal-quality acceptance"
+  },
+  "g_engine": "actual32/32poses each4cycles pixelverified; source128-buffered, no artapproval",
+  "h_reviews": {
+    "c": "F=H>G; H7.0,F7.0\u00b10.8",
+    "fresh": "H>G>F; H7.1,F5.9\u00b10.7",
+    "identities": {
+      "F": "retainedPixelLabv2",
+      "G": "localV5",
+      "H": "localV6"
+    },
+    "scope": "shared11/8diagnosticclock; imagebasedsubjectiveoneheroaction; no9/10/fullparityclaim"
+  },
+  "h_consumer": "actual34/34posesineach4elapsedGodotcycles;1x/2xvisibleRGBAexact; exactASEsidecar/LibreSpriteroundtrip",
+  "source_patch": {
+    "condition_max_frames": 64,
+    "pixel_budget_unchanged": 16777216,
+    "targeted_tests": "52passed",
+    "runtime_status": "sourcecheckoutonly; installedv090at8874unchanged"
+  },
+  "i_reviews": {
+    "c": "F=H>I; I6.6,H/F7.0\u00b10.8",
+    "fresh": "H>I>F; I6.8,H7.1,F5.9\u00b10.7",
+    "scope": "normalized11/8; nativeI7/6supplement separate; nocontinuoushumanplayback"
+  },
+  "selected": {
+    "label": "H",
+    "candidate": "authoring/candidates-v6-restrained/native-binary-source128-nearest/manifest.json",
+    "manifest_sha256": "1073c56b9d9c9528559968b120423b361327f977f2445965810eec044f79294e",
+    "status": "relativeoneherowalkbenchmarktie/localpreference; not9orproductionapproval",
+    "source_frames": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "source_holds": [
+      1,
+      24
+    ],
+    "source_cycle": [
+      17,
+      12
+    ]
+  },
+  "i_consumer": "28/28posesineach4actualelapsedGodotcycles; visibleRGBA/native+2xexact;actualLibreSpriteroundtrip",
+  "conditioner_review": {
+    "finding": "declaredcanvasmismatchcouldloadlargerpayloads",
+    "fix": "validatemetadataagainstexpectedcanvasbeforepixelread",
+    "closure": "conditioner-review/REPORT-ADDENDUM.md",
+    "remaining_timing_boundary": "90scooperativebetweenframebudgetafterload,nothardtotal"
+  },
+  "browser_verification": {
+    "proof": "authoring/output/playwright/FINAL-CONTROL-PROOF.json",
+    "checks": 21,
+    "all_selected_source_frames_in_3_elapsed_wraps": {
+      "H": 34,
+      "I": 28
+    },
+    "errors": 0,
+    "mobile_overflow": false
+  },
+  "result_notes": "EQUAL-QUALITY-RESULT.md",
+  "full_source_regression": {
+    "passed": 986,
+    "failed": 0,
+    "warnings": 1400,
+    "elapsed_seconds": 116.73,
+    "log": "SOURCE-TESTS.log",
+    "log_sha256": "d9ee3063c194e46f05681095b91159452027869a3bbd50fcaba8290dc138477a",
+    "scope": "sourcecheckoutafterbothconditionerandcanvas-payloadfix;installedv090unchanged"
+  }
+}

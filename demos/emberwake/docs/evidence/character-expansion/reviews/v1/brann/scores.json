@@ -1,0 +1,169 @@
+{
+  "schema": "independent-sprite-review/v1",
+  "scale": "0-10; higher is better; no producer threshold supplied",
+  "input_fingerprint": "7eee41206a5fd632cd664a2dfef5c3cd327e1a5767bfa79d1226ca48162a7a2f",
+  "status": "review frozen; input pixels not modified",
+  "style_basis": "Written brief: rich modern chibi top-down game set; unarmed heroes. Rowan reference was not opened.",
+  "perception_basis": "All nominated pixels, every adjacent pair and wrap, idle endpoint joins, explicit source holds. Decoded still chronology, not human normal-speed perception.",
+  "exposure_note": "Full pipeline SKILL.md was inadvertently read with the blind card and contains unrelated historic scores/anecdotes. Initial manifest schema inspection also printed several lineage entries (source names/transforms). No candidate producer report, prior candidate ratings, other review, or referred source art was opened. Not perfectly blind.",
+  "coverage": {
+    "clips": 24,
+    "directions": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "actions": [
+      "idle",
+      "walk",
+      "attack",
+      "cast",
+      "hurt",
+      "dodge"
+    ],
+    "atlas_cells": 112,
+    "timeline_presentations": 116,
+    "internal_adjacent_pairs": 92,
+    "declared_loop_wraps": 8,
+    "diagnostic_nonloop_wraps": 16,
+    "idle_endpoint_joins": 80,
+    "scales": [
+      "native 128px cell",
+      "nearest 2x",
+      "approximate draw scale 0.66, nearest 84px cell"
+    ],
+    "backgrounds": [
+      "dark teal #193032",
+      "light gray #d3d5d0"
+    ]
+  },
+  "not_claimed": [
+    "Normal-speed human playback acceptance",
+    "World-space planted-foot contact",
+    "Gameplay or export validation",
+    "Eight directions",
+    "Mirrored pixels as newly authored poses"
+  ],
+  "character_id": "brann",
+  "input_hashes": {
+    "atlas.png": "68d5ae1c846153bc0483beb4894069ed243db5998ed1e9733b7df212996134ff",
+    "animations.json": "610c8502b0d91323ad48c89b76e36d09649d16f452e7fc07301b1c1de8a70c2c",
+    "selected-contact-sheet.png": "a0cc10c706480305ec50f1c12b393a111e45e162cf3d0e8126c6d1697a10bc8c"
+  },
+  "scores": {
+    "drawing": 7.8,
+    "reference_fit": 7.6,
+    "consistency": 6.2,
+    "motion": 5.7,
+    "usefulness": 6.3,
+    "overall": 6.4
+  },
+  "confidence": {
+    "drawing": 0.85,
+    "reference_fit": 0.68,
+    "consistency": 0.9,
+    "motion": 0.73,
+    "usefulness": 0.76,
+    "overall": 0.78
+  },
+  "judgment": "Good readable character drawing, but the frozen animation set needs local repair. Costume-material swaps inside idle and a contradictory north-walk phase prevent a polished-library approval.",
+  "west_disclosure": "West is the disclosed symmetric east mirror. It is four-direction coverage, not eight directions or independent new poses. This disclosure is not itself a quality defect.",
+  "top_three_fixes": [
+    {
+      "rank": 1,
+      "id": "B1",
+      "severity": "high for temporal consistency",
+      "kind": "costume/material drawing",
+      "clips": [
+        "east_idle",
+        "north_idle",
+        "west_idle",
+        "south_attack",
+        "east_cast",
+        "north_cast",
+        "west_cast"
+      ],
+      "frames": [
+        "42<->43",
+        "70<->71",
+        "98<->99",
+        "8->9",
+        "45->46",
+        "48->49",
+        "72->73",
+        "76->77",
+        "101->102",
+        "104->105"
+      ],
+      "coordinates": "Central waist ornament, approximately x54..76, y80..94 in south/north; side location varies with view.",
+      "finding": "The hanging waist feature changes between gold split strands/trim and an orange-red central cloth tab. It happens inside three 0.58 s-per-pose idle loops and on action transitions. South idle/cast predominantly retain gold; the red tab must not be assumed universal.",
+      "smallest_experiment": "Choose one waist feature design, repair only that source-attached feature consistently in affected poses, and re-review the exact cited pairs plus all idle/action joins. Do not globally recolor the whole garment."
+    },
+    {
+      "rank": 2,
+      "id": "B2",
+      "severity": "high for north-walk phase",
+      "kind": "motion drawing",
+      "clips": [
+        "north_walk"
+      ],
+      "frames": [
+        "56->57->58"
+      ],
+      "coordinates": "Extended lower boot switches right/left/right. Alpha>128 centroid at y105..114 is approximately x68.27,60.11,69.62; these are image-space pixels, not contact measurements.",
+      "finding": "p1/f57 switches to the opposite extended leg between same-half neighboring f56 and f58. It lasts 56.25 ms and produces a decoded right-left-right phase reversal before the later opposite half f61..63.",
+      "smallest_experiment": "Replace f57 with a same-support-leg bridge between f56/f58 while maintaining coherent opposing arm swing. Verify the complete north cycle and wrap afterward; no pixel translation can fix a leg-role reversal."
+    },
+    {
+      "rank": 3,
+      "id": "B3",
+      "severity": "medium",
+      "kind": "gait progression",
+      "clips": [
+        "south_walk",
+        "north_walk"
+      ],
+      "frames": [
+        "3->4->5",
+        "7->0",
+        "59->60->61",
+        "63->56"
+      ],
+      "finding": "Beyond the f57 outlier, front/back walks stay on long extended-boot silhouettes with little readable passing; south switches lead later than a simple four/four half-cycle. Side views read their feet more clearly.",
+      "smallest_experiment": "After repairing f57, author a clear passing/support pose near each front/back half-cycle boundary and compare at the same 0.45 s duration. Confirm cadence visually before any timing-only adjustment."
+    }
+  ],
+  "additional_findings": [
+    {
+      "id": "B4",
+      "kind": "metadata",
+      "severity": "medium in frozen v1",
+      "frames": [
+        "47",
+        "75",
+        "103"
+      ],
+      "finding": "The v1 cast_hand markers are visibly below/outside release palms in east/north/west. They should be measured on the chosen glove; this is not a reason to redraw the casting pose."
+    },
+    {
+      "id": "B5",
+      "kind": "transition polish",
+      "severity": "low to medium",
+      "frames": [
+        "13->14",
+        "41->42",
+        "69->70",
+        "97->98"
+      ],
+      "finding": "Raised broad attack guard changes directly to arms-down narrow idle. A short settle would improve the exit; full timing perception remains unverified."
+    }
+  ],
+  "positives": [
+    "Dark curly hair, beard, dark blue tunic, gold pauldrons and brown gloves/boots create a distinct unarmed hero.",
+    "Gold, leather and cloth have readable separate materials at draw scale.",
+    "Side attack extension, casting open palms, and side dodge lean are readable; no demonstrated gross limb attachment failure.",
+    "Camera and framing remain sufficiently stable for a common top-down set."
+  ],
+  "motion_uncertainty": "The f57 leg-role reversal is demonstrated in decoded frames. Its perceptual severity at normal speed is not directly observed here."
+}

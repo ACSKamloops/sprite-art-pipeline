@@ -1,0 +1,10 @@
+### Result
+{
+  "method": "public:POST:/generate-image-v2",
+  "disabled": true,
+  "policy": "Vendor model/handler/account/persistence implementation is not supplied; no remote calls or hidden algorithm substitution"
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({method:document.querySelector("#method-name").textContent,disabled:document.querySelector("#invoke-method").disabled,policy:document.querySelector("#method-policy").textContent})');
+```

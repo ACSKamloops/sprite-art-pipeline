@@ -1,0 +1,1 @@
+function(e,t,r){"use strict";r.d(t,{n:function(){return s}});var n=r(85893),a=r(43283),i=r(4190),l=r(26985),o=r(42787),c=r(61845);let s=(0,o.G)(function(e,t){let r=(0,l.bt)(e),o=(0,i.s)();return(0,n.jsx)(c.m.div,{...r,width:"100%",ref:t,className:(0,a.cx)("chakra-tabs__tab-panels",e.className),__css:o.tabpanels})});s.displayName="TabPanels"}

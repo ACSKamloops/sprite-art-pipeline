@@ -1,0 +1,62 @@
+{
+  "allow_redirects": false,
+  "automatic_retries": 0,
+  "boundary": "Public cutout only; no claim of PixMiniMax internal route/algorithm. Topology is input property, not predicted semantic output.",
+  "endpoint": "https://api.pixellab.ai/v2/remove-background",
+  "inputs": [
+    {
+      "path": "inputs/REGIONS.json",
+      "sha256": "801c7023d153273e12555159d5ba1ab2636b8594a1d1a8146e27fcd2a6902519"
+    },
+    {
+      "path": "inputs/TOPOLOGY-PROOF.json",
+      "sha256": "9839d1bc2035d464158c319e197c730abceaf474bf66986db7e67700c22a0386"
+    },
+    {
+      "path": "inputs/connectivity-rgba.png",
+      "sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338"
+    }
+  ],
+  "max_posts": 2,
+  "method": "POST",
+  "offline_dependency": {
+    "method": "border_connected",
+    "path": "docs/recovery-next-20261014/analyze_cutout.py",
+    "sha256": "17871083fd52ef78abaad175b575afe1ec22037a0758e91a9ed24b9cf79311d3"
+  },
+  "preparer_sha256": "cb49774909e0098f410ca1f06339125e33cf58776211e3ca3e7e8dad56c872a3",
+  "requests": [
+    {
+      "request_sha256": "6a0bcf6d0c86251f456478b4e29671fb82c41e875b521a08a2259f6b98e60e32",
+      "seed": 123,
+      "source": "inputs/connectivity-rgba.png",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "submission_lock": "simple/.submission.lock",
+      "task": "remove_simple_background",
+      "text": "omitted",
+      "variant": "simple",
+      "wire_bytes": 962,
+      "wire_sha256": "48409733bf70203f24fbe1e85747e06489daf7228f51e68ef142cd958d79911d"
+    },
+    {
+      "request_sha256": "6b722ee5753be9cd04fb774fb847d04f465815fef38509cea9eb0e0aa88146e9",
+      "seed": 123,
+      "source": "inputs/connectivity-rgba.png",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "submission_lock": "complex/.submission.lock",
+      "task": "remove_complex_background",
+      "text": "omitted",
+      "variant": "complex",
+      "wire_bytes": 963,
+      "wire_sha256": "bacc047ecc710acf63943566e8093530624e832fb2621c22f941a51235e3f117"
+    }
+  ],
+  "status": "prepared-not-submitted",
+  "submission_guard": {
+    "budget": "New separate max2-POSTphase; actual charge unknown before execution. No calls made by preparer.",
+    "required": "Parent review PLAN hash. Verify all pins. Only2 namedslots total,one POSTattempt each. Before sending create persistent .submission.lock O_CREAT|O_EXCL and attemptedstate. Never retry timeout/error/ambiguous. Never resetlock or fallback.",
+    "transport": "Approved existing helper only; deny redirects;60s timeout;4MiB response cap;actualwire hashes,redactedHAR,responseJSON,returnedPNG. No auth/header/cookies retained.",
+    "wire": "Send exact request-wire.json; pin in request record."
+  },
+  "version": 1
+}

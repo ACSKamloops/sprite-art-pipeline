@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "name": "Native video to editable attack timing diagnostic",
+  "steps": [
+    {"id":"native","action":"motion","method":"load_example","request":{"id":"native-slash-margin"}},
+    {"id":"poses","action":"motion","method":"sample","request":{
+      "extraction":{"ref":"native.extraction"},
+      "indices":[0,12,18,23,24,25,26,27,28,35,52,73,78,85,94,106],
+      "holds":[[3,60],[3,60],[3,60],[3,60],[1,60],[1,60],[1,60],[1,60],[3,60],[3,60],[3,60],[3,60],[5,60],[5,60],[5,60],[5,60]],
+      "roles":["ready","preparation","preparation","preparation","cropped backswing","cropped backswing","fast strike","fast strike","follow-through","cropped follow-through","follow-through","follow-through","recovery","recovery","settled tail","settled tail"],
+      "loop":false}},
+    {"id":"draft","action":"motion","method":"condition","request":{
+      "sequence":{"ref":"poses.sequence"},"output_size":[256,256],
+      "background":{"method":"keep"},"palette":{"method":"keep"}}},
+    {"id":"editable","action":"studio","method":"from_sequence","request":{
+      "sequence":{"ref":"draft.sequence"},"animation_id":"attack-diagnostic","normalize_hidden_rgb":false}},
+    {"id":"checked","action":"studio","method":"verify","request":{
+      "project":{"ref":"editable.project"},"history":{"ref":"editable.history"},"animation_id":"attack-diagnostic"}},
+    {"id":"files","action":"export","sequence":{"ref":"checked.sequence"},
+      "directory":"output","formats":["png","sheet","manifest","apng","editable","godot","review"]}
+  ]
+}

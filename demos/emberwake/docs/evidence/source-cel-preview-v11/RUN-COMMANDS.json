@@ -1,0 +1,152 @@
+{
+  "cwd": "/home/astra/projects/emberwake-demo",
+  "commands_used": [
+    [
+      "python3",
+      "scripts/bake_eight_directions.py",
+      "--config",
+      "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+      "--out",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/bake"
+    ],
+    [
+      "python3",
+      "scripts/verify_eight_direction_bake.py",
+      "--bake",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/bake",
+      "--receipt",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/INVARIANTS.json"
+    ],
+    [
+      "python3",
+      "scripts/build_isolated_art_preview.py",
+      "--bake",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/bake",
+      "--config",
+      "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+      "--out",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/project"
+    ],
+    [
+      "godot",
+      "--headless",
+      "--editor",
+      "--path",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/project",
+      "--import"
+    ],
+    [
+      "xvfb-run",
+      "-a",
+      "godot",
+      "--path",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/project",
+      "--rendering-method",
+      "gl_compatibility",
+      "--rendering-driver",
+      "opengl3",
+      "--audio-driver",
+      "Dummy",
+      "--script",
+      "tests/capture_changed_cels.gd",
+      "--",
+      "--changed-cel-output=/home/astra/artifacts/emberwake-source-cel-game-preview-v11/paired-cels"
+    ],
+    [
+      "xvfb-run",
+      "-a",
+      "godot",
+      "--path",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/project",
+      "--rendering-method",
+      "gl_compatibility",
+      "--rendering-driver",
+      "opengl3",
+      "--audio-driver",
+      "Dummy",
+      "--script",
+      "tests/walk_art_preview.gd",
+      "--",
+      "--walk-preview-output=/home/astra/artifacts/emberwake-source-cel-game-preview-v11/native-walk"
+    ],
+    [
+      "godot",
+      "--headless",
+      "--path",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/project",
+      "--export-release",
+      "Web",
+      "/home/astra/artifacts/emberwake-walk-cadence-study-v1/game-v11/index.html"
+    ],
+    [
+      "python3",
+      "scripts/encode_walk_captures.py",
+      "--native",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/native-walk",
+      "--out",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/media"
+    ],
+    [
+      "python3",
+      "scripts/build_engine_walk_gallery.py",
+      "--media",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/media",
+      "--out",
+      "/home/astra/artifacts/emberwake-walk-cadence-study-v1/godot-walks-v11",
+      "--revision",
+      "v11",
+      "--summary",
+      "This provisional draft adds the preferred Rowan rear03 source turn and Brann rear-diagonal closed-glove cel. Lyra and all clocks remain unchanged; the full 8/10 motion target remains unmet."
+    ],
+    [
+      "python3",
+      "tests/run_browser_eight_directions.py",
+      "--session",
+      "emberwake-complete-boots",
+      "--out",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/BROWSER-EIGHT-DIRECTIONS.json"
+    ],
+    [
+      "python3",
+      "scripts/summarize_action_traces.py",
+      "--report",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/BROWSER-EIGHT-DIRECTIONS.json",
+      "--out",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/BROWSER-TRACE-COVERAGE.json"
+    ],
+    [
+      "godot",
+      "--headless",
+      "--path",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/pack-inspection-project",
+      "--script",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/inspect_export_processed.gd",
+      "--",
+      "/home/astra/artifacts/emberwake-walk-cadence-study-v1/game-v11/index.pck",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/EXPORTED-BANKS-PROCESSING-EXPECTED.json",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/processed-export-verification/RECEIPT.json"
+    ],
+    [
+      "python3",
+      "-B",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/analyze_export_edges.py",
+      "--artifact",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11",
+      "--out",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v11/EXPORT-PROCESSING-VERIFIED.json"
+    ]
+  ],
+  "fresh_paths_required": true,
+  "engine_env": {
+    "LP_NUM_THREADS": "4",
+    "OMP_NUM_THREADS": "4"
+  },
+  "prerequisites": [
+    "Copy retained v10 Rowan/Brann atlas+manifest and capture driver according to CAPTURE-FIXTURE-INPUTS before import.",
+    "Create fresh Web target before export. Preserve generated HTML favicon-only adjustment.",
+    "Generate1729entry native SHA256SUMS before encoder.",
+    "Browser navigation must finish before scenario; ordinary and gallery checks are sequential in the owned session.",
+    "Create minimal pack-inspection-project/project.godot and fresh processed-export-verification folder before inspector; raw failed comparisons remain separate."
+  ],
+  "scope": "Actual main pipeline commands, not exhaustive shell history. Retained root/native/source intakes document their separate commands. Original files need fresh output paths on replay."
+}

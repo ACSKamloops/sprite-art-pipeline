@@ -1,0 +1,9 @@
+### Ran Playwright code
+```js
+await page.locator('#save-plan-form button[type="submit"]').click();
+```
+### Page
+- Page URL: http://127.0.0.1:8874/#jobs
+- Page Title: Jobs · Sprite workbench
+### Snapshot
+- [Snapshot](.playwright-cli/page-2026-10-14T00-30-20-662Z.yml)

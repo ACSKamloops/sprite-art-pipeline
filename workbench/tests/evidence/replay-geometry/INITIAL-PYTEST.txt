@@ -1,0 +1,21 @@
+..F..                                                                    [100%]
+=================================== FAILURES ===================================
+_______ test_f10_actual_exports_unequal_holds_and_engine_when_available ________
+
+tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/replay-geometry-tests/test_f10_actual_exports_unequa0')
+
+    def test_f10_actual_exports_unequal_holds_and_engine_when_available(tmp_path):
+        result=run_flow('F10',Store(tmp_path/'source'),tmp_path/'F10')
+        engine=result['exports']['engine_verification']
+        available=shutil.which('godot') or shutil.which('godot4')
+        if available:
+>           assert result['status']=='completed' and all(c['passed'] for c in result['checks'])
+E           AssertionError: assert ('failed' == 'completed'
+E             
+E             - completed
+E             + failed)
+
+tests/test_replay_geometry.py:52: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_replay_geometry.py::test_f10_actual_exports_unequal_holds_and_engine_when_available
+1 failed, 4 passed in 25.78s

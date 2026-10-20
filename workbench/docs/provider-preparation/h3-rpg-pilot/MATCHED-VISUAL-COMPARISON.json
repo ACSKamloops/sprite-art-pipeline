@@ -1,0 +1,325 @@
+{
+  "version": 1,
+  "kind": "matched-product-workflow-visual-comparison",
+  "artifact_root": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014",
+  "cases": [
+    {
+      "case": "walk",
+      "source_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "evidence_sha256": {
+        "pixellab-walk-v1/source.png": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+        "pixellab-walk-v1/completed-response.json": "153ae69313ad6c7ba238eb31d55a6919c912e6a6a817496708aca25f27ed65d0",
+        "pixellab-walk-v1/extracted/manifest.json": "73b8e2b47f723ce3e5c51d0025f3c0c9d6b9b15fdc87b53386ec96bad1afb173",
+        "h3-walk-001/native-video.mp4": "97e83ef3522a8892af98672861ee7ec5214c24dd4f441e38cc448c762c5ab046",
+        "h3-walk-001/media-review/MANIFEST.json": "b5798c0c8f5de2f67e671f9fa0ee93342219c207e1da2a1e7cd4e2430430dd5b"
+      },
+      "pixel_lab": {
+        "outputs": 17,
+        "generated_outputs": 16,
+        "all_completed_PNG_entries_exact_to_extracted_files": true,
+        "all_manifest_PNG_hashes_verified": true,
+        "visual_generated_slots_via_contact": [
+          1,
+          16
+        ],
+        "reference0_individually_viewed": true,
+        "additional_individual_generated_slots": [],
+        "generated_visible_RGB_colour_range": [
+          76,
+          88
+        ],
+        "generated_alpha_values": [
+          0,
+          255
+        ],
+        "reference0_alpha_exact": true,
+        "reference0_visible_RGB_exact": true,
+        "reference0_hidden_RGB_difference_positions": 49,
+        "provider_clock": "unknown",
+        "readiness": "useful transparent sprite candidate; timed motion/game acceptance unapproved"
+      },
+      "h3": {
+        "chronological_contact_coverage": [
+          0,
+          106
+        ],
+        "eight_sample_sheet_viewed": true,
+        "individual_native_frames": [
+          19,
+          42,
+          106
+        ],
+        "continuous_video_viewed_by_reviewer": false,
+        "raw_alpha": "opaque video",
+        "readiness": "native motion source; local cycle alpha/seam/equipment unapproved"
+      }
+    },
+    {
+      "case": "original-slash",
+      "source_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "evidence_sha256": {
+        "pixellab-slash-v1/source.png": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+        "pixellab-slash-v1/completed-response.json": "5d99ec4d3ea8c2060e412815862f976bb90108e0f9e0e0d49fe3401548fa8e79",
+        "pixellab-slash-v1/extracted/manifest.json": "3f471ffbbfd5e150565b46a77d7a29319f0fa2435b91b27d49f681d68fb63346",
+        "h3-slash-001/native-video.mp4": "cede01409bbf9a71aee0feaf2678a125fd54f2db52b45439901ba3b1e05b44a6",
+        "h3-slash-001/media-review/MANIFEST.json": "f3a3ca8b475281557cf1f724ef6f5dd342f47015a840db9800198f6638f3e32c"
+      },
+      "pixel_lab": {
+        "outputs": 17,
+        "generated_outputs": 16,
+        "all_completed_PNG_entries_exact_to_extracted_files": true,
+        "all_manifest_PNG_hashes_verified": true,
+        "visual_generated_slots_via_contact": [
+          1,
+          16
+        ],
+        "reference0_individually_viewed": true,
+        "additional_individual_generated_slots": [
+          2,
+          6,
+          7,
+          12
+        ],
+        "generated_visible_RGB_colour_range": [
+          68,
+          83
+        ],
+        "generated_alpha_values": [
+          0,
+          255
+        ],
+        "reference0_alpha_exact": true,
+        "reference0_visible_RGB_exact": true,
+        "reference0_hidden_RGB_difference_positions": 49,
+        "provider_clock": "unknown",
+        "readiness": "useful transparent sprite candidate; timed motion/game acceptance unapproved"
+      },
+      "h3": {
+        "chronological_contact_coverage": [
+          0,
+          106
+        ],
+        "eight_sample_sheet_viewed": true,
+        "individual_native_frames": [
+          17,
+          26,
+          28,
+          40,
+          53
+        ],
+        "continuous_video_viewed_by_reviewer": false,
+        "raw_alpha": "opaque video",
+        "readiness": "native physical weapon clipping blocks complete-sprite approval"
+      }
+    },
+    {
+      "case": "margin-slash",
+      "source_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "evidence_sha256": {
+        "pixellab-slash-margin-v2/source.png": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+        "pixellab-slash-margin-v2/completed-response.json": "4cf399e8306e467e624cdd0cf87ea053dc72461af4eea862eb7482c2ff9d0f30",
+        "pixellab-slash-margin-v2/extracted/manifest.json": "ac91ebbf422b1d819210730e08f0e1366ad0c8affc15a6a3b6677819108267bf",
+        "h3-slash-margin-002/native-video.mp4": "aed5ac139188860f2e3e39f58484ebda394c77fa7b8ae99f777cced03c572132",
+        "h3-slash-margin-002/media-review/MANIFEST.json": "3a5dbd5fc20ad06eefca5629cd6888e3a7caa3523acce3f08b0812abb3ae2186"
+      },
+      "pixel_lab": {
+        "outputs": 17,
+        "generated_outputs": 16,
+        "all_completed_PNG_entries_exact_to_extracted_files": true,
+        "all_manifest_PNG_hashes_verified": true,
+        "visual_generated_slots_via_contact": [
+          1,
+          16
+        ],
+        "reference0_individually_viewed": true,
+        "additional_individual_generated_slots": [
+          2,
+          6,
+          7,
+          12
+        ],
+        "generated_visible_RGB_colour_range": [
+          77,
+          86
+        ],
+        "generated_alpha_values": [
+          0,
+          255
+        ],
+        "reference0_alpha_exact": true,
+        "reference0_visible_RGB_exact": true,
+        "reference0_hidden_RGB_difference_positions": 30,
+        "provider_clock": "unknown",
+        "readiness": "useful transparent sprite candidate; timed motion/game acceptance unapproved"
+      },
+      "h3": {
+        "chronological_contact_coverage": [
+          0,
+          106
+        ],
+        "eight_sample_sheet_viewed": true,
+        "individual_native_frames": [
+          24,
+          35
+        ],
+        "continuous_video_viewed_by_reviewer": false,
+        "raw_alpha": "opaque video",
+        "readiness": "native physical weapon clipping blocks complete-sprite approval"
+      }
+    }
+  ],
+  "comparability": {
+    "same_source_within_each_pair_hash_checked": true,
+    "literal_prompt_equality": "root REA-verified; attributed, not independently reexecuted by this reviewer",
+    "margin_actor_relative_scale": 0.75,
+    "pixel_lab_request": {
+      "generated_frames": 16,
+      "seed": 123,
+      "transparency": true,
+      "deflicker": "default",
+      "four_caption_fields": "omitted/auto"
+    },
+    "h3_request": {
+      "duration_seconds": 4,
+      "resolution": 768,
+      "equivalent_seed_control": false,
+      "equivalent_alpha_frame_count_caption_contract": false
+    },
+    "isolated_base_model_ranking_valid": false,
+    "private_pixel_conversion_recovered": false
+  },
+  "observations": {
+    "walk": {
+      "pixel_lab_step_slots": [
+        2,
+        12
+      ],
+      "pixel_lab_settled_tail_slots": [
+        13,
+        16
+      ],
+      "pixel_lab_sword": "predominantly down-diagonal; easier to track than H3 large horizontal swing",
+      "h3_horizontal_sword_native_ranges": [
+        [
+          40,
+          49
+        ],
+        [
+          84,
+          93
+        ]
+      ],
+      "h3_idle_ranges": [
+        [
+          0,
+          6
+        ],
+        [
+          99,
+          106
+        ]
+      ],
+      "no_clean_loop_approval": true
+    },
+    "original_slash": {
+      "pixel_lab_anticipation": [
+        2,
+        5
+      ],
+      "pixel_lab_crescent_slot": 6,
+      "pixel_lab_trailing_arc_slot": 7,
+      "pixel_lab_follow": [
+        8,
+        11
+      ],
+      "pixel_lab_recovery": [
+        12,
+        16
+      ],
+      "h3_confirmed_native_physical_clipping": [
+        17,
+        40,
+        53
+      ],
+      "pixel_lab_hidden_shield": [
+        6,
+        11
+      ],
+      "shield_loss_proven": false
+    },
+    "margin_slash": {
+      "pixel_lab_anticipation": [
+        2,
+        4
+      ],
+      "pixel_lab_white_crescent_slot": 6,
+      "pixel_lab_follow": [
+        7,
+        11
+      ],
+      "pixel_lab_recovery": [
+        12,
+        16
+      ],
+      "pixel_lab_complete_tip_individual_checks": [
+        2,
+        7,
+        12
+      ],
+      "h3_confirmed_native_physical_clipping": {
+        "left": 24,
+        "right": 35
+      },
+      "h3_follow_range": [
+        28,
+        73
+      ],
+      "h3_recovery_range": [
+        74,
+        86
+      ],
+      "h3_idle_tail": [
+        87,
+        106
+      ]
+    }
+  },
+  "local_workflow": {
+    "authority": "locally authored key/resize/sampling, not PixelLab source conversion",
+    "walk_cycle_interval": [
+      16,
+      64
+    ],
+    "walk_local_alpha_approved": false,
+    "margin_uniform_16_indices": [
+      0,
+      7,
+      14,
+      21,
+      28,
+      35,
+      42,
+      49,
+      56,
+      63,
+      70,
+      77,
+      84,
+      91,
+      98,
+      106
+    ],
+    "margin_uniform_16_omitted_fast_strike_indices": [
+      26,
+      27
+    ],
+    "original_uniform_sampler_preserved_and_flagged": true,
+    "manual_curation_fix": "separate developing artifact; not reviewed here"
+  },
+  "raw_artifact_conclusion": "PixelLab returned arrays are more immediately usable sprite candidates in these three cases; not isolated model superiority",
+  "continuous_visual_review": false,
+  "production_art_acceptance": false,
+  "automatic_quality_score": null,
+  "provider_calls_by_reviewer": 0,
+  "root_edits": false
+}

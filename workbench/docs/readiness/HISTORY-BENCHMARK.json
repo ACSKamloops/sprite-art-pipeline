@@ -1,0 +1,334 @@
+{
+  "schema": "construction-history-benchmark/v2",
+  "cases": [
+    {
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": 24,
+      "layers": 1,
+      "cels": 1,
+      "fixture_sha256": "52e4930dc8292783a4827e0f7910c6576755b5dabbb88fe0b4fec1c3039f2a7c",
+      "initial_seconds": 0.049296076998871285,
+      "edit_seconds": [
+        0.1252288769974257,
+        0.12596559100347804,
+        0.1264880179987813,
+        0.12588044899894157,
+        0.1252547730000515,
+        0.12759589299821528,
+        0.12725593999857665,
+        0.12675632400350878,
+        0.1261643110010482,
+        0.12997614599953522,
+        0.12837953000052948,
+        0.12799974599693087,
+        0.12921715799893718,
+        0.13577181499931612,
+        0.13341581100030453,
+        0.13559218999944278,
+        0.13031146199864452,
+        0.1312864890023775,
+        0.1317267880003783,
+        0.13541065599929425
+      ],
+      "first_last_ratio": 1.0813053606004777,
+      "undo_seconds": 0.07329499800107442,
+      "redo_seconds": 0.07015682999917772,
+      "memory_samples": [
+        {
+          "VmHWM_kib": 51360,
+          "VmRSS_kib": 46976,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51360,
+          "VmRSS_kib": 47144,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51400,
+          "VmRSS_kib": 47204,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51464,
+          "VmRSS_kib": 47268,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51500,
+          "VmRSS_kib": 47268,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51516,
+          "VmRSS_kib": 47324,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51572,
+          "VmRSS_kib": 47372,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51620,
+          "VmRSS_kib": 47424,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51672,
+          "VmRSS_kib": 47460,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51708,
+          "VmRSS_kib": 47512,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51756,
+          "VmRSS_kib": 47560,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51808,
+          "VmRSS_kib": 47624,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51872,
+          "VmRSS_kib": 47676,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 51908,
+          "VmRSS_kib": 47712,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 52220,
+          "VmRSS_kib": 48024,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 52256,
+          "VmRSS_kib": 48056,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 52320,
+          "VmRSS_kib": 48096,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 52328,
+          "VmRSS_kib": 48100,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 52364,
+          "VmRSS_kib": 47176,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 52364,
+          "VmRSS_kib": 48216,
+          "rusage_peak_rss_kib": 1273428
+        }
+      ],
+      "post_cold_memory": {
+        "VmHWM_kib": 52364,
+        "VmRSS_kib": 49108,
+        "rusage_peak_rss_kib": 1273428
+      },
+      "cold_load": {
+        "elapsed_seconds": 1.169952591000765,
+        "replayed_receipts": 20,
+        "project_hash": "de158ffc5a0bc00a66f1f5e71c1e52e7626859d5b127ff06f521bc5b7f8a5b17",
+        "peak_rss_kib": 52364
+      },
+      "history": "5a5b2e2c09d05badeb8825fdd9b2356a8b91606a55d1274ff2110fb1476bfa4f",
+      "project": "2922a1fc1a333b78b38543bf95a46b49d755bbf6e4eb5f622553d4a13e5849eb",
+      "project_hash": "de158ffc5a0bc00a66f1f5e71c1e52e7626859d5b127ff06f521bc5b7f8a5b17",
+      "blob_count": 43,
+      "blob_bytes": 3331225,
+      "gates": {
+        "every_edit_under_2s": true,
+        "movement_under_2s": true,
+        "first_last_ratio_under_3": true,
+        "cold_load_under_15s": true,
+        "cold_verified_all_20_receipts": true
+      },
+      "passed": true
+    },
+    {
+      "canvas": [
+        256,
+        256
+      ],
+      "frames": 24,
+      "layers": 11,
+      "cels": 11,
+      "fixture_sha256": "1d9bc4d2f3e9b32d99376e06a628e0a72306b097f4cf82ddac42380735ebf937",
+      "initial_seconds": 0.5947155199974077,
+      "edit_seconds": [
+        1.235304007997911,
+        1.308190427000227,
+        1.228072432000772,
+        1.2273891529985121,
+        1.2427683989990328,
+        1.303358348999609,
+        1.256252769002458,
+        1.2410375959989324,
+        1.2460150690021692,
+        1.2445768189973023,
+        1.417653901000449,
+        1.290202122003393,
+        1.2660326790028193,
+        1.2991307310003322,
+        1.2938601109999581,
+        1.2998604620006518,
+        1.383137821998389,
+        1.4123702629985928,
+        1.4087215180006751,
+        1.4201772609994805
+      ],
+      "first_last_ratio": 1.1496581018151137,
+      "undo_seconds": 0.8719912419983302,
+      "redo_seconds": 1.3156515339978796,
+      "memory_samples": [
+        {
+          "VmHWM_kib": 73932,
+          "VmRSS_kib": 52028,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73960,
+          "VmRSS_kib": 52048,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73960,
+          "VmRSS_kib": 52064,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52084,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52076,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52092,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52096,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52096,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52112,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52112,
+          "rusage_peak_rss_kib": 1273428
+        },
+        {
+          "VmHWM_kib": 73996,
+          "VmRSS_kib": 52112,
+          "rusage_peak_rss_kib": 1273428
+        }
+      ],
+      "post_cold_memory": {
+        "VmHWM_kib": 73996,
+        "VmRSS_kib": 54812,
+        "rusage_peak_rss_kib": 1273428
+      },
+      "cold_load": {
+        "elapsed_seconds": 13.802161241001158,
+        "replayed_receipts": 20,
+        "project_hash": "61da2d3e5ba350018815ffa9c6970c430c330bd1fff1403ffde49c738d821d21",
+        "peak_rss_kib": 82488
+      },
+      "history": "735d999dbb9db6661e660cf95f862bcc5efcb67d38c90fc2cca392162f1cfe66",
+      "project": "98f79d456a7f45ded40405c1ef32897bf51d95f859444536a3783455bf920300",
+      "project_hash": "61da2d3e5ba350018815ffa9c6970c430c330bd1fff1403ffde49c738d821d21",
+      "blob_count": 43,
+      "blob_bytes": 30831700,
+      "gates": {
+        "every_edit_under_2s": true,
+        "movement_under_2s": true,
+        "first_last_ratio_under_3": true,
+        "cold_load_under_15s": true,
+        "cold_verified_all_20_receipts": true
+      },
+      "passed": true
+    }
+  ],
+  "interpreter": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "benchmark_file_sha256": "a38a1a6573c9fafced544a59030c79d45760795ca74303509569f00d835173d5",
+  "peak_rss_kib": 1273428,
+  "scope": "mechanical supplied fixture; no art generation, aesthetic approval or vendor parity",
+  "passed": true
+}

@@ -1,0 +1,9 @@
+.godot/
+web/*
+!web/.gitkeep
+*.tmp
+output/
+.playwright/
+art-source/**/*.import
+__pycache__/
+*.pyc

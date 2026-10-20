@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "part": "trailing-right",
+      "source_boot_rectangle": [
+        38,
+        92,
+        62,
+        118
+      ],
+      "all_source_visible_RGBA_exact": true,
+      "preserved_visible_pixels": 467
+    },
+    {
+      "part": "forward-left",
+      "source_boot_rectangle": [
+        68,
+        89,
+        89,
+        106
+      ],
+      "all_source_visible_RGBA_exact": true,
+      "preserved_visible_pixels": 266
+    }
+  ],
+  "orientation": "translation only; no reflection/rotation",
+  "boundary": "fullboot layer preservation; genuine occlusion retained"
+}

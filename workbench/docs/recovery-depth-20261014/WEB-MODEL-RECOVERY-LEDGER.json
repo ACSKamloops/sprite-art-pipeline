@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "artifact_root": "/home/astra/artifacts/pixellab-recovery-web-20261014",
+  "source_commit_base": "f8cb62d",
+  "scope": "Credential-free publicly linked assets and static code; no signed-in runtime, paid/provider requests or root/research changes",
+  "retrieval": {
+    "manifest": "retrieval.json",
+    "records": 81,
+    "body_bytes": 14759031,
+    "source_maps_downloaded": 0,
+    "model_weights_downloaded": 0,
+    "large_wasm_downloaded": false,
+    "editor_resource_heads": "editor-resource-HEAD.json"
+  },
+  "questions": [
+    {
+      "id": "W01",
+      "question": "Are current client code and pack unchanged?",
+      "status": "answered-within-downloads",
+      "finding": "Current editor page and engine JS identical; Godot pack changed from0.0.208 to0.0.211;378scripts:368unchanged,8changed,2new",
+      "evidence": [
+        "retrieval.json",
+        "gdscript-diff-inventory.json",
+        "gdre-recovery-receipt.json"
+      ]
+    },
+    {
+      "id": "W02",
+      "question": "How does current web PixMiniMax submit and consume results?",
+      "status": "partially-answered",
+      "finding": "Raw RGBA descriptor to private browser /animate-minimax-h3/background, polling, returned image dataURLs decoded via browser canvas. No provider video consumer in the traced hook.",
+      "source_anchor": {
+        "source_file": "assets/88a067eca8c5-create-vfx-b876fab0cfaf0dae.js",
+        "source_sha256": "08da18c2c8519c6e540544322d8ac39ebef901e3a2e2abe34ff0050f4561cb51",
+        "utf16_range": [
+          237822,
+          239078
+        ],
+        "utf8_byte_range": [
+          237856,
+          239112
+        ],
+        "selected_sha256": "3750f03024bfd2d9ae5bae9f78dfb1d673c741a971580c0040d9d2f7cce55a2c",
+        "projection": "88a067eca8c5-create-vfx-b876fab0cfaf0dae.js.237822.js",
+        "seeds": [
+          "/animate-minimax-h3/background",
+          "animate-minimax-h3"
+        ],
+        "projection_boundary": "Unchanged function text in synthetic parentheses; outer bindings remain unresolved"
+      },
+      "consumer_utf16": [
+        236248,
+        237026
+      ],
+      "evidence": [
+        "h3-result-consumer.js",
+        "h3-hook-context.txt",
+        "REA-FOCUS-SUMMARY.json"
+      ]
+    },
+    {
+      "id": "W03",
+      "question": "Is there a frame_count\u2192native duration/FPS mapping?",
+      "status": "not-found-within-reviewed-paths",
+      "finding": "Browser attaches selected recipe fps or12fallback; Godot cost seconds are an estimate for cost. No literal native clip duration/FPS mapping recovered.",
+      "evidence": [
+        "h3-client-playback-anchors.json",
+        "H3-CLIENT-SOURCE-IDENTITY.json"
+      ]
+    },
+    {
+      "id": "W04",
+      "question": "What model/revision is publicly disclosed?",
+      "status": "partially-answered",
+      "finding": "Fresh official API names MiniMaxH3 family. No PixelLab checkpoint/revision manifest recovered. Product/selector names do not establish architectures.",
+      "evidence": [
+        "PUBLIC-MINIMAX-SCHEMA.json",
+        "bounded-negative-search.json"
+      ]
+    },
+    {
+      "id": "W05",
+      "question": "Are linked source maps/weights available in inspected references?",
+      "status": "bounded-negative",
+      "finding": "No sourceMappingURL annotations in72currentJS,105retainedJS andretainededitor; no SourceMap/X-SourceMap headers on current downloaded scripts. Retained HTTP headers were not reviewed. Namedmodel/wasm extension candidate among2355PCKpath records onlyuid_cache.bin. No guessed map URLs or weights requests.",
+      "evidence": [
+        "bounded-negative-search.json",
+        "PCK-INVENTORY-SUMMARY.json",
+        "retrieval.json"
+      ]
+    },
+    {
+      "id": "W06",
+      "question": "Are image-processing algorithms actually shipped?",
+      "status": "answered-in-part",
+      "finding": "Original module66428 classifier exposed through Worker5259 labels llm/upscaled/photo from grid/run/softness heuristics; VFX workers export/render/fit procedural recipes. These are not H3 video decoding or server de-flicker.",
+      "evidence": [
+        "6428.pretty.js",
+        "5259.pretty.js",
+        "worker-resource-inventory.json",
+        "REA-CLASSIFIER-SUMMARY.json",
+        "REA-CLASSIFIER-TRACE.json"
+      ]
+    },
+    {
+      "id": "W07",
+      "question": "Where are alpha/palette/video-to-sprite stages?",
+      "status": "unresolved-server-boundary",
+      "finding": "Reviewed clients consume ready raster/PNG/quantized outputs and make quantize-image service requests. No private native-video decode/sample/foreground drift/background algorithm recovered; client PNG/placement is exact separate source.",
+      "evidence": [
+        "H3-CLIENT-SOURCE-IDENTITY.json",
+        "bounded-negative-search.json"
+      ]
+    }
+  ],
+  "rea": {
+    "initial_analysis": "ev_fb6cf11a456553d312af70d5fca6d2d66776b659f0795d7ec1a7a887a109e5dc",
+    "initial_summary": "ev_22a104a1b1bede340288b8789de68d0b0928d2d7997d9af1f7c6c84e6048ae02",
+    "focused_analysis": "ev_59f011db9e4db8eb616fdf6fdb7328012802c43016171b09ee49235c47b639ef",
+    "focused_summary": "ev_16ae83f8171dcf8e8f3607b482213d6e92bd9436376e8bfb87c5ccbd46649e5e",
+    "classifier_analysis": "ev_4596d0f7ab01af127c39f193e5e43b65966d7a607171b9ad5a0501340a16c2c4",
+    "classifier_verdict_trace": "ev_be3a84576b2474a55bd1cd294202f112aa96f15ca8d031ddd2f0370166572a96",
+    "frame_count_trace": "ev_ec929b661c81e400c2494dfb272fd36b5079d77bb82f420bb92961170c8c6ff2",
+    "limitations": "Initialsemantic100000nodeceiling/67127unknowns. Focus2375unknowns,classifier2283unknowns. Literalroute graphtraces no-match; semanticframe_count trace ambiguous2slots withoutresolvedpropagation. Verdicttrace1node3unknowns. No runtime execution."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema": "installed-package-readiness-receipt/v1",
+  "passed": true,
+  "source_commit": "488b69611d6935ca83657d9572243eadd12fa520",
+  "source_fingerprint": "c8df6fa354cb0dc584d436dc55cb6115c5f88cbd5670495e8b739fb365463e1d",
+  "wheel": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/wheel/sprite_workbench-0.4.0-py3-none-any.whl",
+  "wheel_sha256": "d04b5f253e4c429ce1d5d25f25c7237ebf11a753a95b44bb5b128490af9fa892",
+  "wheel_bytes": 749884,
+  "wheel_file_count": 102,
+  "requirements_lock_sha256": "b1da40b1520bfff2b7b2b9d1674164f8b66a6ed44099f2db2e2a98d7684f1a11",
+  "uv_version": "uv 0.12.24 (x86_64-unknown-linux-gnu)",
+  "proof_scripts": [
+    {
+      "file": "PACKAGE-proof.py",
+      "sha256": "fdfe9cd7748d7d62ce2d5eef8f3cd3a84f734ce317cbb1b1a3f3c70b3d4709c6"
+    },
+    {
+      "file": "PACKAGE-runtime.py",
+      "sha256": "b189dce6f765acad7bd6a79052e76fa327a55edcd4e5d4bb837524d519a6f2ec"
+    }
+  ],
+  "runtime": {
+    "schema": "installed-readiness-proof/v1",
+    "passed": true,
+    "python_isolated": 1,
+    "python": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/venv/bin/python",
+    "cwd": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog",
+    "package": "/home/astra/artifacts/pixellab-readiness-package-proof-20261013-release-catalog/venv/lib/python3.14/site-packages/sprite_workbench",
+    "version": "0.4.0",
+    "source_fingerprint": "c8df6fa354cb0dc584d436dc55cb6115c5f88cbd5670495e8b739fb365463e1d",
+    "runtime_file_count": 97,
+    "static_assets": [
+      {
+        "endpoint": "/",
+        "file": "web/index.html",
+        "sha256": "358c69707ade6e99c24b48d550f5d67420eca6171384ff92973803006a58b669",
+        "bytes": 14953
+      },
+      {
+        "endpoint": "/app.js",
+        "file": "web/app.js",
+        "sha256": "dfd0eef36696502470753494f7263e454b1570f03d39c03390d5092fdca1136c",
+        "bytes": 46634
+      },
+      {
+        "endpoint": "/style.css",
+        "file": "web/style.css",
+        "sha256": "2c5696aaf2e6bdf491933db60c3da052dc0c0e70ffc415531ea584314f7c9e55",
+        "bytes": 21088
+      }
+    ],
+    "catalog_counts": {
+      "requirements": 63,
+      "commands": 28,
+      "flows": 23,
+      "transport_flows": 30,
+      "interfaces": 213
+    },
+    "documented_primitives": 9,
+    "grammar_claims": 42,
+    "wrong_token_http_status": 403,
+    "comparison_http_status": 409,
+    "job_id": "a8457cc468704025ad9a7a056e8844bf",
+    "job_status": "completed",
+    "verification_artifact": "3408bd2e474cd8c04d017b0944f4e5656b00b5a9b1650a2d0b67d737b108e848",
+    "required_checks": 9,
+    "local_recipe_count": 11,
+    "setup_ready": true,
+    "comparison_ready": false,
+    "remaining_blockers": 71,
+    "native_editor_exit": 0,
+    "three_edit_v2_closure": "fresh Store cold replay, three exact undos matched initial project",
+    "elapsed_seconds": 10.54261546899943,
+    "provider_calls": 0,
+    "artistic_acceptance": "unreviewed"
+  },
+  "provider_calls": 0,
+  "artistic_acceptance": "unreviewed"
+}

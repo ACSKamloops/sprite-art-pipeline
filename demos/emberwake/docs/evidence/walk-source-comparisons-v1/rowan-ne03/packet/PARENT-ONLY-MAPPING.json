@@ -1,0 +1,132 @@
+{
+  "script_sha256": "d5db244f2cd886ab5a58f81d6c006c3fc628ab01e48a45e3e27b19f923eec47c",
+  "mirror_symmetric": true,
+  "primary_view": "northeast",
+  "source_directories": {
+    "A": {
+      "northeast": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/rowan-ne-material-v1/candidate"
+    },
+    "B": {
+      "northeast": "/home/astra/artifacts/emberwake-rowan-ne03-whole-walk-v1/trial"
+    }
+  },
+  "source_exposures": {
+    "A": [
+      {
+        "file": "00.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "01.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "02.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "03.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "04.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "05.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "06.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "07.png",
+        "hold": [
+          9,
+          160
+        ]
+      }
+    ],
+    "B": [
+      {
+        "file": "00.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "01.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "02.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "03.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "04.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "05.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "06.png",
+        "hold": [
+          9,
+          160
+        ]
+      },
+      {
+        "file": "07.png",
+        "hold": [
+          9,
+          160
+        ]
+      }
+    ]
+  },
+  "qualification": "Parent provenance only; do not supply this mapping to a blind reviewer."
+}

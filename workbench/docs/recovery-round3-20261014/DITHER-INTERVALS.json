@@ -1,0 +1,7511 @@
+{
+  "version": 1,
+  "exact_gray_counterexamples": {
+    "phase_linear_strength": {
+      "white_witness": {
+        "case": "fixed-2x2",
+        "x": 129,
+        "y": 17,
+        "gray": 129,
+        "strength": 5
+      },
+      "black_witness": {
+        "case": "bw-2x2-ten",
+        "x": 131,
+        "y": 17,
+        "gray": 131,
+        "strength": 10
+      },
+      "assumption": "white iff gray-127.5 + strength*n >0, same phase coefficient n across strengths",
+      "n_lower_strict": "-3/10",
+      "n_upper_closed": "-7/20",
+      "conclusion": "empty interval, lower exceeds upper by1/20; not a rounding/tie equality"
+    },
+    "centered_single_strength": {
+      "white_low_gray": 122,
+      "white_high_gray": 129,
+      "strength": 5,
+      "rank_low_gray": 3,
+      "rank_high_gray": 1,
+      "A_lower_strict": "44/15",
+      "A_upper_strict": "12/5",
+      "conclusion": "empty interval, lower exceeds upper by8/15"
+    }
+  },
+  "classification": "few-hypothesis offline interval falsification, not private source recovery",
+  "script_sha256": "87d8e9a1c55846238e05dcd44c21fa08f9eb89db5ec077976d71b03940f782b4",
+  "bindings": [
+    {
+      "path": "/home/astra/artifacts/pixellab-reducer-recovery-20261014/fixed-2x2",
+      "request_sha256": "f45549c80041ddd07f0171476060108b3f95cda5448a0262a0f8b37d99000c2b",
+      "response_sha256": "d3fd4bbaaca20ac3364ed13593681cd3c838b7911fa1bdd74a0749d5083dd126",
+      "source_pointer": "/images/0/base64",
+      "returned_pointer": "/images/0/base64",
+      "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+      "returned_png_sha256": "1cd07d4160afa011e3eaeee563c30bb9e23a3b5a3fc9391c4e1de9e1e814b191",
+      "alpha_repeat_source_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+      "alpha_repeat_returned_sha256": "35f69af5d1f9f4b0767a37bfeda4257a6591b2cd0474b538b9d75b547b917501",
+      "palette_png_sha256": "f0891e063e294b42af8ecf4a1168aaace411da9908d324fb88bde8f88b500fa8",
+      "first_frame_observations": 8192,
+      "both_frames_alpha_exact": true,
+      "both_frames_RGB_equal": true
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-reducer-recovery-20261014-phase2/bw-2x2-ten",
+      "request_sha256": "3740a55124c704f1e8bfe7aaea97c880cf001cbac299e1f527b58a6478684b26",
+      "response_sha256": "52a2e32448fa891f1f99bde6a2339388d66ca22f1ea1c6e1b8247c2d08f8f948",
+      "source_pointer": "/images/0/base64",
+      "returned_pointer": "/images/0/base64",
+      "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+      "returned_png_sha256": "15bca735822e5e3c5148949a2880741d317f2a01085d622eaec6aa5ca6f54a54",
+      "alpha_repeat_source_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+      "alpha_repeat_returned_sha256": "4695bc0ee2f799009bf4b0d9d643bfdb319e8cdb3c5dc7415f424945cb56c384",
+      "palette_png_sha256": "f0891e063e294b42af8ecf4a1168aaace411da9908d324fb88bde8f88b500fa8",
+      "first_frame_observations": 8192,
+      "both_frames_alpha_exact": true,
+      "both_frames_RGB_equal": true
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-dither-followup-20261014/gray-context-2x2",
+      "request_sha256": "362c58dda36d6a83af6d1608cde8f7a9261066f3feaaf0dfff5443366375f892",
+      "response_sha256": "d95a4e65239742db6b284d05bebb3132da4ee58057990f2fed1c7e73cfba214e",
+      "source_pointer": "/images/0/base64",
+      "returned_pointer": "/images/0/base64",
+      "source_png_sha256": "70b5e3d6ee7e39f9a26dffe1359e7d1d9e06fde3347230181024293722487086",
+      "returned_png_sha256": "0a52fc78c2ea6f0a119f4e4625951f75f4195ff9730981e0d8e2ae72f07441c9",
+      "alpha_repeat_source_sha256": "a433a5ba31045ebfb92a56ae1e5a866daf03db9d67358420bf9e579d31f7f260",
+      "alpha_repeat_returned_sha256": "3ca04cba008a55354c84b9268b78bba2224e8e61c26d81443a89f9a51861e824",
+      "palette_png_sha256": "f0891e063e294b42af8ecf4a1168aaace411da9908d324fb88bde8f88b500fa8",
+      "first_frame_observations": 8192,
+      "both_frames_alpha_exact": true,
+      "both_frames_RGB_equal": true
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-dither-followup-20261014/epsilon-2x2",
+      "request_sha256": "78015f6dbc668ab72600edcbbfbd50d7998d302c0c3646cc0bb7d2b015c97168",
+      "response_sha256": "87c9db26c5eaa7c0b12242d324f898b95f44de9709a03e7aee883d2571209a11",
+      "source_pointer": "/images/0/base64",
+      "returned_pointer": "/images/0/base64",
+      "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+      "returned_png_sha256": "732a8f4e6b5e5004786ef1c9b085ab78cf64e55b665f269dcb43d4f85ac232bc",
+      "alpha_repeat_source_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+      "alpha_repeat_returned_sha256": "f5328c920191c7e5c99c4636cfa5974adad9b57a35e23e6675d43c4e60222272",
+      "palette_png_sha256": "f0891e063e294b42af8ecf4a1168aaace411da9908d324fb88bde8f88b500fa8",
+      "first_frame_observations": 8192,
+      "both_frames_alpha_exact": true,
+      "both_frames_RGB_equal": true
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-dither-followup-20261014/cube-4x4",
+      "request_sha256": "67782bae83f7c5477c01cd2a24c7773c3f2c36cdccb7a9e315fe655014c019ec",
+      "response_sha256": "bf112fc697f3d2bed578c3ca60ecf25079062a8a71c7eda1bd6fe20dbfae35da",
+      "source_pointer": "/images/0/base64",
+      "returned_pointer": "/images/0/base64",
+      "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+      "returned_png_sha256": "9aeabfd0b0583b09da438da598b44ea91d207cd65727bc9ff6ba5c30d103bb42",
+      "alpha_repeat_source_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+      "alpha_repeat_returned_sha256": "ea8f8a8958a8dbb8b50d3a213e3c9158be27908db914f161d3f18094a0ee7d1c",
+      "palette_png_sha256": "f0891e063e294b42af8ecf4a1168aaace411da9908d324fb88bde8f88b500fa8",
+      "first_frame_observations": 8192,
+      "both_frames_alpha_exact": true,
+      "both_frames_RGB_equal": true
+    }
+  ],
+  "fit_observations": 40960,
+  "alpha_repeated_frames_used_for_fit": false,
+  "float_boundary_policy": "Double precision, reported endpoints as computed; exact rational gray counterexample derived separately in report; no numerical infeasibility promoted to general uniqueness proof",
+  "pointwise_hypotheses": [
+    {
+      "hypothesis": "RGB_mean_equiv_squared_distance_difference",
+      "Bayer_convention": "centered",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 18.133333333333304,
+          "lower_open": true,
+          "amplitude_upper": -18.133333333333304,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 157,
+            "y": 0,
+            "RGB": [
+              0,
+              153,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.8333333333333286,
+            "c": 0.15625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 225,
+            "y": 7,
+            "RGB": [
+              119,
+              238,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.8333333333333286,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": false,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 120,
+            "y": 19,
+            "RGB": [
+              120,
+              120,
+              120
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 15,
+            "side": 4,
+            "z": -7.5,
+            "c": 2.34375
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 13.6,
+          "lower_open": true,
+          "amplitude_upper": -4.533333333333326,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -8.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 1,
+            "RGB": [
+              17,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -2.8333333333333286,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "euclidean_distance_ratio",
+      "Bayer_convention": "centered",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 14.073150218836236,
+          "lower_open": true,
+          "amplitude_upper": -13.336895119894598,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.198929721693162,
+            "c": 0.15625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.083889862483531,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333341,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.500000000000014,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": false,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333341,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.500000000000014,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.200000000000008,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 122,
+            "y": 19,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 13,
+            "side": 4,
+            "z": -5.500000000000014,
+            "c": 1.71875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 8.108026004842714,
+          "lower_open": true,
+          "amplitude_upper": -3.0668252252270802,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -5.067516253026696,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -1.9167657657669253,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "squared_distance_ratio",
+      "Bayer_convention": "centered",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 28.13793103448279,
+          "lower_open": true,
+          "amplitude_upper": -26.666666666666607,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -4.396551724137936,
+            "c": 0.15625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -4.166666666666657,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 5.855770116354043,
+          "lower_open": true,
+          "amplitude_upper": 4.799335732078634,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -10.979568968163832,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 2.9995848325491465,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 5.595783262132341,
+          "lower_open": false,
+          "amplitude_upper": 6.083839277542181,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 131,
+            "y": 17,
+            "RGB": [
+              131,
+              131,
+              131
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 1,
+            "side": 2,
+            "z": 6.994729077665426,
+            "c": -1.25
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -22.814397290783177,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 5.839811269837261,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 5.855770116354043,
+          "lower_open": true,
+          "amplitude_upper": 4.799335732078634,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -10.979568968163832,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 2.9995848325491465,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 6.388112854204412,
+          "lower_open": true,
+          "amplitude_upper": 4.799335732078634,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 122,
+            "y": 19,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 13,
+            "side": 4,
+            "z": -10.979568968163832,
+            "c": 1.71875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 2.9995848325491465,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 16.190476190476193,
+          "lower_open": true,
+          "amplitude_upper": -6.132264529058148,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -10.11904761904762,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -3.8326653306613423,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "euclidean_distance_difference",
+      "Bayer_convention": "centered",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 15.974765224197563,
+          "lower_open": true,
+          "amplitude_upper": -15.551281774849121,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.496057066280869,
+            "c": 0.15625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.4298877773201752,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": false,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 120,
+            "y": 19,
+            "RGB": [
+              120,
+              120,
+              120
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 15,
+            "side": 4,
+            "z": -7.5,
+            "c": 2.34375
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 10.500912039716377,
+          "lower_open": true,
+          "amplitude_upper": -3.7286647772399193,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -6.563070024822736,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -2.3304154857749495,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "channel_variance_normalized_mean",
+      "Bayer_convention": "centered",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 14.074357991567648,
+          "lower_open": true,
+          "amplitude_upper": -13.33817653468941,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.199118436182445,
+            "c": 0.15625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.0840900835452203,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": false,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 120,
+            "y": 19,
+            "RGB": [
+              120,
+              120,
+              120
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 15,
+            "side": 4,
+            "z": -7.5,
+            "c": 2.34375
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 8.116710875331568,
+          "lower_open": true,
+          "amplitude_upper": -3.0671566989642542,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -5.0729442970822305,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -1.916972936852659,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "RGB_mean_equiv_squared_distance_difference",
+      "Bayer_convention": "offset1",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 9.066666666666666,
+          "lower_open": true,
+          "amplitude_upper": -9.066666666666652,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 10,
+            "side": 4,
+            "z": -8.5,
+            "c": 0.9375
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 111,
+            "y": 1,
+            "RGB": [
+              17,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 6,
+            "side": 4,
+            "z": -2.8333333333333286,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.8333333333333286,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.8333333333333286,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.6,
+          "lower_open": false,
+          "amplitude_upper": 2.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 132,
+            "y": 16,
+            "RGB": [
+              132,
+              132,
+              132
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 0,
+            "side": 2,
+            "z": 4.5,
+            "c": -1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 125,
+            "y": 16,
+            "RGB": [
+              125,
+              125,
+              125
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -2.5,
+            "c": 1.25
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 6.8,
+          "lower_open": true,
+          "amplitude_upper": 1.133333333333337,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -8.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 158,
+            "y": 0,
+            "RGB": [
+              0,
+              153,
+              238
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 2.833333333333343,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.8333333333333286,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.8333333333333286,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "euclidean_distance_ratio",
+      "Bayer_convention": "offset1",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 7.036575109418118,
+          "lower_open": true,
+          "amplitude_upper": -6.036824285280045,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.198929721693162,
+            "c": 0.3125
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 231,
+            "y": 1,
+            "RGB": [
+              17,
+              238,
+              119
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 6,
+            "side": 4,
+            "z": -1.886507589150014,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.774462372226381,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.6987917556607357,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.6,
+          "lower_open": false,
+          "amplitude_upper": 2.0000000000000115,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 132,
+            "y": 16,
+            "RGB": [
+              132,
+              132,
+              132
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 0,
+            "side": 2,
+            "z": 4.5,
+            "c": -1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 125,
+            "y": 16,
+            "RGB": [
+              125,
+              125,
+              125
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -2.500000000000014,
+            "c": 1.25
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 4.054013002421357,
+          "lower_open": true,
+          "amplitude_upper": 0.6795167022643114,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -5.067516253026696,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 248,
+            "y": 0,
+            "RGB": [
+              0,
+              255,
+              136
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 1.6987917556607783,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.774462372226381,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.6987917556607357,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "squared_distance_ratio",
+      "Bayer_convention": "offset1",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 14.068965517241395,
+          "lower_open": true,
+          "amplitude_upper": -12.071005917159756,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -4.396551724137936,
+            "c": 0.3125
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 231,
+            "y": 1,
+            "RGB": [
+              17,
+              238,
+              119
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 6,
+            "side": 4,
+            "z": -3.7721893491124234,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -3.5482374768089073,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -3.396980461811694,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 7.191042300248819,
+          "lower_open": false,
+          "amplitude_upper": 3.998462720983878,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 132,
+            "y": 16,
+            "RGB": [
+              132,
+              132,
+              132
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 0,
+            "side": 2,
+            "z": 8.988802875311023,
+            "c": -1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 125,
+            "y": 16,
+            "RGB": [
+              125,
+              125,
+              125
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.998078401229847,
+            "c": 1.25
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 8.343414902392079,
+          "lower_open": false,
+          "amplitude_upper": 3.595521150124415,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 20.858537255980195,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -8.988802875311038,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 2.9995848325491465,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 6.994729077665426,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 8.343414902392079,
+          "lower_open": false,
+          "amplitude_upper": 3.595521150124415,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 20.858537255980195,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -8.988802875311038,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 2.9995848325491465,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 6.994729077665426,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 8.343414902392079,
+          "lower_open": false,
+          "amplitude_upper": 3.595521150124415,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 20.858537255980195,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -8.988802875311038,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 2.9995848325491465,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 6.994729077665426,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 8.095238095238097,
+          "lower_open": true,
+          "amplitude_upper": 1.3587921847246889,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -10.11904761904762,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 248,
+            "y": 0,
+            "RGB": [
+              0,
+              255,
+              136
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 3.3969804618117223,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -3.5482374768089073,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -3.396980461811694,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "euclidean_distance_difference",
+      "Bayer_convention": "offset1",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 7.987382612098782,
+          "lower_open": true,
+          "amplitude_upper": -7.39823448667803,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.496057066280869,
+            "c": 0.3125
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 231,
+            "y": 1,
+            "RGB": [
+              17,
+              238,
+              119
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 6,
+            "side": 4,
+            "z": -2.311948277086884,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.242240706965859,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.1939105058560244,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.6,
+          "lower_open": false,
+          "amplitude_upper": 2.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 132,
+            "y": 16,
+            "RGB": [
+              132,
+              132,
+              132
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 0,
+            "side": 2,
+            "z": 4.5,
+            "c": -1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 125,
+            "y": 16,
+            "RGB": [
+              125,
+              125,
+              125
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -2.5,
+            "c": 1.25
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 5.250456019858189,
+          "lower_open": true,
+          "amplitude_upper": 0.8775642023424097,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -6.563070024822736,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 248,
+            "y": 0,
+            "RGB": [
+              0,
+              255,
+              136
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 2.1939105058560244,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.242240706965859,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -2.1939105058560244,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "channel_variance_normalized_mean",
+      "Bayer_convention": "offset1",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 7.037178995783824,
+          "lower_open": true,
+          "amplitude_upper": -6.037487668530093,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 93,
+            "y": 4,
+            "RGB": [
+              68,
+              85,
+              221
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 8,
+            "side": 4,
+            "z": -2.199118436182445,
+            "c": 0.3125
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 231,
+            "y": 1,
+            "RGB": [
+              17,
+              238,
+              119
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 6,
+            "side": 4,
+            "z": -1.8867148964156542,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.7746674914939717,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.6989931892211985,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.6,
+          "lower_open": false,
+          "amplitude_upper": 2.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 132,
+            "y": 16,
+            "RGB": [
+              132,
+              132,
+              132
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 0,
+            "side": 2,
+            "z": 4.5,
+            "c": -1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 125,
+            "y": 16,
+            "RGB": [
+              125,
+              125,
+              125
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -2.5,
+            "c": 1.25
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.2,
+          "lower_open": false,
+          "amplitude_upper": 1.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 123,
+            "y": 16,
+            "RGB": [
+              123,
+              123,
+              123
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 2,
+            "side": 2,
+            "z": -4.5,
+            "c": 2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 129,
+              "y": 17,
+              "RGB": [
+                129,
+                129,
+                129
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 1.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 131,
+              "y": 17,
+              "RGB": [
+                131,
+                131,
+                131
+              ],
+              "white": false,
+              "strength": 10.0,
+              "rank": 1,
+              "side": 2,
+              "margin": 3.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 4.058355437665784,
+          "lower_open": true,
+          "amplitude_upper": 0.6795972756884794,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -5.0729442970822305,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 248,
+            "y": 0,
+            "RGB": [
+              0,
+              255,
+              136
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 1.6989931892211985,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 1,
+              "RGB": [
+                17,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.7746674914939717,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 15,
+              "y": 7,
+              "RGB": [
+                119,
+                0,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 1,
+              "side": 2,
+              "margin": -1.6989931892211985,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "RGB_mean_equiv_squared_distance_difference",
+      "Bayer_convention": "rank0",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 13.6,
+          "lower_open": true,
+          "amplitude_upper": -9.066666666666652,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 10,
+            "side": 4,
+            "z": -8.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 225,
+            "y": 7,
+            "RGB": [
+              119,
+              238,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.8333333333333286,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -8.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.8333333333333286,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.8,
+          "lower_open": true,
+          "amplitude_upper": 2.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 118,
+            "y": 17,
+            "RGB": [
+              118,
+              118,
+              118
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -9.5,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 133,
+            "y": 17,
+            "RGB": [
+              133,
+              133,
+              133
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 1,
+            "side": 2,
+            "z": 5.5,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 125,
+              "y": 16,
+              "RGB": [
+                125,
+                125,
+                125
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 10.2,
+          "lower_open": true,
+          "amplitude_upper": -2.266666666666663,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 240,
+            "y": 3,
+            "RGB": [
+              51,
+              255,
+              0
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -25.5,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 1,
+            "RGB": [
+              17,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -2.8333333333333286,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -8.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.8333333333333286,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "euclidean_distance_ratio",
+      "Bayer_convention": "rank0",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 9.445255962418992,
+          "lower_open": true,
+          "amplitude_upper": -6.668447559947299,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 171,
+            "y": 0,
+            "RGB": [
+              0,
+              170,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 10,
+            "side": 4,
+            "z": -5.90328497651187,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.083889862483531,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -5.067516253026696,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -1.6987917556607357,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.400000000000011,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.500000000000014,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.8000000000000056,
+          "lower_open": true,
+          "amplitude_upper": 2.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 118,
+            "y": 17,
+            "RGB": [
+              118,
+              118,
+              118
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -9.500000000000014,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 133,
+            "y": 17,
+            "RGB": [
+              133,
+              133,
+              133
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 1,
+            "side": 2,
+            "z": 5.5,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 125,
+              "y": 16,
+              "RGB": [
+                125,
+                125,
+                125
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.500000000000014,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.400000000000011,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.500000000000014,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.400000000000011,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.500000000000014,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 5.807756082309237,
+          "lower_open": true,
+          "amplitude_upper": -1.5334126126135401,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 10,
+            "y": 9,
+            "RGB": [
+              153,
+              0,
+              170
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -14.519390205773092,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -1.9167657657669253,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -5.067516253026696,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -1.6987917556607357,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "squared_distance_ratio",
+      "Bayer_convention": "rank0",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 18.85010266940453,
+          "lower_open": true,
+          "amplitude_upper": -13.333333333333304,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 171,
+            "y": 0,
+            "RGB": [
+              0,
+              170,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 10,
+            "side": 4,
+            "z": -11.781314168377833,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -4.166666666666657,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -10.11904761904762,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -3.396980461811694,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 8.783655174531066,
+          "lower_open": true,
+          "amplitude_upper": 2.399667866039317,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -10.979568968163832,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 2.9995848325491465,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 7.558039947389352,
+          "lower_open": true,
+          "amplitude_upper": 4.3918275872655155,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 118,
+            "y": 17,
+            "RGB": [
+              118,
+              118,
+              118
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -18.89509986847338,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 133,
+            "y": 17,
+            "RGB": [
+              133,
+              133,
+              133
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 1,
+            "side": 2,
+            "z": 10.97956896816379,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 125,
+              "y": 16,
+              "RGB": [
+                125,
+                125,
+                125
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -4.998078401229847,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 8.783655174531066,
+          "lower_open": true,
+          "amplitude_upper": 2.399667866039317,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -10.979568968163832,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 2.9995848325491465,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 8.783655174531066,
+          "lower_open": true,
+          "amplitude_upper": 2.399667866039317,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -10.979568968163832,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 2.9995848325491465,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.9999846215360009,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 11.466809421841543,
+          "lower_open": true,
+          "amplitude_upper": -3.066132264529074,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 10,
+            "y": 9,
+            "RGB": [
+              153,
+              0,
+              170
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -28.66702355460386,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -3.8326653306613423,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -10.11904761904762,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -3.396980461811694,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "euclidean_distance_difference",
+      "Bayer_convention": "rank0",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 11.333820233659003,
+          "lower_open": true,
+          "amplitude_upper": -7.775640887424561,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 171,
+            "y": 0,
+            "RGB": [
+              0,
+              170,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 10,
+            "side": 4,
+            "z": -7.083637646036877,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.4298877773201752,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -6.563070024822736,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.1939105058560244,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.8,
+          "lower_open": true,
+          "amplitude_upper": 2.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 118,
+            "y": 17,
+            "RGB": [
+              118,
+              118,
+              118
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -9.5,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 133,
+            "y": 17,
+            "RGB": [
+              133,
+              133,
+              133
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 1,
+            "side": 2,
+            "z": 5.5,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 125,
+              "y": 16,
+              "RGB": [
+                125,
+                125,
+                125
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 7.67983717627734,
+          "lower_open": true,
+          "amplitude_upper": -1.8643323886199596,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 240,
+            "y": 3,
+            "RGB": [
+              51,
+              255,
+              0
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -19.19959294069335,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -2.3304154857749495,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -6.563070024822736,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.1939105058560244,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "hypothesis": "channel_variance_normalized_mean",
+      "Bayer_convention": "rank0",
+      "formula": "score(RGB)-127.5 + A*strength*((rank+offset)/side\u00b2-0.5) > 0",
+      "free_parameters": [
+        "one nonnegative amplitude A, shared across cases"
+      ],
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 9.454170957775478,
+          "lower_open": true,
+          "amplitude_upper": -6.669088267344705,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 171,
+            "y": 0,
+            "RGB": [
+              0,
+              170,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 10,
+            "side": 4,
+            "z": -5.908856848609673,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 161,
+            "y": 11,
+            "RGB": [
+              187,
+              170,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -2.0840900835452203,
+            "c": -0.3125
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -5.0729442970822305,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -1.6989931892211985,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.8,
+          "lower_open": true,
+          "amplitude_upper": 2.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 118,
+            "y": 17,
+            "RGB": [
+              118,
+              118,
+              118
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -9.5,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 133,
+            "y": 17,
+            "RGB": [
+              133,
+              133,
+              133
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 1,
+            "side": 2,
+            "z": 5.5,
+            "c": -2.5
+          },
+          "constant_contradictions": [
+            {
+              "case": "bw-2x2-ten",
+              "x": 125,
+              "y": 16,
+              "RGB": [
+                125,
+                125,
+                125
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -2.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "bw-2x2-ten",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 10.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 4096
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 4.4,
+          "lower_open": true,
+          "amplitude_upper": 1.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.25
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 16,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 18,
+              "RGB": [
+                127,
+                127,
+                127
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -0.5,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 5.839694656488552,
+          "lower_open": true,
+          "amplitude_upper": -1.5335783494821271,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 240,
+            "y": 3,
+            "RGB": [
+              51,
+              255,
+              0
+            ],
+            "white": true,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -14.599236641221381,
+            "c": 2.5
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 11,
+            "y": 11,
+            "RGB": [
+              187,
+              0,
+              187
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -1.916972936852659,
+            "c": -1.25
+          },
+          "constant_contradictions": [
+            {
+              "case": "fixed-2x2",
+              "x": 111,
+              "y": 0,
+              "RGB": [
+                0,
+                102,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -5.0729442970822305,
+              "amplitude_coefficient": 0.0
+            },
+            {
+              "case": "fixed-2x2",
+              "x": 127,
+              "y": 0,
+              "RGB": [
+                0,
+                119,
+                255
+              ],
+              "white": true,
+              "strength": 5.0,
+              "rank": 2,
+              "side": 2,
+              "margin": -1.6989931892211985,
+              "amplitude_coefficient": 0.0
+            }
+          ],
+          "observations": 8192
+        }
+      }
+    }
+  ],
+  "post_noise_bin_hypotheses": [
+    {
+      "bits": [
+        5,
+        5,
+        5
+      ],
+      "rounding_before_bins": "truncate",
+      "representative": "fixed midpoint",
+      "Bayer_convention": "centered",
+      "transition_formula": "clip RGB+noise, uint8 rounding, floor into bins, bin-center RGB nearest black/white; white at noise>=integerTransition (minus0.5 for nearest-even)",
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 25.6,
+          "lower_open": false,
+          "amplitude_upper": -44.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -16.0,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 97,
+            "y": 15,
+            "RGB": [
+              255,
+              102,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -7.0,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": false,
+          "amplitude_upper": 1.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -6.0,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.6666666666666665,
+          "lower_open": true,
+          "amplitude_upper": 3.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.0,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -12.0,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": false,
+          "amplitude_upper": 1.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -6.0,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.4909090909090907,
+          "lower_open": false,
+          "amplitude_upper": -0.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 122,
+            "y": 19,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 13,
+            "side": 4,
+            "z": -6.0,
+            "c": 1.71875
+          },
+          "upper_witness": {
+            "case": "epsilon-2x2",
+            "x": 128,
+            "y": 16,
+            "RGB": [
+              128,
+              128,
+              128
+            ],
+            "white": true,
+            "strength": 1e-06,
+            "rank": 0,
+            "side": 2,
+            "z": -0.0,
+            "c": -3.75e-07
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 25.6,
+          "lower_open": false,
+          "amplitude_upper": -12.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -16.0,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 15,
+            "y": 7,
+            "RGB": [
+              119,
+              0,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -8.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "bits": [
+        5,
+        5,
+        5
+      ],
+      "rounding_before_bins": "nearest_even",
+      "representative": "fixed midpoint",
+      "Bayer_convention": "centered",
+      "transition_formula": "clip RGB+noise, uint8 rounding, floor into bins, bin-center RGB nearest black/white; white at noise>=integerTransition (minus0.5 for nearest-even)",
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 24.8,
+          "lower_open": false,
+          "amplitude_upper": -41.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -15.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 97,
+            "y": 15,
+            "RGB": [
+              255,
+              102,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -6.5,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": false,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": true,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": false,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 134,
+            "y": 18,
+            "RGB": [
+              134,
+              134,
+              134
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 4,
+            "z": 6.5,
+            "c": -2.03125
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 24.8,
+          "lower_open": false,
+          "amplitude_upper": -12.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -15.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 15,
+            "y": 7,
+            "RGB": [
+              119,
+              0,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -7.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "bits": [
+        5,
+        6,
+        5
+      ],
+      "rounding_before_bins": "truncate",
+      "representative": "fixed midpoint",
+      "Bayer_convention": "centered",
+      "transition_formula": "clip RGB+noise, uint8 rounding, floor into bins, bin-center RGB nearest black/white; white at noise>=integerTransition (minus0.5 for nearest-even)",
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 25.6,
+          "lower_open": false,
+          "amplitude_upper": -44.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -16.0,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 97,
+            "y": 15,
+            "RGB": [
+              255,
+              102,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -7.0,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": false,
+          "amplitude_upper": 1.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -6.0,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.6666666666666665,
+          "lower_open": true,
+          "amplitude_upper": 3.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.0,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -12.0,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": false,
+          "amplitude_upper": 1.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -6.0,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.4909090909090907,
+          "lower_open": false,
+          "amplitude_upper": -0.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 122,
+            "y": 19,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 13,
+            "side": 4,
+            "z": -6.0,
+            "c": 1.71875
+          },
+          "upper_witness": {
+            "case": "epsilon-2x2",
+            "x": 128,
+            "y": 16,
+            "RGB": [
+              128,
+              128,
+              128
+            ],
+            "white": true,
+            "strength": 1e-06,
+            "rank": 0,
+            "side": 2,
+            "z": -0.0,
+            "c": -3.75e-07
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 25.6,
+          "lower_open": false,
+          "amplitude_upper": -12.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -16.0,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 15,
+            "y": 7,
+            "RGB": [
+              119,
+              0,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -8.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "bits": [
+        5,
+        6,
+        5
+      ],
+      "rounding_before_bins": "nearest_even",
+      "representative": "fixed midpoint",
+      "Bayer_convention": "centered",
+      "transition_formula": "clip RGB+noise, uint8 rounding, floor into bins, bin-center RGB nearest black/white; white at noise>=integerTransition (minus0.5 for nearest-even)",
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 24.8,
+          "lower_open": false,
+          "amplitude_upper": -41.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -15.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 97,
+            "y": 15,
+            "RGB": [
+              255,
+              102,
+              17
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -6.5,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": false,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": true,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": false,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 134,
+            "y": 18,
+            "RGB": [
+              134,
+              134,
+              134
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 4,
+            "z": 6.5,
+            "c": -2.03125
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 24.8,
+          "lower_open": false,
+          "amplitude_upper": -12.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -15.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 15,
+            "y": 7,
+            "RGB": [
+              119,
+              0,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -7.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "bits": [
+        6,
+        6,
+        6
+      ],
+      "rounding_before_bins": "truncate",
+      "representative": "fixed midpoint",
+      "Bayer_convention": "centered",
+      "transition_formula": "clip RGB+noise, uint8 rounding, floor into bins, bin-center RGB nearest black/white; white at noise>=integerTransition (minus0.5 for nearest-even)",
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 22.4,
+          "lower_open": false,
+          "amplitude_upper": -38.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -14.0,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 37,
+            "y": 15,
+            "RGB": [
+              255,
+              34,
+              85
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -6.0,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": false,
+          "amplitude_upper": 1.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -6.0,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.6666666666666665,
+          "lower_open": true,
+          "amplitude_upper": 3.2,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.0,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -12.0,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": false,
+          "amplitude_upper": 1.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -6.0,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.4909090909090907,
+          "lower_open": false,
+          "amplitude_upper": -0.0,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 122,
+            "y": 19,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 13,
+            "side": 4,
+            "z": -6.0,
+            "c": 1.71875
+          },
+          "upper_witness": {
+            "case": "epsilon-2x2",
+            "x": 128,
+            "y": 16,
+            "RGB": [
+              128,
+              128,
+              128
+            ],
+            "white": true,
+            "strength": 1e-06,
+            "rank": 0,
+            "side": 2,
+            "z": -0.0,
+            "c": -3.75e-07
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 22.4,
+          "lower_open": false,
+          "amplitude_upper": -9.6,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -14.0,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 1,
+            "RGB": [
+              17,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -6.0,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    },
+    {
+      "bits": [
+        6,
+        6,
+        6
+      ],
+      "rounding_before_bins": "nearest_even",
+      "representative": "fixed midpoint",
+      "Bayer_convention": "centered",
+      "transition_formula": "clip RGB+noise, uint8 rounding, floor into bins, bin-center RGB nearest black/white; white at noise>=integerTransition (minus0.5 for nearest-even)",
+      "scopes": {
+        "all_five_cases": {
+          "feasible": false,
+          "amplitude_lower": 21.6,
+          "lower_open": false,
+          "amplitude_upper": -35.2,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -13.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "cube-4x4",
+            "x": 37,
+            "y": 15,
+            "RGB": [
+              255,
+              34,
+              85
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 7,
+            "side": 4,
+            "z": -5.5,
+            "c": -0.15625
+          },
+          "constant_contradictions": [],
+          "observations": 40960
+        },
+        "prior_strength5_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": false,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 4096
+        },
+        "prior_strength10_gray": {
+          "feasible": true,
+          "amplitude_lower": 2.8,
+          "lower_open": true,
+          "amplitude_upper": 3.066666666666667,
+          "upper_open": true,
+          "lower_witness": {
+            "case": "bw-2x2-ten",
+            "x": 138,
+            "y": 16,
+            "RGB": [
+              138,
+              138,
+              138
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 0,
+            "side": 2,
+            "z": 10.5,
+            "c": -3.75
+          },
+          "upper_witness": {
+            "case": "bw-2x2-ten",
+            "x": 116,
+            "y": 17,
+            "RGB": [
+              116,
+              116,
+              116
+            ],
+            "white": false,
+            "strength": 10.0,
+            "rank": 3,
+            "side": 2,
+            "z": -11.5,
+            "c": 3.75
+          },
+          "constant_contradictions": [],
+          "observations": 4096,
+          "example_amplitude": 2.9333333333333336,
+          "replay_mismatches_in_scope": 0
+        },
+        "both_prior_gray": {
+          "feasible": false,
+          "amplitude_lower": 2.933333333333333,
+          "lower_open": false,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 122,
+            "y": 17,
+            "RGB": [
+              122,
+              122,
+              122
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 3,
+            "side": 2,
+            "z": -5.5,
+            "c": 1.875
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        },
+        "all_gray": {
+          "feasible": false,
+          "amplitude_lower": 3.2,
+          "lower_open": true,
+          "amplitude_upper": 2.4,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "cube-4x4",
+            "x": 134,
+            "y": 18,
+            "RGB": [
+              134,
+              134,
+              134
+            ],
+            "white": false,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 4,
+            "z": 6.5,
+            "c": -2.03125
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 129,
+            "y": 17,
+            "RGB": [
+              129,
+              129,
+              129
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": 1.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 24576
+        },
+        "prior_cube": {
+          "feasible": false,
+          "amplitude_lower": 21.6,
+          "lower_open": false,
+          "amplitude_upper": -8.8,
+          "upper_open": false,
+          "lower_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 0,
+            "RGB": [
+              0,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 2,
+            "side": 2,
+            "z": -13.5,
+            "c": 0.625
+          },
+          "upper_witness": {
+            "case": "fixed-2x2",
+            "x": 111,
+            "y": 1,
+            "RGB": [
+              17,
+              102,
+              255
+            ],
+            "white": true,
+            "strength": 5.0,
+            "rank": 1,
+            "side": 2,
+            "z": -5.5,
+            "c": -0.625
+          },
+          "constant_contradictions": [],
+          "observations": 8192
+        }
+      }
+    }
+  ],
+  "post_noise_bin_boundaries_checked_against_direct_processing": true,
+  "unperturbed_bin_collisions": [
+    {
+      "bits": [
+        4,
+        4,
+        4
+      ],
+      "same_input_bin_and_phase_opposite_outputs": [
+        {
+          "case": "fixed-2x2",
+          "x": 125,
+          "y": 16,
+          "RGB": [
+            125,
+            125,
+            125
+          ],
+          "white": false,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        },
+        {
+          "case": "fixed-2x2",
+          "x": 127,
+          "y": 16,
+          "RGB": [
+            127,
+            127,
+            127
+          ],
+          "white": true,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        }
+      ],
+      "boundary": "Rejects a deterministic lookup using only this unperturbed bin+phase; not all post-noise bins, caches, exact-RGB adaptive maps or context."
+    },
+    {
+      "bits": [
+        5,
+        5,
+        5
+      ],
+      "same_input_bin_and_phase_opposite_outputs": [
+        {
+          "case": "fixed-2x2",
+          "x": 125,
+          "y": 16,
+          "RGB": [
+            125,
+            125,
+            125
+          ],
+          "white": false,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        },
+        {
+          "case": "fixed-2x2",
+          "x": 127,
+          "y": 16,
+          "RGB": [
+            127,
+            127,
+            127
+          ],
+          "white": true,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        }
+      ],
+      "boundary": "Rejects a deterministic lookup using only this unperturbed bin+phase; not all post-noise bins, caches, exact-RGB adaptive maps or context."
+    },
+    {
+      "bits": [
+        5,
+        6,
+        5
+      ],
+      "same_input_bin_and_phase_opposite_outputs": [
+        {
+          "case": "fixed-2x2",
+          "x": 125,
+          "y": 16,
+          "RGB": [
+            125,
+            125,
+            125
+          ],
+          "white": false,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        },
+        {
+          "case": "fixed-2x2",
+          "x": 127,
+          "y": 16,
+          "RGB": [
+            127,
+            127,
+            127
+          ],
+          "white": true,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        }
+      ],
+      "boundary": "Rejects a deterministic lookup using only this unperturbed bin+phase; not all post-noise bins, caches, exact-RGB adaptive maps or context."
+    },
+    {
+      "bits": [
+        6,
+        6,
+        6
+      ],
+      "same_input_bin_and_phase_opposite_outputs": [
+        {
+          "case": "fixed-2x2",
+          "x": 125,
+          "y": 16,
+          "RGB": [
+            125,
+            125,
+            125
+          ],
+          "white": false,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        },
+        {
+          "case": "fixed-2x2",
+          "x": 127,
+          "y": 16,
+          "RGB": [
+            127,
+            127,
+            127
+          ],
+          "white": true,
+          "strength": 5.0,
+          "rank": 2,
+          "side": 2
+        }
+      ],
+      "boundary": "Rejects a deterministic lookup using only this unperturbed bin+phase; not all post-noise bins, caches, exact-RGB adaptive maps or context."
+    }
+  ],
+  "exact_global_fit_candidates": [],
+  "provider_calls": 0,
+  "credentials_loaded": false,
+  "private_method_recovered": false
+}

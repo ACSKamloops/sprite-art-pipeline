@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "scope": "selected unchanged shipped palette-image handler parity, not private service or quality",
+  "created_utc": "2026-10-14T07:55:46.258898+00:00",
+  "source_asset_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+  "factory_sha256": "e9c6cb49052afbda45b9f16559a109f802dba299eab6fd3b166da3154188e0ee",
+  "focused_tests": {
+    "command": "python -m pytest -q tests/test_parity_palette.py",
+    "passed": 16,
+    "skipped": 0,
+    "seconds": 3.29
+  },
+  "browser": {
+    "version": "153.0.8010.12",
+    "network_requests": 0,
+    "report_path": "/home/astra/artifacts/pixellab-parity-palette-20261014/browser/browser-oracle.json",
+    "report_sha256": "ba728a6a0a2cbff5ff4b70d7b1c6e51123b9a0ca87c88e01103838f048e00480",
+    "cases": [
+      {
+        "file": "many.png",
+        "png_sha256": "b04fc58da873ebb705d6d0d31bcc6298d329c5b18864030ece396cb9dd176628",
+        "width": 256,
+        "height": 16,
+        "canvas_rgba_sha256": "4e12a02ccd18226342cfe332e9c5b25099d6b82e81b8269c14d4091b6d853bd4",
+        "adapter_exact": true,
+        "palette_count": 32,
+        "original_outcome_sha256": "df65e8b24f63010f294e24f2775729bc3bb63af1585557179340830df19a7742",
+        "accepted": true
+      },
+      {
+        "file": "partial.png",
+        "png_sha256": "38e334d349bc93422ab74b24f60ed1a3663e6c1f4345cb778332ff6a95084985",
+        "width": 4,
+        "height": 1,
+        "canvas_rgba_sha256": "2a183e89233b615ab7725caafabbc1edbd0e08b069c23eb8c3a68f83b5eec7a6",
+        "adapter_exact": true,
+        "palette_count": 3,
+        "original_outcome_sha256": "73d8ce95dfc075f90a3c94e390fdef817502b763fbd5f0421bcc03ed0746c460",
+        "accepted": true
+      },
+      {
+        "file": "threshold.png",
+        "png_sha256": "04d923a463743fb37b37eeb5a3d10639e3c7d7385c42953aebdb31b9238c2a82",
+        "width": 16,
+        "height": 16,
+        "canvas_rgba_sha256": "63ebb6b3b1b70b093fec457666c577d81d345c395283fc79a7ac9ea70103b2b0",
+        "adapter_exact": true,
+        "palette_count": 256,
+        "original_outcome_sha256": "48fb0f3f513a33b631b87b6801c28cd77d011e148fdeb9db9f8e3c535e68025e",
+        "accepted": true
+      },
+      {
+        "file": "transparent.png",
+        "png_sha256": "801c54c9aa7f39011dbcdd7240bfd3f7003f57b713c86d18a3553270b9154eab",
+        "width": 2,
+        "height": 1,
+        "canvas_rgba_sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+        "adapter_exact": true,
+        "palette_count": 0,
+        "original_outcome_sha256": "f8b0ff0ed660d35d4b1f4a3c1ecc897bae60304ac5f44313b6d61945b7603084",
+        "accepted": false
+      }
+    ]
+  },
+  "files": {
+    "sprite_workbench/parity_palette.py": "8f206f8d88c34dbfdfd2fe72a1ffbca3f55169ca4c73f2a3d60a6c1bd7381d13",
+    "sprite_workbench/parity_palette_runner.cjs": "2b04ab709518b319409d7601b0e98f4dd7fe66321b877b3ea5c1d3ab1ba22d8b",
+    "sprite_workbench/parity_palette_source.json": "a32ca0ece88e70b9199173f1af0e7ee0c1d1868ea3383df8cc652074565f0d3c",
+    "tests/test_parity_palette.py": "42af0defaf95e239b52e96dfd538bd8dfea0d78fb9b95715cda53ed3c88a1800",
+    "tests/parity_palette_oracle.cjs": "2364a1f204c125b8f8001f37110a0b808e46efe8ba0fae5d995380a7353ffb02",
+    "tests/parity_palette_browser.cjs": "dc9f8644385835a657874eb57db9e5ec6940b91ebd8b7ada798fde1a3458f6f3"
+  },
+  "limits": [
+    "canvas-equivalent input only; not PNG decoder equivalence",
+    "one image, no arbitrary target K",
+    "no private reducer/dither/automatic-K parity",
+    "selected cases only; not whole workflow or art approval"
+  ],
+  "observed_decoder_difference": {
+    "png_rgba": [
+      90,
+      2,
+      7,
+      1
+    ],
+    "canvas_rgba": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "interpretation": "observed Chromium conversion only; no generalized codec transform inferred"
+  }
+}

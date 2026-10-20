@@ -1,0 +1,29 @@
+{
+  "first_launch": {
+    "command": "playwright-cli --session emberwake-eight-systems open http://127.0.0.1:8908/index.html",
+    "exit_code": 1,
+    "reason": "Chromium distribution 'chrome' absent at /opt/google/chrome/chrome"
+  },
+  "fallback": "Use an already installed local Chromium binary with an isolated in-memory context; no browser installation or player-state mutation.",
+  "config": {
+    "browser": {
+      "browserName": "chromium",
+      "isolated": true,
+      "launchOptions": {
+        "headless": true,
+        "executablePath": "/home/astra/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome",
+        "args": [
+          "--no-sandbox",
+          "--disable-dev-shm-usage",
+          "--enable-unsafe-swiftshader"
+        ]
+      },
+      "contextOptions": {
+        "viewport": {
+          "width": 1280,
+          "height": 720
+        }
+      }
+    }
+  }
+}

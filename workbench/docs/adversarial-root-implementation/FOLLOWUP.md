@@ -1,0 +1,11 @@
+# Fixed boundary regressions and selected orchestration review
+
+After owner commits `8aec74f` and `0043713`, this isolated worktree independently reran all46 original reviewer regressions:46 pass,0fail. `CORRECTION-RESOLUTION.json` and `FIXED-JUNIT.xml` bind actual source hashes and outcomes. R01–R05 are resolved for their selected counterexamples. The old baseline report/JUnit remain immutable evidence of commit6ae55c6, not assertions about the fixed current version.
+
+Three bounded resource controls also pass: aggregate layers reject under a40-byte instrumented limit; a small explicit brush path rejects the32M stamp-work limit without painting; a changed manifest rejects before starting Node. These support the added guards, not a peak-memory or OS-isolation claim.
+
+Selected pipeline/track/composition review adds16 cases:9pass and7fail against the frozen0043713 version. Exact outcomes, code hashes and fix oracles are in `PIPELINE-REVIEW.json` and `PIPELINE-BASELINE-JUNIT.xml`; the executable specifications are `tests/test_adversarial_pipeline.py`.
+
+The remaining failures concern actual coherent-flow ownership and clocks: reference resolution happens outside the step failure handler; stored plans can drift from execution when caller-owned later steps change after the freeze; preflight ID/ref/version types are insufficiently guarded; finite play counts do not replay in composition; hold frames and track audit inputs share mutable lists. A controlled mutation hook demonstrates the ownership boundaries without asserting that a user incident occurred. Fixes should execute canonical frozen input, retain failed-run receipts, honor finite replay windows and return independent frame/audit values.
+
+Positive controls exercise import→preparation→edit→publication and stale refusal with preserved parent/head, CLI failure JSON/exit2, finite GIF versus APNG repeat interpretation, analytic track sampling/holds/smoothstep/unwrapped degrees, and structured bad track clocks/modes. These are mechanical observations. They do not establish complete F01–F11 conformance, current vendor fidelity, learned animation or a9/10 visual result. No model, service, paid or external network calls occurred, and no root-owned source was edited.

@@ -1,0 +1,64 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "transparent_background": true,
+  "prompt_file": "request-v1.txt",
+  "prompt_sha256": "c100031cbefb5913ab83a9a5b54676b311c52eefe863f0ec6c1efffabcbafbc9",
+  "actual_inputs": [
+    {
+      "path": "inputs/four-key-filled-guide.png",
+      "role": "authoritative pose and sheet layout guide",
+      "sha256": "a2b7c1656b3c9f6da7bb85620cb0511164c0d630f4e8eec1e805a969c7716e8b",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "inputs/brann-appearance.png",
+      "role": "appearance and materials only",
+      "sha256": "6d04f20577322789cd77966e969e0cd8901664cfde93bf504e89f26508697c67",
+      "dimensions": [
+        768,
+        256
+      ]
+    }
+  ],
+  "stage": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    112
+  ],
+  "layout": [
+    2,
+    2
+  ],
+  "timing_control": {
+    "full_cycle_seconds": 0.45,
+    "game_scale": 0.66
+  },
+  "generation_status": "returned",
+  "returned_cache_path": "/home/astra/.codex/generated_images/01a147fb-2a56-7ed2-96c8-e179e96d35b6/exec-3f02d90b-b337-4414-bf56-98bc1db0d857.png",
+  "raw_path": "raw/imagegen-four-keys-v1.png",
+  "raw_sha256": "daa31ff4b6ce158ae00b67845e0ff83f106302b757b9db946fc23a5c4b5c6902",
+  "raw_dimensions": [
+    1254,
+    1254
+  ],
+  "raw_mode": "RGBA",
+  "registration": {
+    "whole_sheet_target": [
+      256,
+      256
+    ],
+    "method": "one whole-sheet nearest resize to fixed2x2 native128 grid then equal cell crop",
+    "per_pose_fit": false,
+    "alpha_policy": "raw alpha retained, no threshold"
+  },
+  "raw_alpha_extrema": [
+    0,
+    255
+  ]
+}

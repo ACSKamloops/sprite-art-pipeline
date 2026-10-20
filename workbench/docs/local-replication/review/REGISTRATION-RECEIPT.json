@@ -1,0 +1,185 @@
+{
+  "kind": "supplied-sequence-comparison",
+  "version": 1,
+  "status": "completed",
+  "exact_sequence_match": false,
+  "baseline": {
+    "sequence": "2e816732c06509f713a0a78a91f03d2a3f21dba1b4388783ce79c49bf44f55a2",
+    "canvas": [
+      3,
+      1
+    ],
+    "play_count": 1
+  },
+  "candidate": {
+    "sequence": "26274c53e81f720eb0cdfdfa43381e8333cb907592e06ef7148727b0f6868425",
+    "canvas": [
+      3,
+      1
+    ],
+    "play_count": 2
+  },
+  "frames": [
+    {
+      "index": 0,
+      "baseline_present": true,
+      "candidate_present": true,
+      "same_shape": true,
+      "rgba_changed_pixels": 3,
+      "alpha_changed_pixels": 1,
+      "both_visible_rgb_changed_pixels": 1,
+      "both_hidden_rgb_changed_pixels": 1,
+      "visible_rgba_palette": {
+        "baseline_count": 2,
+        "candidate_count": 2,
+        "equal": false
+      },
+      "duration_equal": false,
+      "pivot_equal": false,
+      "direction_equal": false
+    },
+    {
+      "index": 1,
+      "baseline_present": false,
+      "candidate_present": true
+    }
+  ],
+  "registration_policy": "Original ordered full canvases; no alignment, resampling or coalescing",
+  "artistic_acceptance": "unreviewed",
+  "continuous_motion_viewed": false,
+  "scope": "Exact pixels, alpha, pivots, direction labels, rational holds and play count only; no quality score.",
+  "exports": {
+    "baseline": {
+      "sequence_id": "2e816732c06509f713a0a78a91f03d2a3f21dba1b4388783ce79c49bf44f55a2",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "manifest",
+        "png",
+        "review"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 1
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 1,
+          "adjacent_pairs": 0,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [],
+      "files": [
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 78,
+          "sha256": "25ee67d9def6006ab3da9180ae1894a911d3b90f1e8980661f9a7f91c4484a93"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 886,
+          "sha256": "81c80f794a6f51e25abe3ca6baedcf127ea5c31a458a304795e66490c0d14eed"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 78,
+          "sha256": "25ee67d9def6006ab3da9180ae1894a911d3b90f1e8980661f9a7f91c4484a93"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 6161,
+          "sha256": "9fc7bdf87c0b9dba530f481b9852214dd49e956d06e63083900e0cbd2fd2de3e"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 1330,
+          "sha256": "0012b7a9e5b865795af64ce4d1fe54e09564e619626780b8cf247affef1a614b"
+        }
+      ]
+    },
+    "candidate": {
+      "sequence_id": "26274c53e81f720eb0cdfdfa43381e8333cb907592e06ef7148727b0f6868425",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "manifest",
+        "png",
+        "review"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 2
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 2,
+          "adjacent_pairs": 1,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 2
+        }
+      },
+      "source_ids": [],
+      "files": [
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 78,
+          "sha256": "741331ecd5ddcf494b858dcc6ab24703d14cf6055c3abc5749724dd61b77a265"
+        },
+        {
+          "file": "frames/frame-0001.png",
+          "bytes": 78,
+          "sha256": "741331ecd5ddcf494b858dcc6ab24703d14cf6055c3abc5749724dd61b77a265"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 1338,
+          "sha256": "c444b80d047837190515f8d1926bbac27e2b5b1d5244d6d005bc49601cd195d8"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 78,
+          "sha256": "741331ecd5ddcf494b858dcc6ab24703d14cf6055c3abc5749724dd61b77a265"
+        },
+        {
+          "file": "review/frames/frame-0001.png",
+          "bytes": 78,
+          "sha256": "741331ecd5ddcf494b858dcc6ab24703d14cf6055c3abc5749724dd61b77a265"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 7199,
+          "sha256": "cec6e01aa8a5ad39c5fde498ddf662b5f51d6f5cbf299d9ae36b2205457233ef"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 1992,
+          "sha256": "6f7dcea0db504db816a97e0acfddb5fffc4277028d1318a1e4c0c7d000af5521"
+        }
+      ]
+    }
+  }
+}

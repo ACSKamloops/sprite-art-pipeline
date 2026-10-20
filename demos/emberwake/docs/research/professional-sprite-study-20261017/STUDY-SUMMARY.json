@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-17",
+  "task": "Find, download and analyze high-quality comparable character animation references",
+  "latest_user_constraint": "References must be comparable to our actual art style",
+  "local_viewer": "http://localhost:8807/",
+  "viewer_directory": "style-viewer-v1",
+  "final_style_comparison_input": {
+    "path": "STYLE-MATCH-INPUT-v1.json",
+    "sha256": "fc505c1fd749c0c0504cd96812dab3fef5d7aefefd8c7a07e8fad36a0556911c",
+    "clips": 6,
+    "exposure_entries": 48
+  },
+  "current_selection": {
+    "ragnarok_swordsman_male_SE_NE": "Qualified comparable walks: shaded JRPG family, elevated oblique camera, separate visible gloves/boots; smaller heads, slimmer longer limbs and less rounded volume than target. Useful phase reference, not accepted primary appearance standard.",
+    "ragnarok_female_knight_SE": "Qualified clothing variants; lower-body occlusion limits direct foot/leg analysis.",
+    "duelyst_tiny_swords": "Secondary technique references only after user rejected the style mismatch. Prior source/arithmetic review remains scoped to those data.",
+    "lpc": "Secondary geometry only.",
+    "mana_seed": "Excluded from shared benchmark/viewer/skill; explicit AI-use restrictions retained separately."
+  },
+  "evidence": {
+    "source_review": "adversarial-review/REVIEW.md",
+    "style_gate": "style-matched/style-gate-review/GATE.md",
+    "walk_review": "style-matched/style-gate-review/ragnarok-motion-screen-v1/REVIEW.md",
+    "root_official_preview_research": "style-matched/research-oblique/REPORT.md",
+    "second_search": "style-matched/research-jrpg/REPORT.md",
+    "style_player": "output/playwright/STYLE-PLAYER-v1.json"
+  },
+  "limits": [
+    "No new Emberwake art generated, edited, approved, integrated or published.",
+    "No H3, MiniMax, local generative models or ImageGen used.",
+    "No fully accepted primary appearance/proportion benchmark established.",
+    "Third-party RO APNG encoded clocks are not verified original-client pacing or scale/compositing fidelity.",
+    "Ordered-still reviews and browser transport checks are not continuous human motion acceptance.",
+    "No real-source stance fit or physical contact claim."
+  ],
+  "analysis_v2": {
+    "input": "STUDY-INPUT-v2.json",
+    "input_sha256": "6916f410c81726f711f9929fc13b6db67df3d69c4d09077fe43950dd8d93ca06",
+    "measurements": "analysis/results-v2/MEASUREMENTS.json",
+    "measurements_sha256": "ee5caa931d184942e3a15ce2f71e442d3e1b85eb99547d21ea6fad57d4f9ddeb",
+    "clips": 11,
+    "exposure_entries": 142,
+    "duelyst_annotation_revision": "duelyst-annotation-revision-v2/LANDMARKS.json",
+    "withdrawn_source_samples": 22,
+    "withdrawn_reused_profile_entries": 44
+  }
+}

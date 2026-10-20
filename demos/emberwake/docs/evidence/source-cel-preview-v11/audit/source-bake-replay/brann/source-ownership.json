@@ -1,0 +1,1370 @@
+{
+  "southeast": {
+    "cells": {
+      "2": {
+        "main_label": 1,
+        "main_area": 19138,
+        "main_bbox": [
+          610,
+          23,
+          717,
+          254
+        ],
+        "additional_components": [],
+        "ownership_sha256": "53c0dca2881ae8354ebc47b333f7e783f1ea6d05fea81f7db4848935f1d6a6a0",
+        "rgba_sha256": "b56841aca50298c61e72ebe5b0147449e2d4e2e2b4484c351280e775beef3cdd",
+        "native_bbox": [
+          44,
+          14,
+          89,
+          112
+        ]
+      },
+      "1": {
+        "main_label": 2,
+        "main_area": 21568,
+        "main_bbox": [
+          342,
+          25,
+          469,
+          254
+        ],
+        "additional_components": [],
+        "ownership_sha256": "93cb81397c18e091b93f47a6c5148e40516183b2c83f9b31d6b5cf80878a3018",
+        "rgba_sha256": "e34589e641dcf6e917294981b0288b20ca0d8571906e9adf05255cab433c1af7",
+        "native_bbox": [
+          38,
+          16,
+          92,
+          112
+        ]
+      },
+      "4": {
+        "main_label": 3,
+        "main_area": 22015,
+        "main_bbox": [
+          1084,
+          25,
+          1251,
+          253
+        ],
+        "additional_components": [],
+        "ownership_sha256": "6920519aba7707505d12125364195e3ef2eaa7a06d3585f974d30127c839bf58",
+        "rgba_sha256": "18bb5034567939636826a577ff3a862561fb2ce190200d033801ff937f8a0046",
+        "native_bbox": [
+          27,
+          16,
+          98,
+          112
+        ]
+      },
+      "5": {
+        "main_label": 4,
+        "main_area": 21369,
+        "main_bbox": [
+          1351,
+          25,
+          1505,
+          255
+        ],
+        "additional_components": [],
+        "ownership_sha256": "36543d11ba6b8fe75bb72cdeb739eed2aa901d8a9348a02521c1f9a7275158fa",
+        "rgba_sha256": "d7d9bc3c306977ae748b140f8c1c63d2e255b46c7f7ea100bedb2a5b4666c200",
+        "native_bbox": [
+          32,
+          15,
+          98,
+          112
+        ]
+      },
+      "7": {
+        "main_label": 5,
+        "main_area": 22058,
+        "main_bbox": [
+          1860,
+          25,
+          2011,
+          255
+        ],
+        "additional_components": [
+          {
+            "label": 11,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "546a157122e28beb132363d8f63def0e3319f99bd23cc7bb8975b6f970c0cd1b",
+        "rgba_sha256": "6a268d18d16c5d569a6bbc7190c9831064c0573774f8e6212580eebe728c5b1f",
+        "native_bbox": [
+          31,
+          15,
+          95,
+          112
+        ]
+      },
+      "0": {
+        "main_label": 6,
+        "main_area": 22130,
+        "main_bbox": [
+          66,
+          27,
+          224,
+          255
+        ],
+        "additional_components": [],
+        "ownership_sha256": "d20a750f44bf2e5969ca3d170e672bf8011f04feff30fa827bf55714d786cda8",
+        "rgba_sha256": "cef28d529d5b4f9903fbbee609e2e73586784375cebc5a7791f4e16f2f018301",
+        "native_bbox": [
+          30,
+          16,
+          97,
+          112
+        ]
+      },
+      "3": {
+        "main_label": 7,
+        "main_area": 20010,
+        "main_bbox": [
+          859,
+          27,
+          974,
+          255
+        ],
+        "additional_components": [
+          {
+            "label": 10,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "402d92a06fa3db1bb47360402fcf9fec2f565cb273d0facdd11c5e6b84587940",
+        "rgba_sha256": "82fed95757ffc97581f009bcd516a15c8f1decc8ead7729b0f2a527c11326e03",
+        "native_bbox": [
+          41,
+          16,
+          89,
+          112
+        ]
+      },
+      "6": {
+        "main_label": 8,
+        "main_area": 21972,
+        "main_bbox": [
+          1592,
+          27,
+          1756,
+          255
+        ],
+        "additional_components": [
+          {
+            "label": 9,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "24b9d9eb504bf889f84a4fd0eb2de1bc298d8cfd144ade5dd38e3a121ea53144",
+        "rgba_sha256": "3853299c5c184295f8b7d1c32705044770a9b87d5e62d994b05711e3c17a0bbb",
+        "native_bbox": [
+          26,
+          16,
+          95,
+          112
+        ]
+      },
+      "8": {
+        "main_label": 12,
+        "main_area": 22302,
+        "main_bbox": [
+          77,
+          276,
+          216,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "5033ec15f2b39b29c999c7c433e390807f99c838b835131588e587b2515e29e2",
+        "rgba_sha256": "ff2d02c411c11fee004b099bb90b820dfd0830c4f8a86a1b40a16c808d0109e8",
+        "native_bbox": [
+          35,
+          16,
+          94,
+          112
+        ]
+      },
+      "12": {
+        "main_label": 13,
+        "main_area": 22131,
+        "main_bbox": [
+          1100,
+          276,
+          1241,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "1feceeddffe27aeb0b040d47d706d91ddd1f0969363d0b38112cb4c4370d420b",
+        "rgba_sha256": "25e513b366bc9b127e6d55923c8cf19af43c2550fb2368aa715a7361e48de488",
+        "native_bbox": [
+          34,
+          16,
+          94,
+          112
+        ]
+      },
+      "15": {
+        "main_label": 14,
+        "main_area": 22166,
+        "main_bbox": [
+          1870,
+          276,
+          2006,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "1b786f481ec0b73800e09d25408821c27755240cef1e1bfba73329c9bb0bd0e8",
+        "rgba_sha256": "19dd84b3ad961bbf1ca7998f3a17e83adf33ebe929db53d2df8d339629654262",
+        "native_bbox": [
+          35,
+          16,
+          93,
+          112
+        ]
+      },
+      "11": {
+        "main_label": 15,
+        "main_area": 23847,
+        "main_bbox": [
+          825,
+          277,
+          1031,
+          503
+        ],
+        "additional_components": [],
+        "ownership_sha256": "b05a93ce1d75410348dc08fdc4cf832c6e83d4af9e4252205584b997f24a9f74",
+        "rgba_sha256": "4f5fe2c92366379fd3b66b4e30d53d61ae9762e8a00ba0b27907330699400bad",
+        "native_bbox": [
+          26,
+          17,
+          114,
+          113
+        ]
+      },
+      "13": {
+        "main_label": 16,
+        "main_area": 22228,
+        "main_bbox": [
+          1355,
+          277,
+          1498,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "7392e4b88c44ca121230fd37290db7e3d0606317ea0c23eb2ef37e3a8e3e9c8c",
+        "rgba_sha256": "b9f92b58ee139de0213d66cd7169082e0861ccc45f2b2c52c947c19831e94380",
+        "native_bbox": [
+          34,
+          17,
+          95,
+          112
+        ]
+      },
+      "14": {
+        "main_label": 17,
+        "main_area": 21894,
+        "main_bbox": [
+          1615,
+          277,
+          1752,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "db5723363098b7a61240ca909b5488b30e9d154c69880e2bf01e2d7715cd29c3",
+        "rgba_sha256": "2ece15a81090e5e1eaa3557abe38684b471eac52203e4594d980cb0b8e2c6da8",
+        "native_bbox": [
+          36,
+          17,
+          94,
+          112
+        ]
+      },
+      "9": {
+        "main_label": 18,
+        "main_area": 21130,
+        "main_bbox": [
+          327,
+          278,
+          474,
+          501
+        ],
+        "additional_components": [],
+        "ownership_sha256": "7b0d4e323294991ea3e123383d373b6851e1528cf52aec4e2246e20874cf6b3f",
+        "rgba_sha256": "e39153f73180b4bb11cc3dd5fc731c8a59f0ec17899d9dd7fd7309d3b65aebd4",
+        "native_bbox": [
+          32,
+          17,
+          95,
+          112
+        ]
+      },
+      "10": {
+        "main_label": 19,
+        "main_area": 21821,
+        "main_bbox": [
+          582,
+          278,
+          764,
+          503
+        ],
+        "additional_components": [],
+        "ownership_sha256": "be56c47e78d5864b475ff9776626c1d59c250dd1cf0ca2b6f1eaf78eaea383af",
+        "rgba_sha256": "b3bd25e0c419fdc5ab6fe7dd25f1437ce0157bbcb121399981aad4891bba2031",
+        "native_bbox": [
+          32,
+          17,
+          109,
+          113
+        ]
+      },
+      "16": {
+        "main_label": 20,
+        "main_area": 21830,
+        "main_bbox": [
+          77,
+          532,
+          215,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "d51373b932aa3d2014bc3a60ceb3e4a424bea942424be1bf04165949253c30dd",
+        "rgba_sha256": "2554b09dfdc9fe6e24ea66ae9d57e7dd8779b477d740e305bfeefb2faf4d4788",
+        "native_bbox": [
+          35,
+          16,
+          93,
+          113
+        ]
+      },
+      "17": {
+        "main_label": 21,
+        "main_area": 21752,
+        "main_bbox": [
+          338,
+          532,
+          466,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "4aabd3b0808d6000559344a127270d3eba31ce61e58b7d55cc338726f2eaa7f7",
+        "rgba_sha256": "88d9d29c67a87f428ca35347c13f7f63579ff218c4c801c9ce3e36279c974b50",
+        "native_bbox": [
+          37,
+          16,
+          91,
+          113
+        ]
+      },
+      "19": {
+        "main_label": 22,
+        "main_area": 24611,
+        "main_bbox": [
+          827,
+          532,
+          1017,
+          765
+        ],
+        "additional_components": [],
+        "ownership_sha256": "9fea200f2450f0d1792d9cae1aa10732b54f7f2b50bed324c942b259549de77c",
+        "rgba_sha256": "580ef91c2f22dc1c7272bec32983539cbec9e24eb14733b86f7415b046f68f48",
+        "native_bbox": [
+          27,
+          16,
+          108,
+          115
+        ]
+      },
+      "20": {
+        "main_label": 23,
+        "main_area": 22667,
+        "main_bbox": [
+          1101,
+          532,
+          1251,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "03fc1ec89dbb26d4e2a116c7f3be7d2d771412c3eb45d55f45171d0e5c728fad",
+        "rgba_sha256": "b3ccdc073516cc058cf134f8e47a90173ff46c7340383eabc832c44349433be1",
+        "native_bbox": [
+          35,
+          16,
+          98,
+          113
+        ]
+      },
+      "21": {
+        "main_label": 24,
+        "main_area": 22266,
+        "main_bbox": [
+          1359,
+          532,
+          1495,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "31bb0d311b09aabebb7066fa0182087b60821884d6f0b58045a36d333cdbd4a0",
+        "rgba_sha256": "633612734700e06fe6578d261e509bac11b4925b7f8326aa177d8e4857fdabf0",
+        "native_bbox": [
+          36,
+          16,
+          93,
+          113
+        ]
+      },
+      "22": {
+        "main_label": 25,
+        "main_area": 22167,
+        "main_bbox": [
+          1615,
+          532,
+          1751,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "be692fbff1efc28c2ba38cd4ccef38cd05ca36501a54675198a711eb48be5e32",
+        "rgba_sha256": "7b186c2e29d42ba104bc80ccb954d1127546c150f7960ba3d28d8302f9a78bf7",
+        "native_bbox": [
+          36,
+          16,
+          93,
+          113
+        ]
+      },
+      "23": {
+        "main_label": 26,
+        "main_area": 22228,
+        "main_bbox": [
+          1870,
+          532,
+          2005,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "67fd8a80caa98078379c9e6b47e88f687c781768e359ff3ddf948297a7f5e479",
+        "rgba_sha256": "6ba312ac3f37ce1aafbb7207d5ed07645c636c7e2669d4dc10540c7ccd21875c",
+        "native_bbox": [
+          35,
+          16,
+          92,
+          113
+        ]
+      },
+      "18": {
+        "main_label": 27,
+        "main_area": 21929,
+        "main_bbox": [
+          583,
+          533,
+          713,
+          760
+        ],
+        "additional_components": [],
+        "ownership_sha256": "b7252dee42cd8fafdc30e37e15b1a39662d6a6a5c584a512ffb826b4ce8937d0",
+        "rgba_sha256": "01893f86c91267aff1f2ed33b0bbbc331620f5217d5ab05e29389584ae0449fd",
+        "native_bbox": [
+          32,
+          16,
+          87,
+          113
+        ]
+      },
+      "30": {
+        "main_label": 28,
+        "main_area": 23152,
+        "main_bbox": [
+          1606,
+          783,
+          1758,
+          1011
+        ],
+        "additional_components": [],
+        "ownership_sha256": "d3576de57269b6b1e9e7c0000fb91cc89ffe072cf135704a35f1367b1648417b",
+        "rgba_sha256": "b9267b6fe31dc8c9f4a5186d1fce5363795f1ae96007c6f74e16168b51cf89b4",
+        "native_bbox": [
+          32,
+          16,
+          96,
+          112
+        ]
+      },
+      "26": {
+        "main_label": 29,
+        "main_area": 21701,
+        "main_bbox": [
+          593,
+          786,
+          727,
+          1011
+        ],
+        "additional_components": [],
+        "ownership_sha256": "ff43977e3c3a962f33f3f9b94a1d75b66fda7a50b8524b21ebedea624545038c",
+        "rgba_sha256": "fe6c087573a932b2d35921ea408228b0d350e5bfb10297ede3bd2f4599b25c99",
+        "native_bbox": [
+          36,
+          17,
+          93,
+          112
+        ]
+      },
+      "25": {
+        "main_label": 30,
+        "main_area": 22239,
+        "main_bbox": [
+          328,
+          787,
+          466,
+          1009
+        ],
+        "additional_components": [],
+        "ownership_sha256": "ea649994c975285b263ddb10874a91cc5609693f0396944c822ba275c751e16a",
+        "rgba_sha256": "1e13d45a014d24a8c4ac601d681337da370b0d1ef0be7cd1d857889fc88b1966",
+        "native_bbox": [
+          33,
+          17,
+          91,
+          112
+        ]
+      },
+      "31": {
+        "main_label": 31,
+        "main_area": 21879,
+        "main_bbox": [
+          1870,
+          787,
+          2005,
+          1011
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f846532780da9dd2a73bdd889485d47c01a8e785c268b2805b83da4965eccb2e",
+        "rgba_sha256": "d0f3b9f14a12af689f63219533c0e54c0e5d7ec4e2c8ef1d4fad3737804460cc",
+        "native_bbox": [
+          35,
+          17,
+          92,
+          112
+        ]
+      },
+      "24": {
+        "main_label": 32,
+        "main_area": 23080,
+        "main_bbox": [
+          65,
+          791,
+          211,
+          1009
+        ],
+        "additional_components": [],
+        "ownership_sha256": "8110d044c44afdaa7c0c19ba78726d8837acd597d271ed4cd3bbdebc0414e261",
+        "rgba_sha256": "c5bd77e86b1794fc3b0e38ce27940c39fe73fc96f3f0c08551429433dd7938bc",
+        "native_bbox": [
+          30,
+          19,
+          92,
+          112
+        ]
+      },
+      "29": {
+        "main_label": 33,
+        "main_area": 21197,
+        "main_bbox": [
+          1332,
+          809,
+          1493,
+          1010
+        ],
+        "additional_components": [
+          {
+            "label": 36,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "785202c89ef742907ff7499477dedb495acec5e937ef2c8ba1c4043aeee0c663",
+        "rgba_sha256": "b53f26c88d07d52425c346ebc2d105404668534ccee9971cc894ed5a2af6d9f6",
+        "native_bbox": [
+          24,
+          27,
+          92,
+          112
+        ]
+      },
+      "27": {
+        "main_label": 34,
+        "main_area": 21272,
+        "main_bbox": [
+          824,
+          812,
+          980,
+          1009
+        ],
+        "additional_components": [
+          {
+            "label": 37,
+            "area": 2,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "f430a42844e004af92bd998e831aceb716b98966f7d8989b0ccec573a0dcbe87",
+        "rgba_sha256": "42c1a4de45c109c962c3cfd4e4d4906663205844fdb70448a72bcefbd016a044",
+        "native_bbox": [
+          26,
+          28,
+          92,
+          112
+        ]
+      },
+      "28": {
+        "main_label": 35,
+        "main_area": 19413,
+        "main_bbox": [
+          1068,
+          834,
+          1240,
+          1009
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f2497dd5415d537c6d18d6278cf25a952342249f762b3c786c7e3fbf071a87b7",
+        "rgba_sha256": "dd39f09e1d9afdbd9dbf21779ceddd1028a4f9cc9b0a6496cbe959c54ab19178",
+        "native_bbox": [
+          21,
+          37,
+          94,
+          112
+        ]
+      }
+    },
+    "unassigned_components": [],
+    "alpha_rule": "Below24 zero; above245 opaque; hiddenRGB zero. Islands within3px nearest body retained.",
+    "walk_override": {
+      "frames": [
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png",
+          "sha256": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png",
+          "sha256": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png",
+          "sha256": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png",
+          "sha256": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png",
+          "sha256": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png",
+          "sha256": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png",
+          "sha256": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png",
+          "sha256": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+        }
+      ],
+      "scope": "Preferred body-weight and four-pixel seam bank, scoped matte export. Same .45s clock, unfinished7.3motion judged from still chronology."
+    },
+    "cell_overrides": {
+      "23": {
+        "path": "art-source/eight-direction-v1/breath-v2/brann/southeast/23.png",
+        "sha256": "17dcb74c073e82690f99d8f5417a3343a1e4fa1bb72d77ddb80a532e35d0b315",
+        "kind": "one-pixel source breath of matching arms-down neutral, exact pair"
+      },
+      "22": {
+        "path": "art-source/eight-direction-v1/brann-eye-v1/22.png",
+        "sha256": "789c7d5af8054bf9be2cf05c57238b0a068e49d877c3a0e71be25d02e1e9654e",
+        "kind": "relaxed neutral, five same-view eye donor texels; corrected paired review"
+      }
+    }
+  },
+  "northeast": {
+    "cells": {
+      "2": {
+        "main_label": 1,
+        "main_area": 16318,
+        "main_bbox": [
+          591,
+          29,
+          709,
+          247
+        ],
+        "additional_components": [],
+        "ownership_sha256": "ceb78e02ee45eaf47fe59b4d04fca85b0ebf9abfb0c81f0bf3a9e4849534b14d",
+        "rgba_sha256": "8d70846d4b6caa49bb265736cc6f3f734755e69a39edbfca41d7a075ab4b03e3",
+        "native_bbox": [
+          38,
+          12,
+          92,
+          112
+        ]
+      },
+      "6": {
+        "main_label": 2,
+        "main_area": 16928,
+        "main_bbox": [
+          1610,
+          29,
+          1739,
+          246
+        ],
+        "additional_components": [],
+        "ownership_sha256": "e4f123462e1b3880cd0e6512c53191dbeb8bd11c75fc05d1efd54465aa903ab9",
+        "rgba_sha256": "b8b203216db50749b33acd34f5d311cde9cff1286a09e3353416c4af5784cf48",
+        "native_bbox": [
+          36,
+          12,
+          95,
+          112
+        ]
+      },
+      "4": {
+        "main_label": 3,
+        "main_area": 17737,
+        "main_bbox": [
+          1099,
+          31,
+          1225,
+          248
+        ],
+        "additional_components": [
+          {
+            "label": 9,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "2124ba9ccd7e53b06b5658130249c284c16730521d5fb71a743685d869844509",
+        "rgba_sha256": "e0f09c4d7c1bf08c33aad40694db117ecd368d09b87f855b3b05129fc427d0f3",
+        "native_bbox": [
+          36,
+          13,
+          94,
+          112
+        ]
+      },
+      "7": {
+        "main_label": 4,
+        "main_area": 17606,
+        "main_bbox": [
+          1868,
+          31,
+          1988,
+          242
+        ],
+        "additional_components": [],
+        "ownership_sha256": "9162f12bfe1404d0a92e09f07556402400c10787fdfbf875994d07caec9d7e0f",
+        "rgba_sha256": "6087a46710937e1c3d3deffddcb2e3ceacccdcc0ff54e2f6a8fa0b60e30a1bb7",
+        "native_bbox": [
+          37,
+          13,
+          91,
+          110
+        ]
+      },
+      "0": {
+        "main_label": 5,
+        "main_area": 18374,
+        "main_bbox": [
+          77,
+          32,
+          201,
+          245
+        ],
+        "additional_components": [],
+        "ownership_sha256": "90dec36bf64347a7de45ba0c184220ef0b2f65bf447be6634e6b019d8956fb0e",
+        "rgba_sha256": "a7f2beb05a389bdf9b3122f08b0abec31fb9bc7848dd03a293a60711173dcea5",
+        "native_bbox": [
+          37,
+          14,
+          94,
+          111
+        ]
+      },
+      "1": {
+        "main_label": 6,
+        "main_area": 17928,
+        "main_bbox": [
+          323,
+          32,
+          463,
+          251
+        ],
+        "additional_components": [],
+        "ownership_sha256": "8a1e5f19c75d0a3781ec961dbc8d2fe74d23f66eeefca7f3e4fd46f92ab6fa38",
+        "rgba_sha256": "8a0a565f9f64b0786bc0b80fcde3ebeb2055991aac180b2343350b3eebc56a86",
+        "native_bbox": [
+          32,
+          14,
+          96,
+          114
+        ]
+      },
+      "5": {
+        "main_label": 7,
+        "main_area": 16689,
+        "main_bbox": [
+          1358,
+          32,
+          1485,
+          251
+        ],
+        "additional_components": [],
+        "ownership_sha256": "5bcfaeb2bf61ae20a7d7ca440a19cc990033f64bdc665cbb6d9b77dcf8dca4c9",
+        "rgba_sha256": "10a3ea0eeda92749c08856a0487ceabda39278e0457064150ab9240948e6fcc7",
+        "native_bbox": [
+          37,
+          14,
+          96,
+          114
+        ]
+      },
+      "3": {
+        "main_label": 8,
+        "main_area": 16562,
+        "main_bbox": [
+          837,
+          33,
+          962,
+          234
+        ],
+        "additional_components": [],
+        "ownership_sha256": "520017d81ae72579a1b1e8afcb2059da2d55f212e63873fe7bf52222f124d813",
+        "rgba_sha256": "ec2a524242e957d6ac96be0ef8afb1ba16c5085958e97de335f849c5b4414996",
+        "native_bbox": [
+          33,
+          14,
+          91,
+          106
+        ]
+      },
+      "8": {
+        "main_label": 10,
+        "main_area": 18320,
+        "main_bbox": [
+          72,
+          289,
+          200,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "e8e1c7081dff32ee8e0517b59d3eba465006a46979693af4fe6fb401ef3070de",
+        "rgba_sha256": "b175dde63b4ae65c22b5784b5ae38849bf4e4344207b038f641ff71dd758dec6",
+        "native_bbox": [
+          35,
+          16,
+          93,
+          113
+        ]
+      },
+      "10": {
+        "main_label": 11,
+        "main_area": 19048,
+        "main_bbox": [
+          584,
+          289,
+          755,
+          502
+        ],
+        "additional_components": [],
+        "ownership_sha256": "d4f6b99ede1f4591f20866b831f2a5bf5fb690c7cd67fd9fcad4dc29f3aa40c0",
+        "rgba_sha256": "45e75a37e4d14d685e360ddb77f8e478998a652ba8773ebb45e944f8842e5213",
+        "native_bbox": [
+          35,
+          16,
+          113,
+          113
+        ]
+      },
+      "11": {
+        "main_label": 12,
+        "main_area": 19183,
+        "main_bbox": [
+          843,
+          289,
+          1014,
+          503
+        ],
+        "additional_components": [],
+        "ownership_sha256": "c0378bf0e846fdd0e5af21c0819a0ff29a263ca730efbc276468960e9370561d",
+        "rgba_sha256": "e1a09918c420ec1b19648341fbbf3c076bc11a8c822d3bd6dbee0ad9b7f89827",
+        "native_bbox": [
+          36,
+          16,
+          114,
+          113
+        ]
+      },
+      "12": {
+        "main_label": 13,
+        "main_area": 18607,
+        "main_bbox": [
+          1093,
+          289,
+          1226,
+          501
+        ],
+        "additional_components": [],
+        "ownership_sha256": "4091f03b42ddf1251e163e5305b832b030621b98a2b3fd7be6f7b8aafb42cc9d",
+        "rgba_sha256": "23beb2e52aaa54ec40fc58a4f99072384e9a2e199f78281df73b412b1afc9961",
+        "native_bbox": [
+          33,
+          16,
+          94,
+          112
+        ]
+      },
+      "13": {
+        "main_label": 14,
+        "main_area": 19049,
+        "main_bbox": [
+          1346,
+          290,
+          1482,
+          503
+        ],
+        "additional_components": [],
+        "ownership_sha256": "fb47abdd5e404a9fd571dcea481d8b452fa7a32f150c30afb23c407d54da42f6",
+        "rgba_sha256": "5ee3b10f38b003155e7c86e0e8b175ada1a8b126c6037a42b231a0d2f8dcbf43",
+        "native_bbox": [
+          32,
+          16,
+          94,
+          113
+        ]
+      },
+      "14": {
+        "main_label": 15,
+        "main_area": 18123,
+        "main_bbox": [
+          1610,
+          290,
+          1737,
+          501
+        ],
+        "additional_components": [],
+        "ownership_sha256": "50e81fa2d040e0fdd4e4711200c97fb64ba5d3f64389f0c5615e25e679d6e2c8",
+        "rgba_sha256": "5beb67d00883829dce59b4457b0b2f9db18699ae370c023db5488bc1724bf2a3",
+        "native_bbox": [
+          36,
+          16,
+          94,
+          112
+        ]
+      },
+      "15": {
+        "main_label": 16,
+        "main_area": 18000,
+        "main_bbox": [
+          1863,
+          290,
+          1989,
+          501
+        ],
+        "additional_components": [],
+        "ownership_sha256": "677a50863e4dcd178dde3bf52ca173ff825071cd6878483f6db6963d985c8ae8",
+        "rgba_sha256": "315404863d5417eabc9e37e57623783d1fcdfb750adb5863d1333e41b7607f0b",
+        "native_bbox": [
+          34,
+          16,
+          92,
+          112
+        ]
+      },
+      "9": {
+        "main_label": 17,
+        "main_area": 19119,
+        "main_bbox": [
+          324,
+          292,
+          468,
+          504
+        ],
+        "additional_components": [],
+        "ownership_sha256": "65f55e7fd57bd41453ee037e81e664bddc1118d95692af76dffe6fc6bc1bf9ef",
+        "rgba_sha256": "8b1dc7df855fca288f75f296b013f34c4e5bcb21f42da5e72d644e90c43439fb",
+        "native_bbox": [
+          33,
+          17,
+          99,
+          114
+        ]
+      },
+      "16": {
+        "main_label": 18,
+        "main_area": 18522,
+        "main_bbox": [
+          74,
+          546,
+          199,
+          761
+        ],
+        "additional_components": [],
+        "ownership_sha256": "2f725763f658c08d027fc21b8fc868e95e1514a104d938220480e35d38b99a24",
+        "rgba_sha256": "527b861411a7ab8a7ee66ab71928100cfea1c2fe3c54093e65e96d0771fcc72b",
+        "native_bbox": [
+          36,
+          15,
+          93,
+          113
+        ]
+      },
+      "20": {
+        "main_label": 19,
+        "main_area": 18453,
+        "main_bbox": [
+          1096,
+          547,
+          1226,
+          761
+        ],
+        "additional_components": [],
+        "ownership_sha256": "93458fe611351955e54b10c894893014df9a2163f66c5014ed852ec6c9f6cd39",
+        "rgba_sha256": "2be8951fe99153adbbd057eb9358d71250a427173aaa5a25ef6843889190b28a",
+        "native_bbox": [
+          35,
+          15,
+          94,
+          113
+        ]
+      },
+      "22": {
+        "main_label": 20,
+        "main_area": 18278,
+        "main_bbox": [
+          1612,
+          547,
+          1736,
+          761
+        ],
+        "additional_components": [],
+        "ownership_sha256": "3af220d280caaa1e2114cbb45f31cd3c984eb792951c39d723cbb1c5ae68ec77",
+        "rgba_sha256": "93a5f8bc5c997191a671dcf645204095e67f8828d5a84d9f2ac47b08b61a0f78",
+        "native_bbox": [
+          37,
+          15,
+          93,
+          113
+        ]
+      },
+      "23": {
+        "main_label": 21,
+        "main_area": 18338,
+        "main_bbox": [
+          1863,
+          547,
+          1988,
+          761
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f9c26f3781124d4b9c591a77540f2a3509c135c6e9d5bfa2ff33118f36dff44c",
+        "rgba_sha256": "f8421f166ca93dc2a9328d49e070cb40946068da6a1c890ce04f5e4452492875",
+        "native_bbox": [
+          34,
+          15,
+          91,
+          113
+        ]
+      },
+      "18": {
+        "main_label": 22,
+        "main_area": 17150,
+        "main_bbox": [
+          590,
+          548,
+          710,
+          761
+        ],
+        "additional_components": [],
+        "ownership_sha256": "811776661ab42ff931267286b5f95349d532a44f6bce8497981ec7868c8e32f2",
+        "rgba_sha256": "565386cfa642baee9ae2ed121d9a59d5a7e024120dd7e390854501a421c01bf6",
+        "native_bbox": [
+          37,
+          16,
+          92,
+          113
+        ]
+      },
+      "19": {
+        "main_label": 23,
+        "main_area": 19863,
+        "main_bbox": [
+          838,
+          548,
+          1016,
+          762
+        ],
+        "additional_components": [],
+        "ownership_sha256": "bb6b5ea59b8879ee56b23e0921bda57156036296a1dcfcea7358f365f4fb64ba",
+        "rgba_sha256": "192cf8bba9ebd90529065c5816686bcc1b1f736bea24a7aa18c260d06c7eca5a",
+        "native_bbox": [
+          34,
+          16,
+          115,
+          113
+        ]
+      },
+      "21": {
+        "main_label": 24,
+        "main_area": 18220,
+        "main_bbox": [
+          1354,
+          548,
+          1479,
+          761
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f3e20e51a1002ab7c59ea73ca1081335f8c6e1ff6e2bcc8cd1fbfb81a0b678fa",
+        "rgba_sha256": "68e7e2402eff8068601952434e48044cdf04f1e2030594eb0047946aa7728cea",
+        "native_bbox": [
+          36,
+          16,
+          93,
+          113
+        ]
+      },
+      "17": {
+        "main_label": 25,
+        "main_area": 17607,
+        "main_bbox": [
+          331,
+          551,
+          456,
+          762
+        ],
+        "additional_components": [],
+        "ownership_sha256": "2ec7731c2a5f6e69673851349f5328b943ff35be53fd8b9982d27d93a1ce9bdd",
+        "rgba_sha256": "16b10c7c08877fa7914d31b69666d56738d49d458cfebac6c6a6ec60f802a5ea",
+        "native_bbox": [
+          36,
+          17,
+          93,
+          113
+        ]
+      },
+      "26": {
+        "main_label": 26,
+        "main_area": 18123,
+        "main_bbox": [
+          585,
+          799,
+          709,
+          1010
+        ],
+        "additional_components": [],
+        "ownership_sha256": "15ddc210d2185499b7f18d2c47aa4dac9e18a3b49fea47326e57052ef5de9446",
+        "rgba_sha256": "138c5b3fcb0702ac7d7d0c5fa6201cf24ab49fbb6b1489a147a97d182be6b932",
+        "native_bbox": [
+          35,
+          16,
+          92,
+          112
+        ]
+      },
+      "31": {
+        "main_label": 27,
+        "main_area": 18160,
+        "main_bbox": [
+          1863,
+          799,
+          1988,
+          1010
+        ],
+        "additional_components": [],
+        "ownership_sha256": "10712101bb3b94abc2fdaa3ad020d5b3d03e144b1b1a3fbc24992d9a53f3c726",
+        "rgba_sha256": "f59d04f8cc6726666196458bb659fea8b70c3b5c446887d7cec458ac9bd9d9cd",
+        "native_bbox": [
+          34,
+          16,
+          91,
+          112
+        ]
+      },
+      "30": {
+        "main_label": 28,
+        "main_area": 17910,
+        "main_bbox": [
+          1605,
+          801,
+          1740,
+          1010
+        ],
+        "additional_components": [],
+        "ownership_sha256": "bd84a436d66efcb05f8be472ecfccfa2951dc01f103284c324ee87e03eedc0a6",
+        "rgba_sha256": "3182893f073572b6613f201c73f31b5102c25862fbc1154f53975806602829ba",
+        "native_bbox": [
+          33,
+          16,
+          95,
+          112
+        ]
+      },
+      "25": {
+        "main_label": 29,
+        "main_area": 17218,
+        "main_bbox": [
+          323,
+          809,
+          454,
+          1004
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f1e6131eb68bc5a30c27de87890e4af9d4ae150b74b0670dbc5194de0109723e",
+        "rgba_sha256": "a5ce27a4a7f02f4c7e2b8055e24b4548c97204deaf97249a39dabe388a61a8f5",
+        "native_bbox": [
+          32,
+          20,
+          92,
+          109
+        ]
+      },
+      "24": {
+        "main_label": 30,
+        "main_area": 16725,
+        "main_bbox": [
+          67,
+          817,
+          199,
+          1004
+        ],
+        "additional_components": [],
+        "ownership_sha256": "799fccb8a76ec238a2fbb036b441bcac8c18aa9fa019ce50615cfb49ccec2bf4",
+        "rgba_sha256": "6124e6e1441d3453f5fd2536ee65745023548251243c1efd9b6893f397ebc193",
+        "native_bbox": [
+          32,
+          24,
+          93,
+          109
+        ]
+      },
+      "27": {
+        "main_label": 31,
+        "main_area": 17538,
+        "main_bbox": [
+          831,
+          819,
+          974,
+          1008
+        ],
+        "additional_components": [],
+        "ownership_sha256": "984c7035f7c17aabe1539441c3016b847a05ebf42f0521706c9775e66c760ea5",
+        "rgba_sha256": "f85765068493b81fdf4ac573f046ddd18e1077647d07d249620205ba62a9b10c",
+        "native_bbox": [
+          31,
+          25,
+          96,
+          111
+        ]
+      },
+      "29": {
+        "main_label": 32,
+        "main_area": 16856,
+        "main_bbox": [
+          1341,
+          820,
+          1483,
+          1007
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f88dda1fcd8f80057752bf7348b5c90111fbd7e329d5883c3da4a9e3abd22c5d",
+        "rgba_sha256": "da033c4dc889d0d2ee5bd18f75a45ba89b7b3f6c19f4f38d9f0c20795bfa9248",
+        "native_bbox": [
+          30,
+          25,
+          95,
+          111
+        ]
+      },
+      "28": {
+        "main_label": 33,
+        "main_area": 16748,
+        "main_bbox": [
+          1077,
+          835,
+          1233,
+          1004
+        ],
+        "additional_components": [],
+        "ownership_sha256": "2569dc4016c703cb6cbce398dbd972b07d98d697947ee6ed5ac47c57061f0bdf",
+        "rgba_sha256": "15bd09fadc9a3e2e7887adf7ba4244d3aefcb0d4ac25aff4a9893ffce1e2b03f",
+        "native_bbox": [
+          26,
+          32,
+          97,
+          109
+        ]
+      }
+    },
+    "unassigned_components": [],
+    "alpha_rule": "Below24 zero; above245 opaque; hiddenRGB zero. Islands within3px nearest body retained.",
+    "walk_override": {
+      "frames": [
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/00.png",
+          "sha256": "fc819bc24215f43e84bfa8207d10c2b6f4a4a716070ccb7a7eeab3f97ea5aceb"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/01.png",
+          "sha256": "31e38ced772b380360d4704e78dda4a72b1a34d5b659b9c4a5b6f07bde7b07f1"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/02.png",
+          "sha256": "cef37b61dbe501ff555cf21742050b92bf3e76a208fc51d42b872cc84129f7a0"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/03.png",
+          "sha256": "5e20136c8416028d30a41f60ece08be3e3d6d0f10e02c3d3b3f77fa74b230e3f"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/04.png",
+          "sha256": "fcb3af4f3cf7905073f9c94284f2db796ba4466fb7b9a2fe59f9b2f994bcbedc"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/05.png",
+          "sha256": "d162cf120d3161f7c58e51a1a3870a08553826910042fd43c5982670b7a92974"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/06.png",
+          "sha256": "425cd8a402607040ba27b77c3db4677ad680a33238ff3b4483a3b32dedff0e4f"
+        },
+        {
+          "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/07.png",
+          "sha256": "91a9ad0f0a34a0890777b368d9f08f7b36e12b0020e702b32137b3e97863d5ca"
+        }
+      ],
+      "scope": "Preferred scoped unfinished8-key repair; .45s clock unchanged; local isolated review only; target8 remains unmet."
+    },
+    "cell_overrides": {
+      "23": {
+        "path": "art-source/eight-direction-v1/breath-v1/brann/northeast/23.png",
+        "sha256": "691a674e468420d054902b977f0e562e3b73583dc29cca22278d2d175823f498",
+        "recipe": "art-source/eight-direction-v1/breath-v1/brann/northeast/receipt.json",
+        "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+      },
+      "25": {
+        "path": "art-source/eight-direction-v1/hurt-recovery-v1/brann/northeast/25.png",
+        "sha256": "6e9b8ffe08b793958bd9ad3ef51c857586054798b8f770fe56eff47cb058a087",
+        "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+      },
+      "11": {
+        "path": "art-source/eight-direction-v1/brann-ne-jab-fist-v1/raw-v1/11.png",
+        "sha256": "c68dd7f8f86a2d06b432b0c604e3014279316954649474680c7191105f507350",
+        "kind": "Same-view219source-hand samples translated+1,-2; closed-glove clarity preferred. Body/clock exact; source-owner scope and review retained."
+      }
+    }
+  }
+}

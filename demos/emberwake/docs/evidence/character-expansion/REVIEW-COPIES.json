@@ -1,0 +1,110 @@
+{
+  "note": "Reports and machine evidence copied from frozen independent packets; their full media ledgers apply to the original packet directories, not this report subset.",
+  "files": [
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/INPUTS.json",
+      "copy": "docs/evidence/character-expansion/reviews/v1/INPUTS.json",
+      "sha256": "2a23ec085a8868d7c965c4145f335babf2a9d64dd21c822f0394a489f96c4093"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/REPORT.md",
+      "copy": "docs/evidence/character-expansion/reviews/v1/REPORT.md",
+      "sha256": "285308d81a37ce67c69ce2d8cc7b7ab5720fa4f83cd774304b01dc5e20b71892"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/VERIFICATION.json",
+      "copy": "docs/evidence/character-expansion/reviews/v1/VERIFICATION.json",
+      "sha256": "13225e0f80b049b137788393f04d9f988fca0bb0bdcfabf83d4759ffff123bd5"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/brann/coverage.json",
+      "copy": "docs/evidence/character-expansion/reviews/v1/brann/coverage.json",
+      "sha256": "72724140189cca616d88eb1bee40dc25bb68d116061a07f72a54f1e73dd9c632"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/brann/scores.json",
+      "copy": "docs/evidence/character-expansion/reviews/v1/brann/scores.json",
+      "sha256": "c9e21e797a39131867ad1c50850403b02fc286d295431ce1ed8da07d57a8a33d"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/lyra/coverage.json",
+      "copy": "docs/evidence/character-expansion/reviews/v1/lyra/coverage.json",
+      "sha256": "2cac0087763250b16355eed35669d4b817ba96a5dcf53aabf379810e2c5a9d3e"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v1/lyra/scores.json",
+      "copy": "docs/evidence/character-expansion/reviews/v1/lyra/scores.json",
+      "sha256": "2fb5d58f3c328397b09631ba106229b2740a681a12143051267a65f64c0cff92"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/INPUTS.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/INPUTS.json",
+      "sha256": "50aa928079abdfc2ec1686314814a6dac310dc4fb9097eb588930e9d43d6bf67"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/REPORT.md",
+      "copy": "docs/evidence/character-expansion/reviews/v3/REPORT.md",
+      "sha256": "787f6e9a67084fd154e40ec61c2ddddd9ac29f1dfd621dd4cd8858217c6c62ce"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/COMPARISON.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/COMPARISON.json",
+      "sha256": "07e11bf2cfd8b82ec313efb207520409fb94076eee0fef17e2d54e46d886bfc5"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/VERIFICATION.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/VERIFICATION.json",
+      "sha256": "9b8831fd145d35adf7b3117d0468101aa55b8415d8d96c4aa6a84bab9cb5fbf0"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/brann/coverage.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/brann/coverage.json",
+      "sha256": "57e4411a2dcba14c260c22cdd64b68c59b35a0992df6a87a04d732e1ebd30d4b"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/brann/scores.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/brann/scores.json",
+      "sha256": "80c5e27a306871e6fb92942c251c677d06a9e953be7b30e882febf10a920f2b8"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/lyra/coverage.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/lyra/coverage.json",
+      "sha256": "de5954e912f66edb66d13526e6010d17b2ebcacfa3be2c35abe3ae1b823f2ea8"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v3/lyra/scores.json",
+      "copy": "docs/evidence/character-expansion/reviews/v3/lyra/scores.json",
+      "sha256": "2bd459b009bb3d2275527bea317720f095397a3897d8353a5ba4b462c45f4ec1"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v5/REPORT.md",
+      "copy": "docs/evidence/character-expansion/reviews/v5/REPORT.md",
+      "sha256": "4b2223cb233b1e7fc8b55ba88232f0fddbe3c58c85198fcb73b385a9948f212a"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v5/TOPOLOGY.json",
+      "copy": "docs/evidence/character-expansion/reviews/v5/TOPOLOGY.json",
+      "sha256": "4a30941535d09949627fd1c61aac2eabf094e35a0243d68b2605989f016b7b28"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v5/VERIFICATION.json",
+      "copy": "docs/evidence/character-expansion/reviews/v5/VERIFICATION.json",
+      "sha256": "dd7d2e39926b5fef7941f18f7619ed7a7ff4e45d34e07c1c6f313e1f24bc0711"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v5/EVIDENCE.json",
+      "copy": "docs/evidence/character-expansion/reviews/v5/EVIDENCE.json",
+      "sha256": "eccd2ab41fb0497798549f94cbb39dc4074e8cb1216d9596452051193c3aec1f"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v5/brann/scores.json",
+      "copy": "docs/evidence/character-expansion/reviews/v5/brann/scores.json",
+      "sha256": "218455826a63407395848b85676a0734ba4c8494357fc850442fc5e2d7d2a89f"
+    },
+    {
+      "source": "/home/astra/artifacts/emberwake-character-review/v5/lyra/scores.json",
+      "copy": "docs/evidence/character-expansion/reviews/v5/lyra/scores.json",
+      "sha256": "3ceee24071fa3eb9a4b43f76843efae8db62a34c362f350e0be12e2168a4fd57"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "name": "Layered indexed edit and portable exchange diagnostic",
+  "steps": [
+    {"id": "project", "action": "construction", "method": "read", "request": {"path": "source.json"}},
+    {"id": "history", "action": "construction", "method": "history", "request": {"project": {"ref": "project.project"}}},
+    {"id": "edit", "action": "construction", "method": "edit", "request": {
+      "history": {"ref": "history.history"}, "transaction": {
+        "schema": "sprite-edit-transaction/v1", "expected_project_sha256": {"ref": "project.project_hash"},
+        "reason": "Correct one marker pixel in both frames sharing the cel",
+        "operations": [{"op": "paint", "cel_id": "marker-a", "points": [[1,1,3]]}]
+      }
+    }},
+    {"id": "render", "action": "construction", "method": "render", "request": {
+      "project": {"ref": "edit.project"}, "history": {"ref": "edit.history"}, "animation_id": "diagnostic"
+    }},
+    {"id": "export", "action": "export", "sequence": {"ref": "render.sequence"}, "directory": "output/playback", "formats": ["png", "manifest", "apng", "editable", "godot", "review"]},
+    {"id": "native", "action": "construction", "method": "ase_export", "request": {"project": {"ref": "edit.project"}, "directory": "output/editor", "animation": "diagnostic"}}
+  ]
+}

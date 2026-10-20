@@ -1,0 +1,142 @@
+{
+  "analysis_counts": {
+    "original_requirements": 63,
+    "original_requirements_closed": 0,
+    "requirements_by_status": {
+      "runtime_pending": 24,
+      "unavailable_server": 21,
+      "source_partial": 18
+    },
+    "feature_flows": 23,
+    "captured_commands": 28,
+    "commands_by_status": {
+      "partial_local": 13,
+      "local_pending": 15
+    },
+    "source_transport_flows": 30,
+    "comparison_recipes": 11,
+    "historical_public_interfaces": 111,
+    "historical_mcp_interfaces": 101,
+    "current_public_interfaces": 112,
+    "tracked_interface_records": 213
+  },
+  "analysis_catalog": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/RECONSTRUCTION-CATALOG.json",
+  "construction_methods": 12,
+  "construction_guide": "/home/astra/projects/pixellab-local-workbench/docs/construction/README.md",
+  "local_channels_guide": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/LOCAL-CHANNELS.md",
+  "history_performance": {
+    "scope": "mechanical supplied fixture; no art generation, aesthetic approval or vendor parity",
+    "passed": true,
+    "cases": [
+      {
+        "layers": 1,
+        "frames": 24,
+        "canvas": [
+          256,
+          256
+        ],
+        "first_edit_seconds": 0.1252288769974257,
+        "twentieth_edit_seconds": 0.13541065599929425,
+        "cold_seconds": 1.169952591000765
+      },
+      {
+        "layers": 11,
+        "frames": 24,
+        "canvas": [
+          256,
+          256
+        ],
+        "first_edit_seconds": 1.235304007997911,
+        "twentieth_edit_seconds": 1.4201772609994805,
+        "cold_seconds": 13.802161241001158
+      }
+    ],
+    "limit": "Cold verification remains linear; no representative humanoid animation session or universal memory guarantee"
+  },
+  "scope_document": "/home/astra/projects/pixellab-local-workbench/docs/COVERAGE.md",
+  "version": 6,
+  "updated_utc": "2026-10-14T01:23:16.764753+00:00",
+  "package_version": "0.5.0",
+  "verified_commit": "4a6191280efdf3b7b51ca4053bc4658efa3f2d51",
+  "runtime_commit": "f4e10a72a1597e4cf355de316e563250d8216311",
+  "full_suite_commit": "f0af029ad4bcdeb49c0fb1a31cc31555db10a5f9",
+  "source_fingerprint": "39ecab3bc05eb50e79af27011bd962ffb289c879115206b7be835627d80d420e",
+  "full_suite_followup": {
+    "commit": "f4e10a72a1597e4cf355de316e563250d8216311",
+    "scope": "Four JavaScript lines restore optional subject/images on Recent selection; no original algorithm modified",
+    "verification": "Final browser before/after restoration, independent two-scenario Node host review, and rebound installed-package proof; full suite was not rerun at this later revision"
+  },
+  "mechanical_checks": {
+    "tests": 527,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 71.782
+  },
+  "implementation_directory": "/home/astra/projects/pixellab-local-workbench",
+  "verification_directory": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful",
+  "test_receipt": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/TESTS-RECEIPT.json",
+  "source_verification": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/VERIFICATION.json",
+  "package_status": "completed",
+  "package_sha256": "fa0aa41d5aa73c207829643621549b0989533adffb7cdcb23276278f45e36d4d",
+  "package_path": "/home/astra/artifacts/pixellab-source-v05-package-proof-20261014-final/wheel/sprite_workbench-0.5.0-py3-none-any.whl",
+  "package_comparison": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-RECEIPT.json",
+  "package_source_files": 103,
+  "package_family_cases": 17,
+  "package_authentic_preset_variations": 2,
+  "browser_artifact_checks": 15,
+  "browser_review": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/FINAL-SOURCE-REVIEW.md",
+  "browser_proof": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/BROWSER-SOURCE-REPORT.json",
+  "browser_actions_commit": "7bb25d920654e584b41a0b9cd0d4a530e20b0079",
+  "browser_final_setup_commit": "f4e10a72a1597e4cf355de316e563250d8216311",
+  "local_url": "http://127.0.0.1:8874/#source",
+  "setup_ready": true,
+  "comparison_ready": false,
+  "comparison_blocker_records": 71,
+  "source_execution": {
+    "factory_slices": 46,
+    "original_public_bundles": 4,
+    "families": 17,
+    "original_exports": {
+      "validator_normalizer": "47381.W$",
+      "apply_controls": "47381.uY",
+      "renderer": "39852.sY"
+    },
+    "local_service_methods": [
+      "local.pixellab.vfx.describe",
+      "local.pixellab.vfx.validate",
+      "local.pixellab.vfx.controls",
+      "local.pixellab.vfx.render"
+    ],
+    "authentic_returned_presets": [
+      "energy_orb",
+      "slash_arc"
+    ],
+    "presets_sha256": "f0c0e9d1a84fb1feb244b70124218381729850ed27d60448ab97aad892bbc40f",
+    "manifest_sha256": "188743c8078e006117a6cbc51fdf96a73cafecc387a1a998276d93aa8d19645f",
+    "independent_oracle": "Full retained original public chunks loaded separately from production slices; selected diagnostics and controls, not all source branches",
+    "constraint": "Execute actual recovered source and use retained vendor data; do not substitute invented craft algorithms and call them PixelLab methods",
+    "our_host_utilities": [
+      "local service/IPC adapters",
+      "web controls and frame playback",
+      "jobs",
+      "Store and receipts",
+      "separate raster editor",
+      "CLI/JSON Lines/plan integration"
+    ]
+  },
+  "artistic_acceptance": "unreviewed",
+  "continuous_motion_viewed": false,
+  "continuous_effect_playback_mechanically_checked": true,
+  "private_model_recovered": false,
+  "vendor_handlers_implemented": 0,
+  "recovered_client_vfx_service_wrappers": 4,
+  "provider_calls_this_implementation": 0,
+  "full_vendor_analysis_complete": false,
+  "completion_scope": "Source-faithful procedural VFX integration and bounded browser/package verification; original client functions and authentic retained recipes. Supporting local editor/job/storage utilities remain locally authored. Full hosted methods/models and original humanoid art acceptance remain unresolved.",
+  "production_editing_ready": false,
+  "user_constraint": "Execute actual recovered source and use retained vendor data; do not substitute invented craft algorithms and call them PixelLab methods",
+  "next": "Resolve remaining client/runtime flows from evidence and freeze their executable comparison protocols. Leave undisclosed private handlers/models explicitly unavailable; do not invent substitute craft algorithms as replicated methods. Original-art/backend tests remain after prerequisite completion.",
+  "historical_v0_4_0": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/docs/LATEST-VERIFICATION.json",
+  "historical_v0_3_0": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/before-readiness/docs/LATEST-VERIFICATION.json"
+}

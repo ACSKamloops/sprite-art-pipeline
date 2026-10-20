@@ -1,0 +1,84 @@
+{
+  "scope": "Selected implementation review, synthetic mechanical controls only; no provider/model/network/art calls or aesthetic judgment",
+  "baseline_geometry_commit": "92db439",
+  "review_combined_baseline": "711ca11",
+  "source_files": [
+    {
+      "path": "sprite_workbench/scene.py",
+      "sha256": "eb190f755692cc56ee432fe8fd0e5c461c925e6268b6d1a70a9fa862cbbe5abf",
+      "lines": 304
+    },
+    {
+      "path": "sprite_workbench/export.py",
+      "sha256": "55db1f7f7a4afc0e00dab3eec97875373ad57054ff70fe69966b78978cfaf098",
+      "lines": 371
+    },
+    {
+      "path": "sprite_workbench/review.py",
+      "sha256": "d99b147cf45cb86dfd6121e958eab4f9ea6f253811aa4d90db91b4f31aec9095",
+      "lines": 88
+    }
+  ],
+  "executed_command": "python3 -m pytest -q tests/test_geometry_adversarial.py -rx --basetemp /tmp/pixellab-state-geometry-review",
+  "outcome": {
+    "passed": 7,
+    "explicit_known_reproductions_xfailed": 4,
+    "failed": 0,
+    "skipped": 0
+  },
+  "findings": [
+    {
+      "id": "R01",
+      "severity": "low",
+      "target": "scene._point / math.isfinite before magnitude guard",
+      "case": "position [10**400,0]",
+      "observation": "OverflowError rather than structured ValidationError",
+      "impact": "Raw numeric admission exception observed; JobManager technical_failure classification is a source-based consequence, not separately executed here",
+      "status": "reproduced, root correction pending"
+    },
+    {
+      "id": "R02",
+      "severity": "medium",
+      "target": "export._artifact_closure / original scene nodes",
+      "case": "base raster replaced by frame override in every frame",
+      "observation": "Fresh editable import succeeds but reverting override cannot load omitted original base art",
+      "impact": "Package loses meaningful editable dependency; current render alone is insufficient closure test",
+      "status": "reproduced, root typed closure correction pending"
+    },
+    {
+      "id": "R03",
+      "severity": "low",
+      "target": "export.import_editable index.get",
+      "case": "index.json contains JSON []",
+      "observation": "AttributeError instead of structured validation failure",
+      "impact": "Malformed container admission error classification; no publication",
+      "status": "reproduced, root correction pending"
+    },
+    {
+      "id": "R04",
+      "severity": "medium",
+      "target": "export._godot / review generated float clock",
+      "case": "two positive rational holds [1,10**400]",
+      "observation": "Godot0.0 weights, actual generated Node player selects frame1 at t0, format reports written",
+      "impact": "Unsupported float representation is falsely admitted; rational/PNG authorities remain valid",
+      "status": "reproduced, root explicit checked float clock correction pending"
+    }
+  ],
+  "positive_controls": [
+    "two-partial straight-alpha analytic [106,95,136,136]",
+    "protected hiddenRGBA and unowned rectangle binding",
+    "tampered editable and existing output preservation",
+    "independent APNG CRC/raw payload/rational fields + GIF centisecond error",
+    "partialalpha/clock codec refusal with lossless fallback",
+    "generated finite player exact boundary selection in inert Node VM",
+    "fresh headless Godot fullRGBA AtlasTexture, finite2plays/40ms clock tolerance and pivot restart"
+  ],
+  "review_limits": [
+    "not whole source tree or all geometry branches",
+    "no browser visual paint or continuous viewing",
+    "headless texture readback is not GPU framebuffer proof",
+    "no vendor/native/editor/cloud/model reproduction",
+    "known reproductions are not passed conformance tests"
+  ],
+  "producer_source_edits": false
+}

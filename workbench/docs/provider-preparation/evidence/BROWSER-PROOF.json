@@ -1,0 +1,81 @@
+{
+  "version": 1,
+  "updated_utc": "2026-10-14T01:52:59.499461+00:00",
+  "checks": [
+    {
+      "name": "actual model page and successful form actions",
+      "passed": true
+    },
+    {
+      "name": "paired tasks are held and share a frozen brief",
+      "passed": true
+    },
+    {
+      "name": "original prompt whitespace retained",
+      "passed": true
+    },
+    {
+      "name": "same submitted draft and ordered references",
+      "passed": true
+    },
+    {
+      "name": "complete folder has exact inspected packet",
+      "passed": true
+    },
+    {
+      "name": "exported PNG retains source pixels and encoded hash",
+      "passed": true
+    },
+    {
+      "name": "first remains supplied diagnostic and raw pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "second remains supplied diagnostic and raw pixels unchanged",
+      "passed": true
+    },
+    {
+      "name": "diagnostic pair is not a model comparison or quality score",
+      "passed": true
+    },
+    {
+      "name": "new tab reloads two retained results",
+      "passed": true
+    },
+    {
+      "name": "mobile fits 390px viewport",
+      "passed": true
+    },
+    {
+      "name": "fresh tab console has no errors or warnings",
+      "passed": true
+    },
+    {
+      "name": "current source setup passed; model comparison stays held",
+      "passed": true
+    }
+  ],
+  "runtime_commit": "f82b2f47a756e5b9d77263b991baf71a4c0c5af0",
+  "source_fingerprint": "bf8bd9c55ea0fdde471d57706b123bc94018f766b5d0c3d2e30cbeab94b1befc",
+  "experiment": "3aa8b8eec3d03be26b7c5845c6e2173a55b09f2ae0e8e9435928734709092144",
+  "result_ids": [
+    "47a6b449439612d7d58285ef9bf580e640d169d632a94828739e991b24f0afff",
+    "cea11935f62d39d35066aa90aa344c3b78dc390c657cb62276d11804779fbdce"
+  ],
+  "browser": "Playwright CLI Chromium; Browser plugin not available",
+  "viewports": [
+    [
+      1440,
+      1050
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "model_calls": 0,
+  "artistic_acceptance": "unreviewed",
+  "execution_status": "held",
+  "boundary": "Root executed UI actions and inspected desktop/mobile screenshots; this script checks retained observations against current Store/files. It does not replay interactions or prove model/art quality.",
+  "excluded_attempt": "Initial incorrect CLI select command left edit_target in a still brief; server correctly rejected with400. Successful later edit flow and clean fresh tab are accepted instead."
+}

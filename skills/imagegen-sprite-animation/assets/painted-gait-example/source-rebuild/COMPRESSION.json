@@ -1,0 +1,53 @@
+{
+  "method": "lossless gzip with mtime0; originalbytes/hashes preserved after decompression",
+  "files": [
+    {
+      "path": "arm-v6-journal.json.gz",
+      "original_path": "arm-v6-journal.json",
+      "decoded_sha256": "10468848fb90b0f39fe6d4d3a3ce618e98fa9ec9aa8376ac05e8ec4ccd964308",
+      "gzip_sha256": "96c74b9d0a76f866180a6a3cdf8bbafedc9e43972bfd67fc6188d0094d907bf9"
+    },
+    {
+      "path": "maps/arm-v6/01-upper.json.gz",
+      "original_path": "maps/arm-v6/01-upper.json",
+      "decoded_sha256": "0b1bfea56ab9e9feb1885be66ac0391944f277260b06d5fba32217068a231f5d",
+      "gzip_sha256": "5406d4aa2783fc8f29d170d1c3760e9d231291072ef52b16baff7713a92dd7e6"
+    },
+    {
+      "path": "maps/arm-v6/02-upper.json.gz",
+      "original_path": "maps/arm-v6/02-upper.json",
+      "decoded_sha256": "70f5d6b290e4d8275e62ba22da46cbe0475bca650608c5d8d3d57b549661322e",
+      "gzip_sha256": "77bf6a08c0dcbd34991a1fbb813a72a1c403da417b07a58ffcf6271d07bafc84"
+    },
+    {
+      "path": "maps/arm-v6/03-upper.json.gz",
+      "original_path": "maps/arm-v6/03-upper.json",
+      "decoded_sha256": "61d6a33819f710541e3a48fe10b67c15589ec10d4df5640fd972131d9631dd0c",
+      "gzip_sha256": "cd99ddedce2eaf8d0aa57cb19c3a5975932b76c0ba238fa54370c468f9c6aa3a"
+    },
+    {
+      "path": "maps/arm-v6/04-upper.json.gz",
+      "original_path": "maps/arm-v6/04-upper.json",
+      "decoded_sha256": "9f910e7348fcf9aae8048aa6e8a421da43f59a851ec7eede4e3eb9b4da3b8a64",
+      "gzip_sha256": "56a811f7963c33319b3c495bc72dc431f1dabfcac26f6c592fd0d405faea0ad5"
+    },
+    {
+      "path": "maps/arm-v6/05-upper.json.gz",
+      "original_path": "maps/arm-v6/05-upper.json",
+      "decoded_sha256": "41e87df8f64bb28c776789e3c29655dc38ff54303d121dd3cfb9001aff42357f",
+      "gzip_sha256": "b9af8146d7ee8c8dbe44c79c593f56cd15bb2375aa250b717b3913fed6d25ad6"
+    },
+    {
+      "path": "maps/arm-v6/06-upper.json.gz",
+      "original_path": "maps/arm-v6/06-upper.json",
+      "decoded_sha256": "2ff7fcba8cb2bf74c8148029877a65b92e430e7f40656a2f7abfeb1ac82e2a60",
+      "gzip_sha256": "121be2ae451d0f7f860803affe2de607e22b4a10c078ca58f9fc96747e3603d3"
+    },
+    {
+      "path": "maps/arm-v6/07-upper.json.gz",
+      "original_path": "maps/arm-v6/07-upper.json",
+      "decoded_sha256": "720eaab0c505d9e203bd65c35cbf5ead9e32f5aa0f5e86b6f7850727f5486096",
+      "gzip_sha256": "ae45cf5b293cda47845e8f841275c54b7986edad5bfe82714381a6b781712f2b"
+    }
+  ]
+}

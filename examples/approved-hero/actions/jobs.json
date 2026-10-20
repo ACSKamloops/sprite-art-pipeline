@@ -1,0 +1,69 @@
+[
+  {
+    "id": "00/generic_rpg_hero/neutral_ready/right_three_quarter/v2",
+    "clip_id": "generic_rpg_hero/neutral_ready_right_three_quarter",
+    "action": "neutral_ready",
+    "source_fingerprint": "af6cbe60e3377005f62eb27de3154eb26e5eb6865c04a85a6e47a5c9cc5e779c",
+    "source_paths": [
+      "character.json",
+      "actions/briefs.json",
+      "references/action-reference192.png"
+    ],
+    "source_hashes": {
+      "character.json": "0f2e06aaddb9d9854ebc5f12a613331df5e93896d4d16c902aa45e2eed40e924",
+      "actions/briefs.json": "0457f9c8613a772bbf07b7b2bd367ef2baeb86cfda6325bc81ab4bd55c9513d4",
+      "references/action-reference192.png": "7496316ced17fe92172c08c982b93565d94abd9dc7e42138971aa03beaca7020"
+    },
+    "depends_on_actions": [],
+    "dependency_policy": "Planningmetadata; queue doesnotenforcedependencies. Satisfyneutralready before authoringattack/jump.",
+    "output_status": "PLANNED_NOT_PRODUCED",
+    "equipment": "unarmed",
+    "future_equipment": "Separate compatible attachmenttracks, not bakedbodypaint."
+  },
+  {
+    "id": "10/generic_rpg_hero/unarmed_straight_punch/right_three_quarter/v2",
+    "clip_id": "generic_rpg_hero/unarmed_straight_punch_right_three_quarter",
+    "action": "unarmed_straight_punch",
+    "source_fingerprint": "8428514b1f2b465eff6d18f222b2c69960ae63a6f9c075a12596c7007629d083",
+    "source_paths": [
+      "character.json",
+      "actions/briefs.json",
+      "references/action-reference192.png"
+    ],
+    "source_hashes": {
+      "character.json": "0f2e06aaddb9d9854ebc5f12a613331df5e93896d4d16c902aa45e2eed40e924",
+      "actions/briefs.json": "0457f9c8613a772bbf07b7b2bd367ef2baeb86cfda6325bc81ab4bd55c9513d4",
+      "references/action-reference192.png": "7496316ced17fe92172c08c982b93565d94abd9dc7e42138971aa03beaca7020"
+    },
+    "depends_on_actions": [
+      "neutral_ready"
+    ],
+    "dependency_policy": "Planningmetadata; queue doesnotenforcedependencies. Satisfyneutralready before authoringattack/jump.",
+    "output_status": "PLANNED_NOT_PRODUCED",
+    "equipment": "unarmed",
+    "future_equipment": "Separate compatible attachmenttracks, not bakedbodypaint."
+  },
+  {
+    "id": "20/generic_rpg_hero/small_in_place_jump/right_three_quarter/v2",
+    "clip_id": "generic_rpg_hero/small_in_place_jump_right_three_quarter",
+    "action": "small_in_place_jump",
+    "source_fingerprint": "5cd9931bab2de08a1b913e9ea01cb369cdda5d585e53fe7480131d0696085578",
+    "source_paths": [
+      "character.json",
+      "actions/briefs.json",
+      "references/action-reference192.png"
+    ],
+    "source_hashes": {
+      "character.json": "0f2e06aaddb9d9854ebc5f12a613331df5e93896d4d16c902aa45e2eed40e924",
+      "actions/briefs.json": "0457f9c8613a772bbf07b7b2bd367ef2baeb86cfda6325bc81ab4bd55c9513d4",
+      "references/action-reference192.png": "7496316ced17fe92172c08c982b93565d94abd9dc7e42138971aa03beaca7020"
+    },
+    "depends_on_actions": [
+      "neutral_ready"
+    ],
+    "dependency_policy": "Planningmetadata; queue doesnotenforcedependencies. Satisfyneutralready before authoringattack/jump.",
+    "output_status": "PLANNED_NOT_PRODUCED",
+    "equipment": "unarmed",
+    "future_equipment": "Separate compatible attachmenttracks, not bakedbodypaint."
+  }
+]

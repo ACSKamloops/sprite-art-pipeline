@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/home/astra/.local/bin/libresprite",
+    "-b",
+    "--list-layers",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-corrections/test_actual_libresprite_save_r0/cropped.aseprite",
+    "--save-as",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-corrections/test_actual_libresprite_save_r0/saved.aseprite",
+    "--sheet",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-corrections/test_actual_libresprite_save_r0/first.png",
+    "--sheet-type",
+    "horizontal",
+    "--data",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-corrections/test_actual_libresprite_save_r0/first.json",
+    "--format",
+    "json-array"
+  ],
+  "returncode": 0,
+  "stdout": "Loading file \"/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-corrections/test_actual_libresprite_save_r0/cropped.aseprite\" (aseprite)\nUsing loader for format ase,aseprite\nLocked background\nPaint\n",
+  "stderr": ""
+}

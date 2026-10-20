@@ -1,0 +1,149 @@
+{
+  "kind": "studio-example",
+  "version": 1,
+  "id": "hero-walk",
+  "title": "RPG hero \u00b7 walk",
+  "loop": true,
+  "files": [
+    {
+      "file": "frame-000.png",
+      "sha256": "5b4a21517e645ca3dacee2dccbc5c7db5dbd04ee150ff6de69a5d3d45c60ba22",
+      "role": "returned reference slot; excluded from animation",
+      "source_slot": 0
+    },
+    {
+      "file": "frame-001.png",
+      "sha256": "5a8aef4e075c9613bc04e2c942171339335e3ad6f2a076b475383c3d15f74b72",
+      "role": "generated frame",
+      "source_slot": 1
+    },
+    {
+      "file": "frame-002.png",
+      "sha256": "75ccddaea726ac54d25dc5f3ed328bac11dc3f4fa29c3bfc85a9c958475b193a",
+      "role": "generated frame",
+      "source_slot": 2
+    },
+    {
+      "file": "frame-003.png",
+      "sha256": "716f8d78947c054c8a6b1f22bed11c265d75a98f13aaa65e0ae274cd1af45796",
+      "role": "generated frame",
+      "source_slot": 3
+    },
+    {
+      "file": "frame-004.png",
+      "sha256": "10cc60479d784a6397374b8ee3018df709192bdb57df62698dbb91bdd3bac3cb",
+      "role": "generated frame",
+      "source_slot": 4
+    },
+    {
+      "file": "frame-005.png",
+      "sha256": "fc1edadaae4dc31752611f77477f8fa06c8639a7b842cbb49a589184c7b2f9f6",
+      "role": "generated frame",
+      "source_slot": 5
+    },
+    {
+      "file": "frame-006.png",
+      "sha256": "329bffd073e1d20acd5d0bb62ef742ccf6d8ccd6537c3b90ce2bf61a074920ae",
+      "role": "generated frame",
+      "source_slot": 6
+    },
+    {
+      "file": "frame-007.png",
+      "sha256": "9fb51e7934d4a63888cd9b83c33deb31cf551b7cb61381efb6cb20b546706260",
+      "role": "generated frame",
+      "source_slot": 7
+    },
+    {
+      "file": "frame-008.png",
+      "sha256": "d060903390adb5b898c6a387bb6372edc9a15c03b450ffe98e02fe7700cdd642",
+      "role": "generated frame",
+      "source_slot": 8
+    },
+    {
+      "file": "frame-009.png",
+      "sha256": "fb2fb8e73136c9ca5a247a0224c6a43462200634cc0b7a60e2e8aee3b701105f",
+      "role": "generated frame",
+      "source_slot": 9
+    },
+    {
+      "file": "frame-010.png",
+      "sha256": "923079207e96701a4f099b38b8a65a226cf9ca2b27e2aa3f7930057ddad377cf",
+      "role": "generated frame",
+      "source_slot": 10
+    },
+    {
+      "file": "frame-011.png",
+      "sha256": "3bc8f3b5fb474cce66f74ac6a4d849b5d95593710052802e5a4a8231761f17ba",
+      "role": "generated frame",
+      "source_slot": 11
+    },
+    {
+      "file": "frame-012.png",
+      "sha256": "e3e8f8d70a677c742110d95dc215fcc51208f26f118984dfce9cdfa355e5e327",
+      "role": "generated frame",
+      "source_slot": 12
+    },
+    {
+      "file": "frame-013.png",
+      "sha256": "a9d4eef87243e1d7ccd23d82c812bc160c3566d773c165cb5076279ebf0da550",
+      "role": "generated frame",
+      "source_slot": 13
+    },
+    {
+      "file": "frame-014.png",
+      "sha256": "23eff319a4af3cd3be33bcc3a830e42f93eceb1c6f94691a1300b1fc3d9ea5f6",
+      "role": "generated frame",
+      "source_slot": 14
+    },
+    {
+      "file": "frame-015.png",
+      "sha256": "23eff319a4af3cd3be33bcc3a830e42f93eceb1c6f94691a1300b1fc3d9ea5f6",
+      "role": "generated frame",
+      "source_slot": 15
+    },
+    {
+      "file": "frame-016.png",
+      "sha256": "23eff319a4af3cd3be33bcc3a830e42f93eceb1c6f94691a1300b1fc3d9ea5f6",
+      "role": "generated frame",
+      "source_slot": 16
+    },
+    {
+      "file": "input-reference.png",
+      "sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "role": "submitted reference"
+    }
+  ],
+  "generated_slots": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "frame_count": 16,
+  "duration": [
+    1,
+    8
+  ],
+  "clock_note": "8FPS inspection timing (authored; provider timing unavailable)",
+  "provider": "PixelLab recorded output; private model/checkpoint unknown",
+  "native_fps": null,
+  "raw_source_canvas": [
+    256,
+    256
+  ],
+  "registration": "Declared canvas center [128,128]; ground contact not measured",
+  "visual_acceptance": "unreviewed",
+  "provenance": "Copied byte-exact from retained authorized local pilot pixellab-walk-v1; raw slot0 retained separately. No private API responses, tokens or account data packaged."
+}

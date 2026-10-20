@@ -1,0 +1,845 @@
+{
+  "scope": "Offline exact analyzer replay and mutated snapshot rejection; no browser, engine, action or gameplay state was changed.",
+  "replayed_actual_traces": 24,
+  "corresponding_receipt_data_matches_exact": true,
+  "rows": [
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 2722,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 2742,
+        "time": 0.4
+      },
+      "locked_count": 13,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 2765,
+        "time": 0.0833333333333333
+      },
+      "recovery": {
+        "physics_tick": 2788,
+        "time": 0.466666666666667
+      },
+      "locked_count": 14,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 8
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 2863,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 2882,
+        "time": 0.383333333333333
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 2904,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 2928,
+        "time": 0.466666666666667
+      },
+      "locked_count": 14,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 8
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3006,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 3024,
+        "time": 0.366666666666667
+      },
+      "locked_count": 11,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3049,
+        "time": 0.0833333333333333
+      },
+      "recovery": {
+        "physics_tick": 3074,
+        "time": 0.5
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 4
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3151,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 3171,
+        "time": 0.4
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3191,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 3218,
+        "time": 0.5
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3571,
+        "time": 0.0833333333333333
+      },
+      "recovery": {
+        "physics_tick": 3590,
+        "time": 0.4
+      },
+      "locked_count": 10,
+      "released_count": 6,
+      "opposed_count": 6,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3623,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 3650,
+        "time": 0.5
+      },
+      "locked_count": 14,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3736,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 3754,
+        "time": 0.366666666666667
+      },
+      "locked_count": 11,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3776,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 3802,
+        "time": 0.5
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 8
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3876,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 3896,
+        "time": 0.4
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 3916,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 3943,
+        "time": 0.5
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4016,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 4036,
+        "time": 0.383333333333333
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4056,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 4083,
+        "time": 0.5
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 3,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4440,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 4460,
+        "time": 0.4
+      },
+      "locked_count": 11,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4492,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 4518,
+        "time": 0.483333333333333
+      },
+      "locked_count": 11,
+      "released_count": 6,
+      "opposed_count": 6,
+      "late_count": 3,
+      "projectile_observations": 7
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4613,
+        "time": 0.0833333333333333
+      },
+      "recovery": {
+        "physics_tick": 4632,
+        "time": 0.4
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4654,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 4680,
+        "time": 0.483333333333333
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4756,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 4776,
+        "time": 0.383333333333333
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4801,
+        "time": 0.0833333333333333
+      },
+      "recovery": {
+        "physics_tick": 4826,
+        "time": 0.5
+      },
+      "locked_count": 15,
+      "released_count": 9,
+      "opposed_count": 9,
+      "late_count": 4,
+      "projectile_observations": 5
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4900,
+        "time": 0.05
+      },
+      "recovery": {
+        "physics_tick": 4920,
+        "time": 0.383333333333333
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "physics_tick": 4942,
+        "time": 0.0666666666666667
+      },
+      "recovery": {
+        "physics_tick": 4967,
+        "time": 0.483333333333333
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    }
+  ],
+  "rejection_checks": [
+    {
+      "name": "timeout is incomplete",
+      "expected": "IncompleteObservation",
+      "actual": "IncompleteObservation",
+      "passed": true,
+      "message": "Trace did not observe action completion (timeout): {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "no action samples is incomplete",
+      "expected": "IncompleteObservation",
+      "actual": "IncompleteObservation",
+      "passed": true,
+      "message": "No locked action snapshot: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "no snapshot at initial minimum is incomplete",
+      "expected": "IncompleteObservation",
+      "actual": "IncompleteObservation",
+      "passed": true,
+      "message": "No action snapshot at/after initial .035s observation: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "test mode in one locked sample fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Unexpected actor or test mode: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "actor mismatch in one locked sample fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Unexpected actor or test mode: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "facing corruption in one early locked sample fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Observed facing/action_aim changed during lock: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "committed aim corruption in one locked sample fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Observed facing/action_aim changed during lock: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "one bad pending hit among clean released samples fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Observed pending hit after gameplay release clock: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "no actual opposite input is incomplete",
+      "expected": "IncompleteObservation",
+      "actual": "IncompleteObservation",
+      "passed": true,
+      "message": "No released locked snapshot with actual opposite movement_input: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "released samples without old late window are incomplete",
+      "expected": "IncompleteObservation",
+      "actual": "IncompleteObservation",
+      "passed": true,
+      "message": "No late locked snapshot with actual opposite movement_input: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "unexpected action end fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Action ended outside ordinary walk/idle: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "no current cast projectile is incomplete",
+      "expected": "IncompleteObservation",
+      "actual": "IncompleteObservation",
+      "passed": true,
+      "message": "No current-cast projectile in the complete observation trace: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    },
+    {
+      "name": "one wrong current projectile among good samples fails",
+      "expected": "ObservedBehaviorFailure",
+      "actual": "ObservedBehaviorFailure",
+      "passed": true,
+      "message": "Observed current-cast projectile changed committed direction: {\"id\":\"rowan\",\"view\":\"northeast\",\"key\":\"k\",\"pose\":\"cast\",\"duration\":0.5,\"release\":0.24,\"aim\":[0.7071067811865476,-0.7071067811865476],\"oppositeAim\":[-0.7071067811865476,0.7071067811865476]}"
+    }
+  ],
+  "all_rejections_passed": true
+}

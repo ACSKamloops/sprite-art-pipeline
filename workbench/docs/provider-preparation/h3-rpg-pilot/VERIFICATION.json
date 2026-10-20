@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "completed_utc": "2026-10-14T03:25:33.134772+00:00",
+  "artifact_root": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014",
+  "gallery_url": "http://localhost:8875/",
+  "matched_input_service_comparison_completed": true,
+  "analysis_of_private_pixel_lab_pipeline_complete": false,
+  "isolated_base_model_ranking_valid": false,
+  "art_quality_accepted": false,
+  "production_editing_ready": false,
+  "new_calls": {
+    "built_in_image_generation": 1,
+    "native_h3_submissions": 3,
+    "pixellab_submissions": 3,
+    "automatic_paid_retries": 0,
+    "pixellab_subscription_generations_consumed": 6
+  },
+  "cases": [
+    {
+      "case": "walk-v1",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "prompt_utf8_sha256": "2f078a8fd63d6c23ef8aacc95d5a051006cf0d1e3741f0af0b828e11a1b3070e",
+      "rea_evidence_id": "ev_105561b10d4b294aabcfb93caa7f82be614b640394175469d243fce8677e642b",
+      "rea_har_sha256": "7f326f79b21b83bb01241fdaaf6aa79a9648be217dea22ee74d437e10e08d56f",
+      "returned_pngs_verified": 17,
+      "native_frames_verified": 107,
+      "reference0": {
+        "alpha_exact": true,
+        "visible_rgb_exact": true,
+        "zero_hidden_rgb_replay_exact": true,
+        "hidden_rgb_changed_pixels": 49
+      }
+    },
+    {
+      "case": "slash-v1",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "prompt_utf8_sha256": "4cb41f264b048ab520cdd845a8442624abb2fd5283300f42d033106ce66ecc35",
+      "rea_evidence_id": "ev_37a69cd8da3b9af4e67c0682e0bef0c2e3dc60843caaaddeffe6d764cc8687c8",
+      "rea_har_sha256": "54a04410b3208bbb23246c3f35754a67fa599787ab64b01f9fcabcb7ab14f8bb",
+      "returned_pngs_verified": 17,
+      "native_frames_verified": 107,
+      "reference0": {
+        "alpha_exact": true,
+        "visible_rgb_exact": true,
+        "zero_hidden_rgb_replay_exact": true,
+        "hidden_rgb_changed_pixels": 49
+      }
+    },
+    {
+      "case": "slash-margin-v2",
+      "source_png_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "prompt_utf8_sha256": "4cb41f264b048ab520cdd845a8442624abb2fd5283300f42d033106ce66ecc35",
+      "rea_evidence_id": "ev_2cc1259007a0e7e7f36f300e1ac323b3f30b6ca2fc15a7496caa842d02880e99",
+      "rea_har_sha256": "fe67813ac748c06c3e88326b04ee2a3e3ba43310f80d11bd5a0e7fe069e10bee",
+      "returned_pngs_verified": 17,
+      "native_frames_verified": 107,
+      "reference0": {
+        "alpha_exact": true,
+        "visible_rgb_exact": true,
+        "zero_hidden_rgb_replay_exact": true,
+        "hidden_rgb_changed_pixels": 30
+      }
+    }
+  ],
+  "checks": {
+    "ordered_pixellab_pngs": 51,
+    "hashed_native_decoded_pngs": 321,
+    "pixellab_generated_pngs": 48,
+    "pixellab_generated_border_contacts": 0,
+    "pixellab_generated_alpha_values": [
+      0,
+      255
+    ],
+    "script_tests_passed": 62,
+    "full_suite_passed": 622,
+    "full_suite_warnings": 1400,
+    "full_suite_exit_code": 0,
+    "full_suite_script_hashes": {
+      "scripts/minimax_h3_pilot.py": "fc1c152f4a9cbd8ed3a0d92adb83625acac8513fb668777ff4dd7362acc79bfe",
+      "scripts/review_h3_video.py": "3cabf21149f988932f9d047ba5de01bf184e826d6bd2379d6bec2ee73ff49c30",
+      "scripts/extract_h3_sprite_cycle.py": "e74e4053b326da3728853144ccbe5c730e6474758a1c8cc2f69241b96ad8b7b0",
+      "scripts/pixellab_h3_comparison.py": "58de1fe2b232d376f3f1b951966a0bc3e82bef48513c8f278b4a0a3e9f9fe7e8",
+      "scripts/verify_h3_pixellab_comparison.py": "8bf8f5452f707def8244fdc24aee14b2502616a765d3851a22b20d37a70b6cab"
+    },
+    "native_walk_browser_callbacks": 107,
+    "native_walk_browser_dropped_frames": 0,
+    "pixel_lab_players_all_16_loaded": true,
+    "curated_margin_strike_26_27_observed_at_1x": true,
+    "once_completion_holds_last": true
+  },
+  "runtime_package": {
+    "sprite_workbench_runtime_modified": false,
+    "wheel_rebuilt": false,
+    "h3_ui_integration_complete": false,
+    "old_v06_proof_superseded_by_this_pilot": false
+  },
+  "unclosed": [
+    "Private PixelLab video extraction/alpha/palette/de-flicker/caption inference and checkpoint identity",
+    "Native PixelLab video PTS and generator-output frame clock",
+    "Production loop seams, planted contacts, equipment attachments and fine alpha edges",
+    "Native H3 blade clipping and ambiguous strike silhouette",
+    "Shared world scale/anchor for margin versus original input",
+    "Phase-aware editing beyond explicit native-index curation",
+    "H3 route integration into the existing workbench UI"
+  ],
+  "evidence_scope": "Producer-captured PixelLab requests/results parsed by REA, native producer records and retained media, all-frame contact review, selected detailed stills and separate mechanical browser playback. No continuous aesthetic-viewing claim."
+}

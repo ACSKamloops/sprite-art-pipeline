@@ -1,0 +1,1 @@
+Broad RGBA polygon copy failed the no-alpha-change guard and was not saved. A fullyopaque-only trial changed zero pixels because settle interior alpha is253. Final candidate copies donor RGB while retaining every target alpha. No zero-change trial is credited as a repair.

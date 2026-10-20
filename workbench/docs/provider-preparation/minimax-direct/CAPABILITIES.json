@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "reviewed_utc": "2026-10-14T02:15:43.651734+00:00",
+  "authority": "MiniMax official docs; retained public sources and separate live chat probes",
+  "direct_chat": {
+    "model": "MiniMax-M3.1-Flash-Preview",
+    "credential_source": "existing Hermes minimax-oauth",
+    "live_verified": true,
+    "endpoint": "https://api.minimax.io/anthropic/v1/messages",
+    "proof": "CHAT-PROBE.json"
+  },
+  "native_image": {
+    "model": "image-01",
+    "endpoint": "https://api.minimax.io/v1/image_generation",
+    "status": "documented; account image generation not tested",
+    "width_height": {
+      "minimum": 512,
+      "maximum": 2048,
+      "multiple_of": 8,
+      "precedence": "aspect_ratio overrides width/height if both supplied"
+    },
+    "subject_references_max": 1,
+    "reference_semantics": "subject identity conditioning; not exact pixel-preserving masked editing",
+    "n_range": [
+      1,
+      9
+    ],
+    "seed": "documented integer; vendor reproducibility claim, not locally verified",
+    "prompt_optimizer": {
+      "documented_default": false,
+      "future_comparison_policy": "explicit false; retain actual submitted prompt"
+    },
+    "response_format": [
+      "url",
+      "base64"
+    ],
+    "future_retention_policy": "base64 original bytes; URLs expire after24hours",
+    "typed_transparent_background": "not declared in inspected schema",
+    "exact_edit_mask": "not declared in inspected schema",
+    "live_image_auth_verified": false
+  },
+  "native_video": {
+    "model_family": "MiniMax H3 / H3 Max",
+    "status": "vendor contract documented; native H3 account/video generation not tested",
+    "local_deployment_docs": "public/guides__local-deploy-h3.md",
+    "sprite_animation_equivalence": false,
+    "pixellab_relationship": "H3 explicitly attributed for PixMiniMax by retained OpenAPI and current official PixelLab API page; exact checkpoint and private conversion unknown",
+    "current_create_endpoint": "https://api.minimax.io/v2/video_generation",
+    "current_query_endpoint": "https://api.minimax.io/v2/query/video_generation/{task_id}",
+    "output_contract": "asynchronous video task; succeeded content.url returns time-limited video URL",
+    "input_modes": [
+      "text-to-video",
+      "first-frame image-to-video",
+      "first-and-last-frame image-to-video",
+      "reference-to-video"
+    ],
+    "input_mode_constraint": "first/last-frame image-to-video cannot be combined with reference media roles",
+    "native_image_min_dimension": 256,
+    "h3_duration_seconds": [
+      4,
+      15
+    ],
+    "h3_resolutions": [
+      "768P",
+      "2K"
+    ],
+    "h3_max_is_distinct_variant": true,
+    "pixellab_controls_not_declared_in_native_schema": [
+      "frame_count",
+      "seed",
+      "no_background",
+      "drift_threshold",
+      "subject_description",
+      "initial_pose",
+      "view",
+      "direction"
+    ],
+    "native_output_fps_control": "not declared in inspected schema; reference input video FPS limit is not output FPS",
+    "pixel_conversion_implementation": "unrecovered; any independent conversion must be labeled",
+    "context_ir_equivalent_to_pixellab_enhancement": "not established",
+    "live_video_auth_verified": false,
+    "evidence": "PIXELLAB-VIDEO-VERIFICATION.md"
+  },
+  "ownership": "A direct MiniMax backend would be a named external generator, not recovered private PixelLab inference.",
+  "live_calls_this_review": {
+    "model_list_requests": 1,
+    "text_inference_requests": 1,
+    "image_generation_requests": 0,
+    "video_generation_requests": 0,
+    "private_assets_uploaded": 0
+  },
+  "credential_values_retained": false,
+  "pixellab_animation_capture": {
+    "route": "/v2/animate-pixminimax",
+    "requested_generated_frames": 8,
+    "returned_png_frames": 9,
+    "first_frame": "original input unchanged in retained PixelLab public encoded-PNG probe with unconverted transparent source",
+    "native_provider_video_retained_in_completed_response": false,
+    "diagnostic_mp4": "derived from returned PNGs with analyst-selected playback rate; not native provider video",
+    "server_video_to_sprite_implementation": "unknown",
+    "evidence": "PIXELLAB-VIDEO-VERIFICATION.md"
+  },
+  "next_animation_scope": "Separate H3 video-task contract and explicit conversion boundary; current v0.6 still/edit packet interface does not support animation."
+}

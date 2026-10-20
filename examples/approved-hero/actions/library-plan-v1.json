@@ -1,0 +1,463 @@
+{
+  "schema": "rpg-animation-library-plan-v1",
+  "created_utc": "2026-10-15T19:17:30.914676+00:00",
+  "scope": "Common RPG character action library first in the current view, then authored top-down directional expansion. No existing artistic scores are rewritten.",
+  "working_baseline_user_quote": "the latest ones with repaired timing and whatnot look really good, lets continue on and do all the typical rpg animations we would need in godot for this character, we have only done side scroller style which is fine for now but remember we want it to be like top down rpgs like chrono trigger etc",
+  "current_view": "right_three_quarter",
+  "target_directions": [
+    "south_front",
+    "west",
+    "east",
+    "north_back"
+  ],
+  "current_direction_coverage": [
+    "east (three-quarter trial view)"
+  ],
+  "direction_policy": "Missing views remain missing. No silent mirroring/fallback counted as authored coverage. Directional turnarounds gate future production.",
+  "stage": {
+    "canvas": [
+      192,
+      192
+    ],
+    "native_painted_height_about": 94,
+    "nominal_pivot": [
+      96,
+      170
+    ],
+    "no_per_pose_fit": true
+  },
+  "appearance_reference": {
+    "file": "work/neutral-provider-input-v1/neutral384-green.png",
+    "sha256": "76687f67245351f94cd65d31b5dfebf23a9043d634af1503139c74060e05aed4"
+  },
+  "shared_proxy_rest": {
+    "file": "work/punch-guide-v2/neutral-frame.json",
+    "sha256": "3a6382410a7ddb703685007ae52a62a90287c60e3f0f3f7201ec8c17b54afcd6"
+  },
+  "existing_sources": [
+    {
+      "id": "walk",
+      "manifest": "approved/walk/manifest.json",
+      "logical_states": [
+        "walk"
+      ]
+    },
+    {
+      "id": "punch",
+      "manifest": "work/action-production-v1/punch-candidate-portable-v2/manifest.json",
+      "logical_states": [
+        "punch"
+      ]
+    },
+    {
+      "id": "jump",
+      "manifest": "work/action-production-v1/jump-candidate-portable-v2/manifest.json",
+      "logical_states": [
+        "jump_takeoff",
+        "jump_air",
+        "jump_land"
+      ]
+    }
+  ],
+  "new_sources": [
+    {
+      "id": "idle",
+      "group": "locomotion",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "idle",
+          "loop": true
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "combat_idle",
+      "group": "locomotion",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "combat_idle",
+          "loop": true
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "run",
+      "group": "locomotion",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "run",
+          "loop": true
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "guard",
+      "group": "locomotion",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "guard_enter",
+          "loop": false
+        },
+        {
+          "id": "guard_hold",
+          "loop": true
+        },
+        {
+          "id": "guard_exit",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": true,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "crouch",
+      "group": "locomotion",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "crouch_enter",
+          "loop": false
+        },
+        {
+          "id": "crouch_hold",
+          "loop": true
+        },
+        {
+          "id": "crouch_exit",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": true,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "kick",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "kick",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "hurt",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "hurt",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "stagger",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "stagger",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "dodge",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "dodge",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "melee_swing",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "melee_swing",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "melee_thrust",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "melee_thrust",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "cast",
+      "group": "combat",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "cast_prepare",
+          "loop": false
+        },
+        {
+          "id": "cast_hold",
+          "loop": true
+        },
+        {
+          "id": "cast_release",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": true,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "interact",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "interact",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "pick_up",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "pick_up",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "use_item",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "use_item",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "victory",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "victory",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "talk",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "talk",
+          "loop": true
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "sit",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "sit_down",
+          "loop": false
+        },
+        {
+          "id": "sit_idle",
+          "loop": true
+        }
+      ],
+      "held_phases_require_own_review": true,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "stand_up",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "stand_up",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": "sit.final",
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "knockdown",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "fall_down",
+          "loop": false
+        },
+        {
+          "id": "downed",
+          "loop": true
+        }
+      ],
+      "held_phases_require_own_review": true,
+      "requires_prior_pose": null,
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    },
+    {
+      "id": "get_up",
+      "group": "social_recovery",
+      "view": "right_three_quarter",
+      "screen_facing": "east",
+      "status": "planned",
+      "state_clips": [
+        {
+          "id": "get_up",
+          "loop": false
+        }
+      ],
+      "held_phases_require_own_review": false,
+      "requires_prior_pose": "knockdown.final",
+      "equipment": "no baked weapons; compatible grip profiles and independent item/VFX tracks later"
+    }
+  ],
+  "source_clip_count_planned": 24,
+  "logical_state_count_planned": 34,
+  "conditional_extensions": [
+    "ladder/climb",
+    "swim",
+    "push/pull",
+    "ledge traversal",
+    "fishing/crafting/tools",
+    "additional emotes"
+  ],
+  "top_down_runtime": {
+    "ground_axes": [
+      "screen_x",
+      "screen_y"
+    ],
+    "height": "separate airborne channel; never add height twice to baked jump pixels",
+    "character_body_motion_mode": "floating",
+    "sort": "ground-root Y; body height and shadow separate",
+    "held_states": "explicit enter/hold/exit and interruption/event cleanup",
+    "current_views": "single-view preview only; N/S/W art unmade"
+  },
+  "quality_gates": [
+    "Frozen keys and readable silhouette before full guide",
+    "Actual encoded guide chronology before provider call",
+    "Retain complete native return and PTS",
+    "Verify background before selecting matte",
+    "Explicit pose window / exposure edits",
+    "All adjacencies, endpoints, identity, edges and contact review",
+    "Independent art scores reported without converting human endorsement into 9/10",
+    "Exact editable/atlas/native-clock and Godot runtime tests"
+  ]
+}

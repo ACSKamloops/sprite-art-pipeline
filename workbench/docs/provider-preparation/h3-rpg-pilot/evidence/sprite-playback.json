@@ -1,0 +1,80 @@
+{
+  "start": {
+    "variant": 16,
+    "frame": 0,
+    "native_index": 16,
+    "playing": false,
+    "rate": 1,
+    "time": 0,
+    "loaded": true
+  },
+  "uniqueFramesSeen": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "sequenceSamples": 139,
+  "loopWraps": 1,
+  "paused": {
+    "variant": 16,
+    "frame": 2,
+    "native_index": 22,
+    "playing": false,
+    "rate": 1,
+    "time": 0.33320000000001354,
+    "loaded": true
+  },
+  "stillPaused": {
+    "variant": 16,
+    "frame": 2,
+    "native_index": 22,
+    "playing": false,
+    "rate": 1,
+    "time": 0.33320000000001354,
+    "loaded": true
+  },
+  "pauseFrozeTimeAndFrame": true,
+  "stepped": {
+    "variant": 16,
+    "frame": 3,
+    "native_index": 25,
+    "playing": false,
+    "rate": 1,
+    "time": 0.375,
+    "loaded": true
+  },
+  "stepAdvanced": true,
+  "eight": {
+    "variant": 8,
+    "frame": 1,
+    "native_index": 22,
+    "playing": false,
+    "rate": 1,
+    "time": 0.375,
+    "loaded": true
+  },
+  "speed": {
+    "variant": 8,
+    "frame": 1,
+    "native_index": 22,
+    "playing": false,
+    "rate": 2,
+    "time": 0.375,
+    "loaded": true
+  },
+  "observedPlaying": true,
+  "reviewScope": "Actual local controls/playback; art remains independently reviewed"
+}

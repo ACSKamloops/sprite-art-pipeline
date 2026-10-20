@@ -1,0 +1,1 @@
+Frozen report/output plus exact105nominated input images retained. No report, grade or input path rewritten. Original SHA256SUMS verified after copying. Mapping: A original complete lower-paint control; B manual-loops-v3. B preferred as repair base, still below target.

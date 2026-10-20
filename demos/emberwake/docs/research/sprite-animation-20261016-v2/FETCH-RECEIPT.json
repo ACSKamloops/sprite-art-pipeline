@@ -1,0 +1,44 @@
+{
+  "retrieved_utc": "2026-10-17T04:42:33.811946+00:00",
+  "repo": "https://github.com/aigengame/aseprite-automation",
+  "commit": "ee2ea8f027bafdbed4f040c8288a1095b287e8b8",
+  "purpose": "Read-only source study; no installation, execution or copied integration.",
+  "sources": [
+    {
+      "path": "examples/wizard_cast_v2/art.py",
+      "url": "https://raw.githubusercontent.com/aigengame/aseprite-automation/ee2ea8f027bafdbed4f040c8288a1095b287e8b8/examples/wizard_cast_v2/art.py",
+      "bytes": 7990,
+      "sha256": "31ef630311026d0c5aaacda6cfb3ef5b9dd2b365c0d5e2414bf2acd0042aa3a2"
+    },
+    {
+      "path": "examples/wizard_cast_v2/recipe.json",
+      "url": "https://raw.githubusercontent.com/aigengame/aseprite-automation/ee2ea8f027bafdbed4f040c8288a1095b287e8b8/examples/wizard_cast_v2/recipe.json",
+      "bytes": 7032,
+      "sha256": "bb97e191a4ee989a0a3f3eb3ec3b021ad2a4d7272b1abf6d468be1acb5c4ca9d"
+    },
+    {
+      "path": "examples/wizard_cast_v2/prepare.py",
+      "url": "https://raw.githubusercontent.com/aigengame/aseprite-automation/ee2ea8f027bafdbed4f040c8288a1095b287e8b8/examples/wizard_cast_v2/prepare.py",
+      "bytes": 3684,
+      "sha256": "99a24d72b463e10c9ff9e7657215295eebadf9b6774424a86683e98327ed3cef"
+    },
+    {
+      "path": "examples/wizard_cast_v2/verify.py",
+      "url": "https://raw.githubusercontent.com/aigengame/aseprite-automation/ee2ea8f027bafdbed4f040c8288a1095b287e8b8/examples/wizard_cast_v2/verify.py",
+      "bytes": 10961,
+      "sha256": "ab5c44a9862c817ffda8277de9a95309cce5e66a7f54134082a841cf18613f6a"
+    },
+    {
+      "path": "examples/wizard_cast_v2/README.md",
+      "url": "https://raw.githubusercontent.com/aigengame/aseprite-automation/ee2ea8f027bafdbed4f040c8288a1095b287e8b8/examples/wizard_cast_v2/README.md",
+      "bytes": 7168,
+      "sha256": "1204d16a42251865d3946fb94b95bb2566c3d6d0ec0c1b822579be7c06f7a2bd"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/aigengame/aseprite-automation/ee2ea8f027bafdbed4f040c8288a1095b287e8b8/LICENSE",
+      "bytes": 1066,
+      "sha256": "5f0e3dc94ca9673566dc5e7367125f9475637c437cdbb12b3485aaea56894b7c"
+    }
+  ]
+}

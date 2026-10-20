@@ -1,0 +1,218 @@
+[
+  {
+    "kind": "model-handoff-packet",
+    "version": 1,
+    "task": "c675ac74c9710c559c2cafe3efc56294456921bfd3f3de9a9ff85d1eaf1acc1e",
+    "executor": "codex.imagegen",
+    "brief": "ef759a1cc0d68ea41912f3a4b6101937ce044373ff03f1edd56ded59566a6e30",
+    "request": {
+      "hard_controls": {},
+      "inputs": [
+        {
+          "raster": "438104b9408c6d47a0d7cfe476878a971644e549c3c34725901dcfabd570e7e7",
+          "role": "edit_target"
+        },
+        {
+          "raster": "c721f489a21284fcea8d0897e77ab5ab12d4687b46f405a2d09349c4f0bfaa3b",
+          "role": "style"
+        }
+      ],
+      "prompt": "  SUPPLIED DIAGNOSTIC ONLY. Keep this instruction verbatim.\n",
+      "requirements": {
+        "desired_size": [
+          256,
+          256
+        ],
+        "transparent_background": true
+      },
+      "task": "edit",
+      "version": 1
+    },
+    "backend": {
+      "boundary": "Agent-mediated tool handoff; no direct HTTP transport or generation performed",
+      "capabilities": {
+        "animation_clock": false,
+        "exact_mask": false,
+        "joint_conditioning": false,
+        "local_input_limit": 8,
+        "ordered_image_references": true,
+        "seed": false,
+        "tasks": [
+          "still",
+          "edit"
+        ],
+        "transparent_background_parameter": true,
+        "typed_size": false
+      },
+      "evidence": "Current built-in imagegen tool schema; underlying model identity undisclosed",
+      "id": "codex.imagegen",
+      "image_provider": "OpenAI",
+      "label": "Codex image-generation tool",
+      "orchestrator_model": null,
+      "orchestrator_provider": "OpenAI",
+      "requested_image_model": null,
+      "status": "external-agent-tool; not callable by this web server"
+    },
+    "inputs": [
+      {
+        "canvas": [
+          5,
+          4
+        ],
+        "decoded_rgba_sha256": "9d21594513be93198815da0535da742db94b753cc36694b14be317e354f49bc8",
+        "filename": "inputs/000-edit_target.png",
+        "png": "74c883c7ab717fbac721a0496a9b4750b3209bc0a99468cc5a3f6747d4e8e0a0",
+        "raster": "438104b9408c6d47a0d7cfe476878a971644e549c3c34725901dcfabd570e7e7",
+        "role": "edit_target",
+        "slot": 0,
+        "transform": "Lossless PNG encoding only; no resize, cleanup or quantization"
+      },
+      {
+        "canvas": [
+          5,
+          4
+        ],
+        "decoded_rgba_sha256": "7bb50cda640dbeec2c7986abfee184674e97b2c2761a5e2a2b2a75725385e56d",
+        "filename": "inputs/001-style.png",
+        "png": "23b93efc03901250cc9c46ddb6c650ecf1877472e4cb9140bf733f1a0a5e4e34",
+        "raster": "c721f489a21284fcea8d0897e77ab5ab12d4687b46f405a2d09349c4f0bfaa3b",
+        "role": "style",
+        "slot": 1,
+        "transform": "Lossless PNG encoding only; no resize, cleanup or quantization"
+      }
+    ],
+    "transport_draft": {
+      "tool": "image_gen.imagegen",
+      "arguments": {
+        "prompt": "  SUPPLIED DIAGNOSTIC ONLY. Keep this instruction verbatim.\n\n\nRequested output (constraints to inspect after return; not typed guarantees):\nDesired canvas: 256 by 256 pixels. Do not claim compliance without checking the file.\nBackground: transparent.\nImage 1: edit_target.\nImage 2: style.\nImage 1 is the edit target; apply the requested change. Other images are references.",
+        "transparent_background": true,
+        "referenced_image_paths": [
+          "inputs/000-edit_target.png",
+          "inputs/001-style.png"
+        ]
+      }
+    },
+    "execution_status": "held",
+    "execution_authorized_by_packet": false,
+    "preflight": [
+      "Inspect every input with view_image before editing or supplying local references.",
+      "Resolve relative reference paths from the exported packet directory.",
+      "Do not run while the model/art experiment prerequisites remain held.",
+      "Retain actual tool arguments, reported model identity and original output bytes.",
+      "No automatic prompt enhancement, resizing, background removal or sprite-sheet splitting."
+    ],
+    "import_service": "local.models.ingest",
+    "boundary": "Local handoff/import protocol; original PixelLab procedural code remains separate. Private inference is unavailable. No model calls or automatic execution."
+  },
+  {
+    "kind": "model-handoff-packet",
+    "version": 1,
+    "task": "1e9f3ab796a0d480309c0bd44c65388e96e63b6d8b154096d24f37029aa93496",
+    "executor": "hermes.image_generate",
+    "brief": "ef759a1cc0d68ea41912f3a4b6101937ce044373ff03f1edd56ded59566a6e30",
+    "request": {
+      "hard_controls": {},
+      "inputs": [
+        {
+          "raster": "438104b9408c6d47a0d7cfe476878a971644e549c3c34725901dcfabd570e7e7",
+          "role": "edit_target"
+        },
+        {
+          "raster": "c721f489a21284fcea8d0897e77ab5ab12d4687b46f405a2d09349c4f0bfaa3b",
+          "role": "style"
+        }
+      ],
+      "prompt": "  SUPPLIED DIAGNOSTIC ONLY. Keep this instruction verbatim.\n",
+      "requirements": {
+        "desired_size": [
+          256,
+          256
+        ],
+        "transparent_background": true
+      },
+      "task": "edit",
+      "version": 1
+    },
+    "backend": {
+      "boundary": "Capabilities refer to the explicitly required installed image plugin. Active image provider is unselected; no auth validity or live availability proof. MiniMax chat is the orchestrator, not the image renderer.",
+      "capabilities": {
+        "animation_clock": false,
+        "exact_mask": false,
+        "joint_conditioning": false,
+        "local_input_limit": 8,
+        "ordered_image_references": true,
+        "seed": false,
+        "tasks": [
+          "still",
+          "edit"
+        ],
+        "transparent_background_parameter": false,
+        "typed_size": false
+      },
+      "evidence": "Installed Hermes 71d34bad104, openai-codex image plugin; inspected 2026-10-14",
+      "id": "hermes.image_generate",
+      "image_provider": null,
+      "image_vendor_if_configured": "OpenAI",
+      "label": "Hermes / MiniMax agent",
+      "orchestrator_model": "MiniMax-M3.1-Flash-Preview",
+      "orchestrator_provider": "minimax-oauth",
+      "requested_image_model": null,
+      "required_configuration": {
+        "image_gen.model": "gpt-image-2-medium",
+        "image_gen.provider": "openai-codex"
+      },
+      "status": "needs-image-provider-selection; runtime untested"
+    },
+    "inputs": [
+      {
+        "canvas": [
+          5,
+          4
+        ],
+        "decoded_rgba_sha256": "9d21594513be93198815da0535da742db94b753cc36694b14be317e354f49bc8",
+        "filename": "inputs/000-edit_target.png",
+        "png": "74c883c7ab717fbac721a0496a9b4750b3209bc0a99468cc5a3f6747d4e8e0a0",
+        "raster": "438104b9408c6d47a0d7cfe476878a971644e549c3c34725901dcfabd570e7e7",
+        "role": "edit_target",
+        "slot": 0,
+        "transform": "Lossless PNG encoding only; no resize, cleanup or quantization"
+      },
+      {
+        "canvas": [
+          5,
+          4
+        ],
+        "decoded_rgba_sha256": "7bb50cda640dbeec2c7986abfee184674e97b2c2761a5e2a2b2a75725385e56d",
+        "filename": "inputs/001-style.png",
+        "png": "23b93efc03901250cc9c46ddb6c650ecf1877472e4cb9140bf733f1a0a5e4e34",
+        "raster": "c721f489a21284fcea8d0897e77ab5ab12d4687b46f405a2d09349c4f0bfaa3b",
+        "role": "style",
+        "slot": 1,
+        "transform": "Lossless PNG encoding only; no resize, cleanup or quantization"
+      }
+    ],
+    "transport_draft": {
+      "tool": "image_generate",
+      "arguments": {
+        "prompt": "  SUPPLIED DIAGNOSTIC ONLY. Keep this instruction verbatim.\n\n\nRequested output (constraints to inspect after return; not typed guarantees):\nDesired canvas: 256 by 256 pixels. Do not claim compliance without checking the file.\nBackground: transparent.\nImage 1: edit_target.\nImage 2: style.\nImage 1 is the edit target; apply the requested change. Other images are references.",
+        "image_url": "inputs/000-edit_target.png",
+        "reference_image_urls": [
+          "inputs/001-style.png"
+        ]
+      }
+    },
+    "execution_status": "held",
+    "execution_authorized_by_packet": false,
+    "preflight": [
+      "Explicitly select the recorded openai-codex image provider; current selection is unset.",
+      "Verify supported local-file input handling in the active tool session.",
+      "Refuse provider fallback; capture actual selected provider and image model.",
+      "Do not substitute MiniMax chat OAuth into an Image-01 API request.",
+      "Do not run while the model/art experiment prerequisites remain held.",
+      "Retain actual tool arguments, reported model identity and original output bytes.",
+      "No automatic prompt enhancement, resizing, background removal or sprite-sheet splitting."
+    ],
+    "import_service": "local.models.ingest",
+    "boundary": "Local handoff/import protocol; original PixelLab procedural code remains separate. Private inference is unavailable. No model calls or automatic execution."
+  }
+]

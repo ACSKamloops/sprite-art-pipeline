@@ -1,0 +1,60 @@
+{
+  "archive_gzip_sha256": "a9d49d48901f26b1158f9ffa7f20b66e207f39956f75c9eb3941f06e97a834f7",
+  "archive_tar_sha256": "28bddbe85b52a5d1a2294ebedca5dda1dfdb11bded025e00584c470fe67a5811",
+  "canonical_pck_and_decoded_engine_match": true,
+  "entries": [
+    {
+      "path": "dist/.openai/hosting.json",
+      "bytes": 106,
+      "sha256": "bbb6b4edceac18852f5a7d69d73236ea30a7884dec9a563abf47017f5b152b5d"
+    },
+    {
+      "path": "dist/index.audio.position.worklet.js",
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "path": "dist/index.pck",
+      "bytes": 12245640,
+      "sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce"
+    },
+    {
+      "path": "dist/index.png",
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 5531,
+      "sha256": "976cb04c0b77c73f8ca780eec9e0afaaa4e4e7efb8b830e64647c7318d46b667"
+    },
+    {
+      "path": "dist/index.wasm.gz",
+      "bytes": 10054758,
+      "sha256": "2862a06f11ad1579c4ceb764f724013c1e62f8916d5d8d237fe5ee209c76f56e"
+    },
+    {
+      "path": "dist/index.js",
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    {
+      "path": "dist/wasm-loader.js",
+      "bytes": 931,
+      "sha256": "dbce71546a73a02b0c9e0c1d2528dd65d9ff16a29875a674b85567f10f58b4ed"
+    },
+    {
+      "path": "dist/index.audio.worklet.js",
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    }
+  ],
+  "native_storage_receipt": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_0000000080b481f5b0aa2aabfd30f44d",
+    "content_hash": "sha256:a69b7255c09145f0af90847642089b4959a154907eeec9a58fe14dd376ba1799",
+    "size_bytes": 22630400,
+    "file_count": 9
+  },
+  "container_hash_qualification": "Native storage content_hash differs from both the local gzip container and decoded raw tar hashes. These are retained as distinct identifiers; container equivalence is not claimed. Actual public payload hashes match local authorities."
+}

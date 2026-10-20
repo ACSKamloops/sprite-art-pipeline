@@ -1,0 +1,9 @@
+### Result
+{
+  "summary": "213 of 213 interfaces shown. Status describes the recorded scope; inspect evidence and unresolved branches individually.",
+  "rows": 213
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({summary:document.querySelector("#catalog-summary").textContent,rows:document.querySelectorAll("#catalog-rows tr").length})');
+```

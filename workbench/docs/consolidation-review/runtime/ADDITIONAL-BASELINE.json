@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "code_commit": "b319f5c0b41543469ee669e9255256c391740950",
+  "owner_equivalent": "33aab50",
+  "result": {
+    "failed": 1,
+    "passed": 4
+  },
+  "finding": {
+    "id": "R04",
+    "severity": "medium",
+    "failure": "Expected missing local font leaks FileNotFoundError after successful candidate step, without per-step failed-run receipt; CLI wraps generic error but lacks runid/priorsteps"
+  },
+  "sources": {
+    "sprite_workbench/pipeline.py": "aa70cfed41ddd4b6ed74a74e9cd0f93179c8deeadc42f8dbc91049dce6ceb4ec",
+    "sprite_workbench/cli.py": "0b7e84f0ba0b6aa0e4219a2af284905627f528e79b54bddcf1051e834fc4f0d4",
+    "README.md": "474acfc3af5f8b8a48fbda31b88175e6578af8c1e7752f3e1783d51e0a3776c1",
+    "tests/test_consolidation_runtime_review.py": "b7096dddfe9439bfe457f36d751a7647695e1ef7b70619947d02a2a9b31f0f94"
+  },
+  "limits": [
+    "No provider/model calls",
+    "New file-error control only; existing controls repeated because owner changed their paths"
+  ]
+}

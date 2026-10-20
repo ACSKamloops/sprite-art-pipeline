@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sprite-workbench"
+version = "0.10.0"
+description = "Local, evidence-bound supplied-art and deterministic sprite workflows"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2", "Pillow>=11", "jsonschema>=4.20", "packaging>=23"]
+
+[project.scripts]
+sprite-workbench = "sprite_workbench.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sprite_workbench*"]
+
+[tool.setuptools.package-data]
+sprite_workbench = ["vfx_runner.cjs", "source_vfx_runner.cjs", "parity_palette_runner.cjs", "parity_palette_source.json", "vendor/vfx/*.js", "vendor/vfx/manifest.json", "vendor/host_selection/*", "vendor/parity_pixels/*", "studio_examples/*/*.png", "studio_examples/*/manifest.json", "motion_examples/manifest.json", "motion_examples/*/*.mp4", "motion_examples/*/*.json", "motion_examples/*/*.png", "contracts/*.json", "observed_examples/*.png", "native/*.c", "web/*.html", "web/*.css", "web/*.js"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,29 @@
+{
+  "scope": "Local isolated candidate-v2 export used for ordinary browser checks, not published or final art acceptance.",
+  "files": {
+    "index.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "index.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "index.html": {
+      "bytes": 5492,
+      "sha256": "ee5b4afcdb792f1835170d4a97facde86d530145ca98f70523287c5ad8accf81"
+    },
+    "index.js": {
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    "index.pck": {
+      "bytes": 15966248,
+      "sha256": "ebdc5b88be0d1bb6ba7440e16545330575fd2ea6c18d3a3eddd11aebb366d135"
+    },
+    "index.wasm": {
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    }
+  }
+}

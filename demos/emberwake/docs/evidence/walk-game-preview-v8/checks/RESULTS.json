@@ -1,0 +1,113 @@
+{
+  "engine": "4.7.2.stable.official.ed1daf0bf",
+  "cases": [
+    {
+      "case": "systems_smoke.gd",
+      "exit_code": 0,
+      "seconds": 3.509,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "SYSTEMS_SMOKE PASS: 114 behavioral checks",
+      "log": "systems_smoke.gd.log"
+    },
+    {
+      "case": "world_smoke.gd",
+      "exit_code": 0,
+      "seconds": 0.621,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "WORLD PASS: 56 assertions",
+      "log": "world_smoke.gd.log"
+    },
+    {
+      "case": "pause_smoke.gd",
+      "exit_code": 0,
+      "seconds": 1.832,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "PAUSE PASS: 26 assertions",
+      "log": "pause_smoke.gd.log"
+    },
+    {
+      "case": "routes_smoke.gd",
+      "exit_code": 0,
+      "seconds": 0.535,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "ROUTE SAMPLES: 378; blocked: \\[\\]",
+      "log": "routes_smoke.gd.log"
+    },
+    {
+      "case": "regressions.gd",
+      "exit_code": 0,
+      "seconds": 4.258,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "REGRESSIONS PASS: 20 assertions",
+      "log": "regressions.gd.log"
+    },
+    {
+      "case": "final_polish.gd",
+      "exit_code": 0,
+      "seconds": 0.536,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "FINAL_POLISH PASS: 34 assertions",
+      "log": "final_polish.gd.log"
+    },
+    {
+      "case": "combat_readability.gd",
+      "exit_code": 0,
+      "seconds": 22.766,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "COMBAT_READABILITY PASS: 30 assertions",
+      "log": "combat_readability.gd.log"
+    },
+    {
+      "case": "character_selection.gd",
+      "exit_code": 0,
+      "seconds": 0.815,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "CHARACTER_SELECTION PASS: 40 assertions",
+      "log": "character_selection.gd.log"
+    },
+    {
+      "case": "spells_v2.gd",
+      "exit_code": 0,
+      "seconds": 1.092,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "SPELLS_V2 PASS: (\\d+) assertions",
+      "log": "spells_v2.gd.log"
+    },
+    {
+      "case": "eight_directions.gd",
+      "exit_code": 0,
+      "seconds": 6.392,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "EIGHT_DIRECTIONS PASS: (\\d+) assertions; production_required=true",
+      "log": "eight_directions.gd.log"
+    },
+    {
+      "case": "cast_charge_tracks.gd",
+      "exit_code": 0,
+      "seconds": 0.535,
+      "passed": true,
+      "errors": [],
+      "expected_receipt": "CAST_CHARGE_TRACKS PASS: (\\d+) assertions",
+      "log": "cast_charge_tracks.gd.log"
+    }
+  ],
+  "all_passed": true,
+  "assertions": 1804,
+  "baseline_assertions": 280,
+  "selection_fixture_assertions": 40,
+  "production_spell_assertions": 80,
+  "eight_direction_assertions": 1163,
+  "cast_charge_assertions": 241,
+  "route_samples": 378,
+  "note": "Behavioral/resource tests, not art scores. Selection is a fixture; spell/eight-direction/charge cases also load production character banks. Direction and charge counts include explicitly synthetic mechanics fixtures plus actual resource/projection assertions. Rendered attachment tests are separate. Model/API calls are not used."
+}

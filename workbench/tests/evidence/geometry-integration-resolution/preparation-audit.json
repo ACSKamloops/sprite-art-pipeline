@@ -1,0 +1,83 @@
+{
+  "id": "9291da91917299d7395680bc0acd410a72a5d7679ba9fc1715b2962adf904980",
+  "doc": {
+    "adapter": "local-rgba-v1",
+    "geometry": [
+      {
+        "origin": [
+          0,
+          0
+        ],
+        "output_size": [
+          4,
+          4
+        ],
+        "pad_offset": [
+          0,
+          0
+        ],
+        "pre_resize_size": [
+          2,
+          2
+        ],
+        "source_size": [
+          2,
+          2
+        ]
+      }
+    ],
+    "kind": "preparation",
+    "mask": "6804583cfeaa2f3cd5083db8d69f4170c96c7e3a2eba7d51bd5a5be476be4b41",
+    "operations": [
+      {
+        "op": "crop-pad",
+        "outside": "transparent-zero",
+        "roi": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "slot": 0
+      },
+      {
+        "from": [
+          2,
+          2
+        ],
+        "op": "nearest-resize",
+        "sampler": "left-cell-local-v1",
+        "slot": 0,
+        "to": [
+          4,
+          4
+        ]
+      },
+      {
+        "op": "binary-mask",
+        "predicate": "source-alpha!=0-or-scalar!=0",
+        "transform": "same-roi-size-pad"
+      }
+    ],
+    "rasters": [
+      "f6d712c221a24d3606b814ffcb022836cc544c6e09df5632d4ae749dc19c6f08"
+    ],
+    "reference_roles": [],
+    "references": [],
+    "source_mask": "7892eb301144d33905c61c06acb5231c0b8b55f03b15938aef8010bfb5d5edad",
+    "source_mask_format": {
+      "dtype": "uint8",
+      "packing": "rgba",
+      "shape": [
+        2,
+        2,
+        4
+      ]
+    },
+    "source_rasters": [
+      "82a3c765fe4f4039b70967d5466887bb303248fa0c6d26ba87b546433261a4d2"
+    ],
+    "source_references": [],
+    "version": 1
+  }
+}

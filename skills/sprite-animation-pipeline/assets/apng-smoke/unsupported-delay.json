@@ -1,0 +1,33 @@
+{
+  "canvas": [
+    5,
+    4
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "file": "00.png",
+      "sha256": "8f531d812d3f81bafd28e39863f267f4cfe7218b8b9dd2e63dfec4bf934640ac",
+      "hold": [
+        1,
+        65536
+      ]
+    },
+    {
+      "file": "01.png",
+      "sha256": "a87203395715d32d8eefe06394a126b358d778e37e42c41b2d9493e4311c15da",
+      "hold": [
+        2,
+        75
+      ]
+    },
+    {
+      "file": "02.png",
+      "sha256": "1ef94c5bc738bc97da27aa23f553b9c03f75071ee98f0c1a2d97630089839bbf",
+      "hold": [
+        1,
+        8
+      ]
+    }
+  ]
+}

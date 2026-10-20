@@ -1,0 +1,512 @@
+[
+  {
+    "file": "bake/REPLAY.json",
+    "differences": [
+      {
+        "path": "/actors/brann/atlas_sha256",
+        "v9": "c4211d937aaed65936f31bab1b3814babf837d95fd9daf94a5e4ebea1df492fc",
+        "v10": "7f0e089b1ebbdae95ee775c648559d9e77d792c2d7b76d7854a259b9c0a8d4cc"
+      },
+      {
+        "path": "/actors/brann/manifest_sha256",
+        "v9": "07f85309c2f2b630927459500cb370de611fdda9c1b7fcd4b2cfd2e567cfc561",
+        "v10": "b8712801e36e5f4c7da2e0400da9946c2b47cefd9c65a1e9c092be87cf53c90f"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/0/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/00.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/0/sha256",
+        "v9": "d21931c35922f79a7dc2c9650ad7398645f2fc7414c85561f206fb5d1cf62c15",
+        "v10": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/1/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/01.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/1/sha256",
+        "v9": "013bafc1d37aad93721963af0106935d3f31e8fcb87bd060fa589351f2f99f00",
+        "v10": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/2/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/02.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/2/sha256",
+        "v9": "e9dc293eddcd5185a5ce45eebf67e3e290340fa3a2e2c5c3f0cfa49dcea7cd10",
+        "v10": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/3/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/03.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/3/sha256",
+        "v9": "f12c4bd46dfdf0f88f45a9f36b655f1a2ed6a67a078985d87dcbaf0daefb48e6",
+        "v10": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/4/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/04.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/4/sha256",
+        "v9": "512cd0d2db4e55e0632da1241ec09433ecfa01acd5e94cfec929bffcc1a26dcb",
+        "v10": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/5/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/05.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/5/sha256",
+        "v9": "707a34aab69380ffa5e403c9fc21d685386a3fde9c4032d26285a28ff2002ace",
+        "v10": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/6/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/06.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/6/sha256",
+        "v9": "2cda7c5c555cc2c1ed343e728d19e34d6b8f20bf09f4c55310faeaa7bd78362a",
+        "v10": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/7/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/07.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/frames/7/sha256",
+        "v9": "6de241fe76c7c7af99a134ee3789a7472813d77bd3cd9f738219bed0c78bd79c",
+        "v10": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+      },
+      {
+        "path": "/actors/brann/source_registration/southeast/walk_override/scope",
+        "v9": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release.",
+        "v10": "Preferred body-weight and four-pixel seam bank, scoped matte export. Same .45s clock, unfinished7.3motion judged from still chronology."
+      },
+      {
+        "path": "/actors/lyra/manifest_sha256",
+        "v9": "034dbfacdf3f878549a60948cae652ae45534ba550ae67760ebbf52b71f3ec3f",
+        "v10": "d342b436fcedbfab320bcb7a432e28b8a7d2570f0dc0d1802300d51592d0dd0a"
+      },
+      {
+        "path": "/actors/rowan/manifest_sha256",
+        "v9": "5eb2728cbaf941416a48cf05c6b0e0bbe4939290d59fc97f75cb1ede9d3e7e81",
+        "v10": "7759ec2d2eec40634b108e98d7a0c7063a9c2578ae7f99e7ef54af0d0541bd04"
+      },
+      {
+        "path": "/config_sha256",
+        "v9": "b3da0a06beb8aaaa72aefaf70491e03e3882fc4ffd076be0cd8058b83f27a147",
+        "v10": "1dc8918ac8bc69bcc57615bf8071137ae911d811a9b22df9c19e689dacec6da3"
+      }
+    ]
+  },
+  {
+    "file": "bake/brann/animations.json",
+    "differences": [
+      {
+        "path": "/directional_source",
+        "v9": "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "v10": "art-source/eight-direction-v1/registration-v10-brann-front-weight.json"
+      }
+    ]
+  },
+  {
+    "file": "bake/brann/lineage.json",
+    "differences": [
+      {
+        "path": "/136/rgba_sha256",
+        "v9": "ff4e2a8f7c74ec74a6e3cd78034869eaf14db6e547307517dff305a6e5eb4d72",
+        "v10": "a9e713cee0382b36e5001e22e5bce51b86a3d3d1d2aca69858f90f212ac2aa60"
+      },
+      {
+        "path": "/136/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/00.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png"
+      },
+      {
+        "path": "/136/selected_override/sha256",
+        "v9": "d21931c35922f79a7dc2c9650ad7398645f2fc7414c85561f206fb5d1cf62c15",
+        "v10": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+      },
+      {
+        "path": "/137/rgba_sha256",
+        "v9": "8a71c4c30515711a1889292bb5262ba53f8ca022389f9651e633398c444b9a0f",
+        "v10": "03c8faf4b0e1bd92428d48c8d48355523190e15346f35a8a72c76db4b6b64069"
+      },
+      {
+        "path": "/137/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/01.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png"
+      },
+      {
+        "path": "/137/selected_override/sha256",
+        "v9": "013bafc1d37aad93721963af0106935d3f31e8fcb87bd060fa589351f2f99f00",
+        "v10": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+      },
+      {
+        "path": "/138/rgba_sha256",
+        "v9": "daaef0dc7ad57c610445fd6272daa1a0c1b91e18eb768ad340b3cf2844dd5aca",
+        "v10": "bdab53b7933bf00ef7d66293638191e87ba54263f88fcb46f6be3eb54575bd4a"
+      },
+      {
+        "path": "/138/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/02.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png"
+      },
+      {
+        "path": "/138/selected_override/sha256",
+        "v9": "e9dc293eddcd5185a5ce45eebf67e3e290340fa3a2e2c5c3f0cfa49dcea7cd10",
+        "v10": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+      },
+      {
+        "path": "/139/rgba_sha256",
+        "v9": "19eb2fe30032bf95a9bf1eb81b345c450d7f554408b9a76186f230d8f75b3bbe",
+        "v10": "c99ab5198345560a14d21ec58c8df58976b15326b286550bef2370e773ff7457"
+      },
+      {
+        "path": "/139/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/03.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png"
+      },
+      {
+        "path": "/139/selected_override/sha256",
+        "v9": "f12c4bd46dfdf0f88f45a9f36b655f1a2ed6a67a078985d87dcbaf0daefb48e6",
+        "v10": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+      },
+      {
+        "path": "/140/rgba_sha256",
+        "v9": "c96da94d6535e429f14dee3cbbc02dbd58aab75c0f216296846d3b6c1f99c03b",
+        "v10": "f426f4641890fa0ce2a018ea06e6d2021cb4317b49fb9b7f9af8f06284b3fb35"
+      },
+      {
+        "path": "/140/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/04.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png"
+      },
+      {
+        "path": "/140/selected_override/sha256",
+        "v9": "512cd0d2db4e55e0632da1241ec09433ecfa01acd5e94cfec929bffcc1a26dcb",
+        "v10": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+      },
+      {
+        "path": "/141/rgba_sha256",
+        "v9": "99b3ecf2695b41007846f7eeb1f2247b565ed7afe0c8031808923ab5868a6b1d",
+        "v10": "bcaa6d926e4ad6ef1e6c29ad938d78c20fd503f5391783b36910ab0b17df7e70"
+      },
+      {
+        "path": "/141/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/05.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png"
+      },
+      {
+        "path": "/141/selected_override/sha256",
+        "v9": "707a34aab69380ffa5e403c9fc21d685386a3fde9c4032d26285a28ff2002ace",
+        "v10": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+      },
+      {
+        "path": "/142/rgba_sha256",
+        "v9": "4915999bc160ac2ce05e20090b1a9615a96c90bde8f5b1cf7b07deaa18a98b12",
+        "v10": "8b64b2ff10abbde715d9ca2f8c2d225ffeae02888e4ce874ff5c2068984aea0c"
+      },
+      {
+        "path": "/142/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/06.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png"
+      },
+      {
+        "path": "/142/selected_override/sha256",
+        "v9": "2cda7c5c555cc2c1ed343e728d19e34d6b8f20bf09f4c55310faeaa7bd78362a",
+        "v10": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+      },
+      {
+        "path": "/143/rgba_sha256",
+        "v9": "a0cce8ee768dd87ca94d1718010fa43886705dfd0a2c21c2739c092f12cbc22b",
+        "v10": "6cdcc7841236d032c018c548240285f6a39958e19caa7b53f0e35a9a9278ca34"
+      },
+      {
+        "path": "/143/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/07.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png"
+      },
+      {
+        "path": "/143/selected_override/sha256",
+        "v9": "6de241fe76c7c7af99a134ee3789a7472813d77bd3cd9f738219bed0c78bd79c",
+        "v10": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+      },
+      {
+        "path": "/232/rgba_sha256",
+        "v9": "238e100b0da850ed417689c1319ace919ba732cd305d7b419f216aaaad60b8fb",
+        "v10": "634f800be038105b85521f7522e432efe9adb1a49f2f9193f6dccfcbea06556b"
+      },
+      {
+        "path": "/232/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/00.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png"
+      },
+      {
+        "path": "/232/selected_override/sha256",
+        "v9": "d21931c35922f79a7dc2c9650ad7398645f2fc7414c85561f206fb5d1cf62c15",
+        "v10": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+      },
+      {
+        "path": "/233/rgba_sha256",
+        "v9": "a6c4eb5c4c4738b8ca611c3a11010342c96b1c6152d0caf3d04290ea7dc2808a",
+        "v10": "9a732fbd7e563937643d40672ddb1d8b35d7d0f61c8394c389ffb648b4a31f84"
+      },
+      {
+        "path": "/233/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/01.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png"
+      },
+      {
+        "path": "/233/selected_override/sha256",
+        "v9": "013bafc1d37aad93721963af0106935d3f31e8fcb87bd060fa589351f2f99f00",
+        "v10": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+      },
+      {
+        "path": "/234/rgba_sha256",
+        "v9": "70f71c62dc66bc487b00eebcf91643b8b00e4a1071f994d35950466856f5dac9",
+        "v10": "14c89dce4e6bb08ad024eb16fc8df5ec56a7f09d494d5fe3f249d3d2e5b57f41"
+      },
+      {
+        "path": "/234/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/02.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png"
+      },
+      {
+        "path": "/234/selected_override/sha256",
+        "v9": "e9dc293eddcd5185a5ce45eebf67e3e290340fa3a2e2c5c3f0cfa49dcea7cd10",
+        "v10": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+      },
+      {
+        "path": "/235/rgba_sha256",
+        "v9": "80c95fa41e663f47f948b5b1e02ad62560606419847d25009562b7d725cca0ca",
+        "v10": "040d2eff3a8dca03084534a71ef78145bac96b901c5e1724fb2a4a69dad51a09"
+      },
+      {
+        "path": "/235/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/03.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png"
+      },
+      {
+        "path": "/235/selected_override/sha256",
+        "v9": "f12c4bd46dfdf0f88f45a9f36b655f1a2ed6a67a078985d87dcbaf0daefb48e6",
+        "v10": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+      },
+      {
+        "path": "/236/rgba_sha256",
+        "v9": "d21f961a2a6638dee5a3b27dee3ae3bd89f6217cd5781549ec4b1aa6686f5c8d",
+        "v10": "05fec0826e4df28b90f3d541ef1f4e800f793deec555bd82397193033c650c36"
+      },
+      {
+        "path": "/236/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/04.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png"
+      },
+      {
+        "path": "/236/selected_override/sha256",
+        "v9": "512cd0d2db4e55e0632da1241ec09433ecfa01acd5e94cfec929bffcc1a26dcb",
+        "v10": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+      },
+      {
+        "path": "/237/rgba_sha256",
+        "v9": "7311375b3c4570bba25839c4094ea642d1460c59b70672bd60a4b3128d7ca07b",
+        "v10": "50e8b013a6d60f8b6dd4afcf9204c4b143439ade72f273a651a95844d4715159"
+      },
+      {
+        "path": "/237/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/05.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png"
+      },
+      {
+        "path": "/237/selected_override/sha256",
+        "v9": "707a34aab69380ffa5e403c9fc21d685386a3fde9c4032d26285a28ff2002ace",
+        "v10": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+      },
+      {
+        "path": "/238/rgba_sha256",
+        "v9": "4950aa9f5ec6df015072280e609cc9340faaafa951288317c450f071535f4b99",
+        "v10": "73ac7ac4a6ac42fff0c48e1d2522b2b3d684629fec7eba93db3850ded932687c"
+      },
+      {
+        "path": "/238/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/06.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png"
+      },
+      {
+        "path": "/238/selected_override/sha256",
+        "v9": "2cda7c5c555cc2c1ed343e728d19e34d6b8f20bf09f4c55310faeaa7bd78362a",
+        "v10": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+      },
+      {
+        "path": "/239/rgba_sha256",
+        "v9": "e0dcbe2f75601cd2b2a3721923b421d89c794e51394fb094b9e3d6a849f97d85",
+        "v10": "2b37e98a95178b25cf27717c058250296b9fc333d006e3f207679889d8398fea"
+      },
+      {
+        "path": "/239/selected_override/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/07.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png"
+      },
+      {
+        "path": "/239/selected_override/sha256",
+        "v9": "6de241fe76c7c7af99a134ee3789a7472813d77bd3cd9f738219bed0c78bd79c",
+        "v10": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+      }
+    ]
+  },
+  {
+    "file": "bake/brann/source-ownership.json",
+    "differences": [
+      {
+        "path": "/southeast/walk_override/frames/0/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/00.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/0/sha256",
+        "v9": "d21931c35922f79a7dc2c9650ad7398645f2fc7414c85561f206fb5d1cf62c15",
+        "v10": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+      },
+      {
+        "path": "/southeast/walk_override/frames/1/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/01.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/1/sha256",
+        "v9": "013bafc1d37aad93721963af0106935d3f31e8fcb87bd060fa589351f2f99f00",
+        "v10": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+      },
+      {
+        "path": "/southeast/walk_override/frames/2/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/02.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/2/sha256",
+        "v9": "e9dc293eddcd5185a5ce45eebf67e3e290340fa3a2e2c5c3f0cfa49dcea7cd10",
+        "v10": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+      },
+      {
+        "path": "/southeast/walk_override/frames/3/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/03.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/3/sha256",
+        "v9": "f12c4bd46dfdf0f88f45a9f36b655f1a2ed6a67a078985d87dcbaf0daefb48e6",
+        "v10": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+      },
+      {
+        "path": "/southeast/walk_override/frames/4/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/04.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/4/sha256",
+        "v9": "512cd0d2db4e55e0632da1241ec09433ecfa01acd5e94cfec929bffcc1a26dcb",
+        "v10": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+      },
+      {
+        "path": "/southeast/walk_override/frames/5/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/05.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/5/sha256",
+        "v9": "707a34aab69380ffa5e403c9fc21d685386a3fde9c4032d26285a28ff2002ace",
+        "v10": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+      },
+      {
+        "path": "/southeast/walk_override/frames/6/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/06.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/6/sha256",
+        "v9": "2cda7c5c555cc2c1ed343e728d19e34d6b8f20bf09f4c55310faeaa7bd78362a",
+        "v10": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+      },
+      {
+        "path": "/southeast/walk_override/frames/7/path",
+        "v9": "art-source/eight-direction-v1/brann-distant-matte-v1/cleaned/southeast/07.png",
+        "v10": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png"
+      },
+      {
+        "path": "/southeast/walk_override/frames/7/sha256",
+        "v9": "6de241fe76c7c7af99a134ee3789a7472813d77bd3cd9f738219bed0c78bd79c",
+        "v10": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+      },
+      {
+        "path": "/southeast/walk_override/scope",
+        "v9": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release.",
+        "v10": "Preferred body-weight and four-pixel seam bank, scoped matte export. Same .45s clock, unfinished7.3motion judged from still chronology."
+      }
+    ]
+  },
+  {
+    "file": "bake/lyra/animations.json",
+    "differences": [
+      {
+        "path": "/directional_source",
+        "v9": "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "v10": "art-source/eight-direction-v1/registration-v10-brann-front-weight.json"
+      }
+    ]
+  },
+  {
+    "file": "bake/rowan/animations.json",
+    "differences": [
+      {
+        "path": "/directional_source",
+        "v9": "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "v10": "art-source/eight-direction-v1/registration-v10-brann-front-weight.json"
+      }
+    ]
+  },
+  {
+    "file": "project/assets/characters/brann/animations.json",
+    "differences": [
+      {
+        "path": "/directional_source",
+        "v9": "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "v10": "art-source/eight-direction-v1/registration-v10-brann-front-weight.json"
+      }
+    ]
+  },
+  {
+    "file": "project/assets/characters/lyra/animations.json",
+    "differences": [
+      {
+        "path": "/directional_source",
+        "v9": "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "v10": "art-source/eight-direction-v1/registration-v10-brann-front-weight.json"
+      }
+    ]
+  },
+  {
+    "file": "project/assets/hero/animations.json",
+    "differences": [
+      {
+        "path": "/directional_source",
+        "v9": "art-source/eight-direction-v1/registration-v9-weight-and-rear-repairs.json",
+        "v10": "art-source/eight-direction-v1/registration-v10-brann-front-weight.json"
+      }
+    ]
+  }
+]

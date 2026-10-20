@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "observed_utc": "2026-10-14T07:14:07.277035+00:00",
+  "target": "http://127.0.0.1:8874",
+  "runtime": "installed wheel v0.8.0 on preserved Studio project plus additive Motion artifacts",
+  "installed_import_probe": {
+    "file": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/install-venv/lib/python3.14/site-packages/sprite_workbench/__init__.py",
+    "version": "0.8.0",
+    "source_fingerprint": "87e968064644df6937b70ada888afdcdf5de9716b13bb2b7ef3637cd8af88193"
+  },
+  "wheel": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/wheel/sprite_workbench-0.8.0-py3-none-any.whl",
+  "wheel_sha256": "915d3c4ea1b2cbf825b10644056a7c96aa38a9b2c09fd604fd200f4aadd2d4f9",
+  "served_web_matches_installed": true,
+  "served_web_sha256": {
+    "motion-lab.js": "43ae80f118195e0daca2fcecc27d76d96da2b48bbeeb54fcf9089e07ec3d89f7",
+    "studio.js": "ebe865b50fcb970298b7104ac8d46b9cf18260e4b825c9eb6d0788e2fa5db09d",
+    "app.js": "31b94f2910a784c2448d66ff1fbfbc39f786f0c3f6842e531437a4039b189589",
+    "style.css": "a005433f5a2eeeb9eb393b8a91e31cb6729c45e87331e9cc4e8444333c699f32"
+  },
+  "status": "passed",
+  "checks": [
+    "Packaged native source actual decode, index26 PTS and complete native video playback",
+    "All16 native selected poses preloaded and actual full canvas matches decoded PNG at every ordered index",
+    "Actual authored0.8second one-shot canvas playback completed without per-hold PNG requests",
+    "Explicit256 recovered-host background and calibrated fixed palette draft",
+    "Explicit candidate import into Studio with fresh proved mapping",
+    "Actual fine-editor erase propagates to Studio and immutable undo restores original project",
+    "Complete Motion\u2192Studio cold verified export and ZIP download",
+    "Offline Prepare finds actual complete first=last run and disables resubmission",
+    "Edited draft does not lose existing paid-run monitoring; explicit immutable resume only",
+    "Motion Lab390px no document overflow"
+  ],
+  "postflight": {
+    "status": "passed",
+    "selected_raster_correspondence": 16,
+    "authored_holds_exact": 16,
+    "source_indices": [
+      0,
+      12,
+      18,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      35,
+      52,
+      73,
+      78,
+      85,
+      94,
+      106
+    ],
+    "zip_inventory_verified": 386,
+    "scope": "local immutable JSON and ZIP readback; no provider operations"
+  },
+  "native_video_callbacks": 106,
+  "native_video_ended": true,
+  "observed_fast_poses": [
+    6,
+    7
+  ],
+  "timed_transition_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "provider_action_attempts": 0,
+  "provider_invocations": 0,
+  "page_errors": [],
+  "console_errors": [],
+  "http_errors": [],
+  "prior_canonical_proof_sha256": "df2a126289fbae874dfe77a309fc67db342e655702ac57efed3f5d1e5ad7722a",
+  "artifact_directory": "/home/astra/artifacts/pixellab-motion-ui-installed-20261014/run-01",
+  "artifacts": [
+    {
+      "file": "RESULT.json",
+      "bytes": 28169,
+      "sha256": "178130a7f2505c4621fad0dc3fe00c5d0596c6f4561d034fe4eb4049c0f8a860"
+    },
+    {
+      "file": "final-dom.txt",
+      "bytes": 4166,
+      "sha256": "2a6d8d24bd5df520e64abeaf856b6b9cf2b9830d71ab2d21c116785d75045008"
+    },
+    {
+      "file": "installed-import.json",
+      "bytes": 257,
+      "sha256": "9dd4caf94bb5db2bd97fc1d77e10d536e8468a6c5c0f038da68f42fac6c5e875"
+    },
+    {
+      "file": "motion-desktop.png",
+      "bytes": 481672,
+      "sha256": "71019cea8f8f3bb2f182b7b6336a470de5f73431f05627b06547ea090dfa026c"
+    },
+    {
+      "file": "motion-mobile390.png",
+      "bytes": 384754,
+      "sha256": "f51989ba130680e18a7caa0e927b9fff894491b76ebd092cc22dd1ca4b76a720"
+    },
+    {
+      "file": "postflight-result.json",
+      "bytes": 358,
+      "sha256": "b2c8afb97d6125f9042f254aea7f454737aa18148f9b6df1de7f85f2fd7a555e"
+    },
+    {
+      "file": "studio-package.zip",
+      "bytes": 25181616,
+      "sha256": "1e96251cdee75a42c67b11127b15d27f453b9cee8cce4bcd1fc8ed396bc51cec"
+    },
+    {
+      "file": "studio.png",
+      "bytes": 180113,
+      "sha256": "9c7be443cbebc53f343b63b870f2f649a0d974f3b6c66aa425e543318eec5641"
+    },
+    {
+      "file": "trace.zip",
+      "bytes": 46068205,
+      "sha256": "7b3ba092d6d33b8e81c023dfeedc982d34acb43c154a2f2e230799b19aec6b83"
+    }
+  ],
+  "harness_sha256": {
+    "qa-motion-real.cjs": "e98947566dbc4ff7108ee2e0acdc111c91e03286aee41aab2d21db6dfe33dc45",
+    "postflight.py": "3f8e30bd7e2fd5babfd78dba24e97d451b5953b87d1bdb2c80b6e8ffea3e24c8"
+  }
+}

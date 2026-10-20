@@ -1,0 +1,4 @@
+# Captured CLI evidence is retained byte-for-byte, including final blank lines.
+docs/provider-preparation/evidence/*.log -whitespace
+# Official documentation snapshots retain their original whitespace and hashes.
+docs/provider-preparation/minimax-direct/public/*.md -whitespace

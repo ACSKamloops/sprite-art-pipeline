@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "evidence_id": "ev_2f5be9397ba1fce997c3a012d47d82df87d96902162be4746ed7371fe9fbfbbb",
+      "authority": "historical-reference",
+      "confidence": "observed",
+      "capture": {
+        "bytes": 36413,
+        "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/network.har",
+        "sha256": "8833ff681e7d6f1a9a911e1e4428551f31f64e59b31aa9d9eaee732b33ad8dbb"
+      },
+      "record_count": 1
+    },
+    {
+      "evidence_id": "ev_4363aacc5715ada7f8a293f3e4d3c683d70ab4b0108be8403aa8741384f2aad8",
+      "authority": "historical-reference",
+      "confidence": "observed",
+      "capture": {
+        "bytes": 1464,
+        "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0004/network.har",
+        "sha256": "04d30714ce5d0e8129737483caf28bec0b7976f6d964ca2e6b12cd9bacad6c7e"
+      },
+      "record_count": 1
+    },
+    {
+      "evidence_id": "ev_79b8fcbf09589dedbb931d527345d792df849ddc5cd4b6e1a456fa916154422b",
+      "authority": "historical-reference",
+      "confidence": "observed",
+      "capture": {
+        "bytes": 1464,
+        "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0002/network.har",
+        "sha256": "7b9f54b67ef48d8806e11fb0e4eb341af1fa3a12ec1b97d15fed3a2e12e57910"
+      },
+      "record_count": 1
+    },
+    {
+      "evidence_id": "ev_855cc7400fb1af365a95fe87728437d0e2b0306ef020bbf4071ac25a30001f52",
+      "authority": "historical-reference",
+      "confidence": "observed",
+      "capture": {
+        "bytes": 71137,
+        "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/network.har",
+        "sha256": "eac4b05326433e463848636b6716dc83e98d7916637d491859bb58e279cc4b68"
+      },
+      "record_count": 1
+    }
+  ],
+  "current_evidence_file": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/REA-CURRENT-CAPTURES.json",
+  "current_evidence_sha256": "54f5728e34eeeae0d0a00143511d653e83ae24f9ed8fc520a188eeeac64abd41"
+}

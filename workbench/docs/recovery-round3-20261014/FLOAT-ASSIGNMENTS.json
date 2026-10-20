@@ -1,0 +1,276 @@
+{
+  "classification": "post-hoc explanation using one already tested authored candidate; not an independent exact palette prediction",
+  "candidate": "lightness-weighted-farthest/Oklab, fixed prior run; no new candidates or fitted parameters",
+  "results_sha256": "0b69f272898a6f733d2ed0fd1dd900ea806bad00827f073fe3936def8bbee8b9",
+  "candidate_palette_exact_centers": 29,
+  "candidate_palette_missing_service_centers": [
+    [
+      222,
+      216,
+      192
+    ],
+    [
+      223,
+      220,
+      188
+    ],
+    [
+      224,
+      210,
+      192
+    ]
+  ],
+  "eight_previously_failed_means_reproduced_by_latent_assignments": 8,
+  "center_details": [
+    {
+      "service_rgb": [
+        39,
+        147,
+        77
+      ],
+      "rounded_assignment_mean_srgb": [
+        39.48994790820519,
+        147.13449565504862,
+        76.26480220812194
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        39,
+        147,
+        76
+      ],
+      "latent_float_assignment_mean_srgb": [
+        39.242597029118286,
+        147.49998994542995,
+        76.56018247154951
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        39,
+        147,
+        77
+      ],
+      "observed_cluster_pixels": 360,
+      "latent_cluster_pixels": 384,
+      "gained_pixels": 24,
+      "lost_pixels": 0
+    },
+    {
+      "service_rgb": [
+        42,
+        79,
+        194
+      ],
+      "rounded_assignment_mean_srgb": [
+        42.729136949636924,
+        78.799610760638,
+        194.3324770062017
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        43,
+        79,
+        194
+      ],
+      "latent_float_assignment_mean_srgb": [
+        42.345653248844805,
+        78.66709080093055,
+        194.41039814662912
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        42,
+        79,
+        194
+      ],
+      "observed_cluster_pixels": 288,
+      "latent_cluster_pixels": 272,
+      "gained_pixels": 0,
+      "lost_pixels": 16
+    },
+    {
+      "service_rgb": [
+        19,
+        19,
+        27
+      ],
+      "rounded_assignment_mean_srgb": [
+        18.55238055407732,
+        19.532018075834912,
+        27.51937355213276
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        19,
+        20,
+        28
+      ],
+      "latent_float_assignment_mean_srgb": [
+        19.035274044511663,
+        19.021704312480953,
+        27.019414643419186
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        19,
+        19,
+        27
+      ],
+      "observed_cluster_pixels": 160,
+      "latent_cluster_pixels": 120,
+      "gained_pixels": 0,
+      "lost_pixels": 40
+    },
+    {
+      "service_rgb": [
+        19,
+        26,
+        28
+      ],
+      "rounded_assignment_mean_srgb": [
+        19.074257889029127,
+        26.3423065670222,
+        28.997228601519822
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        19,
+        26,
+        29
+      ],
+      "latent_float_assignment_mean_srgb": [
+        18.785343250099082,
+        25.571858317107882,
+        28.42244994042553
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        19,
+        26,
+        28
+      ],
+      "observed_cluster_pixels": 120,
+      "latent_cluster_pixels": 140,
+      "gained_pixels": 20,
+      "lost_pixels": 0
+    },
+    {
+      "service_rgb": [
+        19,
+        26,
+        35
+      ],
+      "rounded_assignment_mean_srgb": [
+        19.067872376763898,
+        26.344352765620492,
+        35.67195175526876
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        19,
+        26,
+        36
+      ],
+      "latent_float_assignment_mean_srgb": [
+        18.775297046769815,
+        25.57773011539135,
+        35.29310944616539
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        19,
+        26,
+        35
+      ],
+      "observed_cluster_pixels": 120,
+      "latent_cluster_pixels": 140,
+      "gained_pixels": 20,
+      "lost_pixels": 0
+    },
+    {
+      "service_rgb": [
+        20,
+        29,
+        27
+      ],
+      "rounded_assignment_mean_srgb": [
+        21.107335541350874,
+        29.022571703462607,
+        27.018883747848918
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        21,
+        29,
+        27
+      ],
+      "latent_float_assignment_mean_srgb": [
+        20.295077898411343,
+        29.02036560345583,
+        26.62268084830622
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        20,
+        29,
+        27
+      ],
+      "observed_cluster_pixels": 120,
+      "latent_cluster_pixels": 100,
+      "gained_pixels": 0,
+      "lost_pixels": 20
+    },
+    {
+      "service_rgb": [
+        27,
+        26,
+        27
+      ],
+      "rounded_assignment_mean_srgb": [
+        27.677429792331306,
+        26.347872125819016,
+        27.034131501140468
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        28,
+        26,
+        27
+      ],
+      "latent_float_assignment_mean_srgb": [
+        27.04055453536625,
+        26.01115248198241,
+        27.02841490236449
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        27,
+        26,
+        27
+      ],
+      "observed_cluster_pixels": 120,
+      "latent_cluster_pixels": 160,
+      "gained_pixels": 40,
+      "lost_pixels": 0
+    },
+    {
+      "service_rgb": [
+        28,
+        19,
+        27
+      ],
+      "rounded_assignment_mean_srgb": [
+        27.699173631565518,
+        19.03660767332208,
+        26.351079277643493
+      ],
+      "rounded_assignment_mean_presented_rgb": [
+        28,
+        19,
+        26
+      ],
+      "latent_float_assignment_mean_srgb": [
+        28.21139963704788,
+        18.62414392840819,
+        26.616982614097957
+      ],
+      "latent_float_assignment_mean_presented_rgb": [
+        28,
+        19,
+        27
+      ],
+      "observed_cluster_pixels": 120,
+      "latent_cluster_pixels": 100,
+      "gained_pixels": 0,
+      "lost_pixels": 20
+    }
+  ],
+  "float_vs_rounded_candidate_assignment_changed_pixels": 152,
+  "unresolved": "Three pale-family service centers differ; candidate final palette mapper still misses768/8192 pixels. No hybrid/per-center splice or extra search was performed."
+}

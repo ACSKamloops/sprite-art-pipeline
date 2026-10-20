@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "recorded_utc": "2026-10-14T01:54:08.852915+00:00",
+  "source_commit": "f82b2f47a756e5b9d77263b991baf71a4c0c5af0",
+  "result": {
+    "tests": 560,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 73.508
+  },
+  "warnings": 1398,
+  "warning_scope": "Existing Pillow getdata deprecations",
+  "reproduction_command": ".venv/bin/python -m pytest -q --junitxml=runs/model-handoff-f82-tests.xml",
+  "evidence": [
+    {
+      "file": "TESTS.xml",
+      "sha256": "ca6720eb1cbb9a4ad35f78d178ddab717c8e431051ae16946d5c4e55cd3a8261"
+    },
+    {
+      "file": "TESTS.log",
+      "sha256": "4cb91dcb9934620b2ffbcbc7db9acc2d0236da02afe075c6d6bfad5b631d8b37"
+    }
+  ],
+  "scope": "33 new handoff cases plus earlier527; no provider/model/agent/auth calls or art acceptance"
+}

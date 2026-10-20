@@ -1,0 +1,742 @@
+{
+  "passed": false,
+  "error": "Error: completed attack retains its released diagonal rowan northeast",
+  "receipts": [
+    {
+      "ok": true,
+      "note": "page identity is Emberwake",
+      "data": {
+        "url": "http://127.0.0.1:8908/index.html",
+        "title": "Emberwake: The Hollow Bell"
+      }
+    },
+    {
+      "ok": true,
+      "note": "meaningful engine screen and all three selectors are present"
+    },
+    {
+      "ok": true,
+      "note": "actual gallery selects rowan"
+    },
+    {
+      "ok": true,
+      "note": "title retains selected rowan"
+    },
+    {
+      "ok": true,
+      "note": "ordinary play never enables test mode rowan"
+    },
+    {
+      "ok": true,
+      "note": "new journey binds actual selected production art rowan",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          390,
+          1435
+        ],
+        "physics_tick": 1861,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0,
+            1
+          ],
+          "aim": [
+            0,
+            1
+          ],
+          "animation_time": 0.167216931216931,
+          "art_clip": "south_idle",
+          "art_frame": 18,
+          "art_ready": true,
+          "cast_hand": "(413.1, 1408.6)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 60,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "",
+          "state": "idle",
+          "state_left": 0,
+          "state_time": 0.2,
+          "velocity": [
+            0,
+            0
+          ]
+        },
+        "projectiles": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual exported production bank declares eight views rowan",
+      "data": [
+        "south",
+        "southeast",
+        "east",
+        "northeast",
+        "north",
+        "northwest",
+        "west",
+        "southwest"
+      ]
+    },
+    {
+      "ok": true,
+      "note": "readonly movement and action diagnostics are exported rowan"
+    },
+    {
+      "ok": true,
+      "note": "real keys select diagonal travel art rowan northeast",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          425.77978515625,
+          1399.22021484375
+        ],
+        "physics_tick": 1887,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0,
+            1
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.298396825396825,
+          "art_clip": "northeast_walk",
+          "art_frame": 157,
+          "art_ready": true,
+          "cast_hand": "(448.8798, 1355.0)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 60,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "walk",
+          "state_left": 0,
+          "state_time": 0.333333333333333,
+          "velocity": [
+            111.722869873047,
+            -111.722869873047
+          ]
+        },
+        "projectiles": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "diagonal keyboard input is a unit vector rowan northeast"
+    },
+    {
+      "ok": true,
+      "note": "simulation-tick distance confirms normalized speed rowan northeast",
+      "data": {
+        "before": {
+          "mode": "play",
+          "test_mode": false,
+          "position": [
+            401.572998046875,
+            1423.42700195312
+          ],
+          "physics_tick": 1874,
+          "physics_hz": 60,
+          "hero": {
+            "action_aim": [
+              0,
+              1
+            ],
+            "aim": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "animation_time": 0.0852777777777778,
+            "art_clip": "northeast_walk",
+            "art_frame": 153,
+            "art_ready": true,
+            "cast_hand": "(424.673, 1379.207)",
+            "character": "rowan",
+            "cooldowns": {
+              "attack": 0,
+              "dodge": 0,
+              "firebolt": 0,
+              "nova": 0
+            },
+            "directions": [
+              "south",
+              "southeast",
+              "east",
+              "northeast",
+              "north",
+              "northwest",
+              "west",
+              "southwest"
+            ],
+            "dodge_aim": [
+              0,
+              1
+            ],
+            "facing": "northeast",
+            "hp": 100,
+            "input_enabled": true,
+            "invulnerable": true,
+            "mana": 60,
+            "movement_input": [
+              0.70710676908493,
+              -0.70710676908493
+            ],
+            "pending_hit": "",
+            "state": "walk",
+            "state_left": 0,
+            "state_time": 0.116666666666667,
+            "velocity": [
+              111.722869873047,
+              -111.722869873047
+            ]
+          },
+          "projectiles": []
+        },
+        "after": {
+          "mode": "play",
+          "test_mode": false,
+          "position": [
+            425.77978515625,
+            1399.22021484375
+          ],
+          "physics_tick": 1887,
+          "physics_hz": 60,
+          "hero": {
+            "action_aim": [
+              0,
+              1
+            ],
+            "aim": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "animation_time": 0.298396825396825,
+            "art_clip": "northeast_walk",
+            "art_frame": 157,
+            "art_ready": true,
+            "cast_hand": "(448.8798, 1355.0)",
+            "character": "rowan",
+            "cooldowns": {
+              "attack": 0,
+              "dodge": 0,
+              "firebolt": 0,
+              "nova": 0
+            },
+            "directions": [
+              "south",
+              "southeast",
+              "east",
+              "northeast",
+              "north",
+              "northwest",
+              "west",
+              "southwest"
+            ],
+            "dodge_aim": [
+              0,
+              1
+            ],
+            "facing": "northeast",
+            "hp": 100,
+            "input_enabled": true,
+            "invulnerable": true,
+            "mana": 60,
+            "movement_input": [
+              0.70710676908493,
+              -0.70710676908493
+            ],
+            "pending_hit": "",
+            "state": "walk",
+            "state_left": 0,
+            "state_time": 0.333333333333333,
+            "velocity": [
+              111.722869873047,
+              -111.722869873047
+            ]
+          },
+          "projectiles": []
+        },
+        "seconds": 0.21666666666666667,
+        "displacement": [
+          24.206787109375,
+          -24.206787109369998
+        ],
+        "measuredSpeed": 158.0010767610129
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual path follows the requested diagonal rowan northeast",
+      "data": [
+        24.206787109375,
+        -24.206787109369998
+      ]
+    },
+    {
+      "ok": true,
+      "note": "releasing movement retains diagonal facing and combat aim rowan northeast",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          456.821929931641,
+          1368.17797851562
+        ],
+        "physics_tick": 1905,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0,
+            1
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0208333333333333,
+          "art_clip": "northeast_idle",
+          "art_frame": 174,
+          "art_ready": true,
+          "cast_hand": "(479.9219, 1323.958)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 60,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "",
+          "state": "idle",
+          "state_left": 0,
+          "state_time": 0.0333333333333333,
+          "velocity": [
+            37.4766616821289,
+            -37.4766616821289
+          ]
+        },
+        "projectiles": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "ordinary attack commits requested diagonal rowan northeast",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          457.034057617188,
+          1367.9658203125
+        ],
+        "physics_tick": 1911,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "northeast_attack",
+          "art_frame": 160,
+          "art_ready": true,
+          "cast_hand": "(480.1341, 1323.746)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.36,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.36,
+          "state_time": 0.05,
+          "velocity": [
+            0,
+            0
+          ]
+        },
+        "projectiles": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "opposite held input cannot swivel attack through recovery rowan northeast",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          449.918090820312,
+          1375.08178710938
+        ],
+        "physics_tick": 1931,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.366666666666667,
+          "art_clip": "northeast_attack",
+          "art_frame": 166,
+          "art_ready": true,
+          "cast_hand": "(473.0181, 1330.862)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.0266666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0266666666666667,
+          "state_time": 0.383333333333333,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "pending attack releases at its unchanged gameplay clock rowan northeast",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          449.918090820312,
+          1375.08178710938
+        ],
+        "physics_tick": 1931,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.366666666666667,
+          "art_clip": "northeast_attack",
+          "art_frame": 166,
+          "art_ready": true,
+          "cast_hand": "(473.0181, 1330.862)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.0266666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0266666666666667,
+          "state_time": 0.383333333333333,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      }
+    },
+    {
+      "ok": false,
+      "note": "completed attack retains its released diagonal rowan northeast",
+      "data": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          448.130493164062,
+          1376.86938476562
+        ],
+        "physics_tick": 1953,
+        "physics_hz": 60,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.281488888888888,
+          "art_clip": "southwest_idle",
+          "art_frame": 238,
+          "art_ready": true,
+          "cast_hand": "(425.0305, 1339.909)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "",
+          "state": "idle",
+          "state_left": 0,
+          "state_time": 0.316666666666667,
+          "velocity": [
+            0,
+            0
+          ]
+        },
+        "projectiles": []
+      }
+    }
+  ],
+  "consoleMessages": [],
+  "pageErrors": [],
+  "final": {
+    "mode": "play",
+    "test_mode": false,
+    "position": [
+      448.130493164062,
+      1376.86938476562
+    ],
+    "physics_tick": 1953,
+    "physics_hz": 60,
+    "hero": {
+      "action_aim": [
+        0.707106828689575,
+        -0.707106828689575
+      ],
+      "aim": [
+        -0.707106828689575,
+        0.707106828689575
+      ],
+      "animation_time": 0.281488888888888,
+      "art_clip": "southwest_idle",
+      "art_frame": 238,
+      "art_ready": true,
+      "cast_hand": "(425.0305, 1339.909)",
+      "character": "rowan",
+      "cooldowns": {
+        "attack": 0,
+        "dodge": 0,
+        "firebolt": 0,
+        "nova": 0
+      },
+      "directions": [
+        "south",
+        "southeast",
+        "east",
+        "northeast",
+        "north",
+        "northwest",
+        "west",
+        "southwest"
+      ],
+      "dodge_aim": [
+        0,
+        1
+      ],
+      "facing": "southwest",
+      "hp": 100,
+      "input_enabled": true,
+      "invulnerable": false,
+      "mana": 60,
+      "movement_input": [
+        0,
+        0
+      ],
+      "pending_hit": "",
+      "state": "idle",
+      "state_left": 0,
+      "state_time": 0.316666666666667,
+      "velocity": [
+        0,
+        0
+      ]
+    },
+    "projectiles": []
+  }
+}

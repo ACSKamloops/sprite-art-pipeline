@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "updated_utc": "2026-10-14T06:16:59.353738+00:00",
+  "package_version": "0.7.0",
+  "runtime_commit": "85ed4e3",
+  "source_fingerprint": "c0bede6efae5b82bf8bd8637d5055d4256c264c3a2264436c61a62ebd37833ef",
+  "full_suite": {
+    "tests": 748,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 80.15
+  },
+  "installed": {
+    "checks": 17,
+    "report": "evidence/INSTALLED-PROOF.json",
+    "fresh_environment": "/home/astra/artifacts/pixellab-reliable-system-20261014/install-venv",
+    "research_dependency": false
+  },
+  "browser": {
+    "primary_checks": 19,
+    "independent_checks": 5,
+    "primary_report": "evidence/BROWSER-PROOF.json",
+    "independent_report": "INDEPENDENT-BROWSER-PROOF.json",
+    "video_directory": "/home/astra/artifacts/pixellab-reliable-system-20261014/browser-installed-final/video",
+    "page_errors": 0,
+    "independent_expected_console_http400": 1,
+    "plugin": "Unavailable; direct Playwright Chromium"
+  },
+  "package": {
+    "comparison": "evidence/PACKAGE-COMPARISON.json",
+    "runtime_files": 154,
+    "wheel": "/home/astra/artifacts/pixellab-reliable-system-20261014/wheel/sprite_workbench-0.7.0-py3-none-any.whl",
+    "sha256": "c75f1b6ef432cc5aeb9e616224f2763492b19b41968995724bd260398b92a8a2"
+  },
+  "baseline_preserved_files": 120,
+  "studio_editing_ready": true,
+  "scope": "Reliable tested supplied-art import/edit/reopen/playback/export cycle; not private generator reproduction or art acceptance",
+  "artistic_acceptance": "unreviewed",
+  "quality_score": null,
+  "timed_playback_observed": true,
+  "continuous_art_acceptance": false,
+  "private_model_recovered": false,
+  "full_vendor_analysis_complete": false,
+  "provider_calls": 0,
+  "new_art_generated": false,
+  "collaboration_workers": 3,
+  "gaps": [
+    "Private model weights/inference",
+    "High-K/dither rule exact recovery",
+    "Automatic neural cutout/deflicker",
+    "Production humanoid/directional animation acceptance"
+  ],
+  "initial_attempts_not_counted": [
+    "/home/astra/artifacts/pixellab-reliable-system-20261014/browser-installed/REPORT.json"
+  ],
+  "evidence": [
+    {
+      "file": "ACCEPTANCE.md",
+      "sha256": "c72f5c808fa7364932c580a3beb6a5aedfc2a7976c5f9259f30bb52d07891761",
+      "bytes": 8774
+    },
+    {
+      "file": "GODOT-ACCEPTANCE.md",
+      "sha256": "2235b775548e7af04348557f6e2fc075aac41fe711c6c77442cf1cd8b172a9a9",
+      "bytes": 3876
+    },
+    {
+      "file": "INDEPENDENT-BROWSER-PROOF.json",
+      "sha256": "608e3b286e0e052293bab3c466f32f06794fdcb4b59af8c4cebf673744ef78f2",
+      "bytes": 2883
+    },
+    {
+      "file": "INDEPENDENT-BROWSER-QA.md",
+      "sha256": "851887cb4980f3b872287a98a67746be9a36adf953c8d2e3885e5f49bb17ee83",
+      "bytes": 2737
+    },
+    {
+      "file": "README.md",
+      "sha256": "f2007e0be2b68964cb8c2c2dbd64c4779619c214424d58424fc2c7d61f319b1c",
+      "bytes": 5232
+    },
+    {
+      "file": "STUDIO-INDEPENDENT-REVIEW.md",
+      "sha256": "42f3f47f47a4148facf3ea1ffd66168be4912a67e20d64979a6d88fdc6cbe879",
+      "bytes": 6389
+    },
+    {
+      "file": "evidence/BROWSER-PROOF.json",
+      "sha256": "bd0b6754b6e76797e8aea6349585354af97f7cdcfe2da8c032d134654067d64e",
+      "bytes": 4006
+    },
+    {
+      "file": "evidence/INSTALLED-PROOF.json",
+      "sha256": "d41440be1a6b2ff16e335b276f4de0129592aefb83bf00d33db0f499980af4cd",
+      "bytes": 1754
+    },
+    {
+      "file": "evidence/NOTE-REPIN-RECEIPT.json",
+      "sha256": "07725736eb3f1db474557c46f21a2cc345849a62bd463d5f9b421abcb38b1bc3",
+      "bytes": 795
+    },
+    {
+      "file": "evidence/PACKAGE-COMPARISON.json",
+      "sha256": "bedf95f785b119cb2b87cc1ea9a6c4f23c9329b351d1411f10f6e970bd314eb8",
+      "bytes": 25275
+    },
+    {
+      "file": "evidence/SETUP-VERIFICATION.json",
+      "sha256": "77a7c6e9cab8be85183fddc4da8b6afcb37e85b521699349216cfae6722dc194",
+      "bytes": 5304
+    },
+    {
+      "file": "evidence/TESTS.log",
+      "sha256": "643e5c1984b9fc9a54de89204ccdbde1e236bf303aaacec54cec316e1e4d20a9",
+      "bytes": 926
+    },
+    {
+      "file": "evidence/TESTS.xml",
+      "sha256": "999c1fa20009f3b5b62773e56b701a4bdd0c7ff38876dfc0138398c7530c2b9b",
+      "bytes": 104676
+    },
+    {
+      "file": "evidence/mobile.png",
+      "sha256": "af5942b4ab7c66df6d0b919604a56da603a19dcf8f7913ae3a31e61efad44ec0",
+      "bytes": 142584
+    },
+    {
+      "file": "evidence/verified-export.png",
+      "sha256": "4963259384f5ce8c3d55b710e32e6ecc93ffb47b9dde570a453f8eee94780600",
+      "bytes": 203554
+    },
+    {
+      "file": "evidence/walk-initial.png",
+      "sha256": "c75b431af98573bd0590c902c20ea1366dad317caef1166a522daf64c496cd6f",
+      "bytes": 180155
+    }
+  ],
+  "setup": {
+    "verified": true,
+    "checks": 9,
+    "local_diagnostic_flows": 11,
+    "receipt": "evidence/SETUP-VERIFICATION.json",
+    "source_fingerprint": "c0bede6efae5b82bf8bd8637d5055d4256c264c3a2264436c61a62ebd37833ef"
+  }
+}

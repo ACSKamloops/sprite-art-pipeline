@@ -1,0 +1,1606 @@
+{
+  "southeast": {
+    "cells": {
+      "0": {
+        "main_label": 1,
+        "main_area": 18906,
+        "main_bbox": [
+          67,
+          29,
+          199,
+          259
+        ],
+        "additional_components": [],
+        "ownership_sha256": "16d6ce472c6664f2fb41bcd0ade65fc4390ec3fc7ccff31620412081234a482e",
+        "rgba_sha256": "1cedd29e2c792a8b0d115e865cac736d9b6106dd97df9d19ca4f2b0f8e11a5a5",
+        "native_bbox": [
+          36,
+          16,
+          92,
+          112
+        ]
+      },
+      "2": {
+        "main_label": 2,
+        "main_area": 17561,
+        "main_bbox": [
+          578,
+          29,
+          707,
+          249
+        ],
+        "additional_components": [],
+        "ownership_sha256": "58e24962c48d5cb5835b88ad7152300f07e0ae2bf37511a422533721f1f44b4e",
+        "rgba_sha256": "b5d4c27f1ec0b67440037c71c905e7f00ff46ea7b6b1ead2261d06298b54feea",
+        "native_bbox": [
+          36,
+          16,
+          90,
+          108
+        ]
+      },
+      "6": {
+        "main_label": 3,
+        "main_area": 18600,
+        "main_bbox": [
+          1602,
+          31,
+          1731,
+          257
+        ],
+        "additional_components": [
+          {
+            "label": 10,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "101972ebde791d2bd7702176514d1d2a5363e9fdb09ccd0acc343f0dfb1e6f34",
+        "rgba_sha256": "ab3132c508aca7f166267c4c4d9f7fb532c8672322dc9bd87d3bbd7cab4f91d2",
+        "native_bbox": [
+          36,
+          17,
+          90,
+          112
+        ]
+      },
+      "4": {
+        "main_label": 4,
+        "main_area": 18103,
+        "main_bbox": [
+          1093,
+          33,
+          1221,
+          259
+        ],
+        "additional_components": [
+          {
+            "label": 9,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "47aa7e01ee1c329a3763734e04c937dde08f8f663b13b0791fb62e34079b8fa5",
+        "rgba_sha256": "b0959308c9ef6e17ddee4990cd3796217c331b04c6712c580f2af6d8eb340dd9",
+        "native_bbox": [
+          38,
+          18,
+          91,
+          112
+        ]
+      },
+      "1": {
+        "main_label": 5,
+        "main_area": 18841,
+        "main_bbox": [
+          328,
+          35,
+          457,
+          256
+        ],
+        "additional_components": [],
+        "ownership_sha256": "68f8b0329dd8d5448b400ce7b0884be91e382d7f9db700c6d0b0f87de7fcb876",
+        "rgba_sha256": "3c02304dc0626890abdd1ef1edb8ed149f2320f4d2dda90500743b1a2892c00f",
+        "native_bbox": [
+          39,
+          19,
+          92,
+          111
+        ]
+      },
+      "7": {
+        "main_label": 6,
+        "main_area": 18272,
+        "main_bbox": [
+          1860,
+          35,
+          1989,
+          259
+        ],
+        "additional_components": [],
+        "ownership_sha256": "37e3f4da8c94ce6fd0a2bab816802910c01e6989646d7a2be567b72d9c9a641f",
+        "rgba_sha256": "f987de9a3263b3cf458e549a4e956811dd470ac5315dfda8620f3872dd4e582f",
+        "native_bbox": [
+          37,
+          19,
+          91,
+          112
+        ]
+      },
+      "3": {
+        "main_label": 7,
+        "main_area": 18260,
+        "main_bbox": [
+          834,
+          39,
+          962,
+          257
+        ],
+        "additional_components": [],
+        "ownership_sha256": "bede48cc641eba84f446ebe4f47346024f72ed778d828434fb92dec1654e432e",
+        "rgba_sha256": "103716516a8b17207f2836f8cc885c739462bc9efa000f2054937110b4945b3d",
+        "native_bbox": [
+          36,
+          20,
+          89,
+          112
+        ]
+      },
+      "5": {
+        "main_label": 8,
+        "main_area": 18238,
+        "main_bbox": [
+          1347,
+          40,
+          1475,
+          259
+        ],
+        "additional_components": [],
+        "ownership_sha256": "ee75609fbc1f0538d1afd2f2bf6f5901dcd7a149e05842dca712f5e6adacf8a9",
+        "rgba_sha256": "63bfba1c838f457e55b984955d298d3d18e43040f29dd16996b5994f4e4190e2",
+        "native_bbox": [
+          36,
+          21,
+          90,
+          112
+        ]
+      },
+      "8": {
+        "main_label": 11,
+        "main_area": 22204,
+        "main_bbox": [
+          61,
+          275,
+          195,
+          514
+        ],
+        "additional_components": [
+          {
+            "label": 19,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "0eeadc763841ceabdbc9d8b9eaba45896dd168e995a00a9a83afd892f70e502d",
+        "rgba_sha256": "20638bc921f09ea7bd6780aedfd7f47ffdb2e2ae0c0afbccc620e9d73fc62cbc",
+        "native_bbox": [
+          34,
+          12,
+          90,
+          112
+        ]
+      },
+      "15": {
+        "main_label": 12,
+        "main_area": 22067,
+        "main_bbox": [
+          1854,
+          275,
+          1989,
+          514
+        ],
+        "additional_components": [
+          {
+            "label": 21,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "d2842ee01057ecc3211e14465b87ccecad148ab48e8fc6c6c0ef1b25648e4a6d",
+        "rgba_sha256": "d3ee8cee90f721aefb98a59b90d0c0f5146dbe860a79035e2b028f8635ce7f8d",
+        "native_bbox": [
+          35,
+          12,
+          91,
+          112
+        ]
+      },
+      "14": {
+        "main_label": 13,
+        "main_area": 21891,
+        "main_bbox": [
+          1601,
+          277,
+          1736,
+          513
+        ],
+        "additional_components": [
+          {
+            "label": 22,
+            "area": 2,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "52be96ccb9e9474b50a7a6e3ef7f45151dfa187d75a07d839f419548d71e361a",
+        "rgba_sha256": "12bc6019a1ef44bd9b3d820516e41a87c4c02bfeddb9cf7663510740603ab537",
+        "native_bbox": [
+          36,
+          13,
+          92,
+          112
+        ]
+      },
+      "9": {
+        "main_label": 14,
+        "main_area": 21284,
+        "main_bbox": [
+          317,
+          282,
+          465,
+          514
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f0b73b5c64e66c6cae891544f115b8229de58291b5a3b0309d57efd1f8d41385",
+        "rgba_sha256": "f59a5c54e2efca9b86616e44e3e91fa58c59e6d14376b5b2645f398db957fd0d",
+        "native_bbox": [
+          34,
+          15,
+          96,
+          112
+        ]
+      },
+      "12": {
+        "main_label": 15,
+        "main_area": 20518,
+        "main_bbox": [
+          1086,
+          285,
+          1225,
+          514
+        ],
+        "additional_components": [],
+        "ownership_sha256": "6a03da2a5fed5fc0390432e6db7ec8345bfe862ce87a40f5248658b59fb2c1d2",
+        "rgba_sha256": "cd3b86d8b72d03878c519bcc26fa23f6006d66c35b89b4ebda5f0c5b790a2984",
+        "native_bbox": [
+          35,
+          16,
+          93,
+          112
+        ]
+      },
+      "10": {
+        "main_label": 16,
+        "main_area": 19958,
+        "main_bbox": [
+          566,
+          286,
+          737,
+          511
+        ],
+        "additional_components": [],
+        "ownership_sha256": "e29cb3223f6f8bf622c5512d76a2e0bffce1ded70fadbbd80aea6cce8a51b21f",
+        "rgba_sha256": "27ee5e893e43f4e4a27bcfb12566edbc06868d37199f27f360aed7b5eca667bb",
+        "native_bbox": [
+          31,
+          17,
+          103,
+          111
+        ]
+      },
+      "13": {
+        "main_label": 17,
+        "main_area": 20199,
+        "main_bbox": [
+          1345,
+          286,
+          1478,
+          514
+        ],
+        "additional_components": [],
+        "ownership_sha256": "8e49c427610985479f672a5faeb79ca51b47928ac70d7ad8d66a82a666fb8a93",
+        "rgba_sha256": "a1313320681bd3effa5d2989df3a5c6162225e3276542b4fb5a1bcfb81a3ee8a",
+        "native_bbox": [
+          36,
+          17,
+          92,
+          112
+        ]
+      },
+      "11": {
+        "main_label": 18,
+        "main_area": 19777,
+        "main_bbox": [
+          827,
+          287,
+          971,
+          514
+        ],
+        "additional_components": [
+          {
+            "label": 20,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "2a324523c3818452ace4e3933bee0191fe02df38cb21057e4804208fa2ec088f",
+        "rgba_sha256": "b2d319f8ce5f73428b0e8cb44fdd0aaf41d955e508d900823bf5e348948259b4",
+        "native_bbox": [
+          33,
+          17,
+          94,
+          112
+        ]
+      },
+      "17": {
+        "main_label": 23,
+        "main_area": 20564,
+        "main_bbox": [
+          320,
+          531,
+          450,
+          765
+        ],
+        "additional_components": [
+          {
+            "label": 33,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 37,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "fbe918170f4183e99c697a13ef8d1d22b8d9d2fc99b1b7d147b4809a639b39e7",
+        "rgba_sha256": "d44100618064c53a40e7d91dcaf9c28e72c0dcadefabc78fb65c96b630235c71",
+        "native_bbox": [
+          36,
+          15,
+          90,
+          113
+        ]
+      },
+      "16": {
+        "main_label": 24,
+        "main_area": 21917,
+        "main_bbox": [
+          62,
+          532,
+          196,
+          764
+        ],
+        "additional_components": [
+          {
+            "label": 34,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "8c70430005634950d15a12195d778fdec1add2ee5b7c1ad16e41931f6413c97e",
+        "rgba_sha256": "84ad8a9c0788b64e755fb87f3482cb92a3b0fc7bf44147c2e5787e2569cdf19f",
+        "native_bbox": [
+          35,
+          15,
+          91,
+          112
+        ]
+      },
+      "18": {
+        "main_label": 25,
+        "main_area": 20701,
+        "main_bbox": [
+          571,
+          532,
+          708,
+          765
+        ],
+        "additional_components": [
+          {
+            "label": 31,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 32,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "4a337c35972921346a8ffecd1cd2a4bc662659543950444ecbe5d902400772c3",
+        "rgba_sha256": "2a573a09f80d83a8e1fda975609f51b5551044bc856018e46d3a7b1ecb700eb6",
+        "native_bbox": [
+          35,
+          15,
+          91,
+          113
+        ]
+      },
+      "19": {
+        "main_label": 26,
+        "main_area": 22389,
+        "main_bbox": [
+          835,
+          533,
+          1010,
+          765
+        ],
+        "additional_components": [
+          {
+            "label": 36,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "c7b40c442d36281cb5ea635988cffe80f3f810d39d204d335fea7bf20806fce2",
+        "rgba_sha256": "e8079f36d4e07db0a791a061b5871a5dfd2fd861467d342c39c4b4bab1f0b1fc",
+        "native_bbox": [
+          37,
+          16,
+          110,
+          113
+        ]
+      },
+      "20": {
+        "main_label": 27,
+        "main_area": 21214,
+        "main_bbox": [
+          1090,
+          533,
+          1220,
+          765
+        ],
+        "additional_components": [
+          {
+            "label": 39,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "80f071a464e98f92f484bcc7f54c6ec508563ea7ba0f79fab5a0359df3d08391",
+        "rgba_sha256": "af3e39611c430bad7280844b32cae98dd68589fb8678124c965039eb6e83f714",
+        "native_bbox": [
+          37,
+          16,
+          91,
+          113
+        ]
+      },
+      "22": {
+        "main_label": 28,
+        "main_area": 21760,
+        "main_bbox": [
+          1601,
+          533,
+          1732,
+          763
+        ],
+        "additional_components": [],
+        "ownership_sha256": "98dd8cde44453fdea59203cff204b77c2636394f9e06b098cae5337035e0d3ee",
+        "rgba_sha256": "6d8b90913cfda52c19a1244c7d2f41e78929abbeb684cafb294c79b4fbceffea",
+        "native_bbox": [
+          36,
+          16,
+          91,
+          112
+        ]
+      },
+      "23": {
+        "main_label": 29,
+        "main_area": 21791,
+        "main_bbox": [
+          1855,
+          533,
+          1987,
+          764
+        ],
+        "additional_components": [
+          {
+            "label": 35,
+            "area": 3,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 38,
+            "area": 2,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "5208fd7033f98ac86911e9403312a094ad3d31af83d90319bc34ec28cb48a656",
+        "rgba_sha256": "1b8a3840773ae31bbc7db6e114ab8e3ee17ba5ddf3901cdc687a56d8e361ed4a",
+        "native_bbox": [
+          36,
+          16,
+          91,
+          112
+        ]
+      },
+      "21": {
+        "main_label": 30,
+        "main_area": 22142,
+        "main_bbox": [
+          1344,
+          535,
+          1474,
+          767
+        ],
+        "additional_components": [],
+        "ownership_sha256": "756507cf73b62a871a45050d06d43b22b4126f2042d8eb5d0554dd0e5dc25b16",
+        "rgba_sha256": "51e1436fbff6d28a4877dcd7e595028505915e5ffdb06df0b9ae837b96723e43",
+        "native_bbox": [
+          36,
+          17,
+          90,
+          114
+        ]
+      },
+      "30": {
+        "main_label": 40,
+        "main_area": 22361,
+        "main_bbox": [
+          1594,
+          780,
+          1734,
+          1009
+        ],
+        "additional_components": [
+          {
+            "label": 49,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 53,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "92b62691b6193c18a25ae2bd46d3dccd201cf0227dafa741dad192f6a675e9f2",
+        "rgba_sha256": "75b52bfad16bd398e09f625a9160f7de89c3be727d31fe60e213161649defc4b",
+        "native_bbox": [
+          34,
+          14,
+          92,
+          110
+        ]
+      },
+      "26": {
+        "main_label": 41,
+        "main_area": 22165,
+        "main_bbox": [
+          574,
+          783,
+          705,
+          1014
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f24276b44db45e37e2421e7e3d5e162dad683707829143703e00886ffeeb8123",
+        "rgba_sha256": "06fc4d6713d5fb97684034c41e6d84b5e19daf2f47ce6dfdcd03a9d44c5287bb",
+        "native_bbox": [
+          36,
+          15,
+          90,
+          112
+        ]
+      },
+      "31": {
+        "main_label": 42,
+        "main_area": 22153,
+        "main_bbox": [
+          1854,
+          783,
+          1986,
+          1014
+        ],
+        "additional_components": [],
+        "ownership_sha256": "d055fd15ca47bd3e003b59194c112c3a5c9e051f4f47f02a8b1bd400a70d4fd9",
+        "rgba_sha256": "75770573924a2cb1525fbcce9c3548c5f1ec8f519cc769f33305963a3af41fc2",
+        "native_bbox": [
+          36,
+          15,
+          91,
+          112
+        ]
+      },
+      "29": {
+        "main_label": 43,
+        "main_area": 20799,
+        "main_bbox": [
+          1330,
+          797,
+          1483,
+          1008
+        ],
+        "additional_components": [
+          {
+            "label": 47,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "e0c682bd6edeec564725c5d6f7e710fca76dface5e4ccee176e8106850460cfb",
+        "rgba_sha256": "83823ea206e44e871745dbe78f7ae462d67f8bc66992f5a43ad1de6f82cf1202",
+        "native_bbox": [
+          31,
+          21,
+          95,
+          109
+        ]
+      },
+      "25": {
+        "main_label": 44,
+        "main_area": 19443,
+        "main_bbox": [
+          311,
+          806,
+          442,
+          1007
+        ],
+        "additional_components": [
+          {
+            "label": 51,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "861a7a99d6b1904c0bef690ff3809c12d215def6c6e5190379316c65719f41b4",
+        "rgba_sha256": "00b0ec8c6211f53b626a23dc4e3768eb1f0965a21b89b7d9ed73b38b49b6f70f",
+        "native_bbox": [
+          33,
+          25,
+          87,
+          109
+        ]
+      },
+      "27": {
+        "main_label": 45,
+        "main_area": 20039,
+        "main_bbox": [
+          810,
+          806,
+          979,
+          996
+        ],
+        "additional_components": [
+          {
+            "label": 48,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "6a68bbad3336c78fcf72a3f9af24487f9230952eee68e32c3faad0e3a5343967",
+        "rgba_sha256": "2651040512f52e6c460ab7e1017112984b5ad1baaaa36418df9e8b387b2621f2",
+        "native_bbox": [
+          27,
+          25,
+          98,
+          104
+        ]
+      },
+      "24": {
+        "main_label": 46,
+        "main_area": 18045,
+        "main_bbox": [
+          55,
+          809,
+          204,
+          999
+        ],
+        "additional_components": [],
+        "ownership_sha256": "3ef10b8706782cbf78490ad06862629c09128219b74739c05757d711785030b4",
+        "rgba_sha256": "aeeb0c4a74adca884013de6f8c526b9032ebea63681697cdaa490359c75ba7c0",
+        "native_bbox": [
+          33,
+          26,
+          95,
+          106
+        ]
+      },
+      "28": {
+        "main_label": 50,
+        "main_area": 19110,
+        "main_bbox": [
+          1071,
+          837,
+          1249,
+          1010
+        ],
+        "additional_components": [
+          {
+            "label": 52,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 54,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "6ff46426fc5879b496d80d5e8cdc7cb7abdb2db0c78cbf06bf7d6b21a6c7d442",
+        "rgba_sha256": "63a3b83832a51cbd64eb616712bc6c15929857339b353cc2c90456de050e364d",
+        "native_bbox": [
+          29,
+          38,
+          104,
+          110
+        ]
+      }
+    },
+    "unassigned_components": [],
+    "alpha_rule": "Below24 zero; above245 opaque; hiddenRGB zero. Islands within3px nearest body retained.",
+    "walk_override": {
+      "frames": [
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/00.png",
+          "sha256": "722a81b71ac33dbe13606996aaff7cc8b178859eb0a1f6cb3d8a83a1934e02af"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/01.png",
+          "sha256": "b73580ef33314d2320d83a4b6290112ae6386ac421caa3d64383a6bcb00b8f4c"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/02.png",
+          "sha256": "ed0a5cff5fca2898787e5d48d7436c6d5fc40d938017216ee05b0d4060ba56f7"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/03.png",
+          "sha256": "014eba240154c2632e5d8cbdb391e9186bdd79742785e52f7973683fa7c3ed26"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/04.png",
+          "sha256": "cf058981315073476baadfb4d0a4d1f9311ad1cc8276185a934e496e251069c6"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/05.png",
+          "sha256": "b0a678301227ab81fa3ef216a99345f577abb8f079f80024b19c4bf8751c0ff6"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/06.png",
+          "sha256": "42c86734d5e80d452b10d51656919c3b7356513804110a6a549dea5ef1f0547e"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/07.png",
+          "sha256": "9b62df0f5faf9bb22a2e8c1e4bdddf9c3f359ad5fbaa01bd6a1348d0b796a618"
+        }
+      ],
+      "scope": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release."
+    },
+    "cell_overrides": {
+      "23": {
+        "path": "art-source/eight-direction-v1/breath-v1/rowan/southeast/23.png",
+        "sha256": "6d39534e15291159922360f061f74f548dfad298a87c14bd485e91687944be24",
+        "recipe": "art-source/eight-direction-v1/breath-v1/rowan/southeast/receipt.json",
+        "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+      },
+      "17": {
+        "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/17.png",
+        "sha256": "8452777a46d28e7ea2086ffb060e358a8f5a99c910c3b4cdb2ae7063ebd81fd9",
+        "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+      },
+      "18": {
+        "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/18.png",
+        "sha256": "eb9e97111e033e363a03cd2cb3336357d818b90e1f49d19ee0bd4414c32dba85",
+        "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+      },
+      "20": {
+        "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/20.png",
+        "sha256": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+        "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+      },
+      "25": {
+        "path": "art-source/eight-direction-v1/hurt-recovery-v1/rowan/southeast/25.png",
+        "sha256": "aad2bdafca33af54e8b5191bcb075b524c99b4557312277f3ebf59f5b65914e7",
+        "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+      }
+    }
+  },
+  "northeast": {
+    "cells": {
+      "0": {
+        "main_label": 1,
+        "main_area": 18668,
+        "main_bbox": [
+          75,
+          27,
+          210,
+          254
+        ],
+        "additional_components": [
+          {
+            "label": 16,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "4f78dab8ed86440475679c96b0dfce48b47210ed63ebb97db4dd57ac7c5a165b",
+        "rgba_sha256": "c56908412685650799b18626f190e5acfa608acf1282979c7e1add6a93d70139",
+        "native_bbox": [
+          35,
+          14,
+          93,
+          112
+        ]
+      },
+      "3": {
+        "main_label": 2,
+        "main_area": 18493,
+        "main_bbox": [
+          837,
+          28,
+          980,
+          254
+        ],
+        "additional_components": [
+          {
+            "label": 11,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 14,
+            "area": 1,
+            "distance": 2.0
+          },
+          {
+            "label": 15,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "754c964350fb29c8a9022cda16d42cd15547c37f0ba3b815b36466cd7dbac26a",
+        "rgba_sha256": "1f07d951f7f5e523930b972cddda922385c111751d6a36c9b98e95c819032545",
+        "native_bbox": [
+          32,
+          15,
+          94,
+          112
+        ]
+      },
+      "4": {
+        "main_label": 3,
+        "main_area": 18373,
+        "main_bbox": [
+          1100,
+          28,
+          1234,
+          254
+        ],
+        "additional_components": [],
+        "ownership_sha256": "57be8527cae909ed870e65e19e02f79e0b4c168f9142558d8be6827492f3901f",
+        "rgba_sha256": "0749d7ff9a6e9a35e42a58be12530627594f150a052c7240ec5ceb8956f91a87",
+        "native_bbox": [
+          35,
+          15,
+          93,
+          112
+        ]
+      },
+      "7": {
+        "main_label": 4,
+        "main_area": 18379,
+        "main_bbox": [
+          1869,
+          28,
+          2003,
+          254
+        ],
+        "additional_components": [
+          {
+            "label": 12,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "de72167a1ec80e088c5afbce66c3dc533390f8c8b1d511791fea66ab1b8bbea3",
+        "rgba_sha256": "b68bbd254ef22e3f97b9f45f621da69c86ca3d250d2d56d227896b24df93d2f3",
+        "native_bbox": [
+          36,
+          15,
+          93,
+          112
+        ]
+      },
+      "2": {
+        "main_label": 5,
+        "main_area": 15826,
+        "main_bbox": [
+          601,
+          29,
+          716,
+          252
+        ],
+        "additional_components": [],
+        "ownership_sha256": "c41c0571022a5575cebc51c5f4c4896e05d1808c4071ae04666404fd062b9ce3",
+        "rgba_sha256": "be1b3e4b692706fb1e4701b1f5f5588ee3636416408f89e7f0dccc05e8f6f28d",
+        "native_bbox": [
+          41,
+          15,
+          90,
+          111
+        ]
+      },
+      "1": {
+        "main_label": 6,
+        "main_area": 18578,
+        "main_bbox": [
+          321,
+          30,
+          464,
+          254
+        ],
+        "additional_components": [
+          {
+            "label": 9,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "29cad4c3e91e56389e7db6ffeb33fa33312f925ae207940a2f45e76e71c362ed",
+        "rgba_sha256": "78e6b69696aa4799aca9c39c8a2fe12f92ec539c8b57290d9e0ee3a0f721bc44",
+        "native_bbox": [
+          30,
+          16,
+          92,
+          112
+        ]
+      },
+      "5": {
+        "main_label": 7,
+        "main_area": 18459,
+        "main_bbox": [
+          1344,
+          30,
+          1490,
+          254
+        ],
+        "additional_components": [
+          {
+            "label": 10,
+            "area": 2,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 13,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "482b700d604cb55b4932143eb0be53884465aab7371cf0bc6dedea70fdda6205",
+        "rgba_sha256": "ac1d5deac271b4f92c71c79df5248f05ce10d02b493382253ad0988a320cd5b2",
+        "native_bbox": [
+          30,
+          16,
+          93,
+          112
+        ]
+      },
+      "6": {
+        "main_label": 8,
+        "main_area": 16458,
+        "main_bbox": [
+          1612,
+          31,
+          1740,
+          252
+        ],
+        "additional_components": [],
+        "ownership_sha256": "b9f12e055d6d2f7f3a1b674e36b2849eff54a0d6122df90030d6c6637be43da9",
+        "rgba_sha256": "4814abc289e58a00ec657eb0ed08be28c8d47e29716d7d17c324302b411d8a5b",
+        "native_bbox": [
+          35,
+          16,
+          90,
+          111
+        ]
+      },
+      "8": {
+        "main_label": 17,
+        "main_area": 19133,
+        "main_bbox": [
+          76,
+          281,
+          203,
+          508
+        ],
+        "additional_components": [],
+        "ownership_sha256": "6bdb3b23d0ae72c0edbeba80cd4deb2b13e2bc305c2496d2a235fcaef7f683c5",
+        "rgba_sha256": "cc09595777ec907d5dc3438e41d0437e3648e54f04d974857b793c90186da681",
+        "native_bbox": [
+          35,
+          14,
+          90,
+          112
+        ]
+      },
+      "15": {
+        "main_label": 18,
+        "main_area": 19037,
+        "main_bbox": [
+          1869,
+          282,
+          1995,
+          508
+        ],
+        "additional_components": [
+          {
+            "label": 25,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "7bf80c86ec14d2f118e0bbdd3c420a7837af25dde9736664fa1c7d0401af0c43",
+        "rgba_sha256": "d2071c76ef6fb238e76dd69f107cda83a47b0b8378af1661ba1d280b3afb55b4",
+        "native_bbox": [
+          36,
+          15,
+          90,
+          112
+        ]
+      },
+      "12": {
+        "main_label": 19,
+        "main_area": 18138,
+        "main_bbox": [
+          1104,
+          284,
+          1226,
+          508
+        ],
+        "additional_components": [],
+        "ownership_sha256": "82b658b4eef9f91f085d2431fec6ae87c299a723653b7bbed403f8fbd888d7ca",
+        "rgba_sha256": "e0f200ebbbb8c5c2cc269a8ab16541ffa8233ba0a0ff1ba80cf4880a09efe1a8",
+        "native_bbox": [
+          37,
+          16,
+          89,
+          112
+        ]
+      },
+      "14": {
+        "main_label": 20,
+        "main_area": 18096,
+        "main_bbox": [
+          1616,
+          285,
+          1740,
+          508
+        ],
+        "additional_components": [
+          {
+            "label": 26,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "c88f3d9295861b3becf47208d6136fc23f129471e7762816eebb7f8ceab60a03",
+        "rgba_sha256": "fefab16c2d943cb768c4f7053d048e580d26ff0a22104e11a08d39cfa2f7012c",
+        "native_bbox": [
+          37,
+          16,
+          90,
+          112
+        ]
+      },
+      "10": {
+        "main_label": 21,
+        "main_area": 18237,
+        "main_bbox": [
+          581,
+          286,
+          755,
+          509
+        ],
+        "additional_components": [],
+        "ownership_sha256": "ae70f11f27559df529d7f767335992fa0688ae67b1ec2f24fa3cd558efe0146f",
+        "rgba_sha256": "7d11e49984ce32cd7865d947a4e152e654b885cae7f6824579e94e99511ab36f",
+        "native_bbox": [
+          32,
+          17,
+          107,
+          112
+        ]
+      },
+      "9": {
+        "main_label": 22,
+        "main_area": 18201,
+        "main_bbox": [
+          336,
+          287,
+          463,
+          508
+        ],
+        "additional_components": [],
+        "ownership_sha256": "132fa23be07974a64334dacb4626813fd226430a324c68ebd073d60fad8dd5e7",
+        "rgba_sha256": "44ca4aacf2eaffa93876e1efa4b9979427433bac0b4915de6a38a024c99ec4bf",
+        "native_bbox": [
+          37,
+          17,
+          92,
+          112
+        ]
+      },
+      "11": {
+        "main_label": 23,
+        "main_area": 18024,
+        "main_bbox": [
+          836,
+          287,
+          1000,
+          509
+        ],
+        "additional_components": [],
+        "ownership_sha256": "c7199273ccb507bec723883d8522f8940b4a31d65a07d9acb9b0e7ad7afe87bf",
+        "rgba_sha256": "e9c42f6fdd086006d629a404a00393de64e351760b84f5b3d01724644c798db6",
+        "native_bbox": [
+          32,
+          17,
+          102,
+          112
+        ]
+      },
+      "13": {
+        "main_label": 24,
+        "main_area": 18192,
+        "main_bbox": [
+          1358,
+          287,
+          1487,
+          508
+        ],
+        "additional_components": [
+          {
+            "label": 27,
+            "area": 1,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "7c2c211b3b255653fe0b71ebb5be7718f76410e91fd1719d7b7d8e8136a9612e",
+        "rgba_sha256": "3a3350ea28ce52bf61d669979cc6667ce3892cc26f4e85a59837d0df04a8f8ca",
+        "native_bbox": [
+          36,
+          17,
+          92,
+          112
+        ]
+      },
+      "16": {
+        "main_label": 28,
+        "main_area": 19322,
+        "main_bbox": [
+          80,
+          539,
+          210,
+          764
+        ],
+        "additional_components": [],
+        "ownership_sha256": "6742a0faee4371eb014352792ae1cb80ab6f5108de017b2695c5994def9c9ca1",
+        "rgba_sha256": "b125b08b25a273d6190b971235543ee89cb579a8e8a29d4eebb7dd614cdc4676",
+        "native_bbox": [
+          36,
+          16,
+          92,
+          112
+        ]
+      },
+      "23": {
+        "main_label": 29,
+        "main_area": 19062,
+        "main_bbox": [
+          1874,
+          539,
+          1996,
+          763
+        ],
+        "additional_components": [],
+        "ownership_sha256": "0723f7adebb76edd361bc9e12281a60e7c15324665d20288a76878ad97504f2f",
+        "rgba_sha256": "2ca34ea7b4e6b720dee1e2d2503991b30eccd25b53340f1f436a758b28e3874f",
+        "native_bbox": [
+          37,
+          16,
+          90,
+          112
+        ]
+      },
+      "17": {
+        "main_label": 30,
+        "main_area": 17410,
+        "main_bbox": [
+          342,
+          540,
+          461,
+          763
+        ],
+        "additional_components": [
+          {
+            "label": 39,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "9f02a914990edb00795db2df6923f0576af402f555b84f8603ee88c727b93a87",
+        "rgba_sha256": "d79a1d7046e5a48b6e348d300ad1ae57290c2fc2514888a8ad86595549cd3672",
+        "native_bbox": [
+          39,
+          16,
+          90,
+          112
+        ]
+      },
+      "18": {
+        "main_label": 31,
+        "main_area": 17660,
+        "main_bbox": [
+          592,
+          540,
+          715,
+          764
+        ],
+        "additional_components": [],
+        "ownership_sha256": "91507dcae84b114bcf5178c1d6fb60d800a5803026e3abe5c4ad6b72ade67d99",
+        "rgba_sha256": "42282eb2a2efff97a88cab14e7e59f112cdb9acbd12d1c05412c0ae29e87a271",
+        "native_bbox": [
+          36,
+          16,
+          89,
+          112
+        ]
+      },
+      "19": {
+        "main_label": 32,
+        "main_area": 18401,
+        "main_bbox": [
+          837,
+          540,
+          1018,
+          764
+        ],
+        "additional_components": [
+          {
+            "label": 36,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 37,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 38,
+            "area": 2,
+            "distance": 2.0
+          }
+        ],
+        "ownership_sha256": "394f9dfcd3cfbfc150a1b935c1b1ff02cb9c3a65a14f9857b07c5ccb92f22779",
+        "rgba_sha256": "029bf9858e9ee354869e0b0b08051131efe68079d902b7e766f1e36088703d03",
+        "native_bbox": [
+          32,
+          16,
+          110,
+          112
+        ]
+      },
+      "20": {
+        "main_label": 33,
+        "main_area": 18062,
+        "main_bbox": [
+          1105,
+          540,
+          1234,
+          763
+        ],
+        "additional_components": [],
+        "ownership_sha256": "e02e54a6a25066e66064b11f57eb6ff23e85911537eb9bb5cf4b68dd9c3d8f9c",
+        "rgba_sha256": "fe5c82f621b807c18d7c90c54c2eb1864a33d8121cecd6c46a34ace1f095e339",
+        "native_bbox": [
+          37,
+          16,
+          92,
+          112
+        ]
+      },
+      "21": {
+        "main_label": 34,
+        "main_area": 19307,
+        "main_bbox": [
+          1359,
+          540,
+          1490,
+          763
+        ],
+        "additional_components": [],
+        "ownership_sha256": "f30115091a8d2885b834f22f5e3ac871f892012bcfb0677bb538b181601a4e03",
+        "rgba_sha256": "2704f316e94989a331dd24834974328e1435779f1104508e36d0949a221a5941",
+        "native_bbox": [
+          36,
+          16,
+          92,
+          112
+        ]
+      },
+      "22": {
+        "main_label": 35,
+        "main_area": 18828,
+        "main_bbox": [
+          1621,
+          540,
+          1742,
+          763
+        ],
+        "additional_components": [],
+        "ownership_sha256": "b6fd2deba3b942ce810942caf1af01289410fbfbe5e29a941b0aade5bbccf471",
+        "rgba_sha256": "281afb9e5f85239f56eba76ea5fe7a92e6f55c516db1ba06c8ae13dd6c8e4f7b",
+        "native_bbox": [
+          39,
+          16,
+          90,
+          112
+        ]
+      },
+      "26": {
+        "main_label": 40,
+        "main_area": 19244,
+        "main_bbox": [
+          590,
+          794,
+          722,
+          1018
+        ],
+        "additional_components": [
+          {
+            "label": 52,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 53,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "488e4eca6125765bd3117298d11136943fa6c9e508f787c165091e3972f9290f",
+        "rgba_sha256": "c330dc15ea42c5c5d0f9fb1538b374ec0b83529e9ad226ac6961bd42e64620e4",
+        "native_bbox": [
+          36,
+          16,
+          93,
+          112
+        ]
+      },
+      "31": {
+        "main_label": 41,
+        "main_area": 19225,
+        "main_bbox": [
+          1871,
+          794,
+          1996,
+          1018
+        ],
+        "additional_components": [],
+        "ownership_sha256": "c8d205b847809ed579607a7a70d56cfee1b2ed8ca3eb32f19f7b07c119c0998d",
+        "rgba_sha256": "8176aef292d5725224263db6d4f7fc139bad977dd6d2474b4a228324d6e7edda",
+        "native_bbox": [
+          36,
+          16,
+          90,
+          112
+        ]
+      },
+      "30": {
+        "main_label": 42,
+        "main_area": 18185,
+        "main_bbox": [
+          1600,
+          799,
+          1741,
+          1012
+        ],
+        "additional_components": [],
+        "ownership_sha256": "488d3f19b52d5cb47677d72d09bec9945a4dd22aee9fc12bd0bfeaa8627e0cba",
+        "rgba_sha256": "2793a87ce6867d582f9a97860767f59689a5d9e5e216ee8ebaad6358446dc394",
+        "native_bbox": [
+          30,
+          18,
+          91,
+          109
+        ]
+      },
+      "25": {
+        "main_label": 43,
+        "main_area": 16748,
+        "main_bbox": [
+          336,
+          805,
+          461,
+          1006
+        ],
+        "additional_components": [
+          {
+            "label": 51,
+            "area": 2,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "64048f7421ea4ce930097dfa96076dd69851f71de01668ec4aedf24d0e25934e",
+        "rgba_sha256": "bf39c53d976c732cf96103ab0cc744e07b1f44b6933dccfc911f09ab047a3fd5",
+        "native_bbox": [
+          37,
+          20,
+          91,
+          107
+        ]
+      },
+      "27": {
+        "main_label": 44,
+        "main_area": 17806,
+        "main_bbox": [
+          820,
+          806,
+          969,
+          1006
+        ],
+        "additional_components": [
+          {
+            "label": 47,
+            "area": 1,
+            "distance": 1.4142135623730951
+          },
+          {
+            "label": 50,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "b29bd5be2a324295d139a99e4e0d14229a20286ded7cad2dd2e9cef0d36e0190",
+        "rgba_sha256": "6d7a52901f43c9ecfca2f7e1e3f1bfed03f5e7f7f7a841cc51857afc76a86a3d",
+        "native_bbox": [
+          25,
+          21,
+          89,
+          107
+        ]
+      },
+      "29": {
+        "main_label": 45,
+        "main_area": 17522,
+        "main_bbox": [
+          1343,
+          809,
+          1490,
+          1006
+        ],
+        "additional_components": [],
+        "ownership_sha256": "3c7b496ad3505cbd27e90649b4531eb1ab0ac0fe9bbd7da1ec71d19fdfa2fe2e",
+        "rgba_sha256": "e8cc58e76b9695e08fc2f1a157754561904cf92ee73d752d05370f53c161a661",
+        "native_bbox": [
+          30,
+          22,
+          92,
+          107
+        ]
+      },
+      "24": {
+        "main_label": 46,
+        "main_area": 15995,
+        "main_bbox": [
+          80,
+          817,
+          212,
+          1006
+        ],
+        "additional_components": [],
+        "ownership_sha256": "d9938a7bad96cc27282b8a92e4fcb9c1327f5e44d3228728bbfafca64e655ee0",
+        "rgba_sha256": "a56d2d1e136beb3a525ff9e8e51caeffbc70d8e59b72979ad846ad618ebb0ccb",
+        "native_bbox": [
+          37,
+          26,
+          94,
+          107
+        ]
+      },
+      "28": {
+        "main_label": 48,
+        "main_area": 15806,
+        "main_bbox": [
+          1085,
+          834,
+          1235,
+          1006
+        ],
+        "additional_components": [
+          {
+            "label": 49,
+            "area": 1,
+            "distance": 1.4142135623730951
+          }
+        ],
+        "ownership_sha256": "00fb6d52892a635a5bc977d5f9de0a5f22f692e19cf423a3ba72117c395a20ff",
+        "rgba_sha256": "829fbd6b7593c012399e47c25225206f10d950ba6b5a535a1bd298a332fb9819",
+        "native_bbox": [
+          29,
+          33,
+          93,
+          107
+        ]
+      }
+    },
+    "unassigned_components": [],
+    "alpha_rule": "Below24 zero; above245 opaque; hiddenRGB zero. Islands within3px nearest body retained.",
+    "walk_override": {
+      "frames": [
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/00.png",
+          "sha256": "c88e1d925a77784038c4bb6afa78ba11f5838b5d66555e7b0cf7b103ba372bfc"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/01.png",
+          "sha256": "a8777ab1305a5769e23a1848317afdeb0d4175476bbf37216ba30fc683010bae"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/02.png",
+          "sha256": "ba7fbc391d3ec25a40d12f6f4f73b773b1d8e1d220c73c166b8cb33026b2f357"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne03-editor-package-v1/inputs/expected-final/03.png",
+          "sha256": "940fa7375b4a0df0e5734e78e789e265879c2e9194527601f878a4a8bc4cd09d"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/04.png",
+          "sha256": "fd629e8f1b0603a4d3d8780cfec7a7b6a548c7f9d86fa7be83456c49ee3cbe6c"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/05.png",
+          "sha256": "17ee266228ff4d64a3890d3ae4393e8b6d35d6919a27ffb0755737f5621801f7"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/06.png",
+          "sha256": "5e652adc0dafe96ed2747dc6b8bdffd68f800f1b34f04fe7e142e318e407fa0b"
+        },
+        {
+          "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/07.png",
+          "sha256": "407c13cba75d3db81b30bd3d304ffe4c22298dedee20f8ff12154e88dbd94d37"
+        }
+      ],
+      "scope": "Preferred unfinished walk repairs only; all eight9/160s holds and other actions retain original behavior. Target unmet; isolated local preview only."
+    },
+    "cell_overrides": {
+      "23": {
+        "path": "art-source/eight-direction-v1/breath-v1/rowan/northeast/23.png",
+        "sha256": "8d7a6e2ea55de05ee37fe5bcecba4f4c1e07a5b20d236707d56bd724a1433fa1",
+        "recipe": "art-source/eight-direction-v1/breath-v1/rowan/northeast/receipt.json",
+        "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+      },
+      "17": {
+        "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/17.png",
+        "sha256": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+        "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+      },
+      "18": {
+        "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/18.png",
+        "sha256": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+        "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+      },
+      "20": {
+        "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/20.png",
+        "sha256": "badde89ee497e2f7c13004a7578c806204e08ba2ee3fba7dc6660180c12ca7a8",
+        "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+      },
+      "25": {
+        "path": "art-source/eight-direction-v1/hurt-recovery-v1/rowan/northeast/25.png",
+        "sha256": "6fa5b0c782626a67b1f9a920ce8b8a1b563cbdcfcea2dcb7b5c2001d144fa7bc",
+        "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+      }
+    }
+  }
+}

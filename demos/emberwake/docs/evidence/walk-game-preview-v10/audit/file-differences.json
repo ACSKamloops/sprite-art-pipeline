@@ -1,0 +1,558 @@
+[
+  {
+    "path": "bake/REPLAY.json",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "89d3ba465b77656ec2e72fab55e108cec8de1d8f96d1640b1eeea7baed5145f1",
+      "bytes": 26383,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "5262bc161ed6962fed2e8634d26ed87a1cc82c050ec67106198cdc216fec9d8f",
+      "bytes": 26405,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/animations.json",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "07f85309c2f2b630927459500cb370de611fdda9c1b7fcd4b2cfd2e567cfc561",
+      "bytes": 112014,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "b8712801e36e5f4c7da2e0400da9946c2b47cefd9c65a1e9c092be87cf53c90f",
+      "bytes": 112010,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/atlas.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "c4211d937aaed65936f31bab1b3814babf837d95fd9daf94a5e4ebea1df492fc",
+      "bytes": 2605924,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "7f0e089b1ebbdae95ee775c648559d9e77d792c2d7b76d7854a259b9c0a8d4cc",
+      "bytes": 2607014,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/lineage.json",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "800751d9319a82a5501091cc08c23ecfee3a25550c1452c437194588b0e441cb",
+      "bytes": 65271,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "edbd25668c0ddf79958afb2607a99f9df455a8e6d99c2aeae1568fc2a070e970",
+      "bytes": 65351,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/source-ownership.json",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "80fb9b702ec13e84a6ce3d93c10370d9da2e2f8b6d959e860c4b63304a3f08ab",
+      "bytes": 37133,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "f79ac09caefa1e6b2acbc551f4b348a6549386f199d9ae13b66a28d5b001134d",
+      "bytes": 37155,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast-native.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "cd15dd3f284cee97c0a3b41c075d7a6f9c4f83311c1bd87f07cb70c7d2cb77a5",
+      "bytes": 290710,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "5fd16b91a38062fbf8337ebc27b5a750e13a0bc61bd38ac18ffa677ce9851787",
+      "bytes": 291624,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/00.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "d21931c35922f79a7dc2c9650ad7398645f2fc7414c85561f206fb5d1cf62c15",
+      "bytes": 12519,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035",
+      "bytes": 12406,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/01.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "013bafc1d37aad93721963af0106935d3f31e8fcb87bd060fa589351f2f99f00",
+      "bytes": 11829,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab",
+      "bytes": 11898,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/02.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "e9dc293eddcd5185a5ce45eebf67e3e290340fa3a2e2c5c3f0cfa49dcea7cd10",
+      "bytes": 10987,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb",
+      "bytes": 11036,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/03.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "f12c4bd46dfdf0f88f45a9f36b655f1a2ed6a67a078985d87dcbaf0daefb48e6",
+      "bytes": 11149,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582",
+      "bytes": 11192,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/04.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "512cd0d2db4e55e0632da1241ec09433ecfa01acd5e94cfec929bffcc1a26dcb",
+      "bytes": 11611,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f",
+      "bytes": 11598,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/05.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "707a34aab69380ffa5e403c9fc21d685386a3fde9c4032d26285a28ff2002ace",
+      "bytes": 11880,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e",
+      "bytes": 11970,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/06.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "2cda7c5c555cc2c1ed343e728d19e34d6b8f20bf09f4c55310faeaa7bd78362a",
+      "bytes": 11762,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998",
+      "bytes": 11817,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/brann/southeast/07.png",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "6de241fe76c7c7af99a134ee3789a7472813d77bd3cd9f738219bed0c78bd79c",
+      "bytes": 12119,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8",
+      "bytes": 12124,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/lyra/animations.json",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "034dbfacdf3f878549a60948cae652ae45534ba550ae67760ebbf52b71f3ec3f",
+      "bytes": 104403,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "d342b436fcedbfab320bcb7a432e28b8a7d2570f0dc0d1802300d51592d0dd0a",
+      "bytes": 104399,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "bake/rowan/animations.json",
+    "status": "changed",
+    "category": "bake",
+    "v9": {
+      "sha256": "5eb2728cbaf941416a48cf05c6b0e0bbe4939290d59fc97f75cb1ede9d3e7e81",
+      "bytes": 97003,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "7759ec2d2eec40634b108e98d7a0c7063a9c2578ae7f99e7ef54af0d0541bd04",
+      "bytes": 96999,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/assets/characters/brann/animations.json",
+    "status": "changed",
+    "category": "runtime_or_project_config",
+    "v9": {
+      "sha256": "07f85309c2f2b630927459500cb370de611fdda9c1b7fcd4b2cfd2e567cfc561",
+      "bytes": 112014,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "b8712801e36e5f4c7da2e0400da9946c2b47cefd9c65a1e9c092be87cf53c90f",
+      "bytes": 112010,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/assets/characters/brann/atlas.png",
+    "status": "changed",
+    "category": "runtime_or_project_config",
+    "v9": {
+      "sha256": "c4211d937aaed65936f31bab1b3814babf837d95fd9daf94a5e4ebea1df492fc",
+      "bytes": 2605924,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "7f0e089b1ebbdae95ee775c648559d9e77d792c2d7b76d7854a259b9c0a8d4cc",
+      "bytes": 2607014,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/assets/characters/lyra/animations.json",
+    "status": "changed",
+    "category": "runtime_or_project_config",
+    "v9": {
+      "sha256": "034dbfacdf3f878549a60948cae652ae45534ba550ae67760ebbf52b71f3ec3f",
+      "bytes": 104403,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "d342b436fcedbfab320bcb7a432e28b8a7d2570f0dc0d1802300d51592d0dd0a",
+      "bytes": 104399,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/assets/hero/animations.json",
+    "status": "changed",
+    "category": "runtime_or_project_config",
+    "v9": {
+      "sha256": "5eb2728cbaf941416a48cf05c6b0e0bbe4939290d59fc97f75cb1ede9d3e7e81",
+      "bytes": 97003,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": {
+      "sha256": "7759ec2d2eec40634b108e98d7a0c7063a9c2578ae7f99e7ef54af0d0541bd04",
+      "bytes": 96999,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/docs/evidence/checks/RESULTS.json",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "6aff7b292e5e55a8b410c2dcf955ca801c2f3360062d64525a53ec1434702403",
+      "bytes": 3286,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/cast_charge_tracks.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "3b94049d0a06abe1802c46e65417d2adad05cce7d15e88f489d344ee5560e5f7",
+      "bytes": 1076,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/character_selection.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "e6a7a16c2aba6412fe69750641172b6671bab95a85edae484cfc81cf005935c6",
+      "bytes": 161,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/combat_readability.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "68fe1d41f3784d3256f560510257d9469c7fbdac0e63bcfd007c9e395198bb44",
+      "bytes": 257,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/eight_directions.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "58cb0aceeb5eac5f4ce82ff71f07f63e979cb45d01f3f080030e24ed2c5807d9",
+      "bytes": 178,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/final_polish.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "befd913971c1d62b0afd3b70879c696c1b980b818385d21ec07aa2558d90fb45",
+      "bytes": 106,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/pause_smoke.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "6ca7186b3de7f6f9298a250b119d83bbd78dea8ed4b54d80ba196dc3cb720d8e",
+      "bytes": 237,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/regressions.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "1f4e2df88c06c1810de9f1ab81e3b4a1f3211c9bbb5560bb788d5da5badbaa2a",
+      "bytes": 105,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/routes_smoke.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "6b2fb181aa3e3d9539cf2ed6d53c160e68c72f48470adf8f762c2a8b35e57415",
+      "bytes": 105,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/spells_v2.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "53af17e26117b2639a8bfc03e5c012398fc012710ee6d3fd564d782aa35d236e",
+      "bytes": 103,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/systems_smoke.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "349e5b2b2b4d2bda2fbc43caf45e2767cd6479b45054b741c3df91c119a206a9",
+      "bytes": 115,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/checks/world_smoke.gd.log",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "087ead6dd48497808c144da4d7f1fe9b09a243af09cda91263b195806b113dbb",
+      "bytes": 202,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/eight-directions-systems/production-checks.json",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "0f7e82afcd89d8fa40c2a28af53c0fad50b9f74710ea30b6d247a1a9da30a03d",
+      "bytes": 8410,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/docs/evidence/spells-v2/spell-logic-checks.json",
+    "status": "removed",
+    "category": "documentation_or_saved_evidence",
+    "v9": {
+      "sha256": "e4d7070fa56ff8b1b656d1c90f3106ec702d33e815dc49f363582fdd5f5a0700",
+      "bytes": 2536,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/scripts/build_engine_walk_gallery.py",
+    "status": "added",
+    "category": "offline_python_helper",
+    "v9": null,
+    "v10": {
+      "sha256": "e6f3fe5e987e2ec951be870726d83a6a69edd3c8051e47365c1f821e46f56933",
+      "bytes": 5300,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/scripts/summarize_action_traces.py",
+    "status": "added",
+    "category": "offline_python_helper",
+    "v9": null,
+    "v10": {
+      "sha256": "0c59a02ca75cb50063617b14893b5c368459b6b9699aad39983dd9afde913b94",
+      "bytes": 2695,
+      "uid": 1000,
+      "symlink": false
+    }
+  },
+  {
+    "path": "project/tests/audio_teardown_probe.gd",
+    "status": "removed",
+    "category": "test_helper",
+    "v9": {
+      "sha256": "7dbd9f76ee5c1edd5886c8da04afafc06e82507d4008c04a7bd3b045f93e7afd",
+      "bytes": 6288,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  },
+  {
+    "path": "project/tests/final_polish_cleanup.gd",
+    "status": "removed",
+    "category": "test_helper",
+    "v9": {
+      "sha256": "0f045222b941922355132527a36599bdbf92352b9b1a88ac1c82ebe8994d2381",
+      "bytes": 6245,
+      "uid": 1000,
+      "symlink": false
+    },
+    "v10": null
+  }
+]

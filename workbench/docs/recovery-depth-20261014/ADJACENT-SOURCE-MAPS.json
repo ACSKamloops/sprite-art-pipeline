@@ -1,0 +1,740 @@
+{
+  "schema": 1,
+  "scope": "exact adjacent <observed-script-URL>.map for72 unique current downloaded JavaScript URLs, including editor page bundle and shipped Godot engine JS",
+  "no_auth": true,
+  "redirects_followed": false,
+  "concurrency": 4,
+  "max_body_bytes": 10485760,
+  "max_total_body_bytes": 104857600,
+  "body_bytes_read": 0,
+  "stopped": false,
+  "requests": [
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+      "observed_script_sha256": "0225eb034d024a03bdc90ea6c79f56193662e7c3eee909696298820e517cbb83",
+      "time_utc": "2026-10-14T04:05:36.803410+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/webpack-e97a37b87197ded8.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/webpack-e97a37b87197ded8.js",
+      "observed_script_sha256": "ce77dac72e65895a6d1a3017a82150b27f26135adaa2fc9dfe8664a7cfe620a1",
+      "time_utc": "2026-10-14T04:05:36.803925+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/framework-06a91fef12f27585.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/framework-06a91fef12f27585.js",
+      "observed_script_sha256": "971452c4cbfde66336b5abea414abf7fbfc7771e707ce728934c339e902aaf2d",
+      "time_utc": "2026-10-14T04:05:36.804383+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/main-78a09a6fb714e34d.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/main-78a09a6fb714e34d.js",
+      "observed_script_sha256": "429ed4f167d9974a90f9f836093f65944b228e1cbdbcc30bbbdc5ad220de7d7e",
+      "time_utc": "2026-10-14T04:05:36.804936+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/_app-e78d4f0355c72fed.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/_app-e78d4f0355c72fed.js",
+      "observed_script_sha256": "6ea2253a54ff17a3c3939f4d03cb212ba786aebef0024e622e2073e3390f05a6",
+      "time_utc": "2026-10-14T04:05:36.906633+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/9911-24b323757b344580.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/9911-24b323757b344580.js",
+      "observed_script_sha256": "5530a383b8e7ddff584425262e1c402190ccd872d0bc8c9ad4ce2accbf389fa8",
+      "time_utc": "2026-10-14T04:05:36.909543+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2543-01a405318c74f0e7.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2543-01a405318c74f0e7.js",
+      "observed_script_sha256": "f2e32b5cb00f8465c835213783af2c9f32539951a7d1ae685a1bcd95b4c7759a",
+      "time_utc": "2026-10-14T04:05:36.909917+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4239-03cd8e47927660d6.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4239-03cd8e47927660d6.js",
+      "observed_script_sha256": "0502a08b4a1472223a45b558aa9f7f88b9a93a0866291ae0a532176e4404fd50",
+      "time_utc": "2026-10-14T04:05:36.910244+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/index-1cac21a3e8e47418.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/index-1cac21a3e8e47418.js",
+      "observed_script_sha256": "123e843310f276d70f872e818f8d88a0e415217517b06f5c6a1ea9021e1128ab",
+      "time_utc": "2026-10-14T04:05:36.976257+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_buildManifest.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_buildManifest.js",
+      "observed_script_sha256": "af0f3a0648f4b89b79226f520a30f36e8c9be33858795bdeffe646a2747d4a4a",
+      "time_utc": "2026-10-14T04:05:36.982653+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_ssgManifest.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/47Tsj26faacYhPb5es2Ex/_ssgManifest.js",
+      "observed_script_sha256": "836c3d0466e0795b58a5776c92f370b8def0080c3c6a26b20a497680eda2e765",
+      "time_utc": "2026-10-14T04:05:36.988223+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7886-672cda0280111da5.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7886-672cda0280111da5.js",
+      "observed_script_sha256": "77431311db84e28b99524a1aed40948836d828170e6a8527842880f9edaf78b8",
+      "time_utc": "2026-10-14T04:05:36.995383+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/8974-9072259a80d3f483.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/8974-9072259a80d3f483.js",
+      "observed_script_sha256": "cad2ed78bfb094d41d8fb8e5124b28f0886cd166df0f751ee38f7e4b71a3ea45",
+      "time_utc": "2026-10-14T04:05:37.045787+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/5637-6ac29ae0aa8083e7.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/5637-6ac29ae0aa8083e7.js",
+      "observed_script_sha256": "9028e9414fc18cf22f8a35f3de65ba2690db72a4cb4dfc479c1c848736a6a7b8",
+      "time_utc": "2026-10-14T04:05:37.046007+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/pixellab-api-2e94656868ca9107.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/pixellab-api-2e94656868ca9107.js",
+      "observed_script_sha256": "5f6c181a2133986d11064ccb63162b5c92e71b7370e69c5d22d12a2aaf91d3ef",
+      "time_utc": "2026-10-14T04:05:37.051541+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/0c428ae2-8959f8c75adce65b.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/0c428ae2-8959f8c75adce65b.js",
+      "observed_script_sha256": "1edec6f7e6c8c29e54fb8d81b166bf06716ca8f4943713220c359a12e86f8fc4",
+      "time_utc": "2026-10-14T04:05:37.069937+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/796-3b71c85fec7b9168.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/796-3b71c85fec7b9168.js",
+      "observed_script_sha256": "9dc2210bf19538bb6633dd34155385ebef056b8c61a3abb8ad8c30246ed4ffcf",
+      "time_utc": "2026-10-14T04:05:37.110517+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2994-7cb38a185b13892f.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2994-7cb38a185b13892f.js",
+      "observed_script_sha256": "6f97f3801f96dc23ca2e5e60006848ef82558338f607636159a7da654fd1995c",
+      "time_utc": "2026-10-14T04:05:37.116901+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6197-f3a6aa9c29ed3979.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6197-f3a6aa9c29ed3979.js",
+      "observed_script_sha256": "55ee6cf155cd33480d29521bf89b2505deb2c964c31a3337fbb558a1f7cd582e",
+      "time_utc": "2026-10-14T04:05:37.139744+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6336-32123abf0aad5d33.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6336-32123abf0aad5d33.js",
+      "observed_script_sha256": "a03a0bbbfc17795f095ea78a69507d222344d7e7e68500048f28a815dd69f78a",
+      "time_utc": "2026-10-14T04:05:37.141527+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/3778-ef7c5cd0341f4223.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/3778-ef7c5cd0341f4223.js",
+      "observed_script_sha256": "47c12e2b6e6e0e3f127b993260c72c720454e2624129e95d8632b398eeede609",
+      "time_utc": "2026-10-14T04:05:37.188429+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4354-3a62375cb4c03823.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4354-3a62375cb4c03823.js",
+      "observed_script_sha256": "cc7e87ddeb584f550ab863bc10792addab01469be1143ede0cded67a096284de",
+      "time_utc": "2026-10-14T04:05:37.206523+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/1184-002340beee8fb10d.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/1184-002340beee8fb10d.js",
+      "observed_script_sha256": "cd31af14aec7cc1d3ea8c8dcdb54cb9c26dd9259cf975b096f9f855f5b969911",
+      "time_utc": "2026-10-14T04:05:37.208234+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2198-74cc7b50dd066290.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2198-74cc7b50dd066290.js",
+      "observed_script_sha256": "649ebfc820d2cb9486580df902a0537bda03792818db0d5d83bd29c9cff00463",
+      "time_utc": "2026-10-14T04:05:37.214071+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7423-7551acd3011f53c7.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7423-7551acd3011f53c7.js",
+      "observed_script_sha256": "4f955fc14e848757fe325ddc64e073073ba91ec1ac04d7a1b362cf6c1f855af2",
+      "time_utc": "2026-10-14T04:05:37.265833+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-vfx-b876fab0cfaf0dae.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-vfx-b876fab0cfaf0dae.js",
+      "observed_script_sha256": "08da18c2c8519c6e540544322d8ac39ebef901e3a2e2abe34ff0050f4561cb51",
+      "time_utc": "2026-10-14T04:05:37.285295+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/98ea7ec2-961fa654fc3da6c4.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/98ea7ec2-961fa654fc3da6c4.js",
+      "observed_script_sha256": "f607dde6e28cd94eda24acf74d8d753f9868dc8dccd438d5d65826f0a99ccf16",
+      "time_utc": "2026-10-14T04:05:37.288416+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/3848-d641e9b04420d316.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/3848-d641e9b04420d316.js",
+      "observed_script_sha256": "f818983c1c3e1041de92f0268314932b4b38ec35f0ffcc2ce785d12d4f385118",
+      "time_utc": "2026-10-14T04:05:37.304768+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7781-70c5efed2aff0450.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7781-70c5efed2aff0450.js",
+      "observed_script_sha256": "79a687d6a350f800db828e54926af6976c6defda4868dfd77a739a7eaeda8ea9",
+      "time_utc": "2026-10-14T04:05:37.332165+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4747-4a4aa7ae092366eb.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4747-4a4aa7ae092366eb.js",
+      "observed_script_sha256": "8a28fc83be9b1408844db870eff6cc0eed9ab8387ed5aac267ca31ecbf4106bc",
+      "time_utc": "2026-10-14T04:05:37.350683+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+      "observed_script_sha256": "077cbc8f10724502107814a7a206a1dc24211a1125b7e6e301aadd941b3f4a64",
+      "time_utc": "2026-10-14T04:05:37.357435+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6279-4b52898c2c543174.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6279-4b52898c2c543174.js",
+      "observed_script_sha256": "8a8d2e490b593be20f3c435806ace17535ce35fb2341484c9ab3ee7db3ad9634",
+      "time_utc": "2026-10-14T04:05:37.381261+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/8553-b15d069c13db3bf6.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/8553-b15d069c13db3bf6.js",
+      "observed_script_sha256": "a9f090f3b836f99d2a837bc68e4231d0379e7b735fd055597c4d3806edf51489",
+      "time_utc": "2026-10-14T04:05:37.411607+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/5110-0d7b2f8d1b9d148f.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/5110-0d7b2f8d1b9d148f.js",
+      "observed_script_sha256": "2fffa9601c77e9ce263bd7725f42f3074727033d22c68fdeaad1e8932f99b4b7",
+      "time_utc": "2026-10-14T04:05:37.441021+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2386-0c23ec27d0c4a587.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2386-0c23ec27d0c4a587.js",
+      "observed_script_sha256": "a5f31dab2ea849535b293d1a4928b5f7c547f9e7ad5a0aaf5bc53952058246ac",
+      "time_utc": "2026-10-14T04:05:37.443186+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7938-4c723aa968c6979b.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7938-4c723aa968c6979b.js",
+      "observed_script_sha256": "91c84d12423d68b27804f698a8e968b025265a0b170475c91b0614d3f095abbc",
+      "time_utc": "2026-10-14T04:05:37.450125+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6850-ec9f1cddde9e9042.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6850-ec9f1cddde9e9042.js",
+      "observed_script_sha256": "1ead99aef65e5ce5e7168fd6f40c47e790d3fae5af7cabddceaeaca14603325a",
+      "time_utc": "2026-10-14T04:05:37.487862+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2260-652db7234030c4b8.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2260-652db7234030c4b8.js",
+      "observed_script_sha256": "7a107b8fc737ce1fc93fc7fc1a65c84582541e32a69beb5e31ca9be32bc22c81",
+      "time_utc": "2026-10-14T04:05:37.508824+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4156-ad19a36a641ceb01.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4156-ad19a36a641ceb01.js",
+      "observed_script_sha256": "83f14d55fc8c94cbe2a305718dd550c7126a49634311e06fcd96e75baeb889ad",
+      "time_utc": "2026-10-14T04:05:37.509098+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2938-0f2e835ff2fa9208.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2938-0f2e835ff2fa9208.js",
+      "observed_script_sha256": "97bcf1df1993ec7529d56591e9de8df1220198459a2bcee6a8d3a9d8b5b21ef4",
+      "time_utc": "2026-10-14T04:05:37.540163+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-9c5cec3372075418.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-9c5cec3372075418.js",
+      "observed_script_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "time_utc": "2026-10-14T04:05:37.564095+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2d36dd80-5c3601c811f1bb4c.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2d36dd80-5c3601c811f1bb4c.js",
+      "observed_script_sha256": "4fe0e601c1555ae5c6f16d2622a99b9478a30186be7efbb2a000265b75a8d9f7",
+      "time_utc": "2026-10-14T04:05:37.577212+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/fb7d5399-7402e4324c56d152.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/fb7d5399-7402e4324c56d152.js",
+      "observed_script_sha256": "56c851453d5dbb6a33bf24507c53598b1aaeb495e1e79ffa84669e20de9fa5b6",
+      "time_utc": "2026-10-14T04:05:37.584842+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/162-fdca707ef38f3392.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/162-fdca707ef38f3392.js",
+      "observed_script_sha256": "b570a9d9e65e35b901dddb1e42595871c5037e27b130d9bdb1b4d7abae69b56c",
+      "time_utc": "2026-10-14T04:05:37.601962+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/985-caedf079ecb6b192.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/985-caedf079ecb6b192.js",
+      "observed_script_sha256": "2416587399f26f13f82ca01668bb08ef986a4d8020b4fcd77e710251052ecfa2",
+      "time_utc": "2026-10-14T04:05:37.640878+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7803-e6ab2efa5c3cae73.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7803-e6ab2efa5c3cae73.js",
+      "observed_script_sha256": "b69278482b5896f8be9b8ab2916278a3aa9baad59e142e4758f19c06b05c6e90",
+      "time_utc": "2026-10-14T04:05:37.657502+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/9923-1a672da0d6cc5d92.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/9923-1a672da0d6cc5d92.js",
+      "observed_script_sha256": "22bdd5dce1d2c0bebf0861cdf316fc52ec0903ae63a8f67bba19adc944ad47a5",
+      "time_utc": "2026-10-14T04:05:37.659206+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/171-f66e65892c3c8c61.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/171-f66e65892c3c8c61.js",
+      "observed_script_sha256": "f34b15d811afd6473df74861d1619808ea16519a4eb87c5a1e158e36d42361b4",
+      "time_utc": "2026-10-14T04:05:37.666001+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6753-0e6add6ddc87b54f.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6753-0e6add6ddc87b54f.js",
+      "observed_script_sha256": "476f5f89d7552b3f59cdbf9e45edd848d948bee8be5031f0f77c0a8fc07ab2b6",
+      "time_utc": "2026-10-14T04:05:37.714851+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/5484-fe94dbb031db84ed.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/5484-fe94dbb031db84ed.js",
+      "observed_script_sha256": "79ece833fbd8b468fa64dfdc0f2d91fbf56e92481c2de0add0f5505e729dfe6f",
+      "time_utc": "2026-10-14T04:05:37.730088+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7515-235b32e4f727e5d6.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7515-235b32e4f727e5d6.js",
+      "observed_script_sha256": "eea0fe69bab68ea7c2eba9b9563d66396610fd03ee6dcdf5b5055ae1939c4cac",
+      "time_utc": "2026-10-14T04:05:37.737616+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/8756-b64e75aaa7daef07.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/8756-b64e75aaa7daef07.js",
+      "observed_script_sha256": "970ce50bc52b4e4c78ac8166c45dbcfc9ce0b066578d86cf20398688c6750192",
+      "time_utc": "2026-10-14T04:05:37.739696+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/new-b917abc8124a07ea.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/new-b917abc8124a07ea.js",
+      "observed_script_sha256": "fce297e10865a74d799f26db0635949048bfd2a05c4f38b45b2e5adffe9a96c8",
+      "time_utc": "2026-10-14T04:05:37.797717+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/3257-e431195f4ad19e8a.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/3257-e431195f4ad19e8a.js",
+      "observed_script_sha256": "3c68534bcf8e789d9059c837fd5c3217bc974f09c57b951e9188fbf18a93be3b",
+      "time_utc": "2026-10-14T04:05:37.816748+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7606-8b83e1e39c3045f5.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7606-8b83e1e39c3045f5.js",
+      "observed_script_sha256": "dfa07b4069b1c326d53b04a3b54d4681d75036e57d0c87ed9ca97c5e45c32373",
+      "time_utc": "2026-10-14T04:05:37.816962+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4627-44719d0c5e43b757.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4627-44719d0c5e43b757.js",
+      "observed_script_sha256": "2aedf0a4da4e5df539403caa181d249605b6a3f1b8701083b3e57c756716954f",
+      "time_utc": "2026-10-14T04:05:37.824761+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4740-c10d30668d7ecca4.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4740-c10d30668d7ecca4.js",
+      "observed_script_sha256": "6b7a2d69d50eb574e1ad9dde6e7968fbc1d81a853eab1d65e3ff725d5869c4e3",
+      "time_utc": "2026-10-14T04:05:37.871366+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/add-animation-9dddb1120ec17d78.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/add-animation-9dddb1120ec17d78.js",
+      "observed_script_sha256": "ad42ec7138010ddc8f2a2e35e2b9e2ca217929a56d1ff301715271e4d3b14765",
+      "time_utc": "2026-10-14T04:05:37.884783+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/generate-animation-17f06517f5e1362c.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-character/[id]/generate-animation-17f06517f5e1362c.js",
+      "observed_script_sha256": "15889bde52c72d5cd428f73d584b993c74d137c39581794be4d94f32c7f15112",
+      "time_utc": "2026-10-14T04:05:37.893655+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/9093-b9fa171a8affd6f6.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/9093-b9fa171a8affd6f6.js",
+      "observed_script_sha256": "0690969f5caf83be070758b3d840196f06e2fd3d0cdc532b6f6e00d7376c6108",
+      "time_utc": "2026-10-14T04:05:37.894051+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-object/[id]/animate-0c10514e570626e0.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-object/[id]/animate-0c10514e570626e0.js",
+      "observed_script_sha256": "449714a2f3470569abf48c278475b7545d22234c7226e0e659f5e1b635dd9462",
+      "time_utc": "2026-10-14T04:05:37.956817+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/editor-2aab8d6e1923545e.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/pages/editor-2aab8d6e1923545e.js",
+      "observed_script_sha256": "4402cc512309a948b7444e0a94fa7d1ebf768ae2f0c0d2daade24f04367cd942",
+      "time_utc": "2026-10-14T04:05:37.957093+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/5259.712f0977c9cb2d1d.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/5259.712f0977c9cb2d1d.js",
+      "observed_script_sha256": "3f3e971002fd609ff75739b85cfd1ce71706ac553911e9a2b1c1084834024628",
+      "time_utc": "2026-10-14T04:05:37.963377+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/3483.e5ad78e6badae3c7.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/3483.e5ad78e6badae3c7.js",
+      "observed_script_sha256": "6366685c19ff661e61a885f0489e50f428afc9851ba350ab6f9759430998ac25",
+      "time_utc": "2026-10-14T04:05:37.976367+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4647.adc94c99480a1e31.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4647.adc94c99480a1e31.js",
+      "observed_script_sha256": "fe02416f154d012e16653451a1812f9133bc578c8638a58b555e83adab446d5e",
+      "time_utc": "2026-10-14T04:05:38.033482+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/4268.302cba226ebbd729.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/4268.302cba226ebbd729.js",
+      "observed_script_sha256": "bddee4f56bd6dffc30b7e1a42bf3051e586e38c5dd0b41755ce77defda7d6e06",
+      "time_utc": "2026-10-14T04:05:38.034812+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/2773.ebe3ae194660b5d1.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/2773.ebe3ae194660b5d1.js",
+      "observed_script_sha256": "b96dda9f83b36757926b17117ce2b2d9b449e764e2c43f6f2ecf53c1a3677ca4",
+      "time_utc": "2026-10-14T04:05:38.041146+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/7317.99219ad774563a59.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/7317.99219ad774563a59.js",
+      "observed_script_sha256": "4be7d8a31ef5ec1c402b0dbd48ae5583cedb09e5168911f00be1d24755e5e417",
+      "time_utc": "2026-10-14T04:05:38.041312+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.js.map",
+      "observed_script_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.js",
+      "observed_script_sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "time_utc": "2026-10-14T04:05:38.112173+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.service.worker.js.map",
+      "observed_script_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.service.worker.js",
+      "observed_script_sha256": "99f2c56aeabaf9201bc1ebe0f5dfb807c48313d279994f9216300e042098bef1",
+      "time_utc": "2026-10-14T04:05:38.112431+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6429.f8545d14bae566fd.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/6429.f8545d14bae566fd.js",
+      "observed_script_sha256": "8d975741ce91162a58ffa676f74999564ada87ab07d507791c108b061595b239",
+      "time_utc": "2026-10-14T04:05:38.112924+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/5910.8b197a0aa125c6db.js.map",
+      "observed_script_url": "https://www.pixellab.ai/_next/static/chunks/5910.8b197a0aa125c6db.js",
+      "observed_script_sha256": "f1bcb720f08a2e59a77b32abbf7317d0966d1ac8c657eeecb1795f6ff1d05acd",
+      "time_utc": "2026-10-14T04:05:38.113795+00:00",
+      "status": 404,
+      "content_type": "text/html; charset=utf-8",
+      "outcome": "http-error-no-body-read",
+      "throttled": false
+    }
+  ],
+  "probe_script_sha256": "00c6f00de9567458788f0676e40749ad67d02f43ab28d77945f02d9039a8d343",
+  "receipt_finalized_utc": "2026-10-14T04:06:06.562746+00:00",
+  "status_counts": {
+    "404": 72
+  },
+  "valid_v3_maps": 0,
+  "negative_bound": "72 exact observed-script-URL + .map candidates; HTTP404 bodies not read, therefore body SHA is intentionally unavailable. Other map names, domains, versions, inline maps and authenticated sources are not ruled out."
+}

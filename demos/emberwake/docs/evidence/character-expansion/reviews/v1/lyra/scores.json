@@ -1,0 +1,136 @@
+{
+  "schema": "independent-sprite-review/v1",
+  "scale": "0-10; higher is better; no producer threshold supplied",
+  "input_fingerprint": "7eee41206a5fd632cd664a2dfef5c3cd327e1a5767bfa79d1226ca48162a7a2f",
+  "status": "review frozen; input pixels not modified",
+  "style_basis": "Written brief: rich modern chibi top-down game set; unarmed heroes. Rowan reference was not opened.",
+  "perception_basis": "All nominated pixels, every adjacent pair and wrap, idle endpoint joins, explicit source holds. Decoded still chronology, not human normal-speed perception.",
+  "exposure_note": "Full pipeline SKILL.md was inadvertently read with the blind card and contains unrelated historic scores/anecdotes. Initial manifest schema inspection also printed several lineage entries (source names/transforms). No candidate producer report, prior candidate ratings, other review, or referred source art was opened. Not perfectly blind.",
+  "coverage": {
+    "clips": 24,
+    "directions": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "actions": [
+      "idle",
+      "walk",
+      "attack",
+      "cast",
+      "hurt",
+      "dodge"
+    ],
+    "atlas_cells": 112,
+    "timeline_presentations": 116,
+    "internal_adjacent_pairs": 92,
+    "declared_loop_wraps": 8,
+    "diagnostic_nonloop_wraps": 16,
+    "idle_endpoint_joins": 80,
+    "scales": [
+      "native 128px cell",
+      "nearest 2x",
+      "approximate draw scale 0.66, nearest 84px cell"
+    ],
+    "backgrounds": [
+      "dark teal #193032",
+      "light gray #d3d5d0"
+    ]
+  },
+  "not_claimed": [
+    "Normal-speed human playback acceptance",
+    "World-space planted-foot contact",
+    "Gameplay or export validation",
+    "Eight directions",
+    "Mirrored pixels as newly authored poses"
+  ],
+  "character_id": "lyra",
+  "input_hashes": {
+    "atlas.png": "a46d7ba7b260ce3a1a42f81ee3001325fee310a6284396e316476b0743a9624d",
+    "animations.json": "3f823795e13e5d84571a84818042a17e421871944bac3baf4db3e8b03a5c6cde",
+    "selected-contact-sheet.png": "97fd6d671dc5d4899839c0998732943d8cc7f2d22549e713c562269d32f6b3a6"
+  },
+  "scores": {
+    "drawing": 8.0,
+    "reference_fit": 7.7,
+    "consistency": 7.8,
+    "motion": 6.2,
+    "usefulness": 7.0,
+    "overall": 7.1
+  },
+  "confidence": {
+    "drawing": 0.85,
+    "reference_fit": 0.68,
+    "consistency": 0.82,
+    "motion": 0.61,
+    "usefulness": 0.7,
+    "overall": 0.72
+  },
+  "judgment": "Strong visual design and coherent four-direction identity; usable prototype action set. Retain the drawing direction, repair walking support progression and review exits before calling the complete set polished.",
+  "top_three_fixes": [
+    {
+      "rank": 1,
+      "id": "L1",
+      "severity": "medium",
+      "kind": "motion drawing",
+      "clips": [
+        "south_walk",
+        "north_walk"
+      ],
+      "frames": [
+        "3->4",
+        "7->0",
+        "59->60",
+        "63->56"
+      ],
+      "finding": "Lead boot remains extended for most of each half-cycle; the opposite lead takes over without a clear neutral/passing support pose. The side views have clearer passing at f30/f34 and f86/f90.",
+      "smallest_experiment": "Replace one pose near each south/north half-cycle boundary with an authored passing/support bridge, keeping head/costume registration and the same 0.45 s cycle. Review equal-time A/B before extending."
+    },
+    {
+      "rank": 2,
+      "id": "L2",
+      "severity": "low to medium",
+      "kind": "transition polish",
+      "clips": [
+        "south_attack",
+        "east_attack",
+        "north_attack",
+        "west_attack"
+      ],
+      "frames": [
+        "13->14",
+        "41->42",
+        "69->70",
+        "97->98"
+      ],
+      "finding": "Final attack pose remains in wide raised guard, followed by narrow arms-down idle in one change. Example lower-sprite alpha span at y>=95: east f41 x30..89 versus idle f42 x45..85. No settle drawing is present.",
+      "smallest_experiment": "Add or substitute one short guard-to-neutral settle at the attack exit, preserving attack total duration if responsive timing must remain fixed."
+    },
+    {
+      "rank": 3,
+      "id": "L3",
+      "severity": "medium metadata in frozen v1",
+      "kind": "palm attachment metadata",
+      "clips": [
+        "east_cast",
+        "north_cast",
+        "west_cast"
+      ],
+      "frames": [
+        "release 47",
+        "release 75",
+        "release 103"
+      ],
+      "finding": "V1 cast_hand points sit low/outside the visible glove/palm in side views, particularly west (22,64), rather than consistently on the palm. The release drawings themselves are readable.",
+      "smallest_experiment": "Move attachment anchors onto measured release-palm pixels. This requires metadata correction, not new art. Any later metadata revision is outside this frozen score."
+    }
+  ],
+  "positives": [
+    "White hair, teal scarf, green shoulders, gold-edged coat, brown gloves/boots remain recognizable in all four views.",
+    "Stable overall camera and body scale; no demonstrated disconnected limb or gross extra-limb artifact.",
+    "Side punches have readable anticipation, full extension and recoil; casts separate fists/preparation from open release palms.",
+    "Hurt poses return to a nominated idle frame; casts and dodge endpoints are much closer to neutral than attack endpoints."
+  ],
+  "motion_uncertainty": "Sparse front/back gait is visible in decoded support silhouettes. Whether it feels merely brisk or distractingly shuffling at speed needs human timed A/B."
+}

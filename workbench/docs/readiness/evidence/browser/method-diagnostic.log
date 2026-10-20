@@ -1,0 +1,13 @@
+### Result
+{
+  "filter": "local.library.list",
+  "list": "No matching methods.",
+  "buttons": 0,
+  "all": "false",
+  "connection": "Local connection",
+  "error": ""
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({filter:document.querySelector("#method-search").value,list:document.querySelector("#method-list").textContent,buttons:document.querySelectorAll("#method-list button").length,all:document.querySelector("#methods-all").getAttribute("aria-pressed"),connection:document.querySelector("#connection").textContent,error:document.querySelector("#global-error").textContent})');
+```

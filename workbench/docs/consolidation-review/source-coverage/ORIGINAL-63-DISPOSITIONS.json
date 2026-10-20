@@ -1,0 +1,1602 @@
+{
+  "original_questions": 63,
+  "authority_assignment_counts": {
+    "controlled-runtime-observation": 30,
+    "server-source-or-provider-disclosure": 21,
+    "shipped-source-trace": 18
+  },
+  "overlapping_authorities": true,
+  "source_gate_rows_joined": 18,
+  "source_gate": {
+    "path": "analysis-contract/depth-round4/full-flow-contracts/ACCESSIBLE-SOURCE-GATE.json",
+    "sha256": "af9ef7c1d9e728a45ac9c444459486bb7c475f52e7d265bd547b874fc50857da"
+  },
+  "authority": "All original questions preserved. Eighteen source-owner answers are attributed, not 63 new semantic approvals. Runtime and private portions remain separate; sampled references are thematic, not proof of the whole question.",
+  "rows": [
+    {
+      "id": "portrait-conversion-storage:unknown:1",
+      "family": "portrait-conversion-storage",
+      "original_question": "both direction identity/body framing and alpha behavior",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/0"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "portrait-conversion-storage:unknown:2",
+      "family": "portrait-conversion-storage",
+      "original_question": "SetPortraitRequest ownership/mood replacement/reload behavior",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/1"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "portrait-conversion-storage:unknown:3",
+      "family": "portrait-conversion-storage",
+      "original_question": "crop/face detection/concept model and skeleton fitting internals",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/2"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "portrait-dialogue:unknown:1",
+      "family": "portrait-dialogue",
+      "original_question": "Latin grapheme-to-viseme mapping, punctuation, repeated mouth positions, supported alphabets and loop terminal hold",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/3"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "V01",
+        "V02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "portrait-dialogue:unknown:2",
+      "family": "portrait-dialogue",
+      "original_question": "stable viseme_order per expression and spritesheet row mapping; inline vs saved equivalence",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/4"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "V01",
+        "V02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "portrait-dialogue:unknown:3",
+      "family": "portrait-dialogue",
+      "original_question": "expression generation models and text-to-viseme rules; no audio alignment pipeline is proven",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/5"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "V01",
+        "V02"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "font:unknown:1",
+      "family": "font",
+      "original_question": "all four glyph sizes and atlas-to-cmap correspondence, space advance/kerning/combining glyphs/baseline",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/6"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "F01",
+        "Q01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "font:unknown:2",
+      "family": "font",
+      "original_question": "web font style controls, subset/name persistence and URL lifetime",
+      "original_resolution_authorities": [
+        "shipped-source-trace",
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/7"
+      },
+      "current_source_answer": "font controls/source name/subset and private/native finalization paths are described in F01-F08 and native-font-atlas-ttf-history-file; URL expiration remains provider data, not source recovered lifetime",
+      "current_source_authorities": [
+        "analysis-contract/depth-round2/font-ui-source-closure/FONT-UI-SOURCE-ANALYSIS.md",
+        "FLOW-CONTRACTS.json#native-font-atlas-ttf-history-file"
+      ],
+      "sampled_retained_findings": [
+        "F01",
+        "Q01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "own named source methods delivered; provider lifetime unprovided",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "font:unknown:3",
+      "family": "font",
+      "original_question": "glyph segmentation, tracing/TTF metrics, hinting and Unicode repertoire implementation",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/8"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "F01",
+        "Q01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "ui-images-shape-panels:unknown:1",
+      "family": "ui-images-shape-panels",
+      "original_question": "square/rectangular valid-size discrepancies and public/private default/output count",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/9"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "F02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "ui-images-shape-panels:unknown:2",
+      "family": "ui-images-shape-panels",
+      "original_question": "template-coordinate transforms, piece ordering/labels, polygon phase, ID round trips and actual nine-slice/stretch suitability",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/10"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "F02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "ui-images-shape-panels:unknown:3",
+      "family": "ui-images-shape-panels",
+      "original_question": "shape-to-raster/control rendering and state/theme consistency",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/11"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "F02"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "prompt-caption:unknown:1",
+      "family": "prompt-caption",
+      "original_question": "enhancer end-frame/typed-field branch, cancellation/error UI restoration and autoslot choices",
+      "original_resolution_authorities": [
+        "shipped-source-trace",
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/12"
+      },
+      "current_source_answer": "typed-field/Auto/source choice in model prompt closure; complete callback lifetime in enhancement-callback-lifetime. Matching native host pending-connect/dialog event delivery remains version-unprovided, not another unknown private prompt algorithm",
+      "current_source_authorities": [
+        "analysis-models/depth-round2/prompt-enhancement-closure/PROMPT-ENHANCEMENT-CLOSURE.md",
+        "FLOW-CONTRACTS.json#enhancement-callback-lifetime"
+      ],
+      "sampled_retained_findings": [
+        "S02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "prompt-caption:unknown:2",
+      "family": "prompt-caption",
+      "original_question": "null/omitted/empty/Auto distinctions and prompt returned reproducibility",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/13"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "S02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "prompt-caption:unknown:3",
+      "family": "prompt-caption",
+      "original_question": "caption/LLM model, system prompt, image tokenization and rewrite policy",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/14"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "S02"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "pro-tiles-connected-kits:unknown:1",
+      "family": "pro-tiles-connected-kits",
+      "original_question": "exact website connection-rule matching/render material branches",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/15"
+      },
+      "current_source_answer": "connection-rule matching/coordinate variants and building branches in map-connected and tile-geometry source ledgers; use new pose P22/P23 only for UI loaded DTOs, not tile algorithms",
+      "current_source_authorities": [
+        "analysis-poses/depth-round2/map-connected-tiles-closure/",
+        "analysis-root/tile-geometry-closure/"
+      ],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "pro-tiles-connected-kits:unknown:2",
+      "family": "pro-tiles-connected-kits",
+      "original_question": "all advertised connectable configuration counts and placement-rule domains; mixed variants/thickness and edge continuity",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/16"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "pro-tiles-connected-kits:unknown:3",
+      "family": "pro-tiles-connected-kits",
+      "original_question": "generated-material vs per-piece assembly geometry, iterative hex clamp, z-order/collision semantics",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/17"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "isometric-single-tile:unknown:1",
+      "family": "isometric-single-tile",
+      "original_question": "client guide/mask construction and sheet placement",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/18"
+      },
+      "current_source_answer": "native/Lua guide resource bindings, preview vs transmitteddepth and placement in58anchor isometric report; website genuinecount1 path must stay unrecovered unless current model owner binds actualcaller",
+      "current_source_authorities": [
+        "analysis-models/depth-round2/isometric-single-tile-closure/"
+      ],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "isometric-single-tile:unknown:2",
+      "family": "isometric-single-tile",
+      "original_question": "advertised height/thickness percentages, aspect and repeated tiling footprint",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/19"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "isometric-single-tile:unknown:3",
+      "family": "isometric-single-tile",
+      "original_question": "guide rasterization and tile conditioning",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/20"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "wang-topdown-sidescroller:unknown:1",
+      "family": "wang-topdown-sidescroller",
+      "original_question": "private sheet transform/export mapping to public Wang patterns and tall-cliff continuation twins",
+      "original_resolution_authorities": [
+        "shipped-source-trace",
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/21"
+      },
+      "current_source_answer": "private sheet geometry/variants/native package geometry and original source coordinate maps; public Wang-pattern fields remain separate typed DTOs, not equivalent map-index serialization",
+      "current_source_authorities": [
+        "analysis-poses/depth-round4/full-animation-geometry-flows/"
+      ],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "wang-topdown-sidescroller:unknown:2",
+      "family": "wang-topdown-sidescroller",
+      "original_question": "connected lower/upper reference pixel preservation, transition seam/raggedness, side platform alpha and16/25 modes",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/22"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "wang-topdown-sidescroller:unknown:3",
+      "family": "wang-topdown-sidescroller",
+      "original_question": "Wang guide generation/model rendering, connection IDs and persisted metadata consistency",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/23"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "map-object-inpainting:unknown:1",
+      "family": "map-object-inpainting",
+      "original_question": "mask/oval/rectangle coordinate generation, bounding-box projection and object snap/scale",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/24"
+      },
+      "current_source_answer": "oval/rectangle bounds/snap geometry ownedpose; exactmasked compositing ownedmodel. Private overlay save uses first image+derived bounding box from descriptor; no general map backend generation recovered",
+      "current_source_authorities": [
+        "analysis-contract/depth-round2/persistence-feature-closure/PERSISTENCE-FEATURE-CLOSURE.md",
+        "analysis-poses/depth-round4/full-animation-geometry-flows/"
+      ],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "map-object-inpainting:unknown:2",
+      "family": "map-object-inpainting",
+      "original_question": "background immutability outside inpaint area and persisted placement IDs",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/25"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "map-object-inpainting:unknown:3",
+      "family": "map-object-inpainting",
+      "original_question": "context synthesis and clipping/crop semantics",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/26"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "T01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "conversion-cleanup:unknown:1",
+      "family": "conversion-cleanup",
+      "original_question": "each old/pro/flash preparation mode and optional correction/background sequence",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/27"
+      },
+      "current_source_answer": "old/pro/flash selectors, optional correction/background packing acquired in named mask/pixel-grid/creation methods; source colorfix implementation vs serverpixel-grid neural detector must be separated",
+      "current_source_authorities": [
+        "analysis-models/depth-round4/full-technique-methods/"
+      ],
+      "sampled_retained_findings": [
+        "U01",
+        "U02",
+        "D01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "conversion-cleanup:unknown:2",
+      "family": "conversion-cleanup",
+      "original_question": "alpha preservation, canonical pixel-grid crop/size, mixed style and shared palette ordering across larger sets",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/28"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "U01",
+        "U02",
+        "D01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "conversion-cleanup:unknown:3",
+      "family": "conversion-cleanup",
+      "original_question": "segmentation/correction/quantization model and true pixel-grid estimator",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/29"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "U01",
+        "U02",
+        "D01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "persistent-object-review-state-animation:unknown:1",
+      "family": "persistent-object-review-state-animation",
+      "original_question": "website review ordering/index base, candidate-to-entity promotion, selected frame tags",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/30"
+      },
+      "current_source_answer": "review original frameindex/Set order ownedpose; source POST candidate promotion, bodyless expansion, current shared/chat pagination, callbacks and group replacement owncontract. Provider group commit/atomicity unprovided",
+      "current_source_authorities": [
+        "FLOW-CONTRACTS.json#web-object-candidate-promotion",
+        "FLOW-CONTRACTS.json#web-object-expansion-accept-dismiss",
+        "FLOW-CONTRACTS.json#shared-object-list-and-active-job-refresh",
+        "analysis-poses/depth-round2/object-review-closure/"
+      ],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "persistent-object-review-state-animation:unknown:2",
+      "family": "persistent-object-review-state-animation",
+      "original_question": "missing directions fill, per-direction frame independence, group replacement/cancellation atomicity and retained assets",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/31"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "persistent-object-review-state-animation:unknown:3",
+      "family": "persistent-object-review-state-animation",
+      "original_question": "state/style propagation and cross-direction pro reference scheduling",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/32"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "persistent-character-state-rotation-export:unknown:1",
+      "family": "persistent-character-state-rotation-export",
+      "original_question": "all create methods, supplied directional-image retention and style_character_id/reference precedence",
+      "original_resolution_authorities": [
+        "shipped-source-trace",
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/33"
+      },
+      "current_source_answer": "all current creation-method/reference/style precedence belongsmodel; direction/pose belongspose; own callback C01-C18 and group/pagination/exportmetadata retain source semantics. Imported exact4directions is bounded prior output, not all-model guarantee",
+      "current_source_authorities": [
+        "analysis-contract/depth-round2/callback-frame-writer-closure/",
+        "analysis-contract/depth-round2/asset-finalization-closure/"
+      ],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "persistent-character-state-rotation-export:unknown:2",
+      "family": "persistent-character-state-rotation-export",
+      "original_question": "real persistent state edit framing/palette/identity, export animation rows/holds, null URL handling/lifetime",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/34"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "persistent-character-state-rotation-export:unknown:3",
+      "family": "persistent-character-state-rotation-export",
+      "original_question": "skeleton reconstruction weights/3D fit and exact template fitting strategy",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/35"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "standalone-rotations:unknown:1",
+      "family": "standalone-rotations",
+      "original_question": "source direction/view/isometric prompt transformation and declared order",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/36"
+      },
+      "current_source_answer": "actual direction/view/isometric prompt transformations and order in current pose records; requested direction list is not server output/order/preservation proof",
+      "current_source_authorities": [
+        "analysis-poses/depth-round4/full-animation-geometry-flows/"
+      ],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "standalone-rotations:unknown:2",
+      "family": "standalone-rotations",
+      "original_question": "exact direction ordering, retained reference, common pivot/canvas consistency and all-view quality",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/37"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "standalone-rotations:unknown:3",
+      "family": "standalone-rotations",
+      "original_question": "learned rotation representation and reuse of animation backend",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/38"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "interpolation:unknown:1",
+      "family": "interpolation",
+      "original_question": "every interpolation adapter padding/resize and endpoint omission regime",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/39"
+      },
+      "current_source_answer": "padding/resize/reference packing model; omission/index/cel allocation pose; Main instantiates InterpolateV3/Pixminimax, a cost-map entry alone is not a missing producer. Published8methodSDK cannot supply unexported isometric/interpolationv2 wrapper methods",
+      "current_source_authorities": [
+        "analysis-poses/depth-round4/full-animation-geometry-flows/",
+        "analysis-models/depth-round4/full-technique-methods/"
+      ],
+      "sampled_retained_findings": [
+        "P02",
+        "P05"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "interpolation:unknown:2",
+      "family": "interpolation",
+      "original_question": "endpoint pixel preservation, trajectory/easing/occlusion identity, aspect/canvas changes",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/40"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P02",
+        "P05"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "interpolation:unknown:3",
+      "family": "interpolation",
+      "original_question": "temporal flow/latent architecture is opaque",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/41"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P02",
+        "P05"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "skeleton-estimation-animation:unknown:1",
+      "family": "skeleton-estimation-animation",
+      "original_question": "skeleton editor depth/perspective/camera projection and template-specific joints",
+      "original_resolution_authorities": [
+        "shipped-source-trace",
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/42"
+      },
+      "current_source_answer": "projection/camera/depth/template records tracedpose; TemplateImagePreview Auto rawTemplateSkeleton vs Bridge and name/label mismatch source qualifiers need finalpose receipt, not presumed reliable autowarper",
+      "current_source_authorities": [
+        "analysis-poses/depth-round4/full-animation-geometry-flows/"
+      ],
+      "sampled_retained_findings": [
+        "P06"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "skeleton-estimation-animation:unknown:2",
+      "family": "skeleton-estimation-animation",
+      "original_question": "frozen fullRGBA vs requested mask vs moved source texture, occluded joints and nonbiped templates",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/43"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P06"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "skeleton-estimation-animation:unknown:3",
+      "family": "skeleton-estimation-animation",
+      "original_question": "estimation model, pose renderer/warper, disocclusion/inpainting mechanism and training unknown",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/44"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P06"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "animation-edit-outfit:unknown:1",
+      "family": "animation-edit-outfit",
+      "original_question": "private grid padding/frame count and palette/style reference packing",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/45"
+      },
+      "current_source_answer": "grid/palette/style packing model and ordered crop/frame geometry pose; source conditioning fields do not identify hidden multi-frame consistency implementation",
+      "current_source_authorities": [
+        "analysis-models/depth-round4/full-technique-methods/",
+        "analysis-poses/depth-round4/full-animation-geometry-flows/"
+      ],
+      "sampled_retained_findings": [
+        "P05"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "animation-edit-outfit:unknown:2",
+      "family": "animation-edit-outfit",
+      "original_question": "preserve motion/anatomy while changing outfit, exact unaffected pixels and alpha",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/46"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P05"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "animation-edit-outfit:unknown:3",
+      "family": "animation-edit-outfit",
+      "original_question": "multi-frame consistency/style conditioning internal representation",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/47"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P05"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "text-template-wrapper-animation:unknown:1",
+      "family": "text-template-wrapper-animation",
+      "original_question": "complete wrapper mode/direction/input/reference policy and per-direction reuse",
+      "original_resolution_authorities": [
+        "shipped-source-trace",
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/48"
+      },
+      "current_source_answer": "wrapper mode/direction/template/reference scheduling pose plusmodelselectors; observed firstframe/body clock counters distinctfrom frozen masks, inferred neuralarchitecture or reusedcost ledger",
+      "current_source_authorities": [
+        "analysis-poses/depth-round4/full-animation-geometry-flows/",
+        "analysis-models/depth-round4/full-technique-methods/"
+      ],
+      "sampled_retained_findings": [
+        "P02",
+        "P03",
+        "P06"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "text-template-wrapper-animation:unknown:2",
+      "family": "text-template-wrapper-animation",
+      "original_question": "first-frame equality with alpha treatment; actual clock/holds; subject identity/motion/loop acceptance",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/49"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P02",
+        "P03",
+        "P06"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "text-template-wrapper-animation:unknown:3",
+      "family": "text-template-wrapper-animation",
+      "original_question": "model weights/latent/temporal sampler/cost ledger semantics",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/50"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P02",
+        "P03",
+        "P06"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "image-edit-inpaint:unknown:1",
+      "family": "image-edit-inpaint",
+      "original_question": "exact mask polarity, crop/expand, alpha-aware compositing and ROI transform for each adapter",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/51"
+      },
+      "current_source_answer": "exactpolarity/ROI crop/maskedRGBA reblit ownedmodels; write-time celidentity/native undo owncontract/rootindexed. Unknownremote blending hard/soft conditioning not closeable from source masks",
+      "current_source_authorities": [
+        "analysis-models/depth-round4/full-technique-methods/",
+        "FLOW-CONTRACTS.json#native-cel-write-undo-stale",
+        "analysis-root/full-reconstruction/INDEXED-HOST-SOURCE-CLOSURE.json"
+      ],
+      "sampled_retained_findings": [
+        "P04",
+        "S01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "image-edit-inpaint:unknown:2",
+      "family": "image-edit-inpaint",
+      "original_question": "transparent ROI and context contrast, all output methods/background removal variants",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/52"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P04",
+        "S01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "image-edit-inpaint:unknown:3",
+      "family": "image-edit-inpaint",
+      "original_question": "model blending, hard/soft mask conditioning and exactpixel guarantee beyond client reblit",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/53"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P04",
+        "S01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "style-reference-creation:unknown:1",
+      "family": "style-reference-creation",
+      "original_question": "all historical/style-new/Fluxsame-style adapters reachability and ref order precedence",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/54"
+      },
+      "current_source_answer": "all historical/style-new/Fluxsame-style selector/request/reachability paths and reference ordering addressedcurrentmodel pass; repeated names are routing labels, not unique recovered networks",
+      "current_source_authorities": [
+        "analysis-models/depth-round4/full-technique-methods/"
+      ],
+      "sampled_retained_findings": [
+        "P01",
+        "S02"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "style-reference-creation:unknown:2",
+      "family": "style-reference-creation",
+      "original_question": "distinct inputstyle identities, output count/grid crop/referencepadding at all sizes, palette vs geometry/style adherence",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/55"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P01",
+        "S02"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "style-reference-creation:unknown:3",
+      "family": "style-reference-creation",
+      "original_question": "styleembedding/refattention/conditioning architecture unknown",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/56"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P01",
+        "S02"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "text-init-image-creation-environment:unknown:1",
+      "family": "text-init-image-creation-environment",
+      "original_question": "private-depth/canny/pose/reshape/try-on texture controls/preprocessing and shipped reachability",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/57"
+      },
+      "current_source_answer": "actual depth/canny/pose/reshape/tryon selectors and scene/resource controls model; only reachable payload/preparation branches count as source methods, not every model menu label",
+      "current_source_authorities": [
+        "analysis-models/depth-round4/full-technique-methods/"
+      ],
+      "sampled_retained_findings": [
+        "P01",
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "text-init-image-creation-environment:unknown:2",
+      "family": "text-init-image-creation-environment",
+      "original_question": "each model/mode alpha/size/framevariants/palette promise and aspect presets",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/58"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P01",
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "text-init-image-creation-environment:unknown:3",
+      "family": "text-init-image-creation-environment",
+      "original_question": "architecture/modelweights/noise pipeline, conditioning/controlnets/hidden prompt modification unknown",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/59"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "P01",
+        "M01",
+        "M02",
+        "M03"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "jobs-uploads-cost-capabilities-library:unknown:1",
+      "family": "jobs-uploads-cost-capabilities-library",
+      "original_question": "ticket routing/lifetime, UI concurrency/cancel/resume and capabilities selector assumptions",
+      "original_resolution_authorities": [
+        "shipped-source-trace"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/60"
+      },
+      "current_source_answer": "own30flowrecords close nameddispatch/registry/poll/retry/cancel/archive/library callbacks; publicticket andMCPtool handlers unprovided. Capabilities selector/parser belongsmodel, not schema defaults treatedasGUIgates",
+      "current_source_authorities": [
+        "FLOW-CONTRACTS.json",
+        "CHAT-DEPENDENCY-READS.json",
+        "RECOVERED-CHAT-MODULES.json",
+        "analysis-root/sdk-transport-closure/SDK-TRANSPORT-ANALYSIS.md"
+      ],
+      "sampled_retained_findings": [
+        "Q01",
+        "R01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "selected source answer retained; current round4 owner consolidation/review required",
+      "source_disposition": "Named source portions admitted by the later finite gate; see attributed owner answer and authorities, without new whole-chain semantic approval here."
+    },
+    {
+      "id": "jobs-uploads-cost-capabilities-library:unknown:2",
+      "family": "jobs-uploads-cost-capabilities-library",
+      "original_question": "pagination stability, cancellation state transitions, upload format limits and retained artifact lifetime",
+      "original_resolution_authorities": [
+        "controlled-runtime-observation"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/61"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "Q01",
+        "R01"
+      ],
+      "runtime_disposition": "Selected retained observations only; whole-question runtime resolution is not independently established by this audit.",
+      "server_disposition": "No server-source authority assigned in the original row; provider lifetime or behaviour can still limit any associated implementation.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    },
+    {
+      "id": "jobs-uploads-cost-capabilities-library:unknown:3",
+      "family": "jobs-uploads-cost-capabilities-library",
+      "original_question": "accounting/subscription debits/race atomicity/retention/deletion semantics",
+      "original_resolution_authorities": [
+        "server-source-or-provider-disclosure"
+      ],
+      "original_source": {
+        "path": "analysis-contract/depth-round2/full-feature-gaps/UNKNOWN-OBLIGATIONS.json",
+        "sha256": "7cfbee95d7631d6f84e0114b559a3465b444fb6ddc786705ddf6a9f53bdd2a3f",
+        "json_pointer": "/obligations/62"
+      },
+      "current_source_answer": "Original row does not assign shipped-source authority; interfaces alone do not resolve its whole question.",
+      "current_source_authorities": [],
+      "sampled_retained_findings": [
+        "Q01",
+        "R01"
+      ],
+      "runtime_disposition": "No runtime authority assigned in the original row; runtime parity is not inferred from source admission.",
+      "server_disposition": "Private implementation remains unprovided except specific public disclosures; neither a client selector nor local substitute closes this boundary.",
+      "whole_question_closed_by_this_audit": false,
+      "next_evidence_method": "Inspect retained receipts and the attributed corrected owner contracts first. Seek only a concrete missing matched source/disclosure or discriminating observation if later required. This audit made no new target/provider calls.",
+      "source_gate_status_as_recorded": "not-source-authority-row",
+      "source_disposition": "This original row has no shipped-source authority assignment; related client mechanisms may be recovered, but they do not resolve this whole question."
+    }
+  ],
+  "finite_gate_overlay": {
+    "path": "analysis-root/full-reconstruction/SOURCE-GATE.json",
+    "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/SOURCE-GATE.json",
+    "sha256": "3dbc9986f739f79afd568ffdf1931fc93f734b8b48cc936cba11df3ffc855c53",
+    "authority": "Later finite admission records named accessible questions answered and bounded construction allowed; earlier owner gate status wording is retained below as dated evidence."
+  }
+}

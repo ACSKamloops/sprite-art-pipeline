@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "isolated": 1,
+  "package_path": "/home/astra/artifacts/pixellab-source-v05-package-proof-20261014-final/venv/lib/python3.14/site-packages/sprite_workbench",
+  "version": "0.5.0",
+  "source_fingerprint": "39ecab3bc05eb50e79af27011bd962ffb289c879115206b7be835627d80d420e",
+  "installed_runtime_files": 103,
+  "baseline_runtime_files_retained": 97,
+  "unchanged_vendor_files": 47,
+  "presets_sha256": "f0c0e9d1a84fb1feb244b70124218381729850ed27d60448ab97aad892bbc40f",
+  "preset_variations": [
+    {
+      "preset": "slash_arc",
+      "preset_recipe_sha256": "a10a04f31aa54c7ca79505f5542f0ab488f616e5ca1516d7afad0a09f7653f18",
+      "changed_values": {
+        "sweep": 90
+      },
+      "sequence": "5534d6845f8133e87ddb9ef5fe344e78d6396d528a981ec7ea7d3645ed359b16",
+      "control_receipt": "ef625a79a0131f5a5ecde4febf078bf7c0e4f8260533ffda341a3d2fe83249fa",
+      "control_hashes": {
+        "input_recipe_sha256": "a10a04f31aa54c7ca79505f5542f0ab488f616e5ca1516d7afad0a09f7653f18",
+        "declared_recipe_sha256": "38cf528fbf39745110bceb27674461705a0b63018dd68d39c3e289c74794d01d",
+        "normalized_recipe_sha256": "2c289f18875c0b345c87b037118080ea4231f07b14ee86fb6bfe78e536002991",
+        "applied_recipe_sha256": "9d04b04bef1c0858230630ed6de1cccfa75cafcf75cc8b415ad2cec955d7714b",
+        "controls_sha256": "a8be919c46097b5faa3a703db3e5a63af87448544bd2e9324efc15e622716fc5",
+        "values_sha256": "d85a7b8c24ca74ed678c095a94edfb75641cbf26eb2ab5c07a1193b9fe1c75eb"
+      },
+      "portable_artifacts": 18,
+      "rgba_sha256": [
+        "e7658d126acbb95b9447f59d055498a2d9a37910444bc177f507352f5493c381",
+        "696bb343a6a62499486bf6171b77bbfad118e396a641f7a37e1ef00bc794692f",
+        "0bb6669f6894e7e49af74459c2639222c60914f5ecfead2bf61f35674c6ea215",
+        "5254cce3c451b4fb53cbc9dd93b0c5a2457c2b890f01d6a572a19454a904d158",
+        "f26dd1d890235b200635c6ae25833c24be61dbc26c2db48aa8b90d7f43a954cc",
+        "c385c13000f31a0a29d1573d94d0070d37524555126bd94ddd3f77f1987c1e23",
+        "1c0273095382988333e2f2b5ae487cea460737ed9be65cbad9c5de537f95bf75"
+      ],
+      "fresh_store_closure": true
+    },
+    {
+      "preset": "energy_orb",
+      "preset_recipe_sha256": "6018acc5ce99f04e083fc376e421854363dde934aaefc8dda3e71be4fda5f9b0",
+      "changed_values": {
+        "size": 6
+      },
+      "sequence": "7aa040c3c7fe9803834980327d6e17377d52c1c913836ac3b26de695429393ba",
+      "control_receipt": "3eabd901de13eaa2f36e002afd6792c562a73f460092812bb1e6986b92431412",
+      "control_hashes": {
+        "input_recipe_sha256": "6018acc5ce99f04e083fc376e421854363dde934aaefc8dda3e71be4fda5f9b0",
+        "declared_recipe_sha256": "0bde6b177d2b5d457bbc0dc448d5202e92f1764f594ceac19faf5e5fab00bc1c",
+        "normalized_recipe_sha256": "c9594ec4d26d656e213f2c96b6778fd418241ecd312b92fb37b5f39faf962d9f",
+        "applied_recipe_sha256": "dea0f96007869c42cd05ed01623d5856369a61534f4025abebf6292833333905",
+        "controls_sha256": "7b59cb68d6c70cda1b9424e41c60127fae9bf016d125bf898bca21c23b4f6f3d",
+        "values_sha256": "340e3d66730eb3338b0a76f172876710fd83f364b5d4692e0e955d04ed1b9d03"
+      },
+      "portable_artifacts": 20,
+      "rgba_sha256": [
+        "23b8c37b95a4a06fd28b8dc34a3345786f0182b130012477b9e4a19b9887cf11",
+        "3756cfc2424bc402689135ffbd48384949a59bbef29501b18cc8a50c50c16383",
+        "134605d5375a04b63b06adef929d71125b4a7291e3734f3bc0c2fce8aac1dd7f",
+        "ff11e13914319b819190311af986d905b955602541ad57f9be8f5d5bf0060ddd",
+        "77e9bd09789ed5219e8940a9ab248ea300a9f8474ce94fdf1e634788f9370f84",
+        "c40b7678d7d53f34f411ccce8f52afbda87fb599c77ea1ebcb8cfe86d1b18b13",
+        "beb3d4716753d869922a7c1d25b1bc24faf6fc8aaf8a57891a438e9841a47622",
+        "bc3769bb2bb58d4ea1acf2138e1d96a02c85d0ed74c9ed8ae7bbebd4522d184b"
+      ],
+      "fresh_store_closure": true
+    }
+  ],
+  "original_fixture_sha256": "b66d1407201a00b17ee7211f7430ad04a71002c770cdff51055141b9016eb6b3",
+  "original_fixture_cases_matched": 17,
+  "source_flags": {
+    "classification": "deterministic-source",
+    "provider_calls": 0,
+    "current_server_equivalence": false,
+    "artistic_acceptance": "unreviewed"
+  },
+  "http_source_and_static": true,
+  "portable_fresh_store_closure": true
+}

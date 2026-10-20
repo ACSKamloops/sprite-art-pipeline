@@ -1,0 +1,6 @@
+### Result
+{"url":"http://127.0.0.1:8874/#models","title":"Model Lab · Sprite workbench","viewport":390,"documentWidth":390,"errorVisible":false}
+### Ran Playwright code
+```js
+await (async (page) => { await page.getByRole("heading", {name:"Model lab",exact:true}).scrollIntoViewIfNeeded(); await page.screenshot({path:"output/playwright/models-desktop.png",fullPage:false}); await page.setViewportSize({width:390,height:844}); await page.getByRole("heading", {name:"Model lab",exact:true}).scrollIntoViewIfNeeded(); await page.screenshot({path:"output/playwright/models-mobile.png",fullPage:false}); return {url:page.url(),title:await page.title(),viewport:390,documentWidth:await page.evaluate(()=>document.documentElement.scrollWidth),errorVisible:await page.locator("#global-error").isVisible()}; })(page);
+```

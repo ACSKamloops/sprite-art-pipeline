@@ -1,0 +1,240 @@
+{
+  "helper_references": [],
+  "static_runtime_references": [
+    {
+      "file": "project/project.godot",
+      "line": 6,
+      "text": "run/main_scene=\"res://scenes/main.tscn\""
+    },
+    {
+      "file": "project/project.godot",
+      "line": 10,
+      "text": "BrowserDiagnostics=\"*res://scripts/browser_diagnostics.gd\""
+    },
+    {
+      "file": "project/scenes/main.tscn",
+      "line": 3,
+      "text": "[ext_resource type=\"Script\" path=\"res://scripts/main.gd\" id=\"1_world\"]"
+    },
+    {
+      "file": "project/scripts/combat_fx.gd",
+      "line": 16,
+      "text": "if ResourceLoader.exists(\"res://assets/effects/atlas.png\"):"
+    },
+    {
+      "file": "project/scripts/combat_fx.gd",
+      "line": 17,
+      "text": "_atlas = load(\"res://assets/effects/atlas.png\")"
+    },
+    {
+      "file": "project/scripts/combat_fx.gd",
+      "line": 25,
+      "text": "var path := \"res://assets/sfx/\" + cue + \".wav\""
+    },
+    {
+      "file": "project/scripts/combat_fx.gd",
+      "line": 47,
+      "text": "var fx: Variant = load(\"res://scripts/combat_fx.gd\").new()"
+    },
+    {
+      "file": "project/scripts/enemy.gd",
+      "line": 7,
+      "text": "const FX = preload(\"res://scripts/combat_fx.gd\")"
+    },
+    {
+      "file": "project/scripts/enemy.gd",
+      "line": 8,
+      "text": "const PROJECTILE = preload(\"res://scripts/projectile.gd\")"
+    },
+    {
+      "file": "project/scripts/enemy.gd",
+      "line": 368,
+      "text": "var path := \"res://assets/enemies/\" + kind + \".png\""
+    },
+    {
+      "file": "project/scripts/enemy.gd",
+      "line": 371,
+      "text": "var pose_path: String = \"res://assets/enemies/poses/\" + kind + \"/\" + str(pose) + \".png\""
+    },
+    {
+      "file": "project/scripts/enemy.gd",
+      "line": 375,
+      "text": "path = \"res://assets/enemies/poses/\" + kind + \"/neutral.png\""
+    },
+    {
+      "file": "project/scripts/enemy.gd",
+      "line": 388,
+      "text": "elif FileAccess.file_exists(path):"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 9,
+      "text": "const FX = preload(\"res://scripts/combat_fx.gd\")"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 10,
+      "text": "const PROJECTILE = preload(\"res://scripts/projectile.gd\")"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 13,
+      "text": "const CHARACTER_CATALOG := \"res://assets/characters/catalog.json\""
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 334,
+      "text": "if FileAccess.file_exists(CHARACTER_CATALOG):"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 335,
+      "text": "var catalog: Variant = JSON.parse_string(FileAccess.get_file_as_string(CHARACTER_CATALOG))"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 342,
+      "text": "return {\"id\": DEFAULT_CHARACTER, \"atlas\": \"res://assets/hero/atlas.png\", \"manifest\": \"res://assets/hero/animations.json\"}"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 352,
+      "text": "if not FileAccess.file_exists(manifest_path):"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 354,
+      "text": "var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(manifest_path))"
+    },
+    {
+      "file": "project/scripts/hero.gd",
+      "line": 518,
+      "text": "if not FileAccess.file_exists(path):"
+    },
+    {
+      "file": "project/scripts/hud.gd",
+      "line": 49,
+      "text": "font = load(\"res://assets/fonts/body.ttf\") if ResourceLoader.exists(\"res://assets/fonts/body.ttf\") else ThemeDB.fallback_font"
+    },
+    {
+      "file": "project/scripts/hud.gd",
+      "line": 50,
+      "text": "title_font = load(\"res://assets/fonts/title.ttf\") if ResourceLoader.exists(\"res://assets/fonts/title.ttf\") else font"
+    },
+    {
+      "file": "project/scripts/hud.gd",
+      "line": 51,
+      "text": "if ResourceLoader.exists(\"res://assets/world/title-panorama.png\"):"
+    },
+    {
+      "file": "project/scripts/hud.gd",
+      "line": 52,
+      "text": "title_art = load(\"res://assets/world/title-panorama.png\")"
+    },
+    {
+      "file": "project/scripts/hud.gd",
+      "line": 329,
+      "text": "if ResourceLoader.exists(atlas_path) and FileAccess.file_exists(manifest_path):"
+    },
+    {
+      "file": "project/scripts/hud.gd",
+      "line": 330,
+      "text": "var bank: Variant = JSON.parse_string(FileAccess.get_file_as_string(manifest_path))"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 86,
+      "text": "var hero_script: Script = load(\"res://scripts/hero.gd\")"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 87,
+      "text": "_enemy_script = load(\"res://scripts/enemy.gd\")"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 107,
+      "text": "hud.set_script(load(\"res://scripts/hud.gd\"))"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 117,
+      "text": "var path := \"res://assets/world/%s.png\" % name"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 757,
+      "text": "var file := FileAccess.open(_save_path() + \".tmp\", FileAccess.WRITE)"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 761,
+      "text": "DirAccess.rename_absolute(_save_path() + \".tmp\", _save_path())"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 773,
+      "text": "if not FileAccess.file_exists(_save_path()):"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 775,
+      "text": "var file := FileAccess.open(_save_path(), FileAccess.READ)"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 841,
+      "text": "var path := \"res://assets/sfx/%s.wav\" % name"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 844,
+      "text": "var path := \"res://assets/audio/music.ogg\""
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 877,
+      "text": "var path := \"res://assets/characters/catalog.json\""
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 878,
+      "text": "if FileAccess.file_exists(path):"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 879,
+      "text": "var document: Variant = JSON.parse_string(FileAccess.get_file_as_string(path))"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 891,
+      "text": "if not str(candidate.atlas).begins_with(\"res://\") or not str(candidate.manifest).begins_with(\"res://\"):"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 893,
+      "text": "if not ResourceLoader.exists(candidate.atlas) or not FileAccess.file_exists(candidate.manifest):"
+    },
+    {
+      "file": "project/scripts/main.gd",
+      "line": 898,
+      "text": "character_catalog.push_front({\"id\": \"rowan\", \"name\": \"Rowan\", \"subtitle\": \"Bearer of the first ember\", \"description\": \"A village wanderer carrying a stubborn light.\", \"atlas\": \"res://assets/hero/atlas.png\", \"manifest\": \"res://assets/hero/animations.json\"})"
+    },
+    {
+      "file": "project/scripts/projectile.gd",
+      "line": 5,
+      "text": "const FX = preload(\"res://scripts/combat_fx.gd\")"
+    },
+    {
+      "file": "project/scripts/projectile.gd",
+      "line": 24,
+      "text": "if not hostile and ResourceLoader.exists(\"res://assets/effects/atlas.png\"):"
+    },
+    {
+      "file": "project/scripts/projectile.gd",
+      "line": 25,
+      "text": "_atlas = load(\"res://assets/effects/atlas.png\")"
+    }
+  ]
+}

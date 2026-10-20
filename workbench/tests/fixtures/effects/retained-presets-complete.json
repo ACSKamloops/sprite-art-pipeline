@@ -1,0 +1,258 @@
+{
+  "scope": "All17actualretainedget_presetrecipes/previews. Fulloriginalclient-vs-packaged source equivalence; actualopaquepreviewbodyRGB only. No privateconstructor/rawserveralpha/timingclaim.",
+  "preview_policy": {
+    "calibrated_on": [
+      "energy_orb",
+      "slash_arc"
+    ],
+    "alpha_union_padding": 3,
+    "scale": 2,
+    "gutter": 6,
+    "label_height": 14,
+    "checker_size": 8,
+    "checker_colors": [
+      [
+        30,
+        30,
+        40
+      ],
+      [
+        40,
+        40,
+        54
+      ]
+    ]
+  },
+  "public_subject": {
+    "file": "public-demo-asteroid-20261014.png",
+    "url": "https://www.pixellab.ai/vfx/asteroid.png",
+    "sha256": "0ce6944695cea3d047429cc9a0b9ac72043c49f36d728c99005077154670e334",
+    "width": 48,
+    "height": 48,
+    "acquired": "2026-10-14 via browser same-origin public GET; no generation. Historicalbyteidentityunproven. All3retainedlightpreviewbodyRGBmatches provide boundedcompatibilityevidence."
+  },
+  "cases": [
+    {
+      "name": "aura",
+      "request_id": 109,
+      "recipe_path": "controlled-tests/prepared-parts/presets/aura.json",
+      "recipe_sha256": "150b4574ba9341f826d446c64b70e5701848ff67bc495950cf53431f4ecf50b2",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/109-metadata-preset-aura.json",
+      "response_sha256": "f6d7a970a76100dd27c64faeb0e60b9f17cd2dedaa2b89530fe0103ea6dc4c12",
+      "preview_page_sha256": [
+        "da6ffd1840c3edc3e93e2ff2add6c7392c0a066dff924cfec6f89ed8ad17bb96"
+      ],
+      "frames": 8,
+      "subject_fixture": null
+    },
+    {
+      "name": "energy_orb",
+      "request_id": 110,
+      "recipe_path": "controlled-tests/prepared-parts/presets/energy_orb.json",
+      "recipe_sha256": "2ef88bedad96433b84107b9e7e44b10524b172aeb99443c23aa9f3988193c41e",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/110-metadata-preset-energy_orb.json",
+      "response_sha256": "e3a368a4804c1c3c6621787c5e63faf1f43914ae6b123b79a219976dc51091b4",
+      "preview_page_sha256": [
+        "77c8a3625bd10d307367df1ef192b9b9e4d81138028d3a61ab6d8d245bf03739"
+      ],
+      "frames": 8,
+      "subject_fixture": null
+    },
+    {
+      "name": "explosion",
+      "request_id": 111,
+      "recipe_path": "controlled-tests/prepared-parts/presets/explosion.json",
+      "recipe_sha256": "2b415d6930cc5e77971714be19014bd1dfaf038227259e64e2463d6765642824",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/111-metadata-preset-explosion.json",
+      "response_sha256": "cc864ffaaf3e7b03734efe1f42c29e7ba496761cdb139061eb142417bec497d2",
+      "preview_page_sha256": [
+        "da55c089b5db58ad315a458841217b9d635634ecb991dd23486eeb6f11445072"
+      ],
+      "frames": 12,
+      "subject_fixture": null
+    },
+    {
+      "name": "firelight",
+      "request_id": 112,
+      "recipe_path": "controlled-tests/prepared-parts/presets/firelight.json",
+      "recipe_sha256": "da9757c36b693900c930de6c915d223aa25a6f5287c25a89efcdf39dcd376120",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/112-metadata-preset-firelight.json",
+      "response_sha256": "f6efa98a4982c6be132eb48ac997a76cb26d22bdeca642e2f2c69f63127b3d15",
+      "preview_page_sha256": [
+        "fc666ee6175927ac3e221f8910006c4d8184491665b029117256dac110e23767"
+      ],
+      "frames": 8,
+      "subject_fixture": "public-demo-asteroid-20261014.png"
+    },
+    {
+      "name": "flame",
+      "request_id": 113,
+      "recipe_path": "controlled-tests/prepared-parts/presets/flame.json",
+      "recipe_sha256": "b477033db18ce7825354b657b8774f553ee5629db6c6c7afb7f43665ef7a6b77",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/113-metadata-preset-flame.json",
+      "response_sha256": "b0073ddde6379aa86375d183cdef570981baeec49525b1e28dc6fac8b6012188",
+      "preview_page_sha256": [
+        "d892968945fa131bb2f45babe702c104aa6b283a667548671529c3ca8aec420c"
+      ],
+      "frames": 8,
+      "subject_fixture": null
+    },
+    {
+      "name": "ground_sigil",
+      "request_id": 114,
+      "recipe_path": "controlled-tests/prepared-parts/presets/ground_sigil.json",
+      "recipe_sha256": "d7d5dfc09037b76cc466d96d05b7657059d5c362c5087a6354a0cd132e0c2cac",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/114-metadata-preset-ground_sigil.json",
+      "response_sha256": "41c0441d065b46499122d31f2b0517025f1c6d1aa45cb96de8ffab3cf70d900a",
+      "preview_page_sha256": [
+        "00dcce643c474b3110a2e8432026873793df02de6f7bfe0630877d53fd66088f"
+      ],
+      "frames": 12,
+      "subject_fixture": null
+    },
+    {
+      "name": "heal_pillar",
+      "request_id": 115,
+      "recipe_path": "controlled-tests/prepared-parts/presets/heal_pillar.json",
+      "recipe_sha256": "929798e1c465c1c625f672080798dd7cc563f0597bb1f45a9dd5b2c4c00dc350",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/115-metadata-preset-heal_pillar.json",
+      "response_sha256": "a342076736c93706ffb81de9888e609fd2e1a7a5435d6f5dbf46dc60ca982ce9",
+      "preview_page_sha256": [
+        "22372e430913b6e3c37e097c03e3679b05a3bac47cf86d5710260b831bf80603"
+      ],
+      "frames": 12,
+      "subject_fixture": null
+    },
+    {
+      "name": "impact_burst",
+      "request_id": 116,
+      "recipe_path": "controlled-tests/prepared-parts/presets/impact_burst.json",
+      "recipe_sha256": "a7d7531385711c2ccbfec23de17e466149fad559dc278bd960e0ef644f186b9d",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/116-metadata-preset-impact_burst.json",
+      "response_sha256": "56cc6341d4d8dcb27cf50a0a9edddf8cb663e8456ab3fee6a6f99e3f11bad35f",
+      "preview_page_sha256": [
+        "c585ff302a0d275b84f62210b7cc44a6964b047d0e2d10d8d093fa1160ea3e88"
+      ],
+      "frames": 7,
+      "subject_fixture": null
+    },
+    {
+      "name": "light_sweep",
+      "request_id": 117,
+      "recipe_path": "controlled-tests/prepared-parts/presets/light_sweep.json",
+      "recipe_sha256": "500bdd00b7dacb03747be91fb4330d24d066f8678fdb8c794d67aa12a75aa30f",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/117-metadata-preset-light_sweep.json",
+      "response_sha256": "ee2045701dd428ae50a5b54d5b91c9a3bf6d487301d9c0b0db16b0a601723bdc",
+      "preview_page_sha256": [
+        "f032743f8e1cf7ea2d4001052616b2101d1ed3255886312b219fc9ac0f85f735"
+      ],
+      "frames": 12,
+      "subject_fixture": "public-demo-asteroid-20261014.png"
+    },
+    {
+      "name": "lightning_strike",
+      "request_id": 118,
+      "recipe_path": "controlled-tests/prepared-parts/presets/lightning_strike.json",
+      "recipe_sha256": "357d0e6d0665611c88f70da966e1b14d62a6e85907042a2391e4c49266962520",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/118-metadata-preset-lightning_strike.json",
+      "response_sha256": "b8494649f3317dc163cccaee551b95fe6a34a6a3c8416cd74e752d54026d9581",
+      "preview_page_sha256": [
+        "ad245c2875fa3e2c72aedd2034d2188045f55879e614f8359d74092d9a52ccba"
+      ],
+      "frames": 10,
+      "subject_fixture": null
+    },
+    {
+      "name": "magic_circle",
+      "request_id": 119,
+      "recipe_path": "controlled-tests/prepared-parts/presets/magic_circle.json",
+      "recipe_sha256": "d8392120bc623b1844950c2fe72bc302d8a13c5bbee895a504f759c3070787e1",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/119-metadata-preset-magic_circle.json",
+      "response_sha256": "062431abe654b2b51132bee79375232c9bce812ad58101d118ba301301883f07",
+      "preview_page_sha256": [
+        "1d0032b7919a55a5a9e91acbac1a0b46f6a33caf3733ec9c66e491a19c190e3f",
+        "e0f9c67cd3d926502274a897accfb6056b9ded00e762c0ba38d054573064ef13"
+      ],
+      "frames": 12,
+      "subject_fixture": null
+    },
+    {
+      "name": "portal",
+      "request_id": 120,
+      "recipe_path": "controlled-tests/prepared-parts/presets/portal.json",
+      "recipe_sha256": "897d407af04bc218d2ac473afcdad76a84ea74c7a0db09bbc950bf2ee36be771",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/120-metadata-preset-portal.json",
+      "response_sha256": "6ad1d98f04c9c3d06d927ce551ef4daf1889bdbe89467018344b4adf64ba12d5",
+      "preview_page_sha256": [
+        "79d72da30bab00cb81095cc359c8104d3cda5864dcb6484c99da36028ff70f28"
+      ],
+      "frames": 12,
+      "subject_fixture": null
+    },
+    {
+      "name": "rim_glow",
+      "request_id": 121,
+      "recipe_path": "controlled-tests/prepared-parts/presets/rim_glow.json",
+      "recipe_sha256": "acde9020bf2a8e709f37f3fd80e64aeb01753340550351d62812bba95f0059ac",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/121-metadata-preset-rim_glow.json",
+      "response_sha256": "c5f514eb50f127adee3d9a48f1575563472a6efe85603984ce323847cebededf",
+      "preview_page_sha256": [
+        "d40acb81dd6fdd888b8d479a13c183185ea36a799f03efab5ca1dccfd8fc46b3"
+      ],
+      "frames": 8,
+      "subject_fixture": "public-demo-asteroid-20261014.png"
+    },
+    {
+      "name": "shield_bubble",
+      "request_id": 122,
+      "recipe_path": "controlled-tests/prepared-parts/presets/shield_bubble.json",
+      "recipe_sha256": "e595e06adc53c5bc2977b24d0b4207a3dd23a7ca2f8554269bc65e988e559ad3",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/122-metadata-preset-shield_bubble.json",
+      "response_sha256": "891bdcfcc745d6f07835307a05a28b942dd1c6cc55b3490c989d6bc2b097d871",
+      "preview_page_sha256": [
+        "bf3c46619c50201b8e9b245f49b197920c47613d107798e22889846a28a56f60"
+      ],
+      "frames": 8,
+      "subject_fixture": null
+    },
+    {
+      "name": "shockwave",
+      "request_id": 123,
+      "recipe_path": "controlled-tests/prepared-parts/presets/shockwave.json",
+      "recipe_sha256": "210dd7da18b842aab6e8d247e1217692039d1f05341faee143d4ff2abb4e7ac6",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/123-metadata-preset-shockwave.json",
+      "response_sha256": "0c39aa9111bf21519f6faa6f0ab10e3db7a097a325c3d891a51de2f483115b8e",
+      "preview_page_sha256": [
+        "1a6bde3e8d6eb7b881260f8ea09d89e6c72e5bd3c516834aedd2318f30c4e710"
+      ],
+      "frames": 8,
+      "subject_fixture": null
+    },
+    {
+      "name": "slash_arc",
+      "request_id": 124,
+      "recipe_path": "controlled-tests/prepared-parts/presets/slash_arc.json",
+      "recipe_sha256": "ff996e7e7479b6fa6ac46afafda6204ff1dfa71b3b8c18405222812b55628931",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/124-metadata-preset-slash_arc.json",
+      "response_sha256": "942cdb8798f06a8c8deae24c629eb5639e8263afde0b4d22271dc637f4941897",
+      "preview_page_sha256": [
+        "3ce75d84b96c2c3b6907af41b316c0d9aefeb9ad795f00530b6889bac0613395"
+      ],
+      "frames": 7,
+      "subject_fixture": null
+    },
+    {
+      "name": "smoke_puff",
+      "request_id": 125,
+      "recipe_path": "controlled-tests/prepared-parts/presets/smoke_puff.json",
+      "recipe_sha256": "9a017747bfc22c2e80aa43cb7d78630491a3405a1cfe177a414676c6f88205fd",
+      "response_path": "controlled-tests/prepared-parts/capture/responses/125-metadata-preset-smoke_puff.json",
+      "response_sha256": "9c4d436d5fa5474edc73e244dd870a39b6af253650983474a19263dd02e97046",
+      "preview_page_sha256": [
+        "88217f7116d92dda9c4b3acff0152ebe3ba4b0062cd6999781063edf90256f18"
+      ],
+      "frames": 10,
+      "subject_fixture": null
+    }
+  ]
+}

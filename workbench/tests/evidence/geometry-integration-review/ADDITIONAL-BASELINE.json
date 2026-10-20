@@ -1,0 +1,25 @@
+{
+  "snapshot_commit": "b7198f6208856e952ff475da720c2ee7c048ae1b",
+  "mapped_owner_commits": [
+    "ef7a941",
+    "9ab16f9",
+    "e01a533",
+    "36938e2"
+  ],
+  "original_G01_G06": "23passed8.78s/no skips; initial6failures preserved in INITIAL-OBSERVATIONS.json",
+  "additional_controls": {
+    "base_assets": "passes original raster/mask closure and editable override reversion",
+    "source_mask": "freshStore retains transformed4x4 mask but omits original2x2 input mask, so actual full-plan replay fails at prepare",
+    "revision": "pipeline result.sequence differs from its immutable result.revision.sequence after metadata rebinding"
+  },
+  "command": "python3 -m pytest -q tests/test_geometry_integration_review.py -k \"prepared_raster or revision_sequence\" --basetemp .test-tmp/additional-lineage-baseline",
+  "outcome": "2 failed,8deselected; retained failures, no xfail conversion",
+  "source_hashes": {
+    "sprite_workbench/prepare.py": "c0ae85eb41bcb61a2254c59ca7f016f6d259ee646a61dfde0e49729b410ec52b",
+    "sprite_workbench/export.py": "53d6c9deba9f1716008476b6550f2515a702d0d99e496f6f53853aa39caf1df4",
+    "sprite_workbench/pipeline.py": "26ed1a0cf75ef2656338154e298d63b6650795ba9f67855afa551aef996d7b93",
+    "tests/test_geometry_integration_review.py": "632c3f10c68b7875d7d9d6963af173290597ecb3c6dc6155bf1fe87130b67ca2"
+  },
+  "original_source_mask": "18f3813099f5fed28091f0706ac29bdfdf966ff6b75628aa517d5a799c57e234",
+  "scope": "local implementation admission/lineage only; no GPU/browser/art/provider claim"
+}

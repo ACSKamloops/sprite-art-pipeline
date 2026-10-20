@@ -1,0 +1,925 @@
+{
+  "version": 1,
+  "scope": "Selected retained original client methods, not entire corpus or private backend",
+  "research_root": "/home/astra/projects/pixellab-local-test-20261011",
+  "offset_convention": "UTF8 bytes zero-based half-open; lines one-based inclusive; original line endings preserved",
+  "claims": [
+    {
+      "id": "PF01",
+      "statement": "Lua nonblank text preserves edge whitespace, undoubles percent; only view/direction Auto sentinels are omitted. Free-text subject Auto remains literal.",
+      "novelty": "revalidated-with-replay",
+      "method_kind": "client-normalization",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/dialog-settings.lua",
+          "source_sha256": "ff215847d56ad935f0e73608d2b69e7582f703190557a39350bda0dc6f44489c",
+          "source_size_bytes": 82847,
+          "lines_inclusive": [
+            8,
+            18
+          ],
+          "utf8_bytes_half_open": [
+            312,
+            549
+          ],
+          "fragment_sha256": "e5d704c606f506fc25e286b6818e1ca4b6fa031b9f61e73fba0847f89f1c5bb4"
+        },
+        {
+          "path": "extension-extracted/PixelLab/pixminimax.lua",
+          "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+          "source_size_bytes": 11705,
+          "lines_inclusive": [
+            91,
+            143
+          ],
+          "utf8_bytes_half_open": [
+            4036,
+            5762
+          ],
+          "fragment_sha256": "c96d36dfd278633cff6f5fe70840312993c7de08050f440a3b986000559606c6"
+        }
+      ],
+      "prior_reference": "prompt-enhancement-closure L07",
+      "boundary": "Does not recover server prompt rewriting or language model."
+    },
+    {
+      "id": "PF02",
+      "statement": "Lua enhancement description replacement, advanced caption merge, picked-slot preservation and stale-first suppression are caller-specific.",
+      "novelty": "revalidated-with-replay",
+      "method_kind": "client-state",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/pixminimax.lua",
+          "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+          "source_size_bytes": 11705,
+          "lines_inclusive": [
+            149,
+            216
+          ],
+          "utf8_bytes_half_open": [
+            6055,
+            8786
+          ],
+          "fragment_sha256": "1b6205d8105a0fffcefc81291975a12ad24fc7ccb8525190d460e7208f169c13"
+        }
+      ],
+      "prior_reference": "prompt-enhancement-closure L08 and source-change claims",
+      "boundary": "Symbolic Image identity/equality, not native editor concurrency."
+    },
+    {
+      "id": "PF03",
+      "statement": "Recovered Godot caption text trims edges; advanced response application indexes requested caption keys directly.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "client-normalization",
+      "anchors": [
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/lib/pixminimax_caption.gd",
+          "source_sha256": "bb3b630dc00585dd1089024a00d0f63f8c02b85596293fe8a17abc6bad802a89",
+          "source_size_bytes": 1457,
+          "lines_inclusive": [
+            28,
+            72
+          ],
+          "utf8_bytes_half_open": [
+            397,
+            1457
+          ],
+          "fragment_sha256": "d7986b235d9fd9d075cb5e9c37b95ac28597bf6954684c14e52f5d0f6d2c5fbd"
+        }
+      ],
+      "prior_reference": "prompt-enhancement-closure G09",
+      "boundary": "No Godot engine replay; missing-key runtime behavior not established."
+    },
+    {
+      "id": "PF04",
+      "statement": "Lua valid numeric seed strings remain strings: tonumber validates but its result is not assigned; invalid seed becomes numeric zero.",
+      "novelty": "new-explicit-qualification-with-replay",
+      "method_kind": "request-table",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/create-json.lua",
+          "source_sha256": "fa23648cca2b31681f97be145328d9ae6f488b0bac8e13fe0fc1575b9944b87d",
+          "source_size_bytes": 11530,
+          "lines_inclusive": [
+            68,
+            83
+          ],
+          "utf8_bytes_half_open": [
+            1996,
+            2611
+          ],
+          "fragment_sha256": "521b45c6f886a1a88d522d1f8d9851be48b872af4b408f177ffcd34c0799b5a8"
+        },
+        {
+          "path": "extension-extracted/PixelLab/create-json.lua",
+          "source_sha256": "fa23648cca2b31681f97be145328d9ae6f488b0bac8e13fe0fc1575b9944b87d",
+          "source_size_bytes": 11530,
+          "lines_inclusive": [
+            168,
+            179
+          ],
+          "utf8_bytes_half_open": [
+            6848,
+            7268
+          ],
+          "fragment_sha256": "90b1bc0ef404b875f8ec6cb90e2cf84832056ac658903fcc4152f10753bd383a"
+        }
+      ],
+      "prior_reference": "Earlier generic serializer accounting; this type edge now explicit",
+      "boundary": "Original table behavior replayed; symbolic JSON codec does not prove native encoded bytes or private acceptance."
+    },
+    {
+      "id": "PF05",
+      "statement": "Lua MiniMax animation requires nonblank motion, count multiple4 in4..40, first image present/nonempty and per-axis <=256. First is RGBA bytes with explicit dimensions.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "request-wrapper",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+          "source_sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+          "source_size_bytes": 14677,
+          "lines_inclusive": [
+            109,
+            242
+          ],
+          "utf8_bytes_half_open": [
+            4416,
+            10430
+          ],
+          "fragment_sha256": "ccce0cc8bcc11ad1afa0d16dda658da66fda7e8672b0411dcf97ae7da55cd0aa"
+        }
+      ],
+      "prior_reference": "animation-client-closure MiniMax caller",
+      "boundary": "Reference roles are payload roles, not checkpoint internals; request not sent."
+    },
+    {
+      "id": "PF06",
+      "statement": "Lua MiniMax animation prepares count+1 logical slots, skips first only. Interpolation uses first/last conditioning and separate both-end skip policy.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "frame-allocation",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+          "source_sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+          "source_size_bytes": 14677,
+          "lines_inclusive": [
+            109,
+            116
+          ],
+          "utf8_bytes_half_open": [
+            4416,
+            4855
+          ],
+          "fragment_sha256": "86ce05bd0328dc4132dccb27f9640a1c2d9bcb97fc9e5125325e606b266a6cbc"
+        },
+        {
+          "path": "extension-extracted/PixelLab/generate-interpolation-pixminimax.lua",
+          "source_sha256": "f95b9fa8b8ef8a8bf027a14fd69d157d36e98ba7b93fa92ff714ab8b1afa76a0",
+          "source_size_bytes": 17018,
+          "lines_inclusive": [
+            109,
+            120
+          ],
+          "utf8_bytes_half_open": [
+            4538,
+            5119
+          ],
+          "fragment_sha256": "81011985b44cd27fbc3e4256bd1c33993cefbcdd64b59b9365746b24208378c8"
+        },
+        {
+          "path": "extension-extracted/PixelLab/generate-interpolation-pixminimax.lua",
+          "source_sha256": "f95b9fa8b8ef8a8bf027a14fd69d157d36e98ba7b93fa92ff714ab8b1afa76a0",
+          "source_size_bytes": 17018,
+          "lines_inclusive": [
+            217,
+            231
+          ],
+          "utf8_bytes_half_open": [
+            9547,
+            10092
+          ],
+          "fragment_sha256": "d8e0e8e552aa47d57270b9f85edba2e94c759ee390292ea3f609c4475129f921"
+        },
+        {
+          "path": "extension-extracted/PixelLab/prepare-for-generation.lua",
+          "source_sha256": "454952bd080bbe58ec2a87134fa8a4f4e6bb31375e06965bedc09b710f3d61da",
+          "source_size_bytes": 18355,
+          "lines_inclusive": [
+            276,
+            407
+          ],
+          "utf8_bytes_half_open": [
+            8871,
+            14346
+          ],
+          "fragment_sha256": "70c918762c0692fe99423c9b5555334462396a106efd227cdd9fdbced10b70bd"
+        }
+      ],
+      "prior_reference": "animation-client-closure and round4 caller records",
+      "boundary": "Replay proves helper marker destinations only:17 logical ->16 first-skip,15 both-skip. Does not prove actual service count or temporal sampling."
+    },
+    {
+      "id": "PF07",
+      "statement": "Godot MiniMax first/optional last must match dimensions and be visible; description remains literal after blank guard; seed converted int. Tool expects count+1 and animate-minimax-h3.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "request-wrapper",
+      "anchors": [
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+          "source_sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+          "source_size_bytes": 12327,
+          "lines_inclusive": [
+            267,
+            348
+          ],
+          "utf8_bytes_half_open": [
+            8583,
+            11644
+          ],
+          "fragment_sha256": "8c1db36947d616ebd48e4c34b197bb6463c9e01f331b9be2f3c45df4fb397345"
+        }
+      ],
+      "prior_reference": "animation-client-closure and prompt-enhancement-closure",
+      "boundary": "Static recovered source only, not native runtime or public REST equivalence."
+    },
+    {
+      "id": "PF08",
+      "statement": "Godot first-image change clears caption and cancels enhancement; endpoint state guards differ from first-image guards.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "client-state",
+      "anchors": [
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+          "source_sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+          "source_size_bytes": 12327,
+          "lines_inclusive": [
+            172,
+            266
+          ],
+          "utf8_bytes_half_open": [
+            5431,
+            8583
+          ],
+          "fragment_sha256": "fb34cbdf57d01f0790f91a4a7995a3b6f0e1eb858d7c5f586f0ec5529629d90d"
+        },
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/enhance_prompt_websocket.gd",
+          "source_sha256": "95ccf39bbdee7fb58f62e1bc212a3dc2d919ce6571d74cb848e09ef2a019d1e1",
+          "source_size_bytes": 4105,
+          "lines_inclusive": [
+            94,
+            169
+          ],
+          "utf8_bytes_half_open": [
+            2154,
+            4105
+          ],
+          "fragment_sha256": "b9336fbffbaa432e88a32501d235e7d8b6221049cc920952151c08b7479c9551"
+        }
+      ],
+      "prior_reference": "prompt-enhancement-closure G07/G08",
+      "boundary": "No engine race exercise."
+    },
+    {
+      "id": "PF09",
+      "statement": "Lua response sizing/crop and placement preserve source branch precedence; selection subregion predicate uses OR on smaller axes. A64x16 response on32x32 takes subregion branch despite width exceeding canvas.",
+      "novelty": "new-explicit-qualification-with-replay",
+      "method_kind": "placement-wrapper",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/place-image.lua",
+          "source_sha256": "ea5db9151320986edc1e8c4246cc00b3d18c126dde372c353f4e405ebe3816ff",
+          "source_size_bytes": 10014,
+          "lines_inclusive": [
+            8,
+            110
+          ],
+          "utf8_bytes_half_open": [
+            258,
+            5885
+          ],
+          "fragment_sha256": "c948d0e8cd104c68059f37957417aa11497304a455e07eef76fb09265a8b15e9"
+        }
+      ],
+      "prior_reference": "animation-client-closure placement; qualifies genuinely-smaller shorthand",
+      "boundary": "Symbolic host proves branch/destination calls, not actual Image clipping, retained pixel result, or observed failure."
+    },
+    {
+      "id": "PF10",
+      "statement": "Lua frame markers retain logical endpoints as false entries while allocating drawable destinations under skip policy.",
+      "novelty": "revalidated-with-replay",
+      "method_kind": "frame-allocation",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/prepare-for-generation.lua",
+          "source_sha256": "454952bd080bbe58ec2a87134fa8a4f4e6bb31375e06965bedc09b710f3d61da",
+          "source_size_bytes": 18355,
+          "lines_inclusive": [
+            276,
+            407
+          ],
+          "utf8_bytes_half_open": [
+            8871,
+            14346
+          ],
+          "fragment_sha256": "70c918762c0692fe99423c9b5555334462396a106efd227cdd9fdbced10b70bd"
+        }
+      ],
+      "prior_reference": "animation-client-closure",
+      "boundary": "No interpolation or recovered remote sample selector; NewFrame host behavior is stubbed."
+    },
+    {
+      "id": "PF11",
+      "statement": "Lua cost is a client display formula with size-tier discontinuities, not measured billing or a recovered remote upsampling algorithm.",
+      "novelty": "revalidated-with-replay",
+      "method_kind": "display-estimate",
+      "anchors": [
+        {
+          "path": "extension-extracted/PixelLab/pixminimax.lua",
+          "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+          "source_size_bytes": 11705,
+          "lines_inclusive": [
+            17,
+            68
+          ],
+          "utf8_bytes_half_open": [
+            820,
+            2825
+          ],
+          "fragment_sha256": "bf121639689fb742be22f6b7fc9441917d60a48e3ed77f8ac7017c7f27fc5e64"
+        }
+      ],
+      "prior_reference": "Existing pixminimax source accounting",
+      "boundary": "Tests bound64/65 and128/129; source comments do not prove remote sampling."
+    },
+    {
+      "id": "PF12",
+      "statement": "Web enhancer forwards literal prompt after trim blank guard, maps camelCase fields to snake_case and defaults engine v3; helper itself lacks count/enum validation.",
+      "novelty": "revalidated-with-replay",
+      "method_kind": "HTTP-wrapper",
+      "anchors": [
+        {
+          "path": "website-art-bundles/create-677791a6e206dafa.js",
+          "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+          "source_size_bytes": 465698,
+          "lines_inclusive": [
+            1,
+            1
+          ],
+          "utf8_bytes_half_open": [
+            13133,
+            14631
+          ],
+          "fragment_sha256": "577841f27adf5f03ff8acdac3667dccea188eb7afd14f1a9affa7e79d3d6237a"
+        }
+      ],
+      "prior_reference": "prompt-enhancement-closure W01",
+      "boundary": "Original exact function under synthetic lexical scope/fake fetch; upstream UI validation separate; no HTTP/auth call."
+    },
+    {
+      "id": "PF13",
+      "statement": "Recovered Godot frames default duration multiplier1, seconds duration/fps; project default fps6. Existing project clock remains authoritative.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "host-clock",
+      "anchors": [
+        {
+          "path": "pixelorama-recovered/src/Classes/Frame.gd",
+          "source_sha256": "b917fc48a4e6a5a6f546ecc96864a0fc760c52221a51e115a6e7791065e09d95",
+          "source_size_bytes": 922,
+          "lines_inclusive": [
+            7,
+            21
+          ],
+          "utf8_bytes_half_open": [
+            64,
+            388
+          ],
+          "fragment_sha256": "a8d5b01fb739b04347017f1464eba40e6b2536e2d2a2353ed26a2a9754dfce0c"
+        },
+        {
+          "path": "pixelorama-recovered/src/Classes/Project.gd",
+          "source_sha256": "ce1e98c91c1c5560752098c0ca650a5dd347d1441f85b15f2254a3fd1ab0fc7b",
+          "source_size_bytes": 33664,
+          "lines_inclusive": [
+            80,
+            84
+          ],
+          "utf8_bytes_half_open": [
+            2212,
+            2294
+          ],
+          "fragment_sha256": "1e62456d057a89a647ee7b6c6d95e86c13bb85cfcd87c672bbd1bb37c0d21869"
+        },
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/draw_image.gd",
+          "source_sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+          "source_size_bytes": 8740,
+          "lines_inclusive": [
+            6,
+            126
+          ],
+          "utf8_bytes_half_open": [
+            96,
+            5314
+          ],
+          "fragment_sha256": "1ee7b429e11e1f8274c66c181a9a422b35a7dc0d918a37b77148aa82fd2bd6a9"
+        }
+      ],
+      "prior_reference": "animation-client-closure and round4 clock",
+      "boundary": "No native execution; Lua actual installed Aseprite version remains unidentified."
+    },
+    {
+      "id": "PF14",
+      "statement": "Selected web playback effects tick at125ms; selected saved animation records use frameDuration200ms. These are different clocks.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "preview-storage-clock",
+      "anchors": [
+        {
+          "path": "website-art-bundles/4740-c10d30668d7ecca4.js",
+          "source_sha256": "6b7a2d69d50eb574e1ad9dde6e7968fbc1d81a853eab1d65e3ff725d5869c4e3",
+          "source_size_bytes": 117745,
+          "lines_inclusive": [
+            1,
+            1
+          ],
+          "utf8_bytes_half_open": [
+            9490,
+            9780
+          ],
+          "fragment_sha256": "c0a9a937b78756831a0a3459e497a323fe5efec5e8d807a87d5bf839de931f0e"
+        },
+        {
+          "path": "website-art-bundles/create-677791a6e206dafa.js",
+          "source_sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+          "source_size_bytes": 465698,
+          "lines_inclusive": [
+            1,
+            1
+          ],
+          "utf8_bytes_half_open": [
+            31880,
+            32210
+          ],
+          "fragment_sha256": "08185f96cc3c2ba7dd8a337ed4e4e2789173a1039aea8910603efcdfd92776ca"
+        },
+        {
+          "path": "website-art-bundles/4627-44719d0c5e43b757.js",
+          "source_sha256": "2aedf0a4da4e5df539403caa181d249605b6a3f1b8701083b3e57c756716954f",
+          "source_size_bytes": 30790,
+          "lines_inclusive": [
+            1,
+            1
+          ],
+          "utf8_bytes_half_open": [
+            23900,
+            24370
+          ],
+          "fragment_sha256": "a8bbbcc566e22f798a3e33da54cfeb94f624e80ba9c50a170ccec2df0759d81b"
+        },
+        {
+          "path": "website-art-bundles/7929-0ba5fabea0c5ecc5.js",
+          "source_sha256": "4237fac3657699b5d09a78aa2f203a7b6ed090d45aed28b060d10d5e62d466b4",
+          "source_size_bytes": 150222,
+          "lines_inclusive": [
+            1,
+            1
+          ],
+          "utf8_bytes_half_open": [
+            91500,
+            92050
+          ],
+          "fragment_sha256": "195b803626bcba487e141ecc4dce20db1026c20608be685ec3912dff4cd5f314"
+        }
+      ],
+      "prior_reference": "animation-client-closure web-frame-clock",
+      "boundary": "Does not establish native model fps or align returned frame index to video PTS."
+    },
+    {
+      "id": "PF15",
+      "statement": "Godot interpolation modifies inherited MiniMax tool data: image_amount count-1, skip_first_image1, skip_last_image1. These differ from animation caller retention.",
+      "novelty": "previously-known-static-retrace",
+      "method_kind": "frame-wrapper",
+      "anchors": [
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolatePixminimax.gd",
+          "source_sha256": "0877e2c86a45b2e6a937b35bf25a22d454eb473f518c7c6334bdfaf88bc90ef5",
+          "source_size_bytes": 1382,
+          "lines_inclusive": [
+            1,
+            40
+          ],
+          "utf8_bytes_half_open": [
+            0,
+            1382
+          ],
+          "fragment_sha256": "0877e2c86a45b2e6a937b35bf25a22d454eb473f518c7c6334bdfaf88bc90ef5"
+        }
+      ],
+      "prior_reference": "animation-client-closure",
+      "boundary": "Source static only; response slicing implementation remains caller-dependent."
+    }
+  ],
+  "negative_search_bounds": {
+    "files": [
+      {
+        "path": "extension-extracted/PixelLab/create-json.lua",
+        "sha256": "fa23648cca2b31681f97be145328d9ae6f488b0bac8e13fe0fc1575b9944b87d",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 2,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "extension-extracted/PixelLab/dialog-settings.lua",
+        "sha256": "ff215847d56ad935f0e73608d2b69e7582f703190557a39350bda0dc6f44489c",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 53,
+          "enhance": 26,
+          "caption": 1,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "extension-extracted/PixelLab/generate-animate-pixminimax.lua",
+        "sha256": "77de402722626a49d006c50872898fa496c920b3ec71fa0a62b9dcdbc1c660e6",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 3,
+          "last_frame": 0,
+          "reference": 27,
+          "enhance": 0,
+          "caption": 11,
+          "animate-minimax-h3": 2
+        }
+      },
+      {
+        "path": "extension-extracted/PixelLab/generate-interpolation-pixminimax.lua",
+        "sha256": "f95b9fa8b8ef8a8bf027a14fd69d157d36e98ba7b93fa92ff714ab8b1afa76a0",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 3,
+          "last_frame": 1,
+          "reference": 0,
+          "enhance": 0,
+          "caption": 11,
+          "animate-minimax-h3": 1
+        }
+      },
+      {
+        "path": "extension-extracted/PixelLab/pixminimax.lua",
+        "sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 1,
+          "timestamp": 0,
+          "first_frame": 3,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 15,
+          "caption": 25,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "extension-extracted/PixelLab/place-image.lua",
+        "sha256": "ea5db9151320986edc1e8c4246cc00b3d18c126dde372c353f4e405ebe3816ff",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "extension-extracted/PixelLab/prepare-for-generation.lua",
+        "sha256": "454952bd080bbe58ec2a87134fa8a4f4e6bb31375e06965bedc09b710f3d61da",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 4,
+          "last_frame": 5,
+          "reference": 2,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Classes/Frame.gd",
+        "sha256": "b917fc48a4e6a5a6f546ecc96864a0fc760c52221a51e115a6e7791065e09d95",
+        "matches_case_insensitive": {
+          "fps": 7,
+          "duration": 10,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Classes/Project.gd",
+        "sha256": "ce1e98c91c1c5560752098c0ca650a5dd347d1441f85b15f2254a3fd1ab0fc7b",
+        "matches_case_insensitive": {
+          "fps": 9,
+          "duration": 10,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 2,
+          "reference": 33,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Extensions/PixelLab/draw_image.gd",
+        "sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Extensions/PixelLab/enhance_prompt_websocket.gd",
+        "sha256": "95ccf39bbdee7fb58f62e1bc212a3dc2d919ce6571d74cb848e09ef2a019d1e1",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 11,
+          "caption": 5,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Extensions/PixelLab/lib/pixminimax_caption.gd",
+        "sha256": "bb3b630dc00585dd1089024a00d0f63f8c02b85596293fe8a17abc6bad802a89",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 1,
+          "caption": 4,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+        "sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 17,
+          "last_frame": 9,
+          "reference": 16,
+          "enhance": 36,
+          "caption": 20,
+          "animate-minimax-h3": 1
+        }
+      },
+      {
+        "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolatePixminimax.gd",
+        "sha256": "0877e2c86a45b2e6a937b35bf25a22d454eb473f518c7c6334bdfaf88bc90ef5",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 0,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 2,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "website-art-bundles/4627-44719d0c5e43b757.js",
+        "sha256": "2aedf0a4da4e5df539403caa181d249605b6a3f1b8701083b3e57c756716954f",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 10,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 3,
+          "last_frame": 1,
+          "reference": 10,
+          "enhance": 2,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "website-art-bundles/4740-c10d30668d7ecca4.js",
+        "sha256": "6b7a2d69d50eb574e1ad9dde6e7968fbc1d81a853eab1d65e3ff725d5869c4e3",
+        "matches_case_insensitive": {
+          "fps": 1,
+          "duration": 28,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 0,
+          "enhance": 19,
+          "caption": 1,
+          "animate-minimax-h3": 2
+        }
+      },
+      {
+        "path": "website-art-bundles/7929-0ba5fabea0c5ecc5.js",
+        "sha256": "4237fac3657699b5d09a78aa2f203a7b6ed090d45aed28b060d10d5e62d466b4",
+        "matches_case_insensitive": {
+          "fps": 0,
+          "duration": 87,
+          "sample": 0,
+          "timestamp": 0,
+          "first_frame": 0,
+          "last_frame": 0,
+          "reference": 1,
+          "enhance": 0,
+          "caption": 0,
+          "animate-minimax-h3": 0
+        }
+      },
+      {
+        "path": "website-art-bundles/create-677791a6e206dafa.js",
+        "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+        "matches_case_insensitive": {
+          "fps": 1,
+          "duration": 178,
+          "sample": 0,
+          "timestamp": 10,
+          "first_frame": 5,
+          "last_frame": 2,
+          "reference": 228,
+          "enhance": 38,
+          "caption": 8,
+          "animate-minimax-h3": 3
+        }
+      }
+    ],
+    "conclusion": "No executable private generation or server frame sampler recovered in these selected files. Keyword counts alone are not absence proof; no inference about unsearched source.",
+    "excluded": [
+      "private server implementation",
+      "all unselected files",
+      "full session history",
+      "native editor binaries/runtime",
+      "live remote outputs"
+    ]
+  },
+  "model_or_provider_calls": 0,
+  "credentials_loaded": false,
+  "captured_public_contract": {
+    "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/public/pixellab-openapi.json",
+    "sha256": "8cb24ecdd26e9fe48639dc789e44f32b3c78c29e8da8c3121f23ab360ade5dad",
+    "authority": "Retained public OpenAPI declaration, not live or private-server implementation",
+    "anchors": [
+      "/servers/0/url",
+      "/paths/~1enhance-animation-v3-prompt/post",
+      "/components/schemas/EnhanceAnimationV3PromptRequest",
+      "/paths/~1animate-pixminimax/post"
+    ],
+    "selected_declarations": {
+      "server": "/v2",
+      "enhancer_request": {
+        "properties": {
+          "first_frame": {
+            "$ref": "#/components/schemas/Base64Image",
+            "description": "First frame as base64 PNG/JPEG. Becomes the basis of the motion description."
+          },
+          "last_frame": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Base64Image"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Optional end frame. When provided, the enhanced prompt describes the interpolated motion between first_frame and last_frame."
+          },
+          "action": {
+            "type": "string",
+            "maxLength": 500,
+            "minLength": 1,
+            "title": "Action",
+            "description": "User's action description (e.g., 'walking', 'jumping', 'sword swing')."
+          },
+          "engine": {
+            "type": "string",
+            "enum": [
+              "v3",
+              "pixminimax",
+              "skeleton-v3"
+            ],
+            "title": "Engine",
+            "description": "Which animation model the prompt is written for: 'v3' (animate-with-text-v3, default), 'pixminimax' (animate-pixminimax) or 'skeleton-v3' (animate-with-skeleton-v3). PixMiniMax gets its action caption only: the motion in playback order, nothing about appearance, pose, view or facing. Skeleton prompts name the action in a few words instead of describing motion, because the skeletons already carry it.",
+            "default": "v3"
+          },
+          "direction": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "south",
+                  "north",
+                  "east",
+                  "west",
+                  "south-east",
+                  "south-west",
+                  "north-east",
+                  "north-west"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Direction",
+            "description": "Accepted but not used: PixMiniMax's facing is its own field, `direction` on /v2/animate-pixminimax."
+          },
+          "frame_count": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "maximum": 40.0,
+                "minimum": 1.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Frame Count",
+            "description": "Frames the animation will have. Used by pixminimax prompts to judge how many motion beats fit."
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "first_frame",
+          "action"
+        ],
+        "title": "EnhanceAnimationV3PromptRequest",
+        "example": {
+          "action": "swinging a sword",
+          "first_frame": {
+            "base64": "data:image/png;base64,..."
+          }
+        }
+      }
+    },
+    "boundary": "Public first_frame/action/Base64Image grammar differs from private web image_base64/prompt and rawRGBA clients; schemas do not prove model implementation, endpoint equivalence or private acceptance."
+  }
+}

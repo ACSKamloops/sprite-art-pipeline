@@ -1,0 +1,13 @@
+### Ran Playwright code
+```js
+await page.locator('#source-save-recipe').click();
+```
+### Page
+- Page URL: http://127.0.0.1:8874/#source
+- Page Title: Pixellab Source · Sprite workbench
+- Console: 0 errors, 1 warnings
+### Snapshot
+- [Snapshot](.playwright-cli/page-2026-10-14T01-07-41-662Z.yml)
+### Events
+- Downloading file pixellab-declared-recipe.json ...
+- Downloaded file pixellab-declared-recipe.json to ".playwright-cli/pixellab-declared-recipe.json"

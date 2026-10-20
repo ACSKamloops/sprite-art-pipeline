@@ -1,0 +1,28 @@
+extends SceneTree
+var segments_count = 0
+func collect(target, segments):
+	segments_count = segments.size()
+	for s in segments:
+		target.fill_rect(Rect2i(s.left_position,s.y,s.right_position-s.left_position+1,1),Color.WHITE)
+func _init():
+	var image = Image.load_from_file("res://input.png")
+	if image.is_empty(): quit(21); return
+	if image.get_format() != Image.FORMAT_RGBA8: image.convert(Image.FORMAT_RGBA8)
+	var before = image.get_data()
+	var ff = load("res://flood.gd").new()
+	var project = ff.Project.new()
+	project.size = image.get_size()
+	project.has_selection = false
+	ff.selection_matters = false
+	ff.tolerance = __TOLERANCE__
+	var mask = Image.create(image.get_width(),image.get_height(),false,Image.FORMAT_RGBA8)
+	mask.fill(Color.TRANSPARENT)
+	ff.flood_fill(Vector2i(__X__,__Y__),image,mask,project,Callable(self,"collect"))
+	if image.get_data() != before: quit(22); return
+	if mask.save_png("res://mask.png") != OK: quit(23); return
+	var data = mask.get_data()
+	var count = 0
+	for i in range(3,data.size(),4):
+		if data[i] > 0: count += 1
+	print("SELECTOR_OK " + JSON.stringify({"selected_pixels":count,"segments":segments_count,"source_image_unchanged":true}))
+	quit(0)

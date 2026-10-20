@@ -1,0 +1,292 @@
+{
+  "assertion_statements_executed": 52,
+  "classification": "actual-source-pixel-connectivity-check-not-server-algorithm",
+  "fixture_shape": [
+    96,
+    96,
+    4
+  ],
+  "proof_script_sha256": "cb49774909e0098f410ca1f06339125e33cf58776211e3ca3e7e8dad56c872a3",
+  "proofs": [
+    {
+      "linf_threshold": 0,
+      "neighbors": 4,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 0,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5697
+    },
+    {
+      "linf_threshold": 1,
+      "neighbors": 4,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 0,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5761
+    },
+    {
+      "linf_threshold": 8,
+      "neighbors": 4,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 0,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5825
+    },
+    {
+      "linf_threshold": 32,
+      "neighbors": 4,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 0,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5889
+    },
+    {
+      "linf_threshold": 0,
+      "neighbors": 8,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 25,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5731
+    },
+    {
+      "linf_threshold": 1,
+      "neighbors": 8,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 25,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5795
+    },
+    {
+      "linf_threshold": 8,
+      "neighbors": 8,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 0,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 25,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5859
+    },
+    {
+      "linf_threshold": 32,
+      "neighbors": 8,
+      "regions": {
+        "border_close_green_1": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_32": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "border_close_green_8": {
+          "connected": 64,
+          "pixels": 64
+        },
+        "dark_detail": {
+          "connected": 0,
+          "pixels": 16
+        },
+        "diagonal_only_patch": {
+          "connected": 25,
+          "pixels": 25
+        },
+        "true_open_channel_in_body": {
+          "connected": 96,
+          "pixels": 96
+        },
+        "truly_enclosed_hole": {
+          "connected": 0,
+          "pixels": 64
+        }
+      },
+      "total_connected": 5923
+    }
+  ]
+}

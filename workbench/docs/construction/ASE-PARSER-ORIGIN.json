@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "source": "sprite_workbench/construction_core/aseprite.py",
+  "original_sha256": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+  "current_sha256": "263b4d0059ce1074cb5dff97198d095faddeba10e1410dbb617f91d4030feeca",
+  "reason": "Bound native/sidecar bytes, aggregate canvas/raw/link work and zlib output before image allocation; portable loader; immutable snapshots; derive source timing; reject ambiguous names and unknown/render-affecting chunks; record observed RGBA palette metadata allowlist; iterative metadata depth/node bound before recursive canonicalization",
+  "limits": {
+    "native_bytes": 67108864,
+    "sidecar_bytes": 16777216,
+    "pixel_work": 64000000,
+    "frames": 512,
+    "layers": 128,
+    "metadata_depth": 64
+  },
+  "allowed_ignored_chunks": [
+    4,
+    8217
+  ],
+  "original_manifest": "docs/construction/TOOLKIT-ORIGIN.json"
+}

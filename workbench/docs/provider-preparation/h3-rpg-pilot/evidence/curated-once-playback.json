@@ -1,0 +1,267 @@
+{
+  "observedNativeIndices": [
+    0,
+    12,
+    18,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    35,
+    52,
+    73,
+    78,
+    85,
+    94,
+    106
+  ],
+  "completed": {
+    "variant": 16,
+    "frame": 15,
+    "native_index": 106,
+    "playing": false,
+    "completed": true,
+    "mode": "once",
+    "rate": 1,
+    "time": 4.458333333333333,
+    "loaded": true,
+    "duration_seconds": [
+      107,
+      24
+    ],
+    "holds": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        24
+      ]
+    ]
+  },
+  "elapsedMs": 4477.099999997765,
+  "afterPlay": {
+    "variant": 16,
+    "frame": 15,
+    "native_index": 106,
+    "playing": false,
+    "completed": true,
+    "mode": "once",
+    "rate": 1,
+    "time": 4.458333333333333,
+    "loaded": true,
+    "duration_seconds": [
+      107,
+      24
+    ],
+    "holds": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        24
+      ]
+    ]
+  },
+  "afterStep": {
+    "variant": 16,
+    "frame": 15,
+    "native_index": 106,
+    "playing": false,
+    "completed": true,
+    "mode": "once",
+    "rate": 1,
+    "time": 4.416666666666667,
+    "loaded": true,
+    "duration_seconds": [
+      107,
+      24
+    ],
+    "holds": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        1,
+        24
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        17,
+        24
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        5,
+        24
+      ],
+      [
+        7,
+        24
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        24
+      ]
+    ]
+  },
+  "pass": true,
+  "artAcceptance": false,
+  "scope": "All 16 selected native poses including fast strike26/27 displayed at1x; once completion held last. Manual sampling fixes coverage, not clipped blade pixels."
+}

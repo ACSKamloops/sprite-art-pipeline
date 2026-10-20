@@ -1,0 +1,19 @@
+{
+  "scope": "Explicit testcleanup overlay after preservedaudio teardownfailure; no gameplay/art/exportedWebmutation",
+  "file": "tests/final_polish.gd",
+  "original_sha256": "2ded8f2f6963bbf2f8e0e98664914fb7db4dcbb73b433e56a37c2f896716f595",
+  "patched_sha256": "0f045222b941922355132527a36599bdbf92352b9b1a88ac1c82ebe8994d2381",
+  "canonical_test_exact": true,
+  "original_eleven_case_results": "behavior-initial/RESULTS.json",
+  "additional_unpatched_followup": "behavior-unpatched-followup/RESULTS.json",
+  "unpatched_followup_reason": "Initial overlay used the preview working directory as source and raised SameFileError; subsequent shell command still ran unchangedfixture. This complete unpatched pass is retained and shows shutdownfailure is timingdependent; no cleanupfix credit. Later mutations use failfast and absolutecanonicalsource.",
+  "targeted_three_run_results": "FINAL-POLISH-CLEANUP.json",
+  "original_initial_log": "BEHAVIOR.log",
+  "patched_broad_log": "BEHAVIOR-CLEANUP.log",
+  "diagnostic_extra_test_files": [
+    "tests/audio_teardown_probe.gd",
+    "tests/final_polish_cleanup.gd"
+  ],
+  "Web_export_precedes_test_overlay": true,
+  "audio_causation_limit": "Explicitstop/clear duringliveplayerteardown avoids observedleaks in probes; no claim to fix nativeengine internals"
+}

@@ -1,0 +1,80 @@
+{
+  "kind": "reliable-system-installed-proof",
+  "version": 1,
+  "package_version": "0.7.0",
+  "package": "/home/astra/artifacts/pixellab-reliable-system-20261014/install-venv/lib/python3.14/site-packages/sprite_workbench",
+  "source_fingerprint": "c0bede6efae5b82bf8bd8637d5055d4256c264c3a2264436c61a62ebd37833ef",
+  "provider_calls": 0,
+  "visual_acceptance": "unreviewed",
+  "checks": [
+    {
+      "id": "actual_recovered_godot_selection",
+      "status": "passed"
+    },
+    {
+      "id": "selection_receipt_replay",
+      "status": "passed"
+    },
+    {
+      "id": "outside_selection_indices_unchanged",
+      "status": "passed"
+    },
+    {
+      "id": "visible_edit_changes_project",
+      "status": "passed"
+    },
+    {
+      "id": "undo_exact_project_identity",
+      "status": "passed"
+    },
+    {
+      "id": "redo_exact_project_identity",
+      "status": "passed"
+    },
+    {
+      "id": "stale_mask_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "reopened_history_verified",
+      "status": "passed"
+    },
+    {
+      "id": "final_export_reverification",
+      "status": "passed"
+    },
+    {
+      "id": "download_zip_crc_and_inventory",
+      "status": "passed"
+    },
+    {
+      "id": "selection_mask_and_receipt_retained",
+      "status": "passed"
+    },
+    {
+      "id": "real_slash_one_shot",
+      "status": "passed"
+    },
+    {
+      "id": "declarative_plan_channel",
+      "status": "passed"
+    },
+    {
+      "id": "jsonl_channel",
+      "status": "passed"
+    },
+    {
+      "id": "cli_channel",
+      "status": "passed"
+    },
+    {
+      "id": "http_verified_project",
+      "status": "passed"
+    },
+    {
+      "id": "http_download_identity",
+      "status": "passed"
+    }
+  ],
+  "status": "passed"
+}

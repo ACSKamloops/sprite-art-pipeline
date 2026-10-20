@@ -1,0 +1,860 @@
+{
+  "artistic_acceptance": "unreviewed",
+  "blockers": [
+    {
+      "gap": "both direction identity/body framing and alpha behavior",
+      "id": "requirement:portrait-conversion-storage:unknown:1",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "both direction identity/body framing and alpha behavior",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "portrait-conversion-storage:unknown:1",
+      "status": "runtime_pending",
+      "title": "portrait-conversion-storage:unknown:1"
+    },
+    {
+      "gap": "SetPortraitRequest ownership/mood replacement/reload behavior",
+      "id": "requirement:portrait-conversion-storage:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "SetPortraitRequest ownership/mood replacement/reload behavior",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "portrait-conversion-storage:unknown:2",
+      "status": "runtime_pending",
+      "title": "portrait-conversion-storage:unknown:2"
+    },
+    {
+      "gap": "crop/face detection/concept model and skeleton fitting internals",
+      "id": "requirement:portrait-conversion-storage:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "crop/face detection/concept model and skeleton fitting internals",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "portrait-conversion-storage:unknown:3",
+      "status": "unavailable_server",
+      "title": "portrait-conversion-storage:unknown:3"
+    },
+    {
+      "gap": "Latin grapheme-to-viseme mapping, punctuation, repeated mouth positions, supported alphabets and loop terminal hold",
+      "id": "requirement:portrait-dialogue:unknown:1",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "Latin grapheme-to-viseme mapping, punctuation, repeated mouth positions, supported alphabets and loop terminal hold",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "portrait-dialogue:unknown:1",
+      "status": "runtime_pending",
+      "title": "portrait-dialogue:unknown:1"
+    },
+    {
+      "gap": "stable viseme_order per expression and spritesheet row mapping; inline vs saved equivalence",
+      "id": "requirement:portrait-dialogue:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "stable viseme_order per expression and spritesheet row mapping; inline vs saved equivalence",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "portrait-dialogue:unknown:2",
+      "status": "runtime_pending",
+      "title": "portrait-dialogue:unknown:2"
+    },
+    {
+      "gap": "expression generation models and text-to-viseme rules; no audio alignment pipeline is proven",
+      "id": "requirement:portrait-dialogue:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "expression generation models and text-to-viseme rules; no audio alignment pipeline is proven",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "portrait-dialogue:unknown:3",
+      "status": "unavailable_server",
+      "title": "portrait-dialogue:unknown:3"
+    },
+    {
+      "gap": "all four glyph sizes and atlas-to-cmap correspondence, space advance/kerning/combining glyphs/baseline",
+      "id": "requirement:font:unknown:1",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "all four glyph sizes and atlas-to-cmap correspondence, space advance/kerning/combining glyphs/baseline",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "font:unknown:1",
+      "status": "runtime_pending",
+      "title": "font:unknown:1"
+    },
+    {
+      "gap": "web font style controls, subset/name persistence and URL lifetime",
+      "id": "requirement:font:unknown:2",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "web font style controls, subset/name persistence and URL lifetime",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "font:unknown:2",
+      "status": "source_partial",
+      "title": "font:unknown:2"
+    },
+    {
+      "gap": "glyph segmentation, tracing/TTF metrics, hinting and Unicode repertoire implementation",
+      "id": "requirement:font:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "glyph segmentation, tracing/TTF metrics, hinting and Unicode repertoire implementation",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "font:unknown:3",
+      "status": "unavailable_server",
+      "title": "font:unknown:3"
+    },
+    {
+      "gap": "square/rectangular valid-size discrepancies and public/private default/output count",
+      "id": "requirement:ui-images-shape-panels:unknown:1",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "square/rectangular valid-size discrepancies and public/private default/output count",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "ui-images-shape-panels:unknown:1",
+      "status": "runtime_pending",
+      "title": "ui-images-shape-panels:unknown:1"
+    },
+    {
+      "gap": "template-coordinate transforms, piece ordering/labels, polygon phase, ID round trips and actual nine-slice/stretch suitability",
+      "id": "requirement:ui-images-shape-panels:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "template-coordinate transforms, piece ordering/labels, polygon phase, ID round trips and actual nine-slice/stretch suitability",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "ui-images-shape-panels:unknown:2",
+      "status": "runtime_pending",
+      "title": "ui-images-shape-panels:unknown:2"
+    },
+    {
+      "gap": "shape-to-raster/control rendering and state/theme consistency",
+      "id": "requirement:ui-images-shape-panels:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "shape-to-raster/control rendering and state/theme consistency",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "ui-images-shape-panels:unknown:3",
+      "status": "unavailable_server",
+      "title": "ui-images-shape-panels:unknown:3"
+    },
+    {
+      "gap": "enhancer end-frame/typed-field branch, cancellation/error UI restoration and autoslot choices",
+      "id": "requirement:prompt-caption:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "enhancer end-frame/typed-field branch, cancellation/error UI restoration and autoslot choices",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "prompt-caption:unknown:1",
+      "status": "source_partial",
+      "title": "prompt-caption:unknown:1"
+    },
+    {
+      "gap": "null/omitted/empty/Auto distinctions and prompt returned reproducibility",
+      "id": "requirement:prompt-caption:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "null/omitted/empty/Auto distinctions and prompt returned reproducibility",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "prompt-caption:unknown:2",
+      "status": "runtime_pending",
+      "title": "prompt-caption:unknown:2"
+    },
+    {
+      "gap": "caption/LLM model, system prompt, image tokenization and rewrite policy",
+      "id": "requirement:prompt-caption:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "caption/LLM model, system prompt, image tokenization and rewrite policy",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "prompt-caption:unknown:3",
+      "status": "unavailable_server",
+      "title": "prompt-caption:unknown:3"
+    },
+    {
+      "gap": "exact website connection-rule matching/render material branches",
+      "id": "requirement:pro-tiles-connected-kits:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "exact website connection-rule matching/render material branches",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "pro-tiles-connected-kits:unknown:1",
+      "status": "source_partial",
+      "title": "pro-tiles-connected-kits:unknown:1"
+    },
+    {
+      "gap": "all advertised connectable configuration counts and placement-rule domains; mixed variants/thickness and edge continuity",
+      "id": "requirement:pro-tiles-connected-kits:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "all advertised connectable configuration counts and placement-rule domains; mixed variants/thickness and edge continuity",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "pro-tiles-connected-kits:unknown:2",
+      "status": "runtime_pending",
+      "title": "pro-tiles-connected-kits:unknown:2"
+    },
+    {
+      "gap": "generated-material vs per-piece assembly geometry, iterative hex clamp, z-order/collision semantics",
+      "id": "requirement:pro-tiles-connected-kits:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "generated-material vs per-piece assembly geometry, iterative hex clamp, z-order/collision semantics",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "pro-tiles-connected-kits:unknown:3",
+      "status": "unavailable_server",
+      "title": "pro-tiles-connected-kits:unknown:3"
+    },
+    {
+      "gap": "client guide/mask construction and sheet placement",
+      "id": "requirement:isometric-single-tile:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "client guide/mask construction and sheet placement",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "isometric-single-tile:unknown:1",
+      "status": "source_partial",
+      "title": "isometric-single-tile:unknown:1"
+    },
+    {
+      "gap": "advertised height/thickness percentages, aspect and repeated tiling footprint",
+      "id": "requirement:isometric-single-tile:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "advertised height/thickness percentages, aspect and repeated tiling footprint",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "isometric-single-tile:unknown:2",
+      "status": "runtime_pending",
+      "title": "isometric-single-tile:unknown:2"
+    },
+    {
+      "gap": "guide rasterization and tile conditioning",
+      "id": "requirement:isometric-single-tile:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "guide rasterization and tile conditioning",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "isometric-single-tile:unknown:3",
+      "status": "unavailable_server",
+      "title": "isometric-single-tile:unknown:3"
+    },
+    {
+      "gap": "private sheet transform/export mapping to public Wang patterns and tall-cliff continuation twins",
+      "id": "requirement:wang-topdown-sidescroller:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "private sheet transform/export mapping to public Wang patterns and tall-cliff continuation twins",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "wang-topdown-sidescroller:unknown:1",
+      "status": "source_partial",
+      "title": "wang-topdown-sidescroller:unknown:1"
+    },
+    {
+      "gap": "connected lower/upper reference pixel preservation, transition seam/raggedness, side platform alpha and16/25 modes",
+      "id": "requirement:wang-topdown-sidescroller:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "connected lower/upper reference pixel preservation, transition seam/raggedness, side platform alpha and16/25 modes",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "wang-topdown-sidescroller:unknown:2",
+      "status": "runtime_pending",
+      "title": "wang-topdown-sidescroller:unknown:2"
+    },
+    {
+      "gap": "Wang guide generation/model rendering, connection IDs and persisted metadata consistency",
+      "id": "requirement:wang-topdown-sidescroller:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "Wang guide generation/model rendering, connection IDs and persisted metadata consistency",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "wang-topdown-sidescroller:unknown:3",
+      "status": "unavailable_server",
+      "title": "wang-topdown-sidescroller:unknown:3"
+    },
+    {
+      "gap": "mask/oval/rectangle coordinate generation, bounding-box projection and object snap/scale",
+      "id": "requirement:map-object-inpainting:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "mask/oval/rectangle coordinate generation, bounding-box projection and object snap/scale",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "map-object-inpainting:unknown:1",
+      "status": "source_partial",
+      "title": "map-object-inpainting:unknown:1"
+    },
+    {
+      "gap": "background immutability outside inpaint area and persisted placement IDs",
+      "id": "requirement:map-object-inpainting:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "background immutability outside inpaint area and persisted placement IDs",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "map-object-inpainting:unknown:2",
+      "status": "runtime_pending",
+      "title": "map-object-inpainting:unknown:2"
+    },
+    {
+      "gap": "context synthesis and clipping/crop semantics",
+      "id": "requirement:map-object-inpainting:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "context synthesis and clipping/crop semantics",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "map-object-inpainting:unknown:3",
+      "status": "unavailable_server",
+      "title": "map-object-inpainting:unknown:3"
+    },
+    {
+      "gap": "each old/pro/flash preparation mode and optional correction/background sequence",
+      "id": "requirement:conversion-cleanup:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "each old/pro/flash preparation mode and optional correction/background sequence",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "conversion-cleanup:unknown:1",
+      "status": "source_partial",
+      "title": "conversion-cleanup:unknown:1"
+    },
+    {
+      "gap": "alpha preservation, canonical pixel-grid crop/size, mixed style and shared palette ordering across larger sets",
+      "id": "requirement:conversion-cleanup:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "alpha preservation, canonical pixel-grid crop/size, mixed style and shared palette ordering across larger sets",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "conversion-cleanup:unknown:2",
+      "status": "runtime_pending",
+      "title": "conversion-cleanup:unknown:2"
+    },
+    {
+      "gap": "segmentation/correction/quantization model and true pixel-grid estimator",
+      "id": "requirement:conversion-cleanup:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "segmentation/correction/quantization model and true pixel-grid estimator",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "conversion-cleanup:unknown:3",
+      "status": "unavailable_server",
+      "title": "conversion-cleanup:unknown:3"
+    },
+    {
+      "gap": "website review ordering/index base, candidate-to-entity promotion, selected frame tags",
+      "id": "requirement:persistent-object-review-state-animation:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "website review ordering/index base, candidate-to-entity promotion, selected frame tags",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "persistent-object-review-state-animation:unknown:1",
+      "status": "source_partial",
+      "title": "persistent-object-review-state-animation:unknown:1"
+    },
+    {
+      "gap": "missing directions fill, per-direction frame independence, group replacement/cancellation atomicity and retained assets",
+      "id": "requirement:persistent-object-review-state-animation:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "missing directions fill, per-direction frame independence, group replacement/cancellation atomicity and retained assets",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "persistent-object-review-state-animation:unknown:2",
+      "status": "runtime_pending",
+      "title": "persistent-object-review-state-animation:unknown:2"
+    },
+    {
+      "gap": "state/style propagation and cross-direction pro reference scheduling",
+      "id": "requirement:persistent-object-review-state-animation:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "state/style propagation and cross-direction pro reference scheduling",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "persistent-object-review-state-animation:unknown:3",
+      "status": "unavailable_server",
+      "title": "persistent-object-review-state-animation:unknown:3"
+    },
+    {
+      "gap": "all create methods, supplied directional-image retention and style_character_id/reference precedence",
+      "id": "requirement:persistent-character-state-rotation-export:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "all create methods, supplied directional-image retention and style_character_id/reference precedence",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "persistent-character-state-rotation-export:unknown:1",
+      "status": "source_partial",
+      "title": "persistent-character-state-rotation-export:unknown:1"
+    },
+    {
+      "gap": "real persistent state edit framing/palette/identity, export animation rows/holds, null URL handling/lifetime",
+      "id": "requirement:persistent-character-state-rotation-export:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "real persistent state edit framing/palette/identity, export animation rows/holds, null URL handling/lifetime",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "persistent-character-state-rotation-export:unknown:2",
+      "status": "runtime_pending",
+      "title": "persistent-character-state-rotation-export:unknown:2"
+    },
+    {
+      "gap": "skeleton reconstruction weights/3D fit and exact template fitting strategy",
+      "id": "requirement:persistent-character-state-rotation-export:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "skeleton reconstruction weights/3D fit and exact template fitting strategy",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "persistent-character-state-rotation-export:unknown:3",
+      "status": "unavailable_server",
+      "title": "persistent-character-state-rotation-export:unknown:3"
+    },
+    {
+      "gap": "source direction/view/isometric prompt transformation and declared order",
+      "id": "requirement:standalone-rotations:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "source direction/view/isometric prompt transformation and declared order",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "standalone-rotations:unknown:1",
+      "status": "source_partial",
+      "title": "standalone-rotations:unknown:1"
+    },
+    {
+      "gap": "exact direction ordering, retained reference, common pivot/canvas consistency and all-view quality",
+      "id": "requirement:standalone-rotations:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "exact direction ordering, retained reference, common pivot/canvas consistency and all-view quality",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "standalone-rotations:unknown:2",
+      "status": "runtime_pending",
+      "title": "standalone-rotations:unknown:2"
+    },
+    {
+      "gap": "learned rotation representation and reuse of animation backend",
+      "id": "requirement:standalone-rotations:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "learned rotation representation and reuse of animation backend",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "standalone-rotations:unknown:3",
+      "status": "unavailable_server",
+      "title": "standalone-rotations:unknown:3"
+    },
+    {
+      "gap": "every interpolation adapter padding/resize and endpoint omission regime",
+      "id": "requirement:interpolation:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "every interpolation adapter padding/resize and endpoint omission regime",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "interpolation:unknown:1",
+      "status": "source_partial",
+      "title": "interpolation:unknown:1"
+    },
+    {
+      "gap": "endpoint pixel preservation, trajectory/easing/occlusion identity, aspect/canvas changes",
+      "id": "requirement:interpolation:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "endpoint pixel preservation, trajectory/easing/occlusion identity, aspect/canvas changes",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "interpolation:unknown:2",
+      "status": "runtime_pending",
+      "title": "interpolation:unknown:2"
+    },
+    {
+      "gap": "temporal flow/latent architecture is opaque",
+      "id": "requirement:interpolation:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "temporal flow/latent architecture is opaque",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "interpolation:unknown:3",
+      "status": "unavailable_server",
+      "title": "interpolation:unknown:3"
+    },
+    {
+      "gap": "skeleton editor depth/perspective/camera projection and template-specific joints",
+      "id": "requirement:skeleton-estimation-animation:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "skeleton editor depth/perspective/camera projection and template-specific joints",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "skeleton-estimation-animation:unknown:1",
+      "status": "source_partial",
+      "title": "skeleton-estimation-animation:unknown:1"
+    },
+    {
+      "gap": "frozen fullRGBA vs requested mask vs moved source texture, occluded joints and nonbiped templates",
+      "id": "requirement:skeleton-estimation-animation:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "frozen fullRGBA vs requested mask vs moved source texture, occluded joints and nonbiped templates",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "skeleton-estimation-animation:unknown:2",
+      "status": "runtime_pending",
+      "title": "skeleton-estimation-animation:unknown:2"
+    },
+    {
+      "gap": "estimation model, pose renderer/warper, disocclusion/inpainting mechanism and training unknown",
+      "id": "requirement:skeleton-estimation-animation:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "estimation model, pose renderer/warper, disocclusion/inpainting mechanism and training unknown",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "skeleton-estimation-animation:unknown:3",
+      "status": "unavailable_server",
+      "title": "skeleton-estimation-animation:unknown:3"
+    },
+    {
+      "gap": "private grid padding/frame count and palette/style reference packing",
+      "id": "requirement:animation-edit-outfit:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "private grid padding/frame count and palette/style reference packing",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "animation-edit-outfit:unknown:1",
+      "status": "source_partial",
+      "title": "animation-edit-outfit:unknown:1"
+    },
+    {
+      "gap": "preserve motion/anatomy while changing outfit, exact unaffected pixels and alpha",
+      "id": "requirement:animation-edit-outfit:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "preserve motion/anatomy while changing outfit, exact unaffected pixels and alpha",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "animation-edit-outfit:unknown:2",
+      "status": "runtime_pending",
+      "title": "animation-edit-outfit:unknown:2"
+    },
+    {
+      "gap": "multi-frame consistency/style conditioning internal representation",
+      "id": "requirement:animation-edit-outfit:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "multi-frame consistency/style conditioning internal representation",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "animation-edit-outfit:unknown:3",
+      "status": "unavailable_server",
+      "title": "animation-edit-outfit:unknown:3"
+    },
+    {
+      "gap": "complete wrapper mode/direction/input/reference policy and per-direction reuse",
+      "id": "requirement:text-template-wrapper-animation:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "complete wrapper mode/direction/input/reference policy and per-direction reuse",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "text-template-wrapper-animation:unknown:1",
+      "status": "source_partial",
+      "title": "text-template-wrapper-animation:unknown:1"
+    },
+    {
+      "gap": "first-frame equality with alpha treatment; actual clock/holds; subject identity/motion/loop acceptance",
+      "id": "requirement:text-template-wrapper-animation:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "first-frame equality with alpha treatment; actual clock/holds; subject identity/motion/loop acceptance",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "text-template-wrapper-animation:unknown:2",
+      "status": "runtime_pending",
+      "title": "text-template-wrapper-animation:unknown:2"
+    },
+    {
+      "gap": "model weights/latent/temporal sampler/cost ledger semantics",
+      "id": "requirement:text-template-wrapper-animation:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "model weights/latent/temporal sampler/cost ledger semantics",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "text-template-wrapper-animation:unknown:3",
+      "status": "unavailable_server",
+      "title": "text-template-wrapper-animation:unknown:3"
+    },
+    {
+      "gap": "exact mask polarity, crop/expand, alpha-aware compositing and ROI transform for each adapter",
+      "id": "requirement:image-edit-inpaint:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "exact mask polarity, crop/expand, alpha-aware compositing and ROI transform for each adapter",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "image-edit-inpaint:unknown:1",
+      "status": "source_partial",
+      "title": "image-edit-inpaint:unknown:1"
+    },
+    {
+      "gap": "transparent ROI and context contrast, all output methods/background removal variants",
+      "id": "requirement:image-edit-inpaint:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "transparent ROI and context contrast, all output methods/background removal variants",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "image-edit-inpaint:unknown:2",
+      "status": "runtime_pending",
+      "title": "image-edit-inpaint:unknown:2"
+    },
+    {
+      "gap": "model blending, hard/soft mask conditioning and exactpixel guarantee beyond client reblit",
+      "id": "requirement:image-edit-inpaint:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "model blending, hard/soft mask conditioning and exactpixel guarantee beyond client reblit",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "image-edit-inpaint:unknown:3",
+      "status": "unavailable_server",
+      "title": "image-edit-inpaint:unknown:3"
+    },
+    {
+      "gap": "all historical/style-new/Fluxsame-style adapters reachability and ref order precedence",
+      "id": "requirement:style-reference-creation:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "all historical/style-new/Fluxsame-style adapters reachability and ref order precedence",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "style-reference-creation:unknown:1",
+      "status": "source_partial",
+      "title": "style-reference-creation:unknown:1"
+    },
+    {
+      "gap": "distinct inputstyle identities, output count/grid crop/referencepadding at all sizes, palette vs geometry/style adherence",
+      "id": "requirement:style-reference-creation:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "distinct inputstyle identities, output count/grid crop/referencepadding at all sizes, palette vs geometry/style adherence",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "style-reference-creation:unknown:2",
+      "status": "runtime_pending",
+      "title": "style-reference-creation:unknown:2"
+    },
+    {
+      "gap": "styleembedding/refattention/conditioning architecture unknown",
+      "id": "requirement:style-reference-creation:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "styleembedding/refattention/conditioning architecture unknown",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "style-reference-creation:unknown:3",
+      "status": "unavailable_server",
+      "title": "style-reference-creation:unknown:3"
+    },
+    {
+      "gap": "private-depth/canny/pose/reshape/try-on texture controls/preprocessing and shipped reachability",
+      "id": "requirement:text-init-image-creation-environment:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "private-depth/canny/pose/reshape/try-on texture controls/preprocessing and shipped reachability",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "text-init-image-creation-environment:unknown:1",
+      "status": "source_partial",
+      "title": "text-init-image-creation-environment:unknown:1"
+    },
+    {
+      "gap": "each model/mode alpha/size/framevariants/palette promise and aspect presets",
+      "id": "requirement:text-init-image-creation-environment:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "each model/mode alpha/size/framevariants/palette promise and aspect presets",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "text-init-image-creation-environment:unknown:2",
+      "status": "runtime_pending",
+      "title": "text-init-image-creation-environment:unknown:2"
+    },
+    {
+      "gap": "architecture/modelweights/noise pipeline, conditioning/controlnets/hidden prompt modification unknown",
+      "id": "requirement:text-init-image-creation-environment:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "architecture/modelweights/noise pipeline, conditioning/controlnets/hidden prompt modification unknown",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "text-init-image-creation-environment:unknown:3",
+      "status": "unavailable_server",
+      "title": "text-init-image-creation-environment:unknown:3"
+    },
+    {
+      "gap": "ticket routing/lifetime, UI concurrency/cancel/resume and capabilities selector assumptions",
+      "id": "requirement:jobs-uploads-cost-capabilities-library:unknown:1",
+      "next_action": "Bind the named source methods to an executable versioned adapter and independently verify its complete declared branches. Preserve runtime/provider qualifications in this source answer.",
+      "reason": "ticket routing/lifetime, UI concurrency/cancel/resume and capabilities selector assumptions",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "jobs-uploads-cost-capabilities-library:unknown:1",
+      "status": "source_partial",
+      "title": "jobs-uploads-cost-capabilities-library:unknown:1"
+    },
+    {
+      "gap": "pagination stability, cancellation state transitions, upload format limits and retained artifact lifetime",
+      "id": "requirement:jobs-uploads-cost-capabilities-library:unknown:2",
+      "next_action": "Freeze a discriminating protocol for this exact question and compare retained matched outputs where possible. Missing vendor-runtime branches cannot be inferred from local synthetic diagnostics.",
+      "reason": "pagination stability, cancellation state transitions, upload format limits and retained artifact lifetime",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "jobs-uploads-cost-capabilities-library:unknown:2",
+      "status": "runtime_pending",
+      "title": "jobs-uploads-cost-capabilities-library:unknown:2"
+    },
+    {
+      "gap": "accounting/subscription debits/race atomicity/retention/deletion semantics",
+      "id": "requirement:jobs-uploads-cost-capabilities-library:unknown:3",
+      "next_action": "Provider disclosure or released implementation/weights is required for exact parity. A named local substitute may be specified separately; it cannot close this original question.",
+      "reason": "accounting/subscription debits/race atomicity/retention/deletion semantics",
+      "required_for": [
+        "comparison"
+      ],
+      "requirement": "jobs-uploads-cost-capabilities-library:unknown:3",
+      "status": "unavailable_server",
+      "title": "jobs-uploads-cost-capabilities-library:unknown:3"
+    },
+    {
+      "gap": "Full nested draw grammar still unprovided.",
+      "id": "vendor-draw-grammar",
+      "next_action": "A complete provider-issued schema/document or separately scoped authenticated read-only documentation capture exposing the omitted section. Do not try generation calls to guess the grammar.",
+      "reason": "Full nested draw grammar still unprovided.",
+      "required_for": [
+        "comparison"
+      ],
+      "status": "unavailable_documentation",
+      "title": "vendor-draw-grammar"
+    },
+    {
+      "gap": "Captured28-command help inventory has partial or absent local equivalents.",
+      "id": "local-command-coverage",
+      "next_action": "Implement explicitly named local dialects and independent discriminating checks, preserving vendor algorithm unknowns.",
+      "reason": "Captured28-command help inventory has partial or absent local equivalents.",
+      "required_for": [
+        "comparison"
+      ],
+      "status": "local_pending",
+      "title": "local-command-coverage"
+    },
+    {
+      "gap": "17 procedural families do not recover all105 prepared constructors.",
+      "id": "vfx-prepared-constructors",
+      "next_action": "Bind every constructor to exact source or explicit recipe data; keep unavailable ones unsupported.",
+      "reason": "17 procedural families do not recover all105 prepared constructors.",
+      "required_for": [
+        "comparison"
+      ],
+      "status": "source_partial",
+      "title": "vfx-prepared-constructors"
+    },
+    {
+      "gap": "Current112-operation surface adds normal-map and changes5 operationobjects relative to the prior public-source snapshot.",
+      "id": "current-public-drift",
+      "next_action": "Bind the current snapshot separately; retain the old111/101 interfaces for historical comparisons and keep new handlers unsupported.",
+      "reason": "Current112-operation surface adds normal-map and changes5 operationobjects relative to the prior public-source snapshot.",
+      "required_for": [
+        "comparison"
+      ],
+      "status": "contract_drift",
+      "title": "current-public-drift"
+    },
+    {
+      "id": "complete-grammar",
+      "reason": "Documented primitives and recovered grammar claims do not recover every private nested parser rule.",
+      "title": "Complete the drawing grammar evidence"
+    },
+    {
+      "id": "verified:commands",
+      "reason": "Inventory entries and partial local substitutes cannot certify complete behavior.",
+      "title": "Verify the required commands"
+    },
+    {
+      "id": "verified:flows",
+      "reason": "Inventory entries and partial local substitutes cannot certify complete behavior.",
+      "title": "Verify the required flows"
+    },
+    {
+      "id": "verified:transport_flows",
+      "reason": "Inventory entries and partial local substitutes cannot certify complete behavior.",
+      "title": "Verify the required transport flows"
+    }
+  ],
+  "checks": [
+    {
+      "detail": "63 requirements; 28 retained commands",
+      "id": "analysis-inventory",
+      "label": "Evidence and workflow inventory",
+      "status": "passed"
+    },
+    {
+      "detail": "Environment, F01\u2013F11, editing and native exchange; supplied diagnostic inputs only",
+      "id": "setup-proof",
+      "label": "Setup diagnostics on this source version",
+      "status": "passed"
+    },
+    {
+      "detail": "71 unresolved prerequisite records",
+      "id": "comparison-prerequisites",
+      "label": "Art and model comparison prerequisites",
+      "status": "blocked"
+    }
+  ],
+  "comparison_ready": false,
+  "next_actions": [
+    "Resolve analysis prerequisites",
+    "Run setup verification",
+    "Review complete character inputs and comparison specification"
+  ],
+  "provider_calls": 0,
+  "restart_required": false,
+  "setup_ready": true,
+  "source_fingerprint": "c8df6fa354cb0dc584d436dc55cb6115c5f88cbd5670495e8b739fb365463e1d",
+  "status": "blocked",
+  "verification": {
+    "artifact": "3408bd2e474cd8c04d017b0944f4e5656b00b5a9b1650a2d0b67d737b108e848",
+    "status": "completed"
+  }
+}

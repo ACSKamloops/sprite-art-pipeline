@@ -1,0 +1,109 @@
+{
+  "schema": "emberwake-expansion-coverage/v1",
+  "actors": {
+    "rowan": {
+      "atlas": "assets/hero/atlas.png",
+      "atlas_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+      "manifest": "assets/hero/animations.json",
+      "manifest_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+      "clips": 24,
+      "timeline_exposures": 116,
+      "selected_unique_cell_ids": 104,
+      "stored_lineage_cels": 116,
+      "cast_release_index": "Rowan default3",
+      "cast_hand": "Rowan measured defaults in hero.gd",
+      "limitations": []
+    },
+    "lyra": {
+      "atlas": "assets/characters/lyra/atlas.png",
+      "atlas_sha256": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901",
+      "manifest": "assets/characters/lyra/animations.json",
+      "manifest_sha256": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f",
+      "clips": 24,
+      "timeline_exposures": 128,
+      "selected_unique_cell_ids": 120,
+      "stored_lineage_cels": 136,
+      "cast_release_index": 3,
+      "cast_hand": {
+        "south": [
+          99,
+          72
+        ],
+        "east": [
+          95,
+          58
+        ],
+        "north": [
+          94,
+          57
+        ],
+        "west": [
+          34,
+          58
+        ]
+      },
+      "limitations": [
+        "Four separately painted cardinal banks; no diagonal artwork.",
+        "No jump, modular weapon or separate collapse artwork; body/effect clocks are independent."
+      ]
+    },
+    "brann": {
+      "atlas": "assets/characters/brann/atlas.png",
+      "atlas_sha256": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4",
+      "manifest": "assets/characters/brann/animations.json",
+      "manifest_sha256": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921",
+      "clips": 24,
+      "timeline_exposures": 128,
+      "selected_unique_cell_ids": 116,
+      "stored_lineage_cels": 133,
+      "cast_release_index": 3,
+      "cast_hand": {
+        "south": [
+          101,
+          72
+        ],
+        "east": [
+          96,
+          52
+        ],
+        "north": [
+          96,
+          40
+        ],
+        "west": [
+          32,
+          52
+        ]
+      },
+      "limitations": [
+        "Brann west bank mirrors east, with +1 native x translation; symmetric unarmed design.",
+        "No jump, modular weapon or separate collapse artwork; body/effect clocks are independent."
+      ]
+    }
+  },
+  "total_declared_body_clips": 72,
+  "all_views": [
+    "south",
+    "east",
+    "north",
+    "west"
+  ],
+  "body_actions": [
+    "idle",
+    "walk",
+    "attack",
+    "cast",
+    "hurt",
+    "dodge"
+  ],
+  "independent_effects": [
+    "firebolt",
+    "frost nova"
+  ],
+  "no_claim": [
+    "diagonal artwork",
+    "new jump/collapse/pickup body sets",
+    "modular equipment rig",
+    "unique moves or classbalance"
+  ]
+}

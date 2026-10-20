@@ -1,0 +1,1 @@
+Frozen review plus63exactnominated inputs retained. Original OUTPUTS.sha256 verified after copying. No source report, score or path rewritten. Mapping: A prior complete odd-paint control; B new torso-protected05. B preferred; only05 changes. No complete motion approval.

@@ -1,0 +1,113 @@
+{
+  "scope": "Closer-style reference comparison, exact source hashes and player behavior; no original-client clock or art-acceptance claim.",
+  "input_sha256": "fc505c1fd749c0c0504cd96812dab3fef5d7aefefd8c7a07e8fad36a0556911c",
+  "playback": {
+    "samples": 82,
+    "slots": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "state": {
+      "ready": true,
+      "playing": true,
+      "sim_ms": 1357.4000000357628,
+      "verified_frames": 48,
+      "clock": "native",
+      "choices": [
+        "ro-swordsman-male-walk-SE",
+        "our-prototype-lyra-rejected-SE-unaccepted"
+      ],
+      "positions": [
+        {
+          "frame": 2,
+          "phase": 0.26233333339293796,
+          "complete": false,
+          "duration": 600
+        },
+        {
+          "frame": 0,
+          "phase": 0.016444444523917304,
+          "complete": false,
+          "duration": 450
+        }
+      ]
+    }
+  },
+  "pause_exact": true,
+  "normalized_phase": {
+    "ready": true,
+    "playing": true,
+    "sim_ms": 154.5,
+    "verified_frames": 48,
+    "clock": "phase",
+    "choices": [
+      "ro-swordsman-male-walk-SE",
+      "our-prototype-lyra-rejected-SE-unaccepted"
+    ],
+    "positions": [
+      {
+        "frame": 1,
+        "phase": 0.1545,
+        "complete": false,
+        "duration": 600
+      },
+      {
+        "frame": 1,
+        "phase": 0.15450000000000003,
+        "complete": false,
+        "duration": 450
+      }
+    ]
+  },
+  "desktop": {
+    "viewport": 1440,
+    "document": 1425,
+    "panels": [
+      {
+        "x": 92.5,
+        "y": 352,
+        "right": 702.5
+      },
+      {
+        "x": 722.5,
+        "y": 352,
+        "right": 1332.5
+      }
+    ]
+  },
+  "mobile": {
+    "viewport": 390,
+    "document": 375,
+    "panels": [
+      {
+        "x": 24,
+        "y": 772,
+        "right": 351
+      },
+      {
+        "x": 24,
+        "y": 1403.078125,
+        "right": 351
+      }
+    ]
+  },
+  "observed_pageerrors": []
+}

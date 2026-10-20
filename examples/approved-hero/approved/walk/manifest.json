@@ -1,0 +1,358 @@
+{
+  "schema": "sprite-frame-manifest/v1",
+  "id": "generic_rpg_hero/walk_right_three_quarter",
+  "canvas": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    106
+  ],
+  "ground_pivot": [
+    64,
+    106
+  ],
+  "pivot_qualification": "Nominal source placement, not strict contact proof.",
+  "loop": true,
+  "clock_hz": 24,
+  "duration": [
+    5,
+    4
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/00.png",
+      "sha256": "1f9203ec653a5b9895e028c9b13e0748f16b22c5ba89fcbfa4545720264e9cce",
+      "rgba_sha256": "c4aa5f2820c16f380590298a7ea440f361ab8d458767fb22bd978b7699d68754",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/01.png",
+      "sha256": "496437f23fe934343f4ec9c8ab23aec25c6c634cde270facce8491267997efca",
+      "rgba_sha256": "9193323e4160ac3c08545eab1ae1a66a69a0f1d7cf355fb3d7a079e4c3e2c361",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 1
+    },
+    {
+      "index": 2,
+      "file": "frames/02.png",
+      "sha256": "f80001a16e31ec276748a62dcba9253b2ed9dd2b8b2c00c4303013bb5a23f392",
+      "rgba_sha256": "ff5c12bcd2ed60e8e402258a078f7ebf36f978d1e005a1b70fa332fec3002bf2",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 2
+    },
+    {
+      "index": 3,
+      "file": "frames/03.png",
+      "sha256": "c3917c5a83990458fe5f20bcff578b9acf28d8b21c37e59596aad6fb2fb80db7",
+      "rgba_sha256": "36e8696b8e2e565c19d6fc7ba7d5bd29512d94dbe9faa20f221c01443ac7b096",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 3
+    },
+    {
+      "index": 4,
+      "file": "frames/04.png",
+      "sha256": "c6b208cfd56b097d86c425986c7ab02fd1ada0e3d41a017153bea6d81692a71f",
+      "rgba_sha256": "e7735f38e647f00a8cbb882c45c359694350e6a6cdbb0283d8da0ddaa368bea1",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 4
+    },
+    {
+      "index": 5,
+      "file": "frames/05.png",
+      "sha256": "a7a749529496150e94ac5bd189d7ba3c591d7f65e32c3ca94abd0ce2ffdc58d3",
+      "rgba_sha256": "09ab19efb609797debfc42b97d4740b977eb82d04d8fe5bb2cd16e860b3d5ada",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 5
+    },
+    {
+      "index": 6,
+      "file": "frames/06.png",
+      "sha256": "db91c80fcf90bc2714e26dc6a26cc57c1d05dbde4152a392c5df9109715c03ad",
+      "rgba_sha256": "b50fe00589a7d0cc551f7f443dfbb5e4f64be6752e34b767815f51c44a9a524b",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 6
+    },
+    {
+      "index": 7,
+      "file": "frames/07.png",
+      "sha256": "8c0b974efd0163968442a685579d7b6881966e04d9dd84fa06966d09e6b256aa",
+      "rgba_sha256": "d455a5862e992210139c3a1dc9fb5a922c5d7241d8b82ea34a98bbb44f507eba",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 7
+    },
+    {
+      "index": 8,
+      "file": "frames/08.png",
+      "sha256": "24b8c292c5350649826b42b4f7a64bc7e04eed276a19905cbab0dbb0098795ee",
+      "rgba_sha256": "9c2b23c5fa165dcdbffcf5e4b85a60edb844f7f819703f070d884c9b7fa803c8",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 8
+    },
+    {
+      "index": 9,
+      "file": "frames/09.png",
+      "sha256": "730ae4e30e1751488051c1ef420ca6e9163b47439753caf0b47cf632c5f66040",
+      "rgba_sha256": "a0fbf1234f38e8cf36bebd408c3a6030c9263918cf138f32aff589248a87bdc8",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 9
+    },
+    {
+      "index": 10,
+      "file": "frames/10.png",
+      "sha256": "778fe296964a4a9f3a503bba14018cfa58a2b60109d2501938bcf559540825af",
+      "rgba_sha256": "507018d28219a30690758a135d8328a58873fcb619f83427c30e5f002e600961",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 10
+    },
+    {
+      "index": 11,
+      "file": "frames/11.png",
+      "sha256": "5241256d47e2b6a746b78d3c4275be58bbfe865e473fb63f8de32f01e02ac42c",
+      "rgba_sha256": "ea22ad7061745304cf8a3b192a04904f7db1c8b8843403ee8ed6eabee7065aa3",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 11
+    },
+    {
+      "index": 12,
+      "file": "frames/12.png",
+      "sha256": "6470267adbdecfa21c5eac4cda638858565fa91780012932bd180409a5516392",
+      "rgba_sha256": "4af83b4de08671c59ff7ef24eca193b9c9f0385ae6aff9c789aa4d5ff76b2236",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 12
+    },
+    {
+      "index": 13,
+      "file": "frames/13.png",
+      "sha256": "0e2c0a13d5f2408693e2921bb0b44ce88a529a1d621b864c829f4475207c9a9c",
+      "rgba_sha256": "226bf8e6985ad744db119396dce94c2489f0ee9143d53f8e9553795ec3effe5b",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 13
+    },
+    {
+      "index": 14,
+      "file": "frames/14.png",
+      "sha256": "66a46947102118d1e58b4a536378c4c443964ce6cecc3737f92a2178a2c4a590",
+      "rgba_sha256": "0a8bfc8c493c0591bb2bf3e9ae97cb308c280376e2c76194d787d2e89793ee21",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 14
+    },
+    {
+      "index": 15,
+      "file": "frames/15.png",
+      "sha256": "e935cb97a0d39441f3dcbc94f6c32c1351f371d33f78394ce0af27b96715df70",
+      "rgba_sha256": "dad3933b4fdee9725ff9e0204d648665fb35e65b286eba40a080ad8ab97f21a2",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 15
+    },
+    {
+      "index": 16,
+      "file": "frames/16.png",
+      "sha256": "3039c3bad0faa7cff6edbf7d297c9b7f5af4193a33274e0715d9a4534e944203",
+      "rgba_sha256": "b281100a52634c2cee8a207b0c98f6c5f6626d7fad4a0527e132db6a851ce7a3",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 16
+    },
+    {
+      "index": 17,
+      "file": "frames/17.png",
+      "sha256": "955c10306af366cd1cc08390b33d8d1f3492488f4d9fae96bc44a61a507399ae",
+      "rgba_sha256": "3a50d841cabe5a94ca66f04736a402dc97827b2faeddb1c01b4c33ba7b0b84a4",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 17
+    },
+    {
+      "index": 18,
+      "file": "frames/18.png",
+      "sha256": "2acf04daca2c545da64561ce1727798bdc80e144a949ff2d724ceaae46b6aadf",
+      "rgba_sha256": "1eb8119076cdc61f703b58a5341cb5eb75a89908f2f0188288667906d017b4de",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 18
+    },
+    {
+      "index": 19,
+      "file": "frames/19.png",
+      "sha256": "adfb7f234f24148d3c36e360bd378c100179b1851f46b660d71be5626b557841",
+      "rgba_sha256": "9c6c415c816b4cde57b4c7415c2dc3309f2628ab39be1ba31973b8e7185f16dd",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 19
+    },
+    {
+      "index": 20,
+      "file": "frames/20.png",
+      "sha256": "d93e5222ff050348e98a26717942839d22f10fae30602f73466d8fe685cdcc8a",
+      "rgba_sha256": "6154e19047dcc2586309bdd6accdab45aa783fbb7bb64ec7c1208d95ba354b8b",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 20
+    },
+    {
+      "index": 21,
+      "file": "frames/21.png",
+      "sha256": "1a0ebfe3d4ca51d8a9342fac505dedddae0489e678e11326d38b28383770d68d",
+      "rgba_sha256": "4765b8f6bd016d1dc3802c2bc18745060a85606e0d727a219d26230b7850dd11",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 21
+    },
+    {
+      "index": 22,
+      "file": "frames/22.png",
+      "sha256": "c9cddd765c4b402067da13ae7a1f0aadf3b08343ae282bf6efb23d238afc3f77",
+      "rgba_sha256": "102736404633f41308548d28a5ad603a41b5a6ea75440fa792e49edcaf1bb432",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 22
+    },
+    {
+      "index": 23,
+      "file": "frames/23.png",
+      "sha256": "16d19faa08586c47e5c4664755fe55338ef04c6d5f5b712524e844af17fddf1b",
+      "rgba_sha256": "7b24c9ed82a0b8160aebf69e23e0a65704abeba3856f8632c9da14b32fe9e0bb",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 23
+    },
+    {
+      "index": 24,
+      "file": "frames/24.png",
+      "sha256": "e3f6e953a20330c0dde1be798310a73ced8897717d779d872f50b2bb3e61457f",
+      "rgba_sha256": "26a1272413aa2932ec5a79ac8f683915e1f5a0ec7bc343a5d5e34ba0b0590b83",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 24
+    },
+    {
+      "index": 25,
+      "file": "frames/25.png",
+      "sha256": "952c75dd5ded98e14612c800da8c8dca8afee68a6d2bbed83f1a3a04be45196c",
+      "rgba_sha256": "89952c3dc91bddb15d149e5e114692a25a28b0ff667c2cd6b5e50d97cc434490",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 25
+    },
+    {
+      "index": 26,
+      "file": "frames/26.png",
+      "sha256": "b13ffafca18d714cc04661298926d20f3ac0172e805613dd2d3dc0adfe39774b",
+      "rgba_sha256": "4aea1959419c88f800feeedcdd3152fb9ce86a261c89f4f001ddb0b2791600ae",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 26
+    },
+    {
+      "index": 27,
+      "file": "frames/27.png",
+      "sha256": "b6c4a531d9a8b6510c876806525eec4046ab498746b7d04ffbd800d2398e685d",
+      "rgba_sha256": "c56bfa42c6a870e8fe348186e171ebd83674922ab7bc3e34acfe39100899b411",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 27
+    },
+    {
+      "index": 28,
+      "file": "frames/28.png",
+      "sha256": "0c4793fb31e823d2fb43774d080d137ab0a59a3b9bef1243cd7095e9773d1435",
+      "rgba_sha256": "01d1b603996237a8006de8927e3cc429e4503b97612e37db1b6a3da82b97cad6",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 28
+    },
+    {
+      "index": 29,
+      "file": "frames/29.png",
+      "sha256": "22eeeecbd0991e333913ddf67381fa9f81ea0282ec3598f9863325a7110edb18",
+      "rgba_sha256": "8df852636fe9bb18be1ab43a9b8ddd86f0fdeb06b279cce9c845366666e17286",
+      "hold": [
+        1,
+        24
+      ],
+      "source_native_index": 29
+    }
+  ],
+  "source_manifest_sha256": "975b6e31a5bab96391ba4045544d62e737a9b4a68a9f78086c243bfe24f212df",
+  "status": "USER_APPROVED_WALK_BASELINE",
+  "approval_scope": "This exact walk and view, unarmed; source PNG bytes and holds unchanged."
+}

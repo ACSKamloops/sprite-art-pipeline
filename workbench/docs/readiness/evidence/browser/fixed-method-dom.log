@@ -1,0 +1,10 @@
+### Result
+{
+  "method": "local.library.list",
+  "response": [],
+  "errorVisible": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({method:document.querySelector("#method-name").textContent,response:JSON.parse(document.querySelector("#method-response").textContent),errorVisible:!document.querySelector("#global-error").hidden})');
+```

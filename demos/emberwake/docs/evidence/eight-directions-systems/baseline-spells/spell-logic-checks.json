@@ -1,0 +1,164 @@
+{
+	"checks": 80,
+	"failures": [],
+	"note": "Engine behavior and rendered pixel evidence; no art quality rating.",
+	"receipts": [
+		{
+			"character": "rowan",
+			"facing": "south",
+			"release_frame": 15,
+			"socket_native": [
+				99,
+				72
+			],
+			"visual_offset": [
+				23.1000003814697,
+				-26.4000015258789
+			]
+		},
+		{
+			"character": "rowan",
+			"facing": "east",
+			"release_frame": 39,
+			"socket_native": [
+				102,
+				57
+			],
+			"visual_offset": [
+				25.0800018310547,
+				-36.3000030517578
+			]
+		},
+		{
+			"character": "rowan",
+			"facing": "north",
+			"release_frame": 63,
+			"socket_native": [
+				93,
+				49
+			],
+			"visual_offset": [
+				19.1400012969971,
+				-41.5800018310547
+			]
+		},
+		{
+			"character": "rowan",
+			"facing": "west",
+			"release_frame": 87,
+			"socket_native": [
+				24,
+				60
+			],
+			"visual_offset": [
+				-26.4000015258789,
+				-34.3199996948242
+			]
+		},
+		{
+			"character": "lyra",
+			"facing": "south",
+			"release_frame": 19,
+			"socket_native": [
+				99.0,
+				72.0
+			],
+			"visual_offset": [
+				23.1000003814697,
+				-26.4000015258789
+			]
+		},
+		{
+			"character": "lyra",
+			"facing": "east",
+			"release_frame": 47,
+			"socket_native": [
+				95.0,
+				58.0
+			],
+			"visual_offset": [
+				20.4600009918213,
+				-35.6400032043457
+			]
+		},
+		{
+			"character": "lyra",
+			"facing": "north",
+			"release_frame": 75,
+			"socket_native": [
+				94.0,
+				57.0
+			],
+			"visual_offset": [
+				19.8000011444092,
+				-36.3000030517578
+			]
+		},
+		{
+			"character": "lyra",
+			"facing": "west",
+			"release_frame": 103,
+			"socket_native": [
+				34.0,
+				58.0
+			],
+			"visual_offset": [
+				-19.8000011444092,
+				-35.6400032043457
+			]
+		},
+		{
+			"character": "brann",
+			"facing": "south",
+			"release_frame": 19,
+			"socket_native": [
+				101.0,
+				72.0
+			],
+			"visual_offset": [
+				24.4200000762939,
+				-26.4000015258789
+			]
+		},
+		{
+			"character": "brann",
+			"facing": "east",
+			"release_frame": 47,
+			"socket_native": [
+				96.0,
+				52.0
+			],
+			"visual_offset": [
+				21.1200008392334,
+				-39.6000022888184
+			]
+		},
+		{
+			"character": "brann",
+			"facing": "north",
+			"release_frame": 75,
+			"socket_native": [
+				96.0,
+				40.0
+			],
+			"visual_offset": [
+				21.1200008392334,
+				-47.5200004577637
+			]
+		},
+		{
+			"character": "brann",
+			"facing": "west",
+			"release_frame": 103,
+			"socket_native": [
+				32.0,
+				52.0
+			],
+			"visual_offset": [
+				-21.1200008392334,
+				-39.6000022888184
+			]
+		}
+	],
+	"renderer_requested": false
+}

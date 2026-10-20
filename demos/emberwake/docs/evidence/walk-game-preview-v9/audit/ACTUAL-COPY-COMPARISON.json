@@ -1,0 +1,80 @@
+[
+  {
+    "path": "QUALIFICATIONS.json",
+    "actual_exists": false,
+    "docs_sha256": "cb4d054f3c0a810b91f7802d391f1d1fb3bbf8be3ed1dfe1c628fd9fd027d92b"
+  },
+  {
+    "path": "ISOLATION.json",
+    "actual_exists": true,
+    "docs_sha256": "6b8c4ca2d66a3ff95e1f5fd502cb336857c0359ed51b4d85e7c78488d249fffa",
+    "actual_sha256": "6b8c4ca2d66a3ff95e1f5fd502cb336857c0359ed51b4d85e7c78488d249fffa",
+    "same": true
+  },
+  {
+    "path": "TEST-CLEANUP-OVERLAY.json",
+    "actual_exists": true,
+    "docs_sha256": "b5f9fc3dd7795cf592dfe42acabc19c7a12674a92cf2798210db69e6efecb74f",
+    "actual_sha256": "b5f9fc3dd7795cf592dfe42acabc19c7a12674a92cf2798210db69e6efecb74f",
+    "same": true
+  },
+  {
+    "path": "FINAL-POLISH-CLEANUP.json",
+    "actual_exists": true,
+    "docs_sha256": "6bf0f27bf69f9215f241b54b12b9ff3d91c1dcadd0f4ba98cac1c365dd19d029",
+    "actual_sha256": "6bf0f27bf69f9215f241b54b12b9ff3d91c1dcadd0f4ba98cac1c365dd19d029",
+    "same": true
+  },
+  {
+    "path": "BROWSER-TRACE-COVERAGE.json",
+    "actual_exists": true,
+    "docs_sha256": "74742918e720927ff7419ad3ffb1f0cb440da1a8d84038ffdc8dbee16ddf53e7",
+    "actual_sha256": "74742918e720927ff7419ad3ffb1f0cb440da1a8d84038ffdc8dbee16ddf53e7",
+    "same": true
+  },
+  {
+    "path": "RUN-COMMANDS.json",
+    "actual_exists": false,
+    "docs_sha256": "16362bca4a7456bd661cee99aa23e62ad75641e68e77a21c83aa967c07373465"
+  },
+  {
+    "path": "BROWSER-EIGHT-DIRECTIONS.json",
+    "actual_exists": true,
+    "docs_sha256": "10dd930052fd65c6b03d8343c2244509177815d5296dc04fdf654ba375119168",
+    "actual_sha256": "10dd930052fd65c6b03d8343c2244509177815d5296dc04fdf654ba375119168",
+    "same": true
+  },
+  {
+    "path": "behavior-initial/RESULTS.json",
+    "actual_exists": true,
+    "docs_sha256": "2be9779284a3268ec62c77330e07b810ca478b70c2d28b8c9527e3d153f557a6",
+    "actual_sha256": "2be9779284a3268ec62c77330e07b810ca478b70c2d28b8c9527e3d153f557a6",
+    "same": true
+  },
+  {
+    "path": "behavior-unpatched-followup/RESULTS.json",
+    "actual_exists": true,
+    "docs_sha256": "0bcc87503e7b56cb5f556e18ef09b3990dc4eb1aaa2226eafc4f1a778c356273",
+    "actual_sha256": "0bcc87503e7b56cb5f556e18ef09b3990dc4eb1aaa2226eafc4f1a778c356273",
+    "same": true
+  },
+  {
+    "path": "behavior-cleanup/RESULTS.json",
+    "actual_exists": false,
+    "docs_sha256": "6aff7b292e5e55a8b410c2dcf955ca801c2f3360062d64525a53ec1434702403"
+  },
+  {
+    "path": "native-walk/RECEIPT.json",
+    "actual_exists": true,
+    "docs_sha256": "9f39fcdffeb326fd7c1e452648673140871667e6a293ed350dea5b53e85a43c5",
+    "actual_sha256": "9f39fcdffeb326fd7c1e452648673140871667e6a293ed350dea5b53e85a43c5",
+    "same": true
+  },
+  {
+    "path": "media-replay/MEDIA-RECEIPT.json",
+    "actual_exists": true,
+    "docs_sha256": "5145c81876014184b7b6111300f6a59b5aaf73d0c2f43d7f1b8247ab2da3f9f3",
+    "actual_sha256": "5145c81876014184b7b6111300f6a59b5aaf73d0c2f43d7f1b8247ab2da3f9f3",
+    "same": true
+  }
+]

@@ -1,0 +1,500 @@
+{
+  "scope": "only owned synthetic mechanics fixtures and runtime receipts; no private data",
+  "files": [
+    {
+      "file": "RUN-RECEIPT.json",
+      "bytes": 1479,
+      "sha256": "fcef89be22d412a3dcd138c41fcbd0dc440ad0cb12ef58550125a5cc43dfc0be"
+    },
+    {
+      "file": "godot-plays-0/.godot/imported/sheet.png-b93731627d2f5b1030ad8028f44ebe69.ctex",
+      "bytes": 152,
+      "sha256": "345c09765c3c54f2a26ab0716a8c78e387bbd30c876fc498850893d82f296846"
+    },
+    {
+      "file": "godot-plays-0/clip.tres",
+      "bytes": 681,
+      "sha256": "0bd44a518589b1848a51f0b3ff8e752dc5cdaeac497e08662e78d5d86f3bcab4"
+    },
+    {
+      "file": "godot-plays-0/clip.tscn",
+      "bytes": 371,
+      "sha256": "1152a4d47aa66d94b687bf859cab2670603dbfd7e51e1ba592dee800891fbe5a"
+    },
+    {
+      "file": "godot-plays-0/driver.gd",
+      "bytes": 821,
+      "sha256": "4622446376888fb8d45c3a0e8655ba918c9e79b438639a9ac7dd696f2fddb1a2"
+    },
+    {
+      "file": "godot-plays-0/driver.gd.uid",
+      "bytes": 19,
+      "sha256": "e7657309d58801bdbebd892209d4277a9627d967b601841bfa9338cf98d7f83b"
+    },
+    {
+      "file": "godot-plays-0/engine-receipt.json",
+      "bytes": 1740,
+      "sha256": "a645f77a6d732df3d91b265d3e477fbf420f7981105429c060baa6c608fb4451"
+    },
+    {
+      "file": "godot-plays-0/engine-stdout.txt",
+      "bytes": 1051,
+      "sha256": "e2d3f4c8bbd4a7a82686aef5e7350de971d849f3503f23b2f7564aa5e4ff016d"
+    },
+    {
+      "file": "godot-plays-0/frame-0000.png",
+      "bytes": 92,
+      "sha256": "62d44cee3dc7a629c8c6a0c3c02623ec7023a40cd82102cb3b1103e2fcd65779"
+    },
+    {
+      "file": "godot-plays-0/frame-0000.png.import",
+      "bytes": 934,
+      "sha256": "52c0fd2f7902bb139b8ed06738cb1a4a608d5fbdb9511412397aac42f7009ada"
+    },
+    {
+      "file": "godot-plays-0/frame-0001.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "godot-plays-0/frame-0001.png.import",
+      "bytes": 935,
+      "sha256": "1f6b3fae8b9e3626cf59a10239aea602db964f12556140803d776c9f002a6528"
+    },
+    {
+      "file": "godot-plays-0/frame-0002.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "godot-plays-0/frame-0002.png.import",
+      "bytes": 935,
+      "sha256": "723303f92341dcce7fdf44c4d508b275e94be9fd3e625dc2ec255ed588cf602b"
+    },
+    {
+      "file": "godot-plays-0/project.godot",
+      "bytes": 308,
+      "sha256": "78e8ab499501f57aad4e84425c6523904e4a61d349086a7fa368d5270f19ac9b"
+    },
+    {
+      "file": "godot-plays-0/reloaded.tres",
+      "bytes": 688,
+      "sha256": "2862bf3b36b78083025d51fef8b05658f0e20de5bb534803d73c6ebbe03033c3"
+    },
+    {
+      "file": "godot-plays-0/sheet.png",
+      "bytes": 118,
+      "sha256": "54cafca908f864b83bcb37ce71c84778e161678d00766c686087a05a27bffa0f"
+    },
+    {
+      "file": "godot-plays-0/sheet.png.import",
+      "bytes": 919,
+      "sha256": "9a7cdd526cb212cf9cf2b81076b28a294146e0fc510945ae61e9c3a5df79ffcb"
+    },
+    {
+      "file": "godot-plays-0/timeline.json",
+      "bytes": 2384,
+      "sha256": "2cc1a5bc1a35b94654f24818abb136fd4a5231b76930116f1ea0e0431c79a214"
+    },
+    {
+      "file": "godot-plays-0/verify.gd",
+      "bytes": 5417,
+      "sha256": "2e6933098b530e234321cc6d06a7b8ea4401d8c2e8252e3045e5e6be4920ee5a"
+    },
+    {
+      "file": "godot-plays-0/verify.gd.uid",
+      "bytes": 19,
+      "sha256": "fcb504829c212d5eddf05f6ff273e57ac106dfeaabfc5f2785b5c230a4685fd0"
+    },
+    {
+      "file": "godot-plays-1/.godot/imported/sheet.png-b93731627d2f5b1030ad8028f44ebe69.ctex",
+      "bytes": 152,
+      "sha256": "345c09765c3c54f2a26ab0716a8c78e387bbd30c876fc498850893d82f296846"
+    },
+    {
+      "file": "godot-plays-1/clip.tres",
+      "bytes": 682,
+      "sha256": "b7e0b06419e991cadf30ec7a428fe823b9750d078b9e3b8c271ef6a3e09358da"
+    },
+    {
+      "file": "godot-plays-1/clip.tscn",
+      "bytes": 371,
+      "sha256": "1152a4d47aa66d94b687bf859cab2670603dbfd7e51e1ba592dee800891fbe5a"
+    },
+    {
+      "file": "godot-plays-1/driver.gd",
+      "bytes": 821,
+      "sha256": "4622446376888fb8d45c3a0e8655ba918c9e79b438639a9ac7dd696f2fddb1a2"
+    },
+    {
+      "file": "godot-plays-1/driver.gd.uid",
+      "bytes": 19,
+      "sha256": "e7657309d58801bdbebd892209d4277a9627d967b601841bfa9338cf98d7f83b"
+    },
+    {
+      "file": "godot-plays-1/engine-receipt.json",
+      "bytes": 1643,
+      "sha256": "91ae6a1b669543c3e230723233dfd83b6ee8da9c5e6274dfba1368a40688e2f1"
+    },
+    {
+      "file": "godot-plays-1/engine-stdout.txt",
+      "bytes": 1051,
+      "sha256": "e2d3f4c8bbd4a7a82686aef5e7350de971d849f3503f23b2f7564aa5e4ff016d"
+    },
+    {
+      "file": "godot-plays-1/frame-0000.png",
+      "bytes": 92,
+      "sha256": "62d44cee3dc7a629c8c6a0c3c02623ec7023a40cd82102cb3b1103e2fcd65779"
+    },
+    {
+      "file": "godot-plays-1/frame-0000.png.import",
+      "bytes": 934,
+      "sha256": "52c0fd2f7902bb139b8ed06738cb1a4a608d5fbdb9511412397aac42f7009ada"
+    },
+    {
+      "file": "godot-plays-1/frame-0001.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "godot-plays-1/frame-0001.png.import",
+      "bytes": 935,
+      "sha256": "1f6b3fae8b9e3626cf59a10239aea602db964f12556140803d776c9f002a6528"
+    },
+    {
+      "file": "godot-plays-1/frame-0002.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "godot-plays-1/frame-0002.png.import",
+      "bytes": 935,
+      "sha256": "723303f92341dcce7fdf44c4d508b275e94be9fd3e625dc2ec255ed588cf602b"
+    },
+    {
+      "file": "godot-plays-1/project.godot",
+      "bytes": 308,
+      "sha256": "78e8ab499501f57aad4e84425c6523904e4a61d349086a7fa368d5270f19ac9b"
+    },
+    {
+      "file": "godot-plays-1/reloaded.tres",
+      "bytes": 688,
+      "sha256": "25730d2f7acef24d7d25607ed48131e3c966189a55269e79c6b6e0f7ba3cc70b"
+    },
+    {
+      "file": "godot-plays-1/sheet.png",
+      "bytes": 118,
+      "sha256": "54cafca908f864b83bcb37ce71c84778e161678d00766c686087a05a27bffa0f"
+    },
+    {
+      "file": "godot-plays-1/sheet.png.import",
+      "bytes": 919,
+      "sha256": "9a7cdd526cb212cf9cf2b81076b28a294146e0fc510945ae61e9c3a5df79ffcb"
+    },
+    {
+      "file": "godot-plays-1/timeline.json",
+      "bytes": 2386,
+      "sha256": "2fe6591ad482fec04025aa967f27ce31db1fc18a26678815a53b6525c7a0f5f8"
+    },
+    {
+      "file": "godot-plays-1/verify.gd",
+      "bytes": 5417,
+      "sha256": "2e6933098b530e234321cc6d06a7b8ea4401d8c2e8252e3045e5e6be4920ee5a"
+    },
+    {
+      "file": "godot-plays-1/verify.gd.uid",
+      "bytes": 19,
+      "sha256": "fcb504829c212d5eddf05f6ff273e57ac106dfeaabfc5f2785b5c230a4685fd0"
+    },
+    {
+      "file": "godot-plays-3/.godot/imported/sheet.png-b93731627d2f5b1030ad8028f44ebe69.ctex",
+      "bytes": 152,
+      "sha256": "345c09765c3c54f2a26ab0716a8c78e387bbd30c876fc498850893d82f296846"
+    },
+    {
+      "file": "godot-plays-3/clip.tres",
+      "bytes": 682,
+      "sha256": "b7e0b06419e991cadf30ec7a428fe823b9750d078b9e3b8c271ef6a3e09358da"
+    },
+    {
+      "file": "godot-plays-3/clip.tscn",
+      "bytes": 371,
+      "sha256": "1152a4d47aa66d94b687bf859cab2670603dbfd7e51e1ba592dee800891fbe5a"
+    },
+    {
+      "file": "godot-plays-3/driver.gd",
+      "bytes": 821,
+      "sha256": "4622446376888fb8d45c3a0e8655ba918c9e79b438639a9ac7dd696f2fddb1a2"
+    },
+    {
+      "file": "godot-plays-3/driver.gd.uid",
+      "bytes": 19,
+      "sha256": "e7657309d58801bdbebd892209d4277a9627d967b601841bfa9338cf98d7f83b"
+    },
+    {
+      "file": "godot-plays-3/engine-receipt.json",
+      "bytes": 2013,
+      "sha256": "0066cc18039cba525b0291c3541577993f4cd0fe9ebe647c13e1ab33c9b808c4"
+    },
+    {
+      "file": "godot-plays-3/engine-stdout.txt",
+      "bytes": 1051,
+      "sha256": "e2d3f4c8bbd4a7a82686aef5e7350de971d849f3503f23b2f7564aa5e4ff016d"
+    },
+    {
+      "file": "godot-plays-3/frame-0000.png",
+      "bytes": 92,
+      "sha256": "62d44cee3dc7a629c8c6a0c3c02623ec7023a40cd82102cb3b1103e2fcd65779"
+    },
+    {
+      "file": "godot-plays-3/frame-0000.png.import",
+      "bytes": 934,
+      "sha256": "52c0fd2f7902bb139b8ed06738cb1a4a608d5fbdb9511412397aac42f7009ada"
+    },
+    {
+      "file": "godot-plays-3/frame-0001.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "godot-plays-3/frame-0001.png.import",
+      "bytes": 935,
+      "sha256": "1f6b3fae8b9e3626cf59a10239aea602db964f12556140803d776c9f002a6528"
+    },
+    {
+      "file": "godot-plays-3/frame-0002.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "godot-plays-3/frame-0002.png.import",
+      "bytes": 935,
+      "sha256": "723303f92341dcce7fdf44c4d508b275e94be9fd3e625dc2ec255ed588cf602b"
+    },
+    {
+      "file": "godot-plays-3/project.godot",
+      "bytes": 308,
+      "sha256": "78e8ab499501f57aad4e84425c6523904e4a61d349086a7fa368d5270f19ac9b"
+    },
+    {
+      "file": "godot-plays-3/reloaded.tres",
+      "bytes": 688,
+      "sha256": "25730d2f7acef24d7d25607ed48131e3c966189a55269e79c6b6e0f7ba3cc70b"
+    },
+    {
+      "file": "godot-plays-3/sheet.png",
+      "bytes": 118,
+      "sha256": "54cafca908f864b83bcb37ce71c84778e161678d00766c686087a05a27bffa0f"
+    },
+    {
+      "file": "godot-plays-3/sheet.png.import",
+      "bytes": 919,
+      "sha256": "9a7cdd526cb212cf9cf2b81076b28a294146e0fc510945ae61e9c3a5df79ffcb"
+    },
+    {
+      "file": "godot-plays-3/timeline.json",
+      "bytes": 2386,
+      "sha256": "146b02fc61ba8e95eb0e0b2c8bdb519484bf7edb7afdfca75428c61827ace8ba"
+    },
+    {
+      "file": "godot-plays-3/verify.gd",
+      "bytes": 5417,
+      "sha256": "2e6933098b530e234321cc6d06a7b8ea4401d8c2e8252e3045e5e6be4920ee5a"
+    },
+    {
+      "file": "godot-plays-3/verify.gd.uid",
+      "bytes": 19,
+      "sha256": "fcb504829c212d5eddf05f6ff273e57ac106dfeaabfc5f2785b5c230a4685fd0"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/01c07bcad7b2cf5ec9aa206064227bb3323e233208a210ae10d9e2b778c95e61",
+      "bytes": 48,
+      "sha256": "01c07bcad7b2cf5ec9aa206064227bb3323e233208a210ae10d9e2b778c95e61"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/029d391a74df9e64d972dbac42885739105780f0154f96d66395c398d21340f8",
+      "bytes": 4524,
+      "sha256": "029d391a74df9e64d972dbac42885739105780f0154f96d66395c398d21340f8"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/08cc3e0d9eb99f5f18ba3818071f75371ea3a9ca2af3b13055ea55f0d51daa52",
+      "bytes": 202,
+      "sha256": "08cc3e0d9eb99f5f18ba3818071f75371ea3a9ca2af3b13055ea55f0d51daa52"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/2017b4fcb7853fd93cd767a8ae56e628779d960a904daf9dc065f4b6a4c03e47",
+      "bytes": 192,
+      "sha256": "2017b4fcb7853fd93cd767a8ae56e628779d960a904daf9dc065f4b6a4c03e47"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/2374de7c4d3b5a2b3d1c474d9e55d1a48f05e086f98ac1792cbf626a8f73671d",
+      "bytes": 192,
+      "sha256": "2374de7c4d3b5a2b3d1c474d9e55d1a48f05e086f98ac1792cbf626a8f73671d"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/2aa177a2155a2995a2e8c849fb5ec5d4ffcb1a96f1cc7b76ce525e408bed12fa",
+      "bytes": 202,
+      "sha256": "2aa177a2155a2995a2e8c849fb5ec5d4ffcb1a96f1cc7b76ce525e408bed12fa"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/3dcb6314c1ae1c1aa683a6864bdec68349c14f98eca109e7656c5f4c18885981",
+      "bytes": 202,
+      "sha256": "3dcb6314c1ae1c1aa683a6864bdec68349c14f98eca109e7656c5f4c18885981"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/50e8f44122324b70d70edeeb33e95f8278088d1d2f921e677f145a1d936da676",
+      "bytes": 202,
+      "sha256": "50e8f44122324b70d70edeeb33e95f8278088d1d2f921e677f145a1d936da676"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/56a86e47ee7bd87b7fc5d761cd94b7ea63943025ab29237a27932485bb946aca",
+      "bytes": 202,
+      "sha256": "56a86e47ee7bd87b7fc5d761cd94b7ea63943025ab29237a27932485bb946aca"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/5a02407d8d43b5e88049558152cd83c22af96075d66fa24d02c525650b912e69",
+      "bytes": 202,
+      "sha256": "5a02407d8d43b5e88049558152cd83c22af96075d66fa24d02c525650b912e69"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/70b405b5e6914fee65c2e5dbd23c5c45be1f2e585572dc1a637fe97b6ee1230c",
+      "bytes": 202,
+      "sha256": "70b405b5e6914fee65c2e5dbd23c5c45be1f2e585572dc1a637fe97b6ee1230c"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/9b30cc65d1c9451ad1e1e3b1848a4dea061e145a7b4d3d063483107f27199744",
+      "bytes": 202,
+      "sha256": "9b30cc65d1c9451ad1e1e3b1848a4dea061e145a7b4d3d063483107f27199744"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/a64a4cbafa00e3964fd43adbf3011bc548f7b40865640c44b360c077ad8c13ae",
+      "bytes": 48,
+      "sha256": "a64a4cbafa00e3964fd43adbf3011bc548f7b40865640c44b360c077ad8c13ae"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/a8140ad99eef75c8960d3b195deb8f16d10db98e5576dd43cd48e4450885dde3",
+      "bytes": 953,
+      "sha256": "a8140ad99eef75c8960d3b195deb8f16d10db98e5576dd43cd48e4450885dde3"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/b03e5b9885d1a23fc5db2e99ac03e97397c65d104e2baa527a0a3ea0950d47c8",
+      "bytes": 202,
+      "sha256": "b03e5b9885d1a23fc5db2e99ac03e97397c65d104e2baa527a0a3ea0950d47c8"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/b8a668b0ecd10b1a099d2a3b4b96f2e90bcfe3fbc1dd0db676775c6de46d5dcb",
+      "bytes": 192,
+      "sha256": "b8a668b0ecd10b1a099d2a3b4b96f2e90bcfe3fbc1dd0db676775c6de46d5dcb"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/c5d5711fb0314ceda84fec33e54069218d521622ae4bef4a13edd38b299279a4",
+      "bytes": 192,
+      "sha256": "c5d5711fb0314ceda84fec33e54069218d521622ae4bef4a13edd38b299279a4"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/c7358aac35c95c5231f48acdc5ae11e67fa58d5eead064fc7c1b35e0e6a0f657",
+      "bytes": 202,
+      "sha256": "c7358aac35c95c5231f48acdc5ae11e67fa58d5eead064fc7c1b35e0e6a0f657"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/cbc62aeff42752f1bfede3fb5bec18602b048b3ca3d950b6212a9b14774c45dc",
+      "bytes": 202,
+      "sha256": "cbc62aeff42752f1bfede3fb5bec18602b048b3ca3d950b6212a9b14774c45dc"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/d2b48e1586dc5963e42fb209cc4b57c187ea8fb9f9612161248540df02a1c04b",
+      "bytes": 192,
+      "sha256": "d2b48e1586dc5963e42fb209cc4b57c187ea8fb9f9612161248540df02a1c04b"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/e709f080648c4d994b9c204bc351a1f4955189588bb91cb5d5da473942da30b6",
+      "bytes": 192,
+      "sha256": "e709f080648c4d994b9c204bc351a1f4955189588bb91cb5d5da473942da30b6"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/efbdab32807cd6d74d33b38aa3fb75ab65140677c31d2d8411a8873e2397eb4f",
+      "bytes": 192,
+      "sha256": "efbdab32807cd6d74d33b38aa3fb75ab65140677c31d2d8411a8873e2397eb4f"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/f22c416b9ccfe66e5713899f2dca1043a1457a35bd62d74ea79b72f3cd752778",
+      "bytes": 192,
+      "sha256": "f22c416b9ccfe66e5713899f2dca1043a1457a35bd62d74ea79b72f3cd752778"
+    },
+    {
+      "file": "owned-parts/editable/artifacts/f8e32376dcc861ad428102cb9b799921a2703567acf48b0dbfe0591a15937fc1",
+      "bytes": 48,
+      "sha256": "f8e32376dcc861ad428102cb9b799921a2703567acf48b0dbfe0591a15937fc1"
+    },
+    {
+      "file": "owned-parts/editable/index.json",
+      "bytes": 1832,
+      "sha256": "0ff51c96e8a5ddfb29381b6c40ebe22aee39baf97b8c212e5f73831e030c7d32"
+    },
+    {
+      "file": "owned-parts/editable/scene.json",
+      "bytes": 4524,
+      "sha256": "029d391a74df9e64d972dbac42885739105780f0154f96d66395c398d21340f8"
+    },
+    {
+      "file": "owned-parts/export-report.json",
+      "bytes": 7003,
+      "sha256": "238508b628ea3da9436fa7dc95dcda1470833807b7c7aa1ee8a1893f7ebcb2c8"
+    },
+    {
+      "file": "owned-parts/frames/frame-0000.png",
+      "bytes": 92,
+      "sha256": "62d44cee3dc7a629c8c6a0c3c02623ec7023a40cd82102cb3b1103e2fcd65779"
+    },
+    {
+      "file": "owned-parts/frames/frame-0001.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "owned-parts/frames/frame-0002.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "owned-parts/manifest.json",
+      "bytes": 2386,
+      "sha256": "908a144facce1ed31cfbe3c657fa7e038b8a6d1a1abaef2f34d7501f6c995782"
+    },
+    {
+      "file": "owned-parts/review/frames/frame-0000.png",
+      "bytes": 92,
+      "sha256": "62d44cee3dc7a629c8c6a0c3c02623ec7023a40cd82102cb3b1103e2fcd65779"
+    },
+    {
+      "file": "owned-parts/review/frames/frame-0001.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "owned-parts/review/frames/frame-0002.png",
+      "bytes": 93,
+      "sha256": "fdc8af4d506431c8c95223ce77ca61cb1c849bfc4a5e9062607c4717628802b1"
+    },
+    {
+      "file": "owned-parts/review/review.html",
+      "bytes": 8426,
+      "sha256": "de572b3ccff8e1af32ca222961c71d91d9d8e6f9913cf8f9e588711fb600034e"
+    },
+    {
+      "file": "owned-parts/review/review.json",
+      "bytes": 2870,
+      "sha256": "bdcf18a4b9c9814251ec55cf7f31ee16411f4b9d68cb14da7060f0f8de47df5d"
+    },
+    {
+      "file": "owned-parts/sheet.png",
+      "bytes": 118,
+      "sha256": "54cafca908f864b83bcb37ce71c84778e161678d00766c686087a05a27bffa0f"
+    },
+    {
+      "file": "player-clock-receipt.json",
+      "bytes": 206,
+      "sha256": "5089d253c14df8e2d4ac872bbcedff3832f309ed3d4c436faf812cc222f3c457"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "owner_baseline_commit": "0043713",
+  "isolated_baseline_commit": "379f884",
+  "command": "python3 -m pytest -q tests/test_adversarial_pipeline.py --tb=no --junitxml=docs/adversarial-root-implementation/PIPELINE-BASELINE-JUNIT.xml",
+  "passed": 9,
+  "failed": 7,
+  "cases": [
+    {
+      "test": "test_failed_reference_after_success_retains_failed_run_and_parent",
+      "status": "failed",
+      "message": "sprite_workbench.core.ValidationError: Unknown prior step reference"
+    },
+    {
+      "test": "test_plan_executes_exact_frozen_input_not_mutated_caller",
+      "status": "failed",
+      "message": "assert 0.5 == 0.75 \u00b1 7.5e-07\n  \n  comparison failed\n  Obtained: 0.5\n  Expected: 0.75 \u00b1 7.5e-07"
+    },
+    {
+      "test": "test_pipeline_preflight_rejects_mistyped_identity_fields[invalid0]",
+      "status": "failed",
+      "message": "Failed: DID NOT RAISE <class 'sprite_workbench.core.ValidationError'>"
+    },
+    {
+      "test": "test_pipeline_preflight_rejects_mistyped_identity_fields[invalid1]",
+      "status": "failed",
+      "message": "TypeError: expected string or bytes-like object, got 'NoneType'"
+    },
+    {
+      "test": "test_mistyped_reference_after_success_is_structured_failed_step",
+      "status": "failed",
+      "message": "AttributeError: 'int' object has no attribute 'split'"
+    },
+    {
+      "test": "test_pipeline_import_prepare_edit_publish_preserves_clocks_pivots_and_stale_guard",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_cli_pipeline_failure_emits_json_receipt_and_exit2",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_finite_body_and_effect_replay_are_honored_through_composition",
+      "status": "failed",
+      "message": "assert [[255, 0, 0, ... 255, 0, 255]] == [[255, 0, 0, ... 255, 0, 255]]\n  \n  At index 2 diff: [0, 255, 0, 255] != [255, 0, 0, 255]\n  Right contains one more item: [0, 255, 0, 255]\n  Use -v to get more diff"
+    },
+    {
+      "test": "test_import_finite_gif_and_apng_counts_are_total_plays",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_track_oracles_linear_smoothstep_unwrapped_rotation_and_hold",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_baked_frame_values_and_audit_do_not_alias_other_frames_or_caller",
+      "status": "failed",
+      "message": "assert [99, 2] == [1, 2]\n  \n  At index 0 diff: 99 != 1\n  Use -v to get more diff"
+    },
+    {
+      "test": "test_invalid_track_clock_or_mode_is_structured[track0]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_invalid_track_clock_or_mode_is_structured[track1]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_invalid_track_clock_or_mode_is_structured[track2]",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_aggregate_layer_and_brush_work_caps_with_small_instrumented_budget",
+      "status": "passed",
+      "message": null
+    },
+    {
+      "test": "test_recomputed_manifest_is_rejected_before_renderer_execution",
+      "status": "passed",
+      "message": null
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "sha256": "7c8f66af4b5b5bcf602427a4834f479b7673ee047b279de2b11b694cc601e27e"
+    },
+    {
+      "path": "sprite_workbench/tracks.py",
+      "sha256": "2119852c78c8d6692a0ab29e1750aeb3807c42167e52e9889148d41b52fffbc9"
+    },
+    {
+      "path": "sprite_workbench/cli.py",
+      "sha256": "0b7e84f0ba0b6aa0e4219a2af284905627f528e79b54bddcf1051e834fc4f0d4"
+    },
+    {
+      "path": "sprite_workbench/composition.py",
+      "sha256": "d136063617b204319f968d4c03bdcbbb323958fac2aa0b4aae9930192ff9f83f"
+    },
+    {
+      "path": "tests/test_adversarial_pipeline.py",
+      "sha256": "3e2eab426a16ae5dd9c3f7f99580348252132c6dff487f5b5c2ab361b24306d9"
+    }
+  ],
+  "findings": [
+    {
+      "id": "P01",
+      "source": "pipeline.py:for step/args=resolve before try",
+      "required": "Resolution errors after earlier successful steps must produce an immutable failed run receipt. Mistyped refs must be structured; typed preflight IDs/version must reject cleanly.",
+      "status": "reproduced"
+    },
+    {
+      "id": "P02",
+      "source": "pipeline.py:steps from caller plan; put_json freeze does not replace live steps",
+      "required": "Execute the exact canonical deep-frozen plan. Controlled import hook changed yaw0->90 after freezing, while storedplan still0; outputx changed.",
+      "status": "reproduced"
+    },
+    {
+      "id": "P03",
+      "source": "composition.py:repeats/at only read loop Boolean",
+      "required": "Honor total finite play_count for body/effects when duration spans repeated periods; finite effect becomes transparent only after final play, body holds only after final play.",
+      "status": "reproduced"
+    },
+    {
+      "id": "P04",
+      "source": "tracks.py:sample returns shared vector; audit tracks is original list",
+      "required": "Deep-copy each baked frame value and freeze audit inputs; editing one frame must not modify another or audit lineage.",
+      "status": "reproduced"
+    }
+  ],
+  "resource_followup": {
+    "R06_status": "bounded-local-controls-pass",
+    "aggregate_byte_budget": "Two24byte layers exceed instrumented40byte budget and reject without mutation",
+    "brush_work_budget": "40 alternating256wide centers with size64square exceeds32M footprint; rejects before paint without huge allocation",
+    "manifest": "Appended newline to copied manifest rejects before Node starts",
+    "limitations": "No worst-case peak memory/thread/OS sandbox benchmark; these establish named admission rules only"
+  },
+  "comparison_evidence": {
+    "mechanical": "Selected9passing/7failing local oracles; original46fixed regressions separately allpass",
+    "visual": "No art-quality score or visual acceptance",
+    "vendor": "No private service/handler parity claim"
+  },
+  "model_calls": 0,
+  "network_calls": 0,
+  "root_owned_edits": 0
+}

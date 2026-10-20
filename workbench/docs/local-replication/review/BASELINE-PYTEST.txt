@@ -1,0 +1,79 @@
+F....F.F.                                                                [100%]
+=================================== FAILURES ===================================
+________ test_channel_huge_timeout_rejects_without_losing_followup_ping ________
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-27/test_channel_huge_timeout_reje0')
+
+    def test_channel_huge_timeout_rejects_without_losing_followup_ping(tmp_path):
+        result=channel_batch(tmp_path,[{'id':1,'method':'local.jobs.wait','params':{'job_id':'absent','timeout':10**400}},
+                                      {'id':2,'method':'system.ping'}])
+>       assert result.returncode==0,result.stderr[-1200:]
+E       AssertionError: _ref,workers=args.workers)
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/channel.py", line 81, in serve
+E             result = registry.invoke(method, params)
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/capabilities.py", line 164, in invoke
+E             try: return self._local[ident]['handler'](request)
+E                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/capabilities.py", line 96, in <lambda>
+E             'wait':lambda r:manager.wait(r['job_id'],timeout=r.get('timeout',30)),
+E                             ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/jobs.py", line 232, in wait
+E             deadline=time.monotonic()+_timeout(timeout)
+E                                       ~~~~~~~~^^^^^^^^^
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/jobs.py", line 52, in _timeout
+E             if isinstance(value,bool) or not isinstance(value,(int,float)) or not math.isfinite(value) or value<0:
+E                                                                                   ~~~~~~~~~~~~~^^^^^^^
+E         OverflowError: int too large to convert to float
+E         
+E       assert 1 == 0
+E        +  where 1 = CompletedProcess(args=['/home/astra/projects/pixellab-local-workbench/.venv/bin/python', '-m', 'sprite_workbench', '--...                                             ~~~~~~~~~~~~~^^^^^^^\nOverflowError: int too large to convert to float\n').returncode
+
+tests/test_local_channel_adversarial.py:37: AssertionError
+_________ test_verify_nonobject_manifest_returns_json_validation_error _________
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-27/test_verify_nonobject_manifest0')
+
+    def test_verify_nonobject_manifest_returns_json_validation_error(tmp_path):
+        directory=tmp_path/'bad';directory.mkdir();(directory/'MANIFEST.json').write_text('[]')
+        result=cli(['lab','verify-run',str(directory)])
+>       assert result.returncode==2,result.stderr
+E       AssertionError: Traceback (most recent call last):
+E           File "<frozen runpy>", line 198, in _run_module_as_main
+E           File "<frozen runpy>", line 88, in _run_code
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/__main__.py", line 2, in <module>
+E             raise SystemExit(main())
+E                              ~~~~^^
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/cli.py", line 57, in main
+E             elif args.lab_command=='verify-run':result=verify_run(args.directory)
+E                                                        ~~~~~~~~~~^^^^^^^^^^^^^^^^
+E           File "/home/astra/projects/pixellab-workbench-state/sprite_workbench/replication.py", line 166, in verify_run
+E             if manifest.get('kind') != 'local-run-file-manifest' or manifest.get('version') != 1:
+E                ^^^^^^^^^^^^
+E         AttributeError: 'list' object has no attribute 'get'
+E         
+E       assert 1 == 2
+E        +  where 1 = CompletedProcess(args=['/home/astra/projects/pixellab-local-workbench/.venv/bin/python', '-m', 'sprite_workbench', 'la...' or manifest.get(\'version\') != 1:\n       ^^^^^^^^^^^^\nAttributeError: \'list\' object has no attribute \'get\'\n').returncode
+
+tests/test_local_channel_adversarial.py:156: AssertionError
+__________ test_comparison_unsupported_clock_has_no_dead_review_links __________
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-27/test_comparison_unsupported_cl0')
+
+    def test_comparison_unsupported_clock_has_no_dead_review_links(tmp_path):
+        store=Store(tmp_path/'store');a=np.array([[[17,31,43,255]]],dtype=np.uint8)
+        sequence=save_sequence(store,[a],durations=[[1,10**400]])
+        out=tmp_path/'comparison';report=compare_sequences(store.path,sequence,store.path,sequence,out)
+        assert report['status']=='completed' and report['exact_sequence_match']
+        import re
+        links=re.findall(r'href="([^"]+)"',(out/'index.html').read_text())
+>       assert all((out/link).is_file() for link in links),'Unsupported previews must not be advertised as available'
+E       AssertionError: Unsupported previews must not be advertised as available
+E       assert False
+E        +  where False = all(<generator object test_comparison_unsupported_clock_has_no_dead_review_links.<locals>.<genexpr> at 0x6ffd9c1ef3e0>)
+
+tests/test_local_channel_adversarial.py:177: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_local_channel_adversarial.py::test_channel_huge_timeout_rejects_without_losing_followup_ping
+FAILED tests/test_local_channel_adversarial.py::test_verify_nonobject_manifest_returns_json_validation_error
+FAILED tests/test_local_channel_adversarial.py::test_comparison_unsupported_clock_has_no_dead_review_links
+3 failed, 6 passed in 1.24s

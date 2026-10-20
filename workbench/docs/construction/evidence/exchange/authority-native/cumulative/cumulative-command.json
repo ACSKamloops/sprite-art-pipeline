@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/home/astra/.local/bin/libresprite",
+    "-b",
+    "--list-layers",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-authority/test_cumulative_quantized_cloc0/export/asset.aseprite",
+    "--sheet",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-authority/test_cumulative_quantized_cloc0/cumulative.png",
+    "--sheet-type",
+    "horizontal",
+    "--data",
+    "/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-authority/test_cumulative_quantized_cloc0/cumulative.json",
+    "--format",
+    "json-array"
+  ],
+  "returncode": 0,
+  "stdout": "Loading file \"/home/astra/projects/pixellab-workbench-geometry/.test-tmp/construction-exchange-authority/test_cumulative_quantized_cloc0/export/asset.aseprite\" (aseprite)\nUsing loader for format ase,aseprite\nLocked background\nPaint\n",
+  "stderr": ""
+}

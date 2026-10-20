@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "created_utc": "2026-10-14T02:18:53.364156+00:00",
+  "scope": "Bounded MiniMax and retained PixelLab animation verification; official source snapshots, credential-free probe receipts, REA offline receipt and selected byte checks. No art acceptance or private pipeline completion.",
+  "files": [
+    {
+      "file": "CAPABILITIES.json",
+      "sha256": "41386dc8521d07542fc1bdfb4c4eb078f48f2855154b97d46d001bc3ec09389a",
+      "bytes": 4367
+    },
+    {
+      "file": "CHAT-PROBE.json",
+      "sha256": "f1cbac79c5a8712e1a5b9c52d17f3f5615a82eb796fdd3ec085892d9cbea8fd2",
+      "bytes": 908
+    },
+    {
+      "file": "MODELS-PROBE.json",
+      "sha256": "37fef48c43b0345c5cbdf150c4ebab45dc6b432b7bccb837ba5f93a0f98f251a",
+      "bytes": 607
+    },
+    {
+      "file": "PIXELLAB-VIDEO-VERIFICATION.md",
+      "sha256": "f26e04a8cb4046bed113b0a4347d318d746bb40959a3434b2387807b245d95d9",
+      "bytes": 7760
+    },
+    {
+      "file": "REA-VIDEO-CAPTURE.json",
+      "sha256": "ddac315db508196231bab35eab17fb7b76739f13a491873a76a71def9ea04bcb",
+      "bytes": 3130
+    },
+    {
+      "file": "README.md",
+      "sha256": "699ef5f5adfe666d1c7e8d812ea5d8e7ea47ea030ad604d15fa7f98801dc8f62",
+      "bytes": 9187
+    },
+    {
+      "file": "VERIFICATION.json",
+      "sha256": "fffb248bf0ec0de9e68dfc4319577f405825d96d04f5f85864e1a1e95285407d",
+      "bytes": 2680
+    },
+    {
+      "file": "public/RETRIEVAL.json",
+      "sha256": "5ef80a0708eca3d5b2fa3dfd1edefe1a3786241b115863a164c67da25f1b81d6",
+      "bytes": 3307
+    },
+    {
+      "file": "public/api-reference__image-generation-i2i.md",
+      "sha256": "254f7211ed7129ff7ebf96f457ac483d265c8da4a37f3f43c0970ac55a659713",
+      "bytes": 7818
+    },
+    {
+      "file": "public/api-reference__image-generation-t2i.md",
+      "sha256": "22683b9f905175c6ff561ef71d291e61dbf3f29c5ca7c1b25fb28ef60cb4f2bb",
+      "bytes": 7120
+    },
+    {
+      "file": "public/api-reference__models__anthropic__list-models.md",
+      "sha256": "581b8a724821d40a996a55ba0fef641e90f4add57b8a90b80e34ab4225279a07",
+      "bytes": 3945
+    },
+    {
+      "file": "public/api-reference__text-chat-anthropic.md",
+      "sha256": "c7ba8fcbf62d73b474cc648cf95ba2306c89fe916781cce83c6734113dfc22d3",
+      "bytes": 52805
+    },
+    {
+      "file": "public/api-reference__video-generation-v2-create.md",
+      "sha256": "9f68fada266f3d1c929ff96fe4fa92741eba5d0fd29b8647eb5e4e07daf507f9",
+      "bytes": 22071
+    },
+    {
+      "file": "public/api-reference__video-generation-v2-h3-context-ir.md",
+      "sha256": "6f49a321a7d9d74e4f4dc9c057786ff3da6b7f556b0e1f897ad69b4f79b0e8ae",
+      "bytes": 22880
+    },
+    {
+      "file": "public/api-reference__video-generation-v2-query.md",
+      "sha256": "bc91317855006307ddfc104d777736fa805c0a5d7df91f95ebfb4f9435e0b270",
+      "bytes": 18201
+    },
+    {
+      "file": "public/guides__local-deploy-h3.md",
+      "sha256": "04a1a356c8b539ccd285c1adea6bf3c25a49f816eb74200ff4342232c8353800",
+      "bytes": 33536
+    },
+    {
+      "file": "public/guides__video-generation.md",
+      "sha256": "d7144e082b69e4397b5aa4ec345d8f96cf71ed4f3d04b45dae426701f9f77f96",
+      "bytes": 15491
+    },
+    {
+      "file": "public/llms.txt",
+      "sha256": "fcc167191695532190d95dba37a0d6715d04557edb0900260ede5b719c83f87d",
+      "bytes": 27024
+    },
+    {
+      "file": "public/m-plan__faq.md",
+      "sha256": "c23fb3ba9a595cff7d0042dac0df5472e76eb4da4f6b9145715542cc6576a3de",
+      "bytes": 13474
+    },
+    {
+      "file": "public/m-plan__intro.md",
+      "sha256": "cdabbb63080183e4fc027d997518c73d763ccd14ec97ab56f2b9dfc33fe72244",
+      "bytes": 2686
+    },
+    {
+      "file": "public/m-plan__usage-rules.md",
+      "sha256": "7b16446aaa8f2ebaecf41616c76fcbda6dde626646506a27ef69a24e88a68489",
+      "bytes": 3036
+    }
+  ],
+  "related_evidence": [
+    {
+      "file": "../../source-faithful/PIXMINIMAX-ANIMATION-EVIDENCE.md",
+      "sha256": "02915c4a6c40df49ce87a85de7fe2e3f5228c77aa488a1edab426232ff11d775",
+      "bytes": 10552
+    },
+    {
+      "file": "../../source-faithful/PIXMINIMAX-ANIMATION-EVIDENCE.json",
+      "sha256": "b9002288fa368a90b50c997fa705650e8e821f10c619c5d0217b964bdc610667",
+      "bytes": 5216
+    }
+  ],
+  "followup_updated_utc": "2026-10-14T03:27:01.757106+00:00",
+  "followup": "README links the later matched H3 pilot. Original connectivity receipts remain point-in-time evidence."
+}

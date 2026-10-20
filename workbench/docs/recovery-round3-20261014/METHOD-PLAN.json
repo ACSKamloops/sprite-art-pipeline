@@ -1,0 +1,20 @@
+{
+  "classification": "post-hoc offline inference; never label original server/client code",
+  "max_iterations": 20,
+  "distance": ".25*dL^2+da^2+db^2 in Oklab",
+  "mean_spaces": [
+    "Oklab",
+    "sRGB"
+  ],
+  "initializers": {
+    "frequency-farthest": "Most frequent RGB first (lexicographic tie), then maximum minimum squared weighted-Lab distance; no count score thereafter",
+    "lightness-weighted-farthest": "Minimum/maximum Oklab L first; then maximum minDistanceSquared*pixelCount",
+    "histogram-topk": "TopK pixel-frequency RGBs, ties lexicographic RGB"
+  },
+  "output_conditioned": "Start at service rounded RGB palette converted to Oklab; infer latent float centers by the same bounded Lloyd updates. This is not independent prediction.",
+  "empty_clusters": "Keep previous center unchanged; no reseeding",
+  "nearest_ties": "First center index",
+  "presentation": "Inverse Oklab/sRGB transfer, clip0..255, numpy.rint ties-to-even",
+  "termination": "Stop on identical nearest assignment vector, or20 iterations; no random seeds/restarts/parameter search",
+  "rgb_order": "Lexicographic unique RGB; histogram counts retain exact source-pixel frequency"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference Art Production"
+  short_description: "Create, review and deliver art from visual references"
+  default_prompt: "Use $reference-art-production to create and review a consistent art collection from my references, then prepare a verified local handoff."

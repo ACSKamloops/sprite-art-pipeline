@@ -1,0 +1,635 @@
+{
+	"checks": 272,
+	"display_server": "X11",
+	"failures": [],
+	"production_only": true,
+	"qualification": "Frozen engine fixture using actual production assets. Each paired PNG shows plain left and fire release right at .24 s. Opaque pixels near a socket and warm effect pixels check binding; visual glove anatomy/alignment and motion quality still need human/art review. No ordinary-play or numeric art-score claim.",
+	"receipts": [
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				99.0,
+				72.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 15,
+			"screen_socket": [
+				183.100006103516,
+				193.600006103516
+			],
+			"screenshot": "rowan-south-plain-left-release-right.png",
+			"screenshot_sha256": "994aa5d42d10da76f3f7928e55d5df166e5430362c0b67b55df2c8a09b30f350",
+			"view": "south",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				99.0,
+				56.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 139,
+			"screen_socket": [
+				183.100006103516,
+				183.039993286133
+			],
+			"screenshot": "rowan-southeast-plain-left-release-right.png",
+			"screenshot_sha256": "a67eab9768b092a01d7718d3b718e4e020d7f356ae950cc4de1df7201ed22a0c",
+			"view": "southeast",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				102.0,
+				57.0
+			],
+			"opaque_pixels_near_socket": 24,
+			"release_frame": 39,
+			"screen_socket": [
+				185.080001831055,
+				183.699996948242
+			],
+			"screenshot": "rowan-east-plain-left-release-right.png",
+			"screenshot_sha256": "edcaaa32c0874e535f859f69249aab25a8c98097e79f4fcd8f1c2b878fec2907",
+			"view": "east",
+			"warm_changed_pixels_near_socket": 115
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				99.0,
+				45.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 171,
+			"screen_socket": [
+				183.100006103516,
+				175.779998779297
+			],
+			"screenshot": "rowan-northeast-plain-left-release-right.png",
+			"screenshot_sha256": "af8b367567b43cd54dd6aaaaad8ccbbc23a20be09ed612f2760187c7e52e1cd8",
+			"view": "northeast",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				93.0,
+				49.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 63,
+			"screen_socket": [
+				179.139999389648,
+				178.419998168945
+			],
+			"screenshot": "rowan-north-plain-left-release-right.png",
+			"screenshot_sha256": "900fa0b855b7c3075043cd49668859573411617f68034b58bfa831aa985812a6",
+			"view": "north",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				29.0,
+				45.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 203,
+			"screen_socket": [
+				136.899993896484,
+				175.779998779297
+			],
+			"screenshot": "rowan-northwest-plain-left-release-right.png",
+			"screenshot_sha256": "3d77f2ca73eef12c6a3ba20e3a4641d728161986aee7f515fb7e502d5f3a7838",
+			"view": "northwest",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				24.0,
+				60.0
+			],
+			"opaque_pixels_near_socket": 18,
+			"release_frame": 87,
+			"screen_socket": [
+				133.600006103516,
+				185.679992675781
+			],
+			"screenshot": "rowan-west-plain-left-release-right.png",
+			"screenshot_sha256": "8e1cb59d572b7548832e917118f87fbbdfc48fb259f17d5e183050a0281ff61a",
+			"view": "west",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "8da391329b45e5c2a25b2a913c93fe0c2cf272df95a8b2a8080b27858e3a6de2",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8951126b7cd90c43fc4aebcd72bf17f21aa53ed82601a7b8f7150f07880e7aca",
+			"native_socket": [
+				29.0,
+				56.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 235,
+			"screen_socket": [
+				136.899993896484,
+				183.039993286133
+			],
+			"screenshot": "rowan-southwest-plain-left-release-right.png",
+			"screenshot_sha256": "52c945656e40b3215297a48c70968cfaa3412d8a895ac3715586536d77b6a0e7",
+			"view": "southwest",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				99.0,
+				72.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 19,
+			"screen_socket": [
+				183.100006103516,
+				193.600006103516
+			],
+			"screenshot": "lyra-south-plain-left-release-right.png",
+			"screenshot_sha256": "1ca5b0c49f1b3fce17fe142ea92be41b8fe58932a11aba6ca15434d051b834f7",
+			"view": "south",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				100.0,
+				61.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 155,
+			"screen_socket": [
+				183.759994506836,
+				186.339996337891
+			],
+			"screenshot": "lyra-southeast-plain-left-release-right.png",
+			"screenshot_sha256": "1f6ddeacdcb4f04f380242a628ab48ddfe930ffbdca65f577057b2df01209022",
+			"view": "southeast",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				95.0,
+				58.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 47,
+			"screen_socket": [
+				180.460006713867,
+				184.360000610352
+			],
+			"screenshot": "lyra-east-plain-left-release-right.png",
+			"screenshot_sha256": "9f1673b7d27a46bad78b127b8a267acc15ccf118439c971393b1c36fd771604f",
+			"view": "east",
+			"warm_changed_pixels_near_socket": 114
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				96.0,
+				40.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 187,
+			"screen_socket": [
+				181.119995117188,
+				172.479995727539
+			],
+			"screenshot": "lyra-northeast-plain-left-release-right.png",
+			"screenshot_sha256": "3b6b10bebb041a0b66103f8aa467b4df13bf7397b45efb8f44e0432709aaa8b9",
+			"view": "northeast",
+			"warm_changed_pixels_near_socket": 114
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				94.0,
+				57.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 75,
+			"screen_socket": [
+				179.800003051758,
+				183.699996948242
+			],
+			"screenshot": "lyra-north-plain-left-release-right.png",
+			"screenshot_sha256": "aadc8688c3f6463ccbf201bee9db1679bae0fc98ae2343c61c19a9c30a0bd5ef",
+			"view": "north",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				32.0,
+				40.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 219,
+			"screen_socket": [
+				138.880004882812,
+				172.479995727539
+			],
+			"screenshot": "lyra-northwest-plain-left-release-right.png",
+			"screenshot_sha256": "09411d88216d09aa748fdf3a220d1112380d90efe2f2957402a93c4b4b36ab79",
+			"view": "northwest",
+			"warm_changed_pixels_near_socket": 115
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				34.0,
+				58.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 103,
+			"screen_socket": [
+				140.199996948242,
+				184.360000610352
+			],
+			"screenshot": "lyra-west-plain-left-release-right.png",
+			"screenshot_sha256": "803d4ad825f5d6bcaa8c8729e95799a08c57b081f66ff3484d7675f24821e3ff",
+			"view": "west",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "84fe4703202f50903386e98ddeba522ef53807f376453f94977107279d658ff8",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "66a72a92584db98ac3f50ff9e3e1ab1ae46931d935f062f26f851ffdbf982e89",
+			"native_socket": [
+				28.0,
+				61.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 251,
+			"screen_socket": [
+				136.240005493164,
+				186.339996337891
+			],
+			"screenshot": "lyra-southwest-plain-left-release-right.png",
+			"screenshot_sha256": "e8beba9512bec4df9c9ad9826b72eb74d6be217f64f6dc24373c21537ce520f2",
+			"view": "southwest",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				101.0,
+				72.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 19,
+			"screen_socket": [
+				184.419998168945,
+				193.600006103516
+			],
+			"screenshot": "brann-south-plain-left-release-right.png",
+			"screenshot_sha256": "4fcaad4892da9390e0f1ae05a9655d9f6f11b426ae92edde25dc3606ed00488c",
+			"view": "south",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				99.0,
+				59.0
+			],
+			"opaque_pixels_near_socket": 24,
+			"release_frame": 155,
+			"screen_socket": [
+				183.100006103516,
+				185.020004272461
+			],
+			"screenshot": "brann-southeast-plain-left-release-right.png",
+			"screenshot_sha256": "88495f132ddd41691bd30c96e2b4bf1ccfbf6bdf1cfe28cf9109e3bd4d5d4dfc",
+			"view": "southeast",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				96.0,
+				52.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 47,
+			"screen_socket": [
+				181.119995117188,
+				180.399993896484
+			],
+			"screenshot": "brann-east-plain-left-release-right.png",
+			"screenshot_sha256": "a4172df408fe3e4d46aca3ed54b4198f3745b188fa95a6eeb6c6652cc4498f12",
+			"view": "east",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				100.0,
+				38.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 187,
+			"screen_socket": [
+				183.759994506836,
+				171.160003662109
+			],
+			"screenshot": "brann-northeast-plain-left-release-right.png",
+			"screenshot_sha256": "35e5e6811df2d014762a1a8163f6bd5f9f7ae57303a76e762a35afe93c422b65",
+			"view": "northeast",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				96.0,
+				40.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 75,
+			"screen_socket": [
+				181.119995117188,
+				172.479995727539
+			],
+			"screenshot": "brann-north-plain-left-release-right.png",
+			"screenshot_sha256": "c15ec7fecd4f4f8f4cf56e925141fa45baf3595a0d9f0b6d04c17d378febca84",
+			"view": "north",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				28.0,
+				38.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 219,
+			"screen_socket": [
+				136.240005493164,
+				171.160003662109
+			],
+			"screenshot": "brann-northwest-plain-left-release-right.png",
+			"screenshot_sha256": "6a6ab5c34edcc36e5cd112232e76730bc80d913d349ec9a6b317a717f3b6c7e8",
+			"view": "northwest",
+			"warm_changed_pixels_near_socket": 118
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				32.0,
+				52.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 103,
+			"screen_socket": [
+				138.880004882812,
+				180.399993896484
+			],
+			"screenshot": "brann-west-plain-left-release-right.png",
+			"screenshot_sha256": "f94e565ba579735fb3a42a6774dc0109c7e1650bc7f9aad9ffab270f913a0a16",
+			"view": "west",
+			"warm_changed_pixels_near_socket": 115
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "e47b6ace4d2004a44d393a9d38ceb72a6db15ade0a476adead321b0ad831b5e6",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "8be7184b97ca9fbd3e9ba61bc75af42c817c2eaea49cf5db91670ca2770a9a61",
+			"native_socket": [
+				29.0,
+				59.0
+			],
+			"opaque_pixels_near_socket": 24,
+			"release_frame": 251,
+			"screen_socket": [
+				136.899993896484,
+				185.020004272461
+			],
+			"screenshot": "brann-southwest-plain-left-release-right.png",
+			"screenshot_sha256": "b9fa1d2529796ac29943846488ae8e2ee845ad2d456100565dbd52605121412f",
+			"view": "southwest",
+			"warm_changed_pixels_near_socket": 116
+		}
+	],
+	"rendered": true,
+	"rendering_method": "gl_compatibility"
+}

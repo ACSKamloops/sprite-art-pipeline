@@ -1,0 +1,67 @@
+{
+  "timed_wait": {
+    "id": 2,
+    "status": "timeout",
+    "error": {
+      "status": "timeout",
+      "reason": "Wait expired; inspect or cancel the still-active job"
+    }
+  },
+  "cancelled": {
+    "id": "58c00ff7013842ecbc901da2df7e740f",
+    "handler": "local.pipeline",
+    "request_id": "93563f98d3e5a40bfe4d0fdc65a5711f5e6dee60cf91005d350d981c61b9df3c",
+    "status": "cancelled",
+    "created": 1791857683.7964766,
+    "updated": 1791857683.8084385,
+    "owner": "1b7bea46535b4c86a5a98bbbe0779eaf",
+    "progress": 0.0,
+    "cancel_requested": true,
+    "head": "accepted",
+    "expected": null,
+    "retry_of": null,
+    "attempt": 1,
+    "artifact": "9d709bba0358da8fdf5600bb3692fa32d0aa2a19a08152cf4307e0b4240e71ac",
+    "result_status": "candidate",
+    "error": null,
+    "metadata": {},
+    "outputs": [
+      {
+        "artifact_id": "9d709bba0358da8fdf5600bb3692fa32d0aa2a19a08152cf4307e0b4240e71ac",
+        "result_status": "candidate",
+        "disposition": "quarantined",
+        "time": 1791857683.8084216,
+        "metadata": {}
+      }
+    ]
+  },
+  "retry_completed": {
+    "id": "ed756c63fbd6485e9cd3b8a567d2c6ea",
+    "handler": "local.pipeline",
+    "request_id": "93563f98d3e5a40bfe4d0fdc65a5711f5e6dee60cf91005d350d981c61b9df3c",
+    "status": "completed",
+    "created": 1791857683.8114352,
+    "updated": 1791857683.8144305,
+    "owner": "1b7bea46535b4c86a5a98bbbe0779eaf",
+    "progress": 1.0,
+    "cancel_requested": false,
+    "head": "accepted",
+    "expected": null,
+    "retry_of": "58c00ff7013842ecbc901da2df7e740f",
+    "attempt": 2,
+    "artifact": "9d709bba0358da8fdf5600bb3692fa32d0aa2a19a08152cf4307e0b4240e71ac",
+    "result_status": "candidate",
+    "error": null,
+    "metadata": {},
+    "outputs": [
+      {
+        "artifact_id": "9d709bba0358da8fdf5600bb3692fa32d0aa2a19a08152cf4307e0b4240e71ac",
+        "result_status": "candidate",
+        "disposition": "published",
+        "time": 1791857683.814395,
+        "metadata": {}
+      }
+    ]
+  },
+  "scope": "Actual JSONL/JobManager with a controlled trusted handler, not pipeline rendering/art"
+}

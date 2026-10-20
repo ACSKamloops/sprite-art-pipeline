@@ -1,0 +1,230 @@
+{
+  "skill": "sprite-animation-pipeline",
+  "validation": "quick_validate.py passed",
+  "scope": "Native video sprites, binding closure, exact masks and browser/Godot evidence; no art approval",
+  "files": [
+    {
+      "path": "/home/astra/.codex/skills/sprite-animation-pipeline/SKILL.md",
+      "snapshot": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/SKILL.md",
+      "sha256": "1721aaf487e37f8632ebd9d8e37ec6be987b81efc4c863c7d4dc6b4dcb54f6ee"
+    },
+    {
+      "path": "/home/astra/.codex/skills/sprite-animation-pipeline/references/native-video-sprites.md",
+      "snapshot": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/native-video-sprites.md",
+      "sha256": "aee31055a17f7b7798445f018081c4fe1d48b6e7b35c821ab3be3b08858e8a7e"
+    }
+  ],
+  "snapshot_scope": "Complete skill folder with relative references/scripts/assets, excluding __pycache__; companion skills/host dependencies remain separate",
+  "snapshot_files": [
+    {
+      "file": "SKILL.md",
+      "sha256": "1721aaf487e37f8632ebd9d8e37ec6be987b81efc4c863c7d4dc6b4dcb54f6ee",
+      "bytes": 9732
+    },
+    {
+      "file": "agents/openai.yaml",
+      "sha256": "ccc62f149ed4871980026d771781bec62c4b2c16c7d8537fe8f06e301ca83669",
+      "bytes": 121
+    },
+    {
+      "file": "assets/build_godot.gd",
+      "sha256": "8560edd106e4841519c0cc6ebbc5a4db5ffae637c5271fb69052c9e1c446bd5f",
+      "bytes": 4143
+    },
+    {
+      "file": "assets/clip_driver.gd",
+      "sha256": "f1ce943700c47ab4f8ff9c0d182eca51ea14003efac23bd6ea4fba51dcde7dab",
+      "bytes": 5875
+    },
+    {
+      "file": "assets/indexed_sprite.gdshader",
+      "sha256": "f6d921187b769f60507e4c0727c3c6e7e8566fb85870d7b630a2d1c63f5d7dba",
+      "bytes": 399
+    },
+    {
+      "file": "assets/model-walk-example/INPUTS.json",
+      "sha256": "d69343b082774cd25b49093fb0484028f4f039c9774d0498bf269adea5eb4343",
+      "bytes": 906
+    },
+    {
+      "file": "assets/model-walk-example/README.md",
+      "sha256": "8f1aea05cb7cc6e11be63dd868fc86293479607f50661cef6b038f45e45bb808",
+      "bytes": 3568
+    },
+    {
+      "file": "assets/model-walk-example/apply_edit.py",
+      "sha256": "7764913d8ae7ce13764de4e76bc0ebb21ea40803b7dc4e9ee191c711ba280690",
+      "bytes": 1825
+    },
+    {
+      "file": "assets/model-walk-example/archived-renderer-v11.py",
+      "sha256": "5674b439b3352119ed15be8fbc453f699de3ed7219b9bba14e8abc516c855a9d",
+      "bytes": 8081
+    },
+    {
+      "file": "assets/model-walk-example/descriptor-after.json",
+      "sha256": "ffc8e57d17cf1abfa898abba09ac09df78174006032fdc6ba3938455d0a04c33",
+      "bytes": 639
+    },
+    {
+      "file": "assets/model-walk-example/descriptor-before.json",
+      "sha256": "c3f96eebbbad573ed3ec5975a4fdd02d9117612454ae443669a3d25e8918ea90",
+      "bytes": 641
+    },
+    {
+      "file": "assets/model-walk-example/export_atlases.py",
+      "sha256": "6f0816042f219b21ad0016488c3b0199aca8811f5112aefe2fbcba7405916c9d",
+      "bytes": 3594
+    },
+    {
+      "file": "assets/model-walk-example/export_game_light_landmarks.py",
+      "sha256": "2f8a82075df4fe8a12eede89e1b39558650eb16cf478eec1f5439e9ce4c36cbb",
+      "bytes": 3092
+    },
+    {
+      "file": "assets/model-walk-example/face_detail.json",
+      "sha256": "c3f96eebbbad573ed3ec5975a4fdd02d9117612454ae443669a3d25e8918ea90",
+      "bytes": 641
+    },
+    {
+      "file": "assets/model-walk-example/make_preview.py",
+      "sha256": "e9380d60a69a36ed8bc2b3804ab352dc0f5c7adc76b4e3db716e5d9eadf1acf3",
+      "bytes": 1965
+    },
+    {
+      "file": "assets/model-walk-example/render_walk_game_light.py",
+      "sha256": "5674b439b3352119ed15be8fbc453f699de3ed7219b9bba14e8abc516c855a9d",
+      "bytes": 8081
+    },
+    {
+      "file": "assets/model-walk-example/semantic-patch.json",
+      "sha256": "e16cb39839740cf80923dc9394efa76f7bb84168084efb215f135008d11a7323",
+      "bytes": 1228
+    },
+    {
+      "file": "assets/model-walk-example/source/original/Blends/Ranger.blend",
+      "sha256": "8bd607b0fff27ba8b9b76b44e256073c6a385b8db0ab6d7b8d225ec20e355336",
+      "bytes": 2083944
+    },
+    {
+      "file": "assets/model-walk-example/source/original/License.txt",
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c",
+      "bytes": 364
+    },
+    {
+      "file": "assets/model-walk-example/source/original/Textures/Ranger_Bow_Texture.png",
+      "sha256": "36f9ff48610b97c0f599c133d95de62c6678b29c4ec1a54e03c1aee838b9ba3d",
+      "bytes": 256343
+    },
+    {
+      "file": "assets/model-walk-example/source/original/Textures/Ranger_Texture.png",
+      "sha256": "21679f0faf9c5243a58fdc952a5427e2bbb0ea29a00b117308e6fb5fd6d94588",
+      "bytes": 790203
+    },
+    {
+      "file": "assets/model-walk-example/source/provenance.json",
+      "sha256": "e9445ae60d3cf90ede60dfc6dfff14533c10c4c829e791a4aa4047e137537496",
+      "bytes": 954
+    },
+    {
+      "file": "assets/model-walk-example/verify_game_light_reopen.py",
+      "sha256": "7676c1c88f5459ca90b0414e5bbbdfea6c46a3b10b5a8a58bdfc29a58324e3e0",
+      "bytes": 2001
+    },
+    {
+      "file": "assets/weapon_palette_cycle.gd",
+      "sha256": "8176909639118ff62f87d50e2d7af46f2c64d220d4d18fc1c750873eeff71096",
+      "bytes": 7104
+    },
+    {
+      "file": "assets/weapon_palette_cycle_v2.gd",
+      "sha256": "11532e9ad842c204dc630311ac88e10f4f26aaf6b455749d6dc3e3265b108121",
+      "bytes": 8236
+    },
+    {
+      "file": "references/adjacent-frame-review.md",
+      "sha256": "03976254f3f5a7c6272512eb7ab27342e9f4d1e6ec96026b0dcda3cb1686b2ca",
+      "bytes": 4024
+    },
+    {
+      "file": "references/generated-model-repair.md",
+      "sha256": "d8e5475216ced803c43e7127c6df4933ac227affe223b88d2d711880193cb6b8",
+      "bytes": 22423
+    },
+    {
+      "file": "references/godot-and-browser.md",
+      "sha256": "e0c8dbad4be5bb385af49c33adfa79e396f0819deb74bca5e62c0fdaea834172",
+      "bytes": 4372
+    },
+    {
+      "file": "references/held-pose-world-contact.md",
+      "sha256": "5939c8e7202860d71d075c367a88f18e1f53594a74f522517ec6b311a8d4f231",
+      "bytes": 6073
+    },
+    {
+      "file": "references/mana-case-study.md",
+      "sha256": "ff17dadc753ce213cbf82425992d116b65679deb2de1197a29e0054082a6cb7d",
+      "bytes": 6974
+    },
+    {
+      "file": "references/manifest.md",
+      "sha256": "7e408bd7fbb31e3bb7600bc08cc30a7fa7076382e0925ba859d9d5272db23de5",
+      "bytes": 2297
+    },
+    {
+      "file": "references/method-learning.md",
+      "sha256": "7bbdbb150abdbf07ff62e3b5d4bd878691e24ecd98d38a43f39d142eb32e9e57",
+      "bytes": 5938
+    },
+    {
+      "file": "references/native-video-sprites.md",
+      "sha256": "aee31055a17f7b7798445f018081c4fe1d48b6e7b35c821ab3be3b08858e8a7e",
+      "bytes": 8637
+    },
+    {
+      "file": "references/review-and-queue.md",
+      "sha256": "753b8f12ebb69162eba41bff036a4dd689dd454e74dca988d01723d19b63cfb1",
+      "bytes": 2888
+    },
+    {
+      "file": "references/runtime-observation.md",
+      "sha256": "ee07b2fd1577b658ced363450b193183d2d33130e76ab570ca0309277f12374c",
+      "bytes": 4241
+    },
+    {
+      "file": "references/source-and-authoring.md",
+      "sha256": "dbd9ef274c3dc9ef10ea7a095be26d4a45d4eb6ba294694822a7b5deadfa5195",
+      "bytes": 5407
+    },
+    {
+      "file": "references/stateful-effects.md",
+      "sha256": "578b86fc92dee8a160ec921d0e17fbcbd6ceb64b923f916fbe74915ca943940d",
+      "bytes": 3790
+    },
+    {
+      "file": "references/textured-model-sprites.md",
+      "sha256": "ca9fe155616a61a5102083e847a27406cc2f9ca31d812047ee930b874d1462b3",
+      "bytes": 7065
+    },
+    {
+      "file": "references/visual-quality-gates.md",
+      "sha256": "fae7ac42946ef0b98f45d52ee2397f33bd29a095b9b5b0f16ef724fae93f4aa0",
+      "bytes": 8258
+    },
+    {
+      "file": "scripts/animation_assets.py",
+      "sha256": "bc5db7f0bed67df2708f256c59d5effb095ccccf2e7b52773ed2713236329dd2",
+      "bytes": 13903
+    },
+    {
+      "file": "scripts/animation_queue.py",
+      "sha256": "f1f8a11e8dd8074cd5d79dc128aa7e7038137553c6d69a9253b57844f338fcf9",
+      "bytes": 8524
+    },
+    {
+      "file": "scripts/method_learning_queue.py",
+      "sha256": "2bcdec09eb7cdf2e23763937e1f715ad5e49d7c41d5c73ecd39e1380c3729c61",
+      "bytes": 5679
+    }
+  ]
+}

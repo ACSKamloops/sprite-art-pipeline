@@ -1,0 +1,3949 @@
+{
+  "updated_utc": "2026-10-14T08:30:39.977458+00:00",
+  "scope": "Selected current v0.9 original-client methods, browser/channels/source/replay/export proofs and preserved native-video stages. Private server/model/whole-product and art acceptance remain unresolved.",
+  "files": [
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/BOUND-DIAGNOSTIC-WALKS.json",
+      "sha256": "6c7ed1cdf6c46a729accf24c624f1b5422dbed425261415de2a423c5f1dd26e2",
+      "bytes": 1977
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/BOUND-LIVE-DECODED.json",
+      "sha256": "02c2d224c731d77f0f64c3cbd31fff4cac45d259701aa40cf518bd075ee54b46",
+      "bytes": 1137
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/BOUND-MANUAL-POCKET-EDIT.json",
+      "sha256": "f9bac35c38526464fe378d9dac0a2ff09b0548a3441979ff7896c91acf09b3a0",
+      "bytes": 1172765
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/BOUND-PORTABLE-CLOSURE.json",
+      "sha256": "dc346cfc7adda1e5a3c3c3bbec4d8b828f8dd6270d44bb8f800706df5c00d487",
+      "bytes": 1004
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CATALOG-PIN-CHANGE.json",
+      "sha256": "a5e1b1510b2c68ce397918fd6a9066d9fb4bddda2c2cc94b08ac20fa38ed9a68",
+      "bytes": 311
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/COMPLETED-RUN-COPIES.json",
+      "sha256": "d9a5c6e3a82715c259c39fe694b255a573291e5f02b8f81db9271bf1bf8b6396",
+      "bytes": 14747
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CONDITIONED-WALKS.json",
+      "sha256": "1a541b08431c19c7a2b868313815c85bac9fef70f35ccec92b14e3d24c5d1d9e",
+      "bytes": 1773
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CURRENT-HANDOFF-PIN-CHANGES.json",
+      "sha256": "8cc32b2f2212479c7fcf1d23662549352d99489b233ee9a703d26eb9e6df6c6b",
+      "bytes": 9046
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CURRENT-WALK-CHECKER.png",
+      "sha256": "80e16e630af1eb977507b7a5e5e9ec5eaeec51abd363817a0a7bdc908c0c2628",
+      "bytes": 127123
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CURRENT-WALK-README.md",
+      "sha256": "d60616c73562beea72f1dd87d828b2e671d3b47d108e35aeecbffb88f20272be",
+      "bytes": 1284
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CURRENT-WALK.apng",
+      "sha256": "cdff1617245d5d0e2be89f19d9f135b1fda2d0951d254f6f07309e6c078b46b7",
+      "bytes": 67219
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/CURRENT-WALK.json",
+      "sha256": "f7c2b6003b37cdd6d9e273c6734de9fb5888c6d1aa7b370d61a308cdcf0a579a",
+      "bytes": 762
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/DIAGNOSTIC-WALKS-8PHASE.json",
+      "sha256": "1bfc20dea3f7b357b056071642556736c0f7003f1cde579098508dbaa56bcaa1",
+      "bytes": 2041
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/EXPERIMENT.json",
+      "sha256": "52e5e861619700b5b5b7ad06ae5d0f4ddc0c2d92d13338cdc403f9e9de136bd0",
+      "bytes": 1396
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/LIVE-DECODED.json",
+      "sha256": "34ff85f6a4b6c550c81f942b770636c3f2ef22e330d8cbcee90e365ebb8a3398",
+      "bytes": 1137
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/LIVE-RAW-MANIFEST.json",
+      "sha256": "a400c7547765b91c44c7e4693a81c3f601120fb84d80426ec7844cbb6ba74485",
+      "bytes": 6625
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/LIVE-RESULTS.json",
+      "sha256": "d8d3b15525397f3012ec7622040b7867dcf175fbb51546112041fb1fe5bf8d60",
+      "bytes": 789
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/LIVE-SUBMISSION.json",
+      "sha256": "99833d42e95d916a3d0caa84b14c685b6f3258104a79780d212f855c6ae08895",
+      "bytes": 351
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/LIVE-UPGRADE-v081.json",
+      "sha256": "fd563ba31f6e8b81884d9818d47112fedf79897961e8c4aa410d80a7e7c44368",
+      "bytes": 2402
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/LIVE-UPGRADE.json",
+      "sha256": "eba8e4fb3e6198dc84a1e036d88ff38e68f2917d6d5d3ad855a549a1c6f8631b",
+      "bytes": 82350
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/MANUAL-POCKET-EDIT.json",
+      "sha256": "d2b1be3f4dca92cdaaff8a74f4b2ad13c86c01a26a8f100d01ef9c82ff2357fd",
+      "bytes": 1172391
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/PACKAGE-COMPARISON.json",
+      "sha256": "1600f530691e3c1482c57a782f3564beca1ab00e0d614729cba40da7a95adbe7",
+      "bytes": 28002
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/REA-CURRENT-CAPTURES.json",
+      "sha256": "54f5728e34eeeae0d0a00143511d653e83ae24f9ed8fc520a188eeeac64abd41",
+      "bytes": 139943
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/REA-CURRENT-SUMMARY.json",
+      "sha256": "811c9f31b1fb8e6a1274d5199d784c282be5a91c5a519192ea556619253808e0",
+      "bytes": 2027
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/REA-EVIDENCE.json",
+      "sha256": "81c00e2ba0dd1e58c47a4905b6ad5ed268aaaee0e0e2bb38af144136f996628d",
+      "bytes": 39032625
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/SETUP-JOB.json",
+      "sha256": "ee3ff75b3536bacd0d5e1c484b34ca0931c84b328fb9dfcc5015804e4fd26695",
+      "bytes": 992
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/SETUP-STATUS.json",
+      "sha256": "4256081ca6bab8c0fa4a3e43e11b9af0ca26fc69fea1b2a73f99a0f20bb14b23",
+      "bytes": 47599
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/SETUP-VERIFICATION.json",
+      "sha256": "6c214f6f52afbcefbc7812772bc1af0f03051bbd93a2fa92aa516abc52ecbfdd",
+      "bytes": 5304
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/SKILL-UPDATE.json",
+      "sha256": "4edc6963982cb07eaf2b511131d1ae9222a4cfa5636fd690a09ec4c65bb06482",
+      "bytes": 8261
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/baseline-v0.7/PRESERVATION.json",
+      "sha256": "b3e57be362c3ae25093ca928b574c45f174eca3335b739bc2bb96902ae5005e2",
+      "bytes": 52862
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-current-notes/PRESERVATION.json",
+      "sha256": "0e6972814a25f09e6209847f387b84753e1569f51b09b88b7ee9c7a7199f0955",
+      "bytes": 1736
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-live-upgrade/PRESERVATION.json",
+      "sha256": "c48e0bdaa9eb3d1eca5326e5a26d96cf4f8f0d7aa01b6bb9799ca924e158d0a4",
+      "bytes": 788
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-status-v08/PRESERVATION.json",
+      "sha256": "20531d1716563803a96a43e27cb478927ec567668ef8f90fb62bdcf7b374e9b7",
+      "bytes": 1835
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-v081-live/PRESERVATION.json",
+      "sha256": "e0388dcde521a372333c553585404068cc5e21a828749d403f4d51a788d68e32",
+      "bytes": 361
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/.download.lock",
+      "sha256": "7707354765470230a0d9b08e93c0fa2f4122302859678530b33918ba88e06b6b",
+      "bytes": 126
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/.submission.lock",
+      "sha256": "368ebf7112cc7126bcb8a7da9a0327b6a9affac545f83da845d7f3c630b39313",
+      "bytes": 77
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/completed-response.json",
+      "sha256": "900c3f1060cf0395cef6e74e5968c300b86d8ea09146538008f7a8ac78a8d8d6",
+      "bytes": 504
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/download-receipt.json",
+      "sha256": "f519e88c60f53a80e7273a1bf5d0331f6807cb5e18e8abd8724513dca1bbd71e",
+      "bytes": 653
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/download-result.json",
+      "sha256": "90b61c1724dae3b7075ae6684175e1e7d6ef703bfb1a0d63c223df711604a56a",
+      "bytes": 342
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/native-video.mp4",
+      "sha256": "89d29f48cc97ea3c9e05757959a3ce50835157ec0da2dd9e6841c1dcc63aeb13",
+      "bytes": 386284
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/network.har",
+      "sha256": "eac4b05326433e463848636b6716dc83e98d7916637d491859bb58e279cc4b68",
+      "bytes": 71137
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/packet.json",
+      "sha256": "83d50e11a044c1a4f44ee7ab04a536878edbaae85a1763d022fa25addea698bb",
+      "bytes": 1808
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0000/network.har",
+      "sha256": "31bbb4212ba9a77d80ef53962f237bf45b263e3a43d22bd31122faa9ec4a67a3",
+      "bytes": 1149
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0000/response.json",
+      "sha256": "bdfd91967ba93173ec24854575d19b75245e87c21d043bc873bea62e1e452c0a",
+      "bytes": 495
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0001/network.har",
+      "sha256": "f64b4e31335eefd01fcc121c5c0cdca5026abf528c1c3505f22f884c7f1e3465",
+      "bytes": 1149
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0001/response.json",
+      "sha256": "95d19de3e9c7bbda22ccb574b18bda71afa7cff13fddbb32f2148d8442292541",
+      "bytes": 495
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0002/network.har",
+      "sha256": "7b9f54b67ef48d8806e11fb0e4eb341af1fa3a12ec1b97d15fed3a2e12e57910",
+      "bytes": 1464
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/polls/0002/response.json",
+      "sha256": "c509d7e5a3fa65761128101de9d25a22e94333de0f5db76b11b434c075cd2b38",
+      "bytes": 790
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/request.json",
+      "sha256": "c96ee65738a65d2b7e21f5ef5cc263382e8c6986b00a505f0f68a03005ef3162",
+      "bytes": 70079
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/state.json",
+      "sha256": "a8926634ce21f8e4a51c313219c0bdcbf1c5bc7ffc64023cb2ec8c6b1882c601",
+      "bytes": 201
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-last/submit-response.json",
+      "sha256": "bba2773c9142cf7176ba89115751c3a3fabc356175490f4d67b7065694c52d47",
+      "bytes": 316
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/.download.lock",
+      "sha256": "9e4568ded75925650ff5d9b3dd17b4d6f2b6021b17a2ce2eb36df717ff8410bb",
+      "bytes": 126
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/.submission.lock",
+      "sha256": "44289214c438cae1e630fdcd1db67c645aea1cd26928df3c50f648b7671dddd6",
+      "bytes": 77
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/completed-response.json",
+      "sha256": "46fe47bedea01d9acd1f8bb8003f7d2ca4a13b5c6ec0b935e1712bb1eaeea4cf",
+      "bytes": 504
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/download-receipt.json",
+      "sha256": "60dab8770dc9ec333178b3421af39a54b5cf1f1733781773bae968accf7419b4",
+      "bytes": 653
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/download-result.json",
+      "sha256": "38ef8b67b1553606cece2147cb803d1525326f79e6d9976a80e720bb8a6a090f",
+      "bytes": 342
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/native-video.mp4",
+      "sha256": "7c0f1f04aec4fe866298ca4a8b722a6ec2ad8cb7e79c3e0ff3e48eb602be7453",
+      "bytes": 562878
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/network.har",
+      "sha256": "8833ff681e7d6f1a9a911e1e4428551f31f64e59b31aa9d9eaee732b33ad8dbb",
+      "bytes": 36413
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/packet.json",
+      "sha256": "a7b05c868a0967c88a3b0224f456c6782b49ced8330aded396df3b18bb37ae73",
+      "bytes": 1525
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0000/network.har",
+      "sha256": "7c8bdbe0805878dabddeaa2a1a5c946a3dd544694070bdca62d1430075fb7083",
+      "bytes": 1149
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0000/response.json",
+      "sha256": "f24df330a0b811ef1947c1a6af4dd1be55307720dd5a7aa706adf258398f42ee",
+      "bytes": 495
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0001/network.har",
+      "sha256": "78020fc42ca5b71c5d9edea394becf5dcdc2224265e613ddf7efc1e698f8fa2c",
+      "bytes": 1149
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0001/response.json",
+      "sha256": "92b8207ee894f60a7fa789a3a3c730d1dba5f03fa5990e925a89a9d6b7469fd1",
+      "bytes": 495
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0002/network.har",
+      "sha256": "f4187b450668fb9428016dae288f582c576fa43563959aa14b94df4e1430ab44",
+      "bytes": 1149
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0002/response.json",
+      "sha256": "835a3f61e6e4731fb111e040339acc683d7f89f4c29fd085391975a6d64d2d7b",
+      "bytes": 495
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0003/network.har",
+      "sha256": "92959f7981798898c4a0ffd757c828f2736196cfc20b3bca4cb01f4265c779c5",
+      "bytes": 1147
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0003/response.json",
+      "sha256": "5dabc517cbd903ef0aa69ea0e99107dac7c2a33b4d40276567f97728f3d18909",
+      "bytes": 494
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0004/network.har",
+      "sha256": "04d30714ce5d0e8129737483caf28bec0b7976f6d964ca2e6b12cd9bacad6c7e",
+      "bytes": 1464
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/polls/0004/response.json",
+      "sha256": "a37f52f33374681e1ff50cc2d27dbe424f765aea5be5c2513d73e40519791da4",
+      "bytes": 790
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/request.json",
+      "sha256": "6de4c8a00322885df87321b02e9da70692e19a335ccee1c05df46490807dcc1e",
+      "bytes": 35369
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/state.json",
+      "sha256": "8649c6f82bf37f88e9a3ce08856a32243e9a277ac58cdc6cb78a46d846d4ec6b",
+      "bytes": 201
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/live/first-only/submit-response.json",
+      "sha256": "ca112a5b04fb8de445baa39b405f3c4defd24fa51ee88819aba3fb6c9280dae5",
+      "bytes": 316
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-before/PRESERVATION.json",
+      "sha256": "04adb6a4b279eb705a5bbf6a75e40221a37a0dd4cff375161676f255c34d1a04",
+      "bytes": 291
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/SKILL.md",
+      "sha256": "1721aaf487e37f8632ebd9d8e37ec6be987b81efc4c863c7d4dc6b4dcb54f6ee",
+      "bytes": 9732
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/agents/openai.yaml",
+      "sha256": "ccc62f149ed4871980026d771781bec62c4b2c16c7d8537fe8f06e301ca83669",
+      "bytes": 121
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/build_godot.gd",
+      "sha256": "8560edd106e4841519c0cc6ebbc5a4db5ffae637c5271fb69052c9e1c446bd5f",
+      "bytes": 4143
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/clip_driver.gd",
+      "sha256": "f1ce943700c47ab4f8ff9c0d182eca51ea14003efac23bd6ea4fba51dcde7dab",
+      "bytes": 5875
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/indexed_sprite.gdshader",
+      "sha256": "f6d921187b769f60507e4c0727c3c6e7e8566fb85870d7b630a2d1c63f5d7dba",
+      "bytes": 399
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/INPUTS.json",
+      "sha256": "d69343b082774cd25b49093fb0484028f4f039c9774d0498bf269adea5eb4343",
+      "bytes": 906
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/README.md",
+      "sha256": "8f1aea05cb7cc6e11be63dd868fc86293479607f50661cef6b038f45e45bb808",
+      "bytes": 3568
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/apply_edit.py",
+      "sha256": "7764913d8ae7ce13764de4e76bc0ebb21ea40803b7dc4e9ee191c711ba280690",
+      "bytes": 1825
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/archived-renderer-v11.py",
+      "sha256": "5674b439b3352119ed15be8fbc453f699de3ed7219b9bba14e8abc516c855a9d",
+      "bytes": 8081
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/descriptor-after.json",
+      "sha256": "ffc8e57d17cf1abfa898abba09ac09df78174006032fdc6ba3938455d0a04c33",
+      "bytes": 639
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/descriptor-before.json",
+      "sha256": "c3f96eebbbad573ed3ec5975a4fdd02d9117612454ae443669a3d25e8918ea90",
+      "bytes": 641
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/export_atlases.py",
+      "sha256": "6f0816042f219b21ad0016488c3b0199aca8811f5112aefe2fbcba7405916c9d",
+      "bytes": 3594
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/export_game_light_landmarks.py",
+      "sha256": "2f8a82075df4fe8a12eede89e1b39558650eb16cf478eec1f5439e9ce4c36cbb",
+      "bytes": 3092
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/face_detail.json",
+      "sha256": "c3f96eebbbad573ed3ec5975a4fdd02d9117612454ae443669a3d25e8918ea90",
+      "bytes": 641
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/make_preview.py",
+      "sha256": "e9380d60a69a36ed8bc2b3804ab352dc0f5c7adc76b4e3db716e5d9eadf1acf3",
+      "bytes": 1965
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/render_walk_game_light.py",
+      "sha256": "5674b439b3352119ed15be8fbc453f699de3ed7219b9bba14e8abc516c855a9d",
+      "bytes": 8081
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/semantic-patch.json",
+      "sha256": "e16cb39839740cf80923dc9394efa76f7bb84168084efb215f135008d11a7323",
+      "bytes": 1228
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/source/original/Blends/Ranger.blend",
+      "sha256": "8bd607b0fff27ba8b9b76b44e256073c6a385b8db0ab6d7b8d225ec20e355336",
+      "bytes": 2083944
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/source/original/License.txt",
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c",
+      "bytes": 364
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/source/original/Textures/Ranger_Bow_Texture.png",
+      "sha256": "36f9ff48610b97c0f599c133d95de62c6678b29c4ec1a54e03c1aee838b9ba3d",
+      "bytes": 256343
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/source/original/Textures/Ranger_Texture.png",
+      "sha256": "21679f0faf9c5243a58fdc952a5427e2bbb0ea29a00b117308e6fb5fd6d94588",
+      "bytes": 790203
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/source/provenance.json",
+      "sha256": "e9445ae60d3cf90ede60dfc6dfff14533c10c4c829e791a4aa4047e137537496",
+      "bytes": 954
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/model-walk-example/verify_game_light_reopen.py",
+      "sha256": "7676c1c88f5459ca90b0414e5bbbdfea6c46a3b10b5a8a58bdfc29a58324e3e0",
+      "bytes": 2001
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/weapon_palette_cycle.gd",
+      "sha256": "8176909639118ff62f87d50e2d7af46f2c64d220d4d18fc1c750873eeff71096",
+      "bytes": 7104
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/assets/weapon_palette_cycle_v2.gd",
+      "sha256": "11532e9ad842c204dc630311ac88e10f4f26aaf6b455749d6dc3e3265b108121",
+      "bytes": 8236
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/adjacent-frame-review.md",
+      "sha256": "03976254f3f5a7c6272512eb7ab27342e9f4d1e6ec96026b0dcda3cb1686b2ca",
+      "bytes": 4024
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/generated-model-repair.md",
+      "sha256": "d8e5475216ced803c43e7127c6df4933ac227affe223b88d2d711880193cb6b8",
+      "bytes": 22423
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/godot-and-browser.md",
+      "sha256": "e0c8dbad4be5bb385af49c33adfa79e396f0819deb74bca5e62c0fdaea834172",
+      "bytes": 4372
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/held-pose-world-contact.md",
+      "sha256": "5939c8e7202860d71d075c367a88f18e1f53594a74f522517ec6b311a8d4f231",
+      "bytes": 6073
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/mana-case-study.md",
+      "sha256": "ff17dadc753ce213cbf82425992d116b65679deb2de1197a29e0054082a6cb7d",
+      "bytes": 6974
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/manifest.md",
+      "sha256": "7e408bd7fbb31e3bb7600bc08cc30a7fa7076382e0925ba859d9d5272db23de5",
+      "bytes": 2297
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/method-learning.md",
+      "sha256": "7bbdbb150abdbf07ff62e3b5d4bd878691e24ecd98d38a43f39d142eb32e9e57",
+      "bytes": 5938
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/native-video-sprites.md",
+      "sha256": "aee31055a17f7b7798445f018081c4fe1d48b6e7b35c821ab3be3b08858e8a7e",
+      "bytes": 8637
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/review-and-queue.md",
+      "sha256": "753b8f12ebb69162eba41bff036a4dd689dd454e74dca988d01723d19b63cfb1",
+      "bytes": 2888
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/runtime-observation.md",
+      "sha256": "ee07b2fd1577b658ced363450b193183d2d33130e76ab570ca0309277f12374c",
+      "bytes": 4241
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/source-and-authoring.md",
+      "sha256": "dbd9ef274c3dc9ef10ea7a095be26d4a45d4eb6ba294694822a7b5deadfa5195",
+      "bytes": 5407
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/stateful-effects.md",
+      "sha256": "578b86fc92dee8a160ec921d0e17fbcbd6ceb64b923f916fbe74915ca943940d",
+      "bytes": 3790
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/textured-model-sprites.md",
+      "sha256": "ca9fe155616a61a5102083e847a27406cc2f9ca31d812047ee930b874d1462b3",
+      "bytes": 7065
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/references/visual-quality-gates.md",
+      "sha256": "fae7ac42946ef0b98f45d52ee2397f33bd29a095b9b5b0f16ef724fae93f4aa0",
+      "bytes": 8258
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/scripts/animation_assets.py",
+      "sha256": "bc5db7f0bed67df2708f256c59d5effb095ccccf2e7b52773ed2713236329dd2",
+      "bytes": 13903
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/scripts/animation_queue.py",
+      "sha256": "f1f8a11e8dd8074cd5d79dc128aa7e7038137553c6d69a9253b57844f338fcf9",
+      "bytes": 8524
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-installed/scripts/method_learning_queue.py",
+      "sha256": "2bcdec09eb7cdf2e23763937e1f715ad5e49d7c41d5c73ecd39e1380c3729c61",
+      "bytes": 5679
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-parity-20261014/AFTER-CONTROLLER-HEADS.json",
+      "sha256": "76d6b857a3c0e3acfdb4238e08aaa91b8b58f4363d55f9caa6fd2218e5f2de17",
+      "bytes": 1561
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-parity-20261014/BEFORE-CONTROLLER-HEADS.json",
+      "sha256": "7256d2c7143ec62c6ec889385876ac47cd009bded469a9c46510a3515e41591c",
+      "bytes": 1105
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-parity-20261014/baseline-v0.8.1/PRESERVATION.json",
+      "sha256": "ceaba3079eab0dd65904e3f11bf1ef238ef8d28d2f89fb907edb72cf50d79e0f",
+      "bytes": 57188
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-parity-20261014/before-handoff-v0.9.0/PRESERVATION.json",
+      "sha256": "c5a1dcaf8cdfa339d6d35b1627da7e3536e8d41ec9ac882e4613de264801a3a0",
+      "bytes": 7241
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-depth-20261014/ARTIFACT-MANIFEST.json",
+      "sha256": "ff11dd47434aca20a188a586c651f3ae6f3bf37f04f8a2b0000470a91e69570b",
+      "bytes": 388220
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-reliable-system-20261014/baseline-v0.6/PRESERVATION.json",
+      "sha256": "330ed041bcc30293a5f2a4e5c366715909e852f9b060f49241796c475b2e58bd",
+      "bytes": 38733
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-reliable-system-20261014/before-status-v07/PRESERVATION.json",
+      "sha256": "1d20881cdf9ae5d93ae426567c5193c4ca76f2c895adcf5710791dcffc44b2ce",
+      "bytes": 1671
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-SCOPE.md",
+      "sha256": "6ee7fb7431f2c4cbc4b569ec4ae01fea8895161c1f6db325af2c80ec7bcdc13b",
+      "bytes": 1349
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+      "sha256": "33f91598561ff6dc2cfe562ff8f3904af4d510c75bcec4605aa78fac096f1688",
+      "bytes": 25880
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/CURRENT-ANALYSIS.md",
+      "sha256": "343f7d9ff4f2a2e985a4327c9ae6d415079f2f633aaaf7cea664b357f95792dd",
+      "bytes": 989
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/HANDOFF.md",
+      "sha256": "9b28a5845dee73952a8b20202f12eedc394af56e812d25afb1e360718fa9d250",
+      "bytes": 966
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/LOCAL-IMPLEMENTATION-STATUS.json",
+      "sha256": "60208eb1a0e18036d0179727a3073941f109e4bd94c25b8218c307f1d376ceea",
+      "bytes": 3799
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/REVIEWED-HANDOFF-FILES.json",
+      "sha256": "38520eb157d7522d35c9526516589199066fe1b5a0672f0522beb26e0d987d86",
+      "bytes": 3329
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/SHAREABLE-PATHS.txt",
+      "sha256": "691160e4e87ca98348f544e4908de75d07d8908b99aa9afa3f2324465998d7a3",
+      "bytes": 1181
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/START-HERE.md",
+      "sha256": "c1e35dd347d502093adbed8f9b7859b4ef591696698b8b246455f81bcf35f6f4",
+      "bytes": 3668
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-model-handoff-v0.6/PRESERVATION.json",
+      "sha256": "0f2b011b1a5afad2769fd0448cfc9bbe62ebf36e9af95c798d448642924e6f3a",
+      "bytes": 2555
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-source-v0.5/PRESERVATION.json",
+      "sha256": "24dd4c069811756ef20198732071275b42be116d1f76fe9bacf16335a3010030",
+      "bytes": 2516
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/full-reconstruction/LOCAL-IMPLEMENTATION-STATUS.json",
+      "sha256": "60208eb1a0e18036d0179727a3073941f109e4bd94c25b8218c307f1d376ceea",
+      "bytes": 3799
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/pixelorama-recovered/src/Autoload/DrawingAlgos.gd",
+      "sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+      "bytes": 36685
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/pixelorama-recovered/src/Classes/FloodFillObject.gd",
+      "sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+      "bytes": 4252
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/.gitattributes",
+      "sha256": "4f839fd6a183489d7185f3eba9c00fa32964c77556dd01303ea822fa87e4840e",
+      "bytes": 278
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/README.md",
+      "sha256": "f4d7676a0504ee6e982da01224ae6e83a15bf3149e8b8351d3a1393843750b58",
+      "bytes": 10616
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/COMMANDS.md",
+      "sha256": "de93a20242803b1c2c79c28c2658fbfde1841c900371ccf7e432b331d850ec6e",
+      "bytes": 18371
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/COVERAGE.md",
+      "sha256": "fd5e044b68b1d22f3727721082d7e47a0ff2b14f19a62057e3afb64f414ac2ad",
+      "bytes": 8136
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+      "sha256": "60208eb1a0e18036d0179727a3073941f109e4bd94c25b8218c307f1d376ceea",
+      "bytes": 3799
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.md",
+      "sha256": "8d29ea97a41bf734d56e70dac4b6ec4b495a047a8e247237cd4410b89f239a6c",
+      "bytes": 2029
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation-review/source-coverage/FINDING-REGISTER.json",
+      "sha256": "7a623dd07fc2df079b3a38e58c2ca21458028e4f9f7a43b853ef0ab2889b682b",
+      "bytes": 42317
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation-review/source-coverage/ORIGINAL-63-DISPOSITIONS.json",
+      "sha256": "79732656e3d6848f98c93c69aca693f6ebb79e77d2b633f6b8c83fb0d5f5a505",
+      "bytes": 113125
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CONSOLIDATED-FINDINGS.md",
+      "sha256": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+      "bytes": 12321
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RED-TEAM-REVIEW.md",
+      "sha256": "d24206c8cf2c0c69dad893960f3c2e9b2390a76539166f408ec4dc4669191de9",
+      "bytes": 8649
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/REPORT-CATALOG.json",
+      "sha256": "87b74fb5f97f689ac39c335e2a16787ffe2619c48c2e47fc862dacaf77a0e488",
+      "bytes": 883629
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RETAINED-FINDING-RECORDS.json",
+      "sha256": "3988c569514ae0f23726a67c922f83275c61e0b5b8ac74ff3db17bed0cc5a3ca",
+      "bytes": 6774034
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+      "sha256": "43b386b1b3ddb12784ab02a9cc4fb4ac37435c7206c1afdcdfd50d109316293c",
+      "bytes": 10166
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/STRUCTURAL-VALIDATION.json",
+      "sha256": "a1b2e8e75c17d061de85e6cd1149bb09edcf4339e5fdb1a20c0d867de132fbf9",
+      "bytes": 281
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/ADVERSARIAL-REVIEW.md",
+      "sha256": "10403cc121c54fe07c945b9322dc0ca4a247fb0855e13adf892cad65191e2e34",
+      "bytes": 6150
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/EXCHANGE.md",
+      "sha256": "7dac90f842e61b69c771f3058e8fd3a4bbae7f53a696506f19c047704526459b",
+      "bytes": 6981
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/INTEGRATION-REVIEW.md",
+      "sha256": "f361208a9d2648c70bced2580d9d34ddbe6d03311e65f418aa7eea75d6f9ab25",
+      "bytes": 4936
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/README.md",
+      "sha256": "2687b643dfe7081014c4cb7e2372e840766c2e696b7ff1f6a7f1738a24894d3b",
+      "bytes": 11673
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/FINAL-SPOTCHECK.json",
+      "sha256": "5a595507d3b7fc8557c6e28ffceb3dc19cefc31ea69499238938a4a551b6337f",
+      "bytes": 9902
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/PACKAGE-PARITY.json",
+      "sha256": "e058249e32fa49a0ca73657f060f580852237fcf8e0644853e198aac8219d626",
+      "bytes": 1295
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/verification/REPORT.json",
+      "sha256": "01b8d995392d2802d0d65fda21f435f1dade2c8adb8eec3122f36fa1207f71c7",
+      "bytes": 533
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/LOCAL-CHANNELS.md",
+      "sha256": "be041b9290879828d735b4246e56742b6a3a31c138432527c0c2d6e30ccf809d",
+      "bytes": 12433
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/STATUS.md",
+      "sha256": "0abe1082b881daecfcc03b1e2b9cb30baacf8c06cb94b899b82eabc81972312f",
+      "bytes": 9446
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/evidence/PACKAGE.json",
+      "sha256": "4f4b6ae804afd9fc829099297c5a3ef7ac746da9bc24564762e867ceee285cfa",
+      "bytes": 808
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/evidence/pair/PAIR-VERIFICATION.json",
+      "sha256": "cd1826dd24097cc8b3cf085ce6ec5d3d543b00f29701f1e9ca068d7bc3ddd3c9",
+      "bytes": 3907
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/ANIMATION-ACCEPTANCE.md",
+      "sha256": "6673d275ee2441be7e776d6b9a1e06c556e38f63aefc33cb86ec5dce741f4dcb",
+      "bytes": 12460
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/BOUND-WALK-CLOSURE-PROOF.json",
+      "sha256": "5e509286a5d01a943d22d8f5628167e8ce82fe82676f4c7d7b981020bd6e1f3d",
+      "bytes": 13283
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/BOUND-WALK-GODOT-PROOF.json",
+      "sha256": "23a09b3756331cea5f1fe522b312072676bf191c77120c7b953c8d2ed1f683c0",
+      "bytes": 13511
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/BOUND-WALK-PROOF.md",
+      "sha256": "30d6aeae993422ada6843e366903edd5c3fc384a2e6ac8f682fc512e24489f48",
+      "bytes": 4395
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/CONDITIONED-WALK-REVIEW.md",
+      "sha256": "367b72fd104843e9614478f1e3399180e76ea79d1b64bf23065a193bb5e46bfc",
+      "bytes": 6404
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/CONDITIONING-REVIEW.md",
+      "sha256": "225e761f4f4cba18917b634af849411b4994c3f015987ec048675c00bf2cae67",
+      "bytes": 9036
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/GODOT-WALK-PROOF.json",
+      "sha256": "21c6cdd8111e4eab8850e125f36c122d39c37ae60c1b209ed4f9c082e92fec7a",
+      "bytes": 13511
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/GODOT-WALK-PROOF.md",
+      "sha256": "8de922e5ba7b8b6106f85d5a7f5649d0746b82f4b0184c1a090e52faa9df2f79",
+      "bytes": 3859
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/INSTALLED-UI-QA.md",
+      "sha256": "b37617346f60ffcadcced273b9992ae1e12e1c9dbc3e564e6312699f4599d077",
+      "bytes": 4909
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/INSTALLED-V081-UI-QA.md",
+      "sha256": "ff0dbc06d629caa044afbd8fbf16e08b970216717dd8b2d73c3cd6ab5c41b6da",
+      "bytes": 6517
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/LIVE-WALK-REVIEW.md",
+      "sha256": "737518912c41274d2930607876cfd28f63c8c833cf7527623b723a4a28e37f2e",
+      "bytes": 5359
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/MOTION-UI.md",
+      "sha256": "d050aa588405f917f6850c075dbf9a76b41343acb41ac2a9e43e49b9877d722a",
+      "bytes": 19598
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/PROVIDER-RESEARCH.md",
+      "sha256": "b927608a1eeafa1ed427250a48393cd4d39f3ceea58f38050cc53dc2d43ceb79",
+      "bytes": 5669
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/README.md",
+      "sha256": "a00c177ab400ff29affb1e15d05dd9ce97e5befeca865cdbff28da5b7695dcc3",
+      "bytes": 10037
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/VERIFICATION.json",
+      "sha256": "ac3eb6169c5dc85f6b9fd00eabbd13f6eba94de0b1c94c02d27d6e261125a9eb",
+      "bytes": 6562
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/VIDEO-EXTRACTION.md",
+      "sha256": "a977df83511feb2f85487cb19526552e276a579ff0d175cc1a5b9c8b34c2b57e",
+      "bytes": 9626
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/BOUND-PORTABLE-CLOSURE.json",
+      "sha256": "dc346cfc7adda1e5a3c3c3bbec4d8b828f8dd6270d44bb8f800706df5c00d487",
+      "bytes": 1004
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/CURRENT-WALK.json",
+      "sha256": "f7c2b6003b37cdd6d9e273c6734de9fb5888c6d1aa7b370d61a308cdcf0a579a",
+      "bytes": 762
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/EXPERIMENT.json",
+      "sha256": "52e5e861619700b5b5b7ad06ae5d0f4ddc0c2d92d13338cdc403f9e9de136bd0",
+      "bytes": 1396
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/INSTALLED-PROOF.json",
+      "sha256": "70cea592b205e308f7ba54ab952e1f75d00835da8af637824ab00376973b40bd",
+      "bytes": 2958
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/INSTALLED-UI-QA.json",
+      "sha256": "57d4534d9f1b6917923671e1eb998b60d97af0edca61600cbfacfe3e52be3319",
+      "bytes": 4603
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/INSTALLED-V081-UI-QA.json",
+      "sha256": "c1797e91f30aa078e31ebb8e24af6c33dd1b51a0dd05e2b8d0e1a12ad1396537",
+      "bytes": 9527
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/LIVE-RAW-MANIFEST.json",
+      "sha256": "a400c7547765b91c44c7e4693a81c3f601120fb84d80426ec7844cbb6ba74485",
+      "bytes": 6625
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/LIVE-RESULTS.json",
+      "sha256": "d8d3b15525397f3012ec7622040b7867dcf175fbb51546112041fb1fe5bf8d60",
+      "bytes": 789
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/MEDIA-BINDING-QA.json",
+      "sha256": "7d2d53b7cf5393de007e6a81fd2206095b89c37c94c5e864f1f0199095c8a01a",
+      "bytes": 1806
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/NOTE-REPIN-RECEIPT.json",
+      "sha256": "8be54ab8e04bded8f460829040d9edf55102e45b4a2f452695e3c94bc81469e1",
+      "bytes": 2322
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/PACKAGE-COMPARISON.json",
+      "sha256": "d9a7368559cc5fe0ef50802fabd2862f3df9472ed3b8c863e08a5048f7a596cf",
+      "bytes": 28088
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/REA-CURRENT-SUMMARY.json",
+      "sha256": "811c9f31b1fb8e6a1274d5199d784c282be5a91c5a519192ea556619253808e0",
+      "bytes": 2027
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/REAL-UI-QA.json",
+      "sha256": "df2a126289fbae874dfe77a309fc67db342e655702ac57efed3f5d1e5ad7722a",
+      "bytes": 4208
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/SETUP-VERIFICATION.json",
+      "sha256": "b9ac60465357355d79d473f3d55afc5e08741afff4e7ed1969e03dd3afc36196",
+      "bytes": 5315
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/SKILL-UPDATE.json",
+      "sha256": "4edc6963982cb07eaf2b511131d1ae9222a4cfa5636fd690a09ec4c65bb06482",
+      "bytes": 8261
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/TESTS.log",
+      "sha256": "f795293308d0fd8a2eef3057462f1525b66e38dad234af38fd279df84cb827f6",
+      "bytes": 3438
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/TESTS.xml",
+      "sha256": "2ce6f5db03e38b6b5c20bbcfc66b543d06393397dad21c54c47986b08975696e",
+      "bytes": 114948
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/postflight.py",
+      "sha256": "3f8e30bd7e2fd5babfd78dba24e97d451b5953b87d1bdb2c80b6e8ffea3e24c8",
+      "bytes": 2963
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/qa-media-bindings.cjs",
+      "sha256": "8ac3352d840a986ec1c1c9286e4194363d2b96b7701b42d1ca37650f1d8fb2d3",
+      "bytes": 7612
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/evidence/qa-motion-real.cjs",
+      "sha256": "e98947566dbc4ff7108ee2e0acdc111c91e03286aee41aab2d21db6dfe33dc45",
+      "bytes": 13812
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/motion-pipeline-20261014/verify_repaired_walk_godot.py",
+      "sha256": "1f28b68d94ad17bfa04e4e3832ad819d8ce87cec7b30365654e9bab87bdafc42",
+      "bytes": 10304
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/CATALOG-PIN-UPDATE.json",
+      "sha256": "ca181a13df46276ed33afccbf8ecc83f7da72515e9618846f5298ead69a2249f",
+      "bytes": 930
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/CHANNELS-ADVERSARIAL.md",
+      "sha256": "685e365e09020197001ba740b0d31fa3e62d13d1de0f1b1032f21189dc54b42f",
+      "bytes": 7095
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/ORIGINAL-PIXEL-METHODS.md",
+      "sha256": "98aab4cf0baea29a73adcc445ddcd6d12f7e39986c6d2e6a74d592291176f684",
+      "bytes": 3922
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/PALETTE-ADVERSARIAL.md",
+      "sha256": "a18302e1587f98f8cca9acbe07fa50256a4eaa918c5f676e0119ebdb5036c8c9",
+      "bytes": 4474
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/PARITY-RED-TEAM.md",
+      "sha256": "d742a913a1679f889230bbeabd4b95e425b7148edc9a5b7f74ec484b08636cb1",
+      "bytes": 14544
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/PARITY-SCOPE-AND-GAPS.md",
+      "sha256": "e6f3ce891315df6caaf358f619d7b5693ea31c8aa1049fb9b95abb3300246087",
+      "bytes": 12107
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/PIXELS-ADVERSARIAL.md",
+      "sha256": "ec86bb72bf1e6efa00fd57b750f9da62a8790faf29530e0e8df6cfc1d8acab5e",
+      "bytes": 7864
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/PUBLIC-CONTRACT-DELTA.md",
+      "sha256": "a0536a0bfe699bc5c7807cc305f4bbb76a719a5396c9e9976f5862349e3b17b9",
+      "bytes": 1994
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/README.md",
+      "sha256": "c21e3436746b42e578c07cbae5edf26e72ed043121b14931384ab890472faac2",
+      "bytes": 5214
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/VERIFICATION.json",
+      "sha256": "2804cb1065df22e47c3584ce189aff7b94b7820e333c97ad76fe30656155815f",
+      "bytes": 3849
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/VERIFICATION.md",
+      "sha256": "55d68ae96d26bc893c68bda021a8c9736a99c07016f60c0c7e50b82457f947d7",
+      "bytes": 4773
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/INSTALLED-PROOF.json",
+      "sha256": "366e0eba5905a34805aabbc61942cff9f51607d5499efe2fff658c2a38c6d551",
+      "bytes": 1755
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/INSTALLED-UI-POSTFLIGHT.json",
+      "sha256": "54284a5c6616674c8d0319329820aa14e7bc29fa1290d73e2b766d645f272ca6",
+      "bytes": 2790
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/INSTALLED-UI-QA.json",
+      "sha256": "48b5b9d0031a59adff4b9db04c13e1097e0dc616906bc585cb640d8afb56b258",
+      "bytes": 4292
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/MATCHED-REFERENCE-PARITY.json",
+      "sha256": "433ac420bd571bfc9e31ce9fe43c7047daea93765fb38db35f15a92d71334ce9",
+      "bytes": 2506
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/MATCHED-REFERENCE-REPLAY.json",
+      "sha256": "49229cb3987a838e77a3c12d0540a241d87b8f8b4dca414a21626ed327767859",
+      "bytes": 2602
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/MOTION-POSTFLIGHT.json",
+      "sha256": "f9117ad3d781e752cc138d3f849abb86cc03c6408e4513b219496fa35edf5c0e",
+      "bytes": 358
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/MOTION-REGRESSION.json",
+      "sha256": "9dd0ff9c3d7cd3946ae9de411dfd2d0098cc50c3130ac7a24e03247af7b6fc26",
+      "bytes": 28300
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/NOTE-REPIN-RECEIPT.json",
+      "sha256": "5f4028bd5ad94e73bc6e294c27e4bc62aaabdfca81731df2ad3da631f7daa53d",
+      "bytes": 2553
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/PACKAGE-COMPARISON.json",
+      "sha256": "0603077495219b35cce3be4b9208bc466786b59103e6df9ddc0880d24abdbfe8",
+      "bytes": 30593
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/SETUP-VERIFICATION.json",
+      "sha256": "a31b2f16b11677ceb7758cf783beb5abe7140711047b5f253890d0af9d7bb6ef",
+      "bytes": 5306
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/TESTS.log",
+      "sha256": "b8233cb2c6a7e39eadddc4693ed8143df57f81018fc121e9b32c7a0ead06e7c7",
+      "bytes": 3599
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/TESTS.xml",
+      "sha256": "94db6f2ee3d9ce66851f01d46eb0902da4fb77d5b8b8f6f0b07f6e4dd69feee8",
+      "bytes": 137687
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/UI-PREVIEW-PROOF.json",
+      "sha256": "72f2826794deaf5dcdf18d1dc09f97e29bdb63e52f7c0ed536f142e9280e27a5",
+      "bytes": 529
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/UI-PROOF-FILES.json",
+      "sha256": "f34ec8490ecac7f6764941258543bd32c14b9a659143c36554a809de768ad276",
+      "bytes": 1111
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/postflight.py",
+      "sha256": "5f7d7b9638a82c50d312075a3b59e592c6c6dfe59c748c93a3be8e231cccfd49",
+      "bytes": 6315
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/qa-parity-real.cjs",
+      "sha256": "4d4ef9c7e01b7db4d9aba5c24a32613690d6ad8ade223ee02e5cafe086669037",
+      "bytes": 14212
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/evidence/qa-preview.cjs",
+      "sha256": "c60652b46294f09ec7ecca126f3800497adbd0563c52fc8748042013ee42cd94",
+      "bytes": 3725
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-commands-20261014/FOOTPRINT-ORACLE.json",
+      "sha256": "733cd358fc53972986714099ef374fc975064d482e626b38acdb6b9e0b034930",
+      "bytes": 13980
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-commands-20261014/REA-ARGV-TRACE.json",
+      "sha256": "eb8666b78a0020b6636b022300d870d12e284d93861f261fe03526e433113e80",
+      "bytes": 2450
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-commands-20261014/REA-EDITOR-SUMMARY.json",
+      "sha256": "b509f08d0af0b533f40a1624a83755a6fdf0de72516050847f1aa6aa978c8597",
+      "bytes": 12959
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-commands-20261014/README.md",
+      "sha256": "4d2406efbd3ba75396a2f86e981e84e5ea407f035a9fffdbe25cc3e9c6967e23",
+      "bytes": 6180
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity-commands-20261014/SOURCE-LEDGER.json",
+      "sha256": "10c18eaf50152877926bc87ea958e7b27bf6595171aeaa743cf4ef9158302525",
+      "bytes": 2413
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity_palette/RECEIPT.json",
+      "sha256": "45d5369d2f4745e9558d5e835cbe9957e54ff04350d2d12e1a17f3a690d4a168",
+      "bytes": 3849
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/parity_palette/RECOVERY.md",
+      "sha256": "ab4bde9ea18a9b7fe9242bb23d7b97a0ac8ace865709963bcd705c38d9338531",
+      "bytes": 7808
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/HERMES-READONLY.md",
+      "sha256": "29ff660ad6303dfd9f0cbc53182a11158015d330a47181fde2f970b9938e8a8f",
+      "bytes": 6883
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/README.md",
+      "sha256": "266a720631a711508eb3852f96e9455d93fd3abd7012ef85ccae267b0da28c9d",
+      "bytes": 9636
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/VERIFICATION.json",
+      "sha256": "53a068e07559f8aaa87b38910a1e9e0e73cf74c11acf859b529ec95fcc6829ad",
+      "bytes": 7983
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/VERIFY-evidence.py",
+      "sha256": "68590ea090b342fb69db9882ce6f9181c42fc1c56514e6528b49242fce0b9a9f",
+      "bytes": 5641
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/PRESERVATION.json",
+      "sha256": "45873aa217c259d1506222240fc63875dd45437657d293ee923b1e8dce4f08d8",
+      "bytes": 3107
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/BROWSER-PROOF.json",
+      "sha256": "99e3ce648c17153692db628d7169154ac2c6557ada44d877d4a2a6c80218b4ec",
+      "bytes": 2435
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/SETUP-VERIFICATION.json",
+      "sha256": "9c3fd8194ed62b024111087d17f9807a2591c0f2302691306f095c2a37064dbf",
+      "bytes": 5439
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/TESTS-RECEIPT.json",
+      "sha256": "b7212f9e1146cc4df150f30dea9fc1c413d08d5742d3ad1c80d58400b9cc4f12",
+      "bytes": 811
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/TESTS.log",
+      "sha256": "4cb91dcb9934620b2ffbcbc7db9acc2d0236da02afe075c6d6bfad5b631d8b37",
+      "bytes": 3118
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/TESTS.xml",
+      "sha256": "ca6720eb1cbb9a4ad35f78d178ddab717c8e431051ae16946d5c4e55cd3a8261",
+      "bytes": 77902
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-console.log",
+      "sha256": "9857e60cfb82b119e5c5e8d8c03b7ccbc9f453d2ed6b9305c3a708116ecb1ec4",
+      "bytes": 181
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-desktop.png",
+      "sha256": "122f477c833b8ee611ac71bdc2817e6e706b0927ff7cd8c58db1865807f1d141",
+      "bytes": 161811
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-flow-observation.log",
+      "sha256": "1442ba20413c0485157734a4aa3156b1ba37994c2d52b11ca2c3e22e799cbaf4",
+      "bytes": 13256
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-fresh-console.log",
+      "sha256": "d0e5634bb0c1271965327ad2ac18107af18fa7da6d2c9ce13e03eeda6cb603db",
+      "bytes": 55
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-mobile-observation.log",
+      "sha256": "78601ca40c1b16c4dc504ee8655f9cf24d84bb19e9c62b25289c4c56ffe0f060",
+      "bytes": 815
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-mobile.png",
+      "sha256": "dc7f73cc666ba7db3a5d7c31f31d12f6b3d1f271391781274eb18361eff61f7b",
+      "bytes": 58077
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-persisted-observation.log",
+      "sha256": "e6aa37710ec323ca00a460019964a36a3187d2a7b2360967e2ca24c8f4b645eb",
+      "bytes": 694
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-prepared-observation.log",
+      "sha256": "fd2e0bc9c62fe3831618913ca64550738e806e71aca675825ba0d481ee73fb31",
+      "bytes": 1330
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-ready.log",
+      "sha256": "bc37c16e5c51a7f44031bf614af85b6410961fc05ee76fbac6132e7242aec7b0",
+      "bytes": 658
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-setup-observation.log",
+      "sha256": "403e12e4135478ab0b4397d0cde5f1f9d955126b51b04feee2377a529d714590",
+      "bytes": 661
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/evidence/models-supplied.json",
+      "sha256": "26a2487db3a745a6d8a13077b2639243d0d5b2c26fcc0f77e0659eede5f667ff",
+      "bytes": 532
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/COMPARISON-BOUNDARIES.md",
+      "sha256": "bcb7ef72356e4531a5beb035d93cd48cb7309ac8f6748a5f6587085359ecaf8d",
+      "bytes": 9263
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/CURATED-SLASH-REVIEW.md",
+      "sha256": "2db3f08a513e9fc13f9d084eeb6935d1dd42e53c4238377cccc239498bc5c3fe",
+      "bytes": 3793
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/FINAL-CONTROLS-REVIEW.md",
+      "sha256": "ba605c4b02bf0ed6b4584b18f1ecf01e693eaa81348f519d7876026d4acdf06f",
+      "bytes": 7808
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/MANIFEST.json",
+      "sha256": "a5ab8e237a6c5941d85672d517f0fd9c32a1897f565ede4c5c700c7ffc4e86cc",
+      "bytes": 5758
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/MATCHED-VISUAL-COMPARISON.json",
+      "sha256": "1992ab3391e3f4f954f5fa249c9f8d45d10d5950fd588e9cd248a11721ba9711",
+      "bytes": 9666
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/MATCHED-VISUAL-COMPARISON.md",
+      "sha256": "74d57a3cacaed39ef10a843c5f007d039dc522e7b9c50fc5002c0bb429816502",
+      "bytes": 12784
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/NATIVE-SLASH-REVIEW.json",
+      "sha256": "c34ddca6107d2dab9b8d1889eefb090f7c6d67350630b76eb4dabe3aa9271ea2",
+      "bytes": 3255
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/NATIVE-SLASH-REVIEW.md",
+      "sha256": "5bfe3c0cc1c858581e66fa0f6d50e677b44d3d09741f3c11b53a725ca1d25e5c",
+      "bytes": 5408
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/NATIVE-WALK-REVIEW.json",
+      "sha256": "19c9d47ab6f4bb9e20c1bcef75e0034afa43f7676eaf4349fcc369112b978b3b",
+      "bytes": 3178
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/NATIVE-WALK-REVIEW.md",
+      "sha256": "cd582da5e47a82f11b9943e485a3bf7ec4519462697336ee8b5c630cf5a4ae9c",
+      "bytes": 4921
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/README.md",
+      "sha256": "62182563fb1348be242ba48556c065c4758b0e2f7aa09435fb0cfb17a8203f7b",
+      "bytes": 9793
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/VERIFICATION.json",
+      "sha256": "bc3309f7201c87f3f520dc23cdc6d4960f2a80c024d793f27d065e8b339d339d",
+      "bytes": 4838
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/WALK-CYCLE-ATLAS-SPOTCHECK.md",
+      "sha256": "e6ea060b69a171ded24e8e240ef1afe786f8ebc5d80ff39113bc21d2b7f18cae",
+      "bytes": 2295
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/ARTIFACT-MANIFEST.json",
+      "sha256": "b9b023a960b88e0e7239c03eaeb7c24950efd4fd34816c51c7264d1bc54a5143",
+      "bytes": 180772
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/COMPARISON-PROTOCOL.json",
+      "sha256": "e97df4c6d43aa4bafb8fe836c3497711e7b9d24196e1682bfa017e1d6cb8b8fb",
+      "bytes": 3701
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/COMPARISON-VERIFICATION.json",
+      "sha256": "7bf9ce1e4bfc39a326233d7c828c217eeb1510e343e313ccddbb633a42e9c796",
+      "bytes": 23101
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/FULL-SUITE.json",
+      "sha256": "1fce4ccd7b7b16ba5874a9eb04f73b17714d6aca7244d93c6cf1dfa6ee7b227a",
+      "bytes": 916
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/REPLAY-VERIFICATION.json",
+      "sha256": "b284a7e5b93cc8db323cfff1a187c6ff21d77b1dd5cf2d594b9afcc950aba9d0",
+      "bytes": 12293
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/curated-once-playback.json",
+      "sha256": "d782ef975ae15c228b0e07730d9b029e3a0ca65c772f2a88e34b0688c34ae580",
+      "bytes": 3132
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/full-suite.log",
+      "sha256": "dc15aacb2ed0ea87eef4c5bbcf1ed650e2b74eddd6897099dbbc0c474466265c",
+      "bytes": 3818
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/gallery.json",
+      "sha256": "4c851f6194efee1d44a0b416b4a5a85ed7fc3d31a222c08e7ab08284d91485d4",
+      "bytes": 1372
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/native-playback.json",
+      "sha256": "8fd46f6112ce309c04af2b17aed98fbe01a21b316892948ab17526075ebbdf8b",
+      "bytes": 556
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/once-playback.json",
+      "sha256": "04e9b4e1efe778e975ddb736dc27a2cce91a87218741ff55be1ab3c80776fc99",
+      "bytes": 3862
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/pixellab-playback.json",
+      "sha256": "18d9f87fdd223052154806c69ed56e897ed6b9c57accb883931a80990a86a161",
+      "bytes": 1474
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/evidence/sprite-playback.json",
+      "sha256": "3edf1a4a0f4248319022a7f27f022a3f2b851eb35589a3dc38de7ea06f9f8df1",
+      "bytes": 1308
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/CAPABILITIES.json",
+      "sha256": "41386dc8521d07542fc1bdfb4c4eb078f48f2855154b97d46d001bc3ec09389a",
+      "bytes": 4367
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/CHAT-PROBE.json",
+      "sha256": "f1cbac79c5a8712e1a5b9c52d17f3f5615a82eb796fdd3ec085892d9cbea8fd2",
+      "bytes": 908
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/MANIFEST.json",
+      "sha256": "11fd5273a5ca9d313a60352253a5904355c539eb0038207e4346f2c1dfbd529f",
+      "bytes": 4403
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/MODELS-PROBE.json",
+      "sha256": "37fef48c43b0345c5cbdf150c4ebab45dc6b432b7bccb837ba5f93a0f98f251a",
+      "bytes": 607
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/PIXELLAB-VIDEO-VERIFICATION.md",
+      "sha256": "f26e04a8cb4046bed113b0a4347d318d746bb40959a3434b2387807b245d95d9",
+      "bytes": 7760
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/REA-VIDEO-CAPTURE.json",
+      "sha256": "ddac315db508196231bab35eab17fb7b76739f13a491873a76a71def9ea04bcb",
+      "bytes": 3130
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/README.md",
+      "sha256": "699ef5f5adfe666d1c7e8d812ea5d8e7ea47ea030ad604d15fa7f98801dc8f62",
+      "bytes": 9187
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/VERIFICATION.json",
+      "sha256": "fffb248bf0ec0de9e68dfc4319577f405825d96d04f5f85864e1a1e95285407d",
+      "bytes": 2680
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/public/RETRIEVAL.json",
+      "sha256": "5ef80a0708eca3d5b2fa3dfd1edefe1a3786241b115863a164c67da25f1b81d6",
+      "bytes": 3307
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/minimax-direct/public/llms.txt",
+      "sha256": "fcc167191695532190d95dba37a0d6715d04557edb0900260ede5b719c83f87d",
+      "bytes": 27024
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/COMMANDS.json",
+      "sha256": "0c412b922034bae1b80d3cc87a1c972051499cd93e2f0a0e6fefa3483caa5fa5",
+      "bytes": 25213
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/FROZEN-BRIEF.json",
+      "sha256": "0934d2304f389fbc0f652e9c3552daf0c04283855e8ee2988689dda15863bf68",
+      "bytes": 807
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/HELD-TASKS.json",
+      "sha256": "6c1a44e0f22ca84f39fdfc8fe0eeff7c8455f3c20c90bdf10108ebce1ff29774",
+      "bytes": 764
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/HTTP-MODEL-LAB.json",
+      "sha256": "f1913c6849cbff104695ba9e2530c518b957b4e6a4accedc0d424b1ef8fe28a6",
+      "bytes": 935
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/INSTALLED-FILES.json",
+      "sha256": "5a6ea589616b55de4ec74ed9258b9fe61b40475e3ff9b94d8f31aac4c0675785",
+      "bytes": 15083
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/MODEL-CATALOG.json",
+      "sha256": "5050db9b0fb6f1d35052702a625d99426c3023b578150bcf9a86d87d997bec2b",
+      "bytes": 2761
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/PACKAGE-proof.py",
+      "sha256": "8ebf462875673a10488071ea6d12dd6dc09cd62450f9a7301c8fe77b7386e3e1",
+      "bytes": 5685
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/PACKAGE-runtime.py",
+      "sha256": "a9150ba768ecbc266125419fbdf11ad06194a77869bcde1adb3d47452338ddc0",
+      "bytes": 11047
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/PACKETS.json",
+      "sha256": "2aa1af330a67dbcc85e8f910ab1bd4eb61791f3e6d951fb9e93cbcab1a2702d6",
+      "bytes": 8962
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/PAIR-AUDITS.json",
+      "sha256": "a986984a3428eac49b7a7194472cd677e5e72bd8788e9f8d0c729bf42e9beea2",
+      "bytes": 2612
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/PORTABLE-CLOSURE.json",
+      "sha256": "3bb5691487619743aa9dbe905888163f828d776993385748c6dd2723ef3b1235",
+      "bytes": 1336
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/PRIOR-89827e5-RECEIPT.json",
+      "sha256": "e0fb6a79b415b2f889711d59fec9a1ee90985a39f806ec673dc1b0ac75c17e22",
+      "bytes": 23965
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/README.md",
+      "sha256": "a75a3f1bb684d372a8f9058792dbe15bc877edf9fd378d939006d6f7b529b506",
+      "bytes": 3919
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/RECEIPT.json",
+      "sha256": "8e35da930ff6e736290c501e9f6d68d8572dd5a630043da4cf736c25bf5cff57",
+      "bytes": 23977
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/RESULT.json",
+      "sha256": "f157ddd9b22b813ca4910c563048ae3df216675f1162a55f17916242690f9499",
+      "bytes": 2281
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/SOURCE.json",
+      "sha256": "573e5b362c974aa6042441dfa5a5620fa0406bbb4e92fdbd41ee2c32bd263555",
+      "bytes": 20740
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/SUPPLIED-DIAGNOSTIC-RESULTS.json",
+      "sha256": "88055caf066b5663501d3eb6a56dd78a090a7d13aab294b478a19bab71d09f25",
+      "bytes": 3873
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/package/WHEEL-FILES.json",
+      "sha256": "efc68680b98544271e552d2d0c0c58e49e20a39f6d712fd4109a12eaa4f4c4b4",
+      "bytes": 17700
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/ANALYSIS-RECONCILIATION.md",
+      "sha256": "da218e2ae313578126ed1e9169b98782157aea92e7caf44af8a880f17c5addf2",
+      "bytes": 12886
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/BROWSER-REVIEW.md",
+      "sha256": "e423a286c8c86805f3e5e92983fa747454fa81f0ea1bca2138852858a868fc07",
+      "bytes": 4274
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/FINAL-LIMITS-REVIEW.md",
+      "sha256": "a6489fd6dce018037f5983d2bd6afa55ae647509fee97e08bf062c867efe0bd3",
+      "bytes": 8824
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/GATE-REVIEW.md",
+      "sha256": "b725602a846f57521fdab6e35d10825ac0e100b26a4beff67e9bbe4715636c31",
+      "bytes": 4946
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/HISTORY-BENCHMARK.json",
+      "sha256": "2e9008b17128ef38f2ffb3bbac915e625b0772e47df800bcaf13990022f671a2",
+      "bytes": 9139
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/HISTORY-INDEPENDENT-REVIEW.md",
+      "sha256": "3620a7b90c983331bbd742e041b422e7753152f92d84ab3ea2234c3e0e318b03",
+      "bytes": 5342
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/PACKAGE-INSTALLED-FILES.json",
+      "sha256": "b20848fd97113e1fc4e01582ddc5d7bf94db8909b7b46731e8aca50fa480dce0",
+      "bytes": 13928
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/PACKAGE-PROOF.md",
+      "sha256": "b155c58f114f8db6fdbb0d5a25f90c816dfb31d595424f9c04586de0830ae0f3",
+      "bytes": 4442
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/PACKAGE-RECEIPT.json",
+      "sha256": "751c960ed07270c19b6845d5bac9eec5cbc8bc39e8dde9e6fb8147370e052f40",
+      "bytes": 3057
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/PACKAGE-SOURCE.json",
+      "sha256": "90bb6c8d453a2aa882722be7d97045838161b7536c6dbb3bdc4e12ef4784aec5",
+      "bytes": 13090
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/README.md",
+      "sha256": "c5ec2734ac1f4dd91bbd8cf8780ae7337db2ee64ea574bc25fd9f178ea8a5208",
+      "bytes": 14167
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/WEB-CONTROLLER-REVIEW.md",
+      "sha256": "b354785669c960775035b8e75d335a66d994323f55d6957e40caa80d5d04e81d",
+      "bytes": 3876
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/TESTS-RECEIPT.json",
+      "sha256": "6d7309b88ba2a0da5b8740f17650cd43c167915fb77c68cbf4873e06e62cf3bc",
+      "bytes": 458
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/TESTS.xml",
+      "sha256": "640698869abe5332806385e2ff84cbce4336a7144fc28c639a37b8e52e7cd0b9",
+      "bytes": 60009
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/browser/BROWSER-PROOF.json",
+      "sha256": "8096f624152a663774af2c1809472ca0333f04120f143ea67cf8fa1b92de31e6",
+      "bytes": 10182
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/readiness/evidence/browser/SETUP-VERIFICATION.json",
+      "sha256": "4bdeb1cdef07fd27950b7865b6c641c18c1c14aae1e2dda44fc30f4abb010767",
+      "bytes": 5439
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/ADJACENT-SOURCE-MAPS.json",
+      "sha256": "94780a515f210060e6cd0fafe6a76ea2f31114013bb2992306ab4fe100281736",
+      "bytes": 37088
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/ADJACENT-SOURCE-MAPS.md",
+      "sha256": "8b29a0898135716728cf0a34604c7bf35e531a8939b484bd948e10a52ab2f657",
+      "bytes": 1897
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/CLASSIFIER-REPLAY.json",
+      "sha256": "751a1a8fc421854f818b71bd7133a2182a57ee5a7d188845eb796c3304a54d04",
+      "bytes": 2748
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/CLASSIFIER-REPLAY.md",
+      "sha256": "753e913662c40f3f98fc39463000407cb5596fafbaeb0541342cca72f3324649",
+      "bytes": 5190
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/COLOR-METRIC-REVIEW.json",
+      "sha256": "e1c4ea0d5355e5e2612a28e50764ec16ee4a2dceb5515c200dc2b5fcbe5acc4b",
+      "bytes": 7235
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/CUTOUT-PROBE-PLAN.md",
+      "sha256": "f008e2d5827ef4b58af63a923b3e92ac126bf6cf9c7b1711664c9dfad399b6c9",
+      "bytes": 7355
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/DITHER-CHARACTERIZATION.json",
+      "sha256": "3249506ada3b47ab9490ff0cef98166f7ca9e7a596df436964c8bd2ab341b8e4",
+      "bytes": 506100
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/DITHER-CHARACTERIZATION.md",
+      "sha256": "6e9ce69e2805df12d34aab5266b35bccfee964fe357dbbc4c72fb6ca3e19cb1f",
+      "bytes": 7126
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/EDITOR-RESOURCE-HEAD.json",
+      "sha256": "df4e1dadf3df8cd3a08a70c5ba56807a6408fed1f12779b0dc436e6c50bc6da8",
+      "bytes": 1340
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/GDSCRIPT-DIFF-INVENTORY.json",
+      "sha256": "d743f74eedcfa3c2dd91e089b87f7a39a4bf63665592d1a56d068f97c344bf90",
+      "bytes": 110980
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/GIF-QUANTIZER-REPLAY.json",
+      "sha256": "2e7d743bee3b657b9f4f58d316d11c05c06ec571c75f0b01d7c758df39d831d2",
+      "bytes": 1502
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/H3-CLIENT-SOURCE-IDENTITY.json",
+      "sha256": "7a5560dc80fd7f03d5e42cfcd70f3de478c2669b6e025bafa89c943e2db7888b",
+      "bytes": 2394
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/MANIFEST.json",
+      "sha256": "a03c97cfe1f124e8c67c87fd585637ea3be62984b48a720a8df0a13923576571",
+      "bytes": 9101
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PALETTE-CONSTRUCTION-FIXTURES.json",
+      "sha256": "98b916a5876eeef50e9e5d91ed2f5dee5f54fc902931c5cce942de807ffba8e5",
+      "bytes": 2168
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PALETTE-CONSTRUCTION-MANIFEST.json",
+      "sha256": "8338f07796d777494189317719abe1aa0f991890ccce37b9bedd552d684dd3a1",
+      "bytes": 3760
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PALETTE-CONSTRUCTION-ORIGINAL-REPLAY.json",
+      "sha256": "6e1530cf99ccd183712ad1d0c42d0e065f94c800792725efddc29c309780b884",
+      "bytes": 33535
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PALETTE-CONSTRUCTION-PLAN.json",
+      "sha256": "8997593ad8d17359eb6ed3c6e3472ab397c62867b7828a6ea28d608c4ce91690",
+      "bytes": 1995
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PALETTE-CONSTRUCTION.md",
+      "sha256": "28520f65e371f26b0d530a7964d1ba9f0cc8292c9c659ddd6387924fb37c3b10",
+      "bytes": 8134
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PCK-INVENTORY-SUMMARY.json",
+      "sha256": "cf488cef3285cf38162a2975baa7c62ff89640642753ddf022fd75fe0caa884b",
+      "bytes": 399
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PIXEL-CONVERSION-LEDGER.json",
+      "sha256": "f7c7d30ddd43aa04a834c6ad27b32f52372d3129b25eb09691fcf0182b24004b",
+      "bytes": 11928
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PIXEL-CONVERSION-RECOVERY.md",
+      "sha256": "efe3738823658634bcee8528a0140132ba572da43d6e974322d9cbfe28021c9f",
+      "bytes": 11592
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PIXEL-METHOD-REPLAY.json",
+      "sha256": "7dabca67d56dca3e612de873c61fed24235d8b48e232ec0b2208ba03fc2ccb30",
+      "bytes": 3393
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PROMPT-FRAME-CLAIMS.json",
+      "sha256": "165aca3585c7318bdbb20d069328a67f951b50916cf9df79817fe2e511bce28c",
+      "bytes": 33397
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PROMPT-FRAME-RECOVERY.md",
+      "sha256": "9c5e09c575ccd8967392724ee31d0182a6a5a6d4c2dcba002bde32d32f70cec8",
+      "bytes": 10531
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/PUBLIC-RETRIEVAL.json",
+      "sha256": "75d4b92db0788d45353a552ddb512a339e8d3f36cf476bb9494b4749856b206e",
+      "bytes": 46012
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REA-CLASSIFIER-SUMMARY.json",
+      "sha256": "f42bc2d3de30b10f11649ba3a74164286fb507d8de2ca0cbb26219a0623e362f",
+      "bytes": 12563
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REA-FOCUS-SUMMARY.json",
+      "sha256": "a64e7a1d0508615f60e72ded2684d5295b64260ecdf2fd1945c1875387af4341",
+      "bytes": 12506
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REA-RECORD.json",
+      "sha256": "e5400f773648d7360e671b3e02b965a534058246f73a1cab3bc1f24c8aeaddcb",
+      "bytes": 1971
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REA-WEB-SUMMARY.json",
+      "sha256": "b01b29c44a660060a11ee431593ba94129030a5c417747f44569380411052fa2",
+      "bytes": 13090
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/README.md",
+      "sha256": "cbd918af6fb7eae6d073657142e9013c382ef258802ffd452e1344e81732bc9a",
+      "bytes": 8644
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REDUCER-ADVERSARIAL-REVIEW.md",
+      "sha256": "c56508d3498f2f48ebba90389c4793aada0e487a86afd651376dc8997abd4b28",
+      "bytes": 7635
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REDUCER-BEHAVIOR.md",
+      "sha256": "75025ba0c540166d9400cbe5ab42bbfc5cff81ea1bb19e9ae71423f42a6de870",
+      "bytes": 4394
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REDUCER-INDEPENDENT-EVIDENCE.json",
+      "sha256": "140cb5fee408e88e79d27dac7927df8face63e25881d7d8913412125c6c99a59",
+      "bytes": 21980
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/REPLAY-PROOF.json",
+      "sha256": "d387900650907d4e367b3fbd94313165eaea9d6bd3a89a20a65e04429f12f1fd",
+      "bytes": 3161
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/VERIFICATION.json",
+      "sha256": "77378a44c8a1b8506e8f0e6d0a3c0ae63f7d9a438122117787f009bb848ecfa4",
+      "bytes": 2704
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/WEB-MODEL-RECOVERY-LEDGER.json",
+      "sha256": "6377697baf28d6fc6969d1cb0e127c40bc93ce37ba5840115ab133b76f95afc1",
+      "bytes": 5770
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/WEB-MODEL-RECOVERY.md",
+      "sha256": "6d4945be3362f6d956b37813a16b48b68a3026e25c798fa40d58d43bea0bf5bb",
+      "bytes": 11449
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/build_pixel_ledger.py",
+      "sha256": "22c24cf663ba6c4998938d9f950e85dbf3831d919b5b3789eee32b05e059013d",
+      "bytes": 4154
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/characterize_ordered_dither.py",
+      "sha256": "a0f8793d169ff3dab2e51633f05461cf8ad7080ae1b4ea186a08f6fb43dec165",
+      "bytes": 9304
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/classifier_replay.cjs",
+      "sha256": "f4e6ff5e40fafbce1f041aefe3fbd38ab502158738aaeeae74a0679fb22f161e",
+      "bytes": 5876
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/compare_palette_construction.py",
+      "sha256": "d89fb0142da6d97eac18eec08476bea695399069cbe7dd82e00f033717bed066",
+      "bytes": 5662
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/PLAN.json",
+      "sha256": "7fe6dea39aead1e171caa7239ce1b8e08b766b45568873faa3e7da61e89b8260",
+      "bytes": 3671
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/complex-opaque/request-wire.json",
+      "sha256": "e3fef204bbaaafe29bc60645ee7692de177f76dc881b02b15b4b48050766da59",
+      "bytes": 935
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/complex-opaque/request.json",
+      "sha256": "808aae3321f54e962c8a77748903f5f8d5c47b672fce26c61dd6e06128f25043",
+      "bytes": 989
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/inputs/REGIONS.json",
+      "sha256": "a798acab742d0b32f9ae4846af8ad3a9fafa3053979c6329e4f8ee5953b4714f",
+      "bytes": 1548
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/inputs/alpha-patches.png",
+      "sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9",
+      "bytes": 602
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/inputs/opaque.png",
+      "sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "bytes": 566
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/simple-alpha/request-wire.json",
+      "sha256": "a0da38239bf62fc4e30989ed8adf2c8a73931e2c517e4b3f072e040e148873a5",
+      "bytes": 982
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/simple-alpha/request.json",
+      "sha256": "f1ee1c8dcae6350a0b2fcfcfa5733736e2a0995f2b400c68a9102edf4c585413",
+      "bytes": 1036
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/simple-opaque/request-wire.json",
+      "sha256": "ba471ad1f5084685138e3a2bb4e4e787055f8a70fc95bb5adbcd45d7a938482e",
+      "bytes": 934
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/cutout-frozen/simple-opaque/request.json",
+      "sha256": "d22c83ef90d68039cd12a4fb3e291c2f2531daac5e877589d7ae97a7227c496d",
+      "bytes": 988
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/CLASSIFIER-ROOT-REPLAY.json",
+      "sha256": "46281f57b6d67dff91a8dc0da23fd8d7d0c01727df3a21bad0b3480c353cdc9e",
+      "bytes": 2748
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/FULL-SUITE.json",
+      "sha256": "f2b9e4b1847834bb2847c2672a214eaacf989f439048ffd9ed95334b018cdcfe",
+      "bytes": 833
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/GIF-QUANTIZER-ROOT-REPLAY.json",
+      "sha256": "2e7d743bee3b657b9f4f58d316d11c05c06ec571c75f0b01d7c758df39d831d2",
+      "bytes": 1502
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/PIXEL-METHOD-ROOT-REPLAY.json",
+      "sha256": "7dabca67d56dca3e612de873c61fed24235d8b48e232ec0b2208ba03fc2ccb30",
+      "bytes": 3393
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/PROMPT-FRAME-ROOT-REPLAY.json",
+      "sha256": "d387900650907d4e367b3fbd94313165eaea9d6bd3a89a20a65e04429f12f1fd",
+      "bytes": 3161
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/REDUCER-ANALYSIS.json",
+      "sha256": "ee249e525bbb46df6e9359555565ec0c691bbbf5785fe2f10c7adbd36ca98ad1",
+      "bytes": 10581
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/evidence/full-suite.log",
+      "sha256": "a736179735904d492e32182d47d18012092b7c25b0842ebf57f5ab5bd1282f05",
+      "bytes": 3818
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/prepare_cutout_probe.py",
+      "sha256": "6b712b14dd0905ceef623d9b45084c9e1831b68baeea334d3e318428248ebb63",
+      "bytes": 9559
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/prepare_palette_construction.py",
+      "sha256": "a04c314ab992f519ea11ff2903ff89ef9be67040a81629a6170f6a192e0703f7",
+      "bytes": 5603
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/replay_palette_helper.cjs",
+      "sha256": "50675891da5abb23ede36cd2cdb92f496fdf4ead9b873810259e1a54a641e0a9",
+      "bytes": 4785
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/replay_shipped_gif_quantizer.cjs",
+      "sha256": "83bb8b56da66a37f4481ada4b61037c8cc8de696679544a2e396329765282641",
+      "bytes": 2638
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/replay_shipped_pixel_methods.py",
+      "sha256": "0627f08398c050cb653d758bc668cabd4a8c6218659f6acf1bee6b23e02680d1",
+      "bytes": 7771
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/test_palette_construction.py",
+      "sha256": "4765b97f86f035f0b4f7d28c81d525b98880292d5d7f67ecd23721a7891088d2",
+      "bytes": 2876
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/ARTIFACT-MANIFEST-PIN.json",
+      "sha256": "f54d720ef0509897194c916387ccc06b592349999ddab9f3cf5af686531ee953",
+      "bytes": 429
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/CAPTURE-REVIEW.md",
+      "sha256": "b51a5b93aa84a1151eceb307b330001102b7bc16f38f4c1e0dfb62c50399efed",
+      "bytes": 4986
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/CUTOUT-CONNECTIVITY-FINDINGS.json",
+      "sha256": "bc9214b4b72c909c04e470e60ebf3e0562c5bb35e85e851629e1eb20637b436b",
+      "bytes": 54959
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/CUTOUT-CONNECTIVITY-FINDINGS.md",
+      "sha256": "922521c42be98edd5e34cddfd78b0b34cfa954dbd415266834bb35d736ee2dbb",
+      "bytes": 5930
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/CUTOUT-CONNECTIVITY-PLAN.md",
+      "sha256": "8a840db7c4812363580e471f0217dd04add8990da758e14a611d6e03d1f84b37",
+      "bytes": 5073
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/CUTOUT-FINDINGS.json",
+      "sha256": "9c2bdfa724769a787f4124fa9eefb1e1b76fe70d3306d6bb2bd5841d79a7fe7e",
+      "bytes": 40001
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/CUTOUT-FINDINGS.md",
+      "sha256": "18e61feab681d9be6d8322ec79c5d5d23ad3f2b26f7be52af3d7d526bd74ff0e",
+      "bytes": 4668
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/DITHER-INDEPENDENT.json",
+      "sha256": "a08ce68a2a18374ad1d8c70d6d1b1d3f98a4e57e28fb520b8c87a46163a9f3cb",
+      "bytes": 481339
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/DITHER-INDEPENDENT.md",
+      "sha256": "a0ca90afd5d64bc61009a4354887c7003a98d34c31ad325cf2bc8dee8107781b",
+      "bytes": 9637
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/FINAL-REVIEW.md",
+      "sha256": "4aeff64dd26b3ce10cd81becf8da7c8c8ac8e13016e4f57059cc12cf80ce0f3b",
+      "bytes": 3602
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/PAIRED-COLOR-LEDGER.json",
+      "sha256": "c42e6e819d132846cd525ad900d7741b1530b9c779668e38bd3cd8092859217a",
+      "bytes": 118202
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/PAIRED-COLOR-RECOVERY.md",
+      "sha256": "9cb28763b27243bfe1c40841f049542e399e27e087fc73318ded1d5da28676b7",
+      "bytes": 9360
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/PALETTE-FINDINGS.json",
+      "sha256": "1a6524c37b741420573cae2dd63216ebacb64d26028396c9db74c69beb9ee4a4",
+      "bytes": 17947
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/PALETTE-FINDINGS.md",
+      "sha256": "acbfd013d359ce27534671c5cf7b1ea8e10662482a910530fcfba63ac44c7b3f",
+      "bytes": 7673
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/PALETTE-WEIGHTED-VARIANT.json",
+      "sha256": "87203f4c00761dad50f332b60c562141519e805f592a52109137c113c5f066cf",
+      "bytes": 1936
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/README.md",
+      "sha256": "54027ef6d51900cb0c4db7c3aadf327c9246c1e4a5567f7eacf9cd69a9e433a5",
+      "bytes": 9254
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/VERIFICATION.json",
+      "sha256": "37f1c7b8a7eee3c85d7e56b7fe82ad0cac9205c6b46a8508c61612fb4b4bdd15",
+      "bytes": 4117
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/analyze_cutout.py",
+      "sha256": "17871083fd52ef78abaad175b575afe1ec22037a0758e91a9ed24b9cf79311d3",
+      "bytes": 6345
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/analyze_cutout_connectivity.py",
+      "sha256": "fbb86e978be9a48da855303b0f293a69e028708a3cace3e460e09637942da437",
+      "bytes": 6352
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/analyze_palette_findings.py",
+      "sha256": "e3e1c3a7f16e930ede1f2a6ea35a23433fa2de222687ecdeb1cbe19256635033",
+      "bytes": 11711
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/PLAN.json",
+      "sha256": "d23295b3af242446a5947db8ea626cbc8ad4ff432007bfbf10e2de7c80a692b3",
+      "bytes": 2811
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/complex/request-wire.json",
+      "sha256": "bacc047ecc710acf63943566e8093530624e832fb2621c22f941a51235e3f117",
+      "bytes": 963
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/complex/request.json",
+      "sha256": "6b722ee5753be9cd04fb774fb847d04f465815fef38509cea9eb0e0aa88146e9",
+      "bytes": 1017
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/inputs/REGIONS.json",
+      "sha256": "801c7023d153273e12555159d5ba1ab2636b8594a1d1a8146e27fcd2a6902519",
+      "bytes": 1579
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/inputs/TOPOLOGY-PROOF.json",
+      "sha256": "9839d1bc2035d464158c319e197c730abceaf474bf66986db7e67700c22a0386",
+      "bytes": 6486
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/inputs/connectivity-rgba.png",
+      "sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "bytes": 588
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/simple/request-wire.json",
+      "sha256": "48409733bf70203f24fbe1e85747e06489daf7228f51e68ef142cd958d79911d",
+      "bytes": 962
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/cutout-connectivity-frozen/simple/request.json",
+      "sha256": "6a0bcf6d0c86251f456478b4e29671fb82c41e875b521a08a2259f6b98e60e32",
+      "bytes": 1016
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/prepare_cutout_connectivity.py",
+      "sha256": "cb49774909e0098f410ca1f06339125e33cf58776211e3ca3e7e8dad56c872a3",
+      "bytes": 6188
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/replay_palette_weighted_variant.cjs",
+      "sha256": "efa6210210255c64f2087c8c03c24ceed85366a042d27f860ceb16595df9b60f",
+      "bytes": 1862
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/ARTIFACT-MANIFEST-PIN.json",
+      "sha256": "71fef9d996b9faa135410b283e4de30b51d7ac798d02181be67020ba627c930a",
+      "bytes": 434
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/CUTOUT-PROVENANCE-LEDGER.json",
+      "sha256": "f8c13bcdfe1a444e05473333300bef62d7d896bc506d82ce7484d71b41f8bb3f",
+      "bytes": 17289
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/CUTOUT-ROUTE-PROVENANCE.md",
+      "sha256": "ee5336db3bd5df146a0c2965c2ee470c2d269234f20f237c2c29c97b420ac4c7",
+      "bytes": 10168
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/DITHER-INTERVALS.json",
+      "sha256": "c40aa4ef9833731ad56114ce0821674ba834d05e379e7e75c1cc3b2a9ef6bdeb",
+      "bytes": 189946
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/DITHER-INTERVALS.md",
+      "sha256": "d78ca2e2978e75039569f849eb471604e47f097031dab90b73cc4ed9dff24d40",
+      "bytes": 6791
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/FLOAT-ASSIGNMENTS.json",
+      "sha256": "8903f6a0f40fb6d2f2e08c390a1c879cdda7a8749c892068bf673c3795174040",
+      "bytes": 6196
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/FROZEN-PREDICTION-REVIEW.json",
+      "sha256": "543c5c2aa44fbf0da9d459d0cd4106aa0ac7cde0ae64fbe553658ce35bf32711",
+      "bytes": 9761
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/FROZEN-PREDICTION-REVIEW.md",
+      "sha256": "d4f2835f50f928b5e1452367f9463629399b204ec8d4f98178b15728d4818ecd",
+      "bytes": 4944
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HIDDEN-PALETTE-REVIEW.json",
+      "sha256": "dce7386505aad2493b3a6012fa9d165b419315eccfb21ebfae52c15bf846f5ce",
+      "bytes": 14894
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HIDDEN-PALETTE-REVIEW.md",
+      "sha256": "d292600df7f3c3553cf8e5c4c860092af35f2a90939fd99d781a36c9f23e898c",
+      "bytes": 5475
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HOST-FLOOD-REPLAY.json",
+      "sha256": "1a80f854e4f89cc7aeca490af8de7bbd0e27b169c7ee0da1f732fd060a8c98d6",
+      "bytes": 13794
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HOST-MANUAL-SELECTOR-CLI.md",
+      "sha256": "f68fffac3e9f19268d4bfc12ee344643b8a75c75bd7e3229de72ba653b5f177c",
+      "bytes": 5798
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HOST-SELECTOR-CLI-CHECKS.json",
+      "sha256": "83b7e90dd6be256c6d4599cf21bb67bdf13637a0b2d70ac2c1c95283cfd88812",
+      "bytes": 1551
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HOST-SELECTOR-REVIEW.json",
+      "sha256": "a9be2d749aa3424851ee091577c825d107718748a1cfe8d02ab2e6996d20f10e",
+      "bytes": 7182
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HOST-SELECTOR-REVIEW.md",
+      "sha256": "252fa2c546a51bc65504416ba09ca93716eb55328a383c4dca175ffcc14a8b5f",
+      "bytes": 6609
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/MASK-CONVENTION-CORRECTION.json",
+      "sha256": "2c05c86b702d27a4485f963ef5650fd21132bbb4c1507358649ba6af459fe550",
+      "bytes": 2474
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/METHOD-PLAN.json",
+      "sha256": "3216cc883c34e081b207463966250f054b2cd555f917bfa22d7d6c9c367429c1",
+      "bytes": 1171
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/PALETTE-INFERENCE.json",
+      "sha256": "5971cfc9311a2d9648586cf60fbb8aced134c36213da16c033a855af899ec211",
+      "bytes": 18097
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/PALETTE-INFERENCE.md",
+      "sha256": "c19813ea80e2ea4a8919be0dfae45d27967e4ad40cda28df04051424b7aa3d9f",
+      "bytes": 7076
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/PCK-MEMBER-PROOF.json",
+      "sha256": "0990d1fbc06609278a2dd52e4eec43e60b618f94e45f0dd616559cd4a8aa1936",
+      "bytes": 1404
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/README.md",
+      "sha256": "14a92629d386e1849c7d2e2bd0dc2978d1816b27430aafd00917ef127f5a4c72",
+      "bytes": 9787
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/VERIFICATION.json",
+      "sha256": "988ea13a91a2749ac2ccb814bf58d853207a27d15605e356bf11eaa5932b48d3",
+      "bytes": 4654
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/manual-selector-examples/tolerance32/mask.png",
+      "sha256": "d46178aa2e071504bd68d7bb26fa377dbeeb79868258979706830aca51c11fc3",
+      "bytes": 361
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/manual-selector-examples/tolerance32/receipt.json",
+      "sha256": "6176640015fb3507c87f5f89b114b0717fb1512b525fa04df2dc04867bd30e27",
+      "bytes": 2664
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/manual-selector-examples/tolerance8/mask.png",
+      "sha256": "8d5c66ecbbdcee0c85ba0c0dd994894b43b893781be078bc8e516f340b824579",
+      "bytes": 375
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/manual-selector-examples/tolerance8/receipt.json",
+      "sha256": "fbfb60b70ee9bdf3c8f9587045adbfcf390de79b0bb8f357658b76587564ee36",
+      "bytes": 2664
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/ACCEPTANCE.md",
+      "sha256": "c72f5c808fa7364932c580a3beb6a5aedfc2a7976c5f9259f30bb52d07891761",
+      "bytes": 8774
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/GODOT-ACCEPTANCE.md",
+      "sha256": "2235b775548e7af04348557f6e2fc075aac41fe711c6c77442cf1cd8b172a9a9",
+      "bytes": 3876
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/INDEPENDENT-BROWSER-PROOF.json",
+      "sha256": "608e3b286e0e052293bab3c466f32f06794fdcb4b59af8c4cebf673744ef78f2",
+      "bytes": 2883
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/INDEPENDENT-BROWSER-QA.md",
+      "sha256": "851887cb4980f3b872287a98a67746be9a36adf953c8d2e3885e5f49bb17ee83",
+      "bytes": 2737
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/README.md",
+      "sha256": "f2007e0be2b68964cb8c2c2dbd64c4779619c214424d58424fc2c7d61f319b1c",
+      "bytes": 5232
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/STUDIO-INDEPENDENT-REVIEW.md",
+      "sha256": "42f3f47f47a4148facf3ea1ffd66168be4912a67e20d64979a6d88fdc6cbe879",
+      "bytes": 6389
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/VERIFICATION.json",
+      "sha256": "c075c1a2cb704567e1e2db6061dbac4895e31273d448795485f4ada33f6ad7ef",
+      "bytes": 4930
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/BROWSER-PROOF.json",
+      "sha256": "bd0b6754b6e76797e8aea6349585354af97f7cdcfe2da8c032d134654067d64e",
+      "bytes": 4006
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/INSTALLED-PROOF.json",
+      "sha256": "d41440be1a6b2ff16e335b276f4de0129592aefb83bf00d33db0f499980af4cd",
+      "bytes": 1754
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/NOTE-REPIN-RECEIPT.json",
+      "sha256": "07725736eb3f1db474557c46f21a2cc345849a62bd463d5f9b421abcb38b1bc3",
+      "bytes": 795
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/PACKAGE-COMPARISON.json",
+      "sha256": "bedf95f785b119cb2b87cc1ea9a6c4f23c9329b351d1411f10f6e970bd314eb8",
+      "bytes": 25275
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/SETUP-VERIFICATION.json",
+      "sha256": "77a7c6e9cab8be85183fddc4da8b6afcb37e85b521699349216cfae6722dc194",
+      "bytes": 5304
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/TESTS.log",
+      "sha256": "643e5c1984b9fc9a54de89204ccdbde1e236bf303aaacec54cec316e1e4d20a9",
+      "bytes": 926
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/TESTS.xml",
+      "sha256": "999c1fa20009f3b5b62773e56b701a4bdd0c7ff38876dfc0138398c7530c2b9b",
+      "bytes": 104676
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/mobile.png",
+      "sha256": "af5942b4ab7c66df6d0b919604a56da603a19dcf8f7913ae3a31e61efad44ec0",
+      "bytes": 142584
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/verified-export.png",
+      "sha256": "4963259384f5ce8c3d55b710e32e6ecc93ffb47b9dde570a453f8eee94780600",
+      "bytes": 203554
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/evidence/walk-initial.png",
+      "sha256": "c75b431af98573bd0590c902c20ea1366dad317caef1166a522daf64c496cd6f",
+      "bytes": 180155
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/BROWSER-check.py",
+      "sha256": "5987817b372dc9c68a4a26f88e2315ad23f96bcd0765ba217af7bac4891054f1",
+      "bytes": 9343
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/FIDELITY-REVIEW.md",
+      "sha256": "9532b70a6dba1948aa9fe32e3d9c03ba856da8586c0f349afeaabf1788ea7b03",
+      "bytes": 8957
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/FINAL-SOURCE-REVIEW.md",
+      "sha256": "9c1dd1a5008d4b0f06bedfd13a8659e94adae5d7ca65cd714aaf5a400d20f47b",
+      "bytes": 6677
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/GENERATION-PROTOCOL-PROPOSAL.md",
+      "sha256": "5bf3b816042bc163fb021b86e1f238cef753a2f8b4bf44ac24b8f53b7d81beba",
+      "bytes": 13733
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/H3-PILOT-SOURCE-PROTOCOL.md",
+      "sha256": "7ba24752d5300dcc140efe131c2ca8a58ab5a7c9255c2b7542a718cb3fa09885",
+      "bytes": 8456
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/MODEL-HANDOFF-REVIEW.md",
+      "sha256": "de73d7774aec515c157f5061fac124a9dd21e3ca4332a363fde38685bdaf0192",
+      "bytes": 10594
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-COMMANDS.json",
+      "sha256": "84b48167e05fc343c2073ed67856b8aeca9e8d2b47cc05d3f594d617a6ff33cc",
+      "bytes": 27100
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-HTTP-SOURCE.json",
+      "sha256": "a79c5d080b335b6bb89d96d50a7c67ae6fa6d9cff83293183321154e531553b7",
+      "bytes": 739
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-INSTALLED-FILES.json",
+      "sha256": "c6962f9f94e1c860355d424f4b52bf61fbd56e0e8af35f4ebaa4cdbffc2cf487",
+      "bytes": 14799
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-PRESET-VARIATIONS.json",
+      "sha256": "6aa9d6252e7f5b6bd57c2aa4b2d8069acfb12ba8e99688e7d705307f7c73a7ea",
+      "bytes": 3226
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-PRIOR-f0af029-RECEIPT.json",
+      "sha256": "2fbbd2eab5ab774792965aba539b24afd58ce8289f0833b8dc1a1fccaebe917e",
+      "bytes": 25772
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-PROOF.md",
+      "sha256": "0f92450f1bec46b8e12709c74a963176a2ed96a4e78f286cfb41cf8295bfe220",
+      "bytes": 4364
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-RECEIPT.json",
+      "sha256": "238fde8e725e5d25cce41d09ffe48a58517c7b2121eba48a5b6efaaf7189dc4b",
+      "bytes": 25784
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-RUNTIME-RESULT.json",
+      "sha256": "b32cac81feeca339a7b13e85fcb29acce58f91eb88258b690968759cb107856c",
+      "bytes": 4244
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-SOURCE-ORACLE-MATCHES.json",
+      "sha256": "897b8cf252089cccb8013737a079353054023a52f53a7792307a70feeb352419",
+      "bytes": 32406
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-SOURCE.json",
+      "sha256": "4ade526defcd620b9b565fc9747c32f017e41fdbfad473753289fd4d870522da",
+      "bytes": 20519
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-WHEEL-FILES.json",
+      "sha256": "a35faea207ec519d98e93e03dafb2173979b7a699bf9fe5a8a603988117f784e",
+      "bytes": 17381
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-proof.py",
+      "sha256": "0ce31d9e9378849997ac1bb882132cdaa6173bb8b16cd6087638c99df4b1e014",
+      "bytes": 5928
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PACKAGE-runtime.py",
+      "sha256": "b81ab1bf7e1384ccc5222f1829b989fbf41949633b7fd44ea070bfac5310b6da",
+      "bytes": 8298
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PIXMINIMAX-ANIMATION-EVIDENCE.json",
+      "sha256": "b9002288fa368a90b50c997fa705650e8e821f10c619c5d0217b964bdc610667",
+      "bytes": 5216
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/PIXMINIMAX-ANIMATION-EVIDENCE.md",
+      "sha256": "02915c4a6c40df49ce87a85de7fe2e3f5228c77aa488a1edab426232ff11d775",
+      "bytes": 10552
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/REA.md",
+      "sha256": "e21bcac442031a20562346a34a5e7f975c465ba5f25a52c6e8dad7488b8c38c9",
+      "bytes": 1951
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/SOURCE-CONTROLS.md",
+      "sha256": "e2173c46197edb1b3850a09f62189007bbbcb8a4c1c89129f46d410a8a3cc28d",
+      "bytes": 4044
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/SOURCE-UI.md",
+      "sha256": "56d0c6621cbd1476fb3a12b652819ad1262019aebd2e1f5f55fae3b1fdb36be1",
+      "bytes": 5287
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/SOURCE-VFX.md",
+      "sha256": "6a0456f5b078a896630c1b57517ede0e3c1e3339814ccee1ec31a68759587d40",
+      "bytes": 4432
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/VERIFICATION.json",
+      "sha256": "ad79743c4150db6f000129bb27a20df6579efc862131936603dbd610f3288b71",
+      "bytes": 6968
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/WORKFLOW-REVIEW.md",
+      "sha256": "9b4edef8e11d47ea43d376c1ee1a28f04e4fae1c8201cfc68f05095dab06d60a",
+      "bytes": 7800
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/REA-BARE-FACTORIES.json",
+      "sha256": "96b9202e8db6f3573bc0269149e0c9b1709d0d506c52af5d3630b0b9306c0e2e",
+      "bytes": 1546
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/REA-CARRIER-SUMMARY.json",
+      "sha256": "40e298af66e43364b759d3fafca48ebcd81c1d6c1beb50846fe9ab67cc48db10",
+      "bytes": 12627
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/REA-CARRIER.json",
+      "sha256": "326f821dcbc18b45ea4051b0ed850792feb8c8ba6661a28d9468e97d709c13e1",
+      "bytes": 1025
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/TESTS-RECEIPT.json",
+      "sha256": "d666574a7a3e51fd7b80c1335ea8ea53f1696ebbee4542acff6487f4097bd4e5",
+      "bytes": 1381
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/TESTS.log",
+      "sha256": "7bdd5ac113149f06d4b83b4b96c63d538535e0f7440f1d27f44b725fa72054e8",
+      "bytes": 3118
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/TESTS.xml",
+      "sha256": "75fed0ab101364bbb5d62f2961138015bbb5a526c99bc9dbcd22f75bc4eae688",
+      "bytes": 73222
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/before-source-v0.5/PRESERVATION.json",
+      "sha256": "7a26eba66a089c2464b4ef86f66e856ae436216b5310446ed025665f4dd1f591",
+      "bytes": 2396
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/BROWSER-SOURCE-REPORT.json",
+      "sha256": "9231b1186ce339d40a07d20d42642044f1835a4a384523bea400fb6e49416a7e",
+      "bytes": 6621
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/SAVED-DECLARED-RECIPE.json",
+      "sha256": "ad2520161767a7c96269bbec02617e7e36512a3e477eb6dd4dbeb80fb2e6e9a0",
+      "bytes": 2123
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/SETUP-VERIFICATION.json",
+      "sha256": "1cb78a98713c8435795b40a9ecfdaff3a7f30d51b4fac1f55d0d77d4a672ed6b",
+      "bytes": 5439
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/pixellab-orb.png",
+      "sha256": "d8c0beb93b15bea721e1156205f4a97f7b3a568aafdd351096d057a06ce9287a",
+      "bytes": 126646
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/pixellab-slash.png",
+      "sha256": "bea4641ac7712ed28339847fe56cc30e7a3489fc2ed9fcbc22e8205538cedf72",
+      "bytes": 127537
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/pixellab-source-mobile.png",
+      "sha256": "a21b97a80f2688297577cb1e0d26c067faf11fd22b9640f260ae98b80d0c151b",
+      "bytes": 50654
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-console.log",
+      "sha256": "3fa97d72a0cb5bd575a2a132a27d74b3ba4004699793155e206486d1789639d5",
+      "bytes": 282
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-editor-result.log",
+      "sha256": "59ce7672fe401381d3b523ae0f8320746af98612aa99dab632481e8998881622",
+      "bytes": 596
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-final-input-result.log",
+      "sha256": "f53a09415802ff0dcb3cf1f1d1e51a2e68a8b4b3d9a2d89bb90a525a62dee973",
+      "bytes": 564
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-invalid-result.log",
+      "sha256": "af322d38da56d98e1805a07bf3c8f67a2ae6a9b9cb97bff276484531966f3a80",
+      "bytes": 606
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-mobile-dom.log",
+      "sha256": "039bc5907fc592a37cf60b3f4c5cb431f1a6146e16a505a9925804fb8ac85d00",
+      "bytes": 282
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-orb-default-result.log",
+      "sha256": "c8b12d54513782bc5d340d925cdfe1d1878ed81c97333af5865f318718f2f3eb",
+      "bytes": 31122
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-orb-variant-result.log",
+      "sha256": "8b679b43f9585bc84e29a2a7a518089dc90048a0171f75c600b27af0cdd52f9b",
+      "bytes": 31198
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-playback-samples.log",
+      "sha256": "45801dd7ab7ffdb95bf1e3b8f184c89b87d56ea815fcfe8d00b75cf777200965",
+      "bytes": 100914
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-restore-result.log",
+      "sha256": "b66e63d8a93a6ec98bb65296b77f910a4f4e47b336b1ff960580b745f936c6d6",
+      "bytes": 2869
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-save-recipe.log",
+      "sha256": "54015cf72ab89855f81a01025b9995250d8f0974f07aa354a11cde29f3a0ce9b",
+      "bytes": 458
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-slash-result.log",
+      "sha256": "9317661728124db23f7f7f9273ec77f6353bf7c6ef3724461ffea548aec89a7a",
+      "bytes": 34375
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/source-faithful/evidence/browser/source-stale-before.log",
+      "sha256": "00535a5d601f41f1c646b87a06ec70cfb39732b3fa3f316930b522332f62cbd7",
+      "bytes": 384
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/examples/native-motion/plan.json",
+      "sha256": "3cdc18d3842b8bc9703c2503844734a85e1336bdc0ed94218eebe9d14117de3f",
+      "bytes": 1547
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/pyproject.toml",
+      "sha256": "5847960c459c78866e9a7a6eb5a9b87b6d51c3656cccaa5e59f90aa3d25d5245",
+      "bytes": 1021
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/analyze_palette_predictions.py",
+      "sha256": "c5df626651a579245d57d39dca1656935e0d3e6c17d314f9b093f4588e313be1",
+      "bytes": 6527
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/analyze_reducer_recovery.py",
+      "sha256": "4a369005cb2a870b43e712d7be3b21ed4e02a837f9714b1618993d1185eeeb66",
+      "bytes": 7609
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/extract_h3_sprite_cycle.py",
+      "sha256": "e74e4053b326da3728853144ccbe5c730e6474758a1c8cc2f69241b96ad8b7b0",
+      "bytes": 23299
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/minimax_h3_pilot.py",
+      "sha256": "fc1c152f4a9cbd8ed3a0d92adb83625acac8513fb668777ff4dd7362acc79bfe",
+      "bytes": 12606
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/pixellab_h3_comparison.py",
+      "sha256": "58de1fe2b232d376f3f1b951966a0bc3e82bef48513c8f278b4a0a3e9f9fe7e8",
+      "bytes": 20159
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/prepare_hidden_budget_followup.py",
+      "sha256": "e9316d01dc95826f76b3e3cfbb02a87798baf4e654c4fddf3f8aac7b58f3c6f7",
+      "bytes": 4443
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/prepare_hidden_palette_prediction.py",
+      "sha256": "caa4b85f48544610000a9c6e8f16d098cd30d2516f67b4593e089537f97e0266",
+      "bytes": 4171
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/prepare_palette_predictions.py",
+      "sha256": "15bfb938f4050a3a35362cebc9633ec4288ae1b1a08cbf85216bdf3510d93807",
+      "bytes": 8823
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/prepare_pixellab_dither_followup.py",
+      "sha256": "00ce2ec1d62373fcc1b42150a16361ecfc5051761385f69ae8a600cf3e75aa9a",
+      "bytes": 3903
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/probe_pixellab_color_reducer.py",
+      "sha256": "c80bc10389f340eeb253537a835856fea2865c7b2a4da7a0c2441785dfe70c8e",
+      "bytes": 10419
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/probe_pixellab_prepared.py",
+      "sha256": "8447c7a63dc327da98d92d4a9dd672db740afa9a7d46871cc13aedc1ead0d682",
+      "bytes": 12452
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_depth/analyze_paired_color.py",
+      "sha256": "d15c83350ffa93af5f778f9596a2b5728cb9e7bacbf9b41521a008cc16e330df",
+      "bytes": 11810
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_depth/build_prompt_frame_ledger.py",
+      "sha256": "eea1851a7096d33808f215a755686f907bb514374f98dd9456ed099ac005e487",
+      "bytes": 9961
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_depth/investigate_dither_independent.py",
+      "sha256": "8efd0a409323eef7b5a4de13bacc214c83a802f2293ca290a2061e9171d2cbdf",
+      "bytes": 13454
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_depth/prompt_frame_replay.lua",
+      "sha256": "19027761d29394eed2ce3a878d900b41906ad10122964f39eae1929a6c7e300c",
+      "bytes": 8357
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_depth/prompt_frame_web_replay.cjs",
+      "sha256": "cc34782130a8bd53b10dee9983561b7d5b5f12bab111a17279c178503f2ed88b",
+      "bytes": 2903
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_depth/review_reducer_independent.py",
+      "sha256": "775650807ca78ea5ec42ee738ffd277e8c77c52c071d58e20ce4dc089f28cefe",
+      "bytes": 8469
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/audit_frozen_palette_predictions.py",
+      "sha256": "f9cb7618ceb39e9361653c0d67c37cf81046e12dfed6de1ef525c44f545dfab2",
+      "bytes": 9673
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/audit_hidden_palette_predictions.py",
+      "sha256": "811d9189f2431e5536fc91f3cecb75ceed1adc533214368fba599033b03be401",
+      "bytes": 9881
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/build_cutout_ledger.py",
+      "sha256": "aecdfcefd876fe35b7aa57b1eba89aedd259d9d66181239069c56cce2914220c",
+      "bytes": 4842
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/check_host_selector_guards.py",
+      "sha256": "d57130cbf0e96d458cf3bd69938bc5cf969531eb263152f7e96a34f69d70acdc",
+      "bytes": 2493
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/dither_feasible_intervals.py",
+      "sha256": "87d8e9a1c55846238e05dcd44c21fa08f9eb89db5ec077976d71b03940f782b4",
+      "bytes": 10292
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/explain_float_assignment.py",
+      "sha256": "3d66293e57849c8a8648a0ce8474fb317e6b44293a895ca45233b897e7060bc5",
+      "bytes": 5566
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/host_flood_mask.py",
+      "sha256": "67cbb80674b9d17cb81aeb423dcadd16aa617a461720894552394a830af37252",
+      "bytes": 8280
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/infer_palette_construction.py",
+      "sha256": "0779cd9a754289b0d68b1ceebecc5c154376fcae6f52855821c365e7167f59bf",
+      "bytes": 11542
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/replay_host_flood.py",
+      "sha256": "bc753bb850cb578ba711e62c9789d1722d4255912bd7a9ae5ac256a1170cf026",
+      "bytes": 6768
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/verify_pck_members.py",
+      "sha256": "e15b0a9d5ed63cfa075d4d5c5d24cd269051055d26d504eb8757b2803db1dc6b",
+      "bytes": 2805
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/replay_pixellab_fixed_palette.py",
+      "sha256": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742",
+      "bytes": 4168
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/replay_prompt_frame_recovery.py",
+      "sha256": "9ce579bc00d99523f275b201e05578001775b3d0ab02389b96257752e9f339a3",
+      "bytes": 5491
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/review_h3_video.py",
+      "sha256": "3cabf21149f988932f9d047ba5de01bf184e826d6bd2379d6bec2ee73ff49c30",
+      "bytes": 7052
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/validate_current_handoff.py",
+      "sha256": "4ba2af20eca9bb3c015e05bb8b4530db4a4cd57c402763b3b7cd6aa387047e9a",
+      "bytes": 6214
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_h3_pixellab_comparison.py",
+      "sha256": "8bf8f5452f707def8244fdc24aee14b2502616a765d3851a22b20d37a70b6cab",
+      "bytes": 10163
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_motion_package.py",
+      "sha256": "107acfa8e5666a3360d5d5d9dc21e60e3ecfa12c10e8fe45ddc7f074428877a3",
+      "bytes": 9097
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_parity_installed.py",
+      "sha256": "a76e447a837f7fd2b5171ea9ba3c0b18fef8dc0ed6aa55d23b07289fe81bd26f",
+      "bytes": 8268
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_pixellab_probe_phase.py",
+      "sha256": "cd9def6616316b6752b591efd87917ceaa9d4523dc7a618c6b8a9edc47755717",
+      "bytes": 6441
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_pixellab_reference_slots.py",
+      "sha256": "a8181615ef2fed22905534cb9a9aae6ff3e2d5c5a68a95ab30bd7f6355942e5f",
+      "bytes": 2707
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_reliable_system.py",
+      "sha256": "4d022d2658b2546c0aec823b361672ae049e3f8d3f032db9daca3f3f33fa8105",
+      "bytes": 8421
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/scripts/verify_studio_browser.cjs",
+      "sha256": "317a5b089a50b5464dd48fb9c72ccbed3138aebaaff5990b465fd70f4d2f18f1",
+      "bytes": 7387
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/__init__.py",
+      "sha256": "fc4ce38e2db2bb45f1209e650648b008cc7178c7e8c2c2e13246235d5e0d9680",
+      "bytes": 100
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/__main__.py",
+      "sha256": "79ee6f134c5c5193377cf9b189cbdcc3e2095e49ba9cec310114441c15a917c4",
+      "bytes": 47
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/acquisition.py",
+      "sha256": "01074882d7ad5e972f3a22ca2de44c4e514960cceb501a47c8dae5d5c9634ed5",
+      "bytes": 5555
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/assets.py",
+      "sha256": "86482c3a8bc15a78381e41701152e2c589d9f50378604e474064c957ba93e29b",
+      "bytes": 11853
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/calibrated_palette.py",
+      "sha256": "d5754ffa1f9a1c1069d0e851ab2ea3741ae27937d94e748b30ea6b9e5c36417f",
+      "bytes": 2584
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/capabilities.py",
+      "sha256": "19580f50ec3da513ba885e95edb7fffa4bcdaad70c9b24398ee9229b4aaf828a",
+      "bytes": 11191
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/channel.py",
+      "sha256": "b3abcf53a7df47ad17a8c069c79f1933ae373c627ebae407f07074b13cb47e0b",
+      "bytes": 5908
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/cli.py",
+      "sha256": "87a876ab180bf59592bb7a535411513554c280f28d5f073219d479b544b9e358",
+      "bytes": 10199
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/composition.py",
+      "sha256": "f5f90497ea3e9f2e0b871f40efd7bac0b908bb057c6065740ac223ff20aef07e",
+      "bytes": 4415
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction.py",
+      "sha256": "dac2aacb69f1650a85c4682dc12a0d3717fbaceb9410d74bc9c4371d3f8ade4a",
+      "bytes": 39339
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/__init__.py",
+      "sha256": "99b5b84f9871b12fc12fef71a9c0143ed894abee314c1e148668f53502244afa",
+      "bytes": 427
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/aseprite.py",
+      "sha256": "263b4d0059ce1074cb5dff97198d095faddeba10e1410dbb617f91d4030feeca",
+      "bytes": 15733
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/candidate.py",
+      "sha256": "c69002c5c5071abbcb93cb46b31384e7e571a097564e29ad6ebf67cccf48b8ba",
+      "bytes": 1402
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/canonical.py",
+      "sha256": "5033c9879ac3269e3c9f6978f85c97997eb83dd3e45665e993a4326d6f421ed3",
+      "bytes": 1682
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/core.py",
+      "sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "bytes": 11792
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/export.py",
+      "sha256": "e108d5abbaf45c0ecb8adef849967fddfec9a9dd24f769c9be948459dc690075",
+      "bytes": 5600
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/history.py",
+      "sha256": "8abcfa7f40f10a332025b7ff1e3a24cb62bbe728ba5b53a6f40ad2e77878a487",
+      "bytes": 2174
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_core/loading.py",
+      "sha256": "2be3deac078a6683fdd7382a2fd42764d47e17d2e2ea5023d563d50c5a655da0",
+      "bytes": 865
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_engine.py",
+      "sha256": "8c07039fa87799424f64cb98fe5a1ef8410329a144a96f8e7fae2255dc2d7c30",
+      "bytes": 4309
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_exchange.py",
+      "sha256": "d69f53443f01078cce213cd32a241a5c4f582ca3ea2d7016399b19e3b1cc6a47",
+      "bytes": 18921
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction_services.py",
+      "sha256": "6c3cbeefe296ad2c87c1664562c9a6c03a26594d6e107d0df9c29ac8cf30326a",
+      "bytes": 6463
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/ANALYSIS-BASELINE.json",
+      "sha256": "9b567b43bdf50badee7093b10fddf71bdeecc5e9c671725d0ef013b8087ebf04",
+      "bytes": 13400
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/MCP-TOOL-CONTRACTS.json",
+      "sha256": "b3d9199a999480d27f3aa0c5f66a5659d286a5842a04da052f2b8dc4836616e0",
+      "bytes": 315282
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/PUBLIC-DELTA-20261014.json",
+      "sha256": "315dc9b142ed2527ee183ee51752c13a068ca396c9be3e51ad62ff0a44eb5bcf",
+      "bytes": 1718
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/PUBLIC-OPERATION-CONTRACTS.json",
+      "sha256": "d988242b2c33ef6b91ed5c80d2c9fad8945992d481bf4c81b40ebe2f5d120592",
+      "bytes": 358060
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/PUBLIC-SCHEMA-CLOSURE.json",
+      "sha256": "866547dad1c2fb0d81da11c0bff7c0a667b4f61b2d790b52faa1f608ba64f04a",
+      "bytes": 936966
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/RECONSTRUCTION-CATALOG.json",
+      "sha256": "e686ab5a96089a5b371a27070ab280a1a040cba283b283f9056159b7173afa1a",
+      "bytes": 977965
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/SETUP-CONSTRUCTION.json",
+      "sha256": "d01feb98483a733e12119f95a867a23e1bdd1d4fc5294d78ffe48021e0d19108",
+      "bytes": 1449
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/SOURCE-VFX-PRESETS.json",
+      "sha256": "f0c0e9d1a84fb1feb244b70124218381729850ed27d60448ab97aad892bbc40f",
+      "bytes": 9051
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/openapi-current-20261014.json",
+      "sha256": "8cb24ecdd26e9fe48639dc789e44f32b3c78c29e8da8c3121f23ab360ade5dad",
+      "bytes": 478504
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/openapi.json",
+      "sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+      "bytes": 472693
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/core.py",
+      "sha256": "285aabb1c67fce891b77b9aceae10a3bd7166f787fa7d03466754b47c04e7824",
+      "bytes": 12302
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/effects.py",
+      "sha256": "e7ddb60fead7a1be6f2dec6d355d3ae138a50901a5ebca5dd70d7acf24f31c54",
+      "bytes": 5108
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/export.py",
+      "sha256": "22db450280a172fe5336f161aebedb6ea3976d06a511ecde669483c1c76c7fce",
+      "bytes": 39711
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/jobs.py",
+      "sha256": "dd3fb66e9b245f7228f7efdfe3b5bb52f580dcfa9ddc89f23ba64265502e5254",
+      "bytes": 20121
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/library.py",
+      "sha256": "7f3bb4f15787f3ffc675692af19d837e6702fc44be9cad949d55ed4e1439fd16",
+      "bytes": 14538
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/model_handoff.py",
+      "sha256": "21a326e410ac73812dbb33286099c1a28003af8658518f97a69f0cc3c7614e72",
+      "bytes": 26156
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/manifest.json",
+      "sha256": "e548c48a15bc81565fdfcd66070a503ce4cf8d6a5f0134e8890a317ed232c43f",
+      "bytes": 2063
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-slash-margin/native-video.mp4",
+      "sha256": "aed5ac139188860f2e3e39f58484ebda394c77fa7b8ae99f777cced03c572132",
+      "bytes": 227457
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-slash-margin/request.json",
+      "sha256": "2d5962477e5b1202d1661d2ec8f6213e87163cce36ccd6a18c229218033aa86b",
+      "bytes": 35736
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-slash-margin/source.png",
+      "sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "bytes": 25968
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-slash/native-video.mp4",
+      "sha256": "cede01409bbf9a71aee0feaf2678a125fd54f2db52b45439901ba3b1e05b44a6",
+      "bytes": 382959
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-slash/request.json",
+      "sha256": "c70e5a1856a13e3cd44c6e66a39ec0cedf162c792c9cd758440599f7a9fa6516",
+      "bytes": 59032
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-slash/source.png",
+      "sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "bytes": 43440
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-walk/native-video.mp4",
+      "sha256": "97e83ef3522a8892af98672861ee7ec5214c24dd4f441e38cc448c762c5ab046",
+      "bytes": 517982
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-walk/request.json",
+      "sha256": "d4bf019d8c5eb1c85a4bf9e78fb2ee56d87af490d34b41f298241cdff7b8a87c",
+      "bytes": 58767
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_examples/native-walk/source.png",
+      "sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "bytes": 43440
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_frames.py",
+      "sha256": "e43e560aad58457ca7cee1f8e8e3e3f74dee5fae02331cd10dc0b7370f1d139d",
+      "bytes": 13705
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_provider.py",
+      "sha256": "cf0dac4b657f00b5d74f5cf250a7a761f6a4972b52637aff2e5407d39e6b696a",
+      "bytes": 27865
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_services.py",
+      "sha256": "61b559908ea4d012e9f2e143bd78a174c67f47be90085395f281d83fb6a2d2d9",
+      "bytes": 4225
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/motion_workflow.py",
+      "sha256": "f9e51233a9b25095d2d803e5cd151cbdb5c917f4582bdf651ab1f279b1316541",
+      "bytes": 15405
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/parity_commands.py",
+      "sha256": "7d3b114501f6a4597dc0ca41843ac81403a47507d904e18c88d660d62f29fbcf",
+      "bytes": 9983
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/parity_palette.py",
+      "sha256": "5f181e1b8a0869f5d4086b6fc719ab14b7409286c003f08d3d5ce1d277534128",
+      "bytes": 3719
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/parity_palette_runner.cjs",
+      "sha256": "2b04ab709518b319409d7601b0e98f4dd7fe66321b877b3ea5c1d3ab1ba22d8b",
+      "bytes": 2064
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/parity_palette_source.json",
+      "sha256": "a32ca0ece88e70b9199173f1af0e7ee0c1d1868ea3383df8cc652074565f0d3c",
+      "bytes": 4491
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/parity_pixels.py",
+      "sha256": "04bedeb08f802b834db02cfcaee082f8236394b8f84b6ef3c72d19ee1799f562",
+      "bytes": 14785
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/parity_services.py",
+      "sha256": "b823be8096f8215b9344f2e7a95dae7b69bcb4c0d0f9edd6696979c16f96f141",
+      "bytes": 7107
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/pipeline.py",
+      "sha256": "3176bb40994ba670fd1e426271f23ce20d52f0731b46504c7b0df745f02be736",
+      "bytes": 18103
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/pose.py",
+      "sha256": "c2591d0e2d9dd48a951f057bea7d6feb5f340dc9ecfa64e4c139ebc54493a064",
+      "bytes": 11852
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/prepare.py",
+      "sha256": "bf62c1f12fb5b9905063f1924494b4f07dde81c1598feb67824f76811e4f7067",
+      "bytes": 15621
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/raster.py",
+      "sha256": "bbca61a5afcc121821eb8c48bd77606e72d39a5b93d0c83c8c5d979e3dc5c8bf",
+      "bytes": 23686
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/readiness.py",
+      "sha256": "4208ee5c3bff0667f8f338c53d5cd435d495ae6b42d675ae26dcbca76b9c57f9",
+      "bytes": 16021
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/replay_geometry.py",
+      "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+      "bytes": 24239
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/replay_methods.py",
+      "sha256": "3f19a9366ae25b70f2448aeab0bc40d5b561244c09eea0ffe1db6c39563196b9",
+      "bytes": 34761
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/replay_state.py",
+      "sha256": "042529f5b3aa5ea90f0d46e5645fb7f722f74d30f0e39dc567935d99e7b043d2",
+      "bytes": 9521
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/replication.py",
+      "sha256": "3e96aa4ac93a3f2d5a2e59d24d1f71c823ff31446e4cc5659d2e9de75fa12855",
+      "bytes": 15469
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/review.py",
+      "sha256": "4294fb5a84ce3b2a91425e4af0a6fd50ca32aa6fd435112a67a90077012df8f5",
+      "bytes": 8922
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/scene.py",
+      "sha256": "0af450c23bebaf60324c3ee47736405095d691aa9dae480c577acfc0428ddaf0",
+      "bytes": 16085
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/selection.py",
+      "sha256": "a08dcf5c707411977967173f0ebec72585e84c78b3be8f0e205b0a79e55c40e2",
+      "bytes": 20321
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/selection_services.py",
+      "sha256": "3c00744c0eceda54f8051fd4ee0412e3122a98028fd0ce7f9f34630133f181d6",
+      "bytes": 3190
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/source_controls.py",
+      "sha256": "e882b5f03eb0ace86f93f49c80db21de6a9ce64b13222c9d4ccc791ccf725bf2",
+      "bytes": 2518
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/source_vfx.py",
+      "sha256": "77deb1376406fe7a42935a652b87c3977f16003543299b9b6d25767c43afdda5",
+      "bytes": 4893
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/source_vfx_runner.cjs",
+      "sha256": "7188eb30b0ec07d87f1acd17c67c1658f49de05c35b59a994271fa94b9677b44",
+      "bytes": 3453
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/source_workflow.py",
+      "sha256": "4d72f178b358cfa3366619347900566414473ff2694600841c107049b13a39b1",
+      "bytes": 2154
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio.py",
+      "sha256": "61b583d8253281ecb831098e87e7c93a4dad5f494b75bf439e480814ed8c1c58",
+      "bytes": 17503
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-000.png",
+      "sha256": "3865922ddd690ba0b6458b96d83c8bd305ae979a5eb5db8eb1782a4479fe648d",
+      "bytes": 25933
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-001.png",
+      "sha256": "9bf4aa39ca3e8f4ce10bb79ba67de76201c74b86add8cdd562945f622ac8b708",
+      "bytes": 17639
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-002.png",
+      "sha256": "b6a3e8b20a7a814021c909b7125054b1e6a8cc8e7a23bf76746ada2bdd54fd32",
+      "bytes": 19588
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-003.png",
+      "sha256": "258f809fe604165f314fa225ec7bc669b8954ce17692f7d827f784dc7c527a6a",
+      "bytes": 20226
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-004.png",
+      "sha256": "fde30e8ffe75bcd73520159da2a5ef62f4e710e3c10e51fb67a04ba63ebed367",
+      "bytes": 20593
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-005.png",
+      "sha256": "f5f7ecdce34006e3f5c70cfe60265b3db795db1fabd8f0455c8ce5f65192dfc0",
+      "bytes": 19454
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-006.png",
+      "sha256": "9dd9c60a766866028fc9fd90869d73487b30eed1dcbd6ff7cb9cc95edc82a82c",
+      "bytes": 17734
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-007.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "bytes": 15683
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-008.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "bytes": 15683
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-009.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "bytes": 15683
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-010.png",
+      "sha256": "ce0048805ff22faebfed4de7e0ddaed739cff295b129b0e27e6767d1891b946e",
+      "bytes": 15683
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-011.png",
+      "sha256": "1345dd0add0b29e97f35b0dc2e51bb5f0ce7fc3e3d6411d050ae1467d076cabb",
+      "bytes": 16138
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-012.png",
+      "sha256": "a4f9360cd0843d9f46cdca50e490f3398691b833fe980207130167627eaa330a",
+      "bytes": 15558
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-013.png",
+      "sha256": "eba3cf673eb53d244f5ddf7e706dab935dc0a41e82ba04be05851b4366360daa",
+      "bytes": 17614
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-014.png",
+      "sha256": "4b34fe8c532d25cb3cc82ccbfc9c8cd34b4820bf4c8a8cc4b183731a225f5d83",
+      "bytes": 18272
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-015.png",
+      "sha256": "46eb7c044467fc17d21361d012587369f64043d8a956847ac74818023e221f31",
+      "bytes": 18002
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/frame-016.png",
+      "sha256": "bca6e487c08506216dead1662e8f8108c24d507fd683b408eefc8c3b9f3b115d",
+      "bytes": 18072
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/input-reference.png",
+      "sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "bytes": 25968
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-slash/manifest.json",
+      "sha256": "9dcad20c01bc487925f9c5d8d3c1c6254e75818856fe1f907299cc78a247ba1b",
+      "bytes": 4221
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-000.png",
+      "sha256": "5b4a21517e645ca3dacee2dccbc5c7db5dbd04ee150ff6de69a5d3d45c60ba22",
+      "bytes": 43366
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-001.png",
+      "sha256": "5a8aef4e075c9613bc04e2c942171339335e3ad6f2a076b475383c3d15f74b72",
+      "bytes": 27128
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-002.png",
+      "sha256": "75ccddaea726ac54d25dc5f3ed328bac11dc3f4fa29c3bfc85a9c958475b193a",
+      "bytes": 27938
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-003.png",
+      "sha256": "716f8d78947c054c8a6b1f22bed11c265d75a98f13aaa65e0ae274cd1af45796",
+      "bytes": 26727
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-004.png",
+      "sha256": "10cc60479d784a6397374b8ee3018df709192bdb57df62698dbb91bdd3bac3cb",
+      "bytes": 24818
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-005.png",
+      "sha256": "fc1edadaae4dc31752611f77477f8fa06c8639a7b842cbb49a589184c7b2f9f6",
+      "bytes": 25961
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-006.png",
+      "sha256": "329bffd073e1d20acd5d0bb62ef742ccf6d8ccd6537c3b90ce2bf61a074920ae",
+      "bytes": 26771
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-007.png",
+      "sha256": "9fb51e7934d4a63888cd9b83c33deb31cf551b7cb61381efb6cb20b546706260",
+      "bytes": 26649
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-008.png",
+      "sha256": "d060903390adb5b898c6a387bb6372edc9a15c03b450ffe98e02fe7700cdd642",
+      "bytes": 26240
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-009.png",
+      "sha256": "fb2fb8e73136c9ca5a247a0224c6a43462200634cc0b7a60e2e8aee3b701105f",
+      "bytes": 26075
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-010.png",
+      "sha256": "923079207e96701a4f099b38b8a65a226cf9ca2b27e2aa3f7930057ddad377cf",
+      "bytes": 27523
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-011.png",
+      "sha256": "3bc8f3b5fb474cce66f74ac6a4d849b5d95593710052802e5a4a8231761f17ba",
+      "bytes": 27279
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-012.png",
+      "sha256": "e3e8f8d70a677c742110d95dc215fcc51208f26f118984dfce9cdfa355e5e327",
+      "bytes": 27577
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-013.png",
+      "sha256": "a9d4eef87243e1d7ccd23d82c812bc160c3566d773c165cb5076279ebf0da550",
+      "bytes": 27550
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-014.png",
+      "sha256": "23eff319a4af3cd3be33bcc3a830e42f93eceb1c6f94691a1300b1fc3d9ea5f6",
+      "bytes": 26971
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-015.png",
+      "sha256": "23eff319a4af3cd3be33bcc3a830e42f93eceb1c6f94691a1300b1fc3d9ea5f6",
+      "bytes": 26971
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/frame-016.png",
+      "sha256": "23eff319a4af3cd3be33bcc3a830e42f93eceb1c6f94691a1300b1fc3d9ea5f6",
+      "bytes": 26971
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/input-reference.png",
+      "sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "bytes": 43440
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_examples/hero-walk/manifest.json",
+      "sha256": "51ce5a4a6ef292858a752106692d1a069b01de601124f24c7fde5b777e36f76d",
+      "bytes": 4204
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/studio_services.py",
+      "sha256": "8a728fdfb12e19afe1c9454a68d55ab6f898b962481565166aa4bc9768c4682b",
+      "bytes": 1831
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/terrain.py",
+      "sha256": "f5fc4feae7a84d4762b103cb1faed448429b36d94e06ac3d74822ec803b5d8ec",
+      "bytes": 6094
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/tracks.py",
+      "sha256": "bb2136a762ec5ebe84b8f69554fdc3cb2a793d55c652ca467b2ebe862bfe434e",
+      "bytes": 4457
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/host_selection/DrawingAlgos.gd",
+      "sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+      "bytes": 36685
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/host_selection/FloodFillObject.gd",
+      "sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+      "bytes": 4252
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/host_selection/manifest.json",
+      "sha256": "3494a951e8e45f1be714a07e628e06bdd5db091de54de17ca0d52306de3a3d36",
+      "bytes": 1418
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/host_selection/runner.gd.template",
+      "sha256": "f00ed4efa63018b0eeb788494e9b3ca360880af2223db4af7fa4cdef999c53d8",
+      "bytes": 1183
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/host_selection/similar_colors.gd.fragment",
+      "sha256": "5c69c15d8218ee0ec1a6f752eeb032d42cde9c337beaf424faa624f51f9a1e9f",
+      "bytes": 273
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/host_selection/stubs.gd.fragment",
+      "sha256": "d23cd1d1faea0971e5de5f8b6ac5c4f525cdc018aa7ff4c3c1a2ab42169f9ef8",
+      "bytes": 279
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/parity_pixels/draw_image.gd",
+      "sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+      "bytes": 8740
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/parity_pixels/get_image.gd",
+      "sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "bytes": 6109
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/parity_pixels/host.gd.fragment",
+      "sha256": "843813df774b0003e6308c2e4ddbe1b1007904edba154d4d03baff793bef1253",
+      "bytes": 488
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/parity_pixels/manifest.json",
+      "sha256": "eef1442ea3df2a3340db1e1fb44287c6357cb1339d10ea0116e8a87567a785b1",
+      "bytes": 1624
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/parity_pixels/runner.gd",
+      "sha256": "f7f4d5bcab2294cf07ec86280a535fa362850e28ef4b77b4de54383176218947",
+      "bytes": 2798
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/10971.js",
+      "sha256": "513fb939259c4988d0b72536cc3eada6506d5d7b897705c582c171d82dc6937c",
+      "bytes": 906
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/12538.js",
+      "sha256": "8fc4836b96309707574b3deee7b99f735d92c69681781e482d3c2eae6cee9d8b",
+      "bytes": 1466
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/13865.js",
+      "sha256": "2337cbed7ca29e95353215ef835d790aeff999bf92ce9a9fc96c241df5f59e36",
+      "bytes": 1198
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/22178.js",
+      "sha256": "4bce0c7717231c12509db50d534288b81a87bbce10af5d56ffb85d444f38bcc7",
+      "bytes": 886
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/2834.js",
+      "sha256": "2c310a067ba47548e822597ddaced33cd9c70e1bc8f92a99d7be7bf38dedfcd8",
+      "bytes": 1912
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/31042.js",
+      "sha256": "31ba058b4adc2e1ef23f853647ff33d3638b7d5fcc6a5692666bb8b20e8102e1",
+      "bytes": 28686
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/31824.js",
+      "sha256": "0a0a1476b4a92717a2bac05b4e5997089c25b2fc036b693713946ae628f412d2",
+      "bytes": 3513
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/33854.js",
+      "sha256": "1f4b4ac5b5ee26b8436870653bc96d71c81ccade291093c36619673e38d0af0e",
+      "bytes": 2598
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/35130.js",
+      "sha256": "b20d0bf054fb6a7a50f0feefe38ea19f410e02782598f16fdca6971e3fea762a",
+      "bytes": 336
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/38394.js",
+      "sha256": "3bd12d90c4526b81bff6e93c9e993247daab1797f0c31ba858ea2a414959527e",
+      "bytes": 179
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/39503.js",
+      "sha256": "c9ecb6c38194f35531829e0dc4d4f95e91d46d42f1698d3752f4a712c0abf718",
+      "bytes": 943
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/39852.js",
+      "sha256": "4862e6d3dfbc90075ac7ccbb1023f46fd35ba4573abfe0ebc4200e63656a3acf",
+      "bytes": 208
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/39889.js",
+      "sha256": "25657d948060c4c2bd7af22647972626e6b7c82382828444284bb39e4ea7367c",
+      "bytes": 903
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/41666.js",
+      "sha256": "3544fccc05cc2b7f2b3cb4fa13083e730b0f6492202f50778e6fe482384c0956",
+      "bytes": 3447
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/42908.js",
+      "sha256": "c7d37cec9d6d7369d8f0ccc56745148c04a124fee442d4ec8d29743c75d98106",
+      "bytes": 1603
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/4435.js",
+      "sha256": "b57f3c580d0273b3b5cfa23f1fc1df7695ed2fc4c4d6a545709e9317d6aaea8c",
+      "bytes": 6034
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/44905.js",
+      "sha256": "22095e503b2cc61491eaa4087173fd802607e5aa8f960f2532ef0f303e659368",
+      "bytes": 433
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/46717.js",
+      "sha256": "81fa07bd529267ee84a64e09423af644fe1e2ea9f41201904572050ae8d3c04a",
+      "bytes": 1560
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/47381.js",
+      "sha256": "f132d2179dc95ce9079d56b14e10434d2ed2512120098cd90f037671feeaff9c",
+      "bytes": 42832
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/50527.js",
+      "sha256": "62372bea7e3a0d56595e31095e9fd92e8160689c08f66276bc8330025aaafc62",
+      "bytes": 731
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/54671.js",
+      "sha256": "1b10fa753c3d82f0cd45f59b86abd346bf7e63e95518ac4e8d234436c093556c",
+      "bytes": 344
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/55110.js",
+      "sha256": "41268db37bd14817071105e58c2a7fcd35d47cade88ab206023d0c3b156911a8",
+      "bytes": 12084
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/55516.js",
+      "sha256": "99cb54828afe3663bea84063fec67c762fb7aef0bc8879dc02ef7cf56bb815b1",
+      "bytes": 100
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/57642.js",
+      "sha256": "f7a831e552bbd3bdadc22e051b07e43ce8c35d67a32372b7ce8106279d5c01a8",
+      "bytes": 541
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/57895.js",
+      "sha256": "e4106dd43e3e9d2fd00290cae8c88e8bc1ec590b6e73e302d5a4cfcdb6a48b28",
+      "bytes": 104
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/58018.js",
+      "sha256": "bf42d8d41bcd91e5f4215132dda579cb0f575d944acc3e37fd6ae1be96720210",
+      "bytes": 2830
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/5958.js",
+      "sha256": "d40c7cf143a2ecb69d3c0105497766facb5aefd0768eda704fca665bbc134ec8",
+      "bytes": 8796
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/60350.js",
+      "sha256": "d556f3b2d7650e24501e499a2c47cf9870df33ea31547f91898a216261e3d875",
+      "bytes": 3027
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/68640.js",
+      "sha256": "9488b65d27f5c76fc171086f7494a468c0c584f6abb404f980d3392183f032c4",
+      "bytes": 1127
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/73278.js",
+      "sha256": "80aed60f15d4b462ca818655a265ef0799ef5a8227e81c511df09a51dfe6af95",
+      "bytes": 179758
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/78391.js",
+      "sha256": "0981408b3aac9af60d0446d19440330f70a64e8d7d475147101fa3c9815564e5",
+      "bytes": 305
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/78501.js",
+      "sha256": "657cdd829ab79cd6047865be02ad4768ce71d52a374e77612262d7c937157ee3",
+      "bytes": 895
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/80082.js",
+      "sha256": "1f9027f524286cd873462647a9bd878085db2637c97cd7298d47009236e196df",
+      "bytes": 8112
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/81143.js",
+      "sha256": "59a2271cfaf3ec02d5ab32a750b197d271992c2602ad43e5c706f72647e6a609",
+      "bytes": 10582
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/8120.js",
+      "sha256": "0e814fc1b7ed04c9eb9af4147832469839086294058916ee665568d5e67868eb",
+      "bytes": 1435
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/81930.js",
+      "sha256": "2ff09ad06ad4e6e7c9504a6c121a9f10bab1504b69c322fc031169ea69e4b7c2",
+      "bytes": 2883
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/82494.js",
+      "sha256": "77124a5e2593ebc47b26e0371f6632ba24375873f1c1e5315597b9d174cb0c41",
+      "bytes": 2262
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/84110.js",
+      "sha256": "f3a5d8ee11a67b8607779f519161dc941abaab38cc74a8bf40ae0746d441f381",
+      "bytes": 387
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/9008.js",
+      "sha256": "917568511d41c3d8ae12cfe8329567c28ee9c545aefa3db3367d0592e9ec4c92",
+      "bytes": 35
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/90282.js",
+      "sha256": "7c1e51ad8ff29461c200d191e17a60ba1cf5940e2db5ba5749c6a26ecdcf6fbe",
+      "bytes": 933
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/91722.js",
+      "sha256": "561f3d0c9bb17b54a5fc6cb4268cfa37b9685ee5795b523fd339f30b702a66d8",
+      "bytes": 3451
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/93405.js",
+      "sha256": "c47d138671406f68e83df91eb2782bc33867d749b54b54b41c09175d8d1b2ca4",
+      "bytes": 4721
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/93757.js",
+      "sha256": "7ac8bacec93dde1f7d816cf80166bed4213f5e9330096a1e4c760d9bb464f5c8",
+      "bytes": 2555
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/93778.js",
+      "sha256": "36625604dbcba570e3efbfd1fd1f9a659a58044f0a9bd0dc6069c8bbf2c9b271",
+      "bytes": 9714
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/94031.js",
+      "sha256": "584e8d75640c76dc619463af1c5673c5106dc64e07b7588dbd789ddce2b89255",
+      "bytes": 4845
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/95358.js",
+      "sha256": "a3c98eedfb5c46ab4f50d7f9e7e7d2bf53fcb5b578c5606ca772472aa25788f4",
+      "bytes": 343
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vendor/vfx/manifest.json",
+      "sha256": "188743c8078e006117a6cbc51fdf96a73cafecc387a1a998276d93aa8d19645f",
+      "bytes": 17688
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/vfx_runner.cjs",
+      "sha256": "21759a298e3e72c412e75ac41c906d371d40f0827c8fece798218f1257d63b34",
+      "bytes": 2750
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/app.js",
+      "sha256": "1e0170550f8642bf35fc8dca83fabc024b2e4142de43b79879fde9d1d8f85cbc",
+      "bytes": 49440
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/index.html",
+      "sha256": "49a05abd0ec637f1311dc8b253bbea58bc39bbec7a64785106bf56321b5574e4",
+      "bytes": 53878
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/model-lab.js",
+      "sha256": "41dd13a868dd98696239fc559d677f8a1739ce8bafab75cf1ee21242146f0837",
+      "bytes": 10972
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/motion-lab.js",
+      "sha256": "e9a8e0a9e3723ece92a56d33a38dcc3ff7f08c7ed4efab76decd0907fe134ee1",
+      "bytes": 27777
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/parity-lab.css",
+      "sha256": "e54f1d6c8a1288365ed1d5918889ca5307fe344792c54d05c2348813c4b8364f",
+      "bytes": 2502
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/parity-lab.fragment.html",
+      "sha256": "1b1b7d43df954117be9bf94df2945729055e54f2476bd3f11cae2e18a8eee678",
+      "bytes": 8342
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/parity-lab.js",
+      "sha256": "c88be8d8202702ef1347ff20ae083f791ddf102261dbea2ccd53aaa9f5102325",
+      "bytes": 12968
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/source-vfx.js",
+      "sha256": "9184924d041c37c5ea72268f5dca31a16a39e8c9488c08feacd6190d0fe18e73",
+      "bytes": 14098
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/studio.js",
+      "sha256": "ebe865b50fcb970298b7104ac8d46b9cf18260e4b825c9eb6d0788e2fa5db09d",
+      "bytes": 37828
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/style.css",
+      "sha256": "a005433f5a2eeeb9eb393b8a91e31cb6729c45e87331e9cc4e8444333c699f32",
+      "bytes": 35084
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web_server.py",
+      "sha256": "3993d8fd09d0f1e93fa79f22d1addbab6dfab56c6f58aade5b4b2c31352d1991",
+      "bytes": 18483
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/parity_palette_browser.cjs",
+      "sha256": "dc9f8644385835a657874eb57db9e5ec6940b91ebd8b7ada798fde1a3458f6f3",
+      "bytes": 4443
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/parity_palette_oracle.cjs",
+      "sha256": "2364a1f204c125b8f8001f37110a0b808e46efe8ba0fae5d995380a7353ffb02",
+      "bytes": 2061
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_extract_h3_sprite_cycle.py",
+      "sha256": "26e34c52a937b76d511e47adbb1354c477cf2a5ccb106335dcdcf2c385fb5403",
+      "bytes": 17044
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_local_channel_adversarial.py",
+      "sha256": "3ae07998235cecbf69c011c286ef49ccf5cfd3b574fd5b4f8d2215beb62ad9c3",
+      "bytes": 11767
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_minimax_h3_pilot.py",
+      "sha256": "f80a447475939a2926f35b3c9a5e44c0234cd23f5e18e60cfa83183a7c381287",
+      "bytes": 5914
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_palette_predictions.py",
+      "sha256": "0af732e773f624f1a2b58d7f863c7b3499f36a421d895311441f587b0db0b3d2",
+      "bytes": 4093
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_commands.py",
+      "sha256": "7c0c2813ec2f0b204e62a320b043d90232d89b9fb7108460ee8564405daf2a08",
+      "bytes": 5520
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_palette.py",
+      "sha256": "65a3d146ca849d7d41983d775da353af98958c3971dc9a1291ecbd788f09cb57",
+      "bytes": 6127
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_palette_adversarial.py",
+      "sha256": "6a2f3894d14a610ff2c05939c7031237ce4c6f69847a06231d26358d972c7105",
+      "bytes": 5874
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_pixels.py",
+      "sha256": "942412ea7d77feb1dfd8abb2dba39d9f10479ec14ade24d55ed098e833b6d8f8",
+      "bytes": 6579
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_pixels_adversarial.py",
+      "sha256": "fa4d60782b3ffbafffb2af5dbdd8fb6cce80c6b8926d9c29bd526eb3485238c5",
+      "bytes": 14747
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_services_adversarial.py",
+      "sha256": "fca51ba15d5400e05627be82131bb3c4a04aba8ce6be64a9ce7b6de2891f863d",
+      "bytes": 15747
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_parity_ui_static.py",
+      "sha256": "8aa49fa1766bf663c42ba93e4816127df94bcc64c0b13955a4f28d78e654cf89",
+      "bytes": 4254
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_pixellab_h3_comparison.py",
+      "sha256": "2dd7863244fe1dac4cc767189b060b4fc86750fc6c1a4dbb64b23f9e3a8388df",
+      "bytes": 11133
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_probe_pixellab_color_reducer.py",
+      "sha256": "5839ad88617624e5ef53310958d8af0052386c8469a8a5a91cb005dd788bcbb2",
+      "bytes": 3029
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_probe_pixellab_prepared.py",
+      "sha256": "f20ae4f5358f37537fe3bd88af735711d70183f94cd48039e85b8c48ebb60df5",
+      "bytes": 11291
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_reliable_acceptance_construction.py",
+      "sha256": "5ba4567cb3d08547e8e5104a18349ef2ac0d6dbe16e47c7e55e3500415733d99",
+      "bytes": 5428
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_reliable_acceptance_studio_mapping.py",
+      "sha256": "bc3b4ccd98a2ac59210eac948d6a33036df524dd1664a703e4f47ad6a5679f5f",
+      "bytes": 3480
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_reliable_godot.py",
+      "sha256": "a6449c5c07001c7dc5770f73daab7cde61f0cf8804f15fb146c050eb614b6c0f",
+      "bytes": 9714
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_reliable_studio_adversarial.py",
+      "sha256": "343f82f1939eaa260a079f4e94d8659b77c8670bdeaba82f7bf5e1ca4039f1be",
+      "bytes": 9032
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_replay_pixellab_fixed_palette.py",
+      "sha256": "341c9e62f7a6656c7b99f273b32ad0a93aa8d55e3f4749b473a30e19a4d3c958",
+      "bytes": 1364
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_selection.py",
+      "sha256": "0a9a02eb3ffa0e2814ece1a6313bd089706416fe80d04ffe5563ca58a8a0833f",
+      "bytes": 15430
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_studio_clocks.py",
+      "sha256": "bf6b27375d435b1c71bdf125c47cb73f018b4cd345f48e41785bf40a1797627f",
+      "bytes": 1471
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_verify_h3_pixellab_comparison.py",
+      "sha256": "de864f574c49c30abe506c8095bec5b8b4499c9bf933f69847da913889e02279",
+      "bytes": 1805
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/tests/test_verify_pixellab_probe_phase.py",
+      "sha256": "39eb445f3adc5f335a32c98c6d092a04206fe63ad87d077b557049686f0eff7e",
+      "bytes": 5758
+    }
+  ],
+  "historical_manifest": "evidence/report-manifest.json",
+  "historical_manifest_role": "unchanged first-paid-pass snapshot",
+  "full_vendor_analysis_complete": false,
+  "art_quality_accepted": false,
+  "external_transfer_performed": false,
+  "production_editing_ready": false,
+  "next_gate": "Recover remaining observable host capture/placement branches and predeclare actual stage-specific alpha/palette/motion comparisons. Complete game-quality movement-set acceptance separately.",
+  "new_pilot_verification": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/h3-rpg-pilot/VERIFICATION.json",
+  "new_recovery_verification": "/home/astra/projects/pixellab-local-workbench/docs/recovery-depth-20261014/VERIFICATION.json",
+  "latest_recovery_report": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/README.md",
+  "latest_recovery_verification": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/VERIFICATION.json",
+  "latest_full_suite_tests": 982,
+  "previous_recovery_report": "/home/astra/projects/pixellab-local-workbench/docs/recovery-next-20261014/README.md",
+  "studio_editing_ready": true,
+  "latest_studio_report": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/README.md",
+  "latest_studio_verification": "/home/astra/projects/pixellab-local-workbench/docs/reliable-system-20261014/VERIFICATION.json",
+  "historical_v0_6_suite_tests": 560,
+  "preservation_manifests": [
+    "/home/astra/artifacts/pixellab-reliable-system-20261014/baseline-v0.6/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-reliable-system-20261014/before-status-v07/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-motion-pipeline-20261014/baseline-v0.7/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-status-v08/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-current-notes/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-live-upgrade/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-motion-pipeline-20261014/before-v081-live/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-motion-pipeline-20261014/skill-before/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-parity-20261014/baseline-v0.8.1/PRESERVATION.json",
+    "/home/astra/artifacts/pixellab-parity-20261014/before-handoff-v0.9.0/PRESERVATION.json"
+  ],
+  "latest_source_methods_report": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/README.md",
+  "latest_source_methods_verification": "/home/astra/projects/pixellab-local-workbench/docs/parity-20261014/VERIFICATION.json",
+  "intentional_current_changes": [
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+      "old_sha256": "39074c9c48519cdb2339d94d4c8be1ec87c0e61a525b81152cc582eef9c65e69",
+      "new_sha256": "33f91598561ff6dc2cfe562ff8f3904af4d510c75bcec4605aa78fac096f1688"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/LOCAL-IMPLEMENTATION-STATUS.json",
+      "old_sha256": "43e44765bbfc97258f671bc7b41eb5b5427c6dadaab121e14e12073f4d7f1544",
+      "new_sha256": "60208eb1a0e18036d0179727a3073941f109e4bd94c25b8218c307f1d376ceea"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/REVIEWED-HANDOFF-FILES.json",
+      "old_sha256": "73119a750e8210e78b887aaf183a5f7ec5b7b3b52ff79d4f221949b783a3ed3f",
+      "new_sha256": "38520eb157d7522d35c9526516589199066fe1b5a0672f0522beb26e0d987d86"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/README.md",
+      "old_sha256": "c1c0643c2e2e321c0aec5138f4407a31fff7f83afde8b6053045bcdde0d43d24",
+      "new_sha256": "f4d7676a0504ee6e982da01224ae6e83a15bf3149e8b8351d3a1393843750b58"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/COMMANDS.md",
+      "old_sha256": "a40105cc20a1024777e9ec3646a464b5aca5152fedce92cafc3008647021fdb6",
+      "new_sha256": "de93a20242803b1c2c79c28c2658fbfde1841c900371ccf7e432b331d850ec6e"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+      "old_sha256": "43e44765bbfc97258f671bc7b41eb5b5427c6dadaab121e14e12073f4d7f1544",
+      "new_sha256": "60208eb1a0e18036d0179727a3073941f109e4bd94c25b8218c307f1d376ceea"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.md",
+      "old_sha256": "eda60354cad1775fde951a855eaa6a50a337abaffb00d08719cbadb6ebb1e832",
+      "new_sha256": "8d29ea97a41bf734d56e70dac4b6ec4b495a047a8e247237cd4410b89f239a6c"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+      "old_sha256": "acf03043a6b916a3534a66342e83ec4ee0f2bb5feef1ef152afb0a38c6d064fa",
+      "new_sha256": "43b386b1b3ddb12784ab02a9cc4fb4ac37435c7206c1afdcdfd50d109316293c"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/LOCAL-CHANNELS.md",
+      "old_sha256": "b1e89241ece3b8aa4ab76c9f16e832e198ea3d7c0ce33f0f9fb2c3e448c36c3f",
+      "new_sha256": "be041b9290879828d735b4246e56742b6a3a31c138432527c0c2d6e30ccf809d"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/STATUS.md",
+      "old_sha256": "0eaefaa9a138c2538b025925c75ceee468c75ed60920c08d924963aa3b8a6dec",
+      "new_sha256": "0abe1082b881daecfcc03b1e2b9cb30baacf8c06cb94b899b82eabc81972312f"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/__init__.py",
+      "old_sha256": "1dcbb756adde921c7f91d5bd9b548a165b03f4c12eeb20cec74e11a5e77bf6c7",
+      "new_sha256": "fc4ce38e2db2bb45f1209e650648b008cc7178c7e8c2c2e13246235d5e0d9680"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/channel.py",
+      "old_sha256": "0c47ca1c02f5e3a413dc86204b2f03cc4d4e929faa4cf8c9bf0c161cd0014033",
+      "new_sha256": "b3abcf53a7df47ad17a8c069c79f1933ae373c627ebae407f07074b13cb47e0b"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/cli.py",
+      "old_sha256": "9b84fdd58fe2a70cb6f8b0d8e343c3d4092ba4a924a4a07732290a532a5d500e",
+      "new_sha256": "87a876ab180bf59592bb7a535411513554c280f28d5f073219d479b544b9e358"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/construction.py",
+      "old_sha256": "52a7d6986505d59f16f262aa9e1b1d1dcbdb192654e4e3d6a1f0eb1b494a7f1a",
+      "new_sha256": "dac2aacb69f1650a85c4682dc12a0d3717fbaceb9410d74bc9c4371d3f8ade4a"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/contracts/RECONSTRUCTION-CATALOG.json",
+      "old_sha256": "7397ff90450fdc0b7f1efe4defa9fcde332e075895cbe959c00394606173e7dc",
+      "new_sha256": "e686ab5a96089a5b371a27070ab280a1a040cba283b283f9056159b7173afa1a"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/export.py",
+      "old_sha256": "cb40956bb04faa8c5e505361039b96bf762a08a863051e079ead7583dd501df3",
+      "new_sha256": "22db450280a172fe5336f161aebedb6ea3976d06a511ecde669483c1c76c7fce"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/pipeline.py",
+      "old_sha256": "0770079f8dcfcb5d2f1ed8c9c1876c9e405a8bd8c83219853fa4c22a3fe2dd90",
+      "new_sha256": "3176bb40994ba670fd1e426271f23ce20d52f0731b46504c7b0df745f02be736"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/app.js",
+      "old_sha256": "31b94f2910a784c2448d66ff1fbfbc39f786f0c3f6842e531437a4039b189589",
+      "new_sha256": "1e0170550f8642bf35fc8dca83fabc024b2e4142de43b79879fde9d1d8f85cbc"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web/index.html",
+      "old_sha256": "86bb4857cba2b3d3fd2d914345086414dec0fdc5320db6b77a22aa5a1d2cac02",
+      "new_sha256": "49a05abd0ec637f1311dc8b253bbea58bc39bbec7a64785106bf56321b5574e4"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/sprite_workbench/web_server.py",
+      "old_sha256": "f30efb79e8813c4ab6fc0c3606526d135f0d73960ef3fac60d36af2835b5984f",
+      "new_sha256": "3993d8fd09d0f1e93fa79f22d1addbab6dfab56c6f58aade5b4b2c31352d1991"
+    }
+  ]
+}

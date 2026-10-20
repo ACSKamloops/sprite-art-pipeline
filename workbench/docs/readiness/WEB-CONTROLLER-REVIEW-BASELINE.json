@@ -1,0 +1,59 @@
+{
+  "schema": "independent-local-controller-review/v1",
+  "producer_baseline_commit": "32687fa",
+  "review_checkout_commit": "869887d",
+  "test_commit": "6b87bbf",
+  "test_count": 19,
+  "failures": 4,
+  "errors": 0,
+  "skips": 0,
+  "scope": "Live local HTTP + fake diagnostic workloads; no provider calls or generated artwork",
+  "files": [
+    {
+      "file": "sprite_workbench/web_server.py",
+      "sha256": "ccf2a4c829798c9cfd117b574e3a708d89bbd85b2d8529a43484d626cf7b70d7"
+    },
+    {
+      "file": "sprite_workbench/readiness.py",
+      "sha256": "167b43e9dc2806ac0b6ac9da8e33eef47c03115a273a7c26d81d0d36a79afe11"
+    },
+    {
+      "file": "sprite_workbench/pipeline.py",
+      "sha256": "6a6b3ccac5195e86c426b774ec5c023efc497e3ef00fb673504f4f8de0349156"
+    },
+    {
+      "file": "tests/test_web_controller_adversarial.py",
+      "sha256": "5a65c8ab80d71a928e7f932fa025de6419363054fdfd33eaad01852a4ae86389"
+    }
+  ],
+  "findings": [
+    {
+      "id": "W1",
+      "severity": "high",
+      "title": "Generic verification submit bypasses restart guard",
+      "test": "test_stale_source_cannot_verify_via_generic_job_routes[direct_submit]",
+      "observed": "A verification job completes using a stale boot-time runtime while recording the changed source fingerprint."
+    },
+    {
+      "id": "W2",
+      "severity": "high",
+      "title": "Retry verification bypasses restart guard",
+      "test": "test_stale_source_cannot_verify_via_generic_job_routes[retry]",
+      "observed": "A cancelled verification request can be retried through generic jobs after source change and completes."
+    },
+    {
+      "id": "W3",
+      "severity": "high",
+      "title": "Retry skips browser file boundary for frozen pipeline request",
+      "test": "test_retry_rechecks_frozen_pipeline_paths",
+      "observed": "A stored cancelled pipeline with an outside-base image path retries and imports successfully."
+    },
+    {
+      "id": "W4",
+      "severity": "high",
+      "title": "Resolved plan references bypass browser file boundary",
+      "test": "test_resolved_plan_path_cannot_escape_project",
+      "observed": "A construction animation ID used as a later step path reference causes a real JSON output beyond configured project base."
+    }
+  ]
+}

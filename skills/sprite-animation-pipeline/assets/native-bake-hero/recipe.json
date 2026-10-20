@@ -1,0 +1,16 @@
+{
+  "schema": "native-sprite-bake-v1",
+  "source": {
+    "sha256": "5cf8d962cbb9ea32363b9db8031dee4b46af721e8ad851d575d9fc20f9518430",
+    "canvas": [768, 768],
+    "frame_count": 124,
+    "first_pts": [0, 1],
+    "uniform_hold": [1, 24],
+    "duration": [31, 6]
+  },
+  "sampling": {"canvas": [128, 128], "stride": [6, 6], "offset": [3, 3], "filter": "fixed-whole-canvas-point-sample"},
+  "matte": {"rule": "alpha0-iff-green-threshold-and-two-differences", "green_min": 90, "green_minus_red_min": 45, "green_minus_blue_min": 45, "preserve_rgb_under_alpha0": true},
+  "selection": {"start": 0, "count": 30, "step": 1, "loop": true, "mode": "explicit-native-order"},
+  "despill": {"rule": "opaque-green-dominant-set-green-max-red-blue", "expected_changed_pixels": 3525},
+  "decode": {"pixel_format": "rgb24", "threads": 4}
+}

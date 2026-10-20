@@ -1,0 +1,61 @@
+{
+  "actual_Web_PCK_sha256": "da9c746522957be3f7ea9e8a67b8c28f9664aff4a45fec4a271bcc7428679e3b",
+  "passed": true,
+  "results": [
+    {
+      "actual_sha256": "e1eaa924c91f52e99ca417a15a0bd41b685ec0b1043824dbaaad7699227d21b3",
+      "expected_fix_alpha_edges_RGBA_sha256": "",
+      "expected_sha256": "e1eaa924c91f52e99ca417a15a0bd41b685ec0b1043824dbaaad7699227d21b3",
+      "kind": "manifest",
+      "ok": true,
+      "raw_source_RGBA_sha256": "",
+      "resource": "res://assets/hero/animations.json"
+    },
+    {
+      "actual_sha256": "17aec4f671d78dc30a2090926e14949bf920174f5e9d069bda48048f82857e19",
+      "expected_fix_alpha_edges_RGBA_sha256": "17aec4f671d78dc30a2090926e14949bf920174f5e9d069bda48048f82857e19",
+      "expected_sha256": "8db50d2154d303871cbeb8191e29c0acb691a9a4d80b3dd29e6b04f739e2d439",
+      "kind": "atlas",
+      "ok": true,
+      "raw_source_RGBA_sha256": "8db50d2154d303871cbeb8191e29c0acb691a9a4d80b3dd29e6b04f739e2d439",
+      "resource": "res://assets/hero/atlas.png"
+    },
+    {
+      "actual_sha256": "83143926e4ed9ef07649cb99cde9fb181ee2d084a00cf810de4c7de209dc243e",
+      "expected_fix_alpha_edges_RGBA_sha256": "",
+      "expected_sha256": "83143926e4ed9ef07649cb99cde9fb181ee2d084a00cf810de4c7de209dc243e",
+      "kind": "manifest",
+      "ok": true,
+      "raw_source_RGBA_sha256": "",
+      "resource": "res://assets/characters/lyra/animations.json"
+    },
+    {
+      "actual_sha256": "4c981ac12857c2e3a2855d574c563a1d5de22f857666503d2b7c88c65cf1cb56",
+      "expected_fix_alpha_edges_RGBA_sha256": "4c981ac12857c2e3a2855d574c563a1d5de22f857666503d2b7c88c65cf1cb56",
+      "expected_sha256": "689cb35aaa40220b8d33804ce05c55a703ab7be10c87b5250ec941dc9e8415f3",
+      "kind": "atlas",
+      "ok": true,
+      "raw_source_RGBA_sha256": "689cb35aaa40220b8d33804ce05c55a703ab7be10c87b5250ec941dc9e8415f3",
+      "resource": "res://assets/characters/lyra/atlas.png"
+    },
+    {
+      "actual_sha256": "6bec091be7f91e69a1b451bf874b5522536170bc172ecc0d5bc1757cb31eee89",
+      "expected_fix_alpha_edges_RGBA_sha256": "",
+      "expected_sha256": "6bec091be7f91e69a1b451bf874b5522536170bc172ecc0d5bc1757cb31eee89",
+      "kind": "manifest",
+      "ok": true,
+      "raw_source_RGBA_sha256": "",
+      "resource": "res://assets/characters/brann/animations.json"
+    },
+    {
+      "actual_sha256": "11b6ef82b7e9f9dc30d71b9bd8fe7364fe1f7e84c3667fbf32df67e2b450899f",
+      "expected_fix_alpha_edges_RGBA_sha256": "11b6ef82b7e9f9dc30d71b9bd8fe7364fe1f7e84c3667fbf32df67e2b450899f",
+      "expected_sha256": "122017a9f5aaaa9b53130d947e71a5be220af6c3806c628c063a1622229b06d3",
+      "kind": "atlas",
+      "ok": true,
+      "raw_source_RGBA_sha256": "122017a9f5aaaa9b53130d947e71a5be220af6c3806c628c063a1622229b06d3",
+      "resource": "res://assets/characters/brann/atlas.png"
+    }
+  ],
+  "scope": "Actual mounted Web export manifests and decoded imported textureRGBA versus selected bake. Atlas rawRGBA differs; expectedtransform is the existing import fix_alpha_border (Image.fix_alpha_edges). Not a browser draw, art or motion rating."
+}

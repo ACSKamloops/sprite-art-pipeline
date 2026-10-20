@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "examples": [
+    {
+      "id": "native-walk",
+      "title": "Recorded H3 walk",
+      "media": "native-video.mp4",
+      "media_sha256": "97e83ef3522a8892af98672861ee7ec5214c24dd4f441e38cc448c762c5ab046",
+      "request": "request.json",
+      "request_sha256": "d4bf019d8c5eb1c85a4bf9e78fb2ee56d87af490d34b41f298241cdff7b8a87c",
+      "reference": "source.png",
+      "reference_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "provenance": "Retained recorded native H3 pilot h3-walk-001; this fixture performs no provider call. Supplied media provenance is not independently authenticated.",
+      "visual_acceptance": "unreviewed"
+    },
+    {
+      "id": "native-slash",
+      "title": "Recorded H3 slash",
+      "media": "native-video.mp4",
+      "media_sha256": "cede01409bbf9a71aee0feaf2678a125fd54f2db52b45439901ba3b1e05b44a6",
+      "request": "request.json",
+      "request_sha256": "c70e5a1856a13e3cd44c6e66a39ec0cedf162c792c9cd758440599f7a9fa6516",
+      "reference": "source.png",
+      "reference_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "provenance": "Retained recorded native H3 pilot h3-slash-001; this fixture performs no provider call. Supplied media provenance is not independently authenticated.",
+      "visual_acceptance": "unreviewed"
+    },
+    {
+      "id": "native-slash-margin",
+      "title": "Recorded H3 slash with margin",
+      "media": "native-video.mp4",
+      "media_sha256": "aed5ac139188860f2e3e39f58484ebda394c77fa7b8ae99f777cced03c572132",
+      "request": "request.json",
+      "request_sha256": "2d5962477e5b1202d1661d2ec8f6213e87163cce36ccd6a18c229218033aa86b",
+      "reference": "source.png",
+      "reference_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "provenance": "Retained recorded native H3 pilot h3-slash-margin-002; this fixture performs no provider call. Supplied media provenance is not independently authenticated.",
+      "visual_acceptance": "unreviewed"
+    }
+  ]
+}

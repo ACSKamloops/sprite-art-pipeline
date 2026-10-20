@@ -1,0 +1,905 @@
+{
+  "review_scope": "Reference visual suitability for LPC, Tiny Swords, Duelyst; independent finalv2 source/arithmetic invariants for all11 compiled clips. Prototype art, root browser/viewer, live original-game playback and continuous human playback are outside this review.",
+  "final_manifest": "STUDY-INPUT-v2.json",
+  "final_results": "analysis/results-v2/MEASUREMENTS.json",
+  "revised_annotation": "duelyst-annotation-revision-v2/LANDMARKS.json",
+  "files": [
+    {
+      "path": "STUDY-INPUT-v2.json",
+      "sha256": "6916f410c81726f711f9929fc13b6db67df3d69c4d09077fe43950dd8d93ca06",
+      "bytes": 484290
+    },
+    {
+      "path": "analysis/ANNOTATION-DELTA-v2.json",
+      "sha256": "d4bcfc19b7768406901855a79e7f97889a7893716d96f81905421bf5bdaf10ad",
+      "bytes": 368
+    },
+    {
+      "path": "analysis/INPUT-RESULTS-v2.sha256",
+      "sha256": "944c054136b39c86234f95403d72dd00560fcb837ebc0cd0d9e1b5c11ac7516b",
+      "bytes": 573
+    },
+    {
+      "path": "analysis/compile_study.py",
+      "sha256": "0217eb319f9c033681e56d017cde3a78fbf9ff258a4c421a729a8c8aa68bf233",
+      "bytes": 9222
+    },
+    {
+      "path": "analysis/measure_motion.py",
+      "sha256": "d2564c2320f76e4dc4bc186add41c550d2dff50dfb50c3769e02895081ad91c4",
+      "bytes": 9642
+    },
+    {
+      "path": "analysis/results-v2/MEASUREMENTS.json",
+      "sha256": "ee5caa931d184942e3a15ce2f71e442d3e1b85eb99547d21ea6fad57d4f9ddeb",
+      "bytes": 812839
+    },
+    {
+      "path": "analysis/test_measure_motion.py",
+      "sha256": "1bc2edf90079bbaca1f74fe6e468b8e115e3c3bb879f8278eaf4e8da6de6a50d",
+      "bytes": 1466
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/CORRECTION-DELTA.json",
+      "sha256": "e4f021008ec38880384c3e97b6acfa5acd3b6e289e04af8cc3f0a3525c704038",
+      "bytes": 23375
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/LANDMARKS.json",
+      "sha256": "3129f53b39f0b87c112cd5a509b381516fbebb37804cfd366683c99a78dd0b9e",
+      "bytes": 101701
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/REVIEW-attack-12-8x.png",
+      "sha256": "a45df780608b841f1b786bc3ba406e415912f7b1c4241352695f1491fd407a92",
+      "bytes": 7950
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/REVIEW-attack-16-8x.png",
+      "sha256": "488a1f79f216f96a6001cc2895da028b23d534f4e47933331a06bffc93760f50",
+      "bytes": 8534
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/REVISED-attack-landmarks-2x.png",
+      "sha256": "69875e11d26360a561458ea82f8e0fc578b006b1af59cddf48af6d672dea62d9",
+      "bytes": 48147
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/SHA256SUMS",
+      "sha256": "338bec6f9e61499d2a3c861df1f69aef2e6f33b174a8f876f54941c19484ba2a",
+      "bytes": 1421
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/SOURCE-FRAME-BINDINGS.json",
+      "sha256": "07d3faf6fdde41136d767bead39306b3b87d2ac3c3b7ea498e1730b846029e0a",
+      "bytes": 17929
+    },
+    {
+      "path": "duelyst-annotation-revision-v2/VERIFICATION.json",
+      "sha256": "f4fc80b644eafc4eef136693ec7c5160134daf2f96ef4d4e4f3cfd47aa7a2040",
+      "bytes": 1146
+    },
+    {
+      "path": "duelyst/CLIPS.json",
+      "sha256": "d6aae865222ae07d15bce1ae85a8d2bd55c94d7f4cdc09b0b2515af50faceddf",
+      "bytes": 68783
+    },
+    {
+      "path": "duelyst/INPUTS.json",
+      "sha256": "d027f2519ed312f7e897c24e4070b70edb0b6881a8cab1fd80da87c764f4dd68",
+      "bytes": 17000
+    },
+    {
+      "path": "duelyst/LANDMARKS.json",
+      "sha256": "c7cdb9d78aa2ddadcf796e7b056c4a5fd44b192b76e47a18bdae3e65bb63dd8c",
+      "bytes": 95113
+    },
+    {
+      "path": "duelyst/REPORT.md",
+      "sha256": "7e007d24b985f8024cec9510fafb4ceef1b35de11d7429e54b1773977004d7d0",
+      "bytes": 11180
+    },
+    {
+      "path": "duelyst/SHA256SUMS",
+      "sha256": "be6ac2969412f786827d598420e3e49ec44981a7f041a79a143f4b90a3facef1",
+      "bytes": 15926
+    },
+    {
+      "path": "duelyst/SOURCE_TREE.json",
+      "sha256": "8fb5ee2dfa5731c1d9eb1c940e1d7bb7d34d768737f0901bc0b21ca2a8304f2c",
+      "bytes": 4239130
+    },
+    {
+      "path": "duelyst/STATE_PROFILES.json",
+      "sha256": "3c45ae02560177e3d41acad44a3f64fa79b403c0695eb88a4f7ebf7ff2aa7197",
+      "bytes": 11005
+    },
+    {
+      "path": "duelyst/derived/attack-adjacent-pairs-2x.png",
+      "sha256": "11fa3eb247e81d2edbf402ebd75b397716d595e6dee6eb4d75dca0591e60a52c",
+      "bytes": 64774
+    },
+    {
+      "path": "duelyst/derived/attack-annotation-grid-00.jpg",
+      "sha256": "f31baca8b74a47bdd4f10feea558684c8b90bea44b70f94e2e021011ca138171",
+      "bytes": 278510
+    },
+    {
+      "path": "duelyst/derived/attack-annotation-grid-08.jpg",
+      "sha256": "0a28b497d5eecbe820c2986a5a7ed1b2f751e39965d97c863725b36f62c6ccae",
+      "bytes": 296574
+    },
+    {
+      "path": "duelyst/derived/attack-annotation-grid-16.jpg",
+      "sha256": "da67aa4cec72d5ebe7cdc6cd24b695e81f3c0db0570315266b32189fb2e3716b",
+      "bytes": 275820
+    },
+    {
+      "path": "duelyst/derived/attack-contact-2x.png",
+      "sha256": "6e2cfdaf0fc96d7c458ecbd964edb830078e8800d1779d9194c9d76f3ff96121",
+      "bytes": 39099
+    },
+    {
+      "path": "duelyst/derived/attack-contact-native.png",
+      "sha256": "40a05f97ab76066ed7a8126ccc77ab83adad5bd10ada41b7cd82b2e2881d41e1",
+      "bytes": 31788
+    },
+    {
+      "path": "duelyst/derived/attack-landmarks-2x.png",
+      "sha256": "27c720b0af1bc7783d69649b26608fb4582f13a725eafdfb541755e99b08d53c",
+      "bytes": 49771
+    },
+    {
+      "path": "duelyst/derived/attack-wrap-2x.png",
+      "sha256": "f2ab0668ffed251a28719dec091c76c3dfa8770f12e26303ad5e75683edfcfc6",
+      "bytes": 8751
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_000.png",
+      "sha256": "aab97715be3eb829160585fb32e6e55a184e523d0c22bac1285d1a4059bc1b7f",
+      "bytes": 2572
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_001.png",
+      "sha256": "d05029ca3204eb4eb50e22dafd2b86fd4d30627290e339cc7d9a6592834f5bf5",
+      "bytes": 1977
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_002.png",
+      "sha256": "9b886fe6c950a966b9817db8fabaca6261258e95ecd03ec60b90eb15ad770466",
+      "bytes": 2125
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_003.png",
+      "sha256": "1aaa9ce8826eea5c9ffdfba0b013f179a0fb6e8ec1ac1f15767b51a5f7067a8b",
+      "bytes": 2087
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_004.png",
+      "sha256": "f031b6aae9e6e594658cb6415095fb0d21473e301369d1d5484dc072a663e06a",
+      "bytes": 2025
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_005.png",
+      "sha256": "b9f50b30091c6bf268ab8624ff3cc9ba8931680c4985b14ffc31174229f962c1",
+      "bytes": 2351
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_006.png",
+      "sha256": "d0466b658616ab0e291f36c92096394b580fcc2bd122281c632d5244a0eeed68",
+      "bytes": 2241
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_007.png",
+      "sha256": "006665eaba225f12b055f561e0b8e35147256918e47d6b462b7cf38d3e6e0f19",
+      "bytes": 2157
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_008.png",
+      "sha256": "f868b509af7fcb39e3b0e52bc671200457d8c8c34f2a5a6a866aa98cf7e13e70",
+      "bytes": 2338
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_009.png",
+      "sha256": "f7f40bb2ce519ca2ca4824e44c5fe57fca159548964e4c2f5ced1970d32faa73",
+      "bytes": 2143
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_010.png",
+      "sha256": "6f84640398815a44d654921fd525bf7378b552bb66da6b2c0d2f0e480a3b299a",
+      "bytes": 2269
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_011.png",
+      "sha256": "951619ecf5996cea67402ffb8856b5b7a5852bdcb7c35f5455401b1d5ce812d9",
+      "bytes": 2512
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_012.png",
+      "sha256": "f44704756f139d81e0f2de33e56011d2b97aa0b23b35d2d5bf1b8c1181262593",
+      "bytes": 2478
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_013.png",
+      "sha256": "bf5f9a293c907077b19f2b267cccf096722b9dab4f92a17666c9241e9d8a07d0",
+      "bytes": 2420
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_014.png",
+      "sha256": "fe328b9882e6180d931b49cf0c5b51618ae66b4b1a5c4d5fef0a7cd7c864abe8",
+      "bytes": 2393
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_015.png",
+      "sha256": "f4594cb56baeefce87b599301592997d86ee9cf8ee8b6d9ae51b91f053ef4564",
+      "bytes": 2384
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_016.png",
+      "sha256": "60bb707f32957c3717a7c4034b8402551eb225ea878ba4ee55bcba813d52fcf9",
+      "bytes": 2862
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_017.png",
+      "sha256": "1775e7a2d8af320f362c760e10ae7a410b4229e3c181228eb179c850e6d60827",
+      "bytes": 2789
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_018.png",
+      "sha256": "be6019105a4b3d2e428853f8ca18c5ed67f6e908083ca61e4cb363402a15ea46",
+      "bytes": 2535
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_019.png",
+      "sha256": "0bf9778e85cea1921e62c45f9e06625e6d899ca4372e2b8b6ecdd794e097458f",
+      "bytes": 2562
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_020.png",
+      "sha256": "205e02ab5b0621c6d0a641f852f57bee6382a8e09a21938191431746c50ddc20",
+      "bytes": 2245
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_021.png",
+      "sha256": "27782cc9e410df1e3341a44ad17ecdaeb31b4410102a7cf48b6fee94e3ca7faf",
+      "bytes": 2509
+    },
+    {
+      "path": "duelyst/derived/attack/f1_general_attack_022.png",
+      "sha256": "a378010d0db7f6aa36517278ca065050aa15e5a001e7b2a3d909aba96b436ac1",
+      "bytes": 2504
+    },
+    {
+      "path": "duelyst/derived/breathing-adjacent-pairs-2x.png",
+      "sha256": "f7a389d0698d10f6b8d114a361a1052f507bce23d24716275b1f4aad6ce06866",
+      "bytes": 24090
+    },
+    {
+      "path": "duelyst/derived/breathing-contact-native.png",
+      "sha256": "d210d72eccca16ab4fcb16fed8eb99830ae1076fe574f3f8d03adc3901594573",
+      "bytes": 11301
+    },
+    {
+      "path": "duelyst/derived/breathing-wrap-2x.png",
+      "sha256": "cce63c8c3b3102158c304334636e4c4690e17a9c7768ed5f27b4ec7a5cbe4f5e",
+      "bytes": 7209
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_000.png",
+      "sha256": "d80c2dadac3285d67857787be29080b0ccb7fdbff75b1fcb82e67107d1f5bcce",
+      "bytes": 2568
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_001.png",
+      "sha256": "0a99275e68e82246d999811b4189887e96e06ff287014ade36701128909d9429",
+      "bytes": 2571
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_002.png",
+      "sha256": "aab97715be3eb829160585fb32e6e55a184e523d0c22bac1285d1a4059bc1b7f",
+      "bytes": 2572
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_003.png",
+      "sha256": "aab97715be3eb829160585fb32e6e55a184e523d0c22bac1285d1a4059bc1b7f",
+      "bytes": 2572
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_004.png",
+      "sha256": "aab97715be3eb829160585fb32e6e55a184e523d0c22bac1285d1a4059bc1b7f",
+      "bytes": 2572
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_005.png",
+      "sha256": "aab97715be3eb829160585fb32e6e55a184e523d0c22bac1285d1a4059bc1b7f",
+      "bytes": 2572
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_006.png",
+      "sha256": "872f9902ecaa67f98aaacf8552dfff10a31ba7d96b49f6d93c611d993131a049",
+      "bytes": 2520
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_007.png",
+      "sha256": "7185a236b63f8db6e1945f2b05e50aa2cfa398fb795da5610c09071600ea5c0d",
+      "bytes": 2527
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_008.png",
+      "sha256": "66e4684c126158d9b48a3a4b006cdb936a423148aa136a7b5b671c3007bf78d9",
+      "bytes": 2524
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_009.png",
+      "sha256": "6cf08f2b9306f79d7ac2cfae643995b074c4039709678c29476ce7cb8dc61c6c",
+      "bytes": 2525
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_010.png",
+      "sha256": "f83d864a14d20973c05ce9f84c0fa955a905b216ce08dabb5a637813eee8bb72",
+      "bytes": 2460
+    },
+    {
+      "path": "duelyst/derived/breathing/f1_general_breathing_011.png",
+      "sha256": "17ea93879ec23a29beaa11ea5865ade8e5169ab0744897aeddae84df348e0a89",
+      "bytes": 2479
+    },
+    {
+      "path": "duelyst/derived/idle-adjacent-pairs-2x.png",
+      "sha256": "097c9173de5b32f73a49d045bea0391f4170309240043d4efcf509dbd59757eb",
+      "bytes": 23941
+    },
+    {
+      "path": "duelyst/derived/idle-contact-native.png",
+      "sha256": "45fcbd659070c7bb1d3ae5fb6a90269c9233cffa868085b2431b699942484e18",
+      "bytes": 11340
+    },
+    {
+      "path": "duelyst/derived/idle-wrap-2x.png",
+      "sha256": "de6b9e91d78b7be9d6b2041be7b60918bf6e71acb848d40a05f7d619b7e6faed",
+      "bytes": 6535
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_000.png",
+      "sha256": "aab97715be3eb829160585fb32e6e55a184e523d0c22bac1285d1a4059bc1b7f",
+      "bytes": 2572
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_001.png",
+      "sha256": "f7875bd12b1ddbb2bc70ae1feece3b5fe9b8541141b0de35c6b0663864ae46c2",
+      "bytes": 2528
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_002.png",
+      "sha256": "f4514d5b11b3af17b389183fabee068efff6725306f25e8a57fd77f04adff4bb",
+      "bytes": 2516
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_003.png",
+      "sha256": "90224a24d24eb58cc389ffdde947ff4b7f7ae2c57ff8c9355f9ba9e2ff0d160a",
+      "bytes": 2518
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_004.png",
+      "sha256": "c6f7e6bf37a5f2508324b056e46e2d76c6372974c4cf808d9147b650016b5eef",
+      "bytes": 2502
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_005.png",
+      "sha256": "5881a66461bb331f4b064d71c920452ece3159be8d262c56b8ee48d0df744207",
+      "bytes": 2495
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_006.png",
+      "sha256": "a4deea5bb67a58f09d1c252be9ca9c5070b5e30b78b9265cc21ae8d33df6b968",
+      "bytes": 2502
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_007.png",
+      "sha256": "9caa3aaefc354f4ec3d1983c88820187e15efdccc2f702bcf3fe6ca6ca8c08e7",
+      "bytes": 2555
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_008.png",
+      "sha256": "e2baee9240095d764d1e45bb6b074e1fe07a3548dc860059eb4794225e0a9dab",
+      "bytes": 2456
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_009.png",
+      "sha256": "6a3f8b85306e0abccb179d874eae67c0dccd883cb302500eaabe629c3d8ad490",
+      "bytes": 2484
+    },
+    {
+      "path": "duelyst/derived/idle/f1_general_idle_010.png",
+      "sha256": "83de05025a361b0e4f55d300844102b16f1b3625459b2b0a6b112ade3c3f9a23",
+      "bytes": 2527
+    },
+    {
+      "path": "duelyst/derived/run-adjacent-pairs-2x.png",
+      "sha256": "a6013eda955952aa1e63bda647699cadbbb6f0ace5e727812a6272d5619f28cf",
+      "bytes": 19073
+    },
+    {
+      "path": "duelyst/derived/run-contact-2x.png",
+      "sha256": "a15655141274a08018bb427ff516b2b78c3f1aa313fa3ea94382c43879ae2c55",
+      "bytes": 11626
+    },
+    {
+      "path": "duelyst/derived/run-contact-native.png",
+      "sha256": "ef95da02a4737e752229203e444f44f2a22e9c59fd317d0b4e38378b7b09db53",
+      "bytes": 10120
+    },
+    {
+      "path": "duelyst/derived/run-landmarks-2x.png",
+      "sha256": "3cf5eb4b5ef54ca2483d58aac5723199240407028500ceb6e742e75c8943c1a7",
+      "bytes": 14509
+    },
+    {
+      "path": "duelyst/derived/run-wrap-2x.png",
+      "sha256": "7d3821fc9448496129380bab8f2fb5fbfa6438537c7629659275bf7f96406302",
+      "bytes": 7562
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_000.png",
+      "sha256": "83397ac216c04736968b1c6c290f30a848646293cddf1a315c49f75ede0680f6",
+      "bytes": 2328
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_001.png",
+      "sha256": "18d1196fd84acc6cf63412f564ca12727a4514e6a889f25c06688b91016714f2",
+      "bytes": 2514
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_002.png",
+      "sha256": "0e70d4bf6cc78a80c091aa4c56d963ad755aede8c9977210eaa9a0aec4f874cb",
+      "bytes": 2462
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_003.png",
+      "sha256": "13901f6d431fc3d5b61bb66332a65fa7049fb773d45a4d7959ee1d00dcd8a9a4",
+      "bytes": 2423
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_004.png",
+      "sha256": "9ba41b6e7970810ef64a08d42ed3e4abaabf40c2d61376561912a2851f9c3594",
+      "bytes": 2347
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_005.png",
+      "sha256": "ea4afa48ee09417a2a106eeab084ab08ea9dc0b790fbd4a6399e0b563b4c15a4",
+      "bytes": 2332
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_006.png",
+      "sha256": "6772259f78c0a01fa676e8c47ce64f74a0a3e9e5e8cf48cbb837079b269d77c8",
+      "bytes": 2316
+    },
+    {
+      "path": "duelyst/derived/run/f1_general_run_007.png",
+      "sha256": "ad9fd9b87618bbde296413f70cd864e9182ce8d5fab2a94ed365ccb1043b0581",
+      "bytes": 2384
+    },
+    {
+      "path": "duelyst/source/app/original_resources/units/f1_general.png",
+      "sha256": "1dcbf673fa0dec4eda34b426b884df529e1c76f3d32cf3c0baf0c10ea83931f8",
+      "bytes": 59946
+    },
+    {
+      "path": "duelyst/source/app/resources/units/f1_general.plist",
+      "sha256": "c9fc39d8d7dec25ef09721fed8284bbf606a69d698d6b2982f33b51a0f054a10",
+      "bytes": 33159
+    },
+    {
+      "path": "duelyst/source/app/resources/units/f1_general.png",
+      "sha256": "c579d5a5d5d93d7fbdc4a944f6bd4a1af689b06418ec8350476cf128cb9ddf7c",
+      "bytes": 37904
+    },
+    {
+      "path": "lpc-diagonal/CLIPS.json",
+      "sha256": "495e39d6d18224490cbfe3aab85216cf24bbe228e264e169cc89b421f0850bab",
+      "bytes": 15683
+    },
+    {
+      "path": "lpc-diagonal/INPUTS.json",
+      "sha256": "d547624bc70d309b94a95336eb5eae400a643463a1943a068a81e8660c81925c",
+      "bytes": 6995
+    },
+    {
+      "path": "lpc-diagonal/LANDMARKS.json",
+      "sha256": "0b2a295c2d494d2db4228b70c6568a6dcc200605dbadcee3530476fe2976357c",
+      "bytes": 64181
+    },
+    {
+      "path": "lpc-diagonal/REPORT.md",
+      "sha256": "0aa70aff71bad8c5c38db583b2ecc8a8f5827e82287a41a3e6cf3909e2ea69f8",
+      "bytes": 6004
+    },
+    {
+      "path": "lpc-diagonal/SHA256SUMS",
+      "sha256": "95e5e30f3b6ee41172aaf35bd12d37a2790b954c78d3bfa726be13351ed7e5b7",
+      "bytes": 15452
+    },
+    {
+      "path": "lpc-diagonal/derived/NE-inspection.png",
+      "sha256": "a5a14b4152153d72f3a035f2f63e5bacc14b29ca96198e89a799a391ec365c5d",
+      "bytes": 16457
+    },
+    {
+      "path": "lpc-diagonal/derived/male-walk-NE-contact.png",
+      "sha256": "ac3267ba0fb4c041ac81d8338f433926a734fb780847511f2dae8d09d8033495",
+      "bytes": 29789
+    },
+    {
+      "path": "lpc-diagonal/derived/male-walk-NE-pairs-and-wrap.png",
+      "sha256": "de86ceb0cf9a4d34796336e2e16ab2e3e67d3c0cc4fcf8dbb78b88e41f8c8a4e",
+      "bytes": 23942
+    },
+    {
+      "path": "lpc-diagonal/derived/male-walk-S-contact.png",
+      "sha256": "9fb15c0e85c731194b70a4a678c4761068672c5b0fcb49cdc795d7e6dbe5fa5d",
+      "bytes": 31490
+    },
+    {
+      "path": "lpc-diagonal/derived/male-walk-S-pairs-and-wrap.png",
+      "sha256": "b4dd6b1e5f48a9148bccead87a5b5ef3751776b07bc0890558f354cb8cbbb892",
+      "bytes": 25850
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/037.png",
+      "sha256": "b2eed49ac5a2ee8945f4ed1da97c4f0fe7518372baec7244c657e59bcbf8b310",
+      "bytes": 1234
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/038.png",
+      "sha256": "1e8cf79595458c9868f0322989f5c623975d5de320daf97d45462a3d390ec160",
+      "bytes": 1274
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/039.png",
+      "sha256": "ef64f78fd770030ebb667116a233b1e3ebe032f8f7854936ef5bec61487f4bb8",
+      "bytes": 1224
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/040.png",
+      "sha256": "c92a4fd884837ab10457bfd8d13462cf70ec78432211b821e5ea83f511d9fc64",
+      "bytes": 1313
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/041.png",
+      "sha256": "dc93741a2f940e5677c84e04ee99df87ab9682ade97391233177755a3835a2da",
+      "bytes": 1247
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/042.png",
+      "sha256": "3d80299251ba7dbcfef34b027a663377717ebf51cd6db24695bcc7f25c4f8f7d",
+      "bytes": 1282
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/043.png",
+      "sha256": "ed0453d83e18853782d5556d322551d199906eef8b0b5438d4d49898e2d82b24",
+      "bytes": 1249
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/044.png",
+      "sha256": "48d7388c1aa64c20464a012408e2d8d0f44609e932ed501b98c5abf356a4f10e",
+      "bytes": 1300
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/064.png",
+      "sha256": "857326cd484b15615b00b7297f75d57c69680e47c0a294b4b0a029bb40c7a213",
+      "bytes": 996
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/065.png",
+      "sha256": "df8b8c207057bb628456a90e3949101ab9548135c769e431ca31d18ab7c22d7d",
+      "bytes": 1015
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/066.png",
+      "sha256": "9761cd17ba91a51ca6b8523df881b83e3425c960f7491a9c11a3b51819a1bab2",
+      "bytes": 1027
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/067.png",
+      "sha256": "a289f9955ad5ab841c233ff2ba838919d7afc5be2dd83e95a821b3dde5181347",
+      "bytes": 997
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/068.png",
+      "sha256": "a63dee8042304288d52419f29661b358056d13dc82f0d955f857edabcb63c1af",
+      "bytes": 989
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/069.png",
+      "sha256": "c803345f2ab350181193e69deb69670723d30bcf4aff163570e7744f25074fe5",
+      "bytes": 959
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/070.png",
+      "sha256": "e7af99bcee347b2c0fe3701e2b0a53cc0cbce04b482ee7150069847140b5c291",
+      "bytes": 960
+    },
+    {
+      "path": "lpc-diagonal/derived/native-male-walk/071.png",
+      "sha256": "dbf1a636c5b74353396f1235e0653b64bff6138e5c476a5ca91e65cd02ded949",
+      "bytes": 961
+    },
+    {
+      "path": "lpc-diagonal/derived/row-direction-inspection.png",
+      "sha256": "fba6c72c4c4b004e9aea4864328f156c2594b8c14ddd70177df4bfa1786e5428",
+      "bytes": 11610
+    },
+    {
+      "path": "lpc-diagonal/raw/extracted/LPC_male_diagonal_walkcycle.png",
+      "sha256": "2e8c83857c9456f3c336d058f4152d0e1b57b9b9eecd2ba9b0d2ffde8bcc6261",
+      "bytes": 28812
+    },
+    {
+      "path": "lpc-diagonal/raw/extracted/LPC_male_walkcycle.kra",
+      "sha256": "d72240b14f7eaf0ff6931f534eaf35974902001221d2754b3e3b31e7dc8074e0",
+      "bytes": 919842
+    },
+    {
+      "path": "our-prototype/CLIPS.json",
+      "sha256": "c81fdfd865329aa4b28421dde0a77a340bb8c427ab35ad19b189d178d8a37f0d",
+      "bytes": 13825
+    },
+    {
+      "path": "our-prototype/LANDMARKS.json",
+      "sha256": "2a1f69dd96acc7141f272dc89b01271091a3005f089c429e00d25fe1c15e72b3",
+      "bytes": 92386
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-00.png",
+      "sha256": "62fa24e2cd743b0be8ce412496d863aa64b1eddc108a65791906b426d08c02f6",
+      "bytes": 10557
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-01.png",
+      "sha256": "870932d6077f721457efac0ef5d599fd9829def14a6cb991ccc353d06603d40f",
+      "bytes": 10202
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-02.png",
+      "sha256": "e0cf2d49829cab96ffd483a4a83038009aa98e2be99354cb734b07ba02d44c34",
+      "bytes": 10449
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-03.png",
+      "sha256": "37ae4240aa2ef44d2fc5893e83fd886b7957dd0b0a8f203d635bc7932b133ae4",
+      "bytes": 10565
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-04.png",
+      "sha256": "725b39d2b68c3340808cbc6f97ef6942f2a7fba0871a28126686997ffc36df6e",
+      "bytes": 10561
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-05.png",
+      "sha256": "b88a60e8fe764b85ed2ecd40f34aa94c8b34d6fa829679fbe979f47d25109915",
+      "bytes": 10114
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-06.png",
+      "sha256": "6e6646f4df66dd5b004b48842ae08f5e39af278c03119ab55b34baa6bc56e3e2",
+      "bytes": 10534
+    },
+    {
+      "path": "our-prototype/derived/installed-NE-07.png",
+      "sha256": "c2521ca7faea78cbd0febae046cac91bbc2ed9c7135fa41e4908d3d160714062",
+      "bytes": 10414
+    },
+    {
+      "path": "our-prototype/raw/rejected-00.png",
+      "sha256": "4980c4881c84f62c28f32caf22572843b1fea435d8aa2813b5e1443dc954fea5",
+      "bytes": 12822
+    },
+    {
+      "path": "our-prototype/raw/rejected-01.png",
+      "sha256": "6df457711f51b2bdcc3ba7289b58097a25d00986bf3d2ef504980db1ff8d6d7b",
+      "bytes": 12724
+    },
+    {
+      "path": "our-prototype/raw/rejected-02.png",
+      "sha256": "c26255ac4dc78031a05c880cd1049c695ab1b3a3e37909914b9347fd74bcad16",
+      "bytes": 12783
+    },
+    {
+      "path": "our-prototype/raw/rejected-03.png",
+      "sha256": "fe83e9a0b8889b4086c51a6eecf59dcd73b26b91de4264cfe8f2bfed908ecb6d",
+      "bytes": 12376
+    },
+    {
+      "path": "our-prototype/raw/rejected-04.png",
+      "sha256": "60fb252a29cbeff387382876b59a4546c4c3020f70ded8eabf6f4714be856bee",
+      "bytes": 12098
+    },
+    {
+      "path": "our-prototype/raw/rejected-05.png",
+      "sha256": "3a2a9681603a02b42d894f4f3bfa310fa2a5e5aff80274cc3b92960596b2f7a2",
+      "bytes": 12488
+    },
+    {
+      "path": "our-prototype/raw/rejected-06.png",
+      "sha256": "52c44c07b923b0efc47c86402bae198601655af26da5f4b5b649b8ecf5ee2d68",
+      "bytes": 12797
+    },
+    {
+      "path": "our-prototype/raw/rejected-07.png",
+      "sha256": "06caeba47628f43561ef9632fce9d88f9ba9378661c5aca799c95229f7646f82",
+      "bytes": 12699
+    },
+    {
+      "path": "tiny-rpg/CLIPS.json",
+      "sha256": "0899f12742bb3e59705a148ee9977f024fd0c0b4b7027c15d5de912dd14a7b1a",
+      "bytes": 11285
+    },
+    {
+      "path": "tiny-rpg/INPUTS.json",
+      "sha256": "73077f63250a06612404a08dbe5061b64341ea32b314a0bc349828d2c0d8ad64",
+      "bytes": 4752
+    },
+    {
+      "path": "tiny-rpg/LANDMARKS.json",
+      "sha256": "05ccf514a68702703058e3e355f29311874585d48aa8e21a345a06b3cf650de3",
+      "bytes": 40018
+    },
+    {
+      "path": "tiny-rpg/REPORT.md",
+      "sha256": "1b1670ee88d5282388ea0ff36f912f64b2a3c30f515d8fd8a8d2403f8a18f489",
+      "bytes": 9192
+    },
+    {
+      "path": "tiny-rpg/SHA256SUMS",
+      "sha256": "29c8d8ed538774ac20e44c8edc5dda7301b322e9591950bf5f32fa617b07ae99",
+      "bytes": 6447
+    },
+    {
+      "path": "tiny-rpg/derived/Attack1/00.png",
+      "sha256": "d79a83f1540271258632e1d993bc5a7ab2e285c96e204f81acf8cc74d9924ac0",
+      "bytes": 2360
+    },
+    {
+      "path": "tiny-rpg/derived/Attack1/01.png",
+      "sha256": "098a1fabbcf9277d74a83bb0c31db5c6f28b8aa74b1d148f101bd2860741584a",
+      "bytes": 2404
+    },
+    {
+      "path": "tiny-rpg/derived/Attack1/02.png",
+      "sha256": "9f1ab6f6bff44269e43f0f67133a6f1f461341870c3fc05dae37fa385cf1991d",
+      "bytes": 3218
+    },
+    {
+      "path": "tiny-rpg/derived/Attack1/03.png",
+      "sha256": "ed9e23406e5a2c6cc56afc1f063ea3028442cbe639d7426459fbde9153ae8b70",
+      "bytes": 2517
+    },
+    {
+      "path": "tiny-rpg/derived/Run/00.png",
+      "sha256": "7c7f01c3e5ce977a83fa7056ac51966d302da8c59218e6e03e4b3c8975479db1",
+      "bytes": 2418
+    },
+    {
+      "path": "tiny-rpg/derived/Run/01.png",
+      "sha256": "0113b10548b3be1b8170c2e9b3de30722539ed2cd48bd959dfc85cca79d4b507",
+      "bytes": 2313
+    },
+    {
+      "path": "tiny-rpg/derived/Run/02.png",
+      "sha256": "f03ccd31f166a251d51bbabff159dbc3a02618f5e0ea7004a0dc7b67dc337880",
+      "bytes": 2352
+    },
+    {
+      "path": "tiny-rpg/derived/Run/03.png",
+      "sha256": "b3e3db8c5311789a1b5743ccef0d81fe9814ae023b4d9a5baea5ce2d955cc48b",
+      "bytes": 2389
+    },
+    {
+      "path": "tiny-rpg/derived/Run/04.png",
+      "sha256": "b4a1ca2221bd3c192fca7413c693edff08c5026bc04f0e53b418529af4c2f7f6",
+      "bytes": 2629
+    },
+    {
+      "path": "tiny-rpg/derived/Run/05.png",
+      "sha256": "4ea7f8ecb7d6fb8869639632b02721423e33baf0a9dfbb8be023cc46f74a4150",
+      "bytes": 2617
+    },
+    {
+      "path": "tiny-rpg/derived/libresprite-export.json",
+      "sha256": "c4db7bbd5efa97648a35169acd61f9893c0dff4c6403c3266b2081eed7472795",
+      "bytes": 9075
+    },
+    {
+      "path": "tiny-rpg/derived/libresprite-native-sheet.png",
+      "sha256": "e727563172d9adf665399da761eaec5afcff5eadd1ca49302982d0bab2c22b86",
+      "bytes": 45133
+    },
+    {
+      "path": "tiny-rpg/proof/warrior_attack1-all-adjacent-and-wrap.png",
+      "sha256": "c8d53a07bcd7aafd297c7d98ad79374133a95f4f70b4509e7af2ab5e985ba74b",
+      "bytes": 16890
+    },
+    {
+      "path": "tiny-rpg/proof/warrior_attack1-full-cell-contact.png",
+      "sha256": "6de1dc4c3f423765d37634d916d7772486d37101b7ced8317d3bda14b7af8107",
+      "bytes": 11892
+    },
+    {
+      "path": "tiny-rpg/proof/warrior_attack1-manual-landmarks-4x.png",
+      "sha256": "9daa6f3c1a3c158ab8494442318320071a8eea093722af532af9fdbde337e701",
+      "bytes": 23521
+    },
+    {
+      "path": "tiny-rpg/proof/warrior_run-all-adjacent-and-wrap.png",
+      "sha256": "6525fd934c6763551abbb133f49faa1a43bf079ccd1ccf05e1d2270ac484b404",
+      "bytes": 17730
+    },
+    {
+      "path": "tiny-rpg/proof/warrior_run-full-cell-contact.png",
+      "sha256": "356d7a3a19121a47e54d4b6b7aae93ac5f510fb7df84d6fcfe99ca38d9bd2d25",
+      "bytes": 15087
+    },
+    {
+      "path": "tiny-rpg/proof/warrior_run-manual-landmarks-4x.png",
+      "sha256": "9ef39910cf02d0703b49e55b454f78d48d3a65963bcc2c2324f893f256e0ba86",
+      "bytes": 32558
+    },
+    {
+      "path": "tiny-rpg/sources/Warrior.aseprite",
+      "sha256": "0bbaf7f955bfe82ce06552d7e09eb5ae21e6cbd8b2e5924dda7f51e37c6f05a5",
+      "bytes": 52776
+    },
+    {
+      "path": "tiny-rpg/sources/Warrior_Attack1.png",
+      "sha256": "da150db2442454bd661bd8e2512dab2c7def4d9202334a06dd9d6a8edfb20fec",
+      "bytes": 8169
+    },
+    {
+      "path": "tiny-rpg/sources/Warrior_Run.png",
+      "sha256": "01e2d075c7c45a2f9567676b0bb0808a7caf0744b927179ffe212a740e609ea1",
+      "bytes": 9809
+    }
+  ],
+  "viewed_source_or_proof_image_paths": [
+    "duelyst-annotation-revision-v2/REVIEW-attack-12-8x.png",
+    "duelyst-annotation-revision-v2/REVIEW-attack-16-8x.png",
+    "duelyst-annotation-revision-v2/REVISED-attack-landmarks-2x.png",
+    "duelyst/derived/attack-adjacent-pairs-2x.png",
+    "duelyst/derived/attack-annotation-grid-00.jpg",
+    "duelyst/derived/attack-annotation-grid-08.jpg",
+    "duelyst/derived/attack-annotation-grid-16.jpg",
+    "duelyst/derived/attack-contact-2x.png",
+    "duelyst/derived/attack-contact-native.png",
+    "duelyst/derived/attack-landmarks-2x.png",
+    "duelyst/derived/attack-wrap-2x.png",
+    "duelyst/derived/breathing-adjacent-pairs-2x.png",
+    "duelyst/derived/breathing-contact-native.png",
+    "duelyst/derived/breathing-wrap-2x.png",
+    "duelyst/derived/idle-adjacent-pairs-2x.png",
+    "duelyst/derived/idle-contact-native.png",
+    "duelyst/derived/idle-wrap-2x.png",
+    "duelyst/derived/run-adjacent-pairs-2x.png",
+    "duelyst/derived/run-contact-2x.png",
+    "duelyst/derived/run-contact-native.png",
+    "duelyst/derived/run-landmarks-2x.png",
+    "duelyst/derived/run-wrap-2x.png",
+    "lpc-diagonal/derived/NE-inspection.png",
+    "lpc-diagonal/derived/male-walk-NE-contact.png",
+    "lpc-diagonal/derived/male-walk-NE-pairs-and-wrap.png",
+    "lpc-diagonal/derived/male-walk-S-contact.png",
+    "lpc-diagonal/derived/male-walk-S-pairs-and-wrap.png",
+    "lpc-diagonal/derived/row-direction-inspection.png",
+    "lpc-diagonal/raw/extracted/LPC_male_diagonal_walkcycle.png",
+    "tiny-rpg/proof/warrior_attack1-all-adjacent-and-wrap.png",
+    "tiny-rpg/proof/warrior_attack1-full-cell-contact.png",
+    "tiny-rpg/proof/warrior_attack1-manual-landmarks-4x.png",
+    "tiny-rpg/proof/warrior_run-all-adjacent-and-wrap.png",
+    "tiny-rpg/proof/warrior_run-full-cell-contact.png",
+    "tiny-rpg/proof/warrior_run-manual-landmarks-4x.png",
+    "tiny-rpg/sources/Warrior_Attack1.png",
+    "tiny-rpg/sources/Warrior_Run.png"
+  ],
+  "viewed_image_count": 37,
+  "source_exposure_entries": 142,
+  "unique_source_image_paths_verified": 96
+}

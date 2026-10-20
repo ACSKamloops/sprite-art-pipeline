@@ -1,0 +1,53 @@
+{
+  "status": "fixed metadata; mask pixels and recovered method unchanged",
+  "finding": "Original receipt text incorrectly called unselected pixels transparent black; actual Godot Color.TRANSPARENT mask is transparent white. Consume alpha channel.",
+  "old_wrapper_source_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+  "new_wrapper_source_sha256": "67cbb80674b9d17cb81aeb423dcadd16aa617a461720894552394a830af37252",
+  "code_change": "Receipt convention string only; mask construction and recovered-method code unaltered. Original example receipts remain historical with this erratum.",
+  "cases": [
+    {
+      "name": "tolerance8",
+      "old_receipt_path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/manual-selector-examples/tolerance8/receipt.json",
+      "old_receipt_sha256": "fbfb60b70ee9bdf3c8f9587045adbfcf390de79b0bb8f357658b76587564ee36",
+      "new_receipt_path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/manual-selector-current/tolerance8/receipt.json",
+      "new_receipt_sha256": "ce0f7d2c63c546d6c59033486f32354c991154f524ecba322939205305e28502",
+      "mask_png_sha256_unchanged": "8d5c66ecbbdcee0c85ba0c0dd994894b43b893781be078bc8e516f340b824579",
+      "selected_pixels": 5761,
+      "input_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "selected_rgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "unselected_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    },
+    {
+      "name": "tolerance32",
+      "old_receipt_path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/manual-selector-examples/tolerance32/receipt.json",
+      "old_receipt_sha256": "6176640015fb3507c87f5f89b114b0717fb1512b525fa04df2dc04867bd30e27",
+      "new_receipt_path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/manual-selector-current/tolerance32/receipt.json",
+      "new_receipt_sha256": "02378b8b0c0048f2c0d8dd4ed44682753591480495fbd5f33c24ca93e029f4eb",
+      "mask_png_sha256_unchanged": "d46178aa2e071504bd68d7bb26fa377dbeeb79868258979706830aca51c11fc3",
+      "selected_pixels": 5889,
+      "input_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "selected_rgba": [
+        255,
+        255,
+        255,
+        255
+      ],
+      "unselected_rgba": [
+        255,
+        255,
+        255,
+        0
+      ]
+    }
+  ]
+}

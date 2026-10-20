@@ -1,0 +1,4984 @@
+{
+  "schema": "emberwake-animation/v1",
+  "character_id": "brann",
+  "cell": [
+    128,
+    128
+  ],
+  "columns": 16,
+  "pivot": [
+    64,
+    112
+  ],
+  "draw_scale": 0.66,
+  "cast_hand": {
+    "south": [
+      101,
+      72
+    ],
+    "east": [
+      96,
+      52
+    ],
+    "north": [
+      96,
+      40
+    ],
+    "west": [
+      32,
+      52
+    ],
+    "southeast": [
+      99,
+      59
+    ],
+    "northeast": [
+      100,
+      38
+    ],
+    "southwest": [
+      29,
+      59
+    ],
+    "northwest": [
+      28,
+      38
+    ]
+  },
+  "cast_release_index": 3,
+  "animations": {
+    "south_idle": {
+      "frames": [
+        14,
+        15
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "south_walk": {
+      "frames": [
+        0,
+        120,
+        121,
+        129,
+        5,
+        122,
+        123,
+        130
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "south_attack": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        128,
+        14
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "south_cast": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "south_hurt": {
+      "frames": [
+        22,
+        23,
+        14
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "south_dodge": {
+      "frames": [
+        24,
+        25,
+        26,
+        128,
+        27
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "east_idle": {
+      "frames": [
+        42,
+        43
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "east_walk": {
+      "frames": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "east_attack": {
+      "frames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        117,
+        42
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "east_cast": {
+      "frames": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "east_hurt": {
+      "frames": [
+        50,
+        51,
+        42
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "east_dodge": {
+      "frames": [
+        52,
+        53,
+        54,
+        117,
+        55
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "north_idle": {
+      "frames": [
+        70,
+        71
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "north_walk": {
+      "frames": [
+        56,
+        124,
+        125,
+        131,
+        61,
+        126,
+        127,
+        132
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "north_attack": {
+      "frames": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        118,
+        70
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "north_cast": {
+      "frames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "north_hurt": {
+      "frames": [
+        78,
+        79,
+        70
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "north_dodge": {
+      "frames": [
+        80,
+        81,
+        82,
+        118,
+        83
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "west_idle": {
+      "frames": [
+        98,
+        99
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "west_walk": {
+      "frames": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "west_attack": {
+      "frames": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        119,
+        98
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "west_cast": {
+      "frames": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "west_hurt": {
+      "frames": [
+        106,
+        107,
+        98
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "west_dodge": {
+      "frames": [
+        108,
+        109,
+        110,
+        119,
+        111
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "southeast_idle": {
+      "frames": [
+        158,
+        159
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "southeast_walk": {
+      "frames": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "southeast_attack": {
+      "frames": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        158
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "southeast_cast": {
+      "frames": [
+        158,
+        153,
+        154,
+        155,
+        156,
+        158
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "southeast_hurt": {
+      "frames": [
+        160,
+        161,
+        158
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "southeast_dodge": {
+      "frames": [
+        163,
+        164,
+        165,
+        166,
+        158
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "northeast_idle": {
+      "frames": [
+        190,
+        191
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "northeast_walk": {
+      "frames": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "northeast_attack": {
+      "frames": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        190
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "northeast_cast": {
+      "frames": [
+        190,
+        185,
+        186,
+        187,
+        188,
+        190
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "northeast_hurt": {
+      "frames": [
+        192,
+        193,
+        190
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "northeast_dodge": {
+      "frames": [
+        195,
+        196,
+        197,
+        198,
+        190
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "northwest_idle": {
+      "frames": [
+        222,
+        223
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "northwest_walk": {
+      "frames": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "northwest_attack": {
+      "frames": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        222
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "northwest_cast": {
+      "frames": [
+        222,
+        217,
+        218,
+        219,
+        220,
+        222
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "northwest_hurt": {
+      "frames": [
+        224,
+        225,
+        222
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "northwest_dodge": {
+      "frames": [
+        227,
+        228,
+        229,
+        230,
+        222
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "southwest_idle": {
+      "frames": [
+        254,
+        255
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "southwest_walk": {
+      "frames": [
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "southwest_attack": {
+      "frames": [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        254
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "southwest_cast": {
+      "frames": [
+        254,
+        249,
+        250,
+        251,
+        252,
+        254
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "southwest_hurt": {
+      "frames": [
+        256,
+        257,
+        254
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "southwest_dodge": {
+      "frames": [
+        259,
+        260,
+        261,
+        262,
+        254
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    }
+  },
+  "lineage": [
+    {
+      "frame": 0,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "4976dd2f567d78f3a25a61d729468973a8c72087c92e9688988b489fcfc93903"
+    },
+    {
+      "frame": 1,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "b62ecfc825d4c12c6a8131a3a7b54ecb8e12af20f28ffd54ec63d87186f266b4"
+    },
+    {
+      "frame": 2,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "82cdf4326daf3b6bf4314c034e6d2376c126b3814fb5e768fe611926a5156ff1"
+    },
+    {
+      "frame": 3,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "4894999ae9bb08e290f0732182955235ed164c78b9e5a611bf4765a2b976ce85"
+    },
+    {
+      "frame": 4,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c668db42017b0c926b91aefc07b9344a690a0a838ea5971125b616feac3e58ce"
+    },
+    {
+      "frame": 5,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7e97e3da7fd0fe52465d29a756aae3887f66ead121db63f97b348df57172e05b"
+    },
+    {
+      "frame": 6,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "b321ee9a3216caa2c9388234056c29f0e6342f0724ff53cca68830f1a55bd727"
+    },
+    {
+      "frame": 7,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0f5cbf06c1bb5398a8222b92b57a1df7960fd242c31b84dc0c023af998c34afb"
+    },
+    {
+      "frame": 8,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0497dc0fc0b07dc8ce044b6c6be4b6c1979eb1e5d970f95602a4d839190ce283",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -3,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 9,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "20be7e6708fe4bd58d91159a78c99a7f4e1b938ab3237232e441443a2fa7ab68"
+    },
+    {
+      "frame": 10,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e295299b9a93f62926d6f678d547c3d61693c259752f4b3988d931d0ad62101d"
+    },
+    {
+      "frame": 11,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "13f2c92bb5c7e3d467958b675de26f86b093bf7b4db7636ead9831b13d5a9e0d"
+    },
+    {
+      "frame": 12,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7cc8b19000399c3f909f11d3ffa01cd543cbe41dd4f9678f0179ec0231eaf6bb"
+    },
+    {
+      "frame": 13,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d1a0cab12723617417af5ca1debabbbc215655732aa2fc1c3a6d0b95cfd6d6c6"
+    },
+    {
+      "frame": 14,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "8d8d3a350f345afda55d5e591e4b9d65ee248a96fe7913d7859d0895a74d2324",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -1,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 15,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "6af30cf9eceec0ea4648c885e98678c4773a68962a3801461241b04abaca6223",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -3,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 16,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "97c16057a73e2aee34e63ecb337e7dd3ce218ce28b68e52061a302bf79d28692",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -2,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 17,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "53a9509fdff2f13bcebe79c640840d652e189744d241388d4eba7f0783445202",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -1,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 18,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ec70a9dbcd160d262ebe483f6e6ddd556df46158aa4814102046715cf4f4a6bf",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -1,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 19,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "227049f98f9028696234b578a44061592d78ab7a7cd3dc57c2d2a20f8950b5ae",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -1,
+          0
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 20,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "5f606542c6b1e672b1951c8eb0af7b449f1e9f1d912d15c8482e721739af7fd0",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -3,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 21,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "186230770f7740b6ae407507d2dce2cac3855a996f91dbf81e7269cd5f60ee2d",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -1,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 22,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "db059f1fe6453ce87eb414dd9a563fa17cd236bb8e274411ed895fe2c093c9ca"
+    },
+    {
+      "frame": 23,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "380ba0c7d691c3bddb9e7cf0977bc7bc9e8ef00eebb99ba9438453d40bac0e80"
+    },
+    {
+      "frame": 24,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e51c34a646bc8507c720c1d34b24203ee10d1fab425a9a749819ee8f24c29c7b",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v2/repair-plan.json",
+        "plan_sha256": "ad08ae122eb006cc0fbb3a5b6eea9405c8c905142e9540d357170b5df0e96303",
+        "donor": 12,
+        "offset": [
+          -3,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 25,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "2641ac17d134708571581c00b270c8b1d190e9ae16a6f52bc6beee5e5ecbedb7"
+    },
+    {
+      "frame": 26,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "41ba3d54b0145adbf7096497f8fc26d9f7d15137f592da248ff64544df02187f",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v2/repair-plan.json",
+        "plan_sha256": "ad08ae122eb006cc0fbb3a5b6eea9405c8c905142e9540d357170b5df0e96303",
+        "donor": 12,
+        "offset": [
+          -1,
+          -1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 27,
+      "source": "art-source/characters-v2/brann/south-raw.png",
+      "source_sha256": "b9dc7e707ca71fcb3de61649289db836ac84826318ca77010c1029fe4389f622",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9fe1a6a9bd9742d5e05aa55eba49007dfa7bf5a66ba6a4fdb403fae438e4d3c4",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 12,
+        "offset": [
+          -1,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 28,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ebf6026c1fdacde29d352ec0260540b40a8cbf921da19a4b18939c78f16aae88"
+    },
+    {
+      "frame": 29,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "3664e68b88d5737fb1e9ca428026514cf8fa4b82117d44bbee9e0926ebf26201"
+    },
+    {
+      "frame": 30,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "f4cf5243a990822a9268338ceb585b03da4c485d2afe5479323923225a6f7753"
+    },
+    {
+      "frame": 31,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "29aa1ae04a52ebb27dbe9d2f23146c4a00b4645f818935365e442e3489972b59"
+    },
+    {
+      "frame": 32,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "5807537c5fda425c5636c3f5598beaf07c12ed2e4fb85e782befd1dd65455c08"
+    },
+    {
+      "frame": 33,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ac7baa2bbe1a23a90c902a7481d7dd9e3b35319c5bce4b2d74526a7cdf789043"
+    },
+    {
+      "frame": 34,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "6bac368416e8f716fc741dcf3fe5436675098c6f2d75e48d065c42e12629f18e"
+    },
+    {
+      "frame": 35,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7cb94ecbe4df2e5ebdbe35e4c9426a7bcfc4a8f85999ae0762015b59480b6bbe"
+    },
+    {
+      "frame": 36,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "18c08b2420ce359fa135595309ee86e33168193cf75a7c9a843f5ce5e97945ee"
+    },
+    {
+      "frame": 37,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "f2eac60c0afe2e75b10881a441b884c4ff7b74c3aa5b36d122b43f21e8fa6f20"
+    },
+    {
+      "frame": 38,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ae18583898fe97d96602bdef0c85e3aeb1326e6c1efb27f2ed4d0fe7024044d7"
+    },
+    {
+      "frame": 39,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d7b27094418a0a2cd0f1dcb19810c62713836237d9d8d89643a1c27b881e1433"
+    },
+    {
+      "frame": 40,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c5a369e28458441ff0aaafd050fead6a5c4b3595073c08fedc03a176b82ce86e"
+    },
+    {
+      "frame": 41,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "953cd5733321ec58b06509f62ba04bc6ecba85ee3178b877220deeb25a4dd990"
+    },
+    {
+      "frame": 42,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c5ecb612a1379e536f84fab1922baa5d2f887718647054c2212de2894424de5b",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 37,
+        "offset": [
+          4,
+          0
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 43,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "333220f3c741775ac7b5e7bc1e555508e4c36ae692da0aa1ee72f85a48a4b6e9"
+    },
+    {
+      "frame": 44,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e2932c3b9fd8425826fea1b2090851c93c0855eac0be5cd35eec48d4a0de38dc",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 37,
+        "offset": [
+          0,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 45,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "a9274c16ab8e70fdda778e28213c3ee3846eff9af1a144932710345780e0200e"
+    },
+    {
+      "frame": 46,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e078e6fb99b84df764198669b61749a77dede72f6f1c269ed73f94a7671e95a0"
+    },
+    {
+      "frame": 47,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7cae0ffb0b49f8a134397399da7ca882b326a15ef6cd659592db08b82c798dcc"
+    },
+    {
+      "frame": 48,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "aa91f1e5f0bc284ee43ca4d3641b15c5ae623f6645ddb6c90b932f7db983d3d6",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 37,
+        "offset": [
+          0,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 49,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "bc4d448a4bbba81f181afe023e7a8f373ceab5a8987e9d8b78c64d0deaa310c6"
+    },
+    {
+      "frame": 50,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "18f4c71c3842758253baea58ffe4fe19114a46b74b0d3a826e8d24ceb6b0b83b"
+    },
+    {
+      "frame": 51,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c5d30dea7b1bcdce0082041bf29ef49bb6a97976bddc7725fed0345aac23df8c",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 37,
+        "offset": [
+          1,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 52,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9e20e5e0c8144e16406acf3c1e01156289d4e48b6911cf24888545759db70d3f"
+    },
+    {
+      "frame": 53,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d9a495d5fb5c8e315e7c3020db35b956696ac2c1405d1f32f05cc13f81bb8cf6"
+    },
+    {
+      "frame": 54,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0d58f0b602f3527e0e16e67249bab6f5b0388607b09dd03a1e805423aca52cb9"
+    },
+    {
+      "frame": 55,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          138,
+          247
+        ],
+        "scale": 0.46,
+        "row_x": [
+          -3,
+          0,
+          0,
+          0
+        ],
+        "row_y": [
+          0,
+          0,
+          0,
+          3
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "aa8ceba9177a286b7cb507e4ff266a84a55a51f04124d0e6d1a680b0a47725d5",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 37,
+        "offset": [
+          -2,
+          -4
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 56,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c1a5689291afea7d0b749039378f5c9a548384ce288b415daeb590a786fbed47"
+    },
+    {
+      "frame": 57,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "77d3babdac617c476d848f5cd985cb565976251c97bd1506e14d7dd2cdbbd41d"
+    },
+    {
+      "frame": 58,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7e030d37de23cfac7641dc524b525d507cfb7e2281d14bc8a37bf5233f8c729a"
+    },
+    {
+      "frame": 59,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ce1bc13e6edfe6fcf701eca5bcde1c5e4b302cc7a663295db70e88bc4708cccc"
+    },
+    {
+      "frame": 60,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "759d0fe02d90e84f99852d39076f8b21e67e15a6af16920d13d8a750036326b3"
+    },
+    {
+      "frame": 61,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "456d85a344dbfd9c2ca2c0ef20dfbb36334646b6f7ce55432d0e6d83ec76bf0c"
+    },
+    {
+      "frame": 62,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "a3da30ba03f3d8bae975fee6fb22e150ea28571be49179776e7a83219a69929d"
+    },
+    {
+      "frame": 63,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "573c85630979ca5511293ec77d87d2104a794e84f45d2785b4137d8f5e773016"
+    },
+    {
+      "frame": 64,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "512857e6e2e792e358c48137cd2edb4597a9e468858a3957f944edc76ce83d60"
+    },
+    {
+      "frame": 65,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "24aa6be546f241a9316234d71a8b02e3e591711fd98bbe9cb4bc035f4a141a40"
+    },
+    {
+      "frame": 66,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d93a43e624449dad0817b882a7dd900a94bc0e70345ee84f2703ff7ac517732d"
+    },
+    {
+      "frame": 67,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "3e3170064eab671b49bc2268395216ba401b8566917d2dfa23eb9d46b4c9ca37"
+    },
+    {
+      "frame": 68,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "2559e04c34131b5dac42e2914e0d7f2accf12928a31be505aa4c4d3367eb0a92",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          -4,
+          2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 69,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "b8a633a0736b2d6b673586d1b9d8501ddfa56d34b5ba302455765a57e1a61899"
+    },
+    {
+      "frame": 70,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "2371959735ebc19e8d2ad3e7c13cb0373cf89226f06c07017ad59a22041a58ac",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          0,
+          0
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 71,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "02be91bf57f99ae5c9d619917131e0afd74153aef735f1e2484118a8fbcb44a9"
+    },
+    {
+      "frame": 72,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c5431e208561c553a2434ff6b54b4917cbced372b6fd55a85767d8df91b839f2",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          -2,
+          1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 73,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "570522f6f2c678b09efdc3646953c4f1841d243fe896a81bc62954f6c35570f8"
+    },
+    {
+      "frame": 74,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "6eb7744792d1037a1bfa1afd78b0f55c9601e1f0ed82b2836b2b29ae4608bfd2"
+    },
+    {
+      "frame": 75,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "b8644948000f5e50af4f902f47b14c5c664dad8de6b1e3bee479d952bf84495e"
+    },
+    {
+      "frame": 76,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "94710f2d454a9dce212b40e8a7a6522344e122db1b498c7fbf5a8ecef415fb4b"
+    },
+    {
+      "frame": 77,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "bd451f760c0b7a50d7bcbe4e81bc7cd13421b77b828ade6e5b8effef2497f722",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          -3,
+          0
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 78,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d92a22a195c67ef1d7c50bf9b68df12043b1adf8ff29076dbed0122c61db566f"
+    },
+    {
+      "frame": 79,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "160032e86b5a9e9424f803447454db10ab05e630da2692e1ca4c48e6b72ba291",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          -2,
+          1
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 80,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "371aceed5624ac89ee4a9fb41cb7d6f5ee217f87fbfe153d4f50fba0af09193b",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          -2,
+          0
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 81,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "bcb99490e218a07b0aeb177bd1c049e3de095d3b8c9d79bc05dc765827be2ae1"
+    },
+    {
+      "frame": 82,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "8cfd9ccc9b32e8ef6f81607ad4d3d6908f0b6789cdb649393757afd56cffec7f"
+    },
+    {
+      "frame": 83,
+      "source": "art-source/characters-v2/brann/north-raw.png",
+      "source_sha256": "2f7e706a25b0370c4b0e0641f52a28ec01ebad5f6c9b94abc0e3622269889c91",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          132,
+          230
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -4,
+          0,
+          0,
+          2
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "6ce6f7132c3c326e47114991bf1015eecda1a15763072a96e736930c34831ba4",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 71,
+        "offset": [
+          -3,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 84,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "874f0d63cfc7b0e236287f53143b428406b4612b52bc6fa7f0de8984d03909da"
+    },
+    {
+      "frame": 85,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "05cd3273dda5ca6765cf768010b90a7222bf5500e68084f438e7c127706fa2cf"
+    },
+    {
+      "frame": 86,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "a832975b56982b665ba2fa218d704a21b33c10fa8b130c2d6b14077b2523c275"
+    },
+    {
+      "frame": 87,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "f9c4554e740379709ea9f824fd98272dba49340c16f3f066526ef5475483583e"
+    },
+    {
+      "frame": 88,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "921e452407a8bf81b521d1fb890f23d32a09bbaf3792d67779871d7ade83703d"
+    },
+    {
+      "frame": 89,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "d02b7dd9b16893eebacf39adeaefd003af68ed2efab51eacf4579942a05905e4"
+    },
+    {
+      "frame": 90,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "a07a5e6caf341df94bf418a70cf31d78b416713d070eed6563c3eb83a8eaab27"
+    },
+    {
+      "frame": 91,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "1fc2bea22c986b67c0559139cf4144f43f69d77eb1f7d59b982f060e36046a3e"
+    },
+    {
+      "frame": 92,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "3e02f8c514293535f0c6a608401f988bc746e1143019700cc294a12c07ba0c2a"
+    },
+    {
+      "frame": 93,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "a99f3fc640cff8281d81b50c7f136ca3e2c20433f5d4bd95816b30864eabfb4d"
+    },
+    {
+      "frame": 94,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "63d3c46e8bd31b5a0d5b86beaa744c9e2210e45a7505bb8d14d59abcd10ec3a0"
+    },
+    {
+      "frame": 95,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "82bf86b6b60be55e6d227cf004428a2cd8337f6a2010fa362fd45356fc73b0c3"
+    },
+    {
+      "frame": 96,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "52e4a7155e7899cdeff8a66cf0ae80622d777d3570b523e408447fd9ccd54818"
+    },
+    {
+      "frame": 97,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "494fa2bf26277127848833a07ded703a1ddcfd86a465821edd509f2607645cb2"
+    },
+    {
+      "frame": 98,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "81480b7fa91ec698df2a23284262a04811335a6b6a5eb0179ce5b9d734c4ba9c",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 93,
+        "offset": [
+          -4,
+          0
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 99,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "3b7b71c0c2c44ce25f52b1081c7e00914731cd4fdae429b73d4e87a377c55c80"
+    },
+    {
+      "frame": 100,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "d422a67e5b3a2dd5c37b98effb1c90597ce68b6f95d778266cbca05aa7f5e023",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 93,
+        "offset": [
+          0,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 101,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "e24711528035f112fed2e7ff2e9be591f81a792928317491d859d3c047405b84"
+    },
+    {
+      "frame": 102,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "b3a46149c79fe7195e3d6ec363a33304880a6922a1bd0117a0e598fdcb4988b9"
+    },
+    {
+      "frame": 103,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "aea0d06876bdde92ae32d90210d010493d29b47466c1f31db90d97ec94a6ecf8"
+    },
+    {
+      "frame": 104,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "acb6cc63815fe0edd700c6efe346e8ea7311b11dacfc62041740362d73f256bc",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 93,
+        "offset": [
+          0,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 105,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "c8ccd7c534d6a1fa2e75904a4bff8173ca527636cc6f60a4f0966b365b8626b9"
+    },
+    {
+      "frame": 106,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "ec36d85f1d5dce3cf8a68d308f019870157813cde6434c081a0155827fa17b2a"
+    },
+    {
+      "frame": 107,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "7fffe05333bdc7a55604b5faf6e69036ffe7d603911c0715513a6ce724094492",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 93,
+        "offset": [
+          -1,
+          -2
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 108,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "79da664dce2077e14c333f5405a33b28c12362a583eeebde2b6af036fdc0832e"
+    },
+    {
+      "frame": 109,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "d1a8a6271246dcbbee42a1e16335a7f00d2548c669b4cfa7c341b3dbe88b5c1c"
+    },
+    {
+      "frame": 110,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "21bc6436d54d1897526c8220debafd85f146abdaba3b9755e20f655cd49e8faa"
+    },
+    {
+      "frame": 111,
+      "source": "art-source/characters-v2/brann/east-raw.png",
+      "source_sha256": "1abdd4ab3b16065065dca446a1d91e00d4bc158712840324e76a0f3c23ac70d4",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "mirror": "east"
+      },
+      "mirror_offset_x": 1,
+      "rgba_sha256": "7811335cb0dc2ef81fa95d8718458b3e3a0bdd8b76c1f9242d7965fc78d1358a",
+      "post_edit": {
+        "plan": "art-source/tab-repair-v1/repair-plan.json",
+        "plan_sha256": "67891946b341521ab103d4b549c8346ad2476e32b383695e756731798fdf7a3a",
+        "donor": 93,
+        "offset": [
+          2,
+          -4
+        ],
+        "outside_mask_unchanged": true
+      }
+    },
+    {
+      "frame": 112,
+      "source": "art-source/characters-v2/brann/passing-raw.png",
+      "source_sha256": "97b094bc2643e392aeea0a59df4c70c9685572fd1f5920e8b7a221627c3abc79",
+      "source_cell": 1,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": false,
+      "mirror_offset_x": 0,
+      "protected_body_frame": 3,
+      "protected_body_rgba_sha256": "4894999ae9bb08e290f0732182955235ed164c78b9e5a611bf4765a2b976ce85",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "1f40f987b64361716ecb6a99b97517242e7d0847903f85344af42109912df20e"
+    },
+    {
+      "frame": 113,
+      "source": "art-source/characters-v2/brann/passing-raw.png",
+      "source_sha256": "97b094bc2643e392aeea0a59df4c70c9685572fd1f5920e8b7a221627c3abc79",
+      "source_cell": 0,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": false,
+      "mirror_offset_x": 0,
+      "protected_body_frame": 7,
+      "protected_body_rgba_sha256": "0f5cbf06c1bb5398a8222b92b57a1df7960fd242c31b84dc0c023af998c34afb",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "310d90523bb0ac99c089674d22cd9e06dcf608f0deeab3843d637900caabb5ab"
+    },
+    {
+      "frame": 114,
+      "source": "art-source/characters-v2/brann/passing-raw.png",
+      "source_sha256": "97b094bc2643e392aeea0a59df4c70c9685572fd1f5920e8b7a221627c3abc79",
+      "source_cell": 3,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": false,
+      "mirror_offset_x": 0,
+      "protected_body_frame": 59,
+      "protected_body_rgba_sha256": "ce1bc13e6edfe6fcf701eca5bcde1c5e4b302cc7a663295db70e88bc4708cccc",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "d7a7d6ad944e29b33e7df662bd1c92a192842611ba9cde9cb94e214cb1b3b6e8"
+    },
+    {
+      "frame": 115,
+      "source": "art-source/characters-v2/brann/passing-raw.png",
+      "source_sha256": "97b094bc2643e392aeea0a59df4c70c9685572fd1f5920e8b7a221627c3abc79",
+      "source_cell": 2,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": false,
+      "mirror_offset_x": 0,
+      "protected_body_frame": 63,
+      "protected_body_rgba_sha256": "573c85630979ca5511293ec77d87d2104a794e84f45d2785b4137d8f5e773016",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "1509e36798e1f35bd21fa8c54045715208aa8095189608ae62e2f34c971a2032"
+    },
+    {
+      "frame": 116,
+      "source": "art-source/attack-settle-v1/selected-candidate/brann/south.png",
+      "source_sha256": "22e44191322c483af96b0a92f3e832813e1a2844d651d42acd57f15727785c55",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "c21448a92c96b1475bac5d29f23bf6c628418e76b1ae4e51ddca488121108064"
+    },
+    {
+      "frame": 117,
+      "source": "art-source/attack-settle-v1/selected-candidate/brann/east.png",
+      "source_sha256": "d204f11bc27fb5e75c6c2c0ad6f5dc06ca40e14c3257176c148bbbf8e4dc6a01",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "6f9537cd91c701409ce5ae495caf6e1d1152a746fcaa5ff82e654f256d8a77d2"
+    },
+    {
+      "frame": 118,
+      "source": "art-source/attack-settle-v1/selected-candidate/brann/north.png",
+      "source_sha256": "de36aadc7cc3ed6da318d5ab1d75c0730f8673828b037cb4479ac328a3a0317e",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "f34b651fd03b0f5c61ae65c8aed92b38ed1cca51d7f08fbfb12d9ae9ef1d9f3d"
+    },
+    {
+      "frame": 119,
+      "source": "art-source/attack-settle-v1/selected-candidate/brann/west.png",
+      "source_sha256": "8f43599a76eee906db7aebf85d768b5542f008376681f5d1e389ca6e6d0d92ab",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "8f585824e6da1a727dc79b2b271ce105b5c7dabfc5687f022f2866b5cd1d059a"
+    },
+    {
+      "frame": 120,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 1,
+      "rgba_sha256": "06cba394d9f9a598b229f980c60cf7a511decde8c0fddb9d7889ce25eb0c8f4e",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-south-p1",
+        "donor_rgba_sha256": "b62ecfc825d4c12c6a8131a3a7b54ecb8e12af20f28ffd54ec63d87186f266b4",
+        "map_sha256": "3894fbe50f9b1c9bc64cd5be35cec219755294305b785f4192b0d501a0b853b7",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 121,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 2,
+      "rgba_sha256": "329dddfb245c84ec30cd6e85ee4b62d3c96ab62a06149413305299c05ca5456c",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-south-p2",
+        "donor_rgba_sha256": "82cdf4326daf3b6bf4314c034e6d2376c126b3814fb5e768fe611926a5156ff1",
+        "map_sha256": "136ac322db066f9d8ae5663829254f397db061b6aacf7a9a6ab8b90cb458e892",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 122,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 6,
+      "rgba_sha256": "9481f7667b55bb3d89297f308150e5683f775b2024ee82aad11eda621a465fb5",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-south-p5",
+        "donor_rgba_sha256": "b321ee9a3216caa2c9388234056c29f0e6342f0724ff53cca68830f1a55bd727",
+        "map_sha256": "76b008d78650bd2c85032aab50f2b13cc3c6e2543751e78a769ac134a9b7ea0c",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 123,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 7,
+      "rgba_sha256": "f17c0269f9d68e368dd2cd9d36debfd2658e170dedfad8551684dcebe6260448",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-south-p6",
+        "donor_rgba_sha256": "0f5cbf06c1bb5398a8222b92b57a1df7960fd242c31b84dc0c023af998c34afb",
+        "map_sha256": "d6348a5c5a999ddb51fac0b06ac9867e735724098d8aeeb1ca6311561b99c754",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 124,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 56,
+      "rgba_sha256": "464ca4d58f60d589bbd4b2d83be875d25c5bdfb14d75fd71304d8543b05996e0",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-north-p1",
+        "donor_rgba_sha256": "c1a5689291afea7d0b749039378f5c9a548384ce288b415daeb590a786fbed47",
+        "map_sha256": "e9127360e4ac5ddd9331c6dc2b3ba239f4431a42bbbb0765b4b0aa3b8058bce0",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 125,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 58,
+      "rgba_sha256": "72bba0ccd428a82fb93af6b30ceb3533747030d5de2a2b6bccb61896e45fe53f",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-north-p2",
+        "donor_rgba_sha256": "7e030d37de23cfac7641dc524b525d507cfb7e2281d14bc8a37bf5233f8c729a",
+        "map_sha256": "13cd487ce9ee3386aa113abed5ee794708eef7a7ea46205aef1fe22e51760f9d",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 126,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 62,
+      "rgba_sha256": "5a07bb84e2947f0429c05410d06f0e56f36f75e05ca2713a7278bd9d82a701ee",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-north-p5",
+        "donor_rgba_sha256": "a3da30ba03f3d8bae975fee6fb22e150ea28571be49179776e7a83219a69929d",
+        "map_sha256": "fdc0f0514df29b7ef4814dd02ea9ce85bddc735b117cb0577f86c033641f7e9d",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 127,
+      "source": "art-source/characters-v2/bake-v4/brann/atlas.png",
+      "source_sha256": "fb0c91a6f7945bb4b9fd12b169e3070c6e27bb608dc41a3502885f036eeae38e",
+      "source_cell": 63,
+      "rgba_sha256": "44b8a8f45d60197abe8972f301334f79f275ac2d3a1fc393b2168c62166b5960",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "brann-north-p6",
+        "donor_rgba_sha256": "573c85630979ca5511293ec77d87d2104a794e84f45d2785b4137d8f5e773016",
+        "map_sha256": "868292c4b868535baba370e9acb25f1e8a414d5b4ca059e487431dcf5239012c",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 128,
+      "source": "art-source/settle-trim-v1/candidate.png",
+      "source_sha256": "ff2156ca3f01a77667e3a6e54a343654a4f42826ac175a7a7547746474e67020",
+      "source_cell": 0,
+      "rgba_sha256": "5e171a61b3c43d3e005fd3ef29918f1bd184b0e34c984998aafb32180642c5bf",
+      "refinement": {
+        "source_frame": 116,
+        "source_rgba_sha256": "7b3596395ac94b77794d6079c89f5e7294e2ebe24143b583ac0b1d5ed97f008c",
+        "clips": [
+          "south_attack",
+          "south_dodge"
+        ],
+        "operation": "385 donor14 RGB texels inside literal chest mask; targetalpha/head/pose exact.",
+        "replay": "art-source/settle-trim-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/settle-trim-v1/plan.json",
+            "sha256": "b3bf9631c6d24bbdc78d4bdd1425530557a3bd17375ef35a5b13275ccf460a13"
+          },
+          {
+            "path": "art-source/settle-trim-v1/replay.py",
+            "sha256": "5ab4de82b5c4ef21cc8b6e2f70769e485aaf487e9b6623dd27768ccedaa895b5"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 129,
+      "source": "art-source/passing-boots-v1/candidate/brann/passing-112.png",
+      "source_sha256": "0cacb3d14360a6f4938130ad09cdc692e4e5d5491cf7e0f2def9cc3474da1b1d",
+      "source_cell": 0,
+      "rgba_sha256": "fdf370161368f43d26806a078f5e810502f212feeacdc4b534e9791bb57368ea",
+      "refinement": {
+        "source_frame": 112,
+        "source_rgba_sha256": "1f40f987b64361716ecb6a99b97517242e7d0847903f85344af42109912df20e",
+        "clips": [
+          "south_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 130,
+      "source": "art-source/passing-boots-v1/candidate/brann/passing-113.png",
+      "source_sha256": "d757114d9a7b718ee467d1563266a89b2a8172fba2d656fc29c3089a899aeeee",
+      "source_cell": 0,
+      "rgba_sha256": "4053f850446aa8c9ef51c72f81bce02aafecd2202b4e46cf9d18b60e17778e88",
+      "refinement": {
+        "source_frame": 113,
+        "source_rgba_sha256": "310d90523bb0ac99c089674d22cd9e06dcf608f0deeab3843d637900caabb5ab",
+        "clips": [
+          "south_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 131,
+      "source": "art-source/passing-boots-v1/candidate/brann/passing-114.png",
+      "source_sha256": "005e41a6d5da36de24708247864d9e859e2418674b62d1e5ed941871be2d8e19",
+      "source_cell": 0,
+      "rgba_sha256": "94356a45462ff40f83beb218aab5186ee154f36fa6c831e82df0699115538392",
+      "refinement": {
+        "source_frame": 114,
+        "source_rgba_sha256": "d7a7d6ad944e29b33e7df662bd1c92a192842611ba9cde9cb94e214cb1b3b6e8",
+        "clips": [
+          "north_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 132,
+      "source": "art-source/passing-boots-v1/candidate/brann/passing-115.png",
+      "source_sha256": "13b2ccf9db1575182453997e35641964ece9d7124b01ca45d77d1f358791a99a",
+      "source_cell": 0,
+      "rgba_sha256": "21cecdde408cf98f94325450f99a9b2468f01347f0ee0bd21192ce46a3590288",
+      "refinement": {
+        "source_frame": 115,
+        "source_rgba_sha256": "1509e36798e1f35bd21fa8c54045715208aa8095189608ae62e2f34c971a2032",
+        "clips": [
+          "north_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Four frozen cardinal banks plus two painted diagonal views; SW/NW conditionally mirrored around pivotX64 with+1px mirror correction.",
+    "Symmetric unarmed costume only; asymmetric accessories require new ownership/view paint.",
+    "No jump/flying or modular weapon artwork; feet collision and hand projection remain separate."
+  ],
+  "cast_hand_tracks": {
+    "south": [
+      [
+        87,
+        80
+      ],
+      [
+        69,
+        68
+      ],
+      [
+        69,
+        67
+      ],
+      [
+        101,
+        72
+      ],
+      [
+        101,
+        72
+      ],
+      [
+        88,
+        81
+      ]
+    ],
+    "east": [
+      [
+        85,
+        75
+      ],
+      [
+        82,
+        60
+      ],
+      [
+        90,
+        58
+      ],
+      [
+        96,
+        52
+      ],
+      [
+        83,
+        63
+      ],
+      [
+        85,
+        76
+      ]
+    ],
+    "north": [
+      [
+        86,
+        77
+      ],
+      [
+        84,
+        64
+      ],
+      [
+        84,
+        64
+      ],
+      [
+        96,
+        40
+      ],
+      [
+        84,
+        64
+      ],
+      [
+        87,
+        80
+      ]
+    ],
+    "west": [
+      [
+        42,
+        74
+      ],
+      [
+        44,
+        63
+      ],
+      [
+        35,
+        56
+      ],
+      [
+        32,
+        52
+      ],
+      [
+        46,
+        61
+      ],
+      [
+        45,
+        76
+      ]
+    ],
+    "southeast": [
+      [
+        84,
+        85
+      ],
+      [
+        79,
+        73
+      ],
+      [
+        80,
+        73
+      ],
+      [
+        99,
+        59
+      ],
+      [
+        89,
+        74
+      ],
+      [
+        84,
+        85
+      ]
+    ],
+    "northeast": [
+      [
+        83,
+        74
+      ],
+      [
+        82,
+        61
+      ],
+      [
+        82,
+        62
+      ],
+      [
+        100,
+        38
+      ],
+      [
+        87,
+        53
+      ],
+      [
+        83,
+        74
+      ]
+    ],
+    "southwest": [
+      [
+        44,
+        85
+      ],
+      [
+        49,
+        73
+      ],
+      [
+        48,
+        73
+      ],
+      [
+        29,
+        59
+      ],
+      [
+        39,
+        74
+      ],
+      [
+        44,
+        85
+      ]
+    ],
+    "northwest": [
+      [
+        45,
+        74
+      ],
+      [
+        46,
+        61
+      ],
+      [
+        46,
+        62
+      ],
+      [
+        28,
+        38
+      ],
+      [
+        41,
+        53
+      ],
+      [
+        45,
+        74
+      ]
+    ]
+  },
+  "directions": [
+    "south",
+    "southeast",
+    "east",
+    "northeast",
+    "north",
+    "northwest",
+    "west",
+    "southwest"
+  ],
+  "directional_source": "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json"
+}

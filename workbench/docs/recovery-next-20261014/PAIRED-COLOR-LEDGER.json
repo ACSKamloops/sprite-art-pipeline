@@ -1,0 +1,2842 @@
+{
+  "version": 1,
+  "authority": "Retained decoded response observations; no server implementation recovered",
+  "scope_roots": [
+    "/home/astra/projects/pixellab-local-test-20261011/runtime/probes",
+    "/home/astra/projects/pixellab-local-test-20261011/runtime/captures",
+    "/home/astra/projects/pixellab-local-test-20261011/depth-round2",
+    "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014"
+  ],
+  "excluded_name_substrings": [
+    "credential",
+    "cookie",
+    "token",
+    "secret",
+    "profile",
+    "auth",
+    "balance"
+  ],
+  "scanned_files": 1367,
+  "scanned_bytes": 44210463,
+  "inventory": {
+    "private_path": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/INVENTORY.json",
+    "sha256": "176fe8a276e6b8db657a7af3fd4889f238d24b1cec618aa029cde2659a3f3440"
+  },
+  "measurements": {
+    "private_path": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/MEASUREMENTS.json",
+    "sha256": "7357c782b31aca813d4d75dc6ce81d17f41049bd63cd71bce2b8ffa65f0943de"
+  },
+  "analysis_script": {
+    "path": "scripts/recovery_depth/analyze_paired_color.py",
+    "sha256": "d15c83350ffa93af5f778f9596a2b5728cb9e7bacbf9b41521a008cc16e330df"
+  },
+  "parse_or_decode_qualifications": [],
+  "pairs": [
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/024-response.json",
+      "file_sha256": "2b2038f1101376ea7050e4695774e4a398ebd37914ee13d08afd2484f4402366",
+      "pointer": "/last_response",
+      "first_key": "images",
+      "second_key": "quantized_images",
+      "job_id": "f341437a-3e98-4fba-b931-adcb18741ac8",
+      "status": "completed",
+      "metadata": {},
+      "reported_color_counts": {
+        "original_image_n_colors": 115,
+        "quantized_image_n_colors": 43
+      },
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/request.json",
+        "request_sha256": "493c23c9608d159c81a3579ab31332b9101ad0f7072e38d386d12db6d6c79d4d",
+        "request_endpoint": "/edit-animation-v2",
+        "request_body_fields": [
+          "description",
+          "frames",
+          "image_size",
+          "seed",
+          "no_background"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/001-response.json",
+        "acceptance_sha256": "6894f611d4f5aa098eb30899980973e3a0ec77170e42056048ed43e67f4b6054",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/024-response.json",
+          "file_sha256": "2b2038f1101376ea7050e4695774e4a398ebd37914ee13d08afd2484f4402366",
+          "pointer": "/last_response",
+          "job_id": "f341437a-3e98-4fba-b931-adcb18741ac8",
+          "status": "completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/network.har",
+          "file_sha256": "a5c1cb143376e12aa01b4893b8bda5f3bf8bdef949c8d4ca1a28f032dce91726",
+          "pointer": "/log/entries/24/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-00",
+      "RGB_pairs_sha256": "a08cd78ba6c10b485fef8de96123d26a81b44e899faecaabf1f39a84d7181055",
+      "sequence": {
+        "frame_count": 4,
+        "union_main_visible_RGB_colors": 43,
+        "union_processed_visible_RGB_colors": 43,
+        "shared_main_RGB_across_frames": 43,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/images/0",
+          "processed_pointer": "/last_response/quantized_images/0",
+          "main_png_sha256": "af26d8ce6ee317903b6df6cb9c42e3c57e01727396871dd7f8f1b2af98471c8d",
+          "processed_png_sha256": "af26d8ce6ee317903b6df6cb9c42e3c57e01727396871dd7f8f1b2af98471c8d",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19185,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19185
+            },
+            "processed": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19185
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 43,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000748,
+                  1.4900072915635875e-13,
+                  1.2902731853018427e-13
+                ],
+                [
+                  4.9817745695075035e-15,
+                  0.9999999999998178,
+                  -3.069766663088558e-13
+                ],
+                [
+                  -3.1104338210446333e-15,
+                  -1.2212453270876722e-15,
+                  1.0000000000001883
+                ],
+                [
+                  2.662952079282097e-13,
+                  9.015965057868058e-14,
+                  1.3235614861051292e-13
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.0817633874688943e-11,
+                3.590621520571745e-12,
+                5.303840401777251e-12
+              ],
+              "max_abs_channel_residual": 2.4314772417710628e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "main_pointer": "/last_response/images/1",
+          "processed_pointer": "/last_response/quantized_images/1",
+          "main_png_sha256": "da5900ca731cd8cbb47398013f9d0d7c1e59cb71f949b54f5db81020f9c0278f",
+          "processed_png_sha256": "da5900ca731cd8cbb47398013f9d0d7c1e59cb71f949b54f5db81020f9c0278f",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19143,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19143
+            },
+            "processed": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19143
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 43,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000001077,
+                  5.943393655097783e-14,
+                  9.027881454412667e-14
+                ],
+                [
+                  8.106937882794581e-15,
+                  0.9999999999999272,
+                  -2.1671553440683056e-13
+                ],
+                [
+                  -5.145653656908265e-15,
+                  -7.771561172376096e-16,
+                  1.0000000000001334
+                ],
+                [
+                  3.9440114997966427e-13,
+                  3.581857033196911e-14,
+                  9.505482338745264e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.553147608543058e-11,
+                1.4327868561162787e-12,
+                3.741740171244696e-12
+              ],
+              "max_abs_channel_residual": 2.8421709430404007e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "main_pointer": "/last_response/images/2",
+          "processed_pointer": "/last_response/quantized_images/2",
+          "main_png_sha256": "1cf4fe7b77f99765db820f8e991aa3b1a73f31d5715303c5be7157f0344cab0d",
+          "processed_png_sha256": "1cf4fe7b77f99765db820f8e991aa3b1a73f31d5715303c5be7157f0344cab0d",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19119,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19119
+            },
+            "processed": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19119
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 43,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000469,
+                  5.589488010475343e-14,
+                  5.692304679564354e-14
+                ],
+                [
+                  3.2621750382260654e-15,
+                  0.9999999999999322,
+                  -1.340039190722564e-13
+                ],
+                [
+                  -2.2402696770043998e-15,
+                  -7.771561172376096e-16,
+                  1.000000000000082
+                ],
+                [
+                  1.6408827929327783e-13,
+                  3.257637215536846e-14,
+                  5.558726222376631e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                6.666265003425181e-12,
+                1.3343350580042798e-12,
+                2.2556636416386267e-12
+              ],
+              "max_abs_channel_residual": 1.2306600183364935e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "main_pointer": "/last_response/images/3",
+          "processed_pointer": "/last_response/quantized_images/3",
+          "main_png_sha256": "fe712efbda9fef42bed1c873f19795efc5839d99b8c89249b2e514bf25bd680e",
+          "processed_png_sha256": "fe712efbda9fef42bed1c873f19795efc5839d99b8c89249b2e514bf25bd680e",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19044,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19044
+            },
+            "processed": {
+              "rgba_colors_all": 44,
+              "rgb_colors_alpha_positive": 43,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19044
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 43,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000355,
+                  1.828967868883251e-13,
+                  1.0464079353253967e-13
+                ],
+                [
+                  2.4519713485224206e-15,
+                  0.9999999999997744,
+                  -2.4935609133081016e-13
+                ],
+                [
+                  -1.4799306946765665e-15,
+                  -1.4432899320127035e-15,
+                  1.0000000000001528
+                ],
+                [
+                  1.2661985790069678e-13,
+                  1.0891808288615579e-13,
+                  4.554755010655054e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                5.040410954743738e-12,
+                4.4510924471763596e-12,
+                4.256986917364813e-12
+              ],
+              "max_abs_channel_residual": 2.7689850412571104e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-connected-terrain/019-response.json",
+      "file_sha256": "e51f1d429b26e400c3f9d61bd79c45554542ace240409372c4ae3d5794759812",
+      "pointer": "/last_response",
+      "first_key": "image",
+      "second_key": "quantized_image",
+      "job_id": "e120864b-5783-46e1-8a67-785485dc9aee",
+      "status": "processing",
+      "metadata": {
+        "frame_index": 0
+      },
+      "reported_color_counts": {
+        "original_image_n_colors": 201,
+        "quantized_image_n_colors": 20
+      },
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-connected-terrain/request.json",
+        "request_sha256": "292b598bdbfd8220e92376ef4e6f671a8d1f1c3bd0db04a06ea954d886dde6e4",
+        "request_endpoint": "/create-tileset",
+        "request_body_fields": [
+          "lower_description",
+          "upper_description",
+          "transition_description",
+          "tile_size",
+          "mode",
+          "transition_size",
+          "view",
+          "outline",
+          "shading",
+          "detail",
+          "seed"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-connected-terrain/001-response.json",
+        "acceptance_sha256": "944b35a2567d2f3680cd27daabb354941f83bcda9aff658e5aace05e471090da",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-connected-terrain/019-response.json",
+          "file_sha256": "e51f1d429b26e400c3f9d61bd79c45554542ace240409372c4ae3d5794759812",
+          "pointer": "/last_response",
+          "job_id": "e120864b-5783-46e1-8a67-785485dc9aee",
+          "status": "processing"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-connected-terrain/network.har",
+          "file_sha256": "9dafd75762777cf41840f550af2aae33e84f0b1aee52fc01152e0b0f39a87cc8",
+          "pointer": "/log/entries/19/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-01",
+      "RGB_pairs_sha256": "f9c7191c71a5e0ea0d2706cce363c3cfa1665af4f866e2ca6919246d6ff8fc7f",
+      "sequence": {
+        "frame_count": 1,
+        "union_main_visible_RGB_colors": 20,
+        "union_processed_visible_RGB_colors": 20,
+        "shared_main_RGB_across_frames": 0,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/image",
+          "processed_pointer": "/last_response/quantized_image",
+          "main_png_sha256": "a038f46b21af47fcf517ff87d26f8ea6eaec252c5c53f622b3f4c50c7582cbf4",
+          "processed_png_sha256": "a038f46b21af47fcf517ff87d26f8ea6eaec252c5c53f622b3f4c50c7582cbf4",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 65536,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 20,
+              "rgb_colors_alpha_positive": 20,
+              "alpha_values": [
+                255
+              ],
+              "visible_pixels": 65536
+            },
+            "processed": {
+              "rgba_colors_all": 20,
+              "rgb_colors_alpha_positive": 20,
+              "alpha_values": [
+                255
+              ],
+              "visible_pixels": 65536
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 20,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.000000000000155,
+                  -4.421330702917851e-14,
+                  -3.764845590305522e-13
+                ],
+                [
+                  3.0796800815337377e-16,
+                  1.0000000000000393,
+                  3.6110003875933216e-14
+                ],
+                [
+                  -9.69407656815623e-15,
+                  2.581268532253489e-15,
+                  1.0000000000012752
+                ],
+                [
+                  -2.6954730546998236e-14,
+                  8.760353553682876e-16,
+                  3.2431739585558894e-15
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.1606267429235739e-11,
+                5.817287184865827e-12,
+                3.014656277216141e-12
+              ],
+              "max_abs_channel_residual": 3.771560841414612e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/018-response.json",
+      "file_sha256": "dfb2338c7b19450ce16b4b3236df583a6b8e70a9041c841bf64b5e02925a27f5",
+      "pointer": "/last_response",
+      "first_key": "images",
+      "second_key": "quantized_images",
+      "job_id": "21781114-a224-40ea-bc62-daead045eb3e",
+      "status": "completed",
+      "metadata": {},
+      "reported_color_counts": {
+        "original_image_n_colors": 287,
+        "quantized_image_n_colors": 51
+      },
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/request.json",
+        "request_sha256": "c58cb27ba9776f4f818492935f7dc256ccf8bb5f9fa88c83372a1a9e9219dafd",
+        "request_endpoint": "/generate-ui-v2",
+        "request_body_fields": [
+          "description",
+          "image_size",
+          "seed",
+          "no_background",
+          "color_palette"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/001-response.json",
+        "acceptance_sha256": "44d2d8f27567e5adeec1d31a28b437d148ebef84d188f4d7876f5dfbe79fa1b1",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/018-response.json",
+          "file_sha256": "dfb2338c7b19450ce16b4b3236df583a6b8e70a9041c841bf64b5e02925a27f5",
+          "pointer": "/last_response",
+          "job_id": "21781114-a224-40ea-bc62-daead045eb3e",
+          "status": "completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/network.har",
+          "file_sha256": "4af2d8f23b04547b3392d0b1f4c52d1356ef357117bbf9f654b8b0d3e2721f79",
+          "pointer": "/log/entries/18/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-02",
+      "RGB_pairs_sha256": "58b44bd20a5f3cb99d6edfc1118d2b638efe69c8724c99e401641230059d0acc",
+      "sequence": {
+        "frame_count": 4,
+        "union_main_visible_RGB_colors": 51,
+        "union_processed_visible_RGB_colors": 51,
+        "shared_main_RGB_across_frames": 31,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/images/0",
+          "processed_pointer": "/last_response/quantized_images/0",
+          "main_png_sha256": "3095f5b355b9af46664a6208635ae8ca1478f455cccaed47b70f82499c837014",
+          "processed_png_sha256": "3095f5b355b9af46664a6208635ae8ca1478f455cccaed47b70f82499c837014",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              64
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 4804,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 25,
+              "rgb_colors_alpha_positive": 24,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 4804
+            },
+            "processed": {
+              "rgba_colors_all": 25,
+              "rgb_colors_alpha_positive": 24,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 4804
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 24,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000253,
+                  -6.640015692737197e-14,
+                  2.2470977797156387e-15
+                ],
+                [
+                  6.525527179088536e-15,
+                  1.0000000000000913,
+                  -8.981704269217516e-14
+                ],
+                [
+                  -1.4543358800469816e-14,
+                  4.6629367034256575e-15,
+                  1.0000000000001277
+                ],
+                [
+                  3.5073038844761095e-13,
+                  -1.1051402848405445e-13,
+                  1.6880290568122014e-13
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                2.6978994988154662e-12,
+                8.803370022810453e-13,
+                1.3474555389228696e-12
+              ],
+              "max_abs_channel_residual": 5.9117155615240335e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "main_pointer": "/last_response/images/1",
+          "processed_pointer": "/last_response/quantized_images/1",
+          "main_png_sha256": "9f7037e8639a96dd24792cf1ccc08543642427b0c34e4efba5f6fb68af935052",
+          "processed_png_sha256": "9f7037e8639a96dd24792cf1ccc08543642427b0c34e4efba5f6fb68af935052",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              64
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 4879,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 34,
+              "rgb_colors_alpha_positive": 33,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 4879
+            },
+            "processed": {
+              "rgba_colors_all": 34,
+              "rgb_colors_alpha_positive": 33,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 4879
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 33,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.000000000000085,
+                  1.333840599490558e-14,
+                  9.0290748273207e-15
+                ],
+                [
+                  -2.657467859073781e-14,
+                  0.9999999999999815,
+                  -4.0190073491430667e-14
+                ],
+                [
+                  1.1742341887849466e-14,
+                  4.440892098500626e-16,
+                  1.0000000000000377
+                ],
+                [
+                  -2.1990234826770954e-13,
+                  -6.6231742312794495e-15,
+                  -1.2456615600120458e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                6.595531648706185e-12,
+                2.279599338525456e-13,
+                3.578768087659958e-13
+              ],
+              "max_abs_channel_residual": 1.750777300912887e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "main_pointer": "/last_response/images/2",
+          "processed_pointer": "/last_response/quantized_images/2",
+          "main_png_sha256": "d2da19a13aefa0753de04a4de96f714f82d385971532f54b8a24b19e5131fb2c",
+          "processed_png_sha256": "d2da19a13aefa0753de04a4de96f714f82d385971532f54b8a24b19e5131fb2c",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              64
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 4898,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 25,
+              "rgb_colors_alpha_positive": 24,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 4898
+            },
+            "processed": {
+              "rgba_colors_all": 25,
+              "rgb_colors_alpha_positive": 24,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 4898
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 24,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.000000000000036,
+                  5.782013276123525e-14,
+                  1.68003355000832e-14
+                ],
+                [
+                  1.2041432184129019e-15,
+                  0.9999999999999232,
+                  -6.716849298982197e-14
+                ],
+                [
+                  -1.397645646633277e-15,
+                  2.220446049250313e-16,
+                  1.0000000000000613
+                ],
+                [
+                  1.5128393545838705e-13,
+                  3.62609248183432e-14,
+                  1.9791893818288386e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                3.9550548590807065e-12,
+                9.704007787680836e-13,
+                5.226806301713499e-13
+              ],
+              "max_abs_channel_residual": 9.038103598868474e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "main_pointer": "/last_response/images/3",
+          "processed_pointer": "/last_response/quantized_images/3",
+          "main_png_sha256": "97dde7843e76a14644455333e6b36844d6680096cb146f567dbefcacad23255d",
+          "processed_png_sha256": "97dde7843e76a14644455333e6b36844d6680096cb146f567dbefcacad23255d",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              64
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 6336,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 26,
+              "rgb_colors_alpha_positive": 25,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 6336
+            },
+            "processed": {
+              "rgba_colors_all": 26,
+              "rgb_colors_alpha_positive": 25,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 6336
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 25,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000382,
+                  -1.0902042023436492e-13,
+                  6.244524070386092e-15
+                ],
+                [
+                  1.908994725702602e-14,
+                  1.0000000000001483,
+                  -3.497202527569243e-14
+                ],
+                [
+                  -2.8206060763597635e-14,
+                  6.661338147750939e-15,
+                  1.0000000000000344
+                ],
+                [
+                  5.587698896503008e-13,
+                  -1.4963377759080743e-13,
+                  3.7415383291605764e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                3.5656507039025936e-12,
+                1.2162535953217862e-12,
+                3.120334538869372e-13
+              ],
+              "max_abs_channel_residual": 1.0118128557223827e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/025-response.json",
+      "file_sha256": "bf2c07085117dbe5d825489dba83db1bbdd9bf665dd7daa65f5736242b365242",
+      "pointer": "/last_response",
+      "first_key": "images",
+      "second_key": "quantized_images",
+      "job_id": "40af9f0b-b567-4b3a-8442-41c2d00cac53",
+      "status": "completed",
+      "metadata": {},
+      "reported_color_counts": {
+        "original_image_n_colors": 112,
+        "quantized_image_n_colors": 51
+      },
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/request.json",
+        "request_sha256": "534f4551b8994f35fcfbe9e1efd46e0279c5c2cb51e6790b7d1ba8a743a1d162",
+        "request_endpoint": "/interpolation-v2",
+        "request_body_fields": [
+          "start_image",
+          "end_image",
+          "action",
+          "image_size",
+          "seed",
+          "no_background"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/001-response.json",
+        "acceptance_sha256": "1052a4df995ee6c8fc7f7b3a2f2bbc96550be7db12322fdd96ffb5441ffdfb6d",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/024-response.json",
+          "file_sha256": "2745180995132e935b7028adae339843d0f798d0071865a2b122511e7ff8cfa2",
+          "pointer": "/last_response",
+          "job_id": "40af9f0b-b567-4b3a-8442-41c2d00cac53",
+          "status": "processing"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/025-response.json",
+          "file_sha256": "bf2c07085117dbe5d825489dba83db1bbdd9bf665dd7daa65f5736242b365242",
+          "pointer": "/last_response",
+          "job_id": "40af9f0b-b567-4b3a-8442-41c2d00cac53",
+          "status": "completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/network.har",
+          "file_sha256": "13712dec50b47ed05f99eaae4780b5ed726ebe057f4bbf44f1321bdd3416d902",
+          "pointer": "/log/entries/24/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/network.har",
+          "file_sha256": "13712dec50b47ed05f99eaae4780b5ed726ebe057f4bbf44f1321bdd3416d902",
+          "pointer": "/log/entries/25/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-03",
+      "RGB_pairs_sha256": "23a13592b7cdfcf40aca5b8410513dfda530c2ab62c2e53948c8b76d4cf713bc",
+      "sequence": {
+        "frame_count": 2,
+        "union_main_visible_RGB_colors": 51,
+        "union_processed_visible_RGB_colors": 51,
+        "shared_main_RGB_across_frames": 42,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/images/0",
+          "processed_pointer": "/last_response/quantized_images/0",
+          "main_png_sha256": "a63235891cf2bd7e6353820bda57a5190d2f6ffca59544024904940871eaf071",
+          "processed_png_sha256": "a63235891cf2bd7e6353820bda57a5190d2f6ffca59544024904940871eaf071",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 20111,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 48,
+              "rgb_colors_alpha_positive": 47,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 20111
+            },
+            "processed": {
+              "rgba_colors_all": 48,
+              "rgb_colors_alpha_positive": 47,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 20111
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 47,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.00000000000005,
+                  3.2139304176543866e-14,
+                  5.767573150493639e-15
+                ],
+                [
+                  1.1643613708800223e-15,
+                  0.9999999999999474,
+                  1.0125233984581428e-13
+                ],
+                [
+                  -1.5909873448476646e-15,
+                  -4.440892098500626e-16,
+                  0.9999999999998574
+                ],
+                [
+                  1.8476440724114507e-13,
+                  5.811844061565097e-14,
+                  -6.325148738106634e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                8.21374818137577e-12,
+                2.8076025937751563e-12,
+                3.0287619670329797e-12
+              ],
+              "max_abs_channel_residual": 1.2732925824820995e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "main_pointer": "/last_response/images/1",
+          "processed_pointer": "/last_response/quantized_images/1",
+          "main_png_sha256": "d442a33c0aaa5e41377737a963adf5e3db7c563f74432e5cc34a49d36eb3307b",
+          "processed_png_sha256": "d442a33c0aaa5e41377737a963adf5e3db7c563f74432e5cc34a49d36eb3307b",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19310,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 47,
+              "rgb_colors_alpha_positive": 46,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19310
+            },
+            "processed": {
+              "rgba_colors_all": 47,
+              "rgb_colors_alpha_positive": 46,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19310
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 46,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9999999999999268,
+                  -2.7701526726078174e-14,
+                  -7.648929021379795e-15
+                ],
+                [
+                  -1.3734900401109761e-15,
+                  1.0000000000000464,
+                  -1.5265566588595902e-13
+                ],
+                [
+                  1.6370739227221946e-15,
+                  0.0,
+                  1.0000000000002167
+                ],
+                [
+                  -2.182906389537377e-13,
+                  -4.513230067448859e-14,
+                  -7.706509042026966e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.1777418399961663e-11,
+                2.391098515965343e-12,
+                4.509692820798812e-12
+              ],
+              "max_abs_channel_residual": 1.8616219676914625e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/025-response.json",
+      "file_sha256": "43bdfdf6317887b52dcca4a455f85737fb7879de4b2cd4170c5e03f092dc4708",
+      "pointer": "/last_response",
+      "first_key": "images",
+      "second_key": "quantized_images",
+      "job_id": "57af1dff-7e2a-45ea-b769-1da6e1780679",
+      "status": "completed",
+      "metadata": {},
+      "reported_color_counts": {
+        "original_image_n_colors": 113,
+        "quantized_image_n_colors": 52
+      },
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/request.json",
+        "request_sha256": "b991406801048f11c57eb16def7a7861fe3a815fdc2de949b999f5c6dafcfd9f",
+        "request_endpoint": "/transfer-outfit-v2",
+        "request_body_fields": [
+          "reference_image",
+          "frames",
+          "image_size",
+          "seed",
+          "no_background",
+          "additional_instructions"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/001-response.json",
+        "acceptance_sha256": "60c51a0a989f8c1d32f5a2d88157a9388af1bc800bd94270ed8c7a82e25ddda5",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/024-response.json",
+          "file_sha256": "4c87674d8821a623ced78cd0a5b92ac551ccfd320fbea1163e28a8ec9fa81560",
+          "pointer": "/last_response",
+          "job_id": "57af1dff-7e2a-45ea-b769-1da6e1780679",
+          "status": "processing"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/025-response.json",
+          "file_sha256": "43bdfdf6317887b52dcca4a455f85737fb7879de4b2cd4170c5e03f092dc4708",
+          "pointer": "/last_response",
+          "job_id": "57af1dff-7e2a-45ea-b769-1da6e1780679",
+          "status": "completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/network.har",
+          "file_sha256": "9af55e7ae257a9319f65bb73d743729f1200af22a27e718e909712ffcd2192cd",
+          "pointer": "/log/entries/24/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/outfit-transfer-pro-corrected/network.har",
+          "file_sha256": "9af55e7ae257a9319f65bb73d743729f1200af22a27e718e909712ffcd2192cd",
+          "pointer": "/log/entries/25/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-04",
+      "RGB_pairs_sha256": "010b703be0a1697cc244be128ad38a7ef05234895190f096cc83d820975a658d",
+      "sequence": {
+        "frame_count": 3,
+        "union_main_visible_RGB_colors": 52,
+        "union_processed_visible_RGB_colors": 52,
+        "shared_main_RGB_across_frames": 52,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/images/0",
+          "processed_pointer": "/last_response/quantized_images/0",
+          "main_png_sha256": "e8f2e9f87524e34c352a22aeaf6bead80ab70db879c420144ca37bc7e1bb2727",
+          "processed_png_sha256": "e8f2e9f87524e34c352a22aeaf6bead80ab70db879c420144ca37bc7e1bb2727",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19175,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 53,
+              "rgb_colors_alpha_positive": 52,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19175
+            },
+            "processed": {
+              "rgba_colors_all": 53,
+              "rgb_colors_alpha_positive": 52,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19175
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 52,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9999999999999598,
+                  -6.530522835083915e-15,
+                  -4.434305628760683e-16
+                ],
+                [
+                  -9.798824213629262e-16,
+                  1.0000000000000102,
+                  7.771561172376096e-16
+                ],
+                [
+                  1.02562042055893e-15,
+                  4.440892098500626e-16,
+                  0.9999999999999994
+                ],
+                [
+                  -1.4689347396236862e-13,
+                  -1.2545520178264269e-14,
+                  -3.7686867515596134e-16
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                6.685188557034449e-12,
+                5.869455558375727e-13,
+                4.718806945299024e-14
+              ],
+              "max_abs_channel_residual": 1.028865881380625e-11,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "main_pointer": "/last_response/images/1",
+          "processed_pointer": "/last_response/quantized_images/1",
+          "main_png_sha256": "86f164b53a85a7fd097a356e383ed528a3a5033fd453a76984c12cfbb0912cc2",
+          "processed_png_sha256": "86f164b53a85a7fd097a356e383ed528a3a5033fd453a76984c12cfbb0912cc2",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19160,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 53,
+              "rgb_colors_alpha_positive": 52,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19160
+            },
+            "processed": {
+              "rgba_colors_all": 53,
+              "rgb_colors_alpha_positive": 52,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19160
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 52,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9999999999999789,
+                  2.86162205770067e-14,
+                  -1.4106587608383583e-15
+                ],
+                [
+                  -1.449542171826634e-16,
+                  0.9999999999999514,
+                  -2.7533531010703882e-14
+                ],
+                [
+                  7.680890541080192e-16,
+                  -7.771561172376096e-16,
+                  1.0000000000000395
+                ],
+                [
+                  -7.576333367912415e-14,
+                  6.218896925203055e-14,
+                  -1.8541591872978103e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                3.4653600141426003e-12,
+                2.7408093561244533e-12,
+                8.701209853555623e-13
+              ],
+              "max_abs_channel_residual": 5.325517804521951e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "main_pointer": "/last_response/images/2",
+          "processed_pointer": "/last_response/quantized_images/2",
+          "main_png_sha256": "46bc413b7945476aad369e8067002a5d97608df69eb33c740a094514bc5d998b",
+          "processed_png_sha256": "46bc413b7945476aad369e8067002a5d97608df69eb33c740a094514bc5d998b",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              256,
+              256
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 19126,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 53,
+              "rgb_colors_alpha_positive": 52,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19126
+            },
+            "processed": {
+              "rgba_colors_all": 53,
+              "rgb_colors_alpha_positive": 52,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 19126
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 52,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9999999999999893,
+                  -2.7068499610207457e-14,
+                  -1.01001864217192e-15
+                ],
+                [
+                  -1.450692421129733e-16,
+                  1.0000000000000466,
+                  -1.6431300764452317e-14
+                ],
+                [
+                  1.7932981941313453e-16,
+                  5.551115123125783e-16,
+                  1.0000000000000233
+                ],
+                [
+                  -3.499429489925691e-14,
+                  -5.4908334823355887e-14,
+                  1.1540247923935709e-14
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.7603481003857489e-12,
+                2.6308295633987707e-12,
+                5.144510027300244e-13
+              ],
+              "max_abs_channel_residual": 5.023537141823908e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-pixelart-pro-flash/006-response.json",
+      "file_sha256": "96763a25992ac684a5e515e83c245696b9d832e33e5b4ea4c177c4dc5999cbcf",
+      "pointer": "/last_response",
+      "first_key": "original_images",
+      "second_key": "images",
+      "job_id": "c3eb97a7-12d8-40f8-b94c-208a7ef1530c",
+      "status": "completed",
+      "metadata": {},
+      "reported_color_counts": {},
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-pixelart-pro-flash/request.json",
+        "request_sha256": "fec451a4c3043f775a2bd2b61d51bc517ab4506e603b4e7847c86b4b96cf9ffe",
+        "request_endpoint": "/image-to-pixelart-pro-flash",
+        "request_body_fields": [
+          "image",
+          "description",
+          "seed"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-pixelart-pro-flash/001-response.json",
+        "acceptance_sha256": "401c8246a1c017782e42bdc73be3f882a258210d58928c762bf014b759b6b84b",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-pixelart-pro-flash/006-response.json",
+          "file_sha256": "96763a25992ac684a5e515e83c245696b9d832e33e5b4ea4c177c4dc5999cbcf",
+          "pointer": "/last_response",
+          "job_id": "c3eb97a7-12d8-40f8-b94c-208a7ef1530c",
+          "status": "completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-pixelart-pro-flash/network.har",
+          "file_sha256": "180ad7469e3d7c7ae6338962d2a448bcfa5b631a4c2830e09738b619d9f2cec4",
+          "pointer": "/log/entries/6/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-05",
+      "RGB_pairs_sha256": "d88a1592c483a90aa3526cd8d625ff61837de330ca5158e867226cf1dc5bfc85",
+      "sequence": {
+        "frame_count": 1,
+        "union_main_visible_RGB_colors": 127,
+        "union_processed_visible_RGB_colors": 29,
+        "shared_main_RGB_across_frames": 0,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/original_images/0",
+          "processed_pointer": "/last_response/images/0",
+          "main_png_sha256": "e3ea99fed3b76e360df34165a14893c86b8c9427acaafd8ff30a30ba07a3bed7",
+          "processed_png_sha256": "6eb7118ba0070274e8ea2ae572d447d8ca4142abe6a68c1996ad67e362121fe0",
+          "PNG_bytes_exact": false,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              126,
+              124
+            ],
+            "rgba_exact": false,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 3945,
+            "co_visible_pixels": 15624,
+            "RGB_mismatches_co_visible": 3945,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 127,
+              "rgb_colors_alpha_positive": 127,
+              "alpha_values": [
+                255
+              ],
+              "visible_pixels": 15624
+            },
+            "processed": {
+              "rgba_colors_all": 29,
+              "rgb_colors_alpha_positive": 29,
+              "alpha_values": [
+                255
+              ],
+              "visible_pixels": 15624
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 127,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 81,
+            "sRGB_nearest_observed_output_palette_mismatches": 50,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9941101610558767,
+                  0.003144684262434678,
+                  -0.0014462752546332207
+                ],
+                [
+                  0.0016509170627184728,
+                  0.9934722216179737,
+                  0.015191257155906523
+                ],
+                [
+                  0.002170126187610034,
+                  0.0031963516304609474,
+                  0.9847886741510117
+                ],
+                [
+                  0.4782445145349124,
+                  -0.013446394519892253,
+                  0.23191025528004056
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                3.996361444544078,
+                3.5815197576969333,
+                4.3395748925570805
+              ],
+              "max_abs_channel_residual": 50.43143160892135,
+              "rounded_clipped_exact_fraction": 0.7447516641065028,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/002-response.json",
+      "file_sha256": "99485f40e1f6325cbc68df4c6ca736535995b2d2af5df294c01aa6c723940631",
+      "pointer": "/last_response",
+      "first_key": "images",
+      "second_key": "quantized_images",
+      "job_id": "5e9217e9-ec70-4e9b-a18d-797f049fdc04",
+      "status": "completed",
+      "metadata": {
+        "generation_model": "template",
+        "frame_count": 6,
+        "number_of_frames": 1
+      },
+      "reported_color_counts": {
+        "original_image_n_colors": 285,
+        "quantized_image_n_colors": 77
+      },
+      "job_binding": {
+        "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/request.json",
+        "request_sha256": "db1ef0bfda16da5f60e576049c04066264004e6f736d8551a4a5d6a00ea22aef",
+        "request_endpoint": "/characters/animations",
+        "request_body_fields": [
+          "character_id",
+          "animation_name",
+          "mode",
+          "template_animation_id",
+          "directions",
+          "seed",
+          "text_guidance_scale"
+        ],
+        "drift_threshold_explicit": false,
+        "acceptance_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/001-response.json",
+        "acceptance_sha256": "76d5a4d5b9036ea0022640c3a9ecb2fa22c2c46bf94c485bea9e495ed26790ab",
+        "job_id_matches_acceptance": true
+      },
+      "retained_same_arrays_snapshots": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/002-response.json",
+          "file_sha256": "99485f40e1f6325cbc68df4c6ca736535995b2d2af5df294c01aa6c723940631",
+          "pointer": "/last_response",
+          "job_id": "5e9217e9-ec70-4e9b-a18d-797f049fdc04",
+          "status": "completed"
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/network.har",
+          "file_sha256": "573fb4366f003f75019be1b70b5527668d6ad7c6175c8146866b3e987381c109",
+          "pointer": "/log/entries/2/response/content/text::<JSON>/last_response",
+          "job_id": null,
+          "status": null
+        }
+      ],
+      "private_extraction": "/home/astra/artifacts/pixellab-paired-color-recovery-20261014/source-pinned-v3/pair-06",
+      "RGB_pairs_sha256": "e23237a927878bc355744efeaef003813c0fab24427b42556ed05a2d81f31268",
+      "sequence": {
+        "frame_count": 6,
+        "union_main_visible_RGB_colors": 77,
+        "union_processed_visible_RGB_colors": 77,
+        "shared_main_RGB_across_frames": 77,
+        "shared_main_RGB_with_differing_processed_RGB_across_frames": 0,
+        "boundary": "Index pairing is declared-array order and co-location, not a proved internal processing stage, native source timeline or foreground correspondence across moving frames."
+      },
+      "frames": [
+        {
+          "index": 0,
+          "main_pointer": "/last_response/images/0",
+          "processed_pointer": "/last_response/quantized_images/0",
+          "main_png_sha256": "8abcb08a5ddf0e6cf49df967ac7c5aca6e6d47486170c5507b4643354b7332ef",
+          "processed_png_sha256": "8abcb08a5ddf0e6cf49df967ac7c5aca6e6d47486170c5507b4643354b7332ef",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              128
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 3973,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 78,
+              "rgb_colors_alpha_positive": 77,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 3973
+            },
+            "processed": {
+              "rgba_colors_all": 78,
+              "rgb_colors_alpha_positive": 77,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 3973
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 77,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9999999999999898,
+                  -2.415883180469854e-15,
+                  4.3140771079818826e-16
+                ],
+                [
+                  -2.2889343556352376e-15,
+                  1.0000000000000038,
+                  1.2656542480726785e-14
+                ],
+                [
+                  2.0748193913132493e-15,
+                  -1.1102230246251565e-16,
+                  0.9999999999999822
+                ],
+                [
+                  -2.3676449020852815e-15,
+                  7.684824998577255e-16,
+                  8.799384831892354e-16
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.782028996415495e-12,
+                2.1211256778927895e-13,
+                4.205136704740148e-13
+              ],
+              "max_abs_channel_residual": 2.8990143619012088e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "main_pointer": "/last_response/images/1",
+          "processed_pointer": "/last_response/quantized_images/1",
+          "main_png_sha256": "71116269590c7b7d70620d83d2677a897b5b7395569cd768c99a81c7289e4e33",
+          "processed_png_sha256": "71116269590c7b7d70620d83d2677a897b5b7395569cd768c99a81c7289e4e33",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              128
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 3904,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 77,
+              "rgb_colors_alpha_positive": 76,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 3904
+            },
+            "processed": {
+              "rgba_colors_all": 77,
+              "rgb_colors_alpha_positive": 76,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 3904
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 76,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000109,
+                  1.9248555319467256e-15,
+                  5.249605996218342e-16
+                ],
+                [
+                  1.848932690188592e-15,
+                  0.9999999999999961,
+                  3.774758283725532e-15
+                ],
+                [
+                  -2.3723214971787056e-15,
+                  6.661338147750939e-16,
+                  0.9999999999999936
+                ],
+                [
+                  3.955689189887549e-15,
+                  -7.37257477290143e-16,
+                  2.6107588313450947e-16
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.820026309953818e-12,
+                1.97813058679147e-13,
+                1.6693122942123756e-13
+              ],
+              "max_abs_channel_residual": 2.9274360713316128e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "main_pointer": "/last_response/images/2",
+          "processed_pointer": "/last_response/quantized_images/2",
+          "main_png_sha256": "6595ff93a9800bebcafc718d5dc210270d97d51c1e2785b6db1f556f636e99a3",
+          "processed_png_sha256": "6595ff93a9800bebcafc718d5dc210270d97d51c1e2785b6db1f556f636e99a3",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              128
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 2649,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 75,
+              "rgb_colors_alpha_positive": 74,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2649
+            },
+            "processed": {
+              "rgba_colors_all": 75,
+              "rgb_colors_alpha_positive": 74,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2649
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 74,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  0.9999999999999918,
+                  6.108796628005067e-16,
+                  2.7767257400023034e-16
+                ],
+                [
+                  -2.2725431279204785e-15,
+                  0.9999999999999991,
+                  -2.3314683517128287e-15
+                ],
+                [
+                  1.415715601184316e-15,
+                  4.440892098500626e-16,
+                  1.0000000000000029
+                ],
+                [
+                  -1.8432747984307157e-16,
+                  -6.782768791069316e-16,
+                  3.7947076036992655e-16
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.4056276860228247e-12,
+                6.127222257187583e-14,
+                7.578717104452106e-14
+              ],
+              "max_abs_channel_residual": 2.4442670110147446e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 3,
+          "main_pointer": "/last_response/images/3",
+          "processed_pointer": "/last_response/quantized_images/3",
+          "main_png_sha256": "9e19c38c77dcd4f476e2386474f71e24a6951e2a03bfddf76c2ab62ba414e884",
+          "processed_png_sha256": "9e19c38c77dcd4f476e2386474f71e24a6951e2a03bfddf76c2ab62ba414e884",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              128
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 2696,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 76,
+              "rgb_colors_alpha_positive": 75,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2696
+            },
+            "processed": {
+              "rgba_colors_all": 76,
+              "rgb_colors_alpha_positive": 75,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2696
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 75,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000062,
+                  -1.8773100546247295e-15,
+                  6.625800192793162e-16
+                ],
+                [
+                  1.3105633056349568e-15,
+                  1.000000000000004,
+                  1.454392162258955e-14
+                ],
+                [
+                  -1.2865258369467923e-15,
+                  -2.220446049250313e-16,
+                  0.9999999999999793
+                ],
+                [
+                  -6.812728902675478e-16,
+                  3.8510861166685117e-16,
+                  8.370040771588094e-17
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.0101061996948031e-12,
+                2.1923450246057585e-13,
+                4.86186584604073e-13
+              ],
+              "max_abs_channel_residual": 1.7337242752546445e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 4,
+          "main_pointer": "/last_response/images/4",
+          "processed_pointer": "/last_response/quantized_images/4",
+          "main_png_sha256": "4f6751e14666bb1fa709d078c4ea52da76fe7dd281b85251f365b2428fa91b92",
+          "processed_png_sha256": "4f6751e14666bb1fa709d078c4ea52da76fe7dd281b85251f365b2428fa91b92",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              128
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 2654,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 74,
+              "rgb_colors_alpha_positive": 73,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2654
+            },
+            "processed": {
+              "rgba_colors_all": 74,
+              "rgb_colors_alpha_positive": 73,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2654
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 73,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000013,
+                  -3.379527264917265e-15,
+                  3.878146041708337e-16
+                ],
+                [
+                  4.575172122651708e-16,
+                  1.0000000000000075,
+                  1.2212453270876722e-14
+                ],
+                [
+                  -3.5675083258711443e-16,
+                  -4.440892098500626e-16,
+                  0.9999999999999827
+                ],
+                [
+                  1.4713335364109702e-15,
+                  3.469446951953614e-18,
+                  2.949029909160572e-16
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                2.2928705101360037e-13,
+                4.178523067330409e-13,
+                4.105849073710287e-13
+              ],
+              "max_abs_channel_residual": 1.2647660696529783e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        },
+        {
+          "index": 5,
+          "main_pointer": "/last_response/images/5",
+          "processed_pointer": "/last_response/quantized_images/5",
+          "main_png_sha256": "496d72484667039f496d9be5a56f7117121d1d3078096a8f8bd3a416960827d3",
+          "processed_png_sha256": "496d72484667039f496d9be5a56f7117121d1d3078096a8f8bd3a416960827d3",
+          "PNG_bytes_exact": true,
+          "measurements": {
+            "same_shape": true,
+            "size": [
+              128,
+              128
+            ],
+            "rgba_exact": true,
+            "alpha_mismatches": 0,
+            "alpha_positive_support_mismatches": 0,
+            "RGB_mismatches_all": 0,
+            "co_visible_pixels": 2611,
+            "RGB_mismatches_co_visible": 0,
+            "changed_hidden_RGB_alpha0_both": 0,
+            "main": {
+              "rgba_colors_all": 75,
+              "rgb_colors_alpha_positive": 74,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2611
+            },
+            "processed": {
+              "rgba_colors_all": 75,
+              "rgb_colors_alpha_positive": 74,
+              "alpha_values": [
+                0,
+                255
+              ],
+              "visible_pixels": 2611
+            },
+            "same_main_RGB_multiple_processed_RGB_count": 0,
+            "visible_unique_RGB_pair_count": 74,
+            "weighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "unweighted_Oklab_nearest_observed_output_palette_mismatches": 0,
+            "sRGB_nearest_observed_output_palette_mismatches": 0,
+            "palette_candidate_boundary": "Observed output palette reused as candidate only; no supplied-palette/private-reducer identity or independent prediction",
+            "affine_visible": {
+              "least_squares_RGB_3x3_plus_bias": [
+                [
+                  1.0000000000000104,
+                  -8.929024636166156e-16,
+                  3.3483842385623084e-16
+                ],
+                [
+                  2.4173333391757243e-15,
+                  1.000000000000001,
+                  6.5503158452884236e-15
+                ],
+                [
+                  -1.953264000582049e-15,
+                  2.220446049250313e-16,
+                  0.9999999999999903
+                ],
+                [
+                  -1.3022484094533783e-15,
+                  1.6479873021779667e-16,
+                  -8.239936510889834e-17
+                ]
+              ],
+              "design_rank": 4,
+              "per_channel_rmse": [
+                1.7424347859262758e-12,
+                8.238599528335086e-14,
+                2.316486494048644e-13
+              ],
+              "max_abs_channel_residual": 2.9842794901924208e-12,
+              "rounded_clipped_exact_fraction": 1.0,
+              "boundary": "Descriptive fit on observed co-located visible pixels; not a recovered transform or independent heldout validation"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "animation_request_negative_bounds": [
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/request.json",
+      "request_sha256": "493c23c9608d159c81a3579ab31332b9101ad0f7072e38d386d12db6d6c79d4d",
+      "endpoint": "/edit-animation-v2",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 25,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/edit-animation-pro/024-response.json",
+          "sha256": "2b2038f1101376ea7050e4695774e4a398ebd37914ee13d08afd2484f4402366",
+          "status": "completed",
+          "job_id": "f341437a-3e98-4fba-b931-adcb18741ac8",
+          "array_counts": {
+            "images": 4,
+            "quantized_images": 4
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-vfx-campfire/request.json",
+      "request_sha256": "632f23202bdbe7c8081a44c069c39b43b5a1d797b834fde368d7c9cb18b90849",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 14,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-vfx-campfire/010-response.json",
+          "sha256": "0b19410ff80bca1b039e67afcbdeec2e71cc9413f3c9bf2647acd66c5d29e617",
+          "status": "processing",
+          "job_id": "187cc62f-4636-4421-84ec-b0a6d86a1d17",
+          "array_counts": {
+            "images": 5
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-vfx-campfire/011-response.json",
+          "sha256": "0b19410ff80bca1b039e67afcbdeec2e71cc9413f3c9bf2647acd66c5d29e617",
+          "status": "processing",
+          "job_id": "187cc62f-4636-4421-84ec-b0a6d86a1d17",
+          "array_counts": {
+            "images": 5
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-vfx-campfire/012-response.json",
+          "sha256": "0b19410ff80bca1b039e67afcbdeec2e71cc9413f3c9bf2647acd66c5d29e617",
+          "status": "processing",
+          "job_id": "187cc62f-4636-4421-84ec-b0a6d86a1d17",
+          "array_counts": {
+            "images": 5
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-vfx-campfire/013-response.json",
+          "sha256": "f4ff564ff1946c9a160df5f616ea28f33a5111e30fb1e48c792c0d46d9abcc29",
+          "status": "completed",
+          "job_id": "187cc62f-4636-4421-84ec-b0a6d86a1d17",
+          "array_counts": {
+            "images": 5
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro/request.json",
+      "request_sha256": "b0df81a0370aa6372680154cebca66d746bf4266c074bbfcb1a04a85c42b7b87",
+      "endpoint": "/interpolation-v2",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 2,
+      "responses_containing_image_arrays": []
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/request.json",
+      "request_sha256": "534f4551b8994f35fcfbe9e1efd46e0279c5c2cb51e6790b7d1ba8a743a1d162",
+      "endpoint": "/interpolation-v2",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 26,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/024-response.json",
+          "sha256": "2745180995132e935b7028adae339843d0f798d0071865a2b122511e7ff8cfa2",
+          "status": "processing",
+          "job_id": "40af9f0b-b567-4b3a-8442-41c2d00cac53",
+          "array_counts": {
+            "images": 2,
+            "quantized_images": 2
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/interpolation-pro-corrected/025-response.json",
+          "sha256": "bf2c07085117dbe5d825489dba83db1bbdd9bf665dd7daa65f5736242b365242",
+          "status": "completed",
+          "job_id": "40af9f0b-b567-4b3a-8442-41c2d00cac53",
+          "array_counts": {
+            "images": 2,
+            "quantized_images": 2
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/legacy-freeze-normalized/request.json",
+      "request_sha256": "be97497c38b4fd5a393b4405029f4041bc1dbe99595d07f853d4ebc5e7fae36b",
+      "endpoint": "/animate-with-skeleton",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 2,
+      "responses_containing_image_arrays": []
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/legacy-freeze-pixel/request.json",
+      "request_sha256": "baa949596d6d7f4fd9e482438097bacd1563741e4db477b4e4fcde289da1e387",
+      "endpoint": "/animate-with-skeleton",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 2,
+      "responses_containing_image_arrays": []
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/minimax-walk/request.json",
+      "request_sha256": "1c4ee3aeba17ae3267dead91d61b17db6a1bd78b8325f2e2399e0dffd6e7eedb",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 25,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/minimax-walk/023-response.json",
+          "sha256": "673a95f139cef33ca0363ffe37bce38796f98b27413ba1a9181e756c883a5a05",
+          "status": "processing",
+          "job_id": "0aaed98a-2305-43ad-a881-39ef06019c49",
+          "array_counts": {
+            "images": 9
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/minimax-walk/024-response.json",
+          "sha256": "248803c1614400acc4cca65a9000b14dc22b1e0cecb8a69f78c01ae5277fdac6",
+          "status": "completed",
+          "job_id": "0aaed98a-2305-43ad-a881-39ef06019c49",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-minimax-converted-walk/request.json",
+      "request_sha256": "2b51dbb3ec9bfb9823cea9e5f9923cecaaeb101f1b84ef9207f2a4cdc9169e91",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 63,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-minimax-converted-walk/062-response.json",
+          "sha256": "d1c780de32dcbb047f5237885cf0354ac96e9bc6cee5c5f607101e53df40887c",
+          "status": "completed",
+          "job_id": "91b8dd27-d350-4290-9574-261bd43115d4",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-skeletonv3-walk/request.json",
+      "request_sha256": "910061a68dc1be8f985323fea162042920f4c7b436128aefd890af2cda5aa8c1",
+      "endpoint": "/characters/animations",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 3,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-skeletonv3-walk/002-response.json",
+          "sha256": "e079b3ecd137f7ad84af305186613b787ab94aec487022342aaf5187c5ac7fdc",
+          "status": "completed",
+          "job_id": "f30fceda-91d2-4616-9255-904a3da1ec24",
+          "array_counts": {
+            "images": 6
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/request.json",
+      "request_sha256": "db1ef0bfda16da5f60e576049c04066264004e6f736d8551a4a5d6a00ea22aef",
+      "endpoint": "/characters/animations",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 3,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-character-template-walk/002-response.json",
+          "sha256": "99485f40e1f6325cbc68df4c6ca736535995b2d2af5df294c01aa6c723940631",
+          "status": "completed",
+          "job_id": "5e9217e9-ec70-4e9b-a18d-797f049fdc04",
+          "array_counts": {
+            "images": 6,
+            "quantized_images": 6
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed123/request.json",
+      "request_sha256": "3602ac4bf3fa3007438044476953bb403911cb3fd672ec157abac22d6fc59da1",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 21,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed123/019-response.json",
+          "sha256": "9e6d49b308c211281e185a98f193580c8cb718ff01ff45067afe0a0d580dd568",
+          "status": "processing",
+          "job_id": "b4739363-f0d2-46ff-a822-ec1e1269a0e7",
+          "array_counts": {
+            "images": 9
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed123/020-response.json",
+          "sha256": "92c7d1fad9f576b2f71099817c04039eecc1ecaf96f100311cbbc7ad814dad81",
+          "status": "completed",
+          "job_id": "b4739363-f0d2-46ff-a822-ec1e1269a0e7",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed123-corrected/request.json",
+      "request_sha256": "ee0d74d02c9353703f9cb476d4122fb587ea2a5b3e9bce767a3a23dbfa4cd149",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 33,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed123-corrected/031-response.json",
+          "sha256": "88d2ca76232eb87a8558bb03d1d0c958f55edb772901cbe7ae21a7f4416e043d",
+          "status": "processing",
+          "job_id": "e8b4df79-f58f-43fe-abc6-2f01caba4b59",
+          "array_counts": {
+            "images": 9
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed123-corrected/032-response.json",
+          "sha256": "e1fc36177bff461391c84ffaaf61960dd9b2234376cbdfccff927be521cb9a6d",
+          "status": "completed",
+          "job_id": "e8b4df79-f58f-43fe-abc6-2f01caba4b59",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed124/request.json",
+      "request_sha256": "0aaf00412acaf04ba19110029353245f301a42dc22de8145b12995b97025417d",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 18,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed124/016-response.json",
+          "sha256": "02994d82698f9e6fb29d4b41b55e40284ff64b2473084497d47beaac35d217a6",
+          "status": "processing",
+          "job_id": "173d10ca-4096-4f85-b74c-7c631adfb94b",
+          "array_counts": {
+            "images": 9
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size128-seed124/017-response.json",
+          "sha256": "a94063355e389ad342e369229b3f66017b192e577afaf819ae5aa9d1c174d90d",
+          "status": "completed",
+          "job_id": "173d10ca-4096-4f85-b74c-7c631adfb94b",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size256-seed123/request.json",
+      "request_sha256": "47744eba57e12c64e2ceb7995d859ded9b897c13bd73f81c6a4cbe622bfd1dc2",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 155,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size256-seed123/154-response.json",
+          "sha256": "553aefe487a6adf796a81efc9e29d57696c99f769cf4bba8665d7fea938a57fe",
+          "status": "completed",
+          "job_id": "1b0aa196-493f-4f94-a16f-e67109138110",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size256-seed124/request.json",
+      "request_sha256": "35aa1d1b2191e6a7e7a81f90c89f26d1d6da9ab34b61cdbda08f5914a4d3d607",
+      "endpoint": "/animate-pixminimax",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 141,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size256-seed124/139-response.json",
+          "sha256": "d90108c22a39d5dfb4fbf744a6d8ef431339ca7e89fa511695129ccfbbe7ecc7",
+          "status": "processing",
+          "job_id": "864dc729-0399-445f-b316-1f2208db344a",
+          "array_counts": {
+            "images": 9
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-minimax-size256-seed124/140-response.json",
+          "sha256": "a50747d0296bb8d2114252396416233efbdfc73c2717b663668b48c591b770f1",
+          "status": "completed",
+          "job_id": "864dc729-0399-445f-b316-1f2208db344a",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/r2-vocal-seven/request.json",
+      "request_sha256": "0b9f56e1c12d2e8a6974c5132b3017f38c14088388afdd62cb2871dc7dac7633",
+      "endpoint": "/vocal-animation",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 56,
+      "responses_containing_image_arrays": []
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/skeleton-v3-walk/request.json",
+      "request_sha256": "2ed0908c92eaba0f3042a94ab12ec351195b08d5334ff07f758be1f0e5a9d1bd",
+      "endpoint": "/animate-with-skeleton-v3",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 23,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/skeleton-v3-walk/021-response.json",
+          "sha256": "d05d1bc73bd26fc2de6272aee8af63641034001ba980c80036114eb79ec3cf44",
+          "status": "processing",
+          "job_id": "7f32fcff-1dcc-45f5-86d2-351a62e07962",
+          "array_counts": {
+            "images": 4
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/skeleton-v3-walk/022-response.json",
+          "sha256": "14a34e7c0e5553287e4a7ff2852a183409fc03536a4aaa7c50a3d8e2421b1671",
+          "status": "completed",
+          "job_id": "7f32fcff-1dcc-45f5-86d2-351a62e07962",
+          "array_counts": {
+            "images": 4
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-attack/request.json",
+      "request_sha256": "51e1afbe0b8a1fac73301e7001024367a650ceb028eb60da4ebb7e97fa2bb007",
+      "endpoint": "/animate-with-text-v3",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 35,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-attack/033-response.json",
+          "sha256": "6f5e789315c043deae5a27608b0e8dd1fad6c7c09c4fca88d17ada054d63466c",
+          "status": "processing",
+          "job_id": "62618e58-6844-4a5f-939f-4f80052a057b",
+          "array_counts": {
+            "images": 9
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-attack/034-response.json",
+          "sha256": "f6179d21ed6072f5ba16d48f3d89a38dd576b255f545e355844b96da090644d6",
+          "status": "completed",
+          "job_id": "62618e58-6844-4a5f-939f-4f80052a057b",
+          "array_counts": {
+            "images": 9
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-walk/request.json",
+      "request_sha256": "dd318467d5f418a4ec279a811be6448a432bddfe79520b1a3a44f04e09d450c1",
+      "endpoint": "/animate-with-text-v3",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 15,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-walk/013-response.json",
+          "sha256": "693a3930592a991666cb8ccc7feccff579613bdc1209561be093e7d02e95a53a",
+          "status": "processing",
+          "job_id": "43aaa1e8-ab3f-48e6-9ac1-24b261f5bcbc",
+          "array_counts": {
+            "images": 5
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-walk/014-response.json",
+          "sha256": "0c03ffb64dc0e8323600fd65fe741f343117470d5b1af5038836fc3d5bca88ed",
+          "status": "completed",
+          "job_id": "43aaa1e8-ab3f-48e6-9ac1-24b261f5bcbc",
+          "array_counts": {
+            "images": 5
+          }
+        }
+      ]
+    },
+    {
+      "request_path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-walk-repeat/request.json",
+      "request_sha256": "dd318467d5f418a4ec279a811be6448a432bddfe79520b1a3a44f04e09d450c1",
+      "endpoint": "/animate-with-text-v3",
+      "drift_threshold_explicit": false,
+      "response_files_inspected": 23,
+      "responses_containing_image_arrays": [
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-walk-repeat/021-response.json",
+          "sha256": "4312f3ed37cb3748f8bd6c7d39151c27e5fa34b5ddf5a1bb5ff5deaeb49bfa7d",
+          "status": "processing",
+          "job_id": "d1d42d0e-f28c-41c2-a4bb-7487c3667970",
+          "array_counts": {
+            "images": 5
+          }
+        },
+        {
+          "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/text-v3-walk-repeat/022-response.json",
+          "sha256": "58da44aadc35e263f22fb3c787d1feca09e7de72840a6a1d5a6b3c1869aaa43b",
+          "status": "completed",
+          "job_id": "d1d42d0e-f28c-41c2-a4bb-7487c3667970",
+          "array_counts": {
+            "images": 5
+          }
+        }
+      ]
+    }
+  ],
+  "palette_and_drift_field_hits": [
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/network.har",
+      "file_sha256": "4af2d8f23b04547b3392d0b1f4c52d1356ef357117bbf9f654b8b0d3e2721f79",
+      "pointer": "/log/entries/1/request/postData/text::<JSON>/color_palette",
+      "type": "str",
+      "value": null
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/feature-ui-panel/request.json",
+      "file_sha256": "c58cb27ba9776f4f818492935f7dc256ccf8bb5f9fa88c83372a1a9e9219dafd",
+      "pointer": "/body/color_palette",
+      "type": "str",
+      "value": null
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-reduce-colors96/001-response.json",
+      "file_sha256": "e837df53bf0cb521dd9e47269293ff7a68f6b86c9d1665b41e6af04d3a70d2a1",
+      "pointer": "/palette",
+      "type": "dict",
+      "value": null
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/probes/prep-reduce-colors96/network.har",
+      "file_sha256": "b462257366aced0e49203b356f7b82b7f09f82bb06f79059e0305c58e75990b4",
+      "pointer": "/log/entries/1/response/content/text::<JSON>/palette",
+      "type": "dict",
+      "value": null
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-skeletonv3-walk/ordered-frames.json",
+      "file_sha256": "8dd36683b67d4ee4a87d7ca30c9665f6eaa854b9d0f78314d7b7da1e6017b11e",
+      "pointer": "/frames/0/source_palette_extra",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-skeletonv3-walk/ordered-frames.json",
+      "file_sha256": "8dd36683b67d4ee4a87d7ca30c9665f6eaa854b9d0f78314d7b7da1e6017b11e",
+      "pointer": "/frames/1/source_palette_extra",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-skeletonv3-walk/ordered-frames.json",
+      "file_sha256": "8dd36683b67d4ee4a87d7ca30c9665f6eaa854b9d0f78314d7b7da1e6017b11e",
+      "pointer": "/frames/2/source_palette_extra",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-skeletonv3-walk/ordered-frames.json",
+      "file_sha256": "8dd36683b67d4ee4a87d7ca30c9665f6eaa854b9d0f78314d7b7da1e6017b11e",
+      "pointer": "/frames/3/source_palette_extra",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-skeletonv3-walk/ordered-frames.json",
+      "file_sha256": "8dd36683b67d4ee4a87d7ca30c9665f6eaa854b9d0f78314d7b7da1e6017b11e",
+      "pointer": "/frames/4/source_palette_extra",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-skeletonv3-walk/ordered-frames.json",
+      "file_sha256": "8dd36683b67d4ee4a87d7ca30c9665f6eaa854b9d0f78314d7b7da1e6017b11e",
+      "pointer": "/frames/5/source_palette_extra",
+      "type": "int",
+      "value": 0
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-template-walk/ordered-frames.json",
+      "file_sha256": "fbad5f55883c60dfc86c7d4d5eb277e6f5d05df76893d5ce789d13c292ae46b7",
+      "pointer": "/frames/0/source_palette_extra",
+      "type": "int",
+      "value": 13
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-template-walk/ordered-frames.json",
+      "file_sha256": "fbad5f55883c60dfc86c7d4d5eb277e6f5d05df76893d5ce789d13c292ae46b7",
+      "pointer": "/frames/1/source_palette_extra",
+      "type": "int",
+      "value": 13
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-template-walk/ordered-frames.json",
+      "file_sha256": "fbad5f55883c60dfc86c7d4d5eb277e6f5d05df76893d5ce789d13c292ae46b7",
+      "pointer": "/frames/2/source_palette_extra",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-template-walk/ordered-frames.json",
+      "file_sha256": "fbad5f55883c60dfc86c7d4d5eb277e6f5d05df76893d5ce789d13c292ae46b7",
+      "pointer": "/frames/3/source_palette_extra",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-template-walk/ordered-frames.json",
+      "file_sha256": "fbad5f55883c60dfc86c7d4d5eb277e6f5d05df76893d5ce789d13c292ae46b7",
+      "pointer": "/frames/4/source_palette_extra",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/character-animation-qc/r2-character-template-walk/ordered-frames.json",
+      "file_sha256": "fbad5f55883c60dfc86c7d4d5eb277e6f5d05df76893d5ce789d13c292ae46b7",
+      "pointer": "/frames/5/source_palette_extra",
+      "type": "int",
+      "value": 12
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/depth-round2/requests/r2-correction-palette-restore.json",
+      "file_sha256": "b6e69eafe1955f45f351d4508da7244c4a239fcd6b9f47b6bc329f1905c12733",
+      "pointer": "/palette_image",
+      "type": "dict",
+      "value": null
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/COMPARISON-VERIFICATION.json",
+      "file_sha256": "7bf9ce1e4bfc39a326233d7c828c217eeb1510e343e313ccddbb633a42e9c796",
+      "pointer": "/palette_alpha_note",
+      "type": "str",
+      "value": null
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-reference0-differences.json",
+      "file_sha256": "d17c81d405ddc3f000574235c2c230c4389afdaecb8b2255172861332aeef6d5",
+      "pointer": "/0/palette_source_visible",
+      "type": "int",
+      "value": 10316
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-reference0-differences.json",
+      "file_sha256": "d17c81d405ddc3f000574235c2c230c4389afdaecb8b2255172861332aeef6d5",
+      "pointer": "/0/palette_return0_visible",
+      "type": "int",
+      "value": 10316
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-reference0-differences.json",
+      "file_sha256": "d17c81d405ddc3f000574235c2c230c4389afdaecb8b2255172861332aeef6d5",
+      "pointer": "/0/ordered_palette_alpha_stats",
+      "type": "list",
+      "value": null
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-reference0-differences.json",
+      "file_sha256": "d17c81d405ddc3f000574235c2c230c4389afdaecb8b2255172861332aeef6d5",
+      "pointer": "/1/palette_source_visible",
+      "type": "int",
+      "value": 6205
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-reference0-differences.json",
+      "file_sha256": "d17c81d405ddc3f000574235c2c230c4389afdaecb8b2255172861332aeef6d5",
+      "pointer": "/1/palette_return0_visible",
+      "type": "int",
+      "value": 6205
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/pixellab-reference0-differences.json",
+      "file_sha256": "d17c81d405ddc3f000574235c2c230c4389afdaecb8b2255172861332aeef6d5",
+      "pointer": "/1/ordered_palette_alpha_stats",
+      "type": "list",
+      "value": null
+    }
+  ],
+  "supplementary_sanitized_paid_REA_term_scan": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/evidence/rea-paid-sanitized.json",
+    "sha256": "5c32d01e5e5a5f74452c91a5935b11f097bff6c5f9a09872b8ae7a51f0e93d14",
+    "bytes": 61954954,
+    "literal_token_counts": {
+      "quantized_images": 0,
+      "original_images": 0,
+      "drift_threshold": 0
+    },
+    "boundary": "Literal term count only; no semantic completeness or private source claim"
+  },
+  "claims": [
+    {
+      "id": "PC01",
+      "status": "new-offline-measurement",
+      "claim": "Seven distinct paired-array results across seven bound job IDs; twenty main/quantized frames PNG-byte and RGBA exact. One Pro Flash original/main still pair differs."
+    },
+    {
+      "id": "PC02",
+      "status": "new-offline-measurement",
+      "claim": "Reported original_image_n_colors cannot be treated as color count of exposed main images; the nominal main/quantized arrays are already identical."
+    },
+    {
+      "id": "PC03",
+      "status": "new-offline-measurement",
+      "claim": "Pro Flash same-job original/main pair changes3945/15624 co-visible RGB pixels,127->29 RGB colors, alpha exact; weighted Oklab nearest observed output palette matches all pixels, unweighted81 and sRGB50 mismatches."
+    },
+    {
+      "id": "PC04",
+      "status": "bounded-negative",
+      "claim": "No drift_threshold override in selected parsed capture dictionaries; retained MiniMax/V3 packets expose main images without before/after pair."
+    },
+    {
+      "id": "PC05",
+      "status": "not-established",
+      "claim": "No animation foreground de-flicker transform, threshold metric/default, palette clustering algorithm or private internal stage recovered."
+    }
+  ],
+  "model_or_provider_calls": 0,
+  "credentials_loaded": false,
+  "private_deflicker_recovered": false,
+  "limitations": [
+    "Source array order/co-location are pairing basis; not optical-flow foreground correspondence across moving frames.",
+    "Observed output palette is reused after the fact, not an independent or supplied-palette prediction.",
+    "No observed before/after animation color change; identical arrays cannot expose the omitted earlier stage.",
+    "Temporal variance reduction and whole-PixelLab-pipeline replication are unproved.",
+    "Initial measurement and interrupted-v2 outputs remain private; source-pinned-v3 is the final complete receipt."
+  ],
+  "capture_writer_review": {
+    "authority": "Our historical capture utility, not PixelLab source",
+    "anchors": [
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/api_probe.py",
+        "source_sha256": "9195e114497d36871e8f708e80cd04ec736cacc8bd5545f82f4a37473b7733ae",
+        "lines_inclusive": [
+          19,
+          28
+        ],
+        "UTF8_bytes_half_open": [
+          723,
+          1341
+        ],
+        "fragment_sha256": "0435e7971d15636ae06b735129500664f33365f6d6426d95c13a04ac2fb5b40a"
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/api_probe.py",
+        "source_sha256": "9195e114497d36871e8f708e80cd04ec736cacc8bd5545f82f4a37473b7733ae",
+        "lines_inclusive": [
+          48,
+          65
+        ],
+        "UTF8_bytes_half_open": [
+          2236,
+          4448
+        ],
+        "fragment_sha256": "e7b5d6d183211ba758b1e854b923abce07cc0662769f98aefcd3a79ecceb337c"
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/runtime/api_probe.py",
+        "source_sha256": "9195e114497d36871e8f708e80cd04ec736cacc8bd5545f82f4a37473b7733ae",
+        "lines_inclusive": [
+          70,
+          101
+        ],
+        "UTF8_bytes_half_open": [
+          4892,
+          6761
+        ],
+        "fragment_sha256": "0ea19589f947df73b419e8b13c8e29359643f6090f2e5f868af8f5cd1754ae88"
+      }
+    ],
+    "finding": "Captures scrub secrets/URL queries and serialize safe responses; no variant-field swap or quantizer in these capture functions. Export extraction deduplicates PNG hashes; review decodes response descriptors directly instead. Historical HAR contains scrubbed/reserialized response values, not original HTTP byte preservation."
+  }
+}

@@ -1,0 +1,998 @@
+{
+  "authority": "Selected exact original source bindings, not complete private method implementation",
+  "evidence_workspace": "/home/astra/projects/pixellab-local-test-20261011",
+  "ledger_sources": [
+    {
+      "path": "analysis-poses/depth-round4/full-animation-geometry-flows/NEW-SOURCE-CLAIM-LEDGER.json",
+      "sha256": "b1aa339dedafa4bd9b51ef0ea8ad50a139cfeb4f3674c9ee0b6f564c29a73fb4"
+    },
+    {
+      "path": "analysis-models/depth-round4/full-technique-methods/METHOD-CONTRACTS.json",
+      "sha256": "5e7286b79324a30b214613c88d5a25d57ed5c4fd45934eb74f1086333391cca8"
+    },
+    {
+      "path": "analysis-contract/depth-round2/font-ui-source-closure/SOURCE-ANCHORS.json",
+      "sha256": "128798fcf12b2d7d32f597a36dc5f6d6537794384ed63c199dedd1e398374946"
+    },
+    {
+      "path": "analysis-models/depth-round2/prompt-enhancement-closure/CLAIM-LEDGER.json",
+      "sha256": "0b13c490e18cd44ecc55d680e2b2ce98f0886098ecc8f404de40ca7b9e1f210e"
+    }
+  ],
+  "bindings": [
+    {
+      "module": "pose",
+      "claim_id": "P01",
+      "source_claim": {
+        "claim_id": "P01",
+        "claim": "Projection subtracts .5, yaw rotates by negative direction degrees, tilt rotates yz, output adds .5 to x/y. No perspective, metric units or camera intrinsics; east0 north90 west180 south270.",
+        "anchors": [
+          "N001",
+          "N002"
+        ],
+        "boundary": "Source-only; no target execution. GDRE text is recovered bytecode, not original development comments."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N001",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+          "source_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+          "one_based_line_start": 9,
+          "one_based_line_end": 144,
+          "utf8_start": 52,
+          "utf8_end_exclusive": 3079,
+          "utf16_start": 52,
+          "utf16_end_exclusive": 3079,
+          "fragment_sha256": "cb7c21c81fa5adab274c6c31394b1703cef3de97f939b72bed74a81bf8b6f370",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N002",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 10,
+          "one_based_line_end": 200,
+          "utf8_start": 385,
+          "utf8_end_exclusive": 6891,
+          "utf16_start": 385,
+          "utf16_end_exclusive": 6891,
+          "fragment_sha256": "0188f5edf80eb7e936854dc8f9057497c8835a727e45515b63f12314a90052fc",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "pose",
+      "claim_id": "P02",
+      "source_claim": {
+        "claim_id": "P02",
+        "claim": "The depth functions differ mathematically, not merely in quantization. With centered X,Y,Z and positive yaw a/tilt t, Lua D=-(X*sin(a)+Z*cos(a))+Y*sin(t). Godot D=Y*sin(t)+(X*sin(a)+Z*cos(a))*cos(t). Lua then floor((D+.5)*1000); exported wrapper ranks ascending unique bins from1, ties share rank (1..unique-bin-count). At most18 applies only to standard18-joint caller data; generic helper does not enforce18labels. Godot int(D*1000) truncates toward zero and its wrapper keeps those integers. z_index draw order is separate from public optional0..255 camera-nearness depth. Identical xy projections do not imply identical depth/order.",
+        "anchors": [
+          "N003",
+          "N004",
+          "N005",
+          "N006"
+        ],
+        "boundary": "Source-only; no target execution. GDRE text is recovered bytecode, not original development comments."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N003",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 130,
+          "one_based_line_end": 157,
+          "utf8_start": 4461,
+          "utf8_end_exclusive": 5448,
+          "utf16_start": 4461,
+          "utf16_end_exclusive": 5448,
+          "fragment_sha256": "ad69a9da6156b959d30e409a0861fcd21dab447ed5f0304b68e7c2ee20c8a3b8",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N004",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 690,
+          "one_based_line_end": 745,
+          "utf8_start": 25173,
+          "utf8_end_exclusive": 27336,
+          "utf16_start": 25173,
+          "utf16_end_exclusive": 27336,
+          "fragment_sha256": "67e4ae3fb749f1370407855edfd05a82472e33d8064d5cc63fbc3f7c824a086d",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N005",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+          "source_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+          "one_based_line_start": 99,
+          "one_based_line_end": 144,
+          "utf8_start": 1961,
+          "utf8_end_exclusive": 3079,
+          "utf16_start": 1961,
+          "utf16_end_exclusive": 3079,
+          "fragment_sha256": "27d992b1928563f0f708c2f28afc9590df9b6d445a9d9641db5322053e0db158",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N006",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+          "source_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+          "one_based_line_start": 310,
+          "one_based_line_end": 323,
+          "utf8_start": 7470,
+          "utf8_end_exclusive": 7880,
+          "utf16_start": 7470,
+          "utf16_end_exclusive": 7880,
+          "fragment_sha256": "341562a847becc2f106fa0c71a085b36e7ee57ed9faec72a972062a0bc439459",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "pose",
+      "claim_id": "P03",
+      "source_claim": {
+        "claim_id": "P03",
+        "claim": "Template catalog flip mirrors z around .5 and swaps LEFT/RIGHT in Lua and Godot TemplateSkeleton. The separately exported Godot Transform3DTo2D.flip_skeleton mirrors x. Do not substitute the latter for catalog flip parity.",
+        "anchors": [
+          "N007",
+          "N008",
+          "N009"
+        ],
+        "boundary": "Source-only; no target execution. GDRE text is recovered bytecode, not original development comments."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N007",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 612,
+          "one_based_line_end": 686,
+          "utf8_start": 22540,
+          "utf8_end_exclusive": 25071,
+          "utf16_start": 22540,
+          "utf16_end_exclusive": 25071,
+          "fragment_sha256": "6b0aefacb2cc3c436c54eeb2dcbaf9cab667a4f556c21bd4c5f3b2b586f49368",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N008",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/TemplateSkeleton.gd",
+          "source_sha256": "8938b40046dae3b28ccb8c759cd879a1265f74426f2eefb059f1c59a0b210a52",
+          "one_based_line_start": 143,
+          "one_based_line_end": 197,
+          "utf8_start": 3517,
+          "utf8_end_exclusive": 4776,
+          "utf16_start": 3517,
+          "utf16_end_exclusive": 4776,
+          "fragment_sha256": "f7094067990e326c663220f09b990f2e70b24dd8c81b396538797b52c58b6308",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N009",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+          "source_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+          "one_based_line_start": 288,
+          "one_based_line_end": 307,
+          "utf8_start": 6942,
+          "utf8_end_exclusive": 7468,
+          "utf16_start": 6942,
+          "utf16_end_exclusive": 7468,
+          "fragment_sha256": "a25f5d3fbb11929d3a6f500a8a9384cf2bc9dfe45c06e5ec2fcca286c08015f3",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "pose",
+      "claim_id": "P04",
+      "source_claim": {
+        "claim_id": "P04",
+        "claim": "Actual Lua nearest_reference loops16 named directions\u00d79 numeric tilts5..85, projects base then minimizes neck-aligned weighted pixel-space squared error; the comment72 combinations is stale. It does not enable transform auto_detect flags. Ties keep first visited candidate, Lua pairs iteration order is not an explicit deterministic tie policy.",
+        "anchors": [
+          "N010"
+        ],
+        "boundary": "Source-only; no target execution. GDRE text is recovered bytecode, not original development comments."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N010",
+          "path": "extension-extracted/PixelLab/pose-references.lua",
+          "source_sha256": "e635eba9546a3681b7e00d50187f4ed84cac0ed9c3700fdc66dfbe9bcd9fdd96",
+          "one_based_line_start": 220,
+          "one_based_line_end": 297,
+          "utf8_start": 7950,
+          "utf8_end_exclusive": 11717,
+          "utf16_start": 7950,
+          "utf16_end_exclusive": 11716,
+          "fragment_sha256": "ea9fb1866cd96dba4e2183309615281f58afe6040748ce9e8a677a5e8c5ecb64",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "pose",
+      "claim_id": "P05",
+      "source_claim": {
+        "claim_id": "P05",
+        "claim": "Optional Lua direction auto-detection feeds transform label-keyed map into an ipairs lookup. No ordinary label-keyed map has sequence entries, so projected lookup is empty, trials skip, and helper keeps initial east/0. Actual nearest_reference path P04 is separate.",
+        "anchors": [
+          "N011",
+          "N012",
+          "N013"
+        ],
+        "boundary": "Analytic data-shape consequence for the shipped ordinary dictionary; optional branch not observed running. No silent correction or runtime incident claim."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N011",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 158,
+          "one_based_line_end": 218,
+          "utf8_start": 5448,
+          "utf8_end_exclusive": 7479,
+          "utf16_start": 5448,
+          "utf16_end_exclusive": 7479,
+          "fragment_sha256": "0ca3a2415ce138143ef575108ea6c222aa9152485ac765b0ce28103ccde1e6c2",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N012",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 236,
+          "one_based_line_end": 364,
+          "utf8_start": 7967,
+          "utf8_end_exclusive": 13266,
+          "utf16_start": 7967,
+          "utf16_end_exclusive": 13266,
+          "fragment_sha256": "672b0683adc1dea2bf4189225ab66103dc6578e660b7f3ed305dde1e904e88e6",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N013",
+          "path": "extension-extracted/PixelLab/pose-references.lua",
+          "source_sha256": "e635eba9546a3681b7e00d50187f4ed84cac0ed9c3700fdc66dfbe9bcd9fdd96",
+          "one_based_line_start": 264,
+          "one_based_line_end": 297,
+          "utf8_start": 10023,
+          "utf8_end_exclusive": 11717,
+          "utf16_start": 10023,
+          "utf16_end_exclusive": 11716,
+          "fragment_sha256": "42fd85bc827efa0fcd7a96515bc370268f41347f07f426d90d6985c254b1f647",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "pose",
+      "claim_id": "P06",
+      "source_claim": {
+        "claim_id": "P06",
+        "claim": "Optional Lua tilt helper similarly reads projected dictionary with ipairs. Its scores have no matched terms and evaluate zero; strict less-than retains first coarse -45 and first fine -45 for ordinary projected map. Coarse nominal range is-45..45 step10, fine within\u00b110 step2. No current pose-references caller sets auto_detect_tilt.",
+        "anchors": [
+          "N014",
+          "N015"
+        ],
+        "boundary": "Source-derived conditional consequence; no execution. Claimed intent or function name does not prove automatic fitting works."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N014",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 368,
+          "one_based_line_end": 577,
+          "utf8_start": 13354,
+          "utf8_end_exclusive": 21165,
+          "utf16_start": 13354,
+          "utf16_end_exclusive": 21165,
+          "fragment_sha256": "f5ec081a54644821ffc551928d6630519caba3b69a377b90dc960cfe03bae79f",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N015",
+          "path": "extension-extracted/PixelLab/skeleton_references/transform_skeleton_to_2d.lua",
+          "source_sha256": "ce8bd0127ff8604b62f3f17350cc888191ce5209512c40c5758f401fa60c97f9",
+          "one_based_line_start": 690,
+          "one_based_line_end": 714,
+          "utf8_start": 25173,
+          "utf8_end_exclusive": 26340,
+          "utf16_start": 25173,
+          "utf16_end_exclusive": 26340,
+          "fragment_sha256": "965d890ec6211d7700ef9708918ede6dbff39e624e10d5c0dcaad25bcd8cbc3e",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "pose",
+      "claim_id": "P07",
+      "source_claim": {
+        "claim_id": "P07",
+        "claim": "Godot general brute-force helper tests8directions\u00d79tilts with weighted normalized xy error; default tilt map side10/low25/high40 differs from active Bridge.get_template side5/low20/high35. calculate_tilt ignores supplied direction by delegating joint search.",
+        "anchors": [
+          "N016",
+          "N017",
+          "N018"
+        ],
+        "boundary": "Source-only; no target execution. GDRE text is recovered bytecode, not original development comments."
+      },
+      "anchors": [
+        {
+          "anchor_id": "N016",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+          "source_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+          "one_based_line_start": 85,
+          "one_based_line_end": 97,
+          "utf8_start": 1656,
+          "utf8_end_exclusive": 1840,
+          "utf16_start": 1656,
+          "utf16_end_exclusive": 1840,
+          "fragment_sha256": "5b18036647610d5f83a00354b2b661cdc557a40ea736387a1f8f7922c061fb62",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N017",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+          "source_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+          "one_based_line_start": 148,
+          "one_based_line_end": 236,
+          "utf8_start": 3102,
+          "utf8_end_exclusive": 5638,
+          "utf16_start": 3102,
+          "utf16_end_exclusive": 5638,
+          "fragment_sha256": "a078be550d1849c3c34bfdd483d67066a1d664bcd4326833247e4077b58d8f62",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        },
+        {
+          "anchor_id": "N018",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/SkeletonBridge.gd",
+          "source_sha256": "938c8b998651b14c84c2eceebb65f0249ded73c0e4b8e589e6e034b640c4dc91",
+          "one_based_line_start": 129,
+          "one_based_line_end": 154,
+          "utf8_start": 3254,
+          "utf8_end_exclusive": 4059,
+          "utf16_start": 3254,
+          "utf16_end_exclusive": 4059,
+          "fragment_sha256": "d3d7a2ec13ac33cb9cb2bd898228f9aa9d08bca925276c1ea47480b5991989fe",
+          "derivation": "original Lua text or GDRE-recovered text, never target execution"
+        }
+      ]
+    },
+    {
+      "module": "prepare",
+      "claim_id": "M03",
+      "source_contract": {
+        "id": "M03",
+        "title": "Palette exemplar packing",
+        "evidence_review": "fresh round4 manual source reading",
+        "inputs_and_units": [
+          "Lua table packed-pixel/Color keys with numeric counts",
+          "64x64 output"
+        ],
+        "preparation": "Allocate64x64 image.",
+        "algorithm_and_conditions": "For each output pixel iterate pairs; select positive-valued key, draw it, decrement count, immediately remove key. Therefore each key is sampled at most once; counts are not preserved. Limit4096 keys; pairs order unspecified.",
+        "outputs_and_mutation": "64x64 exemplar Image; destructively empties selected input keys.",
+        "failure_and_state_branches": "More4096 distinct keys truncate; type conversion/Color key identity is host-dependent; empty keys leave transparent pixels.",
+        "boundary": "deterministic-client",
+        "implementation_class": "host-adapter-supported",
+        "remaining_blockers": [
+          "Reproduction requiring byte-identical order needs Lua pairs and exact host color conversion"
+        ],
+        "source_anchors": [
+          {
+            "path": "extension-extracted/PixelLab/get-image.lua",
+            "sha256": "8853b46e001267eb1120ff96b691c4f684f5720d1ba4232b9b88e8ea679d57e2",
+            "function_or_branch": "get_color_image_from_table/get_image_color_table",
+            "line_start": 71,
+            "line_end": 106,
+            "byte_start": 2491,
+            "byte_end_exclusive": 3544,
+            "span_sha256": "c5805af73e60b914e3bcf9673986517cc64b5e00aa92c6623a94d918cd5d9f9c",
+            "start_literal": "function getImage.get_color_image_from_table(color_table)",
+            "end_literal": "-- Exact unique-color count: union across images, transparent pixels ignored."
+          },
+          {
+            "path": "analysis-models/depth-round4/full-technique-methods/public-host-source/image_class.cpp",
+            "sha256": "54d0f755c95fa2ad70722f727a5215add19f256173ab943d5571715bc71b33fa",
+            "function_or_branch": "Image_drawPixel accepts converted Color",
+            "line_start": 263,
+            "line_end": 284,
+            "byte_start": 6718,
+            "byte_end_exclusive": 7277,
+            "span_sha256": "fd5532518d4840bf0a3dbad408cd911b2c5767ae0035bc2870b38c699c80c959",
+            "start_literal": "int Image_drawPixel(lua_State* L)",
+            "end_literal": "}"
+          }
+        ],
+        "target_executed_in_round4": false
+      },
+      "implementation_limit": "Named conventions only; see METHODS-API.md for omitted caller branches and local sampler/order policy"
+    },
+    {
+      "module": "prepare",
+      "claim_id": "M06",
+      "source_contract": {
+        "id": "M06",
+        "title": "Reference size budgets",
+        "evidence_review": "fresh round4 manual source reading",
+        "inputs_and_units": [
+          "image list",
+          "maxlongest2048 pixels",
+          "area budget5*1024*1024 pixels"
+        ],
+        "preparation": "Estimate areas after each image's2048 longest-side cap.",
+        "algorithm_and_conditions": "If estimated total exceeds budget, apply sqrt(budget/area) scale factor to per-image longest limits; round dimensions and clamp>=1; fitting image may retain original object, resized image is cloned.",
+        "outputs_and_mutation": "Aspect-preserving images; continuous-area estimate with discrete rounding.",
+        "failure_and_state_branches": "No guarantee final decoded byte count is the pixel-area budget; mutation/alias differs fitting vs resized branches.",
+        "boundary": "deterministic-client",
+        "implementation_class": "host-adapter-supported",
+        "remaining_blockers": [
+          "Downstream encoders and actual server aggregate limits"
+        ],
+        "source_anchors": [
+          {
+            "path": "extension-extracted/PixelLab/get-image.lua",
+            "sha256": "8853b46e001267eb1120ff96b691c4f684f5720d1ba4232b9b88e8ea679d57e2",
+            "function_or_branch": "downscale helpers and constants",
+            "line_start": 248,
+            "line_end": 287,
+            "byte_start": 8758,
+            "byte_end_exclusive": 10622,
+            "span_sha256": "9ba43f265128f09760640a268d9ba53020dd6bbde31471fceee5deffa0588afb",
+            "start_literal": "-- RGBA (about 5.3 bytes per pixel) inside one request that must stay under 32 MiB",
+            "end_literal": "end"
+          }
+        ],
+        "target_executed_in_round4": false
+      },
+      "implementation_limit": "Named conventions only; see METHODS-API.md for omitted caller branches and local sampler/order policy"
+    },
+    {
+      "module": "prepare",
+      "claim_id": "M09",
+      "source_contract": {
+        "id": "M09",
+        "title": "Unzoom quantization control transitions",
+        "evidence_review": "fresh round4 manual source reading",
+        "inputs_and_units": [
+          "Auto/None/Custom selection",
+          "Custom slider2..256"
+        ],
+        "preparation": "Default quantize0; None writes-1.",
+        "algorithm_and_conditions": "Custom reveals slider without writing its displayed fallback16 into current_json.quantize. Slider onchange writes the numeric value. Visibility initial false even if another positive state is supplied.",
+        "outputs_and_mutation": "0/-1/positive quantize payload values; source control state may retain oldAuto/None on Custom before slider onchange.",
+        "failure_and_state_branches": "Host widget callback behavior could alter observed sequencing; no target test performed.",
+        "boundary": "deterministic-client",
+        "implementation_class": "host-adapter-supported",
+        "remaining_blockers": [
+          "Installed Dialog onchange/onshow behavior"
+        ],
+        "source_anchors": [
+          {
+            "path": "extension-extracted/PixelLab/unzoom-pixelart.lua",
+            "sha256": "fa4eeb3bb5d527420f44a22d0f3cda9c64647bc9f5ca5a6c2950d5b4450ed75b",
+            "function_or_branch": "quantization controls",
+            "line_start": 242,
+            "line_end": 335,
+            "byte_start": 9398,
+            "byte_end_exclusive": 12322,
+            "span_sha256": "9c95a28711f3a8eaae0d8ac7d6fe4e2c8441b69677a605fbf37093f28c0447b4",
+            "start_literal": "function unzoom_pixelart.show_dialog()",
+            "end_literal": "end"
+          }
+        ],
+        "target_executed_in_round4": false
+      },
+      "implementation_limit": "Named conventions only; see METHODS-API.md for omitted caller branches and local sampler/order policy"
+    },
+    {
+      "module": "prepare",
+      "claim_id": "M18",
+      "source_contract": {
+        "id": "M18",
+        "title": "Godot capture/mask/hidden-RGB dialect",
+        "evidence_review": "fresh round4 manual source reading",
+        "inputs_and_units": [
+          "zero-based frame index",
+          "source-pixel selection rectangle",
+          "visible layers or only_layer override",
+          "fill_background/inpaint_empty_image bools"
+        ],
+        "preparation": "Allocate RGBA8 selection or canvas-sized destination, fill background; blend each accepted layer into0,0 via blend_rect source rect. only_layer includes selected layer even if invisible.",
+        "algorithm_and_conditions": "Frame>=count returns background. Any nonzero selection component activates selection branch. Mask alpha>0 becomes mask_color; else background_color. Empty-source+no-mask inpaint branch may fill whole mask; fill_background sets transparent source locations. Serialization copies bytes and zeros RGB where alpha==0; source image pixels are not mutated by this byte-loop.",
+        "outputs_and_mutation": "Typed rawRGBA base64 string; explicit white/black mask fields via helper defaults.",
+        "failure_and_state_branches": "Negative frame and invalid selection dimensions are not explicitly guarded here; engine methods delegate clipping/validation. Remote fill/inpainting semantics are not these deterministic blits.",
+        "boundary": "deterministic-client",
+        "implementation_class": "host-adapter-supported",
+        "remaining_blockers": [
+          "Godot image blending implementation and installed build affinity"
+        ],
+        "source_anchors": [
+          {
+            "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+            "sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+            "function_or_branch": "capture/mask/base64",
+            "line_start": 5,
+            "line_end": 109,
+            "byte_start": 109,
+            "byte_end_exclusive": 4188,
+            "span_sha256": "cf58afe459b79880e5609f71b43c908bdd76d938c0553abb44e9626387beb1f7",
+            "start_literal": "func has_transparent_pixels(image: Image) -> bool:",
+            "end_literal": "\treturn image_base64"
+          }
+        ],
+        "target_executed_in_round4": false
+      },
+      "implementation_limit": "Named conventions only; see METHODS-API.md for omitted caller branches and local sampler/order policy"
+    },
+    {
+      "module": "prepare",
+      "claim_id": "M32",
+      "source_contract": {
+        "id": "M32",
+        "title": "Website Pro creation/style/reference preparation",
+        "evidence_review": "fresh round4 manual source reading",
+        "inputs_and_units": [
+          "up to4subject references",
+          "style Image",
+          "reference dimensions",
+          "style_description/options"
+        ],
+        "preparation": "Module22315 Pro creation truncates refs slice0,4, maxside1024 using floored aspect dimensions. Canvas resize does not explicitly set imageSmoothingEnabled. Rotation referencehelper independently does set false for its1024 cap. Both decode image through canvas to rawRGBA. Metadata sizes are trusted on these older helpers.",
+        "algorithm_and_conditions": "Pro create sends reference_images in inputorder and optional style_image/options to generate-image-new selectorpixellab-pro/image-new, framesformat, randomseed. Consistentstyle decodes all styleimages via Promise.all preserving order, sends optional truthy style_description to generate-consistent-style, outputspritesheet. No shared2048/5Mipixel budget used by these codepaths.",
+        "outputs_and_mutation": "Returnedframe preview grid: Pro create1col for1,2for4,8for64,otherwise4; rowceil; missingcanvasfallbackfirstframe+metadata. Consistentstyle multiframe sqrtgrid; single returned sheet split by rounded sheet/requested frame dimensions. Actual main/quantized selection is common dispatcher contract.",
+        "failure_and_state_branches": "Canvas onerror/context failure rejects or previewfallback; image dimensions can differ from stale metadata without e0 dimension check used by ProFlash. Neural style/reference encoder undisclosed.",
+        "boundary": "deterministic-client",
+        "implementation_class": "external-adapter-supported",
+        "remaining_blockers": [
+          "Natural image metadata acquisition and browser canvas pixel implementation; pose owns returned rotation order"
+        ],
+        "source_anchors": [
+          {
+            "path": "website-art-bundles/create-677791a6e206dafa.js",
+            "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+            "function_or_branch": "module22315 creation callback",
+            "byte_start": 995,
+            "byte_end_exclusive": 3359,
+            "span_sha256": "5c17681c078062ef619acba9571a6d470e6b255216c3ff29f812277ecc4f6352",
+            "start_literal": "async(e,t,a,r,o,n,l,s,c,d)=>{let h=async(e,t,i,a)=>{if(t<=a&&i<=a)retu",
+            "end_literal": "turn i(\"generate-image-new\",g,e=>o(e),t,a,n,m,d,\"generate_image_new\")}",
+            "line_start": 1,
+            "line_end": 1
+          },
+          {
+            "path": "website-art-bundles/create-677791a6e206dafa.js",
+            "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+            "function_or_branch": "rr e8 consistentstyle",
+            "byte_start": 386045,
+            "byte_end_exclusive": 388494,
+            "span_sha256": "8f98e5eb760b8c8f689ff3f14548324893f5d01b1a6357da4d98729176a78444",
+            "start_literal": "function(){let{isGenerating:e,progress:t,setupBackgroundGeneration:i,c",
+            "end_literal": "eturn{generate:r,cancel:a,isGenerating:e,progress:t}}(),{generate:e9}=",
+            "line_start": 1,
+            "line_end": 1
+          },
+          {
+            "path": "website-art-bundles/create-677791a6e206dafa.js",
+            "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+            "function_or_branch": "rr e9 rotation reference preparation",
+            "byte_start": 388605,
+            "byte_end_exclusive": 390958,
+            "span_sha256": "8e2fde790de409a471dfb9414ef416c58157db27e181cf6d157069ed0ca78073",
+            "start_literal": "async(e,t,a,r,o,n,l,s,c,d,h,u,g,m,p,x)=>{let f=async e=>new Promise((t",
+            "end_literal": ",e=>m(e),h,u,p,(e,t)=>_(e,(0,ek.K5)(t)),x,\"reference_to_8_rotations\")}",
+            "line_start": 1,
+            "line_end": 1
+          }
+        ],
+        "target_executed_in_round4": false
+      },
+      "implementation_limit": "Named conventions only; see METHODS-API.md for omitted caller branches and local sampler/order policy"
+    },
+    {
+      "module": "prepare",
+      "claim_id": "M44",
+      "source_contract": {
+        "id": "M44",
+        "title": "Correction control domains are different in all three adapters",
+        "evidence_review": "fresh round4 manual source reading",
+        "inputs_and_units": [
+          "Lua slider hundredths",
+          "Godot nativefloat",
+          "browser storedfloat"
+        ],
+        "preparation": "Exact Godot compiledsceneStrengthSlider node11 declaresmin0.05,max1,step0.05,value0.5; scriptReset0.5. Scene fullysource-decoded18nodes3connections, bound originalPCKmember andscript. No scene instantiated.",
+        "algorithm_and_conditions": "Lua slider0..200 storedinteger, default100, wire/100 =>0..2. Browser tJ slider0..1 step0.05; ap storedhookdefault0.1 (savedvalue canoverride), sourceupdatecallbackwritesfloat. rr finaldispatchT||0.3 means choosing browser0 becomes0.3. Godot sends float directly; min0.05UI excludes0 from ordinarywidget range, directAPI0 remains separate.",
+        "outputs_and_mutation": "Exact adapter control/value domains and defaults, not remote acceptance guarantees or one canonicalstrengthunit.",
+        "failure_and_state_branches": "Host widget/persistence callbacks not executed; storagepriorvalue affects browserdefault; malformed/direct caller can bypassUIranges.",
+        "boundary": "deterministic-client",
+        "implementation_class": "host-adapter-supported",
+        "remaining_blockers": [
+          "Host runtimeaffinity and serverprivate/public strengthvalidation; originalscene resourcechain receipt separatelyrequired"
+        ],
+        "source_anchors": [
+          {
+            "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/CorrectPixelart.gd",
+            "sha256": "de6228f07fa93d1d0e72d28af1648cab1ca6a55f679063cca47c12987d048173",
+            "function_or_branch": "Godot label/reset",
+            "line_start": 177,
+            "line_end": 198,
+            "byte_start": 5658,
+            "byte_end_exclusive": 6225,
+            "span_sha256": "b5403970c0e373161ab02f083ccf48f1165d7f3df4e5e70079f4c5d76e2e6a05",
+            "start_literal": "func _update_strength_label() -> void :",
+            "end_literal": "\t_update_strength_label()"
+          },
+          {
+            "path": "extension-extracted/PixelLab/generate-correct-pixelart.lua",
+            "sha256": "5f6b3c6b7cbf5fee48af6be9f4614ea54ba29ba69e94a1dda2a5c246b7993fec",
+            "function_or_branch": "Lua correction slider",
+            "line_start": 252,
+            "line_end": 262,
+            "byte_start": 8763,
+            "byte_end_exclusive": 9023,
+            "span_sha256": "ae9e7b079f11701538deb2463ba279212b69d0bcd5074e9e527718f60c05f798",
+            "start_literal": "  -- Strength slider",
+            "end_literal": "  }"
+          },
+          {
+            "path": "website-art-bundles/create-677791a6e206dafa.js",
+            "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+            "function_or_branch": "factory tJ correctioncontrol",
+            "byte_start": 154536,
+            "byte_end_exclusive": 155666,
+            "span_sha256": "ff06ce7b7de5da2b46981d52510337b0fd071b466e7e1ffa29a5560c3671c06c",
+            "start_literal": "function tJ(e){let{images:t,setImages:i,rawImages:a,setRawImages:r,ima",
+            "end_literal": "jsx)(k.x,{fontSize:\"xs\",color:\"gray.400\",children:\"Strong\"})]})]})]})}",
+            "line_start": 1,
+            "line_end": 1
+          },
+          {
+            "path": "website-art-bundles/create-677791a6e206dafa.js",
+            "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a",
+            "function_or_branch": "ap storedstrengthhook",
+            "byte_start": 285688,
+            "byte_end_exclusive": 285846,
+            "span_sha256": "98d53b214ff4891c6e6a72a95fd696121840944d80b4245e16523147d2b830e7",
+            "start_literal": "[lb,lv]=td(am.CORRECT_PIXELART.STRENGTH,.1),[lw,lj]=(0,p.useState)(voi",
+            "end_literal": "useState)(0),[lC,lS]=(0,p.useState)(0),[lI,lk]=(0,p.useState)(void 0),",
+            "line_start": 1,
+            "line_end": 1
+          },
+          {
+            "path": "analysis-models/depth-round4/full-technique-methods/scene-defaults/CorrectPixelart.tres",
+            "sha256": "c4cb27f0314243512d57ebc045812309927bb39af782d19ed462f29fdc8f82ee",
+            "function_or_branch": "converted originalCorrectPixelart PackedScene",
+            "line_start": 1,
+            "line_end": 20,
+            "byte_start": 0,
+            "byte_end_exclusive": 3351,
+            "span_sha256": "c4cb27f0314243512d57ebc045812309927bb39af782d19ed462f29fdc8f82ee",
+            "start_literal": "[gd_resource type=\"PackedScene\" format=3]",
+            "end_literal": "}"
+          }
+        ],
+        "target_executed_in_round4": false
+      },
+      "implementation_limit": "Named conventions only; see METHODS-API.md for omitted caller branches and local sampler/order policy"
+    },
+    {
+      "module": "assets",
+      "claim_id": "U03/U05/U06/U07",
+      "anchors": [
+        {
+          "id": "ui-editor-component",
+          "path": "website-art-bundles/4156-ad19a36a641ceb01.js",
+          "sha256": "83f14d55fc8c94cbe2a305718dd550c7126a49634311e06fcd96e75baeb889ad",
+          "utf8_range": [
+            8047,
+            22259
+          ],
+          "utf16_range": [
+            8047,
+            22255
+          ],
+          "slice_sha256": "5c28fba7c184306fa0f6c8a6af6d3ee8ddf096dd68920c31e14e0519eab7d3be",
+          "function": "U",
+          "formatted_view": "source-views/ui-editor-component.txt",
+          "qualification": "Inert AST/manual navigation; original imports/closure and execution require separate evidence."
+        },
+        {
+          "id": "ui-view-rescale-helper",
+          "path": "website-art-bundles/4156-ad19a36a641ceb01.js",
+          "sha256": "83f14d55fc8c94cbe2a305718dd550c7126a49634311e06fcd96e75baeb889ad",
+          "utf8_range": [
+            3671,
+            3758
+          ],
+          "utf16_range": [
+            3671,
+            3758
+          ],
+          "slice_sha256": "97e1a10b5945bf67b6ba4e59f029662118043571b28295860d3a4cd2747b17e7",
+          "function": "v",
+          "formatted_view": "source-views/ui-view-rescale-helper.txt",
+          "qualification": "Inert AST/manual navigation; original imports/closure and execution require separate evidence."
+        },
+        {
+          "id": "ui-native-view-dimensions",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/UITemplatePresets.gd",
+          "sha256": "dcb1a01259458cf177050c0d9319ed2ff7de984e1027135ff4cc3655212e68aa",
+          "line_start": 38,
+          "line_end": 45,
+          "function": "editor_view_for",
+          "formatted_view": "source-views/ui-native-view-dimensions.txt",
+          "normalized_slice_sha256": "04be2d513a8005c91c7ea9a0c144ef058c10dabd04f61f2fac0e477f1974366e",
+          "qualification": "Whole recovered Godot function; compiled-script/remap identity separately retained. No execution."
+        },
+        {
+          "id": "ui-native-rescale",
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/UITemplatePresets.gd",
+          "sha256": "dcb1a01259458cf177050c0d9319ed2ff7de984e1027135ff4cc3655212e68aa",
+          "line_start": 140,
+          "line_end": 158,
+          "function": "rescale_pieces",
+          "formatted_view": "source-views/ui-native-rescale.txt",
+          "normalized_slice_sha256": "e006bb4fd08baae862363477f732a322caf5b3ab16b7e4f90c4edf82dbcc0c78",
+          "qualification": "Whole recovered Godot function; compiled-script/remap identity separately retained. No execution."
+        }
+      ],
+      "implementation_limit": "Virtual coordinate transform only; no snapping/private virtual-raster/style generation"
+    },
+    {
+      "module": "prepare_prompt",
+      "claims": [
+        {
+          "claim_id": "L05",
+          "claim": "First slot depends on exact interpolate selector; description api_text; integer frame_count; advanced caption fields; late first-frame equality guards caption only",
+          "authority": "manual source reading; no target execution",
+          "anchors": [
+            {
+              "path": "extension-extracted/PixelLab/enhance-prompt.lua",
+              "source_sha256": "c814eaebc2a449e9c9dfa6b1798b1cb88b44f061f429067fc596507d5215166d",
+              "function": "enhance_prompt.enhance_pixminimax_prompt",
+              "line_start": 177,
+              "line_end": 238,
+              "start_literal": "function enhance_prompt.enhance_pixminimax_prompt(dialog, model, advanced)",
+              "fragment_normalized_lines_sha256": "b9800d2e1ce3bd1f5f0a41e2bc8080b756c80d040cb2e6c4737ed28c1c1e42e6",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            }
+          ],
+          "limits": "Remote implementation and dynamic execution remain unknown."
+        },
+        {
+          "claim_id": "L07",
+          "claim": "Auto omits nil/empty/exactAuto, rejects unknown picked enum; api_text undoubles percent and treats whitespace as blank without stripping nonblank edges",
+          "authority": "manual source reading; no target execution",
+          "anchors": [
+            {
+              "path": "extension-extracted/PixelLab/pixminimax.lua",
+              "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+              "function": "pixminimax.api_text",
+              "line_start": 91,
+              "line_end": 102,
+              "start_literal": "function pixminimax.api_text(stored)",
+              "fragment_normalized_lines_sha256": "7322c12f461f11659be1875518fbe34c6a35fd3ee71f650c7f95bb21f3f593b7",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "extension-extracted/PixelLab/pixminimax.lua",
+              "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+              "function": "api_choice",
+              "line_start": 103,
+              "line_end": 114,
+              "start_literal": "local function api_choice(key, stored)",
+              "fragment_normalized_lines_sha256": "60f4f606362f0f4f877395172f2295b19e33f4d14d76e015eea3c5b6e07eaeb5",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "extension-extracted/PixelLab/pixminimax.lua",
+              "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+              "function": "pixminimax.caption_slots",
+              "line_start": 122,
+              "line_end": 138,
+              "start_literal": "function pixminimax.caption_slots(current_json)",
+              "fragment_normalized_lines_sha256": "1e8146e9c8c853a2ddc49bef9abe032d42995a7d5f0d22175746a163b0d4a32d",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "extension-extracted/PixelLab/pixminimax.lua",
+              "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+              "function": "pixminimax.put_caption",
+              "line_start": 139,
+              "line_end": 148,
+              "start_literal": "function pixminimax.put_caption(request, slots)",
+              "fragment_normalized_lines_sha256": "eecd034eaf1a7353ec06c56d225e18c1e7add14e8b78cd0f1ba0f580f7719b15",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "extension-extracted/PixelLab/pixminimax.lua",
+              "source_sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52",
+              "function": "pixminimax.improve_fields",
+              "line_start": 149,
+              "line_end": 170,
+              "start_literal": "function pixminimax.improve_fields(slots)",
+              "fragment_normalized_lines_sha256": "a6e524356b3944954b577ccc7075028eb99d52fcc37a754b185b019e1556caf1",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            }
+          ],
+          "limits": "Remote implementation and dynamic execution remain unknown."
+        },
+        {
+          "claim_id": "G03",
+          "claim": "AnimateWithTextV3 exact connect\u2192input selection\u2192enhancement\u2192target-field mutation; reset/generation cancellation guards specific to this caller",
+          "authority": "manual source reading; no target execution",
+          "anchors": [
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+              "source_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+              "function": "_ready",
+              "line_start": 14,
+              "line_end": 23,
+              "start_literal": "func _ready() -> void :",
+              "fragment_normalized_lines_sha256": "bd9632c2a17af2f8a40a950c4cb99a7966371ad354daa629b92021d6a0eae647",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+              "source_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+              "function": "_on_EnhanceActionButton_pressed",
+              "line_start": 142,
+              "line_end": 161,
+              "start_literal": "func _on_EnhanceActionButton_pressed():",
+              "fragment_normalized_lines_sha256": "128182b7236b6af04987def5f879dae98abd345712224df93d7d292cce40eb16",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+              "source_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+              "function": "_on_enhance_complete",
+              "line_start": 162,
+              "line_end": 166,
+              "start_literal": "func _on_enhance_complete(enhanced_prompt: String, _metadata: Dictionary):",
+              "fragment_normalized_lines_sha256": "6617d8997a0c5e6ddf4a3cee03f1c4225decac0cc89bec7732ba5a2b9f81e2f9",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+              "source_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+              "function": "_on_enhance_error",
+              "line_start": 167,
+              "line_end": 171,
+              "start_literal": "func _on_enhance_error(error: String):",
+              "fragment_normalized_lines_sha256": "1d02f0dfd9c06d725e24b875bcf2290270a704ff0ce98b1ae0b6bc37a38b0c9d",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+              "source_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+              "function": "_on_ResetButton_pressed",
+              "line_start": 172,
+              "line_end": 183,
+              "start_literal": "func _on_ResetButton_pressed():",
+              "fragment_normalized_lines_sha256": "5afd0fbdedf70aa6dbd1e7c583d5879975724306de1496f36e678e3bfc51382c",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+              "source_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+              "function": "get_payload",
+              "line_start": 184,
+              "line_end": 245,
+              "start_literal": "func get_payload():",
+              "fragment_normalized_lines_sha256": "4c6b226783b394902011de48a523c8fdc5ffd6f5f3edd5b32c229dff2b76b1a8",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            }
+          ],
+          "limits": "Remote implementation and dynamic execution remain unknown."
+        },
+        {
+          "claim_id": "G04",
+          "claim": "InterpolateV3 exact connect\u2192input selection\u2192enhancement\u2192target-field mutation; reset/generation cancellation guards specific to this caller",
+          "authority": "manual source reading; no target execution",
+          "anchors": [
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+              "source_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+              "function": "_ready",
+              "line_start": 14,
+              "line_end": 24,
+              "start_literal": "func _ready() -> void :",
+              "fragment_normalized_lines_sha256": "a9c0058a07e32f2af587f963f842f8c78296df69d4b117c4726160d9c87411c0",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+              "source_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+              "function": "_on_EnhanceActionButton_pressed",
+              "line_start": 183,
+              "line_end": 211,
+              "start_literal": "func _on_EnhanceActionButton_pressed():",
+              "fragment_normalized_lines_sha256": "1baa37b6ab5b76737e1627e08eb335baefaf4a964849f4fa81cca30b103242f2",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+              "source_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+              "function": "_on_enhance_complete",
+              "line_start": 212,
+              "line_end": 216,
+              "start_literal": "func _on_enhance_complete(enhanced_prompt: String, _metadata: Dictionary):",
+              "fragment_normalized_lines_sha256": "6617d8997a0c5e6ddf4a3cee03f1c4225decac0cc89bec7732ba5a2b9f81e2f9",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+              "source_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+              "function": "_on_enhance_error",
+              "line_start": 217,
+              "line_end": 221,
+              "start_literal": "func _on_enhance_error(error: String):",
+              "fragment_normalized_lines_sha256": "1d02f0dfd9c06d725e24b875bcf2290270a704ff0ce98b1ae0b6bc37a38b0c9d",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+              "source_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+              "function": "_on_ResetButton_pressed",
+              "line_start": 222,
+              "line_end": 234,
+              "start_literal": "func _on_ResetButton_pressed():",
+              "fragment_normalized_lines_sha256": "70e50f1ef2a0d4112160b6e3a50d9ef2e38a0ac9bb027b04ae247caf211ca891",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            },
+            {
+              "path": "pixelorama-recovered/src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+              "source_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+              "function": "get_payload",
+              "line_start": 235,
+              "line_end": 316,
+              "start_literal": "func get_payload():",
+              "fragment_normalized_lines_sha256": "8d97eac93804b8be75bb98566e8ca9a0078fa96621665001f233bc3aa5108a82",
+              "unit": "one_based_lines_in_original_source; CRLF preserved in source hash"
+            }
+          ],
+          "limits": "Remote implementation and dynamic execution remain unknown."
+        }
+      ],
+      "implementation_limit": "Inert typed local descriptor; no service invocation, returned mutation or lifecycle parity"
+    },
+    {
+      "module": "pose.draw_depth_channels",
+      "anchors": [
+        {
+          "path": "pixelorama-recovered/src/Extensions/PixelLab/skeleton/DrawSkeleton.gd",
+          "source_sha256": "a3c1ac95bdb33821de9872cd489fe746741d8300797b5de50c2ad36ecc14b4a3",
+          "line_start": 39,
+          "line_end": 64,
+          "fragment_sha256": "57a99facdb87a4d9904f78ba2c9b38c1a271d8a5cf28e006931ca05dd5c16047"
+        }
+      ],
+      "implementation_limit": "List-order ordinal/alpha transform only; no connected-bone raster or scan overlap simulation"
+    }
+  ],
+  "local_methods": [
+    "left-cell nearest sampler",
+    "first-appearance palette ordering",
+    "listed-first pose fit ties",
+    "N1E2S4W8 terrain convention",
+    "guarded ordered RGBA region overwrite",
+    "fixed-cell glyph packing",
+    "Pillow explicit-font rasterization",
+    "straight-alpha glyph compositing",
+    "supplied letter-to-viseme data",
+    "pixel-space supplied UI placement"
+  ],
+  "unsupported": [
+    "neural image generation/caption/enhancement/unzoom/repair/segmentation/inpainting",
+    "learned motion/hidden pose reconstruction",
+    "target-generated font/visemes",
+    "arbitrary prepared constructors",
+    "vendor UI guide-to-raster styling"
+  ]
+}

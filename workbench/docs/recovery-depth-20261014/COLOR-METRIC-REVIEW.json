@@ -1,0 +1,191 @@
+{
+  "schema": 1,
+  "claim": "No quarter-lightness Oklab method identified in this bounded source set; identified shipped roles use other formulas. No server-code equivalence claim.",
+  "source_set": {
+    "javascript_files": 72,
+    "recovered_gdscript_files": 378,
+    "shader_files": 40,
+    "manifest": "/home/astra/artifacts/pixellab-recovery-web-20261014/color-metric-review/SOURCE-SET.json",
+    "manifest_sha256": "533bc313e88cf070e8f92471557018db1a1b49d6a1c243e383a40f440221d3a2"
+  },
+  "literal_search_terms": [
+    "oklab",
+    "oklch",
+    "210454",
+    "412221",
+    "cbrt"
+  ],
+  "hits": [
+    {
+      "file": "assets/2713c302f049-create-9c5cec3372075418.js",
+      "bytes": 517769,
+      "sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "terms": [
+        "210454",
+        "412221",
+        "cbrt"
+      ]
+    },
+    {
+      "file": "pixelorama-current-recovered/src/Palette/Palette.gd",
+      "bytes": 9884,
+      "sha256": "4e46ccca2895cf68e7fbbec1d3f285bc7651277d865c111f1f6c866a09843a1a",
+      "terms": [
+        "oklab",
+        "210454",
+        "412221"
+      ]
+    }
+  ],
+  "source_roles": [
+    {
+      "id": "srgb-linear",
+      "source": "assets/2713c302f049-create-9c5cec3372075418.js",
+      "source_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "utf16_range": [
+        125936,
+        126009
+      ],
+      "utf8_range": [
+        125970,
+        126043
+      ],
+      "selected_sha256": "110f58094f1d594e008bb023037ee8c93c282999999257fe23a5876a6c47368e",
+      "role": "sRGB channel to linear conversion"
+    },
+    {
+      "id": "palette-from-image-reducer",
+      "source": "assets/2713c302f049-create-9c5cec3372075418.js",
+      "source_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "utf16_range": [
+        133187,
+        134661
+      ],
+      "utf8_range": [
+        133221,
+        134695
+      ],
+      "selected_sha256": "f98a7aa044b03fbd50096ae0c8af0c6d9ea01f6565b75bd8326f1bfb6bd8fa61",
+      "role": "Palette image >256 colors: 5-bit bins, up to32 representatives; Oklab clustering"
+    },
+    {
+      "id": "oklab-converter",
+      "source": "assets/2713c302f049-create-9c5cec3372075418.js",
+      "source_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "utf16_range": [
+        133433,
+        133790
+      ],
+      "utf8_range": [
+        133467,
+        133824
+      ],
+      "selected_sha256": "b336c8f112c0a6a0b1f0c27cd8b48bd21cdc36a923e259c44cad32b573dee15b",
+      "role": "Standard Oklab triple; no L*.5 scaling"
+    },
+    {
+      "id": "oklab-distance",
+      "source": "assets/2713c302f049-create-9c5cec3372075418.js",
+      "source_sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "utf16_range": [
+        126010,
+        126061
+      ],
+      "utf8_range": [
+        126044,
+        126095
+      ],
+      "selected_sha256": "64c6a95c46eb5756d6ecffc1281cda48499cdd9061af0948fe905a320db84cff",
+      "role": "Unweighted Euclidean Oklab distance used by palette-from-image reducer",
+      "exact_text": "tT=(e,t)=>Math.hypot(e[0]-t[0],e[1]-t[1],e[2]-t[2])"
+    },
+    {
+      "id": "Palette",
+      "source": "pixelorama-current-recovered/src/Palette/Palette.gd",
+      "source_sha256": "4e46ccca2895cf68e7fbbec1d3f285bc7651277d865c111f1f6c866a09843a1a",
+      "role": "LIGHTNESS palette sorting; Oklab L with toe remapping, not color distance"
+    },
+    {
+      "id": "lookup_similar",
+      "source": "pixelorama-shader-extracted/addons/gdgifexporter/lookup_similar.gdshader",
+      "source_sha256": "0bfe0e5d3d7ed6c96b47a5de08a03b71a9f2ba95b2b83c6d17a451fd10d12bb2",
+      "role": "GIF-export palette lookup; RGB vector distance, not Oklab"
+    }
+  ],
+  "public_retrieval": [
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+      "final_url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+      "time_utc": "2026-10-14T03:41:35.385529+00:00",
+      "status": 200,
+      "bytes": 36373,
+      "sha256": "077cbc8f10724502107814a7a206a1dc24211a1125b7e6e301aadd941b3f4a64",
+      "file": "assets/fd910d1fc77a-6428-00f1c1ac0ad70f79.js",
+      "content_type": "application/javascript",
+      "sourcemap_header": null,
+      "linked_from": [
+        "buildManifest route /create",
+        "buildManifest route /create-character/new",
+        "buildManifest route /create-character/[id]/add-animation",
+        "buildManifest route /create-object/[id]/animate"
+      ]
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/pages/create-9c5cec3372075418.js",
+      "final_url": "https://www.pixellab.ai/_next/static/chunks/pages/create-9c5cec3372075418.js",
+      "time_utc": "2026-10-14T03:41:35.528969+00:00",
+      "status": 200,
+      "bytes": 517769,
+      "sha256": "819962c897d4640c126a5efa4b6c5a194819e7eeaf023b242d852a64df74779d",
+      "file": "assets/2713c302f049-create-9c5cec3372075418.js",
+      "content_type": "application/javascript",
+      "sourcemap_header": null,
+      "linked_from": [
+        "buildManifest route /create"
+      ]
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/5259.712f0977c9cb2d1d.js",
+      "final_url": "https://www.pixellab.ai/_next/static/chunks/5259.712f0977c9cb2d1d.js",
+      "time_utc": "2026-10-14T03:42:56.563594+00:00",
+      "status": 200,
+      "bytes": 2165,
+      "sha256": "3f3e971002fd609ff75739b85cfd1ce71706ac553911e9a2b1c1084834024628",
+      "file": "assets/8adb1b509159-5259.712f0977c9cb2d1d.js",
+      "content_type": "application/javascript",
+      "sourcemap_header": null,
+      "linked_from": [
+        "assets/a30749705381-6279-4b52898c2c543174.js Worker 5259"
+      ]
+    },
+    {
+      "url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.pck",
+      "final_url": "https://www.pixellab.ai/pixelorama_v0_0_211/pixelorama_pixellab.pck",
+      "time_utc": "2026-10-14T03:46:34.248788+00:00",
+      "status": 200,
+      "bytes": 9283280,
+      "sha256": "398455603cf39fc993c59fca3265ed180e246005da631e918018d0c44d497e4f",
+      "file": "assets/8b65e426d6fe-pixelorama_pixellab.pck",
+      "content_type": "application/octet-stream",
+      "sourcemap_header": null,
+      "linked_from": [
+        "public Godot HTML config and script/service-worker declarations"
+      ]
+    },
+    {
+      "url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+      "final_url": "https://www.pixellab.ai/_next/static/chunks/6428-00f1c1ac0ad70f79.js",
+      "time_utc": "2026-10-14T03:48:40.102154+00:00",
+      "status": 200,
+      "bytes": 36373,
+      "sha256": "077cbc8f10724502107814a7a206a1dc24211a1125b7e6e301aadd941b3f4a64",
+      "file": "assets/fd910d1fc77a-6428-00f1c1ac0ad70f79.js",
+      "content_type": "application/javascript",
+      "sourcemap_header": null,
+      "linked_from": [
+        "worker5259 literalasyncchunk6428"
+      ]
+    }
+  ],
+  "negative_bound": "Literal/matrix-constant search and manual review of identified color paths. Does not exclude algebraically transformed, obscured, unlinked, authenticated, other-build or server implementations. No new network downloads."
+}

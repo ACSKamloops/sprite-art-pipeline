@@ -1,0 +1,57 @@
+{
+  "stage": [
+    128,
+    128
+  ],
+  "base_project_sha256": "3a1978fb87a3795764c08fc706d709c53d57cb3a2efa4451cc28b52e6569a508",
+  "final_project_sha256": "9a098caf31bd16d61a753d0cdb04bc5a70422c8d5642652a72d0739533c527ae",
+  "source_key_sha256": {
+    "00.png": "a05ff84b561781ddfa4f5d611dd11da8e0f3c3298bdcdab7a406d0c1c4c9b143",
+    "02.png": "46a1c770e83de3b8033534d59eaea40a5077c655b31d3f658107ffd0f2b6b37a",
+    "04.png": "e2aa939641b40205dde129898c8919406aad5fe6c1b2d8035badd9170bc5b2c3",
+    "06.png": "323dc17d2edf8f03557695447ecb9cfd860c4c747ba3bce3e895092e2f48c013"
+  },
+  "expected_raw_ne": [
+    {
+      "frame": 0,
+      "png_sha256": "7a4b9b662a0e82e71b651a2d5c719e0fa46f6c2ed0c0559088d19be8a3901ee4",
+      "rgba_sha256": "c059d3f5162b1e3b26fbeaa550263cb0b573f2c6f625a35d788085c57804efaf"
+    },
+    {
+      "frame": 1,
+      "png_sha256": "342e93f4bcece3ed79034f3e002331098c462926cc37fe64e41060b4df6b5ac4",
+      "rgba_sha256": "18ca0a75a6b91171658743f83b37eac4e411d02a445ab02f7688be96a365373e"
+    },
+    {
+      "frame": 2,
+      "png_sha256": "f5e52c9e4cbedeb7ed7312d99477e05b8a9254402ab8767abcba5d301cae964b",
+      "rgba_sha256": "ed5a081a041207da13956e0d6c391bb3292c7a8c037ac9159d8c0de1d2985f2b"
+    },
+    {
+      "frame": 3,
+      "png_sha256": "2c03070c00a8528e23ecf59e47d42c7c3aa0f332bfceaf156cec19eee78dfb25",
+      "rgba_sha256": "48946f60f8d1ea537124732abaeb62f61e669b015c3e21d1c8cfe8d4c844f57f"
+    },
+    {
+      "frame": 4,
+      "png_sha256": "7a0eec0cb0e87c018385a2483077de80ea346a4dc82ba0549e745514abbc1101",
+      "rgba_sha256": "95ef9aa8055751ba17d107f57db0630f1cbc9c0837aed857c47a6d70308b2711"
+    },
+    {
+      "frame": 5,
+      "png_sha256": "650f7162a92d5a24733a6fcc4aaded6df9ac07eb5a43f411371a4d1619e190de",
+      "rgba_sha256": "d565f5438c71399af2ed276ff512797de057c21a1a887ddcefb17a352fc5880b"
+    },
+    {
+      "frame": 6,
+      "png_sha256": "c2fd7b77afea56d4180277e477db30c0022814bf6a706f66d0804fbd681c687a",
+      "rgba_sha256": "e8a75553c250978adf9013fd9774864c0c251d38c66123b7cc8c440c8e6f5cdf"
+    },
+    {
+      "frame": 7,
+      "png_sha256": "36b51a4b1bf90caaf922f940fe077bf8d72e49b1183fd50f3e1516a5ca4d81fa",
+      "rgba_sha256": "c6193877b6b1957b704c254244b0c55fc4f2d4540763f5bb34dd10e0a9ec5e85"
+    }
+  ],
+  "semantic_generation_boundary": "Replays retained native paint and frozen source maps only; ImageGen semantic re-execution is not claimed reproducible."
+}

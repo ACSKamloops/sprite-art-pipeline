@@ -1,0 +1,69 @@
+{
+  "kind": "recovered-host-footprint-source-ledger",
+  "version": 1,
+  "source": {
+    "source_path": "res://src/Autoload/DrawingAlgos.gd",
+    "source_sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+    "span_sha256": "23d4a11762e56134fed1e63c456b998b805eda42dc390d2cd1b5c2b55e36f930",
+    "source_lines": [
+      155,
+      326
+    ],
+    "source_utf8_bytes": [
+      5077,
+      9151
+    ],
+    "retained_pck_sha256": "ebf9812ea474bddb84faa22183a1ec0178983cdc285674a4d0177c606e8a4a3f",
+    "current_pck_sha256": "398455603cf39fc993c59fca3265ed180e246005da631e918018d0c44d497e4f",
+    "recovery": "Unchanged GDRE-recovered source span; no compiled bytecode equivalence claim",
+    "boundary": "Unchanged recovered editor footprint; hosted MCP argv/nested draw grammar and server equivalence unresolved"
+  },
+  "current_pck_source_matches_vendored_bytes": true,
+  "callers": [
+    {
+      "path": "src/Tools/DesignTools/EllipseTool.gd",
+      "sha256": "8cc32e72f39537b356fdab5b8f3185f8c4f3ee820d31231de1eb99a32641dfab",
+      "bytes": 340
+    },
+    {
+      "path": "src/Tools/DesignTools/RectangleTool.gd",
+      "sha256": "c06f5b3eaeab9f844803cc00046aa9deb056c9aebe9ef967dc17ed7336267ad8",
+      "bytes": 810
+    },
+    {
+      "path": "src/Tools/SelectionTools/EllipseSelect.gd",
+      "sha256": "af9a7494da1b3160353ed49ae9f603083f2de73ecd4adb3fcf81b293da1f976d",
+      "bytes": 5719
+    }
+  ],
+  "catalog_baseline": {
+    "captured_commands": 28,
+    "partial_local": 13,
+    "local_pending": 15,
+    "hosted_parser_recovered": false
+  },
+  "oracle": {
+    "file": "FOOTPRINT-ORACLE.json",
+    "sha256": "733cd358fc53972986714099ef374fc975064d482e626b38acdb6b9e0b034930",
+    "cases": 12,
+    "authority": "Direct literal Godot calls to unchanged source span"
+  },
+  "extension_screen": {
+    "files": 112,
+    "suffix": ".lua",
+    "keyword_hits": {
+      "argv": 0,
+      "draw_commands": 0,
+      "argparse": 0
+    },
+    "excluded": "All package.json and credentials; non-Lua files; hosted server"
+  },
+  "rea": {
+    "producer": "ev_b163147459b797e1b8c5542d44184aae0df0f3dc08b13f871f5a937e446a1a18",
+    "summary": "ev_e0419af7f9eb671238dc84d7033576425c8c846fc61edc958e895b2c55c915f1",
+    "argv_trace": "ev_268fadb7a3161c4e7eeb5a373fc70472b6e12d4fae7f202ff879723e707aec61",
+    "semantic_unknowns": 837,
+    "application_coverage": "partial"
+  },
+  "provider_calls": 0
+}

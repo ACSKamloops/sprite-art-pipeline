@@ -1,0 +1,586 @@
+{
+  "scope": "Sourcefirst construction acceptance specification; allTcases frozenfutureexpectations, zeroexecutionbythisproducerpass",
+  "baseline_workbench_commit": "8e02205b492bc0527adf369f093efe63a2983250",
+  "toolkit_root": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit",
+  "anchors": [
+    {
+      "id": "S01",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py",
+      "sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "line_start": 9,
+      "line_end": 46,
+      "utf8_start": 195,
+      "utf8_end_exclusive": 4013,
+      "fragment_sha256": "e8e98a14e47b19e370f81cb304eccd261d759133bfd8d1c1a7e30cd1f717160f",
+      "claim": "Strict bounded-safe integer coordinate/index fields; percanvas16,777,216 cap only, no aggregate cel/frame/layer/history cap; duplicate layernames allowed whileIDs unique."
+    },
+    {
+      "id": "S02",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py",
+      "sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "line_start": 51,
+      "line_end": 72,
+      "utf8_start": 4152,
+      "utf8_end_exclusive": 5456,
+      "fragment_sha256": "10c26454c789a2ab9166f626c25ef977c2b86a81d0b9e34a6ff87ec327333a1d",
+      "claim": "render_cel uses palette[index], preserving rawhiddenRGBA. Composite skips alpha0 and uses exact integer sourceover formula; these are separate domains."
+    },
+    {
+      "id": "S03",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py",
+      "sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "line_start": 83,
+      "line_end": 118,
+      "utf8_start": 6052,
+      "utf8_end_exclusive": 9926,
+      "fragment_sha256": "4a03bad554813f5899e060cf18c77bc5cac2d82a393116c19b1d4da490938959",
+      "claim": "Translateclips any nonzero index even invisiblealias unlessallow_clip; locked cel/globalpalette guards; explicit mask/celhash candidateprecondition; timing/pivots named operations."
+    },
+    {
+      "id": "S04",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py",
+      "sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "line_start": 121,
+      "line_end": 138,
+      "utf8_start": 9979,
+      "utf8_end_exclusive": 11792,
+      "fragment_sha256": "fca8af6fb63c5d60f7240c76e993c9d5e92648063347b85e123eb7a08b53bdcc",
+      "claim": "Transaction works on deepcopied project, validates finalstate and emitsindex+compositeRGBA diff; beforehash is exactcanonicalcontent hash."
+    },
+    {
+      "id": "S05",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/history.py",
+      "sha256": "8abcfa7f40f10a332025b7ff1e3a24cb62bbe728ba5b53a6f40ad2e77878a487",
+      "line_start": 3,
+      "line_end": 24,
+      "utf8_start": 69,
+      "utf8_end_exclusive": 2174,
+      "fragment_sha256": "8863c7adb2bbfbc8c519faad2fb3da3288aab2ad366c53a711da49184f758ce5",
+      "claim": "History retains deepcopied snapshots/receipts, cursor,redo; replay recomputes receipts. Unknownjournalfields and missingreceipt.transaction are not strictly admitted here."
+    },
+    {
+      "id": "S06",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/loading.py",
+      "sha256": "2be3deac078a6683fdd7382a2fd42764d47e17d2e2ea5023d563d50c5a655da0",
+      "line_start": 7,
+      "line_end": 24,
+      "utf8_start": 204,
+      "utf8_end_exclusive": 865,
+      "fragment_sha256": "7c61435b1fde987ee999d4ddb6b1e17d921a71a9dc5f0d18e50263e8360f8a6c",
+      "claim": "Portable loader rejects unsafeinteger/nonfinite literals, normalizes safe integraldecimals; direct APIs remain strict actualint."
+    },
+    {
+      "id": "S07",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/canonical.py",
+      "sha256": "5033c9879ac3269e3c9f6978f85c97997eb83dd3e45665e993a4326d6f421ed3",
+      "line_start": 5,
+      "line_end": 30,
+      "utf8_start": 134,
+      "utf8_end_exclusive": 1560,
+      "fragment_sha256": "5d95887370e78153fcb63656c2b5f1b3e8ea400b8be4ca49da4b1be85ded418c",
+      "claim": "UTF16 keyorder, UTF8strings, shortest repr-driven numberformat/negativezero normalization; hugeinteger math.isfinite occurs before saferange guard."
+    },
+    {
+      "id": "S08",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/aseprite.py",
+      "sha256": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+      "line_start": 14,
+      "line_end": 32,
+      "utf8_start": 592,
+      "utf8_end_exclusive": 3444,
+      "fragment_sha256": "55b760d9166527a752852aad869a4c21b2caa64cbd4a6c87eb1bb075558c2fe6",
+      "claim": "RGBA ASE export writes fullcanvasnormal layers and selected sequence. Timing uses cumulative floatrounded boundaries, not independentrounding eachhold; output+sidecar directlyoverwritten upstream."
+    },
+    {
+      "id": "S09",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/aseprite.py",
+      "sha256": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+      "line_start": 34,
+      "line_end": 52,
+      "utf8_start": 3445,
+      "utf8_end_exclusive": 6054,
+      "fragment_sha256": "67f49c35923f5da4488b961a811ec101e6624945314442baa8a1e3dd9174c76b",
+      "claim": "Whole-file read; decoded cel perimage bound but unbounded zlib.decompress, canvas/aggregateallocation omitted; cropped/linked normalcels copied tofullcanvas; unknownchunk types silentlyskipped."
+    },
+    {
+      "id": "S10",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/aseprite.py",
+      "sha256": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+      "line_start": 54,
+      "line_end": 69,
+      "utf8_start": 6055,
+      "utf8_end_exclusive": 8164,
+      "fragment_sha256": "44928885f5849ebec8487786a6be2160aa2cac0c7a8722c02cd1e3eed3d1e3a5",
+      "claim": "Sidecar plainjson loader validates projecthash then compares orderedlayernames andframecount/ms; preserves unchangedindexaliases, forks changedframebindings; repeatedIDs mustagree."
+    },
+    {
+      "id": "S11",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/candidate.py",
+      "sha256": "c69002c5c5071abbcb93cb46b31384e7e571a097564e29ad6ebf67cccf48b8ba",
+      "line_start": 4,
+      "line_end": 13,
+      "utf8_start": 105,
+      "utf8_end_exclusive": 1402,
+      "fragment_sha256": "934e34573d08257377a50e47ba575de30c5dd8b7b42846f24f910a0400583d8d",
+      "claim": "Candidate import checks fullcanvas andoutside-maskRGBA then preserves unchangedindexaliases andadds neededexactRGBA colors; no resize/recenter."
+    },
+    {
+      "id": "S12",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/export.py",
+      "sha256": "e108d5abbaf45c0ecb8adef849967fddfec9a9dd24f769c9be948459dc690075",
+      "line_start": 10,
+      "line_end": 14,
+      "utf8_start": 404,
+      "utf8_end_exclusive": 1716,
+      "fragment_sha256": "fbaceec023534366a82ba2a9e0e00d99e11f29aef8a16b46d7f0bda095090e9f",
+      "claim": "Upstream export_project writes into existingdirectories andallocates aggregateatlas without ownarea cap; wrapper must addpreservation andbudget."
+    },
+    {
+      "id": "S13",
+      "path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/export.py",
+      "sha256": "e108d5abbaf45c0ecb8adef849967fddfec9a9dd24f769c9be948459dc690075",
+      "line_start": 26,
+      "line_end": 42,
+      "utf8_start": 3288,
+      "utf8_end_exclusive": 5600,
+      "fragment_sha256": "c147c22029d0be090d5801d5eaf7ed0f0f7822cfa33509bad94d03ede7d3f550",
+      "claim": "ORA fullZIP.read/JSON/XML/PIL ingestion has no aggregate expansion/memberbudget; imageconvert precedes dimensionscheck; notanexternal LibreSprite provenpath."
+    }
+  ],
+  "requirements": [
+    {
+      "id": "R01",
+      "name": "distinct-indexed-profile",
+      "required_behavior": "Store dense indices and orderedpalette including duplicatealiases asauthoritative; use toolkit palette[index] withreservedentry0. NativePixelorama k\u2192palette[k-1] remains separatelyprofiled/unimplemented.",
+      "anchors": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "R02",
+      "name": "immutable-construction",
+      "required_behavior": "Canonical project,journal,historysnapshot,transaction,andexportsource IDs are immutable. Expectedhead/project/cel hashes guard changes; stale/rejected inputs preserve acceptedhead andsourcebytes.",
+      "anchors": [
+        "S04",
+        "S05",
+        "S11"
+      ]
+    },
+    {
+      "id": "R03",
+      "name": "alias-and-sharing",
+      "required_behavior": "Do notdeduplicate palette orsharedcelIDs. Livecel edit changes allreferencing frames; exchange editingone occurrence forks asdefined, others untouched; repeatedsameframeID edits mustconsistent.",
+      "anchors": [
+        "S03",
+        "S10"
+      ]
+    },
+    {
+      "id": "R04",
+      "name": "raw-vs-composite",
+      "required_behavior": "Compare rawcelRGBA/indices separately fromflattenedcomposite. Zeroalpha aliases maycarryhiddenRGB butcomposite omits them. Preserve partialalpha exact integerformula; do notcompare premultipliedbrowserreadback asrawgolden.",
+      "anchors": [
+        "S02"
+      ]
+    },
+    {
+      "id": "R05",
+      "name": "locks-and-locality",
+      "required_behavior": "Lockedcel andglobalpalette indicesaffectinglockedcels reject. Maskcoords unique/fullcanvas, outside-maskindices+rawRGBA unchanged; explicitclip flag pertranslation.",
+      "anchors": [
+        "S03",
+        "S11"
+      ]
+    },
+    {
+      "id": "R06",
+      "name": "clock-events",
+      "required_behavior": "Originalticks, floatfps representation, loop, events, landmarks,pivots remainauthoritative. Correctlocal wrapper converts toexactFraction fromdeclarednumeric representation. ASEms onlypreview; perframe cumulativeboundaryerror recorded.",
+      "anchors": [
+        "S08",
+        "S10"
+      ]
+    },
+    {
+      "id": "R07",
+      "name": "portable-canonical-input",
+      "required_behavior": "Use portablefinite/safe JSON admission atfile/channel boundaries; preserveUTF16 ordering/UTF8 strings/negativezero semantics; neverreplace toolkit projecthash withgenericStorehash. Reject hugevalues structurally withoutOverflowError.",
+      "anchors": [
+        "S01",
+        "S06",
+        "S07"
+      ]
+    },
+    {
+      "id": "R08",
+      "name": "aggregate-resource",
+      "required_behavior": "Beforedeepcopy/hash/render/import: bound documentbytes/depth/stringlengths, palette/layers/cels/frames/animationrefs/historyrecords andtotalindexedpixels/renderbytes/atlaspixels. Countduplicate references actualwork. Rejectbefore largeallocation.",
+      "anchors": [
+        "S01",
+        "S05",
+        "S09",
+        "S12"
+      ]
+    },
+    {
+      "id": "R09",
+      "name": "history-exactness",
+      "required_behavior": "Undo/redo mustrestore allindices,palettealiases,layer/framesharing,ticks/events/pivots andcanonicalhash. Journalreplay recomputesreceipts andvalidatescursor; branch-afterundo discardsredo. Mutating returned copies cannotaffectacceptedstate.",
+      "anchors": [
+        "S04",
+        "S05"
+      ]
+    },
+    {
+      "id": "R10",
+      "name": "safe-ASE-decoding",
+      "required_behavior": "Bound inputfile/header counts/canvas/frame/layer/celaggregate beforedecode; usebounded zlibstream withexpected4*cw*ch+1 ceiling andreject oversize/truncated/trailing streams beforefullRGBA/PILallocate. Unsupported compositing chunks reject ratherthansilentmisrender.",
+      "anchors": [
+        "S09"
+      ]
+    },
+    {
+      "id": "R11",
+      "name": "sidecar-authorship",
+      "required_behavior": "Sidecar mustbind immutableoriginal project/export provenance; validate finite/strictschema, sequence/animation andderivedquantizedtiming againstoriginal notarbitraryuntrustedlists. Resavedfile hashmaydiffer, butallowed edits areexplicit; do notclaimcryptographicauthentication.",
+      "anchors": [
+        "S08",
+        "S10"
+      ]
+    },
+    {
+      "id": "R12",
+      "name": "layer-identity-and-exchange",
+      "required_behavior": "Orderedname checks cannotdetect reordering ofduplicatenames; reject ambiguity atASEexport/import oruse independentlypreserved stableidentity. Normalcropped/linkedRGBA only; actualLibreSprite verification requiredforhostclaim.",
+      "anchors": [
+        "S01",
+        "S10"
+      ]
+    },
+    {
+      "id": "R13",
+      "name": "preservation",
+      "required_behavior": "Use fresh output orsafeatomicexclusivewrites; do notinherit upstreamoverwrite. .ase+sidecar pair cannotbeadvertised crashatomic withoutseparatetransaction/preservationevidence. Candidatefilesmayremain afterfailure, acceptedhead mustnotchange.",
+      "anchors": [
+        "S08",
+        "S12"
+      ]
+    },
+    {
+      "id": "R14",
+      "name": "host-and-art-boundaries",
+      "required_behavior": "Local corrected indexedhistory/realRGBA exchange doesnotclose nativeAseprite paletteindex/rawdraw/undo/runtime/version/shaderparity; GUIeditor andaccepted humanoid art stillseparate. No prior skillmechanical/artacceptance transfersbyreference.",
+      "anchors": [
+        "S02",
+        "S08",
+        "S10"
+      ]
+    }
+  ],
+  "independent_base_fixture": {
+    "schema": "sprite-edit-project/v1",
+    "canvas": {
+      "width": 3,
+      "height": 1,
+      "render_pivot": [
+        1,
+        0
+      ],
+      "ground_pivot": [
+        1,
+        1
+      ]
+    },
+    "palette": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        17,
+        31,
+        43,
+        255
+      ],
+      [
+        17,
+        31,
+        43,
+        255
+      ],
+      [
+        71,
+        83,
+        97,
+        127
+      ],
+      [
+        29,
+        37,
+        41,
+        0
+      ]
+    ],
+    "layers": [
+      {
+        "id": "body",
+        "name": "Body",
+        "locked": false
+      }
+    ],
+    "cels": {
+      "shared": {
+        "layer_id": "body",
+        "pixels": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "frames": [
+      {
+        "id": "f0",
+        "duration_ticks": 1,
+        "cels": {
+          "body": "shared"
+        },
+        "landmarks": {
+          "hand": [
+            1,
+            0
+          ]
+        }
+      },
+      {
+        "id": "f1",
+        "duration_ticks": 2,
+        "cels": {
+          "body": "shared"
+        },
+        "landmarks": {
+          "hand": [
+            1,
+            0
+          ]
+        }
+      }
+    ],
+    "animations": [
+      {
+        "id": "walk",
+        "frames": [
+          "f0",
+          "f1"
+        ],
+        "fps": 60,
+        "loop": false,
+        "events": [
+          {
+            "at_tick": 1,
+            "name": "contact"
+          }
+        ]
+      }
+    ],
+    "provenance": {
+      "fixture": "independent-index-alias-partialalpha-v1"
+    }
+  },
+  "future_cases": [
+    {
+      "id": "T01",
+      "name": "alias-no-edit",
+      "input_mutation": "Base unchanged export/reimport",
+      "independent_expected": "Indices[2,3,4] remainexact evenindex1 duplicatescolor2; rawcelRGBA[[17,31,43,255],[71,83,97,127],[29,37,41,0]], compositelastpixel[0,0,0,0].",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T02",
+      "name": "sharedcel-edit",
+      "input_mutation": "Paintshared[0,0]\u2192index1",
+      "independent_expected": "Bothf0/f1 reference samecel andindexchanges2\u21921; projecthashchanges evenvisibleRGBA unchanged; undoexactindicesalias2 restored.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T03",
+      "name": "globalpalette-history",
+      "input_mutation": "Editindex2 RGBA[101,103,107,255]",
+      "independent_expected": "Bothframes visiblepixel0 changes; celindices remain2; diff.cels indexcoordinates canbeempty whilediff.frames actualRGBA changes; undo+redo restorespaletteandexacthash.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T04",
+      "name": "lock-and-palette",
+      "input_mutation": "Lockbody thenpaint orpalette2 modification",
+      "independent_expected": "Validationfailure; immutableproject/journal/head unchanged, noacceptedpartialstate.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T05",
+      "name": "invisiblealias-clip",
+      "input_mutation": "Translate+1 whileindex4 atlastpixel",
+      "independent_expected": "allow_clipfalse rejects becauseindex4nonzero despitealpha0; true explicitclipallowed, ticks/events/pivots unchanged.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T06",
+      "name": "candidate-mask-alias",
+      "input_mutation": "Candidate identicalRGBA onlypoint0 mask, outsidepoint2modifiedhiddenRGBnegative",
+      "independent_expected": "Identicalpoint0 retainsalias2; outsidehiddenRGBchange rejects. Indexlevelpatch switchingoutsidealias2\u21921 rejects evenequalRGBA.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T07",
+      "name": "history-snapshot",
+      "input_mutation": "Apply\u2192undo\u2192newedit\u2192redo; mutate returnedreceipt/snapshot/journal",
+      "independent_expected": "Redo branchdiscarded; externalreturnedcopymutation doesnotchange acceptedproject orsavedhistory; malformed/tamperedreceipt preconditions reject.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T08",
+      "name": "finite-canonical",
+      "input_mutation": "JSON1.0 vs1e0 index, NaN/Infinity/unsafeints/invalidsurrogates anddeepdocument",
+      "independent_expected": "IntegralJSONnormalize toactualint andsameprojecthash; unsafe/nonfinite/depthbudget rejectstructured. DirectAPI1.0integerfield rejects. Hugefps/provenance10**400 rejects without rawOverflowError.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T09",
+      "name": "resource-admission",
+      "input_mutation": "Too many tinycels/frames/historyrefs ordeclaredlargeemptyASEcanvas",
+      "independent_expected": "Reject aggregatebudgetbefore rendering orallocation; do notstressmemory toprove it. Boundspy canverify reacheddecoder calllimits.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T10",
+      "name": "partial-source-over",
+      "input_mutation": "Separate1px back[21,151,241,96],front[201,33,18,64]",
+      "independent_expected": "Independent straight-alpha golden[106,95,136,136]. RawcelpartialRGBA exact; compositeclock/pivot unchanged.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T11",
+      "name": "ASE-cumulative-clock",
+      "input_mutation": "Three1tick occurrences@60fps",
+      "independent_expected": "Exportms[17,16,17], total50ms; originalthreeholds1/60s retainedsidecar. Do notexpectindependent[17,17,17].",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T12",
+      "name": "ASE-cropped-linked",
+      "input_mutation": "3x1canvas,cropped1x1 cel x1 thenlinkedfrompreviousframe atx2",
+      "independent_expected": "Rawpixel sameexpected[17,31,43,255], fullcanvasplacement differsx1/x2; offsets/layerindex andformatconstraints verified independently.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T13",
+      "name": "ASE-one-frame-fork",
+      "input_mutation": "Twoframes sharecel, externaleditonlyf0RGBA",
+      "independent_expected": "Onlyf0 bindingforks; f1 stilloriginalsharedcel, originalsourcecel/projectbytes remain; repeatedsameframeID conflicting externaledits reject.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T14",
+      "name": "ASE-lock-layer-order",
+      "input_mutation": "Rename/reorder/opacity/zindex/group orduplicatelayernames",
+      "independent_expected": "Rejectunsupported. Duplicatelayernames mustnot claimreorderdetectability fromnamesalone. No silentfallbacktorenderedflattening.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T15",
+      "name": "ASE-bounded-decompression",
+      "input_mutation": "Validtiny1x1celheader withcompressed64KiB rawpayload",
+      "independent_expected": "Rejectexpected4byteceiling usingboundeddecoder; nevereagerinflate64KiB beforechecking. Truncatedstream/trailingpayload/headercount errors structured.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T16",
+      "name": "sidecar-tamper",
+      "input_mutation": "NonobjectJSON, missing/extra fields, staleprojecthash, changedsequence/timing/fps orsurrogate",
+      "independent_expected": "Validate againstderivedoriginalmetadata; rejectwithoutacceptedhistory/headchange. Timingclaims mustnotbeacceptedsolelybecauseuntrustedsidecaragreeswithchangedASE.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T17",
+      "name": "preservation-paths",
+      "input_mutation": "Existingase/sidecar/exports, symlink, outputalias, invalidanimationselection",
+      "independent_expected": "Rejectbeforeoverwriting; upstreamfiles/sentinel/master preserved. A pairpartialfailure isretainedandexplicit, neveracceptedassuccess.",
+      "status": "pending producer-ready tests"
+    },
+    {
+      "id": "T18",
+      "name": "actual-LibreSprite",
+      "input_mutation": "Realtoolopen/save/reopen actual1\u20132frame normalRGBA fixture +sourcealiases",
+      "independent_expected": "Require outputfile anddecodedlayer/clock/order/partialalpha comparison, notexit0. Recordexactbinary/version/input/outputdigests. HiddenRGBAtoolnormalization ifany remainsexplicit loss, originalindexedsidecar stillauthoritative.",
+      "status": "pending producer-ready tests"
+    }
+  ],
+  "native_indexed_host_authority": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/full-reconstruction/INDEXED-HOST-SOURCE-CLOSURE.json",
+    "sha256": "4c58e2e3ef90d528a50454fa8a6315c38129711a10ec1e2c51bfa787d47b940f",
+    "status": "Selectedclientchain answered; actualhost/GPU/versionbehavior unverified, notlocalindexedhistoryapproval"
+  },
+  "upstream_hazards": [
+    {
+      "id": "H01",
+      "anchors": [
+        "S01",
+        "S05",
+        "S09",
+        "S12",
+        "S13"
+      ],
+      "status": "source-observed unbounded admission/allocation paths, notproducerincident",
+      "risk": "Per-canvas cap doesnotboundaggregateprojects/history/decoded ASE/ORA oratlas. Boundedwrapperbudgetrequired."
+    },
+    {
+      "id": "H02",
+      "anchors": [
+        "S07",
+        "S01"
+      ],
+      "status": "source-observed risky ordering, tiny futurecanary specified",
+      "risk": "Hugeinteger math.isfinite precedesrangecheck incanonical/fps; wrappermustrejectstructuredbeforecalling."
+    },
+    {
+      "id": "H03",
+      "anchors": [
+        "S09"
+      ],
+      "status": "source-observed eagerdecompression, futureboundedspycase",
+      "risk": "Unbounded zlib.decompress checksrawlenonlyafterallocation."
+    },
+    {
+      "id": "H04",
+      "anchors": [
+        "S01",
+        "S10"
+      ],
+      "status": "source-defined duplicate-name ambiguity, notexternalincident",
+      "risk": "Orderednameidentity cannotdetectreorderingofidenticallynamedlayers; rejectambiguousexchangeoraddstableID."
+    },
+    {
+      "id": "H05",
+      "anchors": [
+        "S08",
+        "S10"
+      ],
+      "status": "source-observed overwrite/rawJSON/derivedmetadata boundary",
+      "risk": "Sidecar strictschema/timingderivedguards andexclusiveoutputs needed; sourcepairwrite notatomic."
+    }
+  ],
+  "remaining_boundaries": [
+    "NativePixelorama k-1decoder/rawdraw/indexedbufferundo/shaderundefinedtexelfetch/runtimeaffinity",
+    "NativeAseprite/LibreSprite formats beyonddeclarednormal32bitRGBA exchange andspecificactualtestedbinary",
+    "GUIhistory/rawdraw parity, indexed8/16bitASE exchange, art/motionapproval"
+  ],
+  "execution_counts": {
+    "producer_tests": 0,
+    "native_tool_calls": 0,
+    "provider_calls": 0,
+    "model_calls": 0
+  }
+}

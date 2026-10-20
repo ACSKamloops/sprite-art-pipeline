@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="4" time="0.231" timestamp="2026-10-12T17:03:17.974816-07:00" hostname="AstraPC"><testcase classname="tests.test_consolidation_runtime_review" name="test_nullable_ownership_scene_has_editable_exchange" time="0.046"><failure message="AttributeError: 'NoneType' object has no attribute 'get'">tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-baseline/test_nullable_ownership_scene_0')
+
+    def test_nullable_ownership_scene_has_editable_exchange(tmp_path):
+        store = Store(tmp_path/'store')
+        art = np.array([[[255,0,0,255]]],dtype=np.uint8)
+        mask = np.array([[[0,0,0,255]]],dtype=np.uint8)
+        scene = {'canvas':[1,1], 'nodes':[{'id':'p','raster':store.put_raster(art),
+                  'mask':store.put_raster(mask),'ownership':None}], 'frames':[{'duration':[1,10]}]}
+        sequence = render_scene(store,scene)
+        load_sequence(store,sequence)  # It is an admitted valid local scene.
+&gt;       report = export_sequence(store,sequence,tmp_path/'editable',['editable'])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_consolidation_runtime_review.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+sprite_workbench/export.py:415: in export_sequence
+    artifacts = _artifact_closure(store,ident)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+store = &lt;sprite_workbench.core.Store object at 0x72d7242f01a0&gt;
+ident = 'fdef99894bb8e6f89df61359308602e4cb46b72f07b5d7420457814f35c60ea5'
+
+    def _artifact_closure(store, ident):
+        pending = [(ident,True)]; done = {}; interpreted = set()
+        while pending:
+            key,document = pending.pop()
+            if key in done and (not document or key in interpreted):
+                continue
+            raw = store.get_bytes(key); done[key] = raw
+            if sum(map(len,done.values())) &gt; MAX_SEQUENCE_BYTES * 2:
+                raise ValidationError('Editable artifact closure exceeds local byte budget')
+            if not document:
+                continue  # Raw RGBA blobs are never interpreted as JSON, even if their bytes happen to parse.
+            interpreted.add(key)
+            try:
+                doc = json.loads(raw)
+            except (ValueError,UnicodeDecodeError):
+                continue
+            if not isinstance(doc,dict):
+                continue
+            if doc.get('kind') == 'rgba':
+                pending.append((doc['blob'],False))
+            elif doc.get('kind') == 'sequence':
+                pending.extend((f['raster'],True) for f in doc['frames'])
+                meta = doc.get('metadata',{})
+                for field in ['scene_id','parent_sequence','raster_decision','preparation','parent','recipe','track_audit','terrain_recipe','font_atlas','poster_raster','pipeline_plan']:
+                    if meta.get(field):
+                        pending.append((meta[field],True))
+                if meta.get('source_bytes'):
+                    pending.append((meta['source_bytes'],False))
+                pending.extend((sid,True) for sid in meta.get('source_ids',[]))
+                pending.extend((sid,True) for sid in meta.get('pipeline_source_sequences',[]))
+                pending.extend((sid,True) for sid in meta.get('sources',{}).values() if sid)
+                pending.extend((p['raster'],True) for p in meta.get('placements',[]) if p.get('raster'))
+                pending.extend((sid,True) for sid in meta.get('viseme_rasters',{}).values())
+            elif doc.get('kind') == 'layered-scene':
+                pending.extend((sid,True) for sid in doc['source_ids'])
+                if doc['scene'].get('metadata',{}).get('track_audit'):
+                    pending.append((doc['scene']['metadata']['track_audit'],True))
+                for frame in doc['frame_layers']:
+                    for layer in frame['layers']:
+                        pending.extend((layer[k],True) for k in ['raster','mask','transformed_raster','transformed_mask'])
+                guards = doc['scene'].get('guards',{})
+                pending.extend((guards[k],True) for k in ['reference_sequence','palette_reference'] if k in guards)
+                pending.extend((p['mask'],True) for p in guards.get('protected',[]))
+                # Base parts remain editable even when every rendered pose overrides them.
+                declared = list(doc['scene'].get('nodes',[]))
+                declared.extend(n for f in doc['scene'].get('frames',[]) for n in f.get('nodes',{}).values())
+                for node in declared:
+                    pending.extend((node[k],True) for k in ['raster','mask'] if node.get(k))
+&gt;                   if node.get('ownership',{}).get('source'):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E                   AttributeError: 'NoneType' object has no attribute 'get'
+
+sprite_workbench/export.py:235: AttributeError</failure></testcase><testcase classname="tests.test_consolidation_runtime_review" name="test_false_string_cannot_acknowledge_unsupported_export" time="0.036"><failure message="AssertionError: assert ('completed' == 'failed'&#10;  &#10;  - failed&#10;  + completed)">tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-baseline/test_false_string_cannot_ackno0')
+
+    def test_false_string_cannot_acknowledge_unsupported_export(tmp_path):
+        store = Store(tmp_path/'store')
+        sequence = save_sequence(store,[np.array([[[1,2,3,128]]],dtype=np.uint8)])
+        def plan(flag,path):
+            return {'version':1,'steps':[
+                {'id':'export','action':'export','sequence':sequence,'directory':path,'formats':['gif'],
+                 'allow_unsupported_formats':flag},
+                {'id':'publish','action':'publish','head':'accepted','artifact':sequence,'expected':None}]}
+        control = execute_plan(store,plan(False,'correct-false'),base_dir=tmp_path)
+        assert control['status'] == 'failed' and store.get_head('accepted') is None
+        observed = execute_plan(store,plan('false','string-false'),base_dir=tmp_path)
+&gt;       assert observed['status'] == 'failed' and store.get_head('accepted') is None
+E       AssertionError: assert ('completed' == 'failed'
+E         
+E         - failed
+E         + completed)
+
+tests/test_consolidation_runtime_review.py:38: AssertionError</failure></testcase><testcase classname="tests.test_consolidation_runtime_review" name="test_documented_every_edit_lineage_includes_standalone_paste" time="0.021"><failure message="AssertionError: assert (None == '9a6b2d626a7e967f59873e95a572821ee84cf2883540e4a36605a104e8b775d2' or None == '9a6b2d626a7e967f59873e95a572821ee84cf2883540e4a36605a104e8b775d2')&#10; +  where None = &lt;built-in method get of dict object at 0x72d72435a400&gt;('parent')&#10; +    where &lt;built-in method get of dict object at 0x72d72435a400&gt; = {'blob': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', 'height': 1, 'kind': 'rgba', 'raw_sha256': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', ...}.get&#10; +  and   None = &lt;built-in method get of dict object at 0x72d72435be00&gt;('parent')&#10; +    where &lt;built-in method get of dict object at 0x72d72435be00&gt; = {}.get&#10; +      where {} = &lt;built-in method get of dict object at 0x72d72435a400&gt;('metadata', {})&#10; +        where &lt;built-in method get of dict object at 0x72d72435a400&gt; = {'blob': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', 'height': 1, 'kind': 'rgba', 'raw_sha256': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', ...}.get">tmp_path = PosixPath('/home/astra/projects/pixellab-workbench-geometry/.test-tmp/consolidation-baseline/test_documented_every_edit_lin0')
+
+    def test_documented_every_edit_lineage_includes_standalone_paste(tmp_path):
+        store = Store(tmp_path/'store')
+        original = np.array([[[255,0,0,255],[0,0,255,255]]],dtype=np.uint8)
+        source = store.put_raster(original)
+        packet = crop(store,source,[0,0,0,0])
+        pasted = paste(store,packet,[[[0,255,0,255]]],expected=packet['guard'])
+        result = store.get_json(pasted)
+        # README says every edit retains parent/change list/source pixels. This entrypoint doesn't.
+&gt;       assert result.get('parent') == source or result.get('metadata',{}).get('parent') == source
+E       AssertionError: assert (None == '9a6b2d626a7e967f59873e95a572821ee84cf2883540e4a36605a104e8b775d2' or None == '9a6b2d626a7e967f59873e95a572821ee84cf2883540e4a36605a104e8b775d2')
+E        +  where None = &lt;built-in method get of dict object at 0x72d72435a400&gt;('parent')
+E        +    where &lt;built-in method get of dict object at 0x72d72435a400&gt; = {'blob': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', 'height': 1, 'kind': 'rgba', 'raw_sha256': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', ...}.get
+E        +  and   None = &lt;built-in method get of dict object at 0x72d72435be00&gt;('parent')
+E        +    where &lt;built-in method get of dict object at 0x72d72435be00&gt; = {}.get
+E        +      where {} = &lt;built-in method get of dict object at 0x72d72435a400&gt;('metadata', {})
+E        +        where &lt;built-in method get of dict object at 0x72d72435a400&gt; = {'blob': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', 'height': 1, 'kind': 'rgba', 'raw_sha256': 'af5cb1fd80a9d41c4727435bdf82fa21de6155f1d32762d685f814879d2aa6c2', ...}.get
+
+tests/test_consolidation_runtime_review.py:49: AssertionError</failure></testcase><testcase classname="tests.test_consolidation_runtime_review" name="test_direct_failed_plan_commits_prior_explicit_publication" time="0.025" /></testsuite></testsuites>

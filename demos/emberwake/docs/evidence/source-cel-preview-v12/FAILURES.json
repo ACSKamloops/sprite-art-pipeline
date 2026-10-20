@@ -1,0 +1,16 @@
+{
+  "preserved_failed_directory": "failed-bake-border-v1",
+  "bake_error": "walk override touches stage border; BrannNE00bbox0,12,128,118",
+  "cause": "11blackalpha1backgroundedgetexels across7sourcecels",
+  "downstream_verifier": "also attempted after failedbake and reported missingBrannatlas; this was an incompletebake, not a verifierpass",
+  "fix": "literal11pixelcleanup, preserved rawart and no guardrelaxation",
+  "export_first_attempt": {
+    "log": "EXPORT-failed-missing-directory.log",
+    "error": "targetfolder didnotexist; explicitcreationthen exportrepeatedsuccessfully",
+    "source_changes": false
+  },
+  "initial_media_probe": {
+    "error": "nativeSHA256SUMSnotyetwritten;generatedledgerbeforeactualencode",
+    "no_media_output_created": true
+  }
+}

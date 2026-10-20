@@ -1,0 +1,2079 @@
+{
+  "inputs": {
+    "lyra": {
+      "atlas.png": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901",
+      "animations.json": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f"
+    },
+    "brann": {
+      "atlas.png": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4",
+      "animations.json": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921"
+    }
+  },
+  "characters": {
+    "lyra": {
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 8,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clips": {
+        "south_idle": {
+          "frames": [
+            14,
+            15
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Both poses preserve face, hair, costume and boot width; subtle pose change and clean wrap. The long two-pose hold is restrained rather than richly animated."
+        },
+        "south_walk": {
+          "frames": [
+            0,
+            120,
+            121,
+            132,
+            4,
+            122,
+            123,
+            133
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Alternating forward boots, shortened swing leg and opposing arms remain legible. Passing poses narrow the leg silhouette; chronology is coherent and wrap is plausible."
+        },
+        "south_attack": {
+          "frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            116,
+            14
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Guard, torso twist and foreshortened forward fist read as unarmed fighting. Wider stance is maintained through the strike; final return reaches the exact idle pose."
+        },
+        "south_cast": {
+          "frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Hands gather centrally before a clearly broader open-palm release; face and torso remain consistent. Return pose joins idle cleanly."
+        },
+        "south_hurt": {
+          "frames": [
+            22,
+            23,
+            14
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Closed eyes and compact guarded dip distinguish the recoil from idle. Rapid recovery is economical; the last frame is idle."
+        },
+        "south_dodge": {
+          "frames": [
+            24,
+            25,
+            26,
+            128,
+            27
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Readable low braced pose, then upright recovery. f26 to f128 makes most of the stance/arm recovery at once; f128 to f27 supplies relatively little remaining rise."
+        },
+        "east_idle": {
+          "frames": [
+            42,
+            43
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Three-quarter side face is recognizable and matches costume proportions; wrap has no identity change."
+        },
+        "east_walk": {
+          "frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Foot separation, folded rear leg and arm counter-swing are clear. Torso remains deliberately stable; no demonstrated limb role reversal in the ordered sequence."
+        },
+        "east_attack": {
+          "frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            117,
+            42
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Extended fist and long forearm make the strike especially clear. Arm remains attached through anticipation, extension and retraction; guard-to-idle recovery is compact."
+        },
+        "east_cast": {
+          "frames": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Open fingers and two-hand projection separate casting from the fist strike at native size, and remain understandable at game proxy scale."
+        },
+        "east_hurt": {
+          "frames": [
+            50,
+            51,
+            42
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Head dip/closed eyes and raised guard are readable, with a clean idle terminal pose."
+        },
+        "east_dodge": {
+          "frames": [
+            52,
+            53,
+            54,
+            129,
+            55
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Forward lean and bent knees clearly signal evasive movement. f54 to f129 straightens the body abruptly; actual perceived snap requires playback."
+        },
+        "north_idle": {
+          "frames": [
+            70,
+            71
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Rear hair mass and teal/gold costume retain identity; small breathing change wraps cleanly."
+        },
+        "north_walk": {
+          "frames": [
+            56,
+            124,
+            125,
+            134,
+            61,
+            126,
+            127,
+            135
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Alternating boots and arm changes are visible behind the large head. Leg occlusion is plausible; no missing limb is established by the still sequence."
+        },
+        "north_attack": {
+          "frames": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            118,
+            70
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Twist and raised striking arm are readable, but the head hides most of the strike in f66/f67. The small fist outside the upper-right hair edge is the weakest attack silhouette at game scale."
+        },
+        "north_cast": {
+          "frames": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Broad paired open hands in f75 are clearly distinct from the compact gathering poses, despite rear-view head occlusion."
+        },
+        "north_hurt": {
+          "frames": [
+            78,
+            79,
+            70
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Shoulder/torso contraction and asymmetry give a short recoil; absence of facial expression in rear view is expected."
+        },
+        "north_dodge": {
+          "frames": [
+            80,
+            81,
+            82,
+            130,
+            83
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Wide low stance is distinguishable from idle. f82 to f130 concentrates the return to a narrow stance; final pose joins idle acceptably."
+        },
+        "west_idle": {
+          "frames": [
+            98,
+            99
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Face, silver hair, teal costume and trim remain consistent with the other views; no obvious size mismatch."
+        },
+        "west_walk": {
+          "frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Leg lift, passing pose and arm counter-swing are clear in the full sequence and wrap. Hair/scarf volumes stay stable."
+        },
+        "west_attack": {
+          "frames": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            119,
+            98
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Strong leftward fist extension and planted wide stance; chronology and return to idle remain legible."
+        },
+        "west_cast": {
+          "frames": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Open palm extension reads at the game proxy scale, though fine finger anatomy becomes a small silhouette detail as expected."
+        },
+        "west_hurt": {
+          "frames": [
+            106,
+            107,
+            98
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Closed-eye contraction and guarded posture clearly depart from idle; short recovery returns cleanly."
+        },
+        "west_dodge": {
+          "frames": [
+            108,
+            109,
+            110,
+            131,
+            111
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Low lean is strong. f110 to f131 makes the main torso/stance recovery, followed by a small final rise; terminal identity remains stable."
+        }
+      },
+      "coverage_totals": {
+        "clips": 24,
+        "ordered_frame_exposures": 128,
+        "unique_source_cells": 120,
+        "within_clip_adjacent_pairs": 104,
+        "loop_wraps": 8,
+        "nonloop_terminal_to_idle_pairs": 16,
+        "same_direction_terminal_to_first_state_pairs": 144,
+        "state_join_limit": "All 6x6 terminal-to-first pairs per direction, including self pairs; no arbitrary in-clip interruption or cross-direction turn acceptance."
+      }
+    },
+    "brann": {
+      "cell": [
+        128,
+        128
+      ],
+      "columns": 8,
+      "pivot": [
+        64,
+        112
+      ],
+      "draw_scale": 0.66,
+      "clips": {
+        "south_idle": {
+          "frames": [
+            14,
+            15
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Curly hair, beard, facial expression, bronze armor and indigo tunic read consistently; wrap is quiet and stable."
+        },
+        "south_walk": {
+          "frames": [
+            0,
+            120,
+            121,
+            129,
+            5,
+            122,
+            123,
+            130
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Alternating boots and arm counter-swing are readable. Red tab changes shape with the gait but remains attached to the waist; no detached or disappearing tab is established."
+        },
+        "south_attack": {
+          "frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            128,
+            14
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Guard, rotating body and forward fist show a coherent unarmed strike. Armor remains attached and final pose returns to idle."
+        },
+        "south_cast": {
+          "frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Central gathering and broad open-hand release are distinct from the fist strike. Bronze highlights preserve arm readability."
+        },
+        "south_hurt": {
+          "frames": [
+            22,
+            23,
+            14
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Head/eye contraction and guard establish recoil, followed by fast recovery to idle."
+        },
+        "south_dodge": {
+          "frames": [
+            24,
+            25,
+            26,
+            128,
+            27
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Low braced stance is readable; f26 to f128 makes most of the return to the upright stance at once."
+        },
+        "east_idle": {
+          "frames": [
+            42,
+            43
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Profile beard and curls preserve identity; bronze volumes remain cohesive across the two idle poses."
+        },
+        "east_walk": {
+          "frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Near/far leg separation, rear foot lift and opposite arm action are visible. Stable upper body suits a compact game gait."
+        },
+        "east_attack": {
+          "frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            117,
+            42
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Arm extension and fist silhouette communicate the strike clearly, with a stable shoulder connection and compact recovery."
+        },
+        "east_cast": {
+          "frames": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Open palm and both hands projecting forward read well; fingers simplify at game scale without losing the action category."
+        },
+        "east_hurt": {
+          "frames": [
+            50,
+            51,
+            42
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Closed eyes, head dip and guarded torso are legible; the idle terminal pose is clean."
+        },
+        "east_dodge": {
+          "frames": [
+            52,
+            53,
+            54,
+            117,
+            55
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Torso lean and lowered center read as evasive. f54 to f117 concentrates the recovery into a straightened pose."
+        },
+        "north_idle": {
+          "frames": [
+            70,
+            71
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Rear armor and indigo/red costume identify the character. Hair outer edge and curl texture have weak contrast against the tested dark background."
+        },
+        "north_walk": {
+          "frames": [
+            56,
+            124,
+            125,
+            131,
+            61,
+            126,
+            127,
+            132
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Full alternating boot cycle is visible in order. Bronze shoulders stay readable; dark hair texture recedes at game scale on the dark background."
+        },
+        "north_attack": {
+          "frames": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            118,
+            70
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Twisting torso and elevated right arm are readable; bronze forearm gives better separation than Lyra, although the head still occludes part of the strike."
+        },
+        "north_cast": {
+          "frames": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Open hands above/outside the shoulder line are distinguishable from gathering and recoil; costume stays attached and recognizable."
+        },
+        "north_hurt": {
+          "frames": [
+            78,
+            79,
+            70
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Torso contraction and raised arm distinguish the recoil. Rear hair has conditional contrast weakness, not an anatomy defect."
+        },
+        "north_dodge": {
+          "frames": [
+            80,
+            81,
+            82,
+            118,
+            83
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Broad crouched stance is clear; f82 to f118 is the main recovery jump before the small final rise."
+        },
+        "west_idle": {
+          "frames": [
+            98,
+            99
+          ],
+          "holds_seconds": [
+            0.58,
+            0.58
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.58
+          ],
+          "duration_seconds": 1.16,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Inspected as the disclosed mirrored symmetric east view; visually coherent but not an independently painted fourth view."
+        },
+        "west_walk": {
+          "frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "holds_seconds": [
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625,
+            0.05625
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.05625,
+            0.1125,
+            0.16875,
+            0.225,
+            0.28125,
+            0.3375,
+            0.39375
+          ],
+          "duration_seconds": 0.45,
+          "loop": true,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Mirrored east cycle remains readable and consistent, including its wrap. No bonus or penalty assigned for the disclosed mirror."
+        },
+        "west_attack": {
+          "frames": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            119,
+            98
+          ],
+          "holds_seconds": [
+            0.06,
+            0.07,
+            0.055,
+            0.055,
+            0.065,
+            0.035,
+            0.035,
+            0.035
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.13,
+            0.185,
+            0.24,
+            0.305,
+            0.34,
+            0.375
+          ],
+          "duration_seconds": 0.41,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Mirrored punch has a clear fist extension and supported stance; terminal joins are consistent."
+        },
+        "west_cast": {
+          "frames": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "holds_seconds": [
+            0.06,
+            0.08,
+            0.1,
+            0.08,
+            0.08,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.06,
+            0.14,
+            0.24,
+            0.32,
+            0.4
+          ],
+          "duration_seconds": 0.5,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Mirrored open-hand projection stays legible and distinct from the fist strike."
+        },
+        "west_hurt": {
+          "frames": [
+            106,
+            107,
+            98
+          ],
+          "holds_seconds": [
+            0.09,
+            0.1,
+            0.1
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.09,
+            0.19
+          ],
+          "duration_seconds": 0.29,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Mirrored guarded recoil and closed-eye dip remain clear, with a clean terminal idle."
+        },
+        "west_dodge": {
+          "frames": [
+            108,
+            109,
+            110,
+            119,
+            111
+          ],
+          "holds_seconds": [
+            0.045,
+            0.105,
+            0.055,
+            0.0275,
+            0.0275
+          ],
+          "presentation_timestamps_seconds": [
+            0,
+            0.045,
+            0.15,
+            0.205,
+            0.2325
+          ],
+          "duration_seconds": 0.26,
+          "loop": false,
+          "coverage": {
+            "all_frames": true,
+            "all_adjacent_pairs": true,
+            "wrap_or_terminal": true,
+            "idle_entry_exit": true,
+            "scales": [
+              "native 128px cell",
+              "nearest 2x 256px cell",
+              "nearest 85px cell (~0.664, proxy for 0.66)"
+            ],
+            "backgrounds": [
+              "#d5d1c9",
+              "#192329"
+            ]
+          },
+          "visual_observation": "Mirrored lean is readable; f110 to f119 concentrates the recovery. This is the same art property as east, not a separate painted-view result."
+        }
+      },
+      "coverage_totals": {
+        "clips": 24,
+        "ordered_frame_exposures": 128,
+        "unique_source_cells": 116,
+        "within_clip_adjacent_pairs": 104,
+        "loop_wraps": 8,
+        "nonloop_terminal_to_idle_pairs": 16,
+        "same_direction_terminal_to_first_state_pairs": 144,
+        "state_join_limit": "All 6x6 terminal-to-first pairs per direction, including self pairs; no arbitrary in-clip interruption or cross-direction turn acceptance."
+      }
+    }
+  },
+  "scale_note": "128px source cell; nearest-neighbor native, 2x, and 85px cell (~0.66406) game proxy"
+}

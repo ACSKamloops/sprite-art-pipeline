@@ -1,0 +1,5 @@
+# Optional deterministic asset rebaking; not needed to play the exported game.
+# Verified with Python 3.14.4. Audio composition also uses system ffmpeg 8.0.1.
+Pillow==12.1.1
+numpy==2.3.5
+scipy==1.17.1

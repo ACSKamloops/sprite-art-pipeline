@@ -1,0 +1,67 @@
+{
+  "scope": "One compact unarmed guard-to-guard jab, one right-three-quarter view. This does not approve all RPG actions or other trial candidates.",
+  "selected_clip_manifest": "rigid-bridges-cuff-volume-v1/manifest.json",
+  "selected_clip_manifest_sha256": "61e85d0a88d5c021d8d26225b7bac1b20acf937d295c9e34fd9f4dab4359c45d",
+  "selected_project_canonical_sha256": "da23829f66c1f8fe53c65ae4e245b9adf6d5ee67be9af2409a04a3cdb6c0bcc3",
+  "review_packet": "packet-11/B",
+  "all10_reviewed_png_bytes_and_holds_exact_to_selected": true,
+  "nominal_all6_categories_at_least8_for_all3_reviewers": true,
+  "minimum_category_score": 8.0,
+  "rows": [
+    {
+      "reviewer": "1",
+      "scores": {
+        "consistency": 8.0,
+        "reference": 8.3,
+        "drawing": 8.0,
+        "motion": 8.1,
+        "usefulness": 8.0,
+        "overall": 8.0
+      },
+      "report": "independent-review-1/packet-11/REVIEW.md",
+      "report_sha256": "113b50d2386b3bb88b4746aa3bb024fa2a203ff9489c6efb82ab8fab3a734a3f",
+      "scores_file": "independent-review-1/packet-11/SCORES.json",
+      "scores_file_sha256": "1651ea90802269de5d95d36e7d092b0c50d61df4a0cede2ae9b45363ecdf7618",
+      "preference": "B, modest and local; a more coherent lower silver plane. No demonstrated motion or overall improvement."
+    },
+    {
+      "reviewer": "3",
+      "scores": {
+        "consistency": 8.6,
+        "reference": 8.2,
+        "drawing": 8.1,
+        "motion": 8.0,
+        "usefulness": 8.1,
+        "overall": 8.0
+      },
+      "report": "independent-review-3/packet11/REVIEW.md",
+      "report_sha256": "a4629db863397e57a617580dcb0ac77377bd5f1093e92aad7c7439cb30f65d8f",
+      "scores_file": "independent-review-3/packet11/scores.json",
+      "scores_file_sha256": "a2bb04576ce6149afbfa3106914c75f8878dc61b6f4e4a14375639821b2a5d91",
+      "preference": "A, weak local preference; do not adopt the extra B cuff change as an improvement."
+    },
+    {
+      "reviewer": "4",
+      "scores": {
+        "consistency": 8.7,
+        "reference": 8.8,
+        "drawing": 8.5,
+        "motion": 8.2,
+        "usefulness": 8.4,
+        "overall": 8.3
+      },
+      "report": "independent-review-4/packet11/REVIEW.md",
+      "report_sha256": "45c899210ae29bdbd511d98b7588bb17615462c09906e53325002c7716cd3550",
+      "scores_file": "independent-review-4/packet11/scores.json",
+      "scores_file_sha256": "ab7bf93dd7a5ffd28f5dfb470d36dc7e599e4c966782fe345f5a302acb595b72",
+      "preference": "Weak preference B at nearest 2x for fuller lower metal plane and silver/tan balance; no demonstrated further category-score gain"
+    }
+  ],
+  "limits": [
+    "History-aware independent masked labels, not cold-blind or unanimous preference.",
+    "One reviewer prefers the prior ten-pixel cuff locally; selected still scores at least8 in each category.",
+    "Scores are subjective; the0.1 drawing change is smaller than stated absolute uncertainty.",
+    "All motion reviews reconstruct still chronology; continuous human playback/controller approval is not established.",
+    "Browser and Godot receipts prove transport/runtime separately; they do not confer art ratings."
+  ]
+}

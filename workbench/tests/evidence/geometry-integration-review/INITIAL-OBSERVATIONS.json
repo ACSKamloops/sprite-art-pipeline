@@ -1,0 +1,114 @@
+{
+  "reviewed_commit": "87d16bb92991709bd23b3838a76365112de9d6be",
+  "source_hashes": {
+    "sprite_workbench/pipeline.py": "7c8f66af4b5b5bcf602427a4834f479b7673ee047b279de2b11b694cc601e27e",
+    "sprite_workbench/tracks.py": "2119852c78c8d6692a0ab29e1750aeb3807c42167e52e9889148d41b52fffbc9",
+    "sprite_workbench/composition.py": "d136063617b204319f968d4c03bdcbbb323958fac2aa0b4aae9930192ff9f83f",
+    "sprite_workbench/core.py": "cdb3d50261411ccb0e4de7963244b68d6f3372ab3d302fdae343bfc11423a653",
+    "sprite_workbench/scene.py": "eb190f755692cc56ee432fe8fd0e5c461c925e6268b6d1a70a9fa862cbbe5abf",
+    "sprite_workbench/export.py": "55db1f7f7a4afc0e00dab3eec97875373ad57054ff70fe69966b78978cfaf098",
+    "sprite_workbench/review.py": "d99b147cf45cb86dfd6121e958eab4f9ea6f253811aa4d90db91b4f31aec9095",
+    "sprite_workbench/raster.py": "a88a3136d31c35149086005063b9b9faa1a1aab4b175db65a4d09e5bc718a0f7",
+    "sprite_workbench/acquisition.py": "b6cb3dca16170831463c4d6aea62db4223236b026cfa9fae480dbcd5353d8752"
+  },
+  "initial_test_outcome": "6 failed,1 passed; failures remain product invariants, not reclassified passes",
+  "whole_chain_execution_status": "completed",
+  "source_input_kind": "explicit asymmetric supplied-art mechanical markers; art/motion unreviewed",
+  "hidden_rgb_loss": [
+    {
+      "frame": 0,
+      "rgba_changed_pixels": 1,
+      "alpha_changed_pixels": 0,
+      "visible_rgba_changed_pixels": 0
+    },
+    {
+      "frame": 1,
+      "rgba_changed_pixels": 1,
+      "alpha_changed_pixels": 0,
+      "visible_rgba_changed_pixels": 0
+    },
+    {
+      "frame": 2,
+      "rgba_changed_pixels": 0,
+      "alpha_changed_pixels": 0,
+      "visible_rgba_changed_pixels": 0
+    },
+    {
+      "frame": 3,
+      "rgba_changed_pixels": 0,
+      "alpha_changed_pixels": 0,
+      "visible_rgba_changed_pixels": 0
+    },
+    {
+      "frame": 4,
+      "rgba_changed_pixels": 1,
+      "alpha_changed_pixels": 0,
+      "visible_rgba_changed_pixels": 0
+    }
+  ],
+  "missing_editable_lineage": [
+    {
+      "label": "bake-sequence",
+      "id": "f9d23586fc39d40ec76c0de5479f5b7e2c6c38e697cc70ce730ec3adaf6e2dc4"
+    },
+    {
+      "label": "patch-sequence",
+      "id": "9529586b2430808a6c4072a66c3817c932b8cd1e308735ea433b163cc3c7354f"
+    },
+    {
+      "label": "track-audit",
+      "id": "3e71f5004e0a836f85ecdd83a22289a243bae6ccb7225b5b1178808f64bb3d54"
+    },
+    {
+      "label": "encoded-source",
+      "id": "be72a79edd1625238ce6c823a37f58803930b0109b7ca962b38c907ef21175ed"
+    }
+  ],
+  "expected_clock_seconds": [
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      1,
+      20
+    ]
+  ],
+  "actual_clock_seconds": [
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      1,
+      20
+    ],
+    [
+      1,
+      20
+    ]
+  ],
+  "new_model_paid_network_calls": false,
+  "negative_control_pass": "unsupported GIF stops before publication; stale CAS leaves existing head unchanged",
+  "limits": "prepare.py absent in reviewed three-commit snapshot; importer path used. Current parent owner fixes not incorporated."
+}

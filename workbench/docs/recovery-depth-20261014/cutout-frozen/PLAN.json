@@ -1,0 +1,75 @@
+{
+  "allow_redirects": false,
+  "automatic_retries": 0,
+  "endpoint": "https://api.pixellab.ai/v2/remove-background",
+  "inputs": [
+    {
+      "path": "inputs/REGIONS.json",
+      "sha256": "a798acab742d0b32f9ae4846af8ad3a9fafa3053979c6329e4f8ee5953b4714f"
+    },
+    {
+      "path": "inputs/alpha-patches.png",
+      "sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9"
+    },
+    {
+      "path": "inputs/opaque.png",
+      "sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba"
+    }
+  ],
+  "max_posts": 3,
+  "method": "POST",
+  "requests": [
+    {
+      "request_sha256": "d22c83ef90d68039cd12a4fb3e291c2f2531daac5e877589d7ae97a7227c496d",
+      "seed": 123,
+      "source": "inputs/opaque.png",
+      "source_png_sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "submission_lock": "simple-opaque/.submission.lock",
+      "task": "remove_simple_background",
+      "text": "omitted",
+      "variant": "simple-opaque",
+      "wire_bytes": 934,
+      "wire_sha256": "ba471ad1f5084685138e3a2bb4e4e787055f8a70fc95bb5adbcd45d7a938482e"
+    },
+    {
+      "request_sha256": "808aae3321f54e962c8a77748903f5f8d5c47b672fce26c61dd6e06128f25043",
+      "seed": 123,
+      "source": "inputs/opaque.png",
+      "source_png_sha256": "96816d261e63f65f5a25a6da9e890c79888b03cf316f91db2a2695c3fa53e4ba",
+      "submission_lock": "complex-opaque/.submission.lock",
+      "task": "remove_complex_background",
+      "text": "omitted",
+      "variant": "complex-opaque",
+      "wire_bytes": 935,
+      "wire_sha256": "e3fef204bbaaafe29bc60645ee7692de177f76dc881b02b15b4b48050766da59"
+    },
+    {
+      "request_sha256": "f1ee1c8dcae6350a0b2fcfcfa5733736e2a0995f2b400c68a9102edf4c585413",
+      "seed": 123,
+      "source": "inputs/alpha-patches.png",
+      "source_png_sha256": "93cade3423b49a1dd5cd93dddfb52632d7467576efa29ea55b664732424954f9",
+      "submission_lock": "simple-alpha/.submission.lock",
+      "task": "remove_simple_background",
+      "text": "omitted",
+      "variant": "simple-alpha",
+      "wire_bytes": 982,
+      "wire_sha256": "a0da38239bf62fc4e30989ed8adf2c8a73931e2c517e4b3f072e040e148873a5"
+    }
+  ],
+  "source_schema": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/evidence/openapi.json",
+    "pointer": "/components/schemas/RemoveBackgroundRequest",
+    "sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec"
+  },
+  "source_script_sha256": "6b712b14dd0905ceef623d9b45084c9e1831b68baeea334d3e318428248ebb63",
+  "status": "prepared-not-submitted",
+  "submission_guard": {
+    "budget": "At most3 POST attempts; actual charge unknown here. Parent reviews before any submission; stop if response reveals unexpected charge.",
+    "limits": "POST timeout60s; response cap4MiB+1 reject if exceeded; deny redirects. Save actual request/response wire hashes and sanitized one-entry HAR.",
+    "required": "Verify all pins BEFORE any call. Only these3 allowlisted slots. Atomically create each .submission.lock with O_CREAT|O_EXCL before sending; retain after every outcome. Write attempted state before POST. Never reclaim on timeout/error/ambiguous response. No automatic retries, no fallback task, no new slot.",
+    "transport": "Reuse approved existing helper credential resolver + decoded JSON response redactor. No token/header/cookie in HAR. No credentials code exists in this preparer.",
+    "wire": "Send exact request-wire.json bytes; hash expected in plan."
+  },
+  "technique_boundary": "Separate public endpoint; nothing demonstrates PixMiniMax uses this endpoint, task, thresholds, code or request seed internally.",
+  "version": 1
+}

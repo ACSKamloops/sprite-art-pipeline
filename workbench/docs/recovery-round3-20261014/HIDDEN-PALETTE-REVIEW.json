@@ -1,0 +1,483 @@
+{
+  "classification": "two separately frozen adaptive followups; raw palette counterexamples retained",
+  "cases": [
+    {
+      "classification": "separately frozen adaptive fixture audit; no private-stage identification",
+      "source_commit": "9d5e17d87246fad4e95a7fa641e61ce5ad1dc7c1",
+      "phase_sha256": "5fbb7df9e4a9c8dc90976df5018e7ebbfa84a167dd320ecd23c47f4511cbad90",
+      "plan_sha256": "dcfcdb208f48d1cd168117938bbfa38c5d35260fffd9474ad5569d0cea19316b",
+      "source_pins": [
+        {
+          "filename": "prepare_palette_predictions.py",
+          "sha256": "15bfb938f4050a3a35362cebc9633ec4288ae1b1a08cbf85216bdf3510d93807"
+        },
+        {
+          "filename": "replay_pixellab_fixed_palette.py",
+          "sha256": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742"
+        },
+        {
+          "filename": "prepare_hidden_palette_prediction.py",
+          "sha256": "caa4b85f48544610000a9c6e8f16d098cd30d2516f67b4593e089537f97e0266"
+        }
+      ],
+      "variant": "hidden-black-3",
+      "requested_num_colors": 3,
+      "reported_n_colors": 2,
+      "returned_palette_rgba": [
+        [
+          219,
+          174,
+          87,
+          255
+        ],
+        [
+          44,
+          151,
+          85,
+          255
+        ]
+      ],
+      "visible_output_rgb_union": [
+        [
+          44,
+          151,
+          85
+        ],
+        [
+          219,
+          174,
+          87
+        ]
+      ],
+      "all_output_rgb_union": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          44,
+          151,
+          85
+        ],
+        [
+          219,
+          174,
+          87
+        ]
+      ],
+      "returned_strip_equals_visible_union_set": true,
+      "policies": [
+        {
+          "policy": "ignore",
+          "prediction_receipt_sha256": "6272731660b5cd50cd2de2781e71c1cd214812380e88cc546c71787d54e72931",
+          "predicted_palette_rgba": [
+            [
+              0,
+              0,
+              0,
+              255
+            ],
+            [
+              219,
+              174,
+              87,
+              255
+            ],
+            [
+              44,
+              151,
+              85,
+              255
+            ]
+          ],
+          "palette_order_exact": false,
+          "posthoc_actual_visible_union_filtered_prediction_order_equal": true,
+          "visible_only_palette_prediction_frozen": false,
+          "frozen_visible_only_palette_prediction": null,
+          "frozen_visible_only_palette_order_exact": null,
+          "frames": [
+            {
+              "index": 0,
+              "rgba_mismatches": 0,
+              "visible_rgba_mismatches": 0,
+              "hidden_rgba_mismatches": 0,
+              "predicted_png_bytes_equal_actual": true
+            },
+            {
+              "index": 1,
+              "rgba_mismatches": 0,
+              "visible_rgba_mismatches": 0,
+              "hidden_rgba_mismatches": 0,
+              "predicted_png_bytes_equal_actual": true
+            }
+          ]
+        },
+        {
+          "policy": "exclude-zero",
+          "prediction_receipt_sha256": "ed941d18851733cefbf7428eca96c6f90584760492f3ab1e8601521d36bba87c",
+          "predicted_palette_rgba": [
+            [
+              44,
+              151,
+              85,
+              255
+            ],
+            [
+              201,
+              152,
+              58,
+              255
+            ],
+            [
+              236,
+              197,
+              114,
+              255
+            ]
+          ],
+          "palette_order_exact": false,
+          "posthoc_actual_visible_union_filtered_prediction_order_equal": false,
+          "visible_only_palette_prediction_frozen": false,
+          "frozen_visible_only_palette_prediction": null,
+          "frozen_visible_only_palette_order_exact": null,
+          "frames": [
+            {
+              "index": 0,
+              "rgba_mismatches": 832,
+              "visible_rgba_mismatches": 320,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            },
+            {
+              "index": 1,
+              "rgba_mismatches": 832,
+              "visible_rgba_mismatches": 320,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            }
+          ]
+        },
+        {
+          "policy": "alpha-weight",
+          "prediction_receipt_sha256": "e3e0392a1124b57533115cbf69651c581fd6a95b97b81e3425a1ba75ab0511c2",
+          "predicted_palette_rgba": [
+            [
+              44,
+              151,
+              85,
+              255
+            ],
+            [
+              201,
+              152,
+              58,
+              255
+            ],
+            [
+              236,
+              197,
+              114,
+              255
+            ]
+          ],
+          "palette_order_exact": false,
+          "posthoc_actual_visible_union_filtered_prediction_order_equal": false,
+          "visible_only_palette_prediction_frozen": false,
+          "frozen_visible_only_palette_prediction": null,
+          "frozen_visible_only_palette_order_exact": null,
+          "frames": [
+            {
+              "index": 0,
+              "rgba_mismatches": 832,
+              "visible_rgba_mismatches": 320,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            },
+            {
+              "index": 1,
+              "rgba_mismatches": 832,
+              "visible_rgba_mismatches": 320,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            }
+          ]
+        }
+      ],
+      "quarter_L_remap_using_returned_strip": [
+        {
+          "index": 0,
+          "full_rgba_mismatches": 512,
+          "visible_mismatches": 0,
+          "hidden_mismatches": 512,
+          "alpha_exact": true
+        },
+        {
+          "index": 1,
+          "full_rgba_mismatches": 512,
+          "visible_mismatches": 0,
+          "hidden_mismatches": 512,
+          "alpha_exact": true
+        }
+      ],
+      "binding_receipt_sha256": "b6a59215d0e0eafa5530e437e78aa655ca422caea8291b4d1686bb3a33fa8bc5",
+      "rea_evidence_id": "ev_aad28b5ca67501cd917c2c3bbeff83b2a28109c6760f4a0dc7985d671f441f6b",
+      "phase_prepared_utc": "2026-10-14T05:22:18.545724+00:00",
+      "producer_started_utc": "2026-10-14T05:22:18.568803+00:00",
+      "limits": [
+        "Adaptive follow-up frozen before its own response; reuses earlier visible RGBs, not a new-color holdout.",
+        "Binary alpha makes exclude-zero and alpha-weight equivalent competing policies.",
+        "Visible-union filtering is a post-hoc descriptive relationship, not a recovered internal stage.",
+        "Local pins/timestamps and REA/producer binding are not external network attestation."
+      ],
+      "audit_receipt_path": "/home/astra/artifacts/pixellab-palette-round3-20261014/hidden-followup-audit/K3-final/AUDIT.json",
+      "audit_receipt_sha256": "be7788e000640c2d051592d59727773b5b334cf7a2e5ddceb1a6b675aa8fc278"
+    },
+    {
+      "classification": "separately frozen adaptive fixture audit; no private-stage identification",
+      "source_commit": "36ec93fd9ad1842e22efe1c2ddb1ab2e9c356cc3",
+      "phase_sha256": "02d1edba4e8cb6fe6c9b0b87ef7151c1d4b77a507405c37b4235d2d226d8ad09",
+      "plan_sha256": "b3109b57c8ce332fc4d1d96df1cd29b3b092061790b2682e8f97c015359cdc6c",
+      "source_pins": [
+        {
+          "filename": "prepare_palette_predictions.py",
+          "sha256": "15bfb938f4050a3a35362cebc9633ec4288ae1b1a08cbf85216bdf3510d93807",
+          "pin_inherited_from_previous_plan": false
+        },
+        {
+          "filename": "replay_pixellab_fixed_palette.py",
+          "sha256": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742",
+          "pin_inherited_from_previous_plan": true
+        },
+        {
+          "filename": "prepare_hidden_budget_followup.py",
+          "sha256": "e9316d01dc95826f76b3e3cfbb02a87798baf4e654c4fddf3f8aac7b58f3c6f7",
+          "pin_inherited_from_previous_plan": false
+        }
+      ],
+      "variant": "hidden-black-2",
+      "requested_num_colors": 2,
+      "reported_n_colors": 1,
+      "returned_palette_rgba": [
+        [
+          165,
+          167,
+          87,
+          255
+        ]
+      ],
+      "visible_output_rgb_union": [
+        [
+          165,
+          167,
+          87
+        ]
+      ],
+      "all_output_rgb_union": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          165,
+          167,
+          87
+        ]
+      ],
+      "returned_strip_equals_visible_union_set": true,
+      "policies": [
+        {
+          "policy": "ignore",
+          "prediction_receipt_sha256": "9af5aaaf0ef7964c96e2d473c28a26a036e661956c7cfd9b97261a80d61d8752",
+          "predicted_palette_rgba": [
+            [
+              0,
+              0,
+              0,
+              255
+            ],
+            [
+              165,
+              167,
+              87,
+              255
+            ]
+          ],
+          "palette_order_exact": false,
+          "posthoc_actual_visible_union_filtered_prediction_order_equal": true,
+          "visible_only_palette_prediction_frozen": true,
+          "frozen_visible_only_palette_prediction": [
+            [
+              165,
+              167,
+              87,
+              255
+            ]
+          ],
+          "frozen_visible_only_palette_order_exact": true,
+          "frames": [
+            {
+              "index": 0,
+              "rgba_mismatches": 0,
+              "visible_rgba_mismatches": 0,
+              "hidden_rgba_mismatches": 0,
+              "predicted_png_bytes_equal_actual": true
+            },
+            {
+              "index": 1,
+              "rgba_mismatches": 0,
+              "visible_rgba_mismatches": 0,
+              "hidden_rgba_mismatches": 0,
+              "predicted_png_bytes_equal_actual": true
+            }
+          ]
+        },
+        {
+          "policy": "exclude-zero",
+          "prediction_receipt_sha256": "0dc7509d7e89b7625141c8288d834335274d32641d7f079ff3d6e75e213ff09d",
+          "predicted_palette_rgba": [
+            [
+              219,
+              174,
+              87,
+              255
+            ],
+            [
+              44,
+              151,
+              85,
+              255
+            ]
+          ],
+          "palette_order_exact": false,
+          "posthoc_actual_visible_union_filtered_prediction_order_equal": false,
+          "visible_only_palette_prediction_frozen": true,
+          "frozen_visible_only_palette_prediction": [
+            [
+              219,
+              174,
+              87,
+              255
+            ],
+            [
+              44,
+              151,
+              85,
+              255
+            ]
+          ],
+          "frozen_visible_only_palette_order_exact": false,
+          "frames": [
+            {
+              "index": 0,
+              "rgba_mismatches": 1024,
+              "visible_rgba_mismatches": 512,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            },
+            {
+              "index": 1,
+              "rgba_mismatches": 1024,
+              "visible_rgba_mismatches": 512,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            }
+          ]
+        },
+        {
+          "policy": "alpha-weight",
+          "prediction_receipt_sha256": "a8763dc638351a2930c67e4da61b9f774707dde298fefde87b5e8299ad591f37",
+          "predicted_palette_rgba": [
+            [
+              219,
+              174,
+              87,
+              255
+            ],
+            [
+              44,
+              151,
+              85,
+              255
+            ]
+          ],
+          "palette_order_exact": false,
+          "posthoc_actual_visible_union_filtered_prediction_order_equal": false,
+          "visible_only_palette_prediction_frozen": true,
+          "frozen_visible_only_palette_prediction": [
+            [
+              219,
+              174,
+              87,
+              255
+            ],
+            [
+              44,
+              151,
+              85,
+              255
+            ]
+          ],
+          "frozen_visible_only_palette_order_exact": false,
+          "frames": [
+            {
+              "index": 0,
+              "rgba_mismatches": 1024,
+              "visible_rgba_mismatches": 512,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            },
+            {
+              "index": 1,
+              "rgba_mismatches": 1024,
+              "visible_rgba_mismatches": 512,
+              "hidden_rgba_mismatches": 512,
+              "predicted_png_bytes_equal_actual": false
+            }
+          ]
+        }
+      ],
+      "quarter_L_remap_using_returned_strip": [
+        {
+          "index": 0,
+          "full_rgba_mismatches": 512,
+          "visible_mismatches": 0,
+          "hidden_mismatches": 512,
+          "alpha_exact": true
+        },
+        {
+          "index": 1,
+          "full_rgba_mismatches": 512,
+          "visible_mismatches": 0,
+          "hidden_mismatches": 512,
+          "alpha_exact": true
+        }
+      ],
+      "binding_receipt_sha256": "819b423456d9a85247d540cd681f431f3a56e14bcf693aea2bfdbc654d6f58ab",
+      "rea_evidence_id": "ev_6c4bb0c9a6c6b879727779fc9cb61ae7de75226426169e0876af571a2dff8228",
+      "phase_prepared_utc": "2026-10-14T05:24:43.356175+00:00",
+      "producer_started_utc": "2026-10-14T05:24:43.372245+00:00",
+      "limits": [
+        "Adaptive follow-up frozen before its own response; reuses earlier visible RGBs, not a new-color holdout.",
+        "Binary alpha makes exclude-zero and alpha-weight equivalent competing policies.",
+        "Visible-union filtering is a post-hoc descriptive relationship, not a recovered internal stage.",
+        "Local pins/timestamps and REA/producer binding are not external network attestation."
+      ],
+      "audit_receipt_path": "/home/astra/artifacts/pixellab-palette-round3-20261014/hidden-followup-audit/K2-final/AUDIT.json",
+      "audit_receipt_sha256": "f6e125e20713706de6e722bb9076d827063a7afe248d461c41949c9e8c9dc79d"
+    }
+  ],
+  "six_call_summary": {
+    "captured_calls": 6,
+    "reported_generations": "0.6",
+    "ignore_policy_frame_rgba_entries": 12288,
+    "ignore_policy_frame_rgba_mismatches": 0,
+    "raw_palette_order_matches": 4,
+    "raw_palette_order_failures": 2,
+    "prospective_adaptive_visible_strip_tests": 1,
+    "prospective_adaptive_visible_strip_matches": 1,
+    "K3_visible_filter_posthoc_only": true
+  },
+  "audit_script_sha256": "811d9189f2431e5536fc91f3cecb75ceed1adc533214368fba599033b03be401"
+}

@@ -1,0 +1,85 @@
+{
+  "time_utc": "2026-10-16T07:38:41.360284+00:00",
+  "pck_sha256_end": "ee0259bb9edc95659880b648c7ee0aad8fc816419bc18a3674c98038f5389a08",
+  "samples": [
+    {
+      "label": "title-before-gesture",
+      "wall_time_ms": 1792136280216,
+      "context_state": "suspended",
+      "audio_current_time_seconds": 0,
+      "render_capacity": 0,
+      "sample_rate": 44100,
+      "game_mode": "title"
+    },
+    {
+      "label": "after-real-title-click",
+      "wall_time_ms": 1792136280886,
+      "context_state": "running",
+      "audio_current_time_seconds": 0.5456689342403628,
+      "render_capacity": 0.6877076411960132,
+      "sample_rate": 44100,
+      "game_mode": "dialogue"
+    },
+    {
+      "label": "after-real-Enter-and-two-seconds",
+      "wall_time_ms": 1792136283046,
+      "context_state": "running",
+      "audio_current_time_seconds": 2.705124716553288,
+      "render_capacity": 0.16601409553641347,
+      "sample_rate": 44100,
+      "game_mode": "dialogue"
+    }
+  ],
+  "context_events": [
+    {
+      "at_ms": 1792136279549,
+      "event": "contextCreated",
+      "data": {
+        "context": {
+          "contextId": "5e8dc0f8-b358-4a1f-8712-863c244c9958",
+          "contextType": "realtime",
+          "contextState": "suspended",
+          "callbackBufferSize": 512,
+          "maxOutputChannelCount": 2,
+          "sampleRate": 44100,
+          "renderQuantumSize": 128
+        }
+      }
+    },
+    {
+      "at_ms": 1792136280393,
+      "event": "contextChanged",
+      "data": {
+        "context": {
+          "contextId": "5e8dc0f8-b358-4a1f-8712-863c244c9958",
+          "contextType": "realtime",
+          "contextState": "running",
+          "callbackBufferSize": 512,
+          "maxOutputChannelCount": 2,
+          "sampleRate": 44100,
+          "renderQuantumSize": 128
+        }
+      }
+    }
+  ],
+  "nodes_ever_created": 40,
+  "node_types_ever_created": {
+    "AudioDestination": 1,
+    "Gain": 27,
+    "AudioBufferSource": 3,
+    "ChannelSplitter": 3,
+    "ChannelMerger": 3,
+    "AudioWorklet": 3
+  },
+  "observed_event_counts": {
+    "contextCreated": 1,
+    "audioNodeCreated": 40,
+    "audioListenerCreated": 1,
+    "nodesConnected": 55,
+    "nodesDisconnected": 22,
+    "contextChanged": 1
+  },
+  "post_click_wall_delta_seconds": 2.16,
+  "post_click_audio_delta_seconds": 2.159455782312925,
+  "claim": "AudioContext resumed after a real click and its render clock advanced; no auditory or signal-energy validation."
+}

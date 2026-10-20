@@ -1,0 +1,180 @@
+{
+  "video_fps": 24,
+  "clips": [
+    {
+      "actor": "generic_rpg_hero",
+      "name": "walk_right_three_quarter",
+      "action": "walk",
+      "direction": "right_three_quarter",
+      "sheet": "approved/walk/sheet.png",
+      "frame_size": [
+        128,
+        128
+      ],
+      "sheet_columns": 6,
+      "pivot_pixels": [
+        64,
+        106
+      ],
+      "ground_pivot_pixels": [
+        64,
+        106
+      ],
+      "loop": true,
+      "frames": [
+        {
+          "atlas_index": 0,
+          "duration_video_frames": 1,
+          "pixel_sha256": "c4aa5f2820c16f380590298a7ea440f361ab8d458767fb22bd978b7699d68754"
+        },
+        {
+          "atlas_index": 1,
+          "duration_video_frames": 1,
+          "pixel_sha256": "9193323e4160ac3c08545eab1ae1a66a69a0f1d7cf355fb3d7a079e4c3e2c361"
+        },
+        {
+          "atlas_index": 2,
+          "duration_video_frames": 1,
+          "pixel_sha256": "ff5c12bcd2ed60e8e402258a078f7ebf36f978d1e005a1b70fa332fec3002bf2"
+        },
+        {
+          "atlas_index": 3,
+          "duration_video_frames": 1,
+          "pixel_sha256": "36e8696b8e2e565c19d6fc7ba7d5bd29512d94dbe9faa20f221c01443ac7b096"
+        },
+        {
+          "atlas_index": 4,
+          "duration_video_frames": 1,
+          "pixel_sha256": "e7735f38e647f00a8cbb882c45c359694350e6a6cdbb0283d8da0ddaa368bea1"
+        },
+        {
+          "atlas_index": 5,
+          "duration_video_frames": 1,
+          "pixel_sha256": "09ab19efb609797debfc42b97d4740b977eb82d04d8fe5bb2cd16e860b3d5ada"
+        },
+        {
+          "atlas_index": 6,
+          "duration_video_frames": 1,
+          "pixel_sha256": "b50fe00589a7d0cc551f7f443dfbb5e4f64be6752e34b767815f51c44a9a524b"
+        },
+        {
+          "atlas_index": 7,
+          "duration_video_frames": 1,
+          "pixel_sha256": "d455a5862e992210139c3a1dc9fb5a922c5d7241d8b82ea34a98bbb44f507eba"
+        },
+        {
+          "atlas_index": 8,
+          "duration_video_frames": 1,
+          "pixel_sha256": "9c2b23c5fa165dcdbffcf5e4b85a60edb844f7f819703f070d884c9b7fa803c8"
+        },
+        {
+          "atlas_index": 9,
+          "duration_video_frames": 1,
+          "pixel_sha256": "a0fbf1234f38e8cf36bebd408c3a6030c9263918cf138f32aff589248a87bdc8"
+        },
+        {
+          "atlas_index": 10,
+          "duration_video_frames": 1,
+          "pixel_sha256": "507018d28219a30690758a135d8328a58873fcb619f83427c30e5f002e600961"
+        },
+        {
+          "atlas_index": 11,
+          "duration_video_frames": 1,
+          "pixel_sha256": "ea22ad7061745304cf8a3b192a04904f7db1c8b8843403ee8ed6eabee7065aa3"
+        },
+        {
+          "atlas_index": 12,
+          "duration_video_frames": 1,
+          "pixel_sha256": "4af83b4de08671c59ff7ef24eca193b9c9f0385ae6aff9c789aa4d5ff76b2236"
+        },
+        {
+          "atlas_index": 13,
+          "duration_video_frames": 1,
+          "pixel_sha256": "226bf8e6985ad744db119396dce94c2489f0ee9143d53f8e9553795ec3effe5b"
+        },
+        {
+          "atlas_index": 14,
+          "duration_video_frames": 1,
+          "pixel_sha256": "0a8bfc8c493c0591bb2bf3e9ae97cb308c280376e2c76194d787d2e89793ee21"
+        },
+        {
+          "atlas_index": 15,
+          "duration_video_frames": 1,
+          "pixel_sha256": "dad3933b4fdee9725ff9e0204d648665fb35e65b286eba40a080ad8ab97f21a2"
+        },
+        {
+          "atlas_index": 16,
+          "duration_video_frames": 1,
+          "pixel_sha256": "b281100a52634c2cee8a207b0c98f6c5f6626d7fad4a0527e132db6a851ce7a3"
+        },
+        {
+          "atlas_index": 17,
+          "duration_video_frames": 1,
+          "pixel_sha256": "3a50d841cabe5a94ca66f04736a402dc97827b2faeddb1c01b4c33ba7b0b84a4"
+        },
+        {
+          "atlas_index": 18,
+          "duration_video_frames": 1,
+          "pixel_sha256": "1eb8119076cdc61f703b58a5341cb5eb75a89908f2f0188288667906d017b4de"
+        },
+        {
+          "atlas_index": 19,
+          "duration_video_frames": 1,
+          "pixel_sha256": "9c6c415c816b4cde57b4c7415c2dc3309f2628ab39be1ba31973b8e7185f16dd"
+        },
+        {
+          "atlas_index": 20,
+          "duration_video_frames": 1,
+          "pixel_sha256": "6154e19047dcc2586309bdd6accdab45aa783fbb7bb64ec7c1208d95ba354b8b"
+        },
+        {
+          "atlas_index": 21,
+          "duration_video_frames": 1,
+          "pixel_sha256": "4765b8f6bd016d1dc3802c2bc18745060a85606e0d727a219d26230b7850dd11"
+        },
+        {
+          "atlas_index": 22,
+          "duration_video_frames": 1,
+          "pixel_sha256": "102736404633f41308548d28a5ad603a41b5a6ea75440fa792e49edcaf1bb432"
+        },
+        {
+          "atlas_index": 23,
+          "duration_video_frames": 1,
+          "pixel_sha256": "7b24c9ed82a0b8160aebf69e23e0a65704abeba3856f8632c9da14b32fe9e0bb"
+        },
+        {
+          "atlas_index": 24,
+          "duration_video_frames": 1,
+          "pixel_sha256": "26a1272413aa2932ec5a79ac8f683915e1f5a0ec7bc343a5d5e34ba0b0590b83"
+        },
+        {
+          "atlas_index": 25,
+          "duration_video_frames": 1,
+          "pixel_sha256": "89952c3dc91bddb15d149e5e114692a25a28b0ff667c2cd6b5e50d97cc434490"
+        },
+        {
+          "atlas_index": 26,
+          "duration_video_frames": 1,
+          "pixel_sha256": "4aea1959419c88f800feeedcdd3152fb9ce86a261c89f4f001ddb0b2791600ae"
+        },
+        {
+          "atlas_index": 27,
+          "duration_video_frames": 1,
+          "pixel_sha256": "c56bfa42c6a870e8fe348186e171ebd83674922ab7bc3e34acfe39100899b411"
+        },
+        {
+          "atlas_index": 28,
+          "duration_video_frames": 1,
+          "pixel_sha256": "01d1b603996237a8006de8927e3cc429e4503b97612e37db1b6a3da82b97cad6"
+        },
+        {
+          "atlas_index": 29,
+          "duration_video_frames": 1,
+          "pixel_sha256": "8df852636fe9bb18be1ab43a9b8ddd86f0fdeb06b279cce9c845366666e17286"
+        }
+      ],
+      "timeline_events": []
+    }
+  ],
+  "scope": "Approved walk only. Planned actions are catalogued separately; no fallback binding to unmade actions."
+}

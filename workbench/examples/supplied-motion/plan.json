@@ -1,0 +1,216 @@
+{
+  "version": 1,
+  "name": "Asymmetric supplied-part mechanics example; no game-art approval",
+  "steps": [
+    {
+      "id": "source",
+      "action": "import",
+      "path": "source.png"
+    },
+    {
+      "id": "mask",
+      "action": "import",
+      "path": "owned-mask.png"
+    },
+    {
+      "id": "prepare",
+      "action": "prepare",
+      "sequence": {
+        "ref": "source.sequence"
+      },
+      "adapter": "local-rgba-v1",
+      "options": {
+        "roi": [
+          0,
+          0,
+          8,
+          8
+        ],
+        "output_size": [
+          8,
+          8
+        ],
+        "references": [
+          {
+            "ref": "source.rasters.0"
+          }
+        ],
+        "mask": {
+          "ref": "mask.rasters.0"
+        }
+      }
+    },
+    {
+      "id": "tracks",
+      "action": "tracks",
+      "scene": {
+        "canvas": [
+          64,
+          64
+        ],
+        "require_source_coverage": true,
+        "clip_policy": "reject",
+        "nodes": [
+          {
+            "id": "root"
+          },
+          {
+            "id": "part",
+            "parent": "root",
+            "raster": {
+              "ref": "prepare.raster_ids.0"
+            },
+            "mask": {
+              "ref": "mask.rasters.0"
+            },
+            "position": [
+              28,
+              28
+            ],
+            "anchor": [
+              4,
+              4
+            ],
+            "ownership": {
+              "source": {
+                "ref": "prepare.raster_ids.0"
+              },
+              "origin": [
+                0,
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "frame_count": 8,
+      "fps": 12,
+      "direction": "diagnostic-south",
+      "pivot": [
+        32,
+        40
+      ],
+      "tracks": [
+        {
+          "node": "part",
+          "property": "rotation_degrees",
+          "interpolation": "linear",
+          "keys": [
+            {
+              "time": [
+                0,
+                1
+              ],
+              "value": 0
+            },
+            {
+              "time": [
+                1,
+                4
+              ],
+              "value": 90
+            },
+            {
+              "time": [
+                1,
+                2
+              ],
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fine_edit",
+      "action": "edit",
+      "sequence": {
+        "ref": "tracks.sequence"
+      },
+      "changes": [
+        {
+          "operation": "patch_pixels",
+          "frames": [
+            1
+          ],
+          "reason": "Explicit guarded marker edit",
+          "pixels": [
+            [
+              28,
+              28,
+              "#ff0000ff",
+              "#ffff00ff"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "body_export",
+      "action": "export",
+      "sequence": {
+        "ref": "fine_edit.sequence"
+      },
+      "directory": "output/body"
+    },
+    {
+      "id": "effect",
+      "action": "effects",
+      "recipe": {
+        "canvas": {
+          "w": 64,
+          "h": 64
+        },
+        "frames": 8,
+        "fps": 12,
+        "seed": 123,
+        "origin": [
+          32,
+          40
+        ],
+        "ramps": {
+          "main": [
+            "#160f28",
+            "#443264",
+            "#8860a8",
+            "#d8a0c8",
+            "#fff0e8"
+          ]
+        },
+        "outline": {
+          "mode": "none"
+        },
+        "layers": [
+          {
+            "id": "extra",
+            "type": "arc",
+            "radius": 16,
+            "sweep": 220,
+            "profile": "slash"
+          }
+        ]
+      }
+    },
+    {
+      "id": "compose",
+      "action": "compose",
+      "body": {
+        "ref": "fine_edit.sequence"
+      },
+      "back": {
+        "ref": "effect.streams.back"
+      },
+      "front": {
+        "ref": "effect.streams.front"
+      }
+    },
+    {
+      "id": "final_export",
+      "action": "export",
+      "sequence": {
+        "ref": "compose.sequence"
+      },
+      "directory": "output/composed"
+    }
+  ]
+}

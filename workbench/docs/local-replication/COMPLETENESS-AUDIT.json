@@ -1,0 +1,355 @@
+{
+  "scope": "Independent source/doc/retained-receipt completeness audit; no target or runtime execution in this producer pass",
+  "baseline_commit": "d06eaaaa4ca9577785880f7b531e45f4cfbb9828",
+  "branch": "codex/local-channel-audit",
+  "current_global_completion": "not100%; undisclosed/native/runtime/quality boundaries remain",
+  "current_claim_assessment": "Selected current README/coverage/consolidation explicitly qualify subsets; no false current100%claim identified. Proposed channel code is not yet in this baseline.",
+  "inputs": [
+    {
+      "path": "README.md",
+      "sha256": "7aab3a74ab104b85f59167591c1c8b2218c1b563202bd5d22d534c22b0f10936",
+      "bytes": 4493
+    },
+    {
+      "path": "docs/COVERAGE.md",
+      "sha256": "e5c7c3ede90765349228df1a13337a3fb153d3c03ab868ca0c9b7f158a2c2a01",
+      "bytes": 4520
+    },
+    {
+      "path": "docs/COMMANDS.md",
+      "sha256": "695ae69c30675c6cb930b494160d42d82d3113931cd897347c6b5bbb72a80cb8",
+      "bytes": 5146
+    },
+    {
+      "path": "docs/WHOLE-FLOW-COMPARISONS.md",
+      "sha256": "1f5841522a005602f68209893b6073f322c29a472a0711b4f6415bb43b2f9ee3",
+      "bytes": 14255
+    },
+    {
+      "path": "docs/LATEST-VERIFICATION.json",
+      "sha256": "d3e26c9e4df0589810d59a722895399d71793801d6c2724175c3d8b8958478e9",
+      "bytes": 1400
+    },
+    {
+      "path": "docs/consolidation/START-HERE.md",
+      "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+      "bytes": 5225
+    },
+    {
+      "path": "docs/consolidation-review/source-coverage/ORIGINAL-63-DISPOSITIONS.json",
+      "sha256": "79732656e3d6848f98c93c69aca693f6ebb79e77d2b633f6b8c83fb0d5f5a505",
+      "bytes": 113125
+    },
+    {
+      "path": "docs/consolidation-review/runtime/FLOW-COVERAGE.json",
+      "sha256": "7dc86e2cd224c7577c4abaa7614f0ecd9e2e050dca9516ed08fdd3e67ca08f96",
+      "bytes": 5433
+    },
+    {
+      "path": "sprite_workbench/cli.py",
+      "sha256": "0b7e84f0ba0b6aa0e4219a2af284905627f528e79b54bddcf1051e834fc4f0d4",
+      "bytes": 4436
+    },
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "sha256": "f5ca23c214d6eb3179061e08c71957e0348d9526e326069def51c5ef5a9eb377",
+      "bytes": 16116
+    },
+    {
+      "path": "sprite_workbench/capabilities.py",
+      "sha256": "0a2b17b0b7c8221b2c08ead2039765381482d00a6dfa280c0b341b88c6e3b02f",
+      "bytes": 10803
+    },
+    {
+      "path": "sprite_workbench/jobs.py",
+      "sha256": "ec76575acd9d8ebd96ac5f2795b057766f0297b32a2f5f3fb4c268882c124fbf",
+      "bytes": 20044
+    },
+    {
+      "path": "sprite_workbench/library.py",
+      "sha256": "7f3bb4f15787f3ffc675692af19d837e6702fc44be9cad949d55ed4e1439fd16",
+      "bytes": 14538
+    },
+    {
+      "path": "sprite_workbench/export.py",
+      "sha256": "7be6811da7806f4369146370c1f53923a03ceeafa6b74549c576b26b91c5e9a1",
+      "bytes": 25567
+    },
+    {
+      "path": "sprite_workbench/review.py",
+      "sha256": "4294fb5a84ce3b2a91425e4af0a6fd50ca32aa6fd435112a67a90077012df8f5",
+      "bytes": 8922
+    },
+    {
+      "path": "sprite_workbench/prepare.py",
+      "sha256": "bf62c1f12fb5b9905063f1924494b4f07dde81c1598feb67824f76811e4f7067",
+      "bytes": 15621
+    },
+    {
+      "path": "sprite_workbench/pose.py",
+      "sha256": "c2591d0e2d9dd48a951f057bea7d6feb5f340dc9ecfa64e4c139ebc54493a064",
+      "bytes": 11852
+    },
+    {
+      "path": "sprite_workbench/terrain.py",
+      "sha256": "f5fc4feae7a84d4762b103cb1faed448429b36d94e06ac3d74822ec803b5d8ec",
+      "bytes": 6094
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "sha256": "86482c3a8bc15a78381e41701152e2c589d9f50378604e474064c957ba93e29b",
+      "bytes": 11853
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "aeeacc91ed1592671df18b5af7bdd77c3375cbc7d6d046dec72ac1af92a2d9e6",
+      "bytes": 651
+    },
+    {
+      "path": "scripts/verify_workbench.py",
+      "sha256": "1adcc25ff3d86992021137db77dbac797fc882456fa718c7cf4000eef0cf4b24",
+      "bytes": 3219
+    },
+    {
+      "path": "examples/supplied-motion/plan.json",
+      "sha256": "3f3ccfd25d186f4aa62d71459fa3390ad67b51dd90871923235efdb992a5796b",
+      "bytes": 4119
+    }
+  ],
+  "observed_surface": {
+    "cli_commands": [
+      "import",
+      "inspect",
+      "edit",
+      "run",
+      "export",
+      "review",
+      "capabilities",
+      "crop",
+      "paste"
+    ],
+    "plan_actions": [
+      "candidate",
+      "compose",
+      "edit",
+      "effects",
+      "export",
+      "font",
+      "import",
+      "pose",
+      "prepare",
+      "promote",
+      "publish",
+      "review",
+      "scene",
+      "terrain",
+      "text",
+      "tracks",
+      "ui",
+      "visemes"
+    ],
+    "doctor_route_present": false,
+    "replay_route_present": false,
+    "supplied_compare_route_present": false,
+    "direct_job_library_cli_routes_present": false,
+    "local_capabilities_bound_by_current_cli": false,
+    "vendor_definitions": 212,
+    "vendor_handlers": 0
+  },
+  "original_obligation_accounting": {
+    "rows": 63,
+    "whole_questions_closed_by_recorded_audit": 0,
+    "authority_assignment_counts": {
+      "controlled-runtime-observation": 30,
+      "server-source-or-provider-disclosure": 21,
+      "shipped-source-trace": 18
+    },
+    "overlap_warning": "18+30+21=69authority assignments on63rows, not69questions or mutually exclusive statuses"
+  },
+  "flows": [
+    {
+      "flow_id": "F01",
+      "existing_routes": "import/prepare/edit/export; CLI crop/paste",
+      "actual_adapter_functions": "acquisition.import_image; prepare.prepare_request; raster.edit_sequence/crop/paste",
+      "operational_gap": "No declarative crop/paste action or named full refinement replay case; Python services and separate CLI operations exist.",
+      "minimum_local_completion_oracles": "Encoded/raw/visible identity; partial/hidden alpha; ordered edits+one-based frame selection; wrong expected-color failure; fresh-store replay and immutable source/clock.",
+      "remaining_original_flow_boundary": "Native indexed undo, arbitrary vendor parser/native editor semantics.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F02",
+      "existing_routes": "scene/tracks/edit/export/review",
+      "actual_adapter_functions": "scene.render_scene; tracks.bake_tracks",
+      "operational_gap": "Supplied-art plan exists; no named source-part construction recipe with independent masks/ownership or accepted humanoid art.",
+      "minimum_local_completion_oracles": "Parent DAG/anchor/owned-mask goldens, guarded composite vs node edit, base-overridden editable recovery, pivots/order/holds and fresh-process engine metadata.",
+      "remaining_original_flow_boundary": "Hidden-surface authoring, anatomical/grip/foot/contact quality, independent strong poses/native document exchange.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F03",
+      "existing_routes": "pose plan action; pose Python API",
+      "actual_adapter_functions": "pose.project_pose/nearest_pose/flip_pose/draw_depth_channels/project_frames",
+      "operational_gap": "Plan exposes only projection; nearest/depth/flip/mismatch/supplied motion need dedicated API-backed recipe.",
+      "minimum_local_completion_oracles": "Asymmetric labeled analytic equations; original compatibility vs corrected adapters distinct; negative neural generation boundary.",
+      "remaining_original_flow_boundary": "Pose-to-art/neural temporal model, missing templates/gear, H3/provider comparison.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F04",
+      "existing_routes": "candidate/promote plan actions; Library Python API",
+      "actual_adapter_functions": "library.set_direction/set_state/set_animation/remove_state/remove_animation/get/restore",
+      "operational_gap": "No direct CLI or plan state/direction/animation updates; recipe must invoke actual Library with expected revisions.",
+      "minimum_local_completion_oracles": "Unequal directional counts/holds; explicit labels; state vs animation removal; reload/export; stale CAS and tombstone restoration.",
+      "remaining_original_flow_boundary": "Generated missing directions and vendor scheduler/persistence/expiry.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F05",
+      "existing_routes": "candidate/promote; review recorded by Library API",
+      "actual_adapter_functions": "library.select/record_review/promote/set_state/delete",
+      "operational_gap": "No CLI select/review/dismiss/expansion; supplied expansion is manual grouping, not synthesized missing views.",
+      "minimum_local_completion_oracles": "Numeric suffix IDs vs list positions; rejection eligibility; explicit selection/promotion; reload/state stale guards/delete; empty/missing direction boundaries.",
+      "remaining_original_flow_boundary": "Learned ranking/expansion and vendor polling/promotion durability.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F06",
+      "existing_routes": "terrain plan action; terrain API",
+      "actual_adapter_functions": "terrain.topology_indices/render_map/connectivity_sheet/reblit_regions/save_terrain",
+      "operational_gap": "Plan exposes supplied terrain storage, not every topology/region operation; recipe must call these specific APIs.",
+      "minimum_local_completion_oracles": "Asymmetric local NESW markers, explicit map cells/row packing, guarded region patches; save/reload/export and unsupported generation.",
+      "remaining_original_flow_boundary": "Private native/Wang/cliff/elevation layouts and generated material/seam quality.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F07",
+      "existing_routes": "prepare plan action; prompt controls API",
+      "actual_adapter_functions": "prepare.prepare_request/prepare_prompt/choose_unzoom/correction_strength/palette_conditioner",
+      "operational_gap": "No learned-caption/enhancement CLI; prompt/slider/detector and host race analysis is not a recovered service.",
+      "minimum_local_completion_oracles": "Ordered refs+ROI/mask geometry, raw/PNG distinction, alpha/palette policies, immutable request and explicit known source-control domains.",
+      "remaining_original_flow_boundary": "Learned caption/segmentation/unzoom/background removal and browser callback interleavings.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F08",
+      "existing_routes": "ui/font/text/visemes plan actions",
+      "actual_adapter_functions": "assets.layout_shapes/render_ui/rasterize_font/build_glyph_atlas/render_text/save_viseme_timeline",
+      "operational_gap": "No bundled approved font/viseme recipe or gallery download lifecycle; host font path would break standalone reproducibility.",
+      "minimum_local_completion_oracles": "Explicit font bytes/digest/license+FreeType environment; metrics/coverage/fallback; nonsquare UI placement; supplied viseme order/exact clocks and missing input failures.",
+      "remaining_original_flow_boundary": "Generated font/UI/mouth styles, audio-driven lip sync and all typography/scripts.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F09",
+      "existing_routes": "effects/compose plan actions; pinned Node renderer",
+      "actual_adapter_functions": "effects.render_effect; composition.compose_sequences",
+      "operational_gap": "Example exercises one recipe, not every17-family/control/oracle case; external Node required.",
+      "minimum_local_completion_oracles": "Frozen actual recipe/inputs, seed and analytic family goldens; body/back/front streams; explicit fps/loop/once and palettes/crop/offset; malformed positive inputs separated.",
+      "remaining_original_flow_boundary": "105 prepared constructors, current server identity and browser Worker/GPU/CSP/thread behavior.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F10",
+      "existing_routes": "export/review CLI and plan actions; import_editable API",
+      "actual_adapter_functions": "export.export_sequence/import_editable/playback_clock; review.review_sequence",
+      "operational_gap": "Editable import/rebuild is not a CLI subcommand; browser review is read-only and does not record human viewing; engine executable separate.",
+      "minimum_local_completion_oracles": "Independent PNG/raw/visible equality, APNG fields, GIF rejection/error; duplicate order; rational/float limits; complete closure fresh Store and finite engine clocks/pivots.",
+      "remaining_original_flow_boundary": "Native editable formats, full video/PTS export, actual continuous browser/GPU and art/gameplay acceptance.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    },
+    {
+      "flow_id": "F11",
+      "existing_routes": "JobManager/CapabilityRegistry/Library Python APIs",
+      "actual_adapter_functions": "jobs.JobManager; pipeline.register_pipeline_job; capabilities.bind_jobs/bind_library",
+      "operational_gap": "No jobs/library operational CLI; capabilities --domain local builds unbound registry; schema inventory is not installed remote handlers.",
+      "minimum_local_completion_oracles": "Actual bounded scheduler, immutable request, cancellation/late quarantine, retry/restart, stale CAS; explicit registered local service routes and212 vendor negative boundaries.",
+      "remaining_original_flow_boundary": "Vendor upload/cloud/accounts/chat/agents/sandbox/cost/durable URL/provider handlers.",
+      "baseline_channel_status": "Dedicated all-flow replay absent at frozen baseline; existing tested local subset retained",
+      "proposed_channel_status": "planning; producer implementation and fresh independent review required"
+    }
+  ],
+  "completion_gates": [
+    {
+      "id": "G01",
+      "stage": "scope",
+      "required": "Freeze exact local-subset case IDs, channels F01\u2013F11, spec/code/input/schema hashes and required oracles; preserve original comparison/63 obligation statuses.",
+      "pass_means": "All defined local cases accounted, not full PixelLab completion."
+    },
+    {
+      "id": "G02",
+      "stage": "environment-doctor",
+      "required": "Read-only metadata diagnostics: Python/dependencies; Node+renderer hash forF09; explicit font bytes/license/FreeType forF08; actual Godot version for requiredF10; writable selected output/Store and file/process limits. No automatic install, network, credential/profile read or account forwarding.",
+      "pass_means": "Selected required components ready; absent optional checks are unsupported/skipped and cannot become global passed."
+    },
+    {
+      "id": "G03",
+      "stage": "operational-entry",
+      "required": "Installed CLI supports discovery, all declared local subset recipes, immutable replay status and supplied comparison. F04/F05/F11 recipes invoke real APIs, not placeholders/serialized mock JSON. Capability visibility must distinguish bound local services from vendor refusals.",
+      "pass_means": "One coherent callable local route per recipe, not all18 plan actions or212 vendor handlers."
+    },
+    {
+      "id": "G04",
+      "stage": "receipt",
+      "required": "Record code/fixture/tool/input hashes, source/execution dialect, RNG seed, dependencies, intermediate immutableIDs, outputs/encoded+decoded hashes, ordered clock/loop/pivots, assertions, errors, exit status and counts. Failure/admission mismatch must retain receipt; unsupported formats and no-visual-review explicit.",
+      "pass_means": "Replay has evidence, not merely an output directory or successful process exit."
+    },
+    {
+      "id": "G05",
+      "stage": "side-effects",
+      "required": "Reject existing output, input/output alias and unsafe ownership; preserve masters. Bind cancellation/stale publication and explicit Library promotion, not universal rollback. Separate partial files/candidates from accepted heads. Trusted handler effects and non-force-cancellable subprocesses disclosed.",
+      "pass_means": "Declared local ownership guard proven; no sandbox/vendor transaction claim."
+    },
+    {
+      "id": "G06",
+      "stage": "oracles",
+      "required": "Independent analytic/retained expected values for each core stage; duplicate frames and exact order retained. Equally executing UI/worker source or export/reimport is not an independent renderer correctness oracle. Intentional negatives distinguish malformed intended positives.",
+      "pass_means": "Specific measured local mechanics verified."
+    },
+    {
+      "id": "G07",
+      "stage": "comparison",
+      "required": "Optional local supplied input manifest declares frame order/roles/direction, rational holds/play-count, pivot/crop metadata and hash/domain. Report rawRGBA/alpha/visibleRGB/palette/clock differences; encoded bytes only if appropriate. No implicit resizing/reordering/trimming/alignment/matte or art score.",
+      "pass_means": "Declared mechanical correspondence, not semantic motion or vendor equivalence."
+    },
+    {
+      "id": "G08",
+      "stage": "standalone",
+      "required": "Install pinned wheel in isolated target/venv and run selected11 channels outside checkout, including package fixtures/contracts/JS, licensed portable font and clean fresh Store. Deliberate missing Node/Godot/font paths produce explicit capability outcomes.",
+      "pass_means": "Local packaging/entry replay complete for named environments; Python/Node/engine dependency requirements remain."
+    },
+    {
+      "id": "G09",
+      "stage": "review",
+      "required": "Fresh independent adversarial code/recipe review after implementation, validating malformed inputs, status/exit propagation, skip counting, partial artifacts, receipts and package parity without touching canonical inputs.",
+      "pass_means": "Selected defects corrected; not100% mathematical or all-branch assurance."
+    },
+    {
+      "id": "G10",
+      "stage": "separate-later-quality",
+      "required": "Approved complete humanoid inputs/strong directional poses/hidden surfaces/events, complete native-clock body/effects viewing, two independent aesthetic/motion reviews; provider/H3 only under frozen authorized comparison after prior prerequisites.",
+      "pass_means": "An actual accepted art action for exact artifacts; not produced by synthetic channel passes."
+    }
+  ],
+  "recommended_completion_statement": "All required cases in the frozen F01\u2013F11 local mechanical replay specification passed in the declared environment and installed package. Original full-flow/vendor/model/native/visual obligations remain separately unsupported or unobserved.",
+  "future_receipt_statuses": [
+    "passed-local-mechanics",
+    "failed",
+    "validation_error",
+    "technical_failure",
+    "unsupported",
+    "blocked-dependency",
+    "skipped-optional",
+    "visual-unreviewed"
+  ],
+  "no_new_executions_or_provider_calls": true
+}

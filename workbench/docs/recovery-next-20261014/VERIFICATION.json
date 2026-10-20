@@ -1,0 +1,91 @@
+{
+  "created_utc": "2026-10-14T04:49:20.355270+00:00",
+  "status": "completed bounded recovery pass; private inference and production editing incomplete",
+  "provider_post_attempts_listed": 12,
+  "http200_results": 12,
+  "returned_pngs_including_palette_strips": 26,
+  "reported_generations": "5.7",
+  "independent_balance_reconciliation": false,
+  "rea_records_bound": 12,
+  "full_vendor_analysis_complete": false,
+  "art_quality_accepted": false,
+  "local_runtime_changed": false,
+  "production_ui_integrations_delivered": false,
+  "verification_python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "verification_pillow": "12.3.0",
+  "tests": {
+    "full_suite_passed": 666,
+    "warnings": 1398,
+    "new_prepared_capture_tests": 26,
+    "new_phase_verifier_tests": 11,
+    "independent_sandbox_tamper_tests_rejected": 9,
+    "palette_preparation_offline_tests": 4
+  },
+  "artifact_manifest": {
+    "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/ARTIFACT-MANIFEST.json",
+    "sha256": "164bcd98d79ac4e6705a5bcdf54367c300e57623df3273ef05b13e50ee593465",
+    "file_count": 271,
+    "total_bytes": 3828916,
+    "scope": "Retained local recovery artifacts at this snapshot, including earlier drafts/synthetic review sandboxes. Entries are files, not independent experiments. No credentials/browser profiles included."
+  },
+  "evidence": [
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/PLAN.json",
+      "sha256": "5ac105207201a715b401c1ae287250ff3341421724fceaa9e9aa33ef574a25cd"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/CONNECTIVITY-PHASE-PLAN.json",
+      "sha256": "f58aeee4a67c04455a8e5a3f52202bffc6102d76d6f95c66f38a14e4ce9eaaf5"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/PROBE-BINDINGS-FINAL.json",
+      "sha256": "609c7bebfd528fbb2ec9bd0c144bb142228f7d91ea1813a8845c0be1bcd37c5d"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/CONNECTIVITY-BINDINGS-FINAL.json",
+      "sha256": "4b871097c9d757edd38f21d1d0f13090a26c3b3cb5fcdf617a4a928609c47e75"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/SUBMISSION-RUNNER-PIN.json",
+      "sha256": "4fd0e5d3e444d998651041b98912f07d61c22115c6f7189f6d0ae5519dd48874"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/PRESERVATION-CHECK.json",
+      "sha256": "5a1b44a0f5436149ba3f4abab2b6b508e1e7e67e12266703d019df8f546a2c1d"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-next-20261014/test-evidence/PYTEST-FULL-FINAL.json",
+      "sha256": "58fd15b878a9e0dbd33b3093a5ac3fa23eec3993864b160d4b2aa0ac2c28e278"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-palette-capture-review-20261014/CAPTURE-REVIEW-FINAL.json",
+      "sha256": "045b9dad0187d3f859f0ffb6fbcc34b84bdde923e788e72bdb79671492d5addc"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-palette-capture-review-20261014/final-crossreview/MEASUREMENTS.json",
+      "sha256": "79f0360ce9e2721fe7b58fbc7a4d6c43a1ed05b804848fa4416a2dda210b3b31"
+    }
+  ],
+  "preservation_before_manifest_extension": {
+    "selected_entries": 242,
+    "runtime_files": 105,
+    "explicit_notes": 14,
+    "failures": 0
+  },
+  "final_handoff_validation": {
+    "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/HANDOFF-VALIDATION.json",
+    "role": "Final hash/link validation output. Excluded from self-hash pinning to avoid a manifest cycle.",
+    "status": "passed",
+    "selected_manifest_entries": 300,
+    "local_links_checked": 348,
+    "failures": 0
+  },
+  "remaining": [
+    "Exact automatic palette construction/initialization/convergence",
+    "Exact positive-strength dithering",
+    "Exact public cutout implementation",
+    "Private animation sampling, segmentation, deflicker and model weights",
+    "Local UI integration and accepted animation art"
+  ],
+  "claims_boundary": "Producer/REA/PNG binding checks establish file consistency; they do not independently authenticate network origin or vendor internals."
+}

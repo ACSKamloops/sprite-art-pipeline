@@ -1,0 +1,449 @@
+{
+  "reviewed_commit": "a0add946724d44fca556fd90249ba70301ee1e11",
+  "scope": "Selected source/oracle/receipt/doc review, not a whole renderer/engine/family audit. No producer edits or target reruns.",
+  "findings": [
+    {
+      "id": "G01",
+      "severity": "low",
+      "kind": "regression-oracle-weakness",
+      "finding": "F09 unknown-family rejection also omits mandatory ramps. The preserved error names both problems; _rejected accepts any ValidationError. A regression could satisfy this check solely through missing ramps even if family validation broke. Current retained output does explicitly name the unknown type; this is not evidence of current acceptance of the invalid type.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            157
+          ],
+          "literal": "'unknown private effect family rejected'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            55
+          ],
+          "literal": "except ValidationError as error:",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "tests/evidence/replay-geometry/F09-RECEIPT.json",
+          "sha256": "f8997d0d634871b840fa42809b673868549e2825c5ff5122630f65384b406174",
+          "one_based_lines": [
+            1
+          ],
+          "literal": "ramps must be an object",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ],
+      "requested_correction": "Use an otherwise admitted minimal recipe with ramps and common-only layer fields; pair its valid arc control and assert an unknown-type diagnostic on changing only type."
+    },
+    {
+      "id": "G02",
+      "severity": "low",
+      "kind": "coverage-wording",
+      "finding": "F02 declares a nonzero arm anchor but tests only held position tracks, with zero rotation and unit scale. That anchor cancels in translation, so these manual goldens do not discriminate anchored rotation/scale. The prior general geometry implementation may have separate controls; this selected recipe does not establish those branches.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            74
+          ],
+          "literal": "'anchor':[.5,1.5]",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            80
+          ],
+          "literal": "'property':'position'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+          "sha256": "c7f733ca373791441bb72401a4a7dad5e39ab6a845bcc130913e404bd291ebfd",
+          "one_based_lines": [
+            15
+          ],
+          "literal": "parent/anchor transforms",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ],
+      "requested_correction": "Qualify the recipe documentation as parented translation with a declared anchor; reserve anchored rotation/scale proof for separate discriminating controls."
+    },
+    {
+      "id": "G03",
+      "severity": "informative",
+      "kind": "known-owner-fix-pending",
+      "finding": "At the reviewed commit run_flow resolves the output before checking its identity, permitting a dangling/sibling symlink to resolve to an absent target. Root already announced preservation fix and routine_order addition; this review does not claim them applied at a0add94.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            349
+          ],
+          "literal": "output=Path(output).resolve()",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ],
+      "requested_correction": "Bind the separately announced symlink preservation/routine-order update to its final commit and regression evidence."
+    }
+  ],
+  "supported_groups": [
+    {
+      "id": "P01",
+      "scope": "F02 manually enumerated pixels and lineage",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            87
+          ],
+          "literal": "Independent destination enumeration",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            140
+          ],
+          "literal": "'original editable owned scene rerenders exactly'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "tests/evidence/replay-geometry/F02-RECEIPT.json",
+          "sha256": "308a9c90131fca48e00286c9094caf3d0079d3843f65f36c73b351df59c016ed",
+          "one_based_lines": [
+            1
+          ],
+          "literal": "Two nodes claim the same source pixel ownership",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "scope": "F09 exact retained arc adapter oracle, not private or independent artistic goldens",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            40,
+            156,
+            181
+          ],
+          "literal": "ARC_AUTHORITY",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            156
+          ],
+          "literal": "'pinned arc retained full RGBA goldens'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+          "sha256": "c7f733ca373791441bb72401a4a7dad5e39ab6a845bcc130913e404bd291ebfd",
+          "one_based_lines": [
+            16
+          ],
+          "literal": "adapter parity evidence",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "scope": "F10 exact codec data versus GIF hidden-RGB limitation and unsupported formats",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            312
+          ],
+          "literal": "'APNG exact RGBA and GIF visible/alpha/hold/total-play contract'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            313
+          ],
+          "literal": "GIF hidden RGB is not preserved",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            316
+          ],
+          "literal": "'unrepresentable APNG hold and partial-alpha GIF explicitly unsupported'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "scope": "Warm-start engine measurement, original failing startup retained; cause not isolated",
+      "anchors": [
+        {
+          "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+          "sha256": "c7f733ca373791441bb72401a4a7dad5e39ab6a845bcc130913e404bd291ebfd",
+          "one_based_lines": [
+            19
+          ],
+          "literal": "cause of the initial recorded lead was not separately isolated",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            226
+          ],
+          "literal": "await create_timer(0.1).timeout",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            238,
+            239,
+            250
+          ],
+          "literal": "<0.04",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "tests/evidence/replay-geometry/INITIAL-ENGINE.json",
+          "sha256": "48a05ddb64f071ae0258ab7a5b7d8ac9b5d624b1afcd1dd29ba0ac98a9393bf4",
+          "one_based_lines": [
+            19
+          ],
+          "literal": "first hold within40ms",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "tests/evidence/replay-geometry/ENGINE-PLAYS-2.json",
+          "sha256": "8fb1fda4ab08e02f02c69f7f89863bb6512ee24819a159526e9b79d94713b8b8",
+          "one_based_lines": [
+            4
+          ],
+          "literal": "0.241569",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    },
+    {
+      "id": "P05",
+      "scope": "Unavailable engine stays partial/false check and cannot hide an unrelated bad PNG",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            335
+          ],
+          "literal": "engine['status']=='verified'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+          "one_based_lines": [
+            358
+          ],
+          "literal": "status='failed' if failed else 'partial' if unavailable else 'completed'",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "tests/test_replay_geometry.py",
+          "sha256": "58d30ae7e67e8a042f33e2ca90df0c65817df20c01dbe086e7bdb534e21dfe34",
+          "one_based_lines": [
+            83
+          ],
+          "literal": "test_unavailable_engine_cannot_hide_corrupted_export",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    },
+    {
+      "id": "P06",
+      "scope": "All eleven catalog entries map local subsets to callable modules; gates and manifests are mechanical",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replication.py",
+          "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957",
+          "one_based_lines": [
+            47,
+            132,
+            138
+          ],
+          "literal": "'whole_flow_completed': False",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replication.py",
+          "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957",
+          "one_based_lines": [
+            127
+          ],
+          "literal": "module.run_flow(flow",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replication.py",
+          "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957",
+          "one_based_lines": [
+            134
+          ],
+          "literal": "report.update(flow=flow, status=status, whole_flow_completed=False)",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "sprite_workbench/replication.py",
+          "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957",
+          "one_based_lines": [
+            192
+          ],
+          "literal": "not independent authenticity, behavior or art acceptance.",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "scope": "Packaging identity is pinned source/data inventory; setup binds hash-locked dependencies, not platform/vendor parity",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replication.py",
+          "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957",
+          "one_based_lines": [
+            63
+          ],
+          "literal": "def package_snapshot():",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "pyproject.toml",
+          "sha256": "7306a536ebc028640aa636f951c44743df58d432eefd7c9556e138dc9eaca244",
+          "one_based_lines": [
+            19
+          ],
+          "literal": "sprite_workbench = [",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "scripts/setup_local.sh",
+          "sha256": "754709c9cf0956046063f42eeb5706f0861c130cf36c1a09943e4851b064a53f",
+          "one_based_lines": [
+            13
+          ],
+          "literal": "--require-hashes",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        },
+        {
+          "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+          "sha256": "c7f733ca373791441bb72401a4a7dad5e39ab6a845bcc130913e404bd291ebfd",
+          "one_based_lines": [
+            13
+          ],
+          "literal": "absolute paths and the final receipt identity may differ.",
+          "commit": "a0add946724d44fca556fd90249ba70301ee1e11"
+        }
+      ]
+    }
+  ],
+  "retained_arc_binding": {
+    "retained_path": "analysis-models/depth-round3/renderer-fixtures/OUTCOMES-revised.json",
+    "sha256": "bd825b49b605693d4f85636df496e85201b89deb0c104ca5313254e5c14f762c",
+    "declared_sha_matches": true,
+    "json_pointer": "/cases/60",
+    "case_id": "extra-arc-slash",
+    "recipe_exact_match": true,
+    "eight_full_rgba_hashes_exact_match": true,
+    "method": "inert AST literals and retained JSON selection; no target execution"
+  },
+  "files": [
+    {
+      "path": "sprite_workbench/replay_geometry.py",
+      "sha256": "588cfc18ab8399531189acbb6406ca750e4f7a84fb0fed172f72468146b44228",
+      "bytes": 22921
+    },
+    {
+      "path": "sprite_workbench/replication.py",
+      "sha256": "6bbc22ad18e5b6d53da0da017945ee09a2477692622a0edb4d0b614b4f7e9957",
+      "bytes": 15412
+    },
+    {
+      "path": "tests/test_replay_geometry.py",
+      "sha256": "58d30ae7e67e8a042f33e2ca90df0c65817df20c01dbe086e7bdb534e21dfe34",
+      "bytes": 5527
+    },
+    {
+      "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+      "sha256": "c7f733ca373791441bb72401a4a7dad5e39ab6a845bcc130913e404bd291ebfd",
+      "bytes": 4160
+    },
+    {
+      "path": "docs/local-replication/LOCAL-CHANNELS.md",
+      "sha256": "37e9a96651dcafbd901a359fa63bcb3474d799f6603ea1ff5cd5de5287acf7ae",
+      "bytes": 10562
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "7306a536ebc028640aa636f951c44743df58d432eefd7c9556e138dc9eaca244",
+      "bytes": 668
+    },
+    {
+      "path": "scripts/setup_local.sh",
+      "sha256": "754709c9cf0956046063f42eeb5706f0861c130cf36c1a09943e4851b064a53f",
+      "bytes": 828
+    },
+    {
+      "path": "tests/evidence/replay-geometry/INITIAL-ENGINE.json",
+      "sha256": "48a05ddb64f071ae0258ab7a5b7d8ac9b5d624b1afcd1dd29ba0ac98a9393bf4",
+      "bytes": 1284
+    },
+    {
+      "path": "tests/evidence/replay-geometry/ENGINE-PLAYS-2.json",
+      "sha256": "8fb1fda4ab08e02f02c69f7f89863bb6512ee24819a159526e9b79d94713b8b8",
+      "bytes": 1397
+    },
+    {
+      "path": "tests/evidence/replay-geometry/VERIFICATION.json",
+      "sha256": "8adf2190de246ee16e5829ece3abc23fb33e6c5618bae9ddbd2a0db91e2e6817",
+      "bytes": 3257
+    },
+    {
+      "path": "tests/evidence/replay-geometry/F02-RECEIPT.json",
+      "sha256": "308a9c90131fca48e00286c9094caf3d0079d3843f65f36c73b351df59c016ed",
+      "bytes": 11433
+    },
+    {
+      "path": "tests/evidence/replay-geometry/F09-RECEIPT.json",
+      "sha256": "f8997d0d634871b840fa42809b673868549e2825c5ff5122630f65384b406174",
+      "bytes": 33124
+    }
+  ],
+  "limits": [
+    "No new engine, Node renderer, packaging, provider or network execution.",
+    "F04/F05/F11 source internals not reviewed; orchestration mapping/status scope reviewed.",
+    "Wheel replay comparisons are root work in progress, not verified by this receipt.",
+    "Warm-start tolerance checks are not exact wall-clock, cold-start, GPU pixels, video/continuous viewing or artwork approval."
+  ]
+}

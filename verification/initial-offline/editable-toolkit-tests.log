@@ -1,0 +1,36 @@
+test_actual_libresprite_layered_open_save_reopen_render (test_aseprite_exchange.AseExchangeTests.test_actual_libresprite_layered_open_save_reopen_render) ... /home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit/sprite_lab/aseprite.py:60: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for i,color in enumerate(image.getdata()):
+ok
+test_deterministic_sidecar_timing_and_edit_isolation (test_aseprite_exchange.AseExchangeTests.test_deterministic_sidecar_timing_and_edit_isolation) ... ok
+test_linked_cropped_cel_uses_original_image_not_full_canvas (test_aseprite_exchange.AseExchangeTests.test_linked_cropped_cel_uses_original_image_not_full_canvas) ... ok
+test_sixty_hz_cycle_keeps_duration_in_ase_and_tool (test_aseprite_exchange.AseExchangeTests.test_sixty_hz_cycle_keeps_duration_in_ase_and_tool) ... ok
+test_actual_source_placement_layers_shared_cels_partial_alpha (test_construction.ConstructionTests.test_actual_source_placement_layers_shared_cels_partial_alpha) ... ok
+test_candidate_localization_and_stale (test_core.CoreTests.test_candidate_localization_and_stale) ... /home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py:129: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  a=list(_render_frame(before,frame['id']).getdata());b=list(_render_frame(after,frame['id']).getdata());points=[[i%w,i//w]for i,(x,y)in enumerate(zip(a,b))if x!=y]
+ok
+test_canonical_js_numbers_and_unicode (test_core.CoreTests.test_canonical_js_numbers_and_unicode) ... ok
+test_explicit_metadata_edit (test_core.CoreTests.test_explicit_metadata_edit) ... ok
+test_export_determinism (test_core.CoreTests.test_export_determinism) ... ok
+test_history_undo_redo_replay_cursor (test_core.CoreTests.test_history_undo_redo_replay_cursor) ... ok
+test_invalid_transaction_atomic_after_valid_prefix (test_core.CoreTests.test_invalid_transaction_atomic_after_valid_prefix) ... ok
+test_layer_translation_shared_cel_once (test_core.CoreTests.test_layer_translation_shared_cel_once) ... ok
+test_local_edit_preserves_everything_else (test_core.CoreTests.test_local_edit_preserves_everything_else) ... ok
+test_masked_recolor_and_erase (test_core.CoreTests.test_masked_recolor_and_erase) ... ok
+test_ora_lossless_reopen_and_external_pixel_edit (test_core.CoreTests.test_ora_lossless_reopen_and_external_pixel_edit) ... /home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit/sprite_lab/export.py:34: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  for i,color in enumerate(image.getdata()):
+ok
+test_overlap_and_missing_cel (test_core.CoreTests.test_overlap_and_missing_cel) ... ok
+test_partial_alpha_exact (test_core.CoreTests.test_partial_alpha_exact) ... ok
+test_rgba_candidate_new_color_and_outside_rejection (test_core.CoreTests.test_rgba_candidate_new_color_and_outside_rejection) ... /home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit/sprite_lab/candidate.py:5: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  validate_project(project);require(cel_id in project['cels'],'Unknown cel');image=image.convert('RGBA');require(image.size==(project['canvas']['width'],project['canvas']['height']),'Candidate must retain canvas dimensions');indices=_mask(project,mask);original=project['cels'][cel_id]['pixels'];rgba=list(image.getdata());baseline=list(render_cel(project,cel_id).getdata());require(all(rgba[i]==baseline[i]for i in range(len(rgba))if i not in indices),'Candidate RGBA changes outside mask')
+ok
+test_stale_and_locked (test_core.CoreTests.test_stale_and_locked) ... ok
+test_tampered_receipt_rejected (test_core.CoreTests.test_tampered_receipt_rejected) ... ok
+test_translate_preserves_source_and_clipping (test_core.CoreTests.test_translate_preserves_source_and_clipping) ... ok
+test_integral_decimal_project_and_transaction_exact (test_loading.PortableJsonTests.test_integral_decimal_project_and_transaction_exact) ... ok
+test_nonfinite_unsafe_and_fractional_indices_reject (test_loading.PortableJsonTests.test_nonfinite_unsafe_and_fractional_indices_reject) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.172s
+
+OK

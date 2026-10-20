@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "artifact_root": "/home/astra/artifacts/pixellab-palette-construction-20261014",
+  "label": "Prepared supplied diagnostics; no service submission/response or generated art",
+  "prepared_files": [
+    {
+      "file": "FIXTURES.json",
+      "bytes": 2168,
+      "sha256": "98b916a5876eeef50e9e5d91ed2f5dee5f54fc902931c5cce942de807ffba8e5"
+    },
+    {
+      "file": "ORIGINAL-HELPER-REPLAY.json",
+      "bytes": 33535,
+      "sha256": "6e1530cf99ccd183712ad1d0c42d0e065f94c800792725efddc29c309780b884"
+    },
+    {
+      "file": "PLAN.json",
+      "bytes": 1995,
+      "sha256": "8997593ad8d17359eb6ed3c6e3472ab397c62867b7828a6ea28d608c4ce91690"
+    },
+    {
+      "file": "PUBLIC-CONTRACT.json",
+      "bytes": 7320,
+      "sha256": "b78d2916483c5420b79afdb382ee568aff8033e0d2ab93303499a4a35ef631cc"
+    },
+    {
+      "file": "histogram-cc-4/request.json",
+      "bytes": 8342,
+      "sha256": "1e09153dcdf0ce4e9eed6ace08b457a3213ffac06cf6a6f829d93c445f1a824a"
+    },
+    {
+      "file": "inputs/A.png",
+      "bytes": 3165,
+      "sha256": "7ecce37558c8dfa18bcbbd0534c9d0a170310ed4acede349fdf206b1f5ebf0f1"
+    },
+    {
+      "file": "inputs/A.rgba",
+      "bytes": 16384,
+      "sha256": "f052e31f65426b689b7e7236b8e189452f2aa55a59c00ce34af0b7fdef6f138e"
+    },
+    {
+      "file": "inputs/B.png",
+      "bytes": 3024,
+      "sha256": "cb6dceed08bb11af66b592428c0ec5487c431f19c580893f8939a32a45723f53"
+    },
+    {
+      "file": "inputs/B.rgba",
+      "bytes": 16384,
+      "sha256": "34283059b9ae2ed47d900b91b3bad2c0c173d2cb4afdcfa7296039cdb79cb4ec"
+    },
+    {
+      "file": "inputs/C.png",
+      "bytes": 3016,
+      "sha256": "ffad294e449e017179be621c05f3693cd5274a4b684b59461405cd92c3dbfbae"
+    },
+    {
+      "file": "inputs/C.rgba",
+      "bytes": 16384,
+      "sha256": "4ea39ab62ac139facafb6e615bbaec6c6ed22c1c14114a916240b9cd661ded95"
+    },
+    {
+      "file": "joint-ab-32/request.json",
+      "bytes": 8547,
+      "sha256": "0bbd5f958e43c0c5c23a73cf32ebe0809bf75f0d4705989de9d0ee2266549c37"
+    },
+    {
+      "file": "joint-ab-4/request.json",
+      "bytes": 8546,
+      "sha256": "ec4fa96935f9cf7cb563392d0360d41875223289390ce34a709b0390c8d18b28"
+    },
+    {
+      "file": "original-helper/distance.original.js",
+      "bytes": 51,
+      "sha256": "64c6a95c46eb5756d6ecffc1281cda48499cdd9061af0948fe905a320db84cff"
+    },
+    {
+      "file": "original-helper/reducer.original.js",
+      "bytes": 1474,
+      "sha256": "f98a7aa044b03fbd50096ae0c8af0c6d9ea01f6565b75bd8326f1bfb6bd8fa61"
+    },
+    {
+      "file": "original-helper/srgb.original.js",
+      "bytes": 73,
+      "sha256": "110f58094f1d594e008bb023037ee8c93c282999999257fe23a5876a6c47368e"
+    },
+    {
+      "file": "weighted-aa-4/request.json",
+      "bytes": 8734,
+      "sha256": "475b4ca542e84d8e703b2ce623c95324705476e3cfa6af9c35915ccb40867e0f"
+    }
+  ],
+  "tools": [
+    {
+      "file": "prepare_palette_construction.py",
+      "sha256": "a04c314ab992f519ea11ff2903ff89ef9be67040a81629a6170f6a192e0703f7"
+    },
+    {
+      "file": "replay_palette_helper.cjs",
+      "sha256": "50675891da5abb23ede36cd2cdb92f496fdf4ead9b873810259e1a54a641e0a9"
+    },
+    {
+      "file": "compare_palette_construction.py",
+      "sha256": "d89fb0142da6d97eac18eec08476bea695399069cbe7dd82e00f033717bed066"
+    },
+    {
+      "file": "test_palette_construction.py",
+      "sha256": "4765b97f86f035f0b4f7d28c81d525b98880292d5d7f67ecd23721a7891088d2"
+    }
+  ],
+  "offline_verification": {
+    "original_helper_runs": "five checks per histogram including fresh VM, second-argument0/4/32 equality and representative membership",
+    "png_decoded_rgba_checks": 3,
+    "comparison_test_double_tests_passed": 4,
+    "actual_post_count": 0,
+    "actual_response_count": 0
+  }
+}

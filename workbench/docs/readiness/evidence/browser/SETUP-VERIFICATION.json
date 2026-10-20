@@ -1,0 +1,214 @@
+{
+  "artistic_acceptance": "unreviewed",
+  "checks": [
+    {
+      "name": "all replay dependencies available",
+      "passed": true
+    },
+    {
+      "name": "all eleven local recipe subsets",
+      "passed": true
+    },
+    {
+      "name": "recipe artifact integrity",
+      "passed": true
+    },
+    {
+      "name": "exact undo and redo",
+      "passed": true
+    },
+    {
+      "name": "native editable project identity",
+      "passed": true
+    },
+    {
+      "name": "fresh Store editable sequence",
+      "passed": true
+    },
+    {
+      "name": "fresh Store exact history",
+      "passed": true
+    },
+    {
+      "name": "fresh Store native dependencies",
+      "passed": true
+    },
+    {
+      "name": "source unchanged during verification",
+      "passed": true
+    }
+  ],
+  "created_utc": "2026-10-14T00:41:13.403491+00:00",
+  "environment": {
+    "all_replay_dependencies_ready": true,
+    "dependency_versions": {
+      "Pygments": "2.21.0",
+      "attrs": "26.1.0",
+      "iniconfig": "2.3.1",
+      "jsonschema": "4.26.0",
+      "jsonschema-specifications": "2025.9.1",
+      "numpy": "2.5.4",
+      "packaging": "26.3",
+      "pillow": "12.3.0",
+      "pluggy": "1.6.0",
+      "pytest": "9.1.1",
+      "referencing": "0.37.0",
+      "rpds-py": "2026.9.1",
+      "setuptools": "84.0.0",
+      "sprite-workbench": "0.4.0",
+      "wheel": "0.48.0"
+    },
+    "executable": "/home/astra/projects/pixellab-local-workbench/.venv/bin/python",
+    "kind": "local-environment-check",
+    "network_or_credentials_used": false,
+    "packages": [
+      {
+        "available": true,
+        "minimum": "2",
+        "name": "numpy",
+        "version": "2.5.4"
+      },
+      {
+        "available": true,
+        "minimum": "11",
+        "name": "Pillow",
+        "version": "12.3.0"
+      },
+      {
+        "available": true,
+        "minimum": "4.20",
+        "name": "jsonschema",
+        "version": "4.26.0"
+      },
+      {
+        "available": true,
+        "minimum": "23",
+        "name": "packaging",
+        "version": "26.3"
+      }
+    ],
+    "platform": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+    "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+    "python_ready": true,
+    "scope": "Prerequisite probes only; replay verifies actual behavior. F08 uses supplied glyphs, not ambient fonts.",
+    "status": "completed",
+    "tools": [
+      {
+        "available": true,
+        "exit": 0,
+        "name": "node",
+        "path": "/usr/bin/node",
+        "scope": "F09 procedural effects",
+        "version": "v22.22.1"
+      },
+      {
+        "available": true,
+        "exit": 0,
+        "name": "godot",
+        "path": "/home/astra/.local/bin/godot",
+        "scope": "F10 engine check",
+        "version": "4.7.2.stable.official.ed1daf0bf"
+      }
+    ]
+  },
+  "kind": "readiness-verification",
+  "output": "/home/astra/projects/pixellab-local-workbench/workspaces/web-control/files/setup-runs/5568806ccb514f08bbc7b87b44397dbe",
+  "provider_calls": 0,
+  "recipes": {
+    "artistic_acceptance": "unreviewed",
+    "completion_meaning": "Selected diagnostic recipes completed their explicit checks; original whole flows remain incomplete.",
+    "continuous_motion_viewed": false,
+    "flows": [
+      {
+        "checks": 15,
+        "flow": "F01",
+        "receipt": "F01-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 11,
+        "flow": "F02",
+        "receipt": "F02-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 17,
+        "flow": "F03",
+        "receipt": "F03-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 6,
+        "flow": "F04",
+        "receipt": "F04-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 6,
+        "flow": "F05",
+        "receipt": "F05-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 17,
+        "flow": "F06",
+        "receipt": "F06-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 18,
+        "flow": "F07",
+        "receipt": "F07-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 13,
+        "flow": "F08",
+        "receipt": "F08-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 15,
+        "flow": "F09",
+        "receipt": "F09-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 10,
+        "flow": "F10",
+        "receipt": "F10-RECEIPT.json",
+        "status": "completed"
+      },
+      {
+        "checks": 9,
+        "flow": "F11",
+        "receipt": "F11-RECEIPT.json",
+        "status": "completed"
+      }
+    ],
+    "kind": "local-replay-run",
+    "output": "/home/astra/projects/pixellab-local-workbench/workspaces/web-control/files/setup-runs/5568806ccb514f08bbc7b87b44397dbe/recipes",
+    "provider_calls": 0,
+    "selected_flows": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11"
+    ],
+    "source_unchanged_during_run": true,
+    "status": "completed",
+    "version": 1,
+    "whole_vendor_replication_complete": false
+  },
+  "scope": "Setup diagnostics only; not full vendor equivalence or an art/model comparison",
+  "source_fingerprint": "c8df6fa354cb0dc584d436dc55cb6115c5f88cbd5670495e8b739fb365463e1d",
+  "status": "completed",
+  "version": 1
+}

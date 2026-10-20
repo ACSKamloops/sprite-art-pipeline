@@ -1,0 +1,1 @@
+function(e,t,n){"use strict";async function r(){let e=await navigator.clipboard.read();for(let t of e){let e=t.types.find(e=>e.startsWith("image/"));if(e){let n=await t.getType(e);return new File([n],"pasted-image.png",{type:e})}}throw Error("No image found in clipboard")}n.d(t,{l:function(){return r}})}

@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "updated_utc": "2026-10-14T08:25:11.121828+00:00",
+  "package_version": "0.9.0",
+  "runtime_commit": "e557f23",
+  "full_suite_commit": "587cbe3f4d31301e5c4d8c86db1e31c0c3e7562d",
+  "source_fingerprint": "a00047cb39709fec2fe8c0206de786ec935ad1aea985ba8ada467505e3d3f839",
+  "mechanical_checks": {
+    "tests": 982,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 113.359
+  },
+  "runtime_files": 186,
+  "installed_workflow_checks": 14,
+  "browser_checks": 18,
+  "browser_postflight_checks": 11,
+  "motion_regression_browser_checks": 10,
+  "setup_checks": 9,
+  "local_url": "http://127.0.0.1:8874/#parity",
+  "provider_calls_this_phase": 0,
+  "exact_matched_reference_slots": 3,
+  "evidence": [
+    {
+      "file": "evidence/TESTS.xml",
+      "sha256": "94db6f2ee3d9ce66851f01d46eb0902da4fb77d5b8b8f6f0b07f6e4dd69feee8",
+      "bytes": 137687
+    },
+    {
+      "file": "evidence/TESTS.log",
+      "sha256": "b8233cb2c6a7e39eadddc4693ed8143df57f81018fc121e9b32c7a0ead06e7c7",
+      "bytes": 3599
+    },
+    {
+      "file": "evidence/PACKAGE-COMPARISON.json",
+      "sha256": "0603077495219b35cce3be4b9208bc466786b59103e6df9ddc0880d24abdbfe8",
+      "bytes": 30593
+    },
+    {
+      "file": "evidence/INSTALLED-PROOF.json",
+      "sha256": "366e0eba5905a34805aabbc61942cff9f51607d5499efe2fff658c2a38c6d551",
+      "bytes": 1755
+    },
+    {
+      "file": "evidence/INSTALLED-UI-QA.json",
+      "sha256": "48b5b9d0031a59adff4b9db04c13e1097e0dc616906bc585cb640d8afb56b258",
+      "bytes": 4292
+    },
+    {
+      "file": "evidence/INSTALLED-UI-POSTFLIGHT.json",
+      "sha256": "54284a5c6616674c8d0319329820aa14e7bc29fa1290d73e2b766d645f272ca6",
+      "bytes": 2790
+    },
+    {
+      "file": "evidence/UI-PROOF-FILES.json",
+      "sha256": "f34ec8490ecac7f6764941258543bd32c14b9a659143c36554a809de768ad276",
+      "bytes": 1111
+    },
+    {
+      "file": "evidence/UI-PREVIEW-PROOF.json",
+      "sha256": "72f2826794deaf5dcdf18d1dc09f97e29bdb63e52f7c0ed536f142e9280e27a5",
+      "bytes": 529
+    },
+    {
+      "file": "evidence/SETUP-VERIFICATION.json",
+      "sha256": "a31b2f16b11677ceb7758cf783beb5abe7140711047b5f253890d0af9d7bb6ef",
+      "bytes": 5306
+    },
+    {
+      "file": "evidence/MATCHED-REFERENCE-PARITY.json",
+      "sha256": "433ac420bd571bfc9e31ce9fe43c7047daea93765fb38db35f15a92d71334ce9",
+      "bytes": 2506
+    },
+    {
+      "file": "evidence/MOTION-REGRESSION.json",
+      "sha256": "9dd0ff9c3d7cd3946ae9de411dfd2d0098cc50c3130ac7a24e03247af7b6fc26",
+      "bytes": 28300
+    },
+    {
+      "file": "evidence/MOTION-POSTFLIGHT.json",
+      "sha256": "f9117ad3d781e752cc138d3f849abb86cc03c6408e4513b219496fa35edf5c0e",
+      "bytes": 358
+    },
+    {
+      "file": "evidence/qa-parity-real.cjs",
+      "sha256": "4d4ef9c7e01b7db4d9aba5c24a32613690d6ad8ade223ee02e5cafe086669037",
+      "bytes": 14212
+    },
+    {
+      "file": "evidence/postflight.py",
+      "sha256": "5f7d7b9638a82c50d312075a3b59e592c6c6dfe59c748c93a3be8e231cccfd49",
+      "bytes": 6315
+    },
+    {
+      "file": "evidence/qa-preview.cjs",
+      "sha256": "c60652b46294f09ec7ecca126f3800497adbd0563c52fc8748042013ee42cd94",
+      "bytes": 3725
+    },
+    {
+      "file": "evidence/NOTE-REPIN-RECEIPT.json",
+      "sha256": "5f4028bd5ad94e73bc6e294c27e4bc62aaabdfca81731df2ad3da631f7daa53d",
+      "bytes": 2553
+    },
+    {
+      "file": "evidence/MATCHED-REFERENCE-REPLAY.json",
+      "sha256": "49229cb3987a838e77a3c12d0540a241d87b8f8b4dca414a21626ed327767859",
+      "bytes": 2602
+    }
+  ],
+  "whole_vendor_parity": false,
+  "whole_original_questions_closed": 0,
+  "art_quality_accepted": false,
+  "scope": "Source-backed client operations and finite matched reference handling; original bodies plus declared host stubs/adapters. No private model, full animation conversion or accepted art parity."
+}

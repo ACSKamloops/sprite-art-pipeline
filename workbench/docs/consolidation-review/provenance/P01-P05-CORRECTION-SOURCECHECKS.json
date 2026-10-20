@@ -1,0 +1,421 @@
+{
+  "historical_originals": [
+    {
+      "original_path": "HANDOFF.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/HANDOFF.md",
+      "expected": "7b98e5be8885e6b32789b59ca8cb963593542bd0ddd2df1b5d9b45f2981c424e",
+      "actual": "7b98e5be8885e6b32789b59ca8cb963593542bd0ddd2df1b5d9b45f2981c424e",
+      "matches": true,
+      "matches_initial_reviewer_hash": true,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "CURRENT-ANALYSIS.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/CURRENT-ANALYSIS.md",
+      "expected": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+      "actual": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+      "matches": true,
+      "matches_initial_reviewer_hash": true,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "ANALYSIS-SCOPE.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/ANALYSIS-SCOPE.md",
+      "expected": "a9103537da60a9095b70de36eb1963088049657c157b5e1e7077838bcb4a1066",
+      "actual": "a9103537da60a9095b70de36eb1963088049657c157b5e1e7077838bcb4a1066",
+      "matches": true,
+      "matches_initial_reviewer_hash": true,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "ANALYSIS-STATUS.json",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/ANALYSIS-STATUS.json",
+      "expected": "6cbc04766535cf65091f54c105f7d81e65214cab50619088469ee2e05e5735d8",
+      "actual": "6cbc04766535cf65091f54c105f7d81e65214cab50619088469ee2e05e5735d8",
+      "matches": true,
+      "matches_initial_reviewer_hash": true,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "SHAREABLE-PATHS.txt",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/SHAREABLE-PATHS.txt",
+      "expected": "2a6c8c5e4d9c14a8a692d1b43c2a99aac5fba431b60fd491cebbe8e85b2fe540",
+      "actual": "2a6c8c5e4d9c14a8a692d1b43c2a99aac5fba431b60fd491cebbe8e85b2fe540",
+      "matches": true,
+      "matches_initial_reviewer_hash": true,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "RECONSTRUCTION-REQUIREMENTS.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/RECONSTRUCTION-REQUIREMENTS.md",
+      "expected": "04b91e50eb05337b22057060264fb22d141858870a2b52699eb3bf4842b9e57a",
+      "actual": "04b91e50eb05337b22057060264fb22d141858870a2b52699eb3bf4842b9e57a",
+      "matches": true,
+      "matches_initial_reviewer_hash": null,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "ANALYSIS.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/ANALYSIS.md",
+      "expected": "b97ea1d41702b9ebd5022ad83d28e60ef44edfa5f299e3d88ff50d86cc72ac59",
+      "actual": "b97ea1d41702b9ebd5022ad83d28e60ef44edfa5f299e3d88ff50d86cc72ac59",
+      "matches": true,
+      "matches_initial_reviewer_hash": null,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011"
+    },
+    {
+      "original_path": "analysis-root/ANALYSIS-RUN-HANDOFF-20261012.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/analysis-root/ANALYSIS-RUN-HANDOFF-20261012.md",
+      "expected": "ec5c984cb256f18e74bf229904f9e284ff5c7acb41c2aa97ecd9f8f78f6fe1d3",
+      "actual": "ec5c984cb256f18e74bf229904f9e284ff5c7acb41c2aa97ecd9f8f78f6fe1d3",
+      "matches": true,
+      "matches_initial_reviewer_hash": true,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011/analysis-root"
+    },
+    {
+      "original_path": "analysis-root/full-reconstruction/IMPLEMENTATION-GATES.md",
+      "checkpoint_path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/historical-entrypoints/analysis-root/full-reconstruction/IMPLEMENTATION-GATES.md",
+      "expected": "d131599ed827d178c00cf00b4f152cc550e32b67bf7153d7860b1e7c5a3c39be",
+      "actual": "d131599ed827d178c00cf00b4f152cc550e32b67bf7153d7860b1e7c5a3c39be",
+      "matches": true,
+      "matches_initial_reviewer_hash": null,
+      "original_link_base": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/full-reconstruction"
+    }
+  ],
+  "historical_paid_manifest_unchanged": true,
+  "authored_notes": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/REVIEWED-HANDOFF-FILES.json",
+    "sha256": "1889e7eaa7da704652409b89f7c8150dcf3793fb70a54e3ecafc8e50df559251",
+    "scope": "Explicit authored handoff notes only, excluding external dependencies/raw evidence; no recursive directory approval",
+    "rows": [
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/START-HERE.md",
+        "expected": "03fe58d04aee10218e60caa6fa4a5944b40b689fb23def9468b3d9906442ba41",
+        "actual": "03fe58d04aee10218e60caa6fa4a5944b40b689fb23def9468b3d9906442ba41",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/HANDOFF.md",
+        "expected": "9b28a5845dee73952a8b20202f12eedc394af56e812d25afb1e360718fa9d250",
+        "actual": "9b28a5845dee73952a8b20202f12eedc394af56e812d25afb1e360718fa9d250",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/CURRENT-ANALYSIS.md",
+        "expected": "343f7d9ff4f2a2e985a4327c9ae6d415079f2f633aaaf7cea664b357f95792dd",
+        "actual": "343f7d9ff4f2a2e985a4327c9ae6d415079f2f633aaaf7cea664b357f95792dd",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-SCOPE.md",
+        "expected": "6ee7fb7431f2c4cbc4b569ec4ae01fea8895161c1f6db325af2c80ec7bcdc13b",
+        "actual": "6ee7fb7431f2c4cbc4b569ec4ae01fea8895161c1f6db325af2c80ec7bcdc13b",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/SHAREABLE-PATHS.txt",
+        "expected": "691160e4e87ca98348f544e4908de75d07d8908b99aa9afa3f2324465998d7a3",
+        "actual": "691160e4e87ca98348f544e4908de75d07d8908b99aa9afa3f2324465998d7a3",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/README.md",
+        "expected": "7aab3a74ab104b85f59167591c1c8b2218c1b563202bd5d22d534c22b0f10936",
+        "actual": "7aab3a74ab104b85f59167591c1c8b2218c1b563202bd5d22d534c22b0f10936",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/COVERAGE.md",
+        "expected": "e5c7c3ede90765349228df1a13337a3fb153d3c03ab868ca0c9b7f158a2c2a01",
+        "actual": "e5c7c3ede90765349228df1a13337a3fb153d3c03ab868ca0c9b7f158a2c2a01",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/COMMANDS.md",
+        "expected": "695ae69c30675c6cb930b494160d42d82d3113931cd897347c6b5bbb72a80cb8",
+        "actual": "695ae69c30675c6cb930b494160d42d82d3113931cd897347c6b5bbb72a80cb8",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/ANALYSIS-INDEX.md",
+        "expected": "ae8329fd58b542298ade5cf05e3dae522c705917ed476c0ef086317f4d74016c",
+        "actual": "ae8329fd58b542298ade5cf05e3dae522c705917ed476c0ef086317f4d74016c",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+        "expected": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+        "actual": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CONSOLIDATED-FINDINGS.md",
+        "expected": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+        "actual": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RED-TEAM-REVIEW.md",
+        "expected": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+        "actual": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+        "matches": true
+      }
+    ]
+  },
+  "current_manifest": {
+    "path": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/CURRENT-HANDOFF-MANIFEST.json",
+    "sha256": "a6e995b678f0f9a2da9faf60504d95822407b63271515963d0edfae3b65a8e39",
+    "scope": "current handoff and selected structural/substantive records; not universal source/semantic/private/share audit",
+    "rows": [
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/START-HERE.md",
+        "expected": "03fe58d04aee10218e60caa6fa4a5944b40b689fb23def9468b3d9906442ba41",
+        "actual": "03fe58d04aee10218e60caa6fa4a5944b40b689fb23def9468b3d9906442ba41",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/HANDOFF.md",
+        "expected": "9b28a5845dee73952a8b20202f12eedc394af56e812d25afb1e360718fa9d250",
+        "actual": "9b28a5845dee73952a8b20202f12eedc394af56e812d25afb1e360718fa9d250",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/CURRENT-ANALYSIS.md",
+        "expected": "343f7d9ff4f2a2e985a4327c9ae6d415079f2f633aaaf7cea664b357f95792dd",
+        "actual": "343f7d9ff4f2a2e985a4327c9ae6d415079f2f633aaaf7cea664b357f95792dd",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-SCOPE.md",
+        "expected": "6ee7fb7431f2c4cbc4b569ec4ae01fea8895161c1f6db325af2c80ec7bcdc13b",
+        "actual": "6ee7fb7431f2c4cbc4b569ec4ae01fea8895161c1f6db325af2c80ec7bcdc13b",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+        "expected": "169bc6fb82de75814dc7767b20f8721b3adbc8883fd3d472783fe7a57cb9919e",
+        "actual": "169bc6fb82de75814dc7767b20f8721b3adbc8883fd3d472783fe7a57cb9919e",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/SHAREABLE-PATHS.txt",
+        "expected": "691160e4e87ca98348f544e4908de75d07d8908b99aa9afa3f2324465998d7a3",
+        "actual": "691160e4e87ca98348f544e4908de75d07d8908b99aa9afa3f2324465998d7a3",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-test-20261011/REVIEWED-HANDOFF-FILES.json",
+        "expected": "1889e7eaa7da704652409b89f7c8150dcf3793fb70a54e3ecafc8e50df559251",
+        "actual": "1889e7eaa7da704652409b89f7c8150dcf3793fb70a54e3ecafc8e50df559251",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/README.md",
+        "expected": "7aab3a74ab104b85f59167591c1c8b2218c1b563202bd5d22d534c22b0f10936",
+        "actual": "7aab3a74ab104b85f59167591c1c8b2218c1b563202bd5d22d534c22b0f10936",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+        "expected": "d3e26c9e4df0589810d59a722895399d71793801d6c2724175c3d8b8958478e9",
+        "actual": "d3e26c9e4df0589810d59a722895399d71793801d6c2724175c3d8b8958478e9",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+        "expected": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+        "actual": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RED-TEAM-REVIEW.md",
+        "expected": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+        "actual": "139d7504a93dc449fa5e3d8eb4b07ed884dcbe48cec266e37f691b7bc96332f7",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CONSOLIDATED-FINDINGS.md",
+        "expected": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+        "actual": "c77b3eba805550cf522fd88c01f8bf728e63369993267c33b0066e0939cfaf43",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/REPORT-CATALOG.json",
+        "expected": "a70d6ad4036d0900cdfe4b0fbed956b0bc07134b986592bf712a36c620cabd90",
+        "actual": "a70d6ad4036d0900cdfe4b0fbed956b0bc07134b986592bf712a36c620cabd90",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/RETAINED-FINDING-RECORDS.json",
+        "expected": "7563fdfd489628204bd3c018b0232fdd734f74e7f3508ac6fb2446247635c736",
+        "actual": "7563fdfd489628204bd3c018b0232fdd734f74e7f3508ac6fb2446247635c736",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/STRUCTURAL-VALIDATION.json",
+        "expected": "a1b2e8e75c17d061de85e6cd1149bb09edcf4339e5fdb1a20c0d867de132fbf9",
+        "actual": "a1b2e8e75c17d061de85e6cd1149bb09edcf4339e5fdb1a20c0d867de132fbf9",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation-review/source-coverage/FINDING-REGISTER.json",
+        "expected": "7a623dd07fc2df079b3a38e58c2ca21458028e4f9f7a43b853ef0ab2889b682b",
+        "actual": "7a623dd07fc2df079b3a38e58c2ca21458028e4f9f7a43b853ef0ab2889b682b",
+        "matches": true
+      },
+      {
+        "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation-review/source-coverage/ORIGINAL-63-DISPOSITIONS.json",
+        "expected": "79732656e3d6848f98c93c69aca693f6ebb79e77d2b633f6b8c83fb0d5f5a505",
+        "actual": "79732656e3d6848f98c93c69aca693f6ebb79e77d2b633f6b8c83fb0d5f5a505",
+        "matches": true
+      }
+    ]
+  },
+  "selected_current_links": {
+    "checked": 34,
+    "missing": []
+  },
+  "tracked_proofs": [
+    {
+      "directory": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/evidence/verification-159",
+      "commit": "24957ec7b9bcf44134cb022ac92fc5b176a2b18c",
+      "report_sha256": "563e1402f399f8d4e7bfaffd9088e97dd07ea07f6b1cb78ef26be2305a259404",
+      "spec_sha256": "b0abda650c25401f9fcb804bc4bcd90ab7d3a72d07c956f4a88c94fc819cacc9",
+      "xml_counts": {
+        "tests": 159,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "report_counts": {
+        "tests": 159,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "91154200205245a73a608791a01d3352720a6d1132c39db922f13b6fcb5bc288",
+      "package_smoke_wheel_sha256": "91154200205245a73a608791a01d3352720a6d1132c39db922f13b6fcb5bc288",
+      "package_status": "passed",
+      "tracked_proof_exists": true
+    },
+    {
+      "directory": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/evidence/verification-165",
+      "commit": "ad2fb5c56aae35826b268e96b5c2f7112b5d45b0",
+      "report_sha256": "54c4dd4b94c5a35baf6f979523a2bf88959a9c1901a0eb7b6cf4eb6cd02863ff",
+      "spec_sha256": "54b6c4a9abac18a548d3a0c9642391d582ecbf5bf2ad748389d220240587665e",
+      "xml_counts": {
+        "tests": 165,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "report_counts": {
+        "tests": 165,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_sha256": "e97c06ba8e2b91beeb9fdd54803f4dfefe32d716abef5daa834cc0e0b4c205d1",
+      "package_smoke_wheel_sha256": "e97c06ba8e2b91beeb9fdd54803f4dfefe32d716abef5daa834cc0e0b4c205d1",
+      "package_status": "passed",
+      "tracked_proof_exists": true
+    }
+  ],
+  "latest165_digest_binding": {
+    "verified_commit": true,
+    "report_sha256": true,
+    "source_specification_sha256": true,
+    "package_sha256": true
+  },
+  "inputs": [
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/START-HERE.md",
+      "sha256": "03fe58d04aee10218e60caa6fa4a5944b40b689fb23def9468b3d9906442ba41"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/CURRENT-ANALYSIS.md",
+      "sha256": "343f7d9ff4f2a2e985a4327c9ae6d415079f2f633aaaf7cea664b357f95792dd"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/HANDOFF.md",
+      "sha256": "9b28a5845dee73952a8b20202f12eedc394af56e812d25afb1e360718fa9d250"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-SCOPE.md",
+      "sha256": "6ee7fb7431f2c4cbc4b569ec4ae01fea8895161c1f6db325af2c80ec7bcdc13b"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/README.md",
+      "sha256": "7aab3a74ab104b85f59167591c1c8b2218c1b563202bd5d22d534c22b0f10936"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+      "sha256": "4960c990e75aa8ea3ca6d9d532ffa533115c9d2b07a61ae934280ac80ed72ede"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/ANALYSIS-INDEX.md",
+      "sha256": "ae8329fd58b542298ade5cf05e3dae522c705917ed476c0ef086317f4d74016c"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/LOCAL-WORKBENCH-DESIGN.md",
+      "sha256": "2b0764d18bfeaf859320f1fa5f88c222e22c7927b4cd38b17936a635de586452"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+      "sha256": "169bc6fb82de75814dc7767b20f8721b3adbc8883fd3d472783fe7a57cb9919e"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-test-20261011/SHAREABLE-PATHS.txt",
+      "sha256": "691160e4e87ca98348f544e4908de75d07d8908b99aa9afa3f2324465998d7a3"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/EVIDENCE-PRESERVATION.json",
+      "sha256": "086887e5785712e40687099925a36387fab20721704de6e64b63e0d8032e60c0"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/REPORT-CATALOG.json",
+      "sha256": "a70d6ad4036d0900cdfe4b0fbed956b0bc07134b986592bf712a36c620cabd90"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/STRUCTURAL-VALIDATION.json",
+      "sha256": "a1b2e8e75c17d061de85e6cd1149bb09edcf4339e5fdb1a20c0d867de132fbf9"
+    }
+  ],
+  "catalog_metadata": {
+    "files": 1952,
+    "scope": [
+      "analysis-root",
+      "analysis-contract",
+      "analysis-models",
+      "analysis-poses",
+      "analysis-art",
+      "depth-round2",
+      "controlled-tests",
+      "START-HERE.md",
+      "HANDOFF.md",
+      "CURRENT-ANALYSIS.md",
+      "ANALYSIS.md",
+      "ANALYSIS-SCOPE.md",
+      "ANALYSIS-STATUS.json",
+      "RECONSTRUCTION-REQUIREMENTS.md",
+      "PAID-EXPLORATION.md",
+      "RUNTIME-CONTROLS.md",
+      "SUBSCRIPTION-AND-RUNTIME-PLAN.md",
+      "runtime/exploration-summary.json",
+      "runtime/probe-ledger.json"
+    ],
+    "boundary": "Structural indexing only; record counts overlap and are not unique findings, semantic reviews, feature completion or shareability.",
+    "selected_critical_reports_indexed": {
+      "analysis-contract/depth-round3/worker-browser-parity/WORKER-BROWSER-PARITY.md": true,
+      "analysis-models/depth-round3/renderer-completion/RENDERER-METHODS.md": true,
+      "analysis-poses/depth-round3/engine-roundtrip/REPORT.md": true
+    }
+  },
+  "preservation_metadata": {
+    "file_paths": 161,
+    "scope": "local diagnostic example output and historical wheel; path/hash preservation plan, not full investigation sharing authorization",
+    "private_capture_copy_permitted": false,
+    "whole_investigation_shareable": false,
+    "entries_rehashed": false
+  }
+}

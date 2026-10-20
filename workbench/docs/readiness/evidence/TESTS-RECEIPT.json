@@ -1,0 +1,12 @@
+{
+  "tests": 430,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 40.263,
+  "tested_commit": "846e391",
+  "runtime_followup_commit": "ca74489",
+  "followup_delta": "two stylesheet lines; actual narrow-browser geometry and installed byte parity verified separately",
+  "junit_sha256": "640698869abe5332806385e2ff84cbce4336a7144fc28c639a37b8e52e7cd0b9",
+  "scope": "Mechanical integration regression suite; no generated-art acceptance"
+}

@@ -1,0 +1,2458 @@
+{
+  "classification": "predeclared-public-cutout-candidate-test-not-server-source-recovery",
+  "plan_sha256": "d23295b3af242446a5947db8ea626cbc8ad4ff432007bfbf10e2de7c80a692b3",
+  "pairwise": {
+    "rgba_differing_pixels": 89,
+    "mask_differing_pixels": 89,
+    "simple_removed_complex_kept": 89,
+    "complex_removed_simple_kept": 0,
+    "diagonal_chain_actual": [
+      {
+        "x": 20,
+        "y": 48,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 21,
+        "y": 49,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 22,
+        "y": 50,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 23,
+        "y": 51,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 24,
+        "y": 52,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 25,
+        "y": 53,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 26,
+        "y": 54,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 27,
+        "y": 55,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 28,
+        "y": 56,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 29,
+        "y": 57,
+        "simple_rgba": [
+          30,
+          160,
+          80,
+          255
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      },
+      {
+        "x": 30,
+        "y": 58,
+        "simple_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "complex_rgba": [
+          30,
+          160,
+          80,
+          255
+        ]
+      }
+    ]
+  },
+  "pins": [
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/request.json",
+      "sha256": "6a0bcf6d0c86251f456478b4e29671fb82c41e875b521a08a2259f6b98e60e32"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/request-wire.json",
+      "sha256": "48409733bf70203f24fbe1e85747e06489daf7228f51e68ef142cd958d79911d"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/response.json",
+      "sha256": "ddcad890308b2a1a2dfc552dae8d49a35a670a95198a8a5f2d682e2718541571"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/output-00.png",
+      "sha256": "5abfcec8e81c908a87cc859a13010e8cdc85f754fb837dc3be59f843eb865470"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/network.har",
+      "sha256": "d60117ddc198211146ff1369142d2cf8fde3b0d946a618f2fed46afcd1351500"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/state.json",
+      "sha256": "13501722701fade6a2dd5aafbdffd1e917ee3017248ea83205cdb2b2d558770c"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/simple/REA-EVIDENCE.json",
+      "sha256": "e9a71abad934afcbd1377f13fb0d71d44d076942678e0c58ef8747bbbe61a03d"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/request.json",
+      "sha256": "6b722ee5753be9cd04fb774fb847d04f465815fef38509cea9eb0e0aa88146e9"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/request-wire.json",
+      "sha256": "bacc047ecc710acf63943566e8093530624e832fb2621c22f941a51235e3f117"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/response.json",
+      "sha256": "b3b06f40ddc49224ea8bf28109cf33c257e5abb2dc3858a3dc428adebba9f59a"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/output-00.png",
+      "sha256": "3792edcf774a75f390a109ae63b94f09e1a8d3452b577243e1353f20fc23500f"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/network.har",
+      "sha256": "b4ed29134fef9a47e2d160df859f40e59b94e3a8383baf0514377bb2590b4219"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/state.json",
+      "sha256": "e3b843caa07461011ebf5dbab21783d40a246bdf6e0da25acf203bfbd783a291"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/complex/REA-EVIDENCE.json",
+      "sha256": "2ce0e80905fd6ee8c2045a2433742700741ae1a3fc8e27a012af1aad6ba4fdfc"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/TOPOLOGY-PROOF.json",
+      "sha256": "9839d1bc2035d464158c319e197c730abceaf474bf66986db7e67700c22a0386"
+    }
+  ],
+  "cases": [
+    {
+      "variant": "simple",
+      "status": "bound-and-measured",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "returned_png_sha256": "5abfcec8e81c908a87cc859a13010e8cdc85f754fb837dc3be59f843eb865470",
+      "response_sha256": "ddcad890308b2a1a2dfc552dae8d49a35a670a95198a8a5f2d682e2718541571",
+      "actual_post_wire_sha256": "48409733bf70203f24fbe1e85747e06489daf7228f51e68ef142cd958d79911d",
+      "usage": {
+        "type": "generations",
+        "generations": 1.0
+      },
+      "output_alpha": [
+        0,
+        255
+      ],
+      "removed_pixels": 5977,
+      "retained_visible_rgb_changes": 0,
+      "zero_alpha_nonzero_rgb": 0,
+      "regions": {
+        "true_open_channel_in_body": {
+          "pixels": 96,
+          "removed": 96
+        },
+        "truly_enclosed_hole": {
+          "pixels": 64,
+          "removed": 64
+        },
+        "diagonal_only_patch": {
+          "pixels": 25,
+          "removed": 25
+        },
+        "dark_detail": {
+          "pixels": 16,
+          "removed": 0
+        },
+        "border_close_green_1": {
+          "pixels": 64,
+          "removed": 64
+        },
+        "border_close_green_8": {
+          "pixels": 64,
+          "removed": 64
+        },
+        "border_close_green_32": {
+          "pixels": 64,
+          "removed": 64
+        }
+      },
+      "candidates": [
+        {
+          "neighbors": 4,
+          "linf_threshold": 0,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5697,
+          "rgba_mismatches": 282,
+          "mask_mismatches": 282,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 4,
+          "linf_threshold": 1,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5761,
+          "rgba_mismatches": 218,
+          "mask_mismatches": 218,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 4,
+          "linf_threshold": 8,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5825,
+          "rgba_mismatches": 154,
+          "mask_mismatches": 154,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 4,
+          "linf_threshold": 32,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5889,
+          "rgba_mismatches": 90,
+          "mask_mismatches": 90,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 64
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 52,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 53,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 54,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 55,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 0,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5731,
+          "rgba_mismatches": 266,
+          "mask_mismatches": 266,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 1,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5795,
+          "rgba_mismatches": 202,
+          "mask_mismatches": 202,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 8,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5859,
+          "rgba_mismatches": 138,
+          "mask_mismatches": 138,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 32,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5923,
+          "rgba_mismatches": 74,
+          "mask_mismatches": 74,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 64
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 52,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 53,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 54,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 55,
+              "y": 38,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      ],
+      "exact_candidates": []
+    },
+    {
+      "variant": "complex",
+      "status": "bound-and-measured",
+      "source_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "returned_png_sha256": "3792edcf774a75f390a109ae63b94f09e1a8d3452b577243e1353f20fc23500f",
+      "response_sha256": "b3b06f40ddc49224ea8bf28109cf33c257e5abb2dc3858a3dc428adebba9f59a",
+      "actual_post_wire_sha256": "bacc047ecc710acf63943566e8093530624e832fb2621c22f941a51235e3f117",
+      "usage": {
+        "type": "generations",
+        "generations": 1.0
+      },
+      "output_alpha": [
+        0,
+        255
+      ],
+      "removed_pixels": 5888,
+      "retained_visible_rgb_changes": 0,
+      "zero_alpha_nonzero_rgb": 0,
+      "regions": {
+        "true_open_channel_in_body": {
+          "pixels": 96,
+          "removed": 96
+        },
+        "truly_enclosed_hole": {
+          "pixels": 64,
+          "removed": 0
+        },
+        "diagonal_only_patch": {
+          "pixels": 25,
+          "removed": 0
+        },
+        "dark_detail": {
+          "pixels": 16,
+          "removed": 0
+        },
+        "border_close_green_1": {
+          "pixels": 64,
+          "removed": 64
+        },
+        "border_close_green_8": {
+          "pixels": 64,
+          "removed": 64
+        },
+        "border_close_green_32": {
+          "pixels": 64,
+          "removed": 64
+        }
+      },
+      "candidates": [
+        {
+          "neighbors": 4,
+          "linf_threshold": 0,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5697,
+          "rgba_mismatches": 193,
+          "mask_mismatches": 193,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 4,
+          "linf_threshold": 1,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5761,
+          "rgba_mismatches": 129,
+          "mask_mismatches": 129,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 4,
+          "linf_threshold": 8,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5825,
+          "rgba_mismatches": 65,
+          "mask_mismatches": 65,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 4,
+          "linf_threshold": 32,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5889,
+          "rgba_mismatches": 1,
+          "mask_mismatches": 1,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 0
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 64
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 20,
+              "y": 48,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                30,
+                160,
+                80,
+                255
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 0,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5731,
+          "rgba_mismatches": 227,
+          "mask_mismatches": 227,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 4,
+              "source": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                31,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 1,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5795,
+          "rgba_mismatches": 163,
+          "mask_mismatches": 163,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 10,
+              "source": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                38,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 8,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5859,
+          "rgba_mismatches": 99,
+          "mask_mismatches": 99,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 0
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 0,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 1,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 2,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "x": 3,
+              "y": 16,
+              "source": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                62,
+                160,
+                80,
+                255
+              ],
+              "actual": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "neighbors": 8,
+          "linf_threshold": 32,
+          "retained_alpha": 255,
+          "removed_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "candidate_removed": 5923,
+          "rgba_mismatches": 35,
+          "mask_mismatches": 35,
+          "regional_candidate_removal": {
+            "true_open_channel_in_body": {
+              "pixels": 96,
+              "removed": 96
+            },
+            "truly_enclosed_hole": {
+              "pixels": 64,
+              "removed": 0
+            },
+            "diagonal_only_patch": {
+              "pixels": 25,
+              "removed": 25
+            },
+            "dark_detail": {
+              "pixels": 16,
+              "removed": 0
+            },
+            "border_close_green_1": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_8": {
+              "pixels": 64,
+              "removed": 64
+            },
+            "border_close_green_32": {
+              "pixels": 64,
+              "removed": 64
+            }
+          },
+          "counterexamples": [
+            {
+              "x": 20,
+              "y": 48,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                30,
+                160,
+                80,
+                255
+              ]
+            },
+            {
+              "x": 21,
+              "y": 49,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                30,
+                160,
+                80,
+                255
+              ]
+            },
+            {
+              "x": 22,
+              "y": 50,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                30,
+                160,
+                80,
+                255
+              ]
+            },
+            {
+              "x": 23,
+              "y": 51,
+              "source": [
+                30,
+                160,
+                80,
+                255
+              ],
+              "candidate": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "actual": [
+                30,
+                160,
+                80,
+                255
+              ]
+            }
+          ]
+        }
+      ],
+      "exact_candidates": []
+    }
+  ],
+  "all_complete": true,
+  "outputs_byte_identical": false,
+  "candidate_grid": {
+    "neighbors": [
+      4,
+      8
+    ],
+    "linf_threshold": [
+      0,
+      1,
+      8,
+      32
+    ],
+    "retained_alpha": 255,
+    "removed_rgba": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "candidate_count_per_case": 8
+  },
+  "posts_made_by_reviewer": 0,
+  "boundary": "Same one RGB diagnostic, two task enums. Exact match within grid is not source recovery; cannot infer exact threshold between samples or PixMiniMax internal route."
+}

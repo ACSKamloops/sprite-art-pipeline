@@ -1,0 +1,144 @@
+{
+  "passed": true,
+  "base_project_sha256": "3a1978fb87a3795764c08fc706d709c53d57cb3a2efa4451cc28b52e6569a508",
+  "final_project_sha256": "9a098caf31bd16d61a753d0cdb04bc5a70422c8d5642652a72d0739533c527ae",
+  "raw_NE": [
+    {
+      "slot": 0,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 1,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 2,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 3,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 4,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 5,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 6,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 7,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    }
+  ],
+  "arm_map_checks": [
+    {
+      "slot": 1,
+      "frozen_map_equals_real_journal_cel": true
+    },
+    {
+      "slot": 2,
+      "frozen_map_equals_real_journal_cel": true
+    },
+    {
+      "slot": 3,
+      "frozen_map_equals_real_journal_cel": true
+    },
+    {
+      "slot": 4,
+      "frozen_map_equals_real_journal_cel": true
+    },
+    {
+      "slot": 5,
+      "frozen_map_equals_real_journal_cel": true
+    },
+    {
+      "slot": 6,
+      "frozen_map_equals_real_journal_cel": true
+    },
+    {
+      "slot": 7,
+      "frozen_map_equals_real_journal_cel": true
+    }
+  ],
+  "journal_replay_exact": true,
+  "no_final_frame_paint_used_as_rebuild_input": true,
+  "no_model_execution": true,
+  "semantic_generation_boundary": "Replays retained native paint and frozen source maps only; ImageGen semantic re-execution is not claimed reproducible.",
+  "production_cleanup": [
+    {
+      "slot": 0,
+      "literal_changed_pixels": 3,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 1,
+      "literal_changed_pixels": 3,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 2,
+      "literal_changed_pixels": 1,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 3,
+      "literal_changed_pixels": 0,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 4,
+      "literal_changed_pixels": 1,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 5,
+      "literal_changed_pixels": 1,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 6,
+      "literal_changed_pixels": 1,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    },
+    {
+      "slot": 7,
+      "literal_changed_pixels": 1,
+      "outside_mask_exact": true,
+      "decoded_RGBA_exact": true,
+      "png_bytes_exact": true
+    }
+  ],
+  "conditional_northwest": {
+    "frames": 8,
+    "mapping": "x_new=128-x_old; y unchanged",
+    "status": "conditional source mirror only; no independent repaint or new art rating"
+  }
+}

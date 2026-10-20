@@ -1,0 +1,1 @@
+Unselected complete-source-boot cycle. Rebuild with `python3 replay.py --output /ABSOLUTE/FRESH` from the retained sibling source packages. Exact eight PNGs, direct03 source-map guide, full donor boots at04/07 and protected upper. Frozen art review: `../reviews/complete-boots-v1/report/report.md`. Source construction is distinct from art approval. Installed v6 unchanged.

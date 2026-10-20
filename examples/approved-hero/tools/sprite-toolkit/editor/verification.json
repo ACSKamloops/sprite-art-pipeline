@@ -1,0 +1,512 @@
+{
+  "schema": "sprite-editor-verification/v1",
+  "browser_passed": true,
+  "browser_checks": 18,
+  "atomic_negative_cases": 8,
+  "operation_families": 10,
+  "python_parity_checks": 52,
+  "source_sha256": {
+    "editor/app.js": "f3e9fe94b285aeea95c7c8616776daf42e30a516e3b914dcdede8612600dd825",
+    "editor/pixels.js": "345586220088ab737cdb2e61a9f46588d184b7db6323169b2afb2670bbc3118e",
+    "editor/index.html": "76e38109b53661fcbb91b7633522acbf105bc5c44325ef47441b3da95be39d7c",
+    "editor/style.css": "2cbdb1332c9bd6665f446c94dc171059c9ce4859366a567a9974faf226ff7c88",
+    "editor/browser_check.js": "d60ae81af2455fb4c65c1090e2ac0b6f424981e19a1aefdc20ff466937c4bbe0",
+    "editor/large_project_check.js": "c94f9c12224cbf4a7a8e4e759ddc5a28230716bafcc56f9d5fa0baa579d9e2d5",
+    "editor/playback_check.js": "cd6c2107a1de8fd89c714a493d471281977584efaf471e5f68aea81c80a34515"
+  },
+  "evidence": [
+    "output/playwright/browser-check.json",
+    "output/playwright/python-parity.json",
+    "output/playwright/editor-desktop.png",
+    "output/playwright/editor-mobile.png",
+    "output/playwright/large-project-check.json"
+  ],
+  "limits": [
+    "Calibration fixture does not establish art quality",
+    "Only declared animations/frames/layers are edited; no cel/rig generation",
+    "Canonical partial-alpha RGBA matches Python; Canvas2D read-back may round premultiplied channels"
+  ],
+  "actual_project_checks": {
+    "passed": true,
+    "reports": [
+      {
+        "name": "layered-cutout",
+        "path": "/home/astra/projects/sprite-construction-lab/study/layered-cutout/project.json",
+        "load_ms": 908,
+        "edit_ms": 1509,
+        "undo_ms": 717,
+        "replay_ms": 2239,
+        "canvas": [
+          128,
+          160
+        ],
+        "palette_count": 3461,
+        "rendered_swatch_count": 20,
+        "initial_hash": "1a0b526f07b373b155d0a251804dcef1eecabc648b8e8de7343bf03a474beb8a",
+        "after_hash": "a9ba7468dff9c03e17beaa6824de443885c43642e0852dcbb8c26971059bdc9d",
+        "localized_mouse_edit": {
+          "frame": "walk_00",
+          "layer": "front_forearm",
+          "cel": "walk_00:front_forearm",
+          "x": 99,
+          "y": 79,
+          "index": 10211,
+          "before": 179,
+          "color": 1,
+          "refs": [
+            "walk_00"
+          ],
+          "width": 128,
+          "height": 160,
+          "palette_count": 3461
+        },
+        "canonical_rgba": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "actual_canvas_rgba": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "changed_frame_ids": [
+          "walk_00"
+        ],
+        "shared_cel_ref_frames": [
+          "walk_00"
+        ],
+        "receipt": {
+          "schema": "sprite-edit-receipt/v1",
+          "before_sha256": "1a0b526f07b373b155d0a251804dcef1eecabc648b8e8de7343bf03a474beb8a",
+          "after_sha256": "a9ba7468dff9c03e17beaa6824de443885c43642e0852dcbb8c26971059bdc9d",
+          "transaction": {
+            "schema": "sprite-edit-transaction/v1",
+            "expected_project_sha256": "1a0b526f07b373b155d0a251804dcef1eecabc648b8e8de7343bf03a474beb8a",
+            "reason": "Paint 1 pixel in walk_00/front_forearm",
+            "operations": [
+              {
+                "op": "paint",
+                "cel_id": "walk_00:front_forearm",
+                "points": [
+                  [
+                    99,
+                    79,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "diff": {
+            "cels": {
+              "walk_00:front_forearm": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    99,
+                    79
+                  ]
+                ]
+              }
+            },
+            "frames": {
+              "walk_00": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    99,
+                    79
+                  ]
+                ],
+                "bounds": [
+                  99,
+                  79,
+                  100,
+                  80
+                ]
+              }
+            },
+            "unchanged_frames": [
+              "walk_01",
+              "walk_02",
+              "walk_03",
+              "walk_04",
+              "walk_05",
+              "walk_06",
+              "walk_07",
+              "walk_08",
+              "walk_09",
+              "walk_10",
+              "walk_11",
+              "attack_00",
+              "attack_01",
+              "attack_02",
+              "attack_03",
+              "attack_04",
+              "attack_05",
+              "attack_06",
+              "attack_07",
+              "attack_08",
+              "attack_09",
+              "attack_10",
+              "attack_11"
+            ]
+          }
+        },
+        "checks_passed": true
+      },
+      {
+        "name": "native-walk",
+        "path": "/home/astra/projects/sprite-construction-lab/native/fixtures/randi-right-walk-native/project.json",
+        "load_ms": 257,
+        "edit_ms": 438,
+        "undo_ms": 250,
+        "replay_ms": 584,
+        "canvas": [
+          256,
+          224
+        ],
+        "palette_count": 20,
+        "rendered_swatch_count": 20,
+        "initial_hash": "f1b65a4a8938ecdddc33012f14bd3077787dec268f263899a4e56f46204170b9",
+        "after_hash": "ead72a74cabf9f6b2d31993f69d381ec53d4b78c6d35a896d77d10ea61cdf65f",
+        "localized_mouse_edit": {
+          "frame": "tick-013922",
+          "layer": "oam-001",
+          "cel": "oam-001-cel-0005",
+          "x": 104,
+          "y": 149,
+          "index": 38248,
+          "before": 16,
+          "color": 1,
+          "refs": [
+            "tick-013922",
+            "tick-013923",
+            "tick-013924",
+            "tick-013925",
+            "tick-013926"
+          ],
+          "width": 256,
+          "height": 224,
+          "palette_count": 20
+        },
+        "canonical_rgba": [
+          49,
+          41,
+          32,
+          255
+        ],
+        "actual_canvas_rgba": [
+          49,
+          41,
+          32,
+          255
+        ],
+        "changed_frame_ids": [
+          "tick-013922",
+          "tick-013923",
+          "tick-013924",
+          "tick-013925",
+          "tick-013926"
+        ],
+        "shared_cel_ref_frames": [
+          "tick-013922",
+          "tick-013923",
+          "tick-013924",
+          "tick-013925",
+          "tick-013926"
+        ],
+        "receipt": {
+          "schema": "sprite-edit-receipt/v1",
+          "before_sha256": "f1b65a4a8938ecdddc33012f14bd3077787dec268f263899a4e56f46204170b9",
+          "after_sha256": "ead72a74cabf9f6b2d31993f69d381ec53d4b78c6d35a896d77d10ea61cdf65f",
+          "transaction": {
+            "schema": "sprite-edit-transaction/v1",
+            "expected_project_sha256": "f1b65a4a8938ecdddc33012f14bd3077787dec268f263899a4e56f46204170b9",
+            "reason": "Paint 1 pixel in tick-013922/oam-001",
+            "operations": [
+              {
+                "op": "paint",
+                "cel_id": "oam-001-cel-0005",
+                "points": [
+                  [
+                    104,
+                    149,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "diff": {
+            "cels": {
+              "oam-001-cel-0005": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    104,
+                    149
+                  ]
+                ]
+              }
+            },
+            "frames": {
+              "tick-013922": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    104,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  104,
+                  149,
+                  105,
+                  150
+                ]
+              },
+              "tick-013923": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    104,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  104,
+                  149,
+                  105,
+                  150
+                ]
+              },
+              "tick-013924": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    104,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  104,
+                  149,
+                  105,
+                  150
+                ]
+              },
+              "tick-013925": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    104,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  104,
+                  149,
+                  105,
+                  150
+                ]
+              },
+              "tick-013926": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    104,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  104,
+                  149,
+                  105,
+                  150
+                ]
+              }
+            },
+            "unchanged_frames": [
+              "tick-013927",
+              "tick-013928",
+              "tick-013929",
+              "tick-013930",
+              "tick-013931",
+              "tick-013932",
+              "tick-013933",
+              "tick-013934",
+              "tick-013935",
+              "tick-013936",
+              "tick-013937",
+              "tick-013938",
+              "tick-013939",
+              "tick-013940",
+              "tick-013941",
+              "tick-013942",
+              "tick-013943",
+              "tick-013944",
+              "tick-013945",
+              "tick-013946",
+              "tick-013947",
+              "tick-013948",
+              "tick-013949",
+              "tick-013950",
+              "tick-013951"
+            ]
+          }
+        },
+        "checks_passed": true
+      },
+      {
+        "name": "native-sword",
+        "path": "/home/astra/projects/sprite-construction-lab/native/fixtures/randi-right-sword-native/project.json",
+        "load_ms": 380,
+        "edit_ms": 625,
+        "undo_ms": 334,
+        "replay_ms": 914,
+        "canvas": [
+          256,
+          224
+        ],
+        "palette_count": 22,
+        "rendered_swatch_count": 20,
+        "initial_hash": "2dec00029cf094dcbc003d3bd941781c67dc83af46e7e633ae0534f5df2a4bea",
+        "after_hash": "a0340b5a7fb224d32bac0c80a08ecbcadc32d916236f1bd8f1f6e6c655343152",
+        "localized_mouse_edit": {
+          "frame": "tick-013890",
+          "layer": "oam-001",
+          "cel": "oam-001-cel-0003",
+          "x": 76,
+          "y": 149,
+          "index": 38220,
+          "before": 16,
+          "color": 1,
+          "refs": [
+            "tick-013890",
+            "tick-013891"
+          ],
+          "width": 256,
+          "height": 224,
+          "palette_count": 22
+        },
+        "canonical_rgba": [
+          49,
+          41,
+          32,
+          255
+        ],
+        "actual_canvas_rgba": [
+          49,
+          41,
+          32,
+          255
+        ],
+        "changed_frame_ids": [
+          "tick-013890",
+          "tick-013891"
+        ],
+        "shared_cel_ref_frames": [
+          "tick-013890",
+          "tick-013891"
+        ],
+        "receipt": {
+          "schema": "sprite-edit-receipt/v1",
+          "before_sha256": "2dec00029cf094dcbc003d3bd941781c67dc83af46e7e633ae0534f5df2a4bea",
+          "after_sha256": "a0340b5a7fb224d32bac0c80a08ecbcadc32d916236f1bd8f1f6e6c655343152",
+          "transaction": {
+            "schema": "sprite-edit-transaction/v1",
+            "expected_project_sha256": "2dec00029cf094dcbc003d3bd941781c67dc83af46e7e633ae0534f5df2a4bea",
+            "reason": "Paint 1 pixel in tick-013890/oam-001",
+            "operations": [
+              {
+                "op": "paint",
+                "cel_id": "oam-001-cel-0003",
+                "points": [
+                  [
+                    76,
+                    149,
+                    1
+                  ]
+                ]
+              }
+            ]
+          },
+          "diff": {
+            "cels": {
+              "oam-001-cel-0003": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    76,
+                    149
+                  ]
+                ]
+              }
+            },
+            "frames": {
+              "tick-013890": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    76,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  76,
+                  149,
+                  77,
+                  150
+                ]
+              },
+              "tick-013891": {
+                "changed_pixels": 1,
+                "coordinates": [
+                  [
+                    76,
+                    149
+                  ]
+                ],
+                "bounds": [
+                  76,
+                  149,
+                  77,
+                  150
+                ]
+              }
+            },
+            "unchanged_frames": [
+              "tick-013892",
+              "tick-013893",
+              "tick-013894",
+              "tick-013895",
+              "tick-013896",
+              "tick-013897",
+              "tick-013898",
+              "tick-013899",
+              "tick-013900",
+              "tick-013901",
+              "tick-013902",
+              "tick-013903",
+              "tick-013904",
+              "tick-013905",
+              "tick-013906",
+              "tick-013907",
+              "tick-013908"
+            ]
+          }
+        },
+        "checks_passed": true
+      }
+    ],
+    "errors": [],
+    "scope": "Actual file upload, real mouse edit, canonical and art-canvas pixel readback, UI undo, complete journal replay on original loaded source; source files untouched."
+  },
+  "playback_checks": 13,
+  "playback_evidence": "evidence/editor-playback-check.json",
+  "playback_semantics": "Play resumes pausedtime; Replay explicitlyrestarts; one-shotcompletionthenPlay restarts; selectedframe seeks holdstart; projectload resetsclock"
+}

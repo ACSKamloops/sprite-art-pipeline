@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "baseline_commit": "530baf35598cdbef24133783dd063bd021d1aa9c",
+  "baseline_leaf": "d8fdabb",
+  "additional_baseline_commit": "b319f5c0b41543469ee669e9255256c391740950",
+  "additional_leaf": "46be610",
+  "verified_code_commit": "64d14a36ad19870df49b6e6c75f5702f0730ea3c",
+  "owner_corrections": [
+    "33aab50",
+    "d32ea6b"
+  ],
+  "local_cherries": [
+    "b319f5c",
+    "64d14a3"
+  ],
+  "command": "python3 -m pytest -q tests/test_consolidation_runtime_review.py --junitxml=.test-tmp/consolidation-final.xml --basetemp .test-tmp/consolidation-final",
+  "result": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0
+  },
+  "resolved": [
+    {
+      "id": "R01",
+      "proof": "Admitted nullableownership scene editable export/import retains identical sequence in fresh Store"
+    },
+    {
+      "id": "R02",
+      "proof": "boolFalse and stringfalse cannot acknowledge unsupported partialalphaGIF or publish acceptedhead"
+    },
+    {
+      "id": "R03",
+      "proof": "Typed parent_raster and paste_decision preserve exactpatch+guard+region+node+stamp; freshStore editable closure retains originalpixels and exact guarded replay reproduces same artifactid/RGBA"
+    },
+    {
+      "id": "R04",
+      "proof": "Missingfont after earliercandidate returns failedstep+runid and preserves priorstep receipt"
+    }
+  ],
+  "observations": [
+    {
+      "id": "O01",
+      "proof": "Direct prior explicit publication remains after later failedstep; expected sequential semantics, not transactionfailure"
+    }
+  ],
+  "source_only_qualifiers": [
+    "Pipeline job wraps failed admitted plan as validation_error even if nested error has unsupported; exact nested status retained. This is taxonomy, not silent success/provider dispatch",
+    "Candidate-only registered pipeline rejects explicitpublish/promote; cancellation is cooperative at checkpoints/terminal check and does not roll back artifacts or force-stop running processes",
+    "Typed editable closure walks supported declared lineage; arbitrary custom metadata does not imply universal dependency recovery",
+    "Pre-admission schema/action rejection may not produce a pipeline-run receipt; CLI error and durablejob terminal records differ from admitted step-failure receipts"
+  ],
+  "limits": [
+    "No producer modules edited by reviewer",
+    "No new provider/model/network/H3 calls",
+    "No all159 rerun",
+    "No browser/GPU/render/video execution this pass",
+    "No artistic acceptance/fullclone claim"
+  ],
+  "source_anchors": "SOURCE-ANCHORS.json",
+  "flow_coverage": "FLOW-COVERAGE.json",
+  "historical_receipt_readback": "PRIOR-VERIFICATION-READBACK.json"
+}

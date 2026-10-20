@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "scope": "asymmetric mechanical marker evidence only; no private capture or credentials",
+  "files": [
+    {
+      "file": "ENGINE-PLAYS-0-COMMANDS.json",
+      "bytes": 3188,
+      "sha256": "20c004fe58f8ecec73d95a6cd4dce8fe12313ea7b1e3cea369f9d3bcf1428d47"
+    },
+    {
+      "file": "ENGINE-PLAYS-0.json",
+      "bytes": 1204,
+      "sha256": "f1985df1877f7b44b15bd846b502aaea750a8f83226d210e2b5a300eca1f3451"
+    },
+    {
+      "file": "ENGINE-PLAYS-1-COMMANDS.json",
+      "bytes": 3188,
+      "sha256": "ad518fee8c189af1334ae1e8db9f0337a8abd6607f2e9e6ed827b034a7cb17e1"
+    },
+    {
+      "file": "ENGINE-PLAYS-1.json",
+      "bytes": 1143,
+      "sha256": "8a105d4dc6e7eec9440603ba256a0ab5d25a9b307f74891b6fa451e2e6d538d7"
+    },
+    {
+      "file": "ENGINE-PLAYS-2-COMMANDS.json",
+      "bytes": 3172,
+      "sha256": "3a5c0c148b6a9422f2ebe08223f8828a07139d637c80bf474ca9040e82aa0cf3"
+    },
+    {
+      "file": "ENGINE-PLAYS-2.json",
+      "bytes": 1397,
+      "sha256": "8fb1fda4ab08e02f02c69f7f89863bb6512ee24819a159526e9b79d94713b8b8"
+    },
+    {
+      "file": "F02-RECEIPT.json",
+      "bytes": 11433,
+      "sha256": "308a9c90131fca48e00286c9094caf3d0079d3843f65f36c73b351df59c016ed"
+    },
+    {
+      "file": "F09-RECEIPT.json",
+      "bytes": 33124,
+      "sha256": "f8997d0d634871b840fa42809b673868549e2825c5ff5122630f65384b406174"
+    },
+    {
+      "file": "F10-RECEIPT.json",
+      "bytes": 16869,
+      "sha256": "672d689e96a32155acf3f174d44ccbf6fa055495046642bce377b5142a5b6abc"
+    },
+    {
+      "file": "FINAL-ENGINE.gd",
+      "bytes": 4474,
+      "sha256": "1ae411f3c80896b52bf95e569a11306037e1b09aaab45f0b8d5dccde7ca12faa"
+    },
+    {
+      "file": "FINAL-JUNIT.xml",
+      "bytes": 1029,
+      "sha256": "695dddfebde36f02b4f00b8d32f22e7de54c472f2cb20734dc7f35b9008ed010"
+    },
+    {
+      "file": "FINAL-PYTEST.txt",
+      "bytes": 99,
+      "sha256": "4d7f6db9f471fc69b49abd1efbd19cbf3f8f223f5db6b6d3cfa3e43bb83021e9"
+    },
+    {
+      "file": "INITIAL-ENGINE-COMMANDS.json",
+      "bytes": 3172,
+      "sha256": "6c059b82e9ba95776ec685fa96d5238bf8c66a85ee625398b8d982611bf0be68"
+    },
+    {
+      "file": "INITIAL-ENGINE.gd",
+      "bytes": 4107,
+      "sha256": "0af86e73ca3570f1a18eaf3a5eaefa1162d5cc743e32b47cbd601c7b23d9c329"
+    },
+    {
+      "file": "INITIAL-ENGINE.json",
+      "bytes": 1284,
+      "sha256": "48a05ddb64f071ae0258ab7a5b7d8ac9b5d624b1afcd1dd29ba0ac98a9393bf4"
+    },
+    {
+      "file": "INITIAL-JUNIT.xml",
+      "bytes": 1742,
+      "sha256": "868a288c7fa811d72c3991d58b211b8977d3b8a8def7f60a5b2cf1975bae74b5"
+    },
+    {
+      "file": "INITIAL-PYTEST.txt",
+      "bytes": 1162,
+      "sha256": "96b78e594b36469ca91381c715f65ce71f10010327d39712509fcc0e92d5e5e2"
+    },
+    {
+      "file": "TEST-WRAPPER-FAILURE.txt",
+      "bytes": 3396,
+      "sha256": "3ff739ed847da6f7bc8aeb16e11be944d284aaa8e36f7e638b734a95cee168a9"
+    },
+    {
+      "file": "VERIFICATION.json",
+      "bytes": 3257,
+      "sha256": "8adf2190de246ee16e5829ece3abc23fb33e6c5618bae9ddbd2a0db91e2e6817"
+    }
+  ]
+}

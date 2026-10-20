@@ -1,0 +1,3909 @@
+{
+  "scope": "Pure-data replay of exact recorded analyzer on frozen trace JSON; no browser run.",
+  "passed": true,
+  "traces": 24,
+  "rows": [
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          466.143890380859,
+          1358.85583496094
+        ],
+        "physics_tick": 737,
+        "physics_hz": 60,
+        "rendered_frames": 427,
+        "fps": 50,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "northeast_attack",
+          "art_frame": 160,
+          "art_ready": true,
+          "cast_hand": "(489.2439, 1314.636)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.326666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.326666666666667,
+          "state_time": 0.0833333333333333,
+          "velocity": [
+            -12.0208148956299,
+            12.0208148956299
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          458.546600341797,
+          1366.453125
+        ],
+        "physics_tick": 754,
+        "physics_hz": 60,
+        "rendered_frames": 440,
+        "fps": 50,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.35,
+          "art_clip": "northeast_attack",
+          "art_frame": 166,
+          "art_ready": true,
+          "cast_hand": "(481.6466, 1322.233)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.0433333333333334,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0433333333333334,
+          "state_time": 0.366666666666667,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 11,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          460.534881591797,
+          1364.46472167969
+        ],
+        "physics_tick": 776,
+        "physics_hz": 60,
+        "rendered_frames": 457,
+        "fps": 50,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "northeast_cast",
+          "art_frame": 174,
+          "art_ready": true,
+          "cast_hand": "(483.6349, 1320.245)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.583333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.433333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            12.7279243469238,
+            -12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          449.162048339844,
+          1375.83752441406
+        ],
+        "physics_tick": 802,
+        "physics_hz": 60,
+        "rendered_frames": 475,
+        "fps": 45,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.483333333333333,
+          "art_clip": "northeast_cast",
+          "art_frame": 174,
+          "art_ready": true,
+          "cast_hand": "(472.2621, 1331.618)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              541.165344238281,
+              1283.83422851562
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 9,
+      "opposed_count": 9,
+      "late_count": 4,
+      "projectile_observations": 10
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          356.580718994141,
+          1468.41918945312
+        ],
+        "physics_tick": 876,
+        "physics_hz": 60,
+        "rendered_frames": 529,
+        "fps": 42,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "southwest_attack",
+          "art_frame": 224,
+          "art_ready": true,
+          "cast_hand": "(333.4807, 1431.459)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.36,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.36,
+          "state_time": 0.05,
+          "velocity": [
+            -37.4766616821289,
+            37.4766616821289
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 1.48333333333333,
+            "hostile": false,
+            "position": [
+              959.773010253906,
+              865.2265625
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          364.613128662109,
+          1460.38684082031
+        ],
+        "physics_tick": 896,
+        "physics_hz": 60,
+        "rendered_frames": 545,
+        "fps": 42,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.366666666666667,
+          "art_clip": "southwest_attack",
+          "art_frame": 230,
+          "art_ready": true,
+          "cast_hand": "(341.5131, 1423.427)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.0266666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50.2333333333333,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0266666666666667,
+          "state_time": 0.383333333333333,
+          "velocity": [
+            26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          364.750823974609,
+          1460.24914550781
+        ],
+        "physics_tick": 917,
+        "physics_hz": 60,
+        "rendered_frames": 562,
+        "fps": 48,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "southwest_cast",
+          "art_frame": 238,
+          "art_ready": true,
+          "cast_hand": "(341.6508, 1423.289)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.583333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2249999999999,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.433333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            -12.7279243469238,
+            12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          376.123657226562,
+          1448.87634277344
+        ],
+        "physics_tick": 943,
+        "physics_hz": 60,
+        "rendered_frames": 581,
+        "fps": 48,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "southwest_cast",
+          "art_frame": 238,
+          "art_ready": true,
+          "cast_hand": "(353.0237, 1411.916)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2249999999999,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              -0.707106828689575,
+              0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              284.120361328125,
+              1540.87963867188
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 3,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          459.606811523438,
+          1514.35766601562
+        ],
+        "physics_tick": 1012,
+        "physics_hz": 60,
+        "rendered_frames": 633,
+        "fps": 43,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southeast_attack",
+          "art_frame": 128,
+          "art_ready": true,
+          "cast_hand": "(482.7068, 1477.398)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.343333333333333,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2249999999999,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.343333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            12.7279243469238,
+            12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          450.915374755859,
+          1505.66625976562
+        ],
+        "physics_tick": 1032,
+        "physics_hz": 60,
+        "rendered_frames": 649,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "southeast_attack",
+          "art_frame": 142,
+          "art_ready": true,
+          "cast_hand": "(474.0154, 1468.706)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2249999999999,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            -26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          451.224578857422,
+          1505.97546386719
+        ],
+        "physics_tick": 1053,
+        "physics_hz": 60,
+        "rendered_frames": 665,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "southeast_cast",
+          "art_frame": 142,
+          "art_ready": true,
+          "cast_hand": "(474.3246, 1469.016)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.583333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.1583333333332,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.433333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            12.7279243469238,
+            12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          439.851745605469,
+          1494.60266113281
+        ],
+        "physics_tick": 1079,
+        "physics_hz": 60,
+        "rendered_frames": 684,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.483333333333333,
+          "art_clip": "southeast_cast",
+          "art_frame": 142,
+          "art_ready": true,
+          "cast_hand": "(462.9518, 1457.643)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.1583333333332,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            -26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              531.855041503906,
+              1586.60595703125
+            ]
+          }
+        ]
+      },
+      "locked_count": 16,
+      "released_count": 9,
+      "opposed_count": 9,
+      "late_count": 4,
+      "projectile_observations": 10
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          345.408355712891,
+          1400.15893554688
+        ],
+        "physics_tick": 1155,
+        "physics_hz": 60,
+        "rendered_frames": 736,
+        "fps": 41,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0166666666666667,
+          "art_clip": "northwest_attack",
+          "art_frame": 192,
+          "art_ready": true,
+          "cast_hand": "(322.3083, 1355.939)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.36,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.1583333333332,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.36,
+          "state_time": 0.05,
+          "velocity": [
+            -37.4766616821289,
+            -37.4766616821289
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          352.993865966797,
+          1407.74438476562
+        ],
+        "physics_tick": 1174,
+        "physics_hz": 60,
+        "rendered_frames": 751,
+        "fps": 41,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.35,
+          "art_clip": "northwest_attack",
+          "art_frame": 198,
+          "art_ready": true,
+          "cast_hand": "(329.8939, 1363.524)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0.0433333333333334,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.4499999999999,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0433333333333334,
+          "state_time": 0.366666666666667,
+          "velocity": [
+            26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 11,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "rowan",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          351.005584716797,
+          1405.75598144531
+        ],
+        "physics_tick": 1196,
+        "physics_hz": 60,
+        "rendered_frames": 768,
+        "fps": 41,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "northwest_cast",
+          "art_frame": 206,
+          "art_ready": true,
+          "cast_hand": "(327.9056, 1361.536)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.583333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 23.4999999999998,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.433333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            -12.7279243469238,
+            -12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          361.484619140625,
+          1416.23498535156
+        ],
+        "physics_tick": 1220,
+        "physics_hz": 60,
+        "rendered_frames": 786,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.433333333333333,
+          "art_clip": "northwest_cast",
+          "art_frame": 206,
+          "art_ready": true,
+          "cast_hand": "(338.3846, 1372.015)",
+          "character": "rowan",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.183333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 23.4999999999998,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 0.0333333333333334,
+          "state_time": 0.466666666666667,
+          "velocity": [
+            26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              -0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 0.216666666666667,
+            "hostile": false,
+            "position": [
+              281.688842773438,
+              1336.43920898438
+            ]
+          }
+        ]
+      },
+      "locked_count": 14,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 8
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          466.132110595703,
+          1358.86767578125
+        ],
+        "physics_tick": 1533,
+        "physics_hz": 60,
+        "rendered_frames": 979,
+        "fps": 43,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0166666666666667,
+          "art_clip": "northeast_attack",
+          "art_frame": 176,
+          "art_ready": true,
+          "cast_hand": "(487.2521, 1311.348)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.36,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.36,
+          "state_time": 0.05,
+          "velocity": [
+            37.4766616821289,
+            -37.4766616821289
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          457.652801513672,
+          1367.34692382812
+        ],
+        "physics_tick": 1554,
+        "physics_hz": 60,
+        "rendered_frames": 995,
+        "fps": 43,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "northeast_attack",
+          "art_frame": 190,
+          "art_ready": true,
+          "cast_hand": "(478.7728, 1319.827)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          455.887817382812,
+          1369.11193847656
+        ],
+        "physics_tick": 1574,
+        "physics_hz": 60,
+        "rendered_frames": 1011,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "northeast_cast",
+          "art_frame": 190,
+          "art_ready": true,
+          "cast_hand": "(477.0078, 1321.592)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.6,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.45,
+          "state_time": 0.05,
+          "velocity": [
+            37.4766616821289,
+            -37.4766616821289
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          444.727111816406,
+          1380.27258300781
+        ],
+        "physics_tick": 1601,
+        "physics_hz": 60,
+        "rendered_frames": 1030,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "northeast_cast",
+          "art_frame": 190,
+          "art_ready": true,
+          "cast_hand": "(465.8471, 1332.753)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              536.730407714844,
+              1288.26928710938
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          353.795715332031,
+          1471.20434570312
+        ],
+        "physics_tick": 1676,
+        "physics_hz": 60,
+        "rendered_frames": 1085,
+        "fps": 41,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southwest_attack",
+          "art_frame": 240,
+          "art_ready": true,
+          "cast_hand": "(330.0357, 1437.544)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.343333333333333,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.343333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            -12.7279243469238,
+            12.7279243469238
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 1.5,
+            "hostile": false,
+            "position": [
+              960.994934082031,
+              864.004760742188
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          362.487152099609,
+          1462.51293945312
+        ],
+        "physics_tick": 1696,
+        "physics_hz": 60,
+        "rendered_frames": 1101,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "southwest_attack",
+          "art_frame": 254,
+          "art_ready": true,
+          "cast_hand": "(338.7271, 1428.853)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50.2916666666667,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          364.252136230469,
+          1460.74792480469
+        ],
+        "physics_tick": 1716,
+        "physics_hz": 60,
+        "rendered_frames": 1117,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "southwest_cast",
+          "art_frame": 254,
+          "art_ready": true,
+          "cast_hand": "(340.4921, 1427.088)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.6,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2833333333333,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.45,
+          "state_time": 0.05,
+          "velocity": [
+            -37.4766616821289,
+            37.4766616821289
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          374.965942382812,
+          1450.0341796875
+        ],
+        "physics_tick": 1742,
+        "physics_hz": 60,
+        "rendered_frames": 1134,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.45,
+          "art_clip": "southwest_cast",
+          "art_frame": 254,
+          "art_ready": true,
+          "cast_hand": "(351.2059, 1416.374)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.166666666666666,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2833333333333,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 0.0166666666666668,
+          "state_time": 0.483333333333333,
+          "velocity": [
+            26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              -0.707106828689575,
+              0.707106828689575
+            ],
+            "elapsed": 0.233333333333333,
+            "hostile": false,
+            "position": [
+              289.06640625,
+              1535.93371582031
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 8
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          458.695648193359,
+          1514.86828613281
+        ],
+        "physics_tick": 1813,
+        "physics_hz": 60,
+        "rendered_frames": 1190,
+        "fps": 48,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southeast_attack",
+          "art_frame": 144,
+          "art_ready": true,
+          "cast_hand": "(482.4557, 1481.208)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.326666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2833333333333,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.326666666666667,
+          "state_time": 0.0833333333333333,
+          "velocity": [
+            -12.0208148956299,
+            -12.0208148956299
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          450.204559326172,
+          1506.37719726562
+        ],
+        "physics_tick": 1832,
+        "physics_hz": 60,
+        "rendered_frames": 1205,
+        "fps": 48,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "southeast_attack",
+          "art_frame": 158,
+          "art_ready": true,
+          "cast_hand": "(473.9646, 1472.717)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.2833333333333,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            -26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          450.313415527344,
+          1506.48608398438
+        ],
+        "physics_tick": 1855,
+        "physics_hz": 60,
+        "rendered_frames": 1223,
+        "fps": 48,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southeast_cast",
+          "art_frame": 158,
+          "art_ready": true,
+          "cast_hand": "(474.0734, 1472.826)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.566666666666666,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.416666666666667,
+          "state_time": 0.0833333333333333,
+          "velocity": [
+            -12.0208148956299,
+            -12.0208148956299
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          439.140930175781,
+          1495.31359863281
+        ],
+        "physics_tick": 1880,
+        "physics_hz": 60,
+        "rendered_frames": 1241,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "southeast_cast",
+          "art_frame": 158,
+          "art_ready": true,
+          "cast_hand": "(462.9009, 1461.654)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            -26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              531.144226074219,
+              1587.31689453125
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          353.795715332031,
+          1409.96801757812
+        ],
+        "physics_tick": 1950,
+        "physics_hz": 60,
+        "rendered_frames": 1295,
+        "fps": 45,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "northwest_attack",
+          "art_frame": 208,
+          "art_ready": true,
+          "cast_hand": "(332.6757, 1362.448)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.343333333333333,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.343333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            -12.7279243469238,
+            -12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          362.487152099609,
+          1418.65942382812
+        ],
+        "physics_tick": 1970,
+        "physics_hz": 60,
+        "rendered_frames": 1312,
+        "fps": 45,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "northwest_attack",
+          "art_frame": 222,
+          "art_ready": true,
+          "cast_hand": "(341.3672, 1371.139)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "lyra",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          364.252136230469,
+          1420.42443847656
+        ],
+        "physics_tick": 1990,
+        "physics_hz": 60,
+        "rendered_frames": 1328,
+        "fps": 45,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "northwest_cast",
+          "art_frame": 222,
+          "art_ready": true,
+          "cast_hand": "(343.1321, 1372.904)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.6,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 23.2666666666665,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.45,
+          "state_time": 0.05,
+          "velocity": [
+            -37.4766616821289,
+            -37.4766616821289
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          375.412841796875,
+          1431.58508300781
+        ],
+        "physics_tick": 2017,
+        "physics_hz": 60,
+        "rendered_frames": 1347,
+        "fps": 49,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "northwest_cast",
+          "art_frame": 222,
+          "art_ready": true,
+          "cast_hand": "(354.2928, 1384.065)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 23.2666666666665,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              -0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              283.409545898438,
+              1339.58178710938
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          469.856231689453,
+          1355.1435546875
+        ],
+        "physics_tick": 2360,
+        "physics_hz": 60,
+        "rendered_frames": 1535,
+        "fps": 42,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "northeast_attack",
+          "art_frame": 176,
+          "art_ready": true,
+          "cast_hand": "(493.6162, 1306.304)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.36,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.36,
+          "state_time": 0.05,
+          "velocity": [
+            37.4766616821289,
+            -37.4766616821289
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          462.05859375,
+          1362.94116210938
+        ],
+        "physics_tick": 2380,
+        "physics_hz": 60,
+        "rendered_frames": 1549,
+        "fps": 42,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.366666666666667,
+          "art_clip": "northeast_attack",
+          "art_frame": 182,
+          "art_ready": true,
+          "cast_hand": "(485.8186, 1314.101)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.0266666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0266666666666667,
+          "state_time": 0.383333333333333,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          463.782958984375,
+          1361.216796875
+        ],
+        "physics_tick": 2403,
+        "physics_hz": 60,
+        "rendered_frames": 1566,
+        "fps": 42,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "northeast_cast",
+          "art_frame": 190,
+          "art_ready": true,
+          "cast_hand": "(487.543, 1312.377)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.583333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.433333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            12.7279243469238,
+            -12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          452.857025146484,
+          1372.14270019531
+        ],
+        "physics_tick": 2428,
+        "physics_hz": 60,
+        "rendered_frames": 1583,
+        "fps": 43,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "northeast_cast",
+          "art_frame": 190,
+          "art_ready": true,
+          "cast_hand": "(476.617, 1323.303)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.166666666666666,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            -0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 0.0166666666666668,
+          "state_time": 0.483333333333333,
+          "velocity": [
+            -26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 0.233333333333333,
+            "hostile": false,
+            "position": [
+              538.756530761719,
+              1286.2431640625
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 3,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          361.478729248047,
+          1463.52136230469
+        ],
+        "physics_tick": 2504,
+        "physics_hz": 60,
+        "rendered_frames": 1637,
+        "fps": 40,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southwest_attack",
+          "art_frame": 240,
+          "art_ready": true,
+          "cast_hand": "(338.3787, 1428.541)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.343333333333333,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.343333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            -12.7279243469238,
+            12.7279243469238
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 1.5,
+            "hostile": false,
+            "position": [
+              968.677917480469,
+              856.32177734375
+            ]
+          }
+        ]
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          370.170166015625,
+          1454.82995605469
+        ],
+        "physics_tick": 2524,
+        "physics_hz": 60,
+        "rendered_frames": 1652,
+        "fps": 40,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "southwest_attack",
+          "art_frame": 254,
+          "art_ready": true,
+          "cast_hand": "(347.0702, 1419.85)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50.2916666666667,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          371.923370361328,
+          1453.07678222656
+        ],
+        "physics_tick": 2547,
+        "physics_hz": 60,
+        "rendered_frames": 1670,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southwest_cast",
+          "art_frame": 254,
+          "art_ready": true,
+          "cast_hand": "(348.8234, 1418.097)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.566666666666666,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.3416666666666,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.416666666666667,
+          "state_time": 0.0833333333333333,
+          "velocity": [
+            12.0208148956299,
+            -12.0208148956299
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          383.095855712891,
+          1441.904296875
+        ],
+        "physics_tick": 2572,
+        "physics_hz": 60,
+        "rendered_frames": 1687,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "southwest_cast",
+          "art_frame": 254,
+          "art_ready": true,
+          "cast_hand": "(359.9958, 1406.924)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.3416666666666,
+          "movement_input": [
+            0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              -0.707106828689575,
+              0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              291.092559814453,
+              1533.90759277344
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southeast",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          462.912017822266,
+          1496.27026367188
+        ],
+        "physics_tick": 2640,
+        "physics_hz": 60,
+        "rendered_frames": 1742,
+        "fps": 42,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.0333333333333333,
+          "art_clip": "southeast_attack",
+          "art_frame": 144,
+          "art_ready": true,
+          "cast_hand": "(486.012, 1461.29)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.36,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.3416666666666,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.36,
+          "state_time": 0.05,
+          "velocity": [
+            2.06475067138672,
+            2.06475067138672
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          453.595977783203,
+          1486.95422363281
+        ],
+        "physics_tick": 2661,
+        "physics_hz": 60,
+        "rendered_frames": 1759,
+        "fps": 51,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.366666666666667,
+          "art_clip": "southeast_attack",
+          "art_frame": 150,
+          "art_ready": true,
+          "cast_hand": "(476.696, 1451.974)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 41.3416666666666,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            -26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 7,
+      "opposed_count": 7,
+      "late_count": 3,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "southeast",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ],
+        "oppositeAim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          456.478057861328,
+          1489.83642578125
+        ],
+        "physics_tick": 2682,
+        "physics_hz": 60,
+        "rendered_frames": 1775,
+        "fps": 51,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "southeast_cast",
+          "art_frame": 158,
+          "art_ready": true,
+          "cast_hand": "(479.5781, 1454.856)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.583333333333333,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            0,
+            0
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.433333333333333,
+          "state_time": 0.0666666666666667,
+          "velocity": [
+            12.7279243469238,
+            12.7279243469238
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          445.105224609375,
+          1478.46362304688
+        ],
+        "physics_tick": 2708,
+        "physics_hz": 60,
+        "rendered_frames": 1794,
+        "fps": 51,
+        "hero": {
+          "action_aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "aim": [
+            0.707106828689575,
+            0.707106828689575
+          ],
+          "animation_time": 0.483333333333333,
+          "art_clip": "southeast_cast",
+          "art_frame": 158,
+          "art_ready": true,
+          "cast_hand": "(468.2052, 1443.484)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "southeast",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            -0.70710676908493,
+            -0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            -26.8134880065918,
+            -26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 5
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northwest",
+        "key": "j",
+        "pose": "attack",
+        "duration": 0.41,
+        "release": 0.16,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          356.236236572266,
+          1389.59423828125
+        ],
+        "physics_tick": 2781,
+        "physics_hz": 60,
+        "rendered_frames": 1849,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.05,
+          "art_clip": "northwest_attack",
+          "art_frame": 208,
+          "art_ready": true,
+          "cast_hand": "(332.4762, 1340.754)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.326666666666667,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.2749999999999,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "attack",
+          "state": "attack",
+          "state_left": 0.326666666666667,
+          "state_time": 0.0833333333333333,
+          "velocity": [
+            12.0208148956299,
+            12.0208148956299
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          364.727325439453,
+          1398.08532714844
+        ],
+        "physics_tick": 2800,
+        "physics_hz": 60,
+        "rendered_frames": 1865,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.383333333333333,
+          "art_clip": "northwest_attack",
+          "art_frame": 222,
+          "art_ready": true,
+          "cast_hand": "(340.9673, 1349.245)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0.0100000000000001,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 32.3916666666665,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "attack",
+          "state_left": 0.0100000000000001,
+          "state_time": 0.4,
+          "velocity": [
+            26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": []
+      },
+      "locked_count": 12,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 0
+    },
+    {
+      "context": {
+        "id": "brann",
+        "view": "northwest",
+        "key": "k",
+        "pose": "cast",
+        "duration": 0.5,
+        "release": 0.24,
+        "aim": [
+          -0.7071067811865476,
+          -0.7071067811865476
+        ],
+        "oppositeAim": [
+          0.7071067811865476,
+          0.7071067811865476
+        ]
+      },
+      "started": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          362.756408691406,
+          1396.11437988281
+        ],
+        "physics_tick": 2822,
+        "physics_hz": 60,
+        "rendered_frames": 1882,
+        "fps": 46,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.0666666666666667,
+          "art_clip": "northwest_cast",
+          "art_frame": 217,
+          "art_ready": true,
+          "cast_hand": "(338.9964, 1347.274)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.566666666666666,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 23.3833333333331,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "firebolt",
+          "state": "cast",
+          "state_left": 0.416666666666667,
+          "state_time": 0.0833333333333333,
+          "velocity": [
+            12.0208129882812,
+            12.0208129882812
+          ]
+        },
+        "projectiles": []
+      },
+      "recovery": {
+        "mode": "play",
+        "test_mode": false,
+        "position": [
+          373.928894042969,
+          1407.28686523438
+        ],
+        "physics_tick": 2847,
+        "physics_hz": 60,
+        "rendered_frames": 1899,
+        "fps": 47,
+        "hero": {
+          "action_aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "aim": [
+            -0.707106828689575,
+            -0.707106828689575
+          ],
+          "animation_time": 0.466666666666667,
+          "art_clip": "northwest_cast",
+          "art_frame": 222,
+          "art_ready": true,
+          "cast_hand": "(350.1689, 1358.447)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "directions": [
+            "south",
+            "southeast",
+            "east",
+            "northeast",
+            "north",
+            "northwest",
+            "west",
+            "southwest"
+          ],
+          "dodge_aim": [
+            0,
+            1
+          ],
+          "facing": "northwest",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 23.3833333333331,
+          "movement_input": [
+            0.70710676908493,
+            0.70710676908493
+          ],
+          "pending_hit": "",
+          "state": "cast",
+          "state_left": 1.04083408558608e-16,
+          "state_time": 0.5,
+          "velocity": [
+            26.8134880065918,
+            26.8134880065918
+          ]
+        },
+        "projectiles": [
+          {
+            "direction": [
+              -0.707106828689575,
+              -0.707106828689575
+            ],
+            "elapsed": 0.25,
+            "hostile": false,
+            "position": [
+              281.925598144531,
+              1315.28356933594
+            ]
+          }
+        ]
+      },
+      "locked_count": 15,
+      "released_count": 8,
+      "opposed_count": 8,
+      "late_count": 4,
+      "projectile_observations": 9
+    }
+  ]
+}

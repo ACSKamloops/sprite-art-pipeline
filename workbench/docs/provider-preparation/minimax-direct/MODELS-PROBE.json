@@ -1,0 +1,22 @@
+{
+  "recorded_utc": "2026-10-14T02:06:32.283409+00:00",
+  "method": "GET",
+  "endpoint": "https://api.minimax.io/anthropic/v1/models?limit=100",
+  "credential_source": "Hermes minimax-oauth; token kept in process memory only",
+  "credential_refreshed": false,
+  "model_inference_calls": 0,
+  "private_project_data_sent": false,
+  "http_status": 200,
+  "model_ids": [
+    "MiniMax-M3",
+    "MiniMax-M2.7",
+    "MiniMax-M2.7-highspeed",
+    "MiniMax-M2.5",
+    "MiniMax-M2.5-highspeed",
+    "MiniMax-M2.1",
+    "MiniMax-M2.1-highspeed",
+    "MiniMax-M2"
+  ],
+  "has_more": false,
+  "elapsed_seconds": 0.442
+}

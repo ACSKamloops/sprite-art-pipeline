@@ -1,0 +1,47 @@
+{
+  "created_utc": "2026-10-20T03:05:58.292531+00:00",
+  "all_passed": true,
+  "complete_default_check_set": false,
+  "available_checks": [
+    "repository-content",
+    "workbench-tests",
+    "editable-toolkit-tests",
+    "approved-walk-manifest",
+    "approved-editable",
+    "exact-apng",
+    "lyra-rebuild"
+  ],
+  "checks": [
+    {
+      "name": "repository-content",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/scripts/check_repository.py",
+        "--report",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030553Z/content.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.373,
+      "summary": "  \"text_files_scanned\": 3895,\n  \"findings\": [],\n  \"passed\": true,\n  \"scope\": \"Pattern/path/size checks of selected content, not a guarantee of all possible secrets or licensing.\"\n}",
+      "log": "repository-content.log"
+    },
+    {
+      "name": "lyra-rebuild",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/examples/lyra-leg-repair/rebuild.py",
+        "--output",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030553Z/lyra-replay"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.136,
+      "summary": "All8 PNG files, RGBA and protected pixels exactly reproduced;450ms clock retained\n\nAll eight replay PNGs byte-identical: True",
+      "log": "lyra-rebuild.log"
+    }
+  ],
+  "scope": "Fresh selected offline code/artifact checks. No provider job, server, continuous visual acceptance or whole-PixelLab parity."
+}

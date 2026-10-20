@@ -1,0 +1,100 @@
+{
+  "packet_sha256": "5c72655108ae116447fecf6bd9eaf333615ed7b70c24d74b57e9c6274635dc10",
+  "image_hashes_verified": 32,
+  "primary_view": "southeast",
+  "clock": {
+    "loop": [
+      9,
+      20
+    ],
+    "variant_holds": {
+      "A": [
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ]
+      ],
+      "B": [
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ],
+        [
+          9,
+          160
+        ]
+      ]
+    }
+  },
+  "rendering": "Direct PNG Canvas2D, nearest sampling. Game size is an84px proxy, not Godot rendering.",
+  "art_acceptance": "Unselected comparison. No continuous human playback approval implied.",
+  "mp4": {
+    "sha256": "9e630704818db0bb7f0ee4a29991896b7e753b333f3a9e96608d18ede84ab295",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "r_frame_rate": "160/1",
+          "duration": "3.600000",
+          "nb_read_frames": "576"
+        }
+      ]
+    },
+    "clock_hz": 160,
+    "loop_ticks": 72,
+    "note": "Lossy playback aid; PNGs remain pixel authority."
+  }
+}

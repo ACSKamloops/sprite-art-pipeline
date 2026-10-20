@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Four-direction walk audition</title>
+<style>
+body{background:#202b34;color:#ecf1f2;font:16px system-ui;margin:24px}h1{font-size:24px}p{max-width:1000px;line-height:1.5}button,select{font:inherit;padding:7px 12px;margin:3px}a{color:#8bded0}.views{display:flex;gap:12px;flex-wrap:wrap}figure{margin:0}figcaption{padding:8px 0}canvas{display:block;background:#293b47;image-rendering:pixelated;width:320px;height:320px}.comparison{display:none}.comparison.visible{display:flex;gap:12px;flex-wrap:wrap}.comparison canvas{width:160px;height:160px}#state{font-variant-numeric:tabular-nums}#error{color:#ffc29e}details{margin-top:18px}pre{white-space:pre-wrap;font-size:13px}
+</style>
+<h1>Four-direction walk audition</h1>
+<p>A fixed rig, one authored walk and four fixed cameras produce these sprites. This is a walk quality pilot. Controls let you inspect the held poses, adjacent changes and the complete timed loop.</p>
+<div id="controls"><button id="play" disabled>Play</button><button id="pause" disabled>Pause</button><button id="restart" disabled>Restart</button><button id="back" disabled>Previous pose</button><button id="step" disabled>Next pose</button>
+<label>Scale <select id="scale"><option value="1">Native 1×</option><option selected value="2">Nearest 2×</option></select></label>
+<label>Speed <select id="speed"><option value="0.5">Half</option><option selected value="1">Source timing</option><option value="2">Double</option></select></label>
+<button id="compare" disabled>Previous / difference</button></div>
+<p id="state">Checking source and all frame hashes…</p><p id="error" role="alert"></p>
+<section id="views" class="views"></section>
+<section id="comparison" class="comparison"></section>
+<p><a href="?variant=guarded">Compare guarded walk without bow</a> · <a href="./">Bow-carry walk</a></p><p id="source"></p><details><summary>Source and playback contract</summary><pre id="contract"></pre></details>
+<script type="module">
+const config=await(await fetch(new URLSearchParams(location.search).get('variant')==='guarded'?'config-guarded.json':'config.json',{cache:'no-store'})).json();
+const hash=async bytes=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
+const get=async url=>{const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw Error(`Missing source (${r.status}): ${url}`);return r.arrayBuffer()};
+try {
+ const manifestBytes=await get(config.manifest),manifestHash=await hash(manifestBytes),m=JSON.parse(new TextDecoder().decode(manifestBytes));
+ if(manifestHash!==config.manifest_sha256)throw Error('Manifest differs from the reviewed input');
+ const base=new URL('.',new URL(config.manifest,location.href)),views=['front','right','back','left'],n=m.samples_per_view,cycle=m.cycle_seconds;
+ if(n!==12||m.source_fps!==24||cycle!==1.25||m.canvas.some(x=>x!==160))throw Error('Unexpected sampling contract');
+ const loaded=Object.fromEntries(await Promise.all(views.map(async v=>[v,await Promise.all(m.views[v].map(async(f,i)=>{
+  if(f.sample!==i||Math.abs(f.source_frame-i*2.5)>1e-8||Math.abs(f.seconds-i*cycle/n)>1e-8)throw Error('Pose clock differs from source');
+  const bytes=await get(new URL(f.png,base));if(await hash(bytes)!==f.sha256)throw Error(`Changed frame ${v}/${i}`);
+  const image=await createImageBitmap(new Blob([bytes],{type:'image/png'}));if(image.width!==160||image.height!==160)throw Error('Changed canvas');return image;
+ }))])));
+ for(const v of views){document.getElementById('views').insertAdjacentHTML('beforeend',`<figure><figcaption>${v}</figcaption><canvas id="walk-${v}" width="160" height="160"></canvas></figure>`);
+  document.getElementById('comparison').insertAdjacentHTML('beforeend',`<figure><figcaption>${v} previous</figcaption><canvas id="previous-${v}" width="160" height="160"></canvas></figure><figure><figcaption>${v} pixel difference</figcaption><canvas id="difference-${v}" width="160" height="160"></canvas></figure>`);}
+ let seconds=0,playing=false,speed=1,last=performance.now(),lastLogged='',log=[];
+ const state=()=>({seconds,pose:Math.floor((seconds%cycle)/cycle*n)%n,loop:Math.floor(seconds/cycle),playing,speed,manifest_sha256:manifestHash,performance_ms:performance.now()});
+ function draw(){const s=state();for(const v of views){for(const [id,i]of [["walk-"+v,s.pose],['previous-'+v,(s.pose+n-1)%n]]){const ctx=document.getElementById(id).getContext('2d');ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,160,160);ctx.drawImage(loaded[v][i],0,0);}
+   const c=document.getElementById('difference-'+v).getContext('2d');c.clearRect(0,0,160,160);c.globalCompositeOperation='source-over';c.drawImage(loaded[v][(s.pose+n-1)%n],0,0);c.globalCompositeOperation='difference';c.drawImage(loaded[v][s.pose],0,0);c.globalCompositeOperation='source-over';}
+  document.getElementById('state').textContent=`Pose ${s.pose+1}/${n} · ${seconds.toFixed(3)} s · loop ${s.loop} · ${playing?'playing':'paused'}`;
+  const key=`${s.loop}:${s.pose}`;if(key!==lastLogged){log.push(s);lastLogged=key;if(log.length>2000)log.shift();}return s;}
+ function seek(t){if(!Number.isFinite(t)||t<0)throw Error('Invalid clock');seconds=t;last=performance.now();return draw();}
+ function stop(){playing=false;return draw();}function play(){last=performance.now();playing=true;return draw();}
+ document.getElementById('play').onclick=play;document.getElementById('pause').onclick=stop;
+ document.getElementById('restart').onclick=()=>seek(0);
+ document.getElementById('step').onclick=()=>{stop();seek((Math.floor(seconds/cycle*n)+1)*cycle/n+1e-8);};
+ document.getElementById('back').onclick=()=>{stop();seek(Math.max(0,(Math.floor(seconds/cycle*n)-1)*cycle/n)+1e-8);};
+ document.getElementById('scale').onchange=e=>{for(const v of views){const c=document.getElementById('walk-'+v);c.style.width=c.style.height=`${160*Number(e.target.value)}px`;}};
+ document.getElementById('speed').onchange=e=>{speed=Number(e.target.value);};
+ document.getElementById('compare').onclick=()=>document.getElementById('comparison').classList.toggle('visible');
+ document.getElementById('source').innerHTML=`${m.model} · ${m.source_fps} source fps · ${cycle} s per loop · <a href="${config.manifest}">Bound manifest</a> · <a href="${new URL('contact-all-2x.png',base)}">All poses at 2×</a>`;
+ document.getElementById('contract').textContent=JSON.stringify({manifest_sha256:manifestHash,model:m.model,action:m.action,cycle_seconds:cycle,pose_seconds:cycle/n,source_fps:m.source_fps,source_frames:m.source_action_frames,canvas:m.canvas,render_engine:m.render_engine,camera:m.camera,asset_modifications:m.asset_modifications,limits:config.limits},null,2);
+ for(const b of document.querySelectorAll('button'))b.disabled=false;
+ window.WalkAudition={ready:true,manifest:m,manifest_sha256:manifestHash,state,seek,play,pause:stop,get log(){return log.slice()}};
+ function update(now){if(playing)seconds+=(now-last)/1000*speed;last=now;draw();requestAnimationFrame(update);}draw();requestAnimationFrame(update);
+}catch(e){document.getElementById('error').textContent=e.message;window.WalkAudition={ready:false,error:e.message};throw e;}
+</script></html>

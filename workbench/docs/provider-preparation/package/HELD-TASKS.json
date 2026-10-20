@@ -1,0 +1,19 @@
+{
+  "experiment": "f4f93f730d8f3ba42186017636dd3fbe6f1661d5f597e4965a176a67c3ef2e13",
+  "brief": "ef759a1cc0d68ea41912f3a4b6101937ce044373ff03f1edd56ded59566a6e30",
+  "tasks": [
+    {
+      "task": "c675ac74c9710c559c2cafe3efc56294456921bfd3f3de9a9ff85d1eaf1acc1e",
+      "executor": "codex.imagegen",
+      "status": "prepared; execution held"
+    },
+    {
+      "task": "1e9f3ab796a0d480309c0bd44c65388e96e63b6d8b154096d24f37029aa93496",
+      "executor": "hermes.image_generate",
+      "status": "prepared; execution held"
+    }
+  ],
+  "execution_status": "held",
+  "provider_calls": 0,
+  "boundary": "Local handoff/import protocol; original PixelLab procedural code remains separate. Private inference is unavailable. No model calls or automatic execution."
+}

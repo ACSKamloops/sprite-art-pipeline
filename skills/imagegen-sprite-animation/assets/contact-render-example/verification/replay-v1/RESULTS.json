@@ -1,0 +1,78 @@
+{
+  "scope": "Existing captured Godot GPU frames only, authored root fixture; not input/physics or plantar contact.",
+  "capture_receipt_passed": true,
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "display": "X11",
+  "camera": "No Camera2D in SubViewport; fixed640x280 screen/world mapping.",
+  "sprite_registration": {
+    "pivot": [
+      64.0,
+      112.0
+    ],
+    "offset": [
+      0,
+      -48
+    ],
+    "scale": 0.66,
+    "source_stage": [
+      128,
+      128
+    ]
+  },
+  "selected_ticks": [
+    72,
+    75,
+    78,
+    80,
+    89,
+    90,
+    107,
+    108,
+    125
+  ],
+  "fixed_ground_grid_pixel": [
+    399,
+    199
+  ],
+  "fixed_grid_RGBA_exact_in_all_samples": true,
+  "observations": 36,
+  "identified_features": 15,
+  "opaque_context_pixel_checks": 100,
+  "matching_ROI": [
+    400,
+    164,
+    444,
+    202
+  ],
+  "matching_rule": "Exact unique observed2x2GPU sole context or3x3GPU ankle context; require true source texel footprint and map identity. Original forefoot/ankle single-pixel colors remain ambiguous.",
+  "source_texel_footprint_half_width_pixels": 0.33,
+  "numeric_tolerance_pixels": 0.0001,
+  "two_endpoint_along_raster_bound_pixels": 0.9333809511662429,
+  "source_heel06": [
+    49,
+    109
+  ],
+  "source_original_ankle06": [
+    51,
+    101
+  ],
+  "refined_context_center06": [
+    49,
+    102
+  ],
+  "alpha_rule": "All accepted source texels/context pixels are alpha255 and exact RGB in final GPU PNG. Transparent/partial-alpha contour colors excluded; alpha255 PNG alone does not prove source opacity.",
+  "source_study_frozen": true,
+  "new_engine_or_browser_runs": 0,
+  "canonical_writes": 0,
+  "new_art_or_settings": 0
+}

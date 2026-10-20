@@ -1,0 +1,81 @@
+{
+  "schema": "sprite-action-catalog/v1",
+  "character": "generic_rpg_hero",
+  "approved_clips": 1,
+  "approved_poses": 30,
+  "new_action_clips_produced": 0,
+  "new_action_clips_approved": 0,
+  "states": [
+    {
+      "id": "walk",
+      "view": "right_three_quarter",
+      "equipment": "unarmed",
+      "status": "USER_APPROVED",
+      "manifest": "approved/walk/manifest.json",
+      "poses": 30
+    },
+    {
+      "id": "neutral_ready",
+      "status": "PLANNED_DEPENDENCY",
+      "equipment": "unarmed"
+    },
+    {
+      "id": "unarmed_straight_punch",
+      "status": "PLANNED_FIRST_ACTION",
+      "equipment": "unarmed",
+      "brief": "actions/briefs.json"
+    },
+    {
+      "id": "small_in_place_jump",
+      "status": "PLANNED_FIRST_ACTION",
+      "equipment": "unarmed",
+      "brief": "actions/briefs.json"
+    },
+    {
+      "id": "run",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "hurt",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "knockdown_getup",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "death",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "dodge",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "spellcast",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "onehand_ready_swing",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "twohand_ready_swing",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    },
+    {
+      "id": "ranged_ready_release",
+      "status": "BACKLOG_REQUIRES_BRIEF",
+      "art_produced": false
+    }
+  ],
+  "equipment_system": "Separate motion-compatible attachment tracks; schema/proposal only, renderer and weapon art not produced."
+}

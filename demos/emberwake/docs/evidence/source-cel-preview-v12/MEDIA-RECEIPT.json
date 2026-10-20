@@ -1,0 +1,78 @@
+[
+  {
+    "clip": "brann-northeast",
+    "mp4_sha256": "6d9782af39a33768365f11f91abf9042b29dc38889487392e65ac8005e235e99",
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-framerate",
+      "320",
+      "-i",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v12/native-walk/brann-northeast/%04d.png",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-threads",
+      "2",
+      "-preset",
+      "veryfast",
+      "-crf",
+      "16",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v12/media/brann-northeast.mp4"
+    ],
+    "probe": {
+      "width": 640,
+      "height": 280,
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "expected_encoded_bytes_exact": false,
+    "source_capture_ledger_entries_verified": 577,
+    "scope": "Lossy review transport; no art, contact or continuous perception score."
+  },
+  {
+    "clip": "brann-northwest",
+    "mp4_sha256": "0f964b86a0704c1440918afdfe1eca1d971937ac2db5f220498263a1eea5613a",
+    "command": [
+      "ffmpeg",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-framerate",
+      "320",
+      "-i",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v12/native-walk/brann-northwest/%04d.png",
+      "-an",
+      "-c:v",
+      "libx264",
+      "-threads",
+      "2",
+      "-preset",
+      "veryfast",
+      "-crf",
+      "16",
+      "-pix_fmt",
+      "yuv420p",
+      "-movflags",
+      "+faststart",
+      "/home/astra/artifacts/emberwake-source-cel-game-preview-v12/media/brann-northwest.mp4"
+    ],
+    "probe": {
+      "width": 640,
+      "height": 280,
+      "avg_frame_rate": "320/1",
+      "duration": "0.900000",
+      "nb_read_frames": "288"
+    },
+    "expected_encoded_bytes_exact": false,
+    "source_capture_ledger_entries_verified": 577,
+    "scope": "Lossy review transport; no art, contact or continuous perception score."
+  }
+]

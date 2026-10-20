@@ -1,0 +1,41 @@
+config_version=5
+
+[application]
+config/name="Emberwake: The Hollow Bell"
+config/description="A small original top-down adventure. Restore the three forest wards and quiet the Hollow Bell."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+
+[autoload]
+BrowserDiagnostics="*res://scripts/browser_diagnostics.gd"
+
+[display]
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/size/window_width_override=1440
+window/size/window_height_override=810
+window/stretch/mode="canvas_items"
+window/handheld/orientation=0
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.035,0.067,0.063,1)
+
+[audio]
+driver/enable_input=false
+
+[input]
+move_up={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":87),Object(InputEventKey,"physical_keycode":4194320)]}
+move_down={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":83),Object(InputEventKey,"physical_keycode":4194322)]}
+move_left={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":65),Object(InputEventKey,"physical_keycode":4194319)]}
+move_right={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":68),Object(InputEventKey,"physical_keycode":4194321)]}
+attack={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":74),Object(InputEventMouseButton,"button_index":1)]}
+firebolt={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":75),Object(InputEventKey,"physical_keycode":49),Object(InputEventMouseButton,"button_index":2)]}
+nova={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":76),Object(InputEventKey,"physical_keycode":81),Object(InputEventKey,"physical_keycode":50)]}
+dodge={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":32)]}
+interact={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":69),Object(InputEventKey,"physical_keycode":4194309)]}
+heal={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":72)]}
+pause={"deadzone":0.2,"events":[Object(InputEventKey,"physical_keycode":4194305),Object(InputEventKey,"physical_keycode":80)]}

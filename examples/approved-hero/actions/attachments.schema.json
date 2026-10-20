@@ -1,0 +1,788 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hero:planned-equipment-attachments:v1",
+  "title": "Planned source-bound anatomical equipment tracks",
+  "description": "Metadata contract only. Schema validity is not anatomy, rendering, compatibility, runtime or art approval. Null anchors are deliberately NOT_READY.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "body_binding",
+    "coordinate_convention",
+    "motion_profiles",
+    "equipment_definitions",
+    "frames",
+    "proposed_events",
+    "interruption_policy",
+    "qualification"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "planned-equipment-attachments-v1"
+    },
+    "status": {
+      "enum": [
+        "PLANNED_NOT_READY_NO_ART_OR_IMPLEMENTATION",
+        "SOURCE_BOUND_REVIEW_PENDING",
+        "REVIEWED_SOURCE_BOUND"
+      ]
+    },
+    "body_binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "actor_id",
+        "clip_id",
+        "manifest",
+        "view_camera_id",
+        "canvas",
+        "nominal_ground_pivot_px",
+        "registration",
+        "timing_qualification",
+        "motion_profile_id"
+      ],
+      "properties": {
+        "actor_id": {
+          "type": "string"
+        },
+        "clip_id": {
+          "type": "string"
+        },
+        "manifest": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "path",
+            "sha256"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          }
+        },
+        "view_camera_id": {
+          "type": "string"
+        },
+        "canvas": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "nominal_ground_pivot_px": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "number"
+            }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "registration": {
+          "type": "string"
+        },
+        "timing_qualification": {
+          "type": "string"
+        },
+        "motion_profile_id": {
+          "type": "string",
+          "description": "Exact body motion profile ID; family alone does not permit weapon swap."
+        }
+      }
+    },
+    "coordinate_convention": {
+      "const": "body-native pixel centers; x right, y down; angle0 screen-right, positive clockwise; equipment local grip pivot maps to anatomical hand; same actor ground-root/height/camera transform"
+    },
+    "motion_profiles": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "family",
+          "compatible_body_clip_ids",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "family": {
+            "enum": [
+              "unarmed",
+              "onehand",
+              "twohand",
+              "ranged"
+            ]
+          },
+          "compatible_body_clip_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "enum": [
+              "PROPOSED_NOT_IMPLEMENTED",
+              "REVIEWED_SOURCE_BOUND"
+            ]
+          }
+        }
+      }
+    },
+    "equipment_definitions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "equipment_id",
+          "status",
+          "visual_asset",
+          "asset_local_primary_grip_px",
+          "asset_local_secondary_grip_px",
+          "neutral_axis_deg_clockwise",
+          "native_scale",
+          "compatible_motion_profile_ids",
+          "held_visual_is_damage_shape",
+          "effect_policy"
+        ],
+        "properties": {
+          "equipment_id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "PLANNED_NO_ART",
+              "SOURCE_BOUND_REVIEW_PENDING",
+              "REVIEWED_SOURCE_BOUND"
+            ]
+          },
+          "visual_asset": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "asset_local_primary_grip_px": {
+            "anyOf": [
+              {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "asset_local_secondary_grip_px": {
+            "anyOf": [
+              {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "number"
+                  }
+                ],
+                "items": false,
+                "minItems": 2,
+                "maxItems": 2
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "neutral_axis_deg_clockwise": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "native_scale": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "exclusiveMinimum": 0
+          },
+          "compatible_motion_profile_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "held_visual_is_damage_shape": {
+            "const": false
+          },
+          "effect_policy": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "frames": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "frame_index",
+          "source_frame",
+          "near_hand",
+          "far_hand",
+          "attachment_state",
+          "primary_hand",
+          "secondary_hand",
+          "secondary_grip_tolerance_px",
+          "render_passes",
+          "occlusion_contract",
+          "foreground_hand_layer",
+          "hand_occlusion_mask",
+          "damage_definition_ref",
+          "effects_refs",
+          "compatibility_status",
+          "equipment_id",
+          "instance_id"
+        ],
+        "properties": {
+          "frame_index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_frame": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          },
+          "near_hand": {
+            "allOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "anatomical_id",
+                  "position_px",
+                  "orientation_deg_clockwise",
+                  "local_scale",
+                  "status",
+                  "uncertainty_px",
+                  "reason"
+                ],
+                "properties": {
+                  "anatomical_id": {
+                    "enum": [
+                      "near-hand",
+                      "far-hand"
+                    ]
+                  },
+                  "position_px": {
+                    "anyOf": [
+                      {
+                        "type": "array",
+                        "prefixItems": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "number"
+                          }
+                        ],
+                        "items": false,
+                        "minItems": 2,
+                        "maxItems": 2
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "orientation_deg_clockwise": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "local_scale": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "exclusiveMinimum": 0
+                  },
+                  "status": {
+                    "enum": [
+                      "MEASURED_VISIBLE_REVIEW_PENDING",
+                      "AUTHORED_HIDDEN_REVIEW_PENDING",
+                      "REVIEWED_SOURCE_BOUND",
+                      "UNKNOWN_UNMEASURED"
+                    ]
+                  },
+                  "uncertainty_px": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "allOf": [
+                  {
+                    "if": {
+                      "properties": {
+                        "status": {
+                          "const": "UNKNOWN_UNMEASURED"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "position_px": {
+                          "type": "null"
+                        },
+                        "orientation_deg_clockwise": {
+                          "type": "null"
+                        },
+                        "local_scale": {
+                          "type": "null"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "properties": {
+                  "anatomical_id": {
+                    "const": "near-hand"
+                  }
+                }
+              }
+            ]
+          },
+          "far_hand": {
+            "allOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "anatomical_id",
+                  "position_px",
+                  "orientation_deg_clockwise",
+                  "local_scale",
+                  "status",
+                  "uncertainty_px",
+                  "reason"
+                ],
+                "properties": {
+                  "anatomical_id": {
+                    "enum": [
+                      "near-hand",
+                      "far-hand"
+                    ]
+                  },
+                  "position_px": {
+                    "anyOf": [
+                      {
+                        "type": "array",
+                        "prefixItems": [
+                          {
+                            "type": "number"
+                          },
+                          {
+                            "type": "number"
+                          }
+                        ],
+                        "items": false,
+                        "minItems": 2,
+                        "maxItems": 2
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "orientation_deg_clockwise": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "local_scale": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "exclusiveMinimum": 0
+                  },
+                  "status": {
+                    "enum": [
+                      "MEASURED_VISIBLE_REVIEW_PENDING",
+                      "AUTHORED_HIDDEN_REVIEW_PENDING",
+                      "REVIEWED_SOURCE_BOUND",
+                      "UNKNOWN_UNMEASURED"
+                    ]
+                  },
+                  "uncertainty_px": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "minimum": 0
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "allOf": [
+                  {
+                    "if": {
+                      "properties": {
+                        "status": {
+                          "const": "UNKNOWN_UNMEASURED"
+                        }
+                      }
+                    },
+                    "then": {
+                      "properties": {
+                        "position_px": {
+                          "type": "null"
+                        },
+                        "orientation_deg_clockwise": {
+                          "type": "null"
+                        },
+                        "local_scale": {
+                          "type": "null"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "properties": {
+                  "anatomical_id": {
+                    "const": "far-hand"
+                  }
+                }
+              }
+            ]
+          },
+          "attachment_state": {
+            "enum": [
+              "unarmed",
+              "held",
+              "stowed",
+              "detached",
+              "unknown"
+            ]
+          },
+          "primary_hand": {
+            "enum": [
+              "near-hand",
+              "far-hand",
+              null
+            ]
+          },
+          "secondary_hand": {
+            "enum": [
+              "near-hand",
+              "far-hand",
+              null
+            ]
+          },
+          "secondary_grip_tolerance_px": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "render_passes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "depth",
+                "permitted_region_mask"
+              ],
+              "properties": {
+                "depth": {
+                  "enum": [
+                    "behind-body",
+                    "front-body"
+                  ]
+                },
+                "permitted_region_mask": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "path",
+                        "sha256"
+                      ],
+                      "properties": {
+                        "path": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[a-f0-9]{64}$"
+                        }
+                      }
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "occlusion_contract": {
+            "enum": [
+              "front-weapon-excluded-by-hand-mask",
+              "foreground-hand-layer-after-front-weapon",
+              "NO_EQUIPMENT_OR_OCCLUSION_NOT_AUTHORED"
+            ]
+          },
+          "foreground_hand_layer": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "hand_occlusion_mask": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "damage_definition_ref": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "effects_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "compatibility_status": {
+            "enum": [
+              "NOT_READY_UNMEASURED",
+              "UNARMED_NO_ATTACHMENT",
+              "SOURCE_BOUND_REVIEW_PENDING",
+              "REVIEWED_COMPATIBLE"
+            ]
+          },
+          "equipment_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Reference equipment definition; null for unarmed. Validate membership and profile compatibility semantically."
+          },
+          "instance_id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Persistent held instance identity across compatible states; null for unarmed. Drop clears hand ownership without duplicate instance."
+          }
+        }
+      }
+    },
+    "proposed_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "status",
+          "trigger_proposal",
+          "coordinate_space",
+          "lifetime_policy"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "status": {
+            "const": "PROPOSED_NOT_IMPLEMENTED_NOT_NATIVE_EVIDENCE"
+          },
+          "trigger_proposal": {
+            "type": "string"
+          },
+          "coordinate_space": {
+            "enum": [
+              "body-hand-local",
+              "actor-ground-root",
+              "world",
+              "target"
+            ]
+          },
+          "lifetime_policy": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "interruption_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "default",
+        "allowed_policies",
+        "damage_clear",
+        "effect_clear_or_transfer",
+        "selection_policy"
+      ],
+      "properties": {
+        "default": {
+          "enum": [
+            "clear-on-reset",
+            "retain-held",
+            "drop-to-world"
+          ]
+        },
+        "allowed_policies": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "clear-on-reset",
+              "retain-held",
+              "drop-to-world"
+            ]
+          }
+        },
+        "damage_clear": {
+          "const": "disable active damage immediately on cancel/end/reset"
+        },
+        "effect_clear_or_transfer": {
+          "type": "string"
+        },
+        "selection_policy": {
+          "type": "string"
+        }
+      }
+    },
+    "qualification": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "$comment": "Semantic validation must require all source/mask/equipment hashes to match; no UNKNOWN anchor may be accepted as a reviewed visible grip. Verify profile compatibility and secondary-hand constraints outside JSON Schema. No per-frame fitting."
+}

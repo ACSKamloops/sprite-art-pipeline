@@ -1,0 +1,699 @@
+{
+  "schema": "emberwake-eight-directions-replay/v1",
+  "config_sha256": "5e2ce48f6f9cc4bc4f7ba63a36c69c67baef870611bc33132d9073501a264a9b",
+  "baker_sha256": "9b51c73b8412fd7156d28ab7cc68ab44819edd48d6f4ae0a09e500ecbf07101e",
+  "directions": [
+    "south",
+    "southeast",
+    "east",
+    "northeast",
+    "north",
+    "northwest",
+    "west",
+    "southwest"
+  ],
+  "conditional_mirrors": {
+    "southwest": "southeast",
+    "northwest": "northeast"
+  },
+  "scope": "Registration candidate; art scores and runtime acceptance separate.",
+  "actors": {
+    "rowan": {
+      "old_physical_cells": 120,
+      "new_diagonal_cells": 128,
+      "clips": 48,
+      "atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c",
+      "manifest_sha256": "e9c2961ea9ba9a3695e7e6f6f5008799a3f8605aa81ca0ca29cf0bf7bfbf322c",
+      "source_registration": {
+        "southeast": {
+          "raw": "art-source/eight-direction-v1/raw/rowan-southeast-initial.png",
+          "raw_sha256": "cf76a78ceabde8db48e65e0b8d8006dbcf65a779431f08bb2e8c6af569da48e6",
+          "scale": 0.418,
+          "row_anchors": [
+            [
+              133,
+              258
+            ],
+            [
+              132,
+              258
+            ],
+            [
+              131,
+              251
+            ],
+            [
+              130,
+              246
+            ]
+          ],
+          "cast_hand": [
+            99,
+            56
+          ],
+          "cell_overrides": {
+            "23": {
+              "path": "art-source/eight-direction-v1/breath-v1/rowan/southeast/23.png",
+              "sha256": "6d39534e15291159922360f061f74f548dfad298a87c14bd485e91687944be24",
+              "recipe": "art-source/eight-direction-v1/breath-v1/rowan/southeast/receipt.json",
+              "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+            },
+            "17": {
+              "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/17.png",
+              "sha256": "8452777a46d28e7ea2086ffb060e358a8f5a99c910c3b4cdb2ae7063ebd81fd9",
+              "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+            },
+            "18": {
+              "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/18.png",
+              "sha256": "eb9e97111e033e363a03cd2cb3336357d818b90e1f49d19ee0bd4414c32dba85",
+              "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+            },
+            "20": {
+              "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/southeast/20.png",
+              "sha256": "15bf00707a40d7fbba801a6aef84dc06dad01403ce193f4303ceac83c2e64d25",
+              "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+            },
+            "25": {
+              "path": "art-source/eight-direction-v1/hurt-recovery-v1/rowan/southeast/25.png",
+              "sha256": "aad2bdafca33af54e8b5191bcb075b524c99b4557312277f3ebf59f5b65914e7",
+              "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+            }
+          },
+          "cast_hand_track": [
+            [
+              83,
+              75
+            ],
+            [
+              92,
+              55
+            ],
+            [
+              94,
+              54
+            ],
+            [
+              99,
+              56
+            ],
+            [
+              76,
+              76
+            ],
+            [
+              83,
+              75
+            ]
+          ],
+          "walk_override": {
+            "frames": [
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/00.png",
+                "sha256": "722a81b71ac33dbe13606996aaff7cc8b178859eb0a1f6cb3d8a83a1934e02af"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/01.png",
+                "sha256": "b73580ef33314d2320d83a4b6290112ae6386ac421caa3d64383a6bcb00b8f4c"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/02.png",
+                "sha256": "ed0a5cff5fca2898787e5d48d7436c6d5fc40d938017216ee05b0d4060ba56f7"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/03.png",
+                "sha256": "014eba240154c2632e5d8cbdb391e9186bdd79742785e52f7973683fa7c3ed26"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/04.png",
+                "sha256": "cf058981315073476baadfb4d0a4d1f9311ad1cc8276185a934e496e251069c6"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/05.png",
+                "sha256": "b0a678301227ab81fa3ef216a99345f577abb8f079f80024b19c4bf8751c0ff6"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/06.png",
+                "sha256": "42c86734d5e80d452b10d51656919c3b7356513804110a6a549dea5ef1f0547e"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-05-path-v1/preview-v1/frames/07.png",
+                "sha256": "9b62df0f5faf9bb22a2e8c1e4bdddf9c3f359ad5fbaa01bd6a1348d0b796a618"
+              }
+            ],
+            "scope": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release."
+          }
+        },
+        "northeast": {
+          "raw": "art-source/eight-direction-v1/raw/rowan-northeast-initial.png",
+          "raw_sha256": "316b7f6f07d7b77b4b8863a62fe45c8d9589842dfdd533a6f9d80064dea181ba",
+          "scale": 0.43,
+          "row_anchors": [
+            [
+              143,
+              254
+            ],
+            [
+              143,
+              252
+            ],
+            [
+              144,
+              251
+            ],
+            [
+              143,
+              250
+            ]
+          ],
+          "cast_hand": [
+            99,
+            45
+          ],
+          "cell_overrides": {
+            "23": {
+              "path": "art-source/eight-direction-v1/breath-v1/rowan/northeast/23.png",
+              "sha256": "8d7a6e2ea55de05ee37fe5bcecba4f4c1e07a5b20d236707d56bd724a1433fa1",
+              "recipe": "art-source/eight-direction-v1/breath-v1/rowan/northeast/receipt.json",
+              "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+            },
+            "17": {
+              "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/17.png",
+              "sha256": "14206f73c928aaae3ac1e14bb895de4b8f7ddee37c33dd37a08321c32929788a",
+              "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+            },
+            "18": {
+              "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/18.png",
+              "sha256": "973ebc6a9c9b00ce051cbd6d690038972c0bb5f115fa547ac4e7e17116b3aa21",
+              "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+            },
+            "20": {
+              "path": "art-source/eight-direction-v1/rowan-cast-hybrid-v1/candidate/northeast/20.png",
+              "sha256": "badde89ee497e2f7c13004a7578c806204e08ba2ee3fba7dc6660180c12ca7a8",
+              "kind": "complete donor open hand and forearm only; existing body and release19 exact"
+            },
+            "25": {
+              "path": "art-source/eight-direction-v1/hurt-recovery-v1/rowan/northeast/25.png",
+              "sha256": "6fa5b0c782626a67b1f9a920ce8b8a1b563cbdcfcea2dcb7b5c2001d144fa7bc",
+              "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+            }
+          },
+          "cast_hand_track": [
+            [
+              83,
+              73
+            ],
+            [
+              96,
+              52
+            ],
+            [
+              98,
+              51
+            ],
+            [
+              99,
+              45
+            ],
+            [
+              89,
+              77
+            ],
+            [
+              83,
+              73
+            ]
+          ],
+          "walk_override": {
+            "frames": [
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/00.png",
+                "sha256": "c88e1d925a77784038c4bb6afa78ba11f5838b5d66555e7b0cf7b103ba372bfc"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/01.png",
+                "sha256": "a8777ab1305a5769e23a1848317afdeb0d4175476bbf37216ba30fc683010bae"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/02.png",
+                "sha256": "ba7fbc391d3ec25a40d12f6f4f73b773b1d8e1d220c73c166b8cb33026b2f357"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne03-editor-package-v1/inputs/expected-final/03.png",
+                "sha256": "940fa7375b4a0df0e5734e78e789e265879c2e9194527601f878a4a8bc4cd09d"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/04.png",
+                "sha256": "fd629e8f1b0603a4d3d8780cfec7a7b6a548c7f9d86fa7be83456c49ee3cbe6c"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/05.png",
+                "sha256": "17ee266228ff4d64a3890d3ae4393e8b6d35d6919a27ffb0755737f5621801f7"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/06.png",
+                "sha256": "5e652adc0dafe96ed2747dc6b8bdffd68f800f1b34f04fe7e142e318e407fa0b"
+              },
+              {
+                "path": "art-source/eight-direction-v1/rowan-ne-material-v1/candidate/07.png",
+                "sha256": "407c13cba75d3db81b30bd3d304ffe4c22298dedee20f8ff12154e88dbd94d37"
+              }
+            ],
+            "scope": "Preferred unfinished walk repairs only; all eight9/160s holds and other actions retain original behavior. Target unmet; isolated local preview only."
+          }
+        }
+      },
+      "preserved_old_cells": true
+    },
+    "lyra": {
+      "old_physical_cells": 136,
+      "new_diagonal_cells": 128,
+      "clips": 48,
+      "atlas_sha256": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26",
+      "manifest_sha256": "0ed03236342954b9c0f1e093ae48b6d9142738fb51ef34339a56a91dd0cfa8db",
+      "source_registration": {
+        "southeast": {
+          "raw": "art-source/eight-direction-v1/raw/lyra-southeast-initial.png",
+          "raw_sha256": "4e4050324cc3b6bd6da9bec1fbd33258386cb50a0ed0eac6404f6fc102670823",
+          "scale": 0.436,
+          "row_anchors": [
+            [
+              132,
+              247
+            ],
+            [
+              132,
+              242
+            ],
+            [
+              131,
+              241
+            ],
+            [
+              132,
+              240
+            ]
+          ],
+          "cast_hand": [
+            100,
+            61
+          ],
+          "cell_overrides": {
+            "23": {
+              "path": "art-source/eight-direction-v1/breath-v1/lyra/southeast/23.png",
+              "sha256": "7058b976e155cf20e4dbebf37449357b99402bbb06057594e28018b3bea25eb3",
+              "recipe": "art-source/eight-direction-v1/breath-v1/lyra/southeast/receipt.json",
+              "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+            }
+          },
+          "cast_hand_track": [
+            [
+              82,
+              75
+            ],
+            [
+              82,
+              66
+            ],
+            [
+              83,
+              66
+            ],
+            [
+              100,
+              61
+            ],
+            [
+              82,
+              68
+            ],
+            [
+              82,
+              75
+            ]
+          ],
+          "walk_override": {
+            "frames": [
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/00.png",
+                "sha256": "b3f960c22be8d5698ca346a4faca5cf417576d37920cac11bbb7441890a56b9b"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/01.png",
+                "sha256": "659a008b557c6b692d888d45e4e4dc591c8c78286354e71f009429e5d66e4808"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/02.png",
+                "sha256": "8142df138044c349324f3b8179ec0ed7c30dd2e8107c612ef4426d6a8c425cf2"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/03.png",
+                "sha256": "0e32ce7642f1e55a226b78f814c763f27ca8f28d41fc5bf5d7515e9d17ec2f13"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/04.png",
+                "sha256": "e3dfacc87d7e055848590e3d696ee4b18adfe9a7f1a9da94d6d176ee75601c5f"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/05.png",
+                "sha256": "39f20b485f26f0d50560390416e25002c6a8f8a07a687699ef2e94ebf627a7ff"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/06.png",
+                "sha256": "61ddb98d813234ac359e3f718e341afafef5978aea29cfd2e4aa54a41c85ec1b"
+              },
+              {
+                "path": "art-source/eight-direction-v1/lyra-stance-spring-v1/editor-render/07.png",
+                "sha256": "9696a823ff94ec7b0a4afbd95756bfacc61b683cb7ce98c154cd3eb405480dfd"
+              }
+            ],
+            "scope": "Preferred scoped unfinished8-key repair; .45s clock unchanged; local isolated review only; target8 remains unmet."
+          }
+        },
+        "northeast": {
+          "raw": "art-source/eight-direction-v1/raw/lyra-northeast-initial.png",
+          "raw_sha256": "a8e77dbdaf0c1de47d71ef9429df558bf9159d325e29889b17e354d21542d738",
+          "scale": 0.44,
+          "row_anchors": [
+            [
+              132,
+              252
+            ],
+            [
+              132,
+              248
+            ],
+            [
+              131,
+              245
+            ],
+            [
+              132,
+              240
+            ]
+          ],
+          "cast_hand": [
+            96,
+            40
+          ],
+          "cell_overrides": {
+            "23": {
+              "path": "art-source/eight-direction-v1/breath-v1/lyra/northeast/23.png",
+              "sha256": "5371f62e79210d6e7f41222069b62d725f70cdda0698ddcab8665946476ab603",
+              "recipe": "art-source/eight-direction-v1/breath-v1/lyra/northeast/receipt.json",
+              "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+            },
+            "25": {
+              "path": "art-source/eight-direction-v1/hurt-recovery-v1/lyra/northeast/25.png",
+              "sha256": "3fcd39b7c2ff31572b938a9b96ef1535f7cdac54270a4209cfec9a0ba1b3937b",
+              "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+            }
+          },
+          "cast_hand_track": [
+            [
+              82,
+              75
+            ],
+            [
+              82,
+              62
+            ],
+            [
+              83,
+              63
+            ],
+            [
+              96,
+              40
+            ],
+            [
+              84,
+              60
+            ],
+            [
+              82,
+              75
+            ]
+          ],
+          "walk_override": {
+            "frames": [
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/00.png",
+                "sha256": "b08d06b5e197bc3f68e5b004a3b5d804f2212b66ecdf2b20cd5c6b389f16eeac"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/01.png",
+                "sha256": "d6b0dcbfda86b31400e94ff53b2ce494be6ecca6b33a6496b477b82638125c98"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/02.png",
+                "sha256": "58d694254cb2cee8c158a32f1bcbb8bb380c04eeed4780f601452ecb755b0f06"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/03.png",
+                "sha256": "4202ccd0ddeb29bfb65cf27abe511ebb80d3e0587878f1db1778c00f0110a1a8"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/04.png",
+                "sha256": "28b0e62c72dc1e4a503ea509ee94946bf4d7beb34ef3badeef0b390cf8606318"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/05.png",
+                "sha256": "bb92a237125bd50eba158c65527d646d8590c73021502345ad3efc8e99394c06"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/06.png",
+                "sha256": "b9c51b56bf6125c9bf6445fadb00741be24d2f5bef2f9c76f66685acd3365a20"
+              },
+              {
+                "path": "art-source/eight-direction-v1/coherent-upper-unselected-v1/trials/lyra/northeast/frames/07.png",
+                "sha256": "ef30903a0b73ccc84b51c5d8a8855914e5c0745ea523fd730052ad875fe55f32"
+              }
+            ],
+            "scope": "Local provisional walk candidate only; .45 clock, original cardinal/nonwalk art and measured cast tracks unchanged. Art target unmet; not public release."
+          }
+        }
+      },
+      "preserved_old_cells": true
+    },
+    "brann": {
+      "old_physical_cells": 136,
+      "new_diagonal_cells": 128,
+      "clips": 48,
+      "atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b",
+      "manifest_sha256": "d9b944346ab7f509941fac7786ff7c35d80e33115c74af24f84903a13af59d47",
+      "source_registration": {
+        "southeast": {
+          "raw": "art-source/eight-direction-v1/brann-source/raw/brann-se-initial.png",
+          "raw_sha256": "c6e2722e9a94e29f695a326526a832d1bc215058c21e5f363bb28c8a76f54d9a",
+          "scale": 0.425,
+          "row_anchors": [
+            [
+              146,
+              254
+            ],
+            [
+              146,
+              245
+            ],
+            [
+              146,
+              246
+            ],
+            [
+              146,
+              242
+            ]
+          ],
+          "cast_hand": [
+            99,
+            59
+          ],
+          "cell_overrides": {
+            "23": {
+              "path": "art-source/eight-direction-v1/breath-v2/brann/southeast/23.png",
+              "sha256": "17dcb74c073e82690f99d8f5417a3343a1e4fa1bb72d77ddb80a532e35d0b315",
+              "kind": "one-pixel source breath of matching arms-down neutral, exact pair"
+            },
+            "22": {
+              "path": "art-source/eight-direction-v1/brann-eye-v1/22.png",
+              "sha256": "789c7d5af8054bf9be2cf05c57238b0a068e49d877c3a0e71be25d02e1e9654e",
+              "kind": "relaxed neutral, five same-view eye donor texels; corrected paired review"
+            }
+          },
+          "cast_hand_track": [
+            [
+              84,
+              85
+            ],
+            [
+              79,
+              73
+            ],
+            [
+              80,
+              73
+            ],
+            [
+              99,
+              59
+            ],
+            [
+              89,
+              74
+            ],
+            [
+              84,
+              85
+            ]
+          ],
+          "walk_override": {
+            "frames": [
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/00.png",
+                "sha256": "754b7ce9acadd982a685567512578e5e223d554911b47954997619c07009e035"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/01.png",
+                "sha256": "93b232dec04ab2899eeae92cb6bbbb7579ef33a143077f68abe20641337381ab"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/02.png",
+                "sha256": "4551d5b78532a803c5a0caf6fb23e4fc7f1a2747725bc265fc37eea52a3511eb"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/03.png",
+                "sha256": "848465c5527c840e0bcc1a5e73fba58d3d86cbfde602cbdf2563adebf7e3a582"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/04.png",
+                "sha256": "8e3987b123b19d2ff642a0edb74820562ed317dde4b550f26a57d501865a8c5f"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/05.png",
+                "sha256": "2cc20aabb39a1e9c4687d4ffec6fbb754a17a92c7032ffcf99b30be22684689e"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/06.png",
+                "sha256": "36cec94a7368db671d75fc9ac616c230a578e6a222239fffc9d5db415189a998"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-front-weight-matte-v1/cleaned/southeast/07.png",
+                "sha256": "940ecbf0883aabb7aa7fb94c5906494b85c61333fc80fc3b6765ea899b92b0b8"
+              }
+            ],
+            "scope": "Preferred body-weight and four-pixel seam bank, scoped matte export. Same .45s clock, unfinished7.3motion judged from still chronology."
+          }
+        },
+        "northeast": {
+          "raw": "art-source/eight-direction-v1/brann-source/raw/brann-ne-initial.png",
+          "raw_sha256": "e631a1b0e7eb9e346f5d237a87830beed97f44bb3ef5e12857e18def8881cd0d",
+          "scale": 0.457,
+          "row_anchors": [
+            [
+              136,
+              247
+            ],
+            [
+              136,
+              244
+            ],
+            [
+              136,
+              247
+            ],
+            [
+              136,
+              242
+            ]
+          ],
+          "cast_hand": [
+            100,
+            38
+          ],
+          "cell_overrides": {
+            "23": {
+              "path": "art-source/eight-direction-v1/breath-v1/brann/northeast/23.png",
+              "sha256": "691a674e468420d054902b977f0e562e3b73583dc29cca22278d2d175823f498",
+              "recipe": "art-source/eight-direction-v1/breath-v1/brann/northeast/receipt.json",
+              "kind": "one-pixel source-breath; same 0.58/0.58 holds"
+            },
+            "25": {
+              "path": "art-source/eight-direction-v1/hurt-recovery-v1/brann/northeast/25.png",
+              "sha256": "6e9b8ffe08b793958bd9ad3ef51c857586054798b8f770fe56eff47cb058a087",
+              "kind": "bounded source-pixel recovery rise; actual paired preference, weak in NE"
+            },
+            "11": {
+              "path": "art-source/eight-direction-v1/brann-ne-jab-fist-v1/raw-v1/11.png",
+              "sha256": "c68dd7f8f86a2d06b432b0c604e3014279316954649474680c7191105f507350",
+              "kind": "Same-view219source-hand samples translated+1,-2; closed-glove clarity preferred. Body/clock exact; source-owner scope and review retained."
+            }
+          },
+          "cast_hand_track": [
+            [
+              83,
+              74
+            ],
+            [
+              82,
+              61
+            ],
+            [
+              82,
+              62
+            ],
+            [
+              100,
+              38
+            ],
+            [
+              87,
+              53
+            ],
+            [
+              83,
+              74
+            ]
+          ],
+          "walk_override": {
+            "frames": [
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/00.png",
+                "sha256": "fc819bc24215f43e84bfa8207d10c2b6f4a4a716070ccb7a7eeab3f97ea5aceb"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/01.png",
+                "sha256": "31e38ced772b380360d4704e78dda4a72b1a34d5b659b9c4a5b6f07bde7b07f1"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/02.png",
+                "sha256": "cef37b61dbe501ff555cf21742050b92bf3e76a208fc51d42b872cc84129f7a0"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/03.png",
+                "sha256": "5e20136c8416028d30a41f60ece08be3e3d6d0f10e02c3d3b3f77fa74b230e3f"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/04.png",
+                "sha256": "fcb3af4f3cf7905073f9c94284f2db796ba4466fb7b9a2fe59f9b2f994bcbedc"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/05.png",
+                "sha256": "d162cf120d3161f7c58e51a1a3870a08553826910042fd43c5982670b7a92974"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/06.png",
+                "sha256": "425cd8a402607040ba27b77c3db4677ad680a33238ff3b4483a3b32dedff0e4f"
+              },
+              {
+                "path": "art-source/eight-direction-v1/brann-ne05-06-matte-v1/cleaned/northeast/07.png",
+                "sha256": "91a9ad0f0a34a0890777b368d9f08f7b36e12b0020e702b32137b3e97863d5ca"
+              }
+            ],
+            "scope": "Preferred scoped unfinished8-key repair; .45s clock unchanged; local isolated review only; target8 remains unmet."
+          }
+        }
+      },
+      "preserved_old_cells": true
+    }
+  }
+}

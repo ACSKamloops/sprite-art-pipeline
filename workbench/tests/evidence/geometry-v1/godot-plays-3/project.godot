@@ -1,0 +1,8 @@
+config_version=5
+[application]
+config/name="Supplied-art sprite workbench export"
+run/main_scene="res://clip.tscn"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+[importer_defaults]
+texture={"compress/mode":0,"process/fix_alpha_border":false,"process/premult_alpha":false,"mipmaps/generate":false}

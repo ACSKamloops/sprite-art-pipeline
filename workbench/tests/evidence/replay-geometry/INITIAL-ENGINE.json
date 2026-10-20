@@ -1,0 +1,65 @@
+{
+  "clock_tolerance_ms": 40,
+  "completion": [
+    0.207605,
+    0.469859
+  ],
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "errors": [
+    "first hold within40ms",
+    "second hold within40ms",
+    "bounded completion 0"
+  ],
+  "events": [
+    {
+      "frame": 1,
+      "seconds": 0.021557
+    },
+    {
+      "frame": 2,
+      "seconds": 0.155818
+    },
+    {
+      "frame": 0,
+      "seconds": 0.207669
+    },
+    {
+      "frame": 1,
+      "seconds": 0.285071
+    },
+    {
+      "frame": 2,
+      "seconds": 0.414609
+    },
+    {
+      "frame": 0,
+      "seconds": 0.589002
+    }
+  ],
+  "pixels": [
+    {
+      "frame": 0,
+      "rgba_sha256": "786f9dfbe2442f6cedff61e1f0361db47e81027428eedde61b1ee2274f06da53"
+    },
+    {
+      "frame": 1,
+      "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+    },
+    {
+      "frame": 2,
+      "rgba_sha256": "8755d141f19474ecf830f0ab7742229208f40b239e1fc4a3b99ba988b4c8b297"
+    }
+  ],
+  "play_count": 2,
+  "scope": "headless texture readback and actual AnimatedSprite2D; no GPU/visual acceptance"
+}

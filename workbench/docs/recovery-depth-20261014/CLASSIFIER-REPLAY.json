@@ -1,0 +1,102 @@
+{
+  "schema": 1,
+  "label": "supplied diagnostic; no generated art",
+  "captured_at": "2026-10-14T04:03:50.324Z",
+  "node": "v22.22.1",
+  "acorn_version": "8.16.0",
+  "no_http": true,
+  "oracle": "unchanged original factory 66428 plus unchanged full worker 5259",
+  "host_stubs": [
+    "webpack exports.d for direct factory",
+    "local importScripts exact linked chunk",
+    "self.postMessage capture"
+  ],
+  "sources": [
+    {
+      "name": "fd910d1fc77a-6428-00f1c1ac0ad70f79.js",
+      "id": 66428,
+      "sha256": "077cbc8f10724502107814a7a206a1dc24211a1125b7e6e301aadd941b3f4a64",
+      "factory_sha256": "5adbd6fd7b2f0e84918f6ff786d9b9c44764c281519bb2301c536c3f5ee9c686",
+      "utf16_range": [
+        392,
+        36320
+      ],
+      "utf8_range": [
+        392,
+        36320
+      ]
+    },
+    {
+      "name": "8adb1b509159-5259.712f0977c9cb2d1d.js",
+      "id": 65259,
+      "sha256": "3f3e971002fd609ff75739b85cfd1ce71706ac553911e9a2b1c1084834024628",
+      "factory_sha256": "99a7db51c5d53e8f24d8ff31f092be6ee4b9832d55c7a94eabe14c5c860dc4bc",
+      "utf16_range": [
+        346,
+        547
+      ],
+      "utf8_range": [
+        346,
+        547
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "name": "flat-blank",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "62fb561c59d0cea247fc588f3311ee665375f35d8675b186e2792cb7dfcff88c",
+      "result": null,
+      "repeat_equal": true,
+      "original_worker_equal": true,
+      "input_unchanged": true
+    },
+    {
+      "name": "transparent-blank",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe",
+      "result": null,
+      "repeat_equal": true,
+      "original_worker_equal": true,
+      "input_unchanged": true
+    },
+    {
+      "name": "hard-pixel-grid",
+      "width": 64,
+      "height": 64,
+      "rgba_sha256": "c0fb641dbb7dc54eed5c482893ce7fbbc0b09e070ead5537d7e44660bfcdf499",
+      "result": null,
+      "repeat_equal": true,
+      "original_worker_equal": true,
+      "input_unchanged": true
+    },
+    {
+      "name": "soft-gradient",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "0220cb187730d02e3bab209c610e47ff243a03dcbaeb1d14c320be45748fddaa",
+      "result": null,
+      "repeat_equal": true,
+      "original_worker_equal": true,
+      "input_unchanged": true
+    },
+    {
+      "name": "upscaled-pixel-image",
+      "width": 128,
+      "height": 128,
+      "rgba_sha256": "a8ea68619189695df0581ee6feaf71397ed2c1c0e76e908f385dbfc2e44b702f",
+      "result": {
+        "kind": "upscaled",
+        "scale": [
+          4,
+          4
+        ]
+      },
+      "repeat_equal": true,
+      "original_worker_equal": true,
+      "input_unchanged": true
+    }
+  ]
+}

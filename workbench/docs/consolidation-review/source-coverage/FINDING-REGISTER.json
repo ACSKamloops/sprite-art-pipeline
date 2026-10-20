@@ -1,0 +1,854 @@
+{
+  "scope": "34 selected substantive findings/passages; not all 2,379 overlapping author records semantically reviewed",
+  "frozen_workbench_commit": "530baf35598cdbef24133783dd063bd021d1aa9c",
+  "verdict": "partial-all-findings-consolidation",
+  "rows": [
+    {
+      "id": "C01",
+      "category": "consolidation scope",
+      "finding": "The 464 source-flow records join nine selected contract sets. They do not consolidate every retained finding; some earlier topics remain reachable through inherited stages and the separate earlier CURRENT portal.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "workbench",
+          "path": "docs/ANALYSIS-INDEX.md",
+          "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+          "one_based_line": 5,
+          "anchor_literal": "finite gate",
+          "frozen_copy": "frozen-baseline/workbench/docs/ANALYSIS-INDEX.md"
+        }
+      ],
+      "current_status": "partial-for-all-findings",
+      "limits": "No universal semantic review of 464 index rows or 2,379 later author records.",
+      "handoff_omission": "Add a typed human finding/status/supersession ledger alongside structural catalogs."
+    },
+    {
+      "id": "C02",
+      "category": "obligations",
+      "finding": "The original 63 questions assign 18 source, 30 runtime and 21 server/provider authorities, with overlap. A finite source gate answers source portions without closing every component of these questions.",
+      "evidence_type": "unknown",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md",
+          "sha256": "625b6299116da5c376e8dd8277d6d3e007d46ab0d6b3b09c7b69efc8d5c7efc6",
+          "one_based_line": 7,
+          "anchor_literal": "original18 source-authority",
+          "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md"
+        }
+      ],
+      "current_status": "source-portions-accounted; overall-partial",
+      "limits": "Indexes do not close runtime or private implementation requirements.",
+      "handoff_omission": "Retain original IDs and separate source, observation and private dispositions."
+    },
+    {
+      "id": "C03",
+      "category": "phase conflict",
+      "finding": "Frozen CURRENT says construction is held, while later READINESS admits bounded construction and the workbench exists. Its earlier topical links remain useful; the phase banner needs explicit supersession.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "CURRENT-ANALYSIS.md",
+          "sha256": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+          "one_based_line": 3,
+          "anchor_literal": "Further experiments/art/H3 are held",
+          "frozen_copy": "frozen-baseline/investigation/CURRENT-ANALYSIS.md"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/full-reconstruction/READINESS.md",
+          "sha256": "5f89a429e2839967561c090dfdc17dac4306a5c3b821e5330057251d92139ac7",
+          "one_based_line": 3,
+          "anchor_literal": "admits",
+          "frozen_copy": "frozen-baseline/investigation/analysis-root/full-reconstruction/READINESS.md"
+        },
+        {
+          "namespace": "workbench",
+          "path": "README.md",
+          "sha256": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+          "one_based_line": 3,
+          "anchor_literal": "This implements",
+          "frozen_copy": "frozen-baseline/workbench/README.md"
+        }
+      ],
+      "current_status": "obsolete-baseline-phase-banner",
+      "limits": "Root updates after the freeze are remediation overlays, not evidence that this baseline had current wording.",
+      "handoff_omission": "Supersede the current portal with a dated authoritative reading order."
+    },
+    {
+      "id": "C04",
+      "category": "snapshot vocabulary",
+      "finding": "The copied scope calls 101 tools advertised; the index correctly calls them captured. The public guide has 116 tool headings, while the frozen REST contract has 111 operations. These inventories have different scopes.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "workbench",
+          "path": "docs/RECONSTRUCTION-SCOPE.md",
+          "sha256": "b4754c42455f1249205c119fbcb776b7b0f8cf48af0ee90f565336c8a9c87d50",
+          "one_based_line": 5,
+          "anchor_literal": "advertised101",
+          "frozen_copy": "frozen-baseline/workbench/docs/RECONSTRUCTION-SCOPE.md"
+        },
+        {
+          "namespace": "workbench",
+          "path": "docs/ANALYSIS-INDEX.md",
+          "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+          "one_based_line": 18,
+          "anchor_literal": "101 captured",
+          "frozen_copy": "frozen-baseline/workbench/docs/ANALYSIS-INDEX.md"
+        }
+      ],
+      "current_status": "obsolete-baseline-wording",
+      "limits": "Different snapshots and interfaces; these are not algorithm totals.",
+      "handoff_omission": "Keep captured 101, guide 116 and REST 111 distinct."
+    },
+    {
+      "id": "M01",
+      "category": "models",
+      "finding": "Captured official PixelLab sources name MiniMax H3 for PixMiniMax. The exact served checkpoint, fine-tune, decoder and deployment remain unknown.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+          "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+          "one_based_line": 7,
+          "anchor_literal": "checkpoint revision"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+          "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+          "one_based_line": 29,
+          "anchor_literal": "explicitly named"
+        }
+      ],
+      "current_status": "named-engine; checkpoint-unverified",
+      "limits": "Provider architecture and weights do not prove identical serving.",
+      "handoff_omission": "Include positive engine disclosure and the evidence taxonomy."
+    },
+    {
+      "id": "M02",
+      "category": "models",
+      "finding": "Wan and flux strings are selectors or product hints, not proof of Wan or BFL FLUX checkpoints. The 81 quoted selectors are not 81 neural models.",
+      "evidence_type": "unknown",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+          "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+          "one_based_line": 25,
+          "anchor_literal": "81 distinct"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+          "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+          "one_based_line": 30,
+          "anchor_literal": "not verified provider attribution"
+        }
+      ],
+      "current_status": "affiliation-unproven",
+      "limits": "Bounded searches do not prove every undisclosed relationship absent.",
+      "handoff_omission": "Separate literal hypotheses from explicit provider attribution."
+    },
+    {
+      "id": "M03",
+      "category": "historical model",
+      "finding": "The 2023 PixelParty card/config is vendor-linked, self-described SDXL history: an 8x nearest-neighbor recipe, init help, a fixed VAE recommendation and no refiner. It has no established binding to current selectors.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/mcp-art-workbench-disclosure/MCP-ART-WORKBENCH-DISCLOSURE.md",
+          "sha256": "ee648de9ec1f4571f4b30eed76b7afdf7c787f491aabb27c0bb06b8b472507fe",
+          "one_based_line": 74,
+          "anchor_literal": "vendor-linked, self-described historical release"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/mcp-art-workbench-disclosure/MCP-ART-WORKBENCH-DISCLOSURE.md",
+          "sha256": "ee648de9ec1f4571f4b30eed76b7afdf7c787f491aabb27c0bb06b8b472507fe",
+          "one_based_line": 76,
+          "anchor_literal": "8× downsize"
+        }
+      ],
+      "current_status": "historical-declaration-only",
+      "limits": "No tensors inspected. The card example does not load the separately recommended VAE.",
+      "handoff_omission": "Carry positive historical disclosure separately from current deployment."
+    },
+    {
+      "id": "M04",
+      "category": "provider availability",
+      "finding": "Provider H3 weights have a documented custom community licence. Neither those nor public Wan releases establish recovered PixelLab-specific weights.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/MODEL-IDENTITY-RESEARCH.md",
+          "sha256": "a880608212d7911d954aa056a1ff823bf2f8e7a451dfb0d99f337349459843bf",
+          "one_based_line": 7,
+          "anchor_literal": "custom community license"
+        }
+      ],
+      "current_status": "dated-provider-documents",
+      "limits": "Not current legal/deployment advice; no weights downloaded.",
+      "handoff_omission": "Preserve availability/licence scope in the backend comparison handoff."
+    },
+    {
+      "id": "P01",
+      "category": "creation observations",
+      "finding": "Four 128x128 text-only product probes returned sprites. ProFlash best matched this single brief; Bitforge missed bare-head/red-armour instructions. Optional Bitforge style conditioning was not tested.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/paid-model-probes/CREATION-MODEL-COMPARISON.md",
+          "sha256": "8f2b82d2177484620643210342f3c220b2c67781c8c55861395b66eac32248ea",
+          "one_based_line": 41,
+          "anchor_literal": "Best brief fit"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/paid-model-probes/CREATION-MODEL-COMPARISON.md",
+          "sha256": "8f2b82d2177484620643210342f3c220b2c67781c8c55861395b66eac32248ea",
+          "one_based_line": 40,
+          "anchor_literal": "text-only sample"
+        }
+      ],
+      "current_status": "one-sample-per-product",
+      "limits": "No general ranking, identity, directional or motion coverage.",
+      "handoff_omission": "Link finite model-choice observations and noncoverage."
+    },
+    {
+      "id": "P02",
+      "category": "frame roles",
+      "finding": "Text V3 requests for 4/8 frames returned 5/9 with redrawn first frames. Native MiniMax 8 returned 9 with an exact source first frame; conversion changed first-frame alpha at 10,619 positions. The browser kept one reference plus five service images as six project frames.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "PAID-EXPLORATION.md",
+          "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+          "one_based_line": 16,
+          "anchor_literal": "Requests for 4 and 8"
+        },
+        {
+          "namespace": "investigation",
+          "path": "PAID-EXPLORATION.md",
+          "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+          "one_based_line": 27,
+          "anchor_literal": "alpha changed at 10,619"
+        },
+        {
+          "namespace": "investigation",
+          "path": "PAID-EXPLORATION.md",
+          "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+          "one_based_line": 33,
+          "anchor_literal": "six flattened project"
+        }
+      ],
+      "current_status": "bounded-observation",
+      "limits": "No inferred FPS, universal unchanged-first rule or unexplained frame trimming.",
+      "handoff_omission": "Preserve service/editor roles and the converted-alpha qualification."
+    },
+    {
+      "id": "P03",
+      "category": "remote seed",
+      "finding": "Canonically identical Text V3 walk requests with seed 123 differed at every matched frame. The cause remains unknown; this is a bounded repeat observation, not a universal seed rule.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "PAID-EXPLORATION.md",
+          "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+          "one_based_line": 19,
+          "anchor_literal": "Canonically identical"
+        }
+      ],
+      "current_status": "exact-replay-not-observed",
+      "limits": "Cause unknown; this does not prove seed ignored or other engines nondeterministic.",
+      "handoff_omission": "Separate the remote seed observation from deterministic local replay."
+    },
+    {
+      "id": "P04",
+      "category": "masked repair",
+      "finding": "Outside-mask pixels stayed exact, but 215 originally transparent masked pixels became opaque white in the ProFlash shoulder edit. Locality alone did not make this a useful repair.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/runtime-review/INDEPENDENT-CAPTAIN-REVIEW.md",
+          "sha256": "483953c0ce77cdac0a832000248584dab0df59cfe2d7f9a4a070b149371ef9a9",
+          "one_based_line": 33,
+          "anchor_literal": "All 215"
+        }
+      ],
+      "current_status": "rejected-fixture",
+      "limits": "One mask/still; no universal segmentation claim.",
+      "handoff_omission": "Retain the failed alpha fixture alongside preservation counts."
+    },
+    {
+      "id": "P05",
+      "category": "edit/outfit/interpolation",
+      "finding": "Main and quantized arrays were identical in the selected outputs. All three outfit results lost requested silver trim. Interpolation mixed an overall 128 setting with per-input 256 sizes, preventing isolated size conclusions.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "PAID-EXPLORATION.md",
+          "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+          "one_based_line": 23,
+          "anchor_literal": "paired main/quantized variants"
+        },
+        {
+          "namespace": "investigation",
+          "path": "PAID-EXPLORATION.md",
+          "sha256": "42098b20dd36aa6a9f9de591233b3bcdd2aba7c67cbbd1cc7f54db6f76917559",
+          "one_based_line": 23,
+          "anchor_literal": "conflicting overall128"
+        }
+      ],
+      "current_status": "bounded-failure/causal-limit",
+      "limits": "Completed jobs and variant names do not prove successful transfer or quantization.",
+      "handoff_omission": "Preserve the instruction failure and invalid size-control ambiguity."
+    },
+    {
+      "id": "P06",
+      "category": "motion quality",
+      "finding": "Captain results received provisional readiness scores of 2/5/4/4, with idle-like motion, equipment/identity drift and weak drive/recovery. Sampled playback at diagnostic 8fps was not continuous service-clock acceptance.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/runtime-review/INDEPENDENT-CAPTAIN-REVIEW.md",
+          "sha256": "483953c0ce77cdac0a832000248584dab0df59cfe2d7f9a4a070b149371ef9a9",
+          "one_based_line": 11,
+          "anchor_literal": "did not continuously watch"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/runtime-review/INDEPENDENT-CAPTAIN-REVIEW.md",
+          "sha256": "483953c0ce77cdac0a832000248584dab0df59cfe2d7f9a4a070b149371ef9a9",
+          "one_based_line": 29,
+          "anchor_literal": "2/10"
+        }
+      ],
+      "current_status": "not-game-ready; provisional",
+      "limits": "Subjective provisional deliverable scores, not an endpoint leaderboard.",
+      "handoff_omission": "Link negative clips and actual viewed scope."
+    },
+    {
+      "id": "U01",
+      "category": "unzoom",
+      "finding": "Registered fits favour rescaling over native crops for nearest3/bilinear3 outputs, but imperfect fits do not identify a server filter. Known 3x centre sampling exactly recovers the controlled 128 source under its stated phase assumptions.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+          "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+          "one_based_line": 31,
+          "anchor_literal": "scaled full figure fits"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+          "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+          "one_based_line": 61,
+          "anchor_literal": "Both recovered 128×128"
+        }
+      ],
+      "current_status": "bounded-geometry-measurement",
+      "limits": "Exact recovery requires the saved input and known factor, origin and phase.",
+      "handoff_omission": "Preserve crop-versus-scale registration rather than identifying an algorithm from dimensions."
+    },
+    {
+      "id": "U02",
+      "category": "correction",
+      "finding": "Correction strength 0 is decoded-RGBA exact, including 23 known speckles. Strength 0.1 preserves their alpha, changes nearly all visible RGB and expands the palette. Known opaque damage was not removed.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+          "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+          "one_based_line": 51,
+          "anchor_literal": "all 23 speckles"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/runtime-preparation/REPORT.md",
+          "sha256": "68b54c86591312a3818650e78dbe62d33a84f24c70f1687fb1c6cbfb60622d91",
+          "one_based_line": 55,
+          "anchor_literal": "no identical-input repeat baseline"
+        }
+      ],
+      "current_status": "cleanup-goal-not-achieved",
+      "limits": "Broad pair differences do not establish that speckles caused global changes.",
+      "handoff_omission": "Distinguish RGB smoothing, palette policy and alpha cleanup."
+    },
+    {
+      "id": "D01",
+      "category": "grid advisory",
+      "finding": "Detector 66428/worker 5259 source recovers advisory scale/phase/edge/background math. Null is not a clean-art guarantee and softness can exceed 1. This classifier does not downsample art or establish the remote unzoom algorithm.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/pixel-grid-detector-closure/PIXEL-GRID-DETECTOR-CLOSURE.md",
+          "sha256": "407b1a6d8fe77bd4fa044f1781eb3cd507e4e754c7cf875674cadae8b7eed403",
+          "one_based_line": 27,
+          "anchor_literal": "Null can mean"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/pixel-grid-detector-closure/PIXEL-GRID-DETECTOR-CLOSURE.md",
+          "sha256": "407b1a6d8fe77bd4fa044f1781eb3cd507e4e754c7cf875674cadae8b7eed403",
+          "one_based_line": 51,
+          "anchor_literal": "can exceed1"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/pixel-grid-detector-closure/PIXEL-GRID-DETECTOR-CLOSURE.md",
+          "sha256": "407b1a6d8fe77bd4fa044f1781eb3cd507e4e754c7cf875674cadae8b7eed403",
+          "one_based_line": 99,
+          "anchor_literal": "does not downsample"
+        }
+      ],
+      "current_status": "advisory-source-described",
+      "limits": "No detector execution/calibration in the source pass. The remote kernel remains unknown.",
+      "handoff_omission": "Supersede earlier automatic-grid uncertainty by recovered advisory scope; preserve the original."
+    },
+    {
+      "id": "S01",
+      "category": "prep/conditioning",
+      "finding": "Godot zeroes RGB at alpha 0 while Lua raw serialization preserves it. Display/source masks and guide previews differ; a displayed guide is not automatically submitted conditioning.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/prompt-enhancement-closure/PROMPT-ENHANCEMENT-CLOSURE.md",
+          "sha256": "66b7a1c43d2ad0b369dba0f39b71a25b3fa30c1c528ea356b07e4f92e2311bfb",
+          "one_based_line": 46,
+          "anchor_literal": "zeros RGB at alpha0"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md",
+          "sha256": "1dcc79c69912514e1561ba1d6e3019f4a9399438fcaa192df45fa409fa1236f9",
+          "one_based_line": 19,
+          "anchor_literal": "previews only",
+          "frozen_copy": "frozen-baseline/investigation/analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md"
+        }
+      ],
+      "current_status": "represented-source-methods",
+      "limits": "RGBA channels do not reveal latent architecture; depth namespaces differ.",
+      "handoff_omission": "Retain exact per-caller methods rather than a universal preprocessing path."
+    },
+    {
+      "id": "S02",
+      "category": "prompt lifecycle",
+      "finding": "Auto/null/percent/end-frame and mutation rules differ by caller. Response markers use shared mutable refs, not immutable request snapshots; stale-result guards are selective.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/prompt-enhancement-closure/PROMPT-ENHANCEMENT-CLOSURE.md",
+          "sha256": "66b7a1c43d2ad0b369dba0f39b71a25b3fa30c1c528ea356b07e4f92e2311bfb",
+          "one_based_line": 25,
+          "anchor_literal": "shared mutable refs"
+        }
+      ],
+      "current_status": "corrected-source-limit",
+      "limits": "Ordering limitation is not a reproduced race. Local frozen pipeline policy differs deliberately.",
+      "handoff_omission": "Use corrected mutable-ref ownership wording and explicit observation status."
+    },
+    {
+      "id": "F01",
+      "category": "target font",
+      "finding": "One 16 Bold fixture has 80 glyph footprints matching 80 atlas cells after translation, but omits 14 printable ASCII characters. Extended repertoire, kerning/GPOS and readability are not established.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/retained-font/RETAINED-FONT-ANALYSIS.md",
+          "sha256": "43ef9b51142b0391cb696094a7148f71d261dcf01640cce90d1edb529a83a239",
+          "one_based_line": 7,
+          "anchor_literal": "all80atlas cells"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/retained-font/RETAINED-FONT-ANALYSIS.md",
+          "sha256": "43ef9b51142b0391cb696094a7148f71d261dcf01640cce90d1edb529a83a239",
+          "one_based_line": 9,
+          "anchor_literal": "omits14 printable"
+        }
+      ],
+      "current_status": "single-artifact-offline-measurement",
+      "limits": "No rasterizer run in that pass; no converter implementation or general quality conclusion.",
+      "handoff_omission": "Link the retained repertoire failure alongside local supplied-font coverage policy."
+    },
+    {
+      "id": "F02",
+      "category": "UI geometry",
+      "finding": "Virtual 512 long-axis coordinates, caller-specific presets and radius scaling are recovered: web uses the minimum axis, Godot the geometric mean. Provider raster mapping remains unrecovered.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-contract/depth-round2/font-ui-source-closure/FONT-UI-SOURCE-ANALYSIS.md",
+          "sha256": "4e28e66927e08d32f1507dd06bdd81e22bdc5189371bc8f7e2f2a44c665d54ad",
+          "one_based_line": 28,
+          "anchor_literal": "virtual frame"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-contract/depth-round2/font-ui-source-closure/FONT-UI-SOURCE-ANALYSIS.md",
+          "sha256": "4e28e66927e08d32f1507dd06bdd81e22bdc5189371bc8f7e2f2a44c665d54ad",
+          "one_based_line": 56,
+          "anchor_literal": "sqrt(sx*sy)"
+        }
+      ],
+      "current_status": "source-described/local-policy-distinct",
+      "limits": "Supplied pixel UI does not recover server styling.",
+      "handoff_omission": "Preserve differing coordinate domains and presets."
+    },
+    {
+      "id": "V01",
+      "category": "vocal timing",
+      "finding": "The local letter classifier compresses equal mouth runs and advances compressed entries at a default 120ms; another menu uses 220ms. The retained remote neutral plan/GIF has 35 frames and a 3750ms clock, a separate mechanism.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+          "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+          "one_based_line": 11,
+          "anchor_literal": "default delay is120ms"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+          "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+          "one_based_line": 13,
+          "anchor_literal": "35frames and3750ms"
+        }
+      ],
+      "current_status": "distinct-clock-paths",
+      "limits": "Not acoustic alignment or evidence for other languages/moods.",
+      "handoff_omission": "Keep supplied timelines, browser preview and remote plans separate."
+    },
+    {
+      "id": "V02",
+      "category": "vocal palette/lifecycle",
+      "finding": "Browser GIF quantization uses RGB merge cost, RGBA lookup and alpha threshold 127. Partial results, readiness, resume, cancellation and cache-save ordering retain specific source-level, unobserved limits.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+          "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+          "one_based_line": 31,
+          "anchor_literal": "RGB cost"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/vocal-render-closure/VOCAL-CLIENT-ANALYSIS.md",
+          "sha256": "db714c75dd6d2c76335b73b9e7900c351659e8054f116d17836b72298e3e64e7",
+          "one_based_line": 21,
+          "anchor_literal": "does not send a server job-cancellation"
+        }
+      ],
+      "current_status": "selected-corrected-source",
+      "limits": "REA 100,000-node ceiling; no universal runtime, model or export proof.",
+      "handoff_omission": "Preserve V19/V21/V23 support and source-versus-observed distinctions."
+    },
+    {
+      "id": "T01",
+      "category": "tile matcher",
+      "finding": "The connected-map client matches 4x4 context with a central 2x2 cache, surrounding 255 wildcards and ordered candidates. It is more specific than a single four-bit topology lookup.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-poses/depth-round2/map-connected-tiles-closure/MAP-CONNECTED-TILES-ANALYSIS.md",
+          "sha256": "eb9e6c6eb6381ad916fbcc11de4d13400bcfc07d265e60de65623ed39cd7e431",
+          "one_based_line": 37,
+          "anchor_literal": "all16 positions"
+        }
+      ],
+      "current_status": "known-client/localNESW-distinct",
+      "limits": "Server construction, seams and packaging remain opaque.",
+      "handoff_omission": "Local F06 NESW policy must not obscure the richer matcher and identity policy."
+    },
+    {
+      "id": "Q01",
+      "category": "SDK/schema drift",
+      "finding": "The pinned SDK has eight v1 methods and does not declare 38 of 46 v2 documentation call occurrences. A refreshed contract adds TargetPalette and two request fields; the earlier snapshot remains preserved.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/sdk-transport-closure/SDK-TRANSPORT-ANALYSIS.md",
+          "sha256": "31309137838908d6a2800e90d1618302e5bb4c795add624e1f50d7e9a93284f6",
+          "one_based_line": 30,
+          "anchor_literal": "38 call methods absent"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-root/sdk-transport-closure/SDK-TRANSPORT-ANALYSIS.md",
+          "sha256": "31309137838908d6a2800e90d1618302e5bb4c795add624e1f50d7e9a93284f6",
+          "one_based_line": 13,
+          "anchor_literal": "exactly three additions"
+        }
+      ],
+      "current_status": "dated-static-interface-findings",
+      "limits": "Not 38 executed failures. Alternate waiters remain unknown.",
+      "handoff_omission": "Carry example compatibility and schema deltas, not just operation counts."
+    },
+    {
+      "id": "Q02",
+      "category": "grammar supersession",
+      "finding": "An earlier guide says the playbook was not invoked. Later 82 documentation captures recover partial grammar; draw_commands still loses 162/82 lines and describe rejects --full.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/mcp-art-workbench-disclosure/MCP-ART-WORKBENCH-DISCLOSURE.md",
+          "sha256": "ee648de9ec1f4571f4b30eed76b7afdf7c787f491aabb27c0bb06b8b472507fe",
+          "one_based_line": 3,
+          "anchor_literal": "was not invoked"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round2/workbench-pixel-grammar/PIXEL-WORKBENCH-GRAMMAR.md",
+          "sha256": "fa0eb081e444d5b81f046781ba375186ed3c22fe3484315b154825d25a38e042",
+          "one_based_line": 79,
+          "anchor_literal": "high mode still cut 82"
+        }
+      ],
+      "current_status": "partially-superseded-not-fullgrammar",
+      "limits": "Known tables do not recover arbitrary structured handler implementation.",
+      "handoff_omission": "Link the earlier unavailable playbook to later partial grammar without claiming full closure."
+    },
+    {
+      "id": "R01",
+      "category": "protection correction",
+      "finding": "Bad deployed candidates had isError:false but state:technical_failure with failed source_first/protected/body_palette checks. The server detected violations; a downloadable export was not acceptance.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "controlled-tests/pixel-guards/PIXEL-GUARD-RESULTS.md",
+          "sha256": "45ca70bf0a77bdbef419202ceb222f1ad8ac803e092057b45f9f1473a3a71a52",
+          "one_based_line": 21,
+          "anchor_literal": "state: technical_failure"
+        },
+        {
+          "namespace": "investigation",
+          "path": "controlled-tests/pixel-guards/PIXEL-GUARD-RESULTS.md",
+          "sha256": "45ca70bf0a77bdbef419202ceb222f1ad8ac803e092057b45f9f1473a3a71a52",
+          "one_based_line": 23,
+          "anchor_literal": "initially misclassified"
+        }
+      ],
+      "current_status": "supersedes-ignored-protection-claim",
+      "limits": "Trusted per-step/final promotion enforcement was separately untested; local policy is stronger.",
+      "handoff_omission": "Do not promote the superseded transport-only interpretation as current truth."
+    },
+    {
+      "id": "R02",
+      "category": "prepared parts",
+      "finding": "The 105 metadata replies expose 455 parameter declarations, 207 slider ranges and 17 peek recipes. They do not recover 105 arbitrary constructors or independently establish server validation limits.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "controlled-tests/prepared-parts/PREPARED-PARTS-RESULTS.md",
+          "sha256": "8f871fc6d26f83bf50c88109aee807acd1cdbd9238efde4ef5561cf357ee42ff",
+          "one_based_line": 5,
+          "anchor_literal": "455 parameter declarations"
+        },
+        {
+          "namespace": "investigation",
+          "path": "controlled-tests/prepared-parts/PREPARED-PARTS-RESULTS.md",
+          "sha256": "8f871fc6d26f83bf50c88109aee807acd1cdbd9238efde4ef5561cf357ee42ff",
+          "one_based_line": 15,
+          "anchor_literal": "bounded negative search"
+        }
+      ],
+      "current_status": "metadata+recipespositive; constructorsunprovided",
+      "limits": "No add/set/export/neural calls in that metadata pass. Selected literal search is not absence proof.",
+      "handoff_omission": "Preserve positive recipe disclosures and UI-range authority alongside the constructor boundary."
+    },
+    {
+      "id": "R03",
+      "category": "renderer fixtures",
+      "finding": "The 124 successful renderer pairs match 1842 arrays. The 61 rejections include 56 invalid intended positives. Burst/poof loop endpoints have palette/coverage differences; pair equality does not approve loop motion.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/renderer-fixtures/RENDERER-FIXTURE-RESULTS.md",
+          "sha256": "1905490aaa750442a2d47e26e12ba1b474f2f12a2d4ddccf39bd7efc0ec55ccd",
+          "one_based_line": 3,
+          "anchor_literal": "1842 ordered array pairs"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/renderer-fixtures/RENDERER-FIXTURE-RESULTS.md",
+          "sha256": "1905490aaa750442a2d47e26e12ba1b474f2f12a2d4ddccf39bd7efc0ec55ccd",
+          "one_based_line": 14,
+          "anchor_literal": "56 were invalid"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/renderer-fixtures/RENDERER-FIXTURE-RESULTS.md",
+          "sha256": "1905490aaa750442a2d47e26e12ba1b474f2f12a2d4ddccf39bd7efc0ec55ccd",
+          "one_based_line": 31,
+          "anchor_literal": "Burst and poof"
+        }
+      ],
+      "current_status": "bounded-source-execution",
+      "limits": "Not browser bootstrap, every parameter, seamless GIF motion or artistic quality.",
+      "handoff_omission": "Invalid intended positives are not renderer bugs; self-parity is not visual proof."
+    },
+    {
+      "id": "R04",
+      "category": "renderer units",
+      "finding": "Earlier quarter-turn-count spin wording is obsolete. floor(4*spin*u)%4 makes spin 1 a full turn quantized into quarter-turn steps.",
+      "evidence_type": "source-derived",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/renderer-completion/RENDERER-METHODS.md",
+          "sha256": "a1148cd8bc045d111fe4ab35dd5bdb3f7e8da4a8dd9b9cfe9236eb639e243851",
+          "one_based_line": 11,
+          "anchor_literal": "count of quarter turns"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round4/full-technique-methods/FULL-TECHNIQUE-METHODS.md",
+          "sha256": "6a0c5e013d5755d9339be06aa1cfbe6f58de68b68f96b77c84b504cf85c6c2a2",
+          "one_based_line": 44,
+          "anchor_literal": "one full turn"
+        }
+      ],
+      "current_status": "additivelycorrected",
+      "limits": "The immutable original remains; the additive correction is the current interpretation.",
+      "handoff_omission": "Link the correction whenever handing off the original unit text."
+    },
+    {
+      "id": "R05",
+      "category": "native GIF failure",
+      "finding": "One high-colour native GIF stalled at 0% with no file after a relative shader lookup failure. The low-colour path differs, and PNG success is separate.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-contract/depth-round2/GIF-FAILURE-ANALYSIS.md",
+          "sha256": "c6916a341d2bd9523ef9102d876fd294058487f1d5632ca2e74b41e6cfa11112",
+          "one_based_line": 13,
+          "anchor_literal": "trapped owned iframe"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-contract/depth-round2/GIF-FAILURE-ANALYSIS.md",
+          "sha256": "c6916a341d2bd9523ef9102d876fd294058487f1d5632ca2e74b41e6cfa11112",
+          "one_based_line": 9,
+          "anchor_literal": "lookup_similar.gdshader"
+        }
+      ],
+      "current_status": "configuration-specific-failure",
+      "limits": "Not every GIF failure. Historical Failed to fetch is unrelated; the local encoder is separate.",
+      "handoff_omission": "Preserve the failed codec branch/cause separately from successful PNG."
+    },
+    {
+      "id": "B01",
+      "category": "rejected parry",
+      "finding": "V1 parry received provisional motion 4.5 and static 8 scores. Fourteen detached pixels trace to torso_remainder, not arm_underlap. Its hinged raise lacked convincing brace/contact/load.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/humanoid-parry-v1-review/REVIEW.md",
+          "sha256": "38d1dcae0242453736394da373e95d9a16389a8ce50bd011e97fe34d8a37e23c",
+          "one_based_line": 3,
+          "anchor_literal": "4.5/10"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/humanoid-parry-v1-review/REVIEW.md",
+          "sha256": "38d1dcae0242453736394da373e95d9a16389a8ce50bd011e97fe34d8a37e23c",
+          "one_based_line": 17,
+          "anchor_literal": "contains none of these UVs"
+        }
+      ],
+      "current_status": "notaccepted; upstreamownershiprepair",
+      "limits": "An authored event is not an observed impact; no continuous-view acceptance.",
+      "handoff_omission": "Link the rejected clip, 14-pixel witness and motion criteria."
+    },
+    {
+      "id": "B02",
+      "category": "viewed evidence",
+      "finding": "The independent engine addendum inspected 41 samples covering 35 distinct indices with exact pixels. It did not continuously watch video or inspect all 120 captured samples. Technical fidelity did not repair the motion.",
+      "evidence_type": "observed-runtime",
+      "source_paths": [
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/humanoid-parry-v1-review/ENGINE-VIEW-ADDENDUM.md",
+          "sha256": "de6b604d8a55ece7c59d43c1769925b33bebee07c513ce98c0c48513080a927b",
+          "one_based_line": 3,
+          "anchor_literal": "35distinct"
+        },
+        {
+          "namespace": "investigation",
+          "path": "analysis-models/depth-round3/humanoid-parry-v1-review/ENGINE-VIEW-ADDENDUM.md",
+          "sha256": "de6b604d8a55ece7c59d43c1769925b33bebee07c513ce98c0c48513080a927b",
+          "one_based_line": 3,
+          "anchor_literal": "not continuous"
+        }
+      ],
+      "current_status": "additive-technical-only",
+      "limits": "Larger counts belong to a separate owner receipt; lossy video is not the pixel oracle.",
+      "handoff_omission": "Keep viewed, encoded and verified coverage explicit."
+    },
+    {
+      "id": "L01",
+      "category": "localpolicy",
+      "finding": "Local guards, CAS, clocks, outline, brush and polygon policies are declared choices. Passing local controls does not recover vendor handlers or approve artwork.",
+      "evidence_type": "local-policy",
+      "source_paths": [
+        {
+          "namespace": "workbench",
+          "path": "docs/COVERAGE.md",
+          "sha256": "9ac31358c898677e1b1b389604987152ab982a3acab6248105611bdf7f1d9563",
+          "one_based_line": 3,
+          "anchor_literal": "implemented subsets",
+          "frozen_copy": "frozen-baseline/workbench/docs/COVERAGE.md"
+        },
+        {
+          "namespace": "workbench",
+          "path": "docs/RASTER-AND-EFFECTS.md",
+          "sha256": "2b05fb063882d2a53358fa60bc25706478b22f214759b3f1eaf486153e366b8d",
+          "one_based_line": 5,
+          "anchor_literal": "local polygon"
+        },
+        {
+          "namespace": "workbench",
+          "path": "README.md",
+          "sha256": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+          "one_based_line": 32,
+          "anchor_literal": "mechanical success",
+          "frozen_copy": "frozen-baseline/workbench/README.md"
+        }
+      ],
+      "current_status": "correctlyqualifiedimplementation",
+      "limits": "No tests rerun in this consolidation audit.",
+      "handoff_omission": "Retain local/source correspondence and versioned corrections; these are not 212 implemented remote handlers."
+    }
+  ],
+  "sampling": "Manual selected report passages and their qualifiers; this audit did not execute targets or reread every underlying source function. Hash/line checks establish provenance, not independent approval of every author claim."
+}

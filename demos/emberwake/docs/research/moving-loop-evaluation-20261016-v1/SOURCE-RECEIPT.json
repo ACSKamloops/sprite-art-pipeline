@@ -1,0 +1,86 @@
+{
+  "research_date": "2026-10-16",
+  "retrieved_at_utc": "2026-10-17T05:25:01.278224+00:00",
+  "preferred_recency_window": [
+    "2026-04-16",
+    "2026-10-16"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Walk Cycles: How to Animate a Walk Cycle in Maya",
+      "publisher": "Animworks",
+      "author": "Harvey Newman",
+      "url": "https://anim.works/walk-cycle/",
+      "published": "2026-08-24",
+      "date_evidence": "Visible byline/date on the primary page.",
+      "recency": "within 2026-04-16..2026-10-16",
+      "source_type": "first-party practitioner guidance, Maya-oriented",
+      "used_for": [
+        "support/swing pose roles",
+        "ground-relative planted-foot check",
+        "in-place versus translated cycle"
+      ],
+      "limits": "Not an empirical study; neutral example is not a sprite timing requirement."
+    },
+    {
+      "id": "S2",
+      "title": "SpriteFrames, Godot 4.5",
+      "publisher": "Godot Engine",
+      "url": "https://docs.godotengine.org/en/4.5/classes/class_spriteframes.html#class-spriteframes-method-get-frame-duration",
+      "published": null,
+      "updated": null,
+      "date_evidence": "No publication/update date stated on retrieved documentation page.",
+      "recency": "older versioned documentation; not counted as recent",
+      "source_type": "official versioned API documentation",
+      "used_for": [
+        "relative versus absolute duration",
+        "FPS and playing-speed relationship"
+      ],
+      "limits": "Version reference only; local runtime/version not inspected."
+    },
+    {
+      "id": "S3",
+      "title": "Onion Skinning",
+      "publisher": "Aseprite / Igara Studio",
+      "url": "https://www.aseprite.org/docs/onion-skinning/",
+      "published": null,
+      "updated": null,
+      "date_evidence": "No publication/update date stated on retrieved documentation page. Copyright year is not a publication date.",
+      "recency": "older-standing undated documentation; not counted as recent",
+      "source_type": "official editor documentation",
+      "used_for": [
+        "F3 onion skin",
+        "configurable previous/next counts and tint"
+      ],
+      "limits": "Tool functionality, not a quality or contact validator."
+    },
+    {
+      "id": "S4",
+      "title": "Fixing jitter, stutter and input lag, Godot 4.5",
+      "publisher": "Godot Engine",
+      "url": "https://docs.godotengine.org/en/4.5/tutorials/rendering/jitter_stutter.html",
+      "published": null,
+      "updated": null,
+      "date_evidence": "No publication/update date stated on retrieved documentation page.",
+      "recency": "older versioned documentation; not counted as recent",
+      "source_type": "official versioned troubleshooting documentation",
+      "used_for": [
+        "distinguish timing/render problems from animation concerns",
+        "record reproduction environment and captures"
+      ],
+      "limits": "Not proof that any particular runtime defect occurs here; no engine settings changed."
+    }
+  ],
+  "selection": "Four high-value primary sources. Recent practitioner guidance retained; precise software behavior uses clearly labelled older/undated official documentation.",
+  "execution_limits": {
+    "read_only_research": true,
+    "canonical_project_read_or_edited": false,
+    "frozen_review_modified": false,
+    "models_or_providers_run": false,
+    "generation_or_installation": false,
+    "art_scores_assigned": false,
+    "playback_protocol_executed": false
+  },
+  "source_separation": "Documented software behavior, practitioner advice, arithmetic, and inferred protocol steps are labelled separately in REPORT.md."
+}

@@ -1,0 +1,525 @@
+{
+  "schema": "sprite-construction-spec/v1",
+  "canvas": {
+    "width": 128,
+    "height": 128,
+    "render_pivot": [
+      64,
+      112
+    ],
+    "ground_pivot": [
+      64,
+      112
+    ]
+  },
+  "layers": [
+    {
+      "id": "far",
+      "name": "far",
+      "locked": false
+    },
+    {
+      "id": "near",
+      "name": "near",
+      "locked": false
+    },
+    {
+      "id": "upper",
+      "name": "upper",
+      "locked": false
+    }
+  ],
+  "frames": [
+    {
+      "id": "frame00",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/00-whole.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame01",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/01-upper.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "far": {
+          "image": "parts/01-far.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "near": {
+          "image": "parts/01-near.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame02",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/02-whole.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame03",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/03-upper.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "far": {
+          "image": "parts/03-far.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "near": {
+          "image": "parts/03-near.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame04",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "far": {
+          "image": "parts/04-far.png",
+          "at": [
+            -20,
+            0
+          ]
+        },
+        "near": {
+          "image": "parts/04-near.png",
+          "at": [
+            17,
+            0
+          ]
+        },
+        "upper": {
+          "image": "parts/04-upper.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame05",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/05-upper.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "far": {
+          "image": "parts/05-far.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "near": {
+          "image": "parts/05-near.png",
+          "at": [
+            -2,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame06",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/06-whole.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "id": "frame07",
+      "duration_ticks": 9,
+      "landmarks": {},
+      "cels": {
+        "upper": {
+          "image": "parts/07-upper.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "far": {
+          "image": "parts/07-far.png",
+          "at": [
+            0,
+            0
+          ]
+        },
+        "near": {
+          "image": "parts/07-near.png",
+          "at": [
+            0,
+            0
+          ]
+        }
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "walk",
+      "frames": [
+        "frame00",
+        "frame01",
+        "frame02",
+        "frame03",
+        "frame04",
+        "frame05",
+        "frame06",
+        "frame07"
+      ],
+      "fps": 160,
+      "loop": true,
+      "events": []
+    }
+  ],
+  "provenance": {
+    "method": "complete ImageGen keys00/02/06; source00chains translated into04; source-pixel oddbridges",
+    "clock": "8*9/160=0.45s",
+    "paint": "no new fill; no reflections; original four-key upper04",
+    "source_part_polygons": {
+      "2": {
+        "far": [
+          [
+            50,
+            78
+          ],
+          [
+            59,
+            78
+          ],
+          [
+            63,
+            81
+          ],
+          [
+            63,
+            88
+          ],
+          [
+            62,
+            96
+          ],
+          [
+            63,
+            102
+          ],
+          [
+            41,
+            104
+          ],
+          [
+            41,
+            83
+          ],
+          [
+            47,
+            80
+          ]
+        ],
+        "near": [
+          [
+            64,
+            82
+          ],
+          [
+            81,
+            81
+          ],
+          [
+            88,
+            98
+          ],
+          [
+            91,
+            121
+          ],
+          [
+            61,
+            121
+          ],
+          [
+            61,
+            102
+          ],
+          [
+            62,
+            96
+          ],
+          [
+            63,
+            88
+          ]
+        ]
+      },
+      "6": {
+        "far": [
+          [
+            48,
+            82
+          ],
+          [
+            62,
+            82
+          ],
+          [
+            64,
+            91
+          ],
+          [
+            65,
+            121
+          ],
+          [
+            38,
+            121
+          ],
+          [
+            39,
+            95
+          ]
+        ],
+        "near": [
+          [
+            67,
+            81
+          ],
+          [
+            81,
+            80
+          ],
+          [
+            91,
+            89
+          ],
+          [
+            91,
+            108
+          ],
+          [
+            65,
+            108
+          ],
+          [
+            65,
+            94
+          ],
+          [
+            66,
+            87
+          ]
+        ]
+      }
+    },
+    "odd_slot_plans": {
+      "1": {
+        "key": 0,
+        "far": {
+          "source": "manual-contact-v5/parts/trailing-right.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            38,
+            92,
+            62,
+            118
+          ],
+          "delta": [
+            2,
+            -8
+          ]
+        },
+        "near": {
+          "source": "manual-contact-v5/parts/forward-left.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            68,
+            89,
+            89,
+            106
+          ],
+          "delta": [
+            -1,
+            6
+          ]
+        }
+      },
+      "3": {
+        "key": 2,
+        "far": {
+          "source": "part02-far.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            43,
+            79,
+            63,
+            102
+          ],
+          "delta": [
+            2,
+            3
+          ],
+          "anchor": 78
+        },
+        "near": {
+          "source": "part02-near.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            62,
+            97,
+            89,
+            119
+          ],
+          "delta": [
+            -4,
+            0
+          ]
+        }
+      },
+      "5": {
+        "key": 4,
+        "far": {
+          "source": "part06-far.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            40,
+            94,
+            65,
+            119
+          ],
+          "delta": [
+            2,
+            -6
+          ]
+        },
+        "near": {
+          "source": "part06-near.png",
+          "at": [
+            -2,
+            0
+          ],
+          "boot": [
+            67,
+            84,
+            90,
+            108
+          ],
+          "delta": [
+            -3,
+            6
+          ]
+        }
+      },
+      "7": {
+        "key": 6,
+        "far": {
+          "source": "part06-far.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            40,
+            94,
+            65,
+            119
+          ],
+          "delta": [
+            -1,
+            0
+          ]
+        },
+        "near": {
+          "source": "part06-near.png",
+          "at": [
+            0,
+            0
+          ],
+          "boot": [
+            67,
+            84,
+            90,
+            108
+          ],
+          "delta": [
+            0,
+            -1
+          ]
+        }
+      }
+    },
+    "boundary": "art candidate, not accepted; no editor/engine/human playback claims"
+  }
+}

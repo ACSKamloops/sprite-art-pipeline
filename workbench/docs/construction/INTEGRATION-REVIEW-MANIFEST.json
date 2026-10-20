@@ -1,0 +1,45 @@
+{
+  "authority": "Selected reviewer artifacts, not whole vendor/runtime/quality approval",
+  "files": [
+    {
+      "path": "INTEGRATION-REVIEW.md",
+      "sha256": "f361208a9d2648c70bced2580d9d34ddbe6d03311e65f418aa7eea75d6f9ab25",
+      "bytes": 4936
+    },
+    {
+      "path": "INTEGRATION-REVIEW.json",
+      "sha256": "f740045dfea2ea880cafe885a8d26355481695e3cd8028ca8ba4462d59987705",
+      "bytes": 12121
+    },
+    {
+      "path": "integration-review-evidence/BASELINE-JUNIT.xml.gz",
+      "sha256": "2192d81729a84729a20cec23c70263c959839f6c0759795bb7d6d3b873e225ab",
+      "bytes": 1302
+    },
+    {
+      "path": "integration-review-evidence/BENCHMARK-RUNNER.py.txt",
+      "sha256": "833a32d13b9110058719279981482d76246cf8fc7d255db20207a3861f3b3d66",
+      "bytes": 3391
+    },
+    {
+      "path": "integration-review-evidence/BENCHMARK.json",
+      "sha256": "247b184bdae79bff86b87a8e9455e0567cd41736c2a43289f242727482daf3d3",
+      "bytes": 7437
+    },
+    {
+      "path": "integration-review-evidence/PRIMARY-construction-README.md",
+      "sha256": "3ce3d6d9c7a2eb7dca4d13740e46d21c7e27f6694def1956a143fdce9f11683d",
+      "bytes": 8266
+    },
+    {
+      "path": "integration-review-evidence/PRIMARY-local-construction-README.md",
+      "sha256": "d0ac0b7dd194d71bab942fa5b0f8778e6253e6f5fa4ca920366b057ca34b7637",
+      "bytes": 1601
+    },
+    {
+      "path": "integration-review-evidence/RESOLVED-JUNIT.xml",
+      "sha256": "9799ff1cb017947f47051aff50b86ac78fdc5aa59f09872ea234b346fdbad0f0",
+      "bytes": 2007
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# One literal31-pixel seam completion — still rejected
+
+This is the separate root-authorized finish of the rejected stance curve, not a second curve. Only the31 conservative green interior losses in02/06 received new source-shaded cream undercoat. Every changed texel was `[0,0,0,0]` before, has an exact same-cel donor coordinate/RGBA, a chosen cloth material/depth and a continuity reason in `LITERAL-UNDERCOAT-JOURNAL.json`. This is newly authored coverage, not recovered hidden anatomy. No amber/blue mask coordinates were filled.
+
+All31 marked interior gaps now have positive coverage. The result remains **rejected**:30 amber clear coordinates remain in02/06 (15 each), and25 pre-existing proposed-mutable-cloth loss witnesses remain across00/02/04/05/06 (6/1/15/2/1). Their exact coordinates are in `verification/RESULT.json`. Some are uncertain ownership or normal clearance; others visibly weaken joins. No blanket fill or false passed-bank claim was made. The near-glove/left coat-edge gap in06 remains visible in `proof/02-06-literal31-waist-16x.png`.
+
+`proof/full8-{native,2x,84}-{light,dark,forest}.png` shows selected source, rejected raw curve and31-pixel completion. `proof/cyclic-pairs-{native,2x,84}-{light,dark,forest}.png` includes all cyclic pairs. Static inspection covered native/nearest game-size chronology and contrasting grounds. Timed human perception, world contact and engine rendering remain untested.
+
+Only02(10px)/06(21px) change. Other6 PNG bytes are exact to the raw probe; all existing positive raw-probe pixels remain exact, preserving its visible boot/upper/cloth paint. Every existing fixed-lower, mapped-cloth and rigid-body component replays unchanged; hashes are in `verification/EXISTING-COMPONENT-LAYERS.json`. That does not retrospectively approve the raw probe's semantic owners or certify complete hidden anatomical boot masters. No complete-boot preservation claim is based solely on unchanged rows99+.
+
+All8 journal/component composites replay to exact PNG bytes in `verification/replay/`. `media-exact/receipt.json` verifies every decoded RGBA frame and all eight actual9/160s APNG delays (0.45s loop); PNGs remain authoritative. `OUTPUTS.json` supplies exact paths/hashes. No editor package, art score, generation call, canonical change or promotion occurred. Keep the selected original Rowan bank.

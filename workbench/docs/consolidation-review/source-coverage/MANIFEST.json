@@ -1,0 +1,90 @@
+{
+  "scope": "report artifacts and frozen baseline only",
+  "entries": [
+    {
+      "path": "BASELINE-RECEIPT.json",
+      "sha256": "c10aa3a3af7e92bc4734ab6af2c427adee1cef667b72a6c4e02df640bf0eb549",
+      "bytes": 4450
+    },
+    {
+      "path": "FINDING-REGISTER.json",
+      "sha256": "7a623dd07fc2df079b3a38e58c2ca21458028e4f9f7a43b853ef0ab2889b682b",
+      "bytes": 42317
+    },
+    {
+      "path": "ORIGINAL-63-DISPOSITIONS.json",
+      "sha256": "79732656e3d6848f98c93c69aca693f6ebb79e77d2b633f6b8c83fb0d5f5a505",
+      "bytes": 113125
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "92c9e86b6118b66e49ce671698844ec92faf6db7ca9c241b3eca92cc600f6212",
+      "bytes": 7780
+    },
+    {
+      "path": "SOURCE-FLOW-INDEX-PROJECTION.json",
+      "sha256": "fb767cb4c7dc08bf54f80cd06688627cb10c02c1ed444e95172b02f97b9628ca",
+      "bytes": 209686
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "8a976c73d8a5600576a0567bb1f760a18d9f9deb23cccf79aa6cb49736708985",
+      "bytes": 20375
+    },
+    {
+      "path": "frozen-baseline/investigation/CURRENT-ANALYSIS.md",
+      "sha256": "6be4ad5d4f3d6fb8f0cb30b8d385df89af05cdcf283e0b9108ec1f236e362231",
+      "bytes": 17400
+    },
+    {
+      "path": "frozen-baseline/investigation/analysis-root/CLIENT-SERVER-EVIDENCE-BOUNDARY.md",
+      "sha256": "1dcc79c69912514e1561ba1d6e3019f4a9399438fcaa192df45fa409fa1236f9",
+      "bytes": 3330
+    },
+    {
+      "path": "frozen-baseline/investigation/analysis-root/full-reconstruction/READINESS.md",
+      "sha256": "5f89a429e2839967561c090dfdc17dac4306a5c3b821e5330057251d92139ac7",
+      "bytes": 1068
+    },
+    {
+      "path": "frozen-baseline/investigation/analysis-root/full-reconstruction/RECONSTRUCTION-SCOPE.md",
+      "sha256": "625b6299116da5c376e8dd8277d6d3e007d46ab0d6b3b09c7b69efc8d5c7efc6",
+      "bytes": 3532
+    },
+    {
+      "path": "frozen-baseline/investigation/analysis-root/full-reconstruction/SOURCE-GATE.json",
+      "sha256": "3dbc9986f739f79afd568ffdf1931fc93f734b8b48cc936cba11df3ffc855c53",
+      "bytes": 2421
+    },
+    {
+      "path": "frozen-baseline/workbench/README.md",
+      "sha256": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+      "bytes": 4254
+    },
+    {
+      "path": "frozen-baseline/workbench/docs/ANALYSIS-INDEX.md",
+      "sha256": "84ad7e935202596e7e566d5582ad273a008c9c6782dc25e771b6d81f8ee3da5e",
+      "bytes": 3480
+    },
+    {
+      "path": "frozen-baseline/workbench/docs/COVERAGE.md",
+      "sha256": "9ac31358c898677e1b1b389604987152ab982a3acab6248105611bdf7f1d9563",
+      "bytes": 4488
+    },
+    {
+      "path": "frozen-baseline/workbench/docs/RECONSTRUCTION-SCOPE.md",
+      "sha256": "b4754c42455f1249205c119fbcb776b7b0f8cf48af0ee90f565336c8a9c87d50",
+      "bytes": 3534
+    },
+    {
+      "path": "frozen-baseline/workbench/docs/WHOLE-FLOW-COMPARISONS.md",
+      "sha256": "1f5841522a005602f68209893b6073f322c29a472a0711b4f6415bb43b2f9ee3",
+      "bytes": 14255
+    }
+  ],
+  "count": 16,
+  "excludes": [
+    "MANIFEST.json"
+  ],
+  "authority": "Identity inventory, not semantic approval or sharing licence."
+}

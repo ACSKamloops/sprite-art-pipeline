@@ -1,0 +1,54 @@
+{
+  "manifest": "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/clips.json",
+  "input_fingerprint": "58bf0c063cbce8306bebd8f023da701cd5fe4a7a99ba457063261015e0ea3bb8",
+  "snapshot": {
+    "manifest_sha256": "399c12e10460e9fc62a85685e9a0be1dc1aeaa79eb69cb69b03bdd45cc0b96ec",
+    "sheets": {
+      "approved/walk/sheet.png": "c1e24d3e7276e1752b87e251806845135172da3d5f4a0eae024ce5606f73f667"
+    }
+  },
+  "clips": [
+    {
+      "id": "generic_rpg_hero/walk_right_three_quarter",
+      "frames": 30,
+      "seconds": 1.25,
+      "frame_hashes": [
+        "c4aa5f2820c16f380590298a7ea440f361ab8d458767fb22bd978b7699d68754",
+        "9193323e4160ac3c08545eab1ae1a66a69a0f1d7cf355fb3d7a079e4c3e2c361",
+        "ff5c12bcd2ed60e8e402258a078f7ebf36f978d1e005a1b70fa332fec3002bf2",
+        "36e8696b8e2e565c19d6fc7ba7d5bd29512d94dbe9faa20f221c01443ac7b096",
+        "e7735f38e647f00a8cbb882c45c359694350e6a6cdbb0283d8da0ddaa368bea1",
+        "09ab19efb609797debfc42b97d4740b977eb82d04d8fe5bb2cd16e860b3d5ada",
+        "b50fe00589a7d0cc551f7f443dfbb5e4f64be6752e34b767815f51c44a9a524b",
+        "d455a5862e992210139c3a1dc9fb5a922c5d7241d8b82ea34a98bbb44f507eba",
+        "9c2b23c5fa165dcdbffcf5e4b85a60edb844f7f819703f070d884c9b7fa803c8",
+        "a0fbf1234f38e8cf36bebd408c3a6030c9263918cf138f32aff589248a87bdc8",
+        "507018d28219a30690758a135d8328a58873fcb619f83427c30e5f002e600961",
+        "ea22ad7061745304cf8a3b192a04904f7db1c8b8843403ee8ed6eabee7065aa3",
+        "4af83b4de08671c59ff7ef24eca193b9c9f0385ae6aff9c789aa4d5ff76b2236",
+        "226bf8e6985ad744db119396dce94c2489f0ee9143d53f8e9553795ec3effe5b",
+        "0a8bfc8c493c0591bb2bf3e9ae97cb308c280376e2c76194d787d2e89793ee21",
+        "dad3933b4fdee9725ff9e0204d648665fb35e65b286eba40a080ad8ab97f21a2",
+        "b281100a52634c2cee8a207b0c98f6c5f6626d7fad4a0527e132db6a851ce7a3",
+        "3a50d841cabe5a94ca66f04736a402dc97827b2faeddb1c01b4c33ba7b0b84a4",
+        "1eb8119076cdc61f703b58a5341cb5eb75a89908f2f0188288667906d017b4de",
+        "9c6c415c816b4cde57b4c7415c2dc3309f2628ab39be1ba31973b8e7185f16dd",
+        "6154e19047dcc2586309bdd6accdab45aa783fbb7bb64ec7c1208d95ba354b8b",
+        "4765b8f6bd016d1dc3802c2bc18745060a85606e0d727a219d26230b7850dd11",
+        "102736404633f41308548d28a5ad603a41b5a6ea75440fa792e49edcaf1bb432",
+        "7b24c9ed82a0b8160aebf69e23e0a65704abeba3856f8632c9da14b32fe9e0bb",
+        "26a1272413aa2932ec5a79ac8f683915e1f5a0ec7bc343a5d5e34ba0b0590b83",
+        "89952c3dc91bddb15d149e5e114692a25a28b0ff667c2cd6b5e50d97cc434490",
+        "4aea1959419c88f800feeedcdd3152fb9ce86a261c89f4f001ddb0b2791600ae",
+        "c56bfa42c6a870e8fe348186e171ebd83674922ab7bc3e34acfe39100899b411",
+        "01d1b603996237a8006de8927e3cc429e4503b97612e37db1b6a3da82b97cad6",
+        "8df852636fe9bb18be1ab43a9b8ddd86f0fdeb06b279cce9c845366666e17286"
+      ]
+    }
+  ],
+  "clip_count": 1,
+  "frame_count": 30,
+  "errors": [],
+  "warnings": [],
+  "accepted": true
+}

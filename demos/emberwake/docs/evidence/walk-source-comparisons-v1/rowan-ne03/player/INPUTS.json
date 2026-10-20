@@ -1,0 +1,319 @@
+{
+  "actor": "rowan",
+  "stage": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    112
+  ],
+  "game_scale": 0.66,
+  "holds": [
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ],
+    [
+      9,
+      160
+    ]
+  ],
+  "duration": [
+    9,
+    20
+  ],
+  "variants": {
+    "A": {
+      "northeast": [
+        {
+          "path": "A/northeast/00.png",
+          "sha256": "c88e1d925a77784038c4bb6afa78ba11f5838b5d66555e7b0cf7b103ba372bfc"
+        },
+        {
+          "path": "A/northeast/01.png",
+          "sha256": "a8777ab1305a5769e23a1848317afdeb0d4175476bbf37216ba30fc683010bae"
+        },
+        {
+          "path": "A/northeast/02.png",
+          "sha256": "ba7fbc391d3ec25a40d12f6f4f73b773b1d8e1d220c73c166b8cb33026b2f357"
+        },
+        {
+          "path": "A/northeast/03.png",
+          "sha256": "f6684cff2278d8a1724b8c48b0b814877355fcf33e49b250166c5b8fcad6dd60"
+        },
+        {
+          "path": "A/northeast/04.png",
+          "sha256": "fd629e8f1b0603a4d3d8780cfec7a7b6a548c7f9d86fa7be83456c49ee3cbe6c"
+        },
+        {
+          "path": "A/northeast/05.png",
+          "sha256": "17ee266228ff4d64a3890d3ae4393e8b6d35d6919a27ffb0755737f5621801f7"
+        },
+        {
+          "path": "A/northeast/06.png",
+          "sha256": "5e652adc0dafe96ed2747dc6b8bdffd68f800f1b34f04fe7e142e318e407fa0b"
+        },
+        {
+          "path": "A/northeast/07.png",
+          "sha256": "407c13cba75d3db81b30bd3d304ffe4c22298dedee20f8ff12154e88dbd94d37"
+        }
+      ],
+      "northwest": [
+        {
+          "path": "A/northwest/00.png",
+          "sha256": "70180504ae3ce13998d9b3167a952589957b69d4b2cc3a282378ba122c452fe1"
+        },
+        {
+          "path": "A/northwest/01.png",
+          "sha256": "5a0553e00aab6485473f6f1a725f0a0380a3d3d9fb0d5d0cbed3ee9ccc899a8c"
+        },
+        {
+          "path": "A/northwest/02.png",
+          "sha256": "af90441c00d55326c27ebc6431c250db9a25a33918ea7de2cde37ce2c1e4b00f"
+        },
+        {
+          "path": "A/northwest/03.png",
+          "sha256": "d7fa4608996c222941c3e60c3002a5366100949007b0f4280ed461c745f32d0c"
+        },
+        {
+          "path": "A/northwest/04.png",
+          "sha256": "21f7eb97054aba488ceda1151d22a32f05a761594ab6792303333b2faacc6c33"
+        },
+        {
+          "path": "A/northwest/05.png",
+          "sha256": "fa4aad7cbf33f43506824a22c1178eb30e279f6de244cbb7a4e5518bebe30861"
+        },
+        {
+          "path": "A/northwest/06.png",
+          "sha256": "11387ba57887149610cbce10b565311abe2e56d286996a6afcfa0a95836b531a"
+        },
+        {
+          "path": "A/northwest/07.png",
+          "sha256": "8aa6ff0fa20899bf8a5478b684f735c2a44674f23cc5f68c5ae3c0195a7e8bc3"
+        }
+      ]
+    },
+    "B": {
+      "northeast": [
+        {
+          "path": "B/northeast/00.png",
+          "sha256": "c88e1d925a77784038c4bb6afa78ba11f5838b5d66555e7b0cf7b103ba372bfc"
+        },
+        {
+          "path": "B/northeast/01.png",
+          "sha256": "a8777ab1305a5769e23a1848317afdeb0d4175476bbf37216ba30fc683010bae"
+        },
+        {
+          "path": "B/northeast/02.png",
+          "sha256": "ba7fbc391d3ec25a40d12f6f4f73b773b1d8e1d220c73c166b8cb33026b2f357"
+        },
+        {
+          "path": "B/northeast/03.png",
+          "sha256": "940fa7375b4a0df0e5734e78e789e265879c2e9194527601f878a4a8bc4cd09d"
+        },
+        {
+          "path": "B/northeast/04.png",
+          "sha256": "fd629e8f1b0603a4d3d8780cfec7a7b6a548c7f9d86fa7be83456c49ee3cbe6c"
+        },
+        {
+          "path": "B/northeast/05.png",
+          "sha256": "17ee266228ff4d64a3890d3ae4393e8b6d35d6919a27ffb0755737f5621801f7"
+        },
+        {
+          "path": "B/northeast/06.png",
+          "sha256": "5e652adc0dafe96ed2747dc6b8bdffd68f800f1b34f04fe7e142e318e407fa0b"
+        },
+        {
+          "path": "B/northeast/07.png",
+          "sha256": "407c13cba75d3db81b30bd3d304ffe4c22298dedee20f8ff12154e88dbd94d37"
+        }
+      ],
+      "northwest": [
+        {
+          "path": "B/northwest/00.png",
+          "sha256": "70180504ae3ce13998d9b3167a952589957b69d4b2cc3a282378ba122c452fe1"
+        },
+        {
+          "path": "B/northwest/01.png",
+          "sha256": "5a0553e00aab6485473f6f1a725f0a0380a3d3d9fb0d5d0cbed3ee9ccc899a8c"
+        },
+        {
+          "path": "B/northwest/02.png",
+          "sha256": "af90441c00d55326c27ebc6431c250db9a25a33918ea7de2cde37ce2c1e4b00f"
+        },
+        {
+          "path": "B/northwest/03.png",
+          "sha256": "1f4fc2a71595e81f354c6071ba19d5d52baad2f4ae1177503ae2dc2fbfbd3337"
+        },
+        {
+          "path": "B/northwest/04.png",
+          "sha256": "21f7eb97054aba488ceda1151d22a32f05a761594ab6792303333b2faacc6c33"
+        },
+        {
+          "path": "B/northwest/05.png",
+          "sha256": "fa4aad7cbf33f43506824a22c1178eb30e279f6de244cbb7a4e5518bebe30861"
+        },
+        {
+          "path": "B/northwest/06.png",
+          "sha256": "11387ba57887149610cbce10b565311abe2e56d286996a6afcfa0a95836b531a"
+        },
+        {
+          "path": "B/northwest/07.png",
+          "sha256": "8aa6ff0fa20899bf8a5478b684f735c2a44674f23cc5f68c5ae3c0195a7e8bc3"
+        }
+      ]
+    }
+  },
+  "context": [
+    {
+      "path": "context/appearance.png",
+      "sha256": "ca7a427f9decb2c6fa880ae1772fe37233a53d1c6d8ab13387c6f619a8358512"
+    },
+    {
+      "path": "context/east-idle-00.png",
+      "sha256": "8d47214ccebd2fb6f7027f46ca7c5ed39d533057cb350480fbe9677b9ecd3b62"
+    },
+    {
+      "path": "context/east-idle-01.png",
+      "sha256": "f2faeaa9ada3f4368ee03d5d8b43eecd2c25998731c345af411b58cd96676178"
+    },
+    {
+      "path": "context/east-walk-00.png",
+      "sha256": "d2007273ead8275a3b491c5091a075c89f9f56eddabe0f9683383e3b2984f702"
+    },
+    {
+      "path": "context/east-walk-01.png",
+      "sha256": "55240e8daa25befed5ccb29f0d0e32a6637b1abb392efbc29c40f31a0b1060e5"
+    },
+    {
+      "path": "context/east-walk-02.png",
+      "sha256": "12b6bd51cdeb03bb5f524e6a4521898eddbb08766caf34d109b28aa9a62edc62"
+    },
+    {
+      "path": "context/east-walk-03.png",
+      "sha256": "4600cef9f6a5484ad96149b881114435ae92f9284279bae3c7f15570f80d1366"
+    },
+    {
+      "path": "context/east-walk-04.png",
+      "sha256": "ff5a3938331d8426ca36e189dfdd62bfbd6240f8298015a455c5105d7babd3ec"
+    },
+    {
+      "path": "context/east-walk-05.png",
+      "sha256": "7d917da1bf6c2251a8276f20c6023d75ee0464c9e92e537b4c165b7e4e224f79"
+    },
+    {
+      "path": "context/east-walk-06.png",
+      "sha256": "75ee7ce116c7098708c32052179e56958b76ee9951b522821efd256740457fd4"
+    },
+    {
+      "path": "context/east-walk-07.png",
+      "sha256": "3ae165a7e605044af22dbdeff6056a973e81a951451388c5ddf6f930bdaef6dd"
+    },
+    {
+      "path": "context/north-idle-00.png",
+      "sha256": "03ccf2258133539df3a4e0ff18db40a14f3c95932ef1ddf6b7f6c49ab82a4cb5"
+    },
+    {
+      "path": "context/north-idle-01.png",
+      "sha256": "c3a75930fb33bc6d2fbf5c2cb797eefcdac96510fed47b1a5f831d49216f8c6f"
+    },
+    {
+      "path": "context/north-walk-00.png",
+      "sha256": "60a4373e4a4f5eda71e2cf17a0f3b7f30c24d5c59996e9bae97a5346b03d3dd2"
+    },
+    {
+      "path": "context/north-walk-01.png",
+      "sha256": "8e2670df8faab76c14fa60527784c927c992c1ec3f171e55407cc5674fb1755d"
+    },
+    {
+      "path": "context/north-walk-02.png",
+      "sha256": "f1382f0d283808b1329253de8f5badedd7804c9453bea2b9d44844a000d50c1f"
+    },
+    {
+      "path": "context/north-walk-03.png",
+      "sha256": "964a84d43dd245799fb3ad01ca116cb515755f92b527980b1407c6d99c12c2b6"
+    },
+    {
+      "path": "context/north-walk-04.png",
+      "sha256": "6f0656a4141edaf8e79723db0d72050feb8dea69b04de884b1f6ef88d4e54e4a"
+    },
+    {
+      "path": "context/north-walk-05.png",
+      "sha256": "9884d7d797cb19e8acd2038d6e776c15f2faa1b2396c5052c21339e20a7c654c"
+    },
+    {
+      "path": "context/north-walk-06.png",
+      "sha256": "52220f5de0968c310f5dcdd1ba95341bc3c2e8563ca70a0dd11f2a68c276a3b5"
+    },
+    {
+      "path": "context/north-walk-07.png",
+      "sha256": "37e05b482a875e760ac2379dba1f014b4b38611f645c87c77d3de70c39a808be"
+    },
+    {
+      "path": "context/west-idle-00.png",
+      "sha256": "b4ca923f3e69d4c97dddcd6a8c14c3c1f2e30241e0ffa9f18115c3eeee0cbd8d"
+    },
+    {
+      "path": "context/west-idle-01.png",
+      "sha256": "283dfb44253977e43f56e7f02af0aa5a72d0ca5e9b9ce9fa7d582ccdbcc6e7b7"
+    },
+    {
+      "path": "context/west-walk-00.png",
+      "sha256": "e8cf405027b6f6015abf22f00c2e02ae2bf8ddb13ae99323851d5e36e20478c5"
+    },
+    {
+      "path": "context/west-walk-01.png",
+      "sha256": "a431b014f835273f846f38acf0363c7eb061c8d5dd638f942ed55b55e1f308b7"
+    },
+    {
+      "path": "context/west-walk-02.png",
+      "sha256": "7689add045a0d2716d62014f1d273ba426143fe9218dcd6188d0dca745e72f35"
+    },
+    {
+      "path": "context/west-walk-03.png",
+      "sha256": "83ab2ffcf0146ee778592f00e0b40bd2a5f3b72181f1bdc78531131784d34239"
+    },
+    {
+      "path": "context/west-walk-04.png",
+      "sha256": "d39c6f089fc18bef5a6fd2a279d354b89d16085361189fcd2e735e5773eea7f6"
+    },
+    {
+      "path": "context/west-walk-05.png",
+      "sha256": "38c490a6d5d6b8e1bd47507d33358438b523576a17ff7a23d19c1151ea45a483"
+    },
+    {
+      "path": "context/west-walk-06.png",
+      "sha256": "a3580cd20e1c47cbad32f02e793572526d1319e91a53dbea5f20a48733d514e2"
+    },
+    {
+      "path": "context/west-walk-07.png",
+      "sha256": "04b897cf074d8827986ed0f2d6cc468e85ba02b3be1b83d0f97b9cfddbebbcd4"
+    }
+  ],
+  "scope": "Anonymous full walk variants. Cardinal imagery establishes identity and turn context only. No art or physical-contact certification is implied."
+}

@@ -1,0 +1,17 @@
+{
+  "kind": "reviewed-current-catalog-pin-update",
+  "version": 1,
+  "changes": [
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "old_sha256": "0770079f8dcfcb5d2f1ed8c9c1876c9e405a8bd8c83219853fa4c22a3fe2dd90",
+      "new_sha256": "3176bb40994ba670fd1e426271f23ce20d52f0731b46504c7b0df745f02be736",
+      "reason": "New explicit parity plan action; no provider forwarding."
+    }
+  ],
+  "old_catalog_sha256": "7397ff90450fdc0b7f1efe4defa9fcde332e075895cbe959c00394606173e7dc",
+  "current_catalog_sha256": "e686ab5a96089a5b371a27070ab280a1a040cba283b283f9056159b7173afa1a",
+  "original_preserved": "/home/astra/artifacts/pixellab-parity-20261014/baseline-v0.8.1/sprite_workbench/contracts/RECONSTRUCTION-CATALOG.json",
+  "whole_requirements_closed": 0,
+  "boundary": "Only top-level runtime source_manifest pipeline pin intentionally updated. Original evidence slices, questions and historical source pins unchanged."
+}

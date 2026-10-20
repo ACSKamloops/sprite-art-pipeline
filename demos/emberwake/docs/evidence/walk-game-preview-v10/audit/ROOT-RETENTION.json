@@ -1,0 +1,22 @@
+{
+  "original": "/home/astra/artifacts/emberwake-v10-art-delta-audit-v1",
+  "all_copied_bytes_exact": true,
+  "files": {
+    "SHA256SUMS": "cc548439c9ee73d588fb80d1fb1bec0c934e9fce7df9a9ebcbbebea96f7f1eab",
+    "atlas-cell-deltas.json": "d65b7deea71b8b3f1d8b3dd2f52ddebafbb9a5001fe539a2de64bd1897197659",
+    "audit.py": "3249e5f74db7024ace45d92f25d9aa8800df7bb43519b67f9068fe4d599e5f2d",
+    "bake-project-bindings.json": "512ba732bc2854dd1f2f4081ea833bc68b5013854b9a700f9e96e4eb1ada63ba",
+    "checks.json": "7ff4df7b2be24edf712533eddf5523544874a2a5823553357ee7a03907539fde",
+    "file-differences.json": "cf9104a7afb3863989be1f8a825b76837afd66e133106656975ac56938c8cc4b",
+    "frame-bindings.json": "9d3835fadf9b2d5921e3c70af8c5c860fd721134b4a9c31667ee242158aef941",
+    "inventory-before.json": "b6d1c7e74472fd17d734566c71b067203fa337207b30fb3583849afcb6e1955e",
+    "inventory-end.json": "b6d1c7e74472fd17d734566c71b067203fa337207b30fb3583849afcb6e1955e",
+    "inventory-start.json": "b6d1c7e74472fd17d734566c71b067203fa337207b30fb3583849afcb6e1955e",
+    "json-differences.json": "e78d49f05725cdd560952e4046d2a511d813b5f4547af8016c0435ee7330be34",
+    "receipt.json": "0d31b1c8dd4ef15b093def49d953b223037c23ba4f66c422cdef922393e0a29d",
+    "report.json": "68a17995ca7f23e734e8bed01a0dbd32727f806a1ba05383e1e910eeb6edfaab",
+    "report.md": "691ffc0fc0648055f73eb8bd807091a16d8f14a59976e7a843223334d3a5c28d",
+    "runtime-reference-evidence.json": "ab6f107eebaf85464c3a2510f28f2238515a456c69a9fffffc2277a327cabce6"
+  },
+  "scope": "Read-only static delta audit, not new art/contact/engine acceptance."
+}

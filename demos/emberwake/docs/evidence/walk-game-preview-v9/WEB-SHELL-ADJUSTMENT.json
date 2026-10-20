@@ -1,0 +1,8 @@
+{
+  "scope": "Avoid expectedmissing favicon request; generatedshellonly",
+  "HTML_before_sha256": "e0012ddedfe2aed41bc8db4610867d84f5d25f329e7be18d552491c4fdd6e155",
+  "HTML_after_sha256": "bd33c044b9a75eae6e1ba17840ce9b1ac554c63a52545649ba54819b370ef19f",
+  "post_export_change": "Insert <link rel=\"icon\" href=\"data:,\"> immediately afterfirst<head>",
+  "source_project_modified": false,
+  "public_deployment": false
+}

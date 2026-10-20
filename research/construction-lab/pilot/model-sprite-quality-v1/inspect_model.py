@@ -1,0 +1,3 @@
+import bpy,json
+from pathlib import Path
+r={'source_scene_fps':bpy.context.scene.render.fps,'source_scene_fps_base':bpy.context.scene.render.fps_base,'objects':[{'name':o.name,'type':o.type,'dimensions':list(o.dimensions)}for o in bpy.data.objects],'actions':[{'name':a.name,'frames':list(a.frame_range)}for a in bpy.data.actions],'images':[{'name':i.name,'path':i.filepath,'packed':bool(i.packed_file)}for i in bpy.data.images],'materials':[{'name':m.name,'diffuse':list(m.diffuse_color)}for m in bpy.data.materials]};print(json.dumps(r,indent=2));(Path(__file__).resolve().parent/'model-inspection.json').write_text(json.dumps(r,indent=2))

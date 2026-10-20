@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="19" time="9.949" timestamp="2026-10-13T17:20:43.330333-07:00" hostname="AstraPC"><testcase classname="tests.test_web_controller_adversarial" name="test_rejected_http_envelopes_cannot_mutate[None]" time="0.531" /><testcase classname="tests.test_web_controller_adversarial" name="test_rejected_http_envelopes_cannot_mutate[headers1]" time="0.523" /><testcase classname="tests.test_web_controller_adversarial" name="test_rejected_http_envelopes_cannot_mutate[headers2]" time="0.513" /><testcase classname="tests.test_web_controller_adversarial" name="test_rejected_http_envelopes_cannot_mutate[headers3]" time="0.514" /><testcase classname="tests.test_web_controller_adversarial" name="test_rejected_http_envelopes_cannot_mutate[headers4]" time="0.513" /><testcase classname="tests.test_web_controller_adversarial" name="test_rejected_http_envelopes_cannot_mutate[headers5]" time="0.514" /><testcase classname="tests.test_web_controller_adversarial" name="test_bad_framing_rejects_before_buffering[headers0]" time="0.515" /><testcase classname="tests.test_web_controller_adversarial" name="test_bad_framing_rejects_before_buffering[headers1]" time="0.514" /><testcase classname="tests.test_web_controller_adversarial" name="test_bad_framing_rejects_before_buffering[headers2]" time="0.515" /><testcase classname="tests.test_web_controller_adversarial" name="test_bad_framing_rejects_before_buffering[headers3]" time="0.515" /><testcase classname="tests.test_web_controller_adversarial" name="test_stale_source_cannot_verify_via_generic_job_routes[direct_submit]" time="0.509"><failure message="AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}">controller = &lt;sprite_workbench.web_server.ControlServer object at 0x704fbcb19a90&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x704fbcb9acf0&gt;
+route = 'direct_submit'
+
+    @pytest.mark.parametrize('route', ['direct_submit', 'retry'])
+    def test_stale_source_cannot_verify_via_generic_job_routes(controller, monkeypatch, route):
+        calls = fake_verification(monkeypatch)
+        if route == 'retry':
+            with controller.manager._condition:
+                previous = controller.manager.submit(gates.HANDLER, {}, head=gates.LATEST_HEAD)
+                assert controller.manager.cancel(previous)
+        controller.test_source[0] = 'b'*64
+        assert request(controller, '/api/readiness')[1]['restart_required']
+        if route == 'direct_submit':
+            status, payload = invoke(controller, 'local.jobs.submit', {'handler': gates.HANDLER,
+                'request': {}, 'head': gates.LATEST_HEAD})
+        else:
+            status, payload = invoke(controller, 'local.jobs.retry', {'job_id': previous})
+        if status == 200:
+            result = payload['result']
+            job_id = result if isinstance(result, str) else result['job_id']
+            terminal = controller.manager.wait(job_id, timeout=5)
+&gt;           assert terminal['status'] in {'validation_error', 'technical_failure', 'cancelled'}
+E           AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}
+
+tests/test_web_controller_adversarial.py:111: AssertionError</failure></testcase><testcase classname="tests.test_web_controller_adversarial" name="test_stale_source_cannot_verify_via_generic_job_routes[retry]" time="0.512"><failure message="AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}">controller = &lt;sprite_workbench.web_server.ControlServer object at 0x704fb7f21220&gt;
+monkeypatch = &lt;_pytest.monkeypatch.MonkeyPatch object at 0x704fb7fd0e20&gt;
+route = 'retry'
+
+    @pytest.mark.parametrize('route', ['direct_submit', 'retry'])
+    def test_stale_source_cannot_verify_via_generic_job_routes(controller, monkeypatch, route):
+        calls = fake_verification(monkeypatch)
+        if route == 'retry':
+            with controller.manager._condition:
+                previous = controller.manager.submit(gates.HANDLER, {}, head=gates.LATEST_HEAD)
+                assert controller.manager.cancel(previous)
+        controller.test_source[0] = 'b'*64
+        assert request(controller, '/api/readiness')[1]['restart_required']
+        if route == 'direct_submit':
+            status, payload = invoke(controller, 'local.jobs.submit', {'handler': gates.HANDLER,
+                'request': {}, 'head': gates.LATEST_HEAD})
+        else:
+            status, payload = invoke(controller, 'local.jobs.retry', {'job_id': previous})
+        if status == 200:
+            result = payload['result']
+            job_id = result if isinstance(result, str) else result['job_id']
+            terminal = controller.manager.wait(job_id, timeout=5)
+&gt;           assert terminal['status'] in {'validation_error', 'technical_failure', 'cancelled'}
+E           AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}
+
+tests/test_web_controller_adversarial.py:111: AssertionError</failure></testcase><testcase classname="tests.test_web_controller_adversarial" name="test_retry_rechecks_frozen_pipeline_paths" time="0.516"><failure message="AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}">controller = &lt;sprite_workbench.web_server.ControlServer object at 0x704fbcb9b690&gt;
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-44/test_retry_rechecks_frozen_pip0')
+
+    def test_retry_rechecks_frozen_pipeline_paths(controller, tmp_path):
+        outside = tmp_path/'outside.png'
+        from sprite_workbench.export import png_bytes
+        outside.write_bytes(png_bytes(np.zeros((2, 2, 4), np.uint8)))
+        plan = {'version': 1, 'steps': [{'id': 'outside', 'action': 'import', 'path': str(outside)}]}
+        with controller.manager._condition:
+            previous = controller.manager.submit('local.pipeline', {'plan': plan})
+            assert controller.manager.cancel(previous)
+        status, payload = invoke(controller, 'local.jobs.retry', {'job_id': previous})
+        if status == 200:
+            job_id = payload['result']
+            terminal = controller.manager.wait(job_id, timeout=5)
+&gt;           assert terminal['status'] in {'validation_error', 'technical_failure', 'cancelled'}
+E           AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}
+
+tests/test_web_controller_adversarial.py:132: AssertionError</failure></testcase><testcase classname="tests.test_web_controller_adversarial" name="test_resolved_plan_path_cannot_escape_project" time="0.508"><failure message="AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}">controller = &lt;sprite_workbench.web_server.ControlServer object at 0x704fb7e998d0&gt;
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-44/test_resolved_plan_path_cannot0')
+
+    def test_resolved_plan_path_cannot_escape_project(controller, tmp_path):
+        outside = tmp_path/'escaped-output.json'
+        document = json.loads((Path(__file__).resolve().parents[1]/
+            'sprite_workbench/contracts/SETUP-CONSTRUCTION.json').read_text())
+        document['animations'][0]['id'] = str(outside)
+        plan = {'version': 1, 'steps': [
+            {'id': 'source', 'action': 'construction', 'method': 'save', 'request': {'document': document}},
+            {'id': 'info', 'action': 'construction', 'method': 'get', 'request': {'project': {'ref': 'source.project'}}},
+            {'id': 'write', 'action': 'construction', 'method': 'write', 'request': {
+                'project': {'ref': 'source.project'}, 'path': {'ref': 'info.animation_ids.0'}}},
+        ]}
+        status, payload = invoke(controller, 'local.jobs.submit', {'handler': 'local.pipeline', 'request': {'plan': plan}})
+        if status == 200:
+            terminal = controller.manager.wait(payload['result'], timeout=5)
+&gt;           assert terminal['status'] in {'validation_error', 'technical_failure', 'cancelled'}
+E           AssertionError: assert 'completed' in {'cancelled', 'technical_failure', 'validation_error'}
+
+tests/test_web_controller_adversarial.py:151: AssertionError</failure></testcase><testcase classname="tests.test_web_controller_adversarial" name="test_symlink_input_and_output_paths_stay_in_project" time="0.517" /><testcase classname="tests.test_web_controller_adversarial" name="test_setup_diagnostics_cannot_erase_missing_grammar" time="0.522" /><testcase classname="tests.test_web_controller_adversarial" name="test_failed_or_cancelled_verification_never_publishes_green_setup[failed]" time="0.521" /><testcase classname="tests.test_web_controller_adversarial" name="test_failed_or_cancelled_verification_never_publishes_green_setup[cancelled]" time="0.522" /><testcase classname="tests.test_web_controller_adversarial" name="test_artifact_get_is_read_only_inert_json" time="0.518" /></testsuite></testsuites>

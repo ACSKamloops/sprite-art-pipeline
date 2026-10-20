@@ -1,0 +1,29 @@
+[gd_resource type="SpriteFrames" load_steps=5 format=3]
+
+[ext_resource type="Texture2D" path="res://sheet.png" id="1"]
+
+[sub_resource type="AtlasTexture" id="frame_0"]
+
+atlas = ExtResource("1")
+
+region = Rect2(0, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="frame_1"]
+
+atlas = ExtResource("1")
+
+region = Rect2(8, 0, 8, 6)
+
+[sub_resource type="AtlasTexture" id="frame_2"]
+
+atlas = ExtResource("1")
+
+region = Rect2(0, 6, 8, 6)
+
+[resource]
+
+animations = [{"frames": [
+{"duration": 0.07, "texture": SubResource("frame_0")},
+{"duration": 0.13, "texture": SubResource("frame_1")},
+{"duration": 0.05, "texture": SubResource("frame_2")}
+], "loop": true, "name": &"clip", "speed": 1.0}]

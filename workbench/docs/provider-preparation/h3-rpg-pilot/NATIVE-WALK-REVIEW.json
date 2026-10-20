@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "kind": "subjective-native-walk-review",
+  "artifact_root": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/h3-walk-001",
+  "hashes": {
+    "source.png": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+    "native-video.mp4": "97e83ef3522a8892af98672861ee7ec5214c24dd4f441e38cc448c762c5ab046",
+    "media-review/MANIFEST.json": "b5798c0c8f5de2f67e671f9fa0ee93342219c207e1da2a1e7cd4e2430430dd5b"
+  },
+  "independently_verified": {
+    "native_video_hash": true,
+    "all_107_native_frame_hashes": true
+  },
+  "visual_coverage": {
+    "source_viewed": true,
+    "chronological_pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "native_frames_covered_by_contact_pages": [
+      0,
+      106
+    ],
+    "contact_display_side_px": 256,
+    "eight_sample_sheet_viewed": true,
+    "individual_native_resolution_frames": [
+      19,
+      42,
+      106
+    ],
+    "continuous_video_viewed": false
+  },
+  "ratings": {
+    "scale": 10,
+    "subjective": true,
+    "provisional": true,
+    "source_design": 8,
+    "motion": 6,
+    "game_sprite_readiness": 4
+  },
+  "findings": [
+    {
+      "frames": [
+        0,
+        6,
+        99,
+        106
+      ],
+      "issue": "Near-idle lead-in and return; full clip likely pauses on replay; severity not continuously viewed"
+    },
+    {
+      "frames": [
+        18,
+        19,
+        20,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "issue": "Tight boot overlap reduces leg readability; not proof of impossible anatomy or foot sliding"
+    },
+    {
+      "frames": [
+        0,
+        16,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "issue": "Sword angle/apparent reach changes; rigid dimensions not established; frame42 hand/hilt connected"
+    },
+    {
+      "frames": [
+        106
+      ],
+      "issue": "Colored/speckled hair/armor edge artifacts; generation versus codec cause unresolved"
+    }
+  ],
+  "positives": [
+    "Recognizable hair/face/clothing/armor and equipment throughout",
+    "No obvious sword or shield disappearance",
+    "Clear alternating steps",
+    "Visually stable in-place framing"
+  ],
+  "limits": [
+    "Opaque black native video; no output alpha reconstruction",
+    "Single direction",
+    "No matched same-subject PixelLab run",
+    "No gameplay integration",
+    "No continuous visual viewing by reviewer"
+  ],
+  "root_reported_playback": {
+    "independently_verified_by_reviewer": false,
+    "callbacks": 107,
+    "monotonic": true,
+    "presentation_seconds": 4.458,
+    "dropped_frames": 0,
+    "does_not_establish_visual_approval": true
+  },
+  "unreviewed_derivatives": [
+    "Local transparent cycle [16,64) eight/sixteen samples",
+    "Second native sword-slash result"
+  ],
+  "decision": "Worth continuing as a motion draft; not production/game-ready",
+  "provider_calls_by_reviewer": 0,
+  "model_calls_by_reviewer": 0,
+  "artistic_acceptance": "unfinished; not approved"
+}

@@ -1,0 +1,56 @@
+{
+  "scope": "User-authorized repair of Lyra SE leg volume and connections. Preserve prior source; no integration or acceptance implied.",
+  "stage": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    112
+  ],
+  "clock": "8x9/160 seconds =450ms; unchanged in first comparison",
+  "source_frames": [
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/00.png",
+      "copy": "inputs/00.png",
+      "sha256": "4980c4881c84f62c28f32caf22572843b1fea435d8aa2813b5e1443dc954fea5"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/01.png",
+      "copy": "inputs/01.png",
+      "sha256": "6df457711f51b2bdcc3ba7289b58097a25d00986bf3d2ef504980db1ff8d6d7b"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/02.png",
+      "copy": "inputs/02.png",
+      "sha256": "c26255ac4dc78031a05c880cd1049c695ab1b3a3e37909914b9347fd74bcad16"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/03.png",
+      "copy": "inputs/03.png",
+      "sha256": "fe83e9a0b8889b4086c51a6eecf59dcd73b26b91de4264cfe8f2bfed908ecb6d"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/04.png",
+      "copy": "inputs/04.png",
+      "sha256": "60fb252a29cbeff387382876b59a4546c4c3020f70ded8eabf6f4714be856bee"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/05.png",
+      "copy": "inputs/05.png",
+      "sha256": "3a2a9681603a02b42d894f4f3bfa310fa2a5e5aff80274cc3b92960596b2f7a2"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/06.png",
+      "copy": "inputs/06.png",
+      "sha256": "52c44c07b923b0efc47c86402bae198601655af26da5f4b5b649b8ecf5ee2d68"
+    },
+    {
+      "path": "/home/astra/artifacts/emberwake-lyra-front-painted-gait-v1/candidate-8-v1/07.png",
+      "copy": "inputs/07.png",
+      "sha256": "06caeba47628f43561ef9632fce9d88f9ba9378661c5aca799c95229f7646f82"
+    }
+  ],
+  "upper_preservation": "Existing head, torso, arms, scarf and glove pixels from each original pose are protected at compositing; explicit lower-body mask to be recorded.",
+  "source_appearance": "/home/astra/projects/emberwake-demo/assets/characters/lyra/portrait.png"
+}

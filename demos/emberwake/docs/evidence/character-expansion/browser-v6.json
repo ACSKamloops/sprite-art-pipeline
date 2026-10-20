@@ -1,0 +1,2308 @@
+{
+  "scope": "Ordinary-input local browser, test_mode=false, isolated browser profile, no gameplay mutation",
+  "receipts": [
+    {
+      "ok": true,
+      "note": "export contains all three real characters"
+    },
+    {
+      "ok": true,
+      "note": "actual gallery draft lyra"
+    },
+    {
+      "ok": true,
+      "note": "real exported hero bank lyra"
+    },
+    {
+      "ok": true,
+      "note": "frost pays resource lyra",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 0.854877777777779,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 47,
+        "heals": 2,
+        "hero": {
+          "art_clip": "south_idle",
+          "art_frame": 14,
+          "art_ready": true,
+          "cast_hand": "(413.1, 1408.6)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 4.91666666666667
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 36,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1435
+        ],
+        "rendered_frames": 1470,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "ok": true,
+      "note": "normal input facing lyra north",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 1.64411111111111,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 43,
+        "heals": 1,
+        "hero": {
+          "art_clip": "north_walk",
+          "art_frame": 56,
+          "art_ready": true,
+          "cast_hand": "(409.8, 1390.233)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 4.13333333333334
+          },
+          "facing": "north",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1426.53332519531
+        ],
+        "rendered_frames": 1507,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample lyra north",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 2.91541111111111,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 50,
+        "heals": 1,
+        "hero": {
+          "art_clip": "north_cast",
+          "art_frame": 77,
+          "art_ready": true,
+          "cast_hand": "(409.8, 1372.367)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 2.86666666666668
+          },
+          "facing": "north",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "state": "cast"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1408.66674804688
+        ],
+        "rendered_frames": 1568,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "normal input facing lyra west",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 3.60857777777778,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 46,
+        "heals": 1,
+        "hero": {
+          "art_clip": "west_walk",
+          "art_frame": 84,
+          "art_ready": true,
+          "cast_hand": "(366.7, 1373.027)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 2.18333333333335
+          },
+          "facing": "west",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          386.5,
+          1408.66674804688
+        ],
+        "rendered_frames": 1597,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample lyra west",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 4.88081111111111,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 47,
+        "heals": 1,
+        "hero": {
+          "art_clip": "west_cast",
+          "art_frame": 105,
+          "art_ready": true,
+          "cast_hand": "(343.8667, 1373.027)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.133333333333333,
+            "nova": 0.900000000000016
+          },
+          "facing": "west",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 40,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          363.666687011719,
+          1408.66674804688
+        ],
+        "rendered_frames": 1657,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "normal input facing lyra south",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 5.64397777777778,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 44,
+        "heals": 1,
+        "hero": {
+          "art_clip": "south_walk",
+          "art_frame": 120,
+          "art_ready": true,
+          "cast_hand": "(386.7667, 1401.267)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0.133333333333348
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 40,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          363.666687011719,
+          1427.66662597656
+        ],
+        "rendered_frames": 1689,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample lyra south",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 6.81591111111111,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 44,
+        "heals": 1,
+        "hero": {
+          "art_clip": "south_cast",
+          "art_frame": 21,
+          "art_ready": true,
+          "cast_hand": "(386.7667, 1408.6)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.166666666666666,
+            "nova": 0
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 30,
+          "state": "cast"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          363.666687011719,
+          1435
+        ],
+        "rendered_frames": 1743,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "normal input facing lyra east",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 7.55607777777777,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 44,
+        "heals": 1,
+        "hero": {
+          "art_clip": "east_walk",
+          "art_frame": 29,
+          "art_ready": true,
+          "cast_hand": "(403.1267, 1399.36)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "facing": "east",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 30,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          382.666687011719,
+          1435
+        ],
+        "rendered_frames": 1770,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample lyra east",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 8.77777777777778,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 41,
+        "heals": 1,
+        "hero": {
+          "art_clip": "east_cast",
+          "art_frame": 49,
+          "art_ready": true,
+          "cast_hand": "(418.36, 1399.36)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.116666666666666,
+            "nova": 0
+          },
+          "facing": "east",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 20,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          397.899993896484,
+          1435
+        ],
+        "rendered_frames": 1824,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "Space dodges without GUI reopening journal lyra",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "lyra",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 9.4497,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 41,
+        "heals": 1,
+        "hero": {
+          "art_clip": "east_dodge",
+          "art_frame": 52,
+          "art_ready": true,
+          "cast_hand": "(441.1068, 1399.36)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0.8,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "facing": "east",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 20,
+          "state": "dodge"
+        },
+        "interact_target": "aster",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          420.646789550781,
+          1435
+        ],
+        "rendered_frames": 1850,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "ok": true,
+      "note": "safe real bank swap preserves health mana and location lyra -> brann",
+      "data": {
+        "before": {
+          "boss_defeated": false,
+          "boss_started": false,
+          "character_choice": "lyra",
+          "character_count": 3,
+          "checkpoint": "village",
+          "elapsed": 9.86481481481482,
+          "encounters_started": [
+            false,
+            false,
+            false
+          ],
+          "epilogue_seen": false,
+          "foes": [],
+          "fps": 41,
+          "heals": 1,
+          "hero": {
+            "art_clip": "east_idle",
+            "art_frame": 42,
+            "art_ready": true,
+            "cast_hand": "(548.2158, 1399.36)",
+            "character": "lyra",
+            "cooldowns": {
+              "attack": 0,
+              "dodge": 0.399999999999999,
+              "firebolt": 0,
+              "nova": 0
+            },
+            "facing": "east",
+            "hp": 100,
+            "input_enabled": false,
+            "invulnerable": false,
+            "mana": 20,
+            "state": "idle"
+          },
+          "interact_target": "",
+          "live_character": "lyra",
+          "mode": "pause",
+          "objective": "Speak to Aster beside the village lantern.",
+          "position": [
+            527.755798339844,
+            1435
+          ],
+          "rendered_frames": 1871,
+          "save_valid": true,
+          "selected_character": "lyra",
+          "test_mode": false,
+          "ui_controls": [
+            {
+              "action": "resume",
+              "disabled": false,
+              "focused": true,
+              "label": "Resume",
+              "rect": [
+                68,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Effects: on",
+              "rect": [
+                245,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "music_mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Music: on",
+              "rect": [
+                422,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "save_title",
+              "disabled": false,
+              "focused": false,
+              "label": "Save & title",
+              "rect": [
+                599,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "characters",
+              "disabled": false,
+              "focused": false,
+              "label": "Change emberkeeper",
+              "rect": [
+                685,
+                66,
+                195,
+                34
+              ]
+            }
+          ],
+          "viewport": [
+            960,
+            540
+          ],
+          "wards": [
+            false,
+            false,
+            false
+          ],
+          "won": false
+        },
+        "swapped": {
+          "boss_defeated": false,
+          "boss_started": false,
+          "character_choice": "brann",
+          "character_count": 3,
+          "checkpoint": "village",
+          "elapsed": 9.86481481481482,
+          "encounters_started": [
+            false,
+            false,
+            false
+          ],
+          "epilogue_seen": false,
+          "foes": [],
+          "fps": 36,
+          "heals": 1,
+          "hero": {
+            "art_clip": "east_idle",
+            "art_frame": 42,
+            "art_ready": true,
+            "cast_hand": "(548.8758, 1395.4)",
+            "character": "brann",
+            "cooldowns": {
+              "attack": 0,
+              "dodge": 0.399999999999999,
+              "firebolt": 0,
+              "nova": 0
+            },
+            "facing": "east",
+            "hp": 100,
+            "input_enabled": false,
+            "invulnerable": false,
+            "mana": 20,
+            "state": "idle"
+          },
+          "interact_target": "",
+          "live_character": "brann",
+          "mode": "pause",
+          "objective": "Speak to Aster beside the village lantern.",
+          "position": [
+            527.755798339844,
+            1435
+          ],
+          "rendered_frames": 1922,
+          "save_valid": true,
+          "selected_character": "brann",
+          "test_mode": false,
+          "ui_controls": [
+            {
+              "action": "resume",
+              "disabled": false,
+              "focused": true,
+              "label": "Resume",
+              "rect": [
+                68,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Effects: on",
+              "rect": [
+                245,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "music_mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Music: on",
+              "rect": [
+                422,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "save_title",
+              "disabled": false,
+              "focused": false,
+              "label": "Save & title",
+              "rect": [
+                599,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "characters",
+              "disabled": false,
+              "focused": false,
+              "label": "Change emberkeeper",
+              "rect": [
+                685,
+                66,
+                195,
+                34
+              ]
+            }
+          ],
+          "viewport": [
+            960,
+            540
+          ],
+          "wards": [
+            false,
+            false,
+            false
+          ],
+          "won": false
+        }
+      }
+    },
+    {
+      "ok": true,
+      "note": "Continue restores actual saved character lyra",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "rowan",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 10.1339481481482,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 17,
+        "heals": 2,
+        "hero": {
+          "art_clip": "south_idle",
+          "art_frame": 14,
+          "art_ready": true,
+          "cast_hand": "(413.1, 1408.6)",
+          "character": "lyra",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 60,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "lyra",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1435
+        ],
+        "rendered_frames": 25,
+        "save_valid": true,
+        "selected_character": "lyra",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual gallery draft brann"
+    },
+    {
+      "ok": true,
+      "note": "real exported hero bank brann"
+    },
+    {
+      "ok": true,
+      "note": "frost pays resource brann",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 0.937766666666667,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 43,
+        "heals": 2,
+        "hero": {
+          "art_clip": "south_idle",
+          "art_frame": 14,
+          "art_ready": true,
+          "cast_hand": "(414.42, 1408.6)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 4.83333333333334
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 36,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1435
+        ],
+        "rendered_frames": 213,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "ok": true,
+      "note": "normal input facing brann north",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 1.73377407407407,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 43,
+        "heals": 1,
+        "hero": {
+          "art_clip": "north_walk",
+          "art_frame": 56,
+          "art_ready": true,
+          "cast_hand": "(411.12, 1381.647)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 4.05000000000001
+          },
+          "facing": "north",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 60,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1429.16662597656
+        ],
+        "rendered_frames": 246,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample brann north",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 2.9863,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 52,
+        "heals": 1,
+        "hero": {
+          "art_clip": "north_cast",
+          "art_frame": 77,
+          "art_ready": true,
+          "cast_hand": "(411.12, 1358.513)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 2.80000000000001
+          },
+          "facing": "north",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "state": "cast"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1406.03344726562
+        ],
+        "rendered_frames": 308,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "normal input facing brann west",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 3.6595,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 52,
+        "heals": 1,
+        "hero": {
+          "art_clip": "west_walk",
+          "art_frame": 84,
+          "art_ready": true,
+          "cast_hand": "(365.38, 1366.433)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 2.13333333333335
+          },
+          "facing": "west",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 50,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          386.5,
+          1406.03344726562
+        ],
+        "rendered_frames": 340,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample brann west",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 4.91276666666667,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 48,
+        "heals": 1,
+        "hero": {
+          "art_clip": "west_cast",
+          "art_frame": 105,
+          "art_ready": true,
+          "cast_hand": "(342.5467, 1366.433)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.183333333333333,
+            "nova": 0.883333333333349
+          },
+          "facing": "west",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 40,
+          "state": "cast"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          363.666687011719,
+          1406.03344726562
+        ],
+        "rendered_frames": 400,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "normal input facing brann south",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 5.66849696969697,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 48,
+        "heals": 1,
+        "hero": {
+          "art_clip": "south_walk",
+          "art_frame": 120,
+          "art_ready": true,
+          "cast_hand": "(388.0867, 1393.367)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0.116666666666681
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 40,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          363.666687011719,
+          1419.76672363281
+        ],
+        "rendered_frames": 432,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample brann south",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 6.86586666666666,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 47,
+        "heals": 1,
+        "hero": {
+          "art_clip": "south_cast",
+          "art_frame": 21,
+          "art_ready": true,
+          "cast_hand": "(388.0867, 1403.333)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.15,
+            "nova": 0
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 30,
+          "state": "cast"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          363.666687011719,
+          1429.7333984375
+        ],
+        "rendered_frames": 488,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "normal input facing brann east",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 7.63996666666666,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 47,
+        "heals": 1,
+        "hero": {
+          "art_clip": "east_walk",
+          "art_frame": 29,
+          "art_ready": true,
+          "cast_hand": "(403.7867, 1390.133)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "facing": "east",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 30,
+          "state": "walk"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          382.666687011719,
+          1429.7333984375
+        ],
+        "rendered_frames": 519,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "note": "normal-input cast sample brann east",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 8.83683333333333,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 44,
+        "heals": 1,
+        "hero": {
+          "art_clip": "east_idle",
+          "art_frame": 42,
+          "art_ready": true,
+          "cast_hand": "(411.12, 1390.133)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0.0999999999999997,
+            "nova": 0
+          },
+          "facing": "east",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": false,
+          "mana": 20,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1429.7333984375
+        ],
+        "rendered_frames": 571,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      },
+      "qualification": "state and asynchronous screenshot may sample different frames"
+    },
+    {
+      "ok": true,
+      "note": "Space dodges without GUI reopening journal brann",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "brann",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 9.52533333333332,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 44,
+        "heals": 1,
+        "hero": {
+          "art_clip": "east_idle",
+          "art_frame": 43,
+          "art_ready": true,
+          "cast_hand": "(426.4101, 1390.133)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0.816666666666667,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "facing": "east",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 20,
+          "state": "dodge"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          405.290069580078,
+          1429.7333984375
+        ],
+        "rendered_frames": 599,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    },
+    {
+      "ok": true,
+      "note": "safe real bank swap preserves health mana and location brann -> lyra",
+      "data": {
+        "before": {
+          "boss_defeated": false,
+          "boss_started": false,
+          "character_choice": "brann",
+          "character_count": 3,
+          "checkpoint": "village",
+          "elapsed": 9.96508874458874,
+          "encounters_started": [
+            false,
+            false,
+            false
+          ],
+          "epilogue_seen": false,
+          "foes": [],
+          "fps": 42,
+          "heals": 1,
+          "hero": {
+            "art_clip": "east_idle",
+            "art_frame": 42,
+            "art_ready": true,
+            "cast_hand": "(540.9758, 1390.133)",
+            "character": "brann",
+            "cooldowns": {
+              "attack": 0,
+              "dodge": 0.416666666666666,
+              "firebolt": 0,
+              "nova": 0
+            },
+            "facing": "east",
+            "hp": 100,
+            "input_enabled": false,
+            "invulnerable": false,
+            "mana": 20,
+            "state": "idle"
+          },
+          "interact_target": "aster",
+          "live_character": "brann",
+          "mode": "pause",
+          "objective": "Speak to Aster beside the village lantern.",
+          "position": [
+            519.855773925781,
+            1429.7333984375
+          ],
+          "rendered_frames": 620,
+          "save_valid": true,
+          "selected_character": "brann",
+          "test_mode": false,
+          "ui_controls": [
+            {
+              "action": "resume",
+              "disabled": false,
+              "focused": true,
+              "label": "Resume",
+              "rect": [
+                68,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Effects: on",
+              "rect": [
+                245,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "music_mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Music: on",
+              "rect": [
+                422,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "save_title",
+              "disabled": false,
+              "focused": false,
+              "label": "Save & title",
+              "rect": [
+                599,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "characters",
+              "disabled": false,
+              "focused": false,
+              "label": "Change emberkeeper",
+              "rect": [
+                685,
+                66,
+                195,
+                34
+              ]
+            }
+          ],
+          "viewport": [
+            960,
+            540
+          ],
+          "wards": [
+            false,
+            false,
+            false
+          ],
+          "won": false
+        },
+        "swapped": {
+          "boss_defeated": false,
+          "boss_started": false,
+          "character_choice": "lyra",
+          "character_count": 3,
+          "checkpoint": "village",
+          "elapsed": 9.96508874458874,
+          "encounters_started": [
+            false,
+            false,
+            false
+          ],
+          "epilogue_seen": false,
+          "foes": [],
+          "fps": 34,
+          "heals": 1,
+          "hero": {
+            "art_clip": "east_idle",
+            "art_frame": 42,
+            "art_ready": true,
+            "cast_hand": "(540.3158, 1394.093)",
+            "character": "lyra",
+            "cooldowns": {
+              "attack": 0,
+              "dodge": 0.416666666666666,
+              "firebolt": 0,
+              "nova": 0
+            },
+            "facing": "east",
+            "hp": 100,
+            "input_enabled": false,
+            "invulnerable": false,
+            "mana": 20,
+            "state": "idle"
+          },
+          "interact_target": "aster",
+          "live_character": "lyra",
+          "mode": "pause",
+          "objective": "Speak to Aster beside the village lantern.",
+          "position": [
+            519.855773925781,
+            1429.7333984375
+          ],
+          "rendered_frames": 672,
+          "save_valid": true,
+          "selected_character": "lyra",
+          "test_mode": false,
+          "ui_controls": [
+            {
+              "action": "resume",
+              "disabled": false,
+              "focused": true,
+              "label": "Resume",
+              "rect": [
+                68,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Effects: on",
+              "rect": [
+                245,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "music_mute",
+              "disabled": false,
+              "focused": false,
+              "label": "Music: on",
+              "rect": [
+                422,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "save_title",
+              "disabled": false,
+              "focused": false,
+              "label": "Save & title",
+              "rect": [
+                599,
+                459,
+                165,
+                38
+              ]
+            },
+            {
+              "action": "characters",
+              "disabled": false,
+              "focused": false,
+              "label": "Change emberkeeper",
+              "rect": [
+                685,
+                66,
+                195,
+                34
+              ]
+            }
+          ],
+          "viewport": [
+            960,
+            540
+          ],
+          "wards": [
+            false,
+            false,
+            false
+          ],
+          "won": false
+        }
+      }
+    },
+    {
+      "ok": true,
+      "note": "Continue restores actual saved character brann",
+      "data": {
+        "boss_defeated": false,
+        "boss_started": false,
+        "character_choice": "rowan",
+        "character_count": 3,
+        "checkpoint": "village",
+        "elapsed": 10.2336072631073,
+        "encounters_started": [
+          false,
+          false,
+          false
+        ],
+        "epilogue_seen": false,
+        "foes": [],
+        "fps": 15,
+        "heals": 2,
+        "hero": {
+          "art_clip": "south_idle",
+          "art_frame": 14,
+          "art_ready": true,
+          "cast_hand": "(414.42, 1408.6)",
+          "character": "brann",
+          "cooldowns": {
+            "attack": 0,
+            "dodge": 0,
+            "firebolt": 0,
+            "nova": 0
+          },
+          "facing": "south",
+          "hp": 100,
+          "input_enabled": true,
+          "invulnerable": true,
+          "mana": 60,
+          "state": "idle"
+        },
+        "interact_target": "lantern",
+        "live_character": "brann",
+        "mode": "play",
+        "objective": "Speak to Aster beside the village lantern.",
+        "position": [
+          390,
+          1435
+        ],
+        "rendered_frames": 26,
+        "save_valid": true,
+        "selected_character": "brann",
+        "test_mode": false,
+        "ui_controls": [
+          {
+            "action": "pause_open",
+            "disabled": false,
+            "focused": false,
+            "label": "Esc  Journal",
+            "rect": [
+              792,
+              485,
+              146,
+              34
+            ]
+          }
+        ],
+        "viewport": [
+          960,
+          540
+        ],
+        "wards": [
+          false,
+          false,
+          false
+        ],
+        "won": false
+      }
+    }
+  ],
+  "final": {
+    "boss_defeated": false,
+    "boss_started": false,
+    "character_choice": "rowan",
+    "character_count": 3,
+    "checkpoint": "village",
+    "elapsed": 10.2910554112554,
+    "encounters_started": [
+      false,
+      false,
+      false
+    ],
+    "epilogue_seen": false,
+    "foes": [],
+    "fps": 38,
+    "heals": 2,
+    "hero": {
+      "art_clip": "south_idle",
+      "art_frame": 14,
+      "art_ready": true,
+      "cast_hand": "(414.42, 1408.6)",
+      "character": "brann",
+      "cooldowns": {
+        "attack": 0,
+        "dodge": 0,
+        "firebolt": 0,
+        "nova": 0
+      },
+      "facing": "south",
+      "hp": 100,
+      "input_enabled": false,
+      "invulnerable": true,
+      "mana": 60,
+      "state": "idle"
+    },
+    "interact_target": "lantern",
+    "live_character": "brann",
+    "mode": "title",
+    "objective": "Speak to Aster beside the village lantern.",
+    "position": [
+      390,
+      1435
+    ],
+    "rendered_frames": 60,
+    "save_valid": true,
+    "selected_character": "brann",
+    "test_mode": false,
+    "ui_controls": [
+      {
+        "action": "continue",
+        "disabled": false,
+        "focused": true,
+        "label": "Continue journey",
+        "rect": [
+          78,
+          310,
+          250,
+          42
+        ]
+      },
+      {
+        "action": "new",
+        "disabled": false,
+        "focused": false,
+        "label": "New journey",
+        "rect": [
+          78,
+          360,
+          250,
+          42
+        ]
+      },
+      {
+        "action": "help",
+        "disabled": false,
+        "focused": false,
+        "label": "Controls & map",
+        "rect": [
+          78,
+          416,
+          250,
+          36
+        ]
+      },
+      {
+        "action": "characters",
+        "disabled": false,
+        "focused": false,
+        "label": "Choose emberkeeper",
+        "rect": [
+          574,
+          432,
+          272,
+          38
+        ]
+      }
+    ],
+    "viewport": [
+      960,
+      540
+    ],
+    "wards": [
+      false,
+      false,
+      false
+    ],
+    "won": false
+  },
+  "checked_utc": "2026-10-16T15:45:22.378114+00:00",
+  "export_pck_sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce",
+  "assertions_passed": 21,
+  "sampled_cast_receipts": 8,
+  "console": {
+    "game_script_errors": 0,
+    "unrelated_resource_errors": [
+      "[     430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:8897/favicon.ico:0"
+    ]
+  },
+  "visual_note": "Asynchronous gameplay screenshots reviewed separately; native frozen renderer checks exact release origins."
+}

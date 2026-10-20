@@ -1,0 +1,17 @@
+{
+  "owner_snapshot": "c921d8bb51b7e6b90994b5178072ba993cd2ffcf",
+  "source_file": "sprite_workbench/construction.py",
+  "source_sha256": "8ae1ab2679690658d58437742a8302fb2e6be2c3f018acb00ca2ef65ca054f46",
+  "case": "3x1canvas,2layers,2projectframes,12selectedf0references; test-only worklimit20",
+  "unique_project_work": 12,
+  "actual_selected_work": 72,
+  "budget": 20,
+  "observed": "render_frames spy was reached and raisedAssertionError, ratherthan pre-renderValidationError",
+  "classification": "Selected repeat/layer accounting defect; no real-size stress/allocation",
+  "separately_checked_nondefects": [
+    "Malformed scalar JSON artifacts reject asValidationError viaStore.get_json",
+    "Deep1200 JSON parse rejects asValidationError before toolkitoperation"
+  ],
+  "runtime_or_provider_calls": 0,
+  "local_function_probe_executed": true
+}

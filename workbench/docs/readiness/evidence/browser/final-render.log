@@ -1,0 +1,9 @@
+### Ran Playwright code
+```js
+await page.locator('#render-animation').click();
+```
+### Page
+- Page URL: http://127.0.0.1:8874/#workspace
+- Page Title: Workspace · Sprite workbench
+### Snapshot
+- [Snapshot](.playwright-cli/page-2026-10-14T00-34-54-421Z.yml)

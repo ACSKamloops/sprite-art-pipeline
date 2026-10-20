@@ -1,0 +1,420 @@
+{
+  "flow": "F07",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "flow_id": "F07",
+  "artifacts": {
+    "fixture_raster": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+    "godot_preparation": "3426e4daf08696ed201d35cc2c264e20123fbd3172709a94822508b5ffdfed7b",
+    "lua_preparation": "105288366271f402eefd890d7fe0921f89c1f2b34a65992d1b26667f4eb09bad",
+    "web_preparation": "5c07bbb434e20da1c76c9d342dd001bbb96e10b61e2f8bb90667efe79ccf5c9a",
+    "sequence": "0b3ae871e6d1d67593f6e7119e6d96c7b6b91db2950305ea645a33232b2ee07b"
+  },
+  "checks": [
+    {
+      "name": "independent crop/resize/pad oracle",
+      "passed": true
+    },
+    {
+      "name": "mask uses selection alpha independently of source alpha",
+      "passed": true
+    },
+    {
+      "name": "ROI origin and pad offset retained",
+      "passed": true
+    },
+    {
+      "name": "ordered style/subject references stay distinct",
+      "passed": true
+    },
+    {
+      "name": "raw descriptor matches final bytes",
+      "passed": true
+    },
+    {
+      "name": "PNG hidden RGB preserved and reference capped to1024",
+      "passed": true
+    },
+    {
+      "name": "typed prompt routing preserves caller distinctions",
+      "passed": true
+    },
+    {
+      "name": "unzoom absence and compatibility zero differ",
+      "passed": true
+    },
+    {
+      "name": "Lua interpolation requires end",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "This interpolation adapter requires an end frame"
+      }
+    },
+    {
+      "name": "Godot strength zero outside widget range",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Strength is outside widget range"
+      }
+    },
+    {
+      "name": "reference role cardinality rejected",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Each reference must have an explicit valid role"
+      }
+    },
+    {
+      "name": "learned caption explicitly unavailable",
+      "passed": true,
+      "detail": {
+        "status": "unsupported",
+        "capability": "caption",
+        "reason": "Preparation is available; private learned transformation is not"
+      }
+    },
+    {
+      "name": "result editable identity and timeline",
+      "passed": true
+    },
+    {
+      "name": "result editable exact RGBA",
+      "passed": true
+    },
+    {
+      "name": "result every PNG exact including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "result review is generated but unviewed",
+      "passed": true
+    },
+    {
+      "name": "original RGBA mask and format survive closure",
+      "passed": true
+    },
+    {
+      "name": "original input/reference arrays remain unchanged",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "asymmetric-geometric-markers-v1",
+    "shape": [
+      5,
+      7,
+      4
+    ],
+    "dtype": "uint8",
+    "rgba_sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+    "capability": "supplied-art",
+    "coordinate_units": "integer pixels, x right/y down unless explicitly normalized/virtual",
+    "recipe_version": 1,
+    "roi": [
+      -1,
+      0,
+      9,
+      5
+    ],
+    "output_size": [
+      6,
+      4
+    ],
+    "pad_size": [
+      10,
+      6
+    ],
+    "source_mask": "39a40f0dc9bea78052135613a6437c6b26315bea494981d3b9e38cf417bbaede",
+    "reference_ids": [
+      "860f4b2d478315f6e1db183f33e016df76fe613b38898649910871a625cff464",
+      "a7cace1d4469909879bb1f21f02fefbbc8f7ca796dc9f9886d4d6cc14c2b34f2"
+    ],
+    "reference_roles": [
+      "style",
+      "subject"
+    ],
+    "sampler": "floor(dst_index*source_size/destination_size)-local-v1",
+    "web_source_reference": "ea01dfd1b58097634173c186ab6ef668476d1e9a69aff6889fba7e0b67639f93"
+  },
+  "routine_order": [
+    "prepare identical ROI/resize/pad/mask/order with Godot-zero and Lua-preserve hidden RGB",
+    "web nearest-reference cap and PNG encoding, with explicit local sampler",
+    "inert Auto/null/percent/end-frame prompt and correction/unzoom widget routing",
+    "negative: Lua interpolation requires end",
+    "negative: Godot strength zero outside widget range",
+    "negative: reference role cardinality rejected",
+    "negative: learned caption explicitly unavailable",
+    "export result: PNG/sheet/rational manifest/APNG/editable/review",
+    "import result editable closure into a fresh output-local Store",
+    "write JSON-safe receipt; preserve checks and limitations"
+  ],
+  "exports": {
+    "result": {
+      "directory": "exports/result",
+      "sequence_id": "0b3ae871e6d1d67593f6e7119e6d96c7b6b91db2950305ea645a33232b2ee07b",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "apng",
+        "editable",
+        "manifest",
+        "png",
+        "review",
+        "sheet"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 2
+        },
+        "sheet": {
+          "status": "written",
+          "padding_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "trim": "none"
+        },
+        "apng": {
+          "status": "written",
+          "clock": "exact rational16-bit APNG fields",
+          "blend": "SOURCE",
+          "dispose": "NONE",
+          "num_plays": 1,
+          "ordered_frames": 2,
+          "rgba": "exact including hiddenRGB",
+          "sha256": "1b871f2fad2580c28267b76d51ccccd433a11d695d25ec9dac78408a2375037e"
+        },
+        "editable": {
+          "status": "written",
+          "artifact_count": 26,
+          "scene_id": null,
+          "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 2,
+          "adjacent_pairs": 1,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [
+        "105288366271f402eefd890d7fe0921f89c1f2b34a65992d1b26667f4eb09bad",
+        "5c07bbb434e20da1c76c9d342dd001bbb96e10b61e2f8bb90667efe79ccf5c9a"
+      ],
+      "files": [
+        {
+          "file": "animation.apng",
+          "bytes": 227,
+          "sha256": "1b871f2fad2580c28267b76d51ccccd433a11d695d25ec9dac78408a2375037e"
+        },
+        {
+          "file": "editable/artifacts/0b3ae871e6d1d67593f6e7119e6d96c7b6b91db2950305ea645a33232b2ee07b",
+          "bytes": 2087,
+          "sha256": "0b3ae871e6d1d67593f6e7119e6d96c7b6b91db2950305ea645a33232b2ee07b"
+        },
+        {
+          "file": "editable/artifacts/0eec225d9b414f10543f489535bf5ce57dbbeebf10cc1d18fb40b7a673e92395",
+          "bytes": 205,
+          "sha256": "0eec225d9b414f10543f489535bf5ce57dbbeebf10cc1d18fb40b7a673e92395"
+        },
+        {
+          "file": "editable/artifacts/105288366271f402eefd890d7fe0921f89c1f2b34a65992d1b26667f4eb09bad",
+          "bytes": 1525,
+          "sha256": "105288366271f402eefd890d7fe0921f89c1f2b34a65992d1b26667f4eb09bad"
+        },
+        {
+          "file": "editable/artifacts/1316664a766b433e34d4f2d5e82b7f090b49339422590b3d5c477c6870a76da4",
+          "bytes": 140,
+          "sha256": "1316664a766b433e34d4f2d5e82b7f090b49339422590b3d5c477c6870a76da4"
+        },
+        {
+          "file": "editable/artifacts/155147d1308f2fe6535e0a3fe357423b89311863e1266bf44c1c717746d86894",
+          "bytes": 240,
+          "sha256": "155147d1308f2fe6535e0a3fe357423b89311863e1266bf44c1c717746d86894"
+        },
+        {
+          "file": "editable/artifacts/2c0266cc09eea522ecf9df94818f2c5251c38a9ffea8af5320c726e6efe117c5",
+          "bytes": 203,
+          "sha256": "2c0266cc09eea522ecf9df94818f2c5251c38a9ffea8af5320c726e6efe117c5"
+        },
+        {
+          "file": "editable/artifacts/2e6121a8825527e635849d00f9a9990e019159a210684e40ac33da20b20a0109",
+          "bytes": 202,
+          "sha256": "2e6121a8825527e635849d00f9a9990e019159a210684e40ac33da20b20a0109"
+        },
+        {
+          "file": "editable/artifacts/3426e4daf08696ed201d35cc2c264e20123fbd3172709a94822508b5ffdfed7b",
+          "bytes": 1566,
+          "sha256": "3426e4daf08696ed201d35cc2c264e20123fbd3172709a94822508b5ffdfed7b"
+        },
+        {
+          "file": "editable/artifacts/39a40f0dc9bea78052135613a6437c6b26315bea494981d3b9e38cf417bbaede",
+          "bytes": 202,
+          "sha256": "39a40f0dc9bea78052135613a6437c6b26315bea494981d3b9e38cf417bbaede"
+        },
+        {
+          "file": "editable/artifacts/3dcd2597fb04e2504570dd56f58645626e39aaa9a2384e5d944738de3c38bf71",
+          "bytes": 240,
+          "sha256": "3dcd2597fb04e2504570dd56f58645626e39aaa9a2384e5d944738de3c38bf71"
+        },
+        {
+          "file": "editable/artifacts/3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+          "bytes": 202,
+          "sha256": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464"
+        },
+        {
+          "file": "editable/artifacts/4895af28afbf3f37e20f080785808aa687ac39107979bc63bd6cead7f51ffb46",
+          "bytes": 140,
+          "sha256": "4895af28afbf3f37e20f080785808aa687ac39107979bc63bd6cead7f51ffb46"
+        },
+        {
+          "file": "editable/artifacts/59c27159d5dfea8eccf1e221e697bd3fc706e44363af14bcfbe16e183b0e4a63",
+          "bytes": 140,
+          "sha256": "59c27159d5dfea8eccf1e221e697bd3fc706e44363af14bcfbe16e183b0e4a63"
+        },
+        {
+          "file": "editable/artifacts/5c07bbb434e20da1c76c9d342dd001bbb96e10b61e2f8bb90667efe79ccf5c9a",
+          "bytes": 785,
+          "sha256": "5c07bbb434e20da1c76c9d342dd001bbb96e10b61e2f8bb90667efe79ccf5c9a"
+        },
+        {
+          "file": "editable/artifacts/752ed46f046e87d5f3a6aefb0ea5a5da8ee30fb58f5fb9fe0effa6af83a25e4b",
+          "bytes": 140,
+          "sha256": "752ed46f046e87d5f3a6aefb0ea5a5da8ee30fb58f5fb9fe0effa6af83a25e4b"
+        },
+        {
+          "file": "editable/artifacts/860f4b2d478315f6e1db183f33e016df76fe613b38898649910871a625cff464",
+          "bytes": 202,
+          "sha256": "860f4b2d478315f6e1db183f33e016df76fe613b38898649910871a625cff464"
+        },
+        {
+          "file": "editable/artifacts/985d21352242ec1d006d2b5c62ef13b74c78acc9b8602a05b20ebfd5e671a85b",
+          "bytes": 203,
+          "sha256": "985d21352242ec1d006d2b5c62ef13b74c78acc9b8602a05b20ebfd5e671a85b"
+        },
+        {
+          "file": "editable/artifacts/a5dd2eeb1403fcbb7f637d09161556f680bf4a5ac5f8dd914656c30a4fd9fcdf",
+          "bytes": 4096,
+          "sha256": "a5dd2eeb1403fcbb7f637d09161556f680bf4a5ac5f8dd914656c30a4fd9fcdf"
+        },
+        {
+          "file": "editable/artifacts/a7cace1d4469909879bb1f21f02fefbbc8f7ca796dc9f9886d4d6cc14c2b34f2",
+          "bytes": 202,
+          "sha256": "a7cace1d4469909879bb1f21f02fefbbc8f7ca796dc9f9886d4d6cc14c2b34f2"
+        },
+        {
+          "file": "editable/artifacts/c274c38c42147662372008c3884fd504858f83f922fec9142fa929d81861200a",
+          "bytes": 140,
+          "sha256": "c274c38c42147662372008c3884fd504858f83f922fec9142fa929d81861200a"
+        },
+        {
+          "file": "editable/artifacts/d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+          "bytes": 140,
+          "sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439"
+        },
+        {
+          "file": "editable/artifacts/d2d5f57cc59e2a272f21b515baccb6c499e64e81dce4b319eabf1a105f0447b2",
+          "bytes": 240,
+          "sha256": "d2d5f57cc59e2a272f21b515baccb6c499e64e81dce4b319eabf1a105f0447b2"
+        },
+        {
+          "file": "editable/artifacts/ea01dfd1b58097634173c186ab6ef668476d1e9a69aff6889fba7e0b67639f93",
+          "bytes": 205,
+          "sha256": "ea01dfd1b58097634173c186ab6ef668476d1e9a69aff6889fba7e0b67639f93"
+        },
+        {
+          "file": "editable/artifacts/ea9b8107df9f816a29e44df1cbc915ad22e0f6cd1131c4c997a0c83c74a4c9d1",
+          "bytes": 203,
+          "sha256": "ea9b8107df9f816a29e44df1cbc915ad22e0f6cd1131c4c997a0c83c74a4c9d1"
+        },
+        {
+          "file": "editable/artifacts/ec2d720c13bbb8911d48f3987f6399b50df966961fa6bf0dfb338b5960121341",
+          "bytes": 4100,
+          "sha256": "ec2d720c13bbb8911d48f3987f6399b50df966961fa6bf0dfb338b5960121341"
+        },
+        {
+          "file": "editable/artifacts/f8b63b9d42c301a38af0ca1e799fd6ebf01a08f0b69351fb8a70cdbd458e8b56",
+          "bytes": 202,
+          "sha256": "f8b63b9d42c301a38af0ca1e799fd6ebf01a08f0b69351fb8a70cdbd458e8b56"
+        },
+        {
+          "file": "editable/index.json",
+          "bytes": 1904,
+          "sha256": "8cd3cfa83d49fceb1558116bfa891a203d90fefa6f88b9992fe52c8d07fd61ac"
+        },
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 88,
+          "sha256": "3ae40320dee29a7e597ffeecb76c6b43ca1d04f8ff3b4032810b08d388414769"
+        },
+        {
+          "file": "frames/frame-0001.png",
+          "bytes": 93,
+          "sha256": "b6267658dd4de942c96884ae019ba13a51b00bae60239d3f29647257cc8b2291"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 3212,
+          "sha256": "262aa799fe3bf4fc59735d575479c0cd3c2bc50daa8dce65003f47ddcd6412e6"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 88,
+          "sha256": "3ae40320dee29a7e597ffeecb76c6b43ca1d04f8ff3b4032810b08d388414769"
+        },
+        {
+          "file": "review/frames/frame-0001.png",
+          "bytes": 93,
+          "sha256": "b6267658dd4de942c96884ae019ba13a51b00bae60239d3f29647257cc8b2291"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 8885,
+          "sha256": "937799662420911657bf19236c3a1d1920ccd01a0b21c76faf97ce470dfb2357"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 3666,
+          "sha256": "a2250ec81a35912c5acc20aeea1f25702c7c9c7ce4249ef5c9dad932428407b3"
+        },
+        {
+          "file": "sheet.png",
+          "bytes": 99,
+          "sha256": "b6ed439c0799dca54ec9d815b6d279251c7b8856b6c719112dfd67c16abc4e3e"
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "result": {
+      "file": "exports/result/review/review.html",
+      "continuous_motion_viewed": false,
+      "visual_acceptance": "unreviewed"
+    }
+  },
+  "limitations": [
+    "Local diagnostic subset only; not full vendor flow completion or art/motion acceptance.",
+    "No credentials, provider/model calls, remote templates or new REA sessions.",
+    "Review pages are generated evidence, not proof of human continuous viewing.",
+    "Left-cell nearest and reference slots are bounded local policies, not byte parity with a host resize codec or browser smoothing.",
+    "Prompt/widget records are inert: no caption, enhancement, correction, unzoom, segmentation or background-removal model ran.",
+    "These are final-array and source-mask audits, not complete host UI stale/cancel behaviour."
+  ]
+}

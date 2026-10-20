@@ -1,0 +1,181 @@
+{
+  "frames": [
+    {
+      "frame": 0,
+      "before_sha256": "4980c4881c84f62c28f32caf22572843b1fea435d8aa2813b5e1443dc954fea5",
+      "after_sha256": "df455c4842f94862a364d74511d987940ceb1113022b9a8bb8791d78ead6a9a4",
+      "changed_pixels": 1001,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": [
+        [
+          44,
+          52
+        ],
+        [
+          39,
+          55
+        ],
+        [
+          85,
+          63
+        ],
+        [
+          38,
+          76
+        ]
+      ]
+    },
+    {
+      "frame": 1,
+      "before_sha256": "6df457711f51b2bdcc3ba7289b58097a25d00986bf3d2ef504980db1ff8d6d7b",
+      "after_sha256": "5d60a8a4d8606debf586201c081d85e8bb779cdb368fd4bd14c1760fe36fbf50",
+      "changed_pixels": 973,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": []
+    },
+    {
+      "frame": 2,
+      "before_sha256": "c26255ac4dc78031a05c880cd1049c695ab1b3a3e37909914b9347fd74bcad16",
+      "after_sha256": "d8ad021908d43c1becebcb8aac8706c49f214d57adc6f5ef88069a0e058e5ba1",
+      "changed_pixels": 1068,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": [
+        [
+          63,
+          16
+        ],
+        [
+          64,
+          16
+        ],
+        [
+          89,
+          32
+        ],
+        [
+          91,
+          35
+        ],
+        [
+          83,
+          48
+        ],
+        [
+          34,
+          58
+        ],
+        [
+          79,
+          76
+        ]
+      ]
+    },
+    {
+      "frame": 3,
+      "before_sha256": "fe83e9a0b8889b4086c51a6eecf59dcd73b26b91de4264cfe8f2bfed908ecb6d",
+      "after_sha256": "7a89ec839f630d95ba6c2bf9b1fcb3161e5172bcd911f3113e4733c8e4872044",
+      "changed_pixels": 851,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": []
+    },
+    {
+      "frame": 4,
+      "before_sha256": "60fb252a29cbeff387382876b59a4546c4c3020f70ded8eabf6f4714be856bee",
+      "after_sha256": "b2d32f14e26d534598fb346f1bca0a7314b7de3878f8b932a68e6910ef416ea0",
+      "changed_pixels": 817,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": [
+        [
+          69,
+          16
+        ],
+        [
+          51,
+          24
+        ],
+        [
+          92,
+          35
+        ],
+        [
+          33,
+          67
+        ]
+      ]
+    },
+    {
+      "frame": 5,
+      "before_sha256": "3a2a9681603a02b42d894f4f3bfa310fa2a5e5aff80274cc3b92960596b2f7a2",
+      "after_sha256": "74ff04f52ebcc78b97cd7a92513c07315edfc47f36358c180c2c395edaa709dd",
+      "changed_pixels": 948,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": []
+    },
+    {
+      "frame": 6,
+      "before_sha256": "52c44c07b923b0efc47c86402bae198601655af26da5f4b5b649b8ecf5ee2d68",
+      "after_sha256": "5f6dabc9b9b1e805bd287ed8c5d57904112b445655a9f792ae3cf651396fdf2a",
+      "changed_pixels": 1079,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": [
+        [
+          34,
+          67
+        ]
+      ]
+    },
+    {
+      "frame": 7,
+      "before_sha256": "06caeba47628f43561ef9632fce9d88f9ba9378661c5aca799c95229f7646f82",
+      "after_sha256": "396f0139c212f34cce3b8752d5ade1d47791fdce3efa507c0a87d3fd8bd4d50a",
+      "changed_pixels": 1057,
+      "above_y78_exact": true,
+      "outside_edit_mask_exact": true,
+      "editor_only_transparent_rgb_zeroed_xy": []
+    }
+  ],
+  "editable_json_render_rgba_exact_after_declared_transparent_rgb_zeroing": true,
+  "actual_libresprite_save_reopen_exact": true,
+  "actual_libresprite_sheet_all_eight_rgba_exact_after_declared_transparent_rgb_zeroing": true,
+  "reimport_project_exact": true,
+  "external_editor_holds_ms": [
+    56,
+    57,
+    56,
+    56,
+    56,
+    57,
+    56,
+    56
+  ],
+  "authoritative_hold_seconds": [
+    9,
+    160
+  ],
+  "total_seconds": [
+    9,
+    20
+  ],
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 768,
+        "height": 356,
+        "r_frame_rate": "160/1",
+        "duration": "3.600000",
+        "nb_frames": "576"
+      }
+    ]
+  },
+  "video_sha256": "9eaa4b9225405d57ccc94c9ba31ab1f431b569448d656adae4ab9109406acab3",
+  "scope": "Pixel preservation, editable exchange and exposure scheduling only. Art and timed visual acceptance separate."
+}

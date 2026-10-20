@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-14T04:02:33.731353+00:00",
+  "completed_utc": "2026-10-14T04:03:43.650457+00:00",
+  "elapsed_seconds": 69.919,
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "exit_code": 0,
+  "script_hashes": {
+    "scripts/probe_pixellab_color_reducer.py": "c80bc10389f340eeb253537a835856fea2865c7b2a4da7a0c2441785dfe70c8e",
+    "scripts/replay_pixellab_fixed_palette.py": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742",
+    "scripts/analyze_reducer_recovery.py": "4a369005cb2a870b43e712d7be3b21ed4e02a837f9714b1618993d1185eeeb66",
+    "scripts/replay_prompt_frame_recovery.py": "9ce579bc00d99523f275b201e05578001775b3d0ab02389b96257752e9f339a3"
+  },
+  "script_hashes_unchanged_after": true,
+  "log_sha256": "a736179735904d492e32182d47d18012092b7c25b0842ebf57f5ab5bd1282f05"
+}

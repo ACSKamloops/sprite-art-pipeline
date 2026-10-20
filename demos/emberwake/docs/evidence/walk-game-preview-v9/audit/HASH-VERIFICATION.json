@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "copied_evidence_hashes_verified": 121,
+  "isolation_source_entries_verified": 197,
+  "canonical_source_deltas": {
+    "tests/final_polish.gd": "0f045222b941922355132527a36599bdbf92352b9b1a88ac1c82ebe8994d2381"
+  },
+  "preview_source_deltas": {
+    "assets/characters/brann/animations.json": "07f85309c2f2b630927459500cb370de611fdda9c1b7fcd4b2cfd2e567cfc561",
+    "assets/characters/brann/atlas.png": "c4211d937aaed65936f31bab1b3814babf837d95fd9daf94a5e4ebea1df492fc",
+    "assets/characters/lyra/animations.json": "034dbfacdf3f878549a60948cae652ae45534ba550ae67760ebbf52b71f3ec3f",
+    "assets/characters/lyra/atlas.png": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26",
+    "assets/hero/animations.json": "5eb2728cbaf941416a48cf05c6b0e0bbe4939290d59fc97f75cb1ede9d3e7e81",
+    "assets/hero/atlas.png": "8d597968399eef23e2b2c477345fb35c524cfca403807ad61c35c9fc0d1a94f5",
+    "tests/final_polish.gd": "0f045222b941922355132527a36599bdbf92352b9b1a88ac1c82ebe8994d2381"
+  },
+  "actual_copy_correspondence": {
+    "BROWSER-EIGHT-DIRECTIONS.json": "BROWSER-EIGHT-DIRECTIONS.json",
+    "behavior-initial/RESULTS.json": "behavior-initial/RESULTS.json",
+    "behavior-unpatched-followup/RESULTS.json": "behavior-unpatched-followup/RESULTS.json",
+    "native-walk/RECEIPT.json": "native-walk/RECEIPT.json",
+    "media-replay/MEDIA-RECEIPT.json": "media-replay/MEDIA-RECEIPT.json",
+    "ISOLATION.json": "ISOLATION.json",
+    "TEST-CLEANUP-OVERLAY.json": "TEST-CLEANUP-OVERLAY.json",
+    "FINAL-POLISH-CLEANUP.json": "FINAL-POLISH-CLEANUP.json",
+    "BROWSER-TRACE-COVERAGE.json": "BROWSER-TRACE-COVERAGE.json",
+    "project/docs/evidence/checks/RESULTS.json": "behavior-cleanup/RESULTS.json"
+  },
+  "v8_failure_sha256": "869e0606aa2d59c2cfe90922fc4a8582c86f84e2b821b4c2b819d1a00fbffd05",
+  "nominated_before_after_inputs_unchanged": 27,
+  "web_files_verified": 7,
+  "media_MP4_files_verified": 12,
+  "limits": "Full 1728 PNG corpus not rescanned, no engine/browser reruns, no public deployment verification."
+}

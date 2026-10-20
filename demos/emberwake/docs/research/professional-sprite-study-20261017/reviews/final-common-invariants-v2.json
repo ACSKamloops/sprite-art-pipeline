@@ -1,0 +1,141 @@
+{
+  "manifest_sha256": "6916f410c81726f711f9929fc13b6db67df3d69c4d09077fe43950dd8d93ca06",
+  "measurements_sha256": "ee5caa931d184942e3a15ce2f71e442d3e1b85eb99547d21ea6fad57d4f9ddeb",
+  "clip_count": 11,
+  "source_exposure_entry_count": 142,
+  "scope": "Source mapping and descriptive numerical invariants for all compiled inputs. Own-prototype art quality was not reviewed by this reviewer.",
+  "clips": [
+    {
+      "id": "lpc-diagonal-male-walk-S",
+      "source_frames": 8,
+      "source_point_samples_preserved": 128,
+      "duration_seconds": [
+        8,
+        9
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "lpc-diagonal-male-walk-NE",
+      "source_frames": 8,
+      "source_point_samples_preserved": 128,
+      "duration_seconds": [
+        8,
+        9
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "tiny-rpg-warrior_run",
+      "source_frames": 6,
+      "source_point_samples_preserved": 66,
+      "duration_seconds": [
+        3,
+        5
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "tiny-rpg-warrior_attack1",
+      "source_frames": 4,
+      "source_point_samples_preserved": 44,
+      "duration_seconds": [
+        2,
+        5
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "our-prototype-lyra-installed-NE-unaccepted",
+      "source_frames": 8,
+      "source_point_samples_preserved": 144,
+      "duration_seconds": [
+        9,
+        20
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "our-prototype-lyra-rejected-SE-unaccepted",
+      "source_frames": 8,
+      "source_point_samples_preserved": 144,
+      "duration_seconds": [
+        9,
+        20
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "duelyst-argeon-run",
+      "source_frames": 8,
+      "source_point_samples_preserved": 72,
+      "duration_seconds": [
+        64,
+        125
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "duelyst-argeon-attack",
+      "source_frames": 23,
+      "source_point_samples_preserved": 207,
+      "duration_seconds": [
+        184,
+        125
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "duelyst-argeon-breathing",
+      "source_frames": 12,
+      "source_point_samples_preserved": 0,
+      "duration_seconds": [
+        144,
+        125
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "duelyst-argeon-idle",
+      "source_frames": 11,
+      "source_point_samples_preserved": 0,
+      "duration_seconds": [
+        88,
+        125
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    },
+    {
+      "id": "duelyst-argeon-attack-idle-breathing-profile",
+      "source_frames": 46,
+      "source_point_samples_preserved": 207,
+      "duration_seconds": [
+        416,
+        125
+      ],
+      "all_contact_fits_disabled": true,
+      "source_image_hashes_and_holds_match": true,
+      "independent_extent_phase_displacement_arithmetic_matches": true
+    }
+  ]
+}

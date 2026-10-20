@@ -1,0 +1,18 @@
+{
+  "scope": "Independent metadata contradiction/inventory gate tests; not art/provider comparisons",
+  "command": [
+    "/home/astra/projects/pixellab-local-workbench/.venv/bin/python",
+    "-m",
+    "pytest",
+    "/home/astra/projects/pixellab-workbench-state/tests/test_readiness_adversarial.py",
+    "-q",
+    "--junitxml=/home/astra/projects/pixellab-workbench-state/docs/readiness/ANALYSIS-gate-final.xml"
+  ],
+  "exit_code": 0,
+  "readiness_source_sha256_before": "ca3e7f7625714ec84ad631e73b91ebda913f7a7f66c5b091b4f63326c943ddc4",
+  "readiness_source_sha256_after": "ca3e7f7625714ec84ad631e73b91ebda913f7a7f66c5b091b4f63326c943ddc4",
+  "source_stable": true,
+  "test_source_sha256": "d59a1c95fdd07b21c901b42a113a7bf713933b9131157434da5370f5fd69447b",
+  "stdout": ".............                                                            [100%]\n13 passed in 0.18s\n",
+  "stderr": ""
+}

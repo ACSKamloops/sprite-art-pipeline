@@ -1,0 +1,22 @@
+{
+  "origin": "https://emberwake-hollow-bell.astraithious.chatgpt.site",
+  "authentication_used": false,
+  "checks": [
+    {
+      "file": "index.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "wasm-loader.js",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "index.pck",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "file": "index.wasm.gz",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "scope": "CSS-only v3 layout check; source hashes and native player readiness rechecked. Not art acceptance.",
+  "input_sha256": "6916f410c81726f711f9929fc13b6db67df3d69c4d09077fe43950dd8d93ca06",
+  "desktop": {
+    "viewport": 1440,
+    "document": 1425,
+    "panels": [
+      {
+        "x": 92.5,
+        "y": 288,
+        "width": 610,
+        "right": 702.5
+      },
+      {
+        "x": 722.5,
+        "y": 288,
+        "width": 610,
+        "right": 1332.5
+      }
+    ],
+    "state": {
+      "ready": true,
+      "playing": true,
+      "sim_ms": 5.5,
+      "verified_frames": 142,
+      "clock": "native",
+      "choices": [
+        "duelyst-argeon-run",
+        "tiny-rpg-warrior_run"
+      ],
+      "positions": [
+        {
+          "frame": 0,
+          "phase": 0.0107421875,
+          "complete": false,
+          "duration": 512
+        },
+        {
+          "frame": 0,
+          "phase": 0.009166666666666667,
+          "complete": false,
+          "duration": 600
+        }
+      ]
+    }
+  },
+  "mobile": {
+    "viewport": 390,
+    "document": 375,
+    "panels": [
+      {
+        "x": 24,
+        "y": 636,
+        "width": 327,
+        "right": 351
+      },
+      {
+        "x": 24,
+        "y": 1286.578125,
+        "width": 327,
+        "right": 351
+      }
+    ],
+    "state": {
+      "ready": true,
+      "playing": true,
+      "sim_ms": 81.5,
+      "verified_frames": 142,
+      "clock": "native",
+      "choices": [
+        "duelyst-argeon-run",
+        "tiny-rpg-warrior_run"
+      ],
+      "positions": [
+        {
+          "frame": 1,
+          "phase": 0.1591796875,
+          "complete": false,
+          "duration": 512
+        },
+        {
+          "frame": 0,
+          "phase": 0.13583333333333333,
+          "complete": false,
+          "duration": 600
+        }
+      ]
+    }
+  },
+  "observed_pageerrors": []
+}

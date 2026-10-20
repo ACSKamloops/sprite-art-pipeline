@@ -1,0 +1,95 @@
+{
+  "completion": [
+    0.248725,
+    0.497107,
+    0.745589
+  ],
+  "engine": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "errors": [],
+  "events": [
+    {
+      "frame": 1,
+      "seconds": 0.06244
+    },
+    {
+      "frame": 2,
+      "seconds": 0.200521
+    },
+    {
+      "frame": 0,
+      "seconds": 0.248756
+    },
+    {
+      "frame": 1,
+      "seconds": 0.324632
+    },
+    {
+      "frame": 2,
+      "seconds": 0.448839
+    },
+    {
+      "frame": 0,
+      "seconds": 0.497129
+    },
+    {
+      "frame": 1,
+      "seconds": 0.573041
+    },
+    {
+      "frame": 2,
+      "seconds": 0.697249
+    }
+  ],
+  "frame_count": 3,
+  "loop": false,
+  "pixels": [
+    {
+      "actual_rgba_sha256": "f22c416b9ccfe66e5713899f2dca1043a1457a35bd62d74ea79b72f3cd752778",
+      "expected_rgba_sha256": "f22c416b9ccfe66e5713899f2dca1043a1457a35bd62d74ea79b72f3cd752778",
+      "frame": 0,
+      "rectangle": [
+        0.0,
+        0.0,
+        8.0,
+        6.0
+      ],
+      "seconds": 0.0700000002980232
+    },
+    {
+      "actual_rgba_sha256": "e709f080648c4d994b9c204bc351a1f4955189588bb91cb5d5da473942da30b6",
+      "expected_rgba_sha256": "e709f080648c4d994b9c204bc351a1f4955189588bb91cb5d5da473942da30b6",
+      "frame": 1,
+      "rectangle": [
+        8.0,
+        0.0,
+        8.0,
+        6.0
+      ],
+      "seconds": 0.129999995231628
+    },
+    {
+      "actual_rgba_sha256": "e709f080648c4d994b9c204bc351a1f4955189588bb91cb5d5da473942da30b6",
+      "expected_rgba_sha256": "e709f080648c4d994b9c204bc351a1f4955189588bb91cb5d5da473942da30b6",
+      "frame": 2,
+      "rectangle": [
+        0.0,
+        6.0,
+        8.0,
+        6.0
+      ],
+      "seconds": 0.0500000007450581
+    }
+  ],
+  "play_count": 3,
+  "rendering_scope": "headless texture readback and real AnimatedSprite2D clock; no GPU visual acceptance"
+}

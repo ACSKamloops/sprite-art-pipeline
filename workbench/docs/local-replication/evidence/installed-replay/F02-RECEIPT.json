@@ -1,0 +1,386 @@
+{
+  "flow": "F02",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "version": 1,
+  "flow_id": "F02",
+  "artifacts": {
+    "sequence": "b9414f4642257559537e81f706f202e47e6902a2125254bc985d6c4c509d3c0e",
+    "unedited_sequence": "ec06f5fae403f54ee3e23025405773a159286501975b8300760dbaa2269a58af",
+    "revision": "38a46f310af835a2e41f36ad90e09b23dc1cee93b4b9c678bd2bb73e2455a24d",
+    "source": "56a86e47ee7bd87b7fc5d761cd94b7ea63943025ab29237a27932485bb946aca",
+    "body_mask": "b03e5b9885d1a23fc5db2e99ac03e97397c65d104e2baa527a0a3ea0950d47c8",
+    "arm_mask": "cbc62aeff42752f1bfede3fb5bec18602b048b3ca3d950b6212a9b14774c45dc",
+    "track_audit": "e6c5be4130cf670e3b3a7f78e6febe1cb989952e6022234bd2adbc4bd2cecbae",
+    "scene": "ac88920beaf81a2d4c51ae54f5bb1df4b87ec2ad4e906be5234a40fd1c372637",
+    "fixture": "1b68a1d8967d7d7001d79fbc95186873964d0871d4de40a81d09077df7e273c5"
+  },
+  "checks": [
+    {
+      "name": "owned parent/anchor track destinations including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "explicit frame order, clock, pivot and direction",
+      "passed": true
+    },
+    {
+      "name": "overlapping source ownership rejected",
+      "passed": true,
+      "detail": "Two nodes claim the same source pixel ownership"
+    },
+    {
+      "name": "changed frozen reference frame rejected",
+      "passed": true,
+      "detail": "Frozen frame 0 changed"
+    },
+    {
+      "name": "one-based expected-color fine edit changes only declared frame/pixel",
+      "passed": true
+    },
+    {
+      "name": "stale expected color rejects edit",
+      "passed": true,
+      "detail": "Expected pixel guard failed"
+    },
+    {
+      "name": "requested exchange files written",
+      "passed": true,
+      "detail": {
+        "png": "written",
+        "sheet": "written",
+        "apng": "written",
+        "editable": "written",
+        "review": "written",
+        "manifest": "written"
+      }
+    },
+    {
+      "name": "editable fresh Store full document and RGBA identity",
+      "passed": true
+    },
+    {
+      "name": "all ordered adjacent pairs and return seam retained",
+      "passed": true
+    },
+    {
+      "name": "original editable owned scene rerenders exactly",
+      "passed": true
+    },
+    {
+      "name": "original source/masks/track audit available after portable import",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "1b68a1d8967d7d7001d79fbc95186873964d0871d4de40a81d09077df7e273c5",
+    "frames": 3,
+    "fps": 10,
+    "golden_rgba_sha256": [
+      "7a1ad5b8d153a5ab13d91ef393192f9debe3d498659517999568715704ff9036",
+      "9b26b8da184be7a42ca37c2a2ee31c374f13ff3d0860617884bc94595b9b07a1",
+      "9b26b8da184be7a42ca37c2a2ee31c374f13ff3d0860617884bc94595b9b07a1"
+    ]
+  },
+  "limitations": [
+    "Asymmetric synthetic supplied pixels establish mechanics only; art and motion quality unreviewed.",
+    "No private model, generation, provider, hidden anatomy or full vendor/editor parity.",
+    "Review HTML creation and headless engine checks are not continuous visual/GPU/video acceptance."
+  ],
+  "exports": {
+    "sequence_id": "b9414f4642257559537e81f706f202e47e6902a2125254bc985d6c4c509d3c0e",
+    "visual_acceptance": "unreviewed",
+    "requested_formats": [
+      "apng",
+      "editable",
+      "manifest",
+      "png",
+      "review",
+      "sheet"
+    ],
+    "formats": {
+      "png": {
+        "status": "written",
+        "rgba": "exact including hiddenRGB",
+        "ordered_frames": 3
+      },
+      "sheet": {
+        "status": "written",
+        "padding_rgba": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "trim": "none"
+      },
+      "apng": {
+        "status": "written",
+        "clock": "exact rational16-bit APNG fields",
+        "blend": "SOURCE",
+        "dispose": "NONE",
+        "num_plays": 1,
+        "ordered_frames": 3,
+        "rgba": "exact including hiddenRGB",
+        "sha256": "2f28e0e05da0faa39fa2fe0110e0cb55d8f146670b22559971fcbabcb2532b3b"
+      },
+      "editable": {
+        "status": "written",
+        "artifact_count": 29,
+        "scene_id": "ac88920beaf81a2d4c51ae54f5bb1df4b87ec2ad4e906be5234a40fd1c372637",
+        "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+      },
+      "review": {
+        "status": "written",
+        "ordered_frames": 3,
+        "adjacent_pairs": 2,
+        "return_pairs": 1,
+        "review_file": "review.html",
+        "diagnostics_file": "review.json",
+        "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+        "visual_acceptance": "unreviewed",
+        "continuous_motion_viewed": false
+      },
+      "manifest": {
+        "status": "written",
+        "file": "manifest.json",
+        "clock": "exact rational seconds",
+        "play_count": 1
+      }
+    },
+    "source_ids": [
+      "56a86e47ee7bd87b7fc5d761cd94b7ea63943025ab29237a27932485bb946aca",
+      "b03e5b9885d1a23fc5db2e99ac03e97397c65d104e2baa527a0a3ea0950d47c8",
+      "cbc62aeff42752f1bfede3fb5bec18602b048b3ca3d950b6212a9b14774c45dc"
+    ],
+    "files": [
+      {
+        "file": "animation.apng",
+        "bytes": 326,
+        "sha256": "2f28e0e05da0faa39fa2fe0110e0cb55d8f146670b22559971fcbabcb2532b3b"
+      },
+      {
+        "file": "editable/artifacts/01c07bcad7b2cf5ec9aa206064227bb3323e233208a210ae10d9e2b778c95e61",
+        "bytes": 48,
+        "sha256": "01c07bcad7b2cf5ec9aa206064227bb3323e233208a210ae10d9e2b778c95e61"
+      },
+      {
+        "file": "editable/artifacts/31abb4b911da8aeabb73227af44563fb5709dc204c3ff4c3c7f733ebc59dcb4f",
+        "bytes": 204,
+        "sha256": "31abb4b911da8aeabb73227af44563fb5709dc204c3ff4c3c7f733ebc59dcb4f"
+      },
+      {
+        "file": "editable/artifacts/3c40584061f4b40062ec7fd9a375cacbcc301052c13374d5d0741f968e37bf1b",
+        "bytes": 204,
+        "sha256": "3c40584061f4b40062ec7fd9a375cacbcc301052c13374d5d0741f968e37bf1b"
+      },
+      {
+        "file": "editable/artifacts/4da5e063e74ae63e0b806ae35ecb3fb47ed41f40edaba99c98cdb5c09bfae904",
+        "bytes": 1024,
+        "sha256": "4da5e063e74ae63e0b806ae35ecb3fb47ed41f40edaba99c98cdb5c09bfae904"
+      },
+      {
+        "file": "editable/artifacts/54c06179e91fd97696ba100362b36f040d7651dfa7ee87e27c3fe406e4a7583f",
+        "bytes": 204,
+        "sha256": "54c06179e91fd97696ba100362b36f040d7651dfa7ee87e27c3fe406e4a7583f"
+      },
+      {
+        "file": "editable/artifacts/56a86e47ee7bd87b7fc5d761cd94b7ea63943025ab29237a27932485bb946aca",
+        "bytes": 202,
+        "sha256": "56a86e47ee7bd87b7fc5d761cd94b7ea63943025ab29237a27932485bb946aca"
+      },
+      {
+        "file": "editable/artifacts/641c38e64a92b2ce16ee624777ff052f6515c0f022bf2675b0bc14e1fb68970c",
+        "bytes": 204,
+        "sha256": "641c38e64a92b2ce16ee624777ff052f6515c0f022bf2675b0bc14e1fb68970c"
+      },
+      {
+        "file": "editable/artifacts/77446affa62d263daac60472fdd7b633c0a7a34798d5703bd37debf37fd1ad17",
+        "bytes": 204,
+        "sha256": "77446affa62d263daac60472fdd7b633c0a7a34798d5703bd37debf37fd1ad17"
+      },
+      {
+        "file": "editable/artifacts/793831db2a915c2e50faa0ce6ed38c4ea35f16040c10ce61a1d5b6caef3c548f",
+        "bytes": 204,
+        "sha256": "793831db2a915c2e50faa0ce6ed38c4ea35f16040c10ce61a1d5b6caef3c548f"
+      },
+      {
+        "file": "editable/artifacts/7a1ad5b8d153a5ab13d91ef393192f9debe3d498659517999568715704ff9036",
+        "bytes": 1024,
+        "sha256": "7a1ad5b8d153a5ab13d91ef393192f9debe3d498659517999568715704ff9036"
+      },
+      {
+        "file": "editable/artifacts/89a8bf8ecf68dd5067a11d4958762d5c879d35ac74742eba71fb825c9b300985",
+        "bytes": 1024,
+        "sha256": "89a8bf8ecf68dd5067a11d4958762d5c879d35ac74742eba71fb825c9b300985"
+      },
+      {
+        "file": "editable/artifacts/98471e8e07a5507493f0746629ac51fc8fd3749727b659d062c4b86708df2f2a",
+        "bytes": 1024,
+        "sha256": "98471e8e07a5507493f0746629ac51fc8fd3749727b659d062c4b86708df2f2a"
+      },
+      {
+        "file": "editable/artifacts/9b26b8da184be7a42ca37c2a2ee31c374f13ff3d0860617884bc94595b9b07a1",
+        "bytes": 1024,
+        "sha256": "9b26b8da184be7a42ca37c2a2ee31c374f13ff3d0860617884bc94595b9b07a1"
+      },
+      {
+        "file": "editable/artifacts/9cd608627add3f82c30e463708cee02b7cd8f356276a463ef7a9995d37b0eb18",
+        "bytes": 1024,
+        "sha256": "9cd608627add3f82c30e463708cee02b7cd8f356276a463ef7a9995d37b0eb18"
+      },
+      {
+        "file": "editable/artifacts/a64a4cbafa00e3964fd43adbf3011bc548f7b40865640c44b360c077ad8c13ae",
+        "bytes": 48,
+        "sha256": "a64a4cbafa00e3964fd43adbf3011bc548f7b40865640c44b360c077ad8c13ae"
+      },
+      {
+        "file": "editable/artifacts/a941c0a159509a0db2a9b2844900882c648405623a846325969b17c96dbc54ab",
+        "bytes": 576,
+        "sha256": "a941c0a159509a0db2a9b2844900882c648405623a846325969b17c96dbc54ab"
+      },
+      {
+        "file": "editable/artifacts/ac88920beaf81a2d4c51ae54f5bb1df4b87ec2ad4e906be5234a40fd1c372637",
+        "bytes": 4648,
+        "sha256": "ac88920beaf81a2d4c51ae54f5bb1df4b87ec2ad4e906be5234a40fd1c372637"
+      },
+      {
+        "file": "editable/artifacts/b03e5b9885d1a23fc5db2e99ac03e97397c65d104e2baa527a0a3ea0950d47c8",
+        "bytes": 202,
+        "sha256": "b03e5b9885d1a23fc5db2e99ac03e97397c65d104e2baa527a0a3ea0950d47c8"
+      },
+      {
+        "file": "editable/artifacts/b80fd7f623dccdaca53bba965cab403a1271558fa0df793de39c1df326c9e45f",
+        "bytes": 204,
+        "sha256": "b80fd7f623dccdaca53bba965cab403a1271558fa0df793de39c1df326c9e45f"
+      },
+      {
+        "file": "editable/artifacts/b9414f4642257559537e81f706f202e47e6902a2125254bc985d6c4c509d3c0e",
+        "bytes": 1257,
+        "sha256": "b9414f4642257559537e81f706f202e47e6902a2125254bc985d6c4c509d3c0e"
+      },
+      {
+        "file": "editable/artifacts/bafd4145b05894dbee27e89b36025f2322b8f1a2f0242268533790b0966c2e30",
+        "bytes": 1024,
+        "sha256": "bafd4145b05894dbee27e89b36025f2322b8f1a2f0242268533790b0966c2e30"
+      },
+      {
+        "file": "editable/artifacts/cbc62aeff42752f1bfede3fb5bec18602b048b3ca3d950b6212a9b14774c45dc",
+        "bytes": 202,
+        "sha256": "cbc62aeff42752f1bfede3fb5bec18602b048b3ca3d950b6212a9b14774c45dc"
+      },
+      {
+        "file": "editable/artifacts/cf0b1612356d9530ce3e15743d4cbfc327259ac82f0265565a43d532d337ac2c",
+        "bytes": 204,
+        "sha256": "cf0b1612356d9530ce3e15743d4cbfc327259ac82f0265565a43d532d337ac2c"
+      },
+      {
+        "file": "editable/artifacts/d49a624b7d3447af9b3cd962ca1e3e435744e75734ce272014e0d3d360dfb1f4",
+        "bytes": 204,
+        "sha256": "d49a624b7d3447af9b3cd962ca1e3e435744e75734ce272014e0d3d360dfb1f4"
+      },
+      {
+        "file": "editable/artifacts/e6c5be4130cf670e3b3a7f78e6febe1cb989952e6022234bd2adbc4bd2cecbae",
+        "bytes": 366,
+        "sha256": "e6c5be4130cf670e3b3a7f78e6febe1cb989952e6022234bd2adbc4bd2cecbae"
+      },
+      {
+        "file": "editable/artifacts/ec06f5fae403f54ee3e23025405773a159286501975b8300760dbaa2269a58af",
+        "bytes": 1054,
+        "sha256": "ec06f5fae403f54ee3e23025405773a159286501975b8300760dbaa2269a58af"
+      },
+      {
+        "file": "editable/artifacts/ed30e6dce1b7627ad17dcecda54f257aa8a33c07dbfe001d0d0e6112ef908da4",
+        "bytes": 1024,
+        "sha256": "ed30e6dce1b7627ad17dcecda54f257aa8a33c07dbfe001d0d0e6112ef908da4"
+      },
+      {
+        "file": "editable/artifacts/f8e32376dcc861ad428102cb9b799921a2703567acf48b0dbfe0591a15937fc1",
+        "bytes": 48,
+        "sha256": "f8e32376dcc861ad428102cb9b799921a2703567acf48b0dbfe0591a15937fc1"
+      },
+      {
+        "file": "editable/artifacts/ffbf3f4fcbc0cc1205e8631b6470137cec6bd0331ab2ea6dfe03814734e84707",
+        "bytes": 1024,
+        "sha256": "ffbf3f4fcbc0cc1205e8631b6470137cec6bd0331ab2ea6dfe03814734e84707"
+      },
+      {
+        "file": "editable/index.json",
+        "bytes": 2167,
+        "sha256": "e1c05ceb40e6b566e3f46c1a2912ea0a64fa1b58a8b9a43edbd1122835565390"
+      },
+      {
+        "file": "editable/scene.json",
+        "bytes": 4648,
+        "sha256": "ac88920beaf81a2d4c51ae54f5bb1df4b87ec2ad4e906be5234a40fd1c372637"
+      },
+      {
+        "file": "frames/frame-0000.png",
+        "bytes": 90,
+        "sha256": "7d82b31d66907a6d4c5fb32e5d77455d254d0ec5ce4ca9d55280cfc3b5434166"
+      },
+      {
+        "file": "frames/frame-0001.png",
+        "bytes": 96,
+        "sha256": "6e7596171aacc7fc19708edac829eb449ed75081d96cc01d8b3cc2786dc2b651"
+      },
+      {
+        "file": "frames/frame-0002.png",
+        "bytes": 96,
+        "sha256": "6e7596171aacc7fc19708edac829eb449ed75081d96cc01d8b3cc2786dc2b651"
+      },
+      {
+        "file": "manifest.json",
+        "bytes": 2711,
+        "sha256": "b615e4abefceab8e6ce06cc79a8fabac47c5666c9f39e5b7a34f2173536d7e79"
+      },
+      {
+        "file": "review/frames/frame-0000.png",
+        "bytes": 90,
+        "sha256": "7d82b31d66907a6d4c5fb32e5d77455d254d0ec5ce4ca9d55280cfc3b5434166"
+      },
+      {
+        "file": "review/frames/frame-0001.png",
+        "bytes": 96,
+        "sha256": "6e7596171aacc7fc19708edac829eb449ed75081d96cc01d8b3cc2786dc2b651"
+      },
+      {
+        "file": "review/frames/frame-0002.png",
+        "bytes": 96,
+        "sha256": "6e7596171aacc7fc19708edac829eb449ed75081d96cc01d8b3cc2786dc2b651"
+      },
+      {
+        "file": "review/review.html",
+        "bytes": 8984,
+        "sha256": "9e36e235bac09982ec6bfc2f38aa62d33eaebe1dc0458b147512328418dd1671"
+      },
+      {
+        "file": "review/review.json",
+        "bytes": 3365,
+        "sha256": "6abacbde7963d336037fded1fde36b5bc0a8b04f411a29f277a11ed59ae26375"
+      },
+      {
+        "file": "sheet.png",
+        "bytes": 126,
+        "sha256": "865f2b3267c6722da2a0358b8224ab24222a4725abd59ccf6d64124fab85e6f0"
+      }
+    ]
+  },
+  "reviews": {
+    "html": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F02/export/review/review.html",
+    "json": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F02/export/review/review.json",
+    "continuous_motion_viewed": false
+  },
+  "output": "/home/astra/artifacts/pixellab-replication-package-proof-20261012/replay-release/F02",
+  "provider_calls": 0,
+  "artistic_acceptance": "unreviewed",
+  "routine_order": [
+    "supplied pixels and disjoint ownership masks",
+    "parented scene and anchored hold tracks",
+    "independent destination oracle",
+    "overlap/frozen-source negative controls",
+    "guarded one-based fine edit",
+    "editable export and fresh Store reconstruction"
+  ],
+  "receipt_artifact": "6815960b742008e0a121c2b335e0827d81bee624435d07e054dec8536e0829f2"
+}

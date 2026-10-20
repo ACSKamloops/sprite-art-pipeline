@@ -1,0 +1,623 @@
+{
+  "schema": 1,
+  "checked_utc": "2026-10-14T04:35:53.260627+00:00",
+  "label": "supplied diagnostic, no generated art",
+  "versions": {
+    "Pillow": "12.1.1",
+    "numpy": "2.3.5"
+  },
+  "mapper_snapshot_sha256": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742",
+  "mapper_policy": "inferred-fixed-palette-oklab-quarter-L-v1",
+  "plan_sha256": "8997593ad8d17359eb6ed3c6e3472ab397c62867b7828a6ea28d608c4ce91690",
+  "source_preparation_manifest_sha256": "8338f07796d777494189317719abe1aa0f991890ccce37b9bedd552d684dd3a1",
+  "analysis_script_sha256": "e3e1c3a7f16e930ede1f2a6ea35a23433fa2de222687ecdeb1cbe19256635033",
+  "totals": {
+    "posts_observed": 4,
+    "reported_generations": 0.4,
+    "rgba_entries_compared": 32768,
+    "weighted_rgba_mismatches": 0
+  },
+  "centroid_method": "Clusters are observed returned output-RGB assignments; compare pixel-frequency versus unique-input-RGB means in sRGB/linearRGB/Oklab, inverse transfer, clip0..255, then floor or numpy.rint(ties-to-even). Fixed candidate list, no fit.",
+  "scope": "Finite constructed-palette/opaque-input observation and post-hoc candidate rejection; no private algorithm/source/checkpoint/animation pipeline identity",
+  "full_receipt": {
+    "path": "/home/astra/artifacts/pixellab-palette-construction-20261014/analysis-20261014/PALETTE-FINDINGS.json",
+    "bytes": 265417,
+    "sha256": "ec5cb611f070081c975906870873e85796de0f3801bcb5bbb3ae98dd2ab46dba"
+  },
+  "frozen_comparison": {
+    "path": "/home/astra/artifacts/pixellab-palette-construction-20261014/PALETTE-CONSTRUCTION-COMPARISON.json",
+    "sha256": "0c8834c87b81bc9026693bed2773187d4029bdf8dfd41b4d82180a1df86d3f66",
+    "comparisons": {
+      "AB4_vs_CC4_first_frame_source_rgb_relations_equal": true,
+      "AB4_A_vs_AA4_A_source_rgb_relations_equal": false,
+      "AA4_repeated_frame_source_rgb_relations_equal": true,
+      "AB4_vs_CC4_palette_rgb_multiset_equal": true
+    }
+  },
+  "cases": [
+    {
+      "variant": "joint-ab-4",
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "rea_evidence_id": "ev_a555173dd2dd7c795ba27e73f6f7371237029fc01396c7c2ccc69ab68014f0be",
+      "rea_authority": "historical-reference",
+      "har_sha256": "eed4792f8752994a05e40c1b26fa4c6fd3b3f11075653b08236cacecbb470f5c",
+      "rea_sha256": "f88b607669ce049d1bbc77ac309f01ca8bfed00211f88bbc0a9569e4c143380a",
+      "response_file_sha256": "828cdac317d12efb9d90f3e8e99dd210dcbcaf438411dfe680d7b3ba3c4a6236",
+      "palette_png_sha256": "5bd95eb45f766e0dab83108de47dd97500da2ec7cc5e00fc0dfc6442c7dc1b8b",
+      "palette_rgb": [
+        [
+          104,
+          175,
+          152
+        ],
+        [
+          96,
+          72,
+          175
+        ],
+        [
+          200,
+          92,
+          48
+        ],
+        [
+          23,
+          23,
+          31
+        ]
+      ],
+      "palette_entries_present_in_source": 0,
+      "original_helper_palette_set_intersection": 0,
+      "original_helper_same_requested_target_size": false,
+      "weighted_helper_variation_intersection": null,
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 4096,
+          "source_png_sha256": "7ecce37558c8dfa18bcbbd0534c9d0a170310ed4acede349fdf206b1f5ebf0f1",
+          "output_png_sha256": "d24668202d529ee0b61dcc20d12ff80c86f1e8bd0fc804fad7c162d14517dba9",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        },
+        {
+          "index": 1,
+          "pixels": 4096,
+          "source_png_sha256": "cb6dceed08bb11af66b592428c0ec5487c431f19c580893f8939a32a45723f53",
+          "output_png_sha256": "7dcc890fe816648160a636bb000960d59d6264685f8e43bd380b5954ebf22843",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        }
+      ],
+      "centroid_match_counts": {
+        "pixel-frequency/srgb/floor": 1,
+        "pixel-frequency/srgb/rint": 1,
+        "pixel-frequency/linearRGB/floor": 1,
+        "pixel-frequency/linearRGB/rint": 1,
+        "pixel-frequency/Oklab/floor": 2,
+        "pixel-frequency/Oklab/rint": 4,
+        "unique-RGB/srgb/floor": 1,
+        "unique-RGB/srgb/rint": 1,
+        "unique-RGB/linearRGB/floor": 1,
+        "unique-RGB/linearRGB/rint": 1,
+        "unique-RGB/Oklab/floor": 2,
+        "unique-RGB/Oklab/rint": 3
+      },
+      "centroid_denominator": 4,
+      "standard_candidates": [
+        {
+          "method": "MEDIANCUT",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "MAXCOVERAGE",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "FASTOCTREE",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 1,
+          "candidate_rgb_output_mismatches": 6912
+        }
+      ]
+    },
+    {
+      "variant": "histogram-cc-4",
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "rea_evidence_id": "ev_489ca51cca91f8efae42c06cd0db43bf74402d7616369571f18a7bf3d9ddef6f",
+      "rea_authority": "historical-reference",
+      "har_sha256": "f856a35e94706cca0cd52fd972319b02e23a8b0a6a7bc8c747296156a22f1121",
+      "rea_sha256": "74b1df4d458ac75cbc63ceb350f62c23aec13a8dd303554e5f111280ad063f49",
+      "response_file_sha256": "7e82d227386a99d7624466e5f0f22f6a171b93cf74f92f1bbec2068086ef044b",
+      "palette_png_sha256": "5bd95eb45f766e0dab83108de47dd97500da2ec7cc5e00fc0dfc6442c7dc1b8b",
+      "palette_rgb": [
+        [
+          104,
+          175,
+          152
+        ],
+        [
+          96,
+          72,
+          175
+        ],
+        [
+          200,
+          92,
+          48
+        ],
+        [
+          23,
+          23,
+          31
+        ]
+      ],
+      "palette_entries_present_in_source": 0,
+      "original_helper_palette_set_intersection": 0,
+      "original_helper_same_requested_target_size": false,
+      "weighted_helper_variation_intersection": null,
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 4096,
+          "source_png_sha256": "ffad294e449e017179be621c05f3693cd5274a4b684b59461405cd92c3dbfbae",
+          "output_png_sha256": "d5328466d56a16dc7a5db06618cbb38dbab15b95f743339f466485f8276d9f13",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        },
+        {
+          "index": 1,
+          "pixels": 4096,
+          "source_png_sha256": "ffad294e449e017179be621c05f3693cd5274a4b684b59461405cd92c3dbfbae",
+          "output_png_sha256": "d5328466d56a16dc7a5db06618cbb38dbab15b95f743339f466485f8276d9f13",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        }
+      ],
+      "centroid_match_counts": {
+        "pixel-frequency/srgb/floor": 1,
+        "pixel-frequency/srgb/rint": 1,
+        "pixel-frequency/linearRGB/floor": 1,
+        "pixel-frequency/linearRGB/rint": 1,
+        "pixel-frequency/Oklab/floor": 2,
+        "pixel-frequency/Oklab/rint": 4,
+        "unique-RGB/srgb/floor": 1,
+        "unique-RGB/srgb/rint": 1,
+        "unique-RGB/linearRGB/floor": 1,
+        "unique-RGB/linearRGB/rint": 1,
+        "unique-RGB/Oklab/floor": 2,
+        "unique-RGB/Oklab/rint": 3
+      },
+      "centroid_denominator": 4,
+      "standard_candidates": [
+        {
+          "method": "MEDIANCUT",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "MAXCOVERAGE",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "FASTOCTREE",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 1,
+          "candidate_rgb_output_mismatches": 6912
+        }
+      ]
+    },
+    {
+      "variant": "weighted-aa-4",
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "rea_evidence_id": "ev_b17d27ff969de6389bced3972b47fd14fc6d606a0978b6f866487e8e852d2701",
+      "rea_authority": "historical-reference",
+      "har_sha256": "82e588d306124a6904c07ff41913ba091bc753965d178ce2d3e7646fb80df628",
+      "rea_sha256": "b5ea9249cfd1c2d9fbd884e80e1305a5198d219f6f6aecb2e26964e2a7f995f5",
+      "response_file_sha256": "15e4b554973563ebbc185b0a83b2181fb1ec59958ece81d555ccabc4fe30bb2c",
+      "palette_png_sha256": "af445f551d01c8f7d1c91aaae0d84567788255c48311ac64d9f3218353d2fa46",
+      "palette_rgb": [
+        [
+          126,
+          180,
+          142
+        ],
+        [
+          23,
+          23,
+          31
+        ],
+        [
+          194,
+          70,
+          50
+        ],
+        [
+          81,
+          74,
+          180
+        ]
+      ],
+      "palette_entries_present_in_source": 0,
+      "original_helper_palette_set_intersection": 0,
+      "original_helper_same_requested_target_size": false,
+      "weighted_helper_variation_intersection": null,
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 4096,
+          "source_png_sha256": "7ecce37558c8dfa18bcbbd0534c9d0a170310ed4acede349fdf206b1f5ebf0f1",
+          "output_png_sha256": "423f8062dd0d11d7a87214060c1322b383d672eae902b4ff0b330e981e71f12d",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 64,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        },
+        {
+          "index": 1,
+          "pixels": 4096,
+          "source_png_sha256": "7ecce37558c8dfa18bcbbd0534c9d0a170310ed4acede349fdf206b1f5ebf0f1",
+          "output_png_sha256": "423f8062dd0d11d7a87214060c1322b383d672eae902b4ff0b330e981e71f12d",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 64,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        }
+      ],
+      "centroid_match_counts": {
+        "pixel-frequency/srgb/floor": 1,
+        "pixel-frequency/srgb/rint": 1,
+        "pixel-frequency/linearRGB/floor": 1,
+        "pixel-frequency/linearRGB/rint": 1,
+        "pixel-frequency/Oklab/floor": 1,
+        "pixel-frequency/Oklab/rint": 4,
+        "unique-RGB/srgb/floor": 1,
+        "unique-RGB/srgb/rint": 1,
+        "unique-RGB/linearRGB/floor": 1,
+        "unique-RGB/linearRGB/rint": 1,
+        "unique-RGB/Oklab/floor": 1,
+        "unique-RGB/Oklab/rint": 1
+      },
+      "centroid_denominator": 4,
+      "standard_candidates": [
+        {
+          "method": "MEDIANCUT",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "MAXCOVERAGE",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "FASTOCTREE",
+          "settings": {
+            "colors": 4,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 1,
+          "candidate_rgb_output_mismatches": 6144
+        }
+      ]
+    },
+    {
+      "variant": "joint-ab-32",
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "rea_evidence_id": "ev_deb6b9d47f3bd0d659ce898f1989e32f3c8425a508601da9f8476757c50ac04d",
+      "rea_authority": "historical-reference",
+      "har_sha256": "d8cf45ebaa1fd9449293c753beabb3d12c6c755d0452ef689187445da8c93ab5",
+      "rea_sha256": "eb34b8d96b8fe0b3011472238a2d5f4ae559b58914559a8395c3adbc541e2f66",
+      "response_file_sha256": "178c5c461501f6cbcb6210e8b3a86102314dda7719d066e9608c1707918c8068",
+      "palette_png_sha256": "47ef39e3ccd2a2c568caf1d31db4ba2935063f77b934fcd7e33ca67b45155dc3",
+      "palette_rgb": [
+        [
+          39,
+          163,
+          171
+        ],
+        [
+          210,
+          134,
+          39
+        ],
+        [
+          212,
+          127,
+          40
+        ],
+        [
+          39,
+          154,
+          74
+        ],
+        [
+          39,
+          159,
+          174
+        ],
+        [
+          183,
+          45,
+          50
+        ],
+        [
+          39,
+          147,
+          77
+        ],
+        [
+          191,
+          44,
+          49
+        ],
+        [
+          39,
+          168,
+          168
+        ],
+        [
+          187,
+          40,
+          55
+        ],
+        [
+          222,
+          216,
+          192
+        ],
+        [
+          42,
+          79,
+          194
+        ],
+        [
+          133,
+          59,
+          162
+        ],
+        [
+          224,
+          210,
+          192
+        ],
+        [
+          42,
+          71,
+          195
+        ],
+        [
+          44,
+          71,
+          187
+        ],
+        [
+          44,
+          79,
+          187
+        ],
+        [
+          135,
+          66,
+          154
+        ],
+        [
+          223,
+          220,
+          188
+        ],
+        [
+          25,
+          21,
+          33
+        ],
+        [
+          130,
+          66,
+          161
+        ],
+        [
+          138,
+          66,
+          161
+        ],
+        [
+          139,
+          59,
+          156
+        ],
+        [
+          19,
+          19,
+          27
+        ],
+        [
+          19,
+          18,
+          36
+        ],
+        [
+          19,
+          26,
+          28
+        ],
+        [
+          19,
+          26,
+          35
+        ],
+        [
+          20,
+          29,
+          27
+        ],
+        [
+          27,
+          26,
+          27
+        ],
+        [
+          27,
+          28,
+          34
+        ],
+        [
+          28,
+          19,
+          27
+        ],
+        [
+          27,
+          18,
+          35
+        ]
+      ],
+      "palette_entries_present_in_source": 1,
+      "original_helper_palette_set_intersection": 0,
+      "original_helper_same_requested_target_size": true,
+      "weighted_helper_variation_intersection": 0,
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 4096,
+          "source_png_sha256": "7ecce37558c8dfa18bcbbd0534c9d0a170310ed4acede349fdf206b1f5ebf0f1",
+          "output_png_sha256": "4f9594c88741c5083c065739f742914dd3175de155706141615be8011baa3850",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 440,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        },
+        {
+          "index": 1,
+          "pixels": 4096,
+          "source_png_sha256": "cb6dceed08bb11af66b592428c0ec5487c431f19c580893f8939a32a45723f53",
+          "output_png_sha256": "7a4c2bb679bcb2e462bae150968a4b5fe24996c51f00b93f0a961541e8d26a95",
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 452,
+          "exact_distance_ties": 0,
+          "alpha_exact": true
+        }
+      ],
+      "centroid_match_counts": {
+        "pixel-frequency/srgb/floor": 6,
+        "pixel-frequency/srgb/rint": 23,
+        "pixel-frequency/linearRGB/floor": 7,
+        "pixel-frequency/linearRGB/rint": 20,
+        "pixel-frequency/Oklab/floor": 7,
+        "pixel-frequency/Oklab/rint": 24,
+        "unique-RGB/srgb/floor": 6,
+        "unique-RGB/srgb/rint": 23,
+        "unique-RGB/linearRGB/floor": 7,
+        "unique-RGB/linearRGB/rint": 20,
+        "unique-RGB/Oklab/floor": 7,
+        "unique-RGB/Oklab/rint": 24
+      },
+      "centroid_denominator": 32,
+      "standard_candidates": [
+        {
+          "method": "MEDIANCUT",
+          "settings": {
+            "colors": 32,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "MAXCOVERAGE",
+          "settings": {
+            "colors": 32,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        },
+        {
+          "method": "FASTOCTREE",
+          "settings": {
+            "colors": 32,
+            "dither": "NONE",
+            "kmeans": 0
+          },
+          "palette_rgb_multiset_equal": false,
+          "palette_rgb_set_intersection": 0,
+          "candidate_rgb_output_mismatches": 8192
+        }
+      ]
+    }
+  ]
+}

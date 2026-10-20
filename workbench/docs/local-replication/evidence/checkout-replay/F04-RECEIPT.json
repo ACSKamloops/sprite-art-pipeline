@@ -1,0 +1,180 @@
+{
+  "flow": "F04",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "artifacts": {
+    "sequence": "276aa4b44bffbbf68952c39d5be351c6f02a7066dfa45b7919ddb57f641cf1db",
+    "east_sequence": "23fc17b07e37309167b7d0608eeee03dae5c58f584e2f843fa90b23bc739eccf",
+    "entity": "798b9726dd0b004162ff882d0c901b487af68e880e24bd828dff4bc7f5dc6e11",
+    "revision": "9f59c5db8c6b0eac4c289eaed806e0e88063cef55b285da8b7b7ea096b9a3c66"
+  },
+  "checks": [
+    {
+      "name": "fresh_store_retains_explicit_directions",
+      "passed": true
+    },
+    {
+      "name": "unequal_clocks_retained",
+      "passed": true
+    },
+    {
+      "name": "duplicate_frames_not_coalesced",
+      "passed": true
+    },
+    {
+      "name": "stale_removal_rejected",
+      "passed": true
+    },
+    {
+      "name": "tombstone_hides_entity",
+      "passed": true
+    },
+    {
+      "name": "restore_exact_revision",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "asymmetric-local-state-v1",
+    "rasters": [
+      "43a26a97126634e6130eea6b134084b798d0346f6b6d5e46fe8ca298a7db98b0",
+      "628aa9d2a3192b38b3dac0c31758dc838721dc0119eb3c1cb276bd6b90e048cb",
+      "34e2256f830a450d744f9f6ec0cffa6808a9af8d5f040fa00bf1c30dad43a361"
+    ],
+    "durations": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        5
+      ]
+    ],
+    "artistic_acceptance": "unreviewed"
+  },
+  "routine_order": [
+    "supplied directions",
+    "promote local entity",
+    "state",
+    "unequal animation clocks",
+    "fresh Store reload",
+    "remove animation direction",
+    "tombstone",
+    "restore",
+    "export"
+  ],
+  "exports": {
+    "sequence_id": "276aa4b44bffbbf68952c39d5be351c6f02a7066dfa45b7919ddb57f641cf1db",
+    "visual_acceptance": "unreviewed",
+    "requested_formats": [
+      "editable",
+      "manifest",
+      "png",
+      "review"
+    ],
+    "formats": {
+      "png": {
+        "status": "written",
+        "rgba": "exact including hiddenRGB",
+        "ordered_frames": 2
+      },
+      "editable": {
+        "status": "written",
+        "artifact_count": 5,
+        "scene_id": null,
+        "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+      },
+      "review": {
+        "status": "written",
+        "ordered_frames": 2,
+        "adjacent_pairs": 1,
+        "return_pairs": 1,
+        "review_file": "review.html",
+        "diagnostics_file": "review.json",
+        "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+        "visual_acceptance": "unreviewed",
+        "continuous_motion_viewed": false
+      },
+      "manifest": {
+        "status": "written",
+        "file": "manifest.json",
+        "clock": "exact rational seconds",
+        "play_count": 1
+      }
+    },
+    "source_ids": [],
+    "files": [
+      {
+        "file": "editable/artifacts/276aa4b44bffbbf68952c39d5be351c6f02a7066dfa45b7919ddb57f641cf1db",
+        "bytes": 446,
+        "sha256": "276aa4b44bffbbf68952c39d5be351c6f02a7066dfa45b7919ddb57f641cf1db"
+      },
+      {
+        "file": "editable/artifacts/4310404e946cca567475bf956cb66976b23265cbfa0888821059ab073abffbb0",
+        "bytes": 140,
+        "sha256": "4310404e946cca567475bf956cb66976b23265cbfa0888821059ab073abffbb0"
+      },
+      {
+        "file": "editable/artifacts/43a26a97126634e6130eea6b134084b798d0346f6b6d5e46fe8ca298a7db98b0",
+        "bytes": 202,
+        "sha256": "43a26a97126634e6130eea6b134084b798d0346f6b6d5e46fe8ca298a7db98b0"
+      },
+      {
+        "file": "editable/artifacts/628aa9d2a3192b38b3dac0c31758dc838721dc0119eb3c1cb276bd6b90e048cb",
+        "bytes": 202,
+        "sha256": "628aa9d2a3192b38b3dac0c31758dc838721dc0119eb3c1cb276bd6b90e048cb"
+      },
+      {
+        "file": "editable/artifacts/70f97e90f5102a36460f57d4b0bf86889ba15cdcc3f2a068390e5299290983c9",
+        "bytes": 140,
+        "sha256": "70f97e90f5102a36460f57d4b0bf86889ba15cdcc3f2a068390e5299290983c9"
+      },
+      {
+        "file": "editable/index.json",
+        "bytes": 497,
+        "sha256": "93b56ad791b8e56cb614655c3562afb3e10934fa1674c749dd30c7b78ec7af5c"
+      },
+      {
+        "file": "frames/frame-0000.png",
+        "bytes": 107,
+        "sha256": "f43a97c27c94e03859190e50575bb4da212253eee9099bf3bbae0605b935b97a"
+      },
+      {
+        "file": "frames/frame-0001.png",
+        "bytes": 107,
+        "sha256": "4ecf6f7cabdb47f5fc7f34e028df9342c8407bbdc4fd83ded3ef892aaa4d615e"
+      },
+      {
+        "file": "manifest.json",
+        "bytes": 1379,
+        "sha256": "590a2fd476c132732df5c3e7fb399b70e7ce7f77f20b648afaf1ff6ee487c1ca"
+      },
+      {
+        "file": "review/frames/frame-0000.png",
+        "bytes": 107,
+        "sha256": "f43a97c27c94e03859190e50575bb4da212253eee9099bf3bbae0605b935b97a"
+      },
+      {
+        "file": "review/frames/frame-0001.png",
+        "bytes": 107,
+        "sha256": "4ecf6f7cabdb47f5fc7f34e028df9342c8407bbdc4fd83ded3ef892aaa4d615e"
+      },
+      {
+        "file": "review/review.html",
+        "bytes": 7248,
+        "sha256": "4b9eb4dc12537106529fba028fc875e8651a88bedbb9e71f8b5e3aba0f50d60c"
+      },
+      {
+        "file": "review/review.json",
+        "bytes": 2036,
+        "sha256": "91e5539982cad3be64eb648ff98e7ef57254268d94c24ed42c4dab286d573a3f"
+      }
+    ]
+  },
+  "limitations": [
+    "Supplied diagnostic art only; no generation or visual approval.",
+    "This local recipe exercises a bounded subset; full vendor flow and server semantics remain incomplete.",
+    "UUIDs and job timestamps vary across fresh runs; input and sequence artifact hashes are comparable."
+  ]
+}

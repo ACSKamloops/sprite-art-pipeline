@@ -1,0 +1,552 @@
+{
+  "flow": "F06",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "flow_id": "F06",
+  "artifacts": {
+    "fixture_raster": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+    "terrain": "38e9cdd47a60ceb7ec6161fc0e4b56c71784e3d50daf374ae17bf6ea1f64f3de",
+    "baseline_sequence": "a4912a143ca63941137b0654e96204f8d2709cdf35f08ecf93fb05f6c432d247",
+    "sheet_sequence": "92e92e04d9f3505f40be216aa0fd453fba98cfb7b53e476b476f4a71e062a091",
+    "sequence": "0264b6827a099a9e4019d6c592fc6052f681c7c1e303188f6f3d8e3a6684d3cd",
+    "patch_raster": "19458c72734f664bf4cdb2e89375e1a7a2ffdc49f7b2b376bcd4491defb121f3",
+    "patch_mask": "dc3147439833149254899924e91e10e0671dab5922b72bac0a141630fe302695"
+  },
+  "checks": [
+    {
+      "name": "independent four-edge topology",
+      "passed": true
+    },
+    {
+      "name": "explicit sheet slots",
+      "passed": true
+    },
+    {
+      "name": "independent map assembly including empty cells and hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "masked patch changes only two selected pixels",
+      "passed": true
+    },
+    {
+      "name": "later reblit guard fails atomically",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Region expected-byte guard failed"
+      }
+    },
+    {
+      "name": "failed reblit did not change original",
+      "passed": true
+    },
+    {
+      "name": "missing supplied tile fails",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Missing supplied cells: [3, 8, 12]"
+      }
+    },
+    {
+      "name": "learned terrain explicitly unavailable",
+      "passed": true,
+      "detail": {
+        "status": "unsupported",
+        "capability": "learned-terrain",
+        "reason": "Provide every required tile/region; learned topology art and inpainting are unavailable"
+      }
+    },
+    {
+      "name": "result editable identity and timeline",
+      "passed": true
+    },
+    {
+      "name": "result editable exact RGBA",
+      "passed": true
+    },
+    {
+      "name": "result every PNG exact including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "result review is generated but unviewed",
+      "passed": true
+    },
+    {
+      "name": "reloaded reblit inputs reproduce exact result",
+      "passed": true
+    },
+    {
+      "name": "sheet editable identity and timeline",
+      "passed": true
+    },
+    {
+      "name": "sheet editable exact RGBA",
+      "passed": true
+    },
+    {
+      "name": "sheet every PNG exact including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "sheet review is generated but unviewed",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "asymmetric-geometric-markers-v1",
+    "shape": [
+      5,
+      7,
+      4
+    ],
+    "dtype": "uint8",
+    "rgba_sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+    "capability": "supplied-art",
+    "coordinate_units": "integer pixels, x right/y down unless explicitly normalized/virtual",
+    "recipe_version": 1,
+    "occupied": [
+      [
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        true,
+        true
+      ]
+    ],
+    "topology": "N1/E2/S4/W8-local-v1; empty=-1",
+    "supplied_cell_ids": {
+      "2": "1d68964a0cf564732949fe6a41c1ffe9f52f4aff4102ab31a763d981d1a48a5c",
+      "12": "a26b96483add790e646d9c64d89626da1cd02ed997ff2ab65d934828c62d0384",
+      "3": "f5e4b54a33b64f1bd83aee5cd12de40c088a8f98455365810d606ba86ca59bb3",
+      "8": "1e31fa8aa4258ecc27c58c3abbba0240cbdee0515e290f95d2851229982ce5ca"
+    },
+    "sheet_order": [
+      12,
+      2,
+      8,
+      3
+    ],
+    "sheet_columns": 2
+  },
+  "routine_order": [
+    "derive local NESW topology from the frozen occupancy grid",
+    "pack explicit cell order; persist supplied map recipe and composed sequence",
+    "guarded masked region reblit with explicit expected bytes",
+    "negative: later reblit guard fails atomically",
+    "negative: missing supplied tile fails",
+    "negative: learned terrain explicitly unavailable",
+    "export result: PNG/sheet/rational manifest/APNG/editable/review",
+    "import result editable closure into a fresh output-local Store",
+    "export sheet: PNG/sheet/rational manifest/APNG/editable/review",
+    "import sheet editable closure into a fresh output-local Store",
+    "write JSON-safe receipt; preserve checks and limitations"
+  ],
+  "exports": {
+    "result": {
+      "directory": "exports/result",
+      "sequence_id": "0264b6827a099a9e4019d6c592fc6052f681c7c1e303188f6f3d8e3a6684d3cd",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "apng",
+        "editable",
+        "manifest",
+        "png",
+        "review",
+        "sheet"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 1
+        },
+        "sheet": {
+          "status": "written",
+          "padding_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "trim": "none"
+        },
+        "apng": {
+          "status": "written",
+          "clock": "exact rational16-bit APNG fields",
+          "blend": "SOURCE",
+          "dispose": "NONE",
+          "num_plays": 1,
+          "ordered_frames": 1,
+          "rgba": "exact including hiddenRGB",
+          "sha256": "73e3187f2401c58a3696f8e11c314f8a08d298a86fb3a1b766b892ec7a10a65b"
+        },
+        "editable": {
+          "status": "written",
+          "artifact_count": 21,
+          "scene_id": null,
+          "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 1,
+          "adjacent_pairs": 0,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [
+        "19458c72734f664bf4cdb2e89375e1a7a2ffdc49f7b2b376bcd4491defb121f3",
+        "7ef34fd0118ff805c5f3ece2807a649a80a820a731001da9a211919967d81845",
+        "dc3147439833149254899924e91e10e0671dab5922b72bac0a141630fe302695"
+      ],
+      "files": [
+        {
+          "file": "animation.apng",
+          "bytes": 213,
+          "sha256": "73e3187f2401c58a3696f8e11c314f8a08d298a86fb3a1b766b892ec7a10a65b"
+        },
+        {
+          "file": "editable/artifacts/0264b6827a099a9e4019d6c592fc6052f681c7c1e303188f6f3d8e3a6684d3cd",
+          "bytes": 1140,
+          "sha256": "0264b6827a099a9e4019d6c592fc6052f681c7c1e303188f6f3d8e3a6684d3cd"
+        },
+        {
+          "file": "editable/artifacts/19458c72734f664bf4cdb2e89375e1a7a2ffdc49f7b2b376bcd4491defb121f3",
+          "bytes": 202,
+          "sha256": "19458c72734f664bf4cdb2e89375e1a7a2ffdc49f7b2b376bcd4491defb121f3"
+        },
+        {
+          "file": "editable/artifacts/1d68964a0cf564732949fe6a41c1ffe9f52f4aff4102ab31a763d981d1a48a5c",
+          "bytes": 202,
+          "sha256": "1d68964a0cf564732949fe6a41c1ffe9f52f4aff4102ab31a763d981d1a48a5c"
+        },
+        {
+          "file": "editable/artifacts/1e31fa8aa4258ecc27c58c3abbba0240cbdee0515e290f95d2851229982ce5ca",
+          "bytes": 202,
+          "sha256": "1e31fa8aa4258ecc27c58c3abbba0240cbdee0515e290f95d2851229982ce5ca"
+        },
+        {
+          "file": "editable/artifacts/1f35409b6caf15b530228d1ac9f55107d02cae02d1f55609c04e79f57a22424e",
+          "bytes": 140,
+          "sha256": "1f35409b6caf15b530228d1ac9f55107d02cae02d1f55609c04e79f57a22424e"
+        },
+        {
+          "file": "editable/artifacts/2b1f8104b805d0a03c02b51151fc0fafa2287c085289e3e796e07a652fa061a3",
+          "bytes": 840,
+          "sha256": "2b1f8104b805d0a03c02b51151fc0fafa2287c085289e3e796e07a652fa061a3"
+        },
+        {
+          "file": "editable/artifacts/2e472c3ffe523a37ba46f7690fe3df93fe99c700aa7983b55e5b9266ad0dedd6",
+          "bytes": 140,
+          "sha256": "2e472c3ffe523a37ba46f7690fe3df93fe99c700aa7983b55e5b9266ad0dedd6"
+        },
+        {
+          "file": "editable/artifacts/7ef34fd0118ff805c5f3ece2807a649a80a820a731001da9a211919967d81845",
+          "bytes": 202,
+          "sha256": "7ef34fd0118ff805c5f3ece2807a649a80a820a731001da9a211919967d81845"
+        },
+        {
+          "file": "editable/artifacts/83f7b9fc3f3bfb394f084e3e0d8201f671d5770c9145c0ffc578348691494e5d",
+          "bytes": 204,
+          "sha256": "83f7b9fc3f3bfb394f084e3e0d8201f671d5770c9145c0ffc578348691494e5d"
+        },
+        {
+          "file": "editable/artifacts/a26b96483add790e646d9c64d89626da1cd02ed997ff2ab65d934828c62d0384",
+          "bytes": 202,
+          "sha256": "a26b96483add790e646d9c64d89626da1cd02ed997ff2ab65d934828c62d0384"
+        },
+        {
+          "file": "editable/artifacts/a4912a143ca63941137b0654e96204f8d2709cdf35f08ecf93fb05f6c432d247",
+          "bytes": 392,
+          "sha256": "a4912a143ca63941137b0654e96204f8d2709cdf35f08ecf93fb05f6c432d247"
+        },
+        {
+          "file": "editable/artifacts/a80c7835f33f824dfc49758d8247e6d87270e4662f32441cf31821aab1616f74",
+          "bytes": 16,
+          "sha256": "a80c7835f33f824dfc49758d8247e6d87270e4662f32441cf31821aab1616f74"
+        },
+        {
+          "file": "editable/artifacts/b4bb6042108727b7a0ab421344b8c7c3f1a57312e062dfe0cb6107b758392fe1",
+          "bytes": 471,
+          "sha256": "b4bb6042108727b7a0ab421344b8c7c3f1a57312e062dfe0cb6107b758392fe1"
+        },
+        {
+          "file": "editable/artifacts/ba51f5a6177ae17df75dcf5cc1a17d1b4794fd634f8804e3374d501aac3e717f",
+          "bytes": 140,
+          "sha256": "ba51f5a6177ae17df75dcf5cc1a17d1b4794fd634f8804e3374d501aac3e717f"
+        },
+        {
+          "file": "editable/artifacts/c652fc6bb7ea8700ef77adfe4017fdc94ed531506e5049cce6837a9ee9a9a6a2",
+          "bytes": 16,
+          "sha256": "c652fc6bb7ea8700ef77adfe4017fdc94ed531506e5049cce6837a9ee9a9a6a2"
+        },
+        {
+          "file": "editable/artifacts/cf49bddd219ee41d60e3aea11eefda2c50d7d6fe3b78ad494cc46edc6f8a2e53",
+          "bytes": 840,
+          "sha256": "cf49bddd219ee41d60e3aea11eefda2c50d7d6fe3b78ad494cc46edc6f8a2e53"
+        },
+        {
+          "file": "editable/artifacts/dc3147439833149254899924e91e10e0671dab5922b72bac0a141630fe302695",
+          "bytes": 202,
+          "sha256": "dc3147439833149254899924e91e10e0671dab5922b72bac0a141630fe302695"
+        },
+        {
+          "file": "editable/artifacts/e2f7ec1034ca9cd7fc0e8d9453eb0f21155639d9ab5cf1972d81f7dbb8057199",
+          "bytes": 140,
+          "sha256": "e2f7ec1034ca9cd7fc0e8d9453eb0f21155639d9ab5cf1972d81f7dbb8057199"
+        },
+        {
+          "file": "editable/artifacts/f2aed9359f28b7b3126ab050055d481d53a7cf512d27fff53dd32fdffae81e90",
+          "bytes": 204,
+          "sha256": "f2aed9359f28b7b3126ab050055d481d53a7cf512d27fff53dd32fdffae81e90"
+        },
+        {
+          "file": "editable/artifacts/f5e4b54a33b64f1bd83aee5cd12de40c088a8f98455365810d606ba86ca59bb3",
+          "bytes": 202,
+          "sha256": "f5e4b54a33b64f1bd83aee5cd12de40c088a8f98455365810d606ba86ca59bb3"
+        },
+        {
+          "file": "editable/artifacts/fc42868a7bda06a95cba6256c6d9a1289d4eddb2437d7303acba46b75a9e00e5",
+          "bytes": 16,
+          "sha256": "fc42868a7bda06a95cba6256c6d9a1289d4eddb2437d7303acba46b75a9e00e5"
+        },
+        {
+          "file": "editable/index.json",
+          "bytes": 1569,
+          "sha256": "4cb4c287e6a319c77e3a4704147c115464ae70d25c6c64afdd953ecef27e60db"
+        },
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 200,
+          "sha256": "5511190985980cd75e0fe347a05583e776b5b9e16d52935dfe120d6ba38ad882"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 1956,
+          "sha256": "3fe86ccf2f4ee360acd2798549409e71832714928abb3635486f19826193fa32"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 200,
+          "sha256": "5511190985980cd75e0fe347a05583e776b5b9e16d52935dfe120d6ba38ad882"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 7100,
+          "sha256": "c4bfbb0aa569e941c0dc08ed9d4c014fc7e81f9df5f01d6a9966d6e1e29cff37"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 2262,
+          "sha256": "a5cf75c1851a025a563b5d9605d599b3965e8795485730fea9a274597064f709"
+        },
+        {
+          "file": "sheet.png",
+          "bytes": 200,
+          "sha256": "5511190985980cd75e0fe347a05583e776b5b9e16d52935dfe120d6ba38ad882"
+        }
+      ]
+    },
+    "sheet": {
+      "directory": "exports/sheet",
+      "sequence_id": "92e92e04d9f3505f40be216aa0fd453fba98cfb7b53e476b476f4a71e062a091",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "apng",
+        "editable",
+        "manifest",
+        "png",
+        "review",
+        "sheet"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 1
+        },
+        "sheet": {
+          "status": "written",
+          "padding_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "trim": "none"
+        },
+        "apng": {
+          "status": "written",
+          "clock": "exact rational16-bit APNG fields",
+          "blend": "SOURCE",
+          "dispose": "NONE",
+          "num_plays": 1,
+          "ordered_frames": 1,
+          "rgba": "exact including hiddenRGB",
+          "sha256": "ca96c9568037a173cda8e78c6f9e04167d74d9a23d731f68ed34f9c9365c5ad4"
+        },
+        "editable": {
+          "status": "written",
+          "artifact_count": 11,
+          "scene_id": null,
+          "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 1,
+          "adjacent_pairs": 0,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [
+        "1d68964a0cf564732949fe6a41c1ffe9f52f4aff4102ab31a763d981d1a48a5c",
+        "a26b96483add790e646d9c64d89626da1cd02ed997ff2ab65d934828c62d0384",
+        "f5e4b54a33b64f1bd83aee5cd12de40c088a8f98455365810d606ba86ca59bb3",
+        "1e31fa8aa4258ecc27c58c3abbba0240cbdee0515e290f95d2851229982ce5ca"
+      ],
+      "files": [
+        {
+          "file": "animation.apng",
+          "bytes": 192,
+          "sha256": "ca96c9568037a173cda8e78c6f9e04167d74d9a23d731f68ed34f9c9365c5ad4"
+        },
+        {
+          "file": "editable/artifacts/1d68964a0cf564732949fe6a41c1ffe9f52f4aff4102ab31a763d981d1a48a5c",
+          "bytes": 202,
+          "sha256": "1d68964a0cf564732949fe6a41c1ffe9f52f4aff4102ab31a763d981d1a48a5c"
+        },
+        {
+          "file": "editable/artifacts/1e31fa8aa4258ecc27c58c3abbba0240cbdee0515e290f95d2851229982ce5ca",
+          "bytes": 202,
+          "sha256": "1e31fa8aa4258ecc27c58c3abbba0240cbdee0515e290f95d2851229982ce5ca"
+        },
+        {
+          "file": "editable/artifacts/1f35409b6caf15b530228d1ac9f55107d02cae02d1f55609c04e79f57a22424e",
+          "bytes": 140,
+          "sha256": "1f35409b6caf15b530228d1ac9f55107d02cae02d1f55609c04e79f57a22424e"
+        },
+        {
+          "file": "editable/artifacts/2e472c3ffe523a37ba46f7690fe3df93fe99c700aa7983b55e5b9266ad0dedd6",
+          "bytes": 140,
+          "sha256": "2e472c3ffe523a37ba46f7690fe3df93fe99c700aa7983b55e5b9266ad0dedd6"
+        },
+        {
+          "file": "editable/artifacts/48a85f136bcd6f836bcbffdfa111c2639d46fdb0f1866566681816e5e21279c5",
+          "bytes": 560,
+          "sha256": "48a85f136bcd6f836bcbffdfa111c2639d46fdb0f1866566681816e5e21279c5"
+        },
+        {
+          "file": "editable/artifacts/92e92e04d9f3505f40be216aa0fd453fba98cfb7b53e476b476f4a71e062a091",
+          "bytes": 838,
+          "sha256": "92e92e04d9f3505f40be216aa0fd453fba98cfb7b53e476b476f4a71e062a091"
+        },
+        {
+          "file": "editable/artifacts/a26b96483add790e646d9c64d89626da1cd02ed997ff2ab65d934828c62d0384",
+          "bytes": 202,
+          "sha256": "a26b96483add790e646d9c64d89626da1cd02ed997ff2ab65d934828c62d0384"
+        },
+        {
+          "file": "editable/artifacts/ba51f5a6177ae17df75dcf5cc1a17d1b4794fd634f8804e3374d501aac3e717f",
+          "bytes": 140,
+          "sha256": "ba51f5a6177ae17df75dcf5cc1a17d1b4794fd634f8804e3374d501aac3e717f"
+        },
+        {
+          "file": "editable/artifacts/c8ba1ad98c6566bf4824101845ae1b5858ad75243914eb8b6000ceb1445c66c5",
+          "bytes": 204,
+          "sha256": "c8ba1ad98c6566bf4824101845ae1b5858ad75243914eb8b6000ceb1445c66c5"
+        },
+        {
+          "file": "editable/artifacts/e2f7ec1034ca9cd7fc0e8d9453eb0f21155639d9ab5cf1972d81f7dbb8057199",
+          "bytes": 140,
+          "sha256": "e2f7ec1034ca9cd7fc0e8d9453eb0f21155639d9ab5cf1972d81f7dbb8057199"
+        },
+        {
+          "file": "editable/artifacts/f5e4b54a33b64f1bd83aee5cd12de40c088a8f98455365810d606ba86ca59bb3",
+          "bytes": 202,
+          "sha256": "f5e4b54a33b64f1bd83aee5cd12de40c088a8f98455365810d606ba86ca59bb3"
+        },
+        {
+          "file": "editable/index.json",
+          "bytes": 899,
+          "sha256": "38c9e3ac19a45fccb950e447bf2c63c338c86207f16c16913c61cc82b3dc8185"
+        },
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 165,
+          "sha256": "32e2f75f4a294fabb0d15133bd3fa8c2d1b7e9929ed98d92dac7b9c6ee8ed850"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 1654,
+          "sha256": "0016e55d49c68173649b3101773a056b4963b114fb1a84c76558457c9a492341"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 165,
+          "sha256": "32e2f75f4a294fabb0d15133bd3fa8c2d1b7e9929ed98d92dac7b9c6ee8ed850"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 6798,
+          "sha256": "239726eecaaece7e5f3fd73a8795816306e3ad295da6a60597bd3d0b1c962b6f"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 1960,
+          "sha256": "18ce9b8877e40e4f8403cb5807fdf1eb2371668a89cd5e112d25d5d772074d63"
+        },
+        {
+          "file": "sheet.png",
+          "bytes": 165,
+          "sha256": "32e2f75f4a294fabb0d15133bd3fa8c2d1b7e9929ed98d92dac7b9c6ee8ed850"
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "result": {
+      "file": "exports/result/review/review.html",
+      "continuous_motion_viewed": false,
+      "visual_acceptance": "unreviewed"
+    },
+    "sheet": {
+      "file": "exports/sheet/review/review.html",
+      "continuous_motion_viewed": false,
+      "visual_acceptance": "unreviewed"
+    }
+  },
+  "limitations": [
+    "Local diagnostic subset only; not full vendor flow completion or art/motion acceptance.",
+    "No credentials, provider/model calls, remote templates or new REA sessions.",
+    "Review pages are generated evidence, not proof of human continuous viewing.",
+    "Local NESW and explicit overwrite layout are not the vendor 4x4 wildcard matcher, Wang ordering or generated seamless art.",
+    "The region patch is supplied pixels, not learned map-object inpainting or private packaging."
+  ]
+}

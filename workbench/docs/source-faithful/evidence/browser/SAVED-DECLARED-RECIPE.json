@@ -1,0 +1,127 @@
+{
+  "canvas": {
+    "h": 48,
+    "w": 48
+  },
+  "controls": [
+    {
+      "binds": [
+        {
+          "path": "ramps.main"
+        }
+      ],
+      "id": "colour",
+      "label": "Colour",
+      "type": "ramp",
+      "value": "electric"
+    },
+    {
+      "binds": [
+        {
+          "path": "layers.core.radius"
+        },
+        {
+          "offset": 9,
+          "path": "layers.aura.radius.wave.mid"
+        }
+      ],
+      "id": "size",
+      "label": "Size",
+      "max": 14,
+      "min": 6,
+      "step": 1,
+      "type": "slider",
+      "value": 14
+    },
+    {
+      "binds": [
+        {
+          "path": "layers.crackle.intensity"
+        }
+      ],
+      "id": "crackle",
+      "label": "Crackle",
+      "max": 1,
+      "min": 0,
+      "step": 0.05,
+      "type": "slider",
+      "value": 0.7
+    },
+    {
+      "binds": [
+        {
+          "path": "layers.sparks.count"
+        }
+      ],
+      "id": "sparks",
+      "label": "Sparks",
+      "max": 16,
+      "min": 0,
+      "step": 1,
+      "type": "slider",
+      "value": 6
+    }
+  ],
+  "core": [
+    "core"
+  ],
+  "fps": 12,
+  "frames": 8,
+  "layers": [
+    {
+      "id": "aura",
+      "intensity": 0.55,
+      "radius": {
+        "wave": {
+          "amp": 2,
+          "cycles": 2,
+          "mid": 19
+        }
+      },
+      "shape": "linear",
+      "type": "glow"
+    },
+    {
+      "id": "core",
+      "radius": 10,
+      "shape": "hard",
+      "type": "glow"
+    },
+    {
+      "count": 7,
+      "id": "crackle",
+      "inner": 6,
+      "intensity": 0.7,
+      "jitter": 1,
+      "length": 18,
+      "spin": {
+        "from": -90,
+        "to": 270
+      },
+      "type": "rays",
+      "width": 2
+    },
+    {
+      "count": 6,
+      "id": "sparks",
+      "mode": "orbit",
+      "radius": 17,
+      "size": [
+        1,
+        2
+      ],
+      "type": "particles",
+      "z": "front"
+    }
+  ],
+  "loop": true,
+  "name": "Energy orb",
+  "notes": "A crackling ball of energy (projectile head or charge-up) with orbiting sparks. Seamless loop.",
+  "outline": {
+    "mode": "dark"
+  },
+  "ramps": {
+    "main": "electric"
+  },
+  "seed": 6
+}

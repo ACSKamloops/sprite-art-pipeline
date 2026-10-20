@@ -1,0 +1,71 @@
+{
+  "environment": {
+    "LP_NUM_THREADS": "4",
+    "OMP_NUM_THREADS": "4"
+  },
+  "bake": [
+    "python3",
+    "/home/astra/projects/emberwake-demo/scripts/bake_eight_directions.py",
+    "--config",
+    "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/registration-v7b-walk-preview-matte.json",
+    "--production",
+    "--out",
+    "/absolute/fresh/bake"
+  ],
+  "verify": [
+    "python3",
+    "/home/astra/projects/emberwake-demo/scripts/verify_eight_direction_bake.py",
+    "--bake",
+    "/absolute/fresh/bake",
+    "--receipt",
+    "/absolute/fresh/receipt.json"
+  ],
+  "isolation": "Copy project.godot/assets/scripts/scenes/tests to a fresh project. Read assets/characters/catalog.json; replace exactly each catalog atlas and manifest with matching actor bake files. Keep source production files unchanged. See actual ISOLATION.json six-path hash mapping.",
+  "import_corrected": [
+    "godot",
+    "--headless",
+    "--path",
+    "/home/astra/artifacts/emberwake-walk-game-preview-v7/project",
+    "--editor",
+    "--quit"
+  ],
+  "native_actual": [
+    "xvfb-run",
+    "-a",
+    "godot",
+    "--path",
+    "/home/astra/artifacts/emberwake-walk-game-preview-v7/project",
+    "--rendering-method",
+    "gl_compatibility",
+    "--rendering-driver",
+    "opengl3",
+    "--audio-driver",
+    "Dummy",
+    "--script",
+    "tests/walk_art_preview.gd",
+    "--",
+    "--walk-preview-output=/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk"
+  ],
+  "native_replay_requirement": "Use exact ACTUAL-RUN-walk_art_preview.gd from this evidence for original metadatafield, or canonical correctedlabel for future. Output must be fresh; replace native_actual finalpath for a newrun.",
+  "behavior_actual": [
+    "python3",
+    "tests/run_checks.py"
+  ],
+  "behavior_cwd": "/home/astra/artifacts/emberwake-walk-game-preview-v7/project",
+  "media_replay": [
+    "python3",
+    "replay_videos.py",
+    "--native",
+    "/home/astra/artifacts/emberwake-walk-game-preview-v7/native-walk",
+    "--out",
+    "/absolute/fresh/videos"
+  ],
+  "browser_actual": [
+    "/home/astra/.codex/skills/playwright/scripts/playwright_cli.sh",
+    "-s=emberwake-complete-boots",
+    "run-code",
+    "--filename",
+    "/home/astra/projects/emberwake-demo/docs/evidence/eight-directions-player-v1/scenarios/godot-walk-gallery.js"
+  ],
+  "browser_requirement": "Owned browser session navigated to http://localhost:8898/godot-walks/ before scenario. No authentication/publication performed."
+}

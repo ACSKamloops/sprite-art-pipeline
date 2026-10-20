@@ -1,0 +1,21 @@
+{
+  "schema": "sprite-edit-project/v1",
+  "canvas": {"width": 8, "height": 4, "render_pivot": [4, 3], "ground_pivot": [4, 3]},
+  "palette": [[0,0,0,0], [42,65,91,255], [224,136,52,255], [226,234,242,255]],
+  "layers": [
+    {"id": "registration", "name": "Registration", "locked": true},
+    {"id": "marker", "name": "Editable marker", "locked": false}
+  ],
+  "cels": {
+    "registration": {"layer_id": "registration", "pixels": [0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0,0, 1,1,1,1,1,1,1,1]},
+    "marker-a": {"layer_id": "marker", "pixels": [0,0,0,0,0,0,0,0, 0,2,3,0,0,0,0,0, 0,2,2,0,0,0,0,0, 0,0,0,0,0,0,0,0]},
+    "marker-b": {"layer_id": "marker", "pixels": [0,0,0,0,0,0,0,0, 0,0,0,0,2,3,0,0, 0,0,0,0,2,2,0,0, 0,0,0,0,0,0,0,0]}
+  },
+  "frames": [
+    {"id": "first", "duration_ticks": 1, "cels": {"registration": "registration", "marker": "marker-a"}, "landmarks": {"contact": [1,3]}},
+    {"id": "second", "duration_ticks": 2, "cels": {"registration": "registration", "marker": "marker-b"}, "landmarks": {"contact": [4,3]}},
+    {"id": "third", "duration_ticks": 1, "cels": {"registration": "registration", "marker": "marker-a"}, "landmarks": {"contact": [1,3]}}
+  ],
+  "animations": [{"id": "diagnostic", "frames": ["first", "second", "third"], "fps": 12, "loop": true, "events": [{"at_tick": 1, "name": "marker-moved"}]}],
+  "provenance": {"purpose": "Mechanical editing diagnostic; not character art or animation quality evidence"}
+}

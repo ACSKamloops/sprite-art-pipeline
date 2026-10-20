@@ -1,0 +1,85 @@
+{
+  "source_and_review_ledgers": [
+    {
+      "ledger": "duelyst/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/duelyst",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 155
+    },
+    {
+      "ledger": "tiny-rpg/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/tiny-rpg",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 70
+    },
+    {
+      "ledger": "lpc-diagonal/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/lpc-diagonal",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 152
+    },
+    {
+      "ledger": "our-prototype/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/our-prototype",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 62
+    },
+    {
+      "ledger": "duelyst-annotation-revision-v2/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/duelyst-annotation-revision-v2",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 16
+    },
+    {
+      "ledger": "adversarial-review/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/adversarial-review",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 16
+    },
+    {
+      "ledger": "style-matched/research-oblique/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/style-matched/research-oblique",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 52
+    },
+    {
+      "ledger": "style-matched/research-jrpg/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/style-matched/research-jrpg",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 30
+    },
+    {
+      "ledger": "style-matched/research-jrpg/bastion-lead/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/style-matched/research-jrpg/bastion-lead",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 3
+    },
+    {
+      "ledger": "style-matched/style-gate-review/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/style-matched/style-gate-review",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 5
+    },
+    {
+      "ledger": "style-matched/style-gate-review/ragnarok-motion-screen-v1/SHA256SUMS",
+      "correct_ledger_working_directory": "/home/astra/artifacts/emberwake-professional-sprite-study-20261017/style-matched/style-gate-review/ragnarok-motion-screen-v1",
+      "exit_code": 0,
+      "errors": "",
+      "entries": 16
+    }
+  ],
+  "skill_structure": "Skill is valid!\n",
+  "portable_math_tests": "test_diagonal_projection_and_lateral_residual (test_measure_reference_motion.ConditionalFitTests.test_diagonal_projection_and_lateral_residual) ... ok\ntest_known_boundary_contact_does_not_mean_held_contact (test_measure_reference_motion.ConditionalFitTests.test_known_boundary_contact_does_not_mean_held_contact) ... ok\ntest_wrong_hypothesized_direction_is_not_clamped (test_measure_reference_motion.ConditionalFitTests.test_wrong_hypothesized_direction_is_not_clamped) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+  "earlier_invocation_errors": "Two root calls used relative SHA ledgers from parent directories and failed to locate files. The corrected per-ledger-directory checks above all passed; no file edits were made to fix them.",
+  "scope": "Hash consistency, source/math review and player transport are distinct from style and normal-speed human acceptance."
+}

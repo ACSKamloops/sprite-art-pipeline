@@ -1,0 +1,336 @@
+{
+  "schema": "literal-cel-edit/v1",
+  "reason": "Productionbaker rejects allpositivealpha atstageborder. Remove only11 literalblackalpha1 borderbackgroundtexels; allotherRGBAincludingalpha2plus retained. RawreviewBretainedseparately.",
+  "source_directory": "frames",
+  "target_directory": "cleaned-frames",
+  "rows": [
+    {
+      "file": "00.png",
+      "source_sha256": "7a4b9b662a0e82e71b651a2d5c719e0fa46f6c2ed0c0559088d19be8a3901ee4",
+      "output_sha256": "ac5425c48a4bc7177f2ad66551bc5ac0a29499997d6cd7c5611a58c9099bf395",
+      "edits": [
+        {
+          "xy": [
+            0,
+            60
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "xy": [
+            127,
+            67
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "xy": [
+            127,
+            69
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        8,
+        12,
+        119,
+        118
+      ],
+      "changed_pixels": 3,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "01.png",
+      "source_sha256": "342e93f4bcece3ed79034f3e002331098c462926cc37fe64e41060b4df6b5ac4",
+      "output_sha256": "98e3af730909d2f029f5e70c74a0524d0387d40ef7586301303934efbd2e1076",
+      "edits": [
+        {
+          "xy": [
+            0,
+            60
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "xy": [
+            127,
+            67
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "xy": [
+            127,
+            69
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        33,
+        12,
+        119,
+        111
+      ],
+      "changed_pixels": 3,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "02.png",
+      "source_sha256": "f5e52c9e4cbedeb7ed7312d99477e05b8a9254402ab8767abcba5d301cae964b",
+      "output_sha256": "56de7a41f6fdcba4405bd01b6d7ad2fa11ae2b1feb8dac843c0805b21f1fb672",
+      "edits": [
+        {
+          "xy": [
+            38,
+            127
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        3,
+        11,
+        107,
+        127
+      ],
+      "changed_pixels": 1,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "03.png",
+      "source_sha256": "2c03070c00a8528e23ecf59e47d42c7c3aa0f332bfceaf156cec19eee78dfb25",
+      "output_sha256": "2c03070c00a8528e23ecf59e47d42c7c3aa0f332bfceaf156cec19eee78dfb25",
+      "edits": [],
+      "native_bbox_after": [
+        3,
+        11,
+        107,
+        118
+      ],
+      "changed_pixels": 0,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "04.png",
+      "source_sha256": "7a0eec0cb0e87c018385a2483077de80ea346a4dc82ba0549e745514abbc1101",
+      "output_sha256": "9bfd0c2e2c4bae2f0aa5c00089dfc8b5f882417c042d903ea40ddcaec0c9750b",
+      "edits": [
+        {
+          "xy": [
+            127,
+            51
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        32,
+        10,
+        107,
+        118
+      ],
+      "changed_pixels": 1,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "05.png",
+      "source_sha256": "650f7162a92d5a24733a6fcc4aaded6df9ac07eb5a43f411371a4d1619e190de",
+      "output_sha256": "f7c3fcb8d9106586536df4cc0565cdfda870889d80fccbf9ed4e7b6179086eb6",
+      "edits": [
+        {
+          "xy": [
+            127,
+            51
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        33,
+        10,
+        107,
+        112
+      ],
+      "changed_pixels": 1,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "06.png",
+      "source_sha256": "c2fd7b77afea56d4180277e477db30c0022814bf6a706f66d0804fbd681c687a",
+      "output_sha256": "081599d79b82e9acf4fd44766a50540aaf89c17106c9eb7d749879da82817051",
+      "edits": [
+        {
+          "xy": [
+            0,
+            51
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        1,
+        12,
+        123,
+        117
+      ],
+      "changed_pixels": 1,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    },
+    {
+      "file": "07.png",
+      "source_sha256": "36b51a4b1bf90caaf922f940fe077bf8d72e49b1183fd50f3e1516a5ca4d81fa",
+      "output_sha256": "09b94a8c2bfb6c1e920016eb5c339b46e9d43dd1c7aac4f609fee5bf132a8a13",
+      "edits": [
+        {
+          "xy": [
+            0,
+            51
+          ],
+          "expected_rgba": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "replacement_rgba": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "native_bbox_after": [
+        1,
+        12,
+        123,
+        117
+      ],
+      "changed_pixels": 1,
+      "alpha2plus_rgba_exact": true,
+      "nonborder_rgba_exact": true
+    }
+  ],
+  "changed_pixels": 11,
+  "art_review": "pending scopedrawBvsderivative acknowledgment; notsilentinheritance",
+  "native_runtime": "pending"
+}

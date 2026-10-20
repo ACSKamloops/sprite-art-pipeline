@@ -1,0 +1,30 @@
+{
+  "algorithm_ownership": "user instruction plus local host envelope",
+  "brief": {
+    "hard_controls": {},
+    "inputs": [
+      {
+        "raster": "438104b9408c6d47a0d7cfe476878a971644e549c3c34725901dcfabd570e7e7",
+        "role": "edit_target"
+      },
+      {
+        "raster": "c721f489a21284fcea8d0897e77ab5ab12d4687b46f405a2d09349c4f0bfaa3b",
+        "role": "style"
+      }
+    ],
+    "prompt": "  SUPPLIED DIAGNOSTIC ONLY. Keep this instruction verbatim.\n",
+    "requirements": {
+      "desired_size": [
+        256,
+        256
+      ],
+      "transparent_background": true
+    },
+    "task": "edit",
+    "version": 1
+  },
+  "kind": "model-brief",
+  "pixellab_inference_recovered": false,
+  "prompt_sha256": "6f97a7ee43acfc31dfaf094ffc8f1500a09e868bf70b5d3c96d746486ae1f701",
+  "version": 1
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "kind": "model-pair-audit",
+    "version": 1,
+    "left": "9e963778dcb2d9fe3f5264224c20e08cc501c4ff79449e60b9c79d8e69510fb4",
+    "right": "e17522d019e82aa3f5a06f125d83402ee4854bdcbdb552cdd4856629797b38c5",
+    "scope": "orchestrator",
+    "same_frozen_brief": true,
+    "same_canvas": true,
+    "exact_pixels_equal": true,
+    "changed_pixels": 0,
+    "image_identities": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "orchestrator_identities": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "task_bindings_match": false,
+    "comparison_eligible_by_attestation": false,
+    "ineligible_reason": "Requires original encoded outputs, matching actual tool/transport/orchestrator bindings, submitted prompt/input hashes/order/controls and canvases. Orchestrator scope holds a known image model fixed; image-backend scope requires known distinct image models. Missing attestations remain unknown.",
+    "alpha_counts": [
+      19,
+      19
+    ],
+    "artistic_acceptance": "unreviewed",
+    "quality_score": null,
+    "boundary": "Mechanical full-canvas diagnostics; no aesthetic score, causal model ranking, temporal proof or PixelLab equivalence. Image identity is executor-attested."
+  },
+  {
+    "kind": "model-pair-audit",
+    "version": 1,
+    "left": "9e963778dcb2d9fe3f5264224c20e08cc501c4ff79449e60b9c79d8e69510fb4",
+    "right": "e17522d019e82aa3f5a06f125d83402ee4854bdcbdb552cdd4856629797b38c5",
+    "scope": "image-backend",
+    "same_frozen_brief": true,
+    "same_canvas": true,
+    "exact_pixels_equal": true,
+    "changed_pixels": 0,
+    "image_identities": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "orchestrator_identities": [
+      [
+        null,
+        null
+      ],
+      [
+        null,
+        null
+      ]
+    ],
+    "task_bindings_match": false,
+    "comparison_eligible_by_attestation": false,
+    "ineligible_reason": "Requires original encoded outputs, matching actual tool/transport/orchestrator bindings, submitted prompt/input hashes/order/controls and canvases. Orchestrator scope holds a known image model fixed; image-backend scope requires known distinct image models. Missing attestations remain unknown.",
+    "alpha_counts": [
+      19,
+      19
+    ],
+    "artistic_acceptance": "unreviewed",
+    "quality_score": null,
+    "boundary": "Mechanical full-canvas diagnostics; no aesthetic score, causal model ranking, temporal proof or PixelLab equivalence. Image identity is executor-attested."
+  }
+]

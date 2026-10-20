@@ -1,0 +1,1347 @@
+{
+  "checked_at_utc": "2026-10-16T14:51:36.724474+00:00",
+  "input_fingerprint": "7eee41206a5fd632cd664a2dfef5c3cd327e1a5767bfa79d1226ca48162a7a2f",
+  "input_hashes_unchanged": true,
+  "reviewed": {
+    "lyra": {
+      "clip_ids": [
+        "south_idle",
+        "south_walk",
+        "south_attack",
+        "south_cast",
+        "south_hurt",
+        "south_dodge",
+        "east_idle",
+        "east_walk",
+        "east_attack",
+        "east_cast",
+        "east_hurt",
+        "east_dodge",
+        "north_idle",
+        "north_walk",
+        "north_attack",
+        "north_cast",
+        "north_hurt",
+        "north_dodge",
+        "west_idle",
+        "west_walk",
+        "west_attack",
+        "west_cast",
+        "west_hurt",
+        "west_dodge"
+      ],
+      "timeline_presentations": 116,
+      "atlas_cells": 112,
+      "internal_pairs": 92,
+      "declared_loop_wraps": 8,
+      "diagnostic_nonloop_wraps": 16,
+      "idle_endpoint_joins": 80,
+      "apng": {
+        "south_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "e72bfe77586122d6159372493fa5b16be233c3516989ad4a09231e1051129cfc"
+        },
+        "south_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "3965a0226a5200bf281e2f78110803c99d42a977e1cd947ce22b387c092f6dac"
+        },
+        "south_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "5e701415ab86bb6a454409fdb81541897c0c4cc74dcf35fda72ec95c64932369"
+        },
+        "south_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "adb033ef21b1ce8d851a1ce32a81d1b031df94e621700a5a98f4e13387c987a8"
+        },
+        "south_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "3a572ced2b5e72e8973587716f7851bf01772bf348d90e67d50af3e37f73d4b5"
+        },
+        "south_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "43a61c0f9f73b52990cbd364a438aca76d5e5489dbb3c02bb4db2f8f540c6ec2"
+        },
+        "east_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "055976de2d4c4c14f18c3d233dcd8170959e74e6aa5fb23acc48191d216e7367"
+        },
+        "east_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "62d85e65f46cd978d8c4e43041d89270c4e14b80982f692c9d2e9eab972a3f8d"
+        },
+        "east_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "15d335b49bbb3cc1a81ec6fa541dc965a8c2e64b81c92f23a1db5207ed4ce9f0"
+        },
+        "east_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "10ce230855650354614d16225fb643b3b42239440f955d898ebf30c1cb624523"
+        },
+        "east_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "84af39cb7a470daaf9404271958dda6d65665d69e41591ed07e670e690f80dd2"
+        },
+        "east_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "8c641de8a8dfcba10bf34b79258367242231092a0325c439429e68960c173b52"
+        },
+        "north_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "243645977d33dcc66d2048c1584c23dec06253c65381a5fc0d44ec690c90d20d"
+        },
+        "north_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "d995b8f4879cf12f66ab7a39414ac9881b5650561deb12aa90b243a4f8fe6179"
+        },
+        "north_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "51b047dffe88f319951010961e6436b33fb45b52127e613d932feca74ea58bfa"
+        },
+        "north_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "32f4bf9cf340c3ad137bf2e8ccebf5d460d003a6cc372372de7e2c64c1e718a9"
+        },
+        "north_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "d6f9e6fc5757c96ca062b29adc89dbdc5cb42a412d910438e8674ece5219431a"
+        },
+        "north_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "518bc2052e31b2f0bbb4416acfd1e317a0382f07f22f69b51f6190f11f2155fe"
+        },
+        "west_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "af29b76ee6a802ba9b1ae084b3b4e3065d6a9571ed62a7b3a7cf6c7fc113187f"
+        },
+        "west_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "096137508953329d13b8a564eee55c1a37037a0b133ca0048fd664081f144448"
+        },
+        "west_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "c32519d2af580d88d3473ad70ca62f267ff9216d255e559d6ddb9b84df951ff4"
+        },
+        "west_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "f43a5c77ac69905ce2f8becb8043e3b029b167576bb0f369a0ef82e1b8374226"
+        },
+        "west_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "c1e02741ed363b6039ae9ded45beb13b2b1cead666af9ec372b4c937fd6b638d"
+        },
+        "west_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "a748308ea88ef9f9c2f2947b28e50b7be9981890e1116315d3d506e339c5facb"
+        }
+      },
+      "unique_rgba_hashes": 112
+    },
+    "brann": {
+      "clip_ids": [
+        "south_idle",
+        "south_walk",
+        "south_attack",
+        "south_cast",
+        "south_hurt",
+        "south_dodge",
+        "east_idle",
+        "east_walk",
+        "east_attack",
+        "east_cast",
+        "east_hurt",
+        "east_dodge",
+        "north_idle",
+        "north_walk",
+        "north_attack",
+        "north_cast",
+        "north_hurt",
+        "north_dodge",
+        "west_idle",
+        "west_walk",
+        "west_attack",
+        "west_cast",
+        "west_hurt",
+        "west_dodge"
+      ],
+      "timeline_presentations": 116,
+      "atlas_cells": 112,
+      "internal_pairs": 92,
+      "declared_loop_wraps": 8,
+      "diagnostic_nonloop_wraps": 16,
+      "idle_endpoint_joins": 80,
+      "apng": {
+        "south_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "fe0d144ecf1ee8acc024359530f7d4c20d94e3fee360d1cc4a16fa361f53272e"
+        },
+        "south_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "327e248c3f7f34829976bafbf5620f5fe719203775cb1a425a5ad577871b27f3"
+        },
+        "south_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "854dc594a74884210cffe40fc3dd4cae2caf6874467318248bf20558a973c90a"
+        },
+        "south_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "3e77420ac3d4edcca990f003c9747e56c4ccf8e1c4b9a8c037191e0bc9e376f9"
+        },
+        "south_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "60820d7b536334ebe910fecb9e27a77178e62e0cff5b2466e1daca18817627cd"
+        },
+        "south_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "be872ef1ba79ce7e9b365d4df580e0b9ccc6a210b3dbff4dae46f872e84b5e47"
+        },
+        "east_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "7e6086afc5672dce5f6307de122dddedf4cd1c20d015ab3138f399f2b2be5a89"
+        },
+        "east_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "a1205ff1940130c917020d451171f790c12780babe88389dfbb8eb4866e5ff32"
+        },
+        "east_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "75ead5484bd6564fc11172e0f3641ef6e036567a8be9e226449129ff8de98332"
+        },
+        "east_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "0e75c1e3b14d6ba1681ab0d1ee8a895b7ca209d8346a16e8e10ca20a6cbcfae2"
+        },
+        "east_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "d928121c38ad2ebed7daf4f144c057f56cd24fc940b268043f83edfbfc21c650"
+        },
+        "east_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "973bf50c27b14b0be97e5e9ef46c9c24cbe1d52f144bfc9cc74903f1e6c4e96f"
+        },
+        "north_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "5f194486aa4aec16677bc79154418007b564421f3ff214d7d12f32dbf968a363"
+        },
+        "north_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "14a01e7d52f015599b8382618faae929bea4efdb9912c081a1151cd01476fba4"
+        },
+        "north_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "d24450ff201235406f9c5e8c57740ef8f4fbc839727efd941a073cfde80a7690"
+        },
+        "north_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "c1c046c44aed5695271d74bd223d3853f7396de763aa1c315ae03022a6a7bb76"
+        },
+        "north_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "a480dad313a572e9fdc7e9a8581aef0b3fa35bae86fb45278f864a6060917235"
+        },
+        "north_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "d23262c12cef404ee24dea956b3427071a8b519e905ecf644f24260ca42231df"
+        },
+        "west_idle": {
+          "exact_delays": [
+            [
+              29,
+              50
+            ],
+            [
+              29,
+              50
+            ]
+          ],
+          "duration_fraction": "29/25",
+          "decoded_frames": 2,
+          "sha256": "b5c11f3a35c7544ed9264c6e5435c13e5a8582b880112a7eb1d2d6daaae598e2"
+        },
+        "west_walk": {
+          "exact_delays": [
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ],
+            [
+              9,
+              160
+            ]
+          ],
+          "duration_fraction": "9/20",
+          "decoded_frames": 8,
+          "sha256": "f8ff14cde8b562a331fcc7dcba6beb6fe0777debc577ec5f24fa6fac99c5473d"
+        },
+        "west_attack": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              7,
+              100
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              13,
+              200
+            ],
+            [
+              21,
+              200
+            ]
+          ],
+          "duration_fraction": "41/100",
+          "decoded_frames": 6,
+          "sha256": "76b585f5cfdcd5764055a2c8015bd531b51398e0166761a299e70ec28033b4f0"
+        },
+        "west_cast": {
+          "exact_delays": [
+            [
+              3,
+              50
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              25
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "1/2",
+          "decoded_frames": 6,
+          "sha256": "f98082010e589772d844033304188ca97bfad602977ed50b6217985a791a4e0d"
+        },
+        "west_hurt": {
+          "exact_delays": [
+            [
+              9,
+              100
+            ],
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              10
+            ]
+          ],
+          "duration_fraction": "29/100",
+          "decoded_frames": 3,
+          "sha256": "741f096e12575c1d4ad598a30be1869d705ed9ce3123a8118a0226453d063a3e"
+        },
+        "west_dodge": {
+          "exact_delays": [
+            [
+              9,
+              200
+            ],
+            [
+              21,
+              200
+            ],
+            [
+              11,
+              200
+            ],
+            [
+              11,
+              200
+            ]
+          ],
+          "duration_fraction": "13/50",
+          "decoded_frames": 4,
+          "sha256": "fee14488c5b325ff1723f9ab230b7fb8e97cdcdd90df54ed98ea1dcd877dc394"
+        }
+      },
+      "unique_rgba_hashes": 112
+    }
+  },
+  "normal_speed_human_perception": false,
+  "runtime_or_gameplay_validation": false
+}

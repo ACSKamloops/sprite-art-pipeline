@@ -1,0 +1,11 @@
+extends RefCounted
+class ExtensionsApi:
+	static var project = {"current_project": null}
+class PixelLabUtils:
+	static var last_image: Image
+	static func get_cel_position(_cel): return [0, 0, null]
+	static func set_pixelcel_image_with_undo(image, _label, _frame, _layer, _project): last_image = image
+var mask_image: Image
+var art_image: Image
+func get_image(_frame, _bg, _ignore, only_layer="", _selection={}):
+	return (mask_image if only_layer == "Inpainting" else art_image).duplicate()

@@ -1,0 +1,39 @@
+{
+  "before_registry_sha256": "169da692300067d0b422ab604054a42008ae9bbd9bbcfa14260eea51f4cbba1f",
+  "after_registry_sha256": "73119a750e8210e78b887aaf183a5f7ec5b7b3b52ff79d4f221949b783a3ed3f",
+  "changes": [
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/README.md",
+      "before": "8fcf4e8199aa57b08adba5ea81c62f909228cfb011fea8aee19c0c9f8dcee4da",
+      "after": "c1c0643c2e2e321c0aec5138f4407a31fff7f83afde8b6053045bcdde0d43d24",
+      "reason": "Reviewed current v0.8.1 route/grammar and dated historical stage content; no private or art gate relaxed"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/COMMANDS.md",
+      "before": "af8ec89261f325dc683b78c0d3c75ad067de5825395c068821916e5d838b9765",
+      "after": "a40105cc20a1024777e9ec3646a464b5aca5152fedce92cafc3008647021fdb6",
+      "reason": "Reviewed current v0.8.1 route/grammar and dated historical stage content; no private or art gate relaxed"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+      "before": "a6be2fdd1ea3fc242e55f4e6663b2a176af3177c8f4717a1ad0d4a991537a9b4",
+      "after": "acf03043a6b916a3534a66342e83ec4ee0f2bb5feef1ef152afb0a38c6d064fa",
+      "reason": "Reviewed current v0.8.1 route/grammar and dated historical stage content; no private or art gate relaxed"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/LOCAL-CHANNELS.md",
+      "before": "304b2252467818e72e848cefd869d66572e7ca40d272298bcfe30ccc8cff32cf",
+      "after": "b1e89241ece3b8aa4ab76c9f16e832e198ea3d7c0ce33f0f9fb2c3e448c36c3f",
+      "reason": "Reviewed current v0.8.1 route/grammar and dated historical stage content; no private or art gate relaxed"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/STATUS.md",
+      "before": "364fefb959eb3cb8e003d1132419765ae392d3db948e1676fb34b5b9b08e8007",
+      "after": "0eaefaa9a138c2538b025925c75ceee468c75ed60920c08d924963aa3b8a6dec",
+      "reason": "Reviewed current v0.8.1 route/grammar and dated historical stage content; no private or art gate relaxed"
+    }
+  ],
+  "unchanged_notes_checked": 9,
+  "source_pinned_coverage_preserved": true,
+  "prior_bytes": "baseline-v0.7 and before-current-notes snapshots"
+}

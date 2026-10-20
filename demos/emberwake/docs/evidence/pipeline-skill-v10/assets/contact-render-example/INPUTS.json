@@ -1,0 +1,115 @@
+{
+  "selected_ticks": [
+    72,
+    75,
+    78,
+    80,
+    89,
+    90,
+    107,
+    108,
+    125
+  ],
+  "ledger": [
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0072.png",
+      "retained": "inputs/gpu/0072.png",
+      "sha256": "484044ba2f1aff72b91193a8398ced2c3898861bb25d080cd0655c20e8c73ebc"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0075.png",
+      "retained": "inputs/gpu/0075.png",
+      "sha256": "fd67adbbe4e41052f129cc7b3b2e42df8c89bb6d3aaa8328a9965bbf449816b1"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0078.png",
+      "retained": "inputs/gpu/0078.png",
+      "sha256": "c5231426e03514b44d8a2a188eece634dd1dccdae6926b475c5f11a065df6042"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0080.png",
+      "retained": "inputs/gpu/0080.png",
+      "sha256": "ac9402172b7f609e22d9bb6e7bec430d5e813d584988ffb12e837b8953565bf7"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0089.png",
+      "retained": "inputs/gpu/0089.png",
+      "sha256": "2e4090824cf7143c3fbd38656d180125c1b0c76f2c05e5ecde92681a2a34adce"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0090.png",
+      "retained": "inputs/gpu/0090.png",
+      "sha256": "6335c1c0b23da19060b0a421f80c3a1427480421a9d29a1c0854534f83533c43"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0107.png",
+      "retained": "inputs/gpu/0107.png",
+      "sha256": "00810d70dd6e32c72e82ca97c8b0c70f751456a9d0b47476c06bb7f1b70c1843"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0108.png",
+      "retained": "inputs/gpu/0108.png",
+      "sha256": "92a0d2aade6f574f48ef741f859c07d9494c77295d81449a2cd19afcd0d0c352"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/lyra-southeast/0125.png",
+      "retained": "inputs/gpu/0125.png",
+      "sha256": "89d07a4be34470e36530b600863359684a53588f34926a540edb38df56dc5e6b"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/native-walk/RECEIPT.json",
+      "retained": "inputs/GPU-RECEIPT.json",
+      "sha256": "9f39fcdffeb326fd7c1e452648673140871667e6a293ed350dea5b53e85a43c5"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/project/tests/walk_art_preview.gd",
+      "retained": "inputs/fixture.gd",
+      "sha256": "9cfd21197cb6429f00fa42f4d253568e1a0819c664548d6bceb8401bca80d7ef"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/project/scripts/hero.gd",
+      "retained": "inputs/hero.gd",
+      "sha256": "1189e397a2e2097a9e910bcda7167fafdd6838e5746567b5f5a0a0ba44e92da0"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-walk-game-preview-v9/project/assets/characters/lyra/animations.json",
+      "retained": "inputs/animations.json",
+      "sha256": "034dbfacdf3f878549a60948cae652ae45534ba550ae67760ebbf52b71f3ec3f"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/inputs/lyra-southeast/04.png",
+      "retained": "inputs/source/04.png",
+      "sha256": "e3dfacc87d7e055848590e3d696ee4b18adfe9a7f1a9da94d6d176ee75601c5f"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/inputs/lyra-southeast/05.png",
+      "retained": "inputs/source/05.png",
+      "sha256": "39f20b485f26f0d50560390416e25002c6a8f8a07a687699ef2e94ebf627a7ff"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/inputs/lyra-southeast/06.png",
+      "retained": "inputs/source/06.png",
+      "sha256": "61ddb98d813234ac359e3f718e341afafef5978aea29cfd2e4aa54a41c85ec1b"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/inputs/guides/lyra-04-map.npz",
+      "retained": "inputs/source/04-map.npz",
+      "sha256": "a88fab75e3ed207a4817c3b2aa9a4f6044fb5cad774e9e10c03e4b45af0c45cc"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/inputs/guides/lyra-05-map.npz",
+      "retained": "inputs/source/05-map.npz",
+      "sha256": "030edf4709d4ae616e48bac023156ffb023f32d3f4ec5817b59664f026c76503"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/results-final/ANCHORS.json",
+      "retained": "inputs/source-study-anchors.json",
+      "sha256": "b1dd0f547f765e454757910cbc91e1fc158b57d2d61fccf279c781e54da97d86"
+    },
+    {
+      "original": "/home/astra/artifacts/emberwake-diagonal-contact-study-v1/results-final/RECEIPT.json",
+      "retained": "inputs/source-study-RECEIPT.json",
+      "sha256": "4f170dcbf2882fdcf752e4e4da0d8be2c705593cbb24d7f3f179bf1cfef40a17"
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "flow": "F08",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "flow_id": "F08",
+  "artifacts": {
+    "fixture_raster": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+    "panel_raster": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+    "ui_sequence": "3e830a80f2b99e4cb8acdcf14c7d49b2faddb94807149ad5482766402932346d",
+    "glyph_atlas": "b6294cf3196a140873f2311251050190d654cd7a55b0c789d32123470842470f",
+    "text_sequence": "69994b20222559fb8adcea754227f89da484ec3bec779db3cb0badcfa328f3ef",
+    "viseme_sequence": "46ae6f7a9b1bb7340c81c2cdaf106b40412a251a188cb7a1742890172cca1a7c",
+    "sequence": "963b53aab4cb1659c11aa55840df09d85058693f3b9e9e08e6c3c231590a7dfb"
+  },
+  "checks": [
+    {
+      "name": "virtual view and radius dialects",
+      "passed": true
+    },
+    {
+      "name": "independent glyph bearing/advance oracle",
+      "passed": true
+    },
+    {
+      "name": "missing glyph coverage rejects",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Missing explicit glyph coverage: 'C'"
+      }
+    },
+    {
+      "name": "UI piece outside pixel canvas rejects",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "UI piece exceeds canvas"
+      }
+    },
+    {
+      "name": "duplicate supplied signals retain individual clocks",
+      "passed": true
+    },
+    {
+      "name": "unmapped lowercase codepoint rejects",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Missing supplied viseme for 'a'"
+      }
+    },
+    {
+      "name": "learned UI/font/visemes explicitly unavailable",
+      "passed": true,
+      "detail": {
+        "status": "unsupported",
+        "capability": "learned-visemes",
+        "reason": "Only supplied UI/glyph/viseme art and explicit local font-file rasterization are implemented"
+      }
+    },
+    {
+      "name": "independent opaque overlay oracle across all holds",
+      "passed": true
+    },
+    {
+      "name": "result editable identity and timeline",
+      "passed": true
+    },
+    {
+      "name": "result editable exact RGBA",
+      "passed": true
+    },
+    {
+      "name": "result every PNG exact including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "result review is generated but unviewed",
+      "passed": true
+    },
+    {
+      "name": "glyph and unused-metric/viseme inputs survive closure",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "asymmetric-geometric-markers-v1",
+    "shape": [
+      5,
+      7,
+      4
+    ],
+    "dtype": "uint8",
+    "rgba_sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+    "capability": "supplied-art",
+    "coordinate_units": "integer pixels, x right/y down unless explicitly normalized/virtual",
+    "recipe_version": 1,
+    "canvas": [
+      18,
+      12
+    ],
+    "virtual_layouts": {
+      "geometric": {
+        "pieces": [
+          {
+            "id": "panel",
+            "type": "rounded_rect",
+            "x": 10.0,
+            "y": 5.0,
+            "w": 100.0,
+            "h": 12.5,
+            "radius": 4.0
+          }
+        ],
+        "source_view": [
+          512,
+          512
+        ],
+        "view": [
+          512,
+          128
+        ],
+        "profile": "geometric-radius-local-v1",
+        "axis_scale": [
+          1.0,
+          0.25
+        ],
+        "radius_scale": 0.5,
+        "units": "virtual-view"
+      },
+      "web_min_axis": {
+        "pieces": [
+          {
+            "id": "panel",
+            "type": "rounded_rect",
+            "x": 10.0,
+            "y": 5.0,
+            "w": 100.0,
+            "h": 12.5,
+            "radius": 2.0
+          }
+        ],
+        "source_view": [
+          512,
+          512
+        ],
+        "view": [
+          512,
+          128
+        ],
+        "profile": "web-example-min-radius-v1",
+        "axis_scale": [
+          1.0,
+          0.25
+        ],
+        "radius_scale": 0.25,
+        "units": "virtual-view"
+      }
+    },
+    "glyphs": {
+      "A": {
+        "raster": "fcfa5936276810e2b59da00ca657bf2ec88c34c55f95071ce23d879abff3451c",
+        "bearing": [
+          0,
+          -4
+        ],
+        "advance": 4
+      },
+      "B": {
+        "raster": "845045083c977b5b136d3cc8c0b174b1251ab058a329b019f724c079361144e6",
+        "bearing": [
+          1,
+          -3
+        ],
+        "advance": 4
+      },
+      " ": {
+        "raster": "8eb364467ff8c39ba89fea7254d89588f2b108c3f2bc091c28168d8c70101ce5",
+        "bearing": [
+          0,
+          0
+        ],
+        "advance": 2
+      }
+    },
+    "text": "AB A",
+    "baseline": [
+      2,
+      7
+    ],
+    "timeline_text": "AA B",
+    "letter_map": {
+      "A": "on",
+      " ": "off",
+      "B": "narrow"
+    },
+    "durations": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        20
+      ]
+    ],
+    "viseme_ids": {
+      "on": "9e084630b3ab114d5d6492da65b0db2afb0182c3a08d2b9a74c4f5d0e3c7d519",
+      "off": "9cda4cbba972dca4c84c535be35931e5e202f57821e27cb0710bb239acfed92b",
+      "narrow": "065af271257a902798f7b6dede5169e98ed56cef61954f6abee4b4a6b88aacd7"
+    }
+  },
+  "routine_order": [
+    "compare virtual-view and radius dialects; place explicit pixel-space supplied panel",
+    "pack explicitly supplied glyph arrays/bearings/advances; render coverage-checked text",
+    "negative: missing glyph coverage rejects",
+    "negative: UI piece outside pixel canvas rejects",
+    "map explicit codepoints to supplied viseme-signals with distinct rational holds",
+    "negative: unmapped lowercase codepoint rejects",
+    "negative: learned UI/font/visemes explicitly unavailable",
+    "hold static supplied UI/text for exact timeline; rationally compose signal/UI/text",
+    "export result: PNG/sheet/rational manifest/APNG/editable/review",
+    "import result editable closure into a fresh output-local Store",
+    "write JSON-safe receipt; preserve checks and limitations"
+  ],
+  "exports": {
+    "result": {
+      "directory": "exports/result",
+      "sequence_id": "963b53aab4cb1659c11aa55840df09d85058693f3b9e9e08e6c3c231590a7dfb",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "apng",
+        "editable",
+        "manifest",
+        "png",
+        "review",
+        "sheet"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 4
+        },
+        "sheet": {
+          "status": "written",
+          "padding_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "trim": "none"
+        },
+        "apng": {
+          "status": "written",
+          "clock": "exact rational16-bit APNG fields",
+          "blend": "SOURCE",
+          "dispose": "NONE",
+          "num_plays": 1,
+          "ordered_frames": 4,
+          "rgba": "exact including hiddenRGB",
+          "sha256": "ffbb9a2a4e511129714756447c36c9c4be1cd558503ac44a94b6a1e5e0031cde"
+        },
+        "editable": {
+          "status": "written",
+          "artifact_count": 33,
+          "scene_id": null,
+          "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 4,
+          "adjacent_pairs": 3,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [],
+      "files": [
+        {
+          "file": "animation.apng",
+          "bytes": 687,
+          "sha256": "ffbb9a2a4e511129714756447c36c9c4be1cd558503ac44a94b6a1e5e0031cde"
+        },
+        {
+          "file": "editable/artifacts/065af271257a902798f7b6dede5169e98ed56cef61954f6abee4b4a6b88aacd7",
+          "bytes": 204,
+          "sha256": "065af271257a902798f7b6dede5169e98ed56cef61954f6abee4b4a6b88aacd7"
+        },
+        {
+          "file": "editable/artifacts/08174def9699927dd274e604371d9a8957606aacd621c6d34e796bb51100d29f",
+          "bytes": 204,
+          "sha256": "08174def9699927dd274e604371d9a8957606aacd621c6d34e796bb51100d29f"
+        },
+        {
+          "file": "editable/artifacts/28ed41dc2f41efd8095522f7c3fffb71f63cc27a6be13965b04ddf8fddbb9af8",
+          "bytes": 864,
+          "sha256": "28ed41dc2f41efd8095522f7c3fffb71f63cc27a6be13965b04ddf8fddbb9af8"
+        },
+        {
+          "file": "editable/artifacts/3e830a80f2b99e4cb8acdcf14c7d49b2faddb94807149ad5482766402932346d",
+          "bytes": 456,
+          "sha256": "3e830a80f2b99e4cb8acdcf14c7d49b2faddb94807149ad5482766402932346d"
+        },
+        {
+          "file": "editable/artifacts/3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+          "bytes": 202,
+          "sha256": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464"
+        },
+        {
+          "file": "editable/artifacts/46ae6f7a9b1bb7340c81c2cdaf106b40412a251a188cb7a1742890172cca1a7c",
+          "bytes": 1129,
+          "sha256": "46ae6f7a9b1bb7340c81c2cdaf106b40412a251a188cb7a1742890172cca1a7c"
+        },
+        {
+          "file": "editable/artifacts/483cafcc683afe7c3f3cf02219a62939b76e7030841f3ac3dae0343a16fdf466",
+          "bytes": 735,
+          "sha256": "483cafcc683afe7c3f3cf02219a62939b76e7030841f3ac3dae0343a16fdf466"
+        },
+        {
+          "file": "editable/artifacts/4d5fd735c3447eee37b9cbd67d78bf51f4c8acfb5b38fbe90ae02b62cb99f125",
+          "bytes": 864,
+          "sha256": "4d5fd735c3447eee37b9cbd67d78bf51f4c8acfb5b38fbe90ae02b62cb99f125"
+        },
+        {
+          "file": "editable/artifacts/4e0526f4fc68abfac8cd34e0d5ab0a2df6fe9c18b504456fdbb1b795279e7c84",
+          "bytes": 864,
+          "sha256": "4e0526f4fc68abfac8cd34e0d5ab0a2df6fe9c18b504456fdbb1b795279e7c84"
+        },
+        {
+          "file": "editable/artifacts/50ae9d3fe4ed871d617d6bb25113cbc8878d5376c55c76dccfa305b7886e75a4",
+          "bytes": 204,
+          "sha256": "50ae9d3fe4ed871d617d6bb25113cbc8878d5376c55c76dccfa305b7886e75a4"
+        },
+        {
+          "file": "editable/artifacts/64f20992d7cc0362379e0678cfcddc8ae039425b9a7f4ce4ac35e0460d273cb8",
+          "bytes": 203,
+          "sha256": "64f20992d7cc0362379e0678cfcddc8ae039425b9a7f4ce4ac35e0460d273cb8"
+        },
+        {
+          "file": "editable/artifacts/69994b20222559fb8adcea754227f89da484ec3bec779db3cb0badcfa328f3ef",
+          "bytes": 650,
+          "sha256": "69994b20222559fb8adcea754227f89da484ec3bec779db3cb0badcfa328f3ef"
+        },
+        {
+          "file": "editable/artifacts/6ebb58463da56df471f99d35281efcb273fb9127ebdafa54bf8b53760a59f3c6",
+          "bytes": 48,
+          "sha256": "6ebb58463da56df471f99d35281efcb273fb9127ebdafa54bf8b53760a59f3c6"
+        },
+        {
+          "file": "editable/artifacts/845045083c977b5b136d3cc8c0b174b1251ab058a329b019f724c079361144e6",
+          "bytes": 202,
+          "sha256": "845045083c977b5b136d3cc8c0b174b1251ab058a329b019f724c079361144e6"
+        },
+        {
+          "file": "editable/artifacts/862370116aee876dadc5496406ee1f5c3a8d84fcf1b0f351768d922e0d1ad113",
+          "bytes": 320,
+          "sha256": "862370116aee876dadc5496406ee1f5c3a8d84fcf1b0f351768d922e0d1ad113"
+        },
+        {
+          "file": "editable/artifacts/86cf02a28ee328d8ca7d86706b2aaa421bc7542c591729888251dbfd57e197cc",
+          "bytes": 864,
+          "sha256": "86cf02a28ee328d8ca7d86706b2aaa421bc7542c591729888251dbfd57e197cc"
+        },
+        {
+          "file": "editable/artifacts/8c4acc1b5ec432b4c3703b72e798c8a87bb6c28f733bc7f5d4760bfb832361da",
+          "bytes": 204,
+          "sha256": "8c4acc1b5ec432b4c3703b72e798c8a87bb6c28f733bc7f5d4760bfb832361da"
+        },
+        {
+          "file": "editable/artifacts/8eb364467ff8c39ba89fea7254d89588f2b108c3f2bc091c28168d8c70101ce5",
+          "bytes": 202,
+          "sha256": "8eb364467ff8c39ba89fea7254d89588f2b108c3f2bc091c28168d8c70101ce5"
+        },
+        {
+          "file": "editable/artifacts/942183dd70bdeb99161543dad81d503cb39636f10594c26d06fa48d6b1115690",
+          "bytes": 541,
+          "sha256": "942183dd70bdeb99161543dad81d503cb39636f10594c26d06fa48d6b1115690"
+        },
+        {
+          "file": "editable/artifacts/963b53aab4cb1659c11aa55840df09d85058693f3b9e9e08e6c3c231590a7dfb",
+          "bytes": 1483,
+          "sha256": "963b53aab4cb1659c11aa55840df09d85058693f3b9e9e08e6c3c231590a7dfb"
+        },
+        {
+          "file": "editable/artifacts/9cda4cbba972dca4c84c535be35931e5e202f57821e27cb0710bb239acfed92b",
+          "bytes": 204,
+          "sha256": "9cda4cbba972dca4c84c535be35931e5e202f57821e27cb0710bb239acfed92b"
+        },
+        {
+          "file": "editable/artifacts/9e084630b3ab114d5d6492da65b0db2afb0182c3a08d2b9a74c4f5d0e3c7d519",
+          "bytes": 204,
+          "sha256": "9e084630b3ab114d5d6492da65b0db2afb0182c3a08d2b9a74c4f5d0e3c7d519"
+        },
+        {
+          "file": "editable/artifacts/ac8cab08ca5ad3f84c819dde8a5197d62b53f5511851776f11c55047e8ba6570",
+          "bytes": 204,
+          "sha256": "ac8cab08ca5ad3f84c819dde8a5197d62b53f5511851776f11c55047e8ba6570"
+        },
+        {
+          "file": "editable/artifacts/b6294cf3196a140873f2311251050190d654cd7a55b0c789d32123470842470f",
+          "bytes": 568,
+          "sha256": "b6294cf3196a140873f2311251050190d654cd7a55b0c789d32123470842470f"
+        },
+        {
+          "file": "editable/artifacts/b9e87661f0e5fa2dff0e40e8babd0bfa13b8314cb3aed711612831d277d94e3b",
+          "bytes": 204,
+          "sha256": "b9e87661f0e5fa2dff0e40e8babd0bfa13b8314cb3aed711612831d277d94e3b"
+        },
+        {
+          "file": "editable/artifacts/ba34a7dc1e5caadb579c6c825b80c9369a8d2fb93f40aad2f51630300c5b46fd",
+          "bytes": 864,
+          "sha256": "ba34a7dc1e5caadb579c6c825b80c9369a8d2fb93f40aad2f51630300c5b46fd"
+        },
+        {
+          "file": "editable/artifacts/c6960e7f1e765e67d81acc3f658fb09840ffb0b7aae448aa84d08f4f88512858",
+          "bytes": 864,
+          "sha256": "c6960e7f1e765e67d81acc3f658fb09840ffb0b7aae448aa84d08f4f88512858"
+        },
+        {
+          "file": "editable/artifacts/cfbaec8b429b3a51ef4f297795b18dae5e766ce03e4af961bf31db4151c5ad56",
+          "bytes": 864,
+          "sha256": "cfbaec8b429b3a51ef4f297795b18dae5e766ce03e4af961bf31db4151c5ad56"
+        },
+        {
+          "file": "editable/artifacts/d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+          "bytes": 140,
+          "sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439"
+        },
+        {
+          "file": "editable/artifacts/df0684614bb18072612ee1a5aa9d2d1ad37dfef2f7d6124a296634de0cd56bb5",
+          "bytes": 24,
+          "sha256": "df0684614bb18072612ee1a5aa9d2d1ad37dfef2f7d6124a296634de0cd56bb5"
+        },
+        {
+          "file": "editable/artifacts/df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+          "bytes": 4,
+          "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+        },
+        {
+          "file": "editable/artifacts/df8df0b9bfe0603aaaeb3a05e0e8ffe5b0473bcb0762ecb6d5a6e2ad9dbad62a",
+          "bytes": 864,
+          "sha256": "df8df0b9bfe0603aaaeb3a05e0e8ffe5b0473bcb0762ecb6d5a6e2ad9dbad62a"
+        },
+        {
+          "file": "editable/artifacts/fcfa5936276810e2b59da00ca657bf2ec88c34c55f95071ce23d879abff3451c",
+          "bytes": 202,
+          "sha256": "fcfa5936276810e2b59da00ca657bf2ec88c34c55f95071ce23d879abff3451c"
+        },
+        {
+          "file": "editable/index.json",
+          "bytes": 2373,
+          "sha256": "36e1eeb0883eeda536ce9a05338ca187345bcdf9ba9d25e90e8dc14e37ff82aa"
+        },
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 226,
+          "sha256": "c1a227b7a66f7e68002625707c6c0559a6a2e4bc986b9c453d32a3f8ebe66f2f"
+        },
+        {
+          "file": "frames/frame-0001.png",
+          "bytes": 226,
+          "sha256": "c1a227b7a66f7e68002625707c6c0559a6a2e4bc986b9c453d32a3f8ebe66f2f"
+        },
+        {
+          "file": "frames/frame-0002.png",
+          "bytes": 228,
+          "sha256": "f970a6f003b8d59d617d34262b91efca2fa98d007bb12da935ec2803ff145cec"
+        },
+        {
+          "file": "frames/frame-0003.png",
+          "bytes": 215,
+          "sha256": "a58d89acba5133bd6ed2549bc28861003060f72f27f4bf953014773e5e84252f"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 3262,
+          "sha256": "7be076999d4d60dd4c9a4c4da8d13d90464f0af69ede78e758f1ecda1cf875e0"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 226,
+          "sha256": "c1a227b7a66f7e68002625707c6c0559a6a2e4bc986b9c453d32a3f8ebe66f2f"
+        },
+        {
+          "file": "review/frames/frame-0001.png",
+          "bytes": 226,
+          "sha256": "c1a227b7a66f7e68002625707c6c0559a6a2e4bc986b9c453d32a3f8ebe66f2f"
+        },
+        {
+          "file": "review/frames/frame-0002.png",
+          "bytes": 228,
+          "sha256": "f970a6f003b8d59d617d34262b91efca2fa98d007bb12da935ec2803ff145cec"
+        },
+        {
+          "file": "review/frames/frame-0003.png",
+          "bytes": 215,
+          "sha256": "a58d89acba5133bd6ed2549bc28861003060f72f27f4bf953014773e5e84252f"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 10115,
+          "sha256": "edc012c9a76e9e95e891a770d2be2b7f3af3b958a3f472bb6221e651fffce55f"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 4134,
+          "sha256": "6d91110546da53497dc3dcaed0dd7c7eb95a12a35dcbd8a9b7a9be124103f0f1"
+        },
+        {
+          "file": "sheet.png",
+          "bytes": 288,
+          "sha256": "35768cab6ea8aab971aaadb164a62f60d40afe4d8d1d1594af8ac0976f9f7a49"
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "result": {
+      "file": "exports/result/review/review.html",
+      "continuous_motion_viewed": false,
+      "visual_acceptance": "unreviewed"
+    }
+  },
+  "limitations": [
+    "Local diagnostic subset only; not full vendor flow completion or art/motion acceptance.",
+    "No credentials, provider/model calls, remote templates or new REA sessions.",
+    "Review pages are generated evidence, not proof of human continuous viewing.",
+    "Supplied three-codepoint glyph atlas has explicit metrics; no ambient font, shaping, kerning or generated typography.",
+    "Virtual layout math and explicit pixel placement are separate; no private guide-to-raster styling is inferred.",
+    "Rectangular viseme-signals are mechanical supplied fixtures with explicit codepoint clocks, not generated mouths, phonemes, acoustic alignment or the remote vocal plan."
+  ]
+}

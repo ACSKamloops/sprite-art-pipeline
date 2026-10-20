@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-10-16T15:45:58.753894+00:00",
+  "origin": "http://127.0.0.1:8897",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 5492,
+      "sha256": "a51dafba1c071bcf84cff42f966c22d5d552dc1f20ffecbe52f84b7693b481a6"
+    },
+    {
+      "path": "index.js",
+      "status": 200,
+      "bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    {
+      "path": "index.pck",
+      "status": 200,
+      "bytes": 12245640,
+      "sha256": "382a06f7aa84d9532b5a4c1f3c901a004128161afabe30cb71a82ac97b8ed2ce"
+    },
+    {
+      "path": "index.wasm",
+      "status": 200,
+      "bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    }
+  ],
+  "browser_receipt_pck_matches": true
+}

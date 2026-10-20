@@ -1,0 +1,51 @@
+{
+  "frame_count": 8,
+  "stage": [
+    128,
+    128
+  ],
+  "pivot": [
+    64,
+    112
+  ],
+  "holds": [
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    },
+    {
+      "numerator": 9,
+      "denominator": 160
+    }
+  ],
+  "total": {
+    "numerator": 9,
+    "denominator": 20
+  },
+  "seconds": 0.45,
+  "mirror_rule": "existing diagonal x_new=128-x_source, validated all positive-alpha destination samples"
+}

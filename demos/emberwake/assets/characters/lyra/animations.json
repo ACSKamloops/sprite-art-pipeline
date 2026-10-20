@@ -1,0 +1,4563 @@
+{
+  "schema": "emberwake-animation/v1",
+  "character_id": "lyra",
+  "cell": [
+    128,
+    128
+  ],
+  "columns": 16,
+  "pivot": [
+    64,
+    112
+  ],
+  "draw_scale": 0.66,
+  "cast_hand": {
+    "south": [
+      99,
+      72
+    ],
+    "east": [
+      95,
+      58
+    ],
+    "north": [
+      94,
+      57
+    ],
+    "west": [
+      34,
+      58
+    ],
+    "southeast": [
+      100,
+      61
+    ],
+    "northeast": [
+      96,
+      40
+    ],
+    "southwest": [
+      28,
+      61
+    ],
+    "northwest": [
+      32,
+      40
+    ]
+  },
+  "cast_release_index": 3,
+  "animations": {
+    "south_idle": {
+      "frames": [
+        14,
+        15
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "south_walk": {
+      "frames": [
+        0,
+        120,
+        121,
+        132,
+        4,
+        122,
+        123,
+        133
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "south_attack": {
+      "frames": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        116,
+        14
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "south_cast": {
+      "frames": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "south_hurt": {
+      "frames": [
+        22,
+        23,
+        14
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "south_dodge": {
+      "frames": [
+        24,
+        25,
+        26,
+        128,
+        27
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "east_idle": {
+      "frames": [
+        42,
+        43
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "east_walk": {
+      "frames": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "east_attack": {
+      "frames": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        117,
+        42
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "east_cast": {
+      "frames": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "east_hurt": {
+      "frames": [
+        50,
+        51,
+        42
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "east_dodge": {
+      "frames": [
+        52,
+        53,
+        54,
+        129,
+        55
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "north_idle": {
+      "frames": [
+        70,
+        71
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "north_walk": {
+      "frames": [
+        56,
+        124,
+        125,
+        134,
+        61,
+        126,
+        127,
+        135
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "north_attack": {
+      "frames": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        118,
+        70
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "north_cast": {
+      "frames": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "north_hurt": {
+      "frames": [
+        78,
+        79,
+        70
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "north_dodge": {
+      "frames": [
+        80,
+        81,
+        82,
+        130,
+        83
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "west_idle": {
+      "frames": [
+        98,
+        99
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "west_walk": {
+      "frames": [
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "west_attack": {
+      "frames": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        119,
+        98
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "west_cast": {
+      "frames": [
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "west_hurt": {
+      "frames": [
+        106,
+        107,
+        98
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "west_dodge": {
+      "frames": [
+        108,
+        109,
+        110,
+        131,
+        111
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "southeast_idle": {
+      "frames": [
+        158,
+        159
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "southeast_walk": {
+      "frames": [
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "southeast_attack": {
+      "frames": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        158
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "southeast_cast": {
+      "frames": [
+        158,
+        153,
+        154,
+        155,
+        156,
+        158
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "southeast_hurt": {
+      "frames": [
+        160,
+        161,
+        158
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "southeast_dodge": {
+      "frames": [
+        163,
+        164,
+        165,
+        166,
+        158
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "northeast_idle": {
+      "frames": [
+        190,
+        191
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "northeast_walk": {
+      "frames": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "northeast_attack": {
+      "frames": [
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        190
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "northeast_cast": {
+      "frames": [
+        190,
+        185,
+        186,
+        187,
+        188,
+        190
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "northeast_hurt": {
+      "frames": [
+        192,
+        193,
+        190
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "northeast_dodge": {
+      "frames": [
+        195,
+        196,
+        197,
+        198,
+        190
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "northwest_idle": {
+      "frames": [
+        222,
+        223
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "northwest_walk": {
+      "frames": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "northwest_attack": {
+      "frames": [
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        222
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "northwest_cast": {
+      "frames": [
+        222,
+        217,
+        218,
+        219,
+        220,
+        222
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "northwest_hurt": {
+      "frames": [
+        224,
+        225,
+        222
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "northwest_dodge": {
+      "frames": [
+        227,
+        228,
+        229,
+        230,
+        222
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    },
+    "southwest_idle": {
+      "frames": [
+        254,
+        255
+      ],
+      "holds": [
+        0.58,
+        0.58
+      ],
+      "loop": true
+    },
+    "southwest_walk": {
+      "frames": [
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      "holds": [
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625,
+        0.05625
+      ],
+      "loop": true
+    },
+    "southwest_attack": {
+      "frames": [
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        254
+      ],
+      "holds": [
+        0.06,
+        0.07,
+        0.055,
+        0.055,
+        0.065,
+        0.035,
+        0.035,
+        0.035
+      ],
+      "loop": false
+    },
+    "southwest_cast": {
+      "frames": [
+        254,
+        249,
+        250,
+        251,
+        252,
+        254
+      ],
+      "holds": [
+        0.06,
+        0.08,
+        0.1,
+        0.08,
+        0.08,
+        0.1
+      ],
+      "loop": false
+    },
+    "southwest_hurt": {
+      "frames": [
+        256,
+        257,
+        254
+      ],
+      "holds": [
+        0.09,
+        0.1,
+        0.1
+      ],
+      "loop": false
+    },
+    "southwest_dodge": {
+      "frames": [
+        259,
+        260,
+        261,
+        262,
+        254
+      ],
+      "holds": [
+        0.045,
+        0.105,
+        0.055,
+        0.0275,
+        0.0275
+      ],
+      "loop": false
+    }
+  },
+  "lineage": [
+    {
+      "frame": 0,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "5ee4467f9adefdf08cd5ef2c5c60887635c9aa73e0c3b105d2d820bd0e24d5f4"
+    },
+    {
+      "frame": 1,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "cc666f2d55d9c2c00b3b6002796c512167e62e8eba72022cd20a8aabab2e81ac"
+    },
+    {
+      "frame": 2,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9168897fc2864b37e88432a204e4d7e161069968f73778dd8c06fe47e61ff9a2"
+    },
+    {
+      "frame": 3,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "63e75135043407c13ef679718ef920cbedfd354f95066c0302a0b8c46538c2ba"
+    },
+    {
+      "frame": 4,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "cfc951879363b0d4cceb729da066752a996763ee32b113fdb78821491f308983"
+    },
+    {
+      "frame": 5,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "55f0a65c1746249287b45857a64b0374d9744d9e08d965f8e1fe2e7ecdeb754e"
+    },
+    {
+      "frame": 6,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9395d95fc5611779de31671916c9edc14dbd2931e310016a38cf38239ea11078"
+    },
+    {
+      "frame": 7,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "132cb61f9a77b31b2b04c3d34a75e8ea047dd704c6b8b7838a63fd268a5ebd44"
+    },
+    {
+      "frame": 8,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "220314aa3f3bacba71a137adfd344d3fc13822c78c3f852cacbec9b88108781b"
+    },
+    {
+      "frame": 9,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "3b97b8a8d74f94c745d4120b8ce746a2c980b7e88201fcb1036ace94a81b08d4"
+    },
+    {
+      "frame": 10,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ea9183b75622f3026682c9b75d589250e40b12ff5e415ebb4a2e383c5dba3383"
+    },
+    {
+      "frame": 11,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "6449534173f2bed1da15ec6de49f5f72c344008f3f5df7b68b5a1af48ceafafc"
+    },
+    {
+      "frame": 12,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "bbc2bab11b58b55d6879b74f43616b8e53a7e2fed72d6316043a146b96a95464"
+    },
+    {
+      "frame": 13,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "28296eba142e21263f60557b2118433dff524dc4432fff312f220b673248f620"
+    },
+    {
+      "frame": 14,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "221e4b39d25f17af33fd20e6fca3aa90e367a87d8389e638a4ed807d53514048"
+    },
+    {
+      "frame": 15,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "350872c7c4186e19bb54491476a98a000ba8046425bc29b970879e2a0c55fa3a"
+    },
+    {
+      "frame": 16,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c0c3e863b073b97af982cea138024497cd22323aa9607ee7fa685580c2ffc6c5"
+    },
+    {
+      "frame": 17,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "59e6ffd2977250458501190f7ad3ed6e5c024d818eb53d0723d82774827f5fe1"
+    },
+    {
+      "frame": 18,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d0430ad9ad773bdac4f9987f746702dda4dee94da616156860ec872a4b49f087"
+    },
+    {
+      "frame": 19,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7b99c114a1a9bdf9cf2d55160377549db8c0e809c672ece5bc145be7e68368b1"
+    },
+    {
+      "frame": 20,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "338c93f7b97b2b60c4e0e0bf68a837136aa7adbe5e7510dc7f39949289bc66e9"
+    },
+    {
+      "frame": 21,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "85b9634f59a0a49cf30a60fd1a126f3901685cf9dd7b98f5df28f197f6fca05b"
+    },
+    {
+      "frame": 22,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c165713f08ec841578b1767efd4083ad2166c0c14ed8ff36e79344fcd4fb6b77"
+    },
+    {
+      "frame": 23,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "8a31afda9b5ac28c82e09924c3dd9fd9aac0bb85c37260e2e091e8f086562cb7"
+    },
+    {
+      "frame": 24,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "532f0f0404c186c3ad88b6fac4840315d7eb65690558e893abf81e287c42d45a"
+    },
+    {
+      "frame": 25,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "bf93ac249c24e23cdbe5833a4687afe60419776e73a423f64c13b5777a3c1162"
+    },
+    {
+      "frame": 26,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "65620c33d3ef54c7874068077634121fd5f29f8c8a8e98d5999b4e6c44451a50"
+    },
+    {
+      "frame": 27,
+      "source": "art-source/characters-v2/lyra/south-raw.png",
+      "source_sha256": "2991e868e3f33062c0a69e8b08e8591f6c68a1fbd00c136878e2d6429d858c92",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          128,
+          228
+        ],
+        "scale": 0.49,
+        "row_y": [
+          -3,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c5b4a3639d88d5a224dff14cf544c498349e39bfa36aac16228ba2f71d56ff00"
+    },
+    {
+      "frame": 28,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "b37563b9d02253247e191feaf6512ab6bcc04b5342780bc8c644e618ad92b31a"
+    },
+    {
+      "frame": 29,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d159d5a7e3b11dc8efa5b9ca5b07734fb263a540844dd8c7499494698476691b"
+    },
+    {
+      "frame": 30,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "a05630f8bf14a6aa6d2deb238d4db9397589441f88c2da72a137a7f028e74262"
+    },
+    {
+      "frame": 31,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9708b08769934e61eb5f7cd41c5a29bf861597172b5943383fac875cbbb99363"
+    },
+    {
+      "frame": 32,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "b0dec67bf31dfd87bd9dae1717e8c204886ba0b5a2d90e0a54933cbde7a3274b"
+    },
+    {
+      "frame": 33,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "08e801f64b7933a7ebd337a639e5973b82ffa403e12ff7971899235147a6d310"
+    },
+    {
+      "frame": 34,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "f1c8e7731be4081a2e94864c44dd57104a160b8147143a3c2cce3027f8a12a8d"
+    },
+    {
+      "frame": 35,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d4d8386d66a0886776e95b46f3393f13ffb7b8aeca11d13779718538b95fc870"
+    },
+    {
+      "frame": 36,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "cd0d44c23a4445287cd231a65755d44d2531307cb803862269e22557eb0541dd"
+    },
+    {
+      "frame": 37,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "55901450e9858adae99ede2870783dc5b75bccfbbedf7c7904592fe651e93a37"
+    },
+    {
+      "frame": 38,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "15bf929d261cb9f62ea436a5bc6082f20aa1905dd7a3260bf7c8a984cbc28c45"
+    },
+    {
+      "frame": 39,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9602d788109049907821971926076a313b89ddd0d1c2a165a77125ec786ac475"
+    },
+    {
+      "frame": 40,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "fd9d3c9d13e5b9b8da90273b27e18ae503afa40f61c3e51b69d196768ff94e0b"
+    },
+    {
+      "frame": 41,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0da650716382ee77c3109d21c9b870fe16da9f21918bb29f2bb12ed88c44b852"
+    },
+    {
+      "frame": 42,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "1baea7ee4bee8bcee17c0ae2f8a87ed06999429e686e0d621f22d2bf832e3dd5"
+    },
+    {
+      "frame": 43,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ce03b195a2bf729553258cecfe83d0941c973ce57de4bdd9d9623e18b83c17ff"
+    },
+    {
+      "frame": 44,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "97e3d4de0bf01be70529e204691adff0358c023d8030f9607b8d446e7d749da7"
+    },
+    {
+      "frame": 45,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e297944b87a75ba08e82d3ca3b048bbed943991c515611f920b0f625b3fbb30e"
+    },
+    {
+      "frame": 46,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "4c38b7f6bc8a31874ae5371fc7a8816171eca573fc080a1fd5ebd348167d9cba"
+    },
+    {
+      "frame": 47,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ca49fd37b6568560d3bf8badfe33fa4c16f70ac8c8cdc08f5e6e2ad9ca1e9439"
+    },
+    {
+      "frame": 48,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d981db8e10111ee77b7b3f0a4faa5e38c6e127082d949d2c311d652b0f232059"
+    },
+    {
+      "frame": 49,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "59d358e15c3f6f10e094df0b94c578e7577c65666c5b40371ff894548780b7a8"
+    },
+    {
+      "frame": 50,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c3c5b5c6ba0200a2352d1c96a4539fd38276f6af16f503634648668abe1c29a0"
+    },
+    {
+      "frame": 51,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0cb43c0f099b0af538f1722c1c023a8c51b1c44e9b20cddeaf52dd7a80f9f341"
+    },
+    {
+      "frame": 52,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "534560e94c08ec7ff719c14be512caa239f99c52fb0991a79aa442d0f1474515"
+    },
+    {
+      "frame": 53,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "2db40535baaff0509670cc80fd58abdfd9d3b172f7b3eed67ba8c77cf650bd19"
+    },
+    {
+      "frame": 54,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "92e3be776eae3385b16af61183e82dfae3e5ddfea437f48747004925f4e7cf44"
+    },
+    {
+      "frame": 55,
+      "source": "art-source/characters-v2/lyra/east-raw.png",
+      "source_sha256": "d2d40a88b9b1ea9d16dec6d0dbf7ea8536bfaaaec90661e90dd0ac7d1a41c3c6",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          126,
+          246
+        ],
+        "scale": 0.45
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9946780f7d66f180b614321bdb148c5184ce3777c39788377378f20862acb693"
+    },
+    {
+      "frame": 56,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "a6d1853934e3ba2bade0aa4e21ad051ec83ac920c8cf6626b894a3b399b7c484"
+    },
+    {
+      "frame": 57,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0b153815e45284292a29c7e955568d2230c6cf6ecc418f328809a48b034bb7d4"
+    },
+    {
+      "frame": 58,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c1cd04821a373fec5a67dc8977324ec7f858e2e2b1afdea977deff3a1cacaaea"
+    },
+    {
+      "frame": 59,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "84cef934693c79295b604314ae2fe95c761276b195f61d10312c3a1ce46b6eba"
+    },
+    {
+      "frame": 60,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "88de25f9e9ffd357ef48755961d2b54853b2152e28be1a595f540c8ea6a02d95"
+    },
+    {
+      "frame": 61,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e76627f8bb8c09d8fc23e704db42776347e0150259452359270d9051497b6041"
+    },
+    {
+      "frame": 62,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "04e18b1e72ee5ad833d4660bf2676f436391bb6d66f3081a546189cd33e1c374"
+    },
+    {
+      "frame": 63,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "86c2cace4c7496991d7326972b286b9b6a35366fca367480406433ced7382caf"
+    },
+    {
+      "frame": 64,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "693a7b8e0b36b24965ae6114b1d33368e266f4d0f27ffd37b5dc97c0159ba4d9"
+    },
+    {
+      "frame": 65,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "4c88da4e68498f2ac1f51d293c6c118c3af0453ac913b30b9bc87765d2f92f21"
+    },
+    {
+      "frame": 66,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "33c1a4aad5bdf1f1876659e468a3b3a3f96cedbad7e46e3ac3eee846ddfc7a7c"
+    },
+    {
+      "frame": 67,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "fa9c11d1f7473ca6b799b452960965e68d97718f3d10ec4c66d48b3497b3e445"
+    },
+    {
+      "frame": 68,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "c5c5840805106142df8668480b8df3844840426138b600a9934ae0e29a352d15"
+    },
+    {
+      "frame": 69,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "bbb36ba71d240e5dbb50c2ee95fddc002fc186c4d0f92594de4905cbba5ff138"
+    },
+    {
+      "frame": 70,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "51e0456b1f7fc8ff8b66b9250d20405f3e2e9ab8bbd1419ccbefdeb027e6bee7"
+    },
+    {
+      "frame": 71,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "83f8d7a61597d00557bae34ebb66a200126f0ad8e63b0a520dce43ae87c36813"
+    },
+    {
+      "frame": 72,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ecd77ca8cdc4f19d5a15dd2c2b85f08a371f0ee828e7a6cf802854eeb09b7643"
+    },
+    {
+      "frame": 73,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "8741c82f43e27a3a74e4836fc98f10938aade44e4f0fa426ed1bc0b2857419a5"
+    },
+    {
+      "frame": 74,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d0ff1315146e58e4d6f0ea65d54eb2ceec5fbc198d345caf6031d32c731b8a7d"
+    },
+    {
+      "frame": 75,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "5995ecaeb3fa0cd9a2598fcb4ad64dca87186e00434d4a9cafa987d633937296"
+    },
+    {
+      "frame": 76,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "3fa63083468c13c946e18b164cb600bf8a5af06bea5d87f8426c16db5661bd30"
+    },
+    {
+      "frame": 77,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "5bf7640a12b22ed67ca5316f89fbf61e5de5456115247f367990cc7b75d711d4"
+    },
+    {
+      "frame": 78,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ab5f4d256dde201e99d3df0f04e6819d73df2fe35cf6b4c3e91016961a7f0816"
+    },
+    {
+      "frame": 79,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "69e233c3a6750de8f3cf8e573bf1bbce439ae98e5b7ced2b61158e1f1cb6271c"
+    },
+    {
+      "frame": 80,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "402b87ad5fb7eb215eca131d3905116381ee2cc6d036b2bbbc04fca916c56716"
+    },
+    {
+      "frame": 81,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "858e79efc96038612f6b615518e36b803f32a88ef371e056b021a7b72ea16d50"
+    },
+    {
+      "frame": 82,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "55f46ad47ec7028163ed42a0d93e9079533c065fb6540c3ee8d7eaaba064ed5b"
+    },
+    {
+      "frame": 83,
+      "source": "art-source/characters-v2/lyra/north-raw.png",
+      "source_sha256": "c4c92e1cad27a3305d851026b9db90652cbabe3a0a3f3699a2ff64ae3e06c4b5",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          134,
+          229
+        ],
+        "scale": 0.47,
+        "row_y": [
+          -4,
+          0,
+          0,
+          0
+        ]
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "e32e1cee30c41b95229bb90b1df7620956840ccf40f052eb344a70804ab1fe0c"
+    },
+    {
+      "frame": 84,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 0,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7e9152854c6f74a2d76140ffdaea3a1ce0a6831656cc9fd5f14e6a126e9584e1"
+    },
+    {
+      "frame": 85,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 1,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0fa3fd888545b1eefb5371db125687ef526d0b1326be9cc4cf46d2acdb303e7f"
+    },
+    {
+      "frame": 86,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 2,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "52ca4f797e6992fdd0cb027c6b7396b2fd42abfd2086ead2f3824acb2fbef6c4"
+    },
+    {
+      "frame": 87,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 3,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "7ccce9b91c91a432ef218925196e050565c722468ed4db885c7afd9fe8ef1e55"
+    },
+    {
+      "frame": 88,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 4,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "3c63d40cc531136822edc4e461947d9da00c09888de694bdbc60591de0f74607"
+    },
+    {
+      "frame": 89,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 5,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "674e9d7971b27f132e1b2f9929effc01a8f13623eeccfd90433eca48d34902fc"
+    },
+    {
+      "frame": 90,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 6,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0676caec1262d019059ccbf43265f176f7c306e4c2ba091dfc1745807104caa5"
+    },
+    {
+      "frame": 91,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 7,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "77877b8d96dbe699501bd32f9128ca03ade7b0df2dadaa44cc200429ae37571b"
+    },
+    {
+      "frame": 92,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 8,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "aa06c48116a3f959a6ad63db65532e612746afa5dbc002cd92dd7920d63028cf"
+    },
+    {
+      "frame": 93,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 9,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "1b2aea78758a39e44c417b30a33f79396bab0efd14cf40267a32a7f95aa5085f"
+    },
+    {
+      "frame": 94,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 10,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "5fa66a19493758599eae9f3336de834236b7d196d11a12eb61b5631448caf236"
+    },
+    {
+      "frame": 95,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 11,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "d7a2f4c26afad4ef626381d32eb568400fb8fc787d8b920b0a0b6c9a129134a0"
+    },
+    {
+      "frame": 96,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 12,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "cac8f1f070f1d62580fd6521a28ac46d77bb950f64004c1bd7a796429d7ed5f8"
+    },
+    {
+      "frame": 97,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 13,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "ba31d973c040af81146de9e1a4357adaba66debf628793e89ffc37f2420ce456"
+    },
+    {
+      "frame": 98,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 14,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0d8fd360e833b81f3ad5d764d0df40b559742676fabd99a7ce914148159d961d"
+    },
+    {
+      "frame": 99,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 15,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "f9e7364a4b057a52521ed43046cf7935dbc1ec634f2dba2f91f6f42b9fa448e9"
+    },
+    {
+      "frame": 100,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 16,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "53f5f84382482dd49c1927718a2a67253104bed746a215e682e7a7382007eb91"
+    },
+    {
+      "frame": 101,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 17,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "0b6b34ef6b04a7ef179998f52fc319cad7af369d44ef55c23db31ab79f220016"
+    },
+    {
+      "frame": 102,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 18,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9d03ab99c0a17b00bc060d9d342cfff2c719a4ff3537686c4124da3a79bdb468"
+    },
+    {
+      "frame": 103,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 19,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "40b52e3246a4448c3be25f7f355d8af92bd7f6905d6e190702860077a5d2aace"
+    },
+    {
+      "frame": 104,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 20,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "25b3fa99741b6abd2f83a1d31fbcf5006029f86856bb7b8807d0e8de49383979"
+    },
+    {
+      "frame": 105,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 21,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "df825d5d850446ef5f6847a8add33ae95505cb8c96f33cc9820c9e5a35835244"
+    },
+    {
+      "frame": 106,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 22,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "cb2102cf57461bc9a61dcba430cd1aa59c21579c810dbfab523032f49af7f37f"
+    },
+    {
+      "frame": 107,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 23,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "08f7dc7a76ce4e5a8d17457d8857a27a538b8c381b41ed97a05864e9dd87d88d"
+    },
+    {
+      "frame": 108,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 24,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "8554a468ce1d15c41683aea3add20b319cf63ff8c888d7cfb5f3fbe7c804dc2e"
+    },
+    {
+      "frame": 109,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 25,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "9b599987e41553d065db8d9c78acab2a2c9edcc253cb3137c1924e355bf89d17"
+    },
+    {
+      "frame": 110,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 26,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "54f6969af3c6634fd58a7d7fe6e504f6f7acdf2e4e4297d39329c1d54d4c0cd5"
+    },
+    {
+      "frame": 111,
+      "source": "art-source/characters-v2/lyra/west-raw.png",
+      "source_sha256": "ef6a4ff8f130fa4bb6c424b19823b2c2a7ab15d0cc48d102063fb0e6dee298df",
+      "source_cell": 27,
+      "raw_size": [
+        1774,
+        887
+      ],
+      "whole_sheet_nearest_size": [
+        2048,
+        1024
+      ],
+      "transform": {
+        "anchor": [
+          139,
+          236
+        ],
+        "scale": 0.46
+      },
+      "mirror_offset_x": 0,
+      "rgba_sha256": "1ab32e5b18ca95fea11ea2fda08372e61da1812c8c59b7a33e5adbfb06ec3574"
+    },
+    {
+      "frame": 112,
+      "source": "art-source/characters-v2/lyra/passing-raw.png",
+      "source_sha256": "c9c35e44774da10ecb81d6d0fbf442fd689f0a1f8635fc664b30581e867b704b",
+      "source_cell": 0,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": true,
+      "mirror_offset_x": 1,
+      "protected_body_frame": 3,
+      "protected_body_rgba_sha256": "63e75135043407c13ef679718ef920cbedfd354f95066c0302a0b8c46538c2ba",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "9fd31e0b0362757c50f345f65de5a3150e8fc1a04b9b368db9f684eb3fcdbdd5"
+    },
+    {
+      "frame": 113,
+      "source": "art-source/characters-v2/lyra/passing-raw.png",
+      "source_sha256": "c9c35e44774da10ecb81d6d0fbf442fd689f0a1f8635fc664b30581e867b704b",
+      "source_cell": 0,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": false,
+      "mirror_offset_x": 0,
+      "protected_body_frame": 7,
+      "protected_body_rgba_sha256": "132cb61f9a77b31b2b04c3d34a75e8ea047dd704c6b8b7838a63fd268a5ebd44",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "ba18625d970c16022d4b85a9cd47286134d51d533492b58d7af26d89b8f8ae83"
+    },
+    {
+      "frame": 114,
+      "source": "art-source/characters-v2/lyra/passing-raw.png",
+      "source_sha256": "c9c35e44774da10ecb81d6d0fbf442fd689f0a1f8635fc664b30581e867b704b",
+      "source_cell": 2,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": false,
+      "mirror_offset_x": 0,
+      "protected_body_frame": 59,
+      "protected_body_rgba_sha256": "84cef934693c79295b604314ae2fe95c761276b195f61d10312c3a1ce46b6eba",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "96bbed192d62b292f18d103a2e2b65131183ab68437cead48e35ed18f23f2746"
+    },
+    {
+      "frame": 115,
+      "source": "art-source/characters-v2/lyra/passing-raw.png",
+      "source_sha256": "c9c35e44774da10ecb81d6d0fbf442fd689f0a1f8635fc664b30581e867b704b",
+      "source_cell": 2,
+      "whole_sheet_nearest_size": [
+        256,
+        256
+      ],
+      "mirror_x": true,
+      "mirror_offset_x": 1,
+      "protected_body_frame": 63,
+      "protected_body_rgba_sha256": "86c2cace4c7496991d7326972b286b9b6a35366fca367480406433ced7382caf",
+      "allowed_roi": [
+        42,
+        83,
+        91,
+        123
+      ],
+      "outside_roi_changed_pixels": 0,
+      "rgba_sha256": "606189a3464bed9a18bba48effc67c3426b4064e3bb4124bb361ea42555fbbc5"
+    },
+    {
+      "frame": 116,
+      "source": "art-source/attack-settle-v1/selected-candidate/lyra/south.png",
+      "source_sha256": "a5eb3aa0c0c79f697883bac172482a11caa69f0dd139992e84fa07c4ab6eb01f",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "77116cb52540b152cf022f73a79c94378203ac68fc6d1cf7821a3af8073d8fe3"
+    },
+    {
+      "frame": 117,
+      "source": "art-source/attack-settle-v1/selected-candidate/lyra/east.png",
+      "source_sha256": "4fb8bce7827750c278e376943e6d141ac89872701659ce6f3b33660cbf000699",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "bdc2d415c97a51194c8fceb72e25a58827b1493ec2afb14561c9b583b189be3c"
+    },
+    {
+      "frame": 118,
+      "source": "art-source/attack-settle-v1/selected-candidate/lyra/north.png",
+      "source_sha256": "205db080125b2c5b2b1afd0c0092b3749e3209cdfd5e9cf7e4868e4b2ace73a3",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "8c146e7cafa31fba0b5a0ee5d6759c1a8e42eb1a4ce1dda015fe72e4ac54fede"
+    },
+    {
+      "frame": 119,
+      "source": "art-source/attack-settle-v1/selected-candidate/lyra/west.png",
+      "source_sha256": "f6bbd2fbc8f5459922b0ba871ccb03fc673fd1395fafa2042cf13198f3cc4f35",
+      "source_cell": 0,
+      "operation": "generated settle with existing same-view idle-head ownership",
+      "replay": "art-source/attack-settle-v1/register_settles.py",
+      "rgba_sha256": "fc8a78a754034db5a1c382036fa6c7bfc89d1f5374af9222e85c4d4a43e9bd42"
+    },
+    {
+      "frame": 120,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 1,
+      "rgba_sha256": "495e1680c4e0196dcb4210c1bfb8ef5fc2050491dcd07c8cd9b2606f3b74d820",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-south-p1",
+        "donor_rgba_sha256": "cc666f2d55d9c2c00b3b6002796c512167e62e8eba72022cd20a8aabab2e81ac",
+        "map_sha256": "31d358a0e421c41539b60dad4831b7cf3caaffbdbd2abab63691773f8d3e9116",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 121,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 2,
+      "rgba_sha256": "be449c6e52cb143837c80fd4b647bb81b428da6ef86c01f72ab9f5975a675cd1",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-south-p2",
+        "donor_rgba_sha256": "9168897fc2864b37e88432a204e4d7e161069968f73778dd8c06fe47e61ff9a2",
+        "map_sha256": "c57f33ac36c784fdbf4b289fa1961565bcfa07c5cbe2865d611c2f7772bfab18",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 122,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 5,
+      "rgba_sha256": "7327474f2ca8c7d5c4a2f29eb64d5c666253a35650a6618827dc49a5edb66d3d",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-south-p5",
+        "donor_rgba_sha256": "55f0a65c1746249287b45857a64b0374d9744d9e08d965f8e1fe2e7ecdeb754e",
+        "map_sha256": "05c7de9304d7916b026c2b06ed4f360ca00bdcba061f3944deb6a8653f17b1ef",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 123,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 6,
+      "rgba_sha256": "66f4fde7e3ae4fb1c84daadcaf7ef8d993e387d842a0f96dc7f96ff50a87fd78",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-south-p6",
+        "donor_rgba_sha256": "9395d95fc5611779de31671916c9edc14dbd2931e310016a38cf38239ea11078",
+        "map_sha256": "354aefb23024417a3670f7ff57ab61826a949140e2f9c3fe3dbb2d77c056c8e0",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 124,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 57,
+      "rgba_sha256": "19e28dbff78ab93a1efefdcf264a2d2d027ec73ad2c582f21b0d50231b141779",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-north-p1",
+        "donor_rgba_sha256": "0b153815e45284292a29c7e955568d2230c6cf6ecc418f328809a48b034bb7d4",
+        "map_sha256": "9655da8ed1866f98d073a6abb465e237d95e1c88c8633e31ea727f59125ab782",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 125,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 58,
+      "rgba_sha256": "7e02bb8ef9b042cb7b4f9fcf2ada770adce13bcbc58607371943d0baa5c0fe4a",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-north-p2",
+        "donor_rgba_sha256": "c1cd04821a373fec5a67dc8977324ec7f858e2e2b1afdea977deff3a1cacaaea",
+        "map_sha256": "1daad1717373adb815cbabc56876a3bf18f254fb87121ba74268e6b215ce5bef",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 126,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 62,
+      "rgba_sha256": "60fcc5fdc5eb66216723e350e70f3db88a030803caf15b0c663b8a201d917f75",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-north-p5",
+        "donor_rgba_sha256": "04e18b1e72ee5ad833d4660bf2676f436391bb6d66f3081a546189cd33e1c374",
+        "map_sha256": "f746410332040e53bd84a284aeb4a7d986553d5b4da30c4ab70d95e0c65f4519",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 127,
+      "source": "art-source/characters-v2/bake-v4/lyra/atlas.png",
+      "source_sha256": "efa55e4fcb9a73886cff641c13102460c535f9e40c3ede69de44c652d77e13b3",
+      "source_cell": 63,
+      "rgba_sha256": "8e15b870128e9b39a5749bd8e80bb51de4127d1cf96d0ffefe8719cc302b7ade",
+      "experimental_source_pixel_bridge": {
+        "package": "art-source/gait-bridge-v1",
+        "variant": "trial-b-boot-preserved",
+        "key": "lyra-north-p6",
+        "donor_rgba_sha256": "86c2cace4c7496991d7326972b286b9b6a35366fca367480406433ced7382caf",
+        "map_sha256": "868292c4b868535baba370e9acb25f1e8a414d5b4ca059e487431dcf5239012c",
+        "roi": [
+          43,
+          82,
+          86,
+          121
+        ],
+        "protected_support_unchanged": true,
+        "quality_status": "experimental; independent motion acceptance required"
+      }
+    },
+    {
+      "frame": 128,
+      "source": "art-source/dodge-head-v1/candidates/south.png",
+      "source_sha256": "24706e44bf40b492de0a4e299d9477f1298eadb1ce17b9a8c15822a62f1fe0d4",
+      "source_cell": 0,
+      "rgba_sha256": "c129b9e0897b99e541a971427a86d8c52ce42edf40c8cf3ee7aec24ecd6a415e",
+      "refinement": {
+        "source_frame": 116,
+        "source_rgba_sha256": "ac21dab0f71e6dada3241944ffef8289d2fec5b359921d8a21b3a5af48d9aee8",
+        "clips": [
+          "south_dodge"
+        ],
+        "operation": "Dodge-only owned head layer lowered3/3/4/4px, clear old owner, overlay exact nonzero RGBA; body retained under transparent shifted mask.",
+        "replay": "art-source/dodge-head-v1/replay_head.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/dodge-head-v1/frozen-plan.json",
+            "sha256": "c038af50649a5c28cf805f17829dfc0ce315b64662232b50eb198423f4f46712"
+          },
+          {
+            "path": "art-source/dodge-head-v1/replay_head.py",
+            "sha256": "f5eb43c4a34ca5874662e3a39a6c5604e0cdde7f31166c90d6aaca316828ef22"
+          },
+          {
+            "path": "art-source/dodge-head-v1/inputs/head-protection.json",
+            "sha256": "50478b63e42e4d3fb0a9cfd26ba223e1ae20e354d85b8960f47401e6c04f86ea"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 129,
+      "source": "art-source/dodge-head-v1/candidates/east.png",
+      "source_sha256": "b3679824af9422d08b35bd12430c2fabb742e08e364faa8204171977f619fad2",
+      "source_cell": 0,
+      "rgba_sha256": "7de74531bf4bc094e5f796bd83be9db98b5e99958b54424b7bdeeb5957dce912",
+      "refinement": {
+        "source_frame": 117,
+        "source_rgba_sha256": "3d5adcd79985317869d707e9e99dd991eded821e31a63272f8f63a249b0ac5ce",
+        "clips": [
+          "east_dodge"
+        ],
+        "operation": "Dodge-only owned head layer lowered3/3/4/4px, clear old owner, overlay exact nonzero RGBA; body retained under transparent shifted mask.",
+        "replay": "art-source/dodge-head-v1/replay_head.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/dodge-head-v1/frozen-plan.json",
+            "sha256": "c038af50649a5c28cf805f17829dfc0ce315b64662232b50eb198423f4f46712"
+          },
+          {
+            "path": "art-source/dodge-head-v1/replay_head.py",
+            "sha256": "f5eb43c4a34ca5874662e3a39a6c5604e0cdde7f31166c90d6aaca316828ef22"
+          },
+          {
+            "path": "art-source/dodge-head-v1/inputs/head-protection.json",
+            "sha256": "50478b63e42e4d3fb0a9cfd26ba223e1ae20e354d85b8960f47401e6c04f86ea"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 130,
+      "source": "art-source/dodge-head-v1/candidates/north.png",
+      "source_sha256": "9f75e715276d3628e52c60ab568dedb4aebbc058733006ff21778cda2659cfeb",
+      "source_cell": 0,
+      "rgba_sha256": "68bd2b4b543758ed7d2549c3b61b8448a98bb5ecb4638c51ca59b23f2775de32",
+      "refinement": {
+        "source_frame": 118,
+        "source_rgba_sha256": "e90996d354f6547b79062227b3d21e414875ad78adc44f66d0c2d11278c5138d",
+        "clips": [
+          "north_dodge"
+        ],
+        "operation": "Dodge-only owned head layer lowered3/3/4/4px, clear old owner, overlay exact nonzero RGBA; body retained under transparent shifted mask.",
+        "replay": "art-source/dodge-head-v1/replay_head.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/dodge-head-v1/frozen-plan.json",
+            "sha256": "c038af50649a5c28cf805f17829dfc0ce315b64662232b50eb198423f4f46712"
+          },
+          {
+            "path": "art-source/dodge-head-v1/replay_head.py",
+            "sha256": "f5eb43c4a34ca5874662e3a39a6c5604e0cdde7f31166c90d6aaca316828ef22"
+          },
+          {
+            "path": "art-source/dodge-head-v1/inputs/head-protection.json",
+            "sha256": "50478b63e42e4d3fb0a9cfd26ba223e1ae20e354d85b8960f47401e6c04f86ea"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 131,
+      "source": "art-source/dodge-head-v1/candidates/west.png",
+      "source_sha256": "851e0f46749cc552d4ae8099de7c252f8ad4a54ec7411eb67d4137705628cbea",
+      "source_cell": 0,
+      "rgba_sha256": "3540b6ff113733b422d28de2c972289dd2984d363adf9fb3f4f10ef752596905",
+      "refinement": {
+        "source_frame": 119,
+        "source_rgba_sha256": "5834dc78635f627c72c421bc74a2f39af4416e834ff9223c1ed13a1bca05acf9",
+        "clips": [
+          "west_dodge"
+        ],
+        "operation": "Dodge-only owned head layer lowered3/3/4/4px, clear old owner, overlay exact nonzero RGBA; body retained under transparent shifted mask.",
+        "replay": "art-source/dodge-head-v1/replay_head.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/dodge-head-v1/frozen-plan.json",
+            "sha256": "c038af50649a5c28cf805f17829dfc0ce315b64662232b50eb198423f4f46712"
+          },
+          {
+            "path": "art-source/dodge-head-v1/replay_head.py",
+            "sha256": "f5eb43c4a34ca5874662e3a39a6c5604e0cdde7f31166c90d6aaca316828ef22"
+          },
+          {
+            "path": "art-source/dodge-head-v1/inputs/head-protection.json",
+            "sha256": "50478b63e42e4d3fb0a9cfd26ba223e1ae20e354d85b8960f47401e6c04f86ea"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 132,
+      "source": "art-source/passing-boots-v1/candidate/lyra/passing-112.png",
+      "source_sha256": "a181746d0cffbd6fee1b56c671779729fac5c6c661cfba2a6dad56ca148cbb75",
+      "source_cell": 0,
+      "rgba_sha256": "7a3e6462e502921af9559c29cae057a30d60dbe4f3496efbaf57b92b0c1e6a4d",
+      "refinement": {
+        "source_frame": 112,
+        "source_rgba_sha256": "9fd31e0b0362757c50f345f65de5a3150e8fc1a04b9b368db9f684eb3fcdbdd5",
+        "clips": [
+          "south_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 133,
+      "source": "art-source/passing-boots-v1/candidate/lyra/passing-113.png",
+      "source_sha256": "10843f24ed8e9ee9f54574e1516e311e17286c2ca1de510623095261a4629dde",
+      "source_cell": 0,
+      "rgba_sha256": "dd68f8313b0d5a6b64d5616e77b1abe578a4703d662ce428dfe417207ac3437d",
+      "refinement": {
+        "source_frame": 113,
+        "source_rgba_sha256": "ba18625d970c16022d4b85a9cd47286134d51d533492b58d7af26d89b8f8ae83",
+        "clips": [
+          "south_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 134,
+      "source": "art-source/passing-boots-v1/candidate/lyra/passing-114.png",
+      "source_sha256": "bb690abc737e11d6ecf35131ca0cb855c5a133637aa02e7813bc3a3facf66a48",
+      "source_cell": 0,
+      "rgba_sha256": "dd686023e2af1a65b247ce9249f2d70bc9bed6d5e1bca31221d7d51d585a6b63",
+      "refinement": {
+        "source_frame": 114,
+        "source_rgba_sha256": "96bbed192d62b292f18d103a2e2b65131183ab68437cead48e35ed18f23f2746",
+        "clips": [
+          "north_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    },
+    {
+      "frame": 135,
+      "source": "art-source/passing-boots-v1/candidate/lyra/passing-115.png",
+      "source_sha256": "210f2067151278a83ca4d02386f3e784d5e15ac2e6cc06c9c735f450c4301f48",
+      "source_cell": 0,
+      "rgba_sha256": "e0dee8edaf9f3cc7f3e2edc50da8fdddc8e2b9fdecddec1c04159e44fcd9a729",
+      "refinement": {
+        "source_frame": 115,
+        "source_rgba_sha256": "606189a3464bed9a18bba48effc67c3426b4064e3bb4124bb361ea42555fbbc5",
+        "clips": [
+          "north_walk"
+        ],
+        "operation": "Literal compatible-view source boot toe/heel pixels; cuff/body y<96 and soleY preserved; exact journal ownership.",
+        "replay": "art-source/passing-boots-v1/replay.py",
+        "proof_inputs": [
+          {
+            "path": "art-source/passing-boots-v1/PLAN.json",
+            "sha256": "02c826ff414d9c62f40a1e2736418b31e80357034dab57a00d688790d933606c"
+          },
+          {
+            "path": "art-source/passing-boots-v1/replay.py",
+            "sha256": "d1159dba1eb3f9aaa8524ea956e657fc503dc8f0fe4a4029291ddc1e904afbbf"
+          }
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Four frozen cardinal banks plus two painted diagonal views; SW/NW conditionally mirrored around pivotX64 with+1px mirror correction.",
+    "Symmetric unarmed costume only; asymmetric accessories require new ownership/view paint.",
+    "No jump/flying or modular weapon artwork; feet collision and hand projection remain separate."
+  ],
+  "cast_hand_tracks": {
+    "south": [
+      [
+        87,
+        79
+      ],
+      [
+        69,
+        68
+      ],
+      [
+        69,
+        67
+      ],
+      [
+        99,
+        72
+      ],
+      [
+        98,
+        74
+      ],
+      [
+        87,
+        79
+      ]
+    ],
+    "east": [
+      [
+        82,
+        78
+      ],
+      [
+        81,
+        67
+      ],
+      [
+        85,
+        61
+      ],
+      [
+        95,
+        58
+      ],
+      [
+        83,
+        68
+      ],
+      [
+        83,
+        80
+      ]
+    ],
+    "north": [
+      [
+        85,
+        79
+      ],
+      [
+        82,
+        66
+      ],
+      [
+        83,
+        66
+      ],
+      [
+        94,
+        57
+      ],
+      [
+        82,
+        65
+      ],
+      [
+        85,
+        79
+      ]
+    ],
+    "west": [
+      [
+        49,
+        79
+      ],
+      [
+        48,
+        64
+      ],
+      [
+        41,
+        65
+      ],
+      [
+        34,
+        58
+      ],
+      [
+        32,
+        62
+      ],
+      [
+        46,
+        78
+      ]
+    ],
+    "southeast": [
+      [
+        82,
+        75
+      ],
+      [
+        82,
+        66
+      ],
+      [
+        83,
+        66
+      ],
+      [
+        100,
+        61
+      ],
+      [
+        82,
+        68
+      ],
+      [
+        82,
+        75
+      ]
+    ],
+    "northeast": [
+      [
+        82,
+        75
+      ],
+      [
+        82,
+        62
+      ],
+      [
+        83,
+        63
+      ],
+      [
+        96,
+        40
+      ],
+      [
+        84,
+        60
+      ],
+      [
+        82,
+        75
+      ]
+    ],
+    "southwest": [
+      [
+        46,
+        75
+      ],
+      [
+        46,
+        66
+      ],
+      [
+        45,
+        66
+      ],
+      [
+        28,
+        61
+      ],
+      [
+        46,
+        68
+      ],
+      [
+        46,
+        75
+      ]
+    ],
+    "northwest": [
+      [
+        46,
+        75
+      ],
+      [
+        46,
+        62
+      ],
+      [
+        45,
+        63
+      ],
+      [
+        32,
+        40
+      ],
+      [
+        44,
+        60
+      ],
+      [
+        46,
+        75
+      ]
+    ]
+  },
+  "directions": [
+    "south",
+    "southeast",
+    "east",
+    "northeast",
+    "north",
+    "northwest",
+    "west",
+    "southwest"
+  ],
+  "directional_source": "art-source/eight-direction-v1/registration-v6-all-charge-tracks.json"
+}

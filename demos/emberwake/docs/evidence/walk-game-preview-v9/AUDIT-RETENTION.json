@@ -1,0 +1,20 @@
+{
+  "source": "/home/astra/artifacts/emberwake-v9-evidence-audit-v1",
+  "retained": "docs/evidence/walk-game-preview-v9/audit",
+  "files": {
+    "ACTUAL-COPY-COMPARISON.json": "23cf2d9e1b34d91d929ed9e8ec954b30ad2861190929122dfc35e5e5893276bc",
+    "ACTUAL-INPUTS-BEFORE.json": "53b37f063d0bd7a0b54dcd673651a6422e21cd41265c75bc2cf61971354d8d5d",
+    "ANALYZER-REPLAY.json": "0c17081280473ae644244634948632241ce71db4064f4ea1930cf4b9639b2453",
+    "ANALYZER-REPLAY.log": "e1a85bd44746c745d06f063775e7b7a8b5304b117841ce487a94218c3d112bf9",
+    "AUDIT.md": "280e34f5e80215dd89c90a02fa117163f378a95e3541e894e61fcd5a55db064e",
+    "EVIDENCE-RECONCILIATION.json": "f9968b4946c7d38e7b7b323a34e2acafe929b31c1e370470f20cba95b8cdee2d",
+    "HASH-VERIFICATION.json": "f0b737d090030749efb17c75ef17ab85572d0e2223c238964ced454feb2f2b9c",
+    "HASH-VERIFICATION.log": "f0b737d090030749efb17c75ef17ab85572d0e2223c238964ced454feb2f2b9c",
+    "INPUTS-AFTER.json": "05516c0b2599424b780cd9faf8f0f23732a2c507ff9df3b48db2ba905d5f19aa",
+    "INPUTS-BEFORE.json": "e00bd0e402b01d10701d7d862cdc98fc28a363ceaef90408ca905bc4bfc15f0a",
+    "check_analyzer.js": "09ac508ecc06e33cb2b4006fb1271bf8c8f06f30979a3e770b9741fe48fc4d11",
+    "verify_hashes.py": "0ecef1abb28ad15888b5be325120f0b2c3c4b21df743fc24a703f45ca826255f",
+    "ADDENDUM.md": "530b9acc3654171dc5614a56a9173a7a7176f7fd4880d20b5af24fd303a0a7e8"
+  },
+  "scope": "Read-only evidence and observer audit passed; no art/contact/public acceptance."
+}

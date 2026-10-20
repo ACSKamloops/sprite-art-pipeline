@@ -1,0 +1,170 @@
+{
+  "schema": "selected-geometry-replay-correction-resolution/v1",
+  "initial_targets": {
+    "GEOMETRY-CROSS-REVIEW.md": {
+      "commit": "ecc664b17ed277235ce4b347e6d49ce89bd3f577",
+      "sha256": "63e6e110ca51171f5917f49a847cab2e44e84391bcf5145c13a51b2617442e3d"
+    },
+    "GEOMETRY-CROSS-REVIEW.json": {
+      "commit": "ecc664b17ed277235ce4b347e6d49ce89bd3f577",
+      "sha256": "2c010fe0ca75c7166ec576721790fb61c838a1786f0595259990a2a6abb7892f"
+    }
+  },
+  "reviewed_final_commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71",
+  "correction_commits": [
+    "728e3ed50078f16c34bb585d45e997d844ac009d",
+    "f325b89e31a614c0b7cbcaf4d9f40d20c442b203",
+    "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+  ],
+  "method": "Read immutable Git blobs; source/AST literal and documentation spotcheck only. No Node/engine/packaging/provider reruns.",
+  "rows": [
+    {
+      "id": "G01",
+      "status": "resolved",
+      "finding": "The negative deep-copies the already successful complete recipe and changes only its first layer type. It requires the specific unknown type diagnostic and excludes missing-ramps errors. The previously successful positive recipe supplies the admission control.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            157
+          ],
+          "literal": "unknown=copy.deepcopy(recipe)",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            158
+          ],
+          "literal": "unknown['layers'][0]['type']='private-neural-magic'",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            164
+          ],
+          "literal": "'private-neural-magic' in message and 'unknown' in message.lower()",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            165
+          ],
+          "literal": "and 'ramps must' not in message.lower(),message)",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        }
+      ]
+    },
+    {
+      "id": "G02",
+      "status": "resolved",
+      "finding": "Recipe documentation now explicitly identifies parented translation with a declared anchor and states that unit scale/zero rotation do not independently distinguish anchor-dependent rotation/scale.",
+      "anchors": [
+        {
+          "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+          "sha256": "ecfd7d63f442c6352acb1a4f2a88a06fe2ecd08a3133203d9461148c7f640b81",
+          "one_based_lines": [
+            15
+          ],
+          "literal": "parented translation with a declared anchor",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        },
+        {
+          "path": "docs/LOCAL-REPLAY-GEOMETRY.md",
+          "sha256": "ecfd7d63f442c6352acb1a4f2a88a06fe2ecd08a3133203d9461148c7f640b81",
+          "one_based_lines": [
+            15
+          ],
+          "literal": "unit scale and zero rotation",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        }
+      ]
+    },
+    {
+      "id": "G03",
+      "status": "resolved-known-owner-fix",
+      "finding": "Output leaf identity is checked for symlink/existence before resolving. This was the root-announced fix, not a new discovery by this reviewer. Routine order is added.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            358
+          ],
+          "literal": "output=Path(output).absolute()",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            359
+          ],
+          "literal": "if output.is_symlink() or output.exists():",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        }
+      ]
+    },
+    {
+      "id": "G04",
+      "status": "resolved-metadata-only",
+      "finding": "F09 operation order now places body-only export before effect render/hash; F10 explicitly conditions engine execution on availability.",
+      "anchors": [
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            377
+          ],
+          "literal": "'F09':['owned body sequence','body-only export','pinned procedural arc render'",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        },
+        {
+          "path": "sprite_workbench/replay_geometry.py",
+          "sha256": "f53197ff8b619cbaf91067d30cade4984eb12740bc624887f3830d3294d88bcb",
+          "one_based_lines": [
+            382
+          ],
+          "literal": "Godot availability check; if available, warmed finite/once/infinite engine checks",
+          "commit": "2de796e8f6ac7702640c83942f8ca44f2e1a2b71"
+        }
+      ]
+    }
+  ],
+  "routine_order_ast": {
+    "F02": [
+      "supplied pixels and disjoint ownership masks",
+      "parented scene and anchored hold tracks",
+      "independent destination oracle",
+      "overlap/frozen-source negative controls",
+      "guarded one-based fine edit",
+      "editable export and fresh Store reconstruction"
+    ],
+    "F09": [
+      "owned body sequence",
+      "body-only export",
+      "pinned procedural arc render",
+      "retained eight-frame hash oracle",
+      "rational back/body/front composition",
+      "fine edit",
+      "editable export and fresh Store reconstruction"
+    ],
+    "F10": [
+      "supplied unequal-clock sequence",
+      "PNG/sheet/APNG/GIF/editable/Godot/review export",
+      "fresh Store reload",
+      "exact decode and rational clock checks",
+      "unsupported format controls",
+      "overwrite preservation control",
+      "Godot availability check; if available, warmed finite/once/infinite engine checks"
+    ]
+  },
+  "remaining_required_corrections": [],
+  "scope": "Initial frozen findings/32 source anchors remain preserved; seven supported groups remain selected, not whole-family/vendor/art approval. Root runtime totals and wheel parity are not independently reverified here."
+}

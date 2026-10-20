@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/home/astra/.local/bin/libresprite",
+    "--batch",
+    "/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay/example/output/editor/asset.aseprite",
+    "--save-as",
+    "/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay/native-resaved.aseprite"
+  ],
+  "exit": 0,
+  "stdout": "Loading file \"/home/astra/.config/libresprite/palettes/./default.ase\" (ase)\nUsing loader for format ase,aseprite\nLoading file \"/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay/example/output/editor/asset.aseprite\" (aseprite)\nUsing loader for format ase,aseprite\n",
+  "stderr": ""
+}

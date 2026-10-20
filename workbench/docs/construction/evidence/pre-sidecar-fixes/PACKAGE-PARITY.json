@@ -1,0 +1,23 @@
+{
+  "status": "completed",
+  "package_files": 88,
+  "all_package_files_identical": true,
+  "sequence_artifact_identical": true,
+  "sequence": "055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a",
+  "checkout_checks": 8,
+  "installed_checks": 8,
+  "checkout_run": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-checkout",
+  "installed_run": "/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay",
+  "wheel": "/home/astra/projects/pixellab-local-workbench/dist/construction-20261012/sprite_workbench-0.3.0-py3-none-any.whl",
+  "wheel_sha256": "bc728e327e59e210ec5349052ae465c11323129d2598c2e7457d4728cb3b4582",
+  "wheel_bytes": 561464,
+  "package_version": "0.3.0",
+  "artistic_acceptance": "unreviewed",
+  "continuous_motion_viewed": false,
+  "provider_calls": 0,
+  "initial_build_attempt": {
+    "python": "/home/astra/projects/pixellab-local-workbench/.venv/bin/python",
+    "failure": "No module named pip; no wheel produced",
+    "resolution": "Used separately pinned proof environment pip/setuptools/wheel"
+  }
+}

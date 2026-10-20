@@ -1,0 +1,251 @@
+{
+  "scope": "Exact recursive JSON leaf diff of two pinned public OpenAPI documents; no runtime or handler/model recovery.",
+  "previous_sha256": "495a3cda30b8102b70dcbcd0b2ea184b31fc7186ed1503a43d6f266d0759084a",
+  "current_sha256": "8cb24ecdd26e9fe48639dc789e44f32b3c78c29e8da8c3121f23ab360ade5dad",
+  "previous_operations": 111,
+  "current_operations": 112,
+  "added": [
+    "POST /normal-map"
+  ],
+  "removed": [],
+  "changed": [
+    "POST /animate-character",
+    "POST /animate-with-text-v2",
+    "POST /characters/animations",
+    "POST /generate-image-v2",
+    "POST /generate-with-style-v2"
+  ],
+  "previous_schema_count": 271,
+  "current_schema_count": 273,
+  "schemas_added": [
+    "NormalMapRequest",
+    "NormalMapResponse"
+  ],
+  "schemas_removed": [],
+  "schemas_changed": [
+    "AnimateWithTextV2Request",
+    "CreateCharacterAnimationRequest",
+    "TargetPalette"
+  ],
+  "whole_documents_json_equal": false,
+  "leaf_changes": [
+    {
+      "pointer": "/components/schemas/AnimateWithTextV2Request/properties/target_palette/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "0303bb29242e48ecd7f50d7e148e4b7572c33236980f419a8010bf3f9769f9a7",
+        "characters": 214,
+        "value": "Colours the frames must use and/or a colour cap, shared by all frames: {\"colors\": [\"#081820\", \"#346856\", \"#88c070\", \"#e0f8d0\"], \"name\": \"Game Boy\", \"max_colors\": 4}. The reference image is put on the palette first."
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "1b4484d6cd6c147fb4f1439343c8ba69ad877ae7f719c61cc90734bd686fd14a",
+        "characters": 264,
+        "value": "Colours the frames must use and/or a colour cap, shared by all frames: {\"colors\": [\"#081820\", \"#346856\", \"#88c070\", \"#e0f8d0\"], \"name\": \"Game Boy\", \"max_colors\": 4}. The reference image is put on the palette first. `smart` is for single images and is refused here."
+      }
+    },
+    {
+      "pointer": "/components/schemas/CreateCharacterAnimationRequest/properties/mode/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "c7337d84aab585934f58fb5d4ac4f3d1589049cbd5563b0a665fbefcb8dbe212",
+        "characters": 819
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "b392d1362a905b3a1dbc97053d2dbacb4820838da64ee3ea09ac75ef8a84943a",
+        "characters": 905
+      }
+    },
+    {
+      "pointer": "/components/schemas/NormalMapRequest",
+      "change": "added",
+      "new": {
+        "json_type": "dict",
+        "canonical_value_sha256": "4ad6ffd0b686bf28bb492ebaeca7dacf23a03ef2b42ba836de70460086af0f81"
+      }
+    },
+    {
+      "pointer": "/components/schemas/NormalMapResponse",
+      "change": "added",
+      "new": {
+        "json_type": "dict",
+        "canonical_value_sha256": "89cb576e29de2d72625dd42f5110da8c5857c17905a86db1a6d11071a337c675"
+      }
+    },
+    {
+      "pointer": "/components/schemas/TargetPalette/properties/smart",
+      "change": "added",
+      "new": {
+        "json_type": "dict",
+        "canonical_value_sha256": "87432a9b741fe4472ce7f01b61ca0a3c7dc87791510d53031e98979014896592"
+      }
+    },
+    {
+      "pointer": "/paths/~1animate-character/post/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "b4cce492c002333773949e66e44976db6126c38fd0f0c819a473899391290746",
+        "characters": 2973
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "f740172684cb000dcdb3bcc9f88c265b7de9ffa46819508abf82b8c53ba28adc",
+        "characters": 3084
+      }
+    },
+    {
+      "pointer": "/paths/~1animate-with-text-v2/post/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "05d4cf27a7bab06d98cac7e492a4b7ac12a3840cea9b55cb1dcad937884933ed",
+        "characters": 2058
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "4644a0ecd9f7c5d90c9c969108a8691c685c417942c1a0dbfeafc6c4a044124d",
+        "characters": 2252
+      }
+    },
+    {
+      "pointer": "/paths/~1characters~1animations/post/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "240e7f24727f2406c9007fc33f713127bbd88290b7e97bc896250543ae2ae615",
+        "characters": 549
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "d65cc334e531b2268b7d175863f25dca854aa3982460cc02e38f5b178bc0f5f8",
+        "characters": 621
+      }
+    },
+    {
+      "pointer": "/paths/~1generate-image-v2/post/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "6e20547320390c0a749a440401ee793b868faab73ee7cf8bb4864f09974255a5",
+        "characters": 1397
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "3925256ee72bb5403612a2e0b5aa864167dd71db41cde6d98012f8ce124f3f1b",
+        "characters": 1879
+      }
+    },
+    {
+      "pointer": "/paths/~1generate-with-style-v2/post/description",
+      "change": "changed",
+      "old": {
+        "json_type": "str",
+        "canonical_value_sha256": "cc0e3ee4eeea47c17a47ee29eacd094fc5f8c9fc6034e05d5b2bebb8148f8d56",
+        "characters": 1536
+      },
+      "new": {
+        "json_type": "str",
+        "canonical_value_sha256": "0200a8dd67b5ca76ec9561ab6f8e3a3ae6859bcedacbecd8e3f3b7954fd2693a",
+        "characters": 1757
+      }
+    },
+    {
+      "pointer": "/paths/~1normal-map",
+      "change": "added",
+      "new": {
+        "json_type": "dict",
+        "canonical_value_sha256": "76a3ad87a9d20dde5897d5dcdd9b3de4e362c5f086bb142439a129bed5e4e215"
+      }
+    }
+  ],
+  "operation_description_changes": [
+    {
+      "operation": "POST /animate-character",
+      "removed_description_lines": [
+        "- Template mode: 1 generation per direction"
+      ],
+      "added_description_lines": [
+        "- Template mode: 1 generation per direction; canvases over ~100px run in batches billed 1 each (up to 3 at 128px, 5 at 180px, one per clip frame at 256px)"
+      ]
+    },
+    {
+      "operation": "POST /animate-with-text-v2",
+      "removed_description_lines": [],
+      "added_description_lines": [
+        "- Optional colour palette (`target_palette`, beta): 2-256 hex colours; the reference is put on",
+        "  the palette first and every frame uses only these colours. `max_colors` caps the whole animation"
+      ]
+    },
+    {
+      "operation": "POST /characters/animations",
+      "removed_description_lines": [
+        "- **template**: Provide template_animation_id for skeleton-based animation (1 gen/direction)."
+      ],
+      "added_description_lines": [
+        "- **template**: Provide template_animation_id for skeleton-based animation (1 gen/direction; canvases over ~100px bill per batch, up to one per clip frame at 256px)."
+      ]
+    },
+    {
+      "operation": "POST /generate-image-v2",
+      "removed_description_lines": [
+        "- Up to 42px: 64 images (8x8 grid)",
+        "- 43-85px: 16 images (4x4 grid)"
+      ],
+      "added_description_lines": [
+        "- Optional colour palette (`target_palette`, beta): 2-256 hex colours the image is",
+        "  drawn for and every result pixel is put on (1-bit, Game Boy, PICO-8, NES, any",
+        "  Lospec palette as hex), plus an optional `max_colors` cap per image. With a",
+        "  palette, set `style_options.color_palette` to false - the palette sets the colours",
+        "- Up to 32px: 64 images (8x8 grid)",
+        "- 33-35px: 49 images (7x7 grid)",
+        "- 36-41px: 36 images (6x6 grid)",
+        "- 42-50px: 25 images (5x5 grid)",
+        "- 51-64px: 16 images (4x4 grid)",
+        "- 65-84px: 9 images (3x3 grid)",
+        "- 85px: 16 images (4x4 grid)"
+      ]
+    },
+    {
+      "operation": "POST /generate-with-style-v2",
+      "removed_description_lines": [
+        "- 16-42 pixels: Returns 64 images (8x8 grid)",
+        "- 43-85 pixels: Returns 16 images (4x4 grid)"
+      ],
+      "added_description_lines": [
+        "- 16-32 pixels: Returns 64 images (8x8 grid)",
+        "- 33-35 pixels: Returns 49 images (7x7 grid)",
+        "- 36-41 pixels: Returns 36 images (6x6 grid)",
+        "- 42-50 pixels: Returns 25 images (5x5 grid)",
+        "- 51-64 pixels: Returns 16 images (4x4 grid)",
+        "- 65-84 pixels: Returns 9 images (3x3 grid)",
+        "- 85 pixels: Returns 16 images (4x4 grid)"
+      ]
+    }
+  ],
+  "current_semantic_additions": [
+    {
+      "id": "normal-map",
+      "status": "declared_private_method_unprovided",
+      "summary": "Async sprite/strip normal-map generation, same-size PNG, OpenGL/DirectX convention. Per-frame8..512px and<=32frames are prose; schema frames has minimum1 and no maximum."
+    },
+    {
+      "id": "smart-target-palette",
+      "status": "declared_private_method_unprovided",
+      "summary": "TargetPalette.smart boolean defaultsfalse. Beta single-image semantic object/material recoloring; explicit colors required by prose. AnimateWithTextV2Request explicitly refuses smart."
+    },
+    {
+      "id": "pro-output-grid-size-buckets",
+      "status": "declared_output_contract_not_runtime_verified",
+      "summary": "Generate-image-v2 and generate-with-style-v2 now document finer output-count buckets; historical42/85 thresholds are not current universal defaults."
+    },
+    {
+      "id": "template-animation-batch-billing",
+      "status": "declared_accounting_not_runtime_verified",
+      "summary": "Template animation cost description now bills batches above about100px; current prose includes3batchesat128,5at180,up tooneperclipframeat256. Not an observed debit or scheduler algorithm."
+    }
+  ]
+}

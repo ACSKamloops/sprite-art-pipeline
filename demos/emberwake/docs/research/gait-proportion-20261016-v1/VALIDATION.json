@@ -1,0 +1,54 @@
+{
+  "status": "RESEARCH COMPLETE; proposed experiment unexecuted",
+  "input_files": 292,
+  "all_input_files_unchanged_since_receipt": true,
+  "source_checks": [
+    {
+      "id": "S1-openai-image-generation",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    },
+    {
+      "id": "S2-openai-image-prompting-cookbook",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    },
+    {
+      "id": "S3-harmony-rough-construction",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    },
+    {
+      "id": "S4-harmony-breakdowns",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    },
+    {
+      "id": "S5-spine-bones",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    },
+    {
+      "id": "S6-spine-meshes",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    },
+    {
+      "id": "S7-openai-image-prompting-current",
+      "http_200": true,
+      "raw_hash_matches": true,
+      "text_hash_matches": true
+    }
+  ],
+  "art_generation_calls": 0,
+  "art_edit_operations": 0,
+  "critic_scores": 0,
+  "canonical_writes": 0,
+  "limitations": "No original-canonical clock comparison, experiment, artwork acceptance, engine test, private model inspection or success-rate estimate executed in this research."
+}

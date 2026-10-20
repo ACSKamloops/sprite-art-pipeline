@@ -1,0 +1,35 @@
+# Selected diagonal contact diagnostic
+
+The selected art is not demonstrated world contact at the current walk speed. The strongest same-material support hypothesis, Lyra SE04→06, moves its sole and ankle backward only3.7335 game pixels while the root advances17.775 pixels:14.0415 pixels of forward residual over112.5ms. That is about21.0% cancellation. This is evidence of a contact/speed gap **if those poses are intended to carry weight**, not proof of the actual contact schedule from PNGs. Stylized sliding may still be an intentional presentation choice.
+
+Read-only study of hash-verified v9 override PNGs; no game code, timing, speed, generated art, editor projects or source packages changed. The intake-time canonical manifests still named v6; their.66 draw scale,128 stage,64/112 pivot and eight9/160 holds are the runtime calculation basis. Root was integrating v9 concurrently. No claim that the sampled canonical atlas was already displaying v9.
+
+| Selected interval | Evidence and qualification | Backward travel | Root travel | Forward residual | Side residual |
+|---|---|---:|---:|---:|---:|
+| Lyra SE04→06 | Same06 heel, forefoot and ankle texels; plausible flat-sole support |3.7335|17.7750|14.0415|0.0000|
+| Brann SE05→06 | Same06 donor at[-1,+1] then[0,0]; lowered broad sole, but producer calls05 recovery |0.0000|8.8875|8.8875|0.9334|
+| Rowan SE04→06 sole edge | Different source drawings; conditional geometry only |6.0670|17.7750|11.7080|1.4001|
+
+Units are world pixels at draw scale.66. Camera zoom is default1. Screen-space direction is SE=(+1,+1)/sqrt2, NE=(+1,-1)/sqrt2. Movement is direct normalized2D input, with no separate isometric basis. Camera following subtracts the same camera displacement from boot and ground, so it cannot remove their relative drift. Window stretching can multiply screenshot pixels; these are viewport/world units, not CSS or monitor pixels.
+
+Lyra04/05 source maps place the same06 donor samples at(+4,+4),(+2,+2), then identity. Literal heel=(49,109), forefoot=(57,110), ankle=(51,101) in06. All three give the same travel, rather than a single lowest-row proxy. Their current lower paint remains fixed through the stance-spring body change.
+
+Brann SE05 uses actual06 foreground donor at[-1,+1], not the earlier full-lower04/05 branch. Its heel, forefoot and ankle correspond through the actual selected source map.05→06 moves(+1,-1), transverse to SE: changing speed alone cannot cancel that vector. This interval is a load/return hypothesis only; a short already-released support is possible. The inherited sole-window measurements were read and retained, but their maxY values alone are not used as contact evidence.
+
+Rowan04 is a complete00 boot donor translated[-18,+4].05 uses new generated visible paint, then a bounded-3px horizontal distal path correction.06 retains its own existing paint. The literal sole-edge points(58,115)→(59,112)→(53,107) are homologous visual choices, not a material track. Heel, forefoot and ankle alternatives are recorded separately in CSV; their total04→06 backward fits differ. No inferred universal Rowan stride or contact is claimed. The first sole point has partial alpha and is explicitly recorded as such.
+
+Brann rear Q05→06→07 is excluded from stance fits. Its actual07 donor translates[-7,0],[-4,-1],then identity, moving **forward**3.2668 game pixels along NE over two intervals, with3.2668 transverse travel. It shows a bent/tilted recovery boot. Brann front P07→00 is also excluded: the shorter projected return moves forward0.4667 game pixels along SE at wrap. Anatomical depth, a tilted shoe underside and a lower screen-y contour do not establish a ground plane. Other rear-foot intervals are not asserted planted because the available art/source changes do not supply a sufficiently strong material-and-contact correspondence.
+
+For start-of-pose endpoints i,j, delta=.66*(anchor_j-anchor_i), root=158*(j-i)*.05625*direction. The forward residual is dot(root+delta,direction); side residual uses the perpendicular axis. The fixed pivot cancels from these differences. At steady speed each full held pose independently drifts8.8875 world pixels while its raster remains fixed; half a hold drifts4.44375. CSV records the sawtooth Lyra trace, including the distinction between just-before and just-after a pose boundary. The04→06 table spans two start-to-start intervals; it does not assert that all of06 remains planted for another hold.
+
+One calculation-only speed fit for Lyra is33.1869px/s. At158, a uniform clock matching that same paint interval would have a~.09452s cycle, with much faster pose changes. A phase-linked calculation retaining the71.1px stride would assign1.8668px to each of the two measured intervals and~11.2277px to each of the other six. Such a physical-root policy would affect controls and the other foot. These are comparisons, not recommendations. A whole-actor correction would accumulate14.0415px over the measured Lyra interval; no correction is rendered or approved. Brann's transverse motion and Rowan's changing drawings prevent presenting one scalar fit as an all-character solution.
+
+Limits: static source calculations only. No collision-aware root trace, Godot imported-pixel/GPU readback, fractional-root snapping, live held-key proof, floor contact, inferred skeleton, sole-height reconstruction, turn blend, acceleration or human normal-speed acceptance.158 applies to steady unobstructed movement; acceleration2100 reaches it after~75.24ms from rest, and collisions/control states alter actual root travel. The graphics use84px approximate nearest stage previews; all measurements use exact.66, not84/128. Texel centers are consistent and the constant half-pixel convention cancels from displacement. If each endpoint were chosen within±1native pixel on each axis, projected total displacement can vary by at most1.8668world pixels; that does not explain Lyra's14.0415px residual.
+
+The next genuine engine-contact gate would bind declared per-leg support intervals and source-attached material samples to actual unobstructed input/root/frame traces, compare boot-to-fixed-world-marker travel throughout each hold and at wrap, and inspect normal-speed presentation. That would establish whether the inferred gap is the intended stylization or visible skating. This study supplies candidate witnesses for that gate and does not prescribe a game-speed change.
+
+Run portable analysis with Python3,NumPy and Pillow:
+
+    python3 -B scripts/analyze.py --output /absolute/fresh/output
+
+`results-final/ANCHORS.json` holds38 literal source/RGBA witnesses; all direct sample RGBA comparisons pass. `CALCULATIONS.csv`, `HELD-POSE-TRACE.csv` and `CALCULATION-ONLY-VARIANTS.json` retain the arithmetic. `contact-full8-{128,84}-{light,dark}.png` shows all selected poses and marked samples; each named run also has a6x coordinate/source crop. Inputs are portable local copies with intake ledgers. The earlier full-lower Brann maps are retained only as rejected ancestor evidence; `REJECTED-ANCESTOR-MAP.json` records why they cannot support selected-v9 claims.

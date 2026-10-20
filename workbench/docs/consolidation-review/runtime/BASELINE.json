@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "code_commit": "530baf35598cdbef24133783dd063bd021d1aa9c",
+  "command": "python3 -m pytest -q tests/test_consolidation_runtime_review.py --junitxml=.test-tmp/consolidation-baseline.xml --basetemp .test-tmp/consolidation-baseline",
+  "result": {
+    "failed": 3,
+    "passed": 1,
+    "exit_code": 1
+  },
+  "findings": [
+    {
+      "id": "R01",
+      "severity": "high",
+      "failure": "admitted ownership:null scene crashes editable export with AttributeError"
+    },
+    {
+      "id": "R02",
+      "severity": "high",
+      "failure": "string false permits unsupported GIF acknowledgment and subsequent head publication"
+    },
+    {
+      "id": "R03",
+      "severity": "medium",
+      "failure": "standalone guarded paste omits parent and replay decision; contradicts every-edit lineage wording"
+    },
+    {
+      "id": "O01",
+      "classification": "policy observation",
+      "behavior": "direct failed plan retains publication from earlier explicit step; no whole-plan rollback claimed"
+    }
+  ],
+  "sources": {
+    "README.md": "b6ca18305e24b4110221d5569d50dc9e4849cd0eaa1c325c11e7e90a56d680bb",
+    "docs/COVERAGE.md": "9ac31358c898677e1b1b389604987152ab982a3acab6248105611bdf7f1d9563",
+    "docs/WHOLE-FLOW-COMPARISONS.md": "1f5841522a005602f68209893b6073f322c29a472a0711b4f6415bb43b2f9ee3",
+    "docs/LATEST-VERIFICATION.json": "88a9c42abd61a0934dae48a4d69755c87c4e882949280b463842edeb15873a02",
+    "sprite_workbench/export.py": "61f3fd86ab395a57265f0d87f5b83c1c6a878d51ae147eaadaf1d906a264195c",
+    "sprite_workbench/pipeline.py": "1bc91bb5aa962db933afb0855e526b121d98b4312519e25624ad41dc4ae6254f",
+    "sprite_workbench/raster.py": "a88a3136d31c35149086005063b9b9faa1a1aab4b175db65a4d09e5bc718a0f7",
+    "sprite_workbench/jobs.py": "fda29181abdfdf930b6fc93cbeae477c7ed960e602deb65d6e1c1fae651c6173",
+    "sprite_workbench/library.py": "7f3bb4f15787f3ffc675692af19d837e6702fc44be9cad949d55ed4e1439fd16",
+    "tests/test_consolidation_runtime_review.py": "329c86e9bd54400e63bb2ba7dd508bd03fc111ba5060acecdf0060e1b208cfdf"
+  },
+  "limits": [
+    "No producer/model/provider/network calls",
+    "Four claim-driven controls, not all159 baseline tests",
+    "No visual quality acceptance",
+    "Baseline failure tests retained unchanged in BASELINE-TESTS.py"
+  ]
+}

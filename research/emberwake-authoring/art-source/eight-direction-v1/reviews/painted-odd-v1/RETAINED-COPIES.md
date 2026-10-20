@@ -1,0 +1,1 @@
+Frozen output and exact reviewed inputs retained from /home/astra/artifacts/emberwake-painted-odd-review. No scores or input paths rewritten. Mapping: A is the single-call new odd-paint trial; B is the deeper coherent-upper control. The report prefers A but remains below target. OUTPUTS.sha256 is the original output ledger; retained-inputs/ contains original nominated inputs.

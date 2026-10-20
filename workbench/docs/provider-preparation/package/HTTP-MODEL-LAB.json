@@ -1,0 +1,33 @@
+{
+  "static": [
+    {
+      "endpoint": "/",
+      "file": "web/index.html",
+      "sha256": "8312836372afa30de8b341ad543e9a96f965fe01e6366e238ceef1511dbf4e98"
+    },
+    {
+      "endpoint": "/app.js",
+      "file": "web/app.js",
+      "sha256": "b6982240156fb2b267bb06f72b73f8e9152c1987b33887911795e685c41a3e58"
+    },
+    {
+      "endpoint": "/style.css",
+      "file": "web/style.css",
+      "sha256": "fce1060796bc135de774035c39a08efdf0a16a602f49241814806b516f565597"
+    },
+    {
+      "endpoint": "/source-vfx.js",
+      "file": "web/source-vfx.js",
+      "sha256": "9184924d041c37c5ea72268f5dca31a16a39e8c9488c08feacd6190d0fe18e73"
+    },
+    {
+      "endpoint": "/model-lab.js",
+      "file": "web/model-lab.js",
+      "sha256": "41dd13a868dd98696239fc559d677f8a1739ce8bafab75cf1ee21242146f0837"
+    }
+  ],
+  "catalog_exact": true,
+  "execute_status": "unsupported",
+  "execute_http_status": 400,
+  "comparison_ready": false
+}

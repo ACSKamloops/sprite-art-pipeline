@@ -1,0 +1,15 @@
+{
+  "schema": "imagegen-sprite-skill-verification/v1",
+  "helper_sha256": "7c34b5c002c7e624b0fdb00f6add6514c5a88f9ee5bca2dced494eedd8463abb",
+  "offline_specs_replayed_and_baked": [
+    "extension",
+    "recoil",
+    "recoil-finished"
+  ],
+  "all_retained_expected_RGBA_exact": true,
+  "finished_recoil_actual_changed_RGBA_pixels": 18,
+  "independent_forward_test": "forward-test.json",
+  "negative_tests": "negative-tests.json",
+  "generation_calls": 0,
+  "boundary": "Validation of this packaged deterministic helper and retained examples. No new aesthetic scores, model generation or runtime acceptance."
+}

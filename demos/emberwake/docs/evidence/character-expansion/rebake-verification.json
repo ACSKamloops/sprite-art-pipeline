@@ -1,0 +1,67 @@
+{
+  "all_byte_identical": true,
+  "fresh_independent_bakes": 2,
+  "selected_bank_and_actual_runtime_match": true,
+  "unchanged_all_48_clip_clocks": true,
+  "reproduced_files": 14,
+  "files": [
+    {
+      "file": "lyra/BAKE-RECEIPT.json",
+      "sha256": "2043934dc3b3dd39dec641dff2171d7973be74da23e0158615a798aa9e8cf257"
+    },
+    {
+      "file": "lyra/selected-contact-sheet.png",
+      "sha256": "2f9addac851f6d7dc75bc69e0b9e706401368f37c434a980cc558a99599af14b"
+    },
+    {
+      "file": "lyra/atlas.png",
+      "sha256": "f177d69482bac4c4a6c1c171e5679e5da1c1c45fa11fbf6b56a0fbf4f5fae901"
+    },
+    {
+      "file": "lyra/portrait.png",
+      "sha256": "ccbb9dba0cccdfa5c2955a3e3c20bfa7ab62b41600cdd47ecd2a53b38aacf31d"
+    },
+    {
+      "file": "lyra/GAIT-REPAIR-RECEIPT.json",
+      "sha256": "3e929f36062280c99438dc2daad8a1b427701995320691b082201719af76f3ba"
+    },
+    {
+      "file": "lyra/animations.json",
+      "sha256": "70b8de14097ecb82ba0ff9aec2d92e1c965c67f8010fbeffa82b50236658123f"
+    },
+    {
+      "file": "brann/BAKE-RECEIPT.json",
+      "sha256": "254e8c94fea46ca326424c3a821ef057f64eb338462c0c56b8f7fcd7e7865b3a"
+    },
+    {
+      "file": "brann/selected-contact-sheet.png",
+      "sha256": "4f57df5eadffd4646806d34795f92033a2f50e7adc3a70f5ba7bbc4d71f5ff01"
+    },
+    {
+      "file": "brann/atlas.png",
+      "sha256": "69dd1bf4061ee0f7c740bb6f2f9ec44166f13ca8d651293aa5e23b003d6451f4"
+    },
+    {
+      "file": "brann/portrait.png",
+      "sha256": "26d51c8d7086d706f7c01464d75f3ba7bac072e2f5f8381821ee2042045bbbb9"
+    },
+    {
+      "file": "brann/DODGE-TAB-REPAIR-RECEIPT.json",
+      "sha256": "7628783ebac2fc327c63b5fd7d1a49dc127baf71b0b168763b3875fb3ac00eac"
+    },
+    {
+      "file": "brann/GAIT-REPAIR-RECEIPT.json",
+      "sha256": "d874df2604e6cfd99c652fea5893c456e16a8993304882018721886e9f2503a8"
+    },
+    {
+      "file": "brann/TAB-REPAIR-RECEIPT.json",
+      "sha256": "521de36a215f4eddacc194667d92f0144caedf5cc110d0e6f4af72ae001d43db"
+    },
+    {
+      "file": "brann/animations.json",
+      "sha256": "2c9d6d1212eba569c8d705851a129180b633aaeccf2eac643c30acb964f35921"
+    }
+  ],
+  "command": "python3 scripts/bake_characters.py --output <fresh-directory>",
+  "notes": "Source-pixel reconstruction; no provider call. Art quality and runtime checks remain separate."
+}

@@ -1,0 +1,165 @@
+{
+  "id": "rigid-bridges-cuff-volume-v1",
+  "canvas": [
+    192,
+    192
+  ],
+  "ground_pivot": [
+    96,
+    170
+  ],
+  "clock_hz": 48,
+  "loop": false,
+  "duration": [
+    7,
+    12
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_index": 0,
+      "file": "frames/000.png",
+      "sha256": "9a7959e9e0adb78de2a99697787036a26b4f392a86323a181aaa10528a042c55",
+      "hold": [
+        1,
+        12
+      ],
+      "playback_pts": [
+        0,
+        1
+      ]
+    },
+    {
+      "index": 1,
+      "source_index": 1,
+      "file": "frames/001.png",
+      "sha256": "1fd31034b8104dcc02cd71a655beec76dd2a02f2d69e34390a98ea7bf43ed288",
+      "hold": [
+        1,
+        24
+      ],
+      "playback_pts": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 2,
+      "source_index": 2,
+      "file": "frames/002.png",
+      "sha256": "2527ecc3866a81b9ade467a93eced68a7805f84815dc4015a3883c42382c35ba",
+      "hold": [
+        1,
+        24
+      ],
+      "playback_pts": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 3,
+      "source_index": 3,
+      "file": "frames/003.png",
+      "sha256": "b30af468fa2029ca132d92e3a530f44f4dbaf62e5b713183a3c9222f12ee74cd",
+      "hold": [
+        1,
+        48
+      ],
+      "playback_pts": [
+        1,
+        6
+      ]
+    },
+    {
+      "index": 4,
+      "source_index": 4,
+      "file": "frames/004.png",
+      "sha256": "13bc0f38a89b44a49aee21735e77293156d8ad680654c60a83f7e6f3cc56d376",
+      "hold": [
+        1,
+        48
+      ],
+      "playback_pts": [
+        3,
+        16
+      ]
+    },
+    {
+      "index": 5,
+      "source_index": 5,
+      "file": "frames/005.png",
+      "sha256": "768ddd27480cb585631489fe3ba6ab8a80af513a2610c47711fc6f6b37355b15",
+      "hold": [
+        1,
+        12
+      ],
+      "playback_pts": [
+        5,
+        24
+      ]
+    },
+    {
+      "index": 6,
+      "source_index": 6,
+      "file": "frames/006.png",
+      "sha256": "df4c5d9a21ddd51c06493dea6edf6b3d5151c7910542dc474d16264600edc39c",
+      "hold": [
+        1,
+        48
+      ],
+      "playback_pts": [
+        7,
+        24
+      ]
+    },
+    {
+      "index": 7,
+      "source_index": 7,
+      "file": "frames/007.png",
+      "sha256": "2a2ea31fd10d30f526a2169426c490bb754cf4e0698a4dc7c7fb5a19059bea56",
+      "hold": [
+        1,
+        48
+      ],
+      "playback_pts": [
+        5,
+        16
+      ]
+    },
+    {
+      "index": 8,
+      "source_index": 8,
+      "file": "frames/008.png",
+      "sha256": "1b0fe05f7e5a499a33d343d24b35776383309095e13c67b6d2ae7c0b6e4858ce",
+      "hold": [
+        1,
+        24
+      ],
+      "playback_pts": [
+        1,
+        3
+      ]
+    },
+    {
+      "index": 9,
+      "source_index": 9,
+      "file": "frames/009.png",
+      "sha256": "9a7959e9e0adb78de2a99697787036a26b4f392a86323a181aaa10528a042c55",
+      "hold": [
+        5,
+        24
+      ],
+      "playback_pts": [
+        3,
+        8
+      ]
+    }
+  ],
+  "provenance": {
+    "project_sha256": "da23829f66c1f8fe53c65ae4e245b9adf6d5ee67be9af2409a04a3cdb6c0bcc3",
+    "source_manifest_sha256": "9269ea44e865651ceda4e77816b5269ba89ce41abf43768d84b8a006e9c7c5ee",
+    "method": "Source-hand bridges plus eighteen literal native-pixel source-colored lower-cuff repairs in only slot007. No generation, hand movement, timing or other frame edits."
+  },
+  "status": "Candidate, requires art/motion review"
+}

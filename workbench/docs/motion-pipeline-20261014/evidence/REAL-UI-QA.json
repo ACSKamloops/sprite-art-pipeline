@@ -1,0 +1,121 @@
+{
+  "version": 1,
+  "observed_utc": "2026-10-14T07:03:53.524512+00:00",
+  "canonical_head": "43c4354f3707a2df9bf2835c8310c7469d47c834",
+  "working_tree_runtime": true,
+  "served_web_sha256": {
+    "motion-lab.js": "43ae80f118195e0daca2fcecc27d76d96da2b48bbeeb54fcf9089e07ec3d89f7",
+    "studio.js": "ebe865b50fcb970298b7104ac8d46b9cf18260e4b825c9eb6d0788e2fa5db09d",
+    "app.js": "b6c4d1d8ebc8a4f7bc95bf1a8749c87008d05c85a5b593937fc656ca293497b9",
+    "style.css": "a005433f5a2eeeb9eb393b8a91e31cb6729c45e87331e9cc4e8444333c699f32"
+  },
+  "backend_sha256": {
+    "motion_workflow.py": "5c4174992995fb02e77f4b0ec5bae32c95d51a0a4aace070ab236a5c3d7d7c15",
+    "motion_frames.py": "e43e560aad58457ca7cee1f8e8e3e3f74dee5fae02331cd10dc0b7370f1d139d",
+    "motion_provider.py": "cf0dac4b657f00b5d74f5cf250a7a761f6a4972b52637aff2e5407d39e6b696a",
+    "export.py": "c227b083bd60a4199ec08c422a49ded27625ff6af1cc16d124cd6cbfe36be3be",
+    "web_server.py": "f30efb79e8813c4ab6fc0c3606526d135f0d73960ef3fac60d36af2835b5984f"
+  },
+  "status": "passed",
+  "checks": [
+    "Packaged native source actual decode, index26 PTS and complete native video playback",
+    "All16 native selected poses preloaded and actual full canvas matches decoded PNG at every ordered index",
+    "Actual authored0.8second one-shot canvas playback completed without per-hold PNG requests",
+    "Explicit256 recovered-host background and calibrated fixed palette draft",
+    "Explicit candidate import into Studio with fresh proved mapping",
+    "Actual fine-editor erase propagates to Studio and immutable undo restores original project",
+    "Complete Motion\u2192Studio cold verified export and ZIP download",
+    "Offline Prepare finds actual complete first=last run and disables resubmission",
+    "Edited draft does not lose existing paid-run monitoring; explicit immutable resume only",
+    "Motion Lab390px no document overflow"
+  ],
+  "provider_action_attempts": 0,
+  "provider_invocations": 0,
+  "pageerrors": [],
+  "console_errors": [],
+  "zip_inventory_files_verified": 386,
+  "native_video_callbacks": 106,
+  "native_video_ended": true,
+  "observed_fast_poses": [
+    6,
+    7
+  ],
+  "artifact_directory": "/home/astra/artifacts/pixellab-motion-ui-real-20261014/output/playwright",
+  "artifacts": [
+    {
+      "file": "RESULT.json",
+      "bytes": 28122,
+      "sha256": "70f2cb79684ff0d4e05dfc7d7ab7c792e4082b182578cc7cd541148a168fc4f8"
+    },
+    {
+      "file": "final-dom.txt",
+      "bytes": 4166,
+      "sha256": "2a6d8d24bd5df520e64abeaf856b6b9cf2b9830d71ab2d21c116785d75045008"
+    },
+    {
+      "file": "motion-desktop.png",
+      "bytes": 481258,
+      "sha256": "f8b80385a56b1d08bcf51bc266dc48b38b3a8e6227db86bf649c42bb152711f0"
+    },
+    {
+      "file": "motion-mobile390.png",
+      "bytes": 384689,
+      "sha256": "4a10574f1c0cc296826c656324f12cfa396812e719db6762ba3607091f80c8de"
+    },
+    {
+      "file": "postflight-result.json",
+      "bytes": 358,
+      "sha256": "b2c8afb97d6125f9042f254aea7f454737aa18148f9b6df1de7f85f2fd7a555e"
+    },
+    {
+      "file": "postflight.py",
+      "bytes": 1985,
+      "sha256": "77ae74533205727a06447d47d6e5a0035ee2da3e988ac2e8ec519510ac36c974"
+    },
+    {
+      "file": "qa.cjs",
+      "bytes": 12617,
+      "sha256": "23f33eff7f7efaf4afe88a8fee7dd76a721a643ada3490d7f67f25dcd458179e"
+    },
+    {
+      "file": "studio-package.zip",
+      "bytes": 25181616,
+      "sha256": "5d4f2c40352c9e00808158aa4009ebf76a4a9e376ade08d1229e5c4ff7dfc361"
+    },
+    {
+      "file": "studio.png",
+      "bytes": 180113,
+      "sha256": "9c7be443cbebc53f343b63b870f2f649a0d974f3b6c66aa425e543318eec5641"
+    },
+    {
+      "file": "trace.zip",
+      "bytes": 45004543,
+      "sha256": "9a109887b09ac7b94aab2191e8b5c9dc8b8a15224a5eac2c16a3cfa6d449cbdd"
+    }
+  ],
+  "postflight": {
+    "status": "passed",
+    "selected_raster_correspondence": 16,
+    "authored_holds_exact": 16,
+    "source_indices": [
+      0,
+      12,
+      18,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      35,
+      52,
+      73,
+      78,
+      85,
+      94,
+      106
+    ],
+    "zip_inventory_verified": 386,
+    "scope": "local immutable JSON and ZIP readback; no provider operations"
+  }
+}

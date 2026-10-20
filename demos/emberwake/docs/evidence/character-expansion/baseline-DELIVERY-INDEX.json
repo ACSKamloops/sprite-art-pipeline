@@ -1,0 +1,97 @@
+{
+  "schema": "emberwake-delivery/v1",
+  "status": "Complete compact demo; independent targeted browser reassessment8.0/10, moderate confidence.",
+  "updated_utc": "2026-10-16T08:10:32.598495+00:00",
+  "canonical_project": "/home/astra/projects/emberwake-demo",
+  "play_url": "http://localhost:8896/index.html",
+  "launch": "./play.sh (only if the existing local server has stopped)",
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "export": {
+    "directory": "web",
+    "pck_sha256": "2b93baf201f84fea1c64597ad4cb485cc1617e75740148956732fcccd27c7213",
+    "pck_bytes": 9470752,
+    "rendering": "Compatibility / WebGL2 / nonthreaded",
+    "offline_after_local_load": true,
+    "model_account_required_to_play": false
+  },
+  "assets": {
+    "hero_atlas": "assets/hero/atlas.png",
+    "hero_atlas_sha256": "1dc65d4eb637ef35e5be3d3345b1a56d18af6ce041f7ce000c924848d569cb68",
+    "manifest": "assets/hero/animations.json",
+    "manifest_sha256": "f295492d3339af898ee49c117b753ac1f475e78e0022cc943feaecf46510965d",
+    "facings": [
+      "south",
+      "east",
+      "north",
+      "west"
+    ],
+    "body_actions": [
+      "idle",
+      "walk",
+      "attack",
+      "cast",
+      "hurt",
+      "dodge"
+    ],
+    "clips": 24,
+    "stored_cels": 116,
+    "spells": [
+      "firebolt",
+      "frost nova"
+    ],
+    "melee": "unarmed",
+    "source_directory": "art-source",
+    "provider": "OpenAI built-in ImageGen plus recorded pixel compositing; eight retained H3 pose guides informed the newly painted side walk; no new H3 or local generative model calls"
+  },
+  "game": {
+    "quest": "Village, three ward encounters, two-phase Warden, bronze Bell ending, Aster epilogue and post-game exploration",
+    "save": "Validated checkpoint save/Continue, explicit new-journey overwrite choice, death/retry",
+    "target": "Desktop keyboard and mouse"
+  },
+  "checks": {
+    "result": "docs/evidence/checks/RESULTS.json",
+    "assertions": 280,
+    "route_samples": 378,
+    "all_passed": true,
+    "hero_rebake": "docs/evidence/rebake-verification.json",
+    "audio_context": "docs/evidence/audio-runtime.json",
+    "notes": "Behavior/resource evidence is separate from visual scores; audio context running does not establish auditory quality.",
+    "windows_http": "docs/evidence/windows-http.json"
+  },
+  "quality": {
+    "record": "docs/QUALITY.md",
+    "latest_frozen_game_report": "docs/evidence/game-v3-review.md",
+    "current_candidate_review_workspace": "/home/astra/projects/emberwake-review/game-v3",
+    "hero_review": "docs/evidence/hero-v3-review.md",
+    "hero_overall": 7.7,
+    "hero_uncertainty": 0.7,
+    "rear_release_review": "docs/evidence/warden-release-review.md",
+    "complete_review_workspace": "/home/astra/projects/emberwake-review",
+    "game_overall": 8.0,
+    "game_confidence": "moderate; sampled animation/feel low-moderate",
+    "game_report_sha256": "70352f8631e1553ea935990c4b6459420c93411e221e7d9a7387fe3d16e3b65b",
+    "coverage": "V2 ordinary-input full ending/epilogue; V3 targeted replay of all three ward fights, save/reload/dodge, boss HUD/rear strike/recovery and live-boss Bell gate. V3 intentionally left Warden alive; no new full-ending claim."
+  },
+  "rebuild": {
+    "hero": "python3 scripts/bake_assets.py --output <fresh-output-directory>",
+    "ground": "python3 scripts/bake_ground.py",
+    "lantern": "python3 scripts/compose_lantern.py",
+    "audio": "python3 scripts/compose_audio.py",
+    "rear_release": "python3 art-source/boss-release-v1/bake.py --output <fresh-output.png>",
+    "dependencies": "requirements-art.txt; Godot; ffmpeg for audio",
+    "notes": "Rebuild consumes retained source images; no generator calls. Ground/lantern/audio commands write selected outputs, so use a copy for experiments."
+  },
+  "skill": {
+    "installed": "/home/astra/.codex/skills/imagegen-sprite-animation/SKILL.md",
+    "update_validation": "docs/evidence/skill-update-validation.json"
+  },
+  "known_limits": [
+    "Front/back hero gait stiffness and side walk/stance angle shifts remain.",
+    "Small dynamic enemy health bars can cross the hero during close combat; see game-v3 review exact screenshot/coordinates.",
+    "Enemies use front/back three-quarter views and mirrored left quadrants, not four independently authored cardinal view banks.",
+    "No delivered interchangeable weapon rig, jump/sit/pickup body set, party/inventory system or separate authored death-collapse cycle.",
+    "Human uninterrupted feel, auditory quality, natural first-player duration and broad device/browser/storage-failure certification are outside the recorded reviews."
+  ],
+  "verify": "sha256sum --quiet -c DELIVERY-FILES.sha256",
+  "runtime_source_commit": "c8aab4cfa8fa2b20594e32a3f56138be7570b9db"
+}

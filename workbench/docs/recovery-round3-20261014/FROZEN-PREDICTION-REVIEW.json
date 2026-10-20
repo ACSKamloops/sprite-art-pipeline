@@ -1,0 +1,302 @@
+{
+  "classification": "independent offline audit of locally frozen predictions; not server-source attestation",
+  "source_commit": "7f17ca694c659ef0aa69e64ae9dec0ac4b2b7e13",
+  "phase_sha256": "612055f7f53bf6eadeb71b24f9d4573f8d1bccf9707f2027d1dd293c16cddcaf",
+  "plan_sha256": "c0e9e5cea611a96c50e8e7843d70e3c950f86f7efaea1130db5a3fdb8ab2d2eb",
+  "source_pins": [
+    {
+      "file": "prepare_palette_predictions.py",
+      "sha256": "15bfb938f4050a3a35362cebc9633ec4288ae1b1a08cbf85216bdf3510d93807"
+    },
+    {
+      "file": "replay_pixellab_fixed_palette.py",
+      "sha256": "6272a72903dd4a7d330e7eeb5c8e7df321cbc84c6ba9f9485404a640857ba742"
+    }
+  ],
+  "verifier_receipt_sha256": "d3893d2dbb5ae87b13043d6e1ac579346348c844ef98bce6f0a72cd315a450ab",
+  "local_phase_prepared_utc": "2026-10-14T05:16:52.894593+00:00",
+  "producer_started_utc": [
+    "2026-10-14T05:16:59.321427+00:00",
+    "2026-10-14T05:17:10.965554+00:00",
+    "2026-10-14T05:17:12.683900+00:00",
+    "2026-10-14T05:17:13.813231+00:00"
+  ],
+  "cases": [
+    {
+      "variant": "two-opaque-ab",
+      "num_colors": 2,
+      "actual_palette_rgba": [
+        [
+          29,
+          48,
+          74,
+          255
+        ],
+        [
+          217,
+          172,
+          83,
+          255
+        ]
+      ],
+      "rea_evidence_id": "ev_eff91e032583e29fae7eb0f5761bd44d372629aa2f6cd745c2aa773e5148d61c",
+      "har_sha256": "2ff0a39f343b5a74585103d6b4d8a2a3361be005dcce63ace835e1cb2364ab8d",
+      "predictions": [
+        {
+          "policy": "ignore",
+          "frozen_receipt_sha256": "5fdbfb5b9034cf2ecef00345dfa2b128705f67ac5c296025260abd6683087d7c",
+          "palette_rgba_order_exact": true,
+          "frozen_palette_png_bytes_equal_actual": true,
+          "replayed_source_and_frozen_rgba_equal": true,
+          "frames": [
+            {
+              "index": 0,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 0,
+              "hidden_rgb_changed": 0,
+              "frozen_prediction_png_bytes_equal_actual": true
+            },
+            {
+              "index": 1,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 0,
+              "hidden_rgb_changed": 0,
+              "frozen_prediction_png_bytes_equal_actual": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "two-alpha-ab",
+      "num_colors": 2,
+      "actual_palette_rgba": [
+        [
+          29,
+          48,
+          74,
+          255
+        ],
+        [
+          217,
+          172,
+          83,
+          255
+        ]
+      ],
+      "rea_evidence_id": "ev_525c53ccf5e601bfd7892d9d83e778b000ef43aebe5221076273a0fa518d7c26",
+      "har_sha256": "8559ae0a7047972bfdbd0d407a64bb4c9c511846f8da8dc1786198996962bc80",
+      "predictions": [
+        {
+          "policy": "ignore",
+          "frozen_receipt_sha256": "be95b3c0cb7cee74725a5b65c7629c73cb5a3aaca502315a3d9eb5982f85d8ca",
+          "palette_rgba_order_exact": true,
+          "frozen_palette_png_bytes_equal_actual": true,
+          "replayed_source_and_frozen_rgba_equal": true,
+          "frames": [
+            {
+              "index": 0,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 420,
+              "hidden_rgb_changed": 420,
+              "frozen_prediction_png_bytes_equal_actual": true
+            },
+            {
+              "index": 1,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 300,
+              "hidden_rgb_changed": 300,
+              "frozen_prediction_png_bytes_equal_actual": true
+            }
+          ]
+        },
+        {
+          "policy": "exclude-zero",
+          "frozen_receipt_sha256": "213b2942cd27c092b0775a9a136d39489b0be589f600318b04b314934049203b",
+          "palette_rgba_order_exact": false,
+          "frozen_palette_png_bytes_equal_actual": false,
+          "replayed_source_and_frozen_rgba_equal": true,
+          "frames": [
+            {
+              "index": 0,
+              "pixels": 1024,
+              "rgba_mismatches": 1024,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 420,
+              "hidden_rgb_changed": 420,
+              "frozen_prediction_png_bytes_equal_actual": false
+            },
+            {
+              "index": 1,
+              "pixels": 1024,
+              "rgba_mismatches": 1024,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 300,
+              "hidden_rgb_changed": 300,
+              "frozen_prediction_png_bytes_equal_actual": false
+            }
+          ]
+        },
+        {
+          "policy": "alpha-weight",
+          "frozen_receipt_sha256": "a77009b4f49eb3f6993a6347a0409c2fa2ab78cae118a195255bd4265f841513",
+          "palette_rgba_order_exact": false,
+          "frozen_palette_png_bytes_equal_actual": false,
+          "replayed_source_and_frozen_rgba_equal": true,
+          "frames": [
+            {
+              "index": 0,
+              "pixels": 1024,
+              "rgba_mismatches": 1024,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 420,
+              "hidden_rgb_changed": 420,
+              "frozen_prediction_png_bytes_equal_actual": false
+            },
+            {
+              "index": 1,
+              "pixels": 1024,
+              "rgba_mismatches": 1024,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 300,
+              "hidden_rgb_changed": 300,
+              "frozen_prediction_png_bytes_equal_actual": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "three-opaque-cd",
+      "num_colors": 3,
+      "actual_palette_rgba": [
+        [
+          39,
+          146,
+          82,
+          255
+        ],
+        [
+          28,
+          47,
+          72,
+          255
+        ],
+        [
+          217,
+          172,
+          83,
+          255
+        ]
+      ],
+      "rea_evidence_id": "ev_f816d6face7e22a4c5cd0cb026e49f05ccfed11bd0167e19528ac99163e1798c",
+      "har_sha256": "f6bb08b1fd90caf36bdfffbb04b7f6686dce7e07f07af429cd50dd91ce21830d",
+      "predictions": [
+        {
+          "policy": "ignore",
+          "frozen_receipt_sha256": "258b2de9e54ac8f9923a69a20752e0a86af7d7f135724e355a47f6d5694967d6",
+          "palette_rgba_order_exact": true,
+          "frozen_palette_png_bytes_equal_actual": true,
+          "replayed_source_and_frozen_rgba_equal": true,
+          "frames": [
+            {
+              "index": 0,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 0,
+              "hidden_rgb_changed": 0,
+              "frozen_prediction_png_bytes_equal_actual": true
+            },
+            {
+              "index": 1,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 0,
+              "hidden_rgb_changed": 0,
+              "frozen_prediction_png_bytes_equal_actual": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variant": "two-opaque-ba",
+      "num_colors": 2,
+      "actual_palette_rgba": [
+        [
+          29,
+          48,
+          74,
+          255
+        ],
+        [
+          217,
+          172,
+          83,
+          255
+        ]
+      ],
+      "rea_evidence_id": "ev_995212948fefb6d54d488a5d730668ade8da17ba60c98d7f50819f31b74d153c",
+      "har_sha256": "927b64aba91a2e27dbac7a78ea62df4c8490fcf1d1242bc177c43f33ab64f117",
+      "predictions": [
+        {
+          "policy": "ignore",
+          "frozen_receipt_sha256": "bdc754ce168617aada939f0c40990fde8590352bc7c3f6488b91fe11b80ba2ba",
+          "palette_rgba_order_exact": true,
+          "frozen_palette_png_bytes_equal_actual": true,
+          "replayed_source_and_frozen_rgba_equal": true,
+          "frames": [
+            {
+              "index": 0,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 0,
+              "hidden_rgb_changed": 0,
+              "frozen_prediction_png_bytes_equal_actual": true
+            },
+            {
+              "index": 1,
+              "pixels": 1024,
+              "rgba_mismatches": 0,
+              "alpha_mismatches": 0,
+              "hidden_source_pixels": 0,
+              "hidden_rgb_changed": 0,
+              "frozen_prediction_png_bytes_equal_actual": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "AB_BA_symmetry": {
+    "palette_png_bytes_equal": true,
+    "A_output_png_equal_after_permutation": true,
+    "B_output_png_equal_after_permutation": true
+  },
+  "totals": {
+    "captured_calls": 4,
+    "returned_pngs_bound": 12,
+    "reported_generations": "0.4",
+    "ignore_policy_exact_palette_orders": 4,
+    "ignore_policy_rgba_entries": 8192,
+    "ignore_policy_rgba_mismatches": 0
+  },
+  "limits": [
+    "Source/plan pins and producer timestamps are local records, not third-party notarization.",
+    "Deliberately separated lowK clusters constrain centroid/alpha/presentation behavior, not initialization identity or general clustering.",
+    "AB/BA have the same pooled histogram; opaque/alpha cases share RGB; repeated pixel counts are not independent samples.",
+    "Three frozen alpha policies are competing alternatives, not three independent validations.",
+    "Older32-color case remains inexact; no private-source, dithering, automatic-size or animation-internal claim."
+  ]
+}

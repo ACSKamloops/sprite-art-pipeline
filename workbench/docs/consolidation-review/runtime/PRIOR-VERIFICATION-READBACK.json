@@ -1,0 +1,27 @@
+{
+  "document": "docs/LATEST-VERIFICATION.json",
+  "verified_commit": "24957ec7b9bcf44134cb022ac92fc5b176a2b18c",
+  "reported_checks": {
+    "tests": 159,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "independently_read_junit": {
+    "tests": 159,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "report_sha256_matches": true,
+  "specification_sha256_matches": true,
+  "package_smoke_receipt_sha256": "ef4e278b5114d55fe65f49b57cb0e0560c4fad5888d933be5b02c516cf935f91",
+  "package_smoke_reports_actual_Node_and_freshStore": true,
+  "not_repeated": [
+    "159-test execution",
+    "wheel installation",
+    "Node execution",
+    "Godot/headless/GPU execution"
+  ],
+  "interpretation": "159 mechanically named tests passed at historical24957ec, not all whole-flow or art requirements"
+}

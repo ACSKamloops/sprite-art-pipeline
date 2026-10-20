@@ -1,0 +1,9 @@
+### Result
+{
+  "summary": "30 of 30 transport shown. Status describes the recorded scope; inspect evidence and unresolved branches individually.",
+  "rows": 30
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({summary:document.querySelector("#catalog-summary").textContent,rows:document.querySelectorAll("#catalog-rows tr").length})');
+```

@@ -1,0 +1,11 @@
+### Result
+{
+  "subject": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "images": {
+    "stale": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  }
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({subject:document.querySelector("#source-subject").value,images:JSON.parse(document.querySelector("#source-images").value)})');
+```

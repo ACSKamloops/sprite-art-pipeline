@@ -1,0 +1,15 @@
+{
+  "schema": "human-working-baseline-acceptance-v1",
+  "quote": "the latest ones with repaired timing and whatnot look really good, lets continue on and do all the typical rpg animations we would need in godot for this character, we have only done side scroller style which is fine for now but remember we want it to be like top down rpgs like chrono trigger etc",
+  "scope": "User endorses latest repaired punch and jump as working baseline and authorizes common RPG animation expansion, current view first with top-down intent. Not a numeric9/10 score or full gameplay acceptance.",
+  "clips": {
+    "punch": {
+      "file": "work/action-production-v1/punch-candidate-portable-v2/manifest.json",
+      "sha256": "340865dde5aaf7f2a41cf027fd514c8065615e436904c1328978d8a5eb382776"
+    },
+    "jump": {
+      "file": "work/action-production-v1/jump-candidate-portable-v2/manifest.json",
+      "sha256": "24821d54e3135769a3b71bc7ad32c63f7465876139ee96307d90cfb52c80a3c5"
+    }
+  }
+}

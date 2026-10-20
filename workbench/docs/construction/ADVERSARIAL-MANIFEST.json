@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "scope": "reviewer-authored tests/report/receipts only; source bindings in RESULTS, source-first report in separate96f9808 commit",
+  "files": [
+    {
+      "path": "docs/construction/ADVERSARIAL-ACQUISITION-PYTEST.txt",
+      "bytes": 768,
+      "sha256": "f83ab1d2097f2a75a19cfb2434546594455ca032c77fc69460324690995bb6d8"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-BASELINE.json",
+      "bytes": 854,
+      "sha256": "5c5c276c1623c12983bdfa6fc0d8cae1c0f013b1e60eaf1c27ae42ada49e6de6"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-CORE-JUNIT.xml",
+      "bytes": 3704,
+      "sha256": "ce9982e4b5f658b587ba4f5258369fa2a9ce7dc3c463568bc9f7adfc9c8c7ad4"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-CORE-PYTEST.txt",
+      "bytes": 1155,
+      "sha256": "945cf102c1baf35576afd3cc42f89fdc839e7535e1fed27ce894c16a527c03f5"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-CORRECTED-JUNIT.xml",
+      "bytes": 5772,
+      "sha256": "7abcdae44165055222da21c6b82899910a9b4533899df5d69491d4193f1a0a0a"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-CORRECTED-PYTEST.txt",
+      "bytes": 1488,
+      "sha256": "531dd1874433a95280044034e84e2307b3fd87b06563c8443543149262d85c53"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-HARNESS-CORE-JUNIT.xml",
+      "bytes": 6207,
+      "sha256": "4b43449e6c1e01fd3f94f7353ae4c6d60eb821b8a8f60e9152e95779094d0074"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-HARNESS-CORE-PYTEST.txt",
+      "bytes": 3726,
+      "sha256": "f75c8650ffb56ca7f7d2362ed303f5c73e8228baa7b775b1669e77a7f6c59e76"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-INTERMEDIATE-JUNIT.xml",
+      "bytes": 8049,
+      "sha256": "3eb142ff3171380affebc2f713a3cd02beebde7a3652f6859e8dc8a3e488f60b"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-INTERMEDIATE-PYTEST.txt",
+      "bytes": 4346,
+      "sha256": "f829f6cbc493d3b37710c468bb12955b361beb0dedcc930761a8a86771555667"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-NATIVE-BASELINE-JUNIT.xml",
+      "bytes": 204974,
+      "sha256": "8983a7fa917bdaa0d93a5d1343e52dd6211d2e5051be32bf4f203c163bd57d65"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-NATIVE-BASELINE-PYTEST.txt",
+      "bytes": 198724,
+      "sha256": "40831379734974b94bf1018c2c389a627f5d068b288de5aaab7643bbd337968c"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-NATIVE-BASELINE.json",
+      "bytes": 1008,
+      "sha256": "9ffd1023aeeb68add79acbb80cf91896be59d2ea714822f88cd69383ff50ddd2"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-OWNER-EVIDENCE.json",
+      "bytes": 1963,
+      "sha256": "e207b1ebcb3004c0e858eba1cfc087bdfdfb0be025e495b4301c90b4e8264331"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-RESULTS.json",
+      "bytes": 6445,
+      "sha256": "ec6e0dee1dac667ed1834483a92015aebd7ef1bc1e27ee22d9447685deac4da9"
+    },
+    {
+      "path": "docs/construction/ADVERSARIAL-REVIEW.md",
+      "bytes": 6150,
+      "sha256": "10403cc121c54fe07c945b9322dc0ca4a247fb0855e13adf892cad65191e2e34"
+    },
+    {
+      "path": "tests/test_construction_adversarial.py",
+      "bytes": 20438,
+      "sha256": "015e547eb6a82c8c6349c3a47a884a29795c3f65c7a176f86c6aa74864d1c331"
+    }
+  ]
+}

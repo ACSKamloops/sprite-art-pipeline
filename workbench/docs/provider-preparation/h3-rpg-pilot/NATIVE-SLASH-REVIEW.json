@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "kind": "subjective-native-slash-review",
+  "artifact_root": "/home/astra/artifacts/pixellab-h3-rpg-pilot-20261014/h3-slash-001",
+  "hashes": {
+    "source.png": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+    "native-video.mp4": "cede01409bbf9a71aee0feaf2678a125fd54f2db52b45439901ba3b1e05b44a6",
+    "media-review/MANIFEST.json": "f3a3ca8b475281557cf1f724ef6f5dd342f47015a840db9800198f6638f3e32c"
+  },
+  "independently_verified": {
+    "native_video_hash": true,
+    "all_107_native_frame_hashes": true
+  },
+  "coverage": {
+    "chronological_pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "native_frame_range_in_contact_pages": [
+      0,
+      106
+    ],
+    "contact_display_side_px": 256,
+    "eight_sample_sheet": true,
+    "individual_native_frames": [
+      17,
+      26,
+      28,
+      40,
+      53
+    ],
+    "same_source_previously_viewed": true,
+    "continuous_video_viewed": false
+  },
+  "ratings": {
+    "scale": 10,
+    "subjective": true,
+    "provisional": true,
+    "source_design": 8,
+    "attack_motion": 6,
+    "game_sprite_readiness": 3,
+    "loop_rating": null,
+    "loop_rating_reason": "One-shot attack"
+  },
+  "phases": {
+    "near_idle_lead": [
+      0,
+      10
+    ],
+    "anticipation": [
+      12,
+      25
+    ],
+    "strike": [
+      26,
+      30
+    ],
+    "held_follow_through": [
+      31,
+      52
+    ],
+    "recovery": [
+      53,
+      64
+    ],
+    "settled_idle_tail": [
+      65,
+      106
+    ]
+  },
+  "defects": [
+    {
+      "native_frames_checked": [
+        17
+      ],
+      "issue": "Raised physical blade clips top canvas"
+    },
+    {
+      "native_frames_checked": [
+        26
+      ],
+      "issue": "Motion smear/overlap obscures rigid blade and grip inspection; not proof of literal second sword"
+    },
+    {
+      "native_frames_checked": [
+        28
+      ],
+      "issue": "Bright strike effect extends beyond right canvas"
+    },
+    {
+      "native_frames_checked": [
+        40,
+        53
+      ],
+      "issue": "Physical sword crosses right canvas boundary without visible tip",
+      "repair_boundary": "Padding and alpha extraction cannot recover missing native pixels"
+    },
+    {
+      "frame_range": [
+        31,
+        52
+      ],
+      "issue": "Long near-held follow-through; exact-speed aesthetic effect unreviewed"
+    },
+    {
+      "frame_range": [
+        65,
+        106
+      ],
+      "issue": "Long settled tail after recovery"
+    }
+  ],
+  "positives": [
+    "Readable anticipation/strike/recovery",
+    "Recognizable hair/face/blue tunic/silver armor/wooden shield",
+    "No sustained equipment disappearance seen",
+    "Plausible lunge without obvious camera reframing"
+  ],
+  "limits": [
+    "Opaque native video",
+    "No matched same-subject PixelLab run",
+    "Ground contact and rigid equipment unapproved",
+    "Continuous playback not viewed by this reviewer",
+    "Derived one-shot and transparent walk cycle not covered"
+  ],
+  "decision": "Preserve unfinished candidate; native clipping blocks finished sprite approval",
+  "provider_calls_by_reviewer": 0,
+  "model_calls_by_reviewer": 0,
+  "root_files_edited": false,
+  "artistic_acceptance": "unfinished; not approved"
+}

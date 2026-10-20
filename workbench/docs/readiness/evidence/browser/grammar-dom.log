@@ -1,0 +1,36 @@
+### Result
+{
+  "summary": "108 of 108 grammar shown. Status describes the recorded scope; inspect evidence and unresolved branches individually.",
+  "rows": 108,
+  "title": "Primitive · copy",
+  "record": {
+    "id": "primitive:copy",
+    "title": "Primitive · copy",
+    "behavior_verbatim": "Stamp source pixels; an inclusive source region keeps original coordinates",
+    "evidence": {
+      "line_sha256": "be472e7c99441aa59e9f794b844bdbb675ea971c7e4b19735af9c19967d761af",
+      "namespace": "research",
+      "one_based_line": 55,
+      "path": "analysis-root/workbench-grammar-capture/decoded-docs/013-pixelart-describe-scenes.text-0.md",
+      "sha256": "e2fcffdfc4529bc74df3b55ac40495957ce81acfe8c5c70b3cf90771fd21bec1"
+    },
+    "field_contract_verbatim": "`part`, optional `region`, `method`",
+    "local_route": null,
+    "name": "copy",
+    "optional_fields_as_documented": [
+      "region",
+      "method"
+    ],
+    "required_fields_as_documented": [
+      "op",
+      "part"
+    ],
+    "status": "complete_documented_table_row_not_complete_handler_schema",
+    "unknown_field_policy": "not specified by this table"
+  },
+  "drift": "Current public snapshot: 112 operations; frozen snapshot: 111. Added: POST /normal-map. 5 changed definitions. Inspect snapshot changes"
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({summary:document.querySelector("#catalog-summary").textContent,rows:document.querySelectorAll("#catalog-rows tr").length,title:document.querySelector("#record-title").textContent,record:JSON.parse(document.querySelector("#record-detail").textContent),drift:document.querySelector("#catalog-drift").textContent})');
+```

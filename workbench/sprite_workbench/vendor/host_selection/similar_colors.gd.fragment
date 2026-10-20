@@ -1,0 +1,13 @@
+func similar_colors(c1: Color, c2: Color, tol: = 0.392157) -> bool:
+	if c1.is_equal_approx(c2):
+		return true
+	if tol == 0.0:
+		return false
+	return (
+		absf(c1.r - c2.r) <= tol
+		&& absf(c1.g - c2.g) <= tol
+		&& absf(c1.b - c2.b) <= tol
+		&& absf(c1.a - c2.a) <= tol
+	)
+
+

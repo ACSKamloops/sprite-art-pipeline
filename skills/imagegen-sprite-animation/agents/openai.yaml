@@ -1,0 +1,4 @@
+interface:
+  display_name: "ImageGen Sprite Animation"
+  short_description: "ImageGen sprites, source-pixel animation and cleanup"
+  default_prompt: "Use $imagegen-sprite-animation to create consistent game sprites from references, refine their animation, and verify the final assets."

@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-14T05:32:12.380119+00:00",
+  "scope": "Completed bounded prediction/source-method recovery pass; general/private replication remains incomplete.",
+  "paid_post_attempts_listed": 6,
+  "http200_results": 6,
+  "reported_generations": "0.6",
+  "returned_pngs_including_palette_strips": 18,
+  "rea_records_bound": 6,
+  "predictions": {
+    "primary_full_rgba_entries": 12288,
+    "primary_full_rgba_mismatches": 0,
+    "raw_palette_order_matches": 4,
+    "raw_palette_order_comparisons": 6,
+    "separate_adaptive_visible_palette_match": true,
+    "limits": "Fresh separated low-K cases plus repeated/reused data. Fifth strip fails; its visible filtering is post-hoc. Sixth visible filtering was frozen before that adaptive call."
+  },
+  "tests": {
+    "full_suite_passed": 673,
+    "warnings": 1398,
+    "new_palette_hypothesis_tests": 7,
+    "host_original_replay_runs": 12,
+    "host_original_helper_assertions": 2,
+    "host_cli_guard_cases": 5,
+    "independent_host_mask_runs": 2,
+    "metadata_corrected_host_mask_reruns": 2
+  },
+  "host_mask_metadata_finding": "Resolved by receipt/docs correction; original methods and PNG bytes unchanged. Historical receipts explicitly superseded by erratum.",
+  "runtime_package_changed": false,
+  "private_vendor_analysis_complete": false,
+  "production_ui_integration_complete": false,
+  "art_quality_accepted": false,
+  "compiled_gdc_equivalence_proven": false,
+  "artifact_manifest": {
+    "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/ARTIFACT-MANIFEST.json",
+    "sha256": "3c7d4b6c80caba93a782705ae860c2956a5c5f0a076a5621281a037e1e6f442d",
+    "files": 167,
+    "bytes": 1129446,
+    "scope": "Current-pass local artifacts, retained intermediate analyses and synthetic fixtures; file counts are not independent experiments. Explicit recovered-host source dependencies included. No credentials/profiles."
+  },
+  "evidence": [
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/PHASE-PLAN.json",
+      "sha256": "612055f7f53bf6eadeb71b24f9d4573f8d1bccf9707f2027d1dd293c16cddcaf"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/HIDDEN-PHASE-PLAN.json",
+      "sha256": "5fbb7df9e4a9c8dc90976df5018e7ebbfa84a167dd320ecd23c47f4511cbad90"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/BUDGET-PHASE-PLAN.json",
+      "sha256": "02d1edba4e8cb6fe6c9b0b87ef7151c1d4b77a507405c37b4235d2d226d8ad09"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/PROBE-BINDINGS.json",
+      "sha256": "d3893d2dbb5ae87b13043d6e1ac579346348c844ef98bce6f0a72cd315a450ab"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/PALETTE-PREDICTION-RESULTS.json",
+      "sha256": "959ba88c5819d1e9c948ce659bf9d4f3dc9d3eb2387eac49007261bd51668de7"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/HIDDEN-PREDICTION-RESULTS.json",
+      "sha256": "d18dd50bd6847d2327395b3a983484300319b04fb740719b01635ac4dcff11dd"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/BUDGET-PREDICTION-RESULTS.json",
+      "sha256": "09e390db8aefa44924a70b31e320804b6e441f53735f8fdbd3788699ad11ba80"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/CURRENT-TOOL-PINS.json",
+      "sha256": "85dea39e76c4b8b49d5b78657bb1173174d4ca989d57ad9cb50159c2cd199a62"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-recovery-round3-20261014/test-evidence/PYTEST-FULL.json",
+      "sha256": "e2c5a597630353a7eff4d3e58830caf489d5c8226b3847e02ec0ed1211ac8a8c"
+    }
+  ],
+  "manual_selector": {
+    "script": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/host_flood_mask.py",
+    "sha256": "67cbb80674b9d17cb81aeb423dcadd16aa617a461720894552394a830af37252",
+    "scope": "Recovered-source host manual seed/tolerance selection with explicit no-selection stubs; not automatic cutout."
+  },
+  "remaining": [
+    "Exact high-K construction;32-color counterexamples",
+    "General transparent-palette filtering and ordering beyond captured cases",
+    "Exact positive-strength dithering",
+    "Private animation sampling/segmentation/deflicker/model weights",
+    "Editor UI integration and accepted animation quality"
+  ],
+  "handoff_validation": {
+    "path": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/HANDOFF-VALIDATION.json",
+    "role": "Final hash/link validation, intentionally not self-hash-pinned.",
+    "status": "passed",
+    "selected_files": 343,
+    "local_links": 384,
+    "failures": 0
+  }
+}

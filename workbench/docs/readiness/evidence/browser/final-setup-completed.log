@@ -1,0 +1,16 @@
+### Result
+{
+  "disabled": false,
+  "verification": {
+    "artifact": "10cb7613f5ab980682e96a2963fdc5950831a08875f8ba9ea8a3805d55f870ad",
+    "status": "completed"
+  },
+  "summary": "◷Local setup ready. Analysis gate remains held.71 recorded blockers · Setup verification passed. Supplied-art editing is available separately.",
+  "comparisonDisabled": true,
+  "errorVisible": false,
+  "footer": "Setup verification completed. Comparison prerequisites remain a separate gate."
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({disabled:document.querySelector("#verify-setup").disabled,verification:JSON.parse(document.querySelector("#verification-output").textContent),summary:document.querySelector("#gate-summary").textContent,comparisonDisabled:document.querySelector("#start-comparison").disabled,errorVisible:!document.querySelector("#global-error").hidden,footer:document.querySelector("#footer-status").textContent})');
+```

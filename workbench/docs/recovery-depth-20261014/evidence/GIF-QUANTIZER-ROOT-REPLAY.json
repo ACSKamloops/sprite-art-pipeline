@@ -1,0 +1,78 @@
+{
+  "classification": "source-exact-client-gif-export-factory",
+  "source": "/home/astra/projects/pixellab-local-test-20261011/website-art-bundles/4354-3a62375cb4c03823.js",
+  "source_sha256": "cc7e87ddeb584f550ab863bc10792addab01469be1143ede0cded67a096284de",
+  "module": 5958,
+  "factory_sha256": "d40c7cf143a2ecb69d3c0105497766facb5aefd0768eda704fca665bbc134ec8",
+  "exports": [
+    "GIFEncoder",
+    "applyPalette",
+    "default",
+    "nearestColor",
+    "nearestColorIndex",
+    "nearestColorIndexWithDistance",
+    "prequantize",
+    "quantize",
+    "snapColorsToPalette"
+  ],
+  "input_rgba": [
+    90,
+    80,
+    70,
+    0,
+    11,
+    21,
+    31,
+    16,
+    40,
+    50,
+    60,
+    112,
+    40,
+    50,
+    60,
+    144,
+    200,
+    100,
+    20,
+    255,
+    200,
+    100,
+    20,
+    255
+  ],
+  "palette": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      40,
+      50,
+      60,
+      255
+    ],
+    [
+      200,
+      100,
+      20,
+      255
+    ]
+  ],
+  "indices": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    2
+  ],
+  "gif_sha256": "b91b6e1aa5100c5a0d3273a26bd9cc6352743102e819a7426310eb6e13175cdc",
+  "gif_bytes": 74,
+  "assertions": 8,
+  "gray100_black_white_index": 0,
+  "distance": "Squared channel distance: RGB for rgb565; RGBA for rgba4444; packed-bin assignment cache.",
+  "boundary": "Synthetic tiny fixture; quantize+applyPalette+GIFEncoder exactly as exported. No browser canvas, no animation generation, no private quantizer equivalence, no alpha reconstruction."
+}

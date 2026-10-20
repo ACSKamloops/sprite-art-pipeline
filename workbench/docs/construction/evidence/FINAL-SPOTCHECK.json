@@ -1,0 +1,279 @@
+{
+  "version": 1,
+  "scope": "Independent read-only retained evidence consistency spotcheck; no suites, runtime, native editor, codecs, account, network or provider calls",
+  "canonical_head_observed": "f88e054be1e6efaf457772e83ad8f9d752444735",
+  "suite_commit": "2c0b744889d231a245d19ea3d8dbbcde233668f2",
+  "overall": "passed",
+  "checks": [
+    {
+      "name": "suite_commit_and_counts",
+      "passed": true,
+      "detail": {
+        "tests": 333,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "suite_testcase_records",
+      "passed": true,
+      "detail": {
+        "testcases": 333
+      }
+    },
+    {
+      "name": "report_specification_digests",
+      "passed": true,
+      "detail": {
+        "report": "01b8d995392d2802d0d65fda21f435f1dade2c8adb8eec3122f36fa1207f71c7",
+        "specification": "73e42ef438eb7b4ed2b7e87e0cfff2af8493fc8bea02ced8e0c5d3b908d8d16d"
+      }
+    },
+    {
+      "name": "tracked_original_REPORT.json",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "tracked_original_TESTS.xml",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "tracked_original_SPECIFICATION.json",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "successful_retained_exits",
+      "passed": true,
+      "detail": "retained report, no rerun"
+    },
+    {
+      "name": "wheel_digest_size",
+      "passed": true,
+      "detail": {
+        "bytes": 562011,
+        "sha256": "5973cf10745917108f5b56c80df28f6d6643d62dcaa88ca08e7b6fd6e8bc92f9"
+      }
+    },
+    {
+      "name": "checkout_report_original",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "checkout_eight_checks",
+      "passed": true,
+      "detail": [
+        "declared plan completed",
+        "native editor available",
+        "native file actually saved",
+        "complete editable document equality",
+        "fresh Store closure import",
+        "fresh indexed document equality",
+        "fresh history replay",
+        "fresh native audit dependencies"
+      ]
+    },
+    {
+      "name": "checkout_package_file_original",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "checkout_sequence_id",
+      "passed": true,
+      "detail": "055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a"
+    },
+    {
+      "name": "installed_report_original",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "installed_eight_checks",
+      "passed": true,
+      "detail": [
+        "declared plan completed",
+        "native editor available",
+        "native file actually saved",
+        "complete editable document equality",
+        "fresh Store closure import",
+        "fresh indexed document equality",
+        "fresh history replay",
+        "fresh native audit dependencies"
+      ]
+    },
+    {
+      "name": "installed_package_file_original",
+      "passed": true,
+      "detail": "byte-identical"
+    },
+    {
+      "name": "installed_sequence_id",
+      "passed": true,
+      "detail": "055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a"
+    },
+    {
+      "name": "package_manifest_agreement",
+      "passed": true,
+      "detail": "88 same ordered records"
+    },
+    {
+      "name": "all_88_actual_package_files",
+      "passed": true,
+      "detail": {
+        "mismatches": [],
+        "three_locations": "checkout, installed package and retained wheel"
+      }
+    },
+    {
+      "name": "installed_outside_checkout",
+      "passed": true,
+      "detail": "/home/astra/artifacts/pixellab-construction-package-proof-20261012/venv/lib/python3.14/site-packages/sprite_workbench"
+    },
+    {
+      "name": "later_committed_changes_docs_only",
+      "passed": true,
+      "detail": {
+        "changed_paths": 47,
+        "non_docs": []
+      }
+    },
+    {
+      "name": "pending_canonical_changes_docs_only",
+      "passed": true,
+      "detail": {
+        "pending_paths": 9,
+        "non_docs": []
+      }
+    },
+    {
+      "name": "benchmark_limit_accurate",
+      "passed": true,
+      "detail": {
+        "first": 0.9035235220217146,
+        "twentieth": 18.123222431982867,
+        "scope": "One sparse supplied cel shared by24frames, one layer,256x256; not a representative character edit-session benchmark.",
+        "production_editing_ready": false
+      }
+    },
+    {
+      "name": "boundaries_not_full_completion",
+      "passed": true,
+      "detail": "retained status distinguishes mechanical construction from native-host/provider/art/full-vendor completion"
+    }
+  ],
+  "source_receipts": [
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+      "bytes": 2355,
+      "sha256": "a5607c6e2081db3177d3cc9621bb8cfcbc25f2df513bc019f5d9b08ea24570b8"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/PACKAGE-PARITY.json",
+      "bytes": 1295,
+      "sha256": "e058249e32fa49a0ca73657f060f580852237fcf8e0644853e198aac8219d626"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-verification/REPORT.json",
+      "bytes": 533,
+      "sha256": "01b8d995392d2802d0d65fda21f435f1dade2c8adb8eec3122f36fa1207f71c7"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-verification/TESTS.xml",
+      "bytes": 46632,
+      "sha256": "27c4b6af634f9bcd493fd5453cf12135bc86f3e447366ebee3129c6f79cc3cec"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-verification/SPECIFICATION.json",
+      "bytes": 105480,
+      "sha256": "73e42ef438eb7b4ed2b7e87e0cfff2af8493fc8bea02ced8e0c5d3b908d8d16d"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/verification/REPORT.json",
+      "bytes": 533,
+      "sha256": "01b8d995392d2802d0d65fda21f435f1dade2c8adb8eec3122f36fa1207f71c7"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/verification/TESTS.xml",
+      "bytes": 46632,
+      "sha256": "27c4b6af634f9bcd493fd5453cf12135bc86f3e447366ebee3129c6f79cc3cec"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/verification/SPECIFICATION.json",
+      "bytes": 105480,
+      "sha256": "73e42ef438eb7b4ed2b7e87e0cfff2af8493fc8bea02ced8e0c5d3b908d8d16d"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/dist/construction-20261012-release/sprite_workbench-0.3.0-py3-none-any.whl",
+      "bytes": 562011,
+      "sha256": "5973cf10745917108f5b56c80df28f6d6643d62dcaa88ca08e7b6fd6e8bc92f9"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-checkout-release/REPORT.json",
+      "bytes": 1314,
+      "sha256": "9f212a69da4b3a36d3b126f7253b3cd6196231ea1132188d0c30629591c4760b"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/checkout-REPORT.json",
+      "bytes": 1314,
+      "sha256": "9f212a69da4b3a36d3b126f7253b3cd6196231ea1132188d0c30629591c4760b"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/checkout-PACKAGE-FILES.json",
+      "bytes": 10929,
+      "sha256": "e85ef06e47841fd9d030dd1b176b4275b6023a4fb27698b4da208c3fd8b9da70"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-checkout-release/PACKAGE-FILES.json",
+      "bytes": 10929,
+      "sha256": "e85ef06e47841fd9d030dd1b176b4275b6023a4fb27698b4da208c3fd8b9da70"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/runs/construction-20261012-checkout-release/store/blobs/055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a",
+      "bytes": 1484,
+      "sha256": "055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay-release/REPORT.json",
+      "bytes": 1389,
+      "sha256": "e2f56ca66d515d8b397c1c5d1cd4b37f81df3b74534040736ed2dfcee2b41a23"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/installed-REPORT.json",
+      "bytes": 1389,
+      "sha256": "e2f56ca66d515d8b397c1c5d1cd4b37f81df3b74534040736ed2dfcee2b41a23"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/evidence/installed-PACKAGE-FILES.json",
+      "bytes": 10929,
+      "sha256": "e85ef06e47841fd9d030dd1b176b4275b6023a4fb27698b4da208c3fd8b9da70"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay-release/PACKAGE-FILES.json",
+      "bytes": 10929,
+      "sha256": "e85ef06e47841fd9d030dd1b176b4275b6023a4fb27698b4da208c3fd8b9da70"
+    },
+    {
+      "path": "/home/astra/artifacts/pixellab-construction-package-proof-20261012/replay-release/store/blobs/055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a",
+      "bytes": 1484,
+      "sha256": "055d36cd55151550db9f0a22496635b28a0490e188b91f7810e5cd27b2afa00a"
+    },
+    {
+      "path": "/home/astra/projects/pixellab-local-workbench/docs/construction/integration-review-evidence/BENCHMARK.json",
+      "bytes": 7437,
+      "sha256": "247b184bdae79bff86b87a8e9455e0567cd41736c2a43289f242727482daf3d3"
+    }
+  ],
+  "uninspected": [
+    "moving current handoff manifest",
+    "full behavioral completeness beyond retained assertions",
+    "art/motion visual acceptance",
+    "all native/Aseprite/Pixelorama host paths",
+    "provider/model semantics"
+  ],
+  "confidence": "Selected retained333-suite records,8+8release checks,88-file/wheel/sequence bindings agree; no100-percent vendor or production readiness certification"
+}

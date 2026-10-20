@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "producer_commit": "84fa0dcbb29b719fe06fe1c433b743b44c61c756",
+  "base_commit": "8e02205b492bc0527adf369f093efe63a2983250",
+  "dependencies": [
+    "c1fa4d6",
+    "c921d8b"
+  ],
+  "command": "python3 -m pytest -q tests/test_construction_exchange.py tests/test_construction_core.py --basetemp .test-tmp/construction-exchange-ready --junitxml=.test-tmp/construction-exchange-ready.xml",
+  "result": {
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "scope": {
+    "exchange_tests": 20,
+    "dependency_core_tests": 44,
+    "native_batch_commands": 5,
+    "GUI_visual_review": false
+  },
+  "tool": {
+    "reported_version": "LibreSprite1.3",
+    "version_observed_during_initial_capability_check": true,
+    "files": {
+      "/home/astra/.local/bin/libresprite": "8000627f734f3a42040b9d51c6a19c1b13998dcff08b110b89a4b7c84ddda7cc",
+      "/home/astra/.local/opt/libresprite-1.3/squashfs-root/AppRun": "18d970f56eca2c527ffd3993b161b6bc340055129db14b394a77cb67d8bbfff9"
+    }
+  },
+  "code": {
+    "sprite_workbench/construction_exchange.py": "78e47befbd2607d3f6c48cc42b94a16cdd35260286b74d4d56f4bf22cbee1171",
+    "sprite_workbench/construction_core/aseprite.py": "e34a533bb44769583609de1d7e2152df84120830c152b1008315ccd4065025f4",
+    "tests/test_construction_exchange.py": "746d3bbc472790140272a60486d1e09d4c9cc583b4aec363461eb0f02fd1f36a",
+    "docs/construction/EXCHANGE.md": "7249df8f21b347d0ac8ee93d9e640fb81ee5afbaa1266ac1b88386ccda752f23",
+    "docs/construction/ASE-PARSER-ORIGIN.json": "60f02b592e1a8203d77b09a7063d79fce2e140dc38e9896bdbafeba75a02c472"
+  },
+  "fixture_sha256": "e8817874ed918cf85833fac8c862118970fdcfe6bde5977c98ce2b62f68a2017",
+  "clock_cases": {
+    "unequal": {
+      "ticks": [
+        1,
+        2,
+        3
+      ],
+      "fps": 60,
+      "native_ms": [
+        17,
+        33,
+        50
+      ]
+    },
+    "cumulative": {
+      "ticks": [
+        1,
+        1,
+        1
+      ],
+      "fps": 60,
+      "native_ms": [
+        17,
+        16,
+        17
+      ]
+    }
+  },
+  "pixel_checks": [
+    "Actual native tool PNGs vs original layers/composite",
+    "Actual cropped1\u00d71/background and2\u00d72/paint with linkedframe offsets",
+    "Palette duplicate alias preserved in unchanged source pixels",
+    "Accepted exactRGBA13,157,241,177 onlyoneexternal instance; other sharedframe untouched",
+    "Locked and stale/metadata/geometry/clock/unknown chunk refusals"
+  ],
+  "safety_checks": [
+    "1\u00d71 declared RGBA inflation capped at5bytes beforeImage allocation",
+    "Bounded file reads and64Mfullcanvas/raw/link work",
+    "Source-clock derivation independentofeditable sidecar fields",
+    "Complete Store-bound sidecar snapshot comparison and portable numeric parsing",
+    "Typed import provenance dependencies/shape before renderer attachment"
+  ],
+  "official_format_source": {
+    "url": "https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md",
+    "sections": [
+      "Introduction: palettes optional above8bpp",
+      "Old palette0x0004",
+      "Palette0x2019",
+      "CelExtra0x2006",
+      "Color profile0x2007"
+    ],
+    "retrieval_reason": "New uncertain chunk allowlist classification after inspecting actual LibreSprite output"
+  },
+  "provider_calls": 0,
+  "artistic_acceptance": "unreviewed",
+  "limitations": [
+    "RGBA32 transport, no native index alias guarantee",
+    "Original Store authority required; not authentication of writableStore",
+    "Native batch verification, no GUI or aesthetic review",
+    "No full Aseprite advanced chunks/colour management",
+    "Pillowdeprecated getdata warnings retained;futuremigrationunverified"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "frames": [
+    {
+      "flat": false
+    },
+    {
+      "flat": true,
+      "episode": "diagnostic-rectangle",
+      "anchor": [
+        4,
+        8
+      ],
+      "foot_mask": "walk/rgba-0.png",
+      "visible_foot_mask": "walk/rgba-0.png",
+      "ownership": {
+        "full_pixels": 120,
+        "visible_pixels": 120,
+        "occluded_pixels": 0
+      }
+    },
+    {
+      "flat": false
+    }
+  ],
+  "scope": "Whole opaque diagnostic rectangle material mask, NOT foot anatomy or art"
+}

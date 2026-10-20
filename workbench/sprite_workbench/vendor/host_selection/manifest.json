@@ -1,0 +1,25 @@
+{
+  "kind": "recovered-host-selection-source",
+  "version": 1,
+  "classification": "unchanged-recovered-pixelorama-manual-selector-not-server-cutout",
+  "source_pck_sha256": "ebf9812ea474bddb84faa22183a1ec0178983cdc285674a4d0177c606e8a4a3f",
+  "original_source_paths": {
+    "FloodFillObject.gd": "res://src/Classes/FloodFillObject.gd",
+    "DrawingAlgos.gd": "res://src/Autoload/DrawingAlgos.gd"
+  },
+  "recovery": "GDRE recovered GDScript text; no compiled bytecode equivalence claim",
+  "files": {
+    "DrawingAlgos.gd": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+    "FloodFillObject.gd": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+    "runner.gd.template": "f00ed4efa63018b0eeb788494e9b3ca360880af2223db4af7fa4cdef999c53d8",
+    "similar_colors.gd.fragment": "5c69c15d8218ee0ec1a6f752eeb032d42cde9c337beaf424faa624f51f9a1e9f",
+    "stubs.gd.fragment": "d23cd1d1faea0971e5de5f8b6ac5c4f525cdc018aa7ff4c3c1a2ab42169f9ef8"
+  },
+  "execution": [
+    "Full unchanged FloodFillObject.gd with appended host fixture declarations",
+    "Unchanged similar_colors method with RefCounted wrapper",
+    "No active selection: selection_matters=false and Project.has_selection=false",
+    "Callback paints original segment spans; consumes mask alpha only"
+  ],
+  "boundary": "Manual seed/tolerance host selection. Not automatic cutout, provider inference or animation parity."
+}

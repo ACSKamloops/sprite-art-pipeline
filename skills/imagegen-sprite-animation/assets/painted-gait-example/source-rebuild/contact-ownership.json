@@ -1,0 +1,157 @@
+{
+  "canvas": [
+    128,
+    128
+  ],
+  "parts": [
+    {
+      "id": "forward-left",
+      "source": "00.png",
+      "polygon": [
+        [
+          74,
+          80
+        ],
+        [
+          79,
+          80
+        ],
+        [
+          82,
+          86
+        ],
+        [
+          91,
+          89
+        ],
+        [
+          91,
+          107
+        ],
+        [
+          68,
+          107
+        ],
+        [
+          68,
+          94
+        ],
+        [
+          67,
+          88
+        ],
+        [
+          68,
+          84
+        ],
+        [
+          72,
+          83
+        ]
+      ],
+      "at": [
+        -20,
+        0
+      ],
+      "role": "complete visible source-right/receding leg to viewer-left hip; boot orientation unchanged",
+      "source_sha256": "a05ff84b561781ddfa4f5d611dd11da8e0f3c3298bdcdab7a406d0c1c4c9b143"
+    },
+    {
+      "id": "trailing-right",
+      "source": "00.png",
+      "polygon": [
+        [
+          47,
+          82
+        ],
+        [
+          60,
+          82
+        ],
+        [
+          63,
+          85
+        ],
+        [
+          63,
+          89
+        ],
+        [
+          60,
+          93
+        ],
+        [
+          61,
+          100
+        ],
+        [
+          58,
+          120
+        ],
+        [
+          35,
+          120
+        ],
+        [
+          35,
+          96
+        ],
+        [
+          43,
+          91
+        ],
+        [
+          44,
+          85
+        ]
+      ],
+      "at": [
+        17,
+        0
+      ],
+      "extra_owner_pixels": [
+        [
+          61,
+          93
+        ],
+        [
+          61,
+          94
+        ]
+      ],
+      "role": "complete visible source-left/extended leg to viewer-right hip; boot orientation unchanged",
+      "source_sha256": "a05ff84b561781ddfa4f5d611dd11da8e0f3c3298bdcdab7a406d0c1c4c9b143"
+    },
+    {
+      "id": "upper",
+      "source": "04.png",
+      "polygon": [
+        [
+          0,
+          0
+        ],
+        [
+          127,
+          0
+        ],
+        [
+          127,
+          82
+        ],
+        [
+          0,
+          82
+        ]
+      ],
+      "at": [
+        0,
+        0
+      ],
+      "role": "original four-key bank04 full connected upper and waist; focused compressed04 excluded",
+      "source_sha256": "e2aa939641b40205dde129898c8919406aad5fe6c1b2d8035badd9170bc5b2c3"
+    }
+  ],
+  "order": "back-to-front as declared",
+  "underpaint": "none; no invented hidden fill",
+  "registration": "fixed stage only; no per-pose bounding-box fit"
+}

@@ -1,0 +1,55 @@
+{
+  "original_failure": {
+    "path": "/home/astra/artifacts/emberwake-walk-game-preview-v8/BROWSER-EIGHT-DIRECTIONS.json",
+    "sha256": "869e0606aa2d59c2cfe90922fc4a8582c86f84e2b821b4c2b819d1a00fbffd05",
+    "passed": false,
+    "error": "TimeoutError: page.waitForFunction: Timeout 5000ms exceeded.",
+    "successful": 180,
+    "incomplete": [
+      "No current-cast projectile in asynchronous sample lyra southeast",
+      "No current-cast projectile in asynchronous sample brann southeast"
+    ],
+    "last_receipt": "ordinary attack commits requested diagonal brann northwest",
+    "last_tick": 2628,
+    "last_state_time": 0.0833333333333333,
+    "last_pending_hit": "attack",
+    "final_tick": 2934,
+    "final_state": "walk",
+    "final_facing": "southeast",
+    "final_hp": 100,
+    "console_messages": [],
+    "page_errors": []
+  },
+  "sources": [
+    {
+      "path": "tests/browser_eight_directions.js",
+      "canonical_sha256": "82ccbe1865c45677d116da0d2c756a785d2516971529067a69c695c878908d9b",
+      "frozen_project_sha256": "82ccbe1865c45677d116da0d2c756a785d2516971529067a69c695c878908d9b",
+      "equal": true,
+      "proposed_sha256": "2f7b378bf4ed126dd05768013b7cbdd0f3e30b0ef0214204fe89429d330a170e"
+    },
+    {
+      "path": "tests/run_browser_eight_directions.py",
+      "canonical_sha256": "bead66ad077cdd26c60fe26e75c5858aafd9ac838789481944ef4c1f66a2d117",
+      "frozen_project_sha256": "bead66ad077cdd26c60fe26e75c5858aafd9ac838789481944ef4c1f66a2d117",
+      "equal": true,
+      "proposed_sha256": "2c4efea70406d63b4312162f242abebdbce678f548dd5543d977ddf4de7c2e5e"
+    },
+    {
+      "path": "scripts/browser_diagnostics.gd",
+      "canonical_sha256": "2924b6f37c17d80fd989f0152f5404e3e6191aff98bceab57136f68b014c894c",
+      "frozen_project_sha256": "2924b6f37c17d80fd989f0152f5404e3e6191aff98bceab57136f68b014c894c",
+      "equal": true,
+      "proposed_sha256": "204caa1fa0a9a01b231a3eaf3618512928e2f43c3e7913ad3e6da7d0fac321b0"
+    },
+    {
+      "path": "scripts/hero.gd",
+      "canonical_sha256": "1189e397a2e2097a9e910bcda7167fafdd6838e5746567b5f5a0a0ba44e92da0",
+      "frozen_project_sha256": "1189e397a2e2097a9e910bcda7167fafdd6838e5746567b5f5a0a0ba44e92da0",
+      "equal": true,
+      "proposed_sha256": null
+    }
+  ],
+  "canonical_edited": false,
+  "browser_controlled": false
+}

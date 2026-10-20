@@ -1,0 +1,38 @@
+import json,time,platform
+from pathlib import Path
+from sprite_workbench.core import Store
+from sprite_workbench.construction import save_project,create_history,edit_history,load_project
+import sprite_workbench.construction as c
+p=Path('runs/construction-integration-benchmark');s=Store(p/'store')
+project={'schema':'sprite-edit-project/v1','canvas':{'width':256,'height':256,'render_pivot':[128,128],'ground_pivot':[128,256]},
+ 'palette':[[0,0,0,0],[71,31,103,255],[37,113,59,255]],'layers':[{'id':'paint','name':'Mechanical sparse supplied paint','locked':False}],
+ 'cels':{'shared':{'layer_id':'paint','pixels':[0]*(256*256)}},
+ 'frames':[{'id':'f'+str(i),'duration_ticks':1,'cels':{'paint':'shared'},'landmarks':{}} for i in range(24)],
+ 'animations':[{'id':'diagnostic','frames':['f'+str(i) for i in range(24)],'fps':24,'loop':False,'events':[]}],
+ 'provenance':{'scope':'Non-character sparse mechanical shared-cel editing benchmark, not production artwork or full-size multilayer character'}}
+project['cels']['shared']['pixels'][20*256+10]=1
+start=time.perf_counter();saved=save_project(s,project);h=create_history(s,saved['project']);setup=time.perf_counter()-start
+records=[]
+for i in range(20):
+ t={'schema':'sprite-edit-transaction/v1','expected_project_sha256':h['project_hash'],'reason':'Distinct diagnostic marker correction '+str(i),
+    'operations':[{'op':'paint','cel_id':'shared','points':[[10+i,20,2]]}]}
+ begin=time.perf_counter()
+ try:
+  h=edit_history(s,h['history'],t)
+  record={'ordinal':i+1,'status':'completed','seconds':time.perf_counter()-begin,'history':h['history'],
+          'changed_frames':len(h['receipt']['diff']['frames']),'changed_cel_coordinates':h['receipt']['diff']['cels']['shared']['coordinates']}
+ except Exception as e:
+  record={'ordinal':i+1,'status':'rejected','seconds':time.perf_counter()-begin,'error':{'type':type(e).__name__,'message':str(e)}}
+ records.append(record);print(json.dumps(record),flush=True)
+ (p/'PROGRESS.json').write_text(json.dumps(records,indent=2)+'\n')
+ if record['status']!='completed':break
+report={'scope':'One sparse supplied cel shared by24frames, one layer,256x256; not a representative character edit-session benchmark.',
+ 'python':platform.python_version(),'setup_seconds':setup,'total_seconds':time.perf_counter()-start,'requested_edits':20,
+ 'completed_edits':sum(r['status']=='completed' for r in records),'records':records,'project':h['project'],'project_hash':h['project_hash'],
+ 'limits':{'render_work':c.MAX_RENDER_WORK,'history_snapshot_index_values':c.MAX_HISTORY_CEL_VALUES},
+ 'concurrent_work':'Other agents may execute simultaneously; measured wall times are point-in-time, not isolated performance guarantees.',
+ 'source_budget_examples':[{'layers':1,'canvas':[256,256],'project_frames':24,'diff_work_per_edit':2*256*256*24,'20_edits_admitted_by_work':20*(2*256*256*24+1)<=c.MAX_RENDER_WORK},
+  {'layers':2,'canvas':[256,256],'project_frames':24,'predicted_max_point_edits':c.MAX_RENDER_WORK//(2*256*256*24*2+1)},
+  {'layers':11,'canvas':[256,256],'project_frames':24,'predicted_max_point_edits':c.MAX_RENDER_WORK//(2*256*256*24*11+1)}],
+ 'remaining_gap':'No representative full-size multilayer character editing performance/usability benchmark. Histories replay all earlier receipts on each edit.'}
+(p/'REPORT.json').write_text(json.dumps(report,indent=2)+'\n');print('report written',flush=True)

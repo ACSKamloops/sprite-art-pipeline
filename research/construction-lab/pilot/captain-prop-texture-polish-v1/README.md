@@ -1,0 +1,11 @@
+Fixed source-conditioned shield paint experiment; no art or carried-animation approval.
+
+The original Captain image and earlier narrow deprojection informed one new frontal texture proposal. Builtin image_gen authored unseen ornament details. The alpha-only follow-up failed to remove the external glow completely; both original outputs and that limitation are retained. Source RGBA bytes are unchanged. UV registration samples the shield interior rather than transferring the haze to a translucent physical panel.
+
+`bind_shield.py` appends the frozen real ShieldRoot module and adds AuthoredShieldRowUV. It preserves existing positions, original UV layer, closed panel, thickness, grip and LEFT_Hand_Attachment. Each row uses the generated alpha>=248 interval. V1 expands tiny tip rows across a broad physical edge; V2 makes one fixed vertical crop where width is at least25% of maximum, then maps row bounds. This nonuniform registration is declared and may distort motifs. It is fixed for every pose and view. A shaped shield silhouette remains an art task; the texture does not reconstruct its geometry.
+
+Candidate: `artifacts/fixed-row-uv-v2/ShieldRoot-module.blend`. Actual native256/384 four-view renders, packed scene and receipts accompany it. Static exchange passed16 decoded RGBA byte-equality checks (eight packed reload, eight standalone append). The initial matrix-decomposition camera restore failed by up to28RGB levels; those outputs remain. Restoring the actual procedural camera position/scale/Euler before rendering produces exact pixels. This proves module exchange, not visual quality, physical hand grip or animation.
+
+Reproduce in this folder's parent lab with local Blender4.5.9: `blender -b -t 4 --python pilot/captain-prop-texture-polish-v1/bind_shield.py -- --crop-tips`. Constructor refuses existing outputs. Run `verify_shield.py -- --restore-transform` and separately `-- --restore-transform --append`, then compare decoded RGBA against each reference. Preserve all failed variants; choose a fresh output folder for another revision.
+
+Body and sword materials are outside this edit. Shield outline is the earlier curved rounded panel, not exact source contour; gold is brighter, ornaments are newly authored, the rear remains generic red. Equipped native-size and whole-cycle independent review remains required.

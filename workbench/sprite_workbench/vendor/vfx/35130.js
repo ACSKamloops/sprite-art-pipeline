@@ -1,0 +1,1 @@
+function(e,t,r){"use strict";r.d(t,{X:function(){return s}});var n=r(85893),a=r(39912),i=r(43283),l=r(42787),o=r(60696),c=r(61845);let s=(0,l.G)(function(e,t){let r=(0,o.m)("Heading",e),{className:l,...s}=(0,a.L)(e);return(0,n.jsx)(c.m.h2,{ref:t,className:(0,i.cx)("chakra-heading",e.className),...s,__css:r})});s.displayName="Heading"}

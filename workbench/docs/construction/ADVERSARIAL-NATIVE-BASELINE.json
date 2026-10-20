@@ -1,0 +1,23 @@
+{
+  "review_snapshot": "a3c91ec5610b408cec7fe1018aeb697865ab01bf",
+  "upstream_exchange_commit": "84fa0dcbb29b719fe06fe1c433b743b44c61c756",
+  "source_hashes": {
+    "sprite_workbench/construction_exchange.py": "78e47befbd2607d3f6c48cc42b94a16cdd35260286b74d4d56f4bf22cbee1171",
+    "sprite_workbench/construction_core/aseprite.py": "e34a533bb44769583609de1d7e2152df84120830c152b1008315ccd4065025f4",
+    "tests/test_construction_adversarial.py": "97b3b8346664af177906e67fdf06bbdb83b91a78e839d123b5aabb119e914ae7"
+  },
+  "baseline_test_results": {
+    "passed": 32,
+    "failed": 5,
+    "skipped": 0,
+    "failures": {
+      "C02": "depth500 sidecar leaks RecursionError instead of ExchangeError receipt",
+      "C03": "binding version bool, extra field, mismatched native bytes and original project hash each accepted despite provenance validator refusal"
+    }
+  },
+  "receipt_files": [
+    "ADVERSARIAL-NATIVE-BASELINE-PYTEST.txt",
+    "ADVERSARIAL-NATIVE-BASELINE-JUNIT.xml"
+  ],
+  "external_calls": 0
+}

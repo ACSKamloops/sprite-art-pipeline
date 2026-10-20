@@ -1,0 +1,308 @@
+{
+  "scope": "One sparse supplied cel shared by24frames, one layer,256x256; not a representative character edit-session benchmark.",
+  "python": "3.14.4",
+  "setup_seconds": 0.10175688902381808,
+  "total_seconds": 181.42721295997035,
+  "requested_edits": 20,
+  "completed_edits": 20,
+  "records": [
+    {
+      "ordinal": 1,
+      "status": "completed",
+      "seconds": 0.9035235220217146,
+      "history": "196bdb55b7f54b37f56239ea3dcc78e6b5c42778e7737f1f24ae7c0ef38173ba",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          10,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 2,
+      "status": "completed",
+      "seconds": 1.6819863839773461,
+      "history": "2496399be72a4eda1da6ea2690b594be36dbba8ade24dd25d45342e01f14390a",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          11,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 3,
+      "status": "completed",
+      "seconds": 2.3176380720105954,
+      "history": "db5a341e8376664c7982d943992efcc4b539206785826c0a83bf5d38e678e75c",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          12,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 4,
+      "status": "completed",
+      "seconds": 3.0176390649867244,
+      "history": "d9e5bbaf64512279cdbff647848f7afe4471d20d4c8752c6dd0c3aad4131df87",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          13,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 5,
+      "status": "completed",
+      "seconds": 3.7643430629977956,
+      "history": "275587d548b52954d9cb7016b40412cd0e635f7a52ccacd5caae7cea31c9fc70",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          14,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 6,
+      "status": "completed",
+      "seconds": 4.545511366042774,
+      "history": "2d323c1e71a8ec9b53e512a5d2d10e386638935159f673f823713f2c206382ea",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          15,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 7,
+      "status": "completed",
+      "seconds": 5.287784245971125,
+      "history": "d4978c336ce6a1f0364ea5914f091c36d43c6841ec9f135921f9ccebc44aeb47",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          16,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 8,
+      "status": "completed",
+      "seconds": 6.32152157695964,
+      "history": "f4ceded65edbbe9018df96166dff99a116ec9c961b817a6fb5ccd09aa9e257db",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          17,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 9,
+      "status": "completed",
+      "seconds": 6.842806541011669,
+      "history": "ea0361060b948d517095a5e0418732d989e276496407b1d8773a08997c3ddb0f",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          18,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 10,
+      "status": "completed",
+      "seconds": 7.8598441170179285,
+      "history": "3ff098ea1a352051322c23ad6ef5d2f8c4ea8d71494fdae847fe1f46d3759062",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          19,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 11,
+      "status": "completed",
+      "seconds": 9.069013778993394,
+      "history": "641fbe8402107e2ac951cc6d4d5f1b7511e015602f18b93c1ac7f5d23107fd10",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          20,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 12,
+      "status": "completed",
+      "seconds": 10.530582369945478,
+      "history": "4e9e56df3d8d96ee3c02fdc843ef59325fd32d581fbab998e452f0fe142c4cad",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          21,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 13,
+      "status": "completed",
+      "seconds": 11.342460145009682,
+      "history": "31c409df7fa67b2dc9c36be40be467e37a86d2334b9989709e4b86bf0f16c1d2",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          22,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 14,
+      "status": "completed",
+      "seconds": 12.172869290981907,
+      "history": "076b27dda4dad8499b8605578b4f4c34531c2d58d04f7fefa555db729de71a46",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          23,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 15,
+      "status": "completed",
+      "seconds": 13.066687426005956,
+      "history": "a7456dacf0199c5854ade317f7e592f8dca14cc8b69c677887546f07bfacd910",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          24,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 16,
+      "status": "completed",
+      "seconds": 15.476522065000609,
+      "history": "350bb43485fc250ce743e51dddaccb184001b11875cbea0dac4c36d9f0082f51",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          25,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 17,
+      "status": "completed",
+      "seconds": 15.259295455005486,
+      "history": "3f05db50a0199036d1df683d4b13ae1bc7d08809489eea3772ffa13f2029add8",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          26,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 18,
+      "status": "completed",
+      "seconds": 16.51673190499423,
+      "history": "1dc9e46053d193fb61361b607e6ff63a610f65bf9537d41ee56f2e556d12be3e",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          27,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 19,
+      "status": "completed",
+      "seconds": 17.219950746977702,
+      "history": "9bdc7fa6858944dded253aec79ed704d58779d781ad2773e52be9373c96a1144",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          28,
+          20
+        ]
+      ]
+    },
+    {
+      "ordinal": 20,
+      "status": "completed",
+      "seconds": 18.123222431982867,
+      "history": "ccc63e035f0ad734ffb497e51b79a8207253ddb3bc5812a86f8f0fa12bd88f92",
+      "changed_frames": 24,
+      "changed_cel_coordinates": [
+        [
+          29,
+          20
+        ]
+      ]
+    }
+  ],
+  "project": "37b5e1f712d61f7971f7ae84ae3a63dea4767897db711385a2d7544226e4c894",
+  "project_hash": "3cefc4dff2f651131c6e9d0266adb80f085f92fea49c89cfe2499af9e74892a9",
+  "limits": {
+    "render_work": 67108864,
+    "history_snapshot_index_values": 33554432
+  },
+  "concurrent_work": "Other agents may execute simultaneously; measured wall times are point-in-time, not isolated performance guarantees.",
+  "source_budget_examples": [
+    {
+      "layers": 1,
+      "canvas": [
+        256,
+        256
+      ],
+      "project_frames": 24,
+      "diff_work_per_edit": 3145728,
+      "20_edits_admitted_by_work": true
+    },
+    {
+      "layers": 2,
+      "canvas": [
+        256,
+        256
+      ],
+      "project_frames": 24,
+      "predicted_max_point_edits": 10
+    },
+    {
+      "layers": 11,
+      "canvas": [
+        256,
+        256
+      ],
+      "project_frames": 24,
+      "predicted_max_point_edits": 1
+    }
+  ],
+  "remaining_gap": "No representative full-size multilayer character editing performance/usability benchmark. Histories replay all earlier receipts on each edit."
+}

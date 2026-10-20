@@ -1,0 +1,12 @@
+### Result
+{
+  "url": "#workspace",
+  "project": "8f9c07c4ff3440087193ff5ed2930d41a8abc4c51b628bb8dc64489d8aea4e94",
+  "history": "228b99d80a805d612c793e2ed00b9699b2057ee9d29fb8dfe4acba5e4ac859f0",
+  "dimensions": "48 × 48 px",
+  "errorVisible": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({url:location.hash,project:document.querySelector("#current-project").textContent,history:document.querySelector("#current-history").textContent,dimensions:document.querySelector("#canvas-dimensions").textContent,errorVisible:!document.querySelector("#global-error").hidden})');
+```

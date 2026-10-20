@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "predeclared_utc": "2026-10-14T02:55:23.773656+00:00",
+  "purpose": "Matched-input service-pipeline comparison, not a claim of same weights or isolated base-model ranking",
+  "cases": [
+    {
+      "case": "walk-v1",
+      "native_run": "h3-walk-001",
+      "pixellab_run": "pixellab-walk-v1",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "prompt_utf8_sha256": "2f078a8fd63d6c23ef8aacc95d5a051006cf0d1e3741f0af0b828e11a1b3070e",
+      "shared_input_role": "first_frame",
+      "shared_optional_last_frame": false,
+      "same_prompt_bytes_required": true
+    },
+    {
+      "case": "slash-v1",
+      "native_run": "h3-slash-001",
+      "pixellab_run": "pixellab-slash-v1",
+      "source_png_sha256": "571b74ac6bd1a945263c8c5cdf2b1eab9facf277bbc752c767de6f4412bf8084",
+      "prompt_utf8_sha256": "4cb41f264b048ab520cdd845a8442624abb2fd5283300f42d033106ce66ecc35",
+      "shared_input_role": "first_frame",
+      "shared_optional_last_frame": false,
+      "same_prompt_bytes_required": true
+    },
+    {
+      "case": "slash-margin-v2",
+      "native_run": "h3-slash-margin-002",
+      "pixellab_run": "pixellab-slash-margin-v2",
+      "source_png_sha256": "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+      "prompt_utf8_sha256": "4cb41f264b048ab520cdd845a8442624abb2fd5283300f42d033106ce66ecc35",
+      "shared_input_role": "first_frame",
+      "shared_optional_last_frame": false,
+      "same_prompt_bytes_required": true
+    }
+  ],
+  "pixellab_request": {
+    "endpoint": "/v2/animate-pixminimax",
+    "frame_count": 16,
+    "seed": 123,
+    "no_background": true,
+    "enhance_prompt": false,
+    "caption_fields": "all four omitted, matching original public probe policy; automatic caption inference may differ from native H3"
+  },
+  "native_h3": {
+    "model": "MiniMax-H3",
+    "duration_requested_seconds": 4,
+    "resolution": "768P",
+    "no_native_seed_or_framecount": "not declared in current schema; no invented mapping",
+    "context_ir_calls": 0
+  },
+  "comparisons": {
+    "raw_outputs": "retain full native videos/all107decodedframes and complete ordered PixelLab arrays including input-reference0; source clocks/cardinality differ",
+    "sprite_workflow": "separately label local H3 cycle/one-shot sampling, border-black alpha key and fixed256resize; PixelLab returned PNGs remain unchanged",
+    "inspection_clock": "any common two-second side-by-side playback is nominal inspection only; not PixelLab inference FPS",
+    "motion_metrics": "adjacent differences are flags within each sequence; unequal spacing prevents naive cross-provider difference-score ranking",
+    "quality_checks": [
+      "reference-byte and decoded-pixel identity",
+      "native output counts/dimensions/alpha/palette",
+      "clipping and weapon/grip continuity",
+      "body/gear identity consistency",
+      "walk phase/contact/loop seam",
+      "attack anticipation/strike/followthrough/recovery",
+      "idle holds and one-shot completion",
+      "alpha edge artifacts and any local key damage"
+    ]
+  },
+  "rea": "Inspect newly recorded producer HAR requests/completed responses; retain evidence IDs/hashes/limitations and original ordinals; no claim of recovered private server implementation",
+  "unknowns": [
+    "PixelLab deployed checkpoint/fine-tune",
+    "private H3 preprocessing and video frame sampling",
+    "private segmentation, temporal de-flicker and palette algorithms",
+    "private caption inference/native server prompt handling"
+  ],
+  "post_budget": {
+    "pixellab_generation_attempts_max": 3,
+    "concurrent_pixellab_jobs_max": 2,
+    "automatic_paid_post_retry": false
+  }
+}

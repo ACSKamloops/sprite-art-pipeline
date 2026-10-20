@@ -1,0 +1,110 @@
+{
+  "schema": "independent-sprite-review/v5",
+  "input_fingerprint": "4f1e32a794f89e029cb20776695841020e343fcb8220c50947efbdacd4a6d7d4",
+  "score_scale": "0\u201310, holistic whole-set judgment; no target supplied",
+  "style_basis": "Written rich modern chibi top-down unarmed-hero brief; reference-fit rating unchanged and no exact Rowan comparison claimed.",
+  "perception_basis": "Decoded actual pixels, exact holds, v4/v5 equal-clock still comparisons, source-hashed v3 transfer. No human normal-speed perception.",
+  "normal_speed_human_perception": false,
+  "browser_gameplay_export_approval": false,
+  "mechanical_preservation_earns_art_points": false,
+  "unchanged_art_score_increased": false,
+  "direction_limits": "Four directions. Disclosed Brann west mirror and lower-leg reuse are not independent new view/pose evidence.",
+  "blindness": "Disclosed follow-up, not blind; prior v1 incidental general-skill/early-lineage exposure qualification persists. No other scored review or rejected A source opened.",
+  "scores": {
+    "drawing": 7.8,
+    "reference_fit": 7.6,
+    "consistency": 7.5,
+    "motion": 6.9,
+    "usefulness": 7.5,
+    "overall": 7.4
+  },
+  "confidence": {
+    "drawing": 0.85,
+    "reference_fit": 0.68,
+    "consistency": 0.85,
+    "motion": 0.67,
+    "usefulness": 0.78,
+    "overall": 0.77
+  },
+  "recommendation": "Keep v5 B and the recovery/tab repairs for the prototype. The v3 south-dodge feature gap is closed. No demonstrated anatomical puncture warrants reverting B.",
+  "remaining": [
+    {
+      "rank": 1,
+      "kind": "boot volume and path polish",
+      "severity": "low to medium",
+      "frames": [
+        "south_walk 120->121->112",
+        "north_walk 125->114",
+        "north_walk 127->115"
+      ],
+      "finding": "South f121 has the strongest outward swing-leg detour before returning toward f112. It remains anatomically possible; compact/rounder passing boots still cause a small volume contrast against long original boots.",
+      "smallest_experiment": "Use a matched-volume passing refinement and compare current B to equal-clock v4 at normal speed. If a lateral hitch is perceived, refine only the f121 path; do not reject the entire B bank from alpha-hole counts."
+    },
+    {
+      "rank": 2,
+      "kind": "new settle drawing consistency",
+      "severity": "minor",
+      "frames": [
+        "116->14",
+        "117->42",
+        "118->70",
+        "119->98"
+      ],
+      "finding": "The new settle drawings simplify and brighten some neckline/trim and cuff shapes. Hero identity remains coherent, but source-preserved head pixels alone do not establish exact costume-volume consistency.",
+      "smallest_experiment": "If a flash is visible in timed playback, align only the settle costume detail and shading to the neighboring idle/action drawings; keep the useful intermediate arm/stance pose."
+    }
+  ],
+  "character_id": "brann",
+  "input_hashes": {
+    "atlas.png": "1ef38acfc4a45c448fbb79cac35ec13880241eeabb7beb0744ef24f4d85980f9",
+    "animations.json": "f1e027c3e04f989645ea18f3de5d4d73a83287cf880439543a5aad3e6e613a02",
+    "receipt.json": "d020bb74c29c632018a8fcc6201f286871abfeca1636153801c11cd55c67da6f"
+  },
+  "exact_transfer_v3": [
+    "south_idle",
+    "south_cast",
+    "south_hurt",
+    "east_idle",
+    "east_walk",
+    "east_cast",
+    "east_hurt",
+    "north_idle",
+    "north_cast",
+    "north_hurt",
+    "west_idle",
+    "west_walk",
+    "west_cast",
+    "west_hurt"
+  ],
+  "fresh_clips": [
+    "south_walk",
+    "south_attack",
+    "south_dodge",
+    "east_attack",
+    "east_dodge",
+    "north_walk",
+    "north_attack",
+    "north_dodge",
+    "west_attack",
+    "west_dodge"
+  ],
+  "coverage": {
+    "clips": 24,
+    "stored_cells": 128,
+    "timeline_presentations": 128,
+    "selected_unique_cells": 116,
+    "unchanged_complete_clips_transferred": 14,
+    "fresh_changed_clips": 10,
+    "idle_action_endpoint_joins_inspected": 80,
+    "scales": [
+      "native",
+      "nearest 2x",
+      "approximate 0.66 drawscale"
+    ],
+    "backgrounds": [
+      "dark teal",
+      "light gray",
+      "white/light topology inspection"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "Verified isolated v12. Brann NE/NW scoped raw art review passes 8 for motion; the independent literal border-delta audit is complete. Overall library target remains unmet.",
+  "source_config": "art-source/eight-direction-v1/registration-v12-brann-new-gait.json",
+  "config_sha256": "aa7ebef49b983e16b82c0df8e2940076c619519160ff2903e118253789d30390",
+  "installed_assets": "v6 unchanged",
+  "public": "unchangedfourpaintedviewrelease",
+  "source_delta": "only16Brannatlaswalkcells versusv11; allother sourceRGBAexact;3manifestdirectional_source paths change, all144animationtables/holds/sockets otherwiseexact;9runtime/scene/exportsettingsfilesbyteexact",
+  "fresh_checks": {
+    "artifact_invariants": 3140,
+    "actual_gpu_assertions": 2896,
+    "gpu_clips": 2,
+    "gpu_pngs": 576,
+    "gpu_clock_hz": 320,
+    "loops_per_clip": 2,
+    "browser_assertions": 193,
+    "complete_action_traces": 24,
+    "incomplete_action_observations": 0,
+    "gallery_transport_checks": 9,
+    "web_pck_resources": 6
+  },
+  "native_editor": "portable../brann-ne-gait-v1/editor; independentrootreplayactualLibreSprite8RGBAexact,56/57msholds total450; exact160Hz9ticksidecar authority",
+  "export_processing": "actualmountedWebPCK3manifests and3textures match processedbake; Image.fix_alpha_edges existingimportbehavior, notrawatlasRGBAequality",
+  "review_limits": [
+    "Brann8motionjudgment reconstructs orderedstills/knownholds, no continuoushumanvideo certification",
+    "Authored158px/sGPUtranslation is a renderfixture, not plantedfoot/physics certification",
+    "No otherwalks/actions/turnentry/exitautomaticallyapproved",
+    "NewRowanmanualrepairtiesowncontrol7.5motion despite8overall, notselected",
+    "Failedbake/export/media/galleryprobes retained separately; onlyfinalpassingresults counted"
+  ],
+  "local_game": "http://localhost:8898/game-v12/index.html",
+  "local_new_walks": "http://localhost:8898/godot-walks-v12/",
+  "upstream_artifact": "/home/astra/artifacts/emberwake-source-cel-game-preview-v12",
+  "border_delta_review": "art-source/eight-direction-v1/brann-ne-gait-v1/border-delta-review/REVIEW.json"
+}

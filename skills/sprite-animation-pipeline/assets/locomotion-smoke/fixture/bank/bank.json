@@ -1,0 +1,163 @@
+{
+  "schema": "authored-locomotion-bank/v1",
+  "source_walk": {
+    "manifest": "/home/astra/artifacts/pixellab-hybrid-walk-20261015/game-ready-v6/runtime-work/portable-smoke/fixture/walk/manifest.json",
+    "sha256": "56c798b957736d19ba02ad74fe665c4121201ed2bfa67a98cf4a86169369bfaf"
+  },
+  "idle_variants": {
+    "rest": {
+      "manifest": "idle-rest/manifest.json"
+    }
+  },
+  "stop_by_walk_frame": [
+    {
+      "walk_frame": 0,
+      "manifest": "stop-0/manifest.json",
+      "to_idle": "rest",
+      "root_curve": [
+        {
+          "time": [
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "time": [
+            1,
+            30
+          ],
+          "offset": [
+            0.5,
+            -0.25
+          ]
+        },
+        {
+          "time": [
+            1,
+            12
+          ],
+          "offset": [
+            1,
+            -0.5
+          ]
+        }
+      ]
+    },
+    {
+      "walk_frame": 1,
+      "manifest": "stop-1/manifest.json",
+      "to_idle": "rest",
+      "root_curve": [
+        {
+          "time": [
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "time": [
+            1,
+            30
+          ],
+          "offset": [
+            0.5,
+            -0.25
+          ]
+        },
+        {
+          "time": [
+            1,
+            12
+          ],
+          "offset": [
+            1,
+            -0.5
+          ]
+        }
+      ]
+    },
+    {
+      "walk_frame": 2,
+      "manifest": "stop-2/manifest.json",
+      "to_idle": "rest",
+      "root_curve": [
+        {
+          "time": [
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "time": [
+            1,
+            30
+          ],
+          "offset": [
+            0.5,
+            -0.25
+          ]
+        },
+        {
+          "time": [
+            1,
+            12
+          ],
+          "offset": [
+            1,
+            -0.5
+          ]
+        }
+      ]
+    }
+  ],
+  "start_by_idle": {
+    "rest": {
+      "manifest": "start-rest/manifest.json",
+      "walk_entry_frame": 1,
+      "root_curve": [
+        {
+          "time": [
+            0,
+            1
+          ],
+          "offset": [
+            0,
+            0
+          ]
+        },
+        {
+          "time": [
+            1,
+            30
+          ],
+          "offset": [
+            -0.5,
+            0.25
+          ]
+        },
+        {
+          "time": [
+            1,
+            12
+          ],
+          "offset": [
+            -1,
+            0.5
+          ]
+        }
+      ]
+    }
+  }
+}

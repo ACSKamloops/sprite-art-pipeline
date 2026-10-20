@@ -1,0 +1,75 @@
+{
+  "schema": "construction-toolkit-pin/v1",
+  "captured_utc": "2026-10-13T02:36:54.841734+00:00",
+  "source_root": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab",
+  "skill": "/home/astra/.codex/skills/sprite-construction-editing/SKILL.md",
+  "modules": [
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/__init__.py",
+      "destination": "sprite_workbench/construction_core/__init__.py",
+      "original_sha256": "99b5b84f9871b12fc12fef71a9c0143ed894abee314c1e148668f53502244afa",
+      "pinned_sha256": "99b5b84f9871b12fc12fef71a9c0143ed894abee314c1e148668f53502244afa",
+      "bytes": 427,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/aseprite.py",
+      "destination": "sprite_workbench/construction_core/aseprite.py",
+      "original_sha256": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+      "pinned_sha256": "dbfc98e2e9ea6731ee44898ce7d90257f35997d11b4a8f617fd9973e515783a5",
+      "bytes": 8164,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/candidate.py",
+      "destination": "sprite_workbench/construction_core/candidate.py",
+      "original_sha256": "c69002c5c5071abbcb93cb46b31384e7e571a097564e29ad6ebf67cccf48b8ba",
+      "pinned_sha256": "c69002c5c5071abbcb93cb46b31384e7e571a097564e29ad6ebf67cccf48b8ba",
+      "bytes": 1402,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/canonical.py",
+      "destination": "sprite_workbench/construction_core/canonical.py",
+      "original_sha256": "5033c9879ac3269e3c9f6978f85c97997eb83dd3e45665e993a4326d6f421ed3",
+      "pinned_sha256": "5033c9879ac3269e3c9f6978f85c97997eb83dd3e45665e993a4326d6f421ed3",
+      "bytes": 1682,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/core.py",
+      "destination": "sprite_workbench/construction_core/core.py",
+      "original_sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "pinned_sha256": "dd6cffb54e392ec1f574694f8ed90634414e6eebcad929dbc6c13921f5b88d4c",
+      "bytes": 11792,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/export.py",
+      "destination": "sprite_workbench/construction_core/export.py",
+      "original_sha256": "e108d5abbaf45c0ecb8adef849967fddfec9a9dd24f769c9be948459dc690075",
+      "pinned_sha256": "e108d5abbaf45c0ecb8adef849967fddfec9a9dd24f769c9be948459dc690075",
+      "bytes": 5600,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/history.py",
+      "destination": "sprite_workbench/construction_core/history.py",
+      "original_sha256": "8abcfa7f40f10a332025b7ff1e3a24cb62bbe728ba5b53a6f40ad2e77878a487",
+      "pinned_sha256": "8abcfa7f40f10a332025b7ff1e3a24cb62bbe728ba5b53a6f40ad2e77878a487",
+      "bytes": 2174,
+      "byte_exact": true
+    },
+    {
+      "original_path": "/home/astra/.codex/skills/sprite-construction-editing/assets/toolkit/sprite_lab/loading.py",
+      "destination": "sprite_workbench/construction_core/loading.py",
+      "original_sha256": "2be3deac078a6683fdd7382a2fd42764d47e17d2e2ea5023d563d50c5a655da0",
+      "pinned_sha256": "2be3deac078a6683fdd7382a2fd42764d47e17d2e2ea5023d563d50c5a655da0",
+      "bytes": 865,
+      "byte_exact": true
+    }
+  ],
+  "module_count": 8,
+  "scope": "Existing local sprite construction/editing toolkit; imports are relative and unchanged. Source originals preserved. Not a claim of vendor/native-host parity.",
+  "copy_policy": "Exactly eight Python source files; no pycache, unrelated examples or credentials."
+}

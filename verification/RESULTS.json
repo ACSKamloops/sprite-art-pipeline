@@ -1,0 +1,175 @@
+{
+  "created_utc": "2026-10-20T03:07:51.633088+00:00",
+  "scope": "Combined original full-suite execution plus targeted corrections/replays; only affected checks repeated. Code/artifact/engine checks do not establish new art acceptance.",
+  "all_declared_checks_passed": true,
+  "workbench": {
+    "passed": 989,
+    "skipped": 74,
+    "failures": 0,
+    "skip_boundary": "Conditional original-source/reference/optional fixture tests; inspect retained test guards. Missing external fixtures were not silently claimed as passes."
+  },
+  "editable_toolkit": {
+    "passed": 23,
+    "failures": 0
+  },
+  "approved_native_walk": {
+    "exact_pngs": 30,
+    "new_provider_requests": 0
+  },
+  "lyra_frozen_replay": {
+    "exact_pngs": 8,
+    "new_provider_requests": 0,
+    "geometric_rerender_drift_retained_as_known_limit": true
+  },
+  "godot": {
+    "engine": "4.7.2.stable.official.ed1daf0bf",
+    "behavioral_resource_assertions": 1804,
+    "route_samples": 378,
+    "all_cases_passed": true
+  },
+  "skill_installer": {
+    "fresh_four_skill_install": true,
+    "identical_reinstall": true,
+    "differing_skill_refused_and_preserved": true,
+    "destination": "Temporary isolated directory; removed after verification, no Codex home edited."
+  },
+  "checks": [
+    {
+      "name": "repository-content",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/scripts/check_repository.py",
+        "--report",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030553Z/content.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.373,
+      "summary": "  \"text_files_scanned\": 3895,\n  \"findings\": [],\n  \"passed\": true,\n  \"scope\": \"Pattern/path/size checks of selected content, not a guarantee of all possible secrets or licensing.\"\n}",
+      "log": "repository-content.log"
+    },
+    {
+      "name": "workbench-tests",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "tests"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline/workbench",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 120.335,
+      "summary": "  /home/astra/projects/sprite-art-pipeline/workbench/sprite_workbench/construction_core/core.py:129: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.\n    a=list(_render_frame(before,frame['id']).getdata());b=list(_render_frame(after,frame['id']).getdata());points=[[i%w,i//w]for i,(x,y)in enumerate(zip(a,b))if x!=y]\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n989 passed, 74 skipped, 1398 warnings in 119.77s (0:01:59)",
+      "log": "workbench-tests.log"
+    },
+    {
+      "name": "editable-toolkit-tests",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.252,
+      "summary": "\n----------------------------------------------------------------------\nRan 23 tests in 0.172s\n\nOK",
+      "log": "editable-toolkit-tests.log"
+    },
+    {
+      "name": "approved-walk-manifest",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-animation-pipeline/scripts/animation_assets.py",
+        "validate",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/clips.json",
+        "--report",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/walk-validation.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.094,
+      "summary": "{\"accepted\": true, \"clip_count\": 1, \"frame_count\": 30, \"input_fingerprint\": \"58bf0c063cbce8306bebd8f023da701cd5fe4a7a99ba457063261015e0ea3bb8\", \"errors\": []}",
+      "log": "approved-walk-manifest.log"
+    },
+    {
+      "name": "approved-editable",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-construction-editing/assets/toolkit/scripts/sprite_edit.py",
+        "validate",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/editable/walk.project.json"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.334,
+      "summary": "00b96bb59246a89ed988f9fb3823530c74a7b6dc11a04146ee99504afa79e0dd",
+      "log": "approved-editable.log"
+    },
+    {
+      "name": "exact-apng",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-animation-pipeline/scripts/exact_apng.py",
+        "/home/astra/projects/sprite-art-pipeline/skills/sprite-animation-pipeline/assets/apng-smoke/manifest.json",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/apng"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.09,
+      "summary": "{\"output\": \"/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030032Z/apng\", \"sha256\": \"02323ebb078423b6f78854574ec4dd42600183fada7712c6d2b8246d6984789c\", \"frames\": 3, \"verified\": true}",
+      "log": "exact-apng.log"
+    },
+    {
+      "name": "lyra-rebuild",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/examples/lyra-leg-repair/rebuild.py",
+        "--output",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030553Z/lyra-replay"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.136,
+      "summary": "All8 PNG files, RGBA and protected pixels exactly reproduced;450ms clock retained\n\nAll eight replay PNGs byte-identical: True",
+      "log": "lyra-rebuild.log"
+    },
+    {
+      "name": "approved-native-bake",
+      "command": [
+        "/home/astra/projects/sprite-art-pipeline/.venv/bin/python",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/tools/bake_native_sprites.py",
+        "--video",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/reproduction/returned-h3-native.mp4",
+        "--recipe",
+        "/home/astra/projects/sprite-art-pipeline/examples/approved-hero/reproduction/bake-recipe.json",
+        "--output",
+        "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030639Z/native-bake"
+      ],
+      "cwd": "/home/astra/projects/sprite-art-pipeline",
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 0.827,
+      "summary": "/home/astra/projects/sprite-art-pipeline/output/verification/20261020T030639Z/native-bake/receipt.json\n\nAll30 approved PNGs byte-identical: True",
+      "log": "approved-native-bake.log"
+    }
+  ],
+  "ci_status": "Workflow supplied; remote Actions result is separate and must not be inferred from local checks.",
+  "workspace_cleanup": {
+    "temporary_git_worktrees_created": 0,
+    "removed": [],
+    "primary_checkout_retained": "/home/astra/projects/sprite-art-pipeline",
+    "existing_sources_preserved": true
+  }
+}

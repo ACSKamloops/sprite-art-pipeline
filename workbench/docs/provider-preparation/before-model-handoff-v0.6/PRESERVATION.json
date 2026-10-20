@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-14T01:52:16.777618+00:00",
+  "scope": "Exact selected current v0.5 entrypoints before v0.6 handoff update; no deletion",
+  "files": [
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/README.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/README.md",
+      "bytes": 7996,
+      "sha256": "29189e006608b0a8404801ecb34c2f7575531a7deb86c8046e77e3f67076763e"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/docs/LATEST-VERIFICATION.json",
+      "bytes": 6958,
+      "sha256": "d8e725d1f67a3c89539f116e9a1603d072dd17f0630bb51b13bb897a433863f0"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/docs/LATEST-VERIFICATION.md",
+      "bytes": 4534,
+      "sha256": "8f0c41f2047a94518c58d7cccb1b4bab49add9f03c9d329cceeaab11cc98bc47"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/START-HERE.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/docs/consolidation/START-HERE.md",
+      "bytes": 8646,
+      "sha256": "032018c757087b4920af2c7e2f11704e6469acbd764ffcebe71dd618630d0b2f"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CURRENT-HANDOFF-MANIFEST.json",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/docs/consolidation/CURRENT-HANDOFF-MANIFEST.json",
+      "bytes": 22855,
+      "sha256": "e655870e31c9831e4b79e9a1f38270ca89f6e9b27b7af5af9d7c83463248b300"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/HANDOFF-VALIDATION.json",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/docs/consolidation/HANDOFF-VALIDATION.json",
+      "bytes": 621,
+      "sha256": "2e6f2948b1cc459511251294b945cafca46fbca5f8822ab9012f16b5685e45e4"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/docs/local-replication/STATUS.md",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/docs/local-replication/STATUS.md",
+      "bytes": 7120,
+      "sha256": "f65b3220c675add266785974a83d78bc4a97ed6169b1f45184a1320d8bd0ce12"
+    },
+    {
+      "source": "/home/astra/projects/pixellab-local-workbench/scripts/validate_current_handoff.py",
+      "preserved": "/home/astra/projects/pixellab-local-workbench/docs/provider-preparation/before-model-handoff-v0.6/scripts/validate_current_handoff.py",
+      "bytes": 5622,
+      "sha256": "03ef70d0344e37b9e0552b1003c5ab45b793ebedc5e8765c3d868c22ccecd341"
+    }
+  ]
+}

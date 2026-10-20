@@ -1,0 +1,66 @@
+{
+  "classification": "deterministic-shipped-client-method-replay",
+  "engine": "/home/astra/.local/bin/godot",
+  "returncode": 0,
+  "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nORACLE_PASS {\"assertions\":18,\"cases\":[\"hidden_rgb_exact_zero_only\",\"input_unchanged\",\"partial_alpha_not_transparent_predicate\",\"mask_any_positive_alpha\",\"fill_exact_zero_art_alpha\",\"empty_art_mask\",\"palette_reference_unique_rgba_unweighted\",\"png_actual_dimensions_and_rgba\",\"raw_rgba_decode\",\"placement_origin_erase_and_copy\",\"masked_placement\",\"background_draw_processed_archive_originals_skip_both\"]}\n",
+  "stderr": "",
+  "extractions": [
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "method": "has_transparent_pixels",
+      "first_line": 5,
+      "last_line": 14,
+      "extracted_sha256": "1fabb51ebeffb2dc8652874a1343df38933bf1e270c37ebc36e399b8fe12f1da"
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "method": "get_mask",
+      "first_line": 43,
+      "last_line": 74,
+      "extracted_sha256": "3c1ccdd751286555af247fe24f892128e8dca0fff7e2e2879be41a0d59912c92"
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "method": "image_to_base64",
+      "first_line": 101,
+      "last_line": 110,
+      "extracted_sha256": "97c29915c7822d3a05f2496bf0bffb5347c4023a12a02f68bfda5512283bcb13"
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/get_image.gd",
+      "source_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+      "method": "get_limit_color",
+      "first_line": 111,
+      "last_line": 183,
+      "extracted_sha256": "07638d24c049423ad36a8e23886f71dbe6c16817e3dc17f1ebadccd8bb2e82ec"
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/draw_image.gd",
+      "source_sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+      "method": "get_image_from_data",
+      "first_line": 199,
+      "last_line": 213,
+      "extracted_sha256": "7e3d6dafeff621958da3fa687197b5f5acb8179a112a36cf8ee9f6920ff58716"
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/draw_image.gd",
+      "source_sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+      "method": "draw_image",
+      "first_line": 214,
+      "last_line": 242,
+      "extracted_sha256": "41201d862a1df0a23a3f5a17be81916fab48786da193b94df255d2ddbdc0d2ec"
+    },
+    {
+      "path": "pixelorama-recovered/src/Extensions/PixelLab/background_generation.gd",
+      "source_sha256": "99ff82d3de3e55cb45a58a981a77a6f3a10ae03f9dba735c382a5c6d780c7fc6",
+      "method": "_handle_message_done",
+      "first_line": 264,
+      "last_line": 319,
+      "extracted_sha256": "2d840ad81a5176143c55e6c5881fc60db601765110e122e2f1181cd4d4614a20"
+    }
+  ],
+  "harness_boundary": "Extracted methods unchanged; synthetic images, fake capture/cels, undo sink and loading/draw sinks. No editor integration, remote processing or full application parity."
+}

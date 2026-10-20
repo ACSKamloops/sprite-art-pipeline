@@ -1,0 +1,12 @@
+### Result
+{
+  "subject": "",
+  "images": {},
+  "size": "14",
+  "sequence": "509337e59fe567c3f5dc0506670ae7446c36071c45c974cc70efd2be834bfd7a",
+  "errorVisible": false
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({subject:document.querySelector("#source-subject").value,images:JSON.parse(document.querySelector("#source-images").value),size:document.querySelector("[data-control-id=size]").value,sequence:JSON.parse(document.querySelector("#source-result").textContent).sequence,errorVisible:!document.querySelector("#global-error").hidden})');
+```

@@ -1,0 +1,53 @@
+{
+  "measurement": "Alpha>128 within fixed native x38..91, y12..41; source cells, no independent recentering",
+  "lyra_dodge": {
+    "south": {
+      "frames": [
+        26,
+        128,
+        27
+      ],
+      "alpha_top_y": [
+        24,
+        20,
+        16
+      ]
+    },
+    "east": {
+      "frames": [
+        54,
+        129,
+        55
+      ],
+      "alpha_top_y": [
+        24,
+        20,
+        17
+      ]
+    },
+    "north": {
+      "frames": [
+        82,
+        130,
+        83
+      ],
+      "alpha_top_y": [
+        24,
+        20,
+        18
+      ]
+    },
+    "west": {
+      "frames": [
+        110,
+        131,
+        111
+      ],
+      "alpha_top_y": [
+        25,
+        21,
+        17
+      ]
+    }
+  }
+}

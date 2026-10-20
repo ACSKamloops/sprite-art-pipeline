@@ -1,0 +1,11 @@
+### Result
+{
+  "errorVisible": true,
+  "error": "this effect was made with a newer version of the VFX creator (format 999; this one reads up to 1): reload the page",
+  "result": "509337e59fe567c3f5dc0506670ae7446c36071c45c974cc70efd2be834bfd7a",
+  "renderDisabled": true
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({errorVisible:!document.querySelector("#global-error").hidden,error:document.querySelector("#global-error").textContent,result:JSON.parse(document.querySelector("#source-result").textContent).sequence,renderDisabled:document.querySelector("#source-render").disabled})');
+```

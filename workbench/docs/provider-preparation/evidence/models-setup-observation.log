@@ -1,0 +1,6 @@
+### Result
+{"status":"Setup verification completed. Comparison prerequisites remain a separate gate.","comparisonButtonDisabled":true,"errorVisible":false}
+### Ran Playwright code
+```js
+await (async (page) => { await page.getByRole("button",{name:"Run setup verification",exact:false}).click(); await page.waitForFunction(() => document.getElementById("footer-status").textContent.includes("Setup verification completed"),{timeout:45000}); return {status:await page.locator("#footer-status").textContent(),comparisonButtonDisabled:await page.locator("#start-comparison").isDisabled(),errorVisible:await page.locator("#global-error").isVisible()}; })(page);
+```

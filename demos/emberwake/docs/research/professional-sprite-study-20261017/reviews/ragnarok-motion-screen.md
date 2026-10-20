@@ -1,0 +1,20 @@
+The four Ragnarok renderer walks are useful **qualified walk comparators**. They clear action/view usefulness and come substantially closer to the target's shaded sprite family. They do not establish a primary appearance/proportion match for Lyra or Brann.
+
+Reviewed all 32 native decoded cels, their fixed-region detail enlargements, and all eight adjacent pairs including 7->0 for each clip. This is an ordered-still review; continuous playback, original-client rendering, and physical ground contact were not verified. No source sprite was edited or recentered.
+
+| Clip | Useful evidence | Qualification |
+| --- | --- | --- |
+| Swordsman male SE | Frames 1..3 open and extend one step; 5..7 show the alternate leg exchange. The waist, gloves, knee/boot masses, and small head/torso beat stay coherent. The 7->0 pair reconnects without an isolated design change. | Strongest front-quarter walk comparator here, particularly for articulated legs and glove/cuff consistency. Smaller head and longer/slimmer torso/legs than Lyra remain clear. |
+| Swordsman male NE | Frames 1..3 separate a bent/receding leg from the other boot; 5..7 reverse the extended/passing arrangement. Belt, shoulder mass, hair, and gauntlet remain coherent through the back-quarter view and wrap. | Useful rear-quarter companion. Far-side body features become hidden; do not invent their coordinates or infer full eight-direction coverage. |
+| Swordsman female SE | The visible boots alternate forward reach around frames 2 and 6, with passing/return poses between them. Hair, shoulder forms, and apron/dress remain consistent. | Useful walk comparison, but the skirt hides most thigh/knee structure. Dress/boot contour is not a complete anatomical leg track. |
+| Knight male SE | Frames 2 and 6 show opposite extended steps; passing poses and swinging coat panels connect them. Hands, belt, scarf, and coat remain recognizable across all pairs. | Useful clothed walk example. Long coat/apron panels obscure the legs and make it less direct for Lyra's exposed trouser/knee/boot construction. |
+
+The front-quarter camera and material shading are much closer than Duelyst/Tiny Swords/LPC. The downloaded figures also occupy a comparable pixel scale: first-cel alpha extents are 88 px for male SE, 89 px for male NE, 88 px for female SE, and 92 px for Knight, versus the inspected Lyra/Brann portrait extents of 95/96 px. These are visible-image extents, not anatomical stature or native-game provenance.
+
+Comparable height does not solve the proportion difference. All four have visibly smaller heads, longer/narrower torsos and limbs, and less rounded/glossy material volume than the target. Lyra's larger head, substantial rounded gloves/boots, and compact body must remain the design standard. Do not copy these characters' body ratios, stride reach, or normalized bob as mandatory target values.
+
+The actual walks are good enough to study phase organization, foreshortened leg exchange, small body beats, and clothing/equipment continuity. This is a more relevant motion comparison than the previous disparate styles. A compact novice/baby-class candidate may improve proportion comparability, but it has not been included in this four-clip review. No candidate is forced into an exact-match label.
+
+Clock/source boundary: the three Swordsman APNGs encode eight 75 ms exposures each (600 ms); Knight encodes eight 100 ms exposures (800 ms). These are the downloaded third-party renderer outputs. This review did not trace their duration calculation or verify original game timing, runtime speed, world displacement, or native-client pixel fidelity. The API output is not an official capture or a reusable-asset license. DOWNLOADS parameters and image hashes are retained in the motion evidence/snapshot.
+
+Decision: retain the male SE/NE pair as the strongest **qualified comparable walks** in this batch, with female/Knight as clothing variants. Keep searching if the requirement is a single primary reference that also matches Lyra's compact proportions and material volume. This does not accept or modify Emberwake's rejected animation.

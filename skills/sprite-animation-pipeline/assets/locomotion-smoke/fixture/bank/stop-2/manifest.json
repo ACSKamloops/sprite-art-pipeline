@@ -1,0 +1,36 @@
+{
+  "id": "stop-2",
+  "canvas": [
+    12,
+    10
+  ],
+  "pivot": [
+    4,
+    8
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    12
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "rgba-1.png",
+      "sha256": "7a9d791e68ba15f6eaf04a0f48e194f9b32273481d6dd4fdd79ffe883b66493d",
+      "hold": [
+        1,
+        30
+      ]
+    },
+    {
+      "index": 1,
+      "file": "rgba-3.png",
+      "sha256": "946931d46d545ae2b4b773bb221c4c302ad26a342d0c6c0314a0bc9c30cbbe72",
+      "hold": [
+        1,
+        20
+      ]
+    }
+  ]
+}

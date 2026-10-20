@@ -1,0 +1,11 @@
+CURRENT RULE: no directory in this investigation is recursively certified shareable.
+
+The old broad directory list is historical and unsafe as recursive authorization.
+Original bytes/hash are preserved at analysis-root/consolidation-20261012/historical-entrypoints/SHAREABLE-PATHS.txt.
+Read START-HERE.md and the implementation consolidation handoff.
+Only files individually listed in REVIEWED-HANDOFF-FILES.json are reviewed authored handoff notes; that does not include their external evidence dependencies.
+The report catalog/anchor manifests are discovery and hash inventories, NOT sharing allowlists.
+
+Always exclude browser-profile/, every nested *profile* directory, private-evidence/, private/, personalized extension-download/, auth/credential files, unsanitized HAR/network/runtime captures, private canonical REA/session archives and their decoded raw copies.
+Do not recursively copy analysis-contract/, analysis-models/, analysis-poses/, analysis-root/, runtime/ or the entire workspace.
+Further evidence/media/source transfers need explicit per-file selection, hash binding and content/private-boundary review. No external transfer occurs in this consolidation audit.

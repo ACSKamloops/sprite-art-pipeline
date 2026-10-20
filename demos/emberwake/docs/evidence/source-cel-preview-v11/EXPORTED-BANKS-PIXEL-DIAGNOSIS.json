@@ -1,0 +1,56 @@
+{
+  "qualified_exported_pixels_passed": false,
+  "actors": {
+    "rowan": {
+      "RGBA_shape": [
+        2048,
+        2048,
+        4
+      ],
+      "raw_RGBA_equal": false,
+      "changed_RGBA_pixels": 422380,
+      "alpha_everywhere_exact": true,
+      "all_source_alpha_positive_RGBA_exact": false,
+      "all_differences_only_at_alpha0": false,
+      "source_nonzero_RGBA_sha256": "d18f91bc77bfc3bd6c21b9f6a915941a15d7c56871cf059d0667c6a44944185e",
+      "decoded_nonzero_RGBA_sha256": "9c2c306e91a5e988af5b17004db450c07e6d2b2418b67f1170ed599732d7ce25"
+    },
+    "lyra": {
+      "RGBA_shape": [
+        2176,
+        2048,
+        4
+      ],
+      "raw_RGBA_equal": false,
+      "changed_RGBA_pixels": 425980,
+      "alpha_everywhere_exact": true,
+      "all_source_alpha_positive_RGBA_exact": false,
+      "all_differences_only_at_alpha0": false,
+      "source_nonzero_RGBA_sha256": "6247e2a3558aa3b895bf5af2fc8de0623db96cfdeac796e8c744f0981465b9c2",
+      "decoded_nonzero_RGBA_sha256": "d0071129e516f0d2814952e70c97ebbbb1127eab305ddcd1c7f4603f10b27d8f"
+    },
+    "brann": {
+      "RGBA_shape": [
+        2176,
+        2048,
+        4
+      ],
+      "raw_RGBA_equal": false,
+      "changed_RGBA_pixels": 413454,
+      "alpha_everywhere_exact": true,
+      "all_source_alpha_positive_RGBA_exact": false,
+      "all_differences_only_at_alpha0": false,
+      "source_nonzero_RGBA_sha256": "a577815c7d93d057c04b652463a97d204fc18ad49f7263ac3e69efe8e933ffb0",
+      "decoded_nonzero_RGBA_sha256": "32e5bdf30b343a798d0361d47b89ddbec83c08563f47b2e33c758ba1d0ea774c"
+    }
+  },
+  "raw_hash_failures_preserved": true,
+  "scope": "Exact alpha and all sourcealpha>0 RGBA, with hiddenRGB differences explicitly measured. Not raw fullRGBA equality.",
+  "import_settings": {
+    "compress/mode": 0,
+    "mipmaps/generate": false,
+    "process/fix_alpha_border": true,
+    "process/premult_alpha": false
+  },
+  "documentation": "https://docs.godotengine.org/en/stable/classes/class_resourceimportertexture.html#class-resourceimportertexture-property-process-fix-alpha-border"
+}

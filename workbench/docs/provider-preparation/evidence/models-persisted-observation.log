@@ -1,0 +1,6 @@
+### Result
+{"title":"Model Lab · Sprite workbench","resultCount":2,"errorVisible":false}
+### Ran Playwright code
+```js
+await (async (page) => { await page.getByLabel("Experiment artifact ID").fill("3aa8b8eec3d03be26b7c5845c6e2173a55b09f2ae0e8e9435928734709092144"); await page.getByRole("button",{name:"Load results",exact:true}).click(); await page.waitForFunction(() => {try{return JSON.parse(document.getElementById("models-results").textContent).results.length===2}catch{return false}}); return {title:await page.title(),resultCount:JSON.parse(await page.locator("#models-results").textContent()).results.length,errorVisible:await page.locator("#global-error").isVisible()}; })(page);
+```

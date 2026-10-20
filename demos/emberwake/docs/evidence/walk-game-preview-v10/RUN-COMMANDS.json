@@ -1,0 +1,156 @@
+{
+  "scope": "Commands for the actual freshv10 gates; use fresh paths for reconstruction. Priorv9 broad suite reused with source equality, not rerun. See retained failure logs for two corrected command-order mistakes.",
+  "commands": [
+    {
+      "stage": "bake",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/bake_eight_directions.py",
+        "--config",
+        "art-source/eight-direction-v1/registration-v10-brann-front-weight.json",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/bake"
+      ]
+    },
+    {
+      "stage": "artifact verification",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/verify_eight_direction_bake.py",
+        "--bake",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/bake",
+        "--receipt",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/INVARIANTS.json"
+      ]
+    },
+    {
+      "stage": "isolation",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/build_isolated_art_preview.py",
+        "--bake",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/bake",
+        "--config",
+        "art-source/eight-direction-v1/registration-v10-brann-front-weight.json",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/project"
+      ]
+    },
+    {
+      "stage": "import",
+      "argv": [
+        "godot",
+        "--headless",
+        "--editor",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/project",
+        "--import"
+      ],
+      "env": {
+        "LP_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4"
+      }
+    },
+    {
+      "stage": "native rendering",
+      "argv": [
+        "xvfb-run",
+        "-a",
+        "godot",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/project",
+        "--rendering-method",
+        "gl_compatibility",
+        "--rendering-driver",
+        "opengl3",
+        "--audio-driver",
+        "Dummy",
+        "--script",
+        "tests/walk_art_preview.gd",
+        "--",
+        "--walk-preview-output=/home/astra/artifacts/emberwake-walk-game-preview-v10/native-walk"
+      ],
+      "env": {
+        "LP_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4"
+      }
+    },
+    {
+      "stage": "Web export",
+      "argv": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/project",
+        "--export-release",
+        "Web",
+        "/home/astra/artifacts/emberwake-walk-cadence-study-v1/game-v10/index.html"
+      ],
+      "env": {
+        "LP_NUM_THREADS": "4",
+        "OMP_NUM_THREADS": "4"
+      },
+      "post_export": "WEB-SHELL-ADJUSTMENT.json",
+      "prerequisite": "Create the fresh game-v10 target directory before export."
+    },
+    {
+      "stage": "ordinary browser",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "tests/run_browser_eight_directions.py",
+        "--session",
+        "emberwake-complete-boots",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/BROWSER-EIGHT-DIRECTIONS.json"
+      ],
+      "navigation": "BROWSER-BOOT.log; navigation completed before the scenario began."
+    },
+    {
+      "stage": "media",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/encode_walk_captures.py",
+        "--native",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/native-walk",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/media"
+      ],
+      "prerequisite": "Hash every1728PNG and native RECEIPT.json into native-walk/SHA256SUMS first. Encoder verifies all1729 entries and fails if ledger missing."
+    },
+    {
+      "stage": "gallery",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "python3",
+        "scripts/build_engine_walk_gallery.py",
+        "--media",
+        "/home/astra/artifacts/emberwake-walk-game-preview-v10/media",
+        "--out",
+        "/home/astra/artifacts/emberwake-walk-cadence-study-v1/godot-walks-v10",
+        "--revision",
+        "v10",
+        "--summary",
+        "This draft adds Brann\u2019s reviewed front-diagonal body-weight repair; Rowan, Lyra and rear walks retain their v9 art."
+      ]
+    },
+    {
+      "stage": "gallery browser",
+      "cwd": "/home/astra/projects/emberwake-demo",
+      "argv": [
+        "/home/astra/.codex/skills/playwright/scripts/playwright_cli.sh",
+        "--session",
+        "emberwake-complete-boots",
+        "--raw",
+        "run-code",
+        "--filename=docs/evidence/eight-directions-player-v1/scenarios/godot-walk-gallery-v10.js"
+      ],
+      "navigation": "GALLERY-BOOT.log completed before this scenario."
+    }
+  ],
+  "capture_ledger_recipe": "sorted recursive regular files before SHA256SUMS exists; SHA256(file_bytes) + two spaces + relative_POSIX_path + newline;1729 entries including RECEIPT.json."
+}

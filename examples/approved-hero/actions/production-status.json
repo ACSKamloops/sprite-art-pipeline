@@ -1,0 +1,98 @@
+{
+  "schema": "same-hero-action-production-status-v1",
+  "updated_utc": "2026-10-15T18:33:24.551950+00:00",
+  "approval": "OnlyoriginalH3walkuserapproved. BothnewactionsPASS_FOR_LOCAL_REVIEW,not9/10claimorfinishedgameplay.",
+  "actor": "generic_rpg_hero",
+  "equipment": "unarmed",
+  "canvas": [
+    192,
+    192
+  ],
+  "nominal_pivot": [
+    96,
+    170
+  ],
+  "player": "http://localhost:8889/game-ready-v6/current-project/work/action-production-v1/viewer.html?clip=jump_latest",
+  "artifacts": {
+    "jump": {
+      "manifest": "work/action-production-v1/jump-candidate-portable-v2/manifest.json",
+      "manifest_sha256": "24821d54e3135769a3b71bc7ad32c63f7465876139ee96307d90cfb52c80a3c5",
+      "frame_count": 55,
+      "hold": [
+        1,
+        24
+      ],
+      "duration": [
+        55,
+        24
+      ],
+      "loop": false,
+      "apng": "work/action-production-v1/jump-apng-v2/animation.apng.png",
+      "apng_sha256": "2d08f3ece1f79bd86e5571efe4c93e67c243366e28309c88592ea445e96a205c",
+      "editable_project": "work/action-editable-delivery-v1/jump/project.json",
+      "editable_aseprite": "work/action-editable-delivery-v1/jump/roundtrip.aseprite",
+      "review": "work/jump-art-review-v2/REVIEW.md",
+      "review_sha256": "150ce14a862233c08a008a6ea18a84ca7083f52aa700c59c3eb3ea8b8c02efca",
+      "queue_stage": "visual_review"
+    },
+    "punch": {
+      "manifest": "work/action-production-v1/punch-candidate-portable-v2/manifest.json",
+      "manifest_sha256": "340865dde5aaf7f2a41cf027fd514c8065615e436904c1328978d8a5eb382776",
+      "frame_count": 32,
+      "hold": [
+        1,
+        24
+      ],
+      "duration": [
+        4,
+        3
+      ],
+      "loop": false,
+      "apng": "work/action-production-v1/punch-apng-v2/animation.apng.png",
+      "apng_sha256": "6c6437671ecba9527b70ddddd54349566fb9350d52d23997bb23e06989417a86",
+      "editable_project": "work/action-editable-delivery-v1/punch/project.json",
+      "editable_aseprite": "work/action-editable-delivery-v1/punch/roundtrip.aseprite",
+      "review": "work/punch-refinement-review-v2/REVIEW.md",
+      "review_sha256": "87e617c2daa23da0861fff7bd7479271b4f0b35a6efdfb5909979c0081b68f1a",
+      "queue_stage": "visual_review"
+    }
+  },
+  "checks": {
+    "exact_browser_composites": 261,
+    "exact_candidate_frames": 87,
+    "libresprite_actual_save_reopen": true,
+    "godot_version": "4.7.2",
+    "godot_resource_animations": 2,
+    "godot_resource_frames": 87,
+    "godot_resource_errors": 0,
+    "new_gpu_or_gameplay_check": false
+  },
+  "resource_verification": {
+    "file": "work/action-production-v1/frozen-delivery-verification.json",
+    "sha256": "8eb48a2664bbcb39fde23959e2dbc69a043b01193eccc3a95d62b17e1d0c7d32",
+    "original_producer_file": "work/action-editable-delivery-v1/VERIFICATION.json"
+  },
+  "skills_state": "evidence/skill-installed-state-actions.json",
+  "remaining": [
+    "Human normal-speed feedback",
+    "Walk/ready/action transition coverage",
+    "State-driven jump physics and contact",
+    "Attack events, interrupts and cleanup",
+    "Gameplay GPU playback",
+    "Measured hand/grip/occlusion tracks and interchangeable weapons"
+  ],
+  "final_stage_receipts": {
+    "punch": [
+      "work/action-production-v1/punch-final-authored-receipt.json",
+      "work/action-production-v1/punch-final-artifact_validated-receipt.json",
+      "work/action-production-v1/punch-final-engine_tested-receipt.json",
+      "work/action-production-v1/punch-final-visual_review-receipt.json"
+    ],
+    "jump": [
+      "work/action-production-v1/jump-final-authored-receipt.json",
+      "work/action-production-v1/jump-final-artifact_validated-receipt.json",
+      "work/action-production-v1/jump-final-engine_tested-receipt.json",
+      "work/action-production-v1/jump-final-visual_review-receipt.json"
+    ]
+  }
+}

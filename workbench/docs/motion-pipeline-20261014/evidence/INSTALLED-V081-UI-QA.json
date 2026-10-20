@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "observed_utc": "2026-10-14T07:34:05.885516+00:00",
+  "target": "http://127.0.0.1:8874",
+  "runtime_revision": "45f261e",
+  "suite_record_revision": "7399e7e",
+  "installed": {
+    "file": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/v081-final/install-venv/lib/python3.14/site-packages/sprite_workbench/__init__.py",
+    "version": "0.8.1",
+    "source_fingerprint": "fb6323b954708942c6b2cca849a9e979c7de118861b10b132d3bb34fe4cbc74b"
+  },
+  "wheel": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/v081-final/wheel/sprite_workbench-0.8.1-py3-none-any.whl",
+  "wheel_sha256": "344a99661e5cbd89ea89c7a635ecbfef9711a0e621eedbb333287d8dd5e60061",
+  "served_web_matches_installed": true,
+  "served_web_sha256": {
+    "motion-lab.js": "e9a8e0a9e3723ece92a56d33a38dcc3ff7f08c7ed4efab76decd0907fe134ee1",
+    "studio.js": "ebe865b50fcb970298b7104ac8d46b9cf18260e4b825c9eb6d0788e2fa5db09d",
+    "app.js": "31b94f2910a784c2448d66ff1fbfbc39f786f0c3f6842e531437a4039b189589",
+    "style.css": "a005433f5a2eeeb9eb393b8a91e31cb6729c45e87331e9cc4e8444333c699f32"
+  },
+  "status": "passed",
+  "main_browser_checks": [
+    "Packaged native source actual decode, index26 PTS and complete native video playback",
+    "All16 native selected poses preloaded and actual full canvas matches decoded PNG at every ordered index",
+    "Actual authored0.8second one-shot canvas playback completed without per-hold PNG requests",
+    "Explicit256 recovered-host background and calibrated fixed palette draft",
+    "Explicit candidate import into Studio with fresh proved mapping",
+    "Actual fine-editor erase propagates to Studio and immutable undo restores original project",
+    "Complete Motion\u2192Studio cold verified export and ZIP download",
+    "Offline Prepare finds actual complete first=last run and disables resubmission",
+    "Edited draft does not lose existing paid-run monitoring; explicit immutable resume only",
+    "Motion Lab390px no document overflow"
+  ],
+  "main_postflight": {
+    "status": "passed",
+    "selected_raster_correspondence": 16,
+    "authored_holds_exact": 16,
+    "source_indices": [
+      0,
+      12,
+      18,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      35,
+      52,
+      73,
+      78,
+      85,
+      94,
+      106
+    ],
+    "zip_inventory_verified": 390,
+    "scope": "local immutable JSON and ZIP readback; no provider operations"
+  },
+  "main_native_callbacks": 107,
+  "main_observed_fast_poses": [
+    6,
+    7
+  ],
+  "main_timed_transition_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "main_provider_invocations": 0,
+  "producer_path": {
+    "status": "passed",
+    "local_cached_download_invocations": 1,
+    "submit_poll_invocations": 0,
+    "new_provider_http_operations": 0,
+    "cached_return_basis": "download-result/native-video existed before; installed cached branch validates then returns before HTTP; all preexisting producer files unchanged",
+    "before_files": 17,
+    "after_files": 18,
+    "preexisting_files_hash_identical": true,
+    "allowed_new_empty_advisory_lock": [
+      {
+        "file": ".provider-operation.lock",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "media_binding": {
+      "media": "89d29f48cc97ea3c9e05757959a3ce50835157ec0da2dd9e6841c1dcc63aeb13",
+      "native_video": "78bdd1514622d2aca6a8e81344f80b3a437ebe819473bf6322c047a26df6f5e7",
+      "download_receipt": "f519e88c60f53a80e7273a1bf5d0331f6807cb5e18e8abd8724513dca1bbd71e"
+    },
+    "extraction": {
+      "id": "5acb3d5637dcc1b4a8dc65e5a86a0216463bf3ddd6a9163399452cffa331d7b6",
+      "source_bindings": [
+        "78bdd1514622d2aca6a8e81344f80b3a437ebe819473bf6322c047a26df6f5e7",
+        "f519e88c60f53a80e7273a1bf5d0331f6807cb5e18e8abd8724513dca1bbd71e"
+      ],
+      "parent_extraction": "aeacadb01ae98f3930dd265c3d2094e5d6b96559c149cee9e1bbc1fa3c955a81",
+      "frames": 107
+    }
+  },
+  "cold_zip_closure": {
+    "status": "passed",
+    "scope": "actual browser cold ZIP bytes, metadata links and exact retained wire/PNG/completion correspondence; no independent provider attestation",
+    "packaged": {
+      "source_bindings": [
+        "2d5962477e5b1202d1661d2ec8f6213e87163cce36ccd6a18c229218033aa86b",
+        "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+        "ebeabf53d89735e8aa96b3abf3f2862598b5c43cac8dded372fbcb490c2ec549"
+      ],
+      "parent_extraction": "8fb057cd220a45b53db9974052c2b4627aec28626c37f1e052e5294bf483bf4b",
+      "request_reference_descriptor_verified": true,
+      "inventory_files_verified": 390
+    },
+    "producer": {
+      "packet": "c3db9ed21c0906d42301a59e0dd4bb73805d93fbe6cdc0be056d7e0496e8e580",
+      "native_video": "78bdd1514622d2aca6a8e81344f80b3a437ebe819473bf6322c047a26df6f5e7",
+      "download_receipt": "f519e88c60f53a80e7273a1bf5d0331f6807cb5e18e8abd8724513dca1bbd71e",
+      "request_wire": "c96ee65738a65d2b7e21f5ef5cc263382e8c6986b00a505f0f68a03005ef3162",
+      "input_png_roles": [
+        "first_frame",
+        "last_frame"
+      ],
+      "input_png_ids": [
+        "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e",
+        "e63340b333df3354948b4ee707b2e4bfa23ca901f6b464a941e2ff06281d4a5e"
+      ],
+      "canonical_completion": "900c3f1060cf0395cef6e74e5968c300b86d8ea09146538008f7a8ac78a8d8d6",
+      "raw_completion_hash": "900c3f1060cf0395cef6e74e5968c300b86d8ea09146538008f7a8ac78a8d8d6",
+      "media": "89d29f48cc97ea3c9e05757959a3ce50835157ec0da2dd9e6841c1dcc63aeb13",
+      "parent_extraction": "aeacadb01ae98f3930dd265c3d2094e5d6b96559c149cee9e1bbc1fa3c955a81",
+      "inventory_files_verified": 287,
+      "all_links_verified": true,
+      "local_cached_download_invocations": 1,
+      "preexisting_producer_files_unchanged": true,
+      "allowed_advisory_lock_creation": [
+        {
+          "file": ".provider-operation.lock",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  },
+  "page_errors": [],
+  "console_errors": [],
+  "forbidden_attempts": [],
+  "main_http_errors": [],
+  "prior_v080_proof_sha256": "57d4534d9f1b6917923671e1eb998b60d97af0edca61600cbfacfe3e52be3319",
+  "evidence": {
+    "main_directory": "/home/astra/artifacts/pixellab-motion-ui-installed-20261014/v081-final-run-01",
+    "main_files": [
+      {
+        "file": "RESULT.json",
+        "bytes": 29164,
+        "sha256": "b5d6f3edf1b2b8a3d3aea1f6b7129110c3e85d78718efa1728cac4dc90400d6e"
+      },
+      {
+        "file": "final-dom.txt",
+        "bytes": 4166,
+        "sha256": "31682b36b80976c4164cbd260f59bab7e86db1b43aac5a926483a90367d4b142"
+      },
+      {
+        "file": "installed-import.json",
+        "bytes": 268,
+        "sha256": "f67dcb0d6c9fe5fb84768d41dc3009fca22c50a26978872f0f8b154b4838f3a4"
+      },
+      {
+        "file": "motion-desktop.png",
+        "bytes": 480998,
+        "sha256": "208e6a90315d8fa774194d87c20ff87c7fe37abe87f8b2e6f1170bb08fc5896a"
+      },
+      {
+        "file": "motion-mobile390.png",
+        "bytes": 384798,
+        "sha256": "fb95d74563c8d83cf597b7fb4253fb85adec917676464e761641a0d7cd612c3f"
+      },
+      {
+        "file": "postflight-result.json",
+        "bytes": 358,
+        "sha256": "f9117ad3d781e752cc138d3f849abb86cc03c6408e4513b219496fa35edf5c0e"
+      },
+      {
+        "file": "studio-package.zip",
+        "bytes": 25242364,
+        "sha256": "af2405e3844ade739455ea0070072eb31f9624f12cf6f15ca7bbd171144fd91a"
+      },
+      {
+        "file": "studio.png",
+        "bytes": 180113,
+        "sha256": "9c7be443cbebc53f343b63b870f2f649a0d974f3b6c66aa425e543318eec5641"
+      },
+      {
+        "file": "trace.zip",
+        "bytes": 46745092,
+        "sha256": "4f3695b5f24e31409617f5e24edbf94f50f0518e7de67eab7c26ab5264e7936a"
+      }
+    ],
+    "producer_directory": "/home/astra/artifacts/pixellab-motion-ui-installed-20261014/v081-producer-run-01",
+    "producer_files": [
+      {
+        "file": "RESULT.json",
+        "bytes": 11753,
+        "sha256": "c717576dac5641dce5c05d137a847a37e88d48c756a1629bbbe6f48786431fb6"
+      },
+      {
+        "file": "producer-package.zip",
+        "bytes": 22397190,
+        "sha256": "4e86cb6578b14f699b6c666e8e07eda23e36d3418a45e7e6627bd7816fe082fd"
+      },
+      {
+        "file": "producer-studio.png",
+        "bytes": 178859,
+        "sha256": "f51cd252ba6052a7fd7de49675cf349bff9abdffd8e1e220c59b770c3ca21460"
+      },
+      {
+        "file": "qa-producer.cjs",
+        "bytes": 7007,
+        "sha256": "78fce773d482102817bb9b8e3186d81aadbb17db8de20c778d652fbcfcc71600"
+      },
+      {
+        "file": "trace.zip",
+        "bytes": 30425371,
+        "sha256": "d5eeb4a7415bc26f6acd011b1d4b5bbdfff6b808d753268d1de849a7e46a1419"
+      }
+    ],
+    "closure_audit": {
+      "file": "/home/astra/artifacts/pixellab-motion-ui-installed-20261014/audit-v081-closure.py",
+      "sha256": "5d3f5404d50f8eae88fcc6263d117ef88e64b6c7811c022764717c7a7d71f7b8"
+    },
+    "closure_result": {
+      "file": "/home/astra/artifacts/pixellab-motion-ui-installed-20261014/v081-closure-result.json",
+      "sha256": "6fe8fdd11833430ddc3f54f2a98000f1688a54d898042ab2fe2366bd9547f94c"
+    }
+  },
+  "limitations": [
+    "No independent provider attestation from supplied disk records",
+    "One successful timed browser run does not guarantee no scheduler drops",
+    "No art/contact/edge approval",
+    "No new paid generation or poll"
+  ]
+}

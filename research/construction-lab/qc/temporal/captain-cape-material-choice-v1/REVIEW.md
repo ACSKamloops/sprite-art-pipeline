@@ -1,0 +1,13 @@
+# Independent bounded cape material choice
+
+**Prefer the crease candidate as a small material improvement.** Confidence is moderate; the gain is subtle and does not resolve the stiff-panel presentation by itself.
+
+I viewed the whole figure first: paired source49/65/93/113 at native256, then native384 using two 768×816 sheet splits that preserve actual native pixels. I subsequently viewed the supplied fixed cape crop at nearest2x, including two 760×608 splits preserving its exact integer enlargement, and the native384 paired back view at93. The supplied larger384/crop sheets were also viewed, but the bounded splits provide the scale-controlled evidence. No prior bounded reviews were opened.
+
+At whole256, this is a modest change in tonal depth behind the shield and legs, not a dramatic increase in cloth readability. At whole384, the broad gray/tan area has slightly more convincing recession into its folds, especially near the center dip of the hem in93/113. It still reads as a broad cape panel because its silhouette and border remain the same. The enlarged crops make the added recess shading easier to see, but exaggerating that close-view benefit would overstate the game-display result.
+
+The back93 comparison offers the clearest benefit: the existing long folds have slightly stronger depth and look more like cloth volume rather than merely a uniformly lit sheet. I see no conspicuous posterized steps, decorative dark striping, or washing-out of the gold border in the covered views. The shading is restrained enough to keep the original material character. The front improvement is small partly because the shield and armor hide most of the cape, not because the candidate damages the whole figure.
+
+Keep the scope exact: this is shading on an already folded surface, not added geometry or authored follow-through. It cannot establish softer border motion, better lag, less rigid carry, or a higher complete-walk score. The baseline already includes compact-eye and sole changes; none of their appearance is credited to this material candidate. Four phase keys and one back key are insufficient for temporal or full-cycle approval. Continuous playback and the later separate motion proposal remain unreviewed here. Mechanical preservation/contact results receive no art points.
+
+Inputs: read-only paint-lab `artifacts/cape-cloth-volume-v1`, supplied freeze commit `0f2bd4d`. Independently hashed all70 manifest assets with zero mismatches. Receipt SHA256: `91aa27485b4623664b3b0cbdddc7f387e7aaa893c585595458f495a9d211bf35`. Exact viewed inputs and derived evidence are bound in `coverage.json` and `EVIDENCE-SHA256.json`. No producer source edits or production approval.

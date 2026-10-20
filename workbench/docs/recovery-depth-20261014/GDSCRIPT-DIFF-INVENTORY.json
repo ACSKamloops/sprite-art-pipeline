@@ -1,0 +1,3026 @@
+[
+  {
+    "file": "addons/SmartSlicer/Classes/RegionUnpacker.gd",
+    "sha256": "cadaf33364a8c7339ef29eb6e918d87cf534a6043188af4468eb609c82e2df14",
+    "bytes": 7413,
+    "old_exists": true,
+    "old_sha256": "cadaf33364a8c7339ef29eb6e918d87cf534a6043188af4468eb609c82e2df14",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/apng_exporter.gd",
+    "sha256": "3d2b6404aecbecef53746b8c92d154dd1fb118778d120558c6a14bd3051ff9ee",
+    "bytes": 2688,
+    "old_exists": true,
+    "old_sha256": "3d2b6404aecbecef53746b8c92d154dd1fb118778d120558c6a14bd3051ff9ee",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/apng_import_plugin.gd",
+    "sha256": "3cb924677026aea7f83e291da12f6ab48ce714feacc81fa70211abe2bf013312",
+    "bytes": 1322,
+    "old_exists": true,
+    "old_sha256": "3cb924677026aea7f83e291da12f6ab48ce714feacc81fa70211abe2bf013312",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/apng_importer.gd",
+    "sha256": "319f01f272b944a39309fccbb95ffceb81f62199ea6ef10b2cc5deaf3181e432",
+    "bytes": 4346,
+    "old_exists": true,
+    "old_sha256": "319f01f272b944a39309fccbb95ffceb81f62199ea6ef10b2cc5deaf3181e432",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/apng_stream.gd",
+    "sha256": "95c16f4815b3c81707c84cd68cdbabf3b56d6d5866554b2221fc386ab72c0b22",
+    "bytes": 1675,
+    "old_exists": true,
+    "old_sha256": "95c16f4815b3c81707c84cd68cdbabf3b56d6d5866554b2221fc386ab72c0b22",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/base_exporter.gd",
+    "sha256": "37d8da7e4e58223323ace2dc972ffee989bb3c9bef9b356dd363f1a1a88e169f",
+    "bytes": 391,
+    "old_exists": true,
+    "old_sha256": "37d8da7e4e58223323ace2dc972ffee989bb3c9bef9b356dd363f1a1a88e169f",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/crc32.gd",
+    "sha256": "d702cec1c9c5b32eac652453dbc039e101185e61bd86163a28b225aeaa940ac2",
+    "bytes": 857,
+    "old_exists": true,
+    "old_sha256": "d702cec1c9c5b32eac652453dbc039e101185e61bd86163a28b225aeaa940ac2",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/editor_plugin.gd",
+    "sha256": "ebbf31d6537d1f949ea7fe1d820b8e1d0a138c5088f763f957629bd7c83580d9",
+    "bytes": 228,
+    "old_exists": true,
+    "old_sha256": "ebbf31d6537d1f949ea7fe1d820b8e1d0a138c5088f763f957629bd7c83580d9",
+    "same": true
+  },
+  {
+    "file": "addons/aimg_io/frame.gd",
+    "sha256": "2c0ffe695cf68b8b85bdc56d164e552d626a7621fc59d2631a4f72989a8a5953",
+    "bytes": 102,
+    "old_exists": true,
+    "old_sha256": "2c0ffe695cf68b8b85bdc56d164e552d626a7621fc59d2631a4f72989a8a5953",
+    "same": true
+  },
+  {
+    "file": "addons/applinks/applinks.gd",
+    "sha256": "402f316c9acf76357255951e8f4ae65a2d41cad27daaab013c255743b94f45ba",
+    "bytes": 2024,
+    "old_exists": true,
+    "old_sha256": "402f316c9acf76357255951e8f4ae65a2d41cad27daaab013c255743b94f45ba",
+    "same": true
+  },
+  {
+    "file": "addons/applinks/export_plugin.gd",
+    "sha256": "1e77a2eb5caf97b1b5d81e2d42eabfee7a2fc6a9a48531cf2b5a11d337ecddf5",
+    "bytes": 1312,
+    "old_exists": true,
+    "old_sha256": "1e77a2eb5caf97b1b5d81e2d42eabfee7a2fc6a9a48531cf2b5a11d337ecddf5",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/dockable_container.gd",
+    "sha256": "56230a0ef35eda871457aaba5e2124c582ee692dd90fa4f37806cea7d3a2935e",
+    "bytes": 15577,
+    "old_exists": true,
+    "old_sha256": "56230a0ef35eda871457aaba5e2124c582ee692dd90fa4f37806cea7d3a2935e",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/dockable_panel.gd",
+    "sha256": "a72199095cb32ca0f5c6ec0d330653976a87bec7c562df43c2f2bcd8216d0cb4",
+    "bytes": 2638,
+    "old_exists": true,
+    "old_sha256": "a72199095cb32ca0f5c6ec0d330653976a87bec7c562df43c2f2bcd8216d0cb4",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/dockable_panel_reference_control.gd",
+    "sha256": "a9ad1dca9837d66c885fa9c1d42f2fc7d379e7bd2f21d6ead52ba5f92741eabd",
+    "bytes": 1345,
+    "old_exists": true,
+    "old_sha256": "a9ad1dca9837d66c885fa9c1d42f2fc7d379e7bd2f21d6ead52ba5f92741eabd",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/drag_n_drop_panel.gd",
+    "sha256": "3de81497f9161d2ef7a2598fff9ae80073dec7aab037a61844aea36a114d6677",
+    "bytes": 2132,
+    "old_exists": true,
+    "old_sha256": "3de81497f9161d2ef7a2598fff9ae80073dec7aab037a61844aea36a114d6677",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/floating_window.gd",
+    "sha256": "f4395da0e56f0f495eb2f842ff871d2169df069403cb7779ff44db73ddd694c8",
+    "bytes": 2011,
+    "old_exists": true,
+    "old_sha256": "f4395da0e56f0f495eb2f842ff871d2169df069403cb7779ff44db73ddd694c8",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/inspector_plugin/editor_inspector_plugin.gd",
+    "sha256": "89b650d42f44df5e552d70ab4d76767dbb3a2daf8554adae9ddce55d1c36e0d4",
+    "bytes": 481,
+    "old_exists": true,
+    "old_sha256": "89b650d42f44df5e552d70ab4d76767dbb3a2daf8554adae9ddce55d1c36e0d4",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/inspector_plugin/layout_editor_property.gd",
+    "sha256": "5f60d5985bed98d035e7d7cbed7c5990ee43c521353200fa8830df4152aa947e",
+    "bytes": 2269,
+    "old_exists": true,
+    "old_sha256": "5f60d5985bed98d035e7d7cbed7c5990ee43c521353200fa8830df4152aa947e",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/layout.gd",
+    "sha256": "85bd7327bfa16c106dcbac453176041567b2604bd41dd1ff81ace80fb211746a",
+    "bytes": 7371,
+    "old_exists": true,
+    "old_sha256": "85bd7327bfa16c106dcbac453176041567b2604bd41dd1ff81ace80fb211746a",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/layout_node.gd",
+    "sha256": "5cb604fcc6993a66254b61bd4220a2a72423947da12bfadd53ce526dd6bfaac7",
+    "bytes": 425,
+    "old_exists": true,
+    "old_sha256": "5cb604fcc6993a66254b61bd4220a2a72423947da12bfadd53ce526dd6bfaac7",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/layout_panel.gd",
+    "sha256": "ca83814f2a4f6546b2113de2b9ca477bdc75bc6ef27e408d66dff7471a57861f",
+    "bytes": 1749,
+    "old_exists": true,
+    "old_sha256": "ca83814f2a4f6546b2113de2b9ca477bdc75bc6ef27e408d66dff7471a57861f",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/layout_split.gd",
+    "sha256": "7582bc5cabcd5ebfa99f2cec4ebd1945bf7807516366f482cff6c8fc75b49d1c",
+    "bytes": 1901,
+    "old_exists": true,
+    "old_sha256": "7582bc5cabcd5ebfa99f2cec4ebd1945bf7807516366f482cff6c8fc75b49d1c",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/plugin.gd",
+    "sha256": "913e3165701ef08b98696f262aa4629b117397800c287c211d10289163f3d337",
+    "bytes": 567,
+    "old_exists": true,
+    "old_sha256": "913e3165701ef08b98696f262aa4629b117397800c287c211d10289163f3d337",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/samples/TestScene.gd",
+    "sha256": "7b3f97b96b82e6ace40f479785fa764f74b07462bb7fa1b6bc821e37fb96eb7c",
+    "bytes": 1901,
+    "old_exists": true,
+    "old_sha256": "7b3f97b96b82e6ace40f479785fa764f74b07462bb7fa1b6bc821e37fb96eb7c",
+    "same": true
+  },
+  {
+    "file": "addons/dockable_container/split_handle.gd",
+    "sha256": "384e0c5fbdcdefba781e126143eee6971ec09de59c24031459a5db7a0c8f4b6e",
+    "bytes": 3656,
+    "old_exists": true,
+    "old_sha256": "384e0c5fbdcdefba781e126143eee6971ec09de59c24031459a5db7a0c8f4b6e",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/converter.gd",
+    "sha256": "021205ed8f97a2294abcc67d8736c3d2844518df5e37966eb85d08552754c6ee",
+    "bytes": 2028,
+    "old_exists": true,
+    "old_sha256": "13740b2cfd6f8af539f90f96ccefc0e1d2140becaf9ae465eb126d75d1070c22",
+    "same": false
+  },
+  {
+    "file": "addons/gdgifexporter/exporter.gd",
+    "sha256": "de84d025a10621fc1814b8846c2b9a394564832fb5736291d0d30ef4b6a8b6b4",
+    "bytes": 7834,
+    "old_exists": true,
+    "old_sha256": "de84d025a10621fc1814b8846c2b9a394564832fb5736291d0d30ef4b6a8b6b4",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/gif-lzw/lsbbitpacker.gd",
+    "sha256": "6f85e70785b43bee1c3e435a518e0643372d48038d0400e7ba6ce42832f024d8",
+    "bytes": 596,
+    "old_exists": true,
+    "old_sha256": "6f85e70785b43bee1c3e435a518e0643372d48038d0400e7ba6ce42832f024d8",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/gif-lzw/lzw.gd",
+    "sha256": "9df4bf74ec16411a034ac532c91b2876a2cd58edc7d418328038fd9ff2fc1202",
+    "bytes": 4142,
+    "old_exists": true,
+    "old_sha256": "9df4bf74ec16411a034ac532c91b2876a2cd58edc7d418328038fd9ff2fc1202",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/gifdatatypes.gd",
+    "sha256": "f01d342a4cc8f5441a8d8c1b12fbec1b1a77d1b847aa656d7a97d56bd1ca856f",
+    "bytes": 4446,
+    "old_exists": true,
+    "old_sha256": "f01d342a4cc8f5441a8d8c1b12fbec1b1a77d1b847aa656d7a97d56bd1ca856f",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/importer.gd",
+    "sha256": "71eadc5c868357d0159478265a06ab288e731e387bbb1ed2606787cd20ac56f5",
+    "bytes": 11986,
+    "old_exists": true,
+    "old_sha256": "71eadc5c868357d0159478265a06ab288e731e387bbb1ed2606787cd20ac56f5",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/little_endian.gd",
+    "sha256": "f640792b66ed8582377243fd955574758d8ab706e4321f2714475b395dff87da",
+    "bytes": 129,
+    "old_exists": true,
+    "old_sha256": "f640792b66ed8582377243fd955574758d8ab706e4321f2714475b395dff87da",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/quantization/median_cut.gd",
+    "sha256": "ce38fb54e15061f646afa20ab8ab6f82ff4bef752f071d075ea2a66e3247015f",
+    "bytes": 3233,
+    "old_exists": true,
+    "old_sha256": "ce38fb54e15061f646afa20ab8ab6f82ff4bef752f071d075ea2a66e3247015f",
+    "same": true
+  },
+  {
+    "file": "addons/gdgifexporter/quantization/uniform.gd",
+    "sha256": "d3e9989d649e131a1f10a4a4a9308369b6e1962f108e5e139f7cbd2f7e082a4d",
+    "bytes": 2049,
+    "old_exists": true,
+    "old_sha256": "d3e9989d649e131a1f10a4a4a9308369b6e1962f108e5e139f7cbd2f7e082a4d",
+    "same": true
+  },
+  {
+    "file": "addons/keychain/Keychain.gd",
+    "sha256": "601bbc1925ae53c6a6cc8244bf05660222d3f91d4f6b1f352bdb5fee0f056d8c",
+    "bytes": 6037,
+    "old_exists": true,
+    "old_sha256": "601bbc1925ae53c6a6cc8244bf05660222d3f91d4f6b1f352bdb5fee0f056d8c",
+    "same": true
+  },
+  {
+    "file": "addons/keychain/ShortcutEdit.gd",
+    "sha256": "3bebd3cdd91489ce6bca6a6ba1461cedcb201a745e55f530d6028b01aab238c7",
+    "bytes": 19661,
+    "old_exists": true,
+    "old_sha256": "3bebd3cdd91489ce6bca6a6ba1461cedcb201a745e55f530d6028b01aab238c7",
+    "same": true
+  },
+  {
+    "file": "addons/keychain/ShortcutProfile.gd",
+    "sha256": "f55278f2c24d2742a37b4ef8d706fabd17f56df023c4dc23e78ff2edc9ae7443",
+    "bytes": 1263,
+    "old_exists": true,
+    "old_sha256": "f55278f2c24d2742a37b4ef8d706fabd17f56df023c4dc23e78ff2edc9ae7443",
+    "same": true
+  },
+  {
+    "file": "addons/keychain/ShortcutSelectorDialog.gd",
+    "sha256": "8164e17283920bc7fccb361096eca319b9cbaf661616966811ce2b2d72e53704",
+    "bytes": 8638,
+    "old_exists": true,
+    "old_sha256": "8164e17283920bc7fccb361096eca319b9cbaf661616966811ce2b2d72e53704",
+    "same": true
+  },
+  {
+    "file": "addons/keychain/plugin.gd",
+    "sha256": "34f9174085c69e0aef859d1b2b9531d4f04af3e8383982d38335da077d40f161",
+    "bytes": 200,
+    "old_exists": true,
+    "old_sha256": "34f9174085c69e0aef859d1b2b9531d4f04af3e8383982d38335da077d40f161",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/DrawingAlgos.gd",
+    "sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+    "bytes": 36685,
+    "old_exists": true,
+    "old_sha256": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/Export.gd",
+    "sha256": "49694cd6b1e8f9ad00dcb659e775c3dde19dc6dfd5727213b17a0c7fda4f5a9b",
+    "bytes": 36122,
+    "old_exists": true,
+    "old_sha256": "49694cd6b1e8f9ad00dcb659e775c3dde19dc6dfd5727213b17a0c7fda4f5a9b",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/ExtensionsApi.gd",
+    "sha256": "adb2e6e47415c2b3a4f09626fa9aef597f41359cda60826b853546bb32d59fed",
+    "bytes": 28816,
+    "old_exists": true,
+    "old_sha256": "adb2e6e47415c2b3a4f09626fa9aef597f41359cda60826b853546bb32d59fed",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/Global.gd",
+    "sha256": "37a87f6493b45026103cb1bc970a26ff3846106cd85285aaff899120f9b21dce",
+    "bytes": 57859,
+    "old_exists": true,
+    "old_sha256": "37a87f6493b45026103cb1bc970a26ff3846106cd85285aaff899120f9b21dce",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/HTML5FileExchange.gd",
+    "sha256": "df96e2d21912ca0173f0dcc297e37cd15121dc891d44d54ff3c8a6bee41fcee5",
+    "bytes": 5001,
+    "old_exists": true,
+    "old_sha256": "df96e2d21912ca0173f0dcc297e37cd15121dc891d44d54ff3c8a6bee41fcee5",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/Import.gd",
+    "sha256": "aff3c7940b1b39bfdc9da7343ab9d4717b02265b3663a1e7ab880264e0d2e56e",
+    "bytes": 5240,
+    "old_exists": true,
+    "old_sha256": "aff3c7940b1b39bfdc9da7343ab9d4717b02265b3663a1e7ab880264e0d2e56e",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/OpenSave.gd",
+    "sha256": "947df41b3164986330db5f2725c9573272b86854e6beaa54b76934195541f7b5",
+    "bytes": 50675,
+    "old_exists": true,
+    "old_sha256": "947df41b3164986330db5f2725c9573272b86854e6beaa54b76934195541f7b5",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/Palettes.gd",
+    "sha256": "98b7ed3bdde5b16c6745ea0c016a637ae3c354dc4de35bdb6727a09af7833e79",
+    "bytes": 23505,
+    "old_exists": true,
+    "old_sha256": "98b7ed3bdde5b16c6745ea0c016a637ae3c354dc4de35bdb6727a09af7833e79",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/Themes.gd",
+    "sha256": "640da9c45d306f682cf3314a90b900b6a568e18c09c1f237a09398a6242ff632",
+    "bytes": 6777,
+    "old_exists": true,
+    "old_sha256": "640da9c45d306f682cf3314a90b900b6a568e18c09c1f237a09398a6242ff632",
+    "same": true
+  },
+  {
+    "file": "src/Autoload/Tools.gd",
+    "sha256": "eb34a85cdbb9e4317d419a9948f0f6dc85c8540a0f78669d7de1f1e798848e4d",
+    "bytes": 33521,
+    "old_exists": true,
+    "old_sha256": "eb34a85cdbb9e4317d419a9948f0f6dc85c8540a0f78669d7de1f1e798848e4d",
+    "same": true
+  },
+  {
+    "file": "src/Classes/AnimatableObject.gd",
+    "sha256": "ee983c5174a1cd5b1c7bf9590c1a2dcc797468398afd48ee293fbff24e54e799",
+    "bytes": 4695,
+    "old_exists": true,
+    "old_sha256": "ee983c5174a1cd5b1c7bf9590c1a2dcc797468398afd48ee293fbff24e54e799",
+    "same": true
+  },
+  {
+    "file": "src/Classes/AnimationExporters/AsepriteExporter.gd",
+    "sha256": "7bfd21b62f9a1d10c10c3f4c0d2c74474481a1a70de0409aeab0be38b65c87f5",
+    "bytes": 14360,
+    "old_exists": true,
+    "old_sha256": "7bfd21b62f9a1d10c10c3f4c0d2c74474481a1a70de0409aeab0be38b65c87f5",
+    "same": true
+  },
+  {
+    "file": "src/Classes/AnimationExporters/GIFAnimationExporter.gd",
+    "sha256": "71b0d5f4d88b65463aca2ca13faf5cfc817918094d6b68ec2583b06d641ccefb",
+    "bytes": 1143,
+    "old_exists": true,
+    "old_sha256": "71b0d5f4d88b65463aca2ca13faf5cfc817918094d6b68ec2583b06d641ccefb",
+    "same": true
+  },
+  {
+    "file": "src/Classes/AnimationTag.gd",
+    "sha256": "225bc15f90a5c9b5d92dc6351db8633b20d249c5b341bc3b90b76c67d6b06cf7",
+    "bytes": 1153,
+    "old_exists": true,
+    "old_sha256": "225bc15f90a5c9b5d92dc6351db8633b20d249c5b341bc3b90b76c67d6b06cf7",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Cels/AudioCel.gd",
+    "sha256": "5fb19c5308c3566b940268993a4c0ae409f80d394c7012fd7b7df581a6a9e170",
+    "bytes": 286,
+    "old_exists": true,
+    "old_sha256": "5fb19c5308c3566b940268993a4c0ae409f80d394c7012fd7b7df581a6a9e170",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Cels/BaseCel.gd",
+    "sha256": "f1bde7c5ee406d2cadf8e1f6de3eeaa5e58878a513c808ed5e436b9048eeb14b",
+    "bytes": 2227,
+    "old_exists": true,
+    "old_sha256": "f1bde7c5ee406d2cadf8e1f6de3eeaa5e58878a513c808ed5e436b9048eeb14b",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Cels/Cel3D.gd",
+    "sha256": "4939d08f58a6c02349c2cb08445293e4a5be0f7067fe484917d6f373a4787c15",
+    "bytes": 1213,
+    "old_exists": true,
+    "old_sha256": "4939d08f58a6c02349c2cb08445293e4a5be0f7067fe484917d6f373a4787c15",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Cels/CelTileMap.gd",
+    "sha256": "97d54f2a18f89fe26e3d574080785eb508779b237b2891204113b96d92f2210e",
+    "bytes": 36536,
+    "old_exists": true,
+    "old_sha256": "97d54f2a18f89fe26e3d574080785eb508779b237b2891204113b96d92f2210e",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Cels/GroupCel.gd",
+    "sha256": "a9f3eb6c30a767e48d67b37483fabe24116b1e714340adb76aafa4c1d7b86908",
+    "bytes": 286,
+    "old_exists": true,
+    "old_sha256": "a9f3eb6c30a767e48d67b37483fabe24116b1e714340adb76aafa4c1d7b86908",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Cels/PixelCel.gd",
+    "sha256": "8fb08cb04e52ffd2fd48ddc7cd2e8439aa52b102dfced913aa719993e39645ef",
+    "bytes": 2095,
+    "old_exists": true,
+    "old_sha256": "8fb08cb04e52ffd2fd48ddc7cd2e8439aa52b102dfced913aa719993e39645ef",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Drawers.gd",
+    "sha256": "11ccd2f786bf53b051ffd9faebe2098c9505f6ecf01473631fff1c75720602ee",
+    "bytes": 3009,
+    "old_exists": true,
+    "old_sha256": "11ccd2f786bf53b051ffd9faebe2098c9505f6ecf01473631fff1c75720602ee",
+    "same": true
+  },
+  {
+    "file": "src/Classes/FloodFillObject.gd",
+    "sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+    "bytes": 4252,
+    "old_exists": true,
+    "old_sha256": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Frame.gd",
+    "sha256": "b917fc48a4e6a5a6f546ecc96864a0fc760c52221a51e115a6e7791065e09d95",
+    "bytes": 922,
+    "old_exists": true,
+    "old_sha256": "b917fc48a4e6a5a6f546ecc96864a0fc760c52221a51e115a6e7791065e09d95",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ImageEffect.gd",
+    "sha256": "cab64374ac5a9ccc6700d41272c685129b90b30918cdf79f6c616da06229a40d",
+    "bytes": 8561,
+    "old_exists": true,
+    "old_sha256": "cab64374ac5a9ccc6700d41272c685129b90b30918cdf79f6c616da06229a40d",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ImageExtended.gd",
+    "sha256": "c9de20f76741386f128c7b629532eaa13c516b9c4640fe655d5caba55ab5d5de",
+    "bytes": 5043,
+    "old_exists": true,
+    "old_sha256": "c9de20f76741386f128c7b629532eaa13c516b9c4640fe655d5caba55ab5d5de",
+    "same": true
+  },
+  {
+    "file": "src/Classes/LayerEffect.gd",
+    "sha256": "8d6e678179c8495ad7d3cb80ad802cac8d72092677490d3865c02ef127ce33c4",
+    "bytes": 1901,
+    "old_exists": true,
+    "old_sha256": "8d6e678179c8495ad7d3cb80ad802cac8d72092677490d3865c02ef127ce33c4",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Layers/AudioLayer.gd",
+    "sha256": "3a505b979ef98edfd63b1f2a6c0bbdb9cec4defe5c6115df7225d562c679d6e5",
+    "bytes": 1263,
+    "old_exists": true,
+    "old_sha256": "3a505b979ef98edfd63b1f2a6c0bbdb9cec4defe5c6115df7225d562c679d6e5",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Layers/BaseLayer.gd",
+    "sha256": "c9cbdd4375fa3b865ba28ef8d8ddade6b0de9e05a3f6520681cb975057a79409",
+    "bytes": 10337,
+    "old_exists": true,
+    "old_sha256": "c9cbdd4375fa3b865ba28ef8d8ddade6b0de9e05a3f6520681cb975057a79409",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Layers/GroupLayer.gd",
+    "sha256": "bb0a5163e05736ad9a918f710a8d73383e118962cab277d8577dab6473d63f1e",
+    "bytes": 5067,
+    "old_exists": true,
+    "old_sha256": "bb0a5163e05736ad9a918f710a8d73383e118962cab277d8577dab6473d63f1e",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Layers/Layer3D.gd",
+    "sha256": "5b9a54ac564ba117ac34ac08917ded3cc2431a600e9b9619514f87b1d889aa24",
+    "bytes": 19407,
+    "old_exists": true,
+    "old_sha256": "5b9a54ac564ba117ac34ac08917ded3cc2431a600e9b9619514f87b1d889aa24",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Layers/LayerTileMap.gd",
+    "sha256": "7231d9aa85b78c1aad03020344d5435ef2609f0dd0959f2d0f1daf8c991e7a7b",
+    "bytes": 2783,
+    "old_exists": true,
+    "old_sha256": "7231d9aa85b78c1aad03020344d5435ef2609f0dd0959f2d0f1daf8c991e7a7b",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Layers/PixelLayer.gd",
+    "sha256": "3cd286007e5eaac682fe581a6fe155144088917497d6290dd058972b01d3f838",
+    "bytes": 895,
+    "old_exists": true,
+    "old_sha256": "3cd286007e5eaac682fe581a6fe155144088917497d6290dd058972b01d3f838",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ObjParse.gd",
+    "sha256": "2b45aee4c3a6fb4d7d4956b1935849ff1d2aa63e5c4bee1dc329e1d2a3151bd7",
+    "bytes": 10326,
+    "old_exists": true,
+    "old_sha256": "2b45aee4c3a6fb4d7d4956b1935849ff1d2aa63e5c4bee1dc329e1d2a3151bd7",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Project.gd",
+    "sha256": "ce1e98c91c1c5560752098c0ca650a5dd347d1441f85b15f2254a3fd1ab0fc7b",
+    "bytes": 33664,
+    "old_exists": true,
+    "old_sha256": "ce1e98c91c1c5560752098c0ca650a5dd347d1441f85b15f2254a3fd1ab0fc7b",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ResourceProject.gd",
+    "sha256": "2f677812ce4495c98fa4831029449120f3b78ff21ab55620b3d64bd45eea6f15",
+    "bytes": 737,
+    "old_exists": true,
+    "old_sha256": "2f677812ce4495c98fa4831029449120f3b78ff21ab55620b3d64bd45eea6f15",
+    "same": true
+  },
+  {
+    "file": "src/Classes/SelectionMap.gd",
+    "sha256": "cba0f0e4551d4b6ee7432473d21a5142968686320369609b72c0a6a973a22d6f",
+    "bytes": 7093,
+    "old_exists": true,
+    "old_sha256": "cba0f0e4551d4b6ee7432473d21a5142968686320369609b72c0a6a973a22d6f",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ShaderImageEffect.gd",
+    "sha256": "e12135e36aedd8461c78fe07678721e6a0670b8966c40e6dc94ce7b132e2de28",
+    "bytes": 3891,
+    "old_exists": true,
+    "old_sha256": "e12135e36aedd8461c78fe07678721e6a0670b8966c40e6dc94ce7b132e2de28",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ShaderLoader.gd",
+    "sha256": "fc17a37749ef22dddab8a7d5074ea40fd5fe132aa24ea885eb7237e1a21d02ed",
+    "bytes": 24441,
+    "old_exists": true,
+    "old_sha256": "fc17a37749ef22dddab8a7d5074ea40fd5fe132aa24ea885eb7237e1a21d02ed",
+    "same": true
+  },
+  {
+    "file": "src/Classes/SoftwareParsers/AsepriteParser.gd",
+    "sha256": "fad6b35e1be5df2539a1075d0d3ff1d903cc082afd42bd9c7d3dbdbc0a999fc8",
+    "bytes": 21256,
+    "old_exists": true,
+    "old_sha256": "fad6b35e1be5df2539a1075d0d3ff1d903cc082afd42bd9c7d3dbdbc0a999fc8",
+    "same": true
+  },
+  {
+    "file": "src/Classes/SoftwareParsers/KritaParser.gd",
+    "sha256": "b38d1bc4b666e13cc711ed7ed39d6f756709b5c921ec15db21bb778f1dbf7671",
+    "bytes": 18448,
+    "old_exists": true,
+    "old_sha256": "b38d1bc4b666e13cc711ed7ed39d6f756709b5c921ec15db21bb778f1dbf7671",
+    "same": true
+  },
+  {
+    "file": "src/Classes/SoftwareParsers/PhotoshopParser.gd",
+    "sha256": "9815ae5a12e87dfb29f9eea49a5616ffbb0ff93e117d0365bfc43f1c648357d3",
+    "bytes": 23508,
+    "old_exists": true,
+    "old_sha256": "9815ae5a12e87dfb29f9eea49a5616ffbb0ff93e117d0365bfc43f1c648357d3",
+    "same": true
+  },
+  {
+    "file": "src/Classes/SteamManager.gd",
+    "sha256": "eebb9c5f8fce6bea117d4e51b1ec453adaf6154d03b211003efa0990d15b8802",
+    "bytes": 1244,
+    "old_exists": true,
+    "old_sha256": "eebb9c5f8fce6bea117d4e51b1ec453adaf6154d03b211003efa0990d15b8802",
+    "same": true
+  },
+  {
+    "file": "src/Classes/ThemeUtils.gd",
+    "sha256": "a0472c539479eba14e2150bb83ec34cf60b1acf8670a1bae44ffdb05f466cae3",
+    "bytes": 15383,
+    "old_exists": true,
+    "old_sha256": "a0472c539479eba14e2150bb83ec34cf60b1acf8670a1bae44ffdb05f466cae3",
+    "same": true
+  },
+  {
+    "file": "src/Classes/TileSetCustom.gd",
+    "sha256": "23b06e81c8035242daf858497b8659ce7c463ea2ac582385b9da4dd0849a3bec",
+    "bytes": 30277,
+    "old_exists": true,
+    "old_sha256": "23b06e81c8035242daf858497b8659ce7c463ea2ac582385b9da4dd0849a3bec",
+    "same": true
+  },
+  {
+    "file": "src/Classes/Tiles.gd",
+    "sha256": "4a631e3a618451f7418d6b4d6d13eb2bcd0ec0644a1d995f052edbf6d4d21dbb",
+    "bytes": 3200,
+    "old_exists": true,
+    "old_sha256": "4a631e3a618451f7418d6b4d6d13eb2bcd0ec0644a1d995f052edbf6d4d21dbb",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/Main.gd",
+    "sha256": "477d57950cdb16872a52b5f1433cd26a48fe674d951c0514a304b312c7bef82c",
+    "bytes": 33318,
+    "old_exists": true,
+    "old_sha256": "751c9dbaab8f1b484b724fdca27755e6392f7eb8433790874db2b57e9026eb2e",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/PixelLabGlobal.gd",
+    "sha256": "4ff97b09d22c471439f46ac5936cc754e0a5a919054d55fb34e1c557636b96eb",
+    "bytes": 1371,
+    "old_exists": true,
+    "old_sha256": "4ff97b09d22c471439f46ac5936cc754e0a5a919054d55fb34e1c557636b96eb",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/background_generation.gd",
+    "sha256": "99ff82d3de3e55cb45a58a981a77a6f3a10ae03f9dba735c382a5c6d780c7fc6",
+    "bytes": 12122,
+    "old_exists": true,
+    "old_sha256": "99ff82d3de3e55cb45a58a981a77a6f3a10ae03f9dba735c382a5c6d780c7fc6",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/clipboard.gd",
+    "sha256": "fb217f62970a75f9cd4b9c304ed1a6ac4678a6670c4d89ef70eaa48b3ac8bd48",
+    "bytes": 4498,
+    "old_exists": true,
+    "old_sha256": "fb217f62970a75f9cd4b9c304ed1a6ac4678a6670c4d89ef70eaa48b3ac8bd48",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/draw_image.gd",
+    "sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+    "bytes": 8740,
+    "old_exists": true,
+    "old_sha256": "0bce163896b067e794ef168df039ec85cae1e0981efad47d1cc090b097be6ff4",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/edit_handler.gd",
+    "sha256": "3dbaa812abb1dd7c1da86a532df1d14a589bc1cf66bbc4dac5c734ec9a343647",
+    "bytes": 39598,
+    "old_exists": true,
+    "old_sha256": "3dbaa812abb1dd7c1da86a532df1d14a589bc1cf66bbc4dac5c734ec9a343647",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/enhance_prompt_websocket.gd",
+    "sha256": "95ccf39bbdee7fb58f62e1bc212a3dc2d919ce6571d74cb848e09ef2a019d1e1",
+    "bytes": 4105,
+    "old_exists": true,
+    "old_sha256": "95ccf39bbdee7fb58f62e1bc212a3dc2d919ce6571d74cb848e09ef2a019d1e1",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/get_image.gd",
+    "sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+    "bytes": 6109,
+    "old_exists": true,
+    "old_sha256": "8f7224392a2b3511d124e577a4a360c8e3344d9df60f0692f011dcd1e89aa651",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/PixelLabUtils.gd",
+    "sha256": "7173352abf3f123309bc32680e4210510f9647079dce016eb56e5f1b32d64e71",
+    "bytes": 3344,
+    "old_exists": true,
+    "old_sha256": "7173352abf3f123309bc32680e4210510f9647079dce016eb56e5f1b32d64e71",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/pixen/pixen_canvas.gd",
+    "sha256": "22ea4e5f3a9ab068471228cba00e1b1f3f7256575c8929708b1cdf1523e29dd1",
+    "bytes": 637,
+    "old_exists": true,
+    "old_sha256": "22ea4e5f3a9ab068471228cba00e1b1f3f7256575c8929708b1cdf1523e29dd1",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/pixen/pixen_preview_popup.gd",
+    "sha256": "52811fd93980e164d94580379d7a23f7786c100e0801570346c0106d27d3f1a1",
+    "bytes": 3010,
+    "old_exists": true,
+    "old_sha256": "52811fd93980e164d94580379d7a23f7786c100e0801570346c0106d27d3f1a1",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/pixen/pixen_seed_layout.gd",
+    "sha256": "d1904f17adc83b556dacc1c71a49c199066c940acf03edd71bb010e15799c730",
+    "bytes": 35687,
+    "old_exists": true,
+    "old_sha256": "d1904f17adc83b556dacc1c71a49c199066c940acf03edd71bb010e15799c730",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/pixen/pixen_seed_preview.gd",
+    "sha256": "121cc5ca11bdbe7957cab79e70e5a51cbb0f545670c7cb7d9ad21fc1d4d256c4",
+    "bytes": 3552,
+    "old_exists": true,
+    "old_sha256": "121cc5ca11bdbe7957cab79e70e5a51cbb0f545670c7cb7d9ad21fc1d4d256c4",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/pixen/pixen_shape_styles.gd",
+    "sha256": "ddae7d50dd380cc91ce188bdeef2493f221931e26da374c7f432bc4b2eac1429",
+    "bytes": 9221,
+    "old_exists": true,
+    "old_sha256": "ddae7d50dd380cc91ce188bdeef2493f221931e26da374c7f432bc4b2eac1429",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/pixminimax_caption.gd",
+    "sha256": "bb3b630dc00585dd1089024a00d0f63f8c02b85596293fe8a17abc6bad802a89",
+    "bytes": 1457,
+    "old_exists": true,
+    "old_sha256": "bb3b630dc00585dd1089024a00d0f63f8c02b85596293fe8a17abc6bad802a89",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/template_info.gd",
+    "sha256": "ecd9395eac3cae9e9ecda58f3504a873305d629c9450c21e671418f626a910a4",
+    "bytes": 17373,
+    "old_exists": true,
+    "old_sha256": "ecd9395eac3cae9e9ecda58f3504a873305d629c9450c21e671418f626a910a4",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/lib/tileset_transform.gd",
+    "sha256": "264655725fdb50921f49b514868d538f0a91750f39a393cd013986e936af4228",
+    "bytes": 4822,
+    "old_exists": true,
+    "old_sha256": "264655725fdb50921f49b514868d538f0a91750f39a393cd013986e936af4228",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/pro_flash.gd",
+    "sha256": "f309cd16e0c81141ac95e477e1961e61d8d96c2e175a37512095e44fc94638a9",
+    "bytes": 2179,
+    "old_exists": true,
+    "old_sha256": "f309cd16e0c81141ac95e477e1961e61d8d96c2e175a37512095e44fc94638a9",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/pro_tool_cost.gd",
+    "sha256": "420e55a1dc770d79da8f53058f7fff84c26ea7a1f88402b5c4fca27c34d2fe7f",
+    "bytes": 10957,
+    "old_exists": true,
+    "old_sha256": "f2f5f97d472804cb2ff9548626df2145fc9b1f7cb98b98b1cef7df9032dcf1d0",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/quantize_websocket.gd",
+    "sha256": "1197c21ebf71c38414c5f2c4746c33b5d39b120a6ef7c2b15e836600aa5e1e16",
+    "bytes": 4140,
+    "old_exists": true,
+    "old_sha256": "1197c21ebf71c38414c5f2c4746c33b5d39b120a6ef7c2b15e836600aa5e1e16",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/review_websocket.gd",
+    "sha256": "616a5db8001ae81b4048e8070c5212128e83ce77c133cad7e96a85a22e2e1a79",
+    "bytes": 2262,
+    "old_exists": true,
+    "old_sha256": "616a5db8001ae81b4048e8070c5212128e83ce77c133cad7e96a85a22e2e1a79",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/settings_sync.gd",
+    "sha256": "329fe260928c37d0c154ac3b2e13ceba9c6da482d1126b87723a8e0502463f80",
+    "bytes": 4290,
+    "old_exists": true,
+    "old_sha256": "329fe260928c37d0c154ac3b2e13ceba9c6da482d1126b87723a8e0502463f80",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/DrawSkeleton.gd",
+    "sha256": "a3c1ac95bdb33821de9872cd489fe746741d8300797b5de50c2ad36ecc14b4a3",
+    "bytes": 5591,
+    "old_exists": true,
+    "old_sha256": "a3c1ac95bdb33821de9872cd489fe746741d8300797b5de50c2ad36ecc14b4a3",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/EstimateSkeletonWebsocket.gd",
+    "sha256": "97a65d08a5681241f32e175279849b291861e525e2099f2324b83d1ddc5f907b",
+    "bytes": 4267,
+    "old_exists": true,
+    "old_sha256": "97a65d08a5681241f32e175279849b291861e525e2099f2324b83d1ddc5f907b",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/Skeleton.gd",
+    "sha256": "9229d662e61cfb3bc0c8fd876eebfc1fd3ae33985256028b0d7a95cd73bb9826",
+    "bytes": 13775,
+    "old_exists": true,
+    "old_sha256": "9229d662e61cfb3bc0c8fd876eebfc1fd3ae33985256028b0d7a95cd73bb9826",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/SkeletonBridge.gd",
+    "sha256": "938c8b998651b14c84c2eceebb65f0249ded73c0e4b8e589e6e034b640c4dc91",
+    "bytes": 5698,
+    "old_exists": true,
+    "old_sha256": "938c8b998651b14c84c2eceebb65f0249ded73c0e4b8e589e6e034b640c4dc91",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/SkeletonV3Keypoints.gd",
+    "sha256": "163f41559b961481bf0df22ca223ccf52f063b38ff0e402a789e43c217e6a53e",
+    "bytes": 1199,
+    "old_exists": true,
+    "old_sha256": "163f41559b961481bf0df22ca223ccf52f063b38ff0e402a789e43c217e6a53e",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/TemplateSkeleton.gd",
+    "sha256": "8938b40046dae3b28ccb8c759cd879a1265f74426f2eefb059f1c59a0b210a52",
+    "bytes": 8437,
+    "old_exists": true,
+    "old_sha256": "8938b40046dae3b28ccb8c759cd879a1265f74426f2eefb059f1c59a0b210a52",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/skeleton/Transform3DTo2D.gd",
+    "sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+    "bytes": 7880,
+    "old_exists": true,
+    "old_sha256": "75dbc58f3e8f2def8ced6ca8cd6d8f67ba0d573c5a17c71050b19e10c078c89e",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/target_palette_option.gd",
+    "sha256": "312156ab454cde088e4ad6f751d3fd85e1068e36079fce8a5e3030888138f5c8",
+    "bytes": 12414,
+    "old_exists": false,
+    "old_sha256": null,
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/tools/EditSkeleton.gd",
+    "sha256": "eb0cdab6a96d5064309fbce3bc27ab54952042bd11a8db627d213c7dc0ba327a",
+    "bytes": 3834,
+    "old_exists": true,
+    "old_sha256": "eb0cdab6a96d5064309fbce3bc27ab54952042bd11a8db627d213c7dc0ba327a",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/tools/QuickRotate.gd",
+    "sha256": "b3284650f7e62639a9afc72f375ffeaadc360efad36b7638adcd3d798751df8a",
+    "bytes": 6300,
+    "old_exists": true,
+    "old_sha256": "b3284650f7e62639a9afc72f375ffeaadc360efad36b7638adcd3d798751df8a",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/tools/overlays/InstructionOverlay.gd",
+    "sha256": "ea6f5509b14504ab8d4126dd68f598f5a4ba3cd51af8689cf9ec4d312eec7691",
+    "bytes": 3147,
+    "old_exists": true,
+    "old_sha256": "ea6f5509b14504ab8d4126dd68f598f5a4ba3cd51af8689cf9ec4d312eec7691",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/tools/overlays/RotateOverlay.gd",
+    "sha256": "6ea5cc548592925c7963fe81edaccabdbdced90693cbe444480b5f28d993a2d8",
+    "bytes": 7414,
+    "old_exists": true,
+    "old_sha256": "6ea5cc548592925c7963fe81edaccabdbdced90693cbe444480b5f28d993a2d8",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/HandleSecret/HandleSecret.gd",
+    "sha256": "857919232286ce536ef60c1aceb0879333b401db8d7f00ac7abe4fc88f9c735b",
+    "bytes": 4731,
+    "old_exists": true,
+    "old_sha256": "857919232286ce536ef60c1aceb0879333b401db8d7f00ac7abe4fc88f9c735b",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/UI.gd",
+    "sha256": "7dbd2cb826fc2574e336f6a9c4824dd8e0f464bfd57e8894e5b75e071d8818b8",
+    "bytes": 75587,
+    "old_exists": true,
+    "old_sha256": "7dbd2cb826fc2574e336f6a9c4824dd8e0f464bfd57e8894e5b75e071d8818b8",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/ClipboardImage.gd",
+    "sha256": "55e738d27b17cc815261414b1e5411746f603f56653c42e93e3d9d40c01d7cd8",
+    "bytes": 2338,
+    "old_exists": true,
+    "old_sha256": "55e738d27b17cc815261414b1e5411746f603f56653c42e93e3d9d40c01d7cd8",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/DashedFrame.gd",
+    "sha256": "a5cb4a82f52ae8a0ac837e45d65e284fe9b0caa0f3be1770848a6dddb6aa28bc",
+    "bytes": 2496,
+    "old_exists": true,
+    "old_sha256": "a5cb4a82f52ae8a0ac837e45d65e284fe9b0caa0f3be1770848a6dddb6aa28bc",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/DiskImagePicker.gd",
+    "sha256": "22529d768b6ee8bdfcf47cff0dd793b927aea7af493b21247f5dfdffc6e51904",
+    "bytes": 2345,
+    "old_exists": true,
+    "old_sha256": "22529d768b6ee8bdfcf47cff0dd793b927aea7af493b21247f5dfdffc6e51904",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/LinkButton.gd",
+    "sha256": "242ea3a2f0b4c8ded9affe092059dfc02ed76e96fbcee50c8479b984bf18eca4",
+    "bytes": 240,
+    "old_exists": true,
+    "old_sha256": "242ea3a2f0b4c8ded9affe092059dfc02ed76e96fbcee50c8479b984bf18eca4",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/PixelLabPreviewOverlay.gd",
+    "sha256": "ae395e23d8d52f4513b53cdc8c6aa6dbab53e5ea48f5b30ca8e16adeb1520921",
+    "bytes": 10968,
+    "old_exists": true,
+    "old_sha256": "ae395e23d8d52f4513b53cdc8c6aa6dbab53e5ea48f5b30ca8e16adeb1520921",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/ScrollLessSlider.gd",
+    "sha256": "b76fe6a131b1fe4e4a045dcb1c9f4f324ec1b02fc6da4d88260207e28acbb52f",
+    "bytes": 10300,
+    "old_exists": true,
+    "old_sha256": "b76fe6a131b1fe4e4a045dcb1c9f4f324ec1b02fc6da4d88260207e28acbb52f",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/SectionGrid.gd",
+    "sha256": "b851c0f7e202e6c5e7783aa0de981ec655145dfc13d2fca247e8443eedb26881",
+    "bytes": 67,
+    "old_exists": true,
+    "old_sha256": "b851c0f7e202e6c5e7783aa0de981ec655145dfc13d2fca247e8443eedb26881",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/SectionHeader.gd",
+    "sha256": "af742e61fbfa1cfe079aec17b659195b6f615afc4beb490ccfa073b78cab4bb5",
+    "bytes": 354,
+    "old_exists": true,
+    "old_sha256": "af742e61fbfa1cfe079aec17b659195b6f615afc4beb490ccfa073b78cab4bb5",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/SnapSlider.gd",
+    "sha256": "0797f3da544ce0f851ca5848e7b38122fff147a23552e61d7933cfbba740cd50",
+    "bytes": 2457,
+    "old_exists": true,
+    "old_sha256": "0797f3da544ce0f851ca5848e7b38122fff147a23552e61d7933cfbba740cd50",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/ToolCard.gd",
+    "sha256": "7558b21e5df3c0396cddd1f4436d93a7dd301b57bf1cf2529ea697eaf44196de",
+    "bytes": 4119,
+    "old_exists": true,
+    "old_sha256": "7558b21e5df3c0396cddd1f4436d93a7dd301b57bf1cf2529ea697eaf44196de",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/components/ToolTitle.gd",
+    "sha256": "ba16bccbbe16a8e9d88de56adc2b63e3d504e6fc4cb0f1c3fe4196edf9642e52",
+    "bytes": 509,
+    "old_exists": true,
+    "old_sha256": "ba16bccbbe16a8e9d88de56adc2b63e3d504e6fc4cb0f1c3fe4196edf9642e52",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/CropConfirmationDialog.gd",
+    "sha256": "7c839cc199aa7b24cef6421db397bb90661a014f1f43494b8a8a0d15c3808da2",
+    "bytes": 961,
+    "old_exists": true,
+    "old_sha256": "7c839cc199aa7b24cef6421db397bb90661a014f1f43494b8a8a0d15c3808da2",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/LospecImportDialog.gd",
+    "sha256": "fcf74d8de029a3367bd0b58a3117e37a1c0d52156ceef44aebbd17a6d58a075c",
+    "bytes": 5242,
+    "old_exists": true,
+    "old_sha256": "fcf74d8de029a3367bd0b58a3117e37a1c0d52156ceef44aebbd17a6d58a075c",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/OutOfGenerationsDialog.gd",
+    "sha256": "620e1cc61c7c0c3e37c53049d0378ffa0974d36938b2a785179bdbe88350882e",
+    "bytes": 574,
+    "old_exists": true,
+    "old_sha256": "620e1cc61c7c0c3e37c53049d0378ffa0974d36938b2a785179bdbe88350882e",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/ProFlashCanvasDialog.gd",
+    "sha256": "f8bd6c15b9b75c1bd7ddea955c149629008f79afe6d26982d8dfa3ef91806cda",
+    "bytes": 2588,
+    "old_exists": true,
+    "old_sha256": "f8bd6c15b9b75c1bd7ddea955c149629008f79afe6d26982d8dfa3ef91806cda",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/ResizeConfirmationDialog.gd",
+    "sha256": "96055eaae154d4ea8ea774d4e8bdc1debff439cb9d101842d4e83b6a72266582",
+    "bytes": 1141,
+    "old_exists": true,
+    "old_sha256": "96055eaae154d4ea8ea774d4e8bdc1debff439cb9d101842d4e83b6a72266582",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/SaveSkeletonDialog.gd",
+    "sha256": "9ed89ca13fcb1c1dd7dee3749401a2c97bb2e73ed8516592dcf0afa54aaa9f23",
+    "bytes": 3471,
+    "old_exists": true,
+    "old_sha256": "9ed89ca13fcb1c1dd7dee3749401a2c97bb2e73ed8516592dcf0afa54aaa9f23",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/TierRequirementDialog.gd",
+    "sha256": "829c1a74ac6c7c35b8473ed0de7bc8b7f782b0fc811bfddb7a8f8c9e029b9606",
+    "bytes": 320,
+    "old_exists": true,
+    "old_sha256": "829c1a74ac6c7c35b8473ed0de7bc8b7f782b0fc811bfddb7a8f8c9e029b9606",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/dialogs/WarningSelectionTool.gd",
+    "sha256": "6cc799ccac32580fd903c18f07103a9eeaa340a18dc37f3c1864c75507d5e6de",
+    "bytes": 2071,
+    "old_exists": true,
+    "old_sha256": "6cc799ccac32580fd903c18f07103a9eeaa340a18dc37f3c1864c75507d5e6de",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/loading/Loading.gd",
+    "sha256": "00d870df3428449a3cc26cfc85b1b8e2c32c7015de5e0aaf00a97ed3726bc69d",
+    "bytes": 13926,
+    "old_exists": true,
+    "old_sha256": "8e6beb4dda1c075fa062d42b929b23f18fe13c865cb25e90be9479b14d0467ae",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimatePixminimax.gd",
+    "sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+    "bytes": 12327,
+    "old_exists": true,
+    "old_sha256": "514de90de8ea82fd372e2dde8e0ca5d66885d73010d16623bac83479b91f5f2f",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateSkeleton.gd",
+    "sha256": "91ecafdd568de902cf81ba3d7d722b5d475c0738b69f71245e98c06636a1a596",
+    "bytes": 44974,
+    "old_exists": true,
+    "old_sha256": "91ecafdd568de902cf81ba3d7d722b5d475c0738b69f71245e98c06636a1a596",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateSkeletonV3.gd",
+    "sha256": "638de27b87a15d676dda7d45f9780ea68a3e365a7ba2c833cbc41cc6e51dd249",
+    "bytes": 14088,
+    "old_exists": true,
+    "old_sha256": "638de27b87a15d676dda7d45f9780ea68a3e365a7ba2c833cbc41cc6e51dd249",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateText.gd",
+    "sha256": "25b3dea063e4e593153d6cd03eb17129ac9209c30187a9d5d67257d57f77e329",
+    "bytes": 15754,
+    "old_exists": true,
+    "old_sha256": "25b3dea063e4e593153d6cd03eb17129ac9209c30187a9d5d67257d57f77e329",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateTextOnly.gd",
+    "sha256": "d9265c10d00bb0c40541a217c48f8a55c8db47cce47c0204479b9fb01b63997a",
+    "bytes": 5067,
+    "old_exists": true,
+    "old_sha256": "02421f783ad07c6d88f82616da758f0d1a3309043a6ea9f0a006d1e7e209939a",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateWithTemplate.gd",
+    "sha256": "1f93387416da262560c7e7cfe9e0754a1afe3df65ab85b05233777406fab0261",
+    "bytes": 11614,
+    "old_exists": true,
+    "old_sha256": "1f93387416da262560c7e7cfe9e0754a1afe3df65ab85b05233777406fab0261",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateWithText.gd",
+    "sha256": "34ba066730f1b9582da82c6311adb256fae91fdf505e1a3e508ce7178994b41e",
+    "bytes": 9812,
+    "old_exists": true,
+    "old_sha256": "b1d2bdfc08c67c0b97d712f92099b0498414bd9226fe9218d459544d4be52b60",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimateWithTextV3.gd",
+    "sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+    "bytes": 10228,
+    "old_exists": true,
+    "old_sha256": "419d43db1cff484b5d0c0b6dc83b96ed382edcbb617b45785f4ece05f7275057",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/AnimationToAnimationImagePreview.gd",
+    "sha256": "55f3a54859f07febeaae1c2e633d4e118df2791d96d4c40aab988333f207de46",
+    "bytes": 5947,
+    "old_exists": true,
+    "old_sha256": "55f3a54859f07febeaae1c2e633d4e118df2791d96d4c40aab988333f207de46",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/CorrectPixelart.gd",
+    "sha256": "de6228f07fa93d1d0e72d28af1648cab1ca6a55f679063cca47c12987d048173",
+    "bytes": 9797,
+    "old_exists": true,
+    "old_sha256": "de6228f07fa93d1d0e72d28af1648cab1ca6a55f679063cca47c12987d048173",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/CreateTiles.gd",
+    "sha256": "7ae354b1e87f4f02c374f36b32139e0ff6345eeeabad2dff2b35b2488a09aff7",
+    "bytes": 21847,
+    "old_exists": true,
+    "old_sha256": "7ae354b1e87f4f02c374f36b32139e0ff6345eeeabad2dff2b35b2488a09aff7",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/CreateUIElements.gd",
+    "sha256": "78ab13c9ada09d2d95658200d2ff467fc12937af8e08be30a9cdbc4173424bdc",
+    "bytes": 7534,
+    "old_exists": true,
+    "old_sha256": "78ab13c9ada09d2d95658200d2ff467fc12937af8e08be30a9cdbc4173424bdc",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/EditAnimation.gd",
+    "sha256": "de05b046d5d5cf816d5366da975316f1c5ec561d7584f32cb8dd82c1bfc9fb5e",
+    "bytes": 8795,
+    "old_exists": true,
+    "old_sha256": "de05b046d5d5cf816d5366da975316f1c5ec561d7584f32cb8dd82c1bfc9fb5e",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/EditAnimationPreview.gd",
+    "sha256": "53ca3af7792d8e2240dd953bc10173d0191b3221345af5399b07fbce2b1c0ca1",
+    "bytes": 1256,
+    "old_exists": true,
+    "old_sha256": "53ca3af7792d8e2240dd953bc10173d0191b3221345af5399b07fbce2b1c0ca1",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/EditImage.gd",
+    "sha256": "dc4218c54d15e5d575474d1c8ba105ede84c331cc185415cd592a72635a4711f",
+    "bytes": 27163,
+    "old_exists": true,
+    "old_sha256": "dc4218c54d15e5d575474d1c8ba105ede84c331cc185415cd592a72635a4711f",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/EditImagePixen.gd",
+    "sha256": "cfbf3143462f744e800e9a52b5c7628b5c548027bedf7c3bf491bd85430fb749",
+    "bytes": 13036,
+    "old_exists": true,
+    "old_sha256": "cfbf3143462f744e800e9a52b5c7628b5c548027bedf7c3bf491bd85430fb749",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/EditImagesNew.gd",
+    "sha256": "9621f476dd64cc2ecbca96288d9377dbf73f9e2503d2298aecdf26f8f5cb99d9",
+    "bytes": 14457,
+    "old_exists": true,
+    "old_sha256": "9621f476dd64cc2ecbca96288d9377dbf73f9e2503d2298aecdf26f8f5cb99d9",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateAnimationToAnimation.gd",
+    "sha256": "72bed96584226424268b1cf684317a0e164f71613041de1b40152ae29103be19",
+    "bytes": 11584,
+    "old_exists": true,
+    "old_sha256": "72bed96584226424268b1cf684317a0e164f71613041de1b40152ae29103be19",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateEdit.gd",
+    "sha256": "af2c44b670dda7f3964c4914f998e4d0863b7cc8d56d0b54c415600262bc58f5",
+    "bytes": 12530,
+    "old_exists": true,
+    "old_sha256": "af2c44b670dda7f3964c4914f998e4d0863b7cc8d56d0b54c415600262bc58f5",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateFont.gd",
+    "sha256": "cd4f20d714e1194ecb206eb1aa3822e2349d9c7155462923194700bff507cbc6",
+    "bytes": 3189,
+    "old_exists": true,
+    "old_sha256": "cd4f20d714e1194ecb206eb1aa3822e2349d9c7155462923194700bff507cbc6",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageFlux.gd",
+    "sha256": "edf42c389777029f2c2f626f14d0c92ba257d442af7c637ffc93753306cf6dc6",
+    "bytes": 8976,
+    "old_exists": true,
+    "old_sha256": "edf42c389777029f2c2f626f14d0c92ba257d442af7c637ffc93753306cf6dc6",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageFluxDepth.gd",
+    "sha256": "f9b1b35c577f064592714cbc159e9cb43fd204c823d5fbee85b287da38fc0141",
+    "bytes": 7504,
+    "old_exists": true,
+    "old_sha256": "f9b1b35c577f064592714cbc159e9cb43fd204c823d5fbee85b287da38fc0141",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageFluxSameStyle.gd",
+    "sha256": "dff401871b2e84ed4b312717767bc578b15fc66cd221239b19689d67aaefa0eb",
+    "bytes": 7101,
+    "old_exists": true,
+    "old_sha256": "dff401871b2e84ed4b312717767bc578b15fc66cd221239b19689d67aaefa0eb",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageNew.gd",
+    "sha256": "22f306bed3a6b9b663f4f62d659ce1e1910100b0de30c776e0cd46f81053059c",
+    "bytes": 18233,
+    "old_exists": true,
+    "old_sha256": "9ddbcb03a7668139fb21d88e83dd2e1f62fb792a084c0a83c50e07f14812cd6c",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImagePixen.gd",
+    "sha256": "b492d4551fc9c4c8ecff7d42c2460788bc51daca07f3216858af473c67343d27",
+    "bytes": 9296,
+    "old_exists": true,
+    "old_sha256": "b492d4551fc9c4c8ecff7d42c2460788bc51daca07f3216858af473c67343d27",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageStyle.gd",
+    "sha256": "ead24646212d02dbd48a8b3ea3b2f48f8f1a7571ee771d3ac9d03f85a6bdad3e",
+    "bytes": 8987,
+    "old_exists": true,
+    "old_sha256": "ead24646212d02dbd48a8b3ea3b2f48f8f1a7571ee771d3ac9d03f85a6bdad3e",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageStyleOld.gd",
+    "sha256": "7c6b8dc40660fa27ef1d2528b38982fb6d817aba4dcb1c1e58413f332bd1a980",
+    "bytes": 9104,
+    "old_exists": true,
+    "old_sha256": "7c6b8dc40660fa27ef1d2528b38982fb6d817aba4dcb1c1e58413f332bd1a980",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageToPixelart.gd",
+    "sha256": "6a6ba078a4acc856474b01f82cadd6e4e5799cc811cd7e4d5dec77cad3b6e721",
+    "bytes": 13620,
+    "old_exists": true,
+    "old_sha256": "6a6ba078a4acc856474b01f82cadd6e4e5799cc811cd7e4d5dec77cad3b6e721",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateImageToPixelartPro.gd",
+    "sha256": "5d212909dc601dbc6cdbdaa30aa82c94c8cdf1a16f9ed04764caef3776759338",
+    "bytes": 4682,
+    "old_exists": true,
+    "old_sha256": "5d212909dc601dbc6cdbdaa30aa82c94c8cdf1a16f9ed04764caef3776759338",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateIsometricTile.gd",
+    "sha256": "4d78a3ecb3ecb476f1a961323ca1eac60a34ef555778751c68be43c5b1a633e3",
+    "bytes": 9274,
+    "old_exists": true,
+    "old_sha256": "4d78a3ecb3ecb476f1a961323ca1eac60a34ef555778751c68be43c5b1a633e3",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateMapFlux.gd",
+    "sha256": "30be6c029fcd22416968043669ce45f061131622c713d3cfa2b6cabc9d5f7ff3",
+    "bytes": 5765,
+    "old_exists": true,
+    "old_sha256": "30be6c029fcd22416968043669ce45f061131622c713d3cfa2b6cabc9d5f7ff3",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateMultiEdit.gd",
+    "sha256": "54d4d5e41a98dfe59647e0e70ff003c7ba392a6787e029c89d1241dd3b10d9fd",
+    "bytes": 6968,
+    "old_exists": true,
+    "old_sha256": "54d4d5e41a98dfe59647e0e70ff003c7ba392a6787e029c89d1241dd3b10d9fd",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateResize.gd",
+    "sha256": "e6b02aa6523c02bcc3e5ccf6434b7f1a80610487d67f984b9d10f1f00cd9d1ff",
+    "bytes": 10130,
+    "old_exists": true,
+    "old_sha256": "e6b02aa6523c02bcc3e5ccf6434b7f1a80610487d67f984b9d10f1f00cd9d1ff",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateStyleNew.gd",
+    "sha256": "b27e6e11f7e19eaa0ce815560fc8f5728351b33b9e200a4ae71c2411d7dc31cc",
+    "bytes": 11602,
+    "old_exists": true,
+    "old_sha256": "b27e6e11f7e19eaa0ce815560fc8f5728351b33b9e200a4ae71c2411d7dc31cc",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateTexture.gd",
+    "sha256": "e5ece508ee69ed98e27f690496d4a61a89d6b8fa6b5ae59b2cec249363bf5fbc",
+    "bytes": 5055,
+    "old_exists": true,
+    "old_sha256": "e5ece508ee69ed98e27f690496d4a61a89d6b8fa6b5ae59b2cec249363bf5fbc",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateTileset.gd",
+    "sha256": "edeb6881f940add5e170fbd301cb3e93a2eb5c8757d61bf275ba56c89924f84f",
+    "bytes": 15229,
+    "old_exists": true,
+    "old_sha256": "edeb6881f940add5e170fbd301cb3e93a2eb5c8757d61bf275ba56c89924f84f",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateTilesetPro.gd",
+    "sha256": "1fe7f2eb921150731ec051d2e975a31b6f1c5c0a4bd18462d33695d02d2ca29d",
+    "bytes": 12815,
+    "old_exists": true,
+    "old_sha256": "984ed0b9c859ef5138f89539e8953ebf2958f52adb1913a443c9e11f925d687c",
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateTilesetSidescroller.gd",
+    "sha256": "0132e1ad191cec52e25cb134fea465308ff96648c8653c61ef1668d8f0341e97",
+    "bytes": 13559,
+    "old_exists": true,
+    "old_sha256": "0132e1ad191cec52e25cb134fea465308ff96648c8653c61ef1668d8f0341e97",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateTryOn.gd",
+    "sha256": "1744cb6632aa15f336d047f9b6af7f6d70cd74116da5158f44a7ff676bf2620b",
+    "bytes": 12162,
+    "old_exists": true,
+    "old_sha256": "1744cb6632aa15f336d047f9b6af7f6d70cd74116da5158f44a7ff676bf2620b",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateUI.gd",
+    "sha256": "9d545db8ebab311326ed59d0fb55544537af9d4da0c514d38250ae4be2db34f3",
+    "bytes": 5149,
+    "old_exists": true,
+    "old_sha256": "9d545db8ebab311326ed59d0fb55544537af9d4da0c514d38250ae4be2db34f3",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/GenerateUITemplate.gd",
+    "sha256": "2583abed5dab7c47d729502bb15762536ed7ba40ddd03a4998d691196ded6e28",
+    "bytes": 13237,
+    "old_exists": true,
+    "old_sha256": "2583abed5dab7c47d729502bb15762536ed7ba40ddd03a4998d691196ded6e28",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InitImagePreview.gd",
+    "sha256": "607671a1db57b93399fad5b659dddde35733b5af28b335d616a2ed751b6be099",
+    "bytes": 5283,
+    "old_exists": true,
+    "old_sha256": "607671a1db57b93399fad5b659dddde35733b5af28b335d616a2ed751b6be099",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InpaintV3Preview.gd",
+    "sha256": "25bd67b69aef604ee4a99b399fac2fdce1eb7c18ff00ea38cf1b13a7c08cb066",
+    "bytes": 1255,
+    "old_exists": true,
+    "old_sha256": "25bd67b69aef604ee4a99b399fac2fdce1eb7c18ff00ea38cf1b13a7c08cb066",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/Inpainting.gd",
+    "sha256": "289f421a80c58ed6d8fd3bc9779fe8d0e4c68675b3148d703f6296ff2d2c5392",
+    "bytes": 11708,
+    "old_exists": true,
+    "old_sha256": "289f421a80c58ed6d8fd3bc9779fe8d0e4c68675b3148d703f6296ff2d2c5392",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InpaintingPixelPatch.gd",
+    "sha256": "edc2a9d0475f0511ccbc61a6c81ddaec7bc4a960aaaa6aef54c15b1304d9d15d",
+    "bytes": 10022,
+    "old_exists": true,
+    "old_sha256": "edc2a9d0475f0511ccbc61a6c81ddaec7bc4a960aaaa6aef54c15b1304d9d15d",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InpaintingPixelPatchV2.gd",
+    "sha256": "3330a8ffb550ab062cb9b25134fb06877ff4a57c1be8f91fd9151f5f337499e0",
+    "bytes": 11359,
+    "old_exists": true,
+    "old_sha256": "3330a8ffb550ab062cb9b25134fb06877ff4a57c1be8f91fd9151f5f337499e0",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InpaintingV3.gd",
+    "sha256": "186665823f528e70db4d023ed5d8a2a27ccafd58da33bac321a5a9635f655cb7",
+    "bytes": 16103,
+    "old_exists": true,
+    "old_sha256": "186665823f528e70db4d023ed5d8a2a27ccafd58da33bac321a5a9635f655cb7",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InstantCharacter.gd",
+    "sha256": "6115b0980497e3514161d89b22df97f91fdd84a858d6f103753de13c0b04c783",
+    "bytes": 11645,
+    "old_exists": true,
+    "old_sha256": "6115b0980497e3514161d89b22df97f91fdd84a858d6f103753de13c0b04c783",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InterpolatePixminimax.gd",
+    "sha256": "0877e2c86a45b2e6a937b35bf25a22d454eb473f518c7c6334bdfaf88bc90ef5",
+    "bytes": 1382,
+    "old_exists": true,
+    "old_sha256": "0877e2c86a45b2e6a937b35bf25a22d454eb473f518c7c6334bdfaf88bc90ef5",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/InterpolateV3.gd",
+    "sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+    "bytes": 14202,
+    "old_exists": true,
+    "old_sha256": "498cb76fae6aa3f73d5017a55b6ffe87a47686e98750ef8774745386d0e02a6e",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/MapTiles.gd",
+    "sha256": "eccfd202b45cb636f47d385727165f0f373df1a6686b1574c83f31e056987f6a",
+    "bytes": 11201,
+    "old_exists": true,
+    "old_sha256": "eccfd202b45cb636f47d385727165f0f373df1a6686b1574c83f31e056987f6a",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/MapTilesInpainting.gd",
+    "sha256": "12b796626e4cdc106c3b206b5552d116558edee1acba1d2129c6b319a82f7add",
+    "bytes": 10683,
+    "old_exists": true,
+    "old_sha256": "12b796626e4cdc106c3b206b5552d116558edee1acba1d2129c6b319a82f7add",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/MapTilesV2.gd",
+    "sha256": "4d1cbfbb9aa4eab20a6a083a0cf879e8a580275723459b5609dab11bc821f904",
+    "bytes": 10612,
+    "old_exists": true,
+    "old_sha256": "4d1cbfbb9aa4eab20a6a083a0cf879e8a580275723459b5609dab11bc821f904",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/PortraitCharacter.gd",
+    "sha256": "7f3964acf8a375a8ecd69ed1066dddc0d920d9c02c6d916bf767a7d1991d4799",
+    "bytes": 4323,
+    "old_exists": true,
+    "old_sha256": "7f3964acf8a375a8ecd69ed1066dddc0d920d9c02c6d916bf767a7d1991d4799",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/QuantizeColors.gd",
+    "sha256": "5a404f5e1992e538e268c74d1081a524245e290b19ebcb5b19f3f8ce1ee4c6e8",
+    "bytes": 16077,
+    "old_exists": true,
+    "old_sha256": "5a404f5e1992e538e268c74d1081a524245e290b19ebcb5b19f3f8ce1ee4c6e8",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/ReferenceTo8Rotations.gd",
+    "sha256": "3170df3de560b9ab9c467691941c17e3595677146b54c1eae3e297790203b951",
+    "bytes": 16496,
+    "old_exists": true,
+    "old_sha256": "3170df3de560b9ab9c467691941c17e3595677146b54c1eae3e297790203b951",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/ReferenceTo8RotationsV3.gd",
+    "sha256": "6a5b29bb6a6ff8491af027c46316837471158cdc7771271ed77b0e399c72c8ab",
+    "bytes": 5406,
+    "old_exists": true,
+    "old_sha256": "6a5b29bb6a6ff8491af027c46316837471158cdc7771271ed77b0e399c72c8ab",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/RemoveBackground.gd",
+    "sha256": "dc6381166e6f8592be81f8588ed7d6148d0cb6906145041e950049b4cab1dedb",
+    "bytes": 4015,
+    "old_exists": true,
+    "old_sha256": "dc6381166e6f8592be81f8588ed7d6148d0cb6906145041e950049b4cab1dedb",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/Rotate4.gd",
+    "sha256": "8fc5978088153166c2a4a3563cb29bc0fa94f38f31657d9cd683ee7d41be225d",
+    "bytes": 7855,
+    "old_exists": true,
+    "old_sha256": "8fc5978088153166c2a4a3563cb29bc0fa94f38f31657d9cd683ee7d41be225d",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/Rotate8.gd",
+    "sha256": "cb9c8fad4f277e4707f0da35f40b22320929cb5ac8b71afae95fe662d64a6acf",
+    "bytes": 8366,
+    "old_exists": true,
+    "old_sha256": "cb9c8fad4f277e4707f0da35f40b22320929cb5ac8b71afae95fe662d64a6acf",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/SelectionHandler.gd",
+    "sha256": "8dc3fdbd0380d071ce0658065a8e39435a28aa5ae2b244bad02a9879973d6aa9",
+    "bytes": 3518,
+    "old_exists": true,
+    "old_sha256": "8dc3fdbd0380d071ce0658065a8e39435a28aa5ae2b244bad02a9879973d6aa9",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/SingleRotation.gd",
+    "sha256": "bb43434a9cd28d6e5cbee41253a8f5952a09e56771c1bb6aa1e27b522a7cca5f",
+    "bytes": 8828,
+    "old_exists": true,
+    "old_sha256": "bb43434a9cd28d6e5cbee41253a8f5952a09e56771c1bb6aa1e27b522a7cca5f",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/StyleImagePreview.gd",
+    "sha256": "866f01ede34e1f25235c1e866f7732ee4a656e442a1bdc9e3e46b678f0039f22",
+    "bytes": 5211,
+    "old_exists": true,
+    "old_sha256": "866f01ede34e1f25235c1e866f7732ee4a656e442a1bdc9e3e46b678f0039f22",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/TemplateImagePreview.gd",
+    "sha256": "345f96f9c8e19bd81e8e510a237a52315d22a8d65246c19c12df1b77fabb1f93",
+    "bytes": 15837,
+    "old_exists": true,
+    "old_sha256": "345f96f9c8e19bd81e8e510a237a52315d22a8d65246c19c12df1b77fabb1f93",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/ToolBase.gd",
+    "sha256": "d472acb8ce8d87cc78e64f0dbe8563dd10c0175bade40c3eafac3664dea748c5",
+    "bytes": 12237,
+    "old_exists": true,
+    "old_sha256": "d472acb8ce8d87cc78e64f0dbe8563dd10c0175bade40c3eafac3664dea748c5",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/TransferOutfit.gd",
+    "sha256": "10366f113fe405d9dd21f65a977e485543532c9ded06f09bfb68a63881810907",
+    "bytes": 11741,
+    "old_exists": true,
+    "old_sha256": "10366f113fe405d9dd21f65a977e485543532c9ded06f09bfb68a63881810907",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/UITemplateEditor.gd",
+    "sha256": "9942678d470092ad649ffae94a535bdb252fc7531d7f2b1ab95fca2cb5bef09c",
+    "bytes": 15064,
+    "old_exists": true,
+    "old_sha256": "9942678d470092ad649ffae94a535bdb252fc7531d7f2b1ab95fca2cb5bef09c",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/UITemplatePresets.gd",
+    "sha256": "dcb1a01259458cf177050c0d9319ed2ff7de984e1027135ff4cc3655212e68aa",
+    "bytes": 6162,
+    "old_exists": true,
+    "old_sha256": "dcb1a01259458cf177050c0d9319ed2ff7de984e1027135ff4cc3655212e68aa",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/UnzoomPixelart.gd",
+    "sha256": "23fe9b1bcb2d8e8d08701c70f2cd697d8adea9fb767a85fe6ab76b7d43926262",
+    "bytes": 8703,
+    "old_exists": true,
+    "old_sha256": "23fe9b1bcb2d8e8d08701c70f2cd697d8adea9fb767a85fe6ab76b7d43926262",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/ui/tools/tileset_pro_shape_preview.gd",
+    "sha256": "dfe99af94319591f00360bd795c655cd8b53daec9e104eb9254a595c6946005a",
+    "bytes": 8328,
+    "old_exists": false,
+    "old_sha256": null,
+    "same": false
+  },
+  {
+    "file": "src/Extensions/PixelLab/unzoom_websocket.gd",
+    "sha256": "e1d8061d716396468447e8124f081e197d6b0a06eb3173abd1a0fb41cdd87bd1",
+    "bytes": 3822,
+    "old_exists": true,
+    "old_sha256": "e1d8061d716396468447e8124f081e197d6b0a06eb3173abd1a0fb41cdd87bd1",
+    "same": true
+  },
+  {
+    "file": "src/Extensions/PixelLab/websocket.gd",
+    "sha256": "772bb5d83c06390f460eb76e7f3e45826624d32f8485798ee32679807b96d1df",
+    "bytes": 9112,
+    "old_exists": true,
+    "old_sha256": "772bb5d83c06390f460eb76e7f3e45826624d32f8485798ee32679807b96d1df",
+    "same": true
+  },
+  {
+    "file": "src/HandleExtensions.gd",
+    "sha256": "6eb8ef48ad7660af80f1122347c89b080464e2e00efe01d085c9b64d8e55f101",
+    "bytes": 9786,
+    "old_exists": true,
+    "old_sha256": "6eb8ef48ad7660af80f1122347c89b080464e2e00efe01d085c9b64d8e55f101",
+    "same": true
+  },
+  {
+    "file": "src/Main.gd",
+    "sha256": "faff06a1cac109d7f8e5544f67fc18162c72c3777363fa1f267f2d3659812178",
+    "bytes": 26534,
+    "old_exists": true,
+    "old_sha256": "faff06a1cac109d7f8e5544f67fc18162c72c3777363fa1f267f2d3659812178",
+    "same": true
+  },
+  {
+    "file": "src/Palette/CreatePaletteDialog.gd",
+    "sha256": "e0ffdd1d3c5c528820d6739daa711bf6dacd90895bb32cf3ab75c76643de263c",
+    "bytes": 4144,
+    "old_exists": true,
+    "old_sha256": "e0ffdd1d3c5c528820d6739daa711bf6dacd90895bb32cf3ab75c76643de263c",
+    "same": true
+  },
+  {
+    "file": "src/Palette/EditPaletteDialog.gd",
+    "sha256": "79d2bf00faa6e4d46c3825281a68d51e63f6a5149a10b3d2d4416aa7c5d76fa7",
+    "bytes": 4131,
+    "old_exists": true,
+    "old_sha256": "79d2bf00faa6e4d46c3825281a68d51e63f6a5149a10b3d2d4416aa7c5d76fa7",
+    "same": true
+  },
+  {
+    "file": "src/Palette/Palette.gd",
+    "sha256": "4e46ccca2895cf68e7fbbec1d3f285bc7651277d865c111f1f6c866a09843a1a",
+    "bytes": 9884,
+    "old_exists": true,
+    "old_sha256": "4e46ccca2895cf68e7fbbec1d3f285bc7651277d865c111f1f6c866a09843a1a",
+    "same": true
+  },
+  {
+    "file": "src/Palette/PaletteGrid.gd",
+    "sha256": "b4090dc42446b17629baa25c6bb1f320a9fca35da86ac076d88aa075b7f9b7c5",
+    "bytes": 7428,
+    "old_exists": true,
+    "old_sha256": "b4090dc42446b17629baa25c6bb1f320a9fca35da86ac076d88aa075b7f9b7c5",
+    "same": true
+  },
+  {
+    "file": "src/Palette/PalettePanel.gd",
+    "sha256": "d6f412cc37b13a2d28cb26328927afbb47f3184fa4cb5aff35628819938c95b4",
+    "bytes": 18592,
+    "old_exists": true,
+    "old_sha256": "d6f412cc37b13a2d28cb26328927afbb47f3184fa4cb5aff35628819938c95b4",
+    "same": true
+  },
+  {
+    "file": "src/Palette/PaletteSwatch.gd",
+    "sha256": "ad4dc71f8883fd1b74dd9fd79eb0a10e58b00e9edb3410ba1816f866335517e6",
+    "bytes": 3923,
+    "old_exists": true,
+    "old_sha256": "ad4dc71f8883fd1b74dd9fd79eb0a10e58b00e9edb3410ba1816f866335517e6",
+    "same": true
+  },
+  {
+    "file": "src/Preferences/ExtensionsPreferences.gd",
+    "sha256": "15cc33fb7752d79c29bc8080b78931a0bb2fc8aa5d49f62e39639897f32a5913",
+    "bytes": 4928,
+    "old_exists": true,
+    "old_sha256": "15cc33fb7752d79c29bc8080b78931a0bb2fc8aa5d49f62e39639897f32a5913",
+    "same": true
+  },
+  {
+    "file": "src/Preferences/GridPreferences.gd",
+    "sha256": "1bc54f69472e58b1afcbe6a78cad86c3e67fb6249e3f2db6da7b4eabe6ac3946",
+    "bytes": 6768,
+    "old_exists": true,
+    "old_sha256": "1bc54f69472e58b1afcbe6a78cad86c3e67fb6249e3f2db6da7b4eabe6ac3946",
+    "same": true
+  },
+  {
+    "file": "src/Preferences/LicenseProperties.gd",
+    "sha256": "7dfa80a7600ba64afe69823b82576aa53051fabe80c14cb1a12746d2c6c7b3c5",
+    "bytes": 6654,
+    "old_exists": true,
+    "old_sha256": "7dfa80a7600ba64afe69823b82576aa53051fabe80c14cb1a12746d2c6c7b3c5",
+    "same": true
+  },
+  {
+    "file": "src/Preferences/PreferencesDialog.gd",
+    "sha256": "2f69a3e87ccee9ca79b5517c6d41100a81a8e120303ab3734dc91b7c9062d64e",
+    "bytes": 22838,
+    "old_exists": true,
+    "old_sha256": "2f69a3e87ccee9ca79b5517c6d41100a81a8e120303ab3734dc91b7c9062d64e",
+    "same": true
+  },
+  {
+    "file": "src/Preferences/RestoreDefaultButton.gd",
+    "sha256": "4ccd7cc3519640725f405b914d3cbf7014be3cf0409e6944231573bb2fa5f52a",
+    "bytes": 1364,
+    "old_exists": true,
+    "old_sha256": "4ccd7cc3519640725f405b914d3cbf7014be3cf0409e6944231573bb2fa5f52a",
+    "same": true
+  },
+  {
+    "file": "src/Tools/3DTools/3DShapeEdit.gd",
+    "sha256": "ff423511591b7c807bef4656d0b2976c778a3972acb08d6c86a61c462eaf57f8",
+    "bytes": 9658,
+    "old_exists": true,
+    "old_sha256": "ff423511591b7c807bef4656d0b2976c778a3972acb08d6c86a61c462eaf57f8",
+    "same": true
+  },
+  {
+    "file": "src/Tools/BaseDraw.gd",
+    "sha256": "f652f6fe5dc58a8c74d474eea20d4daa953f409354244eba2b91b4f76bb79d9d",
+    "bytes": 33499,
+    "old_exists": true,
+    "old_sha256": "f652f6fe5dc58a8c74d474eea20d4daa953f409354244eba2b91b4f76bb79d9d",
+    "same": true
+  },
+  {
+    "file": "src/Tools/BaseSelectionTool.gd",
+    "sha256": "7838a25f830fa1f5984cb88a81f3ec1a9270f105f424f503c20a948f1988303b",
+    "bytes": 9091,
+    "old_exists": true,
+    "old_sha256": "7838a25f830fa1f5984cb88a81f3ec1a9270f105f424f503c20a948f1988303b",
+    "same": true
+  },
+  {
+    "file": "src/Tools/BaseShapeDrawer.gd",
+    "sha256": "e8cfc1746f01061367be2e34a6cf2d5ac8b1a69618677574a3fc2af7a860ecba",
+    "bytes": 5239,
+    "old_exists": true,
+    "old_sha256": "e8cfc1746f01061367be2e34a6cf2d5ac8b1a69618677574a3fc2af7a860ecba",
+    "same": true
+  },
+  {
+    "file": "src/Tools/BaseTool.gd",
+    "sha256": "b5942e3a0c15a110d7188e6373040c0d161f3ea033d37e0c955c5450cb9b37e0",
+    "bytes": 15448,
+    "old_exists": true,
+    "old_sha256": "b5942e3a0c15a110d7188e6373040c0d161f3ea033d37e0c955c5450cb9b37e0",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/Bucket.gd",
+    "sha256": "11f940a00280ab53249abcf7c5d98eb94983bb1ba107d93a3d4923cd75416550",
+    "bytes": 15096,
+    "old_exists": true,
+    "old_sha256": "11f940a00280ab53249abcf7c5d98eb94983bb1ba107d93a3d4923cd75416550",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/CurveTool.gd",
+    "sha256": "51d41f62384d452d4eb9acbb99ced8ed64a172b965c248cde3445ea9b1b1447b",
+    "bytes": 9469,
+    "old_exists": true,
+    "old_sha256": "51d41f62384d452d4eb9acbb99ced8ed64a172b965c248cde3445ea9b1b1447b",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/EllipseTool.gd",
+    "sha256": "8cc32e72f39537b356fdab5b8f3185f8c4f3ee820d31231de1eb99a32641dfab",
+    "bytes": 340,
+    "old_exists": true,
+    "old_sha256": "8cc32e72f39537b356fdab5b8f3185f8c4f3ee820d31231de1eb99a32641dfab",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/Eraser.gd",
+    "sha256": "625200d40898eb316f89bfa672d85af55581192a6ce6dc70ca53d8cca1db8dee",
+    "bytes": 3259,
+    "old_exists": true,
+    "old_sha256": "625200d40898eb316f89bfa672d85af55581192a6ce6dc70ca53d8cca1db8dee",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/Gradient.gd",
+    "sha256": "b604feb71f1718366871a64beb912433c1197bd6e4e0b48d25b366f6a4ecb605",
+    "bytes": 9315,
+    "old_exists": true,
+    "old_sha256": "b604feb71f1718366871a64beb912433c1197bd6e4e0b48d25b366f6a4ecb605",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/IsometricBoxTool.gd",
+    "sha256": "ff6799ed0c9191c61ac01a2f22afb9df56b8c710f3a66e6e90f0335953ced57a",
+    "bytes": 21714,
+    "old_exists": true,
+    "old_sha256": "ff6799ed0c9191c61ac01a2f22afb9df56b8c710f3a66e6e90f0335953ced57a",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/LineTool.gd",
+    "sha256": "a322fb67dc97e67125341cbd923c9ff508268f18ebdf665a009340c5f7b41d13",
+    "bytes": 4247,
+    "old_exists": true,
+    "old_sha256": "a322fb67dc97e67125341cbd923c9ff508268f18ebdf665a009340c5f7b41d13",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/Pencil.gd",
+    "sha256": "6d8f9bcb7dbfd4f33b531d911e535e81535c1d14727531dbc44d45d7cb18985e",
+    "bytes": 5853,
+    "old_exists": true,
+    "old_sha256": "6d8f9bcb7dbfd4f33b531d911e535e81535c1d14727531dbc44d45d7cb18985e",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/RectangleTool.gd",
+    "sha256": "c06f5b3eaeab9f844803cc00046aa9deb056c9aebe9ef967dc17ed7336267ad8",
+    "bytes": 810,
+    "old_exists": true,
+    "old_sha256": "c06f5b3eaeab9f844803cc00046aa9deb056c9aebe9ef967dc17ed7336267ad8",
+    "same": true
+  },
+  {
+    "file": "src/Tools/DesignTools/Shading.gd",
+    "sha256": "afe59dcdb38dcb68ae79102ae911dca88ec23428c06840898356995be3c0fade",
+    "bytes": 10270,
+    "old_exists": true,
+    "old_sha256": "afe59dcdb38dcb68ae79102ae911dca88ec23428c06840898356995be3c0fade",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/ColorSelect.gd",
+    "sha256": "9cce52f364bea8fbce88a400e287efa0ebf65fdf697189b6c1cb4a30d07559b1",
+    "bytes": 2302,
+    "old_exists": true,
+    "old_sha256": "9cce52f364bea8fbce88a400e287efa0ebf65fdf697189b6c1cb4a30d07559b1",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/EllipseSelect.gd",
+    "sha256": "af9a7494da1b3160353ed49ae9f603083f2de73ecd4adb3fcf81b293da1f976d",
+    "bytes": 5719,
+    "old_exists": true,
+    "old_sha256": "af9a7494da1b3160353ed49ae9f603083f2de73ecd4adb3fcf81b293da1f976d",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/Lasso.gd",
+    "sha256": "b9c08d4037cb7d7282333dbf6cca0275232667637b38b9e079fb122fc9feb9e6",
+    "bytes": 4030,
+    "old_exists": true,
+    "old_sha256": "b9c08d4037cb7d7282333dbf6cca0275232667637b38b9e079fb122fc9feb9e6",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/MagicWand.gd",
+    "sha256": "4a77747836f3d10756c66ccdd0b7ef6f1ecf7a1cf39b56535dddfa20a6552104",
+    "bytes": 3012,
+    "old_exists": true,
+    "old_sha256": "4a77747836f3d10756c66ccdd0b7ef6f1ecf7a1cf39b56535dddfa20a6552104",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/PaintSelect.gd",
+    "sha256": "4263f5688bc05a30a585b3d4e06779eb76e8eaf04542c2c31793f92b81aebcba",
+    "bytes": 11955,
+    "old_exists": true,
+    "old_sha256": "4263f5688bc05a30a585b3d4e06779eb76e8eaf04542c2c31793f92b81aebcba",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/PolygonSelect.gd",
+    "sha256": "1507aba6d4bff249edf3784787099577ef556852e61db9867389e739dbf7b926",
+    "bytes": 6180,
+    "old_exists": true,
+    "old_sha256": "1507aba6d4bff249edf3784787099577ef556852e61db9867389e739dbf7b926",
+    "same": true
+  },
+  {
+    "file": "src/Tools/SelectionTools/RectSelect.gd",
+    "sha256": "f0f5e0e0c9d39828b32b0f69364c8dab0e8321659b305f597947e0a3c241730a",
+    "bytes": 4527,
+    "old_exists": true,
+    "old_sha256": "f0f5e0e0c9d39828b32b0f69364c8dab0e8321659b305f597947e0a3c241730a",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/ColorPicker.gd",
+    "sha256": "7e35e93ae2151c9a15ca2b5c564be65fcae3c530300749a81f85e3e7f135df55",
+    "bytes": 2963,
+    "old_exists": true,
+    "old_sha256": "7e35e93ae2151c9a15ca2b5c564be65fcae3c530300749a81f85e3e7f135df55",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/CropTool.gd",
+    "sha256": "e8e0135b249e9809b0d51c0ca069f4d729b0eb3e70e72e42368991758820f972",
+    "bytes": 5341,
+    "old_exists": true,
+    "old_sha256": "e8e0135b249e9809b0d51c0ca069f4d729b0eb3e70e72e42368991758820f972",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/Move.gd",
+    "sha256": "a0c7de3816edb6e674f50a07c96db8158f297c72451f3139e34740b0e8158952",
+    "bytes": 6453,
+    "old_exists": true,
+    "old_sha256": "a0c7de3816edb6e674f50a07c96db8158f297c72451f3139e34740b0e8158952",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/Pan.gd",
+    "sha256": "7017d0af625a18b05c5d27eea340e04f78ae2e5e163215dabbb7f866d2397a63",
+    "bytes": 406,
+    "old_exists": true,
+    "old_sha256": "7017d0af625a18b05c5d27eea340e04f78ae2e5e163215dabbb7f866d2397a63",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/Text.gd",
+    "sha256": "2f7f7a514a6461d516e4ecd454369936eebd3d91040a384d9a6f10b77dc933d8",
+    "bytes": 10111,
+    "old_exists": true,
+    "old_sha256": "2f7f7a514a6461d516e4ecd454369936eebd3d91040a384d9a6f10b77dc933d8",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/Zoom.gd",
+    "sha256": "44ecb8e7aba61dbe52322a053af8f9b0a0c6113631ddc9beb75082f6c8d41ea0",
+    "bytes": 2191,
+    "old_exists": true,
+    "old_sha256": "44ecb8e7aba61dbe52322a053af8f9b0a0c6113631ddc9beb75082f6c8d41ea0",
+    "same": true
+  },
+  {
+    "file": "src/Tools/UtilityTools/tile_property_painter.gd",
+    "sha256": "2fae176fd85ddce22d551e99ffc772947e4f0708b814540fc23c58ccbf3e74d1",
+    "bytes": 5480,
+    "old_exists": true,
+    "old_sha256": "2fae176fd85ddce22d551e99ffc772947e4f0708b814540fc23c58ccbf3e74d1",
+    "same": true
+  },
+  {
+    "file": "src/UI/3DObjectTree.gd",
+    "sha256": "b6f73e1f6f9e820ace626c853cf60a98fdadf0a1b7a72cf7403b22505b182463",
+    "bytes": 6258,
+    "old_exists": true,
+    "old_sha256": "b6f73e1f6f9e820ace626c853cf60a98fdadf0a1b7a72cf7403b22505b182463",
+    "same": true
+  },
+  {
+    "file": "src/UI/Buttons/BrushButton.gd",
+    "sha256": "04d06c92ffb8b4dba2dfdfe32585540cc8a27c288cd7cf52fc71612ccdf989b7",
+    "bytes": 1008,
+    "old_exists": true,
+    "old_sha256": "04d06c92ffb8b4dba2dfdfe32585540cc8a27c288cd7cf52fc71612ccdf989b7",
+    "same": true
+  },
+  {
+    "file": "src/UI/Buttons/BrushesPopup.gd",
+    "sha256": "4c80ac4eb90d3d676ba2df0dee6b0ff2f72855e90946c389d68223c0dffef26a",
+    "bytes": 5297,
+    "old_exists": true,
+    "old_sha256": "4c80ac4eb90d3d676ba2df0dee6b0ff2f72855e90946c389d68223c0dffef26a",
+    "same": true
+  },
+  {
+    "file": "src/UI/Buttons/PatternButton.gd",
+    "sha256": "df52535df0b4f5f137c9767dbd759c62763fbcd4dbb0bc6fc0af94f6a11e4c94",
+    "bytes": 162,
+    "old_exists": true,
+    "old_sha256": "df52535df0b4f5f137c9767dbd759c62763fbcd4dbb0bc6fc0af94f6a11e4c94",
+    "same": true
+  },
+  {
+    "file": "src/UI/Buttons/PatternsPopup.gd",
+    "sha256": "2f281cb45c2110985c5bcdcf79fe478382df5f52c720ff2e0b6e2c8a0e22fff3",
+    "bytes": 1308,
+    "old_exists": true,
+    "old_sha256": "2f281cb45c2110985c5bcdcf79fe478382df5f52c720ff2e0b6e2c8a0e22fff3",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Canvas.gd",
+    "sha256": "1b40d4c3e3682f7df5d9392906e74f43034f94a4f0fc56bd309ba435251cbf0b",
+    "bytes": 9623,
+    "old_exists": true,
+    "old_sha256": "1b40d4c3e3682f7df5d9392906e74f43034f94a4f0fc56bd309ba435251cbf0b",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/CanvasCamera.gd",
+    "sha256": "f7fe0933c212fac5dc1c1fa950817d8857b5f5c3b12b535b24454f813098af69",
+    "bytes": 7970,
+    "old_exists": true,
+    "old_sha256": "f7fe0933c212fac5dc1c1fa950817d8857b5f5c3b12b535b24454f813098af69",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/CanvasPreview.gd",
+    "sha256": "ee538d1a628fad99736757d1d4beb290d6bdad3b662190768d5a26e08691c478",
+    "bytes": 4442,
+    "old_exists": true,
+    "old_sha256": "ee538d1a628fad99736757d1d4beb290d6bdad3b662190768d5a26e08691c478",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/CropRect.gd",
+    "sha256": "5c923d165ae845a2c59eeedf0282915190e9ef00931dc8be6b501021f1a490cf",
+    "bytes": 2043,
+    "old_exists": true,
+    "old_sha256": "5c923d165ae845a2c59eeedf0282915190e9ef00931dc8be6b501021f1a490cf",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/CurrentFrameDrawer.gd",
+    "sha256": "0b74d061a7b4ee1f1ffb77822e2d4a2d6964ec0acf5bcc5cbba2177c9d471605",
+    "bytes": 168,
+    "old_exists": true,
+    "old_sha256": "0b74d061a7b4ee1f1ffb77822e2d4a2d6964ec0acf5bcc5cbba2177c9d471605",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Gizmos3D.gd",
+    "sha256": "c224ff2529a81d10dfc42f015887da6784611f88ca94fd91f2f5f4f989e47a1f",
+    "bytes": 12805,
+    "old_exists": true,
+    "old_sha256": "c224ff2529a81d10dfc42f015887da6784611f88ca94fd91f2f5f4f989e47a1f",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Grid.gd",
+    "sha256": "fc1512a2d4be693587ba1972b573c7fe4d5f45bb6149e1403d8a74267965cf76",
+    "bytes": 18237,
+    "old_exists": true,
+    "old_sha256": "fc1512a2d4be693587ba1972b573c7fe4d5f45bb6149e1403d8a74267965cf76",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Indicators.gd",
+    "sha256": "20c4cd89940883fb202588ffd322c21f587e79cfb9f45dc6338f81339b907dc4",
+    "bytes": 203,
+    "old_exists": true,
+    "old_sha256": "20c4cd89940883fb202588ffd322c21f587e79cfb9f45dc6338f81339b907dc4",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Measurements.gd",
+    "sha256": "6a94c9aad594f407fd87a8d0279d675e36113ab47aee47f9c483e40f4d6f9a18",
+    "bytes": 6324,
+    "old_exists": true,
+    "old_sha256": "6a94c9aad594f407fd87a8d0279d675e36113ab47aee47f9c483e40f4d6f9a18",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/MouseGuide.gd",
+    "sha256": "1003e959483f11cb662fad76bf17d1ec97cb11a58f29a805066e1949c1fb3196",
+    "bytes": 2447,
+    "old_exists": true,
+    "old_sha256": "1003e959483f11cb662fad76bf17d1ec97cb11a58f29a805066e1949c1fb3196",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/OnionSkinning.gd",
+    "sha256": "d11b66d345d2dc36079bf1dcc908ab910b3a8423ad076b1459dc9015d66aace6",
+    "bytes": 1315,
+    "old_exists": true,
+    "old_sha256": "d11b66d345d2dc36079bf1dcc908ab910b3a8423ad076b1459dc9015d66aace6",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/PixelGrid.gd",
+    "sha256": "5a107c3d9c3f5861041c79d4629e11f00267a0212626f567a8f4dabd0b0b8381",
+    "bytes": 1495,
+    "old_exists": true,
+    "old_sha256": "5a107c3d9c3f5861041c79d4629e11f00267a0212626f567a8f4dabd0b0b8381",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Previews.gd",
+    "sha256": "2b006dc170887a74579bc1d21b2104e53d45bfddf1fe4e37494c67ef220c2742",
+    "bytes": 382,
+    "old_exists": true,
+    "old_sha256": "2b006dc170887a74579bc1d21b2104e53d45bfddf1fe4e37494c67ef220c2742",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/ReferenceImages.gd",
+    "sha256": "57e3ae3d6dee1ad1fd14744afe71ea259f4bb145d193eaae8b20eba1553c1052",
+    "bytes": 8824,
+    "old_exists": true,
+    "old_sha256": "57e3ae3d6dee1ad1fd14744afe71ea259f4bb145d193eaae8b20eba1553c1052",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Rulers/Guide.gd",
+    "sha256": "6f746993560559ab17c01566e2610bb6aeec7bca68d1d7f75ff4be786d283521",
+    "bytes": 7140,
+    "old_exists": true,
+    "old_sha256": "6f746993560559ab17c01566e2610bb6aeec7bca68d1d7f75ff4be786d283521",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Rulers/HorizontalRuler.gd",
+    "sha256": "175af98198959b3fb88772dabf4a663932cb96fe9cfaf3a0aa1dcb2c9f0d9f58",
+    "bytes": 4205,
+    "old_exists": true,
+    "old_sha256": "175af98198959b3fb88772dabf4a663932cb96fe9cfaf3a0aa1dcb2c9f0d9f58",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Rulers/SymmetryGuide.gd",
+    "sha256": "70f8e403f284a8880e1ccf876d7d7833d7a1e8a068cbc1c36e94f46a5c43cc49",
+    "bytes": 1513,
+    "old_exists": true,
+    "old_sha256": "70f8e403f284a8880e1ccf876d7d7833d7a1e8a068cbc1c36e94f46a5c43cc49",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Rulers/VerticalRuler.gd",
+    "sha256": "bfbe4285901d966a6a6a121982a985a33e2b52f789e38f9f1f5322919f913a8d",
+    "bytes": 3898,
+    "old_exists": true,
+    "old_sha256": "bfbe4285901d966a6a6a121982a985a33e2b52f789e38f9f1f5322919f913a8d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/Selection.gd",
+    "sha256": "84aeca23cd531df102aef9212dc8c97b9b24ee3f2ad0b3be41a021cdd94c5cc9",
+    "bytes": 37192,
+    "old_exists": true,
+    "old_sha256": "84aeca23cd531df102aef9212dc8c97b9b24ee3f2ad0b3be41a021cdd94c5cc9",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/TileMode.gd",
+    "sha256": "b16c98066dae16ba422a4a249fc383053c1b8189b0c62fc82d7936ebce92e08c",
+    "bytes": 1411,
+    "old_exists": true,
+    "old_sha256": "b16c98066dae16ba422a4a249fc383053c1b8189b0c62fc82d7936ebce92e08c",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/TileModeIndices.gd",
+    "sha256": "d340871e9a0eee17bdc7d8a50c990e37ae9a341c6b795a4412c67ffda5dc73ab",
+    "bytes": 1211,
+    "old_exists": true,
+    "old_sha256": "d340871e9a0eee17bdc7d8a50c990e37ae9a341c6b795a4412c67ffda5dc73ab",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/TransformationHandles.gd",
+    "sha256": "8020bfd4ad82bf6ec0d91b6f2c5e5310fa4b5509e87fc05f82844df7627a74c5",
+    "bytes": 24042,
+    "old_exists": true,
+    "old_sha256": "8020bfd4ad82bf6ec0d91b6f2c5e5310fa4b5509e87fc05f82844df7627a74c5",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/color_index.gd",
+    "sha256": "bad97334460daffa044f1b90379ac03fee8275b74fb029c1a6fc57e23703043c",
+    "bytes": 1412,
+    "old_exists": true,
+    "old_sha256": "bad97334460daffa044f1b90379ac03fee8275b74fb029c1a6fc57e23703043c",
+    "same": true
+  },
+  {
+    "file": "src/UI/Canvas/tilemap_property_drawing.gd",
+    "sha256": "3196d4b504f13a241679dd4882e48b22af7af406b19b82a7525535d4c6e65229",
+    "bytes": 2240,
+    "old_exists": true,
+    "old_sha256": "3196d4b504f13a241679dd4882e48b22af7af406b19b82a7525535d4c6e65229",
+    "same": true
+  },
+  {
+    "file": "src/UI/CanvasPreviewContainer/CanvasPreviewContainer.gd",
+    "sha256": "95ac527963276f3e2006cb0182790d16df6a6d417ea8c885e9ed6eafdb93a489",
+    "bytes": 3557,
+    "old_exists": true,
+    "old_sha256": "95ac527963276f3e2006cb0182790d16df6a6d417ea8c885e9ed6eafdb93a489",
+    "same": true
+  },
+  {
+    "file": "src/UI/ColorPickers/ColorPicker.gd",
+    "sha256": "80f68dc5b65f3c0386ce1d97b0ad9af95e112798c9022b276c8f0854ec69737e",
+    "bytes": 9858,
+    "old_exists": true,
+    "old_sha256": "80f68dc5b65f3c0386ce1d97b0ad9af95e112798c9022b276c8f0854ec69737e",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/AboutDialog.gd",
+    "sha256": "6830e2eabc324fcbe8c90c21eed6ec2230a4cf323f762909e9bc2c5ff905434e",
+    "bytes": 15517,
+    "old_exists": true,
+    "old_sha256": "6830e2eabc324fcbe8c90c21eed6ec2230a4cf323f762909e9bc2c5ff905434e",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/BackupRestoreDialog.gd",
+    "sha256": "8591b2ed2b25079adc19989c91145ce74775db3d180f132705b42fb4560e5eb2",
+    "bytes": 3264,
+    "old_exists": true,
+    "old_sha256": "8591b2ed2b25079adc19989c91145ce74775db3d180f132705b42fb4560e5eb2",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/CreateNewImage.gd",
+    "sha256": "5047b175e217f28c7caa9321d34de0e0e1a8d334752e1633a1208dfb52af310d",
+    "bytes": 10287,
+    "old_exists": true,
+    "old_sha256": "5047b175e217f28c7caa9321d34de0e0e1a8d334752e1633a1208dfb52af310d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ExportDialog.gd",
+    "sha256": "90255d8ddb330b3871e482514c6b79312be39936cad392ca76901086acb6870d",
+    "bytes": 22287,
+    "old_exists": true,
+    "old_sha256": "90255d8ddb330b3871e482514c6b79312be39936cad392ca76901086acb6870d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/HelperScripts/RowColumnLines.gd",
+    "sha256": "842ca8f3538f5a52290d60cb46854510b45c0a3b5a4e1f040478eba912f22fc3",
+    "bytes": 1489,
+    "old_exists": true,
+    "old_sha256": "842ca8f3538f5a52290d60cb46854510b45c0a3b5a4e1f040478eba912f22fc3",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/HelperScripts/SmartSlicePreview.gd",
+    "sha256": "144b29df1d2a41b96b3c9abf97e3e86620f1224244fdcff64ce183f342522129",
+    "bytes": 1127,
+    "old_exists": true,
+    "old_sha256": "144b29df1d2a41b96b3c9abf97e3e86620f1224244fdcff64ce183f342522129",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/BrightnessContrastDialog.gd",
+    "sha256": "e32779798aa4a8e144b1a7b17f39b547026e92fad269ac089a9a9ba6142709cc",
+    "bytes": 4293,
+    "old_exists": true,
+    "old_sha256": "e32779798aa4a8e144b1a7b17f39b547026e92fad269ac089a9a9ba6142709cc",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/ColorCurvesDialog.gd",
+    "sha256": "6f9aac39fd01f14c5c6308846aa0a2e0363e5b60512a9e404cb8ac6523719332",
+    "bytes": 1926,
+    "old_exists": true,
+    "old_sha256": "6f9aac39fd01f14c5c6308846aa0a2e0363e5b60512a9e404cb8ac6523719332",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/DesaturateDialog.gd",
+    "sha256": "273059569d57ec5f99e11deb2a715c594a941b07271ad03fe1cb0983802b52c9",
+    "bytes": 1450,
+    "old_exists": true,
+    "old_sha256": "273059569d57ec5f99e11deb2a715c594a941b07271ad03fe1cb0983802b52c9",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/DropShadowDialog.gd",
+    "sha256": "ec9ea033699100aca161b8deab6e0a17c375f2170dc35a2b57bbb897ed920dc7",
+    "bytes": 1785,
+    "old_exists": true,
+    "old_sha256": "ec9ea033699100aca161b8deab6e0a17c375f2170dc35a2b57bbb897ed920dc7",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/FlipImageDialog.gd",
+    "sha256": "49f9aa88ab135c93c9caab01c7f94d9d66588b4248e8f0ff55fd5ce9e014062d",
+    "bytes": 4027,
+    "old_exists": true,
+    "old_sha256": "49f9aa88ab135c93c9caab01c7f94d9d66588b4248e8f0ff55fd5ce9e014062d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/GaussianBlur.gd",
+    "sha256": "bc5bb665c87e69dd1efc982e20f3dad640d33601bf4a7f81d8567dcf34f98390",
+    "bytes": 1548,
+    "old_exists": true,
+    "old_sha256": "bc5bb665c87e69dd1efc982e20f3dad640d33601bf4a7f81d8567dcf34f98390",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/GradientDialog.gd",
+    "sha256": "73f93a95033416cb28f5e92e15ba17a691a47e5ea1a6a4e0a240ba6060afa998",
+    "bytes": 4242,
+    "old_exists": true,
+    "old_sha256": "73f93a95033416cb28f5e92e15ba17a691a47e5ea1a6a4e0a240ba6060afa998",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/GradientMapDialog.gd",
+    "sha256": "84730284d0e9ccf6ab2ac0854e5883237611397412653ebb4d69eaf69ad1c833",
+    "bytes": 1064,
+    "old_exists": true,
+    "old_sha256": "84730284d0e9ccf6ab2ac0854e5883237611397412653ebb4d69eaf69ad1c833",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/HSVDialog.gd",
+    "sha256": "55817d22777e651096d99e67f7d3347feb30e07019c8bd6a7233133c50702773",
+    "bytes": 2264,
+    "old_exists": true,
+    "old_sha256": "55817d22777e651096d99e67f7d3347feb30e07019c8bd6a7233133c50702773",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/InvertColorsDialog.gd",
+    "sha256": "40d84791e7e16cb6a2ad8d198306453c6e190a99b09a644e3454b365ec8c40b7",
+    "bytes": 1447,
+    "old_exists": true,
+    "old_sha256": "40d84791e7e16cb6a2ad8d198306453c6e190a99b09a644e3454b365ec8c40b7",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/OffsetScaleImage.gd",
+    "sha256": "e210ea6b60db35aabecf44fe764fdc0e6e1cca7c492f0147783de6ad1b134168",
+    "bytes": 4766,
+    "old_exists": true,
+    "old_sha256": "e210ea6b60db35aabecf44fe764fdc0e6e1cca7c492f0147783de6ad1b134168",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/OutlineDialog.gd",
+    "sha256": "f434f3b363664eacd2d72a2fa713721859b9c494daa0f3c7d0ad23d8721d622e",
+    "bytes": 1905,
+    "old_exists": true,
+    "old_sha256": "f434f3b363664eacd2d72a2fa713721859b9c494daa0f3c7d0ad23d8721d622e",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/PalettizeDialog.gd",
+    "sha256": "8f334ee079fafcb9981c610afade7c5d09e8df4686946e3f241593c430d4c389",
+    "bytes": 1149,
+    "old_exists": true,
+    "old_sha256": "8f334ee079fafcb9981c610afade7c5d09e8df4686946e3f241593c430d4c389",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/PixelizeDialog.gd",
+    "sha256": "a212800097f8bd2705d30a2367c504e69c68b76719168848368320fdd9c603cd",
+    "bytes": 1070,
+    "old_exists": true,
+    "old_sha256": "a212800097f8bd2705d30a2367c504e69c68b76719168848368320fdd9c603cd",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/Posterize.gd",
+    "sha256": "7e3c1d0314409dc23646224599c0a377bb8a98991fa98c4e7864b2f1eeb1eeb3",
+    "bytes": 1195,
+    "old_exists": true,
+    "old_sha256": "7e3c1d0314409dc23646224599c0a377bb8a98991fa98c4e7864b2f1eeb1eeb3",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/ResizeCanvas.gd",
+    "sha256": "3d2cf18795b80f21276bdefab905c04e1468df24effab44c42fe7f3dba0873cc",
+    "bytes": 3120,
+    "old_exists": true,
+    "old_sha256": "3d2cf18795b80f21276bdefab905c04e1468df24effab44c42fe7f3dba0873cc",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/RotateImage.gd",
+    "sha256": "e64297c5f1557e978067e02c3402f98585a143ba7c41a4953c4950a4c77cc960",
+    "bytes": 7529,
+    "old_exists": true,
+    "old_sha256": "e64297c5f1557e978067e02c3402f98585a143ba7c41a4953c4950a4c77cc960",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/ScaleImage.gd",
+    "sha256": "9a0a8baa03c1d3ae7b45e98fb4d4b707b1753a5c20d9755314634452a778795d",
+    "bytes": 2560,
+    "old_exists": true,
+    "old_sha256": "9a0a8baa03c1d3ae7b45e98fb4d4b707b1753a5c20d9755314634452a778795d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/ShaderEffect.gd",
+    "sha256": "54863c2195fca8ce82380e0a3076fe1093c9433e113ab925f5bed0b3076e5349",
+    "bytes": 1668,
+    "old_exists": true,
+    "old_sha256": "54863c2195fca8ce82380e0a3076fe1093c9433e113ab925f5bed0b3076e5349",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImageEffects/flat_to_isometric.gd",
+    "sha256": "16db21d7cfc6303f2007e4a53169daf4b635fe3768a5f8a1a773e8e52e160c90",
+    "bytes": 1603,
+    "old_exists": true,
+    "old_sha256": "16db21d7cfc6303f2007e4a53169daf4b635fe3768a5f8a1a773e8e52e160c90",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImportPreviewDialog.gd",
+    "sha256": "eed54bbf5146a16bb95a9089631b300f593908e5ee4e8ea1fc6215b05331ae38",
+    "bytes": 19572,
+    "old_exists": true,
+    "old_sha256": "eed54bbf5146a16bb95a9089631b300f593908e5ee4e8ea1fc6215b05331ae38",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ImportTagDialog.gd",
+    "sha256": "6bf55dd9ac41d100fc6cfd1342cbc70de0bede33cadee50e99e09d9bef70445b",
+    "bytes": 8677,
+    "old_exists": true,
+    "old_sha256": "6bf55dd9ac41d100fc6cfd1342cbc70de0bede33cadee50e99e09d9bef70445b",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ModifySelection.gd",
+    "sha256": "331d5dd0205c79362872481af9b27e8075e7d4baba16413a9ac4c3948e111046",
+    "bytes": 3324,
+    "old_exists": true,
+    "old_sha256": "331d5dd0205c79362872481af9b27e8075e7d4baba16413a9ac4c3948e111046",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/ProjectProperties.gd",
+    "sha256": "b52bcee5880d7f6d4b5237a65f28bbff5c9739ce7ffb9284233db65a6423be1b",
+    "bytes": 8808,
+    "old_exists": true,
+    "old_sha256": "b52bcee5880d7f6d4b5237a65f28bbff5c9739ce7ffb9284233db65a6423be1b",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/SplashDialog.gd",
+    "sha256": "6abb8670c8bc8a4bcac26bb48f7d23da54077d10103663f60ea07d2a9ed3cf75",
+    "bytes": 4904,
+    "old_exists": true,
+    "old_sha256": "6abb8670c8bc8a4bcac26bb48f7d23da54077d10103663f60ea07d2a9ed3cf75",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/TileModeOffsetsDialog.gd",
+    "sha256": "15817bed4b58b320f3a044eaf336ed298e4138cbd4db0499059eb9a0b818b804",
+    "bytes": 5859,
+    "old_exists": true,
+    "old_sha256": "15817bed4b58b320f3a044eaf336ed298e4138cbd4db0499059eb9a0b818b804",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/WindowOpacityDialog.gd",
+    "sha256": "9d1a0cc6a892554e56378b4efdbf216f01ca17b297b15503bfd8c6a6e8e311a2",
+    "bytes": 1574,
+    "old_exists": true,
+    "old_sha256": "9d1a0cc6a892554e56378b4efdbf216f01ca17b297b15503bfd8c6a6e8e311a2",
+    "same": true
+  },
+  {
+    "file": "src/UI/Dialogs/export_tileset_confirmation_dialog.gd",
+    "sha256": "a27988433391abf1beb00f8138b361a161a1fd166b2306d2ae6b561263a4f046",
+    "bytes": 1898,
+    "old_exists": true,
+    "old_sha256": "a27988433391abf1beb00f8138b361a161a1fd166b2306d2ae6b561263a4f046",
+    "same": true
+  },
+  {
+    "file": "src/UI/ExtensionExplorer/Entry/ExtensionEntry.gd",
+    "sha256": "b2080d741dde5068027c29bfb164e730be0526e0fdbfb792e766a0aec76d8354",
+    "bytes": 5799,
+    "old_exists": true,
+    "old_sha256": "b2080d741dde5068027c29bfb164e730be0526e0fdbfb792e766a0aec76d8354",
+    "same": true
+  },
+  {
+    "file": "src/UI/ExtensionExplorer/ExtensionExplorer.gd",
+    "sha256": "0c65410cbe3db490ba6089d80af1d929a34f05274a7d1b9dc45aa522daa1422b",
+    "bytes": 6129,
+    "old_exists": true,
+    "old_sha256": "0c65410cbe3db490ba6089d80af1d929a34f05274a7d1b9dc45aa522daa1422b",
+    "same": true
+  },
+  {
+    "file": "src/UI/ExtensionExplorer/Subscripts/CustomRepositoryLinks.gd",
+    "sha256": "c4a44698afc445ad9727b6844f358714514b22f8251c95ec581af86eb6482ac4",
+    "bytes": 1047,
+    "old_exists": true,
+    "old_sha256": "c4a44698afc445ad9727b6844f358714514b22f8251c95ec581af86eb6482ac4",
+    "same": true
+  },
+  {
+    "file": "src/UI/ExtensionExplorer/Subscripts/SearchManager.gd",
+    "sha256": "2e582979d70fdd75b5200d0c7e623007df5315a917042c70876a2f8b007c7742",
+    "bytes": 1614,
+    "old_exists": true,
+    "old_sha256": "2e582979d70fdd75b5200d0c7e623007df5315a917042c70876a2f8b007c7742",
+    "same": true
+  },
+  {
+    "file": "src/UI/GlobalToolOptions/DynamicsPanel.gd",
+    "sha256": "4fdceaffa9d96f4c9399ffce1cddf20a7de880fa5e4f4f138b2b858cf0ee85d3",
+    "bytes": 4727,
+    "old_exists": true,
+    "old_sha256": "4fdceaffa9d96f4c9399ffce1cddf20a7de880fa5e4f4f138b2b858cf0ee85d3",
+    "same": true
+  },
+  {
+    "file": "src/UI/GlobalToolOptions/GlobalToolOptions.gd",
+    "sha256": "8330aba161a01e6a2c2af404321f713a3f38362533837445e51e64c57f909b58",
+    "bytes": 6268,
+    "old_exists": true,
+    "old_sha256": "8330aba161a01e6a2c2af404321f713a3f38362533837445e51e64c57f909b58",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/AnimatePanel.gd",
+    "sha256": "d771090dc7ed893b105d4b5a081e52848b2b07e1e66cec189fcdee5ee3d21164",
+    "bytes": 6808,
+    "old_exists": true,
+    "old_sha256": "d771090dc7ed893b105d4b5a081e52848b2b07e1e66cec189fcdee5ee3d21164",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/CollapsibleContainer.gd",
+    "sha256": "7150d498854bd164e9c38b7bcb22b9960b08c140016912d8d412b361b8ee0221",
+    "bytes": 2089,
+    "old_exists": true,
+    "old_sha256": "7150d498854bd164e9c38b7bcb22b9960b08c140016912d8d412b361b8ee0221",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/CurveEditor/CurveControlPoint.gd",
+    "sha256": "18a5aa9b6f17da21df2a39f3aad306fc0f74d499c56e772af1676de04eb1856c",
+    "bytes": 2712,
+    "old_exists": true,
+    "old_sha256": "18a5aa9b6f17da21df2a39f3aad306fc0f74d499c56e772af1676de04eb1856c",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/CurveEditor/CurveEdit.gd",
+    "sha256": "939818236f7767e3b0bc799d84bb346b2e21e700920607cc4829e543ac178cd5",
+    "bytes": 8425,
+    "old_exists": true,
+    "old_sha256": "939818236f7767e3b0bc799d84bb346b2e21e700920607cc4829e543ac178cd5",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/CurveEditor/CurveTangentPoint.gd",
+    "sha256": "7542ce990f8f27e7fb58aadaa088c451ad38a44945a69db7f7667b2f570591d7",
+    "bytes": 1784,
+    "old_exists": true,
+    "old_sha256": "7542ce990f8f27e7fb58aadaa088c451ad38a44945a69db7f7667b2f570591d7",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/GradientEdit.gd",
+    "sha256": "9b24602fba9d69ac0571ff5bf70945fec4ee4a8448ca1c42a3c6ea1321ca8b03",
+    "bytes": 13397,
+    "old_exists": true,
+    "old_sha256": "9b24602fba9d69ac0571ff5bf70945fec4ee4a8448ca1c42a3c6ea1321ca8b03",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/MaxMinEdit.gd",
+    "sha256": "700297f3a8df43c81526fc7c044954c706d4840f92f2993664fb5d5d5b81365a",
+    "bytes": 3515,
+    "old_exists": true,
+    "old_sha256": "700297f3a8df43c81526fc7c044954c706d4840f92f2993664fb5d5d5b81365a",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/NoiseGenerator.gd",
+    "sha256": "fffb4882fb163c26824cd768f28269689a6bf90f984490fb599462a9726cd28c",
+    "bytes": 4156,
+    "old_exists": true,
+    "old_sha256": "fffb4882fb163c26824cd768f28269689a6bf90f984490fb599462a9726cd28c",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/NotificationLabel.gd",
+    "sha256": "dfd7aa0ed2dbd95f03c8a99c2379ab30e0d478741b3646ab125bd8122a0dae3e",
+    "bytes": 423,
+    "old_exists": true,
+    "old_sha256": "dfd7aa0ed2dbd95f03c8a99c2379ab30e0d478741b3646ab125bd8122a0dae3e",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/Sliders/BasisSliders.gd",
+    "sha256": "6bce005b213c98c0f71735b621b67ada542d512ff9722636f17f08f8ae51d93e",
+    "bytes": 1833,
+    "old_exists": true,
+    "old_sha256": "6bce005b213c98c0f71735b621b67ada542d512ff9722636f17f08f8ae51d93e",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/Sliders/ValueSlider.gd",
+    "sha256": "307d611dc86d8b57127cea60046bd5b69bcd8d1d228607358b2516ad9833c125",
+    "bytes": 12546,
+    "old_exists": true,
+    "old_sha256": "307d611dc86d8b57127cea60046bd5b69bcd8d1d228607358b2516ad9833c125",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/Sliders/ValueSliderV2.gd",
+    "sha256": "5efae6e5a216620802c59a9a28617557a9dad87bb1f829d61f830ca2e1dcf9ca",
+    "bytes": 3763,
+    "old_exists": true,
+    "old_sha256": "5efae6e5a216620802c59a9a28617557a9dad87bb1f829d61f830ca2e1dcf9ca",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/Sliders/ValueSliderV3.gd",
+    "sha256": "4b13d05c070532ef7a691af9fa1476a9da5349bcc8f637281ae3fe5b7a74845d",
+    "bytes": 4457,
+    "old_exists": true,
+    "old_sha256": "4b13d05c070532ef7a691af9fa1476a9da5349bcc8f637281ae3fe5b7a74845d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/TextToolEdit.gd",
+    "sha256": "1c3f9877601ba8d5cd7ed5d943bc7db6231353fcdd97d192ff1b1d371cfaab53",
+    "bytes": 1800,
+    "old_exists": true,
+    "old_sha256": "1c3f9877601ba8d5cd7ed5d943bc7db6231353fcdd97d192ff1b1d371cfaab53",
+    "same": true
+  },
+  {
+    "file": "src/UI/Nodes/TransparentChecker.gd",
+    "sha256": "9fe13d10a2d3045aeab41bf6cb90311c23d95ebb91b0eadff6845f14680330f6",
+    "bytes": 1966,
+    "old_exists": true,
+    "old_sha256": "9fe13d10a2d3045aeab41bf6cb90311c23d95ebb91b0eadff6845f14680330f6",
+    "same": true
+  },
+  {
+    "file": "src/UI/PerspectiveEditor/PerspectiveEditor.gd",
+    "sha256": "5348e018c1d6f0980359bff8c2c222b9b5c07148d0e98179995849ae19bb8f6a",
+    "bytes": 2427,
+    "old_exists": true,
+    "old_sha256": "5348e018c1d6f0980359bff8c2c222b9b5c07148d0e98179995849ae19bb8f6a",
+    "same": true
+  },
+  {
+    "file": "src/UI/PerspectiveEditor/PerspectiveLine.gd",
+    "sha256": "729c3e43975855661f96eb098a486fcc6cf8087d265ad9e5f2719b25ff0b794c",
+    "bytes": 4604,
+    "old_exists": true,
+    "old_sha256": "729c3e43975855661f96eb098a486fcc6cf8087d265ad9e5f2719b25ff0b794c",
+    "same": true
+  },
+  {
+    "file": "src/UI/PerspectiveEditor/PointCollapseContainer.gd",
+    "sha256": "53283dcc209a62898f07522a1ef1d436c0279fb32b48fdc78d131d2b40277822",
+    "bytes": 693,
+    "old_exists": true,
+    "old_sha256": "53283dcc209a62898f07522a1ef1d436c0279fb32b48fdc78d131d2b40277822",
+    "same": true
+  },
+  {
+    "file": "src/UI/PerspectiveEditor/VanishingPoint.gd",
+    "sha256": "817bf8dfe8497549b112ea20652e9a86b7545b79993c24f1b802bd3af45c1d80",
+    "bytes": 7214,
+    "old_exists": true,
+    "old_sha256": "817bf8dfe8497549b112ea20652e9a86b7545b79993c24f1b802bd3af45c1d80",
+    "same": true
+  },
+  {
+    "file": "src/UI/Recorder/Recorder.gd",
+    "sha256": "7a4fb89dd5e6494a373338f85735cc8047cd7bcb637f627fffbc441f1e114be5",
+    "bytes": 22752,
+    "old_exists": true,
+    "old_sha256": "7a4fb89dd5e6494a373338f85735cc8047cd7bcb637f627fffbc441f1e114be5",
+    "same": true
+  },
+  {
+    "file": "src/UI/ReferenceImages/ReferenceEdit.gd",
+    "sha256": "704e0c14d0f8c5e10a452b3d3ab8496dfb9210e635fbc765227ebe6ab66aa673",
+    "bytes": 6773,
+    "old_exists": true,
+    "old_sha256": "704e0c14d0f8c5e10a452b3d3ab8496dfb9210e635fbc765227ebe6ab66aa673",
+    "same": true
+  },
+  {
+    "file": "src/UI/ReferenceImages/ReferenceImage.gd",
+    "sha256": "89e6fb0f742a3a539d704438e5c91010e24c72cccd4eaa4a798de00385d750ae",
+    "bytes": 3152,
+    "old_exists": true,
+    "old_sha256": "89e6fb0f742a3a539d704438e5c91010e24c72cccd4eaa4a798de00385d750ae",
+    "same": true
+  },
+  {
+    "file": "src/UI/ReferenceImages/ReferenceImageButton.gd",
+    "sha256": "fbde1be0caa5e4a927fdf85eb5c4d72c7e1696a86d1cbef14ad4670e08b9e2e6",
+    "bytes": 1462,
+    "old_exists": true,
+    "old_sha256": "fbde1be0caa5e4a927fdf85eb5c4d72c7e1696a86d1cbef14ad4670e08b9e2e6",
+    "same": true
+  },
+  {
+    "file": "src/UI/ReferenceImages/ReferencesPanel.gd",
+    "sha256": "542afaeadd464cee28227e6db22d65f27d2a861ab130eb0be18722b865a14de5",
+    "bytes": 5557,
+    "old_exists": true,
+    "old_sha256": "542afaeadd464cee28227e6db22d65f27d2a861ab130eb0be18722b865a14de5",
+    "same": true
+  },
+  {
+    "file": "src/UI/Tabs.gd",
+    "sha256": "a343e35a4c450d1fea453df19f7eb2b2cda198a729b7b0a08ac5b69808fd6698",
+    "bytes": 2029,
+    "old_exists": true,
+    "old_sha256": "a343e35a4c450d1fea453df19f7eb2b2cda198a729b7b0a08ac5b69808fd6698",
+    "same": true
+  },
+  {
+    "file": "src/UI/TilesPanel.gd",
+    "sha256": "d295d906deb9125fff6983726653383805a2adb532ac6c4fdf49ccc6856f9b10",
+    "bytes": 16485,
+    "old_exists": true,
+    "old_sha256": "d295d906deb9125fff6983726653383805a2adb532ac6c4fdf49ccc6856f9b10",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/AnimationTagUI.gd",
+    "sha256": "254076797698a91eb7b9e422c67daee3aedc6d14f79461d926ddcb470c734d25",
+    "bytes": 3551,
+    "old_exists": true,
+    "old_sha256": "254076797698a91eb7b9e422c67daee3aedc6d14f79461d926ddcb470c734d25",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/AnimationTimeline.gd",
+    "sha256": "39119ea97e910c63e16984c4f71acbd37cf7b4b35e85218693ec16c997290ce5",
+    "bytes": 69356,
+    "old_exists": true,
+    "old_sha256": "39119ea97e910c63e16984c4f71acbd37cf7b4b35e85218693ec16c997290ce5",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/CelButton.gd",
+    "sha256": "27d83b4b989410c5e7f57f50c64f17f8f43dc574000afe69646ca116cd187603",
+    "bytes": 23273,
+    "old_exists": true,
+    "old_sha256": "27d83b4b989410c5e7f57f50c64f17f8f43dc574000afe69646ca116cd187603",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/CelProperties.gd",
+    "sha256": "6466efc1703ade75b61801126dc27a7d51af60293d0917bb9f64cdd7a1079ad8",
+    "bytes": 3366,
+    "old_exists": true,
+    "old_sha256": "6466efc1703ade75b61801126dc27a7d51af60293d0917bb9f64cdd7a1079ad8",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/FrameButton.gd",
+    "sha256": "30a3fe96bb2e152fe9b40669bf54cbf6a3b3799ccfa1d0753fa38ec0dfb3d06c",
+    "bytes": 9567,
+    "old_exists": true,
+    "old_sha256": "30a3fe96bb2e152fe9b40669bf54cbf6a3b3799ccfa1d0753fa38ec0dfb3d06c",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/FrameProperties.gd",
+    "sha256": "6915da194175af3d45108b6bb0bee24321f573d3e96df30fa4f53c07854c9167",
+    "bytes": 1551,
+    "old_exists": true,
+    "old_sha256": "6915da194175af3d45108b6bb0bee24321f573d3e96df30fa4f53c07854c9167",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/FrameScrollContainer.gd",
+    "sha256": "0a054ed6ccf09ae247f7d79613a1e3b9c02a19f51c38f77b5c585b6febdf7974",
+    "bytes": 7073,
+    "old_exists": true,
+    "old_sha256": "0a054ed6ccf09ae247f7d79613a1e3b9c02a19f51c38f77b5c585b6febdf7974",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/KeyframeTimeline/KeyframeAnimationTrack.gd",
+    "sha256": "47c03bd839d8707a429baf4e68f9aa85ceccc3c89f923fa814dcb494e244cac1",
+    "bytes": 1874,
+    "old_exists": true,
+    "old_sha256": "47c03bd839d8707a429baf4e68f9aa85ceccc3c89f923fa814dcb494e244cac1",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/KeyframeTimeline/KeyframeButton.gd",
+    "sha256": "492f9602e4f8888c3fb3ee6aaf7f01f47e48e7f20c122e5f4b345f502f67ece9",
+    "bytes": 2537,
+    "old_exists": true,
+    "old_sha256": "492f9602e4f8888c3fb3ee6aaf7f01f47e48e7f20c122e5f4b345f502f67ece9",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/KeyframeTimeline/KeyframeTimeline.gd",
+    "sha256": "b4e9c8d4af55a21f993edd3a607c76113be914cfa532884cf13cfd6cf3d88a39",
+    "bytes": 22998,
+    "old_exists": true,
+    "old_sha256": "b4e9c8d4af55a21f993edd3a607c76113be914cfa532884cf13cfd6cf3d88a39",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/KeyframeTimeline/KeyframeTimelineCursor.gd",
+    "sha256": "f9fc77b3f745fceed46a0a4568c167f2b1d41f6b1637ecd0daadaac162714865",
+    "bytes": 3352,
+    "old_exists": true,
+    "old_sha256": "f9fc77b3f745fceed46a0a4568c167f2b1d41f6b1637ecd0daadaac162714865",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/KeyframeTimeline/KeyframeTimelineFrameDisplay.gd",
+    "sha256": "57d2644c9e4934c86dcef1b157309bbc46e39891b9be86f5054fbaba92978d26",
+    "bytes": 653,
+    "old_exists": true,
+    "old_sha256": "57d2644c9e4934c86dcef1b157309bbc46e39891b9be86f5054fbaba92978d26",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/KeyframeTimeline/KeyframeTimelineTrackContainer.gd",
+    "sha256": "6395b9094291511a5aae09258e35d32c51fe967477f8e73089fbfb8fb4acc3de",
+    "bytes": 978,
+    "old_exists": true,
+    "old_sha256": "6395b9094291511a5aae09258e35d32c51fe967477f8e73089fbfb8fb4acc3de",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/LayerButton.gd",
+    "sha256": "1847fd9fa1468df3d4adb415797a29462e849135c539f583532ac739f743efc8",
+    "bytes": 16129,
+    "old_exists": true,
+    "old_sha256": "1847fd9fa1468df3d4adb415797a29462e849135c539f583532ac739f743efc8",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/LayerEffects/LayerEffectButton.gd",
+    "sha256": "5d0b9385975cd42c6c9e2e3ba7d1f39041c628ceab11ac6af9e820698654e9df",
+    "bytes": 2656,
+    "old_exists": true,
+    "old_sha256": "5d0b9385975cd42c6c9e2e3ba7d1f39041c628ceab11ac6af9e820698654e9df",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/LayerEffects/LayerEffectsSettings.gd",
+    "sha256": "cc837d36e18281ae2145d9e0378868fd0c6285cd8006b466b810dd0d3a8b536d",
+    "bytes": 13286,
+    "old_exists": true,
+    "old_sha256": "cc837d36e18281ae2145d9e0378868fd0c6285cd8006b466b810dd0d3a8b536d",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/LayerMainButton.gd",
+    "sha256": "800371706b8e4837463a335d348dc06225cb0c415d13c47fc131d54eda836c92",
+    "bytes": 7541,
+    "old_exists": true,
+    "old_sha256": "800371706b8e4837463a335d348dc06225cb0c415d13c47fc131d54eda836c92",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/LayerProperties.gd",
+    "sha256": "7924b75c207fce6d7a2b8ea212d32fcf20e10c440083f7b0ac4d5e6850296b22",
+    "bytes": 20219,
+    "old_exists": true,
+    "old_sha256": "7924b75c207fce6d7a2b8ea212d32fcf20e10c440083f7b0ac4d5e6850296b22",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/NewTileMapLayerDialog.gd",
+    "sha256": "976a0b208b640227b9ee289dcb8504908318bb323b1a651a76ef7a3a728fdcb9",
+    "bytes": 2434,
+    "old_exists": true,
+    "old_sha256": "976a0b208b640227b9ee289dcb8504908318bb323b1a651a76ef7a3a728fdcb9",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/TagProperties.gd",
+    "sha256": "54bb5a38806cf886c846996ffd4d882ff51601412f5dfb77198a552cd916751b",
+    "bytes": 4639,
+    "old_exists": true,
+    "old_sha256": "54bb5a38806cf886c846996ffd4d882ff51601412f5dfb77198a552cd916751b",
+    "same": true
+  },
+  {
+    "file": "src/UI/Timeline/layer_hierarchy_indicator.gd",
+    "sha256": "faea747ae8dd29527e5fceb9fdb2739668736878b083568f8f008fee5ad935e6",
+    "bytes": 2155,
+    "old_exists": true,
+    "old_sha256": "faea747ae8dd29527e5fceb9fdb2739668736878b083568f8f008fee5ad935e6",
+    "same": true
+  },
+  {
+    "file": "src/UI/ToolsPanel/ToolButtons.gd",
+    "sha256": "29edddc11a768800d7dad749ada46b78b063aedbbf68b0845e24992140ca67cc",
+    "bytes": 1984,
+    "old_exists": true,
+    "old_sha256": "29edddc11a768800d7dad749ada46b78b063aedbbf68b0845e24992140ca67cc",
+    "same": true
+  },
+  {
+    "file": "src/UI/TopMenuContainer/TopMenuContainer.gd",
+    "sha256": "87a841bc2cafe0e9c296eacd179c97c54e492fb7dbd1cf9a79aca8f076200eff",
+    "bytes": 49294,
+    "old_exists": true,
+    "old_sha256": "87a841bc2cafe0e9c296eacd179c97c54e492fb7dbd1cf9a79aca8f076200eff",
+    "same": true
+  },
+  {
+    "file": "src/UI/TopMenuContainer/quick_access_buttons.gd",
+    "sha256": "1f8670339a20126e61c5c0687795a2cc1b7761ddbbecab2374cbd6104ff08e8c",
+    "bytes": 1371,
+    "old_exists": true,
+    "old_sha256": "1f8670339a20126e61c5c0687795a2cc1b7761ddbbecab2374cbd6104ff08e8c",
+    "same": true
+  },
+  {
+    "file": "src/UI/TopMenuContainer/undo_history_dialog.gd",
+    "sha256": "1541aea967e58a1a5ffbe829bc95b3e6b9c42df7bb98b4598c075c7fc81ab104",
+    "bytes": 944,
+    "old_exists": true,
+    "old_sha256": "1541aea967e58a1a5ffbe829bc95b3e6b9c42df7bb98b4598c075c7fc81ab104",
+    "same": true
+  },
+  {
+    "file": "src/UI/UI.gd",
+    "sha256": "339358dc7b9de569746faeca96343f232b8fea3c36bb3fc3abbee50a114e92b1",
+    "bytes": 2531,
+    "old_exists": true,
+    "old_sha256": "339358dc7b9de569746faeca96343f232b8fea3c36bb3fc3abbee50a114e92b1",
+    "same": true
+  },
+  {
+    "file": "src/UI/ViewportContainer.gd",
+    "sha256": "50b3eb9a77d804d1380f38669d7c76cb58ade9a0f9c8f65e873c01def13ca99f",
+    "bytes": 877,
+    "old_exists": true,
+    "old_sha256": "50b3eb9a77d804d1380f38669d7c76cb58ade9a0f9c8f65e873c01def13ca99f",
+    "same": true
+  }
+]

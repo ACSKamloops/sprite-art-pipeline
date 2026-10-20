@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "name": "supplied-chain-mechanics-only",
+  "steps": [
+    {
+      "id": "source",
+      "action": "import",
+      "path": "marker.png"
+    },
+    {
+      "id": "bake",
+      "action": "tracks",
+      "scene": {
+        "canvas": [
+          4,
+          2
+        ],
+        "require_source_coverage": true,
+        "nodes": [
+          {
+            "id": "root"
+          },
+          {
+            "id": "part",
+            "parent": "root",
+            "raster": {
+              "ref": "source.rasters.0"
+            },
+            "mask": "18f3813099f5fed28091f0706ac29bdfdf966ff6b75628aa517d5a799c57e234",
+            "ownership": {
+              "source": {
+                "ref": "source.rasters.0"
+              },
+              "origin": [
+                0,
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "frame_count": 3,
+      "fps": 10,
+      "direction": "south",
+      "pivot": [
+        1,
+        2
+      ],
+      "tracks": [
+        {
+          "node": "part",
+          "property": "position",
+          "interpolation": "linear",
+          "keys": [
+            {
+              "time": [
+                0,
+                1
+              ],
+              "value": [
+                0,
+                0
+              ]
+            },
+            {
+              "time": [
+                1,
+                10
+              ],
+              "value": [
+                2,
+                0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "patch",
+      "action": "edit",
+      "sequence": {
+        "ref": "bake.sequence"
+      },
+      "changes": [
+        {
+          "operation": "patch_pixels",
+          "layer": "image",
+          "frames": [
+            2
+          ],
+          "reason": "explicit supplied diagnostic color",
+          "pixels": [
+            [
+              3,
+              0,
+              "#00ff00ff",
+              "#ffff00ff"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "compose",
+      "action": "compose",
+      "body": {
+        "ref": "patch.sequence"
+      },
+      "front": "ce53bf9f0ca46d831a1f0f609d16780c5da2333387a3857f87e8cd7095017194"
+    },
+    {
+      "id": "export",
+      "action": "export",
+      "sequence": {
+        "ref": "compose.sequence"
+      },
+      "directory": "output",
+      "formats": [
+        "png",
+        "sheet",
+        "manifest",
+        "apng",
+        "editable",
+        "review"
+      ]
+    }
+  ]
+}

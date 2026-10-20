@@ -1,0 +1,111 @@
+{
+  "version": 1,
+  "scope": "reviewer-owned consolidation-runtime evidence; no credentials or private captures",
+  "code_commit": "7e7b6a4c79d859860fbc7b82878d5e48f079a372",
+  "files": [
+    {
+      "path": "docs/consolidation-review/runtime/ADDITIONAL-BASELINE-JUNIT.xml",
+      "bytes": 2944,
+      "sha256": "96b8f854feb702a7632835d751ec278f300d48489304d36f48a8cc485a678bbb"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/ADDITIONAL-BASELINE-PYTEST.txt",
+      "bytes": 2224,
+      "sha256": "c13816613b036db34cf2478de3faaedf35dc55f1e38fae7fa671bf788be43340"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/ADDITIONAL-BASELINE-TESTS.py",
+      "bytes": 5304,
+      "sha256": "b7096dddfe9439bfe457f36d751a7647695e1ef7b70619947d02a2a9b31f0f94"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/ADDITIONAL-BASELINE.json",
+      "bytes": 989,
+      "sha256": "c8bda52bd26b48bf75144dbe1f45a7e038de8ab6608080ba0e03c1c2bc78e9eb"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/BASELINE-JUNIT.xml",
+      "bytes": 10015,
+      "sha256": "08b6faf7f15775adfb749755a011c4cc8c36203b111831d101869f6913bdbf5d"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/BASELINE-PYTEST.txt",
+      "bytes": 8628,
+      "sha256": "1d4bec19e28ccb8d229c65fcabcf8c58b5f0d88ef004c26dca684ab9efb7ecb9"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/BASELINE-TESTS.py",
+      "bytes": 3390,
+      "sha256": "329c86e9bd54400e63bb2ba7dd508bd03fc111ba5060acecdf0060e1b208cfdf"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/BASELINE.json",
+      "bytes": 2298,
+      "sha256": "49ea6f9bbd08e62fea559ce0a2a31bc80da64eaeb6ce2da41596bd31f8e14a60"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/CORRECTION-RESOLUTION-BEFORE-TAXONOMY.json",
+      "bytes": 2645,
+      "sha256": "923cdf7be27f765ca2988c9290ca43b062c1f59c42edd116a098c84377e8e562"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/CORRECTION-RESOLUTION.json",
+      "bytes": 3233,
+      "sha256": "b8d9c587a41df4e5ed8063e8d5176353276be5a3c0cfef7e6b4abf0ae60991c3"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/FINAL-JUNIT.xml",
+      "bytes": 958,
+      "sha256": "fa166c377d43b5b1fd4c241399c145320036c36f5642e443b88fbdd66502adf8"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/FINAL-PLUS-JUNIT.xml",
+      "bytes": 1117,
+      "sha256": "18134fc04827a987c9f11d358c436ef5ac6b15d309b7f7f79545501df05b8262"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/FINAL-PLUS-PYTEST.txt",
+      "bytes": 98,
+      "sha256": "d23ba7a7244a561a7e47aaba2d7106faf62d830b682490b5adf75890ec6c60a8"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/FINAL-PYTEST.txt",
+      "bytes": 98,
+      "sha256": "d3fa2d1ad97b0ae802ece39d47bb5daa917d85a0f8f1f7240ce203ea95994b37"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/FLOW-COVERAGE.json",
+      "bytes": 5433,
+      "sha256": "7dc86e2cd224c7577c4abaa7614f0ecd9e2e050dca9516ed08fdd3e67ca08f96"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/INERT-VERIFICATION.json",
+      "bytes": 3372,
+      "sha256": "62ed5b92b80d344be6fdcfb0c64c7e1afe48c49c60bee3158860250dde10bc61"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/PRIOR-VERIFICATION-READBACK.json",
+      "bytes": 811,
+      "sha256": "0a4cdfce145bbff836aa5fea3c5dd1617de809460a15b7dfc94d7d17e130f84c"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/REVIEW.md",
+      "bytes": 6640,
+      "sha256": "02d7ea4cafe24af0f69f3babfb5efce67a838b34131f7fe6cefec17d5d783849"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/SOURCE-ANCHORS-BEFORE-TAXONOMY.json",
+      "bytes": 3795,
+      "sha256": "914cea32929664edd0df5932ea857e71c22149774c7ec365cace8969f2fb28bb"
+    },
+    {
+      "path": "docs/consolidation-review/runtime/SOURCE-ANCHORS.json",
+      "bytes": 4201,
+      "sha256": "57d132f1a4b6f2612beb48164eeb3f1ef837b2f6d6c6ceb62716ee1ccb9f31ba"
+    }
+  ],
+  "active_test": {
+    "path": "tests/test_consolidation_runtime_review.py",
+    "sha256": "b7096dddfe9439bfe457f36d751a7647695e1ef7b70619947d02a2a9b31f0f94"
+  }
+}

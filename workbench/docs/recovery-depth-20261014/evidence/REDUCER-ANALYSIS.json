@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "checked_utc": "2026-10-14T04:01:29.637957+00:00",
+  "cases": [
+    {
+      "case": "fixed-none",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014",
+      "rea_evidence_id": "ev_f2d2efed2f996b4d6dbc6480a8bac72c6ebeb52d15014990ba60065fe9f498be",
+      "rea_har_sha256": "2e54992b03d3de5bdb67d166974c1b2b23dca3f5ecf120ec39ff922b30dfc790",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": true,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 8192,
+          "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+          "returned_png_sha256": "caf7b6518f0304f61c1f6521f8abcee9431514e71ebf510c3461128c5b389b85",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "srgb_rgb_mismatches": 1591
+        },
+        {
+          "index": 1,
+          "pixels": 8192,
+          "source_png_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+          "returned_png_sha256": "8c086426a546d52bcaf3aca76a6f9b0232afc4dda519ae60a40c291b2f5dc512",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "srgb_rgb_mismatches": 1591
+        }
+      ]
+    },
+    {
+      "case": "fixed-repeat",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014",
+      "rea_evidence_id": "ev_6bce60a238e684bff97b23d9c3a04a9a608f50a6e61815c77bb2417ed7070c48",
+      "rea_har_sha256": "44100cea053d39fcedcca2984441a00b2d93c6b0d1a65900fe54e3b5c94525f1",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": true,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 8192,
+          "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+          "returned_png_sha256": "caf7b6518f0304f61c1f6521f8abcee9431514e71ebf510c3461128c5b389b85",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "srgb_rgb_mismatches": 1591
+        },
+        {
+          "index": 1,
+          "pixels": 8192,
+          "source_png_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+          "returned_png_sha256": "8c086426a546d52bcaf3aca76a6f9b0232afc4dda519ae60a40c291b2f5dc512",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "srgb_rgb_mismatches": 1591
+        }
+      ]
+    },
+    {
+      "case": "fixed-2x2",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014",
+      "rea_evidence_id": "ev_3b84a95acccd9b393ef9a1122fe9e1af094fc7756638d48e1ac38a8eb6ee6d1d",
+      "rea_har_sha256": "e235e9750570983a3d5e04af02756afd268a6737094f494743e1d9d7d01f0ccf",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": false,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 8192,
+          "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+          "returned_png_sha256": "1cd07d4160afa011e3eaeee563c30bb9e23a3b5a3fc9391c4e1de9e1e814b191",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 1483,
+          "unweighted_oklab_rgb_mismatches": 1483,
+          "srgb_rgb_mismatches": 210
+        },
+        {
+          "index": 1,
+          "pixels": 8192,
+          "source_png_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+          "returned_png_sha256": "35f69af5d1f9f4b0767a37bfeda4257a6591b2cd0474b538b9d75b547b917501",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 1483,
+          "unweighted_oklab_rgb_mismatches": 1483,
+          "srgb_rgb_mismatches": 210
+        }
+      ]
+    },
+    {
+      "case": "six-color-none",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014-phase2",
+      "rea_evidence_id": "ev_2dbbde8b47576b4a07e497f268915fcbe0a391af8c60217603577c4b872e097b",
+      "rea_har_sha256": "fd10a48d0e7f1377d022d34bdb4bcbd6972c879e9cdb1590a8414686ef4b56da",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": true,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 8192,
+          "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+          "returned_png_sha256": "90d0705175c22a5b5c4a42631001606e0b09abc6676e764a4d33ad4ec935b602",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 372,
+          "srgb_rgb_mismatches": 1602
+        },
+        {
+          "index": 1,
+          "pixels": 8192,
+          "source_png_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+          "returned_png_sha256": "8f93758adcee06187a0a7c724f0ec3675873bc4337343cf393834feef6914995",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 372,
+          "srgb_rgb_mismatches": 1602
+        }
+      ]
+    },
+    {
+      "case": "bw-2x2-zero",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014-phase2",
+      "rea_evidence_id": "ev_c3888887e21dae503344ccec1496f16cab44a0a28ed23bdb48a5b0c96795fa53",
+      "rea_har_sha256": "3837726c719ce893c04af625891fcbc60f8a348ce037ee3c42fb740988bc7c26",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": true,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 8192,
+          "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+          "returned_png_sha256": "caf7b6518f0304f61c1f6521f8abcee9431514e71ebf510c3461128c5b389b85",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "srgb_rgb_mismatches": 1591
+        },
+        {
+          "index": 1,
+          "pixels": 8192,
+          "source_png_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+          "returned_png_sha256": "8c086426a546d52bcaf3aca76a6f9b0232afc4dda519ae60a40c291b2f5dc512",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 0,
+          "srgb_rgb_mismatches": 1591
+        }
+      ]
+    },
+    {
+      "case": "bw-2x2-ten",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014-phase2",
+      "rea_evidence_id": "ev_45d99a1d2ee3778e0ec4f7debb94e292a4b156ef00d024d619971a9ae8e9a477",
+      "rea_har_sha256": "19e65525a6543cb33936d2973891c4e3e0546363739f778336b9559d621546f8",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": false,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 8192,
+          "source_png_sha256": "02a8c2ed81763a07eb7ac03d74526c24c59bdff4d905431cedec499ea8d042f6",
+          "returned_png_sha256": "15bca735822e5e3c5148949a2880741d317f2a01085d622eaec6aa5ca6f54a54",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 1460,
+          "unweighted_oklab_rgb_mismatches": 1460,
+          "srgb_rgb_mismatches": 431
+        },
+        {
+          "index": 1,
+          "pixels": 8192,
+          "source_png_sha256": "c098f95d8636ffccfbb3efb221ae1796ea5f8d960c730791fa5272a56f3d80f9",
+          "returned_png_sha256": "4695bc0ee2f799009bf4b0d9d643bfdb319e8cdb3c5dc7415f424945cb56c384",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 1460,
+          "unweighted_oklab_rgb_mismatches": 1460,
+          "srgb_rgb_mismatches": 431
+        }
+      ]
+    },
+    {
+      "case": "weighted-holdout",
+      "root": "/home/astra/artifacts/pixellab-reducer-recovery-20261014-holdout",
+      "rea_evidence_id": "ev_425db06085c3c50ff504154a169e09993d1397d95769b4c6327750a1c9b9aa63",
+      "rea_har_sha256": "a3c20b6510d9c8d935502a1e2b217ee4d91a188bb4863563d5ea1a869c13b32a",
+      "rea_authority": "historical-reference",
+      "nondithered_or_zero_strength": true,
+      "usage": {
+        "type": "generations",
+        "generations": 0.1
+      },
+      "frames": [
+        {
+          "index": 0,
+          "pixels": 4096,
+          "source_png_sha256": "1f60e137e61e9b9f0fe3ffa7b6dc800e3fd00ec1b8204219f23c06596def2bbb",
+          "returned_png_sha256": "ba06b45a001ec4bf02bedc728239b51f6d3cc52a3f354c7a1d2af8342bdc81d8",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 1258,
+          "srgb_rgb_mismatches": 1011
+        },
+        {
+          "index": 1,
+          "pixels": 4096,
+          "source_png_sha256": "0d9b1f7ae2626287331b220c467f766dc4afd35d0f041296efd1c65aa42d64a6",
+          "returned_png_sha256": "1b563495b28a80d61a380b1e436b957388aaab18edbb63359d45af3de157c190",
+          "alpha_exact": true,
+          "weighted_oklab_rgba_mismatches": 0,
+          "unweighted_oklab_rgb_mismatches": 1258,
+          "srgb_rgb_mismatches": 1011
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "policy": "inferred-fixed-palette-oklab-quarter-L-v1",
+  "repeat_png_bytes_exact": true,
+  "zero_strength_png_bytes_exact_to_none": true,
+  "nondithered_rgba_entries_verified": 73728,
+  "nondithered_rgba_mismatches": 0,
+  "heldout_rgb_samples_tested": 4096,
+  "heldout_distinct_rgb_colors_tested": 4094,
+  "heldout_distinct_previously_unseen_rgb_colors_tested": 4093,
+  "heldout_rgba_entries_tested": 8192,
+  "total_paid_posts": 7,
+  "generation_usage": 0.7,
+  "private_source_recovered": false,
+  "pixminimax_uses_this_reducer_known": false,
+  "scope": "Observed fixed opaque-palette behavior, exact input/result/capture binding and offline candidate replay; calibration/repeat pixels are not independent samples. No automatic palette clustering, source weights, animation cutout or temporal de-flicker recovery."
+}

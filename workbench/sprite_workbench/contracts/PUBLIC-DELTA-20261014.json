@@ -1,0 +1,63 @@
+{
+  "kind": "public-api-contract-delta",
+  "version": 1,
+  "source_url": "https://api.pixellab.ai/v2/openapi.json",
+  "captured_date": "2026-10-14",
+  "frozen_operations": 111,
+  "current_operations": 112,
+  "frozen_sha256": "af8ddcf710e1044455a31f091500f4381d2c89da667b2751744f734520ae93ec",
+  "current_sha256": "8cb24ecdd26e9fe48639dc789e44f32b3c78c29e8da8c3121f23ab360ade5dad",
+  "current_snapshot": "openapi-current-20261014.json",
+  "added": [
+    {
+      "method": "POST",
+      "path": "/normal-map",
+      "summary": "Normal map",
+      "operationId": "normal_map_normal_map_post"
+    }
+  ],
+  "removed": [],
+  "changed": [
+    {
+      "method": "POST",
+      "path": "/animate-character",
+      "summary": "Animate character",
+      "changed_fields": [
+        "description"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/animate-with-text-v2",
+      "summary": "Animate with text (pro)",
+      "changed_fields": [
+        "description"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/characters/animations",
+      "summary": "Create Character Animation",
+      "changed_fields": [
+        "description"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/generate-image-v2",
+      "summary": "Generate image (Pro)",
+      "changed_fields": [
+        "description"
+      ]
+    },
+    {
+      "method": "POST",
+      "path": "/generate-with-style-v2",
+      "summary": "Generate with style (Pro)",
+      "changed_fields": [
+        "description"
+      ]
+    }
+  ],
+  "boundary": "Public contract syntax only. No new provider handler or private algorithm recovered. Existing212-entry registry remains the frozen111-public/101-MCP snapshot; this current delta is separate."
+}

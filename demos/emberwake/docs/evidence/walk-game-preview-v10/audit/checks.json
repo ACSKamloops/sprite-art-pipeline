@@ -1,0 +1,765 @@
+[
+  {
+    "check": "v9/rowan: actual PNG RGBA atlas and 128px grid",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  },
+  {
+    "check": "v9/rowan: REPLAY binds actual atlas and manifest",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/rowan: catalog atlas is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/rowan: catalog manifest is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/rowan: actual PNG RGBA atlas and 128px grid",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        2048
+      ]
+    }
+  },
+  {
+    "check": "v10/rowan: REPLAY binds actual atlas and manifest",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/rowan: catalog atlas is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/rowan: catalog manifest is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "rowan: all recorded lineage RGBA hashes bind actual cells",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "rowan: atlas format/dimensions unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "rowan: exact expected changed atlas cells",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "rowan: entire animation manifest unchanged except directional_source",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "rowan: all 48 clip definitions and hand tracks unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/lyra: actual PNG RGBA atlas and 128px grid",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        2176
+      ]
+    }
+  },
+  {
+    "check": "v9/lyra: REPLAY binds actual atlas and manifest",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/lyra: catalog atlas is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/lyra: catalog manifest is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/lyra: actual PNG RGBA atlas and 128px grid",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        2176
+      ]
+    }
+  },
+  {
+    "check": "v10/lyra: REPLAY binds actual atlas and manifest",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/lyra: catalog atlas is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/lyra: catalog manifest is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "lyra: all recorded lineage RGBA hashes bind actual cells",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "lyra: atlas format/dimensions unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "lyra: exact expected changed atlas cells",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "lyra: entire animation manifest unchanged except directional_source",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "lyra: all 48 clip definitions and hand tracks unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/brann: actual PNG RGBA atlas and 128px grid",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        2176
+      ]
+    }
+  },
+  {
+    "check": "v9/brann: REPLAY binds actual atlas and manifest",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/brann: catalog atlas is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9/brann: catalog manifest is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/brann: actual PNG RGBA atlas and 128px grid",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        2048,
+        2176
+      ]
+    }
+  },
+  {
+    "check": "v10/brann: REPLAY binds actual atlas and manifest",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/brann: catalog atlas is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10/brann: catalog manifest is exact bake copy",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "brann: all recorded lineage RGBA hashes bind actual cells",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "brann: atlas format/dimensions unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "brann: exact expected changed atlas cells",
+    "passed": true,
+    "detail": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239
+    ]
+  },
+  {
+    "check": "brann: entire animation manifest unchanged except directional_source",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "brann: all 48 clip definitions and hand tracks unchanged",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: southeast-native actual PNG layout",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  },
+  {
+    "check": "v9: REPLAY and ownership agree on selected override",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: southeast frame order, holds and loop exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: southwest frame order, holds and loop exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 00 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 00, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 01 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 01, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 02 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 02, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 03 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 03, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 04 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 04, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 05 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 05, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 06 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 06, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 07 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: selected SE cel 07, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 08 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 09 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 10 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 11 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 12 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 13 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 14 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 15 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 16 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 17 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 18 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 19 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 20 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 21 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 22 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 23 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 24 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 25 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 26 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 27 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 28 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 29 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 30 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v9: native strip cel 31 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: southeast-native actual PNG layout",
+    "passed": true,
+    "detail": {
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  },
+  {
+    "check": "v10: REPLAY and ownership agree on selected override",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: southeast frame order, holds and loop exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: southwest frame order, holds and loop exact",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 00 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 00, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 01 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 01, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 02 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 02, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 03 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 03, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 04 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 04, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 05 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 05, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 06 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 06, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 07 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: selected SE cel 07, mirrored SW and source hash bind actual pixels",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 08 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 09 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 10 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 11 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 12 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 13 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 14 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 15 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 16 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 17 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 18 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 19 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 20 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 21 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 22 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 23 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 24 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 25 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 26 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 27 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 28 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 29 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 30 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "v10: native strip cel 31 binds individual PNG",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Brann lineage changes only intended cells and source/hash metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Brann ownership changes only selected SE source binding/scope",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "REPLAY changes only expected configuration/source/artifact binding metadata",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "All other bake PNG files byte-identical",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Runtime/project-config differences limited to Brann atlas and three source-pointer manifests",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "project/assets/characters/brann/animations.json: only source pointer changed",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "project/assets/characters/lyra/animations.json: only source pointer changed",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "project/assets/hero/animations.json: only source pointer changed",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "Changed/added/removed helpers or evidence are not referenced by runtime text",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "directional_source is absent from runtime script/resource/config consumers",
+    "passed": true,
+    "detail": null
+  },
+  {
+    "check": "All audited bake/project files stable during this script execution",
+    "passed": true,
+    "detail": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "configuration": "/home/astra/projects/emberwake-demo/art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+  "sha256": "5e2ce48f6f9cc4bc4f7ba63a36c69c67baef870611bc33132d9073501a264a9b",
+  "expected_changed_cells": {
+    "rowan": [
+      155,
+      187
+    ],
+    "lyra": [],
+    "brann": [
+      179,
+      211
+    ]
+  },
+  "source_reviews": [
+    "reviews/rowan-ne03-cycle-v1/REPORT.md",
+    "reviews/brann-ne-jab-v1/report.md"
+  ],
+  "selection": "Preferred provisional source cels, targetstillunmet, no human/public acceptance.",
+  "native_editor_fist_pending": true
+}

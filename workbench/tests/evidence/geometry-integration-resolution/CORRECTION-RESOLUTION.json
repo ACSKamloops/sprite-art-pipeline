@@ -1,0 +1,83 @@
+{
+  "scope": "Selected integration G01-G08 controls and original-base asset/acquisition lineage; no blanket engine/vendor/art approval",
+  "snapshot_commit": "22658246ed3bd6f9c7b4da2a23df719ddcd1ed20",
+  "owner_to_local_commits": {
+    "ef7a941": "922c687",
+    "9ab16f9": "1d47c7b",
+    "e01a533": "f7f2c8d",
+    "36938e2": "b7198f6",
+    "dee71fa": "27849f5",
+    "b35cd11": "2265824"
+  },
+  "dependency_resolution": "capabilities modify/delete then add/add resolved by retaining exact newer dee71fa bytes; no hand-edited producer code",
+  "capabilities_sha256": "0a2b17b0b7c8221b2c08ead2039765381482d00a6dfa280c0b341b88c6e3b02f",
+  "source_hashes": {
+    "sprite_workbench/scene.py": "0af450c23bebaf60324c3ee47736405095d691aa9dae480c577acfc0428ddaf0",
+    "sprite_workbench/export.py": "61f3fd86ab395a57265f0d87f5b83c1c6a878d51ae147eaadaf1d906a264195c",
+    "sprite_workbench/review.py": "4294fb5a84ce3b2a91425e4af0a6fd50ca32aa6fd435112a67a90077012df8f5",
+    "sprite_workbench/core.py": "f75a5770208a3c86be8bf36ad4cabd0e6dee8c5285c777dac5afdd1e50c8af1a",
+    "sprite_workbench/composition.py": "f5f90497ea3e9f2e0b871f40efd7bac0b908bb057c6065740ac223ff20aef07e",
+    "sprite_workbench/tracks.py": "bb2136a762ec5ebe84b8f69554fdc3cb2a793d55c652ca467b2ebe862bfe434e",
+    "sprite_workbench/pipeline.py": "1bc91bb5aa962db933afb0855e526b121d98b4312519e25624ad41dc4ae6254f",
+    "sprite_workbench/prepare.py": "bf62c1f12fb5b9905063f1924494b4f07dde81c1598feb67824f76811e4f7067",
+    "tests/test_geometry_integration_review.py": "0f0fa842adb1c911c138aca39778999c8ff94fac4d1c2b85519fcbf5549db23e"
+  },
+  "baseline_receipts": {
+    "G01_G06": "tests/evidence/geometry-integration-review/INITIAL-OBSERVATIONS.json",
+    "G07_G08": "tests/evidence/geometry-integration-review/ADDITIONAL-BASELINE.json"
+  },
+  "executions": [
+    {
+      "command": "python3 -m pytest -q tests/test_geometry_flows.py tests/test_geometry_integration_review.py --basetemp .test-tmp/integration-corrected",
+      "result": "23passed8.78s/no skips",
+      "snapshot": "b7198f6",
+      "scope": "Original23controls incl actualheadlessGodot; before dee71fa"
+    },
+    {
+      "command": "python3 -m pytest -q tests/test_geometry_integration_review.py --basetemp .test-tmp/integration-lineage-corrected",
+      "result": "8passed1failed",
+      "snapshot": "b7198f6",
+      "scope": "Added baseasset control passes; original input-mask gap discovered/preserved"
+    },
+    {
+      "command": "python3 -m pytest -q tests/test_geometry_integration_review.py -k \"prepared_raster or revision_sequence\" --basetemp .test-tmp/additional-lineage-final",
+      "result": "2passed8deselected0.18s",
+      "snapshot": "27849f5",
+      "scope": "Stronger original maskRGB/full-plan acquisition replay and revision binding controls"
+    },
+    {
+      "command": "python3 -m pytest -q tests/test_coherent_workbench.py --basetemp .test-tmp/coherent-review-corrected",
+      "result": "5passed1.42s",
+      "snapshot": "2265824",
+      "scope": "Owner authored coherent cases executed independently; not full state/renderer suite"
+    }
+  ],
+  "resolution": {
+    "G01": "resolved structured step failure",
+    "G02": "resolved rejection of unsupported guard input",
+    "G03": "resolved finite repetitions flattened into explicit merged timeline",
+    "G04": "resolved hiddenRGB identity without an absent back layer",
+    "G05": "resolved typed original-chain lineage and immutable track audit binding",
+    "G06": "resolved common65536play limit/validated save",
+    "G07": "resolved original maskRGBA/format descriptor/source_mask closure and full-plan replay",
+    "G08": "resolved revision.sequence/output.sequence coherence after pipeline metadata binding"
+  },
+  "original_mask_rgba_sha256": "1bcdba913c2f96ba8bfdb8011ceaba848b37e6b652c5c4e63c50ad657389095d",
+  "original_mask_shape": [
+    2,
+    2,
+    4
+  ],
+  "original_mask_format": {
+    "dtype": "uint8",
+    "packing": "rgba",
+    "shape": [
+      2,
+      2,
+      4
+    ]
+  },
+  "source_raw_png_sha256": "be72a79edd1625238ce6c823a37f58803930b0109b7ca962b38c907ef21175ed",
+  "visual_approval": "unreviewed; no GPU/browser continuous viewing; no synthetic9 score",
+  "paid_model_provider_calls": false
+}

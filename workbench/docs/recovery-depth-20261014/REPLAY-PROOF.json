@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "passed": true,
+  "lua": {
+    "runtime": "LuaJIT 2.1.1761786044",
+    "assertions": 98,
+    "cases": [
+      "text_storage_and_caption_grammar",
+      "enhancement_merge_and_stale_first_guard",
+      "first_source_comparison_and_caption_reset",
+      "cost_estimator_boundaries_and_maximum_axes",
+      "numeric_seed_strings_not_coerced_by_private_serializer",
+      "placement_size_precedence_full_canvas_ignores_stale_selection",
+      "placement_subregion_and_mixed_axis_overflow_predicate",
+      "response_geometry_and_crop_are_not_png_decode_or_resize",
+      "logical_reference_markers_and_real_destination_count"
+    ],
+    "passed": true,
+    "library_soname": "libluajit-5.1.so.2",
+    "boundary": "Actual original Lua methods; Image, app, JSON codec and timeline APIs are symbolic local stubs, not native editor execution"
+  },
+  "web": {
+    "passed": true,
+    "cases": [
+      "literal_prompt_default_engine_callback_finally",
+      "first_last_and_caption_field_mapping",
+      "helper_does_not_supply_enum_integer_validation",
+      "missing_auth_is_local_rejection_with_synthetic_context",
+      "blank_prompt_is_local_rejection"
+    ],
+    "authority": "controlled replay of original function with synthetic lexical host; no React/HTTP/backend execution",
+    "source_sha256": "577841f27adf5f03ff8acdac3667dccea188eb7afd14f1a9affa7e79d3d6237a"
+  },
+  "sources": [
+    {
+      "path": "extension-extracted/PixelLab/pixminimax.lua",
+      "sha256": "eabce383a55e68344a311c242e7979464318169c6077323903311b650ffd1f52"
+    },
+    {
+      "path": "extension-extracted/PixelLab/dialog-settings.lua",
+      "sha256": "ff215847d56ad935f0e73608d2b69e7582f703190557a39350bda0dc6f44489c"
+    },
+    {
+      "path": "extension-extracted/PixelLab/create-json.lua",
+      "sha256": "fa23648cca2b31681f97be145328d9ae6f488b0bac8e13fe0fc1575b9944b87d"
+    },
+    {
+      "path": "extension-extracted/PixelLab/place-image.lua",
+      "sha256": "ea5db9151320986edc1e8c4246cc00b3d18c126dde372c353f4e405ebe3816ff"
+    },
+    {
+      "path": "extension-extracted/PixelLab/prepare-for-generation.lua",
+      "sha256": "454952bd080bbe58ec2a87134fa8a4f4e6bb31375e06965bedc09b710f3d61da"
+    },
+    {
+      "path": "website-art-bundles/create-677791a6e206dafa.js",
+      "sha256": "3938b48d590633a6c1f6549609404c96ca12c81909433f2b915b153d3538e70a"
+    }
+  ],
+  "harnesses": [
+    {
+      "file": "scripts/replay_prompt_frame_recovery.py",
+      "sha256": "9ce579bc00d99523f275b201e05578001775b3d0ab02389b96257752e9f339a3"
+    },
+    {
+      "file": "scripts/recovery_depth/prompt_frame_replay.lua",
+      "sha256": "19027761d29394eed2ce3a878d900b41906ad10122964f39eae1929a6c7e300c"
+    },
+    {
+      "file": "scripts/recovery_depth/prompt_frame_web_replay.cjs",
+      "sha256": "cc34782130a8bd53b10dee9983561b7d5b5f12bab111a17279c178503f2ed88b"
+    }
+  ],
+  "model_or_provider_calls": 0,
+  "credentials_loaded": false,
+  "native_editor_executed": false,
+  "private_prompt_or_frame_sampling_algorithm_recovered": false,
+  "scope": "Deterministic isolated replay of selected original client methods only; no artwork or universal client acceptance"
+}

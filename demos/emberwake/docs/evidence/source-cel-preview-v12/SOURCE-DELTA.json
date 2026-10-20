@@ -1,0 +1,68 @@
+{
+  "compared_to": "/home/astra/artifacts/emberwake-source-cel-game-preview-v11",
+  "resources": [
+    {
+      "actor": "rowan",
+      "changed_atlas_cells": [],
+      "clip_tables_clocks_sockets_and_other_manifest_fields_equal": true,
+      "manifest_difference_only": {
+        "field": "directional_source",
+        "before": "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+        "after": "art-source/eight-direction-v1/registration-v12-brann-new-gait.json"
+      },
+      "atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c"
+    },
+    {
+      "actor": "lyra",
+      "changed_atlas_cells": [],
+      "clip_tables_clocks_sockets_and_other_manifest_fields_equal": true,
+      "manifest_difference_only": {
+        "field": "directional_source",
+        "before": "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+        "after": "art-source/eight-direction-v1/registration-v12-brann-new-gait.json"
+      },
+      "atlas_sha256": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26"
+    },
+    {
+      "actor": "brann",
+      "changed_atlas_cells": [
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207
+      ],
+      "clip_tables_clocks_sockets_and_other_manifest_fields_equal": true,
+      "manifest_difference_only": {
+        "field": "directional_source",
+        "before": "art-source/eight-direction-v1/registration-v11-rowan-turn-and-brann-fist.json",
+        "after": "art-source/eight-direction-v1/registration-v12-brann-new-gait.json"
+      },
+      "atlas_sha256": "a3d39ce03c0c618eb4c18b09da7fda640005ed7ac6dda9bf648c4f68f77feb11"
+    }
+  ],
+  "new_scope": "BrannNE/NWwalk8+8only,144clipclocks/tables/sockets identical",
+  "runtime_sources_byte_exact": [
+    "scripts/hero.gd",
+    "scripts/enemy.gd",
+    "scripts/projectile.gd",
+    "scripts/combat_fx.gd",
+    "scripts/main.gd",
+    "scripts/hud.gd",
+    "scenes/main.tscn",
+    "project.godot",
+    "export_presets.cfg"
+  ],
+  "corrected_probe": "Initial fullmanifest-byte assertion failed becauseof the actual directional_source configurationpath field inall3manifests. Onlythatfielddiffers; itsvalues retainedhere, notsilentlyignored."
+}

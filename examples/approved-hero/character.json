@@ -1,0 +1,241 @@
+{
+  "schema": "sprite-character-lock/v1",
+  "id": "generic_rpg_hero",
+  "approved_walk_manifest": "approved/walk/manifest.json",
+  "approved_walk_manifest_sha256": "89666748bc27c9f67fb13faf229b56a777907566681b00ee229c31c23fa1d8af",
+  "original_approved_manifest_sha256": "975b6e31a5bab96391ba4045544d62e737a9b4a68a9f78086c243bfe24f212df",
+  "view": "right_three_quarter",
+  "canvas": [
+    128,
+    128
+  ],
+  "nominal_ground_pivot": [
+    64,
+    106
+  ],
+  "opaque_bounds_per_frame": [
+    [
+      41,
+      18,
+      89,
+      110
+    ],
+    [
+      41,
+      18,
+      89,
+      110
+    ],
+    [
+      41,
+      17,
+      90,
+      111
+    ],
+    [
+      41,
+      17,
+      90,
+      111
+    ],
+    [
+      41,
+      17,
+      90,
+      111
+    ],
+    [
+      42,
+      16,
+      89,
+      111
+    ],
+    [
+      44,
+      15,
+      88,
+      110
+    ],
+    [
+      44,
+      15,
+      87,
+      110
+    ],
+    [
+      44,
+      15,
+      86,
+      110
+    ],
+    [
+      44,
+      15,
+      85,
+      110
+    ],
+    [
+      44,
+      16,
+      85,
+      110
+    ],
+    [
+      44,
+      17,
+      88,
+      109
+    ],
+    [
+      44,
+      17,
+      88,
+      109
+    ],
+    [
+      44,
+      17,
+      90,
+      109
+    ],
+    [
+      45,
+      18,
+      91,
+      109
+    ],
+    [
+      45,
+      19,
+      91,
+      109
+    ],
+    [
+      45,
+      19,
+      88,
+      109
+    ],
+    [
+      45,
+      18,
+      88,
+      109
+    ],
+    [
+      44,
+      17,
+      86,
+      109
+    ],
+    [
+      44,
+      17,
+      86,
+      109
+    ],
+    [
+      44,
+      16,
+      86,
+      109
+    ],
+    [
+      44,
+      15,
+      85,
+      109
+    ],
+    [
+      45,
+      15,
+      85,
+      109
+    ],
+    [
+      44,
+      15,
+      85,
+      109
+    ],
+    [
+      44,
+      15,
+      85,
+      108
+    ],
+    [
+      44,
+      15,
+      85,
+      108
+    ],
+    [
+      44,
+      17,
+      85,
+      108
+    ],
+    [
+      44,
+      17,
+      85,
+      108
+    ],
+    [
+      44,
+      17,
+      86,
+      109
+    ],
+    [
+      44,
+      18,
+      87,
+      109
+    ]
+  ],
+  "painted_height_range": [
+    90,
+    95
+  ],
+  "identity": [
+    "spiky warm brown hair",
+    "blue eye",
+    "silver shoulder and forearm armour",
+    "blue tunic with gold edging",
+    "cream trousers",
+    "brown gloves and boots"
+  ],
+  "held_equipment": "none",
+  "references": [
+    "references/approved-walk-frame00.png",
+    "references/approved-walk-all30-native.png",
+    "references/approved-walk-all30-2x.png"
+  ],
+  "reference_role": "Approved drawing and costume; walk frame00 is not an approved neutral idle. Submitted appearance384 is historical model input.",
+  "preserve": [
+    "painted body scale and perspective",
+    "costume and face design",
+    "fixed view and lighting",
+    "original approved walk PNG bytes and timing"
+  ],
+  "new_pose_policy": "Attack/jump require new authored or generated poses and fresh review; no hidden rig inferred from flat walk cels.",
+  "next_action_stage": {
+    "canvas": [
+      192,
+      192
+    ],
+    "constant_padding": [
+      32,
+      64
+    ],
+    "nominal_ground_pivot": [
+      96,
+      170
+    ],
+    "identity_reference": "references/action-reference192.png",
+    "provider_input_reference": "references/action-reference384-green.png",
+    "qualification": "Constantpadding andNN2x only; sourceframe00paint exact. Neither is new pose art, new neutral approval or landing/contact evidence."
+  }
+}

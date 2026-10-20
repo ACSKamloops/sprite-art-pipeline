@@ -1,0 +1,1597 @@
+{
+	"charge_receipts": [
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 13,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				69.0,
+				67.0
+			],
+			"screen_hand": [
+				163.300003051758,
+				190.300003051758
+			],
+			"screenshot": "rowan-south-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "c8ad566bf9412995f0fd817554b633b5b23997e07f00da5a0288f6a74c2c2c6d",
+			"state_time": 0.1,
+			"view": "south",
+			"warm_changed_pixels_near_hand": 153
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 14,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				69.0,
+				66.0
+			],
+			"screen_hand": [
+				163.300003051758,
+				189.639999389648
+			],
+			"screenshot": "rowan-south-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "d8cca8db8d52d58d5049951597386411d82d234b7a6594f42aaf85594bcbb9b7",
+			"state_time": 0.19,
+			"view": "south",
+			"warm_changed_pixels_near_hand": 159
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 137,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				92.0,
+				55.0
+			],
+			"screen_hand": [
+				178.479995727539,
+				182.380004882812
+			],
+			"screenshot": "rowan-southeast-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "9cad358ed57f635b822db871232bd28dd6d428a71e194a7ff2d20bd48baca9b5",
+			"state_time": 0.1,
+			"view": "southeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 138,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				94.0,
+				54.0
+			],
+			"screen_hand": [
+				179.800003051758,
+				181.720001220703
+			],
+			"screenshot": "rowan-southeast-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "2ea1e98803383672e21238034ffafea4089b7d66e3c94a787e3e73571299e283",
+			"state_time": 0.19,
+			"view": "southeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 37,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				78.0,
+				65.0
+			],
+			"screen_hand": [
+				169.240005493164,
+				188.979995727539
+			],
+			"screenshot": "rowan-east-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "5ce5773bec2fb56b3bc41063279d1790ceb2e60bc1b8017538975481b6543b8d",
+			"state_time": 0.1,
+			"view": "east",
+			"warm_changed_pixels_near_hand": 157
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 38,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				78.0,
+				65.0
+			],
+			"screen_hand": [
+				169.240005493164,
+				188.979995727539
+			],
+			"screenshot": "rowan-east-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "dededbf119edcc6e49df55be645e224e4b04e8e84d89ee29de9784efc39b85ee",
+			"state_time": 0.19,
+			"view": "east",
+			"warm_changed_pixels_near_hand": 149
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 169,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				96.0,
+				52.0
+			],
+			"screen_hand": [
+				181.119995117188,
+				180.399993896484
+			],
+			"screenshot": "rowan-northeast-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "3080ac447d02792db63a3c37570325661658461cc8417f65f3f89c716661c993",
+			"state_time": 0.1,
+			"view": "northeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 170,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				98.0,
+				51.0
+			],
+			"screen_hand": [
+				182.440002441406,
+				179.739990234375
+			],
+			"screenshot": "rowan-northeast-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "f74cdd04ff718713aef2be3844f93c62a7b56b86a5dc845c657355ee34627fe4",
+			"state_time": 0.19,
+			"view": "northeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 61,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				85.0,
+				64.0
+			],
+			"screen_hand": [
+				173.860000610352,
+				188.320007324219
+			],
+			"screenshot": "rowan-north-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "d620a0899a57b06287e266b700ab7f8dfef06dee02b9537953c58bcd0f1dd87d",
+			"state_time": 0.1,
+			"view": "north",
+			"warm_changed_pixels_near_hand": 161
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 62,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				83.0,
+				61.0
+			],
+			"screen_hand": [
+				172.540008544922,
+				186.339996337891
+			],
+			"screenshot": "rowan-north-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "a8e6fd024302f7d0375ff850b1bd319973fe95465bb81e597f36498da827b8be",
+			"state_time": 0.19,
+			"view": "north",
+			"warm_changed_pixels_near_hand": 159
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 201,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				32.0,
+				52.0
+			],
+			"screen_hand": [
+				138.880004882812,
+				180.399993896484
+			],
+			"screenshot": "rowan-northwest-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "83c2b96c796f56521b7e64d3a65138e83b03a7892e893cca5839b194be3621c7",
+			"state_time": 0.1,
+			"view": "northwest",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 202,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				30.0,
+				51.0
+			],
+			"screen_hand": [
+				137.559997558594,
+				179.739990234375
+			],
+			"screenshot": "rowan-northwest-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "b5f818794e1a755ac20c729bbd950344750cb8bf196ab24b2673afd241904bac",
+			"state_time": 0.19,
+			"view": "northwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 85,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				52.0,
+				64.0
+			],
+			"screen_hand": [
+				152.080001831055,
+				188.320007324219
+			],
+			"screenshot": "rowan-west-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "6fbb7c804de86cc4a6e6c119111458202126523469be43cf68c042833cbb3ac8",
+			"state_time": 0.1,
+			"view": "west",
+			"warm_changed_pixels_near_hand": 163
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 86,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				47.0,
+				61.0
+			],
+			"screen_hand": [
+				148.779998779297,
+				186.339996337891
+			],
+			"screenshot": "rowan-west-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "afffa12922512c41a3cd0ab921a95afa4ef6034bd2f72ed3c626ae364a200998",
+			"state_time": 0.19,
+			"view": "west",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 1,
+			"frame": 233,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				36.0,
+				55.0
+			],
+			"screen_hand": [
+				141.520004272461,
+				182.380004882812
+			],
+			"screenshot": "rowan-southwest-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "a43a06933e01d2bdea16dda8de5203dfa5630b1849fa2106c410f713ea4d43a5",
+			"state_time": 0.1,
+			"view": "southwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"character": "rowan",
+			"exposure": 2,
+			"frame": 234,
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_hand": [
+				34.0,
+				54.0
+			],
+			"screen_hand": [
+				140.199996948242,
+				181.720001220703
+			],
+			"screenshot": "rowan-southwest-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "b0bac92619c569555bba226772d2b7c8c37208e9a23b2de0847328046a7447da",
+			"state_time": 0.19,
+			"view": "southwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 17,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				69.0,
+				68.0
+			],
+			"screen_hand": [
+				163.300003051758,
+				190.959991455078
+			],
+			"screenshot": "lyra-south-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "4f4fc7d316a663e837a0d041301d3da73cb35240123afa07dcd570ab5f6757c6",
+			"state_time": 0.1,
+			"view": "south",
+			"warm_changed_pixels_near_hand": 157
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 18,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				69.0,
+				67.0
+			],
+			"screen_hand": [
+				163.300003051758,
+				190.300003051758
+			],
+			"screenshot": "lyra-south-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "5e26063813776c19eb14d89b53b6d4ef37590bcb7d8950d5d76822bb03b58a3f",
+			"state_time": 0.19,
+			"view": "south",
+			"warm_changed_pixels_near_hand": 157
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 153,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				82.0,
+				66.0
+			],
+			"screen_hand": [
+				171.880004882812,
+				189.639999389648
+			],
+			"screenshot": "lyra-southeast-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "9f81cce843b42a931708a55bf50c68a55b6bded1479acb33efe63a190d55e6ff",
+			"state_time": 0.1,
+			"view": "southeast",
+			"warm_changed_pixels_near_hand": 162
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 154,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				83.0,
+				66.0
+			],
+			"screen_hand": [
+				172.540008544922,
+				189.639999389648
+			],
+			"screenshot": "lyra-southeast-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "7ec46f32932d2eae3b55ae40ddb5bb9b60e3ad89913dd3f4e2a6a968a3ce4d28",
+			"state_time": 0.19,
+			"view": "southeast",
+			"warm_changed_pixels_near_hand": 163
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 45,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				81.0,
+				67.0
+			],
+			"screen_hand": [
+				171.220001220703,
+				190.300003051758
+			],
+			"screenshot": "lyra-east-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "4d799f204e7b8e32299c354b15877500f76c878b3c33db8980f356a09fe85fc0",
+			"state_time": 0.1,
+			"view": "east",
+			"warm_changed_pixels_near_hand": 164
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 46,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				85.0,
+				61.0
+			],
+			"screen_hand": [
+				173.860000610352,
+				186.339996337891
+			],
+			"screenshot": "lyra-east-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "34830b70e32831d50288ac6ca16bfff38878360667c4f76e341014bee9e4e811",
+			"state_time": 0.19,
+			"view": "east",
+			"warm_changed_pixels_near_hand": 166
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 185,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				82.0,
+				62.0
+			],
+			"screen_hand": [
+				171.880004882812,
+				187.0
+			],
+			"screenshot": "lyra-northeast-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "f1108dae85e66c71a4c88b45f769e526c37033070896d216ae66943171699f99",
+			"state_time": 0.1,
+			"view": "northeast",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 186,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				83.0,
+				63.0
+			],
+			"screen_hand": [
+				172.540008544922,
+				187.660003662109
+			],
+			"screenshot": "lyra-northeast-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "2ec739d19a327ad75d7a3d5241c8c874cec96d0229d5ca1700b28af0cc6b5690",
+			"state_time": 0.19,
+			"view": "northeast",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 73,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				82.0,
+				66.0
+			],
+			"screen_hand": [
+				171.880004882812,
+				189.639999389648
+			],
+			"screenshot": "lyra-north-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "a675d2736c374c6f7b7c8d3c17904aa22f2790484a15c7a4fdf5c82223a392fa",
+			"state_time": 0.1,
+			"view": "north",
+			"warm_changed_pixels_near_hand": 149
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 74,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				83.0,
+				66.0
+			],
+			"screen_hand": [
+				172.540008544922,
+				189.639999389648
+			],
+			"screenshot": "lyra-north-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "901356d66423dff8224248951ef08ae588def91bcbc7f15074211f8216c5b79b",
+			"state_time": 0.19,
+			"view": "north",
+			"warm_changed_pixels_near_hand": 160
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 217,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				46.0,
+				62.0
+			],
+			"screen_hand": [
+				148.119995117188,
+				187.0
+			],
+			"screenshot": "lyra-northwest-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "80885d7be36064fd0bbb837ea79b8d2f49bd075eff93c072b8759b6535773ed1",
+			"state_time": 0.1,
+			"view": "northwest",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 218,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				45.0,
+				63.0
+			],
+			"screen_hand": [
+				147.459991455078,
+				187.660003662109
+			],
+			"screenshot": "lyra-northwest-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "ae4ccbd036f43d9eb9983104573d64b3e0c8d9368945186f1696d81ac90ee474",
+			"state_time": 0.19,
+			"view": "northwest",
+			"warm_changed_pixels_near_hand": 167
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 101,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				48.0,
+				64.0
+			],
+			"screen_hand": [
+				149.440002441406,
+				188.320007324219
+			],
+			"screenshot": "lyra-west-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "c1fc498e39ad71bfb14482c9dedb864348533d75d7cf8ffcf3673db9613d708c",
+			"state_time": 0.1,
+			"view": "west",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 102,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				41.0,
+				65.0
+			],
+			"screen_hand": [
+				144.820007324219,
+				188.979995727539
+			],
+			"screenshot": "lyra-west-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "192b4a778e2020b71e08316c3f8d875280cd3f55ee502305f28a80fbe0aee1b7",
+			"state_time": 0.19,
+			"view": "west",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 1,
+			"frame": 249,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				46.0,
+				66.0
+			],
+			"screen_hand": [
+				148.119995117188,
+				189.639999389648
+			],
+			"screenshot": "lyra-southwest-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "d786304c80d5c9923e140c11d309af7640953df870b502007bb17f7128dc95b9",
+			"state_time": 0.1,
+			"view": "southwest",
+			"warm_changed_pixels_near_hand": 168
+		},
+		{
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"character": "lyra",
+			"exposure": 2,
+			"frame": 250,
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_hand": [
+				45.0,
+				66.0
+			],
+			"screen_hand": [
+				147.459991455078,
+				189.639999389648
+			],
+			"screenshot": "lyra-southwest-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "409953722687d58d6b442e1df51efbd79e7fbf9f61540dabfa461e787ddee092",
+			"state_time": 0.19,
+			"view": "southwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 17,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				69.0,
+				68.0
+			],
+			"screen_hand": [
+				163.300003051758,
+				190.959991455078
+			],
+			"screenshot": "brann-south-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "fae9d286899b6c5ab699dcea6f0cd7235d12639b4c93d7affabbb8e20d930bb5",
+			"state_time": 0.1,
+			"view": "south",
+			"warm_changed_pixels_near_hand": 166
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 18,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				69.0,
+				67.0
+			],
+			"screen_hand": [
+				163.300003051758,
+				190.300003051758
+			],
+			"screenshot": "brann-south-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "9f3d808d3fc529bd971c785fc1c9d2fca88be9ae56009e2bd0cb974fd70a8212",
+			"state_time": 0.19,
+			"view": "south",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 153,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				79.0,
+				73.0
+			],
+			"screen_hand": [
+				169.899993896484,
+				194.259994506836
+			],
+			"screenshot": "brann-southeast-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "f4d4520d29a65eb8b09daeae7711ed2ba96d6e1d5a9b587a57003e2aa731dcc1",
+			"state_time": 0.1,
+			"view": "southeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 154,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				80.0,
+				73.0
+			],
+			"screen_hand": [
+				170.559997558594,
+				194.259994506836
+			],
+			"screenshot": "brann-southeast-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "e0136c88062a69c0528e517997d0de2919fbc93a1eeecc2c9c35af036d34344c",
+			"state_time": 0.19,
+			"view": "southeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 45,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				82.0,
+				60.0
+			],
+			"screen_hand": [
+				171.880004882812,
+				185.679992675781
+			],
+			"screenshot": "brann-east-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "93ff80faa1c7f3af8b6c38a497c8214523ff9c5254c4459942a9224d2d7cdfa3",
+			"state_time": 0.1,
+			"view": "east",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 46,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				90.0,
+				58.0
+			],
+			"screen_hand": [
+				177.160003662109,
+				184.360000610352
+			],
+			"screenshot": "brann-east-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "6e938cf0de85386f8ad2dd3e7e37bfaaf3d4e369dc56f0097236c2a5944da6c4",
+			"state_time": 0.19,
+			"view": "east",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 185,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				82.0,
+				61.0
+			],
+			"screen_hand": [
+				171.880004882812,
+				186.339996337891
+			],
+			"screenshot": "brann-northeast-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "c9c73f166769faa1a3a4bb2d2c1513dd214ef8eaada70c6583ced09969094010",
+			"state_time": 0.1,
+			"view": "northeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 186,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				82.0,
+				62.0
+			],
+			"screen_hand": [
+				171.880004882812,
+				187.0
+			],
+			"screenshot": "brann-northeast-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "f24a8665ef2dc75b9888db2a57ca2c7ba16b43381169271a4ff0c78f07ac7e9d",
+			"state_time": 0.19,
+			"view": "northeast",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 73,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				84.0,
+				64.0
+			],
+			"screen_hand": [
+				173.199996948242,
+				188.320007324219
+			],
+			"screenshot": "brann-north-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "92aca643e20893f65ec3231b39dea48de689bad977d1508e7dcfc0740cc21039",
+			"state_time": 0.1,
+			"view": "north",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 74,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				84.0,
+				64.0
+			],
+			"screen_hand": [
+				173.199996948242,
+				188.320007324219
+			],
+			"screenshot": "brann-north-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "a129a8d5c90c3527a95ff581f0374c2faab328b62f1a1c42fe5d0e9e2f3f10f3",
+			"state_time": 0.19,
+			"view": "north",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 217,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				46.0,
+				61.0
+			],
+			"screen_hand": [
+				148.119995117188,
+				186.339996337891
+			],
+			"screenshot": "brann-northwest-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "3276783712c9974258a5624accd11ae2fac47449612e47214d587e39d484e630",
+			"state_time": 0.1,
+			"view": "northwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 218,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				46.0,
+				62.0
+			],
+			"screen_hand": [
+				148.119995117188,
+				187.0
+			],
+			"screenshot": "brann-northwest-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "887f046326adb0a995da1115bfb7456d7e8a8ac33e23a54654befe0cc9a012e7",
+			"state_time": 0.19,
+			"view": "northwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 101,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				44.0,
+				63.0
+			],
+			"screen_hand": [
+				146.800003051758,
+				187.660003662109
+			],
+			"screenshot": "brann-west-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "ea5b5025f20fb4b377e46f76cb6f6636ae3d6c88e1cf0f93e571cb6b09a1414a",
+			"state_time": 0.1,
+			"view": "west",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 102,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				35.0,
+				56.0
+			],
+			"screen_hand": [
+				140.860000610352,
+				183.039993286133
+			],
+			"screenshot": "brann-west-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "bb1bb2f48915df88f366478cf5424510c28d23681102dee826fd7dd1ebe39f75",
+			"state_time": 0.19,
+			"view": "west",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 1,
+			"frame": 249,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				49.0,
+				73.0
+			],
+			"screen_hand": [
+				150.100006103516,
+				194.259994506836
+			],
+			"screenshot": "brann-southwest-prep1-plain-left-charge-right.png",
+			"screenshot_sha256": "585be98e2dc8dcea59d89e86fb88d53c54c40d5fbd8c76da563d0f41304093a9",
+			"state_time": 0.1,
+			"view": "southwest",
+			"warm_changed_pixels_near_hand": 169
+		},
+		{
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"character": "brann",
+			"exposure": 2,
+			"frame": 250,
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_hand": [
+				48.0,
+				73.0
+			],
+			"screen_hand": [
+				149.440002441406,
+				194.259994506836
+			],
+			"screenshot": "brann-southwest-prep2-plain-left-charge-right.png",
+			"screenshot_sha256": "9e4954cc8952b726aa3cacb10040ba7ebb83fed7f8a9ba41aad7c2909ffbe519",
+			"state_time": 0.19,
+			"view": "southwest",
+			"warm_changed_pixels_near_hand": 169
+		}
+	],
+	"checks": 657,
+	"display_server": "X11",
+	"failures": [],
+	"production_only": true,
+	"qualification": "Frozen engine fixture using actual production assets. Release pairs show plain left and fire right at .24 s; charge pairs show the two actual preparation cels with their moving palm points. Colored pixel differences check binding; visual glove anatomy/alignment and motion quality need separate review. No ordinary-play or numeric art-score claim.",
+	"receipts": [
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				99.0,
+				72.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 15,
+			"screen_socket": [
+				183.100006103516,
+				193.600006103516
+			],
+			"screenshot": "rowan-south-plain-left-release-right.png",
+			"screenshot_sha256": "994aa5d42d10da76f3f7928e55d5df166e5430362c0b67b55df2c8a09b30f350",
+			"view": "south",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				99.0,
+				56.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 139,
+			"screen_socket": [
+				183.100006103516,
+				183.039993286133
+			],
+			"screenshot": "rowan-southeast-plain-left-release-right.png",
+			"screenshot_sha256": "a67eab9768b092a01d7718d3b718e4e020d7f356ae950cc4de1df7201ed22a0c",
+			"view": "southeast",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				102.0,
+				57.0
+			],
+			"opaque_pixels_near_socket": 24,
+			"release_frame": 39,
+			"screen_socket": [
+				185.080001831055,
+				183.699996948242
+			],
+			"screenshot": "rowan-east-plain-left-release-right.png",
+			"screenshot_sha256": "edcaaa32c0874e535f859f69249aab25a8c98097e79f4fcd8f1c2b878fec2907",
+			"view": "east",
+			"warm_changed_pixels_near_socket": 115
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				99.0,
+				45.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 171,
+			"screen_socket": [
+				183.100006103516,
+				175.779998779297
+			],
+			"screenshot": "rowan-northeast-plain-left-release-right.png",
+			"screenshot_sha256": "af8b367567b43cd54dd6aaaaad8ccbbc23a20be09ed612f2760187c7e52e1cd8",
+			"view": "northeast",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				93.0,
+				49.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 63,
+			"screen_socket": [
+				179.139999389648,
+				178.419998168945
+			],
+			"screenshot": "rowan-north-plain-left-release-right.png",
+			"screenshot_sha256": "900fa0b855b7c3075043cd49668859573411617f68034b58bfa831aa985812a6",
+			"view": "north",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				29.0,
+				45.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 203,
+			"screen_socket": [
+				136.899993896484,
+				175.779998779297
+			],
+			"screenshot": "rowan-northwest-plain-left-release-right.png",
+			"screenshot_sha256": "3d77f2ca73eef12c6a3ba20e3a4641d728161986aee7f515fb7e502d5f3a7838",
+			"view": "northwest",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				24.0,
+				60.0
+			],
+			"opaque_pixels_near_socket": 18,
+			"release_frame": 87,
+			"screen_socket": [
+				133.600006103516,
+				185.679992675781
+			],
+			"screenshot": "rowan-west-plain-left-release-right.png",
+			"screenshot_sha256": "8e1cb59d572b7548832e917118f87fbbdfc48fb259f17d5e183050a0281ff61a",
+			"view": "west",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/hero/atlas.png",
+			"atlas_sha256": "87e6502359cf38c3a8048efbd10cc5e626b5497ca695e42915664ade9910859b",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "rowan",
+			"columns": 16,
+			"manifest": "res://assets/hero/animations.json",
+			"manifest_sha256": "8ee9487913fa35b71a175ad4850ad8937a9e3fe8bdbbd553843ab1183fb55098",
+			"native_socket": [
+				29.0,
+				56.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 235,
+			"screen_socket": [
+				136.899993896484,
+				183.039993286133
+			],
+			"screenshot": "rowan-southwest-plain-left-release-right.png",
+			"screenshot_sha256": "52c945656e40b3215297a48c70968cfaa3412d8a895ac3715586536d77b6a0e7",
+			"view": "southwest",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				99.0,
+				72.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 19,
+			"screen_socket": [
+				183.100006103516,
+				193.600006103516
+			],
+			"screenshot": "lyra-south-plain-left-release-right.png",
+			"screenshot_sha256": "1ca5b0c49f1b3fce17fe142ea92be41b8fe58932a11aba6ca15434d051b834f7",
+			"view": "south",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				100.0,
+				61.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 155,
+			"screen_socket": [
+				183.759994506836,
+				186.339996337891
+			],
+			"screenshot": "lyra-southeast-plain-left-release-right.png",
+			"screenshot_sha256": "1f6ddeacdcb4f04f380242a628ab48ddfe930ffbdca65f577057b2df01209022",
+			"view": "southeast",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				95.0,
+				58.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 47,
+			"screen_socket": [
+				180.460006713867,
+				184.360000610352
+			],
+			"screenshot": "lyra-east-plain-left-release-right.png",
+			"screenshot_sha256": "9f1673b7d27a46bad78b127b8a267acc15ccf118439c971393b1c36fd771604f",
+			"view": "east",
+			"warm_changed_pixels_near_socket": 114
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				96.0,
+				40.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 187,
+			"screen_socket": [
+				181.119995117188,
+				172.479995727539
+			],
+			"screenshot": "lyra-northeast-plain-left-release-right.png",
+			"screenshot_sha256": "3b6b10bebb041a0b66103f8aa467b4df13bf7397b45efb8f44e0432709aaa8b9",
+			"view": "northeast",
+			"warm_changed_pixels_near_socket": 114
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				94.0,
+				57.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 75,
+			"screen_socket": [
+				179.800003051758,
+				183.699996948242
+			],
+			"screenshot": "lyra-north-plain-left-release-right.png",
+			"screenshot_sha256": "aadc8688c3f6463ccbf201bee9db1679bae0fc98ae2343c61c19a9c30a0bd5ef",
+			"view": "north",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				32.0,
+				40.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 219,
+			"screen_socket": [
+				138.880004882812,
+				172.479995727539
+			],
+			"screenshot": "lyra-northwest-plain-left-release-right.png",
+			"screenshot_sha256": "09411d88216d09aa748fdf3a220d1112380d90efe2f2957402a93c4b4b36ab79",
+			"view": "northwest",
+			"warm_changed_pixels_near_socket": 115
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				34.0,
+				58.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 103,
+			"screen_socket": [
+				140.199996948242,
+				184.360000610352
+			],
+			"screenshot": "lyra-west-plain-left-release-right.png",
+			"screenshot_sha256": "803d4ad825f5d6bcaa8c8729e95799a08c57b081f66ff3484d7675f24821e3ff",
+			"view": "west",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/lyra/atlas.png",
+			"atlas_sha256": "dc2bd5562c05137d6eb59c37263ea3988ae1b35e84f5c984ee2c9e165b7065b5",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "lyra",
+			"columns": 16,
+			"manifest": "res://assets/characters/lyra/animations.json",
+			"manifest_sha256": "e8ee53332376d6f3da4bd29af43dbf1db98517b80093c5cc16466d603b2bbcd2",
+			"native_socket": [
+				28.0,
+				61.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 251,
+			"screen_socket": [
+				136.240005493164,
+				186.339996337891
+			],
+			"screenshot": "lyra-southwest-plain-left-release-right.png",
+			"screenshot_sha256": "e8beba9512bec4df9c9ad9826b72eb74d6be217f64f6dc24373c21537ce520f2",
+			"view": "southwest",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				101.0,
+				72.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 19,
+			"screen_socket": [
+				184.419998168945,
+				193.600006103516
+			],
+			"screenshot": "brann-south-plain-left-release-right.png",
+			"screenshot_sha256": "4fcaad4892da9390e0f1ae05a9655d9f6f11b426ae92edde25dc3606ed00488c",
+			"view": "south",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				99.0,
+				59.0
+			],
+			"opaque_pixels_near_socket": 24,
+			"release_frame": 155,
+			"screen_socket": [
+				183.100006103516,
+				185.020004272461
+			],
+			"screenshot": "brann-southeast-plain-left-release-right.png",
+			"screenshot_sha256": "88495f132ddd41691bd30c96e2b4bf1ccfbf6bdf1cfe28cf9109e3bd4d5d4dfc",
+			"view": "southeast",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				96.0,
+				52.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 47,
+			"screen_socket": [
+				181.119995117188,
+				180.399993896484
+			],
+			"screenshot": "brann-east-plain-left-release-right.png",
+			"screenshot_sha256": "a4172df408fe3e4d46aca3ed54b4198f3745b188fa95a6eeb6c6652cc4498f12",
+			"view": "east",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				100.0,
+				38.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 187,
+			"screen_socket": [
+				183.759994506836,
+				171.160003662109
+			],
+			"screenshot": "brann-northeast-plain-left-release-right.png",
+			"screenshot_sha256": "35e5e6811df2d014762a1a8163f6bd5f9f7ae57303a76e762a35afe93c422b65",
+			"view": "northeast",
+			"warm_changed_pixels_near_socket": 116
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				96.0,
+				40.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 75,
+			"screen_socket": [
+				181.119995117188,
+				172.479995727539
+			],
+			"screenshot": "brann-north-plain-left-release-right.png",
+			"screenshot_sha256": "c15ec7fecd4f4f8f4cf56e925141fa45baf3595a0d9f0b6d04c17d378febca84",
+			"view": "north",
+			"warm_changed_pixels_near_socket": 117
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				28.0,
+				38.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 219,
+			"screen_socket": [
+				136.240005493164,
+				171.160003662109
+			],
+			"screenshot": "brann-northwest-plain-left-release-right.png",
+			"screenshot_sha256": "6a6ab5c34edcc36e5cd112232e76730bc80d913d349ec9a6b317a717f3b6c7e8",
+			"view": "northwest",
+			"warm_changed_pixels_near_socket": 118
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				32.0,
+				52.0
+			],
+			"opaque_pixels_near_socket": 25,
+			"release_frame": 103,
+			"screen_socket": [
+				138.880004882812,
+				180.399993896484
+			],
+			"screenshot": "brann-west-plain-left-release-right.png",
+			"screenshot_sha256": "f94e565ba579735fb3a42a6774dc0109c7e1650bc7f9aad9ffab270f913a0a16",
+			"view": "west",
+			"warm_changed_pixels_near_socket": 115
+		},
+		{
+			"atlas": "res://assets/characters/brann/atlas.png",
+			"atlas_sha256": "c3067c050df04dfe52d47c6cab211e10837a5d4133fd079c017d31313db5bfed",
+			"cell": [
+				128.0,
+				128.0
+			],
+			"character": "brann",
+			"columns": 16,
+			"manifest": "res://assets/characters/brann/animations.json",
+			"manifest_sha256": "c0340e3d5817bd99f809152c9443efddef72b69a19f0916836791097eccd3b18",
+			"native_socket": [
+				29.0,
+				59.0
+			],
+			"opaque_pixels_near_socket": 24,
+			"release_frame": 251,
+			"screen_socket": [
+				136.899993896484,
+				185.020004272461
+			],
+			"screenshot": "brann-southwest-plain-left-release-right.png",
+			"screenshot_sha256": "b9fa1d2529796ac29943846488ae8e2ee845ad2d456100565dbd52605121412f",
+			"view": "southwest",
+			"warm_changed_pixels_near_socket": 116
+		}
+	],
+	"rendered": true,
+	"rendering_method": "gl_compatibility"
+}

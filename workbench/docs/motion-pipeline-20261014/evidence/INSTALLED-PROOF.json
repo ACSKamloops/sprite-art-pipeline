@@ -1,0 +1,118 @@
+{
+  "kind": "installed-motion-proof",
+  "version": 1,
+  "package_version": "0.8.1",
+  "package": "/home/astra/artifacts/pixellab-motion-pipeline-20261014/v081-final/install-venv/lib/python3.14/site-packages/sprite_workbench",
+  "source_fingerprint": "fb6323b954708942c6b2cca849a9e979c7de118861b10b132d3bb34fe4cbc74b",
+  "provider_calls": 0,
+  "visual_acceptance": "unreviewed",
+  "checks": [
+    {
+      "id": "packaged_native_examples",
+      "status": "passed"
+    },
+    {
+      "id": "actual_native_clock",
+      "status": "passed"
+    },
+    {
+      "id": "pts_kept_per_frame",
+      "status": "passed"
+    },
+    {
+      "id": "explicit_fast_strike_frames",
+      "status": "passed"
+    },
+    {
+      "id": "authored_clock_separate",
+      "status": "passed"
+    },
+    {
+      "id": "plan_preserves_canonical_sequence_id",
+      "status": "passed"
+    },
+    {
+      "id": "actual_recovered_masks",
+      "status": "passed"
+    },
+    {
+      "id": "holds_and_order_preserved",
+      "status": "passed"
+    },
+    {
+      "id": "fixed_palette_alpha_recorded",
+      "status": "passed"
+    },
+    {
+      "id": "cold_editable_identity",
+      "status": "passed"
+    },
+    {
+      "id": "cold_unsampled_native_frame",
+      "status": "passed"
+    },
+    {
+      "id": "cold_native_media_and_mask",
+      "status": "passed"
+    },
+    {
+      "id": "cold_native_fixture_request_and_reference",
+      "status": "passed"
+    },
+    {
+      "id": "precise_edit_undo_redo",
+      "status": "passed"
+    },
+    {
+      "id": "edit_receipt_replayed",
+      "status": "passed"
+    },
+    {
+      "id": "offline_prepare_safe_state",
+      "status": "passed"
+    },
+    {
+      "id": "prepare_does_not_reset_attempted_state",
+      "status": "passed"
+    },
+    {
+      "id": "jsonl_status_and_disabled_submit",
+      "status": "passed"
+    },
+    {
+      "id": "installed_cli_motion",
+      "status": "passed"
+    },
+    {
+      "id": "http_motion_status",
+      "status": "passed"
+    },
+    {
+      "id": "http_native_video_bytes",
+      "status": "passed"
+    }
+  ],
+  "status": "passed",
+  "sequence": "38d3c38e21c2c016018a4f045dc672e471f2dd075603c376f29cc891eefe3ed8",
+  "native": {
+    "media": "aed5ac139188860f2e3e39f58484ebda394c77fa7b8ae99f777cced03c572132",
+    "extraction": "a7b2cee64cc43b851881c0e428f451dd4511d14019e31126b0e5461d2e813f92",
+    "sequence": "1f67602d4748fd4a54e6743a2364c79c4b5b127362c854f25595a8c58b3ed50b",
+    "frame_count": 107,
+    "canvas": [
+      768,
+      768
+    ],
+    "duration": [
+      107,
+      24
+    ],
+    "clock_note": "Exact source PTS holds; authored one-shot inspection",
+    "media_url": "/api/motion/media/a7b2cee64cc43b851881c0e428f451dd4511d14019e31126b0e5461d2e813f92.mp4",
+    "source_note": "Retained recorded native H3 pilot h3-slash-margin-002; this fixture performs no provider call. Supplied media provenance is not independently authenticated."
+  },
+  "authored_duration": [
+    4,
+    5
+  ]
+}

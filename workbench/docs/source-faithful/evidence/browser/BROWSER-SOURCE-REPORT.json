@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "recorded_utc": "2026-10-14T01:17:35.375456+00:00",
+  "checks": [
+    {
+      "name": "slash browser action succeeded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "slash full-original-bundle oracle matches every stream frame",
+      "passed": true,
+      "detail": {
+        "compared_rasters": 21
+      }
+    },
+    {
+      "name": "orb_default browser action succeeded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "orb_default full-original-bundle oracle matches every stream frame",
+      "passed": true,
+      "detail": {
+        "compared_rasters": 24
+      }
+    },
+    {
+      "name": "orb_size14 browser action succeeded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "orb_size14 full-original-bundle oracle matches every stream frame",
+      "passed": true,
+      "detail": {
+        "compared_rasters": 24
+      }
+    },
+    {
+      "name": "source control variation retains raw and applied forms",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "download contains chosen raw declared recipe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "playing canvas shows every exact source frame and successive loop transitions",
+      "passed": true,
+      "detail": {
+        "transitions": 26,
+        "loop_wraps": 3,
+        "transition_ms_min": 53.30000000074506,
+        "transition_ms_max": 83.60000000149012
+      }
+    },
+    {
+      "name": "recent render restores its raw settings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "recent render clears actually populated stale optional inputs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "result opens in separate local editor with source preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "390px source UI stays within viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original future-version validator rejects without replacing prior result",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "final source setup proof is current and comparisons stay blocked",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "source_records": {
+    "slash": {
+      "sequence": "0e6102e68294db753681aa4b01159648c88c39c6c9dbf64708873dc152fa6873",
+      "recipe": "77a4b6085bab8fb260596b747b31692726505532d28b1531a53b7304b8744440",
+      "control_receipt": "3bb40c58a5660586c55f1f5263b8742e0ea3f57204c8eb66f0fb2e3c6f7086c0",
+      "declared_recipe_sha256": "a10a04f31aa54c7ca79505f5542f0ab488f616e5ca1516d7afad0a09f7653f18"
+    },
+    "orb_default": {
+      "sequence": "2a74cf406e9f4fbd951ef21f98b50d277ec8d2f1c06bf976ceb99973c424ee3a",
+      "recipe": "63f007cdd79fdf490d0128662420cc9bc8ddb1666142b0b18efcc942d488cc84",
+      "control_receipt": "984d86d5cff7b727584bfe746d602aaa982b7a18a885be96d4107c592cb43d3b",
+      "declared_recipe_sha256": "6018acc5ce99f04e083fc376e421854363dde934aaefc8dda3e71be4fda5f9b0"
+    },
+    "orb_size14": {
+      "sequence": "509337e59fe567c3f5dc0506670ae7446c36071c45c974cc70efd2be834bfd7a",
+      "recipe": "050194ca9e90960ce5ab24fe7f919169306c1d5bde507caccdd2f05236c8aa01",
+      "control_receipt": "b0173dee0baea486c990b517e8ce6dfba23a6bb5df81d6873da1f093f73358c8",
+      "declared_recipe_sha256": "f242f5b21469be98d050ce942d01bf8025dfb23784d8a7a73a86c7ece4705d9b"
+    }
+  },
+  "files": [
+    {
+      "file": "source-slash-result.log",
+      "sha256": "9317661728124db23f7f7f9273ec77f6353bf7c6ef3724461ffea548aec89a7a",
+      "bytes": 34375
+    },
+    {
+      "file": "source-orb-default-result.log",
+      "sha256": "c8b12d54513782bc5d340d925cdfe1d1878ed81c97333af5865f318718f2f3eb",
+      "bytes": 31122
+    },
+    {
+      "file": "source-orb-variant-result.log",
+      "sha256": "8b679b43f9585bc84e29a2a7a518089dc90048a0171f75c600b27af0cdd52f9b",
+      "bytes": 31198
+    },
+    {
+      "file": "source-playback-samples.log",
+      "sha256": "45801dd7ab7ffdb95bf1e3b8f184c89b87d56ea815fcfe8d00b75cf777200965",
+      "bytes": 100914
+    },
+    {
+      "file": "source-restore-result.log",
+      "sha256": "b66e63d8a93a6ec98bb65296b77f910a4f4e47b336b1ff960580b745f936c6d6",
+      "bytes": 2869
+    },
+    {
+      "file": "source-stale-before.log",
+      "sha256": "00535a5d601f41f1c646b87a06ec70cfb39732b3fa3f316930b522332f62cbd7",
+      "bytes": 384
+    },
+    {
+      "file": "source-final-input-result.log",
+      "sha256": "f53a09415802ff0dcb3cf1f1d1e51a2e68a8b4b3d9a2d89bb90a525a62dee973",
+      "bytes": 564
+    },
+    {
+      "file": "source-editor-result.log",
+      "sha256": "59ce7672fe401381d3b523ae0f8320746af98612aa99dab632481e8998881622",
+      "bytes": 596
+    },
+    {
+      "file": "source-mobile-dom.log",
+      "sha256": "039bc5907fc592a37cf60b3f4c5cb431f1a6146e16a505a9925804fb8ac85d00",
+      "bytes": 282
+    },
+    {
+      "file": "source-invalid-result.log",
+      "sha256": "af322d38da56d98e1805a07bf3c8f67a2ae6a9b9cb97bff276484531966f3a80",
+      "bytes": 606
+    },
+    {
+      "file": "source-save-recipe.log",
+      "sha256": "54015cf72ab89855f81a01025b9995250d8f0974f07aa354a11cde29f3a0ce9b",
+      "bytes": 458
+    },
+    {
+      "file": "source-console.log",
+      "sha256": "3fa97d72a0cb5bd575a2a132a27d74b3ba4004699793155e206486d1789639d5",
+      "bytes": 282
+    },
+    {
+      "file": "pixellab-slash.png",
+      "sha256": "bea4641ac7712ed28339847fe56cc30e7a3489fc2ed9fcbc22e8205538cedf72",
+      "bytes": 127537
+    },
+    {
+      "file": "pixellab-orb.png",
+      "sha256": "d8c0beb93b15bea721e1156205f4a97f7b3a568aafdd351096d057a06ce9287a",
+      "bytes": 126646
+    },
+    {
+      "file": "pixellab-source-mobile.png",
+      "sha256": "a21b97a80f2688297577cb1e0d26c067faf11fd22b9640f260ae98b80d0c151b",
+      "bytes": 50654
+    }
+  ],
+  "runtime_fingerprint": "39ecab3bc05eb50e79af27011bd962ffb289c879115206b7be835627d80d420e",
+  "runtime_commit": "f4e10a7",
+  "render_actions_commit": "7bb25d9",
+  "final_input_restore_commit": "f4e10a7",
+  "original_oracle": "Full retained original chunks; separate loader; no production factory slices",
+  "artistic_acceptance": "unreviewed",
+  "full_vendor_replication": false,
+  "provider_calls": 0,
+  "viewports": [
+    [
+      1440,
+      1050
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "boundary": "Source adapter and host UI reproduction for original returned presets and selected controls. Exact source execution is not private-model or all-branch parity. Pixel-frame capture checks playback mechanics; screenshots do not establish humanoid motion quality."
+}

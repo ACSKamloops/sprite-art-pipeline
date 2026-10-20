@@ -1,0 +1,852 @@
+{
+  "created_utc": "2026-10-17T03:00:04Z",
+  "scope": "Offline read-only artifact/hash/pixel/probe inspection only; no engine, browser, model, network or art-grade invocation. Own audit output only.",
+  "passed": true,
+  "checks": [
+    {
+      "ok": true,
+      "note": "current config equals all three frozen v11 source bindings"
+    },
+    {
+      "ok": true,
+      "note": "current baker equals frozen bake receipt"
+    },
+    {
+      "ok": true,
+      "note": "current isolator equals frozen isolation receipt"
+    },
+    {
+      "ok": true,
+      "note": "rowan replay registration equals complete config actor data"
+    },
+    {
+      "ok": true,
+      "note": "lyra replay registration equals complete config actor data"
+    },
+    {
+      "ok": true,
+      "note": "brann replay registration equals complete config actor data"
+    },
+    {
+      "ok": true,
+      "note": "every config source and recipe hash resolves exactly",
+      "detail": {
+        "unique_refs": 372,
+        "files_sha256_entries": 308,
+        "bad": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "prior v10 config still matches frozen v10 receipt"
+    },
+    {
+      "ok": true,
+      "note": "rowan atlas dimensions unchanged",
+      "detail": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "ok": true,
+      "note": "rowan exact expected changed cells",
+      "detail": {
+        "changed_cells": [
+          155,
+          187
+        ],
+        "changed_RGBA_pixels": 818,
+        "atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c",
+        "cell_changes": {
+          "155": 409,
+          "187": 409
+        },
+        "total_physical_cells": 256
+      }
+    },
+    {
+      "ok": true,
+      "note": "rowan recomputed delta equals frozen SOURCE-DELTA"
+    },
+    {
+      "ok": true,
+      "note": "rowan manifest changes only directional_source",
+      "detail": [
+        "directional_source"
+      ]
+    },
+    {
+      "ok": true,
+      "note": "rowan all 48 action bindings, holds, loops and hand tracks exact"
+    },
+    {
+      "ok": true,
+      "note": "rowan selected literal source cel equals actual atlas RGBA"
+    },
+    {
+      "ok": true,
+      "note": "rowan NW is exact +1px pivot-correct source reflection"
+    },
+    {
+      "ok": true,
+      "note": "lyra atlas dimensions unchanged",
+      "detail": [
+        2048,
+        2176
+      ]
+    },
+    {
+      "ok": true,
+      "note": "lyra exact expected changed cells",
+      "detail": {
+        "changed_cells": [],
+        "changed_RGBA_pixels": 0,
+        "atlas_sha256": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26",
+        "cell_changes": {},
+        "total_physical_cells": 272
+      }
+    },
+    {
+      "ok": true,
+      "note": "lyra recomputed delta equals frozen SOURCE-DELTA"
+    },
+    {
+      "ok": true,
+      "note": "lyra manifest changes only directional_source",
+      "detail": [
+        "directional_source"
+      ]
+    },
+    {
+      "ok": true,
+      "note": "lyra all 48 action bindings, holds, loops and hand tracks exact"
+    },
+    {
+      "ok": true,
+      "note": "brann atlas dimensions unchanged",
+      "detail": [
+        2048,
+        2176
+      ]
+    },
+    {
+      "ok": true,
+      "note": "brann exact expected changed cells",
+      "detail": {
+        "changed_cells": [
+          179,
+          211
+        ],
+        "changed_RGBA_pixels": 468,
+        "atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b",
+        "cell_changes": {
+          "179": 234,
+          "211": 234
+        },
+        "total_physical_cells": 272
+      }
+    },
+    {
+      "ok": true,
+      "note": "brann recomputed delta equals frozen SOURCE-DELTA"
+    },
+    {
+      "ok": true,
+      "note": "brann manifest changes only directional_source",
+      "detail": [
+        "directional_source"
+      ]
+    },
+    {
+      "ok": true,
+      "note": "brann all 48 action bindings, holds, loops and hand tracks exact"
+    },
+    {
+      "ok": true,
+      "note": "brann selected literal source cel equals actual atlas RGBA"
+    },
+    {
+      "ok": true,
+      "note": "brann NW is exact +1px pivot-correct source reflection"
+    },
+    {
+      "ok": true,
+      "note": "rowan catalog-bound atlas exact bake bytes"
+    },
+    {
+      "ok": true,
+      "note": "rowan canonical production atlas remains preserved and distinct from preview"
+    },
+    {
+      "ok": true,
+      "note": "rowan catalog-bound manifest exact bake bytes"
+    },
+    {
+      "ok": true,
+      "note": "rowan canonical production manifest remains preserved and distinct from preview"
+    },
+    {
+      "ok": true,
+      "note": "lyra catalog-bound atlas exact bake bytes"
+    },
+    {
+      "ok": true,
+      "note": "lyra canonical production atlas remains preserved and distinct from preview"
+    },
+    {
+      "ok": true,
+      "note": "lyra catalog-bound manifest exact bake bytes"
+    },
+    {
+      "ok": true,
+      "note": "lyra canonical production manifest remains preserved and distinct from preview"
+    },
+    {
+      "ok": true,
+      "note": "brann catalog-bound atlas exact bake bytes"
+    },
+    {
+      "ok": true,
+      "note": "brann canonical production atlas remains preserved and distinct from preview"
+    },
+    {
+      "ok": true,
+      "note": "brann catalog-bound manifest exact bake bytes"
+    },
+    {
+      "ok": true,
+      "note": "brann canonical production manifest remains preserved and distinct from preview"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/projectile.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/combat_fx.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/hud.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/enemy.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/hero.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/browser_diagnostics.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scripts/main.gd"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 runtime source exact scenes/main.tscn"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 project.godot exact"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current project.godot"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/browser_diagnostics.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/combat_fx.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/enemy.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/hero.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/hud.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/main.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scripts/projectile.gd"
+    },
+    {
+      "ok": true,
+      "note": "runtime equality receipt current scenes/main.tscn"
+    },
+    {
+      "ok": true,
+      "note": "v10/v11 catalog resource paths unchanged"
+    },
+    {
+      "ok": true,
+      "note": "all copied canonical source hashes still match isolation receipt",
+      "detail": {
+        "files": 199,
+        "bad": []
+      }
+    },
+    {
+      "ok": true,
+      "note": "served v10 PCK index parsed and every payload MD5 verified",
+      "detail": {
+        "sha256": "15a7f5816000d72b9d30424c8db005afc37b4f6667170ec07ad32d4af7050729",
+        "entries": 142
+      }
+    },
+    {
+      "ok": true,
+      "note": "served v11 PCK index parsed and every payload MD5 verified",
+      "detail": {
+        "sha256": "05e8eabc17d51dd79ad6e9c5bbb7d19d5d29ec30259525550875a7037755e8f0",
+        "entries": 148
+      }
+    },
+    {
+      "ok": true,
+      "note": "rowan actual served PCK manifest equals baked/project bytes"
+    },
+    {
+      "ok": true,
+      "note": "rowan served atlas importer remap equals preview remap after explicit export stripping"
+    },
+    {
+      "ok": true,
+      "note": "rowan served imported atlas equals preview importer artifact"
+    },
+    {
+      "ok": true,
+      "note": "rowan preview imported texture cache bound to actual source atlas MD5"
+    },
+    {
+      "ok": true,
+      "note": "lyra actual served PCK manifest equals baked/project bytes"
+    },
+    {
+      "ok": true,
+      "note": "lyra served atlas importer remap equals preview remap after explicit export stripping"
+    },
+    {
+      "ok": true,
+      "note": "lyra served imported atlas equals preview importer artifact"
+    },
+    {
+      "ok": true,
+      "note": "lyra preview imported texture cache bound to actual source atlas MD5"
+    },
+    {
+      "ok": true,
+      "note": "brann actual served PCK manifest equals baked/project bytes"
+    },
+    {
+      "ok": true,
+      "note": "brann served atlas importer remap equals preview remap after explicit export stripping"
+    },
+    {
+      "ok": true,
+      "note": "brann served imported atlas equals preview importer artifact"
+    },
+    {
+      "ok": true,
+      "note": "brann preview imported texture cache bound to actual source atlas MD5"
+    },
+    {
+      "ok": true,
+      "note": "actual served PCK catalog equals preview catalog"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/browser_diagnostics.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/combat_fx.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/enemy.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/hero.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/hud.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/main.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served compiled runtime v10/v11 exact scripts/projectile.gdc"
+    },
+    {
+      "ok": true,
+      "note": "served game HTML matches recorded shell-adjustment hash"
+    },
+    {
+      "ok": true,
+      "note": "paired still driver bound to frozen fixture input"
+    },
+    {
+      "ok": true,
+      "note": "paired still actual v10 substitution bytes assets/comparison-v10/rowan-atlas.png"
+    },
+    {
+      "ok": true,
+      "note": "paired still actual v10 substitution bytes assets/comparison-v10/rowan-animations.json"
+    },
+    {
+      "ok": true,
+      "note": "paired still actual v10 substitution bytes assets/comparison-v10/brann-atlas.png"
+    },
+    {
+      "ok": true,
+      "note": "paired still actual v10 substitution bytes assets/comparison-v10/brann-animations.json"
+    },
+    {
+      "ok": true,
+      "note": "paired fixture records 38 successful checks and four cases"
+    },
+    {
+      "ok": true,
+      "note": "paired still actual hash and crop delta rowan-northeast-walk.png",
+      "detail": 203
+    },
+    {
+      "ok": true,
+      "note": "paired still actual hash and crop delta rowan-northwest-walk.png",
+      "detail": 202
+    },
+    {
+      "ok": true,
+      "note": "paired still actual hash and crop delta brann-northeast-attack.png",
+      "detail": 99
+    },
+    {
+      "ok": true,
+      "note": "paired still actual hash and crop delta brann-northwest-attack.png",
+      "detail": 99
+    },
+    {
+      "ok": true,
+      "note": "native receipt existing six clips, 8684 assertions, 320Hz, two cycles"
+    },
+    {
+      "ok": true,
+      "note": "all 1729 native capture ledger entries verify including receipt",
+      "detail": []
+    },
+    {
+      "ok": true,
+      "note": "actual 288 PNGs and samples rowan-southeast"
+    },
+    {
+      "ok": true,
+      "note": "native sample index/time/file binding rowan-southeast"
+    },
+    {
+      "ok": true,
+      "note": "actual 288 PNGs and samples rowan-northeast"
+    },
+    {
+      "ok": true,
+      "note": "native sample index/time/file binding rowan-northeast"
+    },
+    {
+      "ok": true,
+      "note": "actual 288 PNGs and samples lyra-southeast"
+    },
+    {
+      "ok": true,
+      "note": "native sample index/time/file binding lyra-southeast"
+    },
+    {
+      "ok": true,
+      "note": "actual 288 PNGs and samples lyra-northeast"
+    },
+    {
+      "ok": true,
+      "note": "native sample index/time/file binding lyra-northeast"
+    },
+    {
+      "ok": true,
+      "note": "actual 288 PNGs and samples brann-southeast"
+    },
+    {
+      "ok": true,
+      "note": "native sample index/time/file binding brann-southeast"
+    },
+    {
+      "ok": true,
+      "note": "actual 288 PNGs and samples brann-northeast"
+    },
+    {
+      "ok": true,
+      "note": "native sample index/time/file binding brann-northeast"
+    },
+    {
+      "ok": true,
+      "note": "actual MP4 hash bound rowan-southeast"
+    },
+    {
+      "ok": true,
+      "note": "actual ffprobe matches frozen encode receipt rowan-southeast",
+      "detail": {
+        "width": 640,
+        "height": 280,
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual MP4 hash bound rowan-northeast"
+    },
+    {
+      "ok": true,
+      "note": "actual ffprobe matches frozen encode receipt rowan-northeast",
+      "detail": {
+        "width": 640,
+        "height": 280,
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual MP4 hash bound lyra-southeast"
+    },
+    {
+      "ok": true,
+      "note": "actual ffprobe matches frozen encode receipt lyra-southeast",
+      "detail": {
+        "width": 640,
+        "height": 280,
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual MP4 hash bound lyra-northeast"
+    },
+    {
+      "ok": true,
+      "note": "actual ffprobe matches frozen encode receipt lyra-northeast",
+      "detail": {
+        "width": 640,
+        "height": 280,
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual MP4 hash bound brann-southeast"
+    },
+    {
+      "ok": true,
+      "note": "actual ffprobe matches frozen encode receipt brann-southeast",
+      "detail": {
+        "width": 640,
+        "height": 280,
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "ok": true,
+      "note": "actual MP4 hash bound brann-northeast"
+    },
+    {
+      "ok": true,
+      "note": "actual ffprobe matches frozen encode receipt brann-northeast",
+      "detail": {
+        "width": 640,
+        "height": 280,
+        "avg_frame_rate": "320/1",
+        "duration": "0.900000",
+        "nb_read_frames": "288"
+      }
+    },
+    {
+      "ok": true,
+      "note": "all 19 actual served gallery media/receipt files equal source bytes",
+      "detail": []
+    },
+    {
+      "ok": true,
+      "note": "actual served gallery HTML equals gallery receipt"
+    },
+    {
+      "ok": true,
+      "note": "existing gallery browser receipt has 17 successful transport/playback checks"
+    },
+    {
+      "ok": true,
+      "note": "existing ordinary-input browser JSON contains 193 true receipts, no incomplete/error receipts, console or page errors"
+    },
+    {
+      "ok": true,
+      "note": "frozen trace coverage summary bound to actual browser receipt"
+    }
+  ],
+  "details": {
+    "config_actor_delta": [
+      "/brann/northeast/cell_overrides/11",
+      "/rowan/northeast/walk_override/frames/3/path",
+      "/rowan/northeast/walk_override/frames/3/sha256"
+    ],
+    "pixel_delta": {
+      "rowan": {
+        "changed_cells": [
+          155,
+          187
+        ],
+        "changed_RGBA_pixels": 818,
+        "atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c",
+        "cell_changes": {
+          "155": 409,
+          "187": 409
+        },
+        "total_physical_cells": 256
+      },
+      "lyra": {
+        "changed_cells": [],
+        "changed_RGBA_pixels": 0,
+        "atlas_sha256": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26",
+        "cell_changes": {},
+        "total_physical_cells": 272
+      },
+      "brann": {
+        "changed_cells": [
+          179,
+          211
+        ],
+        "changed_RGBA_pixels": 468,
+        "atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b",
+        "cell_changes": {
+          "179": 234,
+          "211": 234
+        },
+        "total_physical_cells": 272
+      }
+    },
+    "served_pck_binding": [
+      {
+        "actor": "rowan",
+        "manifest": "assets/hero/animations.json",
+        "imported_texture": ".godot/imported/atlas.png-bfecc0a4db6a47a602425a214d98a4e8.ctex",
+        "source_atlas_sha256": "690cfc529a9d6123e978bd65f9c691940922b41f9426de54408f889dc2b6679c",
+        "imported_texture_sha256": "ddf94b7d6b2228b5a9846d92fab03353997a5a8195cc874935eae59bb2cae9c7"
+      },
+      {
+        "actor": "lyra",
+        "manifest": "assets/characters/lyra/animations.json",
+        "imported_texture": ".godot/imported/atlas.png-552ec2ac8321f7c395ddac4e3e67bc13.ctex",
+        "source_atlas_sha256": "6e933363ff374b7fcf731da24c2e1dd4323f60baf9cd28378e015921d0962e26",
+        "imported_texture_sha256": "7859e08776f1e0f3c875b07ac7b7b9336c06742bceeeb2b367468bbf2ef89bfd"
+      },
+      {
+        "actor": "brann",
+        "manifest": "assets/characters/brann/animations.json",
+        "imported_texture": ".godot/imported/atlas.png-9bcc0ae4ede21e6da54480d525fcdbdb.ctex",
+        "source_atlas_sha256": "e7c9063d9cc601b4a9d0845f45e9cb78fbfa7227d6b2e68192e9b72f0346a87b",
+        "imported_texture_sha256": "c1b3378e86b1dc1635453083d7aba0b9d75eba968f159b52dbd8d75f9c94a8da"
+      }
+    ],
+    "pck_delta": {
+      "added": [
+        ".godot/imported/brann-atlas.png-e22bd13ec228bd9a9adc09c2c2246fd2.ctex",
+        ".godot/imported/rowan-atlas.png-021c96a4d97d82f471a367b07d63b497.ctex",
+        "assets/comparison-v10/brann-animations.json",
+        "assets/comparison-v10/brann-atlas.png.import",
+        "assets/comparison-v10/rowan-animations.json",
+        "assets/comparison-v10/rowan-atlas.png.import"
+      ],
+      "removed": [],
+      "changed": [
+        ".godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn",
+        ".godot/imported/atlas.png-9bcc0ae4ede21e6da54480d525fcdbdb.ctex",
+        ".godot/imported/atlas.png-bfecc0a4db6a47a602425a214d98a4e8.ctex",
+        ".godot/uid_cache.bin",
+        "assets/characters/brann/animations.json",
+        "assets/characters/lyra/animations.json",
+        "assets/hero/animations.json"
+      ]
+    },
+    "served_web_files": {
+      "index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+      "index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+      "index.html": "6e514d396a83d38970f42d48e6f4af9ba65afc7013038ac9f4e1005a12443c4b",
+      "index.js": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba",
+      "index.pck": "05e8eabc17d51dd79ad6e9c5bbb7d19d5d29ec30259525550875a7037755e8f0",
+      "index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+      "index.wasm": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    "paired_pixel_counts": [
+      {
+        "file": "rowan-northeast-walk.png",
+        "changed_game_scale_pixels": 203
+      },
+      {
+        "file": "rowan-northwest-walk.png",
+        "changed_game_scale_pixels": 202
+      },
+      {
+        "file": "brann-northeast-attack.png",
+        "changed_game_scale_pixels": 99
+      },
+      {
+        "file": "brann-northwest-attack.png",
+        "changed_game_scale_pixels": 99
+      }
+    ],
+    "native_sample_count": 1728,
+    "media_probes": [
+      {
+        "clip": "rowan-southeast",
+        "sha256": "0b7c866f65a1d3a3f0afae40794c58a91d78446161ef4de32ec6329081d2b700",
+        "probe": {
+          "width": 640,
+          "height": 280,
+          "avg_frame_rate": "320/1",
+          "duration": "0.900000",
+          "nb_read_frames": "288"
+        }
+      },
+      {
+        "clip": "rowan-northeast",
+        "sha256": "2adb0ce42d631ac25b4ba54006e1588ad751d48adf268679f96f9c56df67fbcc",
+        "probe": {
+          "width": 640,
+          "height": 280,
+          "avg_frame_rate": "320/1",
+          "duration": "0.900000",
+          "nb_read_frames": "288"
+        }
+      },
+      {
+        "clip": "lyra-southeast",
+        "sha256": "7f3e674052e5603d17b35bfeeda1566deb5a8bd4e5db46264a7128cf3639691a",
+        "probe": {
+          "width": 640,
+          "height": 280,
+          "avg_frame_rate": "320/1",
+          "duration": "0.900000",
+          "nb_read_frames": "288"
+        }
+      },
+      {
+        "clip": "lyra-northeast",
+        "sha256": "f4fba26ec139fae448fbb7302c3fb97ad7b104673cc39ea6fdc3008c57bc8c03",
+        "probe": {
+          "width": 640,
+          "height": 280,
+          "avg_frame_rate": "320/1",
+          "duration": "0.900000",
+          "nb_read_frames": "288"
+        }
+      },
+      {
+        "clip": "brann-southeast",
+        "sha256": "c294f5ed4cabbc339d55e5c3e11ca10dd4967a954fdbf5310da7b88881ab83b9",
+        "probe": {
+          "width": 640,
+          "height": 280,
+          "avg_frame_rate": "320/1",
+          "duration": "0.900000",
+          "nb_read_frames": "288"
+        }
+      },
+      {
+        "clip": "brann-northeast",
+        "sha256": "f6193255671a26a2dd89dbb29eab6968b7eb1530d141f8f38bea3bf613f282cf",
+        "probe": {
+          "width": 640,
+          "height": 280,
+          "avg_frame_rate": "320/1",
+          "duration": "0.900000",
+          "nb_read_frames": "288"
+        }
+      }
+    ],
+    "browser_trace_counts": {
+      "traces": 24,
+      "samples": 386,
+      "sample_range": [
+        14,
+        18
+      ],
+      "max_tick_gap": 3,
+      "fps_range": [
+        40,
+        51
+      ]
+    },
+    "changed_brann_exposure_browser_samples": [
+      {
+        "view": "northeast",
+        "changed_frame": 179,
+        "observed": [
+          169,
+          176,
+          176,
+          177,
+          177,
+          178,
+          179,
+          179,
+          180,
+          180,
+          181,
+          182
+        ],
+        "changed_frame_observed": true
+      },
+      {
+        "view": "northwest",
+        "changed_frame": 211,
+        "observed": [
+          208,
+          208,
+          209,
+          209,
+          210,
+          210,
+          211,
+          211,
+          212,
+          213,
+          214,
+          222
+        ],
+        "changed_frame_observed": true
+      }
+    ]
+  }
+}

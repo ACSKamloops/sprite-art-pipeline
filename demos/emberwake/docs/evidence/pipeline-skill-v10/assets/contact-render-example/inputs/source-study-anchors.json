@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "lyra-SE-Q04-06",
+    "bank": "lyra-southeast",
+    "phases": [
+      4,
+      5,
+      6
+    ],
+    "class": "plausible_support_hypothesis",
+    "fit": true,
+    "same_material": true,
+    "rationale": "Same visible06 foreground boot sole and ankle, whole distal shape retained in04/05 maps. Broad sole faces down, alternate boot remains visibly tucked. This supports a stance hypothesis, not ground proof.",
+    "witnesses": [
+      {
+        "phase": 4,
+        "label": "heel",
+        "target_xy": [
+          53,
+          113
+        ],
+        "target_RGBA": [
+          66,
+          31,
+          16,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          49,
+          109
+        ],
+        "source_RGBA": [
+          66,
+          31,
+          16,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/lyra-04-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "heel",
+        "target_xy": [
+          51,
+          111
+        ],
+        "target_RGBA": [
+          66,
+          31,
+          16,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          49,
+          109
+        ],
+        "source_RGBA": [
+          66,
+          31,
+          16,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/lyra-05-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "heel",
+        "target_xy": [
+          49,
+          109
+        ],
+        "target_RGBA": [
+          66,
+          31,
+          16,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          49,
+          109
+        ],
+        "source_RGBA": [
+          66,
+          31,
+          16,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 4,
+        "label": "forefoot",
+        "target_xy": [
+          61,
+          114
+        ],
+        "target_RGBA": [
+          20,
+          8,
+          3,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          57,
+          110
+        ],
+        "source_RGBA": [
+          20,
+          8,
+          3,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/lyra-04-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "forefoot",
+        "target_xy": [
+          59,
+          112
+        ],
+        "target_RGBA": [
+          20,
+          8,
+          3,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          57,
+          110
+        ],
+        "source_RGBA": [
+          20,
+          8,
+          3,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/lyra-05-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "forefoot",
+        "target_xy": [
+          57,
+          110
+        ],
+        "target_RGBA": [
+          20,
+          8,
+          3,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          57,
+          110
+        ],
+        "source_RGBA": [
+          20,
+          8,
+          3,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 4,
+        "label": "ankle",
+        "target_xy": [
+          55,
+          105
+        ],
+        "target_RGBA": [
+          80,
+          37,
+          18,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          51,
+          101
+        ],
+        "source_RGBA": [
+          80,
+          37,
+          18,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/lyra-04-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "ankle",
+        "target_xy": [
+          53,
+          103
+        ],
+        "target_RGBA": [
+          80,
+          37,
+          18,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          51,
+          101
+        ],
+        "source_RGBA": [
+          80,
+          37,
+          18,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/lyra-05-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "ankle",
+        "target_xy": [
+          51,
+          101
+        ],
+        "target_RGBA": [
+          80,
+          37,
+          18,
+          255
+        ],
+        "source_file": "inputs/guides/lyra-06-source.png",
+        "source_xy": [
+          51,
+          101
+        ],
+        "source_RGBA": [
+          80,
+          37,
+          18,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "source_xy"
+      }
+    ]
+  },
+  {
+    "id": "brann-SE-Q05-06",
+    "bank": "brann-southeast",
+    "phases": [
+      5,
+      6
+    ],
+    "class": "load_return_hypothesis_contact_uncertain",
+    "fit": true,
+    "same_material": true,
+    "rationale": "Actual selected05 uses the06 foreground boot at[-1,+1], then06 retains it at[0,0]. Sole and ankle material correspond exactly through the map. Broad lowered sole suggests a possible load/return interval, but the producer names05 forward recovery; it may already be releasing. This is a conditional test, not an asserted planted run. Older full-lower04/05 maps do not reproduce selected art and are rejected.",
+    "witnesses": [
+      {
+        "phase": 5,
+        "label": "heel",
+        "target_xy": [
+          57,
+          110
+        ],
+        "target_RGBA": [
+          60,
+          28,
+          13,
+          252
+        ],
+        "source_file": "inputs/guides/brann-se-selected06-source.png",
+        "source_xy": [
+          58,
+          109
+        ],
+        "source_RGBA": [
+          60,
+          28,
+          13,
+          252
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-se-selected05-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "heel",
+        "target_xy": [
+          58,
+          109
+        ],
+        "target_RGBA": [
+          60,
+          28,
+          13,
+          252
+        ],
+        "source_file": "inputs/guides/brann-se-selected06-source.png",
+        "source_xy": [
+          58,
+          109
+        ],
+        "source_RGBA": [
+          60,
+          28,
+          13,
+          252
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "forefoot",
+        "target_xy": [
+          68,
+          110
+        ],
+        "target_RGBA": [
+          67,
+          32,
+          13,
+          253
+        ],
+        "source_file": "inputs/guides/brann-se-selected06-source.png",
+        "source_xy": [
+          69,
+          109
+        ],
+        "source_RGBA": [
+          67,
+          32,
+          13,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-se-selected05-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "forefoot",
+        "target_xy": [
+          69,
+          109
+        ],
+        "target_RGBA": [
+          67,
+          32,
+          13,
+          253
+        ],
+        "source_file": "inputs/guides/brann-se-selected06-source.png",
+        "source_xy": [
+          69,
+          109
+        ],
+        "source_RGBA": [
+          67,
+          32,
+          13,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "ankle",
+        "target_xy": [
+          60,
+          102
+        ],
+        "target_RGBA": [
+          110,
+          55,
+          21,
+          253
+        ],
+        "source_file": "inputs/guides/brann-se-selected06-source.png",
+        "source_xy": [
+          61,
+          101
+        ],
+        "source_RGBA": [
+          110,
+          55,
+          21,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-se-selected05-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "ankle",
+        "target_xy": [
+          61,
+          101
+        ],
+        "target_RGBA": [
+          110,
+          55,
+          21,
+          253
+        ],
+        "source_file": "inputs/guides/brann-se-selected06-source.png",
+        "source_xy": [
+          61,
+          101
+        ],
+        "source_RGBA": [
+          110,
+          55,
+          21,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "source_xy"
+      }
+    ]
+  },
+  {
+    "id": "rowan-SE-Q04-06",
+    "bank": "rowan-southeast",
+    "phases": [
+      4,
+      5,
+      6
+    ],
+    "class": "conditional_geometric_comparison_only",
+    "fit": true,
+    "same_material": false,
+    "rationale": "Loaded-looking foreground sequence with literal heel/forefoot/ankle and sole-edge witnesses.04 is a whole00 boot donor;05 is distinct generated paint then bounded path projection;06 is another existing drawing. Points are homologous visual hypotheses, not the same material texel. This cannot certify a planted run.",
+    "witnesses": [
+      {
+        "phase": 4,
+        "label": "heel",
+        "target_xy": [
+          52,
+          113
+        ],
+        "target_RGBA": [
+          64,
+          24,
+          10,
+          255
+        ],
+        "source_file": "inputs/guides/rowan-04-source00.png",
+        "source_xy": [
+          70,
+          109
+        ],
+        "source_RGBA": [
+          64,
+          24,
+          10,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "literal_translation": [
+          -18,
+          4
+        ]
+      },
+      {
+        "phase": 4,
+        "label": "forefoot",
+        "target_xy": [
+          64,
+          111
+        ],
+        "target_RGBA": [
+          73,
+          31,
+          17,
+          255
+        ],
+        "source_file": "inputs/guides/rowan-04-source00.png",
+        "source_xy": [
+          82,
+          107
+        ],
+        "source_RGBA": [
+          73,
+          31,
+          17,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "literal_translation": [
+          -18,
+          4
+        ]
+      },
+      {
+        "phase": 4,
+        "label": "ankle",
+        "target_xy": [
+          53,
+          103
+        ],
+        "target_RGBA": [
+          119,
+          48,
+          21,
+          255
+        ],
+        "source_file": "inputs/guides/rowan-04-source00.png",
+        "source_xy": [
+          71,
+          99
+        ],
+        "source_RGBA": [
+          119,
+          48,
+          21,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "literal_translation": [
+          -18,
+          4
+        ]
+      },
+      {
+        "phase": 4,
+        "label": "sole",
+        "target_xy": [
+          58,
+          115
+        ],
+        "target_RGBA": [
+          38,
+          8,
+          3,
+          154
+        ],
+        "source_file": "inputs/guides/rowan-04-source00.png",
+        "source_xy": [
+          76,
+          111
+        ],
+        "source_RGBA": [
+          38,
+          8,
+          3,
+          154
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "literal_translation": [
+          -18,
+          4
+        ]
+      },
+      {
+        "phase": 5,
+        "label": "heel",
+        "target_xy": [
+          54,
+          111
+        ],
+        "target_RGBA": [
+          49,
+          18,
+          8,
+          252
+        ],
+        "source_file": "inputs/guides/rowan-05-raw.png",
+        "source_xy": [
+          563,
+          1092
+        ],
+        "source_RGBA": [
+          49,
+          18,
+          8,
+          252
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "intermediate_control_xy": [
+          57,
+          111
+        ],
+        "map_chain": [
+          "rowan-05-map.npz:source_xy",
+          "rowan-05-raw-map.npz:raw_source_xy"
+        ]
+      },
+      {
+        "phase": 5,
+        "label": "forefoot",
+        "target_xy": [
+          63,
+          112
+        ],
+        "target_RGBA": [
+          29,
+          9,
+          3,
+          252
+        ],
+        "source_file": "inputs/guides/rowan-05-raw.png",
+        "source_xy": [
+          651,
+          1102
+        ],
+        "source_RGBA": [
+          29,
+          9,
+          3,
+          252
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "intermediate_control_xy": [
+          66,
+          112
+        ],
+        "map_chain": [
+          "rowan-05-map.npz:source_xy",
+          "rowan-05-raw-map.npz:raw_source_xy"
+        ]
+      },
+      {
+        "phase": 5,
+        "label": "ankle",
+        "target_xy": [
+          54,
+          102
+        ],
+        "target_RGBA": [
+          205,
+          106,
+          47,
+          253
+        ],
+        "source_file": "inputs/guides/rowan-05-raw.png",
+        "source_xy": [
+          563,
+          1004
+        ],
+        "source_RGBA": [
+          205,
+          106,
+          47,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "intermediate_control_xy": [
+          57,
+          102
+        ],
+        "map_chain": [
+          "rowan-05-map.npz:source_xy",
+          "rowan-05-raw-map.npz:raw_source_xy"
+        ]
+      },
+      {
+        "phase": 5,
+        "label": "sole",
+        "target_xy": [
+          59,
+          112
+        ],
+        "target_RGBA": [
+          27,
+          8,
+          2,
+          253
+        ],
+        "source_file": "inputs/guides/rowan-05-raw.png",
+        "source_xy": [
+          612,
+          1102
+        ],
+        "source_RGBA": [
+          27,
+          8,
+          2,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null,
+        "intermediate_control_xy": [
+          62,
+          112
+        ],
+        "map_chain": [
+          "rowan-05-map.npz:source_xy",
+          "rowan-05-raw-map.npz:raw_source_xy"
+        ]
+      },
+      {
+        "phase": 6,
+        "label": "heel",
+        "target_xy": [
+          49,
+          105
+        ],
+        "target_RGBA": [
+          83,
+          34,
+          16,
+          255
+        ],
+        "source_file": "inputs/rowan-southeast/06.png",
+        "source_xy": [
+          49,
+          105
+        ],
+        "source_RGBA": [
+          83,
+          34,
+          16,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "scope": "Literal existing06 paint; no cross-drawing material correspondence claimed."
+      },
+      {
+        "phase": 6,
+        "label": "forefoot",
+        "target_xy": [
+          56,
+          106
+        ],
+        "target_RGBA": [
+          56,
+          27,
+          12,
+          255
+        ],
+        "source_file": "inputs/rowan-southeast/06.png",
+        "source_xy": [
+          56,
+          106
+        ],
+        "source_RGBA": [
+          56,
+          27,
+          12,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "scope": "Literal existing06 paint; no cross-drawing material correspondence claimed."
+      },
+      {
+        "phase": 6,
+        "label": "ankle",
+        "target_xy": [
+          49,
+          98
+        ],
+        "target_RGBA": [
+          153,
+          74,
+          35,
+          255
+        ],
+        "source_file": "inputs/rowan-southeast/06.png",
+        "source_xy": [
+          49,
+          98
+        ],
+        "source_RGBA": [
+          153,
+          74,
+          35,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "scope": "Literal existing06 paint; no cross-drawing material correspondence claimed."
+      },
+      {
+        "phase": 6,
+        "label": "sole",
+        "target_xy": [
+          53,
+          107
+        ],
+        "target_RGBA": [
+          49,
+          20,
+          8,
+          255
+        ],
+        "source_file": "inputs/rowan-southeast/06.png",
+        "source_xy": [
+          53,
+          107
+        ],
+        "source_RGBA": [
+          49,
+          20,
+          8,
+          255
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "scope": "Literal existing06 paint; no cross-drawing material correspondence claimed."
+      }
+    ]
+  },
+  {
+    "id": "brann-NE-Q05-07-excluded",
+    "bank": "brann-northeast",
+    "phases": [
+      5,
+      6,
+      7
+    ],
+    "class": "recovery_control_excluded_from_support",
+    "fit": false,
+    "same_material": true,
+    "rationale": "The complete07 donor moves[-7,0] then[-4,-1] then[0,0]. It travels forward along NE and exposes a bent/tilted boot rather than an established planted sole. Screen y and anatomical depth are not ground height. The other boot uses different source poses; no well-supported rear multi-pose stance interval is asserted.",
+    "witnesses": [
+      {
+        "phase": 5,
+        "label": "heel",
+        "target_xy": [
+          68,
+          102
+        ],
+        "target_RGBA": [
+          27,
+          12,
+          2,
+          242
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          75,
+          102
+        ],
+        "source_RGBA": [
+          27,
+          12,
+          2,
+          242
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-ne-05-map.npz",
+        "map_key": "new_Q_source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "heel",
+        "target_xy": [
+          71,
+          101
+        ],
+        "target_RGBA": [
+          27,
+          12,
+          2,
+          242
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          75,
+          102
+        ],
+        "source_RGBA": [
+          27,
+          12,
+          2,
+          242
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-ne-06-map.npz",
+        "map_key": "boot_source_xy"
+      },
+      {
+        "phase": 7,
+        "label": "heel",
+        "target_xy": [
+          75,
+          102
+        ],
+        "target_RGBA": [
+          27,
+          12,
+          2,
+          242
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          75,
+          102
+        ],
+        "source_RGBA": [
+          27,
+          12,
+          2,
+          242
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "boot_source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "forefoot",
+        "target_xy": [
+          77,
+          96
+        ],
+        "target_RGBA": [
+          45,
+          22,
+          8,
+          250
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          84,
+          96
+        ],
+        "source_RGBA": [
+          45,
+          22,
+          8,
+          250
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-ne-05-map.npz",
+        "map_key": "new_Q_source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "forefoot",
+        "target_xy": [
+          80,
+          95
+        ],
+        "target_RGBA": [
+          45,
+          22,
+          8,
+          250
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          84,
+          96
+        ],
+        "source_RGBA": [
+          45,
+          22,
+          8,
+          250
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-ne-06-map.npz",
+        "map_key": "boot_source_xy"
+      },
+      {
+        "phase": 7,
+        "label": "forefoot",
+        "target_xy": [
+          84,
+          96
+        ],
+        "target_RGBA": [
+          45,
+          22,
+          8,
+          250
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          84,
+          96
+        ],
+        "source_RGBA": [
+          45,
+          22,
+          8,
+          250
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "boot_source_xy"
+      },
+      {
+        "phase": 5,
+        "label": "ankle",
+        "target_xy": [
+          68,
+          93
+        ],
+        "target_RGBA": [
+          63,
+          29,
+          10,
+          253
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          75,
+          93
+        ],
+        "source_RGBA": [
+          63,
+          29,
+          10,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-ne-05-map.npz",
+        "map_key": "new_Q_source_xy"
+      },
+      {
+        "phase": 6,
+        "label": "ankle",
+        "target_xy": [
+          71,
+          92
+        ],
+        "target_RGBA": [
+          63,
+          29,
+          10,
+          253
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          75,
+          93
+        ],
+        "source_RGBA": [
+          63,
+          29,
+          10,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-ne-06-map.npz",
+        "map_key": "boot_source_xy"
+      },
+      {
+        "phase": 7,
+        "label": "ankle",
+        "target_xy": [
+          75,
+          93
+        ],
+        "target_RGBA": [
+          63,
+          29,
+          10,
+          253
+        ],
+        "source_file": "inputs/guides/brann-ne-source07.png",
+        "source_xy": [
+          75,
+          93
+        ],
+        "source_RGBA": [
+          63,
+          29,
+          10,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": "boot_source_xy"
+      }
+    ]
+  },
+  {
+    "id": "brann-SE-P07-00-excluded",
+    "bank": "brann-southeast",
+    "phases": [
+      7,
+      0
+    ],
+    "class": "return_control_excluded_from_support",
+    "fit": false,
+    "same_material": true,
+    "rationale": "07 P is the explicit shortened return from00 P paint. Its forward relative motion at wrap is consistent with recovery, not a stance fit.06 tucked P and07 bent Q cannot be treated as the same grounded silhouette.",
+    "witnesses": [
+      {
+        "phase": 7,
+        "label": "sole",
+        "target_xy": [
+          78,
+          107
+        ],
+        "target_RGBA": [
+          69,
+          33,
+          14,
+          253
+        ],
+        "source_file": "inputs/guides/brann-se-07-source00.png",
+        "source_xy": [
+          76,
+          110
+        ],
+        "source_RGBA": [
+          69,
+          33,
+          14,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": "inputs/guides/brann-se-07-map.npz",
+        "map_key": "source_xy"
+      },
+      {
+        "phase": 0,
+        "label": "sole",
+        "target_xy": [
+          76,
+          110
+        ],
+        "target_RGBA": [
+          69,
+          33,
+          14,
+          253
+        ],
+        "source_file": "inputs/guides/brann-se-07-source00.png",
+        "source_xy": [
+          76,
+          110
+        ],
+        "source_RGBA": [
+          69,
+          33,
+          14,
+          253
+        ],
+        "direct_RGBA_equal": true,
+        "map": null,
+        "map_key": null
+      }
+    ]
+  }
+]

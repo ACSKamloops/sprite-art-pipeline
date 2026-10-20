@@ -1,0 +1,65 @@
+{
+  "source_directory": "/home/astra/projects/pixellab-workbench-geometry/docs/construction/evidence/exchange",
+  "manifest_sha256": "73c73b2cb2ea77ebe8a9c4f1d04591678cce8c61293f2b0a04f03ec81aab0df2",
+  "verification_sha256": "ea233464ca1226c31915de0ac2421bd6ad4f281d00a9dadbae93b6ac7d3e11da",
+  "verified_manifest_files": 69,
+  "manifest_errors": [],
+  "retained_tool_commands": [
+    {
+      "path": "corrected-native/edited/edited-command.json",
+      "sha256": "7f8457063e53c240e6e0aae434705c21360201f3da7c4492053b2a094f6142c7",
+      "keys": [
+        "command",
+        "returncode",
+        "stdout",
+        "stderr"
+      ],
+      "returncode": 0
+    },
+    {
+      "path": "corrected-native/edited/edited-reopened-command.json",
+      "sha256": "8f5d6d14b9e3d5bc3b30fe094170adb003b0ec5b42c0330ad44e8e5e722a5b9d",
+      "keys": [
+        "command",
+        "returncode",
+        "stdout",
+        "stderr"
+      ],
+      "returncode": 0
+    },
+    {
+      "path": "corrected-native/cumulative/cumulative-command.json",
+      "sha256": "65c83a4a579830009543e4df7f7c8f6a14a078a816292e61fa3b47dbdd770d60",
+      "keys": [
+        "command",
+        "returncode",
+        "stdout",
+        "stderr"
+      ],
+      "returncode": 0
+    },
+    {
+      "path": "corrected-native/readonly/reopened-command.json",
+      "sha256": "2c04937295c6693a1c1d2c1c2d1d0455ba8cef4d2fe5a6274618f357216980e0",
+      "keys": [
+        "command",
+        "returncode",
+        "stdout",
+        "stderr"
+      ],
+      "returncode": 0
+    },
+    {
+      "path": "corrected-native/readonly/first-command.json",
+      "sha256": "3be32c701bb16489f93504f0d4212a349fb765c56df8530fbf682a817f520dee",
+      "keys": [
+        "command",
+        "returncode",
+        "stdout",
+        "stderr"
+      ],
+      "returncode": 0
+    }
+  ],
+  "scope": "Offline hash/metadata audit only; producer-native tool calls not rerun or claimed reviewer-executed; no blanket native or art approval"
+}

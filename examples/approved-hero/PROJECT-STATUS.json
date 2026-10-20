@@ -1,0 +1,49 @@
+{
+  "updated_utc": "2026-10-15T17:41:54.891914+00:00",
+  "status": "CONSOLIDATED_READY_FOR_FIRST_NEW_ACTION_KEYS",
+  "character": "generic_rpg_hero",
+  "approved_walk": {
+    "manifest": "approved/walk/manifest.json",
+    "frames": 30,
+    "clock_hz": 24,
+    "period_seconds": [
+      5,
+      4
+    ],
+    "user_approved": true,
+    "art_unchanged": true
+  },
+  "first_new_actions": [
+    "neutral_ready",
+    "unarmed_straight_punch",
+    "small_in_place_jump"
+  ],
+  "new_action_art_produced": false,
+  "new_action_art_approved": false,
+  "equipment": {
+    "policy": "Separate interchangeable weapon/accessory tracks with compatible body profiles",
+    "schema": "actions/attachments.schema.json",
+    "example": "actions/attachments.example.json",
+    "renderer_implemented": false,
+    "hand_anchors_measured": false,
+    "weapon_art_produced": false
+  },
+  "queue": "work/jobs.sqlite;3queuedv2jobs, no active leases at initialization",
+  "skills": [
+    "/home/astra/.codex/skills/sprite-animation-pipeline/SKILL.md",
+    "/home/astra/.codex/skills/sprite-construction-editing/SKILL.md"
+  ],
+  "evidence": "evidence/current-validation.json",
+  "limits": [
+    "Walk is flat complete-pose art, not a recovered anatomicalrig",
+    "New action timings/events are authored proposals, not existinggamefootage",
+    "Physical footcontact and jumpstate/attackhitbox runtime are not proved by currentwalkapproval",
+    "No localML, no publication, no new provider generation during consolidation"
+  ],
+  "independent_forward_review": {
+    "status": "PASS",
+    "report": "evidence/forward-review.md",
+    "recheck": "evidence/forward-review-recheck.json",
+    "scope": "Fresh bake/toolkit/atlas/offlineprovider/queue executions plus corrected portable bindings and exactsource fingerprint recheck. No new art acceptance."
+  }
+}

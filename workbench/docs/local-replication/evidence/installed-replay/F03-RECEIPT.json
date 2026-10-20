@@ -1,0 +1,382 @@
+{
+  "flow": "F03",
+  "status": "completed",
+  "whole_flow_completed": false,
+  "flow_id": "F03",
+  "artifacts": {
+    "fixture_raster": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+    "pose_diagnostic": "f25b7c6a10758f34a81cc5fcf704a53fbc26395331bda47877013fa786013c6e",
+    "supplied_sequence": "c37372f1c71f89ddbd4ac1b6ef4bcf5938614ef8502b4f3f19871ec4d3db5946",
+    "sequence": "0df1e44830d97d477356a9aebfc822436585f2b79e0b8c8a20ce4b5fbd61fdb5"
+  },
+  "checks": [
+    {
+      "name": "yaw90 independent x/y and opposite depth equations",
+      "passed": true
+    },
+    {
+      "name": "Lua unique depth bins",
+      "passed": true
+    },
+    {
+      "name": "Godot ordinal collision differs from shared Lua rank",
+      "passed": true
+    },
+    {
+      "name": "distinct search domains recover known reference",
+      "passed": true
+    },
+    {
+      "name": "compatibility mismatch is not silently corrected",
+      "passed": true
+    },
+    {
+      "name": "catalog z flip swaps known side labels",
+      "passed": true
+    },
+    {
+      "name": "camera menu profiles stay distinct",
+      "passed": true
+    },
+    {
+      "name": "Lua fit requires explicit canvas",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Lua fitting requires positive integer pixel canvas"
+      }
+    },
+    {
+      "name": "duplicate label rejected",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Joint labels must be nonempty and unique"
+      }
+    },
+    {
+      "name": "nonfinite joint rejected",
+      "passed": true,
+      "detail": {
+        "error": "ValidationError",
+        "message": "Pose values must be finite numbers"
+      }
+    },
+    {
+      "name": "learned motion explicitly unavailable",
+      "passed": true,
+      "detail": {
+        "status": "unsupported",
+        "capability": "learned-motion",
+        "reason": "Provide authored frames and/or key poses; anatomy and hidden views are not inferred"
+      }
+    },
+    {
+      "name": "duplicate holds preserve clocks and pivot",
+      "passed": true
+    },
+    {
+      "name": "result editable identity and timeline",
+      "passed": true
+    },
+    {
+      "name": "result editable exact RGBA",
+      "passed": true
+    },
+    {
+      "name": "result every PNG exact including hidden RGB",
+      "passed": true
+    },
+    {
+      "name": "result review is generated but unviewed",
+      "passed": true
+    },
+    {
+      "name": "projection audit survives editable closure",
+      "passed": true
+    }
+  ],
+  "inputs": {
+    "fixture": "asymmetric-geometric-markers-v1",
+    "shape": [
+      5,
+      7,
+      4
+    ],
+    "dtype": "uint8",
+    "rgba_sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+    "capability": "supplied-art",
+    "coordinate_units": "integer pixels, x right/y down unless explicitly normalized/virtual",
+    "recipe_version": 1,
+    "joints": [
+      {
+        "label": "NECK",
+        "x": 0.4,
+        "y": 0.3,
+        "z": 0.7
+      },
+      {
+        "label": "NOSE",
+        "x": 0.7,
+        "y": 0.2,
+        "z": 0.9
+      },
+      {
+        "label": "LEFT HIP",
+        "x": 0.2,
+        "y": 0.8,
+        "z": 0.3
+      },
+      {
+        "label": "RIGHT HIP",
+        "x": 0.8,
+        "y": 0.7,
+        "z": 0.6
+      }
+    ],
+    "yaw_degrees": 90,
+    "tilt_degrees": 0,
+    "fitting_canvas": [
+      80,
+      40
+    ],
+    "normalized_reference": [
+      {
+        "label": "NECK",
+        "x": 0.4,
+        "y": 0.23421479024453012
+      },
+      {
+        "label": "NOSE",
+        "x": 0.7,
+        "y": 0.05906035919272523
+      },
+      {
+        "label": "LEFT HIP",
+        "x": 0.2,
+        "y": 0.8564159884591349
+      },
+      {
+        "label": "RIGHT HIP",
+        "x": 0.8,
+        "y": 0.63899973123326
+      }
+    ],
+    "pixel_reference": [
+      {
+        "label": "NECK",
+        "x": 39.0,
+        "y": 6.368591609781205
+      },
+      {
+        "label": "NOSE",
+        "x": 63.0,
+        "y": -0.6375856322909907
+      },
+      {
+        "label": "LEFT HIP",
+        "x": 23.0,
+        "y": 31.2566395383654
+      },
+      {
+        "label": "RIGHT HIP",
+        "x": 71.0,
+        "y": 22.5599892493304
+      }
+    ]
+  },
+  "routine_order": [
+    "project asymmetric points with separate Lua/Godot depth conventions",
+    "encode tied raw z groups with separate draw-depth/readback profiles",
+    "fit independent yaw0/tilt25 reference in normalized and neck-aligned pixel domains",
+    "compare source-shape compatibility with explicitly corrected label fit; flip",
+    "negative: Lua fit requires explicit canvas",
+    "negative: duplicate label rejected",
+    "negative: nonfinite joint rejected",
+    "negative: learned motion explicitly unavailable",
+    "persist supplied geometric arrays and duplicate holds; points do not generate these rasters",
+    "export result: PNG/sheet/rational manifest/APNG/editable/review",
+    "import result editable closure into a fresh output-local Store",
+    "write JSON-safe receipt; preserve checks and limitations"
+  ],
+  "exports": {
+    "result": {
+      "directory": "exports/result",
+      "sequence_id": "0df1e44830d97d477356a9aebfc822436585f2b79e0b8c8a20ce4b5fbd61fdb5",
+      "visual_acceptance": "unreviewed",
+      "requested_formats": [
+        "apng",
+        "editable",
+        "manifest",
+        "png",
+        "review",
+        "sheet"
+      ],
+      "formats": {
+        "png": {
+          "status": "written",
+          "rgba": "exact including hiddenRGB",
+          "ordered_frames": 3
+        },
+        "sheet": {
+          "status": "written",
+          "padding_rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "trim": "none"
+        },
+        "apng": {
+          "status": "written",
+          "clock": "exact rational16-bit APNG fields",
+          "blend": "SOURCE",
+          "dispose": "NONE",
+          "num_plays": 1,
+          "ordered_frames": 3,
+          "rgba": "exact including hiddenRGB",
+          "sha256": "226ffe2b26520390ac854643c6d5ea42f120742ac2ab0af3d83b72601210e380"
+        },
+        "editable": {
+          "status": "written",
+          "artifact_count": 7,
+          "scene_id": null,
+          "scope": "local JSON+rawRGBA/masks; no native vendor editable format claimed"
+        },
+        "review": {
+          "status": "written",
+          "ordered_frames": 3,
+          "adjacent_pairs": 2,
+          "return_pairs": 1,
+          "review_file": "review.html",
+          "diagnostics_file": "review.json",
+          "clock": "single performance timestamp mapped through rational frame holds; no fixed preview fps",
+          "visual_acceptance": "unreviewed",
+          "continuous_motion_viewed": false
+        },
+        "manifest": {
+          "status": "written",
+          "file": "manifest.json",
+          "clock": "exact rational seconds",
+          "play_count": 1
+        }
+      },
+      "source_ids": [
+        "f25b7c6a10758f34a81cc5fcf704a53fbc26395331bda47877013fa786013c6e"
+      ],
+      "files": [
+        {
+          "file": "animation.apng",
+          "bytes": 359,
+          "sha256": "226ffe2b26520390ac854643c6d5ea42f120742ac2ab0af3d83b72601210e380"
+        },
+        {
+          "file": "editable/artifacts/0df1e44830d97d477356a9aebfc822436585f2b79e0b8c8a20ce4b5fbd61fdb5",
+          "bytes": 2153,
+          "sha256": "0df1e44830d97d477356a9aebfc822436585f2b79e0b8c8a20ce4b5fbd61fdb5"
+        },
+        {
+          "file": "editable/artifacts/3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464",
+          "bytes": 202,
+          "sha256": "3fa43e7bb8b1205c0327206fabbcae0726babf84ecf44a05b30a82b555c77464"
+        },
+        {
+          "file": "editable/artifacts/59c27159d5dfea8eccf1e221e697bd3fc706e44363af14bcfbe16e183b0e4a63",
+          "bytes": 140,
+          "sha256": "59c27159d5dfea8eccf1e221e697bd3fc706e44363af14bcfbe16e183b0e4a63"
+        },
+        {
+          "file": "editable/artifacts/860f4b2d478315f6e1db183f33e016df76fe613b38898649910871a625cff464",
+          "bytes": 202,
+          "sha256": "860f4b2d478315f6e1db183f33e016df76fe613b38898649910871a625cff464"
+        },
+        {
+          "file": "editable/artifacts/c37372f1c71f89ddbd4ac1b6ef4bcf5938614ef8502b4f3f19871ec4d3db5946",
+          "bytes": 1890,
+          "sha256": "c37372f1c71f89ddbd4ac1b6ef4bcf5938614ef8502b4f3f19871ec4d3db5946"
+        },
+        {
+          "file": "editable/artifacts/d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439",
+          "bytes": 140,
+          "sha256": "d077dc181a7ac2ad3b010a2197a64fa5b9d087b96de5e68164c555c6a228d439"
+        },
+        {
+          "file": "editable/artifacts/f25b7c6a10758f34a81cc5fcf704a53fbc26395331bda47877013fa786013c6e",
+          "bytes": 4892,
+          "sha256": "f25b7c6a10758f34a81cc5fcf704a53fbc26395331bda47877013fa786013c6e"
+        },
+        {
+          "file": "editable/index.json",
+          "bytes": 631,
+          "sha256": "9a4bde7f74096a87ed277cbc3928d3a1a7d66afd4dcae721a87951a6c5933623"
+        },
+        {
+          "file": "frames/frame-0000.png",
+          "bytes": 117,
+          "sha256": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99"
+        },
+        {
+          "file": "frames/frame-0001.png",
+          "bytes": 117,
+          "sha256": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99"
+        },
+        {
+          "file": "frames/frame-0002.png",
+          "bytes": 111,
+          "sha256": "cf5d316256c4f10d4c668a6230efed7294d5e03a4970b283573b485359967668"
+        },
+        {
+          "file": "manifest.json",
+          "bytes": 3589,
+          "sha256": "a2540aa2bb278564e90528477cd983dcc77b31e0561cab9f4874b48e7ac58770"
+        },
+        {
+          "file": "review/frames/frame-0000.png",
+          "bytes": 117,
+          "sha256": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99"
+        },
+        {
+          "file": "review/frames/frame-0001.png",
+          "bytes": 117,
+          "sha256": "c2c33a1a15721f47e66f8f63156eea6b491bf5cd3786cbe1d4d1eac343a65c99"
+        },
+        {
+          "file": "review/frames/frame-0002.png",
+          "bytes": 111,
+          "sha256": "cf5d316256c4f10d4c668a6230efed7294d5e03a4970b283573b485359967668"
+        },
+        {
+          "file": "review/review.html",
+          "bytes": 9977,
+          "sha256": "47b36b8ab334dbe2898350d2c3154eb8c23fe6372019120d7198017bf6e14c13"
+        },
+        {
+          "file": "review/review.json",
+          "bytes": 4391,
+          "sha256": "7f0f76c536cc091c553a062bdad048620848cc6751a8cea439441612f9204cb2"
+        },
+        {
+          "file": "sheet.png",
+          "bytes": 156,
+          "sha256": "3f541c90656d5874820c9ab790d618400ca5e98957cc2243617f1644ade5d230"
+        }
+      ]
+    }
+  },
+  "reviews": {
+    "result": {
+      "file": "exports/result/review/review.html",
+      "continuous_motion_viewed": false,
+      "visual_acceptance": "unreviewed"
+    }
+  },
+  "limitations": [
+    "Local diagnostic subset only; not full vendor flow completion or art/motion acceptance.",
+    "No credentials, provider/model calls, remote templates or new REA sessions.",
+    "Review pages are generated evidence, not proof of human continuous viewing.",
+    "Point transforms and depth encodings are not connected-bone rasterization or camera-nearness depth.",
+    "Listed-first nearest ties are local policy; compatibility and corrected fitting are different adapters.",
+    "Supplied hold/flip rasters are independent of projected points; no anatomy, hidden surfaces or neural motion."
+  ]
+}

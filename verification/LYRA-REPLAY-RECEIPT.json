@@ -1,0 +1,445 @@
+{
+  "method": "Frozen source-texel map replay, not new geometric interpolation or generation",
+  "frozen_build_sha256": "435c8a9e6cc1afdb4d4ceb8ec9f64b02f0a24968186c8babca6aafe85df05247",
+  "inputs": [
+    {
+      "frame": 0,
+      "source_sha256": "4980c4881c84f62c28f32caf22572843b1fea435d8aa2813b5e1443dc954fea5",
+      "expected_sha256": "df455c4842f94862a364d74511d987940ceb1113022b9a8bb8791d78ead6a9a4",
+      "parts": [
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "545c5357f11bdba2370bd89c12686f4b445939328d9e7ae4ec4968eb7038208e",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "8141c01a921e061963ef67ddbb441c33586e600a82ba1fbfd8f9e00d392627f7",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "26aed273b83b47e4ad501ee9a61a7636cea9aeccb9a234b0f1b422e25973b873",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "c96b5b40c7417162332524e2f0fa712dc53eb8cdb0cce03c09e35863411672df",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "ad8f4a11ece3c6be253862d1857123a26f8efc542f2dd058abb31cd87ab2c1a1",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "4615762a41e1393802476dc33551a0edbd6aef2cdcbeb5264cca12c6be5fa1e2",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "source_sha256": "6df457711f51b2bdcc3ba7289b58097a25d00986bf3d2ef504980db1ff8d6d7b",
+      "expected_sha256": "5d60a8a4d8606debf586201c081d85e8bb779cdb368fd4bd14c1760fe36fbf50",
+      "parts": [
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "bcfcc51431bd3b5b22de361eef6d9536da72afedd0cb11769e304adad39c1b32",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "23d1b117bdeab824286958ee1b883c4158300c88fda70bd0e30dd39a7c3bd4b7",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "f6382207bec4cbfe2f8ff71e0b39051fbae7cb974d6f3562fde4901752821d13",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "5311efe1b9bd059bd19b7c426a66d076ac892748ad4de7eb333b1f1303dc15ec",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "7e6a53080dfc11a9572f5c1209087d68dbebe7d211a6a38efc97c776b528adf0",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "1a784157c053bd100634d9612548526d21b390aa5da9763392df63beb30e92ac",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "source_sha256": "c26255ac4dc78031a05c880cd1049c695ab1b3a3e37909914b9347fd74bcad16",
+      "expected_sha256": "d8ad021908d43c1becebcb8aac8706c49f214d57adc6f5ef88069a0e058e5ba1",
+      "parts": [
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "918fd54b5b1fa5111b1a27c3de1b47d334a8311122fa48e4af75e54890044af1",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "99e402b0451c5fc03f476a2db6374a6338dba27e380b2dac29a71ae88e04ac86",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "8b2e37843d6d531e1c846543abdaa3b31d1297ac058ff6e1d34b7f42ef797ab3",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "61a7c23218939b31e26f63787aa9720f162f8bbec94e3305473dead3e4afb21f",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "8750e238e7c305245462d57e41b8e053b916f4e345f67d6e616738aef83027f6",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "737328602b95452f6485091834de2fdba85c180fc1480aeb21340e6475b6eb48",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "source_sha256": "fe83e9a0b8889b4086c51a6eecf59dcd73b26b91de4264cfe8f2bfed908ecb6d",
+      "expected_sha256": "7a89ec839f630d95ba6c2bf9b1fcb3161e5172bcd911f3113e4733c8e4872044",
+      "parts": [
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "433edc4363c08ef6138c333c56431e537910f23909fcc0e4276b225ed1aeb8a9",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "4709e3f4c163b84086441cf01517a4718a47335a7c7152a79eb91dbe4b10d778",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "915dbb1340a71ce48e1e435b9dd75feb6922677e59e25d855b76fa96c82a53e2",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "9c96f05cc3a5dd5dfcf405e5ea15b9643648e31c3fd41d9d896f96c98864c7b4",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "91174f913e64ad2e4107c0e41ab016c342e4cfb801e175ea4e2e90321d98686b",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "cf508a7887f9135b1694f36550a37af06ac1df2fc10036ba3c59cac6d70c646d",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "source_sha256": "60fb252a29cbeff387382876b59a4546c4c3020f70ded8eabf6f4714be856bee",
+      "expected_sha256": "b2d32f14e26d534598fb346f1bca0a7314b7de3878f8b932a68e6910ef416ea0",
+      "parts": [
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "2b072f0bc1beb7811195395a7a30ecc52e561b6e047d2af915740681a52cbfe2",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "f996bcc59d8ae4d83ca9b082a47d014856821a6f527d232508806b9dc948109e",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "007d03eaa53892868e22d9df0fb67db992060746d8c0a6558a4e38cdd8b47595",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "9ab824d2f2be2e2506e45526a9efb5eb18fa9f1b6711057594f67725129af5bd",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "98ad10fa2741c07042770934f28a095b6982e5fc1e1b06cd8bcd717020866afa",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "afb0d2d6d747a565be6531b33244d11a680046ccb2cd86f18e387fe57ea902bc",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "source_sha256": "3a2a9681603a02b42d894f4f3bfa310fa2a5e5aff80274cc3b92960596b2f7a2",
+      "expected_sha256": "74ff04f52ebcc78b97cd7a92513c07315edfc47f36358c180c2c395edaa709dd",
+      "parts": [
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "67d124d361405e84869b0c2c48d051ce2f1ea6298f4c39adca197aa2068c8146",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "468f7a4d0429ab560f8c4b50029d29a6cc7354c689f75203c7d92900f74014b6",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "a85592134e011ef9b3f3b330da7ddd87f86989fa00b2de351b8972ba3e983387",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "cd7a255ad4310073968fe8c2c12abe6e88bc59becf41a0d66cd14a33bc0fe4b9",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "40a1a52fba5cb0cc291b8e5333566bc692b3142ca31781820035efab434c9651",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "20b90278292cac31981a571de5408e7f1946f06e578a43c7dcc179b4196b6b8c",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "source_sha256": "52c44c07b923b0efc47c86402bae198601655af26da5f4b5b649b8ecf5ee2d68",
+      "expected_sha256": "5f6dabc9b9b1e805bd287ed8c5d57904112b445655a9f792ae3cf651396fdf2a",
+      "parts": [
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "0b6db742080fb648a6c673aae8c7efab6115c4da00f457e985034cad96f1cb9c",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "e342c39630d896f43f7e71f541a585792deb19dde39febfef03c73fef795ece4",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "851620429d04431c80d22320372cdbed521149e2b2f6039614c101472a9aa8d4",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "4742018c46d5972c91c5c12a63215811a908cd26d85cfd7287fc17d9f5e00bcf",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "446b2105bc851bdcab552be5ddf8f1b5be5a25c234a39342f8e43046ee8bcea7",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "b158e77dc0ae08e81469780e34f25391a0425bff73024ce6ba9d9ebd28471dd9",
+          "layer_rgba_exact": true
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "source_sha256": "06caeba47628f43561ef9632fce9d88f9ba9378661c5aca799c95229f7646f82",
+      "expected_sha256": "396f0139c212f34cce3b8752d5ade1d47791fdce3efa507c0a87d3fd8bd4d50a",
+      "parts": [
+        {
+          "id": "P-cloth",
+          "paint_sha256": "572e72999bff0d12f8019bac6d20ba47868b8b9dbbafbddd9fc22c8f6ab43744",
+          "map_sha256": "da6b09d944d5be8709005abb71f076509cc4fdcb496b4327998b6afdc9742b90",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-calf",
+          "paint_sha256": "76a2a0594bdd4ddc13d64f9f20765aa3508ba9db9d23ab16410b753706f59a9a",
+          "map_sha256": "5c5e37c5c288a63c3f4b5a6a4fa0592a5f4450e2c3d424c49aea33ceab65f859",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "P-foot",
+          "paint_sha256": "e35d0a2f79e5c0aef06e6e671c3f050cef0b3b09ba9771b87f7688ba5b245834",
+          "map_sha256": "7150d49e6141535918139268fe2007bbe957f8af0e660d13553719239b8d6acb",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-cloth",
+          "paint_sha256": "2c476e25dcc3baae49b8f58323f5e8f2e64835491aec566273eff267c7d2d2eb",
+          "map_sha256": "a2c085db5f8c2d519f4dceb661329ca496564e5a2e849e40590f84ec35b96ff0",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-calf",
+          "paint_sha256": "597a8c044d63f8c51bb6830fc3f2fc9d9a32ddd2c533032349a76d1ca25dd735",
+          "map_sha256": "3fb7e015818e70a7950528077890eb48834af73e091d54ca2912266341922c98",
+          "layer_rgba_exact": true
+        },
+        {
+          "id": "Q-foot",
+          "paint_sha256": "bbf8046b3ccbaf871bc5b527b351e3a15a714e3d33f16c891bfc1d0339328c4b",
+          "map_sha256": "39a2d972bdc1f0521791ddb07de3e7fe614074bf6c48f951b2013b8c9d9b7b8c",
+          "layer_rgba_exact": true
+        }
+      ]
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "sha256": "df455c4842f94862a364d74511d987940ceb1113022b9a8bb8791d78ead6a9a4",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 1,
+      "sha256": "5d60a8a4d8606debf586201c081d85e8bb779cdb368fd4bd14c1760fe36fbf50",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 2,
+      "sha256": "d8ad021908d43c1becebcb8aac8706c49f214d57adc6f5ef88069a0e058e5ba1",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 3,
+      "sha256": "7a89ec839f630d95ba6c2bf9b1fcb3161e5172bcd911f3113e4733c8e4872044",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 4,
+      "sha256": "b2d32f14e26d534598fb346f1bca0a7314b7de3878f8b932a68e6910ef416ea0",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 5,
+      "sha256": "74ff04f52ebcc78b97cd7a92513c07315edfc47f36358c180c2c395edaa709dd",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 6,
+      "sha256": "5f6dabc9b9b1e805bd287ed8c5d57904112b445655a9f792ae3cf651396fdf2a",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    },
+    {
+      "frame": 7,
+      "sha256": "396f0139c212f34cce3b8752d5ade1d47791fdce3efa507c0a87d3fd8bd4d50a",
+      "hold": [
+        9,
+        160
+      ],
+      "source_png_bytes_exact": true,
+      "source_rgba_exact": true,
+      "outside_mask_exact": true
+    }
+  ],
+  "duration": [
+    9,
+    20
+  ],
+  "scope": "Exact retained paint/maps/compositing/clock; not new art or motion approval"
+}

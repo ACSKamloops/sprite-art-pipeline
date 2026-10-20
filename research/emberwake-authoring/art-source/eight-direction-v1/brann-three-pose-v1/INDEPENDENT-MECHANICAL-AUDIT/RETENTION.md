@@ -1,0 +1,1 @@
+Top-level independent report/receipt and original manifest retained exactly. Large replay outputs remain at the absolute audit folder recorded in receipt; those outputs are not copied here. Original audit ledger refers to that full external audit, not this compact subset. Canonical ROOT-REPLAY-RECEIPT.json separately proves relocated replay.

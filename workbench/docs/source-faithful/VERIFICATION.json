@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "updated_utc": "2026-10-14T01:23:16.764753+00:00",
+  "package_version": "0.5.0",
+  "runtime_commit": "f4e10a72a1597e4cf355de316e563250d8216311",
+  "package_source_commit": "4a6191280efdf3b7b51ca4053bc4658efa3f2d51",
+  "source_fingerprint": "39ecab3bc05eb50e79af27011bd962ffb289c879115206b7be835627d80d420e",
+  "full_suite": {
+    "version": 1,
+    "recorded_utc": "2026-10-14T01:23:16.764753+00:00",
+    "source_commit": "f0af029ad4bcdeb49c0fb1a31cc31555db10a5f9",
+    "result": {
+      "tests": 527,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "duration_seconds": 71.782
+    },
+    "warnings": 1398,
+    "warnings_boundary": "Existing Pillow getdata deprecation warnings; not test failures",
+    "evidence": [
+      {
+        "file": "docs/source-faithful/evidence/TESTS.xml",
+        "sha256": "75fed0ab101364bbb5d62f2961138015bbb5a526c99bc9dbcd22f75bc4eae688",
+        "bytes": 73222
+      },
+      {
+        "file": "docs/source-faithful/evidence/TESTS.log",
+        "sha256": "7bdd5ac113149f06d4b83b4b96c63d538535e0f7440f1d27f44b725fa72054e8",
+        "bytes": 3118
+      }
+    ],
+    "subsequent_runtime_change": {
+      "commit": "f4e10a72a1597e4cf355de316e563250d8216311",
+      "scope": "Four JavaScript lines restore optional subject/images on Recent selection; no original algorithm modified",
+      "verification": "Final browser before/after restoration, independent two-scenario Node host review, and rebound installed-package proof; full suite was not rerun at this later revision"
+    },
+    "scope": "Mechanical software/source fidelity verification; no art approval, private-model or exhaustive vendor parity claim",
+    "reproduction_command": ".venv/bin/python -m pytest -q --junitxml=runs/source-faithful-final-tests.xml"
+  },
+  "source_execution": {
+    "factory_slices": 46,
+    "original_public_bundles": 4,
+    "families": 17,
+    "original_exports": {
+      "validator_normalizer": "47381.W$",
+      "apply_controls": "47381.uY",
+      "renderer": "39852.sY"
+    },
+    "local_service_methods": [
+      "local.pixellab.vfx.describe",
+      "local.pixellab.vfx.validate",
+      "local.pixellab.vfx.controls",
+      "local.pixellab.vfx.render"
+    ],
+    "authentic_returned_presets": [
+      "energy_orb",
+      "slash_arc"
+    ],
+    "presets_sha256": "f0c0e9d1a84fb1feb244b70124218381729850ed27d60448ab97aad892bbc40f",
+    "manifest_sha256": "188743c8078e006117a6cbc51fdf96a73cafecc387a1a998276d93aa8d19645f",
+    "independent_oracle": "Full retained original public chunks loaded separately from production slices; selected diagnostics and controls, not all source branches",
+    "constraint": "Execute actual recovered source and use retained vendor data; do not substitute invented craft algorithms and call them PixelLab methods",
+    "our_host_utilities": [
+      "local service/IPC adapters",
+      "web controls and frame playback",
+      "jobs",
+      "Store and receipts",
+      "separate raster editor",
+      "CLI/JSON Lines/plan integration"
+    ]
+  },
+  "browser": {
+    "report": "evidence/browser/BROWSER-SOURCE-REPORT.json",
+    "checks": 15,
+    "passed": true,
+    "root_executed_interactions": true,
+    "reviewer_independently_executed_browser": false,
+    "all_stream_frames_matched_original_oracle": true,
+    "playing_canvas_exact_frames": 8,
+    "observed_transitions": 26,
+    "observed_loop_wraps": 3,
+    "humanoid_motion_reviewed": false,
+    "recent_restore_final_commit": "f4e10a72a1597e4cf355de316e563250d8216311"
+  },
+  "installed_package": {
+    "passed": true,
+    "proof": "PACKAGE-RECEIPT.json",
+    "path": "/home/astra/artifacts/pixellab-source-v05-package-proof-20261014-final/wheel/sprite_workbench-0.5.0-py3-none-any.whl",
+    "sha256": "fa0aa41d5aa73c207829643621549b0989533adffb7cdcb23276278f45e36d4d",
+    "bytes": 764145,
+    "runtime_files_matched": 103,
+    "independent_original_family_cases": 17,
+    "authentic_preset_variations": 2,
+    "http_and_static_assets": true,
+    "fresh_store_portable_closure": true
+  },
+  "rea": {
+    "entrypoint": "REA.md",
+    "carrier_modules": 2,
+    "carrier_parse_failures": 0,
+    "ast_nodes": 12357,
+    "semantic_unknowns": 2150,
+    "semantic_completion": false,
+    "bare_factory_parse_failures": 46,
+    "boundary": "Anonymous factories require a syntactic carrier; parse/graph inspection is bounded and corroborated by original-source runtime differentials"
+  },
+  "setup_ready": true,
+  "comparison_ready": false,
+  "comparison_blocker_records": 71,
+  "local_url": "http://127.0.0.1:8874/#source",
+  "provider_calls_this_pass": 0,
+  "new_neural_art_tests": 0,
+  "private_model_recovered": false,
+  "complete_vendor_replication": false,
+  "all_original_analysis_questions_closed": false,
+  "artistic_acceptance": "unreviewed",
+  "continuous_humanoid_motion_viewed": false,
+  "review_scope": "Three independent bounded agents: source oracle/fidelity, HTTP/job/plan/closure behavior, controls and isolated package proof. Software reviews do not certify aesthetic quality.",
+  "evidence": [
+    {
+      "file": "evidence/TESTS-RECEIPT.json",
+      "sha256": "d666574a7a3e51fd7b80c1335ea8ea53f1696ebbee4542acff6487f4097bd4e5",
+      "bytes": 1381
+    },
+    {
+      "file": "evidence/TESTS.xml",
+      "sha256": "75fed0ab101364bbb5d62f2961138015bbb5a526c99bc9dbcd22f75bc4eae688",
+      "bytes": 73222
+    },
+    {
+      "file": "evidence/TESTS.log",
+      "sha256": "7bdd5ac113149f06d4b83b4b96c63d538535e0f7440f1d27f44b725fa72054e8",
+      "bytes": 3118
+    },
+    {
+      "file": "evidence/browser/BROWSER-SOURCE-REPORT.json",
+      "sha256": "9231b1186ce339d40a07d20d42642044f1835a4a384523bea400fb6e49416a7e",
+      "bytes": 6621
+    },
+    {
+      "file": "evidence/browser/SETUP-VERIFICATION.json",
+      "sha256": "1cb78a98713c8435795b40a9ecfdaff3a7f30d51b4fac1f55d0d77d4a672ed6b",
+      "bytes": 5439
+    },
+    {
+      "file": "PACKAGE-RECEIPT.json",
+      "sha256": "238fde8e725e5d25cce41d09ffe48a58517c7b2121eba48a5b6efaaf7189dc4b",
+      "bytes": 25784
+    },
+    {
+      "file": "PACKAGE-RUNTIME-RESULT.json",
+      "sha256": "b32cac81feeca339a7b13e85fcb29acce58f91eb88258b690968759cb107856c",
+      "bytes": 4244
+    },
+    {
+      "file": "FINAL-SOURCE-REVIEW.md",
+      "sha256": "9c1dd1a5008d4b0f06bedfd13a8659e94adae5d7ca65cd714aaf5a400d20f47b",
+      "bytes": 6677
+    },
+    {
+      "file": "FIDELITY-REVIEW.md",
+      "sha256": "9532b70a6dba1948aa9fe32e3d9c03ba856da8586c0f349afeaabf1788ea7b03",
+      "bytes": 8957
+    },
+    {
+      "file": "WORKFLOW-REVIEW.md",
+      "sha256": "9b4edef8e11d47ea43d376c1ee1a28f04e4fae1c8201cfc68f05095dab06d60a",
+      "bytes": 7800
+    },
+    {
+      "file": "REA.md",
+      "sha256": "e21bcac442031a20562346a34a5e7f975c465ba5f25a52c6e8dad7488b8c38c9",
+      "bytes": 1951
+    },
+    {
+      "file": "evidence/REA-CARRIER-SUMMARY.json",
+      "sha256": "40e298af66e43364b759d3fafca48ebcd81c1d6c1beb50846fe9ab67cc48db10",
+      "bytes": 12627
+    }
+  ]
+}

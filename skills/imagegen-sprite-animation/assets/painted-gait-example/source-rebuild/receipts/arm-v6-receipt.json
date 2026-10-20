@@ -1,0 +1,56 @@
+{
+  "initial_project_sha256": "3a1978fb87a3795764c08fc706d709c53d57cb3a2efa4451cc28b52e6569a508",
+  "final_project_sha256": "9a098caf31bd16d61a753d0cdb04bc5a70422c8d5642652a72d0739533c527ae",
+  "undo_redo_exact": true,
+  "journal_replay_exact": true,
+  "clock_cycle_seconds": [
+    9,
+    20
+  ],
+  "source": "manual-cycle-v5 full sequence",
+  "frames": [
+    {
+      "slot": 1,
+      "changed_RGBA_pixels": 407,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    },
+    {
+      "slot": 2,
+      "changed_RGBA_pixels": 658,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    },
+    {
+      "slot": 3,
+      "changed_RGBA_pixels": 452,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    },
+    {
+      "slot": 4,
+      "changed_RGBA_pixels": 917,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    },
+    {
+      "slot": 5,
+      "changed_RGBA_pixels": 418,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    },
+    {
+      "slot": 6,
+      "changed_RGBA_pixels": 401,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    },
+    {
+      "slot": 7,
+      "changed_RGBA_pixels": 851,
+      "lower_rows_exact": true,
+      "head_0_to53_exact": true
+    }
+  ],
+  "boundary": "source-pixel art hypothesis; no numeric score/editor or engineclaim"
+}

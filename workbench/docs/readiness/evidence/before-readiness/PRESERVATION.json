@@ -1,0 +1,56 @@
+{
+  "recorded_utc": "2026-10-14T00:32:56.760517+00:00",
+  "scope": "Selected current entrypoints before readiness continuation; no private captures copied",
+  "files": [
+    {
+      "original": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.json",
+      "copy": "docs/readiness/evidence/before-readiness/docs/LATEST-VERIFICATION.json",
+      "sha256": "a5607c6e2081db3177d3cc9621bb8cfcbc25f2df513bc019f5d9b08ea24570b8"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-workbench/docs/LATEST-VERIFICATION.md",
+      "copy": "docs/readiness/evidence/before-readiness/docs/LATEST-VERIFICATION.md",
+      "sha256": "2cd173b736a267db184c907e11a409a63a19c10f959eca23777e2c4f0871dd01"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/CURRENT-HANDOFF-MANIFEST.json",
+      "copy": "docs/readiness/evidence/before-readiness/docs/consolidation/CURRENT-HANDOFF-MANIFEST.json",
+      "sha256": "ee7b9db62f506b89234a0463a9e3626720b9fa1e90acd0209a12253629de09fe"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-workbench/docs/consolidation/HANDOFF-VALIDATION.json",
+      "copy": "docs/readiness/evidence/before-readiness/docs/consolidation/HANDOFF-VALIDATION.json",
+      "sha256": "6ec3bc77023b7505a4de1deff7ac27947a43af7c77f739f36bfc649c0f82eff1"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-test-20261011/START-HERE.md",
+      "copy": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-readiness-20261013/START-HERE.md",
+      "sha256": "333d491a92e9096fbe96668a246bf985ee3f19dcf3d69498ce42a4589f164a12"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-test-20261011/ANALYSIS-STATUS.json",
+      "copy": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-readiness-20261013/ANALYSIS-STATUS.json",
+      "sha256": "89676cefd2d3858c2dbea1890f3621f1d9f96689cd27d238ead392b22c2fec05"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-test-20261011/LOCAL-IMPLEMENTATION-STATUS.json",
+      "copy": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-readiness-20261013/LOCAL-IMPLEMENTATION-STATUS.json",
+      "sha256": "a5607c6e2081db3177d3cc9621bb8cfcbc25f2df513bc019f5d9b08ea24570b8"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-test-20261011/REVIEWED-HANDOFF-FILES.json",
+      "copy": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-readiness-20261013/REVIEWED-HANDOFF-FILES.json",
+      "sha256": "6671b4d32fbd598657cd671301afba1427b7ed7006039fb57fd2733e75fca42c"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/full-reconstruction/LOCAL-IMPLEMENTATION-STATUS.json",
+      "copy": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-readiness-20261013/analysis-root/full-reconstruction/LOCAL-IMPLEMENTATION-STATUS.json",
+      "sha256": "0e145255549a4583270799f4eafa95d608e89c02950f29bb420abe1bc4ea1d69"
+    },
+    {
+      "original": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/CURRENT-HANDOFF-MANIFEST.json",
+      "copy": "/home/astra/projects/pixellab-local-test-20261011/analysis-root/consolidation-20261012/before-readiness-20261013/analysis-root/consolidation-20261012/CURRENT-HANDOFF-MANIFEST.json",
+      "sha256": "ee7b9db62f506b89234a0463a9e3626720b9fa1e90acd0209a12253629de09fe"
+    }
+  ]
+}

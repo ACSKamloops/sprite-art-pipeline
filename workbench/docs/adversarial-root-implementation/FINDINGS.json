@@ -1,0 +1,93 @@
+{
+  "findings": [
+    {
+      "id": "R01",
+      "severity": "high",
+      "status": "reproduced-baseline",
+      "files": [
+        "sprite_workbench/core.py"
+      ],
+      "finding": "Hash-valid byte blobs containing NaN/Infinity/overflow numbers bypass finite JSON write validation when read. RGBA documents miss structured required/version validation; sequence reads admit invalid clock/index/pivot/direction/type/version records.",
+      "oracle": "All semantic document reads reject malformed/nonfinite values with ValidationError before consumers use them.",
+      "tests": "test_json_reader_rejects_nonfinite_hash_valid_blob; test_forged_sequence_rejected_before_consumption; test_invalid_raster_documents_fail_structured",
+      "required_fix": "Strict finite JSON on read and complete version1 RGBA/sequence schema/clock/metadata validation, including structured missing-field errors."
+    },
+    {
+      "id": "R02",
+      "severity": "high",
+      "status": "reproduced-baseline",
+      "files": [
+        "sprite_workbench/acquisition.py"
+      ],
+      "finding": "Captured source bytes and decoded pixels can disagree because the file path is reopened after raw capture. A bounded injected path replacement records red PNG bytes but returns green pixels.",
+      "oracle": "Decode the exact captured byte buffer; verify returned pixels correspond to that artifact, regardless of subsequent path changes.",
+      "tests": "test_import_decodes_captured_bytes_even_if_path_changes",
+      "required_fix": "Image.open(BytesIO(raw)) rather than Image.open(path). The injected replacement models the read/open boundary, not an observed user incident."
+    },
+    {
+      "id": "R03",
+      "severity": "high",
+      "status": "reproduced-baseline",
+      "files": [
+        "sprite_workbench/acquisition.py"
+      ],
+      "finding": "APNG default-image poster is imported as an extra animation frame with fabricated1/12 duration. The explicit2-frame200/300ms animation becomes3 frames red/green/blue with83.3/200/300ms. Invalid image inputs also escape as decoder exceptions.",
+      "oracle": "Poster is separately retained, never manufactured timed animation; two real frames retain their clocks. Decoder failures are structured.",
+      "tests": "test_apng_default_poster_is_not_manufactured_animation_time; test_invalid_and_truncated_acquisition_returns_structured_error",
+      "required_fix": "Explicit default_image/poster handling and finite play-count policy, plus decoder exception conversion."
+    },
+    {
+      "id": "R04",
+      "severity": "medium",
+      "status": "reproduced-baseline",
+      "files": [
+        "sprite_workbench/raster.py"
+      ],
+      "finding": "Missing conditional paint/outline colors/maps and invalid mapping/selector arrays leak KeyError/AttributeError/TypeError. String pixel_perfect and nonfinite view are accepted; zero-height layers can be accepted by selection.",
+      "oracle": "Validate nested conditional fields, Boolean controls, finite JSON and nonempty layer dimensions before mutation; failures are ValidationError.",
+      "tests": "test_invalid_conditional_raster_inputs_fail_structured; test_empty_layer_rejected_and_late_guard_failure_does_not_publish",
+      "required_fix": "Preflight typed operation/selector fields and dimensional/resource validation."
+    },
+    {
+      "id": "R05",
+      "severity": "medium",
+      "status": "reproduced-baseline",
+      "files": [
+        "sprite_workbench/effects.py"
+      ],
+      "finding": "Nonobject recipe/canvas and nonarray layers fail as Python AttributeError/TypeError before pinned renderer, rather than structured local validation.",
+      "oracle": "Malformed envelope yields ValidationError; no candidate/head published.",
+      "tests": "test_effect_outer_shape_validation_is_structured",
+      "required_fix": "Validate recipe/canvas/layer/image container shapes before get/len/items operations."
+    },
+    {
+      "id": "R06",
+      "severity": "medium",
+      "status": "source-only-risk-not-large-allocation-tested",
+      "files": [
+        "sprite_workbench/raster.py"
+      ],
+      "finding": "Layer copies occur before n*w*h resource validation. The check ignores aggregate layer count. Brush center count bounds are checked after interpolation-list construction; allowed size64\u00d7200k centers can entail large nested work.",
+      "oracle": "Budgets should be checked before expensive copies/construction and account for aggregate layers and footprint work.",
+      "tests": "test_brush_interpolation_budget_rejects_before_raster_paint is a bounded positive rejection control; no enormous allocation or worst-case paint was executed.",
+      "required_fix": "Apply aggregate input/copy/work budgets before costly work; do not infer a measured memory or timeout failure from this source-only risk."
+    }
+  ],
+  "passed_controls": [
+    "Corrupt raw blob and path-like IDs reject",
+    "Trusted protection rejects touched-but-unchanged writes across7 modes",
+    "Current mask selection and pre-list copy/outline retain distinct oracles",
+    "Invalid coordinate/color still rejects when mask excludes patch",
+    "Crop guard binds source/node/region; stamp versus overwrite differs explicitly",
+    "Brush interpolation rejects >200k centers before painting",
+    "One-byte factory mutation rejects in isolated resource copy"
+  ],
+  "unreviewed": [
+    "Arbitrary malformed payload combinations",
+    "All renderer numerical/conditional cases and source families",
+    "Browser Worker/CSP/structured clone bootstrap",
+    "Container decoder/engine export compatibility",
+    "Manifest replacement threat model: shipped manifest is treated as trusted; single-factory tamper rejection does not attest arbitrary recomputed manifest",
+    "Finite GIF/APNG repeat policy pending owner integration"
+  ]
+}

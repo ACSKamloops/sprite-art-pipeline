@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "phase": "palette-construction",
+  "endpoint": "https://api.pixellab.ai/v2/reduce-colors",
+  "max_posts": 4,
+  "automatic_retries": 0,
+  "requests": [
+    {
+      "variant": "joint-ab-4",
+      "frames": [
+        "A",
+        "B"
+      ],
+      "num_colors": 4,
+      "request_sha256": "ec4fa96935f9cf7cb563392d0360d41875223289390ce34a709b0390c8d18b28",
+      "compact_http_body_sha256": "50a747a76ddde7cfd6c075a4cdfd319097329d724eb12b68f80fe757cc9212d4"
+    },
+    {
+      "variant": "histogram-cc-4",
+      "frames": [
+        "C",
+        "C"
+      ],
+      "num_colors": 4,
+      "request_sha256": "1e09153dcdf0ce4e9eed6ace08b457a3213ffac06cf6a6f829d93c445f1a824a",
+      "compact_http_body_sha256": "7267514c45038990e83f59aba653611300d30ad511b65edf213351d8e7d0313c"
+    },
+    {
+      "variant": "weighted-aa-4",
+      "frames": [
+        "A",
+        "A"
+      ],
+      "num_colors": 4,
+      "request_sha256": "475b4ca542e84d8e703b2ce623c95324705476e3cfa6af9c35915ccb40867e0f",
+      "compact_http_body_sha256": "aba89ad97508867af4b36ca755fb610c60125f37b14331f8f06077fbfd47b870"
+    },
+    {
+      "variant": "joint-ab-32",
+      "frames": [
+        "A",
+        "B"
+      ],
+      "num_colors": 32,
+      "request_sha256": "0bbd5f958e43c0c5c23a73cf32ebe0809bf75f0d4705989de9d0ee2266549c37",
+      "compact_http_body_sha256": "6a7329f6b3171023ab8b683e0e52a566492e631ee99b60aa90278f912eb1a912"
+    }
+  ],
+  "credential_access": false,
+  "posts_performed": 0,
+  "predeclared_comparisons": [
+    "AB4 versus CC4 palette RGB multiset and per-source-color mappings: identical total histogram, different frame partition",
+    "AB4 first A versus AA4 first A: shared-frame influence; report any palette/mapping changes",
+    "AB32 versus unchanged original palette-image helper32 RGB set: exact equality or disagreement, no parameter fitting"
+  ],
+  "scope": "Public reducer palette construction only; no model identity, H3 conversion or private-source equivalence claim"
+}

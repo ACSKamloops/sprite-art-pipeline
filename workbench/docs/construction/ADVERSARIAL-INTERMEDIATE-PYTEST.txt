@@ -1,0 +1,62 @@
+...................................FF                                    [100%]
+=================================== FAILURES ===================================
+__ test_independent_invalid_binding_never_emits_unusable_success[native_blob] __
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-64/test_independent_invalid_bindi2')
+mode = 'native_blob'
+
+    @pytest.mark.parametrize('mode',['bool_version','extra','native_blob','project_hash'])
+    def test_independent_invalid_binding_never_emits_unusable_success(tmp_path,mode):
+        from sprite_workbench.construction_exchange import import_ase,ExchangeError
+        store,p,saved,e=_exchange(tmp_path)
+        bound=store.get_json(e['binding'])
+        if mode=='bool_version':bound['version']=True
+        elif mode=='extra':bound['extra']='not part of typedbinding'
+        elif mode=='native_blob':bound['native_bytes']=store.put_bytes(b'not original native ASE')
+        else:bound['project_hash']='0'*64
+        bad_binding=store.put_json(bound)
+        side=Path(e['sidecar_path']);envelope=json.loads(side.read_text());envelope['workbench']['binding']=bad_binding;side.write_text(json.dumps(envelope))
+>       with pytest.raises(ExchangeError):import_ase(store,e['ase_path'],side)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ExchangeError
+
+tests/test_construction_adversarial.py:338: Failed
+_ test_independent_invalid_binding_never_emits_unusable_success[project_hash] __
+
+tmp_path = PosixPath('/tmp/pytest-of-astra/pytest-64/test_independent_invalid_bindi3')
+mode = 'project_hash'
+
+    @pytest.mark.parametrize('mode',['bool_version','extra','native_blob','project_hash'])
+    def test_independent_invalid_binding_never_emits_unusable_success(tmp_path,mode):
+        from sprite_workbench.construction_exchange import import_ase,ExchangeError
+        store,p,saved,e=_exchange(tmp_path)
+        bound=store.get_json(e['binding'])
+        if mode=='bool_version':bound['version']=True
+        elif mode=='extra':bound['extra']='not part of typedbinding'
+        elif mode=='native_blob':bound['native_bytes']=store.put_bytes(b'not original native ASE')
+        else:bound['project_hash']='0'*64
+        bad_binding=store.put_json(bound)
+        side=Path(e['sidecar_path']);envelope=json.loads(side.read_text());envelope['workbench']['binding']=bad_binding;side.write_text(json.dumps(envelope))
+>       with pytest.raises(ExchangeError):import_ase(store,e['ase_path'],side)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE ExchangeError
+
+tests/test_construction_adversarial.py:338: Failed
+=============================== warnings summary ===============================
+tests/test_construction_adversarial.py::test_independent_raw_indices_aliases_hidden_rgba_and_composite
+  /home/astra/projects/pixellab-workbench-state/tests/test_construction_adversarial.py:35: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    assert list(c.toolkit.core.render_cel(raw,'shared').getdata())==[(17,31,43,255),(71,83,97,127),(29,37,41,0)]
+
+tests/test_construction_adversarial.py: 60 warnings
+  /home/astra/projects/pixellab-workbench-state/sprite_workbench/construction_core/core.py:129: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    a=list(_render_frame(before,frame['id']).getdata());b=list(_render_frame(after,frame['id']).getdata());points=[[i%w,i//w]for i,(x,y)in enumerate(zip(a,b))if x!=y]
+
+tests/test_construction_adversarial.py: 13 warnings
+  /home/astra/projects/pixellab-workbench-state/sprite_workbench/construction_core/aseprite.py:246: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+    for i,color in enumerate(image.getdata()):
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_construction_adversarial.py::test_independent_invalid_binding_never_emits_unusable_success[native_blob]
+FAILED tests/test_construction_adversarial.py::test_independent_invalid_binding_never_emits_unusable_success[project_hash]
+2 failed, 35 passed, 74 warnings in 0.26s

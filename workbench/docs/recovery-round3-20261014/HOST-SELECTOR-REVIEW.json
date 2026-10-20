@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "classification": "independent bounded read-only review and two original-source CLI replays",
+  "root_cli_path": "/home/astra/projects/pixellab-local-workbench/scripts/recovery_round3/host_flood_mask.py",
+  "reviewed_root_cli_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+  "documentation_sha256": "7a0cf02cd83be859dff873d5363820e66d467289ae10db8783560cde8c4e687c",
+  "input": {
+    "path": "/home/astra/artifacts/pixellab-cutout-connectivity-20261014/inputs/connectivity-rgba.png",
+    "sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+    "bytes": 588,
+    "after_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+    "unchanged": true
+  },
+  "runs": [
+    {
+      "name": "tolerance8",
+      "selected_pixels": 5761,
+      "mask_sha256": "8d5c66ecbbdcee0c85ba0c0dd994894b43b893781be078bc8e516f340b824579",
+      "retained_mask_bytes_equal": true,
+      "mask_colors_RGBA": [
+        [
+          255,
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "initial_declared_mask_convention": "Selected=opaque white RGBA255; unselected=transparent black RGBA0. Selection only; source is never cleared/forced opaque.",
+      "finding": "Unselected hidden RGB is white, not black; declared convention requires correction",
+      "executed_cli_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+      "input_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "source_pins": {
+        "pixelorama-recovered/src/Classes/FloodFillObject.gd": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+        "pixelorama-recovered/src/Autoload/DrawingAlgos.gd": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9"
+      },
+      "similar_colors_function_sha256": "5c69c15d8218ee0ec1a6f752eeb032d42cde9c337beaf424faa624f51f9a1e9f",
+      "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+      "decoded_format": 5,
+      "source_image_unchanged_observed": true,
+      "receipt_sha256": "fbfb60b70ee9bdf3c8f9587045adbfcf390de79b0bb8f357658b76587564ee36",
+      "artifact": "/home/astra/artifacts/pixellab-host-selector-independent-20261014/tolerance8"
+    },
+    {
+      "name": "tolerance32",
+      "selected_pixels": 5889,
+      "mask_sha256": "d46178aa2e071504bd68d7bb26fa377dbeeb79868258979706830aca51c11fc3",
+      "retained_mask_bytes_equal": true,
+      "mask_colors_RGBA": [
+        [
+          255,
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          255,
+          255,
+          255
+        ]
+      ],
+      "initial_declared_mask_convention": "Selected=opaque white RGBA255; unselected=transparent black RGBA0. Selection only; source is never cleared/forced opaque.",
+      "finding": "Unselected hidden RGB is white, not black; declared convention requires correction",
+      "executed_cli_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+      "input_png_sha256": "f8929723b17cdc39254ced84549817f4c36f9a71a7d66958f13bf27b1f566338",
+      "source_pins": {
+        "pixelorama-recovered/src/Classes/FloodFillObject.gd": "63f7320fbb151e1959265a8e1331c341cefaf6511c1975e69df1ccf515c15cb7",
+        "pixelorama-recovered/src/Autoload/DrawingAlgos.gd": "6acef5d413bdf0e7685b7d034bb65885d40b884d6cee60869065052980ec61a9"
+      },
+      "similar_colors_function_sha256": "5c69c15d8218ee0ec1a6f752eeb032d42cde9c337beaf424faa624f51f9a1e9f",
+      "engine": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+      "decoded_format": 5,
+      "source_image_unchanged_observed": true,
+      "receipt_sha256": "6176640015fb3507c87f5f89b114b0717fb1512b525fa04df2dc04867bd30e27",
+      "artifact": "/home/astra/artifacts/pixellab-host-selector-independent-20261014/tolerance32"
+    }
+  ],
+  "negative_existing_output": {
+    "cli_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+    "returncode": 2,
+    "stderr": "[Errno 17] File exists: '/home/astra/artifacts/pixellab-host-selector-independent-20261014/tolerance8'",
+    "all_existing_files_unchanged": true
+  },
+  "prior_guard_receipt": {
+    "path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/HOST-SELECTOR-CLI-CHECKS.json",
+    "sha256": "83b7e90dd6be256c6d4599cf21bb67bdf13637a0b2d70ac2c1c95283cfd88812",
+    "review": "Five retained guards inspected; only existing-output rejection independently rerun here"
+  },
+  "provider_calls": 0,
+  "credentials_loaded": false,
+  "compiled_GDC_equivalence_proven": false,
+  "private_cutout_equivalence_proven": false,
+  "runtime_changes_by_reviewer": false,
+  "metadata_finding": "Unselected mask pixels decode transparent white [255,255,255,0]; initial CLI/docs/receipt said transparent black.",
+  "correction_verification": {
+    "status": "resolved metadata; historical incorrect receipt convention retained with explicit erratum",
+    "sidecar_path": "/home/astra/projects/pixellab-local-workbench/docs/recovery-round3-20261014/MASK-CONVENTION-CORRECTION.json",
+    "sidecar_sha256": "2c05c86b702d27a4485f963ef5650fd21132bbb4c1507358649ba6af459fe550",
+    "new_cli_sha256": "67cbb80674b9d17cb81aeb423dcadd16aa617a461720894552394a830af37252",
+    "old_cli_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+    "only_convention_literal_changed_verified": true,
+    "new_documentation_sha256": "f68fffac3e9f19268d4bfc12ee344643b8a75c75bd7e3229de72ba653b5f177c",
+    "cases": [
+      {
+        "name": "tolerance8",
+        "old_receipt_sha256_verified": "fbfb60b70ee9bdf3c8f9587045adbfcf390de79b0bb8f357658b76587564ee36",
+        "new_receipt_sha256_verified": "ce0f7d2c63c546d6c59033486f32354c991154f524ecba322939205305e28502",
+        "unchanged_mask_png_sha256": "8d5c66ecbbdcee0c85ba0c0dd994894b43b893781be078bc8e516f340b824579",
+        "selected_pixels": 5761,
+        "decoded_mask_colors": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ]
+        ],
+        "fresh_receipt_convention_correct": true,
+        "method_pins_unchanged": true
+      },
+      {
+        "name": "tolerance32",
+        "old_receipt_sha256_verified": "6176640015fb3507c87f5f89b114b0717fb1512b525fa04df2dc04867bd30e27",
+        "new_receipt_sha256_verified": "02378b8b0c0048f2c0d8dd4ed44682753591480495fbd5f33c24ca93e029f4eb",
+        "unchanged_mask_png_sha256": "d46178aa2e071504bd68d7bb26fa377dbeeb79868258979706830aca51c11fc3",
+        "selected_pixels": 5889,
+        "decoded_mask_colors": [
+          [
+            255,
+            255,
+            255,
+            0
+          ],
+          [
+            255,
+            255,
+            255,
+            255
+          ]
+        ],
+        "fresh_receipt_convention_correct": true,
+        "method_pins_unchanged": true
+      }
+    ],
+    "input_still_unchanged": true,
+    "additional_execution_or_provider_calls": 0
+  }
+}

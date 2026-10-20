@@ -1,0 +1,1 @@
+function(e,t,n){"use strict";function r(){let e="https://api.pixellab.ai";return"https:"===window.location.protocol?e.replace(/^http:/,"https:"):e}n.d(t,{r:function(){return r}})}

@@ -1,0 +1,148 @@
+{
+  "authority": "Read-only selected source tracing of normal producer outputs; no additional export/import/font generation or mutation probes were executed",
+  "anchors": [
+    {
+      "path": "sprite_workbench/export.py",
+      "source_sha256": "53d6c9deba9f1716008476b6550f2515a702d0d99e496f6f53853aa39caf1df4",
+      "one_based_lines": [
+        187,
+        265
+      ],
+      "fragment_sha256": "6153444818de2b8f3aab919e8a034b824d138acec8f76a6173f56dc2d832692c",
+      "purpose": "_artifact_closure"
+    },
+    {
+      "path": "sprite_workbench/prepare.py",
+      "source_sha256": "c0ae85eb41bcb61a2254c59ca7f016f6d259ee646a61dfde0e49729b410ec52b",
+      "one_based_lines": [
+        163,
+        270
+      ],
+      "fragment_sha256": "1c5a67338bd947108e73236c76c462da8b30f28bfcfff7937d1d985a30e376eb",
+      "purpose": "prepare_request"
+    },
+    {
+      "path": "sprite_workbench/terrain.py",
+      "source_sha256": "f5fc4feae7a84d4762b103cb1faed448429b36d94e06ac3d74822ec803b5d8ec",
+      "one_based_lines": [
+        106,
+        116
+      ],
+      "fragment_sha256": "272af69ac74dba4cbb6b34c79af4a880d6b1837965dca96b919e453977ed5bf9",
+      "purpose": "save_terrain"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "source_sha256": "e4bad6c606a75e70c623b90438b56ae09145b834d023593b3cb736a3de70cccd",
+      "one_based_lines": [
+        67,
+        86
+      ],
+      "fragment_sha256": "51c53b6f0a6daf93abbb3cb80e8f5720c96e6d6380d460169d0966879aa837ab",
+      "purpose": "render_ui"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "source_sha256": "e4bad6c606a75e70c623b90438b56ae09145b834d023593b3cb736a3de70cccd",
+      "one_based_lines": [
+        117,
+        134
+      ],
+      "fragment_sha256": "bc70502ce5cecc1ef484414c52e6c9ce92234d04cc786db403abee153952a697",
+      "purpose": "rasterize_font"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "source_sha256": "e4bad6c606a75e70c623b90438b56ae09145b834d023593b3cb736a3de70cccd",
+      "one_based_lines": [
+        87,
+        116
+      ],
+      "fragment_sha256": "0cb8136a66b92411f8aa55e18a41e9ee115599e95acd867119311d92b38e4b49",
+      "purpose": "build_glyph_atlas"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "source_sha256": "e4bad6c606a75e70c623b90438b56ae09145b834d023593b3cb736a3de70cccd",
+      "one_based_lines": [
+        135,
+        159
+      ],
+      "fragment_sha256": "7b6187f749233ec303f7d3e0062600e95748942020eb70cde5aa72858405a303",
+      "purpose": "render_text"
+    },
+    {
+      "path": "sprite_workbench/assets.py",
+      "source_sha256": "e4bad6c606a75e70c623b90438b56ae09145b834d023593b3cb736a3de70cccd",
+      "one_based_lines": [
+        160,
+        180
+      ],
+      "fragment_sha256": "c910925a9a7be13e943919a017311be101ef667668bec767b40bc2e03f5c459b",
+      "purpose": "save_viseme_timeline"
+    },
+    {
+      "path": "sprite_workbench/pipeline.py",
+      "source_sha256": "26ed1a0cf75ef2656338154e298d63b6650795ba9f67855afa551aef996d7b93",
+      "one_based_lines": [
+        15,
+        177
+      ],
+      "fragment_sha256": "07c9528d2264ca30d8932a14093df82a693b12e0f11b73f1c1ade86231620ad6",
+      "purpose": "execute_plan"
+    }
+  ],
+  "covered": [
+    {
+      "method": "preparation",
+      "reached": "prepared/source images and references, transformed mask, ROI/padding/adapter audit via metadata.preparation",
+      "remaining": "original source mask is not stored in audit; only transformed/binarized/cropped mask survives by default"
+    },
+    {
+      "method": "terrain",
+      "reached": "metadata.terrain_recipe -> terrain-recipe.cells and full layout/topology",
+      "remaining": "region reblit returns arrays/audit without an automatic Store recipe; callers must explicitly preserve it if used"
+    },
+    {
+      "method": "UI",
+      "reached": "metadata.placements -> each supplied raster and pixel rect in list order",
+      "remaining": "Explicit caller metadata can override placements in direct render_ui; pipeline does not expose metadata so normal pipeline path preserves it"
+    },
+    {
+      "method": "font/text",
+      "reached": "metadata.font_atlas -> atlas image and all supplied glyph rasters/bearings/advance plus text placements",
+      "remaining": "Explicit font file is loaded by path then hashed later; bytes and font_info size/coverage are not bound into atlas or typed closure. Supplied-glyph atlas is intact; file-based constructor replay is incomplete"
+    },
+    {
+      "method": "visemes",
+      "reached": "metadata.viseme_rasters -> all supplied rasters; letter_map/fallback/symbols/text and rational frame holds retained",
+      "remaining": "No missing supplied-raster lineage identified in default path; remote mouth/phoneme generation remains unsupported"
+    }
+  ],
+  "required_qualifications": [
+    {
+      "id": "L01",
+      "finding": "Original source mask missing before destructive preparation",
+      "source": "prepare.py preparation audit includes source_rasters/source_references but no source_mask; export.py preparation branch reaches mask only",
+      "recommendation": "Persist typed original mask separately, retain its representation/geometry, and add a typed source_mask closure edge."
+    },
+    {
+      "id": "L02",
+      "finding": "File-based font source and constructor settings not portable",
+      "source": "assets.py rasterize_font loads truetype(path) then hashes path.read_bytes; build_glyph_atlas does not accept/store font_info/rawfont",
+      "recommendation": "Capture font bytes once before decode (BytesIO), bind raw blob+size/coverage/color/decoder info to font-atlas, and add a typed rawfont closure edge."
+    },
+    {
+      "id": "L03",
+      "finding": "Cross-run raw raster identity does not identify a unique encoded source",
+      "source": "pipeline.py sequence_owners/input_sequences recognizes in-run imports; export.py pipeline-plan has no generic arbitrary digest traversal",
+      "recommendation": "Expose explicit source-sequence references for cross-run rasters if original encoded identity is required; do not guess a parent from equal decoded bytes."
+    }
+  ],
+  "scope_limits": [
+    "No blanket semantic approval of all editable kinds or malformed metadata",
+    "No external provider or learned source reconstruction",
+    "No arbitrary recursive scanning of64hex strings (raw blobs must remain raw)",
+    "Lineage changes requested from owner; producer files unchanged"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "observed_utc": "2026-10-14T06:11:16.526065+00:00",
+  "canonical_head": "85ed4e3e3675c6b0a0ca35a075cb7d70d1d4fe66",
+  "served_studio_js_sha256": "ebe865b50fcb970298b7104ac8d46b9cf18260e4b825c9eb6d0788e2fa5db09d",
+  "scope": "independent real browser own PNG/APNG import, explicit normalization, fine-editor bridge,390px layout; no providers/art approval",
+  "browser_checks": 5,
+  "status": "passed",
+  "pageerrors": [],
+  "console_errors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  ],
+  "expected_console_error": "One resource400 from deliberate incompatible import; not zero consoleerrors",
+  "decoded_readback": {
+    "raw_full_rgba_equals_uploaded_png": true,
+    "hidden_pixel_raw": [
+      33,
+      55,
+      77,
+      0
+    ],
+    "hidden_pixel_editable": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "editable_only_alpha0_rgb_normalized": true
+  },
+  "artifact_directory": "/home/astra/artifacts/pixellab-reliable-acceptance-20261014/browser-independent/output/playwright",
+  "artifacts": [
+    {
+      "file": "BROWSER-RESULT.json",
+      "bytes": 6571,
+      "sha256": "16922ed142106a6f971c74646c06352ddf4d9f8445592f42cc7afe85f4fd7f96"
+    },
+    {
+      "file": "desktop-edited.png",
+      "bytes": 199508,
+      "sha256": "9b7ffeeb48d035cfc5a95101f01f5a82377c8d16d3365620a2b931d7885e7fad"
+    },
+    {
+      "file": "final-dom.txt",
+      "bytes": 1996,
+      "sha256": "d9829f76368e54735a969850ec621bb59d6c937bcf266153ba0c1993838ce694"
+    },
+    {
+      "file": "initial-dom.txt",
+      "bytes": 1781,
+      "sha256": "589defc92677a3729ffbc87e3c35a1f564950133276b7b149cfd6853bdbd349c"
+    },
+    {
+      "file": "mobile-390.png",
+      "bytes": 141087,
+      "sha256": "0dfb54992dbfe94b3440a61825e206c9f527b8b3779a7b91070b9e8fca0edaea"
+    },
+    {
+      "file": "normalization-required.png",
+      "bytes": 181080,
+      "sha256": "bcd2447e7ba3b368d189f3e2ad515f14b6fd726ab4aa60e78323e426b4fe03f1"
+    },
+    {
+      "file": "own-exact.apng",
+      "bytes": 223,
+      "sha256": "a8ff204fcf7ec3696c0f08e8445aaa51e4258af34f3b0a54f1f9d76a5e0aab4b"
+    },
+    {
+      "file": "own-hidden.png",
+      "bytes": 99,
+      "sha256": "16c5325eab9bd1a312f0ef2c6049fc58e3170bb51498017855814dc5ca566e63"
+    },
+    {
+      "file": "qa.cjs",
+      "bytes": 7340,
+      "sha256": "e98f87c8c363087c7951b59fe1d4506d88fb1ebc863884b5891a1d7a20317e60"
+    },
+    {
+      "file": "readback-raw.png",
+      "bytes": 99,
+      "sha256": "59d3b88e31e6b929690944cd77e09a1e6f5359ea017d427bc08fce5f8d3ceb48"
+    },
+    {
+      "file": "readback-working.png",
+      "bytes": 93,
+      "sha256": "0d97b98f29685e03d5e1dee526af207acb96eaa47f91634e8879929e8dfcddf5"
+    },
+    {
+      "file": "trace.zip",
+      "bytes": 4070399,
+      "sha256": "de15a62e14caf8181d80832b6d65e18508a43ad6024db84d4007b6235662dbfe"
+    }
+  ]
+}

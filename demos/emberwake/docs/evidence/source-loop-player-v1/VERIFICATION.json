@@ -1,0 +1,99 @@
+{
+  "frozen_at_utc": "2026-10-17T05:35:45.101540+00:00",
+  "status": "implemented and verified as SOURCE PREVIEW only",
+  "url": "http://127.0.0.1:8796/",
+  "server_pid": 2490324,
+  "source_integrity": {
+    "original_frozen_packet_checks": 133,
+    "all_original_packet_hashes_still_match": true,
+    "copied_pngs_byte_identical": 32,
+    "source_stage": [
+      128,
+      128
+    ],
+    "canonical_hero_sha256_before_and_after": "1189e397a2e2097a9e910bcda7167fafdd6838e5746567b5f5a0a0ba44e92da0",
+    "canonical_edits": false,
+    "frozen_review_edits": false
+  },
+  "core_checks": {
+    "status": "pass",
+    "counted_assertions": 375,
+    "coverage": [
+      "160 consecutive frame holds/onsets and wraps",
+      "manual previous/next stepping",
+      "normalized direction and 158-unit/s reference",
+      "4.5s midpoint continuity",
+      "both directions and zooms within fixed-camera witness",
+      "exact0.66 scale and pivot64,112",
+      "161 intended nine-second event boundaries"
+    ]
+  },
+  "browser": {
+    "session": "emberwake-loop-v1-owned",
+    "owned_session_created_then_closed": true,
+    "root_browser_tabs_touched": false,
+    "existing_cached_cli": "@playwright/cli 0.1.13",
+    "existing_browser": "chromium-1243",
+    "installation": false,
+    "pixel_composites_checked": 192,
+    "pixel_comparison": "Entire rendered canvas versus independent nearest-filtered source-PNG composite with declared placement:32 poses x3 backgrounds x2 zooms.",
+    "rgba_component_mismatches": 0,
+    "controls": [
+      "A/B/split",
+      "NE/NW",
+      "inplace/travel/optional9s sequence",
+      "play/pause",
+      "previous/next/wrap",
+      "normal/quarter clocks",
+      "grid",
+      "three backgrounds",
+      "1x/2x diagnostic",
+      "manual point labelled unknown contact",
+      "UI JSON download",
+      "configuration-change capture abort",
+      "labelled travel/sequence end pause"
+    ],
+    "normal_250ms_observed_simulation_us": 239200,
+    "quarter_400ms_observed_simulation_us": 97525,
+    "pause_held": true,
+    "sequence": {
+      "status": "complete",
+      "simulation_end_us": 9000000,
+      "browser_callbacks": 541,
+      "all_observed_frames_and_roots_match_formula": true,
+      "phase_boundary_event": true,
+      "export": "output/playwright/9s-sequence.json"
+    },
+    "standalone_travel": {
+      "simulation_end_us": 4500000,
+      "root": [
+        502.75292142363526,
+        -502.75292142363526
+      ],
+      "paused_at_labelled_test_boundary": true
+    },
+    "console": {
+      "errors": 0,
+      "warnings": 24,
+      "note": "Canvas readback performance advisories from repeated pixel comparison; player does not read back canvas pixels."
+    },
+    "initial_test_note": "First manual-pick check assumed each source pixel addressable at0.66 and selected an adjacent pixel. Corrected check uses2x diagnostic zoom and passes. First-attempt log retained; README explains selection precision."
+  },
+  "evidence": [
+    "output/playwright/pixel-check-output.txt",
+    "output/playwright/control-check-output.txt",
+    "output/playwright/control-check-first-attempt.txt",
+    "output/playwright/travel-check-output.txt",
+    "output/playwright/9s-sequence.json",
+    "output/playwright/sequence-complete.png",
+    "output/playwright/diagnostic-split.png"
+  ],
+  "freeze_scope": "Deliverable source, copied input, verification and saved test evidence. Excludes .playwright-cli bookkeeping, output/playwright/profile and output/server.*.",
+  "limits": [
+    "No Godot execution, real game imagery, acceleration/collision/controller simulation or physical contact certification.",
+    "No subjective score or human continuous-motion/controller acceptance.",
+    "Browser callbacks are not monitor presentation timestamps.",
+    "Flat proxies only; manual source points are untracked and unknown-contact.",
+    "Owned local server remains running; owned browser verification session was closed."
+  ]
+}

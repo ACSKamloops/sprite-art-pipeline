@@ -1,0 +1,108 @@
+{
+  "scope": "Comparison transport only; no art acceptance",
+  "packet": "/home/astra/artifacts/emberwake-brann-front-final-player-packet-v1/input",
+  "packet_sha256": "4c90b9e956164bc764a60b5e78f3dc04f7be67123110bf5d7b5e89621794d9ad",
+  "player": "/home/astra/artifacts/emberwake-walk-cadence-study-v1/brann-front-weight",
+  "player_index_sha256": "a966b6a6fd2dadf79c98a3756537228bf6c5ffbf21168825eb7d90ffab14b4b2",
+  "player_receipt": {
+    "packet_sha256": "4c90b9e956164bc764a60b5e78f3dc04f7be67123110bf5d7b5e89621794d9ad",
+    "image_hashes_verified": 32,
+    "primary_view": "southeast",
+    "clock": {
+      "loop": [
+        9,
+        20
+      ],
+      "variant_holds": {
+        "A": [
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ]
+        ],
+        "B": [
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ],
+          [
+            9,
+            160
+          ]
+        ]
+      }
+    },
+    "rendering": "Direct PNG Canvas2D, nearest sampling. Game size is an84px proxy, not Godot rendering.",
+    "art_acceptance": "Unselected comparison. No continuous human playback approval implied.",
+    "mp4": {
+      "sha256": "516cb1f250b53f5b30810b0eaebb27795b73834df347acaf678fee47942a53b2",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "r_frame_rate": "160/1",
+            "duration": "3.600000",
+            "nb_read_frames": "576"
+          }
+        ]
+      },
+      "clock_hz": 160,
+      "loop_ticks": 72,
+      "note": "Lossy playback aid; PNGs remain pixel authority."
+    }
+  },
+  "URL": "http://localhost:8898/brann-front-weight/"
+}

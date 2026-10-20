@@ -1,0 +1,51 @@
+{
+  "classification": "targeted-offline-cli-guard-checks",
+  "harness_sha256": "7d1eab72a809c1890fcf1f128398ae6693b43a65a0312b49c13951b3c25750b5",
+  "cases": [
+    {
+      "name": "nonfinite_tolerance",
+      "returncode": 2,
+      "stderr": "Tolerance must be finite normalized RGBA value0..1",
+      "provider_calls": 0
+    },
+    {
+      "name": "seed_outside",
+      "returncode": 2,
+      "stderr": "Seed must lie inside input image",
+      "provider_calls": 0
+    },
+    {
+      "name": "side_over512",
+      "returncode": 2,
+      "stderr": "Image dimensions must each be1..512; maximum262144 pixels",
+      "provider_calls": 0
+    },
+    {
+      "name": "not_png",
+      "returncode": 2,
+      "stderr": "Only PNG input accepted",
+      "provider_calls": 0
+    },
+    {
+      "name": "existing_directory",
+      "returncode": 2,
+      "stderr": "[Errno 17] File exists: '/home/astra/projects/pixellab-workbench-state/docs/recovery-round3-20261014/manual-selector-examples/tolerance8'",
+      "provider_calls": 0
+    }
+  ],
+  "existing_receipt_unchanged": true,
+  "examples": [
+    {
+      "example": "tolerance8",
+      "selected_pixels": 5761,
+      "mask_png_sha256": "8d5c66ecbbdcee0c85ba0c0dd994894b43b893781be078bc8e516f340b824579"
+    },
+    {
+      "example": "tolerance32",
+      "selected_pixels": 5889,
+      "mask_png_sha256": "d46178aa2e071504bd68d7bb26fa377dbeeb79868258979706830aca51c11fc3"
+    }
+  ],
+  "untested": "Actual timeout and source-pin-mutation failure not induced; limits inspected in code.",
+  "provider_calls": 0
+}

@@ -1,0 +1,1345 @@
+{
+  "source_root": "/home/astra/projects/emberwake-demo/art-source/characters-v2",
+  "comparisons": {
+    "lyra": {
+      "old_cells_changed": [],
+      "appended_cells": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "clips": {
+        "south_idle": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            14,
+            15
+          ],
+          "new_frames": [
+            14,
+            15
+          ]
+        },
+        "south_walk": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "new_frames": [
+            0,
+            1,
+            2,
+            112,
+            4,
+            5,
+            6,
+            113
+          ]
+        },
+        "south_attack": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "new_frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        "south_cast": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "new_frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        "south_hurt": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            22,
+            23,
+            14
+          ],
+          "new_frames": [
+            22,
+            23,
+            14
+          ]
+        },
+        "south_dodge": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "new_frames": [
+            24,
+            25,
+            26,
+            27
+          ]
+        },
+        "east_idle": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            42,
+            43
+          ],
+          "new_frames": [
+            42,
+            43
+          ]
+        },
+        "east_walk": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "new_frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        },
+        "east_attack": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "new_frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        },
+        "east_cast": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "new_frames": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ]
+        },
+        "east_hurt": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            50,
+            51,
+            42
+          ],
+          "new_frames": [
+            50,
+            51,
+            42
+          ]
+        },
+        "east_dodge": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "new_frames": [
+            52,
+            53,
+            54,
+            55
+          ]
+        },
+        "north_idle": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            70,
+            71
+          ],
+          "new_frames": [
+            70,
+            71
+          ]
+        },
+        "north_walk": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "new_frames": [
+            56,
+            57,
+            58,
+            114,
+            61,
+            62,
+            63,
+            115
+          ]
+        },
+        "north_attack": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "new_frames": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ]
+        },
+        "north_cast": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "new_frames": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ]
+        },
+        "north_hurt": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            78,
+            79,
+            70
+          ],
+          "new_frames": [
+            78,
+            79,
+            70
+          ]
+        },
+        "north_dodge": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            80,
+            81,
+            82,
+            83
+          ],
+          "new_frames": [
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        "west_idle": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            98,
+            99
+          ],
+          "new_frames": [
+            98,
+            99
+          ]
+        },
+        "west_walk": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "new_frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ]
+        },
+        "west_attack": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "new_frames": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        "west_cast": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "new_frames": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "west_hurt": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            106,
+            107,
+            98
+          ],
+          "new_frames": [
+            106,
+            107,
+            98
+          ]
+        },
+        "west_dodge": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "new_frames": [
+            108,
+            109,
+            110,
+            111
+          ]
+        }
+      },
+      "transferred_clips": [
+        "south_idle",
+        "south_attack",
+        "south_cast",
+        "south_hurt",
+        "south_dodge",
+        "east_idle",
+        "east_walk",
+        "east_attack",
+        "east_cast",
+        "east_hurt",
+        "east_dodge",
+        "north_idle",
+        "north_attack",
+        "north_cast",
+        "north_hurt",
+        "north_dodge",
+        "west_idle",
+        "west_walk",
+        "west_attack",
+        "west_cast",
+        "west_hurt",
+        "west_dodge"
+      ],
+      "fresh_review_clips": [
+        "south_walk",
+        "north_walk"
+      ],
+      "metadata_changes": {
+        "cast_hand": {
+          "v1": {
+            "south": [
+              99,
+              72
+            ],
+            "east": [
+              104,
+              63
+            ],
+            "north": [
+              94,
+              57
+            ],
+            "west": [
+              22,
+              64
+            ]
+          },
+          "v3": {
+            "south": [
+              99,
+              72
+            ],
+            "east": [
+              95,
+              58
+            ],
+            "north": [
+              94,
+              57
+            ],
+            "west": [
+              34,
+              58
+            ]
+          }
+        }
+      }
+    },
+    "brann": {
+      "old_cells_changed": [
+        {
+          "frame": 8,
+          "changed_pixels": 129,
+          "bbox": [
+            57,
+            74,
+            68,
+            91
+          ]
+        },
+        {
+          "frame": 14,
+          "changed_pixels": 129,
+          "bbox": [
+            59,
+            73,
+            70,
+            90
+          ]
+        },
+        {
+          "frame": 15,
+          "changed_pixels": 129,
+          "bbox": [
+            57,
+            73,
+            68,
+            90
+          ]
+        },
+        {
+          "frame": 16,
+          "changed_pixels": 129,
+          "bbox": [
+            58,
+            74,
+            69,
+            91
+          ]
+        },
+        {
+          "frame": 17,
+          "changed_pixels": 129,
+          "bbox": [
+            59,
+            74,
+            70,
+            91
+          ]
+        },
+        {
+          "frame": 18,
+          "changed_pixels": 129,
+          "bbox": [
+            59,
+            74,
+            70,
+            91
+          ]
+        },
+        {
+          "frame": 19,
+          "changed_pixels": 129,
+          "bbox": [
+            59,
+            75,
+            70,
+            92
+          ]
+        },
+        {
+          "frame": 20,
+          "changed_pixels": 129,
+          "bbox": [
+            57,
+            74,
+            68,
+            91
+          ]
+        },
+        {
+          "frame": 21,
+          "changed_pixels": 129,
+          "bbox": [
+            59,
+            74,
+            70,
+            91
+          ]
+        },
+        {
+          "frame": 27,
+          "changed_pixels": 129,
+          "bbox": [
+            59,
+            73,
+            70,
+            90
+          ]
+        },
+        {
+          "frame": 42,
+          "changed_pixels": 154,
+          "bbox": [
+            65,
+            73,
+            79,
+            90
+          ]
+        },
+        {
+          "frame": 44,
+          "changed_pixels": 153,
+          "bbox": [
+            61,
+            71,
+            75,
+            88
+          ]
+        },
+        {
+          "frame": 48,
+          "changed_pixels": 154,
+          "bbox": [
+            61,
+            71,
+            75,
+            88
+          ]
+        },
+        {
+          "frame": 51,
+          "changed_pixels": 154,
+          "bbox": [
+            62,
+            71,
+            76,
+            88
+          ]
+        },
+        {
+          "frame": 55,
+          "changed_pixels": 154,
+          "bbox": [
+            59,
+            69,
+            73,
+            86
+          ]
+        },
+        {
+          "frame": 68,
+          "changed_pixels": 130,
+          "bbox": [
+            57,
+            75,
+            68,
+            92
+          ]
+        },
+        {
+          "frame": 70,
+          "changed_pixels": 130,
+          "bbox": [
+            61,
+            73,
+            72,
+            90
+          ]
+        },
+        {
+          "frame": 72,
+          "changed_pixels": 130,
+          "bbox": [
+            59,
+            74,
+            70,
+            91
+          ]
+        },
+        {
+          "frame": 77,
+          "changed_pixels": 130,
+          "bbox": [
+            58,
+            73,
+            69,
+            90
+          ]
+        },
+        {
+          "frame": 79,
+          "changed_pixels": 130,
+          "bbox": [
+            59,
+            74,
+            70,
+            91
+          ]
+        },
+        {
+          "frame": 80,
+          "changed_pixels": 130,
+          "bbox": [
+            59,
+            73,
+            70,
+            90
+          ]
+        },
+        {
+          "frame": 83,
+          "changed_pixels": 130,
+          "bbox": [
+            58,
+            71,
+            69,
+            88
+          ]
+        },
+        {
+          "frame": 98,
+          "changed_pixels": 154,
+          "bbox": [
+            50,
+            73,
+            64,
+            90
+          ]
+        },
+        {
+          "frame": 100,
+          "changed_pixels": 153,
+          "bbox": [
+            54,
+            71,
+            68,
+            88
+          ]
+        },
+        {
+          "frame": 104,
+          "changed_pixels": 154,
+          "bbox": [
+            54,
+            71,
+            68,
+            88
+          ]
+        },
+        {
+          "frame": 107,
+          "changed_pixels": 154,
+          "bbox": [
+            53,
+            71,
+            67,
+            88
+          ]
+        },
+        {
+          "frame": 111,
+          "changed_pixels": 154,
+          "bbox": [
+            56,
+            69,
+            70,
+            86
+          ]
+        }
+      ],
+      "appended_cells": [
+        112,
+        113,
+        114,
+        115
+      ],
+      "clips": {
+        "south_idle": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            14,
+            15
+          ],
+          "new_frames": [
+            14,
+            15
+          ]
+        },
+        "south_walk": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "new_frames": [
+            0,
+            1,
+            2,
+            112,
+            5,
+            6,
+            7,
+            113
+          ]
+        },
+        "south_attack": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "new_frames": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        },
+        "south_cast": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "new_frames": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ]
+        },
+        "south_hurt": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            22,
+            23,
+            14
+          ],
+          "new_frames": [
+            22,
+            23,
+            14
+          ]
+        },
+        "south_dodge": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            24,
+            25,
+            26,
+            27
+          ],
+          "new_frames": [
+            24,
+            25,
+            26,
+            27
+          ]
+        },
+        "east_idle": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            42,
+            43
+          ],
+          "new_frames": [
+            42,
+            43
+          ]
+        },
+        "east_walk": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ],
+          "new_frames": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35
+          ]
+        },
+        "east_attack": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "new_frames": [
+            36,
+            37,
+            38,
+            39,
+            40,
+            41
+          ]
+        },
+        "east_cast": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ],
+          "new_frames": [
+            44,
+            45,
+            46,
+            47,
+            48,
+            49
+          ]
+        },
+        "east_hurt": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            50,
+            51,
+            42
+          ],
+          "new_frames": [
+            50,
+            51,
+            42
+          ]
+        },
+        "east_dodge": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            52,
+            53,
+            54,
+            55
+          ],
+          "new_frames": [
+            52,
+            53,
+            54,
+            55
+          ]
+        },
+        "north_idle": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            70,
+            71
+          ],
+          "new_frames": [
+            70,
+            71
+          ]
+        },
+        "north_walk": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ],
+          "new_frames": [
+            56,
+            56,
+            58,
+            114,
+            61,
+            62,
+            63,
+            115
+          ]
+        },
+        "north_attack": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "new_frames": [
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ]
+        },
+        "north_cast": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "new_frames": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77
+          ]
+        },
+        "north_hurt": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            78,
+            79,
+            70
+          ],
+          "new_frames": [
+            78,
+            79,
+            70
+          ]
+        },
+        "north_dodge": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            80,
+            81,
+            82,
+            83
+          ],
+          "new_frames": [
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        "west_idle": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            98,
+            99
+          ],
+          "new_frames": [
+            98,
+            99
+          ]
+        },
+        "west_walk": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "new_frames": [
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ]
+        },
+        "west_attack": {
+          "exact_pixel_sequence_match_v1": true,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": true,
+          "old_frames": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "new_frames": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ]
+        },
+        "west_cast": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ],
+          "new_frames": [
+            100,
+            101,
+            102,
+            103,
+            104,
+            105
+          ]
+        },
+        "west_hurt": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            106,
+            107,
+            98
+          ],
+          "new_frames": [
+            106,
+            107,
+            98
+          ]
+        },
+        "west_dodge": {
+          "exact_pixel_sequence_match_v1": false,
+          "holds_and_loop_match_v1": true,
+          "coverage_transfer": false,
+          "old_frames": [
+            108,
+            109,
+            110,
+            111
+          ],
+          "new_frames": [
+            108,
+            109,
+            110,
+            111
+          ]
+        }
+      },
+      "transferred_clips": [
+        "east_walk",
+        "east_attack",
+        "west_walk",
+        "west_attack"
+      ],
+      "fresh_review_clips": [
+        "south_idle",
+        "south_walk",
+        "south_attack",
+        "south_cast",
+        "south_hurt",
+        "south_dodge",
+        "east_idle",
+        "east_cast",
+        "east_hurt",
+        "east_dodge",
+        "north_idle",
+        "north_walk",
+        "north_attack",
+        "north_cast",
+        "north_hurt",
+        "north_dodge",
+        "west_idle",
+        "west_cast",
+        "west_hurt",
+        "west_dodge"
+      ],
+      "metadata_changes": {
+        "cast_hand": {
+          "v1": {
+            "south": [
+              102,
+              75
+            ],
+            "east": [
+              106,
+              66
+            ],
+            "north": [
+              94,
+              57
+            ],
+            "west": [
+              22,
+              66
+            ]
+          },
+          "v3": {
+            "south": [
+              101,
+              72
+            ],
+            "east": [
+              96,
+              52
+            ],
+            "north": [
+              96,
+              40
+            ],
+            "west": [
+              32,
+              52
+            ]
+          }
+        }
+      }
+    }
+  },
+  "input_hashes": {
+    "lyra": {
+      "atlas.png": "d4237eba0003ada103b3e17ba76f14427c5a317fd847437aaf2ddae31f5619e8",
+      "animations.json": "2936a6a5ad0b965f299cf50111e5964997c53dfb6a87ca485d8b157688bb783b",
+      "selected-contact-sheet.png": "a8abb523777ff982ecbd66f73a4d218e78b1ef1a0cddcd336d52fc59092950e4",
+      "walk-proof-2x.png": "ab04d61afd1294b1d4af1c4b4f7783fa9b9c565e3f76ecedf61f8ef8f83c794f"
+    },
+    "brann": {
+      "atlas.png": "5a5ab930c96c36ac5486e0337f7f3045e21cff25653448ca74c1d1cec7a23c4e",
+      "animations.json": "35eaaa5b894214b1642f9f81c2d010426ded1f09b3b658c9d86ec6ccc1ba91a6",
+      "selected-contact-sheet.png": "eaa1ee8822b29a134e94b6095fdd42f39dba58e2380ef1cca6fe7a936a1d758a",
+      "walk-proof-2x.png": "d4b268fb807aea591b28740e080a3a348bc62b9b12ed90cd525db45871ddb760"
+    }
+  },
+  "input_fingerprint": "1106c8871388113f77aab2e77e7cec1efb452b3e2ec43469af5ec679eee1c509"
+}
