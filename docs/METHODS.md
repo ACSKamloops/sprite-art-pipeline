@@ -26,6 +26,14 @@ colors, not automatically good pixel clusters or anatomy. Fix demonstrated seam,
 overlap and volume errors using owned paint and explicit downstream edits.
 Do not rely on more frames/FPS to repair a missing leg exchange.
 
+The [PixelEngine/ImageGen comparison](../research/pixelengine-imagen/README.md)
+connects retained pose guides and genuine client-side pixel processing to this
+same constructor/exporter. The guided ImageGen walk scored7.5/10 in a scoped
+cold chronology review, versus5.5/10 for text-led paint. Optional grid conversion
+introduced shrinkage/debris in some cases; it is explicitly selected and never
+a default native-sprite import step. Its exact adapter, source hashes, alpha
+controls and failed candidates remain distinct from hosted-model replication.
+
 The [Lyra repair](../examples/lyra-leg-repair/README.md) demonstrates consistent
 boot/calf/cloth masters, a revised projected foot path, preserved upper paint,
 fixed timing and review of all pairs. Its still-visible repair is useful evidence;

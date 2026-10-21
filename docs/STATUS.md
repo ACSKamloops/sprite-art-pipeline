@@ -9,6 +9,7 @@ test scores retain their original snapshot/version in source documents.
 | Reference batches | Claim-next queue, source review, prompts, receipts, repair/review/export methods | New subjects need actual references and export review |
 | Fine editing | Layered toolkit, guarded transactions, literal replay, native-editor exchange | Mechanical correctness does not prove drawing quality |
 | PixelLab local workbench | Version 0.10.0 source, UI/CLI, test corpus, grammar and recovered client subsets | Whole-product/private-model parity remains false |
+| PixelEngine + ImageGen comparison | Genuine offline adapter, text/pose-guided paint cases, shared pipeline, exact exports and cold review | Best selected guided walk7.5/10; one direction/action, human motion acceptance open |
 | Approved generic hero | Original user-approved H3 walk and offline reconstruction inputs | One actor/action/view; historical H3 usage is not enabled now |
 | RPG action notes | Punch/jump and broader library process, honest missing-view/action counts | Not a complete eight-direction RPG action set |
 | Emberwake | Original game source, runtime art, tests, art-method documentation | Demo/game quality does not approve every diagonal cycle |
