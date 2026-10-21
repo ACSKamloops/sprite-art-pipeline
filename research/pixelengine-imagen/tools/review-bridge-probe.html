@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two lower-body bridge probes</title>
+<style>
+body{font:15px system-ui,sans-serif;margin:24px;background:#171b24;color:#edf0f8}h1{font-size:22px}p{line-height:1.5;max-width:1000px}
+button,select{font:inherit;margin:4px;padding:6px}#cards{display:flex;flex-wrap:wrap;gap:20px;margin-top:20px}article{padding:16px;background:#252c3a;border-radius:8px}h2{font-size:16px}
+canvas{image-rendering:pixelated;display:block;background:#31394d}small{display:block;max-width:320px;margin-top:10px}a{color:#b6d9ff}
+</style>
+<h1>Two actual lower-body bridge cels</h1>
+<p>The original eight keys remain byte exact at their original onsets. Only the holds after keys 2 and 3 split into 62.5 ms key + 62.5 ms bridge. All loops last exactly one second. The timing-only control displays unchanged keys in the same ten slots. Candidate upper-body paint is held from its preceding key; only owned lower-body parts move. This probe does not establish improved motion or a worthwhile full 16-frame bank.</p>
+<button id="play">Pause</button><button id="back">Previous 1/16 s</button><button id="next">Next 1/16 s</button>
+<label>Scale <select id="scale"><option>1</option><option selected>2</option><option>4</option></select></label>
+<label>Speed <select id="speed"><option value="1">Normal</option><option value="0.5">Half</option></select></label>
+<label>Background <select id="matte"><option value="#31394d">Dark blue</option><option value="#f1eedf">Light</option><option value="#a63183">Magenta</option></select></label>
+<span id="time"></span><div id="cards"></div>
+<p><a href="candidate-ordered-2x.png">Candidate chronology</a> · <a href="candidate-pairs-2x.png">Every candidate pair and wrap</a> · <a href="source-ownership.png">Source ownership</a> · <a href="RESULTS.json">Results</a> · <a href="recipe.json">Projected controls/recipe</a></p>
+<script type="module">
+const cases=['original-eight-keys','timing-only-control','candidate-two-bridges'];
+const clips=await Promise.all(cases.map(async name=>{
+ const manifest=await(await fetch(`${name}/delivery/manifest.json`)).json();const article=document.createElement('article'),h=document.createElement('h2'),canvas=document.createElement('canvas'),note=document.createElement('small');h.textContent=name;canvas.width=canvas.height=80;article.append(h,canvas,note);document.querySelector('#cards').append(article);
+ let end=0;const frames=await Promise.all(manifest.frames.map(async f=>({image:await createImageBitmap(await(await fetch(`${name}/delivery/${f.file}`)).blob()),...f})));
+ for(const f of frames){f.begin=end;end+=f.hold[0]/f.hold[1];f.end=end;}if(end!==1)throw Error('Clock mismatch');return {name,canvas,note,frames};
+}));
+let run=true,offset=0,start=performance.now(),rate=1;const play=document.querySelector('#play'),scale=document.querySelector('#scale'),speed=document.querySelector('#speed'),matte=document.querySelector('#matte');
+function seconds(now){return (offset+(run?(now-start)*rate/1000:0))%1;}
+function draw(now){const t=seconds(now);for(const clip of clips){const frame=clip.frames.find(f=>t>=f.begin&&t<f.end)||clip.frames.at(-1),c=clip.canvas.getContext('2d');c.clearRect(0,0,80,80);c.imageSmoothingEnabled=false;c.drawImage(frame.image,0,0);clip.canvas.style.width=clip.canvas.style.height=`${80*Number(scale.value)}px`;clip.canvas.style.background=matte.value;clip.note.textContent=`${frame.source_frame_id} · ${frame.hold[0]}/${frame.hold[1]} s`;}document.querySelector('#time').textContent=`${t.toFixed(4)} / 1.0000 s`;}
+play.onclick=()=>{offset=seconds(performance.now());run=!run;start=performance.now();play.textContent=run?'Pause':'Play';};
+function step(n){offset=((Math.round(seconds(performance.now())*16)+n+16)%16)/16;run=false;play.textContent='Play';start=performance.now();draw(start);}
+document.querySelector('#back').onclick=()=>step(-1);document.querySelector('#next').onclick=()=>step(1);
+speed.onchange=()=>{offset=seconds(performance.now());start=performance.now();rate=Number(speed.value);};
+function tick(now){draw(now);requestAnimationFrame(tick);}requestAnimationFrame(tick);
+</script>

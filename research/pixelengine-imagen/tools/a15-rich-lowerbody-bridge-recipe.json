@@ -1,0 +1,34 @@
+{
+  "schema":"source-lowerbody-bridge-recipe/v1",
+  "project_sha256":"f48be55f5c2514d2097d97bc5ffe867af1a419d104983a2087b594dabc8dd4e2",
+  "source_label":"52-color union: sharp C52-derived head plus richer native-sampled body; every bridge texel samples this source only",
+  "owner_recheck":"Explicit new-source key3 review at native pixel coordinates. Lower alpha differs from earlier reference-palette source at18pixels, but the visible limb/cuff split fits the same declared row boundaries. Rebuilt masks partition all new donor lower paint exactly once; do not reuse old color layers.",
+  "lower_start_y":54,
+  "near_start_x_by_y":{"54":41,"55":41,"56":41,"57":41,"58":41,"59":40,"60":40,"61":39,"62":39,"63":38,"64":38,"65":39,"66":40,"67":40,"68":41,"69":42,"70":41,"71":41},
+  "distal_start_y":{"far":59,"near":57},
+  "source_vertices":{
+    "far-trouser":[[28,53],[42,53],[42,59],[28,59]],
+    "far-distal":[[27,58],[42,58],[42,73],[27,73]],
+    "near-trouser":[[40,53],[53,53],[53,57],[40,57]],
+    "near-distal":[[37,56],[53,56],[53,71],[37,71]]
+  },
+  "bridges":[
+    {"id":"bridge-2-3","after_key":2,
+     "projected_controls":{"far_hip":[37,54],"far_knee":[36,58],"far_ankle":[36,65],"near_hip":[42,54],"near_knee":[44,58],"near_ankle":[43,65]},
+     "target_vertices":{
+       "far-trouser":[[32,53],[42,53],[43,59],[29,59]],
+       "far-distal":[[28,58],[43,58],[43,73],[28,73]],
+       "near-trouser":[[39,53],[48,53],[51,58],[38,58]],
+       "near-distal":[[35,57],[51,57],[51,72],[35,72]]
+     }},
+    {"id":"bridge-3-4","after_key":3,
+     "projected_controls":{"far_hip":[36,54],"far_knee":[33,58],"far_ankle":[33,65],"near_hip":[46,54],"near_knee":[48,58],"near_ankle":[48,65]},
+     "target_vertices":{
+       "far-trouser":[[28,53],[42,53],[40,59],[26,59]],
+       "far-distal":[[25,58],[40,58],[40,73],[25,73]],
+       "near-trouser":[[40,53],[53,53],[56,58],[43,58]],
+       "near-distal":[[40,57],[56,57],[56,72],[40,72]]
+     }}
+  ],
+  "boundary":"Same two projected controls reapplied to rechecked richer source masks. New eight keys preserved byte exactly. Visible donor-key3 lower paint only; no hidden anatomy, palette switching or head midpoint invented."
+}

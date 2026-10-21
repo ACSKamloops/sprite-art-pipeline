@@ -11,6 +11,11 @@ strong torso/scarf motion beside exact connected-matte cutouts and two small
 manual pixel candidates. They provide a source-bound motion template, editable
 journals and exact exports without claiming new drawing quality from transparency.
 
+[Two lower-body bridge probes](LOWERBODY-BRIDGES.md) add genuine source-colored
+inbetweens to two difficult ImageGen gait intervals while preserving all eight
+keys and the one-second period. Original/timing-only/candidate controls remain
+separate; a full 16-frame bank is not approved by the local probe.
+
 The local experiment is retained outside Git at
 `/home/astra/artifacts/pixelengine-imagen-comparison-20261020`.
 Third-party bundles, account material, private captures and generated originals
