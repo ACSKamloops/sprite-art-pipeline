@@ -1,0 +1,102 @@
+{
+  "purpose": "authored schematic pose guide only; no final art or motion acceptance",
+  "stage": [
+    80,
+    80
+  ],
+  "body_scale_shared": true,
+  "guide_legs": {
+    "red": "viewer-left hip chain",
+    "cyan": "viewer-right hip chain"
+  },
+  "boot_bottoms": [
+    {
+      "cell": 0,
+      "viewer_left": [
+        39,
+        73
+      ],
+      "viewer_right": [
+        35,
+        66
+      ]
+    },
+    {
+      "cell": 1,
+      "viewer_left": [
+        36,
+        67
+      ],
+      "viewer_right": [
+        37,
+        73
+      ]
+    },
+    {
+      "cell": 2,
+      "viewer_left": [
+        34,
+        61
+      ],
+      "viewer_right": [
+        45,
+        73
+      ]
+    },
+    {
+      "cell": 3,
+      "viewer_left": [
+        31,
+        65
+      ],
+      "viewer_right": [
+        45,
+        73
+      ]
+    },
+    {
+      "cell": 4,
+      "viewer_left": [
+        30,
+        66
+      ],
+      "viewer_right": [
+        48,
+        73
+      ]
+    },
+    {
+      "cell": 5,
+      "viewer_left": [
+        34,
+        73
+      ],
+      "viewer_right": [
+        44,
+        67
+      ]
+    },
+    {
+      "cell": 6,
+      "viewer_left": [
+        34,
+        73
+      ],
+      "viewer_right": [
+        44,
+        61
+      ]
+    },
+    {
+      "cell": 7,
+      "viewer_left": [
+        38,
+        73
+      ],
+      "viewer_right": [
+        35,
+        65
+      ]
+    }
+  ]
+}

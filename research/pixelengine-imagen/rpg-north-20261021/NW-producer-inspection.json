@@ -1,0 +1,68 @@
+{
+  "direction": "NW",
+  "scope": "Producer inspection from raw sheets and fixed-grid nearest previews, not independent review or normal-speed playback",
+  "art_acceptance": "unreviewed; no inherited Hybrid rating",
+  "observed_defects": [
+    "Original rear-left camera remains coherent through actions including dodge.",
+    "Original and repair both repeat the same visible lifted viewer-left knee/boot at2/6.",
+    "Colored schematic guide requested opposite visible boots, but generated paint did not obey it. Repair remains rejected; exact guide geometry is retained.",
+    "Punch uses the viewer-left projected arm; anatomical handedness is not certified under rear-view occlusion."
+  ],
+  "raw_candidates": [
+    {
+      "file": "walk-repair-raw.png",
+      "sha256": "026d89cb3ce1bceefe2a068e17d5947a664f873265e291d7ded2b3b8f045748f",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "requested_layout": {
+        "columns": 4,
+        "rows": 2,
+        "cells": 8
+      }
+    },
+    {
+      "file": "raw.png",
+      "sha256": "679eb74331a8c51c720c97acbaef4c84073ed2a396ef64940c481624c3005824",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "requested_layout": {
+        "columns": 4,
+        "rows": 6,
+        "cells": 24
+      }
+    }
+  ],
+  "source_bbox_receipts": [
+    "qc-initial",
+    "qc-walk-repair"
+  ],
+  "inspection_recipe": {
+    "source_preserved": true,
+    "alpha_cleanup": null,
+    "whole_sheet_nearest_preview_width": 320,
+    "whole_sheet_nearest_preview_height": "80 * declared rows",
+    "nominal_crop_grid": "4 equal columns and declared2or6rows; diagnostic only, can reveal cutoff/overflow",
+    "independent_frame_fitting": false,
+    "production_native_registration": "Root/pack worker owns; no final native export authored here"
+  },
+  "packer_mapping": {
+    "original_24_sheet": {
+      "walk": "cells0..7",
+      "punch": "8..11",
+      "cast": "12..15",
+      "idle": "16..17",
+      "hurt": "18..19",
+      "dodge": "20..23"
+    },
+    "walk_repair_sheet": {
+      "columns": 4,
+      "rows": 2,
+      "cells0..7": "candidate replacements for original0..7 ONLY; currently rejected"
+    },
+    "north_retry": null
+  }
+}

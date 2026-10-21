@@ -1,0 +1,64 @@
+{
+  "direction": "N",
+  "scope": "Producer inspection from raw sheets and fixed-grid nearest previews, not independent review or normal-speed playback",
+  "art_acceptance": "unreviewed; no inherited Hybrid rating",
+  "observed_defects": [
+    "Original passing2/6 repeat the same visible low dark-sole role; initial row0 whole-body bottoms are265,266,258,268 versus nominal256 boundary.",
+    "Bounded retry visibly exchanges the higher left/right passing boots at2/6 and improves row0 bottoms to256..257.",
+    "Both candidates dodge21 turns back-right and shows cheek; this cell does not satisfy pure north. No second north retry.",
+    "Retry recovery22 head reaches above nominal final-row boundary; preserve whole source-body ownership rather than clipping."
+  ],
+  "raw_candidates": [
+    {
+      "file": "raw-retry.png",
+      "sha256": "f4b85d0c5633d420da9eb6247828b29f00dc9c49fb3a0bf0546181370a239d85",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "requested_layout": {
+        "columns": 4,
+        "rows": 6,
+        "cells": 24
+      }
+    },
+    {
+      "file": "raw.png",
+      "sha256": "24cb6a09bc2e88c1b47da584000e36b6e4d122b857ebb8e5d1e46d03a39159c1",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "requested_layout": {
+        "columns": 4,
+        "rows": 6,
+        "cells": 24
+      }
+    }
+  ],
+  "source_bbox_receipts": [
+    "qc-initial",
+    "qc-retry"
+  ],
+  "inspection_recipe": {
+    "source_preserved": true,
+    "alpha_cleanup": null,
+    "whole_sheet_nearest_preview_width": 320,
+    "whole_sheet_nearest_preview_height": "80 * declared rows",
+    "nominal_crop_grid": "4 equal columns and declared2or6rows; diagnostic only, can reveal cutoff/overflow",
+    "independent_frame_fitting": false,
+    "production_native_registration": "Root/pack worker owns; no final native export authored here"
+  },
+  "packer_mapping": {
+    "original_24_sheet": {
+      "walk": "cells0..7",
+      "punch": "8..11",
+      "cast": "12..15",
+      "idle": "16..17",
+      "hurt": "18..19",
+      "dodge": "20..23"
+    },
+    "walk_repair_sheet": null,
+    "north_retry": "same4x6 cell indices; improvedwalk, unresolveddodge21"
+  }
+}

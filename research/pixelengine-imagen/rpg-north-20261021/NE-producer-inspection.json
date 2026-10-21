@@ -1,0 +1,67 @@
+{
+  "direction": "NE",
+  "scope": "Producer inspection from raw sheets and fixed-grid nearest previews, not independent review or normal-speed playback",
+  "art_acceptance": "unreviewed; no inherited Hybrid rating",
+  "observed_defects": [
+    "Original rear-right camera is coherent through actions; original contacts0/4 and passing2/6 give weak visible leg exchange.",
+    "Walk-only repair still raises the same viewer-right boot at2/6; rejected as repair, not promoted for distinct RGBA or cleaner separation.",
+    "Anatomical far/near leg ownership remains partly occluded; visible hip/knee/boot roles are the basis of this finding."
+  ],
+  "raw_candidates": [
+    {
+      "file": "walk-repair-raw.png",
+      "sha256": "98c5a492f23cc0a938c5ca66463d757d475ac4f6f829e81efc41a8662350e316",
+      "dimensions": [
+        1774,
+        887
+      ],
+      "requested_layout": {
+        "columns": 4,
+        "rows": 2,
+        "cells": 8
+      }
+    },
+    {
+      "file": "raw.png",
+      "sha256": "4c2cb1a6e41ee98bc5b66c7f7c11ff0f05ce315a05abb4d1f8eef9e7b5d86de4",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "requested_layout": {
+        "columns": 4,
+        "rows": 6,
+        "cells": 24
+      }
+    }
+  ],
+  "source_bbox_receipts": [
+    "qc-initial",
+    "qc-walk-repair"
+  ],
+  "inspection_recipe": {
+    "source_preserved": true,
+    "alpha_cleanup": null,
+    "whole_sheet_nearest_preview_width": 320,
+    "whole_sheet_nearest_preview_height": "80 * declared rows",
+    "nominal_crop_grid": "4 equal columns and declared2or6rows; diagnostic only, can reveal cutoff/overflow",
+    "independent_frame_fitting": false,
+    "production_native_registration": "Root/pack worker owns; no final native export authored here"
+  },
+  "packer_mapping": {
+    "original_24_sheet": {
+      "walk": "cells0..7",
+      "punch": "8..11",
+      "cast": "12..15",
+      "idle": "16..17",
+      "hurt": "18..19",
+      "dodge": "20..23"
+    },
+    "walk_repair_sheet": {
+      "columns": 4,
+      "rows": 2,
+      "cells0..7": "candidate replacements for original0..7 ONLY; currently rejected"
+    },
+    "north_retry": null
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "tool": "image_gen__imagegen",
+  "execution": "built-in OpenAI ImageGen",
+  "model_identity": "not exposed by tool",
+  "transparent_background_requested": true,
+  "prompt_file": "retry-prompt.txt",
+  "ordered_reference_file": "retry-ordered-references.json",
+  "raw_file": "raw-retry.png",
+  "declared_layout": {
+    "columns": 4,
+    "rows": 6,
+    "cells": 24
+  },
+  "actual_result_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "image_result": {
+    "media_type": "image/png",
+    "encoding": "base64",
+    "data_url_characters": 2642938,
+    "payload": "omitted; original decoded bytes retained as raw_file"
+  },
+  "tool_output_hint": "Generated images are saved to /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0 as /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-8f012836-f1dd-4a67-b33b-9dcf86b084c6.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "cache_path": "/home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-8f012836-f1dd-4a67-b33b-9dcf86b084c6.png",
+  "save_route": "byte-for-byte copy from tool-reported cache",
+  "acceptance": "unreviewed candidate; known producer defects documented separately",
+  "actual_dimensions": [
+    1024,
+    1536
+  ],
+  "raw_sha256": "f4b85d0c5633d420da9eb6247828b29f00dc9c49fb3a0bf0546181370a239d85",
+  "actual_mode": "RGBA",
+  "literal_prompt_sha256": "177476de58c4ca5a1d8745130a8e0048a7aa84ed0c2a1a42d4f5b018be4ddf52",
+  "actual_ordered_inputs": [
+    {
+      "order": 1,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/N-appearance-guide.png",
+      "role": "primary north appearance and back camera authority",
+      "sha256": "1b86b0f96896b7fe276191620bdc24a6613e4a858c669e073fabe159ba1aa6d7"
+    },
+    {
+      "order": 2,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/views-north/N/raw.png",
+      "role": "edit target: first 24-pose north candidate, action and layout context; repair named defects",
+      "sha256": "24cb6a09bc2e88c1b47da584000e36b6e4d122b857ebb8e5d1e46d03a39159c1"
+    }
+  ],
+  "cache_copy_sha256_equal": true
+}

@@ -1,0 +1,50 @@
+{
+  "tool": "image_gen__imagegen",
+  "execution": "built-in OpenAI ImageGen",
+  "model_identity": "not exposed by tool",
+  "transparent_background_requested": true,
+  "prompt_file": "prompt.txt",
+  "ordered_reference_file": "ordered-references.json",
+  "raw_file": "raw.png",
+  "declared_layout": {
+    "columns": 4,
+    "rows": 6,
+    "cells": 24
+  },
+  "actual_result_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "image_result": {
+    "media_type": "image/png",
+    "encoding": "base64",
+    "data_url_characters": 2580018,
+    "payload": "omitted; original decoded bytes retained as raw_file"
+  },
+  "tool_output_hint": "Generated images are saved to /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0 as /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-ee958702-e132-457b-96f9-360a148b1b95.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "cache_path": "/home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-ee958702-e132-457b-96f9-360a148b1b95.png",
+  "save_route": "byte-for-byte copy from tool-reported cache",
+  "acceptance": "unreviewed candidate; known producer defects documented separately",
+  "actual_dimensions": [
+    1024,
+    1536
+  ],
+  "raw_sha256": "679eb74331a8c51c720c97acbaef4c84073ed2a396ef64940c481624c3005824",
+  "actual_mode": "RGBA",
+  "literal_prompt_sha256": "9aa91987353d2d36c4d657136328122224d6363bbfee244264ff8e476d28ce16",
+  "actual_ordered_inputs": [
+    {
+      "order": 1,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/NW-appearance-guide.png",
+      "role": "primary northwest appearance and back-left three-quarter camera reference",
+      "sha256": "45d9e0e38d3af28a7fb81953a9748fba86e06eb19e7ddf3079223df86f4be4be"
+    },
+    {
+      "order": 2,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/hybrid-eight-keys-5x.png",
+      "role": "secondary palette, pixel style, costume and compact motion only; not direction authority",
+      "sha256": "7f6c501d1d7c0f4cdd4b9c446383ff3734e10e70e55e43c64a1a06fb7aeabebc"
+    }
+  ],
+  "cache_copy_sha256_equal": true
+}

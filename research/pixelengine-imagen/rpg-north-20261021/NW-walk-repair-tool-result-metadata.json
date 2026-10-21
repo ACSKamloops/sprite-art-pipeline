@@ -1,0 +1,50 @@
+{
+  "tool": "image_gen__imagegen",
+  "execution": "built-in OpenAI ImageGen",
+  "model_identity": "not exposed by tool",
+  "transparent_background_requested": true,
+  "prompt_file": "walk-repair-prompt.txt",
+  "ordered_reference_file": "walk-repair-ordered-references.json",
+  "raw_file": "walk-repair-raw.png",
+  "declared_layout": {
+    "columns": 4,
+    "rows": 2,
+    "cells": 8
+  },
+  "actual_result_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "image_result": {
+    "media_type": "image/png",
+    "encoding": "base64",
+    "data_url_characters": 1133502,
+    "payload": "omitted; original decoded bytes retained as raw_file"
+  },
+  "tool_output_hint": "Generated images are saved to /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0 as /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-3ca828e3-816d-4a5e-977b-42caf72400f9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "cache_path": "/home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-3ca828e3-816d-4a5e-977b-42caf72400f9.png",
+  "save_route": "byte-for-byte copy from tool-reported cache",
+  "acceptance": "unreviewed candidate; known producer defects documented separately",
+  "actual_dimensions": [
+    1774,
+    887
+  ],
+  "raw_sha256": "026d89cb3ce1bceefe2a068e17d5947a664f873265e291d7ded2b3b8f045748f",
+  "actual_mode": "RGBA",
+  "literal_prompt_sha256": "72f8ac482e318c065130d2a506b1dafaafd386ca0bddd76f2d6f6f518e5d55c4",
+  "actual_ordered_inputs": [
+    {
+      "order": 1,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/NW-appearance-guide.png",
+      "role": "primary NW appearance and fixed rear-left camera",
+      "sha256": "45d9e0e38d3af28a7fb81953a9748fba86e06eb19e7ddf3079223df86f4be4be"
+    },
+    {
+      "order": 2,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/views-north/NW/walk-pose-guide.png",
+      "role": "authored schematic geometry-only 4x2 guide; red viewer-left and cyan viewer-right full leg chains exchange; not appearance or costume",
+      "sha256": "568906f3140e2660a686c4ad779b7ec073ce6ed3d957e4da10157ebc38acb8c6"
+    }
+  ],
+  "cache_copy_sha256_equal": true
+}

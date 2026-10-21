@@ -1,0 +1,50 @@
+{
+  "tool": "image_gen__imagegen",
+  "execution": "built-in OpenAI ImageGen",
+  "model_identity": "not exposed by tool",
+  "transparent_background_requested": true,
+  "prompt_file": "walk-repair-prompt.txt",
+  "ordered_reference_file": "walk-repair-ordered-references.json",
+  "raw_file": "walk-repair-raw.png",
+  "declared_layout": {
+    "columns": 4,
+    "rows": 2,
+    "cells": 8
+  },
+  "actual_result_keys": [
+    "image_url",
+    "output_hint"
+  ],
+  "image_result": {
+    "media_type": "image/png",
+    "encoding": "base64",
+    "data_url_characters": 1147734,
+    "payload": "omitted; original decoded bytes retained as raw_file"
+  },
+  "tool_output_hint": "Generated images are saved to /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0 as /home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-fb17caec-b9d0-4d9e-b5a1-b9f1717e6dae.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "cache_path": "/home/astra/.codex/generated_images/01a15f4e-f884-7e41-8376-edaeabe989f0/exec-fb17caec-b9d0-4d9e-b5a1-b9f1717e6dae.png",
+  "save_route": "byte-for-byte copy from tool-reported cache",
+  "acceptance": "unreviewed candidate; known producer defects documented separately",
+  "actual_dimensions": [
+    1774,
+    887
+  ],
+  "raw_sha256": "98c5a492f23cc0a938c5ca66463d757d475ac4f6f829e81efc41a8662350e316",
+  "actual_mode": "RGBA",
+  "literal_prompt_sha256": "e033d3bb5c3fbfeea4a301ce0b52d946da324f32949c29d0f1d086c82bccc0c6",
+  "actual_ordered_inputs": [
+    {
+      "order": 1,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/NE-appearance-guide.png",
+      "role": "primary NE appearance and fixed rear diagonal camera",
+      "sha256": "b3420bf15b689d7214b7708726a80571209d29663ce441eb0713ab04244d88b5"
+    },
+    {
+      "order": 2,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/views-north/NE/walk-original-reference.png",
+      "role": "edit/reference target: exact fixed crop of original first8 cells; upperbody/style/scale context only; wrong legs must exchange",
+      "sha256": "ee452ac2dfc62e43c7866421ed4cb0b552cc281514f965f514c41486bb1e8324"
+    }
+  ],
+  "cache_copy_sha256_equal": true
+}

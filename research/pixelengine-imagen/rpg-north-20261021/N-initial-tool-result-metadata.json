@@ -1,0 +1,49 @@
+{
+  "tool": "image_gen__imagegen",
+  "execution": "built-in OpenAI ImageGen",
+  "model_identity": "not exposed by tool",
+  "transparent_background_requested": true,
+  "prompt_file": "prompt.txt",
+  "ordered_reference_file": "ordered-references.json",
+  "raw_file": "raw.png",
+  "declared_layout": {
+    "columns": 4,
+    "rows": 6,
+    "cells": 24
+  },
+  "actual_result_keys": [
+    "image_url"
+  ],
+  "image_result": {
+    "media_type": "image/png",
+    "encoding": "base64",
+    "data_url_characters": 2446498,
+    "payload": "omitted; original decoded bytes retained as raw_file"
+  },
+  "tool_output_hint": null,
+  "cache_path": null,
+  "save_route": "decoded original data URL through non-echo raw TTY stdin; no cache hint was returned while filesystem was full; /tmp copy retained",
+  "acceptance": "unreviewed candidate; known producer defects documented separately",
+  "actual_dimensions": [
+    1024,
+    1536
+  ],
+  "raw_sha256": "24cb6a09bc2e88c1b47da584000e36b6e4d122b857ebb8e5d1e46d03a39159c1",
+  "actual_mode": "RGBA",
+  "literal_prompt_sha256": "5f2415db326046e60c1a1941e074d989922e7feb79a29ec8ed623a760dde0a04",
+  "actual_ordered_inputs": [
+    {
+      "order": 1,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/hybrid-eight-keys-5x.png",
+      "role": "appearance, pixel style and compact walk motion reference; southeast direction is not authority",
+      "sha256": "7f6c501d1d7c0f4cdd4b9c446383ff3734e10e70e55e43c64a1a06fb7aeabebc"
+    },
+    {
+      "order": 2,
+      "path": "/home/astra/artifacts/hero-rpg-expansion-20261021/references/direction-guide-v1.png",
+      "role": "eight-direction appearance and rear silhouette context only; not pose or sheet layout authority",
+      "sha256": "348226f860aa4a546a966438cbeae0263f2db60d06c71406e5b23001d63080fa"
+    }
+  ],
+  "cache_copy_sha256_equal": null
+}
