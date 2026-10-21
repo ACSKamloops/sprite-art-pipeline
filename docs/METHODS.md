@@ -34,6 +34,11 @@ introduced shrinkage/debris in some cases; it is explicitly selected and never
 a default native-sprite import step. Its exact adapter, source hashes, alpha
 controls and failed candidates remain distinct from hosted-model replication.
 
+[Follow-on refinement](../research/pixelengine-imagen/REFINEMENT.md) covers the
+stronger scarf guide, owned head/body palette, mixed-rate cloth and bounded
+leg/painted-bridge tests. Reviews still prefer the reference; source-key
+preservation is not improved weight transfer or9/10 art acceptance.
+
 The [Lyra repair](../examples/lyra-leg-repair/README.md) demonstrates consistent
 boot/calf/cloth masters, a revised projected foot path, preserved upper paint,
 fixed timing and review of all pairs. Its still-visible repair is useful evidence;

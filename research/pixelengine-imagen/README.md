@@ -6,6 +6,11 @@ Godot export tools with the **actual retained PixelEngine client WASM**. It does
 not reproduce the hosted generative models or establish hosted/local equality.
 No generator runs from these scripts, setup, imports or tests.
 
+[Follow-on refinement](REFINEMENT.md) records the stronger scarf guide, owned
+head/body composition, mixed-rate cloth, source-bound leg experiments and
+subsequent independent reviews. The9/10 target remains unmet; this first
+comparison below is retained history.
+
 [Source-preserving native controls](NATIVE-CONTROLS.md) retain PixelEngine's
 strong torso/scarf motion beside exact connected-matte cutouts and two small
 manual pixel candidates. They provide a source-bound motion template, editable
