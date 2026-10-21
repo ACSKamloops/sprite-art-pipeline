@@ -10,6 +10,7 @@ test scores retain their original snapshot/version in source documents.
 | Fine editing | Layered toolkit, guarded transactions, literal replay, native-editor exchange | Mechanical correctness does not prove drawing quality |
 | PixelLab local workbench | Version 0.10.0 source, UI/CLI, test corpus, grammar and recovered client subsets | Whole-product/private-model parity remains false |
 | PixelEngine + ImageGen comparison | Genuine adapter, newer paint tests, owned component refinements and cold reviews | User preferred Hybrid in normal-speed playback; exact walk/view frozen. [Follow-on](../research/pixelengine-imagen/REFINEMENT.md) retains mixed7–8/10 still reviews; numeric9/10 remains unestablished |
+| Hybrid directional combat expansion | [Eight-view candidate banks](../research/pixelengine-imagen/RPG-EXPANSION.md), editable poses, source maps, corrected registration, ready/idle bindings and actual browser/Godot checks | New motions still need refinement and human playback; completed exports are not production art approval |
 | Approved generic hero | Original user-approved H3 walk and offline reconstruction inputs | One actor/action/view; historical H3 usage is not enabled now |
 | RPG action notes | Punch/jump and broader library process, honest missing-view/action counts | Not a complete eight-direction RPG action set |
 | Emberwake | Original game source, runtime art, tests, art-method documentation | Demo/game quality does not approve every diagonal cycle |

@@ -5,6 +5,11 @@ description: Create consistent game sprites, directional character banks and sho
 
 # ImageGen Sprite Animation
 
+For multi-action sheets, measured atlas gutters, shared column/row corrections
+and exact guard/gather/idle state bindings, read
+[atlas-registration-and-combat-states.md](references/atlas-registration-and-combat-states.md).
+It separates a corrected state endpoint from a still-missing recovery bridge.
+
 For controlled comparisons with provider pose guides and recovered pixel processing, read [provider-comparison.md](references/provider-comparison.md). It separates appearance, motion and timing, records a guided-paint improvement, and shows why grid inference and faint alpha noise need explicit tests before use.
 
 For scarf ownership, protected head paint and mixed-rate component experiments,
