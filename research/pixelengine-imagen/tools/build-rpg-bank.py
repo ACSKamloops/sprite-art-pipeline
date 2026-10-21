@@ -203,6 +203,11 @@ def import_sheet(args):
         row = entry['row']
         require(type(row) is int and 0 <= row < 6 and row not in offsets and bool(entry['reason']), 'Unique justified row offset required')
         offsets[row] = [rational(v) for v in entry['delta_source']]
+    column_offsets = {}
+    for entry in transform.get('column_offsets', []):
+        column = entry['column']
+        require(type(column) is int and 0 <= column < 4 and column not in column_offsets and bool(entry['reason']), 'Unique justified column offset required')
+        column_offsets[column] = [rational(v) for v in entry['delta_source']]
     prepared, counts = prepare(raw, recipe)
     out = args.output.absolute()
     fresh(out)
@@ -246,7 +251,8 @@ def import_sheet(args):
         bounds = [x_boundaries[col],y_boundaries[row],x_boundaries[col+1],y_boundaries[row+1]]
         box = [math.floor(bounds[0]), math.floor(bounds[1]), math.ceil(bounds[2]), math.ceil(bounds[3])]
         raw.crop(box).save(out / f'raw-crops/{cell:02d}.png')
-        offset = offsets.get(row, [F(), F()])
+        row_delta, column_delta = offsets.get(row, [F(), F()]), column_offsets.get(col, [F(), F()])
+        offset = [row_delta[axis]+column_delta[axis] for axis in range(2)]
         # Pixel-boundary coordinates: map destination centers, then floor.
         xs = [bounds[0]+anchor[0]+offset[0]+(F(2*x+1, 2)-40)/scale for x in range(80)]
         ys = [bounds[1]+anchor[1]+offset[1]+(F(2*y+1, 2)-72)/scale for y in range(80)]

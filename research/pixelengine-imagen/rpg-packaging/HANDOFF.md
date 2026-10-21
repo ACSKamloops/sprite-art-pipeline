@@ -58,8 +58,14 @@ equal rational divisions of actual dimensions. Optional `x_boundaries` has five
 rationals; `y_boundaries` has seven. Partitions increase strictly and span the
 whole source. They never normalize pose scale by crop size.
 
+`transform.column_offsets` is symmetric with row offsets:
+`[{"column":1,"delta_source":[[-8,1],[0,1]],"reason":"Retain nominal column origin after measured gutter partition"}]`.
+Row and column deltas add in source coordinates. Each is common to its whole row
+or column, never a pose fit. For changed x partition start `b`, use x delta
+`column*nominal_cell_width-b` to preserve the nominal source origin exactly.
+
 For each destination pixel center `(x+1/2,y+1/2)`, source coordinates equal
-`partition_origin + source_anchor + row_offset + (dest_center-stage_anchor)/scale`.
+`partition_origin + source_anchor + row_offset + column_offset + (dest_center-stage_anchor)/scale`.
 The integer source coordinate is `floor`; samples outside the declared partition
 are transparent. One scale and anchor apply to the whole bank. No alpha bounds
 are used for fitting. Preserve registration maps; future geometric recomputation
