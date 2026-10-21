@@ -1,0 +1,25 @@
+{
+  "schema":"two-existing-leg-slot-repair/v1",
+  "baseline_sha256":"5d779a7c8d92fbc0fb559a11a000b4e57f5f2747420f0034cb0a6f4c9c47740c",
+  "rich_source_sha256":"f48be55f5c2514d2097d97bc5ffe867af1a419d104983a2087b594dabc8dd4e2",
+  "first_distal_translation":[2,0],
+  "second_distal_rotation":{
+    "source_cuff_proxy":[45,60],"target_translation":[3,1],"degrees":-7,
+    "visible_pose_proxies":[
+      {"source_key":3,"ankle":[44,65],"toe":[47,68]},
+      {"source_key":4,"ankle":[52,65],"toe":[57,68]}
+    ],
+    "meaning":"Use the rightmost opaque forefoot edge on source row68, plus explicit visible ankle material proxies on row65. Their projected angles differ14.04degrees. Apply half that change at the existing3.5slot. The complete owned cuff/shin/boot raster rotates around explicit cuff proxy; no recovered bones or world contact claim."
+  },
+  "first_near_trouser_clusters":{
+    "source_color_samples":{"i":[42,54],"d":[43,54],"m":[44,54],"l":[46,54]},
+    "rows":[
+      {"x":41,"y":54,"pattern":"idmllmi"},
+      {"x":42,"y":55,"pattern":"imlllmi"},
+      {"x":43,"y":56,"pattern":"imlllmi"},
+      {"x":44,"y":57,"pattern":"imlllmi"}
+    ],
+    "meaning":"Actual authored source-colored pencil clusters, seven pixels wide on four diagonal rows. Connect held near hip to laterally advanced cuff; do not paint torso, hanging glove or inferred concealed anatomy."
+  },
+  "boundary":"Only two existing bridge cels. All8K61keys/onsets, head, torso, scarf, gloves and exact loop clock are protected. Rigid-only and manual-cluster stages both retained. No rating or whole-pose improvement inferred."
+}

@@ -84,3 +84,7 @@ source and clock preservation, not motion approval.
 anchor `(40,28)` only at phase 2.5, preserving this lower-body trial and all
 keys/clocks. Its raw gap and explicit source-colored neck-cap tradeoff remain
 separate for root review.
+
+[The two-slot leg repair](TWO-SLOT-LEG-REPAIR.md) subsequently tests an explicit
+trouser-cluster edit and measured distal rotation against the crowded original
+bridges. It retains the held-pelvis limitation and all original keys/clocks.
