@@ -1,0 +1,16 @@
+{
+  "schema":"visible-support-trajectory-trial/v1",
+  "rich_source_sha256":"f48be55f5c2514d2097d97bc5ffe867af1a419d104983a2087b594dabc8dd4e2",
+  "repair02_sha256":"06183ca98bb963e584d306daae848f0211d34ab5a743d33bd353802134caf000",
+  "original_two_bridge_sha256":"5d779a7c8d92fbc0fb559a11a000b4e57f5f2747420f0034cb0a6f4c9c47740c",
+  "endpoint_x_windows":{"2":[35,45],"3":[29,39],"4":[25,32]},
+  "phase2_5_support_shift":2,
+  "assumptions":[
+    "Support-role correspondence is plausible from key1 broad right boot through key2 central/front boot to key3 left boot; physical limb identity is not recovered.",
+    "Ankle-height proxy is the right edge of bright leather RGB128,71,42 on row65, not a visible anatomical joint or IK control.",
+    "Toe outline row69 and both sole edges row70 are actual visible pixel boundaries; no alpha centroid or named rig point is measured.",
+    "Linear half-phase midpoint is a tested trajectory hypothesis, not proof of true ground contact, constant velocity or intentional source timing.",
+    "At3.5 the endpoint boot turns/narrows: heel is already near midpoint while toe/shaft lag. Leave that slot unchanged because no single rigid translation satisfies all measured proxies.",
+    "Natural passing-foot overlap is allowed; never move the passing leg to force separation."
+  ]
+}

@@ -57,3 +57,7 @@ remain held, so **whole-pose coordination is not fixed under this mask**. The
 trial is retained for root review, not promoted as an overall art improvement.
 No score, continuous-playback preference or expansion to a full 16-frame bank
 is claimed.
+
+[The later support-trajectory diagnostic](SUPPORT-TRAJECTORY.md) measures actual
+sole/material features instead of assuming that boot clearance establishes the
+right phase. It retains the correspondence and midpoint-linearity limits.
