@@ -7,6 +7,11 @@ description: Create consistent game sprites, directional character banks and sho
 
 For controlled comparisons with provider pose guides and recovered pixel processing, read [provider-comparison.md](references/provider-comparison.md). It separates appearance, motion and timing, records a guided-paint improvement, and shows why grid inference and faint alpha noise need explicit tests before use.
 
+For scarf ownership, protected head paint and mixed-rate component experiments,
+read [component-refinement.md](references/component-refinement.md). It records
+why preserved pixels and added poses can still lose to the reference, and why
+support-foot trajectory must be checked before optimizing boot clearance.
+
 Use ImageGen to supply coherent painted keys, then preserve their identity through bounded source-pixel bridges and requested fine editing. In this project the user calls the built-in OpenAI ImageGen tool “imagen”; this is not a Google Imagen integration. A generated sheet is a candidate, not a finished animation.
 
 Use the installed [image-generation skill](../.system/imagegen/SKILL.md) for tool execution. Built-in generation needs no API key. Do not substitute a local model, video provider, CLI/API runner or 3D stack without the corresponding user request. No generation call is needed when documenting, verifying or replaying saved work.
