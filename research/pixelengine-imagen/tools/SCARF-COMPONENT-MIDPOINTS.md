@@ -20,6 +20,10 @@ SHA-256, `tail_source_layer`, eight `keys` and a `midpoints` list. Each key pins
 its rendered RGBA SHA-256 and supplies a unique explicit `owner_mask` of `[x,y]`
 coordinates. Own only visible rear flap paint and its outline. Keep the neck
 bib, hair/face and shoulder occlusion seam in their original foreground layers.
+Rebase these coordinates on each new source raster grid. Keep the shared
+shoulder-facing seam in front and measure where the free flap enters behind
+it; an older component mask or numeric neck anchor is not authority for a new
+painted body.
 
 Every midpoint entry contains:
 
@@ -61,6 +65,11 @@ tracks. Every rational boundary, source position and one-second period is
 verified. A16-state clock does not mean16 new drawings: the result explicitly
 counts actual changed visible midpoints and distinct tail rasters, including
 hidden/duplicate exposures. No FPS-only motion-improvement claim follows.
+Set the optional plan field `require_new_tail_rasters` to true to reject any
+authored midpoint whose full tail raster duplicates an original tail or
+another authored midpoint. Per-state receipts also report visible/occluded
+tail pixel counts and visible bounds. A distinct raster can still be hidden
+or badly drawn; inspect the full composite and the held body's occlusion.
 
 Outputs retain the original eight-key control,16-state duplicate control,
 candidate, layered editable JSON, ASE/sidecar, PNGs, atlas, exact APNG, input

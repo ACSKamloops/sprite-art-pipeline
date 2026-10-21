@@ -106,6 +106,8 @@ def run(args):
     journal_dir = out / 'journal'
     journal_dir.mkdir()
     new_tails = [tails[i//2].copy() for i in range(16)]
+    source_tail_hashes = {rgba_hash(tail) for tail in tails}
+    authored_tail_hashes = set()
     edits = {entry['state']: entry for entry in plan['midpoints']}
     require(len(edits) == len(plan['midpoints']) and all(type(n) is int and 0 <= n < 16 and n % 2 for n in edits), 'Only unique odd half-states may change')
     for state, entry in sorted(edits.items()):
@@ -118,6 +120,10 @@ def run(args):
             art.putpixel((x, y), color)
             actual_mask.add((x, y))
             witnesses.append([x, y, donor, sx, sy, list(color)])
+        if plan.get('require_new_tail_rasters', False):
+            art_hash = rgba_hash(art)
+            require(art_hash not in source_tail_hashes | authored_tail_hashes, 'Authored midpoint duplicates an original or another authored tail raster')
+            authored_tail_hashes.add(art_hash)
         cel = initial['frames'][state]['cels']['tail-back']
         union = masks[state//2] | actual_mask
         tx = candidate_transaction(history.project, cel, art, [list(p) for p in sorted(union)])
@@ -141,11 +147,16 @@ def run(args):
         require(all(after == original for p, after, original in zip(bodies[key].get_flattened_data(), image.get_flattened_data(), images[key].get_flattened_data()) if p[3]), 'Original visible non-tail body pixel changed')
         coords = set(map(tuple, recipe.changed(images[key], image)))
         target = {(i % width, i // width) for i, p in enumerate(new_tails[state].get_flattened_data()) if p[3]}
+        visible_tail = {p for p in target if not bodies[key].getpixel(p)[3]}
         require(coords <= masks[key] | target, 'Change outside tail union')
         if state % 2 == 0:
             require(not coords, 'Original even-key pixels changed')
         checks.append({'state': state, 'body_key': key, 'changed_visible_pixels': len(coords),
                        'tail_pixels': len(target), 'visible_new_state': bool(coords), 'tail_rgba_sha256': rgba_hash(new_tails[state])})
+        checks[-1].update({'authored_midpoint': state in edits, 'visible_tail_pixels': len(visible_tail),
+                           'occluded_tail_pixels': len(target - visible_tail),
+                           'visible_tail_bounds': [min(p[0] for p in visible_tail), min(p[1] for p in visible_tail),
+                                                   max(p[0] for p in visible_tail) + 1, max(p[1] for p in visible_tail) + 1] if visible_tail else None})
     journal = history.journal()
     write(journal_dir / 'journal.json', journal)
     require(project_hash(History.replay(initial, journal).project) == project_hash(final), 'Tail replay mismatch')
