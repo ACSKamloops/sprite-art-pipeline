@@ -12,7 +12,7 @@ from PIL import Image
 REPO = Path(__file__).resolve().parents[3]
 TOOLKIT = REPO / 'skills/sprite-construction-editing/assets/toolkit'
 sys.path.insert(0, str(TOOLKIT))
-from sprite_lab import History, candidate_transaction, canonical_json, load_project, project_hash, render_frame
+from sprite_lab import History, candidate_transaction, canonical_json, load_project, project_hash, render_cel, render_frame
 
 
 def module(name, path):
@@ -118,6 +118,12 @@ def run(args):
         master = Image.open(donor / f'frames/{master_index:04d}.png').convert('RGBA')
         master_mask = coordinates(donor_plan['owner_mask'], width, height)
         require(all(master.getpixel(p)[3] for p in master_mask), 'Donor owner includes empty pixels')
+        if 'owner_layer_id' in donor_plan:
+            donor_frame = next(f for f in donor_project['frames'] if f['id'] == anim['frames'][master_index])
+            owned = render_cel(donor_project, donor_frame['cels'][donor_plan['owner_layer_id']])
+            owned_mask = {(x, y) for y in range(height) for x in range(width) if owned.getpixel((x, y))[3]}
+            require(master_mask == owned_mask, 'Donor mask differs from declared owner layer')
+            require(all(master.getpixel(p) == owned.getpixel(p) for p in master_mask), 'Donor owner is occluded in composite')
         source_anchor = donor_plan['anchor']
         master_source_id = 'external-donor'
     checks = []
@@ -135,6 +141,10 @@ def run(args):
             art.putpixel((tx, ty), master.getpixel((sx, sy)))
             mapping.append([tx, ty, master_index, sx, sy])
         target_mask = {(r[0], r[1]) for r in mapping}
+        body_image = Image.open(decomposed / f'{i:02d}-body.png').convert('RGBA')
+        overlap = [list(p) for p in sorted(target_mask) if body_image.getpixel(p)[3]]
+        if plan.get('forbid_body_occlusion', False):
+            require(not overlap, 'Replacement occludes protected source body paint')
         union = masks[i] | target_mask
         fid = record['frame_id']
         cel = initial_byid[fid]['cels']['owner']
@@ -159,8 +169,6 @@ def run(args):
         after = render_frame(history.project, fid)
         changes = set(map(tuple, recipe.changed(images[i], after)))
         require(changes <= union | underpaint_mask, 'Outside ownership/attachment region changed')
-        body_image = Image.open(decomposed / f'{i:02d}-body.png').convert('RGBA')
-        overlap = [list(p) for p in sorted(target_mask) if body_image.getpixel(p)[3]]
         gaps = [list(p) for p in sorted(masks[i] - target_mask - underpaint_mask)]
         witness = {'frame_id': fid, 'attachment_anchor': anchor, 'translation': [dx, dy],
                    'master_source_id': master_source_id, 'master_frame_index': master_index, 'source_texel_map': mapping,

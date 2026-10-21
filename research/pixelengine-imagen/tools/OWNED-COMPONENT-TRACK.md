@@ -31,6 +31,7 @@ The external plan contains artwork-specific masks and anchor choices:
   "component": "head",
   "master_frame_index": 0,
   "master_anchor": [40, 28],
+  "forbid_body_occlusion": true,
   "frames": [{
     "frame_id": "pose-00",
     "png_sha256": "SOURCE_FRAME_HASH",
@@ -56,6 +57,7 @@ For a separately supplied donor, the plan additionally includes:
     "project_file_sha256": "DONOR_PROJECT_FILE_HASH",
     "frames_sha256": ["DONOR_FRAME_HASH"],
     "frame_index": 0,
+    "owner_layer_id": "owner",
     "owner_mask": [[34, 9], [35, 9]],
     "anchor": [40, 28]
   }
@@ -64,6 +66,11 @@ For a separately supplied donor, the plan additionally includes:
 
 All donor frames must be pinned. Donor and target canvas/pivots/animation clock
 must match. The full donor is exported unchanged as `donor-control/`.
+When `owner_layer_id` is declared, the mask must exactly equal that layer's
+visible cel raster, and every sampled donor pixel must equal the owner's
+unoccluded composite paint. This prevents a stale hand mask from silently
+sampling another component. Without the optional field, the explicit mask
+remains the authority for fused donor artwork.
 
 The runner first uses the existing constructor to split each original frame
 into a locked body, empty join-underpaint layer and explicit component owner.
@@ -84,6 +91,20 @@ anchors/translation, exposed-background coordinates, source body pixels
 occluded by the new owner and underpaint declarations. Body cel arrays remain
 unchanged. An unchanged body layer does **not** imply every original body pixel
 remains visible: inspect the occlusion list, especially at the collar/scarf.
+Set `forbid_body_occlusion` to true when every protected body pixel must remain
+visible. The runner rejects overlap before applying the component transaction.
+Do not broaden old ownership merely to pass this guard: inspect and rebase the
+actual visible head, hair fringe, jaw outline and collar boundaries separately
+for every new raster grid. A donor mask may stay exact while target ownership
+and attachment anchors need fresh measurement.
+
+For a native-grid body/crisp-head experiment, keep the new grid's complete
+control, define target masks from that grid, and sample the donor's existing
+owned head layer. Measure anchors at the first neck-shadow baseline after the
+jaw and document any variation. Inspect all exposed-background coordinates;
+outer fringe removals differ from join holes that need literal underpaint.
+Freeze case-specific masks, colors, anchor witnesses and source hashes in the
+external artifact plan. Keep those private artwork coordinates outside Git.
 
 The recipe checks source and donor pins, exact decomposition, outside-mask
 pixel preservation, locked body/cloth cel preservation, exact frame/clock/pivot
