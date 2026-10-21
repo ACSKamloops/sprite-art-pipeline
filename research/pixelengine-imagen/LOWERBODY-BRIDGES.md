@@ -79,3 +79,8 @@ retains the exact 62.5 ms subdivisions. Independent replay of both full
 source-frame/XY maps reconstructs both bridge PNGs exactly. The timing control
 equals the original at all 32 sampled subframe times. These checks establish
 source and clock preservation, not motion approval.
+
+[A single component head midpoint](COMPONENT-HEAD-BRIDGE.md) subsequently tests
+anchor `(40,28)` only at phase 2.5, preserving this lower-body trial and all
+keys/clocks. Its raw gap and explicit source-colored neck-cap tradeoff remain
+separate for root review.

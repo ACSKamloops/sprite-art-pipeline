@@ -1,0 +1,12 @@
+{
+  "schema":"source-component-head-bridge/v1",
+  "candidate_project_sha256":"5d779a7c8d92fbc0fb559a11a000b4e57f5f2747420f0034cb0a6f4c9c47740c",
+  "head_source_project_sha256":"f48be55f5c2514d2097d97bc5ffe867af1a419d104983a2087b594dabc8dd4e2",
+  "target_frame":"bridge-2-3",
+  "head_source_frame":"pose-02",
+  "head_source_layer":"owner",
+  "source_anchor":[40,29],
+  "target_anchor":[40,28],
+  "neck_cap_samples":[[37,28,37,28],[38,28,38,28],[39,28,39,28],[40,28,40,28],[41,28,41,28],[42,28,42,28],[43,28,43,28],[44,28,44,28],[45,28,45,28]],
+  "boundary":"Move the complete exact owner only in phase2.5. Neck cap extends source-colored original chin/neck boundary by one row to close observed gap; it is explicit authored join paint. No other frames, lower-body controls, source keys or timing may change."
+}
