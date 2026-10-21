@@ -1,5 +1,8 @@
 # RPG bank packaging handoff
 
+The subsequent actual Godot inspector and its48clip validation are documented in
+[GODOT-HANDOFF.md](GODOT-HANDOFF.md).
+
 The importer and browser are implemented in `../tools/build-rpg-bank.py` and
 `../tools/rpg-bank-review.html`. They use Pillow plus the repository's existing
 construction, ASE and rational APNG toolkits; no generation, network, credential
