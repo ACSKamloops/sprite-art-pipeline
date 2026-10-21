@@ -63,3 +63,7 @@ guarded journal, full frozen composite map, equal-clock exports and all pairs
 are retained externally at `a15-bridges/support-trajectory-diagnostic01/trial01`
 under the refinement artifact root. Root owns full-motion review; no score is
 assigned.
+
+[A later coordinated upper-pose hypothesis](COORDINATED-UPPER-PILOT.md) tests
+one phase-2.5 head/collar/torso/arm response while preserving this measured lower
+pose, every key and all exact timing. Raw seams and explicit repairs are kept.

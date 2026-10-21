@@ -1,0 +1,43 @@
+{
+  "schema":"one-coordinated-upper-pose/v1",
+  "source_sha256":"f48be55f5c2514d2097d97bc5ffe867af1a419d104983a2087b594dabc8dd4e2",
+  "baseline_sha256":"cb874c0105643b6545824a912ac561b62c89bdc0d41f6856c68cff346c53a4c8",
+  "head_only_control":"Rebase the existing source-head1pxrise+9pxneckcap recipe onto this identical support-midpoint baseline for equal-leg/equal-clock comparison; coordinated candidate has no neck cap.",
+  "projected_proxies":{
+    "head_attachment":{"key2":[40,29],"key3":[41,27],"target":[40,28],"meaning":"Explicit original head/collar attachment proxy; source head colors/shape preserved."},
+    "near_sleeve_plane":{"key2":[30,34],"key3":[33,32],"target":[32,33],"meaning":"Visible teal sleeve-cap material proxies; approximate projected shoulder, not bone reconstruction."},
+    "near_elbow_crease":{"key2":[31,42],"key3":[33,40],"target":[32,41],"meaning":"Visible exposed-arm/bracer transition; source paint changes across endpoints."},
+    "near_glove_outer_tip":{"key2":[34,50],"key3":[39,49],"target":[37,50],"meaning":"Visible glove/hand outer edge; entire source3 closed-hand piece translates(-2,+1)."},
+    "near_wrist_plane":{"key2":[32,48],"key3":[36,47],"target":[34,48],"meaning":"Visible gauntlet/hand-plane boundary used as wrist proxy; anatomical wrist is covered and source colors differ."},
+    "waist_buckle":{"key2":[42,45],"key3":[42,44],"target":[42,44],"meaning":"Visible buckle plane, half-pixel midpoint quantized upward; torso material translates1pxup."},
+    "pelvis_leg_seam":{"key2":[40,53],"key3":[40,53],"target":[40,53],"meaning":"Visible garment/pants attachment row stays fixed to preserve corrected lower-body source paint."},
+    "far_shoulder_edge":{"key2":[47,39],"key3":[48,37],"target":[48,38],"meaning":"Visible far upper-arm material boundary, source-owned arm shear reaches midpoint without moving the distal hand horizontally."},
+    "far_elbow_edge":{"key2":[49,43],"key3":[50,42],"target":[49,42],"meaning":"Visible far bracer/arm edge; midpoint half-pixels quantized on native grid, not recovered elbow anatomy."},
+    "far_hand_tip":{"key2":[50,50],"key3":[50,49],"target":[50,49],"meaning":"Visible far hand/finger patch; complete distal paint translates(0,-1), with half-pixel vertical midpoint quantized upward."}
+  },
+  "source2_bib_spans":[[27,33,35],[28,31,36],[29,30,45],[30,30,46],[31,34,46],[32,35,46],[33,36,45],[34,37,43],[35,39,43]],
+  "source2_old_near_arm_spans":[[31,29,33],[32,28,34],[33,28,35],[34,27,35],[35,27,35],[36,26,35],[37,26,35],[38,27,33],[39,27,33],[40,27,33],[41,27,33],[42,27,33],[43,27,33],[44,28,33],[45,28,33],[46,28,33],[47,28,33],[48,28,34],[49,28,35],[50,28,35],[51,28,35],[52,29,33],[53,30,33]],
+  "source3_near_arm_spans":{
+    "near-upper-arm":[[30,32,35],[31,31,36],[32,30,37],[33,29,38],[34,29,38],[35,29,35],[36,29,35],[37,29,35],[38,30,35],[39,30,35],[40,30,35]],
+    "near-forearm":[[41,30,36],[42,30,37],[43,31,38],[44,31,38],[45,32,38],[46,31,39]],
+    "near-glove":[[47,33,40],[48,34,40],[49,34,39],[50,35,38]]
+  },
+  "layer_order":["far-upper-arm","far-hand","torso","pelvis","near-upper-arm","near-forearm","near-glove","bib","head"],
+  "parts":{
+    "far-upper-arm":{"source_key":2,"source_vertices":[[46,36],[54,36],[54,48],[46,48]],"target_vertices":[[47,35],[55,35],[54,47],[46,47]]},
+    "far-hand":{"source_key":2,"source_vertices":[[46,47],[54,47],[54,54],[46,54]],"target_vertices":[[46,46],[54,46],[54,53],[46,53]]},
+    "torso":{"source_key":2,"source_vertices":[[24,25],[54,25],[54,48],[24,48]],"target_vertices":[[24,24],[54,24],[54,47],[24,47]]},
+    "pelvis":{"source_key":2,"source_vertices":[[24,46],[54,46],[54,53],[24,53]],"target_vertices":[[24,45],[54,45],[54,53],[24,53]]},
+    "near-upper-arm":{"source_key":3,"source_vertices":[[28,29],[40,29],[40,41],[28,41]],"target_vertices":[[27,30],[39,30],[39,42],[27,42]]},
+    "near-forearm":{"source_key":3,"source_vertices":[[29,40],[41,40],[41,47],[29,47]],"target_vertices":[[28,41],[40,41],[39,48],[27,48]]},
+    "near-glove":{"source_key":3,"source_vertices":[[32,46],[42,46],[42,52],[32,52]],"target_vertices":[[30,47],[40,47],[40,53],[30,53]]},
+    "bib":{"source_key":2,"source_vertices":[[28,25],[49,25],[49,37],[28,37]],"target_vertices":[[28,24],[49,24],[49,36],[28,36]]},
+    "head":{"source_key":2,"source_vertices":[[25,8],[52,8],[52,30],[25,30]],"target_vertices":[[25,7],[52,7],[52,29],[25,29]]}
+  },
+  "seam_repairs":{
+    "isolated_rim_erase":[48,36],
+    "cloth_fill":{"destination":[35,36],"source":[2,35,37],"expected_rgba":[17,98,106,255],"ownership":"One newly exposed shoulder-tunic seam pixel between mapped sleeve and torso; explicitly authored visible cloth, no recovered hidden surface."},
+    "raw_checkpoint":"Retain raw source-part assembly showing the one-pixel gap and one isolated rim before these literal editor operations."
+  },
+  "boundary":"One actual component-authored phase2.5 pose. No wholeframe blend/flow, no per-frame fitting, no generation, no hidden anatomy. Source2 torso/bib/head coordinate vertically; source3 near-arm parts articulate to projected endpoint proxies. Pelvis garment root stays atrow53; existing corrected support/passing boot paint remains exact."
+}
