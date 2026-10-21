@@ -58,6 +58,16 @@ turned-arm paint. A separate source-colored boot foreshortening improved a
 local ordered transition. Reviewers still found the opposite passing/wrap
 coarser; one refined quarter does not approve a balanced whole gait.
 
+In subsequent normal-speed playback, the user preferred Hybrid's original
+painted leg motion with independent scarf midpoints over Coordinated's added
+leg/upper-body states. The latter's bend felt too quick and too deep, despite
+its slightly higher still-review score. Preserve the exact preferred pixels,
+clock, editable project and feedback as a baseline. Here eight painted body
+keys plus five scarf-only states worked better for the user than the denser
+leg experiment. This is a case-specific result, not a ban on part rigs or a
+numeric9/10 judgment. Added exposures do not automatically improve a gait;
+future leg edits need their own normal-speed comparison against that baseline.
+
 Replay tools and scoped evidence pointers live in the canonical repository's
 `research/pixelengine-imagen/`. Local originals, requests, masks and frozen
 reviews are under

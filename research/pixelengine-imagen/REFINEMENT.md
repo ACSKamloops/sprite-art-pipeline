@@ -98,3 +98,34 @@ and lossy video transport checks remain separate from art acceptance.
 
 Reusable guidance:
 [component-refinement.md](../../skills/imagegen-sprite-animation/references/component-refinement.md).
+
+## Human selection after normal-speed playback
+
+On2026-10-21 the user preferred **Hybrid**, describing its leg movement as
+better and the result as "amazing." Coordinated's leg bend felt too quick and
+too far. No particular frame/joint or numerical rating was supplied. This
+normal-speed preference determines the selected baseline despite the last
+still-only review preferring Coordinated among the candidates. Frozen reviews
+retain their original judgments.
+
+The exact Hybrid is copied byte-for-byte to local
+`preferred-baseline/Hybrid/source/` under the evidence root. `USER-REVIEW.json`
+and `SOURCE-FILES.sha256` pin all32 copied files, the human-player inputs,
+editable project and APNG. Project SHA-256:
+`7d2ee539c04819179e3d71018e045cdee374fa6b01f36c3ae038df6ca17fae57`.
+APNG SHA-256:
+`078e4b552c8e80c8b53eb6b9b3daec38cd7188e2aed41b64318b3a98084c2b06`.
+
+Hybrid retains eight painted body/leg keys and their original onsets. Its16
+exposures contain13 distinct rasters; the five extra states animate only the
+scarf. Copied PNG/APNG pixels and exact62.5ms holds were checked, as were all
+eight original keys and unchanged lower-body rows. Do not replace this source
+with experimental leg inserts.
+
+Coordinated's added lower-body states occur at312.5 and437.5ms; the latter
+includes authored boot foreshortening. The inspected chronology confirms extra
+changes in this quarter, but also different body processing and upper paint.
+Those inserts are a plausible cause of the reported bend, not an isolated
+causal proof or an anatomical angle measurement. Keep Coordinated experimental
+and compare any future change against unchanged Hybrid. This selection covers
+one hero walk/view; no new game installation or full-library approval follows.

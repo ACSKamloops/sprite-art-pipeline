@@ -36,8 +36,12 @@ controls and failed candidates remain distinct from hosted-model replication.
 
 [Follow-on refinement](../research/pixelengine-imagen/REFINEMENT.md) covers the
 stronger scarf guide, owned head/body palette, mixed-rate cloth and bounded
-leg/painted-bridge tests. Reviews still prefer the reference; source-key
-preservation is not improved weight transfer or9/10 art acceptance.
+leg/painted-bridge tests. Still reviews were mixed and the last preferred the
+reference. In subsequent normal-speed playback, the user preferred Hybrid's
+painted leg motion and reported an overly quick/deep bend in Coordinated.
+Hybrid is frozen as the preferred walk/view, with eight painted body keys and
+five added scarf-only states. This preference is separate from a numeric9/10
+judgment or a complete character-library approval.
 
 The [Lyra repair](../examples/lyra-leg-repair/README.md) demonstrates consistent
 boot/calf/cloth masters, a revised projected foot path, preserved upper paint,
