@@ -124,7 +124,13 @@ def package(project, path, animation, native_editor):
         require(process.returncode == 0 and saved.is_file() and (native / 'sheet.png').is_file(), 'Native editor did not produce outputs')
         reopened = import_aseprite(saved, Path(str(ase) + '.sprite-lab.json'))
         require(project_hash(reopened) == project_hash(project), 'Native editor changed project/RGBA/clock')
-        require(Image.open(native / 'sheet.png').convert('RGBA').tobytes() == Image.open(path / 'atlas.png').convert('RGBA').tobytes(), 'Native editor sheet mismatch')
+        sheet = Image.open(native / 'sheet.png').convert('RGBA')
+        manifest = json.loads((path / 'manifest.json').read_text())
+        width, height = manifest['canvas']
+        require(sheet.size == (width * len(manifest['frames']), height), 'Native editor horizontal sheet dimensions changed')
+        for i, frame in enumerate(manifest['frames']):
+            actual = sheet.crop((i * width, 0, (i + 1) * width, height))
+            require(actual.tobytes() == Image.open(path / frame['file']).convert('RGBA').tobytes(), 'Native editor sheet mismatch at frame ' + str(i))
         result['native_save_reopen_project_and_sheet_exact'] = True
         write(native / 'verification.json', result)
     return result
