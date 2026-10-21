@@ -57,6 +57,10 @@ plans and requests. These scripts replay saved art without provider calls.
 | `combine-owned-tracks.py` | Exact owner reassembly and rational clock union |
 | `freeze-art-review.py` | Anonymous frozen comparison using each lane's holds |
 | `comparison-video.py` | CFR preview with decoded-frame/PTS checks |
+| `native-grid-production.py` | Pinned raw-cell batch replay with explicit52-color policy and integer staging |
+| `diagnose-support-trajectory.py` | Visible material/outline probes and one midpoint trial |
+| `coordinated-upper-pilot.py` | One source-owned head/collar/torso/arm intermediate with literal seam repair |
+| `support-roll-probe.py` | One authored support-boot foreshortening using frozen nearest source samples |
 
 The76px grid case uses [the optional genuine adapter](tools/README.md).
 Alpha1–7 is removed and hidden alpha0RGB canonicalized explicitly; RGBA at
@@ -75,6 +79,22 @@ additional painted poses. Frozen art reviews inspect every pair/wrap at native
 and nearest scales on light/dark backgrounds. Human normal-speed judgment is
 still separate. No new candidate is installed in the game or accepted as a
 complete character/action library.
+
+Subsequent native-body/stable-head and rebased cloth tests preserve all visible
+body and original key pixels. Round6 preferred this hybrid over the earlier
+candidate but still preferred the reference; its apparent scarf break was
+clarified as connected outline/shadow, not a structural defect. Round7 narrowly
+preferred a coordinated-upper/boot-roll test; Round8 preferred the reference
+over all candidates (8.3 versus7.5 for the most advanced part-based/cloth test).
+No review establishes9/10. The remaining motion issue is the denser250–500ms
+quarter against coarser opposite-passing and wrap phases. Get normal-speed
+judgment before expanding that bank.
+
+Current local comparison: `http://localhost:8900/delivery/current/`.
+It is a human-labelled copy of frozen Round8 pixels, with an exact-CFR
+five-second preview at `delivery/current-video/video/preview-exact.mp4`.
+Windows localhost access was checked independently; browser rendering/clock
+and lossy video transport checks remain separate from art acceptance.
 
 Reusable guidance:
 [component-refinement.md](../../skills/imagegen-sprite-animation/references/component-refinement.md).

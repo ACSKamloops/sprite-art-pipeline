@@ -21,6 +21,12 @@ in those same slots. A 16-slot track with only five new cloth rasters has five
 new cloth states, not sixteen new full-body poses. Source-key preservation and
 editor roundtrips establish transport only.
 
+Check a reviewer's claimed defect against the actual pixels before editing.
+In this case a reported scarf "break" was connected outline/shadow, with no
+alpha hole; its jagged fold remained a stylistic preference. Keep that
+clarification beside the frozen review. Small subjective score differences
+do not override component pixel/time equality or establish a reliable win.
+
 Inspect actual corresponding sole/toe/ankle paint at the preceding key,
 intermediate and following key. More boot separation is not necessarily better:
 passing feet can occlude naturally, and a foot that reaches the next key too
@@ -44,6 +50,13 @@ boot transitions and held upper body did not establish a motion win. A fixed
 head improved local identity while newly painted bridge torsos still changed
 volume. These findings are not9/10 acceptance or a new library-wide approval.
 Normal-speed human judgment remains separate from exhaustive ordered stills.
+
+A later bounded pose test moved an exact head and collar together, retained
+source-owned hands and coordinated the arm with the corrected support boot.
+It avoided the head-only cap's longer jaw but still mixed front torso and
+turned-arm paint. A separate source-colored boot foreshortening improved a
+local ordered transition. Reviewers still found the opposite passing/wrap
+coarser; one refined quarter does not approve a balanced whole gait.
 
 Replay tools and scoped evidence pointers live in the canonical repository's
 `research/pixelengine-imagen/`. Local originals, requests, masks and frozen
