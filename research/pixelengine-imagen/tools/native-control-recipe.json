@@ -1,0 +1,81 @@
+{
+  "schema": "native-source-pixel-control/v1",
+  "intent": "Source-preserving quality controls. Retain native drawing, torso rotation, original scarf follow-through and exact clock. Cutout is presentation hygiene, not improved drawing.",
+  "appearance_reference": {
+    "file": "references/native-original.png",
+    "sha256": "2fe8e069de6b487c6b964aa9b0abe5cbc170b8291cb9c3ef79038bc97fefea22"
+  },
+  "source_scarf_track": {
+    "case": "A",
+    "canvas": [80,80],
+    "hold_ms": 125,
+    "coordinate_policy": "Native source coordinates. Collar proxy is a visible red pixel, not an inferred hidden knot or rig anchor. Tip is the leftmost red-family pixel, lower on ties, inside x20..30/y26..39. No body or scarf registration.",
+    "tail_rgba": [[144,29,36,255],[183,46,50,255],[82,26,29,255]],
+    "depth_interpretation": "Rear free end reads behind the turning shoulder; collar remains around the neck in front of the tunic. Absent tail paint is not hidden anatomy recovery. Preserve source shoulder rotation and broad changing silhouette; do not make the end a rigid copy of the torso.",
+    "frames": [
+      {"index":0,"collar_proxy":[32,28],"state":"No tail colors in rear window; broad near shoulder covers this side."},
+      {"index":1,"collar_proxy":[32,28],"state":"No visible rear tail colors; shoulder still broad."},
+      {"index":2,"collar_proxy":[32,28],"state":"No visible rear tail colors in source before reveal."},
+      {"index":3,"collar_proxy":[30,28],"state":"Tail revealed to rear/down as shoulder turns; short outer extent."},
+      {"index":4,"collar_proxy":[32,28],"state":"Strongest leftward extension; tail lifts compared with f3."},
+      {"index":5,"collar_proxy":[32,28],"state":"Left extent held while the end drops two pixels; body pose continues."},
+      {"index":6,"collar_proxy":[32,28],"state":"End trails downward and begins to tuck behind sleeve."},
+      {"index":7,"collar_proxy":[32,27],"state":"Only a two-pixel dark-red sliver remains behind shoulder before f0 occlusion."}
+    ],
+    "pair_sequence": [[7,0],[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]],
+    "review_boundary": "Source drawing observations and depth interpretation from decoded stills. Native motion remains the quality control; no numerical rating or human playback acceptance is inferred."
+  },
+  "cases": {
+    "A": {
+      "webp": "references/walk15-original.webp",
+      "webp_sha256": "2eb246551a27ce8eb4a0ec522ab3eb2f5deb9ed85c02521a6cb263091b47ee8c",
+      "project": "delivery/comparison/clips/A/project.json",
+      "matte_rgba": [125, 125, 125, 255]
+    },
+    "B": {
+      "webp": "references/walk11-original.webp",
+      "webp_sha256": "c311038cb693e9be6a27c8446b86626fad01422b4eeec742d0c0bad166e23905",
+      "project": "delivery/comparison/clips/B/project.json",
+      "matte_rgba": [126, 126, 126, 255]
+    }
+  },
+  "candidates": [
+    {
+      "id": "A-scarf-transition",
+      "case": "A",
+      "edits": [
+        {
+          "frame": 2,
+          "reason": "Source-colored short scarf reveal behind the turning shoulder before the unchanged long f3-f6 follow-through. Protect every existing torso/shoulder pixel.",
+          "paint": [
+            {"source": [0, 30, 24], "expected_rgba": [4, 4, 4, 255], "points": [[27,30],[26,31],[25,32],[25,33],[25,34]]},
+            {"source": [3, 27, 31], "expected_rgba": [144, 29, 36, 255], "points": [[27,31],[26,32],[27,32],[26,33]]}
+          ]
+        },
+        {
+          "frame": 7,
+          "reason": "Short retracting scarf cue around the original dark-red f7 sliver before full f0 shoulder occlusion. Retain f3-f6 tail shapes and all colored torso pixels.",
+          "paint": [
+            {"source": [0, 30, 24], "expected_rgba": [4, 4, 4, 255], "points": [[25,32],[24,33],[24,34],[24,35],[25,36]]},
+            {"source": [3, 27, 31], "expected_rgba": [144, 29, 36, 255], "points": [[25,33],[25,34]]},
+            {"source": [7, 26, 34], "expected_rgba": [82, 26, 29, 255], "points": [[25,35]]}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "B-boot-separation",
+      "case": "B",
+      "edits": [
+        {
+          "frame": 3,
+          "reason": "Shorten the far planted boot toe beneath the overpassing near boot and close its local sole contour. This readability candidate preserves both native knees, cuffs, lifted boot and entire upper body; it does not recover hidden anatomy.",
+          "paint": [
+            {"source": [3, 31, 59], "expected_rgba": [3, 2, 3, 255], "points": [[38,69],[37,70],[38,70]]}
+          ],
+          "erase": [[39,69],[40,69],[41,69],[39,70],[40,70],[41,70],[39,71],[40,71],[41,71]]
+        }
+      ]
+    }
+  ]
+}

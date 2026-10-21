@@ -6,6 +6,11 @@ Godot export tools with the **actual retained PixelEngine client WASM**. It does
 not reproduce the hosted generative models or establish hosted/local equality.
 No generator runs from these scripts, setup, imports or tests.
 
+[Source-preserving native controls](NATIVE-CONTROLS.md) retain PixelEngine's
+strong torso/scarf motion beside exact connected-matte cutouts and two small
+manual pixel candidates. They provide a source-bound motion template, editable
+journals and exact exports without claiming new drawing quality from transparency.
+
 The local experiment is retained outside Git at
 `/home/astra/artifacts/pixelengine-imagen-comparison-20261020`.
 Third-party bundles, account material, private captures and generated originals

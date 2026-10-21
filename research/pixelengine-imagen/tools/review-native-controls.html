@@ -1,0 +1,42 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Native source controls</title>
+<style>
+  body{font:15px system-ui,sans-serif;background:#171b24;color:#edf0f8;margin:24px}
+  h1{font-size:22px}button,select{font:inherit;margin:3px;padding:5px}
+  #clips{display:flex;gap:18px;flex-wrap:wrap;margin-top:20px}article{background:#242a37;padding:12px;border-radius:8px}
+  h2{font-size:16px;margin:0 0 12px}canvas{display:block;image-rendering:pixelated;background:#32394d}p{max-width:900px;line-height:1.5}
+  a{color:#b6d9ff}small{display:block;margin-top:8px}
+</style>
+<h1>Native source walk controls</h1>
+<p>Original drawings, cutout presentation controls, and small manual candidates. The background cutout does not count as improved drawing. All frames retain the native 80 × 80 stage and eight 125 ms holds. Compare the original shoulder rotation and scarf follow-through; the candidates have no art-acceptance score.</p>
+<button id="play">Pause</button><button id="prev">Previous</button><button id="next">Next</button>
+<label>Scale <select id="scale"><option>1</option><option selected>2</option><option>4</option></select></label>
+<label>Speed <select id="speed"><option value="1">Normal</option><option value="0.5">Half</option></select></label>
+<label>Matte <select id="matte"><option value="#32394d">Dark blue</option><option value="#f1eedf">Light</option><option value="#a63183">Magenta</option><option value="#387d56">Green</option></select></label>
+<span id="clock">Loading</span>
+<div id="clips"></div>
+<p><a href="RESULTS.json">Hash-bound results</a> · <a href="A-source-scarf-track.json">Source A scarf track</a> · <a href="A-ordered-2x.png">A ordered frames</a> · <a href="B-ordered-2x.png">B ordered frames</a></p>
+<script type="module">
+const results=await(await fetch('RESULTS.json')).json();
+const variants=await Promise.all(results.variants.map(async item=>{
+  const card=document.createElement('article');const title=document.createElement('h2');title.textContent=item.id;
+  const canvas=document.createElement('canvas');canvas.width=canvas.height=80;
+  const link=document.createElement('a');link.href=`variants/${item.id}/delivery/apng/animation.apng.png`;link.textContent='Exact APNG';
+  const note=document.createElement('small');note.append(link);card.append(title,canvas,note);document.querySelector('#clips').append(card);
+  const frames=await Promise.all(Array.from({length:8},async(_,i)=>{
+    const response=await fetch(`variants/${item.id}/delivery/frames/${String(i).padStart(4,'0')}.png`);
+    return createImageBitmap(await response.blob());
+  }));return {canvas,frames};
+}));
+let running=true,frame=0,start=performance.now(),base=0;
+const play=document.querySelector('#play'),speed=document.querySelector('#speed'),scale=document.querySelector('#scale'),matte=document.querySelector('#matte');
+function render(){for(const {canvas,frames}of variants){const c=canvas.getContext('2d');c.clearRect(0,0,80,80);c.imageSmoothingEnabled=false;c.drawImage(frames[frame],0,0);canvas.style.width=canvas.style.height=`${80*Number(scale.value)}px`;canvas.style.background=matte.value;}document.querySelector('#clock').textContent=`Frame ${frame} / 7 · predecessor ${(frame+7)%8}${frame===0?' · wrap 7 → 0':''}`;}
+function reset(){base=frame;start=performance.now();}
+play.onclick=()=>{running=!running;play.textContent=running?'Pause':'Play';reset();};
+document.querySelector('#prev').onclick=()=>{running=false;play.textContent='Play';frame=(frame+7)%8;reset();render();};
+document.querySelector('#next').onclick=()=>{running=false;play.textContent='Play';frame=(frame+1)%8;reset();render();};
+speed.onchange=reset;scale.onchange=render;matte.onchange=render;
+function tick(now){if(running){frame=(base+Math.floor((now-start)*Number(speed.value)/125))%8;render();}requestAnimationFrame(tick);}render();requestAnimationFrame(tick);
+</script>
