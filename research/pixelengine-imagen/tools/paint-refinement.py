@@ -66,7 +66,7 @@ def run(args):
         for cel in cels:
             small = cel.resize((size, size), sampling)
             canvas = Image.new('RGBA', (80, 80))
-            canvas.paste(small, offset)
+            canvas.paste(small, tuple(offset))
             array = np.array(canvas)
             if use_palette:
                 array = remap_rgba(array, palette)
