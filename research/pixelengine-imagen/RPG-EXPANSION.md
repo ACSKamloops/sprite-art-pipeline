@@ -141,3 +141,6 @@ or rerate identical art to reach the requested9. A separate one-pixel distal
 scarf follow-through control tests secondary motion while preserving L's actual
 body/head/arms/feet and clock. It is optional research, not a required repair or
 an accepted improvement. The normal-speed human comparison remains pending.
+The scarf delta review retained unchanged L: the optional wave introduced a
+minor notch in two exposures around native(26,36), with no clear native-size
+benefit. Its exact pixel/clock preservation does not earn art or motion credit.

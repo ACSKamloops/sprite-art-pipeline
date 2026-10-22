@@ -93,6 +93,14 @@ successful source-map replay transfers acceptance to the new combat animation.
 The local replay witnesses and tests are under `persistent-lower-body-v1/`,
 `source-head-planted-full-v1/` and `source-head-planted-parts-v1/` in the study.
 
+A separate one-pixel distal scarf-wave control preserved the body, head, arms,
+feet and clock exactly. Its rounded transition at the fixed root introduced a
+small contour notch in two exposures around native(26,36). Independent delta
+review found no clear native-size benefit and kept the unchanged source. Retain
+this as a rejected secondary-motion experiment. Exact source transport and
+small displacement do not make a join attractive or an animation better; do
+not prescribe extra flutter when the existing action has no demonstrated fault.
+
 ## Portable offline example
 
 `assets/part-jab-study/` retains the initial slight-lean candidate, source layers,
