@@ -26,6 +26,14 @@ colors, not automatically good pixel clusters or anatomy. Fix demonstrated seam,
 overlap and volume errors using owned paint and explicit downstream edits.
 Do not rely on more frames/FPS to repair a missing leg exchange.
 
+When useful newly painted anatomy changes identity on the way into neutral, use
+[canonical reference and head tracks](../skills/imagegen-sprite-animation/references/canonical-reference-and-head-track.md).
+It records appearance-versus-motion references, complete component ownership,
+foreground depth, deliberately authored underpaint, equal-clock support-release
+tests and whole-action failures that a local head/hand correction cannot solve.
+Prompted joint coordinates must be checked against returned pixels; they are
+not proof of generated pose compliance.
+
 The [PixelEngine/ImageGen comparison](../research/pixelengine-imagen/README.md)
 connects retained pose guides and genuine client-side pixel processing to this
 same constructor/exporter. The guided ImageGen walk scored7.5/10 in a scoped

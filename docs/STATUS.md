@@ -52,3 +52,11 @@ the get-up still needs clearer weight transfer. Fresh resource/controller,
 external LibreSprite and browser checks are recorded in the action study. They
 do not turn the reviewers' scoped6.5–8/10 judgments into a full-set pass.
 
+Current experiments are at `http://localhost:8903/quality-round3/`. Whole-rise
+canonical identity improved in a scoped comparison (identity8, overall7), while
+the separate late part-bridge comparison remained overall6 for both versions.
+The main gap is linked hip/knee/foot support progression, including an earlier
+seated-to-crouch jump. New underpaint, rejected rigid-leg/painted-midpoint tests,
+same-art retiming and a corrected world/native-scale diagnostic are retained.
+These trials have not replaced the tested package-v2 or earned a9/10 pass.
+

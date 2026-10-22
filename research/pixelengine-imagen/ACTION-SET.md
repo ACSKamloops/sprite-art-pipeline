@@ -6,8 +6,10 @@ a game character. The follow-on package extends the previous six-action bank to
 walk and the current source-owned SE jab.
 
 Local delivery: `/home/astra/artifacts/hero-action-set-20261022/`.
-Start with `START-HERE.md`, `package-v1/library.json` and `COVERAGE.json`.
-`play/` is an actual Godot Web export; `godot-v1/` is its editable engine project.
+Start with `START-HERE.md` for the current checkpoint and `COVERAGE.json` for
+the original coverage contract. `package-v1/` and its actual Godot Web export
+at `play/` are preserved; the provisional selected refinement is `package-v2/`
+with its separately tested Web build at `play-v2/`.
 Generation remains built-in OpenAI ImageGen; no H3/local model was run.
 
 New painted families: run, dash, dodge, jump, knockdown, get-up and interaction.
@@ -80,3 +82,57 @@ Cold review6 preferred the canonical neutral at8/10 consistency/usefulness and
 the new dash at6.5/10 usefulness. The disclosed-context review7 preferred the
 rigid-upper get-up at7/10 usefulness. These are scoped ordered-still judgments;
 there is no whole-set9/10 acceptance or continuous-motion human approval.
+
+## Whole-rise identity and support transfer
+
+Round3 comparisons are at `http://localhost:8903/quality-round3/`. These remain
+experiments beside package-v2. A corrected canonical appearance reference gave
+newly painted rising-leg/body keys; complete preferred head/scarf owners were
+then attached at explicit per-pose neck positions. A whole-rise head track
+removed the late identity cut without changing the earlier body/leg mechanics.
+An explicit foreground-knee layer corrected the scarf depth at one key.
+
+Frozen anonymous review preferred that whole-rise identity treatment: identity8,
+progression6.5, overall7. Its predecessor was overall6.5. A separate equal-clock
+bridge review preferred the new late upper-body positions modestly but rated
+both full clips overall6: they still lack explanatory support transfer. These
+are separate packets and comparisons, not an averaged or rising acceptance
+score. Neither establishes continuous-motion quality or the target9/10.
+
+Part interpolation exposed missing collar/sleeve cloth. Explicit new underpaint
+layers closed those gaps; they are authored paint, not recovered hidden donor
+texels. A source-arm release bridge improved its wrist path locally, while a
+rigid rear-leg companion disconnected the body and was rejected. A single new
+painted release pose supplied connected anatomy but put the hand near the next
+key rather than halfway. Its canonical-head repair did not fix that phase error.
+A bounded manually articulated arm hybrid was compared separately. A fresh
+four-way blind review preferred the shorter original painted arm; the repair
+read as stretched over the leg. Its best full-action judgment remained6.5.
+Correct wrist coordinates did not imply better anatomy or motion.
+
+The full-action audit identified a larger earlier seated-to-kneel organization
+jump, support-foot repositioning and compressed middle timing. An equal-duration
+same-art retiming diagnostic preserves those anatomical defects; it does not
+claim to redraw them. A four-pose text-conditioned replacement also failed to
+follow the requested support/stage progression and remains rejected. Visual
+contact guides are a distinct follow-on test, not evidence that the prompt's
+coordinates were obeyed.
+
+The separate brisk-walk timing control retains all16 preferred walk exposures
+and13 unique RGBA drawings, accelerated by the actual run/walk speed ratio8/5.
+Its5/8s loop supplies no new run or flight pose. A world/native unit error in the
+first diagnostic was preserved and corrected: the inspector's160 world units/s
+becomes160/3 native pixels/s at its3x actor scale. Actual browser source and
+corrected-scale rendering checks are in `quality-round3/browser-proof/`.
+
+A bounded audit of the other seven idle/walk pairs found no clear repeat of
+SE's enlarged, offset idle. No other-direction art changed. Fifteen literal
+idle-identical selected endpoints identify coupled future contracts, not
+historical copying or accepted action progression.
+
+The reusable process and concrete failure decisions are in
+[canonical-reference-and-head-track.md](../../skills/imagegen-sprite-animation/references/canonical-reference-and-head-track.md).
+Raw generation, maps, literal paint journals, equal-clock controls and frozen
+review inputs remain in the local artifact root. Exact source/editor/media
+replay and the existing Godot checks do not automatically validate changed
+round3 art.

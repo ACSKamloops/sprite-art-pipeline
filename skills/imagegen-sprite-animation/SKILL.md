@@ -9,6 +9,11 @@ For whole-character action coverage, failed run-half generation, pose-state
 reuse and source-conditioned fall/get-up repairs, read
 [action-coverage-and-recovery.md](references/action-coverage-and-recovery.md).
 
+When an action changes character on its way into neutral, read
+[canonical-reference-and-head-track.md](references/canonical-reference-and-head-track.md)
+for appearance-authority checks, newly painted mechanics, source-owned heads,
+whole-track joins and component-depth failures.
+
 For incorrect bracer/hand assignments, protected-body controls, connected painted
 arm bridges and occluded-shirt cleanup, read
 [material-owned-arm-refinement.md](references/material-owned-arm-refinement.md).
