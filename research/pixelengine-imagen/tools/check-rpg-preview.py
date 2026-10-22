@@ -66,6 +66,18 @@ def run(package, output, godot):
         else:
             raise AssertionError('Invalid package accepted: '+name)
     builder.write(fixture/'library.json',base)
+    for label, delay, expected in [('negative-delay',-0.1,'Invalid motion parameter'),
+                                   ('no-airtime-delay',1.0,'Jump takeoff delay')]:
+        config_path = output/(label+'.json')
+        builder.write(config_path,{'jump_takeoff_delay':delay})
+        try:
+            builder.build(SimpleNamespace(package=fixture,output=output/label,config=config_path,godot=godot,check=False))
+        except ValueError as error:
+            if expected not in str(error):
+                raise
+            rejection_checks += 1
+        else:
+            raise AssertionError('Invalid takeoff delay accepted: '+label)
     assert builder.digest(package/'library.json') == original
     report = {'builds':reports,'negative_contract_checks':rejection_checks,
               'fixture_scope':base['fixture_warning'],'source_library_unchanged':True}

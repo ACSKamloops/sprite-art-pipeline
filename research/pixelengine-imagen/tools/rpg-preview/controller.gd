@@ -178,11 +178,15 @@ func update_motion(start: float, end: float, movement: Vector2, apply_ground: bo
 			var progress1 := 1.0-pow(1.0-p1,3.0) if state == "dash" else p1-sin(TAU*p1)/TAU
 			position += action_axis*float(bank.config.get(state+"_distance",42))*(progress1-progress0)
 		elif state == "jump":
-			position += action_axis*float(bank.config.get("jump_move_speed",90))*(end-start)
+			var delay := float(bank.config.get("jump_takeoff_delay",0.1))
+			# Only the airborne interval contributes displacement, including a step crossing takeoff.
+			position += action_axis*float(bank.config.get("jump_move_speed",90))*(maxf(0.0,end-delay)-maxf(0.0,start-delay))
 		elif state in ["walk","run"]:
 			position += movement*float(bank.config.get("run_speed",160) if state == "run" else bank.config.move_speed)*(end-start)
 	if state == "jump":
-		jump_height = 4.0*float(bank.config.get("jump_height",22))*p1*(1.0-p1)
+		var delay := float(bank.config.get("jump_takeoff_delay",0.1))
+		var airborne_progress := clampf((end-delay)/maxf(duration-delay,0.000000001),0.0,1.0)
+		jump_height = 4.0*float(bank.config.get("jump_height",22))*airborne_progress*(1.0-airborne_progress)
 		sprite.position.y = -jump_height
 		queue_redraw()
 

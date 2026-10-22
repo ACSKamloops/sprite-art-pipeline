@@ -150,8 +150,11 @@ aim metadata. There is no collision, damage, invulnerability or weapon behavior.
 Dash integrates a fast-start cubic displacement profile; dodge integrates a
 smooth accelerate/decelerate profile. Directions normalize before travel, so
 cardinal, diagonal and fractional stick inputs cover the configured distance.
-Jump moves the ground anchor separately from a parabolic sprite height and
-stationary ground shadow; landing resets height. These are inspector mechanics,
+Jump stays grounded for the declared `jump_takeoff_delay` (default 0.1s), so the
+painted crouch anticipation does not float. After takeoff it moves the ground
+anchor separately from a parabolic sprite height and stationary ground shadow;
+landing resets height. The delay must be shorter than every jump clip. Travel
+integrates only elapsed airborne time, including steps crossing takeoff. These are inspector mechanics,
 not proof of painted motion quality. Ground speeds/distances are in inspector
 canvas units; the UI scales artwork 4x.
 
@@ -176,4 +179,4 @@ python3 research/pixelengine-imagen/tools/check-rpg-preview.py \
 ```
 
 The script also checks rejection of missing bindings, unknown actions and duplicate
-directions. It never calls a provider and leaves the supplied package unchanged.
+directions, plus negative or full-duration takeoff delays. It never calls a provider and leaves the supplied package unchanged.

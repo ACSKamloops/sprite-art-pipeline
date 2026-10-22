@@ -83,7 +83,7 @@ def build(args):
     expanded = bool(actions - {'walk','punch','cast','idle','hurt','dodge'})
     config = {'completion_return': {action:'idle' for action in actions - {'idle','walk','run','guard','crouch','death'}},
               'ready_states':{}, 'move_speed':100, 'run_speed':160,
-              'dash_distance':72, 'dodge_distance':42, 'jump_height':22, 'jump_move_speed':90,
+              'dash_distance':72, 'dodge_distance':42, 'jump_height':22, 'jump_move_speed':90, 'jump_takeoff_delay':0.1,
               'start_direction':'SE', 'controls':'expanded' if expanded else 'legacy',
               'anchors':{'hand':'pending measurement','grip':'pending measurement','release':'pending measurement'}}
     for action in ('punch','cast'):
@@ -102,8 +102,12 @@ def build(args):
             else:
                 config[key] = value
     require(config['start_direction'] in library['directions'], 'Invalid start direction')
-    for key in ('move_speed','run_speed','dash_distance','dodge_distance','jump_height','jump_move_speed'):
+    for key in ('move_speed','run_speed','dash_distance','dodge_distance','jump_height','jump_move_speed','jump_takeoff_delay'):
         require(isinstance(config[key], (int,float)) and math.isfinite(config[key]) and config[key] >= 0, 'Invalid motion parameter: '+key)
+    if 'jump' in actions:
+        for direction in library['directions']:
+            jump = by_id[library['selected']['jump_'+direction]]
+            require(config['jump_takeoff_delay'] < float(Fraction(*jump['duration'])), 'Jump takeoff delay must be shorter than each jump clip')
     for state, ready in config['ready_states'].items():
         require(ready['source_action'] in actions, 'Ready source absent: '+state)
         for direction in library['directions']:

@@ -135,11 +135,30 @@ func run() -> void:
 			var ground: Vector2 = actor.position
 			actor.request_action("jump",axes[view])
 			var length := duration(actor.clips[actor.clip_name])
-			actor.tick(length/2,Vector2.ZERO)
-			check(is_equal_approx(actor.jump_height,float(bank.config.jump_height)) and is_equal_approx(actor.sprite.position.y,-actor.jump_height),"Separate jump height "+view)
-			check(actor.position.is_equal_approx(ground+axes[view].normalized()*float(bank.config.jump_move_speed)*length/2),"Jump ground travel "+view)
-			actor.tick(length/2,Vector2.ZERO)
+			var delay := float(bank.config.get("jump_takeoff_delay",0.1))
+			var airborne := length-delay
+			actor.tick(delay/2,Vector2.ZERO)
+			check(actor.position == ground and actor.jump_height == 0 and actor.sprite.position.y == 0,"Jump anticipation grounded "+view)
+			actor.tick(delay/2,Vector2.ZERO)
+			check(actor.position == ground and actor.jump_height == 0 and actor.sprite.position.y == 0,"Jump exact takeoff grounded "+view)
+			actor.tick(airborne/2,Vector2.ZERO)
+			check(is_equal_approx(actor.jump_height,float(bank.config.jump_height)) and is_equal_approx(actor.sprite.position.y,-actor.jump_height),"Separate jump apex height "+view)
+			check(actor.position.is_equal_approx(ground+axes[view].normalized()*float(bank.config.jump_move_speed)*airborne/2),"Jump airborne ground travel "+view)
+			actor.tick(airborne/2,Vector2.ZERO)
 			check(actor.state == "land" and actor.jump_height == 0 and actor.sprite.position.y == 0,"Jump land transition "+view)
+			var endpoint: Vector2 = actor.position
+			check(endpoint.is_equal_approx(ground+axes[view].normalized()*float(bank.config.jump_move_speed)*airborne),"Jump full airborne displacement "+view)
+			actor.reset_actor()
+			actor.position = ground
+			actor.request_action("jump",axes[view])
+			for step in 37:
+				actor.tick(length/37,Vector2.ZERO)
+			check(actor.position.is_equal_approx(endpoint) and actor.state == "land" and is_zero_approx(actor.jump_height),"Jump subdivision invariant "+view)
+			actor.reset_actor()
+			actor.position = ground
+			actor.request_action("jump",axes[view])
+			actor.tick(length,Vector2.ZERO)
+			check(actor.position.is_equal_approx(endpoint) and actor.state == "land" and is_zero_approx(actor.jump_height),"Jump coarse step crosses takeoff and landing "+view)
 		if bank.actions.has("hurt") and bank.actions.has("punch"):
 			actor.reset_actor()
 			actor.request_action("punch")
