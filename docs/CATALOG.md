@@ -23,6 +23,7 @@ The source files remain authoritative. This index does not assign acceptance.
 - [Offline forward-use validation](../skills/imagegen-sprite-animation/assets/validation/forward-test.md)
 - [Tested case and portability](../skills/imagegen-sprite-animation/references/case-evidence.md)
 - [Canonical reference, head tracks and support transfer](../skills/imagegen-sprite-animation/references/canonical-reference-and-head-track.md)
+- [Licensed authored motion as an ImageGen pose guide](../skills/imagegen-sprite-animation/references/authored-motion-guides.md)
 - [Additional characters, bounded repairs and spell sockets](../skills/imagegen-sprite-animation/references/character-expansion-and-spells.md)
 - [Four-direction ImageGen character banks](../skills/imagegen-sprite-animation/references/directional-character-banks.md)
 - [Diagonal paint and visible gait checks](../skills/imagegen-sprite-animation/references/eight-direction-pose-guides.md)

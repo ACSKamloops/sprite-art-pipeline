@@ -5,6 +5,12 @@ description: Create consistent game sprites, directional character banks and sho
 
 # ImageGen Sprite Animation
 
+For licensed authored motion used as a visual pose guide, read
+[authored-motion-guides.md](references/authored-motion-guides.md). It covers
+source/action verification, one-camera projection, explicit proportion edits,
+source-versus-candidate clocks and an ImageGen grid-intrusion repair. This is an
+optional guide route when the user has authorized 3D reference work.
+
 For whole-character action coverage, failed run-half generation, pose-state
 reuse and source-conditioned fall/get-up repairs, read
 [action-coverage-and-recovery.md](references/action-coverage-and-recovery.md).
@@ -33,13 +39,13 @@ support-foot trajectory must be checked before optimizing boot clearance.
 
 Use ImageGen to supply coherent painted keys, then preserve their identity through bounded source-pixel bridges and requested fine editing. In this project the user calls the built-in OpenAI ImageGen tool “imagen”; this is not a Google Imagen integration. A generated sheet is a candidate, not a finished animation.
 
-Use the installed [image-generation skill](../.system/imagegen/SKILL.md) for tool execution. Built-in generation needs no API key. Do not substitute a local model, video provider, CLI/API runner or 3D stack without the corresponding user request. No generation call is needed when documenting, verifying or replaying saved work.
+Use the system-provided `imagegen` skill for tool execution. Codex supplies it separately; it is not vendored in this repository. Built-in generation needs no API key. Do not substitute a local model, video provider, CLI/API runner or 3D stack without the corresponding user request. No generation call is needed when documenting, verifying or replaying saved work.
 
 ## Production sequence
 
 1. **Freeze the brief and inputs.** Record accepted reference versus pose guide versus edit target; native painted height, stage, view, costume/materials, equipment, light, pivots, action/endpoints and requested directions. For refinements, preserve the actual user-preferred original clip and its recorded clock beside experiments; an earlier experiment is not automatically that baseline. A still reference does not supply hidden anatomy or an approved neutral pose. Preserve approved files; create a fresh work area.
 2. **Make strong keys with ImageGen.** Read [production-recipe.md](references/production-recipe.md) for reference roles, prompt templates, complete-limb painting, registration and alpha. Inspect local edit targets before sending them. Save actual request, all actual inputs and raw return inside the project, not only the generated-images cache.
-3. **Register once and protect ownership.** Measure returned dimensions rather than assuming the requested size. Use one declared grid transform; do not independently fit/recenter each pose. Restore the existing body outside the authorized limb mask, including transparent pixels needed to remove old parts. Inspect every join and material volume.
+3. **Register once and protect ownership.** Measure returned dimensions rather than assuming the requested size. Use one declared grid transform; do not independently fit/recenter each pose. If a character crosses its nominal cell, retain full-image ownership and diagnose clipping before cropping; a recoverable overscan is different from missing paint. Restore the existing body outside the authorized limb mask, including transparent pixels needed to remove old parts. Inspect every join and material volume.
 4. **Bridge compatible poses with source pixels.** Read [source-pixel-refinement.md](references/source-pixel-refinement.md). Keep the glove/boot/accessory on a rigid plateau while continuously deforming only its attached proximal part. Freeze donor/body roles, control points, triangles and integer source maps. This supports small compatible-view changes; it does not create turns, hidden paint or a general anatomical rig.
 5. **Repair the actual defect.** For user-requested manual/programmatic work, use literal masked source-colored edits and the [construction toolkit](../sprite-construction-editing/SKILL.md). Keep editable layers, exact project/cel preconditions, journals and undo/replay. Rebase edits when upstream maps/paint change. Actual changed pixels differ from requested stroke coordinates.
 6. **Compare with a fair control.** Keep original key times and duration fixed while comparing genuine new bridge art against repeated old poses in those same slots. Added exposures, more FPS, correct endpoints and exact pixels earn no art points. Inspect native and nearest enlargement, every adjacent pair, entry/exit and contrasting backgrounds.

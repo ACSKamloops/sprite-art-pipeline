@@ -114,9 +114,15 @@ The full-action audit identified a larger earlier seated-to-kneel organization
 jump, support-foot repositioning and compressed middle timing. An equal-duration
 same-art retiming diagnostic preserves those anatomical defects; it does not
 claim to redraw them. A four-pose text-conditioned replacement also failed to
-follow the requested support/stage progression and remains rejected. Visual
-contact guides are a distinct follow-on test, not evidence that the prompt's
-coordinates were obeyed.
+follow the requested support/stage progression and remains rejected. A separate
+visual-guide-conditioned repaint used connected schematic poses, followed by
+declared row/column registration, literal head/boot restoration and bounded
+ankle/contour editing. A fresh blind review preferred the older middle narrowly
+(6.5 versus6 overall): the new exit was cleaner but its repeated middle staging
+and linked leg anatomy were weaker. That repaint was not promoted. Actual
+LibreSprite save/reopen verified its ten frames and holds; this transport check
+does not override the art judgment. Neither prompted coordinates nor stable
+boot pixels prove coherent generated anatomy or support.
 
 The separate brisk-walk timing control retains all16 preferred walk exposures
 and13 unique RGBA drawings, accelerated by the actual run/walk speed ratio8/5.
@@ -136,3 +142,102 @@ Raw generation, maps, literal paint journals, equal-clock controls and frozen
 review inputs remain in the local artifact root. Exact source/editor/media
 replay and the existing Godot checks do not automatically validate changed
 round3 art.
+
+## Package-v3 and authored-motion guide experiment
+
+The separately tested local build is now `http://localhost:8903/play-v3/`.
+Library SHA256:
+`e7366d1364090c36c24496a06844d1e554163275b721ea0f4051d6afdf280c44`.
+It has136 selected bindings and561 exposures at a common9600-tick clock.
+Compared with v2, only SE get-up and SE run differ semantically; the other134
+bindings keep their exact RGBA, rational holds, events and loop flags.
+
+The get-up selects the whole identity track and the shorter original painted
+arm in exit-preparation06. A frozen three-way review preferred that complete
+pose, with overall6.5; this is a provisional selection, not a9/10 pass. The
+run-button fallback uses all16 preferred walk exposures and13 distinct drawings
+at a5/8s loop. It is explicitly a **fast-walk alias**, with no newly painted run
+or flight phase. The original preferred walk remains exact and unchanged.
+
+Fresh package-v3 receipts establish:
+
+- Godot4.7.2 resource save/reload:136 animations,561 exposures and exact pixels,
+  rational durations, loop flags and speeds.
+- Controller/input check:1,001 assertions,96 direction/action completions,
+  ten physical action inputs and eight physical direction inputs.
+- Actual exported Web PCK loading plus separate Chromium WebAssembly keyboard
+  captures of knockdown/get-up, fast movement and dash, with no JS errors.
+- Actual external LibreSprite batch save/reopen of26 selected get-up/run
+  exposures, with exact RGBA. Run's625ms total is represented by rounded
+  integer-ms preview holds; rational5/128 holds remain authoritative.
+
+Receipts are under `godot-v3/`, `quality-round3/editor-proof/` and
+`quality-round3/browser-proof/`. File/editor/runtime validation remains distinct
+from animation art acceptance. Package-v1/v2 and their playable exports remain.
+
+The read-only eight-view fall-to-rise audit found one demonstrated boundary gap
+in S: the roll/recenter and acquisition of the new two-palm support are skipped.
+The other seven boundaries did not establish a repair need in that inspection.
+Literal endpoint inequality alone was not treated as a defect. Read the actual
+SE pixels as supine/face-up; an earlier report's "side-prone" label was loose.
+
+For the remaining whole-body support problem, an official CC0 source supplies
+real authored choreography rather than another isolated joint-coordinate guess.
+Quaternius Universal Animation Library2 Standard's `LayToIdle` has47 stored
+samples across46/30 seconds: supine→hands-behind seat→feet-loaded squat→stand.
+The local guide changes only the three Head-scale curves by2.05 and retains
+the other647 scalar curves and animated head pitch. One fixed camera gives
+64px standing geometry and fits all47 samples. This is pose geometry, not a
+complete chibi retarget, measured physical contact or provider reconstruction.
+
+The saved six-pose ImageGen test uses exact separate appearance, motion and
+entry/exit references. Its actual1024×1536 return has partial alpha and a crown
+crossing a nominal cell boundary. A regular import and128/200-alpha diagnostics
+remain unchanged. Full-image connected-character ownership, original512-cell
+origins and a single0.90 scale about(40,72) recover that crown and remove the
+neighbor's fragment without per-frame fitting. Six new complete figures plus
+literal source bookends form an eight-key1.2s study. None of those import facts
+proves the model followed the guide or produced better motion. The new sequence
+is reviewed separately against the old ten-key sequence uniformly retimed to
+the same1.2s; this compares complete designs, not a drawing-only causal test.
+
+The exact source/license, guide, prompt, raw result and ownership maps are local
+under `quality-round3/getup-reference-scout/`, `professional-getup-guide/` and
+`professional-getup-paint/`. The official source is
+[Quaternius UAL2](https://quaternius.itch.io/universal-animation-library-2).
+The selected source GLB is not bundled in this methods repository. No H3,
+local generative model or paid-provider job was used.
+
+### Later package-v4 selection and reusable skill
+
+`http://localhost:8903/play-v4/` selects the new source-guided get-up with a
+source-part support-release key and the revised upper-only settle. Its ten
+exposures total1.2s. Library SHA256:
+`1eecc125297d9910693f74f226d40062f03a53bfc51c391bf62dedc08f20d04b`.
+Only `get_up_SE` changes versus v3;135 bindings preserve exact RGBA, rational
+holds, loop flags and events. The preferred walk and all earlier banks remain.
+
+The new eight-key design was preferred7.5 versus the uniformly retimed old
+design6. A separate blind2×2 edit study preferred a support-release key modestly,
+but found the first settling warp pinched a knee/cuff. The revised settle locks
+the entire lower body from row53 and deforms only the waist below its rigid
+upper. Another frozen comparison preferred it narrowly7.2 versus7.1/7.0.
+These are independent packet-specific judgments, not an averaged trajectory,
+continuous playback approval or the target9/10.
+
+Actual v4 checks passed:136 animations/561 exposures at9600 ticks;1,001
+controller assertions; exported PCK load; Chromium WebAssembly input captures
+showing get-up and return to the actual idle; ten-frame external LibreSprite
+save/reopen with exact RGBA and1200ms total. The two native62.5ms settling
+exposures become63/62ms in that integer-ms preview; the rational source clock
+remains authoritative. Receipts are under `godot-v4/` and round3's editor/browser
+proof folders. The latest comparison receipt covers18 cases and286 distinct PNG
+paths with exact Canvas RGBA, not new art acceptance.
+
+The skill bundles `scripts/render_motion_guide.py`, a generic supplied-input
+config and a frozen80px source-settle replay. The original helper's47-frame
+test and audited revision's11 malformed-config checks plus three-frame smoke
+remain distinct. The included fixture reproduces the lower-protected settle;
+its map is not a hidden anatomical rig. Source GLB/license inputs must be
+supplied separately; generated `.blend` files embed source-derived assets.
+See [the method](../../skills/imagegen-sprite-animation/references/authored-motion-guides.md).

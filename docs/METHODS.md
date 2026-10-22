@@ -34,6 +34,13 @@ tests and whole-action failures that a local head/hand correction cannot solve.
 Prompted joint coordinates must be checked against returned pixels; they are
 not proof of generated pose compliance.
 
+When connected support choreography remains missing, the optional
+[authored-motion guide route](../skills/imagegen-sprite-animation/references/authored-motion-guides.md)
+uses a supplied licensed skeletal clip, declared proportion edits and one
+whole-clip camera as geometry conditioning for ImageGen. Source timing, guide
+geometry, generated paint and later pixel/part repairs retain separate receipts.
+It does not recover a flat sprite's hidden rig or a provider's private method.
+
 The [PixelEngine/ImageGen comparison](../research/pixelengine-imagen/README.md)
 connects retained pose guides and genuine client-side pixel processing to this
 same constructor/exporter. The guided ImageGen walk scored7.5/10 in a scoped

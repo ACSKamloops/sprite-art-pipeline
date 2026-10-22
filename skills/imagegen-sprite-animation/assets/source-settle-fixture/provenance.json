@@ -1,0 +1,31 @@
+{
+  "classification": "Provisional whole-upper settle study; no wholeanimation9/10acceptance",
+  "paint_provider": "built-in OpenAI ImageGen",
+  "raw_generation_sha256": "8e56128bf8ff71d78fdd51ea35083ab7fb0aacddffae569b38700d05925242fa",
+  "source_operation": "Native source is painted near-upright key41 imported from regular512cells with declared0.90pivot-scale; this fixture begins AFTER that saved upstream import",
+  "clip_context": "Newgetup8keys/1.2s, sourceframe06, sourcepartinsertat1.0875s; fixture replays only one cel, not fullclip or rawsheetimport",
+  "new_paint": false,
+  "new_underpaint_pixels": 0,
+  "rigid_complete_upper": {
+    "source_rect": [
+      26,
+      4,
+      65,
+      49
+    ],
+    "translation": [
+      -3,
+      2
+    ],
+    "includes": "Complete head/scarf/bothcuffs as wholeupper, including transparent sourcepixels"
+  },
+  "other_source_controls": "Entire lower body y>=53 identity; only waist49..52 deforms between complete rigid upper and unchanged lower. Rejected earlier variant warped knees/cuffs.",
+  "triangle_area_ratio_range": [
+    0.3999999999999998,
+    1.5999999999999999
+  ],
+  "known_limits": "Compatible-view authored2Dwarp only; no hiddenanatomy, no physicalcontactproof, no continuousmotionacceptance. Do not infer fullsprite/library quality from expectedpixel replay.",
+  "source_no_external_credentials": true,
+  "review_scope": "Fresh30pose/27pair blind3way preferred upper-only7.2 vs leg-deforming7.1 vs repeatedcontrol7.0 overall; smallpreference, notcontinuousplaybackacceptance",
+  "protected_lower_rows53plus_RGBA_exact": true
+}

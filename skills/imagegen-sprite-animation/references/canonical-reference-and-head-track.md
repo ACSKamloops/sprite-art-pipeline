@@ -140,6 +140,39 @@ of explicit source picks and a modeled root, not a no-slip or runtime-contact
 certificate. Retiming an accepted walk can supply a useful fast-walk control;
 it must not be mislabeled as a separately authored run.
 
+## Condition paint with actual visual geometry
+
+When a text-conditioned pose group misses the linked support phases, build a
+separate visual guide with connected limb chains, explicit head attachments
+and a chosen source boot owner. Keep measured source facts separate from
+authored joint paths. A flat schematic is a conditioning asset, not finished
+sprite art, recovered anatomy or a reconstructed provider rig.
+
+Save the exact image submitted to the model. The guide study's human-readable
+1280-square sheets put an80-pixel stage in an inset480-pixel rectangle at
+`[80,72,560,552]` in each640-pixel cell; even the file named "clean" retained
+labels, margins, grid and a contact annotation. It only omitted the skeleton
+overlay. The actual submitted geometry sheet was a separate transparent2×2
+layout, with each full80-pixel stage enlarged to640 and no annotations. Mixing
+these layouts would teach a different cell transform.
+
+Supply accepted appearance and geometry as different reference roles. After
+generation, inspect actual head/hip/boot placement against the guides; a visual
+reference still does not enforce their pixels or joint positions. Keep raw
+imports beside any declared common row/column registration repair. Restoring
+a literal head or boot and connecting a shin afterward are new authoring
+operations with masks/journals, not evidence that the model obeyed the guide.
+Review entry and exit to the retained old poses as well as the new key group.
+
+The actual guided study kept its source head and front boot exact after repair,
+and removed four verified detached contour pixels before freezing its packet.
+The anonymous reviewer still preferred the older middle narrowly:6.5 versus6
+for whole-action still coherence. The guided version joined the later crouch
+better, but03/04 and05/06 supplied near-held arrangements with unclear connected
+leg mechanics. Stable boot paint did not establish a convincing thigh/shin.
+It was not promoted. This result motivates one linked exit-preparation pose,
+not another head polish, automatic foot freeze or increased frame count.
+
 ## Check support changes before adding more exposures
 
 For a hand-supported rise, trace the actual shoulder, elbow, wrist, pelvis and
@@ -203,6 +236,17 @@ historical copy provenance nor certifies the animation between endpoints.
 
 Root: `/home/astra/artifacts/hero-action-set-20261022/quality-round3/`.
 
+These are local case programs, not a portable bundled reconstruction. Several
+builders load `research/pixelengine-imagen/tools/build-rpg-bank.py` through the
+absolute repository path `/home/astra/projects/sprite-art-pipeline`, which in
+turn uses the companion construction/animation toolkits. Their replay also
+needs the saved source PNGs/manifests/maps and pinned package/reference inputs
+named in each study's freeze/provenance files. Python dependencies include
+Pillow and NumPy; triangular-warp helpers also use SciPy. Use the recorded source
+tree and fresh output directories, or deliberately port these paths and record
+that change. The bundled `scripts/source_warp.py` fixture is a separate portable
+example; its replay does not reconstruct this entire local action study.
+
 - `getup-canonical-paint/`: ordered appearance/motion inputs, actual prompt and
   raw return, shared registration maps, importer and exported two-key trial.
 - `getup-part-transfer/`: source-head-only proposal and rejected cuff variant,
@@ -231,14 +275,52 @@ Root: `/home/astra/artifacts/hero-action-set-20261022/quality-round3/`.
   same-art retiming diagnostic. It creates no new anatomy.
 - `getup-coherent-middle/`: rejected text-conditioned four-pose replacement,
   saved request/raw and a verified import replay with raw-coordinate maps.
+- `getup-contact-guides/`: schematic connected-pose controls, literal fixed
+  source boot, native stages and separately annotated human-readable sheets.
+- `getup-contact-paint/inputs/geometry.png`: exact transparent full-cell visual
+  guide actually submitted for the separate guided repaint; ordered roles,
+  prompt and raw return are retained alongside it.
+- `getup-contact-paint/registered-study/`: explicit common row/column repair,
+  source head/boot owners, local ankle-row source copy, literal four-pixel
+  cleanup, maps/journals and frozen ten-key comparison; unapproved.
+- `review-guided-middle-independent/`: all20 poses/18 chronological pairs;
+  the guided trial lost narrowly despite its cleaner exit.
+- `editor-proof/GUIDED-VERIFIED.json`: actual external LibreSprite batch
+  save/reopen, ten decoded RGBA frames and integer-millisecond holds exact;
+  no GUI painting, art approval or engine validation of that trial.
 - `directional-neutral-audit/`: bounded seven-view comparison, manually traced
   landmarks and literal endpoint inventory; no art changes or acceptance.
 - `gait-timing-control/`: unchanged preferred-art fast-walk control, retimed by
   the actual run/walk speed ratio. It adds no drawing or flight phase and must
   not be presented as a newly authored run.
+- `getup-exit-preparation/`: complete shorter-arm pose06 versus old and
+  articulated-arm controls, all ten keys at the original0.8s. A frozen review
+  preferred the shorter original painted arm, overall6.5 in that packet.
+- `review-exit-preparation-independent/`: all30 poses/27 adjacent pairs;
+  the preference is scoped to that comparison, not a whole-library score.
+- `fall-rise-boundary-audit/`: all eight selected boundaries. S skips a visible
+  support acquisition; different pixels in the other seven do not automatically
+  prove a defect. Actual SE art is face-up despite loose earlier "prone" labels.
+- `professional-getup-guide/` and `professional-getup-paint/`: a distinct
+  authored-motion geometry route; see
+  [authored-motion-guides.md](authored-motion-guides.md) for the tested method
+  and source/paint limitations.
 
 The local comparison page is `http://localhost:8903/quality-round3/`. Keep its
-candidate status separate from the tested bank at `/play-v2/`. No H3 or local
+candidate status separate from the latest tested bank at `/play-v4/`.
+Package-v3 selects the shorter-arm identity-track get-up and an explicit
+preferred-art fast-walk alias. The other134 bindings remain semantically exact
+to v2; the original preferred walk itself is unchanged. Its136 animations and
+561 exposures have fresh Godot resource/input/Web receipts, and26 selected
+frames passed actual external LibreSprite save/reopen. Those checks do not
+approve new timing or art. No H3 or local
 generative model was used for these trials. Internal ASE/APNG/source replay is
 transport evidence; external editor and engine receipts must name the exact
 tested selection rather than inheriting an older build's checks.
+
+The subsequent v4 changes only SE get-up versus v3: a new source-guided1.2s
+body sequence plus modest source-part support/settling refinements.135 other
+bindings and the preferred walk remain exact. Its own ten-frame external-editor
+and136-animation/561-exposure Godot/Web receipts passed; scoped art reviews
+remain around7–7.5, with no9/10 acceptance. See the authored-motion reference
+for the actual operation, helper inputs, failures and frozen review boundaries.

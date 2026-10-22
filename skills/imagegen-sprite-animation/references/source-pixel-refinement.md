@@ -28,6 +28,23 @@ python3 scripts/source_warp.py bake assets/source-hand-fixture/recoil-finished.j
 
 For another character, create a new spec with its actual input paths/hashes, canvas, donor-owned ROI, source/target control points and rigid-translation rectangles. Do not reuse the example's192px canvas, coordinates or mask as production defaults. `source_points[i]` and `target_points[i]` describe the same control; optional `triangles` freezes their connectivity. Rectangle bounds are integer `[left,top,right,bottom]`, right/bottom exclusive, and coordinates address pixel centers. A new spec can omit expected/map until producing the first reviewed map.
 
+The additional80px `assets/source-settle-fixture/settle.json` replays a complete
+source-owned upper-body settle with the entire lower body preserved from row53.
+Only the waist band deforms. It is a **provisional art study**: an earlier
+leg-deforming version had knee/cuff costs despite exact boot rectangles. A fresh
+review narrowly preferred this lower-protected version, overall7.2 in that
+packet. It demonstrates replay and a bounded preference, not an accepted finish.
+Read its provenance and the [authored-motion case](authored-motion-guides.md).
+
+```bash
+python3 scripts/source_warp.py replay assets/source-settle-fixture/settle.json
+python3 scripts/source_warp.py bake assets/source-settle-fixture/settle.json /tmp/my-fresh-settle
+```
+
+The frozen map and rebake both reproduce the expected RGBA and complete rigid
+upper. The receipt's `actual_changed_RGBA_pixels` counts only optional downstream
+pixel edits, not the warp's moved pixels. A zero there does not mean no movement.
+
 ## Literal, reversible pixel repairs
 
 When the user asks for manual or programmatic refinement, keep source-owned layers/cels and use the construction companion's real `History`, `candidate_transaction`, palette and paint/erase operations. Do not invent an editor API. A masked import must first prove the candidate cel is identical outside the declared region.

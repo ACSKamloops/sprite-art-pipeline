@@ -1,0 +1,153 @@
+{
+  "schema": "motion-guide-config/v1",
+  "source_glb": "inputs/actor.glb",
+  "action": "LayToIdle",
+  "armature": "Armature",
+  "mesh": "Mannequin",
+  "source_license": {
+    "label": "Supply source license label",
+    "path": "inputs/LICENSE.txt",
+    "url": "https://example.invalid/source"
+  },
+  "stage": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "sample_fps": 30,
+  "frame_range": {
+    "start": 0,
+    "end": 46,
+    "step": 1
+  },
+  "standing_frame": 46,
+  "standing_target_height": 64,
+  "standing_sole_y": 71,
+  "horizontal_origin_x": 40,
+  "camera": {
+    "location": [
+      -4,
+      -6,
+      4.5
+    ],
+    "target": [
+      0,
+      0,
+      0.65
+    ],
+    "margin": 1
+  },
+  "head_scale": {
+    "bone": "Head",
+    "multiplier": 2.05,
+    "owner_weight_threshold": 0.5
+  },
+  "foot_owner_bones": [
+    "foot_l",
+    "ball_l",
+    "foot_r",
+    "ball_r"
+  ],
+  "joint_roles": {
+    "neck": {
+      "bone": "neck_01",
+      "point": "head"
+    },
+    "shoulder_l": {
+      "bone": "upperarm_l",
+      "point": "head"
+    },
+    "elbow_l": {
+      "bone": "lowerarm_l",
+      "point": "head"
+    },
+    "palm_l": {
+      "bone": "hand_l",
+      "point": "tail"
+    },
+    "shoulder_r": {
+      "bone": "upperarm_r",
+      "point": "head"
+    },
+    "elbow_r": {
+      "bone": "lowerarm_r",
+      "point": "head"
+    },
+    "palm_r": {
+      "bone": "hand_r",
+      "point": "tail"
+    },
+    "hip": {
+      "bone": "pelvis",
+      "point": "head"
+    },
+    "knee_l": {
+      "bone": "calf_l",
+      "point": "head"
+    },
+    "knee_r": {
+      "bone": "calf_r",
+      "point": "head"
+    },
+    "ankle_l": {
+      "bone": "foot_l",
+      "point": "head"
+    },
+    "ankle_r": {
+      "bone": "foot_r",
+      "point": "head"
+    }
+  },
+  "selected_sheet": {
+    "frames": [
+      4,
+      10,
+      17,
+      25,
+      33,
+      41
+    ],
+    "columns": 2,
+    "rows": 3,
+    "scale": 8
+  },
+  "contact_frames": [
+    0,
+    4,
+    10,
+    17,
+    25,
+    33,
+    41,
+    46
+  ],
+  "render": {
+    "threads": 4,
+    "samples": 32,
+    "color": [
+      0.18,
+      0.48,
+      0.6,
+      1
+    ],
+    "light_position": [
+      -3,
+      -4,
+      6
+    ],
+    "light_energy": 650,
+    "light_size": 5,
+    "world_strength": 0.6,
+    "contact_scale": 3,
+    "contact_matte": [
+      184,
+      194,
+      204,
+      255
+    ]
+  },
+  "allow_extrapolation": false
+}
