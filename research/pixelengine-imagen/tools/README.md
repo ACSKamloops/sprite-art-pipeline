@@ -156,7 +156,8 @@ anchor separately from a parabolic sprite height and stationary ground shadow;
 landing resets height. The delay must be shorter than every jump clip. Travel
 integrates only elapsed airborne time, including steps crossing takeoff. These are inspector mechanics,
 not proof of painted motion quality. Ground speeds/distances are in inspector
-canvas units; the UI scales artwork 4x.
+canvas units; the UI scales artwork 3x. Reset returns the preview actor to its initial
+ground position below the header.
 
 `--check` runs the actual headless Godot resource writer and validator. The saved
 resource is reloaded and every clip's speed/loop and every frame's rational hold,

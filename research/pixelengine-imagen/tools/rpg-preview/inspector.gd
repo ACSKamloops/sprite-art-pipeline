@@ -2,6 +2,7 @@ extends Node2D
 ## Native inspector UI; input calls the same controller checked by validate.gd.
 
 const Controller = preload("res://controller.gd")
+const PREVIEW_ORIGIN := Vector2(550,640)
 var actor
 var bank: Dictionary = {}
 var is_ready := false
@@ -23,8 +24,8 @@ func _ready() -> void:
 	if not actor.configure(bank,resource):
 		push_error("Inspector resource/configuration failed; run build_resources.gd first")
 		return
-	actor.position = Vector2(550,500)
-	actor.scale = Vector2(4,4)
+	actor.position = PREVIEW_ORIGIN
+	actor.scale = Vector2(3,3)
 	var canvas := CanvasLayer.new()
 	add_child(canvas)
 	var panel := VBoxContainer.new()
@@ -50,7 +51,7 @@ func _ready() -> void:
 	var reset := Button.new()
 	reset.text = "Reset"
 	reset.focus_mode = Control.FOCUS_NONE
-	reset.pressed.connect(func(): actor.reset_actor())
+	reset.pressed.connect(reset_preview)
 	row.add_child(reset)
 	var buttons := GridContainer.new()
 	buttons.columns = 9
@@ -77,11 +78,15 @@ func _ready() -> void:
 	events = Label.new()
 	panel.add_child(events)
 	var note := Label.new()
-	note.text = "Punch/cast → own ready pose. Jump → land → idle. Knockdown → get-up → idle. Death holds until reset.\nGround movement and jump height are explicit mechanics. No collision, damage or invulnerability. Art needs playback review."
+	note.text = "Punch/cast -> own ready pose. Jump -> land -> idle. Knockdown -> get-up -> idle. Death holds until reset.\nGround movement and jump height are explicit mechanics. No collision, damage or invulnerability. Art needs playback review."
 	note.modulate = Color(0.7,0.8,0.85)
 	panel.add_child(note)
 	is_ready = true
 	queue_redraw()
+
+func reset_preview() -> void:
+	actor.reset_actor()
+	actor.position = PREVIEW_ORIGIN
 
 func expanded_controls() -> bool:
 	return str(bank.config.get("controls","legacy")) == "expanded"
@@ -105,7 +110,7 @@ func key_action(code: int) -> void:
 		if actions.has(code):
 			actor.request_action(actions[code],keyboard_axis())
 		elif code == KEY_R:
-			actor.reset_actor()
+			reset_preview()
 		elif code == KEY_I:
 			actor.toggle_walk()
 	else:
