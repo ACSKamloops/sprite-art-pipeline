@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "/home/astra/.local/bin/libresprite",
+    "-b",
+    "/home/astra/artifacts/hero-rpg-quality-20261021/part-jab-v5-lean/layered/editable.aseprite",
+    "--save-as",
+    "/home/astra/artifacts/hero-rpg-quality-20261021/native-editor-proof/resaved.aseprite",
+    "--sheet",
+    "/home/astra/artifacts/hero-rpg-quality-20261021/native-editor-proof/sheet.png",
+    "--sheet-type",
+    "horizontal",
+    "--data",
+    "/home/astra/artifacts/hero-rpg-quality-20261021/native-editor-proof/frames.json",
+    "--format",
+    "json-array"
+  ],
+  "exit_code": 0,
+  "output": "Loading file \"/home/astra/.config/libresprite/palettes/./default.ase\" (ase)\nUsing loader for format ase,aseprite\nLoading file \"/home/astra/artifacts/hero-rpg-quality-20261021/part-jab-v5-lean/layered/editable.aseprite\" (aseprite)\nUsing loader for format ase,aseprite\n"
+}

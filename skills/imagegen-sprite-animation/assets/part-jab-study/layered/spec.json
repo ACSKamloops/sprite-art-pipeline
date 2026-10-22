@@ -1,0 +1,287 @@
+{
+  "schema": "sprite-construction-spec/v1",
+  "canvas": {
+    "width": 80,
+    "height": 80,
+    "render_pivot": [
+      40,
+      72
+    ],
+    "ground_pivot": [
+      40,
+      72
+    ]
+  },
+  "layers": [
+    {
+      "id": "body",
+      "name": "Fixed body / declared upper lean",
+      "locked": true
+    },
+    {
+      "id": "underpaint",
+      "name": "Authored occluded tunic",
+      "locked": false
+    },
+    {
+      "id": "arm",
+      "name": "Complete arm donors / frozen bridges",
+      "locked": false
+    }
+  ],
+  "frames": [
+    {
+      "id": "pose-00",
+      "duration_ticks": 3,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-00.png"
+        },
+        "underpaint": {
+          "image": "images/blank-0.png"
+        },
+        "arm": {
+          "image": "images/arm-00.png"
+        }
+      }
+    },
+    {
+      "id": "pose-01",
+      "duration_ticks": 3,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-01.png"
+        },
+        "underpaint": {
+          "image": "images/blank--1.png"
+        },
+        "arm": {
+          "image": "images/arm-01.png"
+        }
+      }
+    },
+    {
+      "id": "pose-02",
+      "duration_ticks": 2,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-02.png"
+        },
+        "underpaint": {
+          "image": "images/blank-0.png"
+        },
+        "arm": {
+          "image": "images/arm-02.png"
+        }
+      }
+    },
+    {
+      "id": "pose-03",
+      "duration_ticks": 2,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-03.png"
+        },
+        "underpaint": {
+          "image": "images/blank-1.png"
+        },
+        "arm": {
+          "image": "images/arm-03.png"
+        }
+      }
+    },
+    {
+      "id": "pose-04",
+      "duration_ticks": 4,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-04.png"
+        },
+        "underpaint": {
+          "image": "images/blank-1.png"
+        },
+        "arm": {
+          "image": "images/arm-04.png"
+        }
+      }
+    },
+    {
+      "id": "pose-05",
+      "duration_ticks": 2,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-05.png"
+        },
+        "underpaint": {
+          "image": "images/blank-1.png"
+        },
+        "arm": {
+          "image": "images/arm-05.png"
+        }
+      }
+    },
+    {
+      "id": "pose-06",
+      "duration_ticks": 2,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-06.png"
+        },
+        "underpaint": {
+          "image": "images/blank-0.png"
+        },
+        "arm": {
+          "image": "images/arm-06.png"
+        }
+      }
+    },
+    {
+      "id": "pose-07",
+      "duration_ticks": 2,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-07.png"
+        },
+        "underpaint": {
+          "image": "images/blank-0.png"
+        },
+        "arm": {
+          "image": "images/arm-07.png"
+        }
+      }
+    },
+    {
+      "id": "pose-08",
+      "duration_ticks": 2,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-08.png"
+        },
+        "underpaint": {
+          "image": "images/blank-0.png"
+        },
+        "arm": {
+          "image": "images/arm-08.png"
+        }
+      }
+    },
+    {
+      "id": "pose-09",
+      "duration_ticks": 6,
+      "landmarks": {
+        "root": [
+          40,
+          72
+        ]
+      },
+      "cels": {
+        "body": {
+          "image": "images/body-09.png"
+        },
+        "underpaint": {
+          "image": "images/blank-0.png"
+        },
+        "arm": {
+          "image": "images/arm-09.png"
+        }
+      }
+    }
+  ],
+  "animations": [
+    {
+      "id": "punch_SE",
+      "frames": [
+        "pose-00",
+        "pose-01",
+        "pose-02",
+        "pose-03",
+        "pose-04",
+        "pose-05",
+        "pose-06",
+        "pose-07",
+        "pose-08",
+        "pose-09"
+      ],
+      "fps": 48,
+      "loop": false,
+      "events": [
+        {
+          "name": "contact_pose",
+          "at_tick": 10
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "generation": "Built-in OpenAI ImageGen 4-key repair; source ownership and manual underpaint/mesh construction afterward",
+    "source_manifest_sha256": "29cef8fec16baca29fe0641bbd859cc88e3b2f422d20644c3ecf52532be36bfd",
+    "upper_body_translation": [
+      0,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "initial_guard_source": "/home/astra/artifacts/hero-rpg-quality-20261021/generation-arm-material-v1/native/00.png",
+    "warning": "Candidate; new base guard is not an approved replacement for Hybrid walk; no automatic fitting."
+  }
+}

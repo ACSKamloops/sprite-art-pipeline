@@ -1,0 +1,24 @@
+{
+  "purpose": "Portable exact layered/body-owned arm-edit replay fixture. Unapproved art experiment, not a general rig or character-library acceptance.",
+  "local_source_root": "/home/astra/artifacts/hero-rpg-quality-20261021",
+  "source_candidate": "part-jab-v5-lean",
+  "clock": [
+    7,
+    12
+  ],
+  "contact_onset": [
+    5,
+    24
+  ],
+  "operation": "Two actual built-in ImageGen paint calls; fixed whole-sheet sampling, fixed body, small source-mapped windup/settle, newly painted large-angle arm bridges, shared underpaint journal and declared one-pixel upper-body lean.",
+  "no_model_execution_needed": true,
+  "generation_boundary": "Fixture starts from retained native source layers. Raw tool returns/prompts/maps remain in the local source root; it does not regenerate model paint or claim private-provider reconstruction.",
+  "replay_dependencies": "Python3/Pillow and sibling sprite-construction-editing toolkit",
+  "art_status": "Initial independent review01 anonymous A: drawing7.5, identity8, chronology7, usefulness7. Ordered stills; no9/10 or human/game-library acceptance. Later candidates remain separate.",
+  "initial_file_sha256": "c3254b424b56ddb81102ad1fcedf0ed12316460164d22f57861febfa230c93d4",
+  "final_file_sha256": "c8cae7146303256e2e0333c9980ba7a0f5bcb3945d5e4f852f3e9e29098753c4",
+  "review_input_fingerprint": "df78dbcc9118ffc4df190563a1d760463dd1b8f6645281b679c2cddbfd5cbfed",
+  "review_report_sha256": "16df7475845cec199914297f5b0757abacc827f9a68bc260e146f26490f62592",
+  "local_original_initial_file_sha256": "4352e93bb39789e2c45bd8d8cebc21e934056a789f8237c0b0a0c037d975df74",
+  "fixture_serialization": "Initial project JSON is compact canonical serialization of the unchanged local source project. Original source bytes remain in local_source_root. Semantic project/journal hashes are unchanged."
+}

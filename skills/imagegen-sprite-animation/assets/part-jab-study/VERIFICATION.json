@@ -1,0 +1,37 @@
+{
+  "action": {
+    "action": "punch",
+    "direction": "SE",
+    "manifest": "actions/punch/manifest.json",
+    "manifest_sha256": "c86ffdf0858f16249e8fb2b674538549cfd7eac5309495e00b658bef06425a9d",
+    "project": "actions/punch/project.json",
+    "aseprite": "actions/punch/editable.aseprite",
+    "atlas": "actions/punch/atlas.png",
+    "apng": "actions/punch/apng/animation.apng.png",
+    "apng_sha256": "e64edb0e6836c8709ed1c6cc301186020ff819d01b4136b593b26ee1695f3035",
+    "frame_count": 10,
+    "duration": [
+      7,
+      12
+    ],
+    "mechanics": {
+      "ase_decoded_rgba_exact": true,
+      "ase_project_roundtrip_exact": true,
+      "apng_decoded_rgba_and_holds_exact": true
+    }
+  },
+  "journal_replay_undo_redo_exact": true,
+  "layered_ASE_roundtrip_exact": true,
+  "first_last_exact_generated_master": true,
+  "all_lower_body_rows52_79_exact_master": true,
+  "underpaint_native_points": 40,
+  "duration": [
+    7,
+    12
+  ],
+  "contact_onset": [
+    5,
+    24
+  ],
+  "scope": "Local construction/export proof; no numeric art acceptance"
+}

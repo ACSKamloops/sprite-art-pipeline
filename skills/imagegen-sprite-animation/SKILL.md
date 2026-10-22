@@ -5,6 +5,11 @@ description: Create consistent game sprites, directional character banks and sho
 
 # ImageGen Sprite Animation
 
+For incorrect bracer/hand assignments, protected-body controls, connected painted
+arm bridges and occluded-shirt cleanup, read
+[material-owned-arm-refinement.md](references/material-owned-arm-refinement.md).
+Its portable three-layer journal/editor fixture is an unapproved art study.
+
 For multi-action sheets, measured atlas gutters, shared column/row corrections
 and exact guard/gather/idle state bindings, read
 [atlas-registration-and-combat-states.md](references/atlas-registration-and-combat-states.md).

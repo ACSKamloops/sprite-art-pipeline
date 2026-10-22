@@ -88,3 +88,56 @@ pace beside the initial punch; added poses or more FPS earn no quality points.
 Human normal-speed acceptance, hand/grip anchors, equipment compatibility,
 hit contact, spell effects and a finished action/direction library remain distinct
 gates. No numeric 9/10 or whole-library approval is claimed here.
+
+## Follow-on material and body study
+
+`/home/astra/artifacts/hero-rpg-quality-20261021/` preserves literal material
+repair, protected-body painted arms, source-mapped bridges, narrower occluded
+underpaint, projected torso turns and full-body generation/guard-repair controls.
+The current requested acceptance target is9/10; it remains open. Review01
+preferred the slight-lean painted-part candidate, scoring7.5 drawing/8 identity/
+7 chronology/7 use. This calibration differs from the earlier review and must
+not be averaged into an invented progress score. The separate clarification
+identified no mandatory new motion fault in that compact jab; its drawing
+half-point was holistic preference, not an extra repair obligation.
+
+A procedural forearm assembly was rejected visually despite successful exports.
+The jagged teal flap was traced to authored underpaint, narrowed in later
+candidates. A new full-body paint pass lost the separate guarding arm at contact;
+one same-sheet source-pixel repair restores it without changing silhouettes.
+Palette and timing alternatives retain separate exact controls and reviews.
+The ImageGen skill's material-owned-arm reference includes a portable replay
+fixture from the first slight-lean experiment; it is explicitly unapproved art.
+
+The second review preferred the narrower-underpaint/projected-torso candidate:
+8 drawing, 8 identity, 7.5 chronology/use. The full-body alternative still moved
+its rear sole footprint by about four pixels. Fixing the sole height alone had
+missed this. A frozen frame00 lower-body component now keeps its complete boot
+pixels fixed, with a separately reviewed hip/hem seam risk.
+
+The generated combat heads also differed visibly from the preferred walk. Two
+new controls reuse the literal approved SE head with an explicit one-pixel
+attachment track. Dense source maps replay every output pixel; actual changes
+remain inside declared old/new head ownership and all body rows31..79 remain
+exact. These controls do not inherit combat acceptance from the walking head.
+The painted-part control also retains four editable body/underpaint/arm/head
+layers, verified RGBA-identical to the head-composite comparison input. Actual
+LibreSprite save/reopen preserves every native layer cel and rendered frame.
+Its integer-millisecond file clock rounds cumulative boundaries; the original
+rational manifest/sidecar remains authoritative.
+
+The new ten-exposure SE head/part jab has a separate Godot rerun in the local
+`engine-head-components/` folder: 48 selected bindings, 228 exposures, 1200 Hz,
+316 controller/input/state checks and exact saved-resource RGBA. The unchanged
+preferred original walk remains selected. Browser readback of the four latest
+controls covers all 112 tick-midpoint samples and every exposure. The media
+preview retains the exact 48 Hz schedule. None of these checks establishes
+continuous normal-speed human acceptance, contact/hit behavior or 9/10 art.
+
+Review03 preferred the source-head painted-part candidate (L), with drawing8,
+identity8.5 and chronology/use7.5. It found no actionable fault in L. These are
+scoped holistic judgments from still chronology; do not invent a missing repair
+or rerate identical art to reach the requested9. A separate one-pixel distal
+scarf follow-through control tests secondary motion while preserving L's actual
+body/head/arms/feet and clock. It is optional research, not a required repair or
+an accepted improvement. The normal-speed human comparison remains pending.
