@@ -1,6 +1,8 @@
 # Sprite art pipeline
 
 Read README.md, docs/STATUS.md, docs/REQUIREMENTS.md and docs/METHODS.md first.
+For the transferable AI task message, read docs/MESSAGE-FOR-AI.md; use
+docs/AI-HANDOFF.md for the detailed continuation guide.
 This is the consolidated methods repository. Historical source checkouts and
 local-only evidence are recorded in provenance/; do not alter them during tests.
 

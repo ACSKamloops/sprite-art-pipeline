@@ -12,6 +12,9 @@ eight-direction animation quality.
 
 ## Start here
 
+**[Copy this message to your AI assistant](docs/MESSAGE-FOR-AI.md)** for clone,
+skill installation, first-run commands and the continuation instructions.
+
 1. **[Handoff for another AI: install, replay and continue](docs/AI-HANDOFF.md).**
 2. [Requirements and acceptance rules](docs/REQUIREMENTS.md).
 3. [Methods, routes and reproduction commands](docs/METHODS.md).

@@ -1,5 +1,9 @@
 # Start here: continue the sprite pipeline with another AI
 
+For a self-contained message to paste into another AI, use
+[Message for the next AI](MESSAGE-FOR-AI.md). This document is the detailed
+continuation guide.
+
 This repository contains the methods, all four pipeline skills and a portable
 snapshot of the current generated hero. Read [AGENTS.md](../AGENTS.md),
 [requirements](REQUIREMENTS.md) and [current status](STATUS.md) before changing
