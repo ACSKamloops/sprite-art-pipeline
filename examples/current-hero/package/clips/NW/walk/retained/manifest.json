@@ -1,0 +1,129 @@
+{
+  "id": "walk_NW",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    1
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "ace709e956facd78f537be71c630541c069a8da002706d055c440a0613b3d8c0",
+      "rgba_sha256": "47cf47b5359f5c19bd80f8dbeda012e7239b480de558a477cefe690f69db641f",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "000afba3f02417a9d9a773e71f29d34475b68bfd24f190e420b637cc6eaa897a",
+      "rgba_sha256": "1b4fa95459953fa075ceb2297fdee431d4ee96bc273640b0a3f1d66d01268af6",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "59b1a03312b3209a50b0d860556c246e1fb7914303fba6c40dd716cfe0a26ab9",
+      "rgba_sha256": "972e702a589739c8cc9354ca473a9ced8e549570060d0e51c8ba9caee94a627a",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "53f509400f666b6b9c07af68bd0717e8f95082ef83465246bb1df96162c94e71",
+      "rgba_sha256": "5550be120d959617b275f60b05f377e62f22209689837f6f5e3a25bb5279bb34",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame_id": "cell-04",
+      "file": "frames/0004.png",
+      "sha256": "dd1caa8c866ef39fc338e931d197d53fc06e35f4fcbc6655e0f650652610c67b",
+      "rgba_sha256": "6dddb14dde06997477f0eb749ab7c055e8ff65ee469a88e5db974df60a2abc0b",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 5,
+      "source_frame_id": "cell-05",
+      "file": "frames/0005.png",
+      "sha256": "79945064da2ce23421e8478be2ce859df4f0f21fddebf8732e497d3989b0c106",
+      "rgba_sha256": "a269969f5930d6e04250ddfac246100c6837ab239f19c5bfe9bba372bd6f6ee7",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 6,
+      "source_frame_id": "cell-06",
+      "file": "frames/0006.png",
+      "sha256": "7149b8dc9c25fe2a80b5cab5048d07b4a440015d03387316006f711155cfbf33",
+      "rgba_sha256": "d6b3a79de45e655901a022d79772c6573325d54528e3a40cb8a1315c94ce6725",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 7,
+      "source_frame_id": "cell-07",
+      "file": "frames/0007.png",
+      "sha256": "f1315717564a1807268ef4381ee0933d9a5ac8bdc1ea5a0f48302749efa47751",
+      "rgba_sha256": "22cd881c587cc576a2327922e76405b635bfb7533f3bd6ec2ff1ff439aad75aa",
+      "hold": [
+        1,
+        8
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "172caa6404f58d73afea562d6dba81870dc740b8fd11b2508d96f993250fe4bd",
+    "project_canonical_sha256": "413628795600a6bedc265d1d65c33a041ef07902dcba73536b39cf16437d5f45",
+    "tick_rate_rational": [
+      8,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "walk",
+  "direction": "NW",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

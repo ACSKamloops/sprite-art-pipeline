@@ -1,0 +1,85 @@
+{
+  "id": "death_E",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    2,
+    5
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "9e080c5466500eabd98f8876477cadbe5f6e8f5bc41a3ced11b5e9242518dadb",
+      "rgba_sha256": "194741c4d24069aa82e6d826e9e3a86b03e2f00dbf22d3e347f2f1b13d6b5f47",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "d9f3affcbf802aed4083d05681c0b1b2f11b48f80d719d2a8bb806888bb5ad1e",
+      "rgba_sha256": "da004b438fe11aafe4a7f592def3f460da9a3485c84042ee34aa9c3859429307",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "bce6c62642134edaee4720e7ba54cac7916fbf3e2152f183939dfcdbb9479c6b",
+      "rgba_sha256": "d1c1416ae404e5d00c1569d4a64bba6f86a8646c4072053770805bb0ac542abe",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "e16fd56807d4de54f4e639e00bfd97d0a123d7fad1ff88dc54da86af8c4230f9",
+      "rgba_sha256": "b03fddb8b5112037e49e749411c6cfa4999a0ff6eb9250c05c9fd58fa2e2b6cd",
+      "hold": [
+        1,
+        10
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "b081eebad452cd421950cefb86969a06783cd65c73117d81ed64ffb98e6c01f5",
+    "project_canonical_sha256": "139177c984498953d6cd2ddd058c8de562a67b742404affc7021b01b268b7d2f",
+    "tick_rate_rational": [
+      10,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "death",
+  "direction": "E",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

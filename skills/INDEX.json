@@ -1,0 +1,21 @@
+{
+  "schema": "sprite-pipeline-skills/v1",
+  "skills": [
+    {"name": "reference-art-production", "entrypoint": "reference-art-production/SKILL.md", "role": "briefs, references, collections and claim-next review"},
+    {"name": "imagegen-sprite-animation", "entrypoint": "imagegen-sprite-animation/SKILL.md", "role": "painted keys, motion guides and source-part refinement"},
+    {"name": "sprite-construction-editing", "entrypoint": "sprite-construction-editing/SKILL.md", "role": "layered construction, guarded editing and editor exchange"},
+    {"name": "sprite-animation-pipeline", "entrypoint": "sprite-animation-pipeline/SKILL.md", "role": "rational clocks, media export and engine integration"}
+  ],
+  "keep_as_sibling_directories": true,
+  "external_capabilities": {
+    "new_paint": "An actual image-generation/editing tool; current production uses built-in OpenAI ImageGen. Its system skill is environment-provided, not bundled.",
+    "raster_tools": "Python with Pillow and NumPy; SciPy for new triangulated maps.",
+    "native_editor": "LibreSprite for tested ASE save/reopen; binary not bundled.",
+    "engine": "Godot 4.7.2 is the recorded test baseline; Web export also needs matching templates.",
+    "licensed_motion_guide": "Blender 4.5.14 LTS was tested; supply a licensed skeletal GLB and license metadata/file.",
+    "video": "ffmpeg and ffprobe for video-specific routes."
+  },
+  "no_credentials_or_provider_jobs_during_install_or_replay": true,
+  "current_H3_and_local_generative_model_execution": "disabled",
+  "visual_library_9_of_10_achieved": false
+}

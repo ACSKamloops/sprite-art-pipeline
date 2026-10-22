@@ -1,0 +1,93 @@
+{
+  "id": "cast_SE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    2
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "3877c10345946005d61fda820e381e4b88ac40cb862f3491bf258ac8efa1c889",
+      "rgba_sha256": "02c4388bec2a26e311daceca7b67d15d0caa5c3e3e2bedb37fc4325414b88cfd",
+      "hold": [
+        1,
+        4
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "65dffd928e579ea5e809f0902ee00993c34922ed0a77b7723444e8eb49591153",
+      "rgba_sha256": "6157fbeccbcde49f3462e6e8a45e55a076ca1575ef7e29425f2428a75826893e",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "059b0e764143d5a2803be8349766f4aecc1b23293285e1c57252d3ac32d6bcf2",
+      "rgba_sha256": "47c78074e81a7cbec60b81ec5b608df899c5c625c7552f9f8635d9ae92b92922",
+      "hold": [
+        1,
+        20
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "3877c10345946005d61fda820e381e4b88ac40cb862f3491bf258ac8efa1c889",
+      "rgba_sha256": "02c4388bec2a26e311daceca7b67d15d0caa5c3e3e2bedb37fc4325414b88cfd",
+      "hold": [
+        1,
+        10
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "01e1effe928e25add2ee3150d2c63a188cea7174b9561f3d55994edd63b6f74f",
+    "project_canonical_sha256": "7380abf9163f2625ea48d63abcf61aedce1d8e69047d0a947eaa78f29d354f15",
+    "tick_rate_rational": [
+      20,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "cast",
+  "direction": "SE",
+  "events": [
+    {
+      "name": "release",
+      "time": [
+        1,
+        4
+      ]
+    }
+  ],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

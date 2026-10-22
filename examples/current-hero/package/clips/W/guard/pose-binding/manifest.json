@@ -1,0 +1,63 @@
+{
+  "id": "guard_W",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    1
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "cf466045db1137a6be003f1f13673ed425af842efbe67641617a9c44cd42b083",
+      "rgba_sha256": "1542136410d5bd0956693a9b87f43d94d470ec532ca87d174b15dffb6f44f28c",
+      "hold": [
+        1,
+        2
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "cf466045db1137a6be003f1f13673ed425af842efbe67641617a9c44cd42b083",
+      "rgba_sha256": "1542136410d5bd0956693a9b87f43d94d470ec532ca87d174b15dffb6f44f28c",
+      "hold": [
+        1,
+        2
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "38509ff1632fe3fea9b6bb82eb506017c18b64e7f24a2e6d2fc943bde3871367",
+    "project_canonical_sha256": "8489d86ffbba8bd21ce99e4d91b4477e895ab3e4b6751f99990bf432e745fbeb",
+    "tick_rate_rational": [
+      2,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "guard",
+  "direction": "W",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

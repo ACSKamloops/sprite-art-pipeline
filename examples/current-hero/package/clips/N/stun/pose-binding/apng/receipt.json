@@ -1,0 +1,57 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/N/stun/actions/stun/manifest.json",
+  "manifest_sha256": "2a9a1163cf50304596b98ba3b8374c69bfe12c218a49e42c87a0fac333c90b73",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    3,
+    5
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/N/stun/actions/stun/frames/0000.png",
+      "sha256": "aaae0116a648067c6a3ccf397ce23fee5ee8708664f5a558bf97a1b3dfabff93",
+      "rgba_sha256": "5fa607d36454a6fba952cff1fe9e8838d6bb62ad0cec7db447f28a04fb0c2b6a",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/N/stun/actions/stun/frames/0001.png",
+      "sha256": "aaae0116a648067c6a3ccf397ce23fee5ee8708664f5a558bf97a1b3dfabff93",
+      "rgba_sha256": "5fa607d36454a6fba952cff1fe9e8838d6bb62ad0cec7db447f28a04fb0c2b6a",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "6fddb73515bfcfc6c985fa475d26be546fc77c18040d52828931da41e9ff4621",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 3,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        3,
+        10
+      ],
+      [
+        3,
+        10
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      2,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

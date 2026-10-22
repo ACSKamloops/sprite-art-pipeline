@@ -14,6 +14,12 @@ The earlier mech exporter includes GPL-derived helper code. Its retained
 and `THIRD_PARTY.md` apply to that code; they do not license source-game assets
 or this whole repository. Other retained upstream notices continue to apply.
 
+The motion-guide image under `examples/current-hero/recovery-study/inputs/geometry.png`
+is an authored rendering derived from Quaternius Universal Animation Library2
+Standard's CC0 `LayToIdle` motion. Its source notice is retained at
+`examples/current-hero/recovery-study/guide-LICENSE.txt`, with source hashes and
+authored modifications in the study recipe. The source GLB is not bundled.
+
 Inspect the specific source/license before reusing or redistributing upstream
 material. Public access does not grant a blanket license to every included item.
 

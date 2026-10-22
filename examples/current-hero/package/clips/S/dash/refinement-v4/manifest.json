@@ -1,0 +1,118 @@
+{
+  "id": "dash_S",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    3
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "0e283900a672cb7610db0f153a428929f8df6ea4fd4cb68e9f2af1df04e6e474",
+      "rgba_sha256": "cc39732ce86cb75347afe5b50bec6db021ad9f828485edbd12c3a59f03965572",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "5200d6718f9efde59c36cd11cb780c4f2e58f2c77d1c43cfd66b1cf86a57f838",
+      "rgba_sha256": "931de6c3ad07efda5840899a91b75b4d3d098dea158ee31ad0f7cf72f2da5de4",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "bce69751f32275754e4a621a473a89ce735b365e18ce29a94ae732c8902ecc47",
+      "rgba_sha256": "5d7a1ff928a3883149c8dafe7bf2c71502ab80bb5b2b14c0d003bbc666fc2f80",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "1f7d34fa7420249d27999d98382116c0353e1add8b9563d59464f1ba808cf8ee",
+      "rgba_sha256": "ae3f6f1e0a2e73ea8ea2bb6afb164f5d6277dacf47059f5634c133cdda736406",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame_id": "cell-04",
+      "file": "frames/0004.png",
+      "sha256": "aff6ee420bb0e62978dfbb8405c05385d8e53eb6716f306e564eeefa121f38b8",
+      "rgba_sha256": "205f27b9408c7af5ffbc63dc77c8b1a48280376b8d2064cd8de07c11be674ab1",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 5,
+      "source_frame_id": "cell-05",
+      "file": "frames/0005.png",
+      "sha256": "f88c387a8d0964ed6085b4cf801ee2512c65d2dd431c628602d23ef3d3599e23",
+      "rgba_sha256": "5ba8ffcddbf11c4472d2e0b44314cad4a1491a93d3d92a53c701d9cf5db4a3e0",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 6,
+      "source_frame_id": "cell-06",
+      "file": "frames/0006.png",
+      "sha256": "6d8a5b647e00cdf30aa2cc6fe33710220cf5eb0581ef10554f1a3b1de859b5d3",
+      "rgba_sha256": "00880ba1db386992e28abccb781a14952c1ef2e8d596d95678e82f6a5c12498e",
+      "hold": [
+        1,
+        24
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "1c16931050d44768c886c78ced49287c1daba6076c5b43e79ade8a1429e173fc",
+    "project_canonical_sha256": "8b1ece879e64b18264b5e11470db84f69631632c7a1bcceaf757cd2abe352b34",
+    "tick_rate_rational": [
+      24,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "dash",
+  "direction": "S",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

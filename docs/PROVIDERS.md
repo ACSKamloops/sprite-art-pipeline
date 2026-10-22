@@ -5,6 +5,7 @@
 | Built-in OpenAI ImageGen | Identity/key art, directional banks, semantic repair paint | Preferred current generative-art route |
 | Historical Hermes/MiniMax “H3” | Native video generation followed by explicit offline frame extraction/editing | Retained methods/results only; no new H3 calls authorized now |
 | PixelLab | Observed/recovered client workflows, public contracts, retained comparisons | No assertion of recovered private generators or weights |
+| PixelEngine | Observed client/API behavior, exposed pixel processing and generated comparison references | Research and saved comparisons; no assertion of recovered private models or hidden server algorithms |
 | Deterministic local tools | Parts, raster sampling, editing, exact timing, codecs, Godot tests | Available; these are not local generative models |
 | Local generative model | Earlier discarded alternative | Excluded from current production requirements |
 

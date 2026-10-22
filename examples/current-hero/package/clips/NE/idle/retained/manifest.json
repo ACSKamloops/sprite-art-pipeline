@@ -1,0 +1,63 @@
+{
+  "id": "idle_NE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    1
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "bd90250730f50626c8c515ce89dec9e0fafec1ecf99289e1799525a71f77c072",
+      "rgba_sha256": "69d12c77ea3470543aaf7a6c02733223fa536c83fbd21c8f232bc3d0c58be9f6",
+      "hold": [
+        1,
+        2
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "bd90250730f50626c8c515ce89dec9e0fafec1ecf99289e1799525a71f77c072",
+      "rgba_sha256": "69d12c77ea3470543aaf7a6c02733223fa536c83fbd21c8f232bc3d0c58be9f6",
+      "hold": [
+        1,
+        2
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "557a1c2a19c0472dfa44abadc1c6c24ea4a4afdc84be1ec7b53cce004e17a9cb",
+    "project_canonical_sha256": "213f7525d7d4ccc71c4067796a6631982b4b7c00acebbeb4bece3dcfd28505e5",
+    "tick_rate_rational": [
+      2,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "idle",
+  "direction": "NE",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

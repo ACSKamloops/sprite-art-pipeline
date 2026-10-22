@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/NE/crouch/construction/crouch/project.json",
+  "source_file_sha256": "87b9245994c60d3a9b553461d4d996e4e65b35a29d2960e4b337c84cd58d756e",
+  "source_project_canonical_sha256": "d3ba75cb91ebdd35cfa028cb89a2ba088a132e0787f18a87e9babc6239a7fb3f",
+  "selected_animation": "crouch_NE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01"
+  ],
+  "frame_count": 2,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    1
+  ],
+  "atlas_columns": 2,
+  "actor": "hero",
+  "manifest_sha256": "0cfe9a53a6bd1e39d9b11c174b0af079515d21cb0c73a629080cfe4f34589ae0",
+  "clips_sha256": "8d0e47ce724dc7063d32d5de3d6e9cf4755f8af7fd9be7791e3a01a4a392c703",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

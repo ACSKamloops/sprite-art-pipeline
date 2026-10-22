@@ -1,0 +1,83 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/northern-fall/exports-v1/NW/actions/get_up/manifest.json",
+  "manifest_sha256": "b44ed694ee95426910cc73f203345fa11ac863db819ed0073a11b52d2a05aa75",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    2
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/northern-fall/exports-v1/NW/actions/get_up/frames/0000.png",
+      "sha256": "f622a233150a4b9cbd380f1d721a4e4c2e29a1e1f1b0aa8cc8afd92ed8367a7a",
+      "rgba_sha256": "02ddfe87ebcf761ab1a6c7933058d6b2e6a3f47b28ce68bcdcc7426ae1e160e0",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/northern-fall/exports-v1/NW/actions/get_up/frames/0001.png",
+      "sha256": "432b150af82d781388d1e70f23f12fb88aee565d5ffd8ae15e9e06733e6fdaae",
+      "rgba_sha256": "97ab6253f6ac98969a80192613b262fd92da12bd9a5fb4d7ac6fe21dd8659d22",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/northern-fall/exports-v1/NW/actions/get_up/frames/0002.png",
+      "sha256": "34ae6cf6921ed5ac28c2eca3a61a3c0ad35831e90499bfb544c0b87374f3cc4b",
+      "rgba_sha256": "45f8f8bd929b0dbf0b0ba965387fdfb05a225c000d52483caebf412b6b070e38",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 3,
+      "file": "frames/0003.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/northern-fall/exports-v1/NW/actions/get_up/frames/0003.png",
+      "sha256": "e0cbc00e2d414180f4bd0787751a5cb319893930b386639a972f010d14e17830",
+      "rgba_sha256": "6412815bc37d0a99892654d391aa26663f1c2b4f534b1aa3304194fa21563f91",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "75131092ee981ff401864a5e98b6c6482c84f14c41fd041306754cd2fb5f43c4",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 7,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      4,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

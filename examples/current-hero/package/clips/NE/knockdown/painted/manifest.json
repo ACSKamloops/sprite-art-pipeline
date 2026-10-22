@@ -1,0 +1,88 @@
+{
+  "id": "knockdown_NE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    2,
+    5
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-04",
+      "file": "frames/0000.png",
+      "sha256": "c82ea7405b5746759e0de135c148406bee7dbe905ea016a4595c86a825e60034",
+      "rgba_sha256": "2bdebeec9eee08bc9fa2241bffd565a0dea5043982ff399040f00a50ac55e7ed",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-05",
+      "file": "frames/0001.png",
+      "sha256": "5a55ecea11a8b2f19e1a740b5a05333d21965bc371b5dc7d96af737386fed321",
+      "rgba_sha256": "511ff5e5c3c27260864f6d674785641a2dc7b062b292fababfa02d249bf8b676",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-06",
+      "file": "frames/0002.png",
+      "sha256": "ca238faf4061b521d9490cdca856d804896330d2b67c08abe42525656ab60723",
+      "rgba_sha256": "be75d28052bdb04acae108aefd49fcf3c0dbd9e242826feb64ec39bb2f492c70",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-07",
+      "file": "frames/0003.png",
+      "sha256": "0f5623debd694040c061ca23aed72824fa6ee1005b69ff16b38aea3b7cd7cea1",
+      "rgba_sha256": "3e7b901a2743f9a489ecb6e1ee6a93787b0f3cac3bf28c765e0054708f12b36f",
+      "hold": [
+        1,
+        10
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "fb0779b7624dd5dab845b02b4726d675b4705c2f84188d88db9855c9b3f898d0",
+    "project_canonical_sha256": "ce84c77b9ccb1861df990d9c71f775be67d0f958525786e5bb498cdfc5db0d09",
+    "tick_rate_rational": [
+      10,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "knockdown",
+  "direction": "NE",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof",
+  "review_status": "unreviewed-candidate",
+  "faults": [],
+  "review_scope": "Ordered still inspection; timed human playback pending"
+}

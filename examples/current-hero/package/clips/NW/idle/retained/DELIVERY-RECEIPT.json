@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/NW/construction/idle/project.json",
+  "source_file_sha256": "04d135e42a0b52ee98cbc067521a4c7889800e0bea8e355fe583fdad9e380e5b",
+  "source_project_canonical_sha256": "af02207119e7555460c3bc3490a99f52e3956214a7ec04f02b44942eb98fa962",
+  "selected_animation": "idle_NW",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01"
+  ],
+  "frame_count": 2,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    1
+  ],
+  "atlas_columns": 2,
+  "actor": "hero",
+  "manifest_sha256": "99838e4632fc5f4914f51be9960b14fc14558645f0ecde203079ae6f78510e88",
+  "clips_sha256": "79a884e1fe7de2a516a76d601c76fc167c54737a91ad89a7b16f8be4ba4eb812",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

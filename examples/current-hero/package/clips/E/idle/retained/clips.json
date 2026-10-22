@@ -1,0 +1,37 @@
+{
+  "video_fps": 2,
+  "clips": [
+    {
+      "actor": "hero",
+      "name": "idle_E",
+      "sheet": "atlas.png",
+      "sheet_columns": 2,
+      "frame_size": [
+        80,
+        80
+      ],
+      "loop": true,
+      "frames": [
+        {
+          "atlas_index": 0,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 1,
+          "duration_video_frames": 1
+        }
+      ],
+      "action": "idle",
+      "direction": "E",
+      "pivot_pixels": [
+        40,
+        72
+      ],
+      "ground_pivot_pixels": [
+        40,
+        72
+      ],
+      "authored_events": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "knockdown_S",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    2,
+    5
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-04",
+      "file": "frames/0000.png",
+      "sha256": "84f9283f0880075981b072403da6ab8d3e598e1abf13ac3965603942943d010c",
+      "rgba_sha256": "0e81fd7a696c541b8599e1afbe1c78401def0f2be8ac74206bf0aebdd3903f49",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-05",
+      "file": "frames/0001.png",
+      "sha256": "3ec638da07b3260a8b5f5c6dbaefcc0202fbed3ae98f9b0f2cb0a6a1ba765cf9",
+      "rgba_sha256": "fe71e10d8f50c033f8dd4a98e2507e9ccbb50963783b0eed529940b9d96cdf0f",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-06",
+      "file": "frames/0002.png",
+      "sha256": "f5c43d0cd6e8f8f8c4685c9c54ccb195feaf565587e02334b7e02744a7673314",
+      "rgba_sha256": "ee0e7f084de19865fb60cee264c031aea8a4ccdbc2be7fd8e2a64bd9316d97d9",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-07",
+      "file": "frames/0003.png",
+      "sha256": "5058d50fd1235043d3ff31896deabc8881e82df756a5c2f08fd5fd38414f114b",
+      "rgba_sha256": "d89ad41ea2a5a0b5112cd12a0f328cf57338d0aff1bc89c32cb4bba789723a1a",
+      "hold": [
+        1,
+        10
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "8eefed655e9741694d1d4ef831fd7a4de5ed7c023546795cbadfa72f5cea071d",
+    "project_canonical_sha256": "a21dfe75759e267dc377d75e60ce1394443b0db863aff078e19d66ea2b545d1d",
+    "tick_rate_rational": [
+      10,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "knockdown",
+  "direction": "S",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

@@ -1,0 +1,29 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/construction/dodge/project.json",
+  "source_file_sha256": "cfe75a358ae69596aa0d25134ef8024919f3d956c7a7720ab303105195fe6499",
+  "source_project_canonical_sha256": "08453888a3a8d76eb4522cdedc82ba5540a14aa0d227daf557159c48c6d7a7ed",
+  "selected_animation": "dodge_E",
+  "ordered_frame_ids": [
+    "cell-12",
+    "cell-13",
+    "cell-14",
+    "cell-15"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "1547e31f5fad3bc68126fa6e8185af9c437116843b0580ab9b1c4f5f4a92ac4a",
+  "clips_sha256": "9b01df6e8eea85a63fbb499755e0f79457eda79568f6f39b1796866ef44ff8c9",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

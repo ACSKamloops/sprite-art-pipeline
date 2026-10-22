@@ -1,0 +1,30 @@
+{
+  "source04": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/professional-getup-paint/imported-study/overscan-common090/candidate/actions/get_up/frames/0004.png",
+  "one_rigid_upper_delta": [
+    2,
+    -4
+  ],
+  "upper_owner": "all opaque source y<=48 plus explicit near-arm x<=28,y43..66 and far-cuff outer contour x54..56,y49 (all other far-cuff pixels already inside y<=48); includes complete head/scarf/torso/both cuffs/bare fingers",
+  "boot_owner": "all opaque source y>=53 not upper-owner; complete two boots, uppertrim and adjacent knee outline, rigid identity at originalXY",
+  "trouser_connector": "remaining opaque source y49..52 mapped into8 destinationrows45..52; integer nearest explicit horizontal rungs, xdelta2\u21920",
+  "actual_new_underpaint": "NONE. Source04 trouser pixels are repeated/extended only; no paint is invented. This may be insufficient for the needed thigh volume and is a visual rejection condition.",
+  "compositing_order": [
+    "boots",
+    "trouser connector",
+    "complete rigid upper"
+  ],
+  "onset": [
+    29,
+    40
+  ],
+  "candidate_hold_split": [
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      10
+    ]
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/derived-v4/hurt-SE/construction/hurt/project.json",
+  "source_file_sha256": "d2dcb991065584ba39063b61deaf3cf4fd7d99c64d0fc39b95b5b792234bf98d",
+  "source_project_canonical_sha256": "214759280962a5aaa42050e552f0dfc0d748e30ff84c53e94b671518e6f92ee0",
+  "selected_animation": "hurt_SE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02"
+  ],
+  "frame_count": 3,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    4
+  ],
+  "atlas_columns": 3,
+  "actor": "hero",
+  "manifest_sha256": "04f557fe6826fd0e4dbb80d51acd297d6917487bd5b921265fa5150192c78be4",
+  "clips_sha256": "6cc1684355e695b4be003cb6edd3e445bf3da9ccebfd487aa40826b3e1ca6bfc",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

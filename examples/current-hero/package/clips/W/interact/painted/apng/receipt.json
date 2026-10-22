@@ -1,0 +1,83 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-action-set-20261022/lateral/W/bank/actions/interact/manifest.json",
+  "manifest_sha256": "5066ba79ca0e7205adc548192e0452dc76fe4aa684dcf5378e65e73545dc58bc",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    2
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/W/bank/actions/interact/frames/0000.png",
+      "sha256": "c6dafa991991e6548756798bce5fce0134e023d6e0aadc35e3d64fdf18bcd588",
+      "rgba_sha256": "c1baf4d6d58ded4f31154e8399003f9d6a28ed5976f2a2b9558f02e95baf93a3",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/W/bank/actions/interact/frames/0001.png",
+      "sha256": "48e8381319a6190c329cd3c81459f4ca357b49b5eeac30211a78cd8c8e2b987f",
+      "rgba_sha256": "86beaf844a33f89dccbe342a0daf706d29e76490150431e13624081638021438",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/W/bank/actions/interact/frames/0002.png",
+      "sha256": "76d45a4b5fcb595c51f276c65938057307fa07cb904863e795e4b059f60b4974",
+      "rgba_sha256": "8d76a27fdb0a915430e85e483d6535c3d12cafb7e0fd5867ef45855e4691eeb4",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 3,
+      "file": "frames/0003.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/W/bank/actions/interact/frames/0003.png",
+      "sha256": "06cddf17782be3b7b497bb81a0980c3d84bde2d51cb66fb284aba1a83166c903",
+      "rgba_sha256": "0a7891168d3537d44ea45cde623d434f35b777c82d1d79c020138b4887227f8f",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "cfffef5db8500010d0463c049540ca3749b4ae36280f922aeb9ed2880a45377b",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 7,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      4,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

@@ -1,0 +1,45 @@
+{
+  "video_fps": 10,
+  "clips": [
+    {
+      "actor": "hero",
+      "name": "death_N",
+      "sheet": "atlas.png",
+      "sheet_columns": 4,
+      "frame_size": [
+        80,
+        80
+      ],
+      "loop": false,
+      "frames": [
+        {
+          "atlas_index": 0,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 1,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 2,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 3,
+          "duration_video_frames": 1
+        }
+      ],
+      "action": "death",
+      "direction": "N",
+      "pivot_pixels": [
+        40,
+        72
+      ],
+      "ground_pivot_pixels": [
+        40,
+        72
+      ],
+      "authored_events": []
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "hero-recovery-replay/v1",
+  "raw_dimensions": [
+    1024,
+    1536
+  ],
+  "stage": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "alpha_threshold": 200,
+  "grid": [
+    2,
+    3
+  ],
+  "cell": [
+    512,
+    512
+  ],
+  "scale": [
+    9,
+    10
+  ],
+  "component_ids": [
+    2,
+    1,
+    3,
+    4,
+    6,
+    5
+  ],
+  "guide_source_frames": [
+    4,
+    10,
+    17,
+    25,
+    33,
+    41
+  ],
+  "forward_transform": "dest=pivot+0.90*(raw_local*80/512-pivot)",
+  "inverse_sample": "raw_cell_origin+floor(((dest_pixel+0.5-pivot)/0.90+pivot)*512/80)",
+  "per_frame_fitting": false,
+  "holds": [
+    [
+      1,
+      10
+    ],
+    [
+      3,
+      20
+    ],
+    [
+      7,
+      40
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      1,
+      16
+    ],
+    [
+      1,
+      20
+    ]
+  ],
+  "duration": [
+    6,
+    5
+  ],
+  "guide_source": {
+    "author": "Quaternius",
+    "pack": "Universal Animation Library2 Standard non-root-motion",
+    "action": "LayToIdle",
+    "url": "https://quaternius.itch.io/universal-animation-library-2",
+    "source_GLB_sha256": "8cee20ab1bc55130092447e810e26df22dd2803eccc54f52137a7d54d7ab88a8",
+    "license_file": "guide-LICENSE.txt",
+    "authored_guide_changes": "Headscale2.05, onefixedcamera; posegeometryonly, notfullanatomicalretarget",
+    "license_original_file_sha256": "6d01f55c6e4c49a2c9963e147e561945ae2c83958c8ca667d90a6bffdbfac061",
+    "license_notice_formatting": "Only CRLF/trailing whitespace normalized; license and attribution text retained."
+  },
+  "scope": "Retained built-in ImageGen raw import and two explicit source-part keys. Not a new model call, deterministic generation claim, private provider replication or 9/10 acceptance."
+}

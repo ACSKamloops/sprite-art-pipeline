@@ -1,0 +1,29 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/construction/get_up/project.json",
+  "source_file_sha256": "20e4816f9fb10005487dd3efddbd61ce12c8455c62e14b7fa71ef12e41c373d0",
+  "source_project_canonical_sha256": "9fc86f5dd29af9fbb5e72b5f186e44368d76fc0f634ffd504bb68bc72ef31cf5",
+  "selected_animation": "get_up_E",
+  "ordered_frame_ids": [
+    "cell-08",
+    "cell-09",
+    "cell-10",
+    "cell-11"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    2
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "da521350a4b1befb9eea9e361b0516bcf968b0286a55757b152d3c7559c3dac8",
+  "clips_sha256": "27ca243f2d64eb83dec6efdf21845e8e9213db62143e18cb95aa9fcf6a5f74eb",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

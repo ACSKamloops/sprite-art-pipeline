@@ -1,0 +1,105 @@
+{
+  "schema": "sprite-ai-handoff-verification/v1",
+  "created_utc": "2026-10-22T19:49:11.263442+00:00",
+  "source_base_revision": "7f065e5c25ab4cfa593771fd803a1c1052441e35",
+  "source_snapshot": {
+    "schema": "selected-character-snapshot/v1",
+    "source_library_sha256": "1eecc125297d9910693f74f226d40062f03a53bfc51c391bf62dedc08f20d04b",
+    "snapshot_library_sha256": "4b77497664a82e4b94bf3a5cb6e7fbd578d02694dd99a05a5da52b398a6dab46",
+    "selected_bindings": 136,
+    "selected_clips": 136,
+    "selected_exposures": 561,
+    "omitted_unselected_clips": 18,
+    "copied_clip_files": 2062,
+    "all_copied_clip_files_byte_identical": true,
+    "selected_ids_pixels_holds_events_loops_unchanged": true,
+    "preferred_reference": "walk_SE_original",
+    "source_hash_verified_without_requiring_original_machine_path": true,
+    "scope": "Selected generated character art, editable sources and timing. No raw provider captures, credentials, game-ROM assets, engine binary or art approval."
+  },
+  "offline_targeted_checks": true,
+  "skill_files": {
+    "reference-art-production": 9,
+    "imagegen-sprite-animation": 236,
+    "sprite-construction-editing": 127,
+    "sprite-animation-pipeline": 118
+  },
+  "archive_fresh_install_and_idempotence_tested": true,
+  "installed_settle_replay_tested": true,
+  "support_editor_journal_canonical_hash_exact": true,
+  "source_recovery10RGBA_and_rational_holds_exact": true,
+  "new_Godot_build": {
+    "animations": 136,
+    "frames": 561,
+    "assertions": 1001,
+    "rate": 9600.0
+  },
+  "full_historical_workbench_suite_rerun": false,
+  "new_generation_or_provider_job": false,
+  "visual_9_of_10_achieved": false,
+  "scope": "Current distribution/replay/engine checks only. Prior full-suite and art reviews retain their own dates and scope.",
+  "fresh_source_export": {
+    "source_tree_exercised": "4efa4bc710d97b6dcf3bd7ae7c866875004df96a",
+    "no_original_workstation_paths_needed": true,
+    "checks": [
+      {
+        "name": "snapshot",
+        "passed": true,
+        "exit_code": 0,
+        "log": "fresh-snapshot.log"
+      },
+      {
+        "name": "skills-install",
+        "passed": true,
+        "exit_code": 0,
+        "log": "fresh-skills-install.log"
+      },
+      {
+        "name": "installed-fixture",
+        "passed": true,
+        "exit_code": 0,
+        "log": "fresh-installed-fixture.log"
+      },
+      {
+        "name": "recovery-raw-replay",
+        "passed": true,
+        "exit_code": 0,
+        "log": "fresh-recovery-raw-replay.log"
+      },
+      {
+        "name": "godot",
+        "passed": true,
+        "exit_code": 0,
+        "log": "fresh-godot.log"
+      }
+    ],
+    "actual_Godot": {
+      "version": "4.7.2-stable (official)",
+      "animations": 136,
+      "frames": 561,
+      "assertions": 1001
+    },
+    "raw_recovery_replay": {
+      "frames": 10,
+      "duration": [
+        6,
+        5
+      ],
+      "all_selected_RGBA_and_holds_exact": true,
+      "source_settle_lower_body_exact": true,
+      "scope": "Saved raw-to-editable recovery replay, not new generation, visual approval or engine validation."
+    },
+    "source_code_sha256": {
+      "scripts/install_skills.py": "5272eb03943bc34344e13868d5d8285b878ffdf0e4f2bc806c394cb7e6794b24",
+      "scripts/verify_selected_hero.py": "628e3cfa27214e65e8a1296ddd8f4967708346617b8067b0594a6a645cfb9be6",
+      "examples/current-hero/replay_recovery.py": "8a7166caaaf0f90acc78a6d47758467b0fc409dbee573094beb279c81120a372",
+      "research/pixelengine-imagen/tools/build-rpg-preview.py": "3a3a7f5f31ecd016f6e79e5e267fcaa8ed90360f214f16961ce96f32fb290d0c",
+      "research/pixelengine-imagen/tools/build-rpg-bank.py": "bedf93c0beedeb4254503e371f072c0903920d8bbc1ab3901e2dce9593030f65"
+    },
+    "temporary_export_and_outputs_removed": true,
+    "scope": "Actual source archive export to a fresh temporary path, install, frozen-map replay, raw-to-editable replay and Godot rebuild. Python dependencies and Godot are supplied by the test machine. No model or provider job, browser playback review or new art approval."
+  },
+  "source_copy_after_relocated_test": "License notice formatting/provenance and verification documentation updated; runtime code and character pixels/clocks unchanged.",
+  "handoff_relative_file_links_checked": 54,
+  "fresh_export_runtime_code_still_exact": true
+}

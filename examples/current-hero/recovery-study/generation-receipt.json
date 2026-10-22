@@ -1,0 +1,20 @@
+{
+  "provider": "built-in OpenAI ImageGen",
+  "raw_path": "/home/astra/.codex/generated_images/01a10f79-266a-7b92-9a2f-50716b8c9854/exec-6ded633d-0f5d-4d1e-b84b-447c06272620.png",
+  "raw_dimensions": [
+    1024,
+    1536
+  ],
+  "raw_sha256": "8e56128bf8ff71d78fdd51ea35083ab7fb0aacddffae569b38700d05925242fa",
+  "prompt_sha256": "e8e8c2c5945074f1f9ccb3b1b0aa6d8d5f238b1d5930b8630d9a4c8d380eeea2",
+  "requested_transparency": true,
+  "actual_alpha": {
+    "min": 0,
+    "max": 254,
+    "distinct": 255,
+    "opaque": 0,
+    "transparent": 1122971,
+    "under128": 1202653
+  },
+  "art_accepted": false
+}

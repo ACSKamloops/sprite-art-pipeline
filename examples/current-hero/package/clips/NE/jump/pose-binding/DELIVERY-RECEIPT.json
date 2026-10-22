@@ -1,0 +1,28 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/NE/jump/construction/jump/project.json",
+  "source_file_sha256": "5913dedca3cc53ac2ca250e7ca3746cec30efc8dc9c31ba775fd7e04e8c63e5a",
+  "source_project_canonical_sha256": "a786931d9737e5c3b52c0ba5fb7d7787c083051a37363add5d0eb1dd072e247f",
+  "selected_animation": "jump_NE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02"
+  ],
+  "frame_count": 3,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    23,
+    50
+  ],
+  "atlas_columns": 3,
+  "actor": "hero",
+  "manifest_sha256": "c4466118fb27d86fe953103bcb1110d18585bf6521528a23d3c746d030a2b183",
+  "clips_sha256": "c15cda923bfa6efe995b5b66a65a7c47f554a1d58146da3791352a8e5bf04cf2",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

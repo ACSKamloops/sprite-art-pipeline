@@ -1,0 +1,135 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/manifest.json",
+  "manifest_sha256": "2f895504f72848ace65245eeb9ca49b415b450b0e1182123776af89141dcc4a9",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    1
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0000.png",
+      "sha256": "681d7ccaa102fdf3c945c360a08c0aaa68de58d7d8f42c8e81f45eca5dee30e7",
+      "rgba_sha256": "0a2ea733b49834ff196e2473f74a30868bb7bbf94ccb7f6fc2d3ad1df9b99fa6",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0001.png",
+      "sha256": "d3c53215c5f551d87b69a530713bbcf020f9a7f9a7a85afd553a1f8d3a352de8",
+      "rgba_sha256": "8b635729647034776a1b16b533595c560caf4b205064c8950d31ae4234ee34f5",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0002.png",
+      "sha256": "f2b33c6dec28e0bcc21edb161d759a88db8786ddd1af5493c162776663da0b50",
+      "rgba_sha256": "7f9ac9e5f08535a26f814d762d60b84a0d8cc534620dd5796e96430bd58abe4e",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 3,
+      "file": "frames/0003.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0003.png",
+      "sha256": "cd2f11de7703ba0fd98157d86431a99ff7ff6bbe540f1c54e8fe73aa77081c64",
+      "rgba_sha256": "6f67a1e2b0c777d21d67952ce2770d8277b9fd784fec6085d57caf8b6e7a2480",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 4,
+      "file": "frames/0004.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0004.png",
+      "sha256": "b04e2bcc4eddaec3ee2bd7cee6b9c6a977db399883633cf462dea309f65523db",
+      "rgba_sha256": "d07699955a615145b5520db52304c6a64c9ead54eb47497c3676cb4c4f09c78e",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 5,
+      "file": "frames/0005.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0005.png",
+      "sha256": "01b7539ad0e7f614e13f6a53d924fa3e58c03bb7ead4da5f916160efcb28a848",
+      "rgba_sha256": "5d3cd6fc1418b5720b663f37ddcec6a1f2a4b287f9834e67ece7edfd2bf2eefc",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 6,
+      "file": "frames/0006.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0006.png",
+      "sha256": "59776022f32437940b333f1ebe928ce9e880ea6905e31e7e1da82ba7353f2358",
+      "rgba_sha256": "865293674b4a4bfb0adb9dc5411894f62aa2bd8890fdf9051decd42fb03320e7",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 7,
+      "file": "frames/0007.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/SW/actions/walk/frames/0007.png",
+      "sha256": "c86fc40a5c07cb7fd127acf621eca2f21020d1f44362cb80cabd3221cdcdc280",
+      "rgba_sha256": "32b3f51cb5d2893d160bf6621f5c970c40c5f76a84d4620bf411722385775844",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "c6c2709563ae6d6c96b6f1aaf8e4ef1d63f928cabd8ed926bbab95a098c58cb3",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 15,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ],
+      [
+        1,
+        8
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      8,
+      0
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

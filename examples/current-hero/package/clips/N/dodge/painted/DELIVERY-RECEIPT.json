@@ -1,0 +1,30 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/northern/N/export/construction/dodge/project.json",
+  "source_file_sha256": "1602d34255cd81ffe1717f36e8f4d989bfebb2fdbf7c87aae07e92b8ee45ef92",
+  "source_project_canonical_sha256": "dcbe05c0af887651619884865cdcc53d559e4917b969aab6d50bc8225e4f95ec",
+  "selected_animation": "dodge_N",
+  "ordered_frame_ids": [
+    "cell-12",
+    "cell-13",
+    "cell-14",
+    "cell-15"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "d8f12a89fc96cf82fef8004d7a8d65cd25f97e59b8b787cd2aa87716ed837811",
+  "clips_sha256": "40d942531ee17cb5d347b925b85d21aea332e076ea2811d305e4ca2d9f442617",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound",
+  "review_metadata_extension": "Hash rebound after raw art fault annotations; image/timing untouched"
+}

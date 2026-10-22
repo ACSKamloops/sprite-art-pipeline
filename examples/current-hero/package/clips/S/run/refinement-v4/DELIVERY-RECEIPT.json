@@ -1,0 +1,37 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/s-run/scarf-v2/candidate/construction/run/project.json",
+  "source_file_sha256": "fffed2fab1f954ce1dde86161b6a08beac4793ebbc7585bbf76a62e6ee661fb4",
+  "source_project_canonical_sha256": "344143bc9c0c20095c5981b8aec58515dd55b0e9b07bce8f248ad50abdec7dc3",
+  "selected_animation": "run_S",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03",
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07",
+    "cell-08",
+    "cell-09",
+    "cell-10",
+    "cell-11"
+  ],
+  "frame_count": 12,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    3
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "c2fa55ad5e2e3ef6c7bacc38c7972da34154effd697d8e5a29fd4fc27092b117",
+  "clips_sha256": "287ba96f1e98296bdffcd088cc942b6412ad21c735c7f871d9ffd445617dabc3",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

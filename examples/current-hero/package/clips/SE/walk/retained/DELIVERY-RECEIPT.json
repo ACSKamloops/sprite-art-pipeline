@@ -1,0 +1,40 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/pixelengine-imagen-refinement-20261020/imagegen/native-body-crisp-head01/scarf-track-v1/candidate-v1/scarf-candidate.project.json",
+  "source_file_sha256": "7d2ee539c04819179e3d71018e045cdee374fa6b01f36c3ae038df6ca17fae57",
+  "source_project_canonical_sha256": "f50a781752219142d1138e212578d2d6a21bead6b0a0c484e57f886f6040623e",
+  "selected_animation": "walk",
+  "ordered_frame_ids": [
+    "state-00",
+    "state-01",
+    "state-02",
+    "state-03",
+    "state-04",
+    "state-05",
+    "state-06",
+    "state-07",
+    "state-08",
+    "state-09",
+    "state-10",
+    "state-11",
+    "state-12",
+    "state-13",
+    "state-14",
+    "state-15"
+  ],
+  "frame_count": 16,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    1
+  ],
+  "atlas_columns": 8,
+  "actor": "scarf-candidate",
+  "manifest_sha256": "f8fc1aa82bdc4a17cda628bff262ba04581ffbe1c4c298671b1a9d8e11f826fc",
+  "clips_sha256": "935c55a3923f888340a4943ef7329888c887f7bf39a580050f8e80c2aec51a8f",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate."
+}

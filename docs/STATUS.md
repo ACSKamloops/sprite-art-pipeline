@@ -106,3 +106,12 @@ revision passed11 preflight rejection cases and a fresh three-frame render;
 the preserved preceding revision carries the full47-frame receipt. Required
 source/license inputs and the limits of Head-only scaling are explicit.
 
+The selected v4 character is now also bundled under
+[`examples/current-hero/`](../examples/current-hero/README.md), with all136 selected
+bindings/561 exposures, editable sources and a frame viewer. It rebuilds using
+the repository-relative Godot preview tool. Its selected-only library has a
+different hash from the full local bank; its snapshot receipt records both.
+[The AI handoff](AI-HANDOFF.md) and [skill copies](../skills/README.md) explain
+installation, replay, required tools and remaining art work. They do not imply
+that private provider models or all historical raw experiments are distributed.
+

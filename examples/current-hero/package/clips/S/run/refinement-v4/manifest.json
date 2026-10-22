@@ -1,0 +1,173 @@
+{
+  "id": "run_S",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": true,
+  "duration": [
+    2,
+    3
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "29f1f98d92a1ed3b0348d307faddfcd99db251297d14859af5d2bed177c49811",
+      "rgba_sha256": "37dd80183ca2a2bbda0e8a9835a37700aa4c909767dcf1d167ced866915a3d6f",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "aeffd9b024c7ce1d2ffde864daaceec0cffe53b3ea6d4a2f1a9d4537aac10b1e",
+      "rgba_sha256": "88659b76e0d0e7cb017a09b49744da558a98ecc8cf9f565dc2e7ee7400e62b31",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "5953d7301cb889e86307c43742d021016abac42885983230469c72d9afbe7047",
+      "rgba_sha256": "2185c40f42a5b9df41b586572e4c5398fea11d976dd0ae070fed3e7d84e43b07",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "0850291df7a37be440b9a6fcd24d3cd9624d9e2cd43e9a1048acfbb32aa09af0",
+      "rgba_sha256": "c933bdfde1f3a989f5c3f28ca0f10b7acb1b8a362247504cfe70959640f4f46d",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame_id": "cell-04",
+      "file": "frames/0004.png",
+      "sha256": "b8ecbb512c7993579d7c6271cba6ad4e03675d8dd2b0d1aff25386ee8e2d7177",
+      "rgba_sha256": "0308aa1332a74323eb82e9186fa8f72aa195724a7e115a42451eabbb68fc8036",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 5,
+      "source_frame_id": "cell-05",
+      "file": "frames/0005.png",
+      "sha256": "0237e65c1a0043716d7d17d7d65a5f9a6aff1edb26e86e35160464b75f02e35b",
+      "rgba_sha256": "a46cce4f6b8b733b69c95a42f4d4c27f0bdeeb6d26eff6ce4aabc1c2e954d050",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 6,
+      "source_frame_id": "cell-06",
+      "file": "frames/0006.png",
+      "sha256": "cc1dc0b49fa75c771c831ba194f231847769cba25ceebccd9afcb46a5c8442b7",
+      "rgba_sha256": "84402c4688d715554b4e2bbe706f5c8ab44157196cad937adc722b2298f9994c",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 7,
+      "source_frame_id": "cell-07",
+      "file": "frames/0007.png",
+      "sha256": "7136990398003023d62e42df94affa38d7b3485f42c256740288969206bc8d77",
+      "rgba_sha256": "5b1b5433fffacc2b6c60d4d03a063591c446da103a3423eb0b346ff014e3fbaa",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 8,
+      "source_frame_id": "cell-08",
+      "file": "frames/0008.png",
+      "sha256": "0d424cd4c75336e06880737ecff0e70de39452eb55bfa883265097262635f41e",
+      "rgba_sha256": "46e5795a1991149cba7acd0b4a2d79acbc1b1c47fdd57962a99584ff56eb0b5f",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 9,
+      "source_frame_id": "cell-09",
+      "file": "frames/0009.png",
+      "sha256": "febbc564ca851ced240a56c08abea09f65407a2eeefed636861f59da20a9b943",
+      "rgba_sha256": "9253d22e386fe13483410e42cc5a902ad7f3492aeb33b0d1b8121a8e19904246",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 10,
+      "source_frame_id": "cell-10",
+      "file": "frames/0010.png",
+      "sha256": "e734b197d73f5e2c06bc5e3ff57e001f4e7609dcc49f2f2d9f22d822d429d38b",
+      "rgba_sha256": "dd114e21ad5ddaba95f42ffdc7cd78b78e3ad962f733118a45eb3d9fca042b1b",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 11,
+      "source_frame_id": "cell-11",
+      "file": "frames/0011.png",
+      "sha256": "73eb96f4505c819f5400f3e946db5d715ddc20c1ab12894744f3ddf0087da9bc",
+      "rgba_sha256": "b01518e383b1ebc72ff0fa247eab1930956345f22cc0d5f06692837e0a5d063b",
+      "hold": [
+        1,
+        24
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "fffed2fab1f954ce1dde86161b6a08beac4793ebbc7585bbf76a62e6ee661fb4",
+    "project_canonical_sha256": "344143bc9c0c20095c5981b8aec58515dd55b0e9b07bce8f248ad50abdec7dc3",
+    "tick_rate_rational": [
+      24,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "run",
+  "direction": "S",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

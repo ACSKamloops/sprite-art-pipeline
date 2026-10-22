@@ -1,0 +1,30 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/northern/N/export/construction/dash/project.json",
+  "source_file_sha256": "791c28d3ee1de217a3ca4d22be95d1dfb488177043a57386f2ad43d87cd6ce8c",
+  "source_project_canonical_sha256": "b785d6d61541ff24cd0b31a6f74add876c98aa6305a33f54b09552d91795229e",
+  "selected_animation": "dash_N",
+  "ordered_frame_ids": [
+    "cell-08",
+    "cell-09",
+    "cell-10",
+    "cell-11"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    3
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "6b2ce407fed2dfa1babca245a597cc7879268d1420c514c25fe34ac89a225658",
+  "clips_sha256": "9d0901eb163db730b47007dab58a000edc81a7ab9c66386a3ec83359f6cf2836",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound",
+  "review_metadata_extension": "Hash rebound after raw art fault annotations; image/timing untouched"
+}

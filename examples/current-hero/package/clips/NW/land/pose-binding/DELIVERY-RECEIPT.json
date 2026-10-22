@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/NW/land/construction/land/project.json",
+  "source_file_sha256": "b992c79da6048fe190cf02e2af4119a0ef6fb0789aa6cb6a1b0de599cbd12d5f",
+  "source_project_canonical_sha256": "6883a386161498f580f2be4751e28a6247306d16d11a5abae237f4253a2d6a3c",
+  "selected_animation": "land_NW",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01"
+  ],
+  "frame_count": 2,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    9,
+    50
+  ],
+  "atlas_columns": 2,
+  "actor": "hero",
+  "manifest_sha256": "9e71d48aac825610fca2b1c90a8c486f38f24ecc10aa1cd12649a80bb39ae365",
+  "clips_sha256": "f1d21a68a321d3474fedaff8492f8759aabd6b127f97ca09e71369ce8ec7dfdb",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

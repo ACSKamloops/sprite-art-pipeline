@@ -1,0 +1,70 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/W/actions/hurt/manifest.json",
+  "manifest_sha256": "af8c8765a6721e12e244cdceec90d75424af54a51bd3614277e3130da158e8f2",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    4
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/W/actions/hurt/frames/0000.png",
+      "sha256": "98b567dd770370bbb3b1a3a3596a3f93c816239fab13ac8f098c7f272a75131b",
+      "rgba_sha256": "5503b68dc8de1bf3a7b125c2bad206c31f58116093bf52084ba2954eda6ab048",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/W/actions/hurt/frames/0001.png",
+      "sha256": "2a187c493471ac070275dd9dc9394d92a40627d8b4fa5da1d02e833c343bf99d",
+      "rgba_sha256": "2dad5c88e56ed4e3fd2b02cc734e16a51f749c742214c907904e2572fc8a7016",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/W/actions/hurt/frames/0002.png",
+      "sha256": "96598805da853d812c6a36a0ca21ade64b6df9e946e512072051c0a063cbae55",
+      "rgba_sha256": "e9b3a38143d65870ded3d672d7e45f71b7ed16bfc6019bc7c56610306e7971c5",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "9bb4c0017d4f36284957924c4c1a5cd7d7d94cc0753db80ded3d2bae36e78e7e",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 5,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        20
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      3,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

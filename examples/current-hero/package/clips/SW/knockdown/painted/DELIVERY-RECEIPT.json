@@ -1,0 +1,29 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/lateral/SW/bank/construction/knockdown/project.json",
+  "source_file_sha256": "483c994d6ba894b295da17f49c3d49ddd897b9b7d30afee28ca870285376cfb1",
+  "source_project_canonical_sha256": "9260f7422bdb9b7ab183931197f5fb97f4bb2cb98d3d640a9e086406e0fcf476",
+  "selected_animation": "knockdown_SW",
+  "ordered_frame_ids": [
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "0a37db8b6cb973f97e9ff5ed19ad69d6089c745937a74a330c2288af3ac076cd",
+  "clips_sha256": "230c198f5938c69beae00d001e41c83e81f7a2130f789ec5fe37aa0812dd2ef5",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

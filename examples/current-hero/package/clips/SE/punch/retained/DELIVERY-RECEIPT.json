@@ -1,0 +1,35 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-rpg-quality-20261021/engine-head-components/SE-bank/construction/punch/project.json",
+  "source_file_sha256": "6359d899312aed0f4bdcec0659affe3d1d5ffea173f6e2668db28ef8abc61482",
+  "source_project_canonical_sha256": "fd31a18160f613498425bf889c80611855fffa2f1dcf478214b7bbb1d8f74ae5",
+  "selected_animation": "punch_SE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03",
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07",
+    "cell-08",
+    "cell-09"
+  ],
+  "frame_count": 10,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    7,
+    12
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "9d9bc55c5e5660c731e6536c055c7fb2250c4ba2235be39f10164404e247f683",
+  "clips_sha256": "9369f35a12d46358eda1e07b58dbdcac0670b9e9796c68231be34e7ac0d9f6bc",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

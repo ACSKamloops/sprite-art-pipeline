@@ -1,0 +1,74 @@
+{
+  "id": "jump_W",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    23,
+    50
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "5b8ebfb771bea850c4edc6902750003314c5fc80a0e6c524326fbb5d7b79f04c",
+      "rgba_sha256": "c972a825d368a783c098e716f98b0a0c3789fee741417837d41b7fe430c18451",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "e12f3d19d98f12c23d11ee1b3d41d5657e992fc510a70d0a1d90f4a0f335832b",
+      "rgba_sha256": "cf5b998349a6e215ee1fe55c946b89350959d9277fd6a617607eb5bfc3e797e0",
+      "hold": [
+        2,
+        25
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "ac8a733ede423c9609d526fd032cc672e747f6973ad783d4b79ae5285273bbcf",
+      "rgba_sha256": "a7042163a886fcf89a9fe8d3148a990679320fd204b0b2160c0aa04808e0fa89",
+      "hold": [
+        7,
+        25
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "9659a26f641a1aa60c90e6906d5d6487f677b2249f353b199e0601ca0fce388d",
+    "project_canonical_sha256": "8a2fc39efb4da0fba1105081079ec6f4aabf18815b3e5579ed478be9c4ce2622",
+    "tick_rate_rational": [
+      50,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "jump",
+  "direction": "W",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

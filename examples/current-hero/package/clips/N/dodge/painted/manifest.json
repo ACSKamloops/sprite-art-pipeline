@@ -1,0 +1,88 @@
+{
+  "id": "dodge_N",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    2,
+    5
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-12",
+      "file": "frames/0000.png",
+      "sha256": "a5b005bd6d726674cf6239213f4a1e544289f061824a4aa0a5a6c486e07b0310",
+      "rgba_sha256": "6517b42e78181d53bac8481cf31da6823bd0f0e46e80193f72120e37a1e83afd",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-13",
+      "file": "frames/0001.png",
+      "sha256": "79397b283168324395a338d347b5f833f9fe45f29761172f57028160080651f9",
+      "rgba_sha256": "9721bd6d02b1749cf569fa5d292ae83d9cfc99e0f5981241fb3fb5f171f7a27f",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-14",
+      "file": "frames/0002.png",
+      "sha256": "acbd61e7eae378d36da51113507c45dfba12c1fe22dae82b211349695d026611",
+      "rgba_sha256": "8c7994979d8a1769001ce64e11f7022dba0023274ae0b6043bd032671c31e85a",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-15",
+      "file": "frames/0003.png",
+      "sha256": "64a7b26a8cf9389817b6a1f46ac97e0ecf9b6ddc9e0761aeaffb596bd920c849",
+      "rgba_sha256": "3fdf86263da52aecbd845dd5a47f53e6ca704842abc8cb04519f6cd87f00aeaf",
+      "hold": [
+        1,
+        10
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "1602d34255cd81ffe1717f36e8f4d989bfebb2fdbf7c87aae07e92b8ee45ef92",
+    "project_canonical_sha256": "dcbe05c0af887651619884865cdcc53d559e4917b969aab6d50bc8225e4f95ec",
+    "tick_rate_rational": [
+      10,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "dodge",
+  "direction": "N",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof",
+  "review_status": "unreviewed-candidate",
+  "faults": [],
+  "review_scope": "Ordered still inspection; timed human playback pending"
+}

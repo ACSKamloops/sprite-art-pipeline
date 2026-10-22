@@ -1,0 +1,91 @@
+{
+  "id": "get_up_NE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    2
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-08",
+      "file": "frames/0000.png",
+      "sha256": "0173ba377f0199cf1e068fa1aaee83d7be4639b663cad2751ae789efa0edeb33",
+      "rgba_sha256": "e2935d9d00c3ad22149f94d3ba16c27ab4a34ba3a1d5ca52df0e85aafbcbc961",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-09",
+      "file": "frames/0001.png",
+      "sha256": "fe67af627dd2f9b832e89a830007ea2afa2734ff4d5b642feadb8eaa671c9df7",
+      "rgba_sha256": "0cf41be798ad1f39ccaa5caee6e6445067285b29b1841e44723bf350bbc3eeaa",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-10",
+      "file": "frames/0002.png",
+      "sha256": "b5939cc7cdd1954971b15a22ea7f2fa02cdb498c06ef24feb9d3d0b64abf720d",
+      "rgba_sha256": "5cfa62b6c0e9aa78bf26a16bb6399912079458f00c5fd5b53df4707d5e646ab5",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-11",
+      "file": "frames/0003.png",
+      "sha256": "4fe1a8e6c05228d6d17318dce14e17eeb9592e54efdcb513614a3fe206fb71eb",
+      "rgba_sha256": "742a5d71cabda78671bf20cc76268a7d690960d7a026af5e95a262b709864aa8",
+      "hold": [
+        1,
+        8
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "8326dbfb09625a5a75553eae1b1ad27ffe94c5bf355b25809e4d6fcea8e4c6ad",
+    "project_canonical_sha256": "c1e6c325557a536d31cc6cd7008095356ebac8523d3948d9ffa9e79cbd6764cd",
+    "tick_rate_rational": [
+      8,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "get_up",
+  "direction": "NE",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof",
+  "review_status": "art-faults-unreviewed",
+  "faults": [
+    "Hand/knee rise visible in ordered stills; prone endpoint exact continuity unproven.",
+    "Knockdown final cell7 to get_up initial cell8 changes prone orientation/placement sharply; endpoint continuity not established."
+  ],
+  "review_scope": "Ordered still inspection; timed human playback pending"
+}

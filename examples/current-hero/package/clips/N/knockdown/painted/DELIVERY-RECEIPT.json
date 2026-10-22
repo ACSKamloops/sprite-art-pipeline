@@ -1,0 +1,30 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/northern/N/export/construction/knockdown/project.json",
+  "source_file_sha256": "6ecef9cf5acf1c30c7c13813ccb3e351ef03085284d44a7d0d5231aa1d01a9a3",
+  "source_project_canonical_sha256": "3a4c238deb2d1d41fedd50eea1dfed4233884f5211b791563c50999b28348e61",
+  "selected_animation": "knockdown_N",
+  "ordered_frame_ids": [
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "d69ae977ef982a9c4fe3718b451890a4a1b63b40e65c176d92bd916f0079ca6d",
+  "clips_sha256": "ce76098da8beaa7135feccf5ae2aa449d800acd8715b71d8e7b45a52cfd050a6",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound",
+  "review_metadata_extension": "Hash rebound after raw art fault annotations; image/timing untouched"
+}

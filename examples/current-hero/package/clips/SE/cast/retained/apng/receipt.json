@@ -1,0 +1,83 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-rpg-quality-20261021/engine-head-components/SE-bank/actions/cast/manifest.json",
+  "manifest_sha256": "7c0df8e87709bb5b85cd0a733ff023344518cd2c166ed1961d541d76ccca8ae4",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    2
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-quality-20261021/engine-head-components/SE-bank/actions/cast/frames/0000.png",
+      "sha256": "3877c10345946005d61fda820e381e4b88ac40cb862f3491bf258ac8efa1c889",
+      "rgba_sha256": "02c4388bec2a26e311daceca7b67d15d0caa5c3e3e2bedb37fc4325414b88cfd",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-quality-20261021/engine-head-components/SE-bank/actions/cast/frames/0001.png",
+      "sha256": "65dffd928e579ea5e809f0902ee00993c34922ed0a77b7723444e8eb49591153",
+      "rgba_sha256": "6157fbeccbcde49f3462e6e8a45e55a076ca1575ef7e29425f2428a75826893e",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-quality-20261021/engine-head-components/SE-bank/actions/cast/frames/0002.png",
+      "sha256": "059b0e764143d5a2803be8349766f4aecc1b23293285e1c57252d3ac32d6bcf2",
+      "rgba_sha256": "47c78074e81a7cbec60b81ec5b608df899c5c625c7552f9f8635d9ae92b92922",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 3,
+      "file": "frames/0003.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-quality-20261021/engine-head-components/SE-bank/actions/cast/frames/0003.png",
+      "sha256": "3877c10345946005d61fda820e381e4b88ac40cb862f3491bf258ac8efa1c889",
+      "rgba_sha256": "02c4388bec2a26e311daceca7b67d15d0caa5c3e3e2bedb37fc4325414b88cfd",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "fa867a00f2faca64d41e95b349d7a1dd991e06566e4628af650dda0230e158cf",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 7,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        20
+      ],
+      [
+        1,
+        10
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      4,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

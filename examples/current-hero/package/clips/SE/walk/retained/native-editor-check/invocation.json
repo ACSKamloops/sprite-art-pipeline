@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "/home/astra/.local/bin/libresprite",
+    "-b",
+    "/home/astra/artifacts/pixelengine-imagen-refinement-20261020/imagegen/native-body-crisp-head01/scarf-track-v1/candidate-v1/scarf-candidate/editable.aseprite",
+    "--save-as",
+    "/home/astra/artifacts/pixelengine-imagen-refinement-20261020/imagegen/native-body-crisp-head01/scarf-track-v1/candidate-v1/scarf-candidate/native-editor-check/resaved.aseprite",
+    "--sheet",
+    "/home/astra/artifacts/pixelengine-imagen-refinement-20261020/imagegen/native-body-crisp-head01/scarf-track-v1/candidate-v1/scarf-candidate/native-editor-check/sheet.png",
+    "--sheet-type",
+    "horizontal",
+    "--data",
+    "/home/astra/artifacts/pixelengine-imagen-refinement-20261020/imagegen/native-body-crisp-head01/scarf-track-v1/candidate-v1/scarf-candidate/native-editor-check/frames.json",
+    "--format",
+    "json-array"
+  ],
+  "returncode": 0,
+  "stdout": "Loading file \"/home/astra/.config/libresprite/palettes/./default.ase\" (ase)\nUsing loader for format ase,aseprite\nLoading file \"/home/astra/artifacts/pixelengine-imagen-refinement-20261020/imagegen/native-body-crisp-head01/scarf-track-v1/candidate-v1/scarf-candidate/editable.aseprite\" (aseprite)\nUsing loader for format ase,aseprite\n",
+  "stderr": ""
+}

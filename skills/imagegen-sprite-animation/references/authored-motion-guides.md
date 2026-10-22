@@ -229,3 +229,10 @@ distinct from those art reviews. The whole library still lacks9/10 acceptance.
 These local case programs are not a bundled reconstruction of the source GLB.
 The provider's private model, weights and hidden processing remain unavailable.
 No H3, local generative model or paid-provider request was used.
+
+A portable repository copy now lives in
+[the current hero example](https://github.com/ACSKamloops/sprite-art-pipeline/tree/main/examples/current-hero).
+Its recovery study includes the actual ordered inputs, prompt/raw, frozen
+sampling/ownership maps and guarded support-key journal. The supplied replay
+rebuilds all ten selected frames and rational holds without the original
+workstation or a new model call. Other historical raw experiments remain local.

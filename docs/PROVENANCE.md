@@ -10,6 +10,15 @@ PixelLab local-workbench snapshot, runtime Emberwake source/assets plus selected
 documentation, authoring programs, original generic-hero walk evidence, reviewed
 PixelLab handoff notes and latest Lyra repair.
 
+The later [current-hero snapshot](../examples/current-hero/package/SNAPSHOT.json)
+is a separate post-consolidation import of selected generated character outputs.
+It pins the local package-v4 library, keeps all136 selected bindings/561 exposures
+and excludes18 unselected alternatives. Complete clip folders are byte-identical;
+the selected-only library and viewer navigation are explicitly adapted.
+[FILESET.json](../examples/current-hero/package/FILESET.json) pins its distributed
+files. This snapshot does not import authenticated research captures or source
+game assets, and it needs no original absolute source path at runtime.
+
 The imported method programs are not all independently portable executables.
 Portable toolkits/examples have their own commands and fresh tests. Historical
 programs retain source paths and dependencies; use them as evidence or adapt them

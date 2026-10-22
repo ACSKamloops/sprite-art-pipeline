@@ -1,0 +1,29 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/northern-fall/exports-v1/NW/construction/knockdown/project.json",
+  "source_file_sha256": "2b4f8ab29292637c45f6b19a632bc1d76facbcb2e971af57a838d9a0ebb3d547",
+  "source_project_canonical_sha256": "e7920d5719f2c5e3c3499697ac0de000473c980d51e6fabdf89b231f565deed1",
+  "selected_animation": "knockdown_NW",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "13d66ceba69c93ae734be6a9d0afe6dae331aef16098d62aec6bf4fa8a2c7608",
+  "clips_sha256": "672b9aab3c1303883bb3199059d27207261ded09869b2069149539bfea01d63c",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "hurt_NE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    4
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "02a5158ee8147d33b0a13713f54bef2a0648b72aaa7095f032b8215a00696a0f",
+      "rgba_sha256": "acf9e0de33e08d67bd58f645bf095c4af92be404953f772bedd454473a538985",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "b1e5a8108702dd0d8444092943a9fc9ad41eb1d56f8225126fa2cc10d76f68ae",
+      "rgba_sha256": "c525641a95aef953ad8d85266740d1e21da51c7f6a621d2094ce9d93eb83a814",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "bd90250730f50626c8c515ce89dec9e0fafec1ecf99289e1799525a71f77c072",
+      "rgba_sha256": "69d12c77ea3470543aaf7a6c02733223fa536c83fbd21c8f232bc3d0c58be9f6",
+      "hold": [
+        1,
+        20
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "ddd95398e7a8fb55c5b654986d957e1586ccb55dfec00e0483adc8ba4d2a26c5",
+    "project_canonical_sha256": "a2d460853256a8ccda26c9e04c637043cac5b91db5e55021a1f0c6023b123940",
+    "tick_rate_rational": [
+      20,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "hurt",
+  "direction": "NE",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

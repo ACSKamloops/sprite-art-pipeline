@@ -1,0 +1,29 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/S/death/construction/death/project.json",
+  "source_file_sha256": "c6b4571433f9ffb16baeddd836b54be819d7ffd5a42706daea953678510c1113",
+  "source_project_canonical_sha256": "b3dfd3d52a0dcb6a74106a61d53a8420d183efc04b751340731d0a255619ebe7",
+  "selected_animation": "death_S",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03"
+  ],
+  "frame_count": 4,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    2,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "3d4757dc165091f5b28851a5173c979c15f3116e5c74eec82daafe6c1f21d23f",
+  "clips_sha256": "2ca18149a32326148b78e40b5746d79ac336bf4d3d5ed9d0a91c4dee42701a87",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

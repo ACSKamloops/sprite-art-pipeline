@@ -1,0 +1,33 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/S-supported-v4/construction/walk/project.json",
+  "source_file_sha256": "69bf7e74c2ea53ed703da320ace891a3c215a99f21365888eed6efc2e395db5a",
+  "source_project_canonical_sha256": "384068cd0e348484a83fc4e6102a46e27a96db1bb7f27d56bf6a7bf3cc5a2368",
+  "selected_animation": "walk_S",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03",
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07"
+  ],
+  "frame_count": 8,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    1
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "71167bf8e9611e6098e95a0bb6ed5963f9126bb93c008cb6df21be4bbfbcaa58",
+  "clips_sha256": "9c5264c703959da2a73aaa1bf7fc0429c750c42d080eac0ab0e65a899bac7fdd",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/s-dash-low-drive/identity-v5/candidate/construction/dash/project.json",
+  "source_file_sha256": "1c16931050d44768c886c78ced49287c1daba6076c5b43e79ade8a1429e173fc",
+  "source_project_canonical_sha256": "8b1ece879e64b18264b5e11470db84f69631632c7a1bcceaf757cd2abe352b34",
+  "selected_animation": "dash_S",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03",
+    "cell-04",
+    "cell-05",
+    "cell-06"
+  ],
+  "frame_count": 7,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    3
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "c9f70ab6c6a04bd42193484262aa61a2d6e2a9e21539fbc9a2987077a8968781",
+  "clips_sha256": "107bcd562b3685388fc6d67c4aa8cbabd280913d3d69272450d6c887a9a42977",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

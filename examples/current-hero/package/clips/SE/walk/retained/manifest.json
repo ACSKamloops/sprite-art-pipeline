@@ -1,0 +1,208 @@
+{
+  "id": "walk",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    1
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "state-00",
+      "file": "frames/0000.png",
+      "sha256": "b50338b5127b19a7249d4582b547607583aad0f7d07e44723255759ed4465cb4",
+      "rgba_sha256": "68aafa395e116a4f6cc61aaf603bd1e52b807d8bd9dac0f0609819b0f7e79986",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "state-01",
+      "file": "frames/0001.png",
+      "sha256": "b50338b5127b19a7249d4582b547607583aad0f7d07e44723255759ed4465cb4",
+      "rgba_sha256": "68aafa395e116a4f6cc61aaf603bd1e52b807d8bd9dac0f0609819b0f7e79986",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "state-02",
+      "file": "frames/0002.png",
+      "sha256": "19abfe01aa7c9a68a534ca26ac4d2542107ee66b5c729f09e7ce84f7240a17ef",
+      "rgba_sha256": "d9c9b850c8f42e41ae8eb1792e7730271ceead0581a36138d5b254e86b53c2aa",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "state-03",
+      "file": "frames/0003.png",
+      "sha256": "19abfe01aa7c9a68a534ca26ac4d2542107ee66b5c729f09e7ce84f7240a17ef",
+      "rgba_sha256": "d9c9b850c8f42e41ae8eb1792e7730271ceead0581a36138d5b254e86b53c2aa",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame_id": "state-04",
+      "file": "frames/0004.png",
+      "sha256": "fa559e9c3f5e9bed310b1130cfba13b52fa495f8563ff47ff87eb7a8d0d2e6b8",
+      "rgba_sha256": "463c07a27eb7ef3cf369daf4530d5a05b16c1967cc7905a2a1e5060f3db4777f",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 5,
+      "source_frame_id": "state-05",
+      "file": "frames/0005.png",
+      "sha256": "495d56368c7d4fa25b78a2830bffa49f819da3f83cdf6b652269f8defa5d8e4f",
+      "rgba_sha256": "2d02742a7ea1fc85a0cb94f76ee36f1d5ae84651728071b9a465b2484aaa3ae5",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 6,
+      "source_frame_id": "state-06",
+      "file": "frames/0006.png",
+      "sha256": "4d27d1e106a2ff9f1f51022c3c5bd987cef83b001c081163eaf9efa441ae0203",
+      "rgba_sha256": "309f33872cedd5ed3e2fa105cef33a19d455e81b51170b29d9cd55994668979d",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 7,
+      "source_frame_id": "state-07",
+      "file": "frames/0007.png",
+      "sha256": "e6acc4c52a233da49bf6c04eda39e2231ce2f23a28fc514ce0a570b700c54210",
+      "rgba_sha256": "6b627953d4636d620669965b94409096c5b2be8fc05afca7e2a4e0d82845f192",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 8,
+      "source_frame_id": "state-08",
+      "file": "frames/0008.png",
+      "sha256": "461395acfa1ea221c782e3256ce286f79547f2919b9612b5604cb2b312efa013",
+      "rgba_sha256": "5d270f385d05c0bece0d84f7e3f0cd2d93d18b97812d568cb1e4d17e75c946f5",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 9,
+      "source_frame_id": "state-09",
+      "file": "frames/0009.png",
+      "sha256": "6fb02d5dad4ea6854f049bed13564e678b9d5f0a3775fd19b68c97c85e970d91",
+      "rgba_sha256": "315b701db04f995dd9c16f0635f60d8034e15a5b4d890676270fe6b50d465b1a",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 10,
+      "source_frame_id": "state-10",
+      "file": "frames/0010.png",
+      "sha256": "1fe933c914d2d0ebb2814f88f018f6980d75e2da2569943c1663de6f6684329f",
+      "rgba_sha256": "670562a6e7b0d7c79cf99fbaab987ef4ad55adaf6281c46eeb791a4f7161ab45",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 11,
+      "source_frame_id": "state-11",
+      "file": "frames/0011.png",
+      "sha256": "a5b50ad27ce51e89c9f1dedcc679ce64cbf51b87c9a7b89780dc49740ae184e8",
+      "rgba_sha256": "d343de065e10e7e79e29ef8ab711ba09afe602d297c0bbb6fbbaf1676d6cfb1e",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 12,
+      "source_frame_id": "state-12",
+      "file": "frames/0012.png",
+      "sha256": "75b8b9d180118402ea74480bd27033851f842ec202e6757fc1eb4cfbfccec8d1",
+      "rgba_sha256": "39a4cf314b130edd66fa95513e95fbb738bf96af1a2ea3a3dc39e92f66323d27",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 13,
+      "source_frame_id": "state-13",
+      "file": "frames/0013.png",
+      "sha256": "1654c6282e864e888fddcb085ee1b1d75405e13615b3bb3933023a8bc3428e44",
+      "rgba_sha256": "37eb0009eff0aa6b28b0ee9931b57eb4f5ebac47cad75b10304791558685bb66",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 14,
+      "source_frame_id": "state-14",
+      "file": "frames/0014.png",
+      "sha256": "f534704a7b6aa27fff00558fd1231344408875f94baf75f52f42d6271ed16a2c",
+      "rgba_sha256": "527b6a1f161ed80dec9e7c831b01ec37e7fda3a2329459b1132c0e28f9ba4688",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 15,
+      "source_frame_id": "state-15",
+      "file": "frames/0015.png",
+      "sha256": "f534704a7b6aa27fff00558fd1231344408875f94baf75f52f42d6271ed16a2c",
+      "rgba_sha256": "527b6a1f161ed80dec9e7c831b01ec37e7fda3a2329459b1132c0e28f9ba4688",
+      "hold": [
+        1,
+        16
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "7d2ee539c04819179e3d71018e045cdee374fa6b01f36c3ae038df6ca17fae57",
+    "project_canonical_sha256": "f50a781752219142d1138e212578d2d6a21bead6b0a0c484e57f886f6040623e",
+    "tick_rate_rational": [
+      16,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing."
+}

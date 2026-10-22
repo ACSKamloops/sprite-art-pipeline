@@ -1,0 +1,63 @@
+{
+  "id": "land_SE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    9,
+    50
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "8f648a22f5b14589dedaecf1ad8fde37be21bb99547390b21de6b926f8250c35",
+      "rgba_sha256": "6f8860a4335712620403abd5fbb479cf00e43362f49c1d52943fa0a255254c67",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+      "rgba_sha256": "2355a30c6f45457cfc00e812e7ca3f86a076d1064fc0f88e407ca2a523c6ace2",
+      "hold": [
+        2,
+        25
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "25b312414ef34b5c76f3e6b2674b68d7c7333a92e8e2791ee261764f63317ff7",
+    "project_canonical_sha256": "f3319c2406d7ad80d6260b48f638f63955786c49b630ce48addd4855275e6181",
+    "tick_rate_rational": [
+      50,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "land",
+  "direction": "SE",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

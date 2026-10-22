@@ -16,6 +16,9 @@ def main():
     env.pop('PYTHONPATH',None)
     steps=[
       ('repository-content',[py,str(ROOT/'scripts/check_repository.py'),'--report',str(out/'content.json')],ROOT),
+      ('current-hero-snapshot',[py,str(ROOT/'scripts/verify_selected_hero.py'),'--report',str(out/'current-hero.json')],ROOT),
+      ('current-hero-recovery-replay',[py,str(ROOT/'examples/current-hero/replay_recovery.py'),'--output',str(out/'recovery')],ROOT),
+      ('imagegen-settle-fixture',[py,str(ROOT/'skills/imagegen-sprite-animation/scripts/source_warp.py'),'replay',str(ROOT/'skills/imagegen-sprite-animation/assets/source-settle-fixture/settle.json')],ROOT),
       ('workbench-tests',[py,'-m','pytest','-q','tests'],ROOT/'workbench'),
       ('editable-toolkit-tests',[py,'-m','unittest','discover','-s','tests','-v'],toolkit),
       ('approved-walk-manifest',[py,str(ROOT/'skills/sprite-animation-pipeline/scripts/animation_assets.py'),'validate',str(ROOT/'examples/approved-hero/clips.json'),'--report',str(out/'walk-validation.json')],ROOT),

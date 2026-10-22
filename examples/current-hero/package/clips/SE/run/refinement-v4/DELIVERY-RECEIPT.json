@@ -1,0 +1,41 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/run-mode-fallback/standard-export/construction/run/project.json",
+  "source_file_sha256": "c0b4100d741d9636412da0d1a65967ddbc2e99ccb20d354f827bbfcc6bf0624d",
+  "source_project_canonical_sha256": "fb8f22e5c41ddc0b55fe85a133edae821add4a9ec4b1f60bb1a4f6e688da2ece",
+  "selected_animation": "run_SE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03",
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07",
+    "cell-08",
+    "cell-09",
+    "cell-10",
+    "cell-11",
+    "cell-12",
+    "cell-13",
+    "cell-14",
+    "cell-15"
+  ],
+  "frame_count": 16,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    5,
+    8
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "137be21042c14a5af16a73982e569490036fff088536d3cb3259803fd1e4ff93",
+  "clips_sha256": "e9a47743277a607f1f79a47a5202c20addf0d43a989015d88bb78999ba1cf789",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

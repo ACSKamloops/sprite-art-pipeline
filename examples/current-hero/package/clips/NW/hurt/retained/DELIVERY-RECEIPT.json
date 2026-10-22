@@ -1,0 +1,28 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/NW/construction/hurt/project.json",
+  "source_file_sha256": "51a705f7d063d8d111bf546b41d5d697f52de4081f197e6af93aa30191bdc76a",
+  "source_project_canonical_sha256": "92909cc17ea20560359821c95fed4c4476bbb833d684669205eb515a8991599b",
+  "selected_animation": "hurt_NW",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02"
+  ],
+  "frame_count": 3,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    4
+  ],
+  "atlas_columns": 3,
+  "actor": "hero",
+  "manifest_sha256": "55fc5a6fe327d0476cf79170b5bc252400a5c9803c3155cbfccc323c344bcfbd",
+  "clips_sha256": "aeb16a07bbd5e61c58245984e70648a71e33d7664111505fa89912856d37a97f",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

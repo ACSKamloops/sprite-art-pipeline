@@ -1,0 +1,61 @@
+{
+  "video_fps": 8,
+  "clips": [
+    {
+      "actor": "hero",
+      "name": "walk_NW",
+      "sheet": "atlas.png",
+      "sheet_columns": 4,
+      "frame_size": [
+        80,
+        80
+      ],
+      "loop": true,
+      "frames": [
+        {
+          "atlas_index": 0,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 1,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 2,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 3,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 4,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 5,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 6,
+          "duration_video_frames": 1
+        },
+        {
+          "atlas_index": 7,
+          "duration_video_frames": 1
+        }
+      ],
+      "action": "walk",
+      "direction": "NW",
+      "pivot_pixels": [
+        40,
+        72
+      ],
+      "ground_pivot_pixels": [
+        40,
+        72
+      ],
+      "authored_events": []
+    }
+  ]
+}

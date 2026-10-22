@@ -1,0 +1,70 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/derived-v4/hurt-SE/actions/hurt/manifest.json",
+  "manifest_sha256": "04f557fe6826fd0e4dbb80d51acd297d6917487bd5b921265fa5150192c78be4",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    4
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/derived-v4/hurt-SE/actions/hurt/frames/0000.png",
+      "sha256": "fed89ffd42b3699d3064edfc100aa94ba6df0fefb7f2d1de7e6eccf0e8c300f7",
+      "rgba_sha256": "f7ec546d954b6e098dad12ebc94b44f6164182cd0909f29a023b120cf17856f2",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/derived-v4/hurt-SE/actions/hurt/frames/0001.png",
+      "sha256": "b7497262461e85743085ad87012a593759a9d61c6b6b9820b2b224fb3c6b1448",
+      "rgba_sha256": "592da1969047000a6048c73c479b0d004a2e42209409fb2836d16f82a0139ca3",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/derived-v4/hurt-SE/actions/hurt/frames/0002.png",
+      "sha256": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+      "rgba_sha256": "2355a30c6f45457cfc00e812e7ca3f86a076d1064fc0f88e407ca2a523c6ace2",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "bcb8d9fe3f5963e62fc5a1918db8486621ebb2911125c9d40b57d75eb01a1316",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 5,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        20
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      3,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

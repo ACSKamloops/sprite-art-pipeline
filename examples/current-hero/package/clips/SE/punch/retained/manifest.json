@@ -1,0 +1,159 @@
+{
+  "id": "punch_SE",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    7,
+    12
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "2cdcdf2c7d7fb3b5c95d0edcf2c3132b995e54df480925e0ff8692a672739e71",
+      "rgba_sha256": "5ad8db2b06f92d51a6e8b053ed23c95565106c324a0d1c3a0cb2e8865119459d",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "aea7bd15753a023653a47c0db8a69a88acbd92488c7940871cba2461ff9c660b",
+      "rgba_sha256": "3000bc92a62641389db757e78141a8eaabbf4f391fa084c759db79d2810a3363",
+      "hold": [
+        1,
+        16
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "d6ab43b3a32ef3f8df162f43cdb76985ce5de1df733485d3769156f4a5ceaabc",
+      "rgba_sha256": "103c23a11fdc4c6f571655f141f3937255efb8886590bdefbd5461d73df3751c",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "8240f062e0508cd19cae140e4652975691781b7ccc7b7a9031ff5adc391b38cd",
+      "rgba_sha256": "55d326ff7435df3544941f3b1e7e25280a78f5caf8effb58368f30e669624c11",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame_id": "cell-04",
+      "file": "frames/0004.png",
+      "sha256": "41c6d40ff90c8f47cea7aba32dd8d44b1dbcbf47928d0351974cc963938a2bf8",
+      "rgba_sha256": "e742c2ae3738c58e3bedc5e01d05142e8a8eba8c2b43a2412326701fbdb3a80d",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 5,
+      "source_frame_id": "cell-05",
+      "file": "frames/0005.png",
+      "sha256": "329c372ce3a66f4c7ee16f1f0d622cb78262fae13cb2f14367f3f4490c823beb",
+      "rgba_sha256": "60d4d2429beeefddf060a76bd4329bd1e94cf2fe178a30342d2c2b2142330a03",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 6,
+      "source_frame_id": "cell-06",
+      "file": "frames/0006.png",
+      "sha256": "8f2d04fe13a1679fd4bd2ed0ff6deab055af431907f7a11424fc5860c8c6155e",
+      "rgba_sha256": "8941b4ff8f2c2c1d397998bf77e07e35169f62031e49cc0560f85a758d03a8f9",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 7,
+      "source_frame_id": "cell-07",
+      "file": "frames/0007.png",
+      "sha256": "1721a86c31bda3b963d5c8f03e6f352045f1277794c0eb646bcc6c094db14e45",
+      "rgba_sha256": "d9751c377b73a4e55c08e5098ca2db8e622c4fed2192c22f8233d816e58b6dc9",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 8,
+      "source_frame_id": "cell-08",
+      "file": "frames/0008.png",
+      "sha256": "00e4b66883bfcd98c287bf2a5c9ca311b932bf3b76802df6885e9f88655771e1",
+      "rgba_sha256": "eac0d452cf8e4cb1203756386607b55df0450ef0d678a28c8195fb62021c27a2",
+      "hold": [
+        1,
+        24
+      ]
+    },
+    {
+      "index": 9,
+      "source_frame_id": "cell-09",
+      "file": "frames/0009.png",
+      "sha256": "2cdcdf2c7d7fb3b5c95d0edcf2c3132b995e54df480925e0ff8692a672739e71",
+      "rgba_sha256": "5ad8db2b06f92d51a6e8b053ed23c95565106c324a0d1c3a0cb2e8865119459d",
+      "hold": [
+        1,
+        8
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "6359d899312aed0f4bdcec0659affe3d1d5ffea173f6e2668db28ef8abc61482",
+    "project_canonical_sha256": "fd31a18160f613498425bf889c80611855fffa2f1dcf478214b7bbb1d8f74ae5",
+    "tick_rate_rational": [
+      48,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "punch",
+  "direction": "SE",
+  "events": [
+    {
+      "name": "contact_pose",
+      "time": [
+        5,
+        24
+      ]
+    }
+  ],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

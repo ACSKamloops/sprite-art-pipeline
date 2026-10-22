@@ -1,0 +1,104 @@
+{
+  "id": "punch_SW",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    11,
+    25
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "33ad767ab8c766b226eea1e0a6d791a495454d73195b9552efad0a6295dc12ab",
+      "rgba_sha256": "2c118a7f716d69d3916eaae4d99ef99a66270f7a6f3ea4c51409285ed889ee33",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "6da241ef17e7d67bc50d312f5fe285bd5b8f727118a19b8c56166534ac0ed960",
+      "rgba_sha256": "a7996a6a694690f619eb2d2ca2b251eef133da3fbe8ff2a827f53235eb214ca1",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-02",
+      "file": "frames/0002.png",
+      "sha256": "a72c7fe46b45efe57b7a513f931da0c7dea695043b9d0ed259f955a9cb2f4496",
+      "rgba_sha256": "c8b024f883d0fa56533380830c101a12a019cdf5b91e51651bd9c5fdada0881d",
+      "hold": [
+        2,
+        25
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-03",
+      "file": "frames/0003.png",
+      "sha256": "96f93d39425c2c0378f5cb8943b4066f4668b473606982d0821635ccc54c8995",
+      "rgba_sha256": "839efa12db0db4f88086c1c5e287bb94ed157110a619acc3935cb3f6ad3c952f",
+      "hold": [
+        2,
+        25
+      ]
+    },
+    {
+      "index": 4,
+      "source_frame_id": "cell-04",
+      "file": "frames/0004.png",
+      "sha256": "33ad767ab8c766b226eea1e0a6d791a495454d73195b9552efad0a6295dc12ab",
+      "rgba_sha256": "2c118a7f716d69d3916eaae4d99ef99a66270f7a6f3ea4c51409285ed889ee33",
+      "hold": [
+        2,
+        25
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "dcffbb3254ed5710cc35ecee6ca3afcc09a735cf332e0c379c333309ff79fe1a",
+    "project_canonical_sha256": "17bd10a73ded69806f568be5c8e2346855168c68ed4bec2d8ab075e4a1610914",
+    "tick_rate_rational": [
+      50,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "punch",
+  "direction": "SW",
+  "events": [
+    {
+      "name": "hit",
+      "time": [
+        1,
+        5
+      ]
+    }
+  ],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "interact_S",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    2
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-12",
+      "file": "frames/0000.png",
+      "sha256": "f80b50ca7df81dcc7fc2656e434163610098be5c3dd4508c17abf348375ab6b8",
+      "rgba_sha256": "9bd5be6a1a001ab6e7cc4d9c682da9f34fcde2c071adfe55240e6c9f7d34e6c5",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-13",
+      "file": "frames/0001.png",
+      "sha256": "f63fd1acc20c8d7c47343c87666b7c80ce3c78b0e1e2883bef98c22e8413d508",
+      "rgba_sha256": "694b3bccb3031a8a0a0d77467d25f36bc5d82a063571f2f5bad1ad52d2a61051",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-14",
+      "file": "frames/0002.png",
+      "sha256": "b07228ba30b2ffddde6d74f3e06da7262bb615c4b615a19770bded25aca7a180",
+      "rgba_sha256": "c0cf3a75176f907065881c2e9995dd6f5511ea2ff31c21b9712a8a40f8261c1d",
+      "hold": [
+        1,
+        8
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-15",
+      "file": "frames/0003.png",
+      "sha256": "085fa863dbaa24fb65c188c03decba9cd1fd0d3f7f211d89a95e97c30c72ff94",
+      "rgba_sha256": "a8ee883d4cc4ac3b205bdc97b0bff3175b91bf5cb71a8d10bdfe3d827a2e46a8",
+      "hold": [
+        1,
+        8
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "c1bf6443c5e48d9b61feddf192fee024047abad3dfaa900174ba4c5e793fa664",
+    "project_canonical_sha256": "1001474c5e532bb29940f755e9b6ec6fed85021386cb288db2b6ff2328131a8f",
+    "tick_rate_rational": [
+      8,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "interact",
+  "direction": "S",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

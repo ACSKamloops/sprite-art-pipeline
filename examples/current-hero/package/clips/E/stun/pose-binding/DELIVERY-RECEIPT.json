@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/E/stun/construction/stun/project.json",
+  "source_file_sha256": "08e1d985b9bbae583c4ed333ef0f154c2ad02f0fad850b086b2022942317d7a4",
+  "source_project_canonical_sha256": "5518922d5e6a9e608268bf4a6c7bd0c5544e97bf68ee192eb7c85e4545e80a7e",
+  "selected_animation": "stun_E",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01"
+  ],
+  "frame_count": 2,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    3,
+    5
+  ],
+  "atlas_columns": 2,
+  "actor": "hero",
+  "manifest_sha256": "e4b9ec8f3887663ca970dedcd4636cd48bc86e12976a85a7749d6c6a1c39f97d",
+  "clips_sha256": "401c21aa359c919135ae6cf3253684d26cea4bcecb48c5d438586efe26b6203c",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

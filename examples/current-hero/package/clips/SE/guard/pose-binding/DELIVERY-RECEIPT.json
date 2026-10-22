@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/derived-v1/SE/guard/construction/guard/project.json",
+  "source_file_sha256": "2ad963ab4cf490990ab94d03042b6ce3f929b67bfb981e4733c940ffc8551abb",
+  "source_project_canonical_sha256": "58883696ba8d64634689ca40321a3ba857031ea0c8867c6e38510621367dbe12",
+  "selected_animation": "guard_SE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01"
+  ],
+  "frame_count": 2,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    1
+  ],
+  "atlas_columns": 2,
+  "actor": "hero",
+  "manifest_sha256": "8db9e1eb7eec7f58f41cc6897b18992d0a2d0c01cfbfad67e0c193a035e9729b",
+  "clips_sha256": "d9f41000eaa6b9e73ab8d8eb3cc4174c3971d06131682bb15b365e6555d5e8eb",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

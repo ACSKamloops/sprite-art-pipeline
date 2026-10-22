@@ -1,0 +1,85 @@
+{
+  "id": "dodge_SW",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    2,
+    5
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-12",
+      "file": "frames/0000.png",
+      "sha256": "5ffe7821cafad133512dc2a2672797ee746758a0b0d5b87c13547a25f8284c24",
+      "rgba_sha256": "efbef93119d646abd7e302133d1e777c8322ed8d5ed9502d872d29ffba57685d",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-13",
+      "file": "frames/0001.png",
+      "sha256": "dd13fcd3206d4629bd739b2a9fe9d0effb7161204e05be4b18a2ec6f7d2f6422",
+      "rgba_sha256": "725681b176077843572cfa86078216c33c102e0c8aacfb5e22f8c03e7e45c93d",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-14",
+      "file": "frames/0002.png",
+      "sha256": "4867cc8b318f0b7dfd3b391ce70c25acbe35ad745b282e0446a2fba5adf1f780",
+      "rgba_sha256": "dfcd9630402a3bde74048083fb638998c5be71ec0c3fce62046e3796ff68bbc7",
+      "hold": [
+        1,
+        10
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-15",
+      "file": "frames/0003.png",
+      "sha256": "7322216e5c8d14a36410e72e54905031cbc1ad0e40b6268742788494c24c1aca",
+      "rgba_sha256": "147ee089f01ad4d9c729d8b48eaad8451c80f61ff165b6ec108b68af154ec661",
+      "hold": [
+        1,
+        10
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "8a51ddcc51cce094e5866e25d2e8a62494b87c20bfd5b24c2ff591a5c0e7a320",
+    "project_canonical_sha256": "003b5088651bdf20898955c86f08771073a14a1dfc00eb3f78cf824305d245e4",
+    "tick_rate_rational": [
+      10,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "dodge",
+  "direction": "SW",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

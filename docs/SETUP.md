@@ -47,3 +47,17 @@ Do not run retained historical generator scripts merely by importing them. Many
 are one-shot experiment producers with original absolute paths and write targets.
 Use documented entrypoints with fresh output directories and inspect their inputs.
 
+For the current character, use [the portable example](../examples/current-hero/README.md)
+and [AI handoff](AI-HANDOFF.md). `scripts/verify_selected_hero.py` verifies all
+distributed files and the selected PNG pixels/clocks without the original
+artifact tree. The existing RPG preview builder then creates a fresh Godot
+project using repository-relative templates. The additional targeted default
+checks are `current-hero-snapshot`, `current-hero-recovery-replay` and
+`imagegen-settle-fixture`; historical
+verification receipts retain the check set they actually ran.
+
+`scripts/package_skills.py --output /fresh/path/skills.zip` packages all four
+skills with an installer and hashes. It requires reviewed, committed source by
+default; `--allow-dirty` explicitly labels a local test archive. The release
+bundle is made from a clean source revision. Neither operation generates art.
+

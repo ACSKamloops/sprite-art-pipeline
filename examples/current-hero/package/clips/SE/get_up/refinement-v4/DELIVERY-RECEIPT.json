@@ -1,0 +1,35 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round3/professional-settle-upper-only/candidate/construction/get_up/project.json",
+  "source_file_sha256": "932a8c625926b242bcc849cd8c2612186c41d4bd6aa9511fc208c066a669874d",
+  "source_project_canonical_sha256": "859eada4a83ab3547384a2d65394cc5f616272cd26b152c554b36533796fef97",
+  "selected_animation": "get_up_SE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01",
+    "cell-02",
+    "cell-03",
+    "cell-04",
+    "cell-05",
+    "cell-06",
+    "cell-07",
+    "cell-08",
+    "cell-09"
+  ],
+  "frame_count": 10,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    6,
+    5
+  ],
+  "atlas_columns": 4,
+  "actor": "hero",
+  "manifest_sha256": "3331624bdb09f45a2089dc2b5acd2c264c43f79645faf1f2e9d7d37fedb8de1b",
+  "clips_sha256": "88f0eb142d4f24d537d889c57ef31494004012493d4ab7a3607e702a9968b819",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

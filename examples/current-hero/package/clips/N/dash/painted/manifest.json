@@ -1,0 +1,88 @@
+{
+  "id": "dash_N",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": false,
+  "duration": [
+    1,
+    3
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-08",
+      "file": "frames/0000.png",
+      "sha256": "bb47e6dd0b474433302787adca17dcbbf1de55850d5cc1bd03bf9d2f21a17f4f",
+      "rgba_sha256": "d1e83c52e5c4b5ad8c67ac397b050e4b1edaec337dfcc5ed4746980f48405319",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-09",
+      "file": "frames/0001.png",
+      "sha256": "d73047bf9260e66685b6af7138f0d56edcf0cb4599d168847188d254b9c2f6e1",
+      "rgba_sha256": "3776b3fafa6007a5258a898811c1adbfef558897c6d297e077445a715998a519",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 2,
+      "source_frame_id": "cell-10",
+      "file": "frames/0002.png",
+      "sha256": "b67aac68996cf83f474edda1804be96348ff4e628fde41f3e0c81624cbdd74d7",
+      "rgba_sha256": "5e7f4b998ce9394b9339dd8618f99f55ce23178ad7659e257936b99e2cec612b",
+      "hold": [
+        1,
+        12
+      ]
+    },
+    {
+      "index": 3,
+      "source_frame_id": "cell-11",
+      "file": "frames/0003.png",
+      "sha256": "0d1979a340d79466fc82ef29233c1bb8bc2cd999c098a2e54165efd876838108",
+      "rgba_sha256": "d789d96356da3ece7bb02670f584863ba400928f2ddfdbd0d55089856aeb49bf",
+      "hold": [
+        1,
+        12
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "791c28d3ee1de217a3ca4d22be95d1dfb488177043a57386f2ad43d87cd6ce8c",
+    "project_canonical_sha256": "b785d6d61541ff24cd0b31a6f74add876c98aa6305a33f54b09552d91795229e",
+    "tick_rate_rational": [
+      12,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "dash",
+  "direction": "N",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof",
+  "review_status": "unreviewed-candidate",
+  "faults": [],
+  "review_scope": "Ordered still inspection; timed human playback pending"
+}

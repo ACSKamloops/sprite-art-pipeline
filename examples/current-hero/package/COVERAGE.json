@@ -1,0 +1,1719 @@
+{
+  "bindings": [
+    {
+      "action": "idle",
+      "direction": "N",
+      "binding": "idle_N_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "N",
+      "binding": "walk_N_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "N",
+      "binding": "run_N_painted",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [
+        "Similar first-half poses; scarf changes side across cycle; timed human review pending."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "N",
+      "binding": "punch_N_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "N",
+      "binding": "cast_N_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "N",
+      "binding": "guard_N_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "N",
+      "binding": "hurt_N_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "N",
+      "binding": "stun_N_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "N",
+      "binding": "dash_N_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "N",
+      "binding": "dodge_N_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "N",
+      "binding": "jump_N_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "N",
+      "binding": "land_N_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "N",
+      "binding": "crouch_N_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "N",
+      "binding": "knockdown_N_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "art-faults-unreviewed",
+      "faults": [
+        "Generated raw cell5 has a flat lower contour:119 opaque source pixels at y609, followed by transparent rows. It is present in raw paint, not export clipping."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "N",
+      "binding": "get_up_N_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "art-faults-unreviewed",
+      "faults": [
+        "Hand/knee rise visible in ordered stills; prone endpoint exact continuity unproven.",
+        "Knockdown final cell7 to get_up initial cell8 changes prone orientation/placement sharply; endpoint continuity not established."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "N",
+      "binding": "death_N_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "N",
+      "binding": "interact_N_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "NE",
+      "binding": "idle_NE_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "NE",
+      "binding": "walk_NE_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "NE",
+      "binding": "run_NE_painted",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "painted",
+      "review_status": "rejected-leg-exchange",
+      "faults": [
+        "Both four-frame halves appear to repeat same leading boot; actual opposite support roles unproven."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "NE",
+      "binding": "punch_NE_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "NE",
+      "binding": "cast_NE_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "NE",
+      "binding": "guard_NE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "NE",
+      "binding": "hurt_NE_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "NE",
+      "binding": "stun_NE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "NE",
+      "binding": "dash_NE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "NE",
+      "binding": "dodge_NE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "NE",
+      "binding": "jump_NE_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "NE",
+      "binding": "land_NE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "NE",
+      "binding": "crouch_NE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "NE",
+      "binding": "knockdown_NE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "NE",
+      "binding": "get_up_NE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "art-faults-unreviewed",
+      "faults": [
+        "Hand/knee rise visible in ordered stills; prone endpoint exact continuity unproven.",
+        "Knockdown final cell7 to get_up initial cell8 changes prone orientation/placement sharply; endpoint continuity not established."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "NE",
+      "binding": "death_NE_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "NE",
+      "binding": "interact_NE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "E",
+      "binding": "idle_E_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "E",
+      "binding": "walk_E_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "E",
+      "binding": "run_E_painted",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "painted",
+      "review_status": "prototype; support-leg alternation uncertain; human-review-required",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift",
+        "near/far hip-to-boot ownership not unambiguously established in stills"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "E",
+      "binding": "punch_E_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "E",
+      "binding": "cast_E_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "E",
+      "binding": "guard_E_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "E",
+      "binding": "hurt_E_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "E",
+      "binding": "stun_E_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "E",
+      "binding": "dash_E_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "E",
+      "binding": "dodge_E_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "E",
+      "binding": "jump_E_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "E",
+      "binding": "land_E_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "E",
+      "binding": "crouch_E_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "E",
+      "binding": "knockdown_E_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "E",
+      "binding": "get_up_E_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "E",
+      "binding": "death_E_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "E",
+      "binding": "interact_E_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "SE",
+      "binding": "idle_SE_refinement-v4",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "walk-compatible-neutral-playback-pending",
+      "faults": [
+        "One unique held drawing; planted source legs and relaxed arm pose need human context review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "SE",
+      "binding": "walk_SE_original",
+      "frames": 16,
+      "unique_rasters": 13,
+      "construction": "retained",
+      "review_status": "preferred",
+      "faults": [],
+      "art_approved": true
+    },
+    {
+      "action": "run",
+      "direction": "SE",
+      "binding": "run_SE_refinement-v4",
+      "frames": 16,
+      "unique_rasters": 13,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "explicit-fast-walk-alias-playback-pending",
+      "faults": [
+        "Exact preferred walk at faster5/8s clock; no new run drawing or flight phase.",
+        "Original walk acceptance does not approve this faster timing or every action/direction."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "SE",
+      "binding": "punch_SE_retained",
+      "frames": 10,
+      "unique_rasters": 9,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "SE",
+      "binding": "cast_SE_retained",
+      "frames": 4,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "SE",
+      "binding": "guard_SE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "SE",
+      "binding": "hurt_SE_refinement-v4",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "neutral-dependency-refreshed-playback-pending",
+      "faults": [
+        "Actual neutral endpoint refreshed; preceding pose still needs boundary review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "SE",
+      "binding": "stun_SE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "SE",
+      "binding": "dash_SE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "SE",
+      "binding": "dodge_SE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "SE",
+      "binding": "jump_SE_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "SE",
+      "binding": "land_SE_refinement-v4",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "neutral-dependency-refreshed-playback-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review.",
+        "Actual neutral endpoint refreshed; preceding pose still needs boundary review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "SE",
+      "binding": "crouch_SE_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "SE",
+      "binding": "knockdown_SE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "SE",
+      "binding": "get_up_SE_refinement-v4",
+      "frames": 10,
+      "unique_rasters": 10,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "authored-motion-guide-paint-and-sourcepart-refinement-playback-pending",
+      "faults": [
+        "New supine-seat-squat-stand paint has clearer wholebody stages; bootownership/entrygather/weighttransfer remain below9/10.",
+        "Sourcepart supportrelease and upper-only settle have narrow ordered-still preferences, not continuoushumanacceptance."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "SE",
+      "binding": "death_SE_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "SE",
+      "binding": "interact_SE_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "S",
+      "binding": "idle_S_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "S",
+      "binding": "walk_S_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "S",
+      "binding": "run_S_refinement-v4",
+      "frames": 12,
+      "unique_rasters": 12,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "independent-still-preferred-playback-pending",
+      "faults": [
+        "Mirrored cuff volume and limited body exchange remain."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "S",
+      "binding": "punch_S_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "S",
+      "binding": "cast_S_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "S",
+      "binding": "guard_S_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "S",
+      "binding": "hurt_S_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "S",
+      "binding": "stun_S_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "S",
+      "binding": "dash_S_refinement-v4",
+      "frames": 7,
+      "unique_rasters": 7,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "independent-still-preferred-playback-pending",
+      "faults": [
+        "Extreme pitch hides torso/legs; body/glove and early camera changes remain."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "S",
+      "binding": "dodge_S_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "S",
+      "binding": "jump_S_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "S",
+      "binding": "land_S_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "S",
+      "binding": "crouch_S_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "S",
+      "binding": "knockdown_S_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "S",
+      "binding": "get_up_S_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "S",
+      "binding": "death_S_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "S",
+      "binding": "interact_S_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "candidate-needs-temporal-review",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "SW",
+      "binding": "idle_SW_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "SW",
+      "binding": "walk_SW_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "SW",
+      "binding": "run_SW_painted",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "painted",
+      "review_status": "failed-gait-alternation; prototype-only",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift",
+        "repeated screen-left leading contact after targeted correction"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "SW",
+      "binding": "punch_SW_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "SW",
+      "binding": "cast_SW_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "SW",
+      "binding": "guard_SW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "SW",
+      "binding": "hurt_SW_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "SW",
+      "binding": "stun_SW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "SW",
+      "binding": "dash_SW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "SW",
+      "binding": "dodge_SW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "SW",
+      "binding": "jump_SW_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "SW",
+      "binding": "land_SW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "SW",
+      "binding": "crouch_SW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "SW",
+      "binding": "knockdown_SW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "SW",
+      "binding": "get_up_SW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "SW",
+      "binding": "death_SW_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "SW",
+      "binding": "interact_SW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "W",
+      "binding": "idle_W_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "W",
+      "binding": "walk_W_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "W",
+      "binding": "run_W_painted",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "painted",
+      "review_status": "prototype; support-leg alternation uncertain; human-review-required",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift",
+        "near/far hip-to-boot ownership not unambiguously established in stills"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "W",
+      "binding": "punch_W_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "W",
+      "binding": "cast_W_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "W",
+      "binding": "guard_W_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "W",
+      "binding": "hurt_W_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "W",
+      "binding": "stun_W_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "W",
+      "binding": "dash_W_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "W",
+      "binding": "dodge_W_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "W",
+      "binding": "jump_W_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "W",
+      "binding": "land_W_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "W",
+      "binding": "crouch_W_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "W",
+      "binding": "knockdown_W_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "W",
+      "binding": "get_up_W_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "W",
+      "binding": "death_W_pose-binding",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Shares fall art with knockdown; death remains on last pose, knockdown transitions to get-up."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "W",
+      "binding": "interact_W_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "prototype-unapproved; human-playback-pending",
+      "faults": [
+        "head enlarged against appearance reference",
+        "bracer/bare-hand appearance drift"
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "idle",
+      "direction": "NW",
+      "binding": "idle_NW_retained",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "walk",
+      "direction": "NW",
+      "binding": "walk_NW_retained",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "run",
+      "direction": "NW",
+      "binding": "run_NW_painted",
+      "frames": 8,
+      "unique_rasters": 8,
+      "construction": "painted",
+      "review_status": "rejected-leg-exchange",
+      "faults": [
+        "Both four-frame halves appear to repeat same leading boot; actual opposite support roles unproven."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "punch",
+      "direction": "NW",
+      "binding": "punch_NW_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "cast",
+      "direction": "NW",
+      "binding": "cast_NW_retained",
+      "frames": 5,
+      "unique_rasters": 4,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "guard",
+      "direction": "NW",
+      "binding": "guard_NW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held unarmed attack-ready pose; not an equipped shield/weapon guard. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "hurt",
+      "direction": "NW",
+      "binding": "hurt_NW_retained",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "retained",
+      "review_status": "repaired-playback-pending",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "stun",
+      "direction": "NW",
+      "binding": "stun_NW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held hurt pose for stun duration; no new dizzy loop or effect. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "dash",
+      "direction": "NW",
+      "binding": "dash_NW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "dodge",
+      "direction": "NW",
+      "binding": "dodge_NW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    },
+    {
+      "action": "jump",
+      "direction": "NW",
+      "binding": "jump_NW_pose-binding",
+      "frames": 3,
+      "unique_rasters": 3,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "First three generated jump keys: anticipate, takeoff, airborne; landing split into its own state."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "land",
+      "direction": "NW",
+      "binding": "land_NW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 2,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Generated landing squat followed by exact retained neutral; bridge still needs temporal review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "crouch",
+      "direction": "NW",
+      "binding": "crouch_NW_pose-binding",
+      "frames": 2,
+      "unique_rasters": 1,
+      "construction": "pose-binding",
+      "review_status": "bound-existing-poses-review-pending",
+      "faults": [
+        "Held anticipation crouch; explicit pose reuse, not animated crouch breathing. Two identical exposures encode one held pose; unique drawing count is one."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "knockdown",
+      "direction": "NW",
+      "binding": "knockdown_NW_refinement-v4",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "independent-still-preferred-playback-pending",
+      "faults": [
+        "Other coarse transitions and ground-contact behavior still need art review."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "get_up",
+      "direction": "NW",
+      "binding": "get_up_NW_refinement-v4",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "independent-still-preferred-playback-pending",
+      "faults": [
+        "Exact fall entry repaired; coarse following rise and actual idle exit remain unaccepted."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "death",
+      "direction": "NW",
+      "binding": "death_NW_refinement-v4",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "explicit-refinement-overlay",
+      "review_status": "reused-revised-fall-playback-pending",
+      "faults": [
+        "Same fall drawings as knockdown; terminal behavior differs. No separate death art acceptance."
+      ],
+      "art_approved": false
+    },
+    {
+      "action": "interact",
+      "direction": "NW",
+      "binding": "interact_NW_painted",
+      "frames": 4,
+      "unique_rasters": 4,
+      "construction": "painted",
+      "review_status": "unreviewed-candidate",
+      "faults": [],
+      "art_approved": false
+    }
+  ],
+  "bound_count": 136,
+  "art_approved_count": 1,
+  "rated_nine_count": 0,
+  "missing_required_bindings": [],
+  "deferred_extensions": [
+    "weapon-specific swings/grip and occlusion tracks",
+    "combat combo variants",
+    "swim/climb/mount if required by game",
+    "animated breathe/stun beyond held poses"
+  ],
+  "known_limits": [
+    "Provisional local inspector, wholelibrary9/10 remainsunmet.",
+    "OnlySEgetupchangesversusv3; new1.2s chronology, actualsourcebookends preserved.",
+    "SErunexplicitpreferredwalkalias5/8s; nocomplete runart/flightcoverage.",
+    "AuthoredCC0poseguide isourtestedconditioningroute, notrecoveredprivateprovider method.",
+    "Otherdirectionsretainpending/rejectedartstatus."
+  ],
+  "scoped_reviews": {
+    "run_S": {
+      "overall": 7.3,
+      "drawing": 7.4,
+      "identity": 8.2,
+      "chronology": 7.0
+    },
+    "get_up_SE": {
+      "overall": 7.6,
+      "drawing": 7.7,
+      "identity": 7.8,
+      "chronology": 7.6
+    },
+    "report": "../reviews/repaired-s-run-se-getup.json",
+    "modality": "ordered stills and known timing, not continuous video"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/E/actions/punch/manifest.json",
+  "manifest_sha256": "7c9664fc7b48d8b8ccd40c6a05bb13121e5a56f9f5843edf4594291682a71ac9",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": false,
+  "duration": [
+    11,
+    25
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/E/actions/punch/frames/0000.png",
+      "sha256": "70704b3b4105260a9d691406887dfbdf586aa73be6702f2364dbb168f491b696",
+      "rgba_sha256": "87ee94e66e9cdb9cf1356769f6ab81655a1919d9eef697b21bbb02abe56ba861",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/E/actions/punch/frames/0001.png",
+      "sha256": "752be890b5844c07bac4b7ea2f92799afa9c25ee6f0d7ce3e4741296ad1b253a",
+      "rgba_sha256": "b30dadf723754aac8ea85389ab16a3b45f0ec88e3af797e38d55f047413c2633",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/E/actions/punch/frames/0002.png",
+      "sha256": "5273e3c5de909c5613d8efef7f4d8aa1b82b633dd1798dece78249f83a9180b8",
+      "rgba_sha256": "7f750a298663b413e9994cdefc0d6aeb9818d5aa2f5a3c33915dbad867e72ef0",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 3,
+      "file": "frames/0003.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/E/actions/punch/frames/0003.png",
+      "sha256": "977617792455b6a1fbe474d3865bbcfce82a32cf42df1375021447fff2ba4677",
+      "rgba_sha256": "00b85689de08d2900de21b9380c44e1db48e685b7f9f77dc484c33b0138b5e82",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 4,
+      "file": "frames/0004.png",
+      "resolved_source": "/home/astra/artifacts/hero-rpg-expansion-20261021/selected-banks/E/actions/punch/frames/0004.png",
+      "sha256": "70704b3b4105260a9d691406887dfbdf586aa73be6702f2364dbb168f491b696",
+      "rgba_sha256": "87ee94e66e9cdb9cf1356769f6ab81655a1919d9eef697b21bbb02abe56ba861",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "c1fc7449d8ba24c60508525c00e46e875fafee03bd296a4c43ce779f56ff332f",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 9,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        25
+      ],
+      [
+        2,
+        25
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      5,
+      1
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}

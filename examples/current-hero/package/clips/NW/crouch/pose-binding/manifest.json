@@ -1,0 +1,63 @@
+{
+  "id": "crouch_NW",
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "ground_pivot": [
+    40,
+    72
+  ],
+  "loop": true,
+  "duration": [
+    1,
+    1
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "source_frame_id": "cell-00",
+      "file": "frames/0000.png",
+      "sha256": "215fe6b0f6b87bd26fc6b55c6d2582a03a85f853d65e5a11e1d2055aab9edfa6",
+      "rgba_sha256": "dc0db0cc48a5fcea300489b7417aca02d42c50fdf970b4c7299374b5e787a563",
+      "hold": [
+        1,
+        2
+      ]
+    },
+    {
+      "index": 1,
+      "source_frame_id": "cell-01",
+      "file": "frames/0001.png",
+      "sha256": "215fe6b0f6b87bd26fc6b55c6d2582a03a85f853d65e5a11e1d2055aab9edfa6",
+      "rgba_sha256": "dc0db0cc48a5fcea300489b7417aca02d42c50fdf970b4c7299374b5e787a563",
+      "hold": [
+        1,
+        2
+      ]
+    }
+  ],
+  "source": {
+    "project_file_sha256": "d040b7a6f9a895b372d5172c5f8008f939ed3928cdcf000a3678a720940d1e9f",
+    "project_canonical_sha256": "a6889847a08a8b819fac778a0ce4ed1ded386a36a703a2e11301bfd00d7005c5",
+    "tick_rate_rational": [
+      2,
+      1
+    ],
+    "clock_basis": "Exact decimal value stored in editable animation.fps; not inferred native timing"
+  },
+  "boundary": "Mechanical single-animation export. No inferred art approval, gameplay or native timing.",
+  "action": "crouch",
+  "direction": "NW",
+  "events": [],
+  "anchors": {
+    "hand": "pending measurement",
+    "grip": "pending measurement",
+    "release": "pending measurement"
+  },
+  "event_scope": "Authored data only; no gameplay/contact/damage-window proof"
+}

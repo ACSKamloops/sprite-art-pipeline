@@ -1,0 +1,20 @@
+Use case: identity-preserve / sketch-to-render, finished RPG pixel-art animation.
+Create exactly SIX full-body intermediate recovery sprites in one transparent1280×1920 sheet, regular2 columns by3 rows. Each640×640 cell is a fixed80×80 native sprite stage enlarged8×. Preserve Image2's full-cell layout without new margins, labels, borders, gutters, ground shadows or scenery. Every body must fit completely in its cell. Use hard, clean native pixel clusters and the detailed painted sprite style of Image1.
+
+REFERENCE ROLES:
+Image1 is the exact character appearance authority: brown-haired young male RPG hero, broad recognizable hairstyle/face, red neck scarf, teal short tunic with a silver vertical fastening, dark trousers, brown bracers and boots, bare hands. Preserve this same person, costume, palette, head size and material volumes in every cell. Keep his actual broad brown hairstyle; the blue guide's smooth oval is only a head-position/pitch proxy.
+Image2 is the exact six-pose motion/geometry guide. Repaint its connected skeleton into this hero while retaining its torso/hip positions, arm and leg articulation, camera, projected support positions and actual head pitch. Use the six DIFFERENT poses in their existing cells. Its blue mannequin material is not the art style. Add the hero's clothes/hair over those bodies without moving the underlying pose or normalizing each figure.
+Image3 is entry/exit context only: existing downed character at left, exact relaxed standing neutral at right. Do NOT output either of those two images as one of the requested six cells. These six poses will be placed between them. The downed entry is lying back/face-up, followed by a hands-behind supported seat and then a feet-loaded squat. Do not replace this with a kneeling/front-push-up choreography.
+
+FIXED STAGE:
+Keep Image2's native80×80 stage, original six cell-local placements, consistent southeast/front-right three-quarter projection and constant physical character size. The shared render pivot is(40,72). No independent fitting, camera rotation or recentering. Body height changes only because he gets up; his skull, hair, hands, boots and limbs stay the same size. Retain the reference head/body proportions (about20-pixel skull/head height in a64-pixel standing figure), broad hair silhouette and clear face. Leave transparent empty canvas where the geometry guide leaves it.
+
+Read the six poses top-left→top-right→middle-left→middle-right→bottom-left→bottom-right:
+1. First shoulder/chest lift from lying on the back. Arms brace behind the torso, legs still extended/folding; head follows the supported chest.
+2. Propped sitting with palms behind; knees begin folding and feet approach the body. Keep both arms physically attached, elbows visible and fingers/bare palms distinct from boots.
+3. Higher supported seat transitioning toward a squat. Draw both connected thighs/knees/shins, with the forward knee bent and the foot moving into support as in the guide.
+4. Feet-loaded squat/initial push-off. Pelvis moves above feet and rises, torso leans forward, one hand comes off support toward the chest. Do not skip the actual knee/hip organization in the guide.
+5. Rising through a forward lean; legs extend under the pelvis, arms travel naturally toward the sides. Complete tunic/waist and knee-to-boot connections.
+6. Almost upright, hands settle toward the thighs, both boots grounded as shown. This should join the supplied neutral smoothly without changing character or camera.
+
+Paint the ENTIRE connected body with clear foreground/background limb ownership, coherent cloth/skin/leather borders and readable elbows/knees. Match the appearance reference's chunky shaded pixel clusters and dark outline. No extra limbs, fingers fused into boots, floating knees, cutout gaps, weapons, effects, text or toy/plastic3D rendering. Preserve this authored whole-body support progression rather than repeating a generic crouch in neighboring cells.

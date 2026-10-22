@@ -1,0 +1,27 @@
+{
+  "schema": "sprite-project-delivery/v1",
+  "source_project": "/home/astra/artifacts/hero-action-set-20261022/quality-round2/canonical-se-neutral/candidate-final-export/construction/idle/project.json",
+  "source_file_sha256": "31dec65d13c5555e58acd2300055253b1519d68a6b8b6dd23ab35b2e6f5d8a7d",
+  "source_project_canonical_sha256": "5d2c9328dfbe57b6a43e08bc17a192bf8f1b742ac8feba30763266e74695ea5f",
+  "selected_animation": "idle_SE",
+  "ordered_frame_ids": [
+    "cell-00",
+    "cell-01"
+  ],
+  "frame_count": 2,
+  "canvas": [
+    80,
+    80
+  ],
+  "duration": [
+    1,
+    1
+  ],
+  "atlas_columns": 2,
+  "actor": "hero",
+  "manifest_sha256": "9626d0fee59582d06ff9c88abb6c07916facf6566fc449c601ca703067bbfc84",
+  "clips_sha256": "f7dcc6dbbfd7f5dd94aaaa05edccc84b6e94fb09df6514860cc777b929993660",
+  "source_unchanged": true,
+  "boundary": "PNG and schema conversion only. Godot resources require an import and build run; live playback/render/contact tests remain separate.",
+  "rpg_extension": "Direction/pivots/authored event data added; receipt rebound"
+}

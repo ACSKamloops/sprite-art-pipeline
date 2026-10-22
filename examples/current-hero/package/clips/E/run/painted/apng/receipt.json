@@ -1,0 +1,135 @@
+{
+  "schema": "exact-apng-receipt/v1",
+  "manifest": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/manifest.json",
+  "manifest_sha256": "599c539584dc7b68e77f4cfa09c593c1144d8f5a934614368dd7341070f20940",
+  "canvas": [
+    80,
+    80
+  ],
+  "loop": true,
+  "duration": [
+    2,
+    3
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/0000.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0000.png",
+      "sha256": "b66b9b5a1f1d7f706628d14ea3baeefda6430449f34a0249e2a6dcb8237443d7",
+      "rgba_sha256": "2169d7aa881deb1b00b6246d615e05b073d5ac8d556b1298b157c05b109ac03b",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 1,
+      "file": "frames/0001.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0001.png",
+      "sha256": "a07ba46aa4c1ebefb38c961e829656c575da469a667365edf4ad202d6cce17c1",
+      "rgba_sha256": "371193445caa8cb5f7b46552a2229ef400648b1c8162677638b11ec3e903f342",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 2,
+      "file": "frames/0002.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0002.png",
+      "sha256": "9cb25bac3c0ab6d243fb2090f9ed9a73f9bcef4b12ba398735a71e2a5c4e3bd5",
+      "rgba_sha256": "ddb76599a0c67a98c72b4698e24018ca7b5740de5c9a1791e96acdf14983dfad",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 3,
+      "file": "frames/0003.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0003.png",
+      "sha256": "b5f3a4daef3245f0b7495d55c866beddd97d4e5f6baff050fd1ecb4762389288",
+      "rgba_sha256": "c1e3dd8ef41595800fc53f7a13e9b3f45a65e5de9c640072f02c2dcf48f3412f",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 4,
+      "file": "frames/0004.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0004.png",
+      "sha256": "faba6e7f9c80b7d8b11124655590551fa718b18262dc685407fc1ac9c0cbc16f",
+      "rgba_sha256": "11e08e9dea31c028b495964f7630c60b41b5ff2f25f3d00a086989f6e190afb6",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 5,
+      "file": "frames/0005.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0005.png",
+      "sha256": "a9a251d8cf63c5fea2687e90d59e5f242ee10ab02ccde96c6599add483d63fc0",
+      "rgba_sha256": "f7da66e29c873295d20bc6d6eebbc6babc10fc10d4c1a7e319172bba83bb827f",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 6,
+      "file": "frames/0006.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0006.png",
+      "sha256": "251d11bc24d14451bbf0f3d1b1afbd1221ca09bc13397bf27b0b7c046fbab411",
+      "rgba_sha256": "b150a0a3cb295e7481528636106b0ad7787bc0fa08c495f499fc7cd817125226",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    },
+    {
+      "index": 7,
+      "file": "frames/0007.png",
+      "resolved_source": "/home/astra/artifacts/hero-action-set-20261022/lateral/E/bank/actions/run/frames/0007.png",
+      "sha256": "95b0a45663a03172953dd3082fa9bc22cba2448e0054f1063db7caaf7a3698b7",
+      "rgba_sha256": "ca76abd2e396618ee66289e3ccebfb3a6eb9edb5d9d901b585345cb653164499",
+      "partial_alpha_pixels": 0,
+      "transparent_nonzero_rgb_pixels": 0
+    }
+  ],
+  "output": "animation.apng.png",
+  "output_sha256": "5ff5094b73c4f0cba06e62ae16a2ecc2789bf1fbc53f6c0a8f86dc23c6b86b86",
+  "verification": {
+    "crc_all_chunks_valid": true,
+    "sequence_fields_checked": 15,
+    "frame_data_order_exact": true,
+    "actual_fctl_holds": [
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        12
+      ]
+    ],
+    "pillow_all_rgba_exact": true,
+    "actual_actl": [
+      8,
+      0
+    ]
+  },
+  "scope": "Exact file encoding and decoded source RGBA; no art, contact or browser playback approval"
+}
