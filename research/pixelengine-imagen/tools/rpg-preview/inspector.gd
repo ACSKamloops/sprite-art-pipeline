@@ -8,6 +8,7 @@ var is_ready := false
 var autoplay := true
 var status: Label
 var events: Label
+var button_hold := ""
 var direction: OptionButton
 
 func _ready() -> void:
@@ -30,11 +31,12 @@ func _ready() -> void:
 	panel.position = Vector2(22,16)
 	canvas.add_child(panel)
 	var title := Label.new()
-	title.text = "HERO RPG BANK INSPECTOR · 8 DIRECTIONS / 6 ACTIONS"
+	title.text = "HERO RPG BANK INSPECTOR · %d DIRECTIONS / %d ACTIONS" % [bank.directions.size(),bank.actions.size()]
 	title.add_theme_font_size_override("font_size",22)
 	panel.add_child(title)
 	var help := Label.new()
-	help.text = "Arrows / WASD move   J punch   K cast   L dodge   H hurt   Space idle / in-place walk\nRight mouse sets aim independently. Direction selector changes facing while ready."
+	help.text = ("Arrows/WASD move · Shift run · Z punch · V cast · Q dash · Space dodge · J jump\nG guard (hold) · C crouch (hold) · H hurt · T stun · K knockdown · X death · F interact · R reset · I walk in place"
+		if expanded_controls() else "Arrows/WASD move · J punch · K cast · L dodge · H hurt · Space walk in place")
 	panel.add_child(help)
 	var row := HBoxContainer.new()
 	panel.add_child(row)
@@ -45,12 +47,24 @@ func _ready() -> void:
 	direction.select(bank.directions.find(actor.facing))
 	direction.item_selected.connect(func(index): actor.set_facing(str(bank.directions[index])))
 	row.add_child(direction)
-	for action in ["idle","walk","punch","cast","dodge","hurt"]:
+	var reset := Button.new()
+	reset.text = "Reset"
+	reset.focus_mode = Control.FOCUS_NONE
+	reset.pressed.connect(func(): actor.reset_actor())
+	row.add_child(reset)
+	var buttons := GridContainer.new()
+	buttons.columns = 9
+	panel.add_child(buttons)
+	for action in bank.actions:
 		var button := Button.new()
 		button.text = action.capitalize()
 		button.focus_mode = Control.FOCUS_NONE
-		button.pressed.connect(func(): choose_action(action))
-		row.add_child(button)
+		if action in ["guard","crouch"]:
+			button.button_down.connect(func(): button_hold = action)
+			button.button_up.connect(func(): button_hold = "")
+		else:
+			button.pressed.connect(func(): choose_action(action))
+		buttons.add_child(button)
 	var speed := OptionButton.new()
 	speed.focus_mode = Control.FOCUS_NONE
 	for label in ["0.25×","0.5×","1×","2×"]:
@@ -63,31 +77,49 @@ func _ready() -> void:
 	events = Label.new()
 	panel.add_child(events)
 	var note := Label.new()
-	note.text = "Punch → punch frame0 ready; cast → cast frame0 ready; hurt/dodge → idle.\nBody only. Anchors pending. Movement, collision, contact and damage windows unverified. New art needs review."
+	note.text = "Punch/cast → own ready pose. Jump → land → idle. Knockdown → get-up → idle. Death holds until reset.\nGround movement and jump height are explicit mechanics. No collision, damage or invulnerability. Art needs playback review."
 	note.modulate = Color(0.7,0.8,0.85)
 	panel.add_child(note)
 	is_ready = true
 	queue_redraw()
 
+func expanded_controls() -> bool:
+	return str(bank.config.get("controls","legacy")) == "expanded"
+
 func choose_action(action: String) -> void:
 	if not is_ready:
 		return
-	if action in ["idle","walk"]:
-		if not actor.one_shot:
-			actor.walk_in_place = action == "walk"
+	if action in ["idle","walk","run"]:
+		if not actor.one_shot and not actor.terminal:
+			actor.walk_in_place = action != "idle"
+			actor.run_in_place = action == "run"
 			actor.enter(action,true)
 	else:
-		actor.request_action(action)
+		actor.request_action(action,keyboard_axis())
 
 func key_action(code: int) -> void:
 	if not is_ready:
 		return
-	match code:
-		KEY_J: actor.request_action("punch")
-		KEY_K: actor.request_action("cast")
-		KEY_L: actor.request_action("dodge")
-		KEY_H: actor.request_action("hurt")
-		KEY_SPACE: actor.toggle_walk()
+	if expanded_controls():
+		var actions := {KEY_Z:"punch",KEY_V:"cast",KEY_Q:"dash",KEY_SPACE:"dodge",KEY_J:"jump",KEY_H:"hurt",KEY_T:"stun",KEY_K:"knockdown",KEY_X:"death",KEY_F:"interact"}
+		if actions.has(code):
+			actor.request_action(actions[code],keyboard_axis())
+		elif code == KEY_R:
+			actor.reset_actor()
+		elif code == KEY_I:
+			actor.toggle_walk()
+	else:
+		match code:
+			KEY_J: actor.request_action("punch")
+			KEY_K: actor.request_action("cast")
+			KEY_L: actor.request_action("dodge",keyboard_axis())
+			KEY_H: actor.request_action("hurt")
+			KEY_SPACE: actor.toggle_walk()
+
+func update_controls() -> void:
+	actor.set_controls(Input.is_physical_key_pressed(KEY_SHIFT),
+		button_hold == "guard" or Input.is_physical_key_pressed(KEY_G),
+		button_hold == "crouch" or Input.is_physical_key_pressed(KEY_C))
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventKey and event.pressed and not event.echo:
@@ -102,6 +134,7 @@ func keyboard_axis() -> Vector2:
 
 func _physics_process(delta: float) -> void:
 	if is_ready and autoplay:
+		update_controls()
 		actor.tick(delta,keyboard_axis())
 		actor.position = actor.position.clamp(Vector2(40,330),get_viewport_rect().size-Vector2(40,20))
 

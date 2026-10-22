@@ -119,3 +119,61 @@ immutability, hash mismatches, invalid options, mixed dimensions, existing outpu
 refusal and a genuine transparent-image error. `TEST-RESULTS.json` records the
 bounded scope. It is mechanical verification, not visual acceptance or hosted
 equivalence.
+
+## Declared RPG action inspector
+
+`build-rpg-preview.py` reads the package's declared actions and requires every
+selected action in all eight directions. It supports idle, walk, run, punch,
+cast, guard, hurt, stun, dash, dodge, jump, land, crouch, knockdown, get_up, death
+and interact. Unsupported actions and incomplete/duplicate declarations fail.
+The historical six-action package retains J punch, K cast, L dodge, H hurt and
+Space in-place walk. Expanded libraries use Z punch, V cast, Shift run, Q dash,
+Space dodge, J jump, G held guard, C held crouch, H hurt, T stun, K knockdown,
+X death, F interact, R reset and I in-place walk. The UI lists actual declared
+actions, supports held buttons, and provides Reset.
+
+```bash
+python3 research/pixelengine-imagen/tools/build-rpg-preview.py \
+  --package /path/to/package --output /fresh/inspector --check
+
+godot --path /fresh/inspector
+```
+
+Defaults are explicit in `bank.json`: jump completes into land, knockdown into
+get_up, then idle; punch/cast hold their own configured ready frame. Guard and
+crouch stop root movement while held and release into idle/movement. Non-looping
+held clips retain their final frame. Interrupt priority is death > knockdown >
+stun > hurt; normal actions cannot restart or replace locked one-shots. Death
+holds its final frame until reset. Facing locks during one-shots, with independent
+aim metadata. There is no collision, damage, invulnerability or weapon behavior.
+
+Dash integrates a fast-start cubic displacement profile; dodge integrates a
+smooth accelerate/decelerate profile. Directions normalize before travel, so
+cardinal, diagonal and fractional stick inputs cover the configured distance.
+Jump moves the ground anchor separately from a parabolic sprite height and
+stationary ground shadow; landing resets height. These are inspector mechanics,
+not proof of painted motion quality. Ground speeds/distances are in inspector
+canvas units; the UI scales artwork 4x.
+
+`--check` runs the actual headless Godot resource writer and validator. The saved
+resource is reloaded and every clip's speed/loop and every frame's rational hold,
+PNG hash and decoded RGBA hash are checked. Runtime checks cover all declared
+actions/directions, fractional clock carry, completion routes, locks, held
+release, interruption priority, terminal death, dash/dodge distance and delta
+subdivision, jump height/landing, run speed and physical input dispatch. Reports
+are retained in the generated inspector alongside invocation logs and a build
+receipt. Headless checks do not constitute GPU or human playback acceptance.
+
+A reproducible compatibility check creates a visibly labelled temporary alias
+fixture from the historical six-action package. It tests 136 resource bindings
+and controller behavior, **not new action artwork**. Both original and expanded
+outputs and the aliased fixture are retained for inspection:
+
+```bash
+python3 research/pixelengine-imagen/tools/check-rpg-preview.py \
+  --package /path/to/historical/six-action/package \
+  --output /fresh/regression-output
+```
+
+The script also checks rejection of missing bindings, unknown actions and duplicate
+directions. It never calls a provider and leaves the supplied package unchanged.

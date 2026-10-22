@@ -43,7 +43,7 @@ func _initialize() -> void:
 		fail("SpriteFrames save failed")
 		return
 	var saved := ResourceLoader.load("res://hero_frames.res", "SpriteFrames", ResourceLoader.CACHE_MODE_IGNORE) as SpriteFrames
-	if saved == null or saved.get_animation_names().size() != 48:
+	if saved == null or saved.get_animation_names().size() != bank.directions.size()*bank.actions.size():
 		fail("SpriteFrames reload/count failed")
 		return
 	for clip in bank.clips:
@@ -66,7 +66,7 @@ func _initialize() -> void:
 		if absf(duration-float(clip.duration[0])/float(clip.duration[1])) > 0.000000001:
 			fail("Saved hold sum mismatch")
 			return
-	var report := {"schema":"rpg-godot-resources/v1","godot_version":Engine.get_version_info().string,"animations":48,"frames":count,
+	var report := {"schema":"rpg-godot-resources/v1","godot_version":Engine.get_version_info().string,"animations":bank.clips.size(),"frames":count,
 		"loops_speeds_durations_exact":true,"all_source_png_and_saved_resource_rgba_exact":true,"common_tick_rate":bank.tick_rate,
 		"resource_sha256":FileAccess.get_sha256("res://hero_frames.res"),"scope":"Resource save/reload and decoded pixels/clocks; no rendered contact or art acceptance"}
 	FileAccess.open("res://RESOURCE-VALIDATION.json",FileAccess.WRITE).store_string(JSON.stringify(report,"  "))

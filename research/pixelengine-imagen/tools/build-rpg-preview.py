@@ -5,6 +5,7 @@ from fractions import Fraction
 import hashlib
 import json
 from math import lcm
+import math
 from pathlib import Path
 import shutil
 import subprocess
@@ -34,10 +35,14 @@ def build(args):
     library = json.loads(library_file.read_text())
     require(library['schema'] == 'rpg-review-library/v1', 'Unsupported package library')
     expected = {f'{action}_{direction}' for direction in library['directions'] for action in library['actions']}
-    require(len(library['directions']) == 8 and len(library['actions']) == 6 and len(expected) == 48, 'Expected8directions x6actions')
-    require(set(library['directions']) == {'N','NE','E','SE','S','SW','W','NW'} and set(library['actions']) == {'walk','punch','cast','idle','hurt','dodge'}, 'Unexpected bank actions/directions')
-    require(set(library['selected']) == expected, 'Complete48selected resource bindings required')
+    require(len(library['directions']) == 8 and len(set(library['directions'])) == 8 and len(set(library['actions'])) == len(library['actions']), 'Eight unique directions and unique actions required')
+    require(set(library['directions']) == {'N','NE','E','SE','S','SW','W','NW'}, 'Unexpected bank directions')
+    require({'idle','walk'} <= set(library['actions']), 'Idle and walk are required')
+    known_actions = {'idle','walk','run','punch','cast','guard','hurt','stun','dash','dodge','jump','land','crouch','knockdown','get_up','death','interact'}
+    require(set(library['actions']) <= known_actions, 'Unsupported action policy; declare it in the controller before binding art')
+    require(set(library['selected']) == expected, 'Complete declared direction/action bindings required')
     by_id = {clip['id']: clip for clip in library['clips']}
+    require(len(by_id) == len(library['clips']), 'Duplicate clip IDs')
     clips, source_pins, holds = [], {}, []
     for name, clip_id in library['selected'].items():
         clip = by_id[clip_id]
@@ -74,15 +79,43 @@ def build(args):
             shutil.copy2(package/frame['source_file'],destination)
             frame['ticks'] = int(Fraction(*frame['hold'])*rate)
             require(digest(destination) == frame['sha256'], 'PNG copy mismatch')
-    config = {'completion_return':{'punch':'punch_ready','cast':'cast_ready','hurt':'idle','dodge':'idle'},
-              'ready_states':{'punch_ready':{'source_action':'punch','frame':0},'cast_ready':{'source_action':'cast','frame':0}},
-              'move_speed':100, 'start_direction':'SE', 'anchors':{'hand':'pending measurement','grip':'pending measurement','release':'pending measurement'}}
+    actions = set(library['actions'])
+    expanded = bool(actions - {'walk','punch','cast','idle','hurt','dodge'})
+    config = {'completion_return': {action:'idle' for action in actions - {'idle','walk','run','guard','crouch','death'}},
+              'ready_states':{}, 'move_speed':100, 'run_speed':160,
+              'dash_distance':72, 'dodge_distance':42, 'jump_height':22, 'jump_move_speed':90,
+              'start_direction':'SE', 'controls':'expanded' if expanded else 'legacy',
+              'anchors':{'hand':'pending measurement','grip':'pending measurement','release':'pending measurement'}}
+    for action in ('punch','cast'):
+        if action in actions:
+            config['completion_return'][action] = action + '_ready'
+            config['ready_states'][action + '_ready'] = {'source_action':action,'frame':0}
+    if 'jump' in actions and 'land' in actions:
+        config['completion_return']['jump'] = 'land'
+    if 'knockdown' in actions and 'get_up' in actions:
+        config['completion_return']['knockdown'] = 'get_up'
     if args.config:
-        config = json.loads(args.config.read_text())
+        overrides = json.loads(args.config.read_text())
+        for key, value in overrides.items():
+            if key in ('completion_return','ready_states','anchors'):
+                config[key].update(value)
+            else:
+                config[key] = value
+    require(config['start_direction'] in library['directions'], 'Invalid start direction')
+    for key in ('move_speed','run_speed','dash_distance','dodge_distance','jump_height','jump_move_speed'):
+        require(isinstance(config[key], (int,float)) and math.isfinite(config[key]) and config[key] >= 0, 'Invalid motion parameter: '+key)
+    for state, ready in config['ready_states'].items():
+        require(ready['source_action'] in actions, 'Ready source absent: '+state)
+        for direction in library['directions']:
+            binding = by_id[library['selected'][ready['source_action']+'_'+direction]]
+            require(isinstance(ready['frame'],int) and 0 <= ready['frame'] < len(binding['frames']), 'Ready frame out of range: '+state)
+    for action, target in config['completion_return'].items():
+        require(action in actions and (target in actions or target in config['ready_states']), 'Unavailable completion route: '+action)
+    require(config['controls'] in ('legacy','expanded'), 'Unknown controls profile')
     bank = {'schema':'rpg-godot-inspector/v1','canvas':[80,80],'pivot':[40,72],'tick_rate':rate,'directions':library['directions'],'actions':library['actions'],
             'clips':clips,'config':config,'preferred_walk_binding':'walk_SE','preferred_source_clip':library['reference'],
             'source_library_sha256':digest(library_file),'source_file_sha256':source_pins,
-            'limits':'Resource/input/clock inspector only. New art remains unreviewed; movement does not prove contact/collision. Authored events have no damage/VFX behavior; hand/grip/release anchors pending.'}
+            'limits':'Character motion/state inspector. Dash/dodge root motion and jump height/shadow are explicit local mechanics; no collision, damage, invulnerability or weapon/effect behavior. New art remains unreviewed; anchors pending.'}
     write(output/'bank.json',bank)
     template_pins = {}
     for source in (HERE/'rpg-preview').iterdir():
@@ -127,7 +160,9 @@ environment/defaults/default_clear_color=Color(0.075,0.095,0.125,1)
                                      'source_library_sha256':bank['source_library_sha256'],'clips':len(clips),'frames':sum(len(c['frames']) for c in clips),
                                      'common_tick_rate':rate,'preferred_walk_SE_original_preserved':True,'checks_run':args.check,
                                      'commands':commands,'scope':bank['limits']})
-    (output/'README.txt').write_text('Run: godot --path .\nBuild/check: godot --headless --path . --script res://build_resources.gd\nValidate: godot --headless --path . --script res://validate.gd\nArrows/WASD move and face in8directions. J punch, K cast, L dodge, H hurt. Space toggles in-place walk. Right mouse sets aim only.\nOne-shots return through bank.json explicit completion_return/ready_states config. Punch holds punch frame0; cast holds cast frame0. Hurt/dodge return idle. No weapon/effect/damage behavior.\nThe inspector is portable after build; original source_package is provenance only. All runtime paths are relative.\n')
+    controls = ('Arrows/WASD walk, Shift run, Z punch, V cast, Q dash, Space dodge, J jump, G held guard, C held crouch, H hurt, T stun, K knockdown/get-up, X death, F interact, R reset, I in-place walk.'
+                if expanded else 'Arrows/WASD walk, J punch, K cast, L dodge, H hurt, Space in-place walk.')
+    (output/'README.txt').write_text('Run: godot --path .\nBuild/check: godot --headless --path . --script res://build_resources.gd\nValidate: godot --headless --path . --script res://validate.gd\n'+controls+'\nRight mouse sets aim independently; actions use facing artwork.\nExplicit completion/ready policies in bank.json. Interruption order: death > knockdown > stun > hurt. Death stays on its final frame until reset.\nRoot movement and vertical sprite displacement are separate; shadow stays at ground anchor. No physics collisions, damage or invulnerability are implied.\nThe inspector is portable after build. Source paths are provenance only.\n')
     return {'output':str(output),'clips':len(clips),'frames':sum(len(c['frames']) for c in clips),'tick_rate':rate,'checks_run':args.check}
 
 
