@@ -5,6 +5,10 @@ description: Create consistent game sprites, directional character banks and sho
 
 # ImageGen Sprite Animation
 
+For whole-character action coverage, failed run-half generation, pose-state
+reuse and source-conditioned fall/get-up repairs, read
+[action-coverage-and-recovery.md](references/action-coverage-and-recovery.md).
+
 For incorrect bracer/hand assignments, protected-body controls, connected painted
 arm bridges and occluded-shirt cleanup, read
 [material-owned-arm-refinement.md](references/material-owned-arm-refinement.md).

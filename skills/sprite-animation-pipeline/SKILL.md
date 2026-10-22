@@ -11,6 +11,10 @@ For a tested ImageGen four-direction character → complete local top-down Godot
 
 ## Establish coverage
 
+For a complete declared character state set, held-pose aliases, takeoff delays,
+interruptions and actual Godot/Web inspector checks, read
+[character-state-contract.md](references/character-state-contract.md).
+
 Create the requested action matrix by actor, equipment, direction and variant. Count requested actions, table bindings, unique streams, unique poses, exports and runtime-verified clips separately. Atlas order does not establish animation order. For extraction, retain aliases, branch/wait/event semantics and undecoded exits. For authored art, mark actions needing references or new poses. Unknown labels stay unknown.
 
 When extending a user-approved character to attacks, jumps or equipment variants, read [approved-character-new-actions.md](references/approved-character-new-actions.md). It preserves the accepted identity/motion, explicit action framing, physical versus visual clocks, modular equipment and honest planned-versus-delivered coverage.
