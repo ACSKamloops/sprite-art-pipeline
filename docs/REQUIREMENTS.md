@@ -65,9 +65,9 @@ own gameplay specification; frame position does not prove a hit event.
 5. **Human acceptance:** keep the preferred original beside every candidate.
    Normal-speed rejection overrides prior still scores or green mechanical tests.
 
-The working target is at least **8/10 for each required animation's relevant
-appearance/motion dimensions**; 9/10 is the aspirational production target used
-in earlier work. A score applies only to its actual source hash, actor, action,
+Earlier demo work used an **8/10** threshold. The current full-character
+refinement request requires **9/10**, which remains unmet. A score applies only
+to its actual source hash, actor, action,
 view and review conditions. Do not average a strong still with poor motion and
 announce that an entire library meets the target. Preserve reviewer dissent and
 state whether a review used stills, decoded frames or actual continuous playback.
