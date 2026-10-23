@@ -1,0 +1,97 @@
+{
+  "scope": "Actual browser frame transitions, not human visual acceptance",
+  "samples": [
+    {
+      "elapsed_ms": 11,
+      "time": 1.0334000000000074,
+      "frame": 7,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 77.60000002384186,
+      "time": 1.0999999999999983,
+      "frame": 8,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 127.60000002384186,
+      "time": 1.1499999999999981,
+      "frame": 9,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 994.2000000476837,
+      "time": 0,
+      "frame": 0,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 1494.300000011921,
+      "time": 0.11660000000000148,
+      "frame": 1,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 1627.5,
+      "time": 0.24999999999999545,
+      "frame": 2,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 1810.9000000357628,
+      "time": 0.4331999999999925,
+      "frame": 3,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 2010.9000000357628,
+      "time": 0.6332999999999981,
+      "frame": 4,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 2111.100000023842,
+      "time": 0.7332999999999977,
+      "frame": 5,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 2210.900000035763,
+      "time": 0.8331999999999916,
+      "frame": 6,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 2410.900000035763,
+      "time": 1.033199999999992,
+      "frame": 7,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 2477.5,
+      "time": 1.0999000000000034,
+      "frame": 8,
+      "playing": true,
+      "variant": "entry-protected-support"
+    },
+    {
+      "elapsed_ms": 2544.2000000476837,
+      "time": 1.1664999999999948,
+      "frame": 9,
+      "playing": true,
+      "variant": "entry-protected-support"
+    }
+  ],
+  "all_ten_frames_observed": true
+}

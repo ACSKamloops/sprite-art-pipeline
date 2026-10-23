@@ -1,0 +1,23 @@
+{
+  "tool": "built-in OpenAI ImageGen",
+  "ordered_inputs": [
+    {
+      "file": "edit-target.png",
+      "sha256": "a268057eb5dab1a7e2b95325aca823bbcf7bb1018ff03de180c9e8ccdf4fed3e"
+    },
+    {
+      "file": "previous-pose.png",
+      "sha256": "99e28815cd81eb7285a8ad92c300ab87db99007d528ad9824b8781aee065eb11"
+    },
+    {
+      "file": "next-pose.png",
+      "sha256": "eb08c751ed5c0d41d489fe8a730f48c628ce92d95bc339ffa395580abbcb7a99"
+    },
+    {
+      "file": "appearance.png",
+      "sha256": "09c042fc4d615323eee5f531149d6ab1820b7d4e65276db5832530d86f9957d2"
+    }
+  ],
+  "prompt_sha256": "3e852adfa53e0cc3858074e95a5d50d64beb82271e3ecaf0bf43878b5fbc6f54",
+  "new_generation": true
+}

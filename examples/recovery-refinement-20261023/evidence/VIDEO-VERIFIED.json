@@ -1,0 +1,399 @@
+{
+  "schema": "exact-rational-CFR-preview/v1",
+  "source_manifest": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/manifest.json",
+  "source_manifest_sha256": "37f1ef0b6b560527284379a713ddbe942e4e86eda2eca17d80532043c7fa6301",
+  "source_canvas": [
+    80,
+    80
+  ],
+  "output_canvas": [
+    320,
+    320
+  ],
+  "scale": 4,
+  "matte": "Baseline8px checker RGBA compositing before whole-canvas nearest-neighbor scaling",
+  "fps": 80,
+  "time_base": [
+    1,
+    80
+  ],
+  "source_key_count": 10,
+  "sources": [
+    {
+      "source_index": 0,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0000.png",
+      "png_sha256": "398a39038a5fa19c95854dac0282ab1b1ba8ac63b63df30f125c8d43270a31f0",
+      "hold": [
+        1,
+        10
+      ],
+      "repeated_frames": 8,
+      "rgb_template_sha256": "9d086ed608cf4d495e60b493a631739b2f5661f48616fa4f6c2e95cbf58c2dea"
+    },
+    {
+      "source_index": 1,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0001.png",
+      "png_sha256": "79dc2347be9343d72ad2710e2aedf524e07b78950ac6d0a1b9767c0820ad6a85",
+      "hold": [
+        3,
+        20
+      ],
+      "repeated_frames": 12,
+      "rgb_template_sha256": "417b64408f42ca1e72301723e36c32500dd1ff4babedb541d60b58905899a0f5"
+    },
+    {
+      "source_index": 2,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0002.png",
+      "png_sha256": "c929c808a8a36f5dfbfebe7df1f06431a332fdf44ef730cb8766d2c85c8cf3dc",
+      "hold": [
+        7,
+        40
+      ],
+      "repeated_frames": 14,
+      "rgb_template_sha256": "3787d50c97bd80311e058cb04a4d1c7270170c1ed6bb5151fb7ec0d5b71ec9e2"
+    },
+    {
+      "source_index": 3,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0003.png",
+      "png_sha256": "d059a26e9236ca828747138a8db91987c0b9469b9ec52eae1c7a68001c45ea68",
+      "hold": [
+        1,
+        5
+      ],
+      "repeated_frames": 16,
+      "rgb_template_sha256": "9b3f805edbceccd31e75ce2658b7f88c1920a18b03bc7e21246d3ae4d016fe46"
+    },
+    {
+      "source_index": 4,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0004.png",
+      "png_sha256": "28e845e808c56e60f932f4ef855a6fb0f8fdeffed822a99787084da08edcb4b9",
+      "hold": [
+        1,
+        10
+      ],
+      "repeated_frames": 8,
+      "rgb_template_sha256": "1a3d653d1708365a9a2a6975ded4aabe2630a52ce6662627e964e7be3291bdee"
+    },
+    {
+      "source_index": 5,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0005.png",
+      "png_sha256": "c6e6ee877b3bbc4fa4f064914403e2203d6268ed9c28a482bef4408bc047ac56",
+      "hold": [
+        1,
+        10
+      ],
+      "repeated_frames": 8,
+      "rgb_template_sha256": "c4ba8b731fb25d38f85c1537096936488f4ee8a2ec28b570190625a88c0d4dd6"
+    },
+    {
+      "source_index": 6,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0006.png",
+      "png_sha256": "ae1a6d7ffe7149379376cda667b3f802b94566e6b05888896002a20947828af1",
+      "hold": [
+        1,
+        5
+      ],
+      "repeated_frames": 16,
+      "rgb_template_sha256": "3933336846b547802952b6508768246ab27f3a97adcaae877aa2c80e1f0ae04f"
+    },
+    {
+      "source_index": 7,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0007.png",
+      "png_sha256": "f77c895578b157011ffb2acac577fb5742a40495384d8535f7c75b20830b4b3c",
+      "hold": [
+        1,
+        16
+      ],
+      "repeated_frames": 5,
+      "rgb_template_sha256": "88091373cb38ae5c363ce5ebabb4b9a021568b9b719d7c7d4ba176fc307b7688"
+    },
+    {
+      "source_index": 8,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0008.png",
+      "png_sha256": "12eb3ec7a708df58c77847ba48eec19dce386865be6b925b20a2679371867bc4",
+      "hold": [
+        1,
+        16
+      ],
+      "repeated_frames": 5,
+      "rgb_template_sha256": "63805321abd5c035b4bfc65703764fb61415b5043b38909be8ee6272891bf37c"
+    },
+    {
+      "source_index": 9,
+      "file": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-repaired-v2/actions/get_up/frames/0009.png",
+      "png_sha256": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+      "hold": [
+        1,
+        20
+      ],
+      "repeated_frames": 4,
+      "rgb_template_sha256": "1bde9b47133b3f9202b061297334e668f647a044a15a9ca807bbccab6ba21345"
+    }
+  ],
+  "frame_count": 96,
+  "duration_rational": [
+    6,
+    5
+  ],
+  "stream_duration_rational": [
+    6,
+    5
+  ],
+  "format_duration_decimal": "1.200000",
+  "format_duration_is_rounded_container_display_not_clock_authority": true,
+  "expected_and_measured_transition_frames": [
+    {
+      "output_index": 8,
+      "time_seconds": [
+        1,
+        10
+      ],
+      "from_source": 0,
+      "to_source": 1,
+      "visually_observable": true
+    },
+    {
+      "output_index": 20,
+      "time_seconds": [
+        1,
+        4
+      ],
+      "from_source": 1,
+      "to_source": 2,
+      "visually_observable": true
+    },
+    {
+      "output_index": 34,
+      "time_seconds": [
+        17,
+        40
+      ],
+      "from_source": 2,
+      "to_source": 3,
+      "visually_observable": true
+    },
+    {
+      "output_index": 50,
+      "time_seconds": [
+        5,
+        8
+      ],
+      "from_source": 3,
+      "to_source": 4,
+      "visually_observable": true
+    },
+    {
+      "output_index": 58,
+      "time_seconds": [
+        29,
+        40
+      ],
+      "from_source": 4,
+      "to_source": 5,
+      "visually_observable": true
+    },
+    {
+      "output_index": 66,
+      "time_seconds": [
+        33,
+        40
+      ],
+      "from_source": 5,
+      "to_source": 6,
+      "visually_observable": true
+    },
+    {
+      "output_index": 82,
+      "time_seconds": [
+        41,
+        40
+      ],
+      "from_source": 6,
+      "to_source": 7,
+      "visually_observable": true
+    },
+    {
+      "output_index": 87,
+      "time_seconds": [
+        87,
+        80
+      ],
+      "from_source": 7,
+      "to_source": 8,
+      "visually_observable": true
+    },
+    {
+      "output_index": 92,
+      "time_seconds": [
+        23,
+        20
+      ],
+      "from_source": 8,
+      "to_source": 9,
+      "visually_observable": true
+    }
+  ],
+  "observed_decoded_visual_transitions": [
+    {
+      "output_index": 8,
+      "from_source": 0,
+      "to_source": 1,
+      "pts_seconds": [
+        1,
+        10
+      ]
+    },
+    {
+      "output_index": 20,
+      "from_source": 1,
+      "to_source": 2,
+      "pts_seconds": [
+        1,
+        4
+      ]
+    },
+    {
+      "output_index": 34,
+      "from_source": 2,
+      "to_source": 3,
+      "pts_seconds": [
+        17,
+        40
+      ]
+    },
+    {
+      "output_index": 50,
+      "from_source": 3,
+      "to_source": 4,
+      "pts_seconds": [
+        5,
+        8
+      ]
+    },
+    {
+      "output_index": 58,
+      "from_source": 4,
+      "to_source": 5,
+      "pts_seconds": [
+        29,
+        40
+      ]
+    },
+    {
+      "output_index": 66,
+      "from_source": 5,
+      "to_source": 6,
+      "pts_seconds": [
+        33,
+        40
+      ]
+    },
+    {
+      "output_index": 82,
+      "from_source": 6,
+      "to_source": 7,
+      "pts_seconds": [
+        41,
+        40
+      ]
+    },
+    {
+      "output_index": 87,
+      "from_source": 7,
+      "to_source": 8,
+      "pts_seconds": [
+        87,
+        80
+      ]
+    },
+    {
+      "output_index": 92,
+      "from_source": 8,
+      "to_source": 9,
+      "pts_seconds": [
+        23,
+        20
+      ]
+    }
+  ],
+  "logical_boundaries_between_identical_templates_not_visually_provable": [],
+  "frame_PTS_and_duration_exact": true,
+  "all_decoded_frames_classified_correctly_with_quality_bound": true,
+  "classification_failed_output_indices": [],
+  "classification_rule": "Nearest prepared RGB source by MSE; identical-source groups allowed; distinct-source margin>0.01MSE; expected-template PSNR>=threshold. This is lossy nearest-template evidence, not exact source-pixel identity.",
+  "minimum_PSNR_dB_required": 32.0,
+  "minimum_observed_PSNR_dB": 41.38541221254145,
+  "encoder_command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-y",
+    "-f",
+    "rawvideo",
+    "-pixel_format",
+    "rgb24",
+    "-video_size",
+    "320x320",
+    "-framerate",
+    "80",
+    "-i",
+    "pipe:0",
+    "-an",
+    "-frames:v",
+    "96",
+    "-fps_mode",
+    "passthrough",
+    "-c:v",
+    "libx264",
+    "-bf",
+    "0",
+    "-preset",
+    "fast",
+    "-crf",
+    "16",
+    "-pix_fmt",
+    "yuv420p",
+    "-video_track_timescale",
+    "80",
+    "-movflags",
+    "+faststart",
+    "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-video/preview-exact.mp4"
+  ],
+  "probe_command": [
+    "ffprobe",
+    "-v",
+    "error",
+    "-select_streams",
+    "v:0",
+    "-show_streams",
+    "-show_format",
+    "-show_frames",
+    "-of",
+    "json",
+    "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-video/preview-exact.mp4"
+  ],
+  "decode_command": [
+    "ffmpeg",
+    "-v",
+    "error",
+    "-i",
+    "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-video/preview-exact.mp4",
+    "-map",
+    "0:v:0",
+    "-fps_mode",
+    "passthrough",
+    "-f",
+    "rawvideo",
+    "-pix_fmt",
+    "rgb24",
+    "pipe:1"
+  ],
+  "video_sha256": "4260c26ebb8c56790bd2a24dc7c4a1e51c11375815fb2c493cd68130b6207453",
+  "code_sha256": "cdfee37654c8c6cbc81723c280afa437c2be5e90382e813bc8eecb4f441477ec",
+  "encoder_provenance": {
+    "source_script_sha256": "c157168be9e6d1a06208f2fe8a5dbf93f701da8578744b2b952c3ac5f24503a5",
+    "adaptation": "Portable skill copy; historical baseline file is not a runtime dependency."
+  },
+  "no_concat_or_final_duplicate_or_t_resampling": true,
+  "scope": "Exact declared preview clock only; not recovered source timing, art approval or pixel-exact video."
+}

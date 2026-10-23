@@ -91,6 +91,10 @@ For independent palettes/projectiles/status effects, read [stateful-effects.md](
 
 ## Review and refine
 
+For a user-reported limb dropout that earlier still reviews missed, read
+[limb continuity repair](../imagegen-sprite-animation/references/limb-continuity-and-owned-repairs.md).
+Trace named limb cues through the actual holds before treating an occlusion as readable.
+
 For protected-body complete-arm paint, equal-clock extension/recoil experiments and small source-pixel path repairs, use the construction companion's `references/masked-arm-paint-and-motion.md`. Retain differing frozen scores and distinguish a compact-jab preference from numeric or full-library acceptance.
 
 For strong static keys plus individually drawn extension/recoil cels, use the construction companion's `references/pose-specific-cel-refinement.md`. Compare new drawings against an equal-clock source-cel control; report internal consistency, reference match and motion separately. A scoped8.5 consistency review in that test did not establish an8.5 animation or video-provider parity.

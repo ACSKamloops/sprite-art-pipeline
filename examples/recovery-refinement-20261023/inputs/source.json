@@ -1,0 +1,142 @@
+{
+  "source_library_sha256": "4b77497664a82e4b94bf3a5cb6e7fbd578d02694dd99a05a5da52b398a6dab46",
+  "clip": {
+    "id": "get_up_SE_refinement-v4",
+    "action": "get_up",
+    "direction": "SE",
+    "variant": "refinement-v4",
+    "role": "candidate",
+    "review_status": "authored-motion-guide-paint-and-sourcepart-refinement-playback-pending",
+    "loop": false,
+    "duration": [
+      6,
+      5
+    ],
+    "frames": [
+      {
+        "index": 0,
+        "source_frame_id": "cell-00",
+        "file": "clips/SE/get_up/refinement-v4/frames/0000.png",
+        "sha256": "398a39038a5fa19c95854dac0282ab1b1ba8ac63b63df30f125c8d43270a31f0",
+        "rgba_sha256": "a96bbbc68d2993cc94cd4f55c22a739c6d13d2c6409e00144a11d25ff1ff29f9",
+        "hold": [
+          1,
+          10
+        ]
+      },
+      {
+        "index": 1,
+        "source_frame_id": "cell-01",
+        "file": "clips/SE/get_up/refinement-v4/frames/0001.png",
+        "sha256": "708b7dd2d0051e7522a38647f8352deada3ed812c33e23660d69e00125a4a043",
+        "rgba_sha256": "c02d6b23c3bf3483bc02e606d2d44bf8fc000f9217f5d3718a17a1fbf7c37d13",
+        "hold": [
+          3,
+          20
+        ]
+      },
+      {
+        "index": 2,
+        "source_frame_id": "cell-02",
+        "file": "clips/SE/get_up/refinement-v4/frames/0002.png",
+        "sha256": "c929c808a8a36f5dfbfebe7df1f06431a332fdf44ef730cb8766d2c85c8cf3dc",
+        "rgba_sha256": "eb51022d9705719e0c28553794a5e9316edfd9fee1248aa92b05069a97bd4039",
+        "hold": [
+          7,
+          40
+        ]
+      },
+      {
+        "index": 3,
+        "source_frame_id": "cell-03",
+        "file": "clips/SE/get_up/refinement-v4/frames/0003.png",
+        "sha256": "15a9fd1fb3bc38ee25e33eac87ab38d31f1ae66d3dd255e55fd130ccae42b6ef",
+        "rgba_sha256": "d942d5d186d4892cd4b669f5a3d11f42eafd084e8c6ac983cc39817864153d6a",
+        "hold": [
+          1,
+          5
+        ]
+      },
+      {
+        "index": 4,
+        "source_frame_id": "cell-04",
+        "file": "clips/SE/get_up/refinement-v4/frames/0004.png",
+        "sha256": "28e845e808c56e60f932f4ef855a6fb0f8fdeffed822a99787084da08edcb4b9",
+        "rgba_sha256": "722f7e4a83bd56d63f829eac9407567a13115c0f2361fb5d3ff7ffcc32023c38",
+        "hold": [
+          1,
+          10
+        ]
+      },
+      {
+        "index": 5,
+        "source_frame_id": "cell-05",
+        "file": "clips/SE/get_up/refinement-v4/frames/0005.png",
+        "sha256": "78fd534a9cb5af213540ee3a6b6193517847e4bfb6baea43ed744a570cab45b4",
+        "rgba_sha256": "29b9ad041ce1fd099ceb352c5bfca4fa9d27a794ef8aa4eb2e8a839f7adf108d",
+        "hold": [
+          1,
+          10
+        ]
+      },
+      {
+        "index": 6,
+        "source_frame_id": "cell-06",
+        "file": "clips/SE/get_up/refinement-v4/frames/0006.png",
+        "sha256": "ae1a6d7ffe7149379376cda667b3f802b94566e6b05888896002a20947828af1",
+        "rgba_sha256": "3709c42842e0eef7f0bf589a989626170d7ede24ac2252f3b4512ad8be5f5ee1",
+        "hold": [
+          1,
+          5
+        ]
+      },
+      {
+        "index": 7,
+        "source_frame_id": "cell-07",
+        "file": "clips/SE/get_up/refinement-v4/frames/0007.png",
+        "sha256": "f77c895578b157011ffb2acac577fb5742a40495384d8535f7c75b20830b4b3c",
+        "rgba_sha256": "744ca24fb5a6228c8192f1c7c56e971bedf175e27184804df7df65c7f5fbe157",
+        "hold": [
+          1,
+          16
+        ]
+      },
+      {
+        "index": 8,
+        "source_frame_id": "cell-08",
+        "file": "clips/SE/get_up/refinement-v4/frames/0008.png",
+        "sha256": "12eb3ec7a708df58c77847ba48eec19dce386865be6b925b20a2679371867bc4",
+        "rgba_sha256": "aba52dfc2cd25a17c58048c800b23c3da013f4a4c651250a24c408f552f98b99",
+        "hold": [
+          1,
+          16
+        ]
+      },
+      {
+        "index": 9,
+        "source_frame_id": "cell-09",
+        "file": "clips/SE/get_up/refinement-v4/frames/0009.png",
+        "sha256": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+        "rgba_sha256": "2355a30c6f45457cfc00e812e7ca3f86a076d1064fc0f88e407ca2a523c6ace2",
+        "hold": [
+          1,
+          20
+        ]
+      }
+    ],
+    "manifest": "clips/SE/get_up/refinement-v4/manifest.json",
+    "manifest_sha256": "3331624bdb09f45a2089dc2b5acd2c264c43f79645faf1f2e9d7d37fedb8de1b",
+    "events": [],
+    "construction_kind": "explicit-refinement-overlay",
+    "faults": [
+      "New supine-seat-squat-stand paint has clearer wholebody stages; bootownership/entrygather/weighttransfer remain below9/10.",
+      "Sourcepart supportrelease and upper-only settle have narrow ordered-still preferences, not continuoushumanacceptance."
+    ],
+    "review_evidence": [
+      "quality-round3/review-professional-motion-independent/REPORT.md: new8key7.5 vs retimedold6",
+      "quality-round3/review-combined-bridges-independent/REPORT.md: supportrelease modestlypreferred; firstlegdeforming settle rejected",
+      "quality-round3/review-settle-refinement-independent/REPORT.md: upper-only settle preferrednarrowly7.2 vs7.1/7.0; differentpacketsnotaveraged"
+    ]
+  },
+  "source_repo_commit": "49e10770a94866517a5db0c3822c937c0107c41a"
+}

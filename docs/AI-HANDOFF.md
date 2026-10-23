@@ -157,6 +157,11 @@ included; rebuilding that 3D guide still needs the separately supplied GLB.
 
 ## Next useful work
 
+First inspect the newer [recovery study](../examples/recovery-refinement-20261023/README.md)
+and its recorded human rejection/leg repair. It replays into a separate candidate
+package, preserving the snapshot below. Do not resume from the old still8.2
+score as if it were human acceptance.
+
 1. Improve the get-up's entry, overlapping boots and hand-to-feet load transfer.
    Preserve its literal downed/neutral endpoints and the preferred walk.
 2. Repair the S fall-to-rise support acquisition separately. Do not treat every

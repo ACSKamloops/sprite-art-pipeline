@@ -1,0 +1,31 @@
+{
+  "godot_version": "4.7.2.stable.official.ed1daf0bf",
+  "invocations": [
+    {
+      "argv": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/hero-recovery-refinement-20261023/godot-trial",
+        "--script",
+        "res://build_resources.gd"
+      ],
+      "returncode": 0,
+      "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nRPG_RESOURCES_OK {\"all_source_png_and_saved_resource_rgba_exact\":true,\"animations\":136,\"common_tick_rate\":9600.0,\"frames\":561,\"godot_version\":\"4.7.2-stable (official)\",\"loops_speeds_durations_exact\":true,\"resource_sha256\":\"929267d26d4ee365f34d1da87fc239eedeaedf062581764912d0c21c04aa19da\",\"schema\":\"rpg-godot-resources/v1\",\"scope\":\"Resource save/reload and decoded pixels/clocks; no rendered contact or art acceptance\"}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "godot",
+        "--headless",
+        "--path",
+        "/home/astra/artifacts/hero-recovery-refinement-20261023/godot-trial",
+        "--script",
+        "res://validate.gd"
+      ],
+      "returncode": 0,
+      "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\n\nRPG_INSPECTOR_VALIDATION {\"checks\":1001,\"direction_action_completions\":96,\"failures\":[],\"fractional_completion_carry_checked\":true,\"godot_version\":\"4.7.2-stable (official)\",\"independent_aim_checked\":true,\"physical_action_inputs\":10,\"physical_direction_inputs\":8,\"preferred_SE_original_checked\":true,\"resource_animations\":136,\"schema\":\"rpg-godot-inspector-validation/v1\",\"scope\":\"Actual headless resources, input dispatch, controller clocks/states and motion. No GPU rendering, collision, damage, invulnerability or human art-quality approval. Fixture aliases do not prove new art coverage.\"}\n",
+      "stderr": ""
+    }
+  ]
+}

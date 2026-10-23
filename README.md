@@ -26,6 +26,10 @@ skill installation, first-run commands and the continuation instructions.
 
 ## What is included
 
+The latest [recovery refinement study](examples/recovery-refinement-20261023/README.md)
+includes a reproducible leg-continuity repair after a user caught a playback
+fault missed in still review. It is a separate candidate, with acceptance pending.
+
 | Location | Contents |
 | --- | --- |
 | [skills/](skills/) | Four complete Codex skills, references, helpers and selected portable fixtures |

@@ -1,0 +1,29 @@
+{
+  "scope": "SE get-up candidate refinement only; full library9/10 remains open",
+  "user_rejection": "Initial still-reviewed variants lost a leg cue in pose03 during playback",
+  "latest_candidate": "leg-repaired-v2",
+  "latest_review": {
+    "report": "evidence/review-leg-cold/REPORT.md",
+    "preference": "repaired over immediate control",
+    "scoped_overall": 7.5,
+    "control_scoped_overall": 7.0,
+    "perception": "ordered stills and rational holds; human playback pending"
+  },
+  "checks": {
+    "changed_pixels_frame03": 167,
+    "allowed_mask_pixels": 250,
+    "other_nine_poses_and_holds_exact": true,
+    "outside_mask_exact": true,
+    "guarded_edit_undo_replay_exact": true,
+    "external_LibreSprite_frames_exact": 10,
+    "browser_canvas_comparisons_exact": 20,
+    "video_fps": 80,
+    "video_frames": 96,
+    "Godot_animations": 136,
+    "Godot_exposures": 561,
+    "Godot_controller_assertions": 1001,
+    "unchanged_other_bindings": 135,
+    "public_source_replay_RGBA_and_holds_exact": true
+  },
+  "models_used": "built-in OpenAI ImageGen:3 actual calls; no H3 or local generative model"
+}

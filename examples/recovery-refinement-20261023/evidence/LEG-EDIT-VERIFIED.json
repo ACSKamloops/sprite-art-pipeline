@@ -1,0 +1,68 @@
+{
+  "changed_frame": 3,
+  "changed_RGBA_pixels": 167,
+  "allowed_pixels": 250,
+  "outside_mask_exact": true,
+  "other_nine_frames_and_holds_exact": true,
+  "undo_replay_exact": true,
+  "raw_sha256": "38c0ee29df16b3dce7ced69ad02b9ea09358eb9f3f3fe6e8ff7df6bd9e07f769",
+  "repaired_frame_sha256": "65bb0c494e83e511697f9cb57ceead46f764d6260603c2f1487b7e65d07bd2d5",
+  "provenance": {
+    "operation": "Saved ImageGen connected folded-leg paint, explicit shared patch translation and owned pixel replacement",
+    "raw_sha256": "38c0ee29df16b3dce7ced69ad02b9ea09358eb9f3f3fe6e8ff7df6bd9e07f769",
+    "raw_dimensions": [
+      1254,
+      1254
+    ],
+    "whole_raw_to_native": [
+      80,
+      80
+    ],
+    "nearest_center": true,
+    "alpha_threshold": 200,
+    "patch_translation": [
+      0,
+      -10
+    ],
+    "registration_reason": "Provider shifted entire return down; align generated knee/boot patch to frozen target before masking. Not automatic bbox fitting or source-animation recentering.",
+    "allowed_polygon": [
+      [
+        29,
+        50
+      ],
+      [
+        38,
+        50
+      ],
+      [
+        39,
+        54
+      ],
+      [
+        43,
+        58
+      ],
+      [
+        44,
+        67
+      ],
+      [
+        29,
+        67
+      ],
+      [
+        29,
+        54
+      ],
+      [
+        27,
+        53
+      ]
+    ],
+    "source_manifest_sha256": "5aa229cf5cd819d774c7ff79e594d40e61245486012c7419d3620c62d6cd806d",
+    "source_frame03_sha256": "15a9fd1fb3bc38ee25e33eac87ab38d31f1ae66d3dd255e55fd130ccae42b6ef",
+    "source_support05": "guarded source-restored lower-leg variant; human playback not accepted",
+    "human_feedback": "Leg vanishes in one frame; repair03 without changing time or other poses"
+  },
+  "scope": "Literal construction/export/editor verification, not art acceptance"
+}

@@ -1,0 +1,14 @@
+{
+  "checks": 1001,
+  "direction_action_completions": 96,
+  "failures": [],
+  "fractional_completion_carry_checked": true,
+  "godot_version": "4.7.2-stable (official)",
+  "independent_aim_checked": true,
+  "physical_action_inputs": 10,
+  "physical_direction_inputs": 8,
+  "preferred_SE_original_checked": true,
+  "resource_animations": 136,
+  "schema": "rpg-godot-inspector-validation/v1",
+  "scope": "Actual headless resources, input dispatch, controller clocks/states and motion. No GPU rendering, collision, damage, invulnerability or human art-quality approval. Fixture aliases do not prove new art coverage."
+}

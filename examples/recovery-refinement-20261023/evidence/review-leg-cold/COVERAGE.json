@@ -1,0 +1,934 @@
+{
+  "frozen_at_utc": "2026-10-23T16:15:22.324905+00:00",
+  "status": "FROZEN_BEFORE_UNBLINDING",
+  "packet": "/home/astra/artifacts/hero-recovery-refinement-20261023/leg-review-packet",
+  "allowed_rubric": "/home/astra/.codex/skills/sprite-animation-pipeline/references/blind-review-card.md",
+  "rubric_sha256": "a7d9e49833b4c1387b06bc13d936db11fb91e93aac70a2939f2b4679560aec43",
+  "packet_freeze_sha256": "aa45b24180376e4c816e03f9d4d5e02b2625b4613a70b05e7cff131206cc5137",
+  "input_hashes": {
+    "A/00.png": "398a39038a5fa19c95854dac0282ab1b1ba8ac63b63df30f125c8d43270a31f0",
+    "A/01.png": "79dc2347be9343d72ad2710e2aedf524e07b78950ac6d0a1b9767c0820ad6a85",
+    "A/02.png": "c929c808a8a36f5dfbfebe7df1f06431a332fdf44ef730cb8766d2c85c8cf3dc",
+    "A/03.png": "d059a26e9236ca828747138a8db91987c0b9469b9ec52eae1c7a68001c45ea68",
+    "A/04.png": "28e845e808c56e60f932f4ef855a6fb0f8fdeffed822a99787084da08edcb4b9",
+    "A/05.png": "c6e6ee877b3bbc4fa4f064914403e2203d6268ed9c28a482bef4408bc047ac56",
+    "A/06.png": "ae1a6d7ffe7149379376cda667b3f802b94566e6b05888896002a20947828af1",
+    "A/07.png": "f77c895578b157011ffb2acac577fb5742a40495384d8535f7c75b20830b4b3c",
+    "A/08.png": "12eb3ec7a708df58c77847ba48eec19dce386865be6b925b20a2679371867bc4",
+    "A/09.png": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+    "A/clip.json": "573529083f3324aedd00be13b910e00ee2dbe0a85efe1cc594c5e8e89c354874",
+    "A/pairs-dark.png": "f78e6d23aa4ae02ac4bebfdc68a379a4bd7f84e99dbe6b408e2c8f86e346f511",
+    "A/pairs-light.png": "a7a578617aaad274bb9bfe373d3b23760ac5a6324ced5a03e9a0bbf75ee6bf25",
+    "A/poses-dark-1x.png": "577a38ee7f6614ed5ec6f4f8d5403b458c85ee97957d1b1ff807661beba2052b",
+    "A/poses-dark-2x.png": "1d8d476980b4074e0a9e11b6f8214f4084d6783d97cdffa11219984cf9cb802f",
+    "A/poses-light-1x.png": "6baebf6b425441a27690da47249f0285569fa0bb3f473410b938951ca8afe092",
+    "A/poses-light-2x.png": "08542993aad8a7719ad5a3d6193860e1f379cbcfca41b685041781d03a493be2",
+    "B/00.png": "398a39038a5fa19c95854dac0282ab1b1ba8ac63b63df30f125c8d43270a31f0",
+    "B/01.png": "79dc2347be9343d72ad2710e2aedf524e07b78950ac6d0a1b9767c0820ad6a85",
+    "B/02.png": "c929c808a8a36f5dfbfebe7df1f06431a332fdf44ef730cb8766d2c85c8cf3dc",
+    "B/03.png": "15a9fd1fb3bc38ee25e33eac87ab38d31f1ae66d3dd255e55fd130ccae42b6ef",
+    "B/04.png": "28e845e808c56e60f932f4ef855a6fb0f8fdeffed822a99787084da08edcb4b9",
+    "B/05.png": "c6e6ee877b3bbc4fa4f064914403e2203d6268ed9c28a482bef4408bc047ac56",
+    "B/06.png": "ae1a6d7ffe7149379376cda667b3f802b94566e6b05888896002a20947828af1",
+    "B/07.png": "f77c895578b157011ffb2acac577fb5742a40495384d8535f7c75b20830b4b3c",
+    "B/08.png": "12eb3ec7a708df58c77847ba48eec19dce386865be6b925b20a2679371867bc4",
+    "B/09.png": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+    "B/clip.json": "c9483bb2e942b454ec01b756018ee6c239aa8c13235b9d5dfad3b021f74934f2",
+    "B/pairs-dark.png": "4768ff237c7fb7d9b4ff33f6d07e6c2572028ca485f351992b5e6725bc82e524",
+    "B/pairs-light.png": "986be1aef0b661052d32a1c24ca8c469962531e15821e8bccd9a929777af5219",
+    "B/poses-dark-1x.png": "ec11a7be0920e09d3781e8f986c02c00697565c0d98ab3e702cfdcd6297665dc",
+    "B/poses-dark-2x.png": "47a3bce4882364e243c2a52ea1047a78800f79feb78bb7d0bf03fb1224e48254",
+    "B/poses-light-1x.png": "2c4482ed680622a840e0aa64d3e71aa8f9e73564d9e5b6bea11a476c05612d5b",
+    "B/poses-light-2x.png": "e3bd1aa129e0a411cf368e807c3ed5dfd878ec1ae4e9405cd148f456ad573132",
+    "BRIEF.md": "1ff2f4f3eaf662fdb6f6faac1df54b4808c6160e39f26b336fffff2a9d94c3b4",
+    "appearance.png": "6ea28073b4cdfadc6a775809b3775a0823a798cb44890f3f14c36ccafedab237"
+  },
+  "all_36_frozen_inputs_match": true,
+  "all_20_rgba_hashes_match": true,
+  "images_opened": [
+    "appearance.png",
+    "A/poses-light-1x.png",
+    "A/poses-dark-1x.png",
+    "A/poses-light-2x.png",
+    "A/poses-dark-2x.png",
+    "A/pairs-light.png",
+    "A/pairs-dark.png",
+    "B/poses-light-1x.png",
+    "B/poses-dark-1x.png",
+    "B/poses-light-2x.png",
+    "B/poses-dark-2x.png",
+    "B/pairs-light.png",
+    "B/pairs-dark.png",
+    "A/00.png",
+    "A/01.png",
+    "A/02.png",
+    "A/03.png",
+    "A/04.png",
+    "A/05.png",
+    "A/06.png",
+    "A/07.png",
+    "A/08.png",
+    "A/09.png",
+    "B/03.png"
+  ],
+  "pose_coverage": [
+    {
+      "variant": "A",
+      "frame": 0,
+      "file": "A/00.png",
+      "sha256": "398a39038a5fa19c95854dac0282ab1b1ba8ac63b63df30f125c8d43270a31f0",
+      "start_seconds": [
+        0,
+        1
+      ],
+      "hold_seconds": [
+        1,
+        10
+      ],
+      "end_seconds": [
+        1,
+        10
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 1,
+      "file": "A/01.png",
+      "sha256": "79dc2347be9343d72ad2710e2aedf524e07b78950ac6d0a1b9767c0820ad6a85",
+      "start_seconds": [
+        1,
+        10
+      ],
+      "hold_seconds": [
+        3,
+        20
+      ],
+      "end_seconds": [
+        1,
+        4
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 2,
+      "file": "A/02.png",
+      "sha256": "c929c808a8a36f5dfbfebe7df1f06431a332fdf44ef730cb8766d2c85c8cf3dc",
+      "start_seconds": [
+        1,
+        4
+      ],
+      "hold_seconds": [
+        7,
+        40
+      ],
+      "end_seconds": [
+        17,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 3,
+      "file": "A/03.png",
+      "sha256": "d059a26e9236ca828747138a8db91987c0b9469b9ec52eae1c7a68001c45ea68",
+      "start_seconds": [
+        17,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        5
+      ],
+      "end_seconds": [
+        5,
+        8
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 4,
+      "file": "A/04.png",
+      "sha256": "28e845e808c56e60f932f4ef855a6fb0f8fdeffed822a99787084da08edcb4b9",
+      "start_seconds": [
+        5,
+        8
+      ],
+      "hold_seconds": [
+        1,
+        10
+      ],
+      "end_seconds": [
+        29,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 5,
+      "file": "A/05.png",
+      "sha256": "c6e6ee877b3bbc4fa4f064914403e2203d6268ed9c28a482bef4408bc047ac56",
+      "start_seconds": [
+        29,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        10
+      ],
+      "end_seconds": [
+        33,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 6,
+      "file": "A/06.png",
+      "sha256": "ae1a6d7ffe7149379376cda667b3f802b94566e6b05888896002a20947828af1",
+      "start_seconds": [
+        33,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        5
+      ],
+      "end_seconds": [
+        41,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 7,
+      "file": "A/07.png",
+      "sha256": "f77c895578b157011ffb2acac577fb5742a40495384d8535f7c75b20830b4b3c",
+      "start_seconds": [
+        41,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        16
+      ],
+      "end_seconds": [
+        87,
+        80
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 8,
+      "file": "A/08.png",
+      "sha256": "12eb3ec7a708df58c77847ba48eec19dce386865be6b925b20a2679371867bc4",
+      "start_seconds": [
+        87,
+        80
+      ],
+      "hold_seconds": [
+        1,
+        16
+      ],
+      "end_seconds": [
+        23,
+        20
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "A",
+      "frame": 9,
+      "file": "A/09.png",
+      "sha256": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+      "start_seconds": [
+        23,
+        20
+      ],
+      "hold_seconds": [
+        1,
+        20
+      ],
+      "end_seconds": [
+        6,
+        5
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 0,
+      "file": "B/00.png",
+      "sha256": "398a39038a5fa19c95854dac0282ab1b1ba8ac63b63df30f125c8d43270a31f0",
+      "start_seconds": [
+        0,
+        1
+      ],
+      "hold_seconds": [
+        1,
+        10
+      ],
+      "end_seconds": [
+        1,
+        10
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 1,
+      "file": "B/01.png",
+      "sha256": "79dc2347be9343d72ad2710e2aedf524e07b78950ac6d0a1b9767c0820ad6a85",
+      "start_seconds": [
+        1,
+        10
+      ],
+      "hold_seconds": [
+        3,
+        20
+      ],
+      "end_seconds": [
+        1,
+        4
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 2,
+      "file": "B/02.png",
+      "sha256": "c929c808a8a36f5dfbfebe7df1f06431a332fdf44ef730cb8766d2c85c8cf3dc",
+      "start_seconds": [
+        1,
+        4
+      ],
+      "hold_seconds": [
+        7,
+        40
+      ],
+      "end_seconds": [
+        17,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 3,
+      "file": "B/03.png",
+      "sha256": "15a9fd1fb3bc38ee25e33eac87ab38d31f1ae66d3dd255e55fd130ccae42b6ef",
+      "start_seconds": [
+        17,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        5
+      ],
+      "end_seconds": [
+        5,
+        8
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 4,
+      "file": "B/04.png",
+      "sha256": "28e845e808c56e60f932f4ef855a6fb0f8fdeffed822a99787084da08edcb4b9",
+      "start_seconds": [
+        5,
+        8
+      ],
+      "hold_seconds": [
+        1,
+        10
+      ],
+      "end_seconds": [
+        29,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 5,
+      "file": "B/05.png",
+      "sha256": "c6e6ee877b3bbc4fa4f064914403e2203d6268ed9c28a482bef4408bc047ac56",
+      "start_seconds": [
+        29,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        10
+      ],
+      "end_seconds": [
+        33,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 6,
+      "file": "B/06.png",
+      "sha256": "ae1a6d7ffe7149379376cda667b3f802b94566e6b05888896002a20947828af1",
+      "start_seconds": [
+        33,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        5
+      ],
+      "end_seconds": [
+        41,
+        40
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 7,
+      "file": "B/07.png",
+      "sha256": "f77c895578b157011ffb2acac577fb5742a40495384d8535f7c75b20830b4b3c",
+      "start_seconds": [
+        41,
+        40
+      ],
+      "hold_seconds": [
+        1,
+        16
+      ],
+      "end_seconds": [
+        87,
+        80
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 8,
+      "file": "B/08.png",
+      "sha256": "12eb3ec7a708df58c77847ba48eec19dce386865be6b925b20a2679371867bc4",
+      "start_seconds": [
+        87,
+        80
+      ],
+      "hold_seconds": [
+        1,
+        16
+      ],
+      "end_seconds": [
+        23,
+        20
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    },
+    {
+      "variant": "B",
+      "frame": 9,
+      "file": "B/09.png",
+      "sha256": "b3b98b2fc11d332d62e968889e14f82461bd0d3052d6a7d822cb86030512921d",
+      "start_seconds": [
+        23,
+        20
+      ],
+      "hold_seconds": [
+        1,
+        20
+      ],
+      "end_seconds": [
+        6,
+        5
+      ],
+      "views": [
+        "native-light",
+        "native-dark",
+        "2x-light",
+        "2x-dark"
+      ]
+    }
+  ],
+  "pair_coverage": [
+    {
+      "variant": "A",
+      "predecessor": 0,
+      "current": 1,
+      "predecessor_hold_seconds": [
+        1,
+        10
+      ],
+      "current_hold_seconds": [
+        3,
+        20
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 1,
+      "current": 2,
+      "predecessor_hold_seconds": [
+        3,
+        20
+      ],
+      "current_hold_seconds": [
+        7,
+        40
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 2,
+      "current": 3,
+      "predecessor_hold_seconds": [
+        7,
+        40
+      ],
+      "current_hold_seconds": [
+        1,
+        5
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 3,
+      "current": 4,
+      "predecessor_hold_seconds": [
+        1,
+        5
+      ],
+      "current_hold_seconds": [
+        1,
+        10
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 4,
+      "current": 5,
+      "predecessor_hold_seconds": [
+        1,
+        10
+      ],
+      "current_hold_seconds": [
+        1,
+        10
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 5,
+      "current": 6,
+      "predecessor_hold_seconds": [
+        1,
+        10
+      ],
+      "current_hold_seconds": [
+        1,
+        5
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 6,
+      "current": 7,
+      "predecessor_hold_seconds": [
+        1,
+        5
+      ],
+      "current_hold_seconds": [
+        1,
+        16
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 7,
+      "current": 8,
+      "predecessor_hold_seconds": [
+        1,
+        16
+      ],
+      "current_hold_seconds": [
+        1,
+        16
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "A",
+      "predecessor": 8,
+      "current": 9,
+      "predecessor_hold_seconds": [
+        1,
+        16
+      ],
+      "current_hold_seconds": [
+        1,
+        20
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 0,
+      "current": 1,
+      "predecessor_hold_seconds": [
+        1,
+        10
+      ],
+      "current_hold_seconds": [
+        3,
+        20
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 1,
+      "current": 2,
+      "predecessor_hold_seconds": [
+        3,
+        20
+      ],
+      "current_hold_seconds": [
+        7,
+        40
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 2,
+      "current": 3,
+      "predecessor_hold_seconds": [
+        7,
+        40
+      ],
+      "current_hold_seconds": [
+        1,
+        5
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 3,
+      "current": 4,
+      "predecessor_hold_seconds": [
+        1,
+        5
+      ],
+      "current_hold_seconds": [
+        1,
+        10
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 4,
+      "current": 5,
+      "predecessor_hold_seconds": [
+        1,
+        10
+      ],
+      "current_hold_seconds": [
+        1,
+        10
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 5,
+      "current": 6,
+      "predecessor_hold_seconds": [
+        1,
+        10
+      ],
+      "current_hold_seconds": [
+        1,
+        5
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 6,
+      "current": 7,
+      "predecessor_hold_seconds": [
+        1,
+        5
+      ],
+      "current_hold_seconds": [
+        1,
+        16
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 7,
+      "current": 8,
+      "predecessor_hold_seconds": [
+        1,
+        16
+      ],
+      "current_hold_seconds": [
+        1,
+        16
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    },
+    {
+      "variant": "B",
+      "predecessor": 8,
+      "current": 9,
+      "predecessor_hold_seconds": [
+        1,
+        16
+      ],
+      "current_hold_seconds": [
+        1,
+        20
+      ],
+      "views": [
+        "pairs-light-2x",
+        "pairs-dark-2x",
+        "native-light-pose-sheet",
+        "native-dark-pose-sheet"
+      ]
+    }
+  ],
+  "canvas": [
+    80,
+    80
+  ],
+  "pivot": [
+    40,
+    72
+  ],
+  "scale_factors": [
+    1,
+    2
+  ],
+  "background_rgb": {
+    "light": [
+      221,
+      217,
+      204
+    ],
+    "dark": [
+      38,
+      50,
+      60
+    ]
+  },
+  "loop": false,
+  "wrap_review": "Endpoints inspected; 09->00 is not a declared transition and no loop-seam defect is scored.",
+  "perception": "Decoded stills and exact rational holds; no continuous human playback or engine/controller inspection.",
+  "exposure": "No mapping, producer reports, previous scores or implementation read; no accidental unblinding.",
+  "preference": "A",
+  "whole_action_scores": {
+    "A": 7.5,
+    "B": 7.0
+  },
+  "score_uncertainty": 0.5
+}

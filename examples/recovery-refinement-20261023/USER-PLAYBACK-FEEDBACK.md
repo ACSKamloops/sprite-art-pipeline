@@ -1,0 +1,1 @@
+User watched the local comparison and rejected its motion: "It's not great the leg vanishes in one of the frames it looks like". The8.2 still-only comparative scores do not establish acceptance. Keep all candidates unaccepted; trace and repair leg continuity before promotion.

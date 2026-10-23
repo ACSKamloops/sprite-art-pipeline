@@ -1,0 +1,24 @@
+{
+  "tool": "built-in OpenAI ImageGen",
+  "intent": "single connected early-recovery replacement cel",
+  "ordered_inputs": [
+    {
+      "file": "edit-target.png",
+      "sha256": "c683de98bf100c71cfbb0abcf9130cfde431ba6773dcfc0e305f7ed00e24ffcf"
+    },
+    {
+      "file": "next-pose.png",
+      "sha256": "6c20eb7e4dcdaa210629611c4360e4594afcdccedd6d818c2a00b7b92e550654"
+    },
+    {
+      "file": "previous-pose.png",
+      "sha256": "c97e01965cdea5aca9cce2cfd2dcccbc6d3d49eeb9aab1998d1e3e3af8aadb0c"
+    },
+    {
+      "file": "appearance.png",
+      "sha256": "09c042fc4d615323eee5f531149d6ab1820b7d4e65276db5832530d86f9957d2"
+    }
+  ],
+  "prompt_sha256": "9d8c927c0b7b8f536340037da37cea476a0f25655d4904569f85f2cce60e381f",
+  "new_generation": true
+}

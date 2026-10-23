@@ -1,0 +1,22 @@
+{
+  "frozen_utc": "2026-10-23T16:05:48.125005+00:00",
+  "reason": "New human playback rejection; no scores or source edits",
+  "source_frames_sha256": {
+    "00.png": "736eff0ccbff194126e4048a32ada167a3f8690b7ab7a58ea891aa254171ba73",
+    "01.png": "4a7b8348943102cf4105094119ceff78472d8664959b6e3f71de24c1f6f980c2",
+    "02.png": "69a443b90430caae2e3f9d613dbe6f03b86cd3634da848e166a451a6324d56d4",
+    "03.png": "d706999f8174dd2d8adb0f702fd5102e50d6552767b08e2fd373324c136c6845",
+    "04.png": "2c60440dcf0ebc9ef17074193f73ca7c1db7dc1d281b1f5d1122eb236fc03bca",
+    "05.png": "ad2d766b091f59030e3d32b0e6e6d150c579c036aa32b525e0abd13e54c8dfaf",
+    "06.png": "bcf9da300914e877870892dfac3a29eb292b3d61d29c1b945ceb86da715bad8c",
+    "07.png": "97f47a23070ec5083e6abd76f2e57a9e732c6bd1d3673f36021cbdcceb308f89",
+    "08.png": "b27c89ca26ceca09bea25bf675658553a684585031dd707e37b1f90c472acb41",
+    "09.png": "6ea28073b4cdfadc6a775809b3775a0823a798cb44890f3f14c36ccafedab237"
+  },
+  "source_clip_sha256": "610bf26cdda23abacd9fae578d810365971be964e410c24331864993f2a2f954",
+  "output_sha256": {
+    "FOLLOWUP-HUMAN-REJECTION.md": "4fb845b3ee4e3424f427b9e7407f78f9e694de0a239b119fe11061eb0738c4b1",
+    "followup-02-03-04-light-4x.png": "e61203274358f6f78e2b59169215044a37bbf1b159e8ded496cdbf15392d6289",
+    "followup-02-03-04-dark-4x.png": "2c4670395bc610df17a5cf258d472f2d256f295d48eb3095fee79ba87df1bfd6"
+  }
+}

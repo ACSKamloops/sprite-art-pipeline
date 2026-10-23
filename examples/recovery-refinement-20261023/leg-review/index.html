@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hero recovery · leg continuity repair</title><link rel="icon" href="data:,">
+<style>
+:root{color-scheme:dark;font:16px system-ui;background:#101720;color:#e4eaf1}body{max-width:1000px;margin:32px auto;padding:0 20px}h1{font-size:26px;margin-bottom:8px}.note{color:#afbdcc;line-height:1.6}.bar{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:22px 0}button,select{background:#263649;color:inherit;border:1px solid #4c6178;border-radius:7px;padding:10px 12px;font:inherit}button{cursor:pointer}button:hover{background:#36516c}.pair{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{border:1px solid #344458;border-radius:12px;padding:18px;background:#17222e}.stage{display:flex;justify-content:center;align-items:center;min-height:340px;background:#29343d;border-radius:8px}.stage.light{background:#ddd9cc}canvas{width:320px;height:320px;image-rendering:pixelated}h2{font-size:18px;height:48px;margin:0 0 16px;display:flex;align-items:center}label{display:inline-flex;gap:8px;align-items:center}input[type=range]{flex:1;min-width:180px}#status{font-variant-numeric:tabular-nums;color:#b7d8ed}a{color:#8bc8f2}footer{margin-top:24px;font-size:14px;color:#a9bacb;line-height:1.6}@media(max-width:680px){.pair{grid-template-columns:1fr}.stage{min-height:250px}canvas{max-width:100%;height:auto}}
+</style>
+<h1>Hero recovery</h1><p class="note">Only pose03 changes. Compare the previous candidate against the repaired connected leg, with the same1.2-second clock.</p>
+<div class="bar"><button id="play">Pause</button><button id="replay">Replay</button><button id="step">Next frame</button><label>Speed<select id="speed"><option value="1">Normal</option><option value="0.25">Quarter</option></select></label><label>Scale<select id="scale"><option value="1">Native 1×</option><option value="2">2×</option><option value="4" selected>4×</option></select></label><label>Background<select id="background"><option value="dark">Dark</option><option value="light">Light</option></select></label></div>
+<div class="pair"><section class="card"><h2>Previous candidate</h2><div class="stage"><canvas id="control" width="80" height="80"></canvas></div></section><section class="card"><h2><select id="variant" aria-label="Candidate"><option value="repaired" selected>Connected leg repair</option></select></h2><div class="stage"><canvas id="candidate" width="80" height="80"></canvas></div></section></div>
+<div class="bar"><label for="scrub">Action time</label><input id="scrub" type="range" min="0" max="1200" step="1" value="0"><output id="status">Loading…</output></div>
+<p class="note">Preview repeats with a pause before and after each get-up. The reset to lying down is a replay, not an animation loop. All variants preserve the same downed and standing endpoints.</p>
+<footer>A connected folded leg is composited into pose03. The other nine poses, timing and all pixels outside the allowed region stay exact. Visual acceptance is pending. <a href="../leg-repaired-v2/VERIFIED.json">Artifact checks</a> · <a href="../leg-repaired-v2/editor/journal.json">Pixel edit journal</a></footer>
+<script>
+const ids=['control','repaired'],clips={},pictures={};
+const cv=[document.getElementById('control'),document.getElementById('candidate')];
+const ctx=cv.map(c=>c.getContext('2d',{willReadFrequently:true}));
+const ui=Object.fromEntries(['play','replay','step','speed','scale','background','variant','scrub','status'].map(id=>[id,document.getElementById(id)]));
+let playing=true,phase=0,last=null,time=0,frame=0;
+function poseAt(t){let sum=0;for(let i=0;i<clips.control.frames.length;i++){let h=clips.control.frames[i].hold;sum+=h[0]/h[1];if(t<sum-1e-10)return i;}return clips.control.frames.length-1;}
+function draw(t){time=Math.max(0,Math.min(1.2,t));frame=poseAt(time);for(let j=0;j<2;j++){const id=j?ui.variant.value:'control';ctx[j].clearRect(0,0,80,80);ctx[j].drawImage(pictures[id][frame],0,0);}ui.scrub.value=Math.round(time*1000);ui.status.textContent=`${time.toFixed(3)} s · frame ${String(frame).padStart(2,'0')}`;}
+function setPlaying(v){playing=v;ui.play.textContent=v?'Pause':'Play';last=null;}
+ui.play.onclick=()=>setPlaying(!playing);
+ui.replay.onclick=()=>{phase=0;draw(0);setPlaying(true);};
+ui.step.onclick=()=>{setPlaying(false);let n=(frame+1)%10;let t=clips.control.frames.slice(0,n).reduce((s,f)=>s+f.hold[0]/f.hold[1],0);phase=t+.4;draw(t);};
+ui.scrub.oninput=()=>{setPlaying(false);phase=Number(ui.scrub.value)/1000+.4;draw(Number(ui.scrub.value)/1000);};
+ui.variant.onchange=()=>draw(time);
+ui.scale.onchange=()=>{for(const c of cv){c.style.width=80*Number(ui.scale.value)+'px';c.style.height=80*Number(ui.scale.value)+'px';}};
+ui.background.onchange=()=>document.querySelectorAll('.stage').forEach(s=>s.classList.toggle('light',ui.background.value==='light'));
+function tick(now){if(last!==null&&playing){phase=(phase+(now-last)/1000*Number(ui.speed.value))%2.4;draw(Math.max(0,Math.min(1.2,phase-.4)));}last=now;requestAnimationFrame(tick);}
+async function load(){for(const id of ids){const base=id==="control"?"../comparison-v2/entry-protected-support/actions/get_up/":"../leg-repaired-v2/actions/get_up/";const r=await fetch(base+'manifest.json');if(!r.ok)throw Error('Missing manifest');clips[id]=await r.json();pictures[id]=await Promise.all(clips[id].frames.map(f=>new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=reject;i.src=base+f.file;})));}draw(0);window.review={ready:true,seek:t=>{setPlaying(false);phase=t+.4;draw(t);},state:()=>({time,frame,playing,variant:ui.variant.value}),readPixels:()=>ctx.map(c=>Array.from(c.getImageData(0,0,80,80).data)),manifests:clips};requestAnimationFrame(tick);}
+load().catch(e=>{ui.status.textContent=String(e);console.error(e);});
+</script></html>

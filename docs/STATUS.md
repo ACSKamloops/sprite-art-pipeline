@@ -1,5 +1,12 @@
 # Consolidated status
 
+The [2026-10-23 recovery study](../examples/recovery-refinement-20261023/README.md)
+adds controlled entry/support-release paint and a bounded second-leg repair.
+The user rejected the earlier8.2/10 still-reviewed candidate in normal playback
+because a leg vanished in pose03. The new connected-leg patch has separate
+editor/browser/Godot checks and remains a review candidate; it does not replace
+the frozen current-hero package or establish the9/10 target.
+
 This is a methods/tooling consolidation, not a new animation acceptance or a
 claim that the entire investigation is finished. Imported counts and historical
 test scores retain their original snapshot/version in source documents.

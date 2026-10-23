@@ -1,0 +1,24 @@
+{
+  "tool": "built-in OpenAI ImageGen",
+  "ordered_inputs": [
+    {
+      "file": "edit-target.png",
+      "sha256": "8b9f80c751e569c9890a7a05c1e5dbd6ae01f56105c3a35a26c7cf736a01c908"
+    },
+    {
+      "file": "previous-pose.png",
+      "sha256": "80c07d8014ea7e9033e78a261eb1b5106d7df902363aae0b477f4c8bb304b516"
+    },
+    {
+      "file": "next-pose.png",
+      "sha256": "9c3a7a1546d5b9bf2286861447ff533548ac52a4350380ea944b37bec271dca6"
+    },
+    {
+      "file": "appearance.png",
+      "sha256": "f9aa289c2178855d33d1f4f1dc05963f99b5830cc3df952ed0ef34c57f18b2c8"
+    }
+  ],
+  "prompt_sha256": "5cda9f3e1746adc7f02a7d366e1b671e22117f0bb9bd539e99cd39e73aeb5c18",
+  "new_generation": true,
+  "trigger": "user reported a vanishing leg during actual playback"
+}

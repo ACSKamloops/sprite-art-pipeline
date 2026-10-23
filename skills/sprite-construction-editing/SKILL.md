@@ -41,6 +41,10 @@ For a repeatable 2D rig→sprite bake with source-track editing and a real Godot
 
 ## Construct and edit
 
+For a playback-reported missing limb, use the ImageGen companion's
+[limb continuity repair](../imagegen-sprite-animation/references/limb-continuity-and-owned-repairs.md).
+Check the complete connection and ownership before protecting a rectangular region.
+
 Copy assets/toolkit to an isolated work folder; requires Python3 and Pillow. Read [editing-contract](assets/toolkit/docs/editing-contract.md) for transactions and tool exchange, and examples/construction/spec.json for source placements. From that folder:
 
 ```sh

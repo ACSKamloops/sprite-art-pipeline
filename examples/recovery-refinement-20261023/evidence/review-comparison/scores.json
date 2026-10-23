@@ -1,0 +1,60 @@
+{
+  "ranking_tiers": [
+    [
+      "A",
+      "D"
+    ],
+    [
+      "C"
+    ],
+    [
+      "B"
+    ]
+  ],
+  "scores_out_of_10": {
+    "A": {
+      "drawing_material_anatomy": 8.4,
+      "character_costume_identity": 8.6,
+      "limb_ownership_support": 8.3,
+      "action_readability_staging": 8.0,
+      "temporal_identity_silhouette": 8.3,
+      "practical_native_presentation": 8.2,
+      "overall": 8.2
+    },
+    "B": {
+      "drawing_material_anatomy": 8.4,
+      "character_costume_identity": 8.6,
+      "limb_ownership_support": 7.7,
+      "action_readability_staging": 7.1,
+      "temporal_identity_silhouette": 7.9,
+      "practical_native_presentation": 7.6,
+      "overall": 7.7
+    },
+    "C": {
+      "drawing_material_anatomy": 8.4,
+      "character_costume_identity": 8.6,
+      "limb_ownership_support": 7.9,
+      "action_readability_staging": 7.5,
+      "temporal_identity_silhouette": 8.1,
+      "practical_native_presentation": 7.9,
+      "overall": 7.9
+    },
+    "D": {
+      "drawing_material_anatomy": 8.4,
+      "character_costume_identity": 8.6,
+      "limb_ownership_support": 8.3,
+      "action_readability_staging": 8.0,
+      "temporal_identity_silhouette": 8.3,
+      "practical_native_presentation": 8.2,
+      "overall": 8.2
+    }
+  },
+  "perception": "Frozen stills and reconstructed rational-hold chronology; no human normal-speed continuous playback perceived.",
+  "ranking_confidence": {
+    "A_D_over_C": "medium",
+    "C_over_B": "medium-low",
+    "A_vs_D": "No confident preference"
+  },
+  "production_edits": false,
+  "mapping_opened": false
+}

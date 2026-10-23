@@ -1,0 +1,39 @@
+{
+  "schema": "rpg-inspector-build/v1",
+  "builder_sha256": "3a3a7f5f31ecd016f6e79e5e267fcaa8ed90360f214f16961ce96f32fb290d0c",
+  "source_package": "/home/astra/artifacts/hero-recovery-refinement-20261023/package-trial",
+  "source_unchanged": true,
+  "template_sha256": {
+    "build_resources.gd": "deebaaa7c19ee4e9a87d700737abf6d16dae8551e1fda3a6ef4086009f5b492e",
+    "controller.gd": "568f878f46bd8efb33353cafb0e3ff8bb96085492a47ef30ec1d9b71d9c09ab0",
+    "validate.gd": "adc6bd532c82ca6df3f19c084bdfe13bd378dbab15da16aed3035ef732fba3f0",
+    "inspector.gd": "632d924afa9fb556c694e97c8b9baa45098a76ce267def3a183a506f5ced035c",
+    "main.tscn": "7093d803950408ac3073f0a61a81ec108638ede4fd73180a594bf90e6e0e9c3f"
+  },
+  "bank_sha256": "a99408afd52eafbda87fd062d7c9c8f22c326d8570405c53817b3c550072d22b",
+  "source_library_sha256": "5c33b7f4d464802c07bf4af70a2412c833be0e85b1e1243442fd8d356838cb84",
+  "clips": 136,
+  "frames": 561,
+  "common_tick_rate": 9600,
+  "preferred_walk_SE_original_preserved": true,
+  "checks_run": true,
+  "commands": [
+    [
+      "godot",
+      "--headless",
+      "--path",
+      "/home/astra/artifacts/hero-recovery-refinement-20261023/godot-trial",
+      "--script",
+      "res://build_resources.gd"
+    ],
+    [
+      "godot",
+      "--headless",
+      "--path",
+      "/home/astra/artifacts/hero-recovery-refinement-20261023/godot-trial",
+      "--script",
+      "res://validate.gd"
+    ]
+  ],
+  "scope": "Character motion/state inspector. Dash/dodge root motion and jump height/shadow are explicit local mechanics; no collision, damage, invulnerability or weapon/effect behavior. New art remains unreviewed; anchors pending."
+}

@@ -5,6 +5,10 @@ description: Create consistent game sprites, directional character banks and sho
 
 # ImageGen Sprite Animation
 
+For a limb that disappears during playback despite plausible stills, read
+[limb-continuity-and-owned-repairs.md](references/limb-continuity-and-owned-repairs.md).
+It covers tracing, connected paint, exact patch ownership and rejected row-copy repairs.
+
 For licensed authored motion used as a visual pose guide, read
 [authored-motion-guides.md](references/authored-motion-guides.md). It covers
 source/action verification, one-camera projection, explicit proportion edits,
